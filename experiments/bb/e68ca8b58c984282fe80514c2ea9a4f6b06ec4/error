@@ -1,0 +1,211 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage2.sh" failed
+
+STDOUT:
+[216/3004] Building CXX object lib/Bitstream/Reader/CMakeFiles/LLVMBitstreamReader.dir/BitstreamReader.cpp.o
+[217/3004] Linking CXX static library lib/libLLVMFrontendDirective.a
+[218/3004] Building CXX object lib/DebugInfo/MSF/CMakeFiles/LLVMDebugInfoMSF.dir/MSFError.cpp.o
+[219/3004] Linking CXX static library lib/libLLVMBitstreamReader.a
+[220/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CodeViewError.cpp.o
+[221/3004] Building CXX object lib/DebugInfo/MSF/CMakeFiles/LLVMDebugInfoMSF.dir/MSFCommon.cpp.o
+[222/3004] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/ArgList.cpp.o
+[223/3004] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/VTEmitter.cpp.o
+[224/3004] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/TargetLibraryInfoEmitter.cpp.o
+[225/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/AppendingTypeTableBuilder.cpp.o
+[226/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugCrossExSubsection.cpp.o
+[227/3004] Building CXX object lib/DebugInfo/MSF/CMakeFiles/LLVMDebugInfoMSF.dir/MappedBlockStream.cpp.o
+[228/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugChecksumsSubsection.cpp.o
+[229/3004] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/RuntimeLibcallsEmitter.cpp.o
+[230/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CodeViewRecordIO.cpp.o
+[231/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugSubsection.cpp.o
+[232/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/ContinuationRecordBuilder.cpp.o
+[233/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugSubsectionRecord.cpp.o
+[234/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CVSymbolVisitor.cpp.o
+[235/3004] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/OptTable.cpp.o
+[236/3004] Building CXX object lib/DebugInfo/MSF/CMakeFiles/LLVMDebugInfoMSF.dir/MSFBuilder.cpp.o
+[237/3004] Linking CXX static library lib/libLLVMOption.a
+[238/3004] Linking CXX static library lib/libLLVMDebugInfoMSF.a
+[239/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugCrossImpSubsection.cpp.o
+[240/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugInlineeLinesSubsection.cpp.o
+[241/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugFrameDataSubsection.cpp.o
+[242/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/Line.cpp.o
+[243/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugSymbolRVASubsection.cpp.o
+[244/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/Formatters.cpp.o
+[245/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugLinesSubsection.cpp.o
+[246/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugSubsectionVisitor.cpp.o
+[247/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugStringTableSubsection.cpp.o
+[248/3004] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/DirectiveEmitter.cpp.o
+[249/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugSymbolsSubsection.cpp.o
+[250/3004] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/TGParser.cpp.o
+[251/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CVTypeVisitor.cpp.o
+[252/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/StringsAndChecksums.cpp.o
+[253/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/EnumTables.cpp.o
+[254/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/RecordSerialization.cpp.o
+[255/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/GlobalTypeTableBuilder.cpp.o
+[256/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SimpleTypeSerializer.cpp.o
+[257/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SymbolSerializer.cpp.o
+[258/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/MergingTypeTableBuilder.cpp.o
+[259/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/LazyRandomTypeCollection.cpp.o
+[260/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeIndex.cpp.o
+[261/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeHashing.cpp.o
+[262/3004] Building CXX object lib/Plugins/CMakeFiles/LLVMPlugins.dir/PassPlugin.cpp.o
+[263/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SymbolRecordMapping.cpp.o
+[264/3004] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/IntrinsicEmitter.cpp.o
+[265/3004] Linking CXX static library lib/libLLVMPlugins.a
+[266/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SymbolRecordHelpers.cpp.o
+[267/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/RecordName.cpp.o
+[268/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeTableCollection.cpp.o
+[269/3004] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/Record.cpp.o
+[270/3004] Linking CXX static library lib/libLLVMTableGen.a
+[271/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeIndexDiscovery.cpp.o
+[272/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeRecordHelpers.cpp.o
+[273/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeDumpVisitor.cpp.o
+[274/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangDataCollectorsEmitter.cpp.o
+[275/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ASTTableGen.cpp.o
+[276/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeStreamMerger.cpp.o
+[277/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SymbolDumper.cpp.o
+[278/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangCommentHTMLTagsEmitter.cpp.o
+[279/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangCommentHTMLNamedCharacterReferenceEmitter.cpp.o
+[280/3004] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeRecordMapping.cpp.o
+[281/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangASTNodesEmitter.cpp.o
+[282/3004] Linking CXX static library lib/libLLVMDebugInfoCodeView.a
+[283/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/CIRLoweringEmitter.cpp.o
+[284/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangASTPropertiesEmitter.cpp.o
+[285/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangOpcodesEmitter.cpp.o
+[286/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangCommentCommandInfoEmitter.cpp.o
+[287/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangTypeNodesEmitter.cpp.o
+[288/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangBuiltinTemplatesEmitter.cpp.o
+[289/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangSACheckersEmitter.cpp.o
+[290/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangBuiltinsEmitter.cpp.o
+[291/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangSyntaxEmitter.cpp.o
+[292/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangOptionDocEmitter.cpp.o
+[293/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/TableGen.cpp.o
+[294/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/HLSLEmitter.cpp.o
+[295/3004] Building CXX object tools/clang/lib/Support/CMakeFiles/obj.clangSupport.dir/RISCVVIntrinsicUtils.cpp.o
+[296/3004] Linking CXX static library lib/libclangSupport.a
+[297/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangOpenCLBuiltinEmitter.cpp.o
+[298/3004] Linking CXX executable bin/llvm-min-tblgen
+[299/3004] Building Attributes.inc...
+[300/3004] Building ACC.h.inc...
+[301/3004] Building GenVT.inc...
+[302/3004] Building TargetLibraryInfo.inc...
+[303/3004] Building IntrinsicEnums.inc...
+[304/3004] Building IntrinsicsLoongArch.h...
+[305/3004] Building IntrinsicsAMDGPU.h...
+[306/3004] Building IntrinsicsARM.h...
+[307/3004] Building IntrinsicsAArch64.h...
+[308/3004] Building IntrinsicsBPF.h...
+[309/3004] Building IntrinsicsHexagon.h...
+[310/3004] Building IntrinsicsDirectX.h...
+[311/3004] Building IntrinsicImpl.inc...
+[312/3004] Building IntrinsicsMips.h...
+[313/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/RISCVVEmitter.cpp.o
+[314/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangDiagnosticsEmitter.cpp.o
+[315/3004] Building ACC.inc...
+[316/3004] Building OMP.h.inc...
+[317/3004] Building OMP.inc...
+[318/3004] Building RuntimeLibcalls.inc...
+[319/3004] Building IntrinsicsPowerPC.h...
+[320/3004] Building IntrinsicsNVPTX.h...
+[321/3004] Building IntrinsicsRISCV.h...
+[322/3004] Building IntrinsicsS390.h...
+[323/3004] Building IntrinsicsVE.h...
+[324/3004] Building IntrinsicsR600.h...
+[325/3004] Building IntrinsicsX86.h...
+[326/3004] Building IntrinsicsSPIRV.h...
+[327/3004] Building IntrinsicsWebAssembly.h...
+[328/3004] Building IntrinsicsXCore.h...
+[329/3004] Building CXX object lib/CodeGenTypes/CMakeFiles/LLVMCodeGenTypes.dir/LowLevelType.cpp.o
+[330/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/SveEmitter.cpp.o
+[331/3004] Building PPCGenTargetFeatures.inc...
+[332/3004] Building ARMTargetParserDef.inc...
+[333/3004] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/OptEmitter.cpp.o
+[334/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/CTagsEmitter.cpp.o
+[335/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/NeonEmitter.cpp.o
+[336/3004] Building AArch64TargetParserDef.inc...
+[337/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DecoderTableEmitter.cpp.o
+[338/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DecoderTree.cpp.o
+[339/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/MveEmitter.cpp.o
+[340/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/CodeEmitterGen.cpp.o
+[341/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/CodeGenMapTable.cpp.o
+[342/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DAGISelEmitter.cpp.o
+[343/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DAGISelMatcher.cpp.o
+[344/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/CallingConvEmitter.cpp.o
+[345/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/CompressInstEmitter.cpp.o
+[346/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DAGISelMatcherOpt.cpp.o
+[347/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DisassemblerEmitter.cpp.o
+[348/3004] Building RISCVTargetParserDef.inc...
+[349/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/llvm-tblgen.cpp.o
+[350/3004] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangAttrEmitter.cpp.o
+[351/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DAGISelMatcherGen.cpp.o
+[352/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/ExegesisEmitter.cpp.o
+[353/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DFAEmitter.cpp.o
+[354/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DFAPacketizerEmitter.cpp.o
+[355/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/OptionRSTEmitter.cpp.o
+[356/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DXILEmitter.cpp.o
+[357/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/MacroFusionPredicatorEmitter.cpp.o
+[358/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/InstrDocsEmitter.cpp.o
+[359/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/AsmWriterEmitter.cpp.o
+[360/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/PseudoLoweringEmitter.cpp.o
+[361/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DecoderEmitter.cpp.o
+[362/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DAGISelMatcherEmitter.cpp.o
+[363/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/OptionParserEmitter.cpp.o
+[364/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/X86ModRMFilters.cpp.o
+[365/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/X86DisassemblerTables.cpp.o
+[366/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/FastISelEmitter.cpp.o
+[367/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/SDNodeInfoEmitter.cpp.o
+FAILED: utils/TableGen/CMakeFiles/llvm-tblgen.dir/SDNodeInfoEmitter.cpp.o 
+/var/llvm-compile-time-tracker/timeit_launcher.sh /tmp/llvm-project-build-stage1/bin/clang++ -DLLVM_BUILD_STATIC -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage2/utils/TableGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wno-pass-failed -Wmisleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -Xclang -fno-pch-timestamp -flto=thin -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -Winvalid-pch -Xclang -include-pch -Xclang /tmp/llvm-project-build-stage2/lib/Support/CMakeFiles/LLVMSupport.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /tmp/llvm-project-build-stage2/lib/Support/CMakeFiles/LLVMSupport.dir/cmake_pch.hxx -MD -MT utils/TableGen/CMakeFiles/llvm-tblgen.dir/SDNodeInfoEmitter.cpp.o -MF utils/TableGen/CMakeFiles/llvm-tblgen.dir/SDNodeInfoEmitter.cpp.o.d -o utils/TableGen/CMakeFiles/llvm-tblgen.dir/SDNodeInfoEmitter.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/SDNodeInfoEmitter.cpp
+/var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/SDNodeInfoEmitter.cpp:318:28: error: no viable conversion from 'typename _Bind_helper<__is_socketlike<void (&)(llvm::raw_ostream &, llvm::SDTypeConstraint, const std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>> &)>::value, void (&)(llvm::raw_ostream &, llvm::SDTypeConstraint, const std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>> &), const std::_Placeholder<1> &, const std::_Placeholder<2> &, std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>> &>::type' (aka '_Bind<void (*(std::_Placeholder<1>, std::_Placeholder<2>, std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>>))(llvm::raw_ostream &, llvm::SDTypeConstraint, const std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>> &)>') to 'function_ref<void (raw_ostream &, ElemT)>' (aka 'function_ref<void (raw_ostream &, llvm::SDTypeConstraint)>')
+  318 |   ConstraintTable.emit(OS, std::bind(emitTypeConstraint, std::placeholders::_1,
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  319 |                                      std::placeholders::_2, VTByHwModeTable));
+      |                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:40:24: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'typename _Bind_helper<__is_socketlike<void (&)(llvm::raw_ostream &, llvm::SDTypeConstraint, const std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>> &)>::value, void (&)(llvm::raw_ostream &, llvm::SDTypeConstraint, const std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>> &), const std::_Placeholder<1> &, const std::_Placeholder<2> &, std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>> &>::type' (aka '_Bind<void (*(std::_Placeholder<1>, std::_Placeholder<2>, std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>>))(llvm::raw_ostream &, llvm::SDTypeConstraint, const std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>> &)>') to 'const function_ref<void (llvm::raw_ostream &, llvm::SDTypeConstraint)> &' for 1st argument
+   40 | class LLVM_GSL_POINTER function_ref<Ret(Params...)> {
+      |                        ^~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:40:24: note: candidate constructor (the implicit move constructor) not viable: no known conversion from 'typename _Bind_helper<__is_socketlike<void (&)(llvm::raw_ostream &, llvm::SDTypeConstraint, const std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>> &)>::value, void (&)(llvm::raw_ostream &, llvm::SDTypeConstraint, const std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>> &), const std::_Placeholder<1> &, const std::_Placeholder<2> &, std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>> &>::type' (aka '_Bind<void (*(std::_Placeholder<1>, std::_Placeholder<2>, std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>>))(llvm::raw_ostream &, llvm::SDTypeConstraint, const std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>> &)>') to 'function_ref<void (llvm::raw_ostream &, llvm::SDTypeConstraint)> &&' for 1st argument
+   40 | class LLVM_GSL_POINTER function_ref<Ret(Params...)> {
+      |                        ^~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:52:3: note: candidate constructor not viable: no known conversion from 'typename _Bind_helper<__is_socketlike<void (&)(llvm::raw_ostream &, llvm::SDTypeConstraint, const std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>> &)>::value, void (&)(llvm::raw_ostream &, llvm::SDTypeConstraint, const std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>> &), const std::_Placeholder<1> &, const std::_Placeholder<2> &, std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>> &>::type' (aka '_Bind<void (*(std::_Placeholder<1>, std::_Placeholder<2>, std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>>))(llvm::raw_ostream &, llvm::SDTypeConstraint, const std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>> &)>') to 'std::nullptr_t' for 1st argument
+   52 |   function_ref(std::nullptr_t) {}
+      |   ^            ~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:55:3: note: candidate template ignored: substitution failure [with Callable = typename _Bind_helper<__is_socketlike<void (&)(llvm::raw_ostream &, llvm::SDTypeConstraint, const std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>> &)>::value, void (&)(llvm::raw_ostream &, llvm::SDTypeConstraint, const std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>> &), const std::_Placeholder<1> &, const std::_Placeholder<2> &, std::map<llvm::ValueTypeByHwMode, unsigned int, std::less<llvm::ValueTypeByHwMode>, std::allocator<std::pair<const llvm::ValueTypeByHwMode, unsigned int>>> &>::type]: no matching function for call to object of type 'std::_Bind<void (*(std::_Placeholder<1>, std::_Placeholder<2>, std::map<llvm::ValueTypeByHwMode, unsigned int>))(llvm::raw_ostream &, llvm::SDTypeConstraint, const std::map<llvm::ValueTypeByHwMode, unsigned int> &)>'
+   55 |   function_ref(
+      |   ^
+   56 |       Callable &&callable LLVM_LIFETIME_BOUND,
+   57 |       // This is not the copy-constructor.
+   58 |       std::enable_if_t<!std::is_same<remove_cvref_t<Callable>,
+   59 |                                      function_ref>::value> * = nullptr,
+   60 |       // Functor must be callable and return a suitable type.
+   61 |       std::enable_if_t<std::is_void<Ret>::value ||
+   62 |                        std::is_convertible<decltype(std::declval<Callable>()(
+      |                                                     ~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/Basic/SequenceToOffsetTable.h:165:54: note: passing argument to parameter 'Print' here
+  165 |             function_ref<void(raw_ostream &, ElemT)> Print) const {
+      |                                                      ^
+1 error generated.
+[368/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/WebAssemblyDisassemblerEmitter.cpp.o
+[369/3004] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/GlobalISel/CodeExpander.cpp.o
+[370/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/RegisterBankEmitter.cpp.o
+[371/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/X86MnemonicTables.cpp.o
+[372/3004] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/GlobalISel/CombinerUtils.cpp.o
+[373/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/AsmMatcherEmitter.cpp.o
+[374/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/X86InstrMappingEmitter.cpp.o
+[375/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/X86RecognizableInstr.cpp.o
+[376/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/X86FoldTablesEmitter.cpp.o
+[377/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/SearchableTableEmitter.cpp.o
+[378/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/InstrInfoEmitter.cpp.o
+[379/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/SubtargetEmitter.cpp.o
+[380/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/GlobalISelCombinerEmitter.cpp.o
+[381/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/GlobalISelEmitter.cpp.o
+[382/3004] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/RegisterInfoEmitter.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:494 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
