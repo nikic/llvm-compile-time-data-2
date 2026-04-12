@@ -1,0 +1,215 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[2933/3275] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTWriter.cpp.o
+[2934/3275] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTWriterDecl.cpp.o
+[2935/3275] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTWriterStmt.cpp.o
+[2936/3275] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/GeneratePCH.cpp.o
+[2937/3275] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/InMemoryModuleCache.cpp.o
+[2938/3275] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/GlobalModuleIndex.cpp.o
+[2939/3275] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ASTCommon.cpp.o
+[2940/3275] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ModuleCache.cpp.o
+[2941/3275] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ModuleFileExtension.cpp.o
+[2942/3275] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ModuleManager.cpp.o
+[2943/3275] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/PCHContainerOperations.cpp.o
+[2944/3275] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ObjectFilePCHContainerReader.cpp.o
+[2945/3275] Linking CXX static library lib/libclangOptions.a
+[2946/3275] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/ModuleFile.cpp.o
+[2947/3275] Building CXX object tools/clang/lib/Serialization/CMakeFiles/obj.clangSerialization.dir/TemplateArgumentHasher.cpp.o
+[2948/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ChainedDiagnosticConsumer.cpp.o
+[2949/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ASTUnit.cpp.o
+[2950/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/DependencyGraph.cpp.o
+[2951/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/DependencyFile.cpp.o
+[2952/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/DiagnosticRenderer.cpp.o
+[2953/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ASTConsumers.cpp.o
+[2954/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/FrontendOptions.cpp.o
+[2955/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/CompilerInvocation.cpp.o
+[2956/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/HeaderIncludeGen.cpp.o
+[2957/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ChainedIncludesSource.cpp.o
+[2958/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ASTMerge.cpp.o
+[2959/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/CompilerInstance.cpp.o
+[2960/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/FrontendAction.cpp.o
+[2961/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/FrontendActions.cpp.o
+[2962/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/InitPreprocessor.cpp.o
+[2963/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/LayoutOverrideSource.cpp.o
+[2964/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/LogDiagnosticPrinter.cpp.o
+[2965/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/PrintPreprocessedOutput.cpp.o
+[2966/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/ModuleDependencyCollector.cpp.o
+[2967/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/MultiplexConsumer.cpp.o
+[2968/3275] Linking CXX static library lib/libclangAST.a
+[2969/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/PrecompiledPreamble.cpp.o
+[2970/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/SARIFDiagnostic.cpp.o
+[2971/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/SARIFDiagnosticPrinter.cpp.o
+[2972/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/SerializedDiagnosticReader.cpp.o
+[2973/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/SerializedDiagnosticPrinter.cpp.o
+[2974/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/StandaloneDiagnostic.cpp.o
+[2975/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/TextDiagnostic.cpp.o
+[2976/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/TextDiagnosticBuffer.cpp.o
+[2977/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/TestModuleFileExtension.cpp.o
+[2978/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/TextDiagnosticPrinter.cpp.o
+[2979/3275] Linking CXX static library lib/libclangEdit.a
+[2980/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/VerifyDiagnosticConsumer.cpp.o
+[2981/3275] Building CXX object tools/clang/lib/Frontend/Rewrite/CMakeFiles/obj.clangRewriteFrontend.dir/RewriteMacros.cpp.o
+[2982/3275] Building CXX object tools/clang/lib/Frontend/Rewrite/CMakeFiles/obj.clangRewriteFrontend.dir/HTMLPrint.cpp.o
+[2983/3275] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/InterfaceStubFunctionsConsumer.cpp.o
+[2984/3275] Building CXX object tools/clang/lib/Frontend/Rewrite/CMakeFiles/obj.clangRewriteFrontend.dir/FrontendActions.cpp.o
+[2985/3275] Linking CXX static library lib/libclangASTMatchers.a
+[2986/3275] Building CXX object tools/clang/lib/Frontend/Rewrite/CMakeFiles/obj.clangRewriteFrontend.dir/RewriteModernObjC.cpp.o
+[2987/3275] Building CXX object tools/clang/lib/Frontend/Rewrite/CMakeFiles/obj.clangRewriteFrontend.dir/RewriteObjC.cpp.o
+[2988/3275] Building CXX object tools/clang/lib/Frontend/Rewrite/CMakeFiles/obj.clangRewriteFrontend.dir/RewriteTest.cpp.o
+[2989/3275] Building CXX object tools/clang/lib/Frontend/Rewrite/CMakeFiles/obj.clangRewriteFrontend.dir/InclusionRewriter.cpp.o
+[2990/3275] Building CXX object tools/clang/lib/Frontend/Rewrite/CMakeFiles/obj.clangRewriteFrontend.dir/FixItRewriter.cpp.o
+[2991/3275] Building CXX object tools/clang/lib/FrontendTool/CMakeFiles/obj.clangFrontendTool.dir/ExecuteCompilerInvocation.cpp.o
+[2992/3275] Building CXX object tools/clang/lib/DependencyScanning/CMakeFiles/obj.clangDependencyScanning.dir/DependencyScanningWorker.cpp.o
+[2993/3275] Building CXX object tools/clang/lib/DependencyScanning/CMakeFiles/obj.clangDependencyScanning.dir/DependencyScanningUtils.cpp.o
+[2994/3275] Building CXX object tools/clang/lib/DependencyScanning/CMakeFiles/obj.clangDependencyScanning.dir/InProcessModuleCache.cpp.o
+[2995/3275] Building CXX object tools/clang/lib/DependencyScanning/CMakeFiles/obj.clangDependencyScanning.dir/ModuleDepCollector.cpp.o
+[2996/3275] Building CXX object tools/clang/lib/DependencyScanning/CMakeFiles/obj.clangDependencyScanning.dir/DependencyScanningFilesystem.cpp.o
+[2997/3275] Building CXX object tools/clang/lib/DependencyScanning/CMakeFiles/obj.clangDependencyScanning.dir/DependencyScanningService.cpp.o
+[2998/3275] Building CXX object tools/clang/lib/InstallAPI/CMakeFiles/obj.clangInstallAPI.dir/DirectoryScanner.cpp.o
+[2999/3275] Building CXX object tools/clang/lib/InstallAPI/CMakeFiles/obj.clangInstallAPI.dir/HeaderFile.cpp.o
+[3000/3275] Building CXX object tools/clang/lib/InstallAPI/CMakeFiles/obj.clangInstallAPI.dir/Library.cpp.o
+[3001/3275] Building CXX object tools/clang/lib/InstallAPI/CMakeFiles/obj.clangInstallAPI.dir/FileList.cpp.o
+[3002/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/ASTEntityMapping.cpp.o
+[3003/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/Model/BuildNamespace.cpp.o
+[3004/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/Model/EntityId.cpp.o
+[3005/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Analyses/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkAnalyses.dir/CallGraph/CallGraphExtractor.cpp.o
+[3006/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/Model/EntityIdTable.cpp.o
+[3007/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/Model/EntityLinkage.cpp.o
+[3008/3275] Building CXX object tools/clang/lib/DependencyScanning/CMakeFiles/obj.clangDependencyScanning.dir/DependencyScannerImpl.cpp.o
+[3009/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/EntityLinker/EntityLinker.cpp.o
+[3010/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/Model/EntityName.cpp.o
+[3011/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/Model/SummaryName.cpp.o
+[3012/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Analyses/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkAnalyses.dir/UnsafeBufferUsage/UnsafeBufferUsageExtractor.cpp.o
+[3013/3275] Linking CXX static library lib/libclangInstallAPI.a
+[3014/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/Serialization/JSONFormat/JSONEntitySummaryEncoding.cpp.o
+[3015/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/Serialization/JSONFormat/JSONFormatImpl.cpp.o
+[3016/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/Serialization/JSONFormat/TUSummary.cpp.o
+[3017/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/Serialization/JSONFormat/WPASuite.cpp.o
+[3018/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/Serialization/JSONFormat/LUSummaryEncoding.cpp.o
+[3019/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/Serialization/SerializationFormatRegistry.cpp.o
+[3020/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/TUSummary/ExtractorRegistry.cpp.o
+[3021/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/SummaryData/LUSummaryConsumer.cpp.o
+[3022/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/Serialization/JSONFormat/TUSummaryEncoding.cpp.o
+[3023/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/Serialization/JSONFormat/LUSummary.cpp.o
+[3024/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/WholeProgramAnalysis/AnalysisName.cpp.o
+[3025/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/WholeProgramAnalysis/AnalysisDriver.cpp.o
+[3026/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/SummaryData/SummaryDataBuilderRegistry.cpp.o
+[3027/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/TUSummary/TUSummaryBuilder.cpp.o
+[3028/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/WholeProgramAnalysis/AnalysisRegistry.cpp.o
+[3029/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Core/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkCore.dir/Support/ErrorBuilder.cpp.o
+[3030/3275] Building CXX object tools/clang/lib/UnifiedSymbolResolution/CMakeFiles/obj.clangUnifiedSymbolResolution.dir/USRGeneration.cpp.o
+[3031/3275] Linking CXX static library lib/libclangAnalysis.a
+[3032/3275] Building CXX object tools/clang/lib/ScalableStaticAnalysisFramework/Frontend/CMakeFiles/obj.clangScalableStaticAnalysisFrameworkFrontend.dir/TUSummaryExtractorFrontendAction.cpp.o
+[3033/3275] Linking CXX static library lib/libclangUnifiedSymbolResolution.a
+[3034/3275] Linking CXX static library lib/libclangAnalysisLifetimeSafety.a
+[3035/3275] Linking CXX static library lib/libclangScalableStaticAnalysisFrameworkCore.a
+[3036/3275] Linking CXX static library lib/libclangScalableStaticAnalysisFrameworkAnalyses.a
+[3037/3275] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetMachine.cpp.o
+[3038/3275] Linking CXX static library lib/libclangSema.a
+[3039/3275] Linking CXX static library lib/libclangParse.a
+[3040/3275] Linking CXX static library lib/libclangSerialization.a
+[3041/3275] Linking CXX static library lib/libclangFrontend.a
+[3042/3275] Linking CXX static library lib/libclangScalableStaticAnalysisFrameworkFrontend.a
+[3043/3275] Linking CXX static library lib/libclangRewriteFrontend.a
+[3044/3275] Linking CXX static library lib/libclangDependencyScanning.a
+[3045/3275] Linking CXX static library lib/libclangExtractAPI.a
+[3046/3275] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetTransformInfo.cpp.o
+[3047/3275] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/HIPUtility.cpp.o
+[3048/3275] Linking CXX static library lib/libclangDriver.a
+[3049/3275] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/CodeGenPassBuilder.cpp.o
+[3050/3275] Building AArch64GenSubtargetInfo.inc...
+[3051/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64GlobalISelUtils.cpp.o
+[3052/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64Arm64ECCallLowering.cpp.o
+[3053/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64AdvSIMDScalarPass.cpp.o
+[3054/3275] Building CXX object lib/Target/AArch64/AsmParser/CMakeFiles/LLVMAArch64AsmParser.dir/AArch64AsmParser.cpp.o
+[3055/3275] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/PassBuilderPipelines.cpp.o
+[3056/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64PostSelectOptimize.cpp.o
+[3057/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64A57FPLoadBalancing.cpp.o
+[3058/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64ConditionalCompares.cpp.o
+[3059/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64RegisterBankInfo.cpp.o
+[3060/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64ExpandImm.cpp.o
+[3061/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64BranchTargets.cpp.o
+[3062/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64CallLowering.cpp.o
+[3063/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64CleanupLocalDynamicTLSPass.cpp.o
+[3064/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64PostLegalizerLowering.cpp.o
+[3065/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64O0PreLegalizerCombiner.cpp.o
+[3066/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64CallingConvention.cpp.o
+[3067/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64PostLegalizerCombiner.cpp.o
+[3068/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64RedundantCopyElimination.cpp.o
+[3069/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64RedundantCondBranchPass.cpp.o
+[3070/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64LegalizerInfo.cpp.o
+[3071/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64PreLegalizerCombiner.cpp.o
+[3072/3275] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/PassBuilder.cpp.o
+FAILED: lib/Passes/CMakeFiles/LLVMPasses.dir/PassBuilder.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Passes -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/Passes/CMakeFiles/LLVMPasses.dir/PassBuilder.cpp.o -MF lib/Passes/CMakeFiles/LLVMPasses.dir/PassBuilder.cpp.o.d -o lib/Passes/CMakeFiles/LLVMPasses.dir/PassBuilder.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/PassBuilder.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/MapVector.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/CGSCCPassManager.h:91,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Passes/PassBuilder.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/PassBuilder.cpp:17:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h: In instantiation of ‘void llvm::DenseMapBase<DerivedT, KeyT, ValueT, KeyInfoT, BucketT>::copyFrom(const DerivedT&) [with DerivedT = llvm::DenseMap<llvm::Loop*, std::unique_ptr<llvm::LoopAccessInfo> >; KeyT = llvm::Loop*; ValueT = std::unique_ptr<llvm::LoopAccessInfo>; KeyInfoT = llvm::DenseMapInfo<llvm::Loop*, void>; BucketT = llvm::detail::DenseMapPair<llvm::Loop*, std::unique_ptr<llvm::LoopAccessInfo> >]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:770:64:   required from ‘llvm::DenseMap<KeyT, ValueT, KeyInfoT, BucketT>::DenseMap(const llvm::DenseMap<KeyT, ValueT, KeyInfoT, BucketT>&) [with KeyT = llvm::Loop*; ValueT = std::unique_ptr<llvm::LoopAccessInfo>; KeyInfoT = llvm::DenseMapInfo<llvm::Loop*, void>; BucketT = llvm::detail::DenseMapPair<llvm::Loop*, std::unique_ptr<llvm::LoopAccessInfo> >]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/LoopAccessAnalysis.h:962:7:   required from ‘typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...) [with _Tp = llvm::detail::AnalysisResultModel<llvm::Function, llvm::LoopAccessAnalysis, llvm::LoopAccessInfoManager, llvm::AnalysisManager<llvm::Function>::Invalidator, true>; _Args = {llvm::LoopAccessInfoManager}; typename std::_MakeUniq<_Tp>::__single_object = std::unique_ptr<llvm::detail::AnalysisResultModel<llvm::Function, llvm::LoopAccessAnalysis, llvm::LoopAccessInfoManager, llvm::AnalysisManager<llvm::Function>::Invalidator, true>, std::default_delete<llvm::detail::AnalysisResultModel<llvm::Function, llvm::LoopAccessAnalysis, llvm::LoopAccessInfoManager, llvm::AnalysisManager<llvm::Function>::Invalidator, true> > >]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManagerInternal.h:315:42:   required from ‘std::unique_ptr<llvm::detail::AnalysisResultConcept<IRUnitT, InvalidatorT> > llvm::detail::AnalysisPassModel<IRUnitT, PassT, InvalidatorT, ExtraArgTs>::run(IRUnitT&, llvm::AnalysisManager<IRUnitT, ExtraArgTs ...>&, ExtraArgTs ...) [with IRUnitT = llvm::Function; PassT = llvm::LoopAccessAnalysis; InvalidatorT = llvm::AnalysisManager<llvm::Function>::Invalidator; ExtraArgTs = {}]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManagerInternal.h:313:3:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:491:11: error: use of deleted function ‘std::unique_ptr<_Tp, _Dp>::unique_ptr(const std::unique_ptr<_Tp, _Dp>&) [with _Tp = llvm::LoopAccessInfo; _Dp = std::default_delete<llvm::LoopAccessInfo>]’
+  491 |           ::new (&Buckets[I].getSecond()) ValueT(OtherBuckets[I].getSecond());
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/memory:76,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:37,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/MapVector.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/CGSCCPassManager.h:91,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Passes/PassBuilder.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Passes/PassBuilder.cpp:17:
+/usr/include/c++/11/bits/unique_ptr.h:468:7: note: declared here
+  468 |       unique_ptr(const unique_ptr&) = delete;
+      |       ^~~~~~~~~~
+[3073/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64CollectLOH.cpp.o
+[3074/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64AsmPrinter.cpp.o
+[3075/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64CondBrTuning.cpp.o
+[3076/3275] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o
+[3077/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64DeadRegisterDefinitionsPass.cpp.o
+[3078/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64A53Fix835769.cpp.o
+[3079/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64InstructionSelector.cpp.o
+[3080/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64ExpandPseudoInsts.cpp.o
+[3081/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64CompressJumpTables.cpp.o
+[3082/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64ConditionOptimizer.cpp.o
+[3083/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64FalkorHWPFFix.cpp.o
+[3084/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64FrameLowering.cpp.o
+[3085/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64FastISel.cpp.o
+[3086/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64InstrInfo.cpp.o
+[3087/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64ISelDAGToDAG.cpp.o
+[3088/3275] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ISelLowering.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APFloat.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGenTypes/LowLevelType.h:31,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/MachineMemOperand.h:22,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/SelectionDAGTargetInfo.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/X86/X86SelectionDAGInfo.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/X86/X86ISelLowering.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/X86/X86ISelLowering.cpp:14:
+In destructor ‘llvm::APInt::~APInt()’,
+    inlined from ‘LowerShift(llvm::SDValue, const llvm::X86Subtarget&, llvm::SelectionDAG&)::<lambda(llvm::SDValue)>’ at /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/X86/X86ISelLowering.cpp:31480:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:193:18: warning: ‘void operator delete [](void*)’ called on a pointer to an unallocated object ‘72909780498219007’ [-Wfree-nonheap-object]
+  193 |       delete[] U.pVal;
+      |                  ^~~~
+In destructor ‘llvm::APInt::~APInt()’,
+    inlined from ‘LowerShift(llvm::SDValue, const llvm::X86Subtarget&, llvm::SelectionDAG&)::<lambda(llvm::SDValue)>’ at /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/X86/X86ISelLowering.cpp:31481:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:193:18: warning: ‘void operator delete [](void*)’ called on a pointer to an unallocated object ‘9241421688590303745’ [-Wfree-nonheap-object]
+  193 |       delete[] U.pVal;
+      |                  ^~~~
+[3089/3275] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64ISelLowering.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:494 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+1814.72user 89.36system 2:15.37elapsed 1406%CPU (0avgtext+0avgdata 1927432maxresident)k
+0inputs+6272824outputs (4145major+55465418minor)pagefaults 0swaps
