@@ -1,0 +1,211 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage2.sh" failed
+
+STDOUT:
+[185/3006] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/StringToOffsetTable.cpp.o
+[186/3006] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Signals.cpp.o
+[187/3006] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/StringMatcher.cpp.o
+[188/3006] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/Error.cpp.o
+[189/3006] Building CXX object utils/TableGen/CMakeFiles/llvm-min-tblgen.dir/llvm-min-tblgen.cpp.o
+[190/3006] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Path.cpp.o
+[191/3006] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/SpecialCaseList.cpp.o
+[192/3006] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/TGTimer.cpp.o
+[193/3006] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/TGLexer.cpp.o
+[194/3006] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/TableGenBackendSkeleton.cpp.o
+[195/3006] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/DetailedRecordsBackend.cpp.o
+[196/3006] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/TableGenBackend.cpp.o
+[197/3006] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/JSONBackend.cpp.o
+[198/3006] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/Parser.cpp.o
+[199/3006] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/Attributes.cpp.o
+[200/3006] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/SetTheory.cpp.o
+[201/3006] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/Main.cpp.o
+[202/3006] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/SDNodeProperties.cpp.o
+[203/3006] Building CXX object lib/Extensions/CMakeFiles/LLVMExtensions.dir/Extensions.cpp.o
+[204/3006] Building CXX object lib/Frontend/Directive/CMakeFiles/LLVMFrontendDirective.dir/Spelling.cpp.o
+[205/3006] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/TableGen.cpp.o
+[206/3006] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/ARMTargetDefEmitter.cpp.o
+[207/3006] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/Arg.cpp.o
+[208/3006] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/TargetFeaturesEmitter.cpp.o
+[209/3006] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/VirtualFileSystem.cpp.o
+[210/3006] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/Option.cpp.o
+[211/3006] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/RuntimeLibcalls.cpp.o
+[212/3006] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/RISCVTargetDefEmitter.cpp.o
+[213/3006] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/CodeGenIntrinsics.cpp.o
+[214/3006] Linking CXX static library lib/libLLVMSupport.a
+[215/3006] Building CXX object lib/Bitstream/Reader/CMakeFiles/LLVMBitstreamReader.dir/BitstreamReader.cpp.o
+[216/3006] Linking CXX static library lib/libLLVMExtensions.a
+[217/3006] Linking CXX static library lib/libLLVMFrontendDirective.a
+[218/3006] Linking CXX static library lib/libLLVMBitstreamReader.a
+[219/3006] Building CXX object lib/DebugInfo/MSF/CMakeFiles/LLVMDebugInfoMSF.dir/MSFError.cpp.o
+[220/3006] Building CXX object lib/DebugInfo/MSF/CMakeFiles/LLVMDebugInfoMSF.dir/MSFCommon.cpp.o
+[221/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CodeViewError.cpp.o
+[222/3006] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/ArgList.cpp.o
+[223/3006] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/VTEmitter.cpp.o
+[224/3006] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/TargetLibraryInfoEmitter.cpp.o
+[225/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/AppendingTypeTableBuilder.cpp.o
+[226/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CodeViewRecordIO.cpp.o
+[227/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugCrossExSubsection.cpp.o
+[228/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugChecksumsSubsection.cpp.o
+[229/3006] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/RuntimeLibcallsEmitter.cpp.o
+[230/3006] Building CXX object lib/DebugInfo/MSF/CMakeFiles/LLVMDebugInfoMSF.dir/MappedBlockStream.cpp.o
+[231/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugSubsection.cpp.o
+[232/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/ContinuationRecordBuilder.cpp.o
+[233/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CVSymbolVisitor.cpp.o
+[234/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugSubsectionRecord.cpp.o
+[235/3006] Building CXX object lib/DebugInfo/MSF/CMakeFiles/LLVMDebugInfoMSF.dir/MSFBuilder.cpp.o
+[236/3006] Building CXX object lib/Option/CMakeFiles/LLVMOption.dir/OptTable.cpp.o
+[237/3006] Linking CXX static library lib/libLLVMDebugInfoMSF.a
+[238/3006] Linking CXX static library lib/libLLVMOption.a
+[239/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugInlineeLinesSubsection.cpp.o
+[240/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugCrossImpSubsection.cpp.o
+[241/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugFrameDataSubsection.cpp.o
+[242/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugSymbolRVASubsection.cpp.o
+[243/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/Line.cpp.o
+[244/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugLinesSubsection.cpp.o
+[245/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/Formatters.cpp.o
+[246/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugStringTableSubsection.cpp.o
+[247/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugSubsectionVisitor.cpp.o
+[248/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/DebugSymbolsSubsection.cpp.o
+[249/3006] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/DirectiveEmitter.cpp.o
+[250/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CVTypeVisitor.cpp.o
+[251/3006] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/TGParser.cpp.o
+[252/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/StringsAndChecksums.cpp.o
+[253/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/EnumTables.cpp.o
+[254/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/RecordSerialization.cpp.o
+[255/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SimpleTypeSerializer.cpp.o
+[256/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/GlobalTypeTableBuilder.cpp.o
+[257/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/MergingTypeTableBuilder.cpp.o
+[258/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SymbolSerializer.cpp.o
+[259/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/LazyRandomTypeCollection.cpp.o
+[260/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeIndex.cpp.o
+[261/3006] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/IntrinsicEmitter.cpp.o
+[262/3006] Building CXX object lib/Plugins/CMakeFiles/LLVMPlugins.dir/PassPlugin.cpp.o
+[263/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SymbolRecordMapping.cpp.o
+[264/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeHashing.cpp.o
+[265/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/RecordName.cpp.o
+[266/3006] Linking CXX static library lib/libLLVMPlugins.a
+[267/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SymbolRecordHelpers.cpp.o
+[268/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeTableCollection.cpp.o
+[269/3006] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/Record.cpp.o
+[270/3006] Linking CXX static library lib/libLLVMTableGen.a
+[271/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeIndexDiscovery.cpp.o
+[272/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeRecordHelpers.cpp.o
+[273/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeDumpVisitor.cpp.o
+[274/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeStreamMerger.cpp.o
+[275/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ASTTableGen.cpp.o
+[276/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangDataCollectorsEmitter.cpp.o
+[277/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangCommentHTMLTagsEmitter.cpp.o
+[278/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangCommentHTMLNamedCharacterReferenceEmitter.cpp.o
+[279/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SymbolDumper.cpp.o
+[280/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangASTNodesEmitter.cpp.o
+[281/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangBuiltinTemplatesEmitter.cpp.o
+[282/3006] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeRecordMapping.cpp.o
+[283/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangOpcodesEmitter.cpp.o
+[284/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/CIRLoweringEmitter.cpp.o
+[285/3006] Linking CXX static library lib/libLLVMDebugInfoCodeView.a
+[286/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangASTPropertiesEmitter.cpp.o
+[287/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangSACheckersEmitter.cpp.o
+[288/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangCommentCommandInfoEmitter.cpp.o
+[289/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangTypeNodesEmitter.cpp.o
+[290/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangBuiltinsEmitter.cpp.o
+[291/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangSyntaxEmitter.cpp.o
+[292/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/HLSLEmitter.cpp.o
+[293/3006] Building CXX object tools/clang/lib/Support/CMakeFiles/obj.clangSupport.dir/RISCVVIntrinsicUtils.cpp.o
+[294/3006] Linking CXX static library lib/libclangSupport.a
+[295/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/TableGen.cpp.o
+[296/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangOptionDocEmitter.cpp.o
+[297/3006] Linking CXX executable bin/llvm-min-tblgen
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and instructions to reproduce the bug.
+Stack dump:
+0.	Running pass "function<eager-inv>(drop-unnecessary-assumes,float2int,lower-constant-intrinsics,chr,loop(loop-rotate<header-duplication;no-prepare-for-lto;check-exit-count>,loop-deletion),loop-distribute,inject-tli-mappings,loop-vectorize<no-interleave-forced-only;no-vectorize-forced-only;>,drop-unnecessary-assumes,infer-alignment,loop-load-elim,instcombine<max-iterations=1;no-verify-fixpoint>,simplifycfg<bonus-inst-threshold=1;forward-switch-cond;switch-range-to-icmp;switch-to-arithmetic;switch-to-lookup;no-keep-loops;hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,slp-vectorizer,vector-combine,instcombine<max-iterations=1;no-verify-fixpoint>,loop-unroll<O3>,transform-warning,sroa<preserve-cfg>,infer-alignment,instcombine<max-iterations=1;no-verify-fixpoint>,loop-mssa(licm<allowspeculation>),alignment-from-assumptions,loop-sink,instsimplify,div-rem-pairs,mergeicmps,expand-memcmp,tailcallelim,simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;switch-to-arithmetic;no-switch-to-lookup;keep-loops;no-hoist-common-insts;hoist-loads-stores-with-cond-faulting;no-sink-common-insts;speculate-blocks;simplify-cond-branch;speculate-unpredictables>)" on module "lib/libLLVMTableGen.a(TGLexer.cpp.o at 889250)"
+1.	Running pass "instcombine<max-iterations=1;no-verify-fixpoint>" on function "_ZN4llvm7TGLexer8LexTokenEb"
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  ld.lld    0x000055ec83dc3060 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 240
+1  ld.lld    0x000055ec83dbfeed
+2  libc.so.6 0x00007f2a3542d520
+3  ld.lld    0x000055ec86a5baf5 llvm::ScalarEvolution::eraseValueFromMap(llvm::Value*) + 1013
+4  ld.lld    0x000055ec86a5ca36 llvm::ScalarEvolution::visitAndClearUsers(llvm::SmallVectorImpl<llvm::Instruction*>&, llvm::SmallPtrSetImpl<llvm::Instruction*>&, llvm::SmallVectorImpl<llvm::SCEVUseT<llvm::SCEV const*>>&) + 214
+5  ld.lld    0x000055ec86a6cf2a llvm::ScalarEvolution::forgetValue(llvm::Value*) + 170
+6  ld.lld    0x000055ec872c2e9a llvm::ValueHandleBase::ValueIsRAUWd(llvm::Value*, llvm::Value*) + 762
+7  ld.lld    0x000055ec872c3655 llvm::Value::doRAUW(llvm::Value*, llvm::Value::ReplaceMetadataUses) + 389
+8  ld.lld    0x000055ec8467dd68
+9  ld.lld    0x000055ec8643ae46
+10 ld.lld    0x000055ec8643c1a4
+11 ld.lld    0x000055ec8643cca5 llvm::InstCombinePass::run(llvm::Function&, llvm::AnalysisManager<llvm::Function>&) + 789
+12 ld.lld    0x000055ec84cc2ec6
+13 ld.lld    0x000055ec8728c141 llvm::PassManager<llvm::Function, llvm::AnalysisManager<llvm::Function>>::run(llvm::Function&, llvm::AnalysisManager<llvm::Function>&) + 1121
+14 ld.lld    0x000055ec843c4a96
+15 ld.lld    0x000055ec8728ccdb llvm::ModuleToFunctionPassAdaptor::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 1259
+16 ld.lld    0x000055ec843c4186
+17 ld.lld    0x000055ec8728ec51 llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 1121
+18 ld.lld    0x000055ec84cb00b6
+19 ld.lld    0x000055ec84cb2762 llvm::lto::opt(llvm::lto::Config const&, llvm::TargetMachine*, unsigned int, llvm::Module&, bool, llvm::ModuleSummaryIndex*, llvm::ModuleSummaryIndex const*, std::vector<unsigned char, std::allocator<unsigned char>> const&, llvm::ArrayRef<llvm::StringRef>) + 1218
+20 ld.lld    0x000055ec84cb4387
+21 ld.lld    0x000055ec84cb5044 llvm::lto::thinBackend(llvm::lto::Config const&, unsigned int, std::function<llvm::Expected<std::unique_ptr<llvm::CachedFileStream, std::default_delete<llvm::CachedFileStream>>> (unsigned int, llvm::Twine const&)>, llvm::Module&, llvm::ModuleSummaryIndex const&, llvm::FunctionImporter::ImportMapTy const&, llvm::DenseMap<unsigned long, llvm::GlobalValueSummary*, llvm::DenseMapInfo<unsigned long, void>, llvm::detail::DenseMapPair<unsigned long, llvm::GlobalValueSummary*>> const&, llvm::MapVector<llvm::StringRef, llvm::BitcodeModule, llvm::DenseMap<llvm::StringRef, unsigned int, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseMapPair<llvm::StringRef, unsigned int>>, llvm::SmallVector<std::pair<llvm::StringRef, llvm::BitcodeModule>, 0u>>*, bool, llvm::ArrayRef<llvm::StringRef>, std::function<llvm::Expected<std::unique_ptr<llvm::CachedFileStream, std::default_delete<llvm::CachedFileStream>>> (unsigned int, llvm::Twine const&)>, std::vector<unsigned char, std::allocator<unsigned char>> const&) + 2756
+22 ld.lld    0x000055ec84c83187
+23 ld.lld    0x000055ec84ca14de
+24 ld.lld    0x000055ec84c8e990
+25 ld.lld    0x000055ec84c7db8c
+26 ld.lld    0x000055ec83e1599d
+27 libc.so.6 0x00007f2a35484ee8
+28 ld.lld    0x000055ec84c7e257
+29 ld.lld    0x000055ec84c7eb70
+30 ld.lld    0x000055ec87419b28 llvm::StdThreadPool::processTasks(llvm::ThreadPoolTaskGroup*) + 632
+31 ld.lld    0x000055ec8741a857
+32 libc.so.6 0x00007f2a3547fac3
+33 libc.so.6 0x00007f2a355118d0
+clang++: error: unable to execute command: Segmentation fault (core dumped)
+clang++: error: linker command failed with exit code -2 (use -v to see invocation)
+/tmp/llvm-project-build-stage1/bin/clang++: Aborted
+[298/3006] Building TargetLibraryInfo.inc...
+FAILED: include/llvm/Analysis/TargetLibraryInfo.inc /tmp/llvm-project-build-stage2/include/llvm/Analysis/TargetLibraryInfo.inc 
+cd /tmp/llvm-project-build-stage2/include/llvm/Analysis && /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-target-library-info -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetLibraryInfo.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/Analysis/TargetLibraryInfo.inc
+/bin/sh: 1: /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen: not found
+[299/3006] Building GenVT.inc...
+FAILED: include/llvm/CodeGen/GenVT.inc /tmp/llvm-project-build-stage2/include/llvm/CodeGen/GenVT.inc 
+cd /tmp/llvm-project-build-stage2/include/llvm/CodeGen && /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-vt -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/ValueTypes.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/CodeGen/GenVT.inc
+/bin/sh: 1: /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen: not found
+[300/3006] Building ACC.h.inc...
+FAILED: include/llvm/Frontend/OpenACC/ACC.h.inc /tmp/llvm-project-build-stage2/include/llvm/Frontend/OpenACC/ACC.h.inc 
+cd /tmp/llvm-project-build-stage2/include/llvm/Frontend/OpenACC && /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen --gen-directive-decl -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Frontend/OpenACC -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Frontend/OpenACC/ACC.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/Frontend/OpenACC/ACC.h.inc
+/bin/sh: 1: /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen: not found
+[301/3006] Building IntrinsicEnums.inc...
+FAILED: include/llvm/IR/IntrinsicEnums.inc /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicEnums.inc 
+cd /tmp/llvm-project-build-stage2/include/llvm/IR && /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-intrinsic-enums -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Intrinsics.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicEnums.inc
+/bin/sh: 1: /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen: not found
+[302/3006] Building Attributes.inc...
+FAILED: include/llvm/IR/Attributes.inc /tmp/llvm-project-build-stage2/include/llvm/IR/Attributes.inc 
+cd /tmp/llvm-project-build-stage2/include/llvm/IR && /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-attrs -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Attributes.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/Attributes.inc
+/bin/sh: 1: /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen: not found
+[303/3006] Building IntrinsicImpl.inc...
+FAILED: include/llvm/IR/IntrinsicImpl.inc /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicImpl.inc 
+cd /tmp/llvm-project-build-stage2/include/llvm/IR && /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-intrinsic-impl -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Intrinsics.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicImpl.inc
+/bin/sh: 1: /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen: not found
+[304/3006] Building IntrinsicsARM.h...
+FAILED: include/llvm/IR/IntrinsicsARM.h /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicsARM.h 
+cd /tmp/llvm-project-build-stage2/include/llvm/IR && /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-intrinsic-enums -intrinsic-prefix=arm -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Intrinsics.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicsARM.h
+/bin/sh: 1: /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen: not found
+[305/3006] Building IntrinsicsAArch64.h...
+FAILED: include/llvm/IR/IntrinsicsAArch64.h /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicsAArch64.h 
+cd /tmp/llvm-project-build-stage2/include/llvm/IR && /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-intrinsic-enums -intrinsic-prefix=aarch64 -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Intrinsics.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicsAArch64.h
+/bin/sh: 1: /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen: not found
+[306/3006] Building IntrinsicsAMDGPU.h...
+FAILED: include/llvm/IR/IntrinsicsAMDGPU.h /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicsAMDGPU.h 
+cd /tmp/llvm-project-build-stage2/include/llvm/IR && /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-intrinsic-enums -intrinsic-prefix=amdgcn -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Intrinsics.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicsAMDGPU.h
+/bin/sh: 1: /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen: not found
+[307/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangOpenCLBuiltinEmitter.cpp.o
+[308/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/RISCVVEmitter.cpp.o
+[309/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangDiagnosticsEmitter.cpp.o
+[310/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/SveEmitter.cpp.o
+[311/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/NeonEmitter.cpp.o
+[312/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/MveEmitter.cpp.o
+[313/3006] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangAttrEmitter.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:494 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
