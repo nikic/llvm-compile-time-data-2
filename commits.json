@@ -86095,34 +86095,28 @@
     ],
     "fhahn\/perf\/scev-zext-add-nsw": [
         {
-            "hash": "26b7fd51095221e03ce2a2170b6d168652ba3c7d",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-04-19T10:56:21+01:00",
-            "subject": "[VPlan] Support plain CFG plans in the verifier. (#181817)"
+            "hash": "e5064d7c6c7a1b9dcb9da1106980495f6f131bc2",
+            "author_name": "jeanPerier",
+            "commit_date": "2026-04-20T10:19:48+02:00",
+            "subject": "[flang] preserve representation of logical constants from TRANSFER (#192417)"
         },
         {
-            "hash": "320d4f4b2bf0ac527c0cf93423a576b3e05d881e",
+            "hash": "b514d6b0c9d2054d8eecc1dc415fd9c99e50b838",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-04-19T12:08:34+01:00",
+            "commit_date": "2026-04-20T11:16:39+01:00",
             "subject": "[SCEV] Fold zext(C+A)<nsw> -> (sext(C) + zext(A))<nsw> if possible."
         },
         {
-            "hash": "f9fc0ff375038dfe8f7a7a1dff48ec700ec54104",
+            "hash": "b6201f67dfa442d945746149737f566cd929e940",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-04-19T12:08:34+01:00",
-            "subject": "Try reduce compile-time impact of zext nsw fold by reordering checks."
+            "commit_date": "2026-04-20T13:54:08+01:00",
+            "subject": "educe ore"
         },
         {
-            "hash": "eaa94e506afa01b74541f9761b8f51938c3787a1",
+            "hash": "46361f777b152fd9af6788e0d72dcbeabf7405c1",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-04-19T12:08:34+01:00",
-            "subject": "Cut off"
-        },
-        {
-            "hash": "51e8d046dc017bbed026f43caf98f9f448232321",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-04-19T12:08:35+01:00",
-            "subject": "Reduce ore"
+            "commit_date": "2026-04-20T13:59:14+01:00",
+            "subject": "Step2"
         }
     ],
     "zyn0217\/perf\/resugar-attributed-type-alias": [
@@ -110319,6 +110313,12 @@
             "author_name": "Ralf Jung",
             "commit_date": "2026-04-20T14:44:26+02:00",
             "subject": "[IR] LangRef: document behavior of double-lifetime.start (#184296)"
+        },
+        {
+            "hash": "4265ca3ecbcbe7e1df6a5bc95787956c92d2cde5",
+            "author_name": "A. Jiang",
+            "commit_date": "2026-04-20T20:50:31+08:00",
+            "subject": "[libc++][NFC] Remove `pointer_traits<__wrap_iter>` partial specialization (#178864)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
