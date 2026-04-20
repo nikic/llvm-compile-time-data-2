@@ -100377,6 +100377,24 @@
             "author_name": "Aaron Ballman",
             "commit_date": "2026-04-20T07:11:39+00:00",
             "subject": "Suppress octal literal diagnostics from system macros (#192481)"
+        },
+        {
+            "hash": "9f29c1e3fd8a81e7837c461b84008d5d51d3132c",
+            "author_name": "Zile Xiong",
+            "commit_date": "2026-04-20T15:44:49+00:00",
+            "subject": "[X86] Fix missing ByValTemporaries update in CopyViaTemp path for musttail calls (#190540)"
+        },
+        {
+            "hash": "a01a45066dae761209bbc4d81e1c64c615581607",
+            "author_name": "wanglei",
+            "commit_date": "2026-04-20T15:47:57+00:00",
+            "subject": "[NFC][test] Precommit test for pr188989 (#188667)"
+        },
+        {
+            "hash": "74049f6e3a700a11c568ce66da3c784ed5850876",
+            "author_name": "David Green",
+            "commit_date": "2026-04-20T15:47:58+00:00",
+            "subject": "[VectorCombine] Fix transitive Uses in foldShuffleToIdentity (#188989)"
         }
     ],
     "enferex\/perf\/init-densemap-members": [
@@ -110469,6 +110487,18 @@
             "author_name": "Sergey Semenov",
             "commit_date": "2026-04-20T08:41:35-07:00",
             "subject": "[libsycl] Fix _LIBSYCL_EXPORT placement (#192243)"
+        },
+        {
+            "hash": "dcbb5c80fbdf093ad81e18b0351014eb1df8595e",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-04-20T08:48:47-07:00",
+            "subject": "[GlobalISel] Fix -Wunused-variable (#193009)"
+        },
+        {
+            "hash": "58fb00f887ae71cc1af80cb572df4a2622586143",
+            "author_name": "vangthao95",
+            "commit_date": "2026-04-20T08:52:05-07:00",
+            "subject": "AMDGPU\/GlobalISel: RegBankLegalize rules for amdgcn_unreachable (#192762)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -110883,6 +110913,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-04-20T12:29:51+02:00",
             "subject": "knownbits constant"
+        }
+    ],
+    "c-rhodes\/perf\/gh-gi-disablelocalizerO0": [
+        {
+            "hash": "f2efeabe314bb0a9b1ef46c07b11f605ed351b9c",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-04-20T09:48:21+01:00",
+            "subject": "[CodeGen] Parse frame-pointer attribute once when creating MachineFunction (#191974)"
+        },
+        {
+            "hash": "53dc68c079bc270ec803a3f1e520aacb57059766",
+            "author_name": "David Green",
+            "commit_date": "2026-04-20T15:50:52+00:00",
+            "subject": "[AArch64][GlobalISel] Do not run the Localizer at -O0"
         }
     ]
 }
