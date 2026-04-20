@@ -101883,16 +101883,10 @@
             "subject": "enable loop-interchange"
         },
         {
-            "hash": "79b334a524bfdf29c71d8a6526170c4944d332b4",
+            "hash": "6f7e5b0e4b35116728563913f2d98b7f9341409b",
             "author_name": "Ryotaro Kasuga",
-            "commit_date": "2026-04-20T10:19:44+00:00",
-            "subject": "adjust the condition to process"
-        },
-        {
-            "hash": "6e84a78dde848d3e401fb3eb4d8aa07c95a36672",
-            "author_name": "Ryotaro Kasuga",
-            "commit_date": "2026-04-20T10:19:44+00:00",
-            "subject": "fix"
+            "commit_date": "2026-04-20T11:36:46+00:00",
+            "subject": "[LoopInterchange] Bail out when memory instruction ratio is high"
         }
     ],
     "c-rhodes\/perf\/aarch64-fastisel-o0": [
@@ -110271,6 +110265,24 @@
             "author_name": "forking-google-bazel-bot[bot]",
             "commit_date": "2026-04-20T13:03:54+02:00",
             "subject": "[Bazel] Fixes 920b203 (#192922)"
+        },
+        {
+            "hash": "2c1624b41f61c83b14507dc1c565eeb14317d618",
+            "author_name": "Fraser Cormack",
+            "commit_date": "2026-04-20T12:30:58+01:00",
+            "subject": "[lldb][PlatformDarwin] Fix build failure (#192934)"
+        },
+        {
+            "hash": "43ccda2703732cab7dd054849174ee03fddfaa22",
+            "author_name": "Michael Kruse",
+            "commit_date": "2026-04-20T11:33:58+00:00",
+            "subject": "[Polly][NFC] Convert IslNodeBuilder::preloadInvariantLoad to isl++ (#192942)"
+        },
+        {
+            "hash": "ea43c3f7e280133997d98de3eda83fb5c5eb92ae",
+            "author_name": "zackc6",
+            "commit_date": "2026-04-20T13:40:04+02:00",
+            "subject": "[mlir][linalg][shard] Fix andi reduction kind in sharding partition (#192381)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
