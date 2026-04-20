@@ -96975,33 +96975,33 @@
     ],
     "fhahn\/perf\/scev-rewrite-add-expr": [
         {
-            "hash": "f3cce97ba79ee507adfe4069ba907dcc842def31",
-            "author_name": "Krzysztof Parzyszek",
-            "commit_date": "2025-12-01T10:43:45-06:00",
-            "subject": "[flang][OpenMP] Remove directive-specific code from GetOmpDirectiveNa\u2026 (#170157)"
+            "hash": "4265ca3ecbcbe7e1df6a5bc95787956c92d2cde5",
+            "author_name": "A. Jiang",
+            "commit_date": "2026-04-20T20:50:31+08:00",
+            "subject": "[libc++][NFC] Remove `pointer_traits<__wrap_iter>` partial specialization (#178864)"
         },
         {
-            "hash": "ac5c081bf4e8915cbac322677bd59c293d331608",
+            "hash": "a3914cc4627628af84038d8ded77dedae86d5701",
             "author_name": "Florian Hahn",
-            "commit_date": "2025-12-01T16:46:49+00:00",
+            "commit_date": "2026-04-20T18:53:54+01:00",
             "subject": "[SCEV] Rewrite more SCEVAddExpr when applying guards."
         },
         {
-            "hash": "5a10df7c031e7d36674e70a168323408859acebb",
+            "hash": "a1a4f06e8b923df1bae9b791c717638ba5b1cc79",
             "author_name": "Florian Hahn",
-            "commit_date": "2025-12-01T16:46:50+00:00",
+            "commit_date": "2026-04-20T18:53:56+01:00",
             "subject": "!fixup  getMinsSCEV -> getAddExpr + getMinusOne."
         },
         {
-            "hash": "6e051e6b198948beede6760a8389e53904b9d051",
+            "hash": "115a6b1073968b12c6b7fe0b494a6d633275073f",
             "author_name": "Florian Hahn",
-            "commit_date": "2025-12-01T16:46:50+00:00",
+            "commit_date": "2026-04-20T18:53:56+01:00",
             "subject": "!fixup undo test changes, remove stray period."
         },
         {
-            "hash": "9a8034867a3c9f3d9fe1370d895a18e2401088a6",
+            "hash": "ab4ea23dbb528bf64fec7220be53c0521f2f8d2f",
             "author_name": "Florian Hahn",
-            "commit_date": "2025-12-01T16:46:51+00:00",
+            "commit_date": "2026-04-20T18:53:56+01:00",
             "subject": "!fixup update after rebase"
         }
     ],
@@ -110709,6 +110709,18 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-04-20T20:03:01+01:00",
             "subject": "InstCombine: Update assumption cache when replacing values (#192935)"
+        },
+        {
+            "hash": "1fbdf8afcbc5cce4eca6d4b7cfd01d117ccd1e41",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-04-20T20:13:32+01:00",
+            "subject": "[LV] Remove selectUserVF, remove use of legacy expectedCost (NFCI) (#191216)"
+        },
+        {
+            "hash": "5023c8621c64f6d7466356fe354f45c24a6305f4",
+            "author_name": "Shilei Tian",
+            "commit_date": "2026-04-20T15:20:22-04:00",
+            "subject": "[NFC] Remove trailing white spaces from clang\/docs\/ReleaseNotes.rst (#193062)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
