@@ -100395,6 +100395,30 @@
             "author_name": "David Green",
             "commit_date": "2026-04-20T15:47:58+00:00",
             "subject": "[VectorCombine] Fix transitive Uses in foldShuffleToIdentity (#188989)"
+        },
+        {
+            "hash": "7eb1829919206a3c623373eee24bb03979428688",
+            "author_name": "pkarveti",
+            "commit_date": "2026-04-21T06:46:40+00:00",
+            "subject": "[Hexagon] Fix use-before-def of AP register in prologue CSR spills (#188504)"
+        },
+        {
+            "hash": "a1a9924414aa4eeaadb31490b52c9367e5a30012",
+            "author_name": "pkarveti",
+            "commit_date": "2026-04-21T06:46:41+00:00",
+            "subject": "[Hexagon] Add AP register to liveins when used for frame index access (#188942)"
+        },
+        {
+            "hash": "22ad4d688a7205e7bd374f8c4dd06de263b82335",
+            "author_name": "pkarveti",
+            "commit_date": "2026-04-21T06:46:41+00:00",
+            "subject": "[Hexagon][MIR] Serialize HexagonMachineFunctionInfo::StackAlignBaseReg to MIR (#190003)"
+        },
+        {
+            "hash": "35990504507d79e0b9deb809c8ee5e1b34ceef20",
+            "author_name": "Brian Cain",
+            "commit_date": "2026-04-21T06:46:41+00:00",
+            "subject": "[Hexagon] Add missing MIRParser link dependency (#191010)"
         }
     ],
     "enferex\/perf\/init-densemap-members": [
