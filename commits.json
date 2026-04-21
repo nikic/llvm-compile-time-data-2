@@ -111819,6 +111819,24 @@
             "author_name": "Pierluigi Lenoci",
             "commit_date": "2026-04-21T18:20:40+00:00",
             "subject": "[Clang] Allow VDBPSADBW intrinsics in constexpr (#188887)"
+        },
+        {
+            "hash": "bde6226911f6a95daf71bbc468046dbe53f8f92b",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-04-21T11:22:41-07:00",
+            "subject": "[Github] Set persist-credentials in libclang-python-tests.yml (#193282)"
+        },
+        {
+            "hash": "0a59b51a783ae7f29334315eb79228cd2c987749",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-04-21T11:30:28-07:00",
+            "subject": "[RISCV] Add a getTargetStreamer helper to RISCVAsmPrinter. NFC (#193250)"
+        },
+        {
+            "hash": "5299e00a73f776266fd07d8c1fb4d924830a3457",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-04-21T11:30:56-07:00",
+            "subject": "[RISCV][TableGen] Use ArrayRef instead of vector&. NFC (#193267)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -112375,22 +112393,16 @@
     ],
     "vitalybuka\/perf\/hash": [
         {
-            "hash": "ba3ceb89e36acf492d7c798879de0a4b331aee04",
-            "author_name": "Chuanqi Xu",
-            "commit_date": "2026-04-21T03:23:19+00:00",
-            "subject": "[NFC] [clangd] [C++20] [Modules] Introduce ProjectModules::getModuleNameState interface (#193133)"
+            "hash": "bddd3d32bc6406697804a28c65d15c2882d732de",
+            "author_name": "Nuri Amari",
+            "commit_date": "2026-04-21T14:07:29-04:00",
+            "subject": "[lld\/mac] For catalyst outputs, tolerate implicitly linking against arm64e mac tbd files (#193065)"
         },
         {
-            "hash": "56e62781a5d7182c162d8d1f74951421fef49555",
+            "hash": "90e4a415093fd6fe30c974f95c30fafb6156d726",
             "author_name": "Vitaly Buka",
-            "commit_date": "2026-04-21T10:52:51-07:00",
+            "commit_date": "2026-04-21T11:25:35-07:00",
             "subject": "[NFC][ADT] Make hash_code and related functions constexpr"
-        },
-        {
-            "hash": "c7b9bba1b7d284f93edd1f94cdc2c77a64a2e8c1",
-            "author_name": "Vitaly Buka",
-            "commit_date": "2026-04-21T11:13:28-07:00",
-            "subject": "undo some"
         }
     ]
 }
