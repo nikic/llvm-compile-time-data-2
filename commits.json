@@ -86095,28 +86095,28 @@
     ],
     "fhahn\/perf\/scev-zext-add-nsw": [
         {
-            "hash": "e5064d7c6c7a1b9dcb9da1106980495f6f131bc2",
-            "author_name": "jeanPerier",
-            "commit_date": "2026-04-20T10:19:48+02:00",
-            "subject": "[flang] preserve representation of logical constants from TRANSFER (#192417)"
+            "hash": "68a27a07be36247e9f89827b48bc41dca27520fa",
+            "author_name": "Petar Avramovic",
+            "commit_date": "2026-04-21T10:24:45+02:00",
+            "subject": "AMDGPU\/GlobalISel: RegbankLegalize rules for G_BITCAST (#193025)"
         },
         {
-            "hash": "b514d6b0c9d2054d8eecc1dc415fd9c99e50b838",
+            "hash": "eaa400fae4542f71a7c6862e0726dd65116bc12f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-04-20T11:16:39+01:00",
+            "commit_date": "2026-04-21T14:14:45+01:00",
             "subject": "[SCEV] Fold zext(C+A)<nsw> -> (sext(C) + zext(A))<nsw> if possible."
         },
         {
-            "hash": "b6201f67dfa442d945746149737f566cd929e940",
+            "hash": "e595fa7c522d8d52359fefa9ff1215825e842ad9",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-04-20T13:54:08+01:00",
+            "commit_date": "2026-04-21T14:14:45+01:00",
             "subject": "educe ore"
         },
         {
-            "hash": "46361f777b152fd9af6788e0d72dcbeabf7405c1",
+            "hash": "c5b924d59ec56c2a4d024a47d71517fa17a7e567",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-04-20T13:59:14+01:00",
-            "subject": "Step2"
+            "commit_date": "2026-04-21T14:25:18+01:00",
+            "subject": "Extend"
         }
     ],
     "zyn0217\/perf\/resugar-attributed-type-alias": [
@@ -96985,6 +96985,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-04-21T11:20:32+01:00",
             "subject": "[SCEV] Rewrite more SCEVAddExpr when applying guards."
+        },
+        {
+            "hash": "8a5359ce21a36a0e42fba90fd677c9fce9aef317",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-04-21T14:26:36+01:00",
+            "subject": "try to reduce overhead"
         }
     ],
     "tbaederr\/perf\/initmaps2": [
@@ -111501,6 +111507,18 @@
             "author_name": "Phoebe Wang",
             "commit_date": "2026-04-21T13:16:39+00:00",
             "subject": "[X86][AVX10.2] Skip FP2I\/I2FP customizations for bf16 (#193137)"
+        },
+        {
+            "hash": "e5925fb3a7febcd7119191af565ca99cc725c262",
+            "author_name": "Ryan Mansfield",
+            "commit_date": "2026-04-21T09:18:19-04:00",
+            "subject": "[NFC][llvm-objdump] Use CHECK-NEXT in MachO tests (#192696)"
+        },
+        {
+            "hash": "a2011b113acd4d5aaa841c6a86543c37c82d37b8",
+            "author_name": "Mel Chen",
+            "commit_date": "2026-04-21T13:18:38+00:00",
+            "subject": "[LV][RISCV][NFC] Update strided-accesses.ll to UTC version 6 (#193211)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -112041,9 +112059,9 @@
             "subject": "hmm!"
         },
         {
-            "hash": "24080af8291fb201b4c1979f735317b302432fcb",
+            "hash": "4e1b356857e6ae6fe878c5def1d1b438b851e769",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-04-21T15:12:18+02:00",
+            "commit_date": "2026-04-21T15:26:27+02:00",
             "subject": "mitigated?"
         }
     ]
