@@ -86095,28 +86095,34 @@
     ],
     "fhahn\/perf\/scev-zext-add-nsw": [
         {
-            "hash": "68a27a07be36247e9f89827b48bc41dca27520fa",
-            "author_name": "Petar Avramovic",
-            "commit_date": "2026-04-21T10:24:45+02:00",
-            "subject": "AMDGPU\/GlobalISel: RegbankLegalize rules for G_BITCAST (#193025)"
+            "hash": "b799d7e8f8bc412efb7078a977bfac8516849cbb",
+            "author_name": "Hui",
+            "commit_date": "2026-04-21T11:45:59-04:00",
+            "subject": "[libc++] Implement `std::constant_wrapper` (#191695)"
         },
         {
-            "hash": "eaa400fae4542f71a7c6862e0726dd65116bc12f",
+            "hash": "b74c221bed7a15f639b76282b60f04887f4c19d8",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-04-21T14:14:45+01:00",
+            "commit_date": "2026-04-21T17:06:01+01:00",
             "subject": "[SCEV] Fold zext(C+A)<nsw> -> (sext(C) + zext(A))<nsw> if possible."
         },
         {
-            "hash": "e595fa7c522d8d52359fefa9ff1215825e842ad9",
+            "hash": "65a9d26a2a20938fad7891e5047131bee077f3f7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-04-21T14:14:45+01:00",
+            "commit_date": "2026-04-21T17:06:02+01:00",
             "subject": "educe ore"
         },
         {
-            "hash": "c5b924d59ec56c2a4d024a47d71517fa17a7e567",
+            "hash": "b62730c66e0acb46cf69ae56b6929442cfcc77b9",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-04-21T14:25:18+01:00",
-            "subject": "Extend"
+            "commit_date": "2026-04-21T17:07:19+01:00",
+            "subject": "Support UMax"
+        },
+        {
+            "hash": "b3a8f5d4da506ea1249e6fa1af25f494ca78ae40",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-04-21T17:08:04+01:00",
+            "subject": "Support Mul"
         }
     ],
     "zyn0217\/perf\/resugar-attributed-type-alias": [
@@ -96975,21 +96981,27 @@
     ],
     "fhahn\/perf\/scev-rewrite-add-expr": [
         {
-            "hash": "68a27a07be36247e9f89827b48bc41dca27520fa",
-            "author_name": "Petar Avramovic",
-            "commit_date": "2026-04-21T10:24:45+02:00",
-            "subject": "AMDGPU\/GlobalISel: RegbankLegalize rules for G_BITCAST (#193025)"
+            "hash": "b799d7e8f8bc412efb7078a977bfac8516849cbb",
+            "author_name": "Hui",
+            "commit_date": "2026-04-21T11:45:59-04:00",
+            "subject": "[libc++] Implement `std::constant_wrapper` (#191695)"
         },
         {
-            "hash": "8e559c53ed003407208a5538fe039fd301cd0ec1",
+            "hash": "49437ace6ae9231f6ab6441935b39c70b69a8a37",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-04-21T11:20:32+01:00",
+            "commit_date": "2026-04-21T16:48:46+01:00",
             "subject": "[SCEV] Rewrite more SCEVAddExpr when applying guards."
         },
         {
-            "hash": "8a5359ce21a36a0e42fba90fd677c9fce9aef317",
+            "hash": "c2dd638593b5f121da30311f6f4615667991547b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-04-21T14:26:36+01:00",
+            "commit_date": "2026-04-21T17:02:27+01:00",
+            "subject": "Dont rewrite"
+        },
+        {
+            "hash": "4b8d9828477ff9bca021e6747f26d513d86c805c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-04-21T17:02:33+01:00",
             "subject": "try to reduce overhead"
         }
     ],
@@ -111657,6 +111669,30 @@
             "author_name": "vangthao95",
             "commit_date": "2026-04-21T08:56:34-07:00",
             "subject": "AMDGPU: ds.atomic.barrier.arrive.rtn.b64 is a source of divergence (#192765)"
+        },
+        {
+            "hash": "9576adbb96c715ed332175d2c523d3753f03e3ed",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-04-21T17:02:24+01:00",
+            "subject": "[RISCV] Expand vp.frem (#193218)"
+        },
+        {
+            "hash": "53a33fa6ec9a9d7c1345907f4caf01f26e86d79e",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-04-21T17:03:03+01:00",
+            "subject": "Add missing comment (#193050)"
+        },
+        {
+            "hash": "8226604fbbc990838dc1a73dc0e2691c551a1956",
+            "author_name": "lntue",
+            "commit_date": "2026-04-21T12:05:58-04:00",
+            "subject": "[libc][math] Implement a code-size optimized version of powf. (#190984)"
+        },
+        {
+            "hash": "980ddce138a367cc8c4a6586f8aac4c255424fe8",
+            "author_name": "Andy Kaylor",
+            "commit_date": "2026-04-21T09:09:12-07:00",
+            "subject": "[CIR] Implement variably modified type parameter handling (#193072)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
