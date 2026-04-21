@@ -111435,6 +111435,18 @@
             "author_name": "Shreeyash Pandey",
             "commit_date": "2026-04-21T17:35:00+05:30",
             "subject": "[InstCombine] fold fabs(uitofp(i16 a) - uitofp(i16 b)) < 1.0 to a == b (#191378)"
+        },
+        {
+            "hash": "b7cfcfe03deb679befe821d0c7a9c302f8645763",
+            "author_name": "Stefan Gr\u00e4nitz",
+            "commit_date": "2026-04-21T12:21:13+00:00",
+            "subject": "[llvm-cov] Fix error propagation in CoverageMapping::load() (#193197)"
+        },
+        {
+            "hash": "a976a72c12c55258ce52bbd7a5eff8dcd3c9fce3",
+            "author_name": "EasyOn Aaditya",
+            "commit_date": "2026-04-21T17:56:09+05:30",
+            "subject": "[AMDGPU] Multi dword spilling for unaligned tuples (#183701)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -111565,12 +111577,6 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-04-14T16:54:47+02:00",
             "subject": "[IR] Avoid redundant IRBuilder debug loc updates"
-        },
-        {
-            "hash": "217e1760aece5c8229537c28e0c9dee668717943",
-            "author_name": "Clemens Wasser",
-            "commit_date": "2026-04-21T13:36:08+02:00",
-            "subject": "[IR] SetCurrentDebugLocation no early exit"
         }
     ],
     "dtcxzyw\/perf\/test-174355-v2": [
