@@ -96975,34 +96975,16 @@
     ],
     "fhahn\/perf\/scev-rewrite-add-expr": [
         {
-            "hash": "4265ca3ecbcbe7e1df6a5bc95787956c92d2cde5",
-            "author_name": "A. Jiang",
-            "commit_date": "2026-04-20T20:50:31+08:00",
-            "subject": "[libc++][NFC] Remove `pointer_traits<__wrap_iter>` partial specialization (#178864)"
+            "hash": "68a27a07be36247e9f89827b48bc41dca27520fa",
+            "author_name": "Petar Avramovic",
+            "commit_date": "2026-04-21T10:24:45+02:00",
+            "subject": "AMDGPU\/GlobalISel: RegbankLegalize rules for G_BITCAST (#193025)"
         },
         {
-            "hash": "a3914cc4627628af84038d8ded77dedae86d5701",
+            "hash": "8e559c53ed003407208a5538fe039fd301cd0ec1",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-04-20T18:53:54+01:00",
+            "commit_date": "2026-04-21T11:20:32+01:00",
             "subject": "[SCEV] Rewrite more SCEVAddExpr when applying guards."
-        },
-        {
-            "hash": "a1a4f06e8b923df1bae9b791c717638ba5b1cc79",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-04-20T18:53:56+01:00",
-            "subject": "!fixup  getMinsSCEV -> getAddExpr + getMinusOne."
-        },
-        {
-            "hash": "115a6b1073968b12c6b7fe0b494a6d633275073f",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-04-20T18:53:56+01:00",
-            "subject": "!fixup undo test changes, remove stray period."
-        },
-        {
-            "hash": "ab4ea23dbb528bf64fec7220be53c0521f2f8d2f",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-04-20T18:53:56+01:00",
-            "subject": "!fixup update after rebase"
         }
     ],
     "tbaederr\/perf\/initmaps2": [
@@ -111303,6 +111285,24 @@
             "author_name": "David Sherwood",
             "commit_date": "2026-04-21T11:05:03+01:00",
             "subject": "[LV][NFC] Remove unnecessary extra passes from some tests (#193155)"
+        },
+        {
+            "hash": "a47551f22099bdcb15508626f199958190a9768f",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-04-21T12:18:41+02:00",
+            "subject": "[lldb][windows] fix script interpreter file parsing (#193006)"
+        },
+        {
+            "hash": "9584e9c9b2691503ac0d2aa039c9e273322ef63e",
+            "author_name": "Paul Walker",
+            "commit_date": "2026-04-21T11:19:13+01:00",
+            "subject": "[LLVM][CodeGen][SVE] Implement custom lowering for insert_vector_elt_nxv1i1. (#192494)"
+        },
+        {
+            "hash": "337ad44a3e585f62bcf2e30b5766146cb8aacaca",
+            "author_name": "Stefan Gr\u00e4nitz",
+            "commit_date": "2026-04-21T10:24:53+00:00",
+            "subject": "[llvm] Errorize DebuginfodFetcher for inspection at call-sites (#191191)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -111771,6 +111771,12 @@
             "author_name": "MaxGraey",
             "commit_date": "2026-04-21T12:28:41+03:00",
             "subject": "another dummy refactoring"
+        },
+        {
+            "hash": "a5dfebbb7a6672bf1af6a5746c683f221bb0d2c0",
+            "author_name": "MaxGraey",
+            "commit_date": "2026-04-21T13:21:01+03:00",
+            "subject": "last dummy refactoring"
         }
     ],
     "JiachenYuan\/perf\/jiachen\/lanebitmask_refactor_composition": [
