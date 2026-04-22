@@ -112185,6 +112185,12 @@
             "author_name": "Wenju He",
             "commit_date": "2026-04-22T07:57:04+08:00",
             "subject": "[ConstantFolding] Increase folding limit for vector loads to 128 bytes (#192775)"
+        },
+        {
+            "hash": "f2e4fcd134d1367b472b324355131b8a68b9f149",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-04-22T00:06:42+00:00",
+            "subject": "[NFC][LowerTypeTests] Add AArch64 and X86 jump table tests with debug info (#192735) (#193358)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -112741,16 +112747,34 @@
     ],
     "vitalybuka\/perf\/hash": [
         {
-            "hash": "bddd3d32bc6406697804a28c65d15c2882d732de",
-            "author_name": "Nuri Amari",
-            "commit_date": "2026-04-21T14:07:29-04:00",
-            "subject": "[lld\/mac] For catalyst outputs, tolerate implicitly linking against arm64e mac tbd files (#193065)"
+            "hash": "d87ac871601818d363d6d7ac6921009729bbe08f",
+            "author_name": "Kevin Sala Penades",
+            "commit_date": "2026-04-21T16:25:57-07:00",
+            "subject": "[offload] Fix synchronization when record replay is enabled (#193291)"
         },
         {
-            "hash": "b53c1023cdfc2261289097775213ba1b1d54c63f",
+            "hash": "2d3ecc1c9c1f82e4a3eacaffcde098250fab6fc9",
             "author_name": "Vitaly Buka",
-            "commit_date": "2026-04-21T12:36:35-07:00",
-            "subject": "[NFC][ADT] Make hash_code and related functions constexpr"
+            "commit_date": "2026-04-21T16:45:13-07:00",
+            "subject": "[NFC][ADT] Make a few functions constexpr"
+        },
+        {
+            "hash": "702b4efdb4e6998635861bec5148a67c2f2b85cb",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-04-21T16:54:33-07:00",
+            "subject": "fetch"
+        },
+        {
+            "hash": "b37dff22e9422252d97dc75dbf085a0a66f0a9e5",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-04-21T17:02:59-07:00",
+            "subject": "more"
+        },
+        {
+            "hash": "13b663a0c8ec1f171d50c20b48e570f1f73905d3",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-04-21T17:04:20-07:00",
+            "subject": "[NFC][ADT] Make a few functions constexpr"
         }
     ]
 }
