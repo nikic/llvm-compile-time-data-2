@@ -112785,6 +112785,42 @@
             "author_name": "Simon Pilgrim",
             "commit_date": "2026-04-22T14:17:47+00:00",
             "subject": "[X86] Add TODO for nsw+nuw handling to (add (add X, Y), X) --> add(add(X, X), Y) (#193503)"
+        },
+        {
+            "hash": "ba767d0bbbde4107700ff66ecfd97eb75d85a35d",
+            "author_name": "Jack Styles",
+            "commit_date": "2026-04-22T14:25:04+00:00",
+            "subject": "[MachineCopyPropagation][NFC] Refactor EliminateSpillageCopies (#192609)"
+        },
+        {
+            "hash": "4dbb7ee833d5d97b71f537bc8031ebdfd0455881",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-04-22T14:25:25+00:00",
+            "subject": "[DAG] visitFREEZE - revisit frozen node after merging with unfrozen uses (#188206)"
+        },
+        {
+            "hash": "1364f522a773037627d6207c08932095fed814ff",
+            "author_name": "Ryotaro Kasuga",
+            "commit_date": "2026-04-22T14:26:31+00:00",
+            "subject": "[LoopInterchange] Fix out-of-bounds accesses in tests (NFC) (#193272)"
+        },
+        {
+            "hash": "b77a894afa2ef0682139d65446484aa2e7e9678e",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-04-22T16:27:12+02:00",
+            "subject": "[clang][bytecode] print array root state in Pointer::print() (#193494)"
+        },
+        {
+            "hash": "8f51fe418509ac88e14c531183d9efa81b7e8618",
+            "author_name": "Folkert de Vries",
+            "commit_date": "2026-04-22T16:29:48+02:00",
+            "subject": "arm: fix float to integer conversion with `+mve` (#193319)"
+        },
+        {
+            "hash": "59bf8960f28dc27877c0d1b1491a2827a893ef22",
+            "author_name": "David Spickett",
+            "commit_date": "2026-04-22T15:30:04+01:00",
+            "subject": "[lldb] Remove trailing newlines from AppendErrorWithFormat calls (part 2) (#193168)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
