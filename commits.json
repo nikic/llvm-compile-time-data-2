@@ -114039,6 +114039,24 @@
             "author_name": "zhijian lin",
             "commit_date": "2026-04-23T12:03:09-04:00",
             "subject": "[PowerPC] fixed issue \"Failure to optimize (x == 0) ? 0xFF : 0 to addic+subfe instead of cntlzw+srwi+neg\" (#190606)"
+        },
+        {
+            "hash": "dd8c777656469e44e506f0e29279903a6d088783",
+            "author_name": "G\u00e1bor Spaits",
+            "commit_date": "2026-04-23T18:06:12+02:00",
+            "subject": "[RISCV][GlobalISel] Add intial support for inline asm (#193314)"
+        },
+        {
+            "hash": "6f999388adeb41c5df8a57836a971836f5b6d512",
+            "author_name": "Benjamin Stott",
+            "commit_date": "2026-04-23T17:13:38+01:00",
+            "subject": "Reland \"[Lit][NFC] Refactor shell environment functionality and in-process builtins from TestRunner.py into new modules\" (#193759)"
+        },
+        {
+            "hash": "ee3ed4a0f688ab6ad763126671390b63dee489ca",
+            "author_name": "Hongxu Xu",
+            "commit_date": "2026-04-24T00:13:41+08:00",
+            "subject": "[InstCombine] Fold neg arg in hyperbolic lib functions (#193586)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -114769,6 +114787,38 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-04-23T16:06:17+02:00",
             "subject": "duplicate"
+        }
+    ],
+    "Stylie777\/perf\/add_cost_modelling_elim_spill_copies": [
+        {
+            "hash": "7239415b6f298ba2c465b65b983bfe16face4683",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-04-23T09:09:40+00:00",
+            "subject": "[X86] Add crash test coverage for #193475 (#193690)"
+        },
+        {
+            "hash": "f659405833c97b880b1b4a56f8c065f5a19b2afd",
+            "author_name": "Jack Styles",
+            "commit_date": "2026-04-23T10:10:05+01:00",
+            "subject": "[AArch64] Enable Spillage Copy Elimination by default"
+        },
+        {
+            "hash": "122116be5798a3230e68d088e3ac5c0afd062b47",
+            "author_name": "Jack Styles",
+            "commit_date": "2026-04-23T10:10:06+01:00",
+            "subject": "Add lit test for copy elimination"
+        },
+        {
+            "hash": "1421c8ab77425030bfbebe1631df16b8ea011885",
+            "author_name": "Jack Styles",
+            "commit_date": "2026-04-23T10:10:06+01:00",
+            "subject": "Remove func attrs line from lit test"
+        },
+        {
+            "hash": "049753579a4051968e2d62f51050d09c53d4fed8",
+            "author_name": "Jack Styles",
+            "commit_date": "2026-04-23T17:07:23+01:00",
+            "subject": "[MCP][NFC] Add Cost modelling for EliminateSpillageCopies"
         }
     ]
 }
