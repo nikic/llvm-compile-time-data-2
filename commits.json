@@ -113997,6 +113997,30 @@
             "author_name": "Shafik Yaghmour",
             "commit_date": "2026-04-23T08:22:27-07:00",
             "subject": "[NFC][Clang][Analyses] Fix AccessPath to have deleted copy assignment (#193639)"
+        },
+        {
+            "hash": "602cc92c19c1cfd66eb05e87ef7556d1e9125f5d",
+            "author_name": "Brian Cain",
+            "commit_date": "2026-04-23T10:25:47-05:00",
+            "subject": "[Hexagon] Add SafeStack runtime libcall to HexagonSystemLibrary (#191673)"
+        },
+        {
+            "hash": "f7828886920cf4d4818da2b179a27e454b8312f8",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-04-23T15:32:05+00:00",
+            "subject": "[X86] Regenerate bit integer tests to show VPADD constant asm comments (#193763)"
+        },
+        {
+            "hash": "023e2e6c9d995ba34158340d5b4f044caa1cdee8",
+            "author_name": "Pawe\u0142 Bylica",
+            "commit_date": "2026-04-23T17:34:13+02:00",
+            "subject": "[DAGCombiner] Fold bswap of single-byte-known-nonzero value to a shift (#193473)"
+        },
+        {
+            "hash": "7df553349756468098289160f6c77aa21f1c2961",
+            "author_name": "Connector Switch",
+            "commit_date": "2026-04-23T23:34:41+08:00",
+            "subject": "[libc++] Implement `ranges::fold_left_first` and `ranges::fold_left_first_with_iter` (#180214)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -114545,16 +114569,16 @@
     ],
     "c-rhodes\/perf\/llvm-gisel-skip-matchOptBrCondByInvertingCond-optnone": [
         {
-            "hash": "f2efeabe314bb0a9b1ef46c07b11f605ed351b9c",
-            "author_name": "Cullen Rhodes",
-            "commit_date": "2026-04-20T09:48:21+01:00",
-            "subject": "[CodeGen] Parse frame-pointer attribute once when creating MachineFunction (#191974)"
+            "hash": "a88516baa7353b1a399f76812770266fc10ec777",
+            "author_name": "Med Ismail Bennani",
+            "commit_date": "2026-04-23T07:02:34-07:00",
+            "subject": "[lldb\/test] Update remaining `filecheck` call sites to use `filecheck_log` (NFC) (#193654)"
         },
         {
-            "hash": "3d28cf0bb7fb2fc5baebc4b5de09b735c1115e7f",
+            "hash": "03cf310470eece2e8c6eee4a86fd6d36e2118938",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-04-21T15:36:02+00:00",
-            "subject": "[GISel] Skip matchOptBrCondByInvertingCond for optnone functions"
+            "commit_date": "2026-04-23T15:16:28+00:00",
+            "subject": "[GISel] Disable opt_brcond_by_inverting_cond combine at O0"
         }
     ],
     "vitalybuka\/perf\/hash": [
