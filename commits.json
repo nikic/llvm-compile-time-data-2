@@ -59849,15 +59849,15 @@
     ],
     "RKSimon\/perf\/topological-dag": [
         {
-            "hash": "941e8ef04ebb35b7b96c58060786f73bb44b1a1a",
-            "author_name": "Matthias Springer",
-            "commit_date": "2026-04-21T14:59:57+02:00",
-            "subject": "[mlir][arith] Add support for `arith.flush_denormals` emulation (#192660)"
+            "hash": "eb29a502b6e84dc847e94fa9ad42dfa0c68076c7",
+            "author_name": "widberg",
+            "commit_date": "2026-04-23T13:39:06+02:00",
+            "subject": "[Clang] Fix constexpr __builtin_(add|sub|mul)_overflow bugs (#192568)"
         },
         {
-            "hash": "7f8c371d5bc6f5d6a5d0ca5dff4dce88ed24c927",
+            "hash": "915e1cddeb65202294f7c8e7e74e2dfcb16fe509",
             "author_name": "Simon Pilgrim",
-            "commit_date": "2026-04-22T10:38:51+01:00",
+            "commit_date": "2026-04-23T15:54:00+01:00",
             "subject": "[DAG] Process DAG nodes in topological order"
         }
     ],
@@ -114195,6 +114195,12 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-04-23T18:48:07+01:00",
             "subject": "Triple: Add constructor from enum entries (#190632)"
+        },
+        {
+            "hash": "6fe957a8423f847a913b60f2c9004ef9ea9b3ca7",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-04-23T18:01:56+00:00",
+            "subject": "[clang][lit] Don't substitute cir-opt if it's not enabled (#193665)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
