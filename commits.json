@@ -113811,6 +113811,12 @@
             "author_name": "Rose Hudson",
             "commit_date": "2026-04-23T13:34:47+01:00",
             "subject": "[X86][GISel] lower GOT-relative G_GLOBAL_VALUEs (#181983)"
+        },
+        {
+            "hash": "1bcdf716ae23c525d69ae6117567d7085545d9bf",
+            "author_name": "Shilei Tian",
+            "commit_date": "2026-04-23T08:44:32-04:00",
+            "subject": "[AMDGPU] Add a sched group mask for LDSDMA instructions (#190872)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -114495,6 +114501,34 @@
             "author_name": "Jack Styles",
             "commit_date": "2026-04-23T10:10:06+01:00",
             "subject": "Remove func attrs line from lit test"
+        }
+    ],
+    "c-rhodes\/perf\/clang-cgdebuginfo-curloc-compile-time": [
+        {
+            "hash": "f2efeabe314bb0a9b1ef46c07b11f605ed351b9c",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-04-20T09:48:21+01:00",
+            "subject": "[CodeGen] Parse frame-pointer attribute once when creating MachineFunction (#191974)"
+        },
+        {
+            "hash": "2897a841b9c70c08974b535700e38a7fa8793856",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-04-23T12:46:27+00:00",
+            "subject": "[clang][CodeGen] Avoid recomputing current location metadata in CGDebugInfo"
+        }
+    ],
+    "nikic\/perf\/instr-effects": [
+        {
+            "hash": "3f6aa4dd8052003cbf563986f02910c7699f9d21",
+            "author_name": "Phoebe Wang",
+            "commit_date": "2026-04-23T15:14:20+08:00",
+            "subject": "[CodeGen][NFC] Remove InsertPt since it's always the same as MI (#193668)"
+        },
+        {
+            "hash": "bce116e40563e3e647becd1576ee9e568fe5867a",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-04-23T14:49:52+02:00",
+            "subject": "getMemoryEffects on inst"
         }
     ]
 }
