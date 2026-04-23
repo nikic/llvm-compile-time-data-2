@@ -113559,6 +113559,12 @@
             "author_name": "Sergei Druzhkov",
             "commit_date": "2026-04-23T10:31:45+03:00",
             "subject": "[lldb-dap] Add valueLocationReference for member function pointers (#186837)"
+        },
+        {
+            "hash": "8e2c42b3bcb5cc818dd3882a510fb4f3dc5fdfc5",
+            "author_name": "David Sherwood",
+            "commit_date": "2026-04-23T08:35:58+01:00",
+            "subject": "[LV][NFC] Stop running DCE pass in tests (#193521)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -114191,6 +114197,32 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-04-23T09:17:51+02:00",
             "subject": "auto"
+        }
+    ],
+    "Stylie777\/perf\/aarch64-enable-copy-spill-elim": [
+        {
+            "hash": "e1ab08a5bd268c67c119347d89a02fede91c4d0a",
+            "author_name": "Philip Reames",
+            "commit_date": "2026-04-22T07:34:33-07:00",
+            "subject": "[RISCV] Functional llvm.vector.reduce.mul on scalable types (#193094)"
+        },
+        {
+            "hash": "eb71a49726ef34dd3b53c371cede2833eb9c08f5",
+            "author_name": "Jack Styles",
+            "commit_date": "2026-04-23T08:42:52+01:00",
+            "subject": "[AArch64] Enable Spillage Copy Elimination by default"
+        },
+        {
+            "hash": "a9c6bbff07c964ed85561fb0cd537d12c9d0db3e",
+            "author_name": "Jack Styles",
+            "commit_date": "2026-04-23T08:42:52+01:00",
+            "subject": "Add lit test for copy elimination"
+        },
+        {
+            "hash": "27f8a63d65bafa31642511549dbb2c34b196c31e",
+            "author_name": "Jack Styles",
+            "commit_date": "2026-04-23T08:42:53+01:00",
+            "subject": "Remove func attrs line from lit test"
         }
     ]
 }
