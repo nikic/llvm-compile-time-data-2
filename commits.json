@@ -114171,6 +114171,30 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-04-23T10:18:50-07:00",
             "subject": "[ProfCheck] Add test from #193580 to xfail list (#193799)"
+        },
+        {
+            "hash": "56fd2c016fd499d2532cb7cec78c34ee753811af",
+            "author_name": "Amr Hesham",
+            "commit_date": "2026-04-23T19:45:05+02:00",
+            "subject": "[CIR] Upstream __builtin_astype int_to_ptr (#193519)"
+        },
+        {
+            "hash": "ca90ff51125040053d522fd489847878c62ebc1e",
+            "author_name": "Andy Kaylor",
+            "commit_date": "2026-04-23T10:45:54-07:00",
+            "subject": "[CIR] Handle negative offsets in pointer constants (#193624)"
+        },
+        {
+            "hash": "3ec98d6c15bc305e30026f951328c2fdd4e538b1",
+            "author_name": "Andy Kaylor",
+            "commit_date": "2026-04-23T10:46:19-07:00",
+            "subject": "[CIR] Implement handling for destroying delete (#193607)"
+        },
+        {
+            "hash": "c71780cf5879e0070bc40e4fd236ced93b2f50b8",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-04-23T18:48:07+01:00",
+            "subject": "Triple: Add constructor from enum entries (#190632)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -114543,10 +114567,16 @@
             "subject": "[clang][DebugInfo] Cache repeated debug info lookups"
         },
         {
-            "hash": "f0ecdf80c36c71e0702e6e008c17942837e14440",
+            "hash": "570113005f58f2d6a3834585be67da846a1a611f",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-04-23T18:55:01+02:00",
+            "commit_date": "2026-04-23T19:44:01+02:00",
             "subject": "[clang][DebugInfo] Fix template specialization names"
+        },
+        {
+            "hash": "2f5bee274f51d8ee41ffc738950f361d99fa304d",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-04-23T19:52:35+02:00",
+            "subject": "[clang][DebugInfo] Avoid isa in class name lookup"
         }
     ],
     "dtcxzyw\/perf\/fix-explicit-instantiation": [

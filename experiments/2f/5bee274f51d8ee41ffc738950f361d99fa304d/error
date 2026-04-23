@@ -1,0 +1,736 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_test_suite.sh ReleaseLTO-g stage1 " failed
+
+STDOUT:
+loading initial cache file ./llvm-test-suite/cmake/caches/ReleaseLTO-g.cmake
+-- The C compiler identification is Clang 23.0.0
+-- The CXX compiler identification is Clang 23.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /tmp/llvm-project-build-stage1/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /tmp/llvm-project-build-stage1/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Could NOT find OpenMP_C (missing: OpenMP_C_FLAGS OpenMP_C_LIB_NAMES) 
+-- Could NOT find OpenMP_CXX (missing: OpenMP_CXX_FLAGS OpenMP_CXX_LIB_NAMES) 
+-- Could NOT find OpenMP (missing: OpenMP_C_FOUND OpenMP_CXX_FOUND) 
+-- Check target operating system - Linux
+-- Check target system architecture: x86
+-- Check target system architecture: unknown
+-- Adding directory CTMark
+-- Found Intl: built in to C library  
+-- Performing Test COMPILER_HAS_NO_DEFINE_TARGET_OS_MACROS
+-- Performing Test COMPILER_HAS_NO_DEFINE_TARGET_OS_MACROS - Success
+-- Found Tclsh: /bin/tclsh (found version "8.6") 
+-- Could NOT find TCL (missing: TCL_INCLUDE_PATH) 
+-- Could NOT find TCLTK (missing: TCL_INCLUDE_PATH TK_LIBRARY TK_INCLUDE_PATH) 
+-- Could NOT find TK (missing: TK_LIBRARY TK_INCLUDE_PATH) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/llvm-test-suite-build
+ninja: Entering directory `/tmp/llvm-test-suite-build'
+[1/671] Generating ../lit.cfg
+[2/671] Generating timeit-target
+[3/671] Generating HashProgramOutput.sh
+[4/671] Generating timeit
+[5/671] Generating modules/__init__.py
+[6/671] Generating __init__.py
+[7/671] Generating modules/codesize.py
+[8/671] Generating modules/compiletime.py
+[9/671] Generating modules/hash.py
+[10/671] Generating modules/microbenchmark.py
+[11/671] Generating modules/perf.py
+[12/671] Generating modules/hpmcount.py
+[13/671] Generating modules/run.py
+[14/671] Generating modules/profilegen.py
+[15/671] Generating modules/run_under.py
+[16/671] Generating modules/remote.py
+[17/671] Generating modules/stats.py
+[18/671] Generating shellcommand.py
+[19/671] Generating test.py
+[20/671] Generating modules/timeit.py
+[21/671] Generating testplan.py
+[22/671] Generating testfile.py
+[23/671] [TEST_SUITE_HOST_CC] Compiling host source fpcmp.c
+[24/671] [TEST_SUITE_HOST_CC] Linking host executable fpcmp
+[25/671] Building C object tools/CMakeFiles/fpcmp-target.dir/fpcmp.c.o
+[26/671] Building CXX object tools/CMakeFiles/not.dir/not.cpp.o
+FAILED: tools/CMakeFiles/not.dir/not.cpp.o 
+/tmp/llvm-project-build-stage1/bin/clang++ -DNDEBUG  -O3 -fomit-frame-pointer -flto -DNDEBUG -g   -w -Werror=date-time -MD -MT tools/CMakeFiles/not.dir/not.cpp.o -MF tools/CMakeFiles/not.dir/not.cpp.o.d -o tools/CMakeFiles/not.dir/not.cpp.o -c /var/llvm-compile-time-tracker/llvm-test-suite/tools/not.cpp
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ -DNDEBUG -O3 -fomit-frame-pointer -flto -DNDEBUG -g -w -Werror=date-time -MD -MT tools/CMakeFiles/not.dir/not.cpp.o -MF tools/CMakeFiles/not.dir/not.cpp.o.d -o tools/CMakeFiles/not.dir/not.cpp.o -c /var/llvm-compile-time-tracker/llvm-test-suite/tools/not.cpp
+1.	/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/memoryfwd.h:50:1: current parser token 'namespace'
+2.	/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstdlib:121:8: LLVM IR generation of declaration
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x000055e4e2c5af00 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 240
+1  clang++   0x000055e4e2c58a94 llvm::sys::CleanupOnSignal(unsigned long) + 164
+2  clang++   0x000055e4e2b98738
+3  libc.so.6 0x00007f0093838520
+4  clang++   0x000055e4e304cbc9 clang::CodeGen::CGDebugInfo::getOrCreateRecordFwdDecl(clang::RecordType const*, llvm::DIScope*) + 297
+5  clang++   0x000055e4e30467b0 clang::CodeGen::CGDebugInfo::getOrCreateType(clang::QualType, llvm::DIFile*) + 1136
+6  clang++   0x000055e4e305c14b clang::CodeGen::CGDebugInfo::CreateType(clang::TypedefType const*, llvm::DIFile*) + 59
+7  clang++   0x000055e4e30467b0 clang::CodeGen::CGDebugInfo::getOrCreateType(clang::QualType, llvm::DIFile*) + 1136
+8  clang++   0x000055e4e3063504 clang::CodeGen::CGDebugInfo::EmitUsingShadowDecl(clang::UsingShadowDecl const&) + 132
+9  clang++   0x000055e4e32ece4f clang::CodeGen::CodeGenModule::EmitDeclContext(clang::DeclContext const*) + 223
+10 clang++   0x000055e4e32ece4f clang::CodeGen::CodeGenModule::EmitDeclContext(clang::DeclContext const*) + 223
+11 clang++   0x000055e4e3654399
+12 clang++   0x000055e4e3640347 clang::BackendConsumer::HandleTopLevelDecl(clang::DeclGroupRef) + 151
+13 clang++   0x000055e4e4b0c2e4 clang::ParseAST(clang::Sema&, bool, bool) + 564
+14 clang++   0x000055e4e39be29e clang::FrontendAction::Execute() + 46
+15 clang++   0x000055e4e392aceb clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 555
+16 clang++   0x000055e4e3aa7fa8 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+17 clang++   0x000055e4e13f594e cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 2430
+18 clang++   0x000055e4e13ed7cb
+19 clang++   0x000055e4e13ed87f
+20 clang++   0x000055e4e36c444d
+21 clang++   0x000055e4e2b98ad7 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+22 clang++   0x000055e4e36c47e7
+23 clang++   0x000055e4e3683137 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+24 clang++   0x000055e4e3684159 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 153
+25 clang++   0x000055e4e36957cc clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+26 clang++   0x000055e4e13f251f clang_main(int, char**, llvm::ToolContext const&) + 7839
+27 clang++   0x000055e4e12f84a1 main + 113
+28 libc.so.6 0x00007f009381fd90
+29 libc.so.6 0x00007f009381fe40 __libc_start_main + 128
+30 clang++   0x000055e4e13ed245 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang++: note: diagnostic msg: /tmp/not-f3b6a3.cpp
+clang++: note: diagnostic msg: /tmp/not-f3b6a3.sh
+clang++: note: diagnostic msg: 
+
+********************
+Segmentation fault (core dumped)
+[27/671] Linking C executable tools/fpcmp-target
+[28/671] Generating sqlite test inputs
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_test_suite.sh O0-g stage1 " failed
+
+STDOUT:
+11 clang++   0x000055fed7db6399
+12 clang++   0x000055fed7da2347 clang::BackendConsumer::HandleTopLevelDecl(clang::DeclGroupRef) + 151
+13 clang++   0x000055fed926e2e4 clang::ParseAST(clang::Sema&, bool, bool) + 564
+14 clang++   0x000055fed812029e clang::FrontendAction::Execute() + 46
+15 clang++   0x000055fed808cceb clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 555
+16 clang++   0x000055fed8209fa8 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+17 clang++   0x000055fed5b5794e cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 2430
+18 clang++   0x000055fed5b4f7cb
+19 clang++   0x000055fed5b4f87f
+20 clang++   0x000055fed7e2644d
+21 clang++   0x000055fed72faad7 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+22 clang++   0x000055fed7e267e7
+23 clang++   0x000055fed7de5137 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+24 clang++   0x000055fed7de6159 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 153
+25 clang++   0x000055fed7df77cc clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+26 clang++   0x000055fed5b5451f clang_main(int, char**, llvm::ToolContext const&) + 7839
+27 clang++   0x000055fed5a5a4a1 main + 113
+28 libc.so.6 0x00007f37526c1d90
+29 libc.so.6 0x00007f37526c1e40 __libc_start_main + 128
+30 clang++   0x000055fed5b4f245 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang++: note: diagnostic msg: /tmp/mySplitCommandLine-bd7e3f.cpp
+clang++: note: diagnostic msg: /tmp/mySplitCommandLine-bd7e3f.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[31/671] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ -DNDEBUG -O0 -g -w -Werror=date-time -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -Wno-error=narrowing -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -MD -MT CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o -MF CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o.d -o CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o -c /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/7zip/UI/Console/BenchCon.cpp
+1.	/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/stdlib.h:38:1: current parser token 'using'
+2.	/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstdlib:121:8: LLVM IR generation of declaration
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x000055f9eea88f00 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 240
+1  clang++   0x000055f9eea86a94 llvm::sys::CleanupOnSignal(unsigned long) + 164
+2  clang++   0x000055f9ee9c6738
+3  libc.so.6 0x00007fddc463f520
+4  clang++   0x000055f9eee7abc9 clang::CodeGen::CGDebugInfo::getOrCreateRecordFwdDecl(clang::RecordType const*, llvm::DIScope*) + 297
+5  clang++   0x000055f9eee747b0 clang::CodeGen::CGDebugInfo::getOrCreateType(clang::QualType, llvm::DIFile*) + 1136
+6  clang++   0x000055f9eee8a14b clang::CodeGen::CGDebugInfo::CreateType(clang::TypedefType const*, llvm::DIFile*) + 59
+7  clang++   0x000055f9eee747b0 clang::CodeGen::CGDebugInfo::getOrCreateType(clang::QualType, llvm::DIFile*) + 1136
+8  clang++   0x000055f9eee91504 clang::CodeGen::CGDebugInfo::EmitUsingShadowDecl(clang::UsingShadowDecl const&) + 132
+9  clang++   0x000055f9ef11ae4f clang::CodeGen::CodeGenModule::EmitDeclContext(clang::DeclContext const*) + 223
+10 clang++   0x000055f9ef11ae4f clang::CodeGen::CodeGenModule::EmitDeclContext(clang::DeclContext const*) + 223
+11 clang++   0x000055f9ef482399
+12 clang++   0x000055f9ef46e347 clang::BackendConsumer::HandleTopLevelDecl(clang::DeclGroupRef) + 151
+13 clang++   0x000055f9f093a2e4 clang::ParseAST(clang::Sema&, bool, bool) + 564
+14 clang++   0x000055f9ef7ec29e clang::FrontendAction::Execute() + 46
+15 clang++   0x000055f9ef758ceb clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 555
+16 clang++   0x000055f9ef8d5fa8 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+17 clang++   0x000055f9ed22394e cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 2430
+18 clang++   0x000055f9ed21b7cb
+19 clang++   0x000055f9ed21b87f
+20 clang++   0x000055f9ef4f244d
+21 clang++   0x000055f9ee9c6ad7 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+22 clang++   0x000055f9ef4f27e7
+23 clang++   0x000055f9ef4b1137 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+24 clang++   0x000055f9ef4b2159 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 153
+25 clang++   0x000055f9ef4c37cc clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+26 clang++   0x000055f9ed22051f clang_main(int, char**, llvm::ToolContext const&) + 7839
+27 clang++   0x000055f9ed1264a1 main + 113
+28 libc.so.6 0x00007fddc4626d90
+29 libc.so.6 0x00007fddc4626e40 __libc_start_main + 128
+30 clang++   0x000055f9ed21b245 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang++: note: diagnostic msg: /tmp/BenchCon-775e7f.cpp
+clang++: note: diagnostic msg: /tmp/BenchCon-775e7f.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[32/671] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myGetTickCount.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ -DNDEBUG -O0 -g -w -Werror=date-time -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -Wno-error=narrowing -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -MD -MT CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myGetTickCount.cpp.o -MF CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myGetTickCount.cpp.o.d -o CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myGetTickCount.cpp.o -c /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows/myGetTickCount.cpp
+1.	/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/stdlib.h:38:1: current parser token 'using'
+2.	/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstdlib:121:8: LLVM IR generation of declaration
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x000055c4866ddf00 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 240
+1  clang++   0x000055c4866dba94 llvm::sys::CleanupOnSignal(unsigned long) + 164
+2  clang++   0x000055c48661b738
+3  libc.so.6 0x00007f6a60cb7520
+4  clang++   0x000055c486acfbc9 clang::CodeGen::CGDebugInfo::getOrCreateRecordFwdDecl(clang::RecordType const*, llvm::DIScope*) + 297
+5  clang++   0x000055c486ac97b0 clang::CodeGen::CGDebugInfo::getOrCreateType(clang::QualType, llvm::DIFile*) + 1136
+6  clang++   0x000055c486adf14b clang::CodeGen::CGDebugInfo::CreateType(clang::TypedefType const*, llvm::DIFile*) + 59
+7  clang++   0x000055c486ac97b0 clang::CodeGen::CGDebugInfo::getOrCreateType(clang::QualType, llvm::DIFile*) + 1136
+8  clang++   0x000055c486ae6504 clang::CodeGen::CGDebugInfo::EmitUsingShadowDecl(clang::UsingShadowDecl const&) + 132
+9  clang++   0x000055c486d6fe4f clang::CodeGen::CodeGenModule::EmitDeclContext(clang::DeclContext const*) + 223
+10 clang++   0x000055c486d6fe4f clang::CodeGen::CodeGenModule::EmitDeclContext(clang::DeclContext const*) + 223
+11 clang++   0x000055c4870d7399
+12 clang++   0x000055c4870c3347 clang::BackendConsumer::HandleTopLevelDecl(clang::DeclGroupRef) + 151
+13 clang++   0x000055c48858f2e4 clang::ParseAST(clang::Sema&, bool, bool) + 564
+14 clang++   0x000055c48744129e clang::FrontendAction::Execute() + 46
+15 clang++   0x000055c4873adceb clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 555
+16 clang++   0x000055c48752afa8 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+17 clang++   0x000055c484e7894e cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 2430
+18 clang++   0x000055c484e707cb
+19 clang++   0x000055c484e7087f
+20 clang++   0x000055c48714744d
+21 clang++   0x000055c48661bad7 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+22 clang++   0x000055c4871477e7
+23 clang++   0x000055c487106137 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+24 clang++   0x000055c487107159 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 153
+25 clang++   0x000055c4871187cc clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+26 clang++   0x000055c484e7551f clang_main(int, char**, llvm::ToolContext const&) + 7839
+27 clang++   0x000055c484d7b4a1 main + 113
+28 libc.so.6 0x00007f6a60c9ed90
+29 libc.so.6 0x00007f6a60c9ee40 __libc_start_main + 128
+30 clang++   0x000055c484e70245 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang++: note: diagnostic msg: /tmp/myGetTickCount-e9f749.cpp
+clang++: note: diagnostic msg: /tmp/myGetTickCount-e9f749.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[33/671] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ -DNDEBUG -O0 -g -w -Werror=date-time -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -Wno-error=narrowing -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -MD -MT CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o -MF CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o.d -o CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o -c /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows/myAddExeFlag.cpp
+1.	/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/stdlib.h:38:1: current parser token 'using'
+2.	/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstdlib:121:8: LLVM IR generation of declaration
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x000055e47be5ff00 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 240
+1  clang++   0x000055e47be5da94 llvm::sys::CleanupOnSignal(unsigned long) + 164
+2  clang++   0x000055e47bd9d738
+3  libc.so.6 0x00007f3a1dbf4520
+4  clang++   0x000055e47c251bc9 clang::CodeGen::CGDebugInfo::getOrCreateRecordFwdDecl(clang::RecordType const*, llvm::DIScope*) + 297
+5  clang++   0x000055e47c24b7b0 clang::CodeGen::CGDebugInfo::getOrCreateType(clang::QualType, llvm::DIFile*) + 1136
+6  clang++   0x000055e47c26114b clang::CodeGen::CGDebugInfo::CreateType(clang::TypedefType const*, llvm::DIFile*) + 59
+7  clang++   0x000055e47c24b7b0 clang::CodeGen::CGDebugInfo::getOrCreateType(clang::QualType, llvm::DIFile*) + 1136
+8  clang++   0x000055e47c268504 clang::CodeGen::CGDebugInfo::EmitUsingShadowDecl(clang::UsingShadowDecl const&) + 132
+9  clang++   0x000055e47c4f1e4f clang::CodeGen::CodeGenModule::EmitDeclContext(clang::DeclContext const*) + 223
+10 clang++   0x000055e47c4f1e4f clang::CodeGen::CodeGenModule::EmitDeclContext(clang::DeclContext const*) + 223
+11 clang++   0x000055e47c859399
+12 clang++   0x000055e47c845347 clang::BackendConsumer::HandleTopLevelDecl(clang::DeclGroupRef) + 151
+13 clang++   0x000055e47dd112e4 clang::ParseAST(clang::Sema&, bool, bool) + 564
+14 clang++   0x000055e47cbc329e clang::FrontendAction::Execute() + 46
+15 clang++   0x000055e47cb2fceb clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 555
+16 clang++   0x000055e47ccacfa8 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+17 clang++   0x000055e47a5fa94e cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 2430
+18 clang++   0x000055e47a5f27cb
+19 clang++   0x000055e47a5f287f
+20 clang++   0x000055e47c8c944d
+21 clang++   0x000055e47bd9dad7 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+22 clang++   0x000055e47c8c97e7
+23 clang++   0x000055e47c888137 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+24 clang++   0x000055e47c889159 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 153
+25 clang++   0x000055e47c89a7cc clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+26 clang++   0x000055e47a5f751f clang_main(int, char**, llvm::ToolContext const&) + 7839
+27 clang++   0x000055e47a4fd4a1 main + 113
+28 libc.so.6 0x00007f3a1dbdbd90
+29 libc.so.6 0x00007f3a1dbdbe40 __libc_start_main + 128
+30 clang++   0x000055e47a5f2245 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang++: note: diagnostic msg: /tmp/myAddExeFlag-9287b3.cpp
+clang++: note: diagnostic msg: /tmp/myAddExeFlag-9287b3.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_test_suite.sh O0-g stage1 aarch64" failed
+
+STDOUT:
+12 clang++   0x0000560b35d69347 clang::BackendConsumer::HandleTopLevelDecl(clang::DeclGroupRef) + 151
+13 clang++   0x0000560b372352e4 clang::ParseAST(clang::Sema&, bool, bool) + 564
+14 clang++   0x0000560b360e729e clang::FrontendAction::Execute() + 46
+15 clang++   0x0000560b36053ceb clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 555
+16 clang++   0x0000560b361d0fa8 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+17 clang++   0x0000560b33b1e94e cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 2430
+18 clang++   0x0000560b33b167cb
+19 clang++   0x0000560b33b1687f
+20 clang++   0x0000560b35ded44d
+21 clang++   0x0000560b352c1ad7 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+22 clang++   0x0000560b35ded7e7
+23 clang++   0x0000560b35dac137 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+24 clang++   0x0000560b35dad159 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 153
+25 clang++   0x0000560b35dbe7cc clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+26 clang++   0x0000560b33b1b51f clang_main(int, char**, llvm::ToolContext const&) + 7839
+27 clang++   0x0000560b33a214a1 main + 113
+28 libc.so.6 0x00007ff4068d1d90
+29 libc.so.6 0x00007ff4068d1e40 __libc_start_main + 128
+30 clang++   0x0000560b33b16245 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang++: note: diagnostic msg: /tmp/myGetTickCount-1f4f08.cpp
+clang++: note: diagnostic msg: /tmp/myGetTickCount-1f4f08.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[30/671] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ --target=aarch64-linux-gnu -DNDEBUG -O0 -g -w -Werror=date-time -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -Wno-error=narrowing -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -MD -MT CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o -MF CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o.d -o CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o -c /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/7zip/UI/Console/BenchCon.cpp
+1.	/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include/c++/11/stdlib.h:38:1: current parser token 'using'
+2.	/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include/c++/11/cstdlib:121:8: LLVM IR generation of declaration
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x00005632c5ce2f00 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 240
+1  clang++   0x00005632c5ce0a94 llvm::sys::CleanupOnSignal(unsigned long) + 164
+2  clang++   0x00005632c5c20738
+3  libc.so.6 0x00007f98aabe1520
+4  clang++   0x00005632c60d4bc9 clang::CodeGen::CGDebugInfo::getOrCreateRecordFwdDecl(clang::RecordType const*, llvm::DIScope*) + 297
+5  clang++   0x00005632c60ce7b0 clang::CodeGen::CGDebugInfo::getOrCreateType(clang::QualType, llvm::DIFile*) + 1136
+6  clang++   0x00005632c60e414b clang::CodeGen::CGDebugInfo::CreateType(clang::TypedefType const*, llvm::DIFile*) + 59
+7  clang++   0x00005632c60ce7b0 clang::CodeGen::CGDebugInfo::getOrCreateType(clang::QualType, llvm::DIFile*) + 1136
+8  clang++   0x00005632c60eb504 clang::CodeGen::CGDebugInfo::EmitUsingShadowDecl(clang::UsingShadowDecl const&) + 132
+9  clang++   0x00005632c6374e4f clang::CodeGen::CodeGenModule::EmitDeclContext(clang::DeclContext const*) + 223
+10 clang++   0x00005632c6374e4f clang::CodeGen::CodeGenModule::EmitDeclContext(clang::DeclContext const*) + 223
+11 clang++   0x00005632c66dc399
+12 clang++   0x00005632c66c8347 clang::BackendConsumer::HandleTopLevelDecl(clang::DeclGroupRef) + 151
+13 clang++   0x00005632c7b942e4 clang::ParseAST(clang::Sema&, bool, bool) + 564
+14 clang++   0x00005632c6a4629e clang::FrontendAction::Execute() + 46
+15 clang++   0x00005632c69b2ceb clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 555
+16 clang++   0x00005632c6b2ffa8 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+17 clang++   0x00005632c447d94e cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 2430
+18 clang++   0x00005632c44757cb
+19 clang++   0x00005632c447587f
+20 clang++   0x00005632c674c44d
+21 clang++   0x00005632c5c20ad7 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+22 clang++   0x00005632c674c7e7
+23 clang++   0x00005632c670b137 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+24 clang++   0x00005632c670c159 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 153
+25 clang++   0x00005632c671d7cc clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+26 clang++   0x00005632c447a51f clang_main(int, char**, llvm::ToolContext const&) + 7839
+27 clang++   0x00005632c43804a1 main + 113
+28 libc.so.6 0x00007f98aabc8d90
+29 libc.so.6 0x00007f98aabc8e40 __libc_start_main + 128
+30 clang++   0x00005632c4475245 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang++: note: diagnostic msg: /tmp/BenchCon-ae2348.cpp
+clang++: note: diagnostic msg: /tmp/BenchCon-ae2348.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[31/671] Generating sqlite test inputs
+[32/671] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/mySplitCommandLine.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ --target=aarch64-linux-gnu -DNDEBUG -O0 -g -w -Werror=date-time -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -Wno-error=narrowing -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -MD -MT CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/mySplitCommandLine.cpp.o -MF CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/mySplitCommandLine.cpp.o.d -o CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/mySplitCommandLine.cpp.o -c /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows/mySplitCommandLine.cpp
+1.	/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include/c++/11/stdlib.h:38:1: current parser token 'using'
+2.	/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include/c++/11/cstdlib:121:8: LLVM IR generation of declaration
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x0000557c5f553f00 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 240
+1  clang++   0x0000557c5f551a94 llvm::sys::CleanupOnSignal(unsigned long) + 164
+2  clang++   0x0000557c5f491738
+3  libc.so.6 0x00007fad48046520
+4  clang++   0x0000557c5f945bc9 clang::CodeGen::CGDebugInfo::getOrCreateRecordFwdDecl(clang::RecordType const*, llvm::DIScope*) + 297
+5  clang++   0x0000557c5f93f7b0 clang::CodeGen::CGDebugInfo::getOrCreateType(clang::QualType, llvm::DIFile*) + 1136
+6  clang++   0x0000557c5f95514b clang::CodeGen::CGDebugInfo::CreateType(clang::TypedefType const*, llvm::DIFile*) + 59
+7  clang++   0x0000557c5f93f7b0 clang::CodeGen::CGDebugInfo::getOrCreateType(clang::QualType, llvm::DIFile*) + 1136
+8  clang++   0x0000557c5f95c504 clang::CodeGen::CGDebugInfo::EmitUsingShadowDecl(clang::UsingShadowDecl const&) + 132
+9  clang++   0x0000557c5fbe5e4f clang::CodeGen::CodeGenModule::EmitDeclContext(clang::DeclContext const*) + 223
+10 clang++   0x0000557c5fbe5e4f clang::CodeGen::CodeGenModule::EmitDeclContext(clang::DeclContext const*) + 223
+11 clang++   0x0000557c5ff4d399
+12 clang++   0x0000557c5ff39347 clang::BackendConsumer::HandleTopLevelDecl(clang::DeclGroupRef) + 151
+13 clang++   0x0000557c614052e4 clang::ParseAST(clang::Sema&, bool, bool) + 564
+14 clang++   0x0000557c602b729e clang::FrontendAction::Execute() + 46
+15 clang++   0x0000557c60223ceb clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 555
+16 clang++   0x0000557c603a0fa8 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+17 clang++   0x0000557c5dcee94e cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 2430
+18 clang++   0x0000557c5dce67cb
+19 clang++   0x0000557c5dce687f
+20 clang++   0x0000557c5ffbd44d
+21 clang++   0x0000557c5f491ad7 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+22 clang++   0x0000557c5ffbd7e7
+23 clang++   0x0000557c5ff7c137 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+24 clang++   0x0000557c5ff7d159 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 153
+25 clang++   0x0000557c5ff8e7cc clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+26 clang++   0x0000557c5dceb51f clang_main(int, char**, llvm::ToolContext const&) + 7839
+27 clang++   0x0000557c5dbf14a1 main + 113
+28 libc.so.6 0x00007fad4802dd90
+29 libc.so.6 0x00007fad4802de40 __libc_start_main + 128
+30 clang++   0x0000557c5dce6245 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang++: note: diagnostic msg: /tmp/mySplitCommandLine-61f514.cpp
+clang++: note: diagnostic msg: /tmp/mySplitCommandLine-61f514.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[33/671] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ --target=aarch64-linux-gnu -DNDEBUG -O0 -g -w -Werror=date-time -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -Wno-error=narrowing -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -MD -MT CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o -MF CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o.d -o CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o -c /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows/myAddExeFlag.cpp
+1.	/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include/c++/11/stdlib.h:38:1: current parser token 'using'
+2.	/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/include/c++/11/cstdlib:121:8: LLVM IR generation of declaration
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x000055bb6427af00 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 240
+1  clang++   0x000055bb64278a94 llvm::sys::CleanupOnSignal(unsigned long) + 164
+2  clang++   0x000055bb641b8738
+3  libc.so.6 0x00007f52bb63d520
+4  clang++   0x000055bb6466cbc9 clang::CodeGen::CGDebugInfo::getOrCreateRecordFwdDecl(clang::RecordType const*, llvm::DIScope*) + 297
+5  clang++   0x000055bb646667b0 clang::CodeGen::CGDebugInfo::getOrCreateType(clang::QualType, llvm::DIFile*) + 1136
+6  clang++   0x000055bb6467c14b clang::CodeGen::CGDebugInfo::CreateType(clang::TypedefType const*, llvm::DIFile*) + 59
+7  clang++   0x000055bb646667b0 clang::CodeGen::CGDebugInfo::getOrCreateType(clang::QualType, llvm::DIFile*) + 1136
+8  clang++   0x000055bb64683504 clang::CodeGen::CGDebugInfo::EmitUsingShadowDecl(clang::UsingShadowDecl const&) + 132
+9  clang++   0x000055bb6490ce4f clang::CodeGen::CodeGenModule::EmitDeclContext(clang::DeclContext const*) + 223
+10 clang++   0x000055bb6490ce4f clang::CodeGen::CodeGenModule::EmitDeclContext(clang::DeclContext const*) + 223
+11 clang++   0x000055bb64c74399
+12 clang++   0x000055bb64c60347 clang::BackendConsumer::HandleTopLevelDecl(clang::DeclGroupRef) + 151
+13 clang++   0x000055bb6612c2e4 clang::ParseAST(clang::Sema&, bool, bool) + 564
+14 clang++   0x000055bb64fde29e clang::FrontendAction::Execute() + 46
+15 clang++   0x000055bb64f4aceb clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 555
+16 clang++   0x000055bb650c7fa8 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+17 clang++   0x000055bb62a1594e cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 2430
+18 clang++   0x000055bb62a0d7cb
+19 clang++   0x000055bb62a0d87f
+20 clang++   0x000055bb64ce444d
+21 clang++   0x000055bb641b8ad7 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+22 clang++   0x000055bb64ce47e7
+23 clang++   0x000055bb64ca3137 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+24 clang++   0x000055bb64ca4159 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 153
+25 clang++   0x000055bb64cb57cc clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+26 clang++   0x000055bb62a1251f clang_main(int, char**, llvm::ToolContext const&) + 7839
+27 clang++   0x000055bb629184a1 main + 113
+28 libc.so.6 0x00007f52bb624d90
+29 libc.so.6 0x00007f52bb624e40 __libc_start_main + 128
+30 clang++   0x000055bb62a0d245 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang++: note: diagnostic msg: /tmp/myAddExeFlag-8d415d.cpp
+clang++: note: diagnostic msg: /tmp/myAddExeFlag-8d415d.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_test_suite.sh O0-g stage2 " failed
+
+STDOUT:
+16 clang++   0x000055bef33986d0 clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 1200
+17 clang++   0x000055bef35c5410 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 704
+18 clang++   0x000055bef11da80d cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 7213
+19 clang++   0x000055bef11d71d0
+20 clang++   0x000055bef11d8b0d
+21 clang++   0x000055bef31afa79
+22 clang++   0x000055bef2524228 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 136
+23 clang++   0x000055bef31af6b4 clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const + 356
+24 clang++   0x000055bef3168047 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 535
+25 clang++   0x000055bef316821e clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 126
+26 clang++   0x000055bef318a75c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 460
+27 clang++   0x000055bef11d67a9 clang_main(int, char**, llvm::ToolContext const&) + 7833
+28 clang++   0x000055bef11e7bb0 main + 96
+29 libc.so.6 0x00007ff408677d90
+30 libc.so.6 0x00007ff408677e40 __libc_start_main + 128
+31 clang++   0x000055bef11c59e5 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage2/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang++: note: diagnostic msg: /tmp/myGetTickCount-aa50df.cpp
+clang++: note: diagnostic msg: /tmp/myGetTickCount-aa50df.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage2/bin/clang++: Segmentation fault
+[30/671] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/mySplitCommandLine.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage2/bin/clang++ -DNDEBUG -O0 -g -w -Werror=date-time -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -Wno-error=narrowing -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -MD -MT CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/mySplitCommandLine.cpp.o -MF CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/mySplitCommandLine.cpp.o.d -o CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/mySplitCommandLine.cpp.o -c /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows/mySplitCommandLine.cpp
+1.	/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/stdlib.h:38:1: current parser token 'using'
+2.	/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstdlib:121:8: LLVM IR generation of declaration
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x00005584631e27c8 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 40
+1  clang++   0x00005584631def55 llvm::sys::RunSignalHandlers() + 293
+2  clang++   0x0000558463137677
+3  libc.so.6 0x00007f4c5f134520
+4  clang++   0x00005584634f9539 clang::CodeGen::CGDebugInfo::getClassName(clang::RecordDecl const*, bool*) + 153
+5  clang++   0x00005584634fdc75 clang::CodeGen::CGDebugInfo::getOrCreateRecordFwdDecl(clang::RecordType const*, llvm::DIScope*) + 389
+6  clang++   0x00005584634f8163 clang::CodeGen::CGDebugInfo::getOrCreateType(clang::QualType, llvm::DIFile*) + 1219
+7  clang++   0x00005584635016df clang::CodeGen::CGDebugInfo::CreateType(clang::TypedefType const*, llvm::DIFile*) + 47
+8  clang++   0x00005584634f8163 clang::CodeGen::CGDebugInfo::getOrCreateType(clang::QualType, llvm::DIFile*) + 1219
+9  clang++   0x000055846351b0b1 clang::CodeGen::CGDebugInfo::EmitUsingShadowDecl(clang::UsingShadowDecl const&) + 113
+10 clang++   0x000055846347492b clang::CodeGen::CodeGenModule::EmitDeclContext(clang::DeclContext const*) + 59
+11 clang++   0x000055846347492b clang::CodeGen::CodeGenModule::EmitDeclContext(clang::DeclContext const*) + 59
+12 clang++   0x0000558463a7b72c
+13 clang++   0x0000558463a72de7 clang::BackendConsumer::HandleTopLevelDecl(clang::DeclGroupRef) + 311
+14 clang++   0x000055846544099a clang::ParseAST(clang::Sema&, bool, bool) + 1114
+15 clang++   0x00005584640c15ed clang::FrontendAction::Execute() + 29
+16 clang++   0x0000558463fab6d0 clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 1200
+17 clang++   0x00005584641d8410 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 704
+18 clang++   0x0000558461ded80d cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 7213
+19 clang++   0x0000558461dea1d0
+20 clang++   0x0000558461debb0d
+21 clang++   0x0000558463dc2a79
+22 clang++   0x0000558463137228 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 136
+23 clang++   0x0000558463dc26b4 clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const + 356
+24 clang++   0x0000558463d7b047 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 535
+25 clang++   0x0000558463d7b21e clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 126
+26 clang++   0x0000558463d9d75c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 460
+27 clang++   0x0000558461de97a9 clang_main(int, char**, llvm::ToolContext const&) + 7833
+28 clang++   0x0000558461dfabb0 main + 96
+29 libc.so.6 0x00007f4c5f11bd90
+30 libc.so.6 0x00007f4c5f11be40 __libc_start_main + 128
+31 clang++   0x0000558461dd89e5 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage2/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang++: note: diagnostic msg: /tmp/mySplitCommandLine-8d229b.cpp
+clang++: note: diagnostic msg: /tmp/mySplitCommandLine-8d229b.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage2/bin/clang++: Segmentation fault
+[31/671] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage2/bin/clang++ -DNDEBUG -O0 -g -w -Werror=date-time -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -Wno-error=narrowing -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -MD -MT CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o -MF CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o.d -o CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/7zip/UI/Console/BenchCon.cpp.o -c /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/7zip/UI/Console/BenchCon.cpp
+1.	/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/stdlib.h:38:1: current parser token 'using'
+2.	/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstdlib:121:8: LLVM IR generation of declaration
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x000055a773a2a7c8 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 40
+1  clang++   0x000055a773a26f55 llvm::sys::RunSignalHandlers() + 293
+2  clang++   0x000055a77397f677
+3  libc.so.6 0x00007f71db04d520
+4  clang++   0x000055a773d41539 clang::CodeGen::CGDebugInfo::getClassName(clang::RecordDecl const*, bool*) + 153
+5  clang++   0x000055a773d45c75 clang::CodeGen::CGDebugInfo::getOrCreateRecordFwdDecl(clang::RecordType const*, llvm::DIScope*) + 389
+6  clang++   0x000055a773d40163 clang::CodeGen::CGDebugInfo::getOrCreateType(clang::QualType, llvm::DIFile*) + 1219
+7  clang++   0x000055a773d496df clang::CodeGen::CGDebugInfo::CreateType(clang::TypedefType const*, llvm::DIFile*) + 47
+8  clang++   0x000055a773d40163 clang::CodeGen::CGDebugInfo::getOrCreateType(clang::QualType, llvm::DIFile*) + 1219
+9  clang++   0x000055a773d630b1 clang::CodeGen::CGDebugInfo::EmitUsingShadowDecl(clang::UsingShadowDecl const&) + 113
+10 clang++   0x000055a773cbc92b clang::CodeGen::CodeGenModule::EmitDeclContext(clang::DeclContext const*) + 59
+11 clang++   0x000055a773cbc92b clang::CodeGen::CodeGenModule::EmitDeclContext(clang::DeclContext const*) + 59
+12 clang++   0x000055a7742c372c
+13 clang++   0x000055a7742bade7 clang::BackendConsumer::HandleTopLevelDecl(clang::DeclGroupRef) + 311
+14 clang++   0x000055a775c8899a clang::ParseAST(clang::Sema&, bool, bool) + 1114
+15 clang++   0x000055a7749095ed clang::FrontendAction::Execute() + 29
+16 clang++   0x000055a7747f36d0 clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 1200
+17 clang++   0x000055a774a20410 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 704
+18 clang++   0x000055a77263580d cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 7213
+19 clang++   0x000055a7726321d0
+20 clang++   0x000055a772633b0d
+21 clang++   0x000055a77460aa79
+22 clang++   0x000055a77397f228 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 136
+23 clang++   0x000055a77460a6b4 clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const + 356
+24 clang++   0x000055a7745c3047 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 535
+25 clang++   0x000055a7745c321e clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 126
+26 clang++   0x000055a7745e575c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 460
+27 clang++   0x000055a7726317a9 clang_main(int, char**, llvm::ToolContext const&) + 7833
+28 clang++   0x000055a772642bb0 main + 96
+29 libc.so.6 0x00007f71db034d90
+30 libc.so.6 0x00007f71db034e40 __libc_start_main + 128
+31 clang++   0x000055a7726209e5 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage2/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang++: note: diagnostic msg: /tmp/BenchCon-3e3989.cpp
+clang++: note: diagnostic msg: /tmp/BenchCon-3e3989.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage2/bin/clang++: Segmentation fault
+[32/671] Generating sqlite test inputs
+[33/671] Building CXX object CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage2/bin/clang++ -DNDEBUG -O0 -g -w -Werror=date-time -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -Wno-error=narrowing -DBREAK_HANDLER -DUNICODE -D_UNICODE -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/C -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/include_windows -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DNDEBUG -D_REENTRANT -DENV_UNIX -D_7ZIP_LARGE_PAGES -pthread -MD -MT CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o -MF CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o.d -o CTMark/7zip/CMakeFiles/7zip-benchmark.dir/CPP/myWindows/myAddExeFlag.cpp.o -c /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/7zip/CPP/myWindows/myAddExeFlag.cpp
+1.	/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/stdlib.h:38:1: current parser token 'using'
+2.	/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstdlib:121:8: LLVM IR generation of declaration
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x0000560aeaa767c8 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 40
+1  clang++   0x0000560aeaa72f55 llvm::sys::RunSignalHandlers() + 293
+2  clang++   0x0000560aea9cb677
+3  libc.so.6 0x00007f4205f01520
+4  clang++   0x0000560aead8d539 clang::CodeGen::CGDebugInfo::getClassName(clang::RecordDecl const*, bool*) + 153
+5  clang++   0x0000560aead91c75 clang::CodeGen::CGDebugInfo::getOrCreateRecordFwdDecl(clang::RecordType const*, llvm::DIScope*) + 389
+6  clang++   0x0000560aead8c163 clang::CodeGen::CGDebugInfo::getOrCreateType(clang::QualType, llvm::DIFile*) + 1219
+7  clang++   0x0000560aead956df clang::CodeGen::CGDebugInfo::CreateType(clang::TypedefType const*, llvm::DIFile*) + 47
+8  clang++   0x0000560aead8c163 clang::CodeGen::CGDebugInfo::getOrCreateType(clang::QualType, llvm::DIFile*) + 1219
+9  clang++   0x0000560aeadaf0b1 clang::CodeGen::CGDebugInfo::EmitUsingShadowDecl(clang::UsingShadowDecl const&) + 113
+10 clang++   0x0000560aead0892b clang::CodeGen::CodeGenModule::EmitDeclContext(clang::DeclContext const*) + 59
+11 clang++   0x0000560aead0892b clang::CodeGen::CodeGenModule::EmitDeclContext(clang::DeclContext const*) + 59
+12 clang++   0x0000560aeb30f72c
+13 clang++   0x0000560aeb306de7 clang::BackendConsumer::HandleTopLevelDecl(clang::DeclGroupRef) + 311
+14 clang++   0x0000560aeccd499a clang::ParseAST(clang::Sema&, bool, bool) + 1114
+15 clang++   0x0000560aeb9555ed clang::FrontendAction::Execute() + 29
+16 clang++   0x0000560aeb83f6d0 clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 1200
+17 clang++   0x0000560aeba6c410 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 704
+18 clang++   0x0000560ae968180d cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 7213
+19 clang++   0x0000560ae967e1d0
+20 clang++   0x0000560ae967fb0d
+21 clang++   0x0000560aeb656a79
+22 clang++   0x0000560aea9cb228 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 136
+23 clang++   0x0000560aeb6566b4 clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const + 356
+24 clang++   0x0000560aeb60f047 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 535
+25 clang++   0x0000560aeb60f21e clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 126
+26 clang++   0x0000560aeb63175c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 460
+27 clang++   0x0000560ae967d7a9 clang_main(int, char**, llvm::ToolContext const&) + 7833
+28 clang++   0x0000560ae968ebb0 main + 96
+29 libc.so.6 0x00007f4205ee8d90
+30 libc.so.6 0x00007f4205ee8e40 __libc_start_main + 128
+31 clang++   0x0000560ae966c9e5 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage2/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang++: note: diagnostic msg: /tmp/myAddExeFlag-8c4fdb.cpp
+clang++: note: diagnostic msg: /tmp/myAddExeFlag-8c4fdb.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage2/bin/clang++: Segmentation fault
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
