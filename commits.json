@@ -114717,6 +114717,36 @@
             "author_name": "David Spickett",
             "commit_date": "2026-04-24T08:53:14+01:00",
             "subject": "[lldb][test] Remove full stop from expected error messages (#193748)"
+        },
+        {
+            "hash": "6114cbb611c8183798e43118a0cca73293241b02",
+            "author_name": "Harald van Dijk",
+            "commit_date": "2026-04-24T08:59:28+01:00",
+            "subject": "[DirectX] Fix debug dump of ValueEnumerator (#191251)"
+        },
+        {
+            "hash": "eb6eb9fa0a0c02c43b800d6b5d44b6b92333b65a",
+            "author_name": "Harald van Dijk",
+            "commit_date": "2026-04-24T09:00:10+01:00",
+            "subject": "[DirectX] Convert debug values to old style (#192162)"
+        },
+        {
+            "hash": "8b3eac05aa742730a89889e90c375ad1f7359fe0",
+            "author_name": "Harald van Dijk",
+            "commit_date": "2026-04-24T09:00:40+01:00",
+            "subject": "[DirectX] Convert DICompileUnit versioned language (#192574)"
+        },
+        {
+            "hash": "3de31988417de7a733d56d5be21405366b507f63",
+            "author_name": "Harald van Dijk",
+            "commit_date": "2026-04-24T09:03:52+01:00",
+            "subject": "[DirectX] Replace non-const count of DISubrange with -1 (#192576)"
+        },
+        {
+            "hash": "efffb04c2b7b2528308f68ca24906048781298c0",
+            "author_name": "Harald van Dijk",
+            "commit_date": "2026-04-24T09:04:45+01:00",
+            "subject": "[DirectX] Fix DILocalVariable (#192573)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -115541,6 +115571,20 @@
             "author_name": "Madhur Amilkanthwar",
             "commit_date": "2026-04-23T21:22:52-07:00",
             "subject": "[BDCE] Preserve AssumptionAnalysis and DemandedBitsAnalysis"
+        }
+    ],
+    "madhur13490\/perf\/dce-preserve-analyses": [
+        {
+            "hash": "104ee2aed28df595a90a7869f1af5f369b0b795b",
+            "author_name": "Chuanqi Xu",
+            "commit_date": "2026-04-24T03:55:09+00:00",
+            "subject": "[NFC] [clangd] [C++20] [Modules] Add a test for testing transtive change detection (#193888)"
+        },
+        {
+            "hash": "08fb36600d6c3cdac1fb15e9c4b50446cbcb90f1",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-04-23T21:35:57-07:00",
+            "subject": "[DCE] Preserve TargetLibraryAnalysis"
         }
     ]
 }
