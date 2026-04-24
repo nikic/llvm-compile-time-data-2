@@ -1,0 +1,215 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[705/3287] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/User.cpp.o
+[706/3287] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/VectorTypeUtils.cpp.o
+[707/3287] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ValueSymbolTable.cpp.o
+[708/3287] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Value.cpp.o
+[709/3287] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Verifier.cpp.o
+[710/3287] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/VFABIDemangler.cpp.o
+[711/3287] Building CXX object lib/IRPrinter/CMakeFiles/LLVMIRPrinter.dir/IRPrintingPasses.cpp.o
+[712/3287] Building CXX object lib/IRReader/CMakeFiles/LLVMIRReader.dir/IRReader.cpp.o
+[713/3287] Building CXX object lib/CGData/CMakeFiles/LLVMCGData.dir/CodeGenDataReader.cpp.o
+[714/3287] Building CXX object lib/CGData/CMakeFiles/LLVMCGData.dir/CodeGenDataWriter.cpp.o
+[715/3287] Building CXX object lib/CGData/CMakeFiles/LLVMCGData.dir/CodeGenData.cpp.o
+[716/3287] Building CXX object lib/CGData/CMakeFiles/LLVMCGData.dir/OutlinedHashTreeRecord.cpp.o
+[717/3287] Building CXX object lib/CGData/CMakeFiles/LLVMCGData.dir/StableFunctionMap.cpp.o
+[718/3287] Building CXX object lib/CGData/CMakeFiles/LLVMCGData.dir/OutlinedHashTree.cpp.o
+[719/3287] Building CXX object lib/CGData/CMakeFiles/LLVMCGData.dir/StableFunctionMapRecord.cpp.o
+[720/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/AllocationOrder.cpp.o
+[721/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/AssignmentTrackingAnalysis.cpp.o
+[722/3287] Building AArch64GenExegesis.inc...
+[723/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BranchFolding.cpp.o
+[724/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BranchRelaxation.cpp.o
+[725/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BreakFalseDeps.cpp.o
+[726/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BasicBlockSections.cpp.o
+[727/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BasicBlockPathCloning.cpp.o
+[728/3287] Building CXX object lib/Transforms/AggressiveInstCombine/CMakeFiles/LLVMAggressiveInstCombine.dir/AggressiveInstCombine.cpp.o
+[729/3287] Building CXX object lib/Transforms/AggressiveInstCombine/CMakeFiles/LLVMAggressiveInstCombine.dir/TruncInstCombine.cpp.o
+[730/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CalcSpillWeights.cpp.o
+[731/3287] Building X86GenSDNodeInfo.inc...
+[732/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CFGuardLongjmp.cpp.o
+[733/3287] Building AArch64GenMCPseudoLowering.inc...
+[734/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CFIFixup.cpp.o
+[735/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CFIInstrInserter.cpp.o
+[736/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGen.cpp.o
+[737/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenCommonISel.cpp.o
+[738/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CommandFlags.cpp.o
+[739/3287] Building AArch64GenAsmWriter.inc...
+[740/3287] Building AArch64GenAsmWriter1.inc...
+[741/3287] Building AArch64GenAsmMatcher.inc...
+[742/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DetectDeadLanes.cpp.o
+[743/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DeadMachineInstructionElim.cpp.o
+[744/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DroppedVariableStatsMIR.cpp.o
+[745/3287] Building X86GenFastISel.inc...
+[746/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/EarlyIfConversion.cpp.o
+[747/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/EdgeBundles.cpp.o
+[748/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/EHContGuardTargets.cpp.o
+[749/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExecutionDomainFix.cpp.o
+[750/3287] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/RuntimeLibcalls.cpp.o
+FAILED: lib/IR/CMakeFiles/LLVMCore.dir/RuntimeLibcalls.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/IR -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/IR/CMakeFiles/LLVMCore.dir/RuntimeLibcalls.cpp.o -MF lib/IR/CMakeFiles/LLVMCore.dir/RuntimeLibcalls.cpp.o.d -o lib/IR/CMakeFiles/LLVMCore.dir/RuntimeLibcalls.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR/RuntimeLibcalls.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/RuntimeLibcalls.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR/RuntimeLibcalls.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h: In member function ‘constexpr uint64_t llvm::Bitset<NumBits>::getWord64(unsigned int) const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h:266:33: error: static assertion failed: Unsupported word size
+  266 |       static_assert(BitwordBits == 32, "Unsupported word size");
+      |                     ~~~~~~~~~~~~^~~~~
+[751/3287] Building AArch64GenFastISel.inc...
+[752/3287] Building X86GenGlobalISel.inc...
+[753/3287] Building X86GenDAGISel.inc...
+[754/3287] Building AArch64GenDAGISel.inc...
+[755/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CallingConvLower.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CallingConvLower.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CallingConvLower.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CallingConvLower.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CallingConvLower.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CallingConvLower.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/RuntimeLibcalls.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RuntimeLibcallInfo.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/LibcallLoweringInfo.h:13,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/TargetLowering.h:32,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CallingConvLower.cpp:17:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h: In member function ‘constexpr uint64_t llvm::Bitset<NumBits>::getWord64(unsigned int) const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h:266:33: error: static assertion failed: Unsupported word size
+  266 |       static_assert(BitwordBits == 32, "Unsupported word size");
+      |                     ~~~~~~~~~~~~^~~~~
+[756/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/AtomicExpandPass.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/AtomicExpandPass.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/AtomicExpandPass.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/AtomicExpandPass.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/AtomicExpandPass.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/AtomicExpandPass.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/RuntimeLibcalls.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RuntimeLibcallInfo.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/LibcallLoweringInfo.h:13,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/TargetLowering.h:32,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/AtomicExpandPass.cpp:24:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h: In member function ‘constexpr uint64_t llvm::Bitset<NumBits>::getWord64(unsigned int) const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h:266:33: error: static assertion failed: Unsupported word size
+  266 |       static_assert(BitwordBits == 32, "Unsupported word size");
+      |                     ~~~~~~~~~~~~^~~~~
+[757/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/AggressiveAntiDepBreaker.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/AggressiveAntiDepBreaker.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/AggressiveAntiDepBreaker.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/AggressiveAntiDepBreaker.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/AggressiveAntiDepBreaker.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/AggressiveAntiDepBreaker.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/RuntimeLibcalls.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RuntimeLibcallInfo.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/LibcallLoweringInfo.h:13,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/TargetLowering.h:32,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/ScheduleDAG.h:24,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/AggressiveAntiDepBreaker.cpp:27:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h: In member function ‘constexpr uint64_t llvm::Bitset<NumBits>::getWord64(unsigned int) const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h:266:33: error: static assertion failed: Unsupported word size
+  266 |       static_assert(BitwordBits == 32, "Unsupported word size");
+      |                     ~~~~~~~~~~~~^~~~~
+[758/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CriticalAntiDepBreaker.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CriticalAntiDepBreaker.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CriticalAntiDepBreaker.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CriticalAntiDepBreaker.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CriticalAntiDepBreaker.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CriticalAntiDepBreaker.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/RuntimeLibcalls.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RuntimeLibcallInfo.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/LibcallLoweringInfo.h:13,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/TargetLowering.h:32,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/ScheduleDAG.h:24,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CriticalAntiDepBreaker.cpp:26:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h: In member function ‘constexpr uint64_t llvm::Bitset<NumBits>::getWord64(unsigned int) const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h:266:33: error: static assertion failed: Unsupported word size
+  266 |       static_assert(BitwordBits == 32, "Unsupported word size");
+      |                     ~~~~~~~~~~~~^~~~~
+[759/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/Analysis.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/Analysis.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/Analysis.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/Analysis.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/Analysis.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/Analysis.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/RuntimeLibcalls.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RuntimeLibcallInfo.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/LibcallLoweringInfo.h:13,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/TargetLowering.h:32,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/Analysis.cpp:17:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h: In member function ‘constexpr uint64_t llvm::Bitset<NumBits>::getWord64(unsigned int) const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h:266:33: error: static assertion failed: Unsupported word size
+  266 |       static_assert(BitwordBits == 32, "Unsupported word size");
+      |                     ~~~~~~~~~~~~^~~~~
+[760/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BasicTargetTransformInfo.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BasicTargetTransformInfo.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BasicTargetTransformInfo.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BasicTargetTransformInfo.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BasicTargetTransformInfo.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/BasicTargetTransformInfo.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/RuntimeLibcalls.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RuntimeLibcallInfo.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/LibcallLoweringInfo.h:13,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/TargetLowering.h:32,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/BasicTTIImpl.h:31,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/BasicTargetTransformInfo.cpp:17:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h: In member function ‘constexpr uint64_t llvm::Bitset<NumBits>::getWord64(unsigned int) const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h:266:33: error: static assertion failed: Unsupported word size
+  266 |       static_assert(BitwordBits == 32, "Unsupported word size");
+      |                     ~~~~~~~~~~~~^~~~~
+[761/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DFAPacketizer.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DFAPacketizer.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DFAPacketizer.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DFAPacketizer.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DFAPacketizer.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/DFAPacketizer.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/RuntimeLibcalls.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RuntimeLibcallInfo.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/LibcallLoweringInfo.h:13,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/TargetLowering.h:32,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/ScheduleDAG.h:24,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/ScheduleDAGInstrs.h:24,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/DFAPacketizer.h:29,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/DFAPacketizer.cpp:25:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h: In member function ‘constexpr uint64_t llvm::Bitset<NumBits>::getWord64(unsigned int) const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h:266:33: error: static assertion failed: Unsupported word size
+  266 |       static_assert(BitwordBits == 32, "Unsupported word size");
+      |                     ~~~~~~~~~~~~^~~~~
+[762/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ComplexDeinterleavingPass.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ComplexDeinterleavingPass.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ComplexDeinterleavingPass.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ComplexDeinterleavingPass.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ComplexDeinterleavingPass.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/ComplexDeinterleavingPass.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/RuntimeLibcalls.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RuntimeLibcallInfo.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/LibcallLoweringInfo.h:13,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/TargetLowering.h:32,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/ComplexDeinterleavingPass.cpp:68:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h: In member function ‘constexpr uint64_t llvm::Bitset<NumBits>::getWord64(unsigned int) const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h:266:33: error: static assertion failed: Unsupported word size
+  266 |       static_assert(BitwordBits == 32, "Unsupported word size");
+      |                     ~~~~~~~~~~~~^~~~~
+[763/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DwarfEHPrepare.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DwarfEHPrepare.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DwarfEHPrepare.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DwarfEHPrepare.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DwarfEHPrepare.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/DwarfEHPrepare.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/RuntimeLibcalls.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RuntimeLibcallInfo.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/LibcallLoweringInfo.h:13,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/TargetLowering.h:32,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/DwarfEHPrepare.cpp:21:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h: In member function ‘constexpr uint64_t llvm::Bitset<NumBits>::getWord64(unsigned int) const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h:266:33: error: static assertion failed: Unsupported word size
+  266 |       static_assert(BitwordBits == 32, "Unsupported word size");
+      |                     ~~~~~~~~~~~~^~~~~
+[764/3287] Building X86GenSubtargetInfo.inc...
+[765/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandIRInsts.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandIRInsts.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandIRInsts.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandIRInsts.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandIRInsts.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/ExpandIRInsts.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/RuntimeLibcalls.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RuntimeLibcallInfo.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/LibcallLoweringInfo.h:13,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/TargetLowering.h:32,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/ExpandIRInsts.cpp:38:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h: In member function ‘constexpr uint64_t llvm::Bitset<NumBits>::getWord64(unsigned int) const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h:266:33: error: static assertion failed: Unsupported word size
+  266 |       static_assert(BitwordBits == 32, "Unsupported word size");
+      |                     ~~~~~~~~~~~~^~~~~
+[766/3287] Building X86GenInstrInfo.inc...
+[767/3287] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenPrepare.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenPrepare.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenPrepare.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenPrepare.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenPrepare.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/RuntimeLibcalls.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RuntimeLibcallInfo.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/LibcallLoweringInfo.h:13,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/TargetLowering.h:32,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:41:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h: In member function ‘constexpr uint64_t llvm::Bitset<NumBits>::getWord64(unsigned int) const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Bitset.h:266:33: error: static assertion failed: Unsupported word size
+  266 |       static_assert(BitwordBits == 32, "Unsupported word size");
+      |                     ~~~~~~~~~~~~^~~~~
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:494 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+114.67user 8.20system 0:09.52elapsed 1290%CPU (0avgtext+0avgdata 761984maxresident)k
+0inputs+560048outputs (3145major+5460817minor)pagefaults 0swaps
