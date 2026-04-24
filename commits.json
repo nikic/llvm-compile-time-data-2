@@ -114525,6 +114525,12 @@
             "author_name": "Nico Weber",
             "commit_date": "2026-04-23T19:28:19-04:00",
             "subject": "[gn build] Port 3081d52d8242 (#193862)"
+        },
+        {
+            "hash": "c6b9984435899562ce6eee513d098ea9875d0202",
+            "author_name": "Shafik Yaghmour",
+            "commit_date": "2026-04-23T17:08:13-07:00",
+            "subject": "[NFC][Clang][Sema] Apply rule of three to Sema helper classes (#193835)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -115313,6 +115319,32 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-04-23T17:52:06+01:00",
             "subject": "Lookup early."
+        }
+    ],
+    "yasmincs\/perf\/inferalign-variable": [
+        {
+            "hash": "6144fa5281162a9c48d5fa1414952af115ea0f1e",
+            "author_name": "ysarita",
+            "commit_date": "2026-03-17T22:52:57+00:00",
+            "subject": "Add test for variable offset alignment inference"
+        },
+        {
+            "hash": "29686343019d3461efb5f72701b8a33a1df889f3",
+            "author_name": "ysarita",
+            "commit_date": "2026-03-17T22:53:24+00:00",
+            "subject": "Add variable offset alignment computations to inferalignment"
+        },
+        {
+            "hash": "8344debf38792a99bcc750d60dbef6a6fb227d40",
+            "author_name": "ysarita",
+            "commit_date": "2026-03-18T02:17:04+00:00",
+            "subject": "reduced compile time overhead"
+        },
+        {
+            "hash": "bf5726d807f47d049a28b378c9f1df9ddeb29578",
+            "author_name": "yasmincs",
+            "commit_date": "2026-04-23T16:13:11-07:00",
+            "subject": "Merge branch 'llvm:main' into perf\/inferalign-variable"
         }
     ]
 }
