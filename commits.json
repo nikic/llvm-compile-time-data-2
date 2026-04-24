@@ -115173,6 +115173,12 @@
             "author_name": "SiliconA-Z",
             "commit_date": "2026-04-24T16:32:07+00:00",
             "subject": "[ARM] Fold SELECT (AND(X,1) == 0), C1, C2 -> XOR(C1,AND(NEG(AND(X,1)),XOR(C1,C2)) in Thumb1 (#185898)"
+        },
+        {
+            "hash": "e8f32abba9a156257429b812eb867791800bc774",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-04-24T16:39:34+00:00",
+            "subject": "CodeGen: Fix double counting bundles in inst size verification (#191460)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
