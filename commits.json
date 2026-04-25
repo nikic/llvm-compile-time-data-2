@@ -59849,15 +59849,15 @@
     ],
     "RKSimon\/perf\/topological-dag": [
         {
-            "hash": "eb29a502b6e84dc847e94fa9ad42dfa0c68076c7",
-            "author_name": "widberg",
-            "commit_date": "2026-04-23T13:39:06+02:00",
-            "subject": "[Clang] Fix constexpr __builtin_(add|sub|mul)_overflow bugs (#192568)"
+            "hash": "6f0b55ec55f3e5e1ccc0d6b0d04a307479218768",
+            "author_name": "Haocong Lu",
+            "commit_date": "2026-04-25T19:59:47+08:00",
+            "subject": "[CIR] Upstream missing support for fixed point literal (#193445)"
         },
         {
-            "hash": "915e1cddeb65202294f7c8e7e74e2dfcb16fe509",
+            "hash": "2f95d9747812410e22f21b05ea33bb29bcd1f1fa",
             "author_name": "Simon Pilgrim",
-            "commit_date": "2026-04-23T15:54:00+01:00",
+            "commit_date": "2026-04-25T14:30:44+01:00",
             "subject": "[DAG] Process DAG nodes in topological order"
         }
     ],
@@ -115755,6 +115755,18 @@
             "author_name": "Hui",
             "commit_date": "2026-04-25T14:20:40+01:00",
             "subject": "[libc++] Fix constant_wrapper::operator() (#193573)"
+        },
+        {
+            "hash": "228fabd5be82ac15d14109b90c7ee1cd682b4254",
+            "author_name": "Brandon Wu",
+            "commit_date": "2026-04-25T21:35:26+08:00",
+            "subject": "[Clang][RISCV] Introduce OFP8(E4M3, E5M2) RISC-V vector types (#191349)"
+        },
+        {
+            "hash": "5ee6e6d5ef37b329c5693ea934f19b37936a632e",
+            "author_name": "Rajveer Singh Bharadwaj",
+            "commit_date": "2026-04-25T19:06:38+05:30",
+            "subject": "[AArch64] Use `AArch64ISD::UADDLP` for manual widening adjacent arithmetic (zext\/shuffle combination) (#189255)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
