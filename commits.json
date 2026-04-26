@@ -116115,6 +116115,12 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-04-26T07:12:13-04:00",
             "subject": "[SLP] Fix spill-cost cache lookup and predecessor scan"
+        },
+        {
+            "hash": "6439bbe0213e650a18855319f2b9d4b82802a96e",
+            "author_name": "David Green",
+            "commit_date": "2026-04-26T12:59:29+01:00",
+            "subject": "Revert \"[ARM] Fold SELECT (AND(X,1) == 0), C1, C2 -> XOR(C1,AND(NEG(AND(X,1)),XOR(C1,C2)) in Thumb1 (#185898)\" (#194230)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
