@@ -116049,6 +116049,18 @@
             "author_name": "Nishant Patel",
             "commit_date": "2026-04-25T19:41:20-07:00",
             "subject": "[MLIR][XeGPU] Remove offsets from create_nd_tdesc & remove update_nd_offset, move offsets to load\/store\/prefetch ops (#193330)"
+        },
+        {
+            "hash": "c2a9725b570407d1b057134e90d11c53bbc48b63",
+            "author_name": "Longsheng Mou",
+            "commit_date": "2026-04-26T12:03:06+08:00",
+            "subject": "[mlir][math] Add constant folding for sincos\/cbrt (#194130)"
+        },
+        {
+            "hash": "682cf7231700c90d12460250b1cad7656cd76dc5",
+            "author_name": "Longsheng Mou",
+            "commit_date": "2026-04-26T12:04:04+08:00",
+            "subject": "[mlir][arith] Fold subi(a, subi(a, b)) to b (#194134)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
