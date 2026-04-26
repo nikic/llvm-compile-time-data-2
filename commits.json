@@ -116121,6 +116121,12 @@
             "author_name": "David Green",
             "commit_date": "2026-04-26T12:59:29+01:00",
             "subject": "Revert \"[ARM] Fold SELECT (AND(X,1) == 0), C1, C2 -> XOR(C1,AND(NEG(AND(X,1)),XOR(C1,C2)) in Thumb1 (#185898)\" (#194230)"
+        },
+        {
+            "hash": "4dafdf64b203bb49fe2d9be25675e5450fed33c6",
+            "author_name": "hev",
+            "commit_date": "2026-04-26T20:19:51+08:00",
+            "subject": "[CodeGen] Add <2 x i128> value type (#193910)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
