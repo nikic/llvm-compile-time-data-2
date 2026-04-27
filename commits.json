@@ -116451,6 +116451,12 @@
             "author_name": "Corentin Jabot",
             "commit_date": "2026-04-27T12:30:03+02:00",
             "subject": "[Clang] No longer advertise support for coroutines on x86 windows. (#193456)"
+        },
+        {
+            "hash": "48ee9c82f27e170e9cada55ca40e757a391829ef",
+            "author_name": "Eugene Epshteyn",
+            "commit_date": "2026-04-27T06:39:35-04:00",
+            "subject": "[flang][NFC] Converted five tests from old lowering to new lowering (part 49) (#194276)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -117331,6 +117337,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-04-27T10:02:32+00:00",
             "subject": "[LiveDebugValues] Use std::sort for register sorting in collectIDsForRegs"
+        }
+    ],
+    "kparzysz\/perf\/constexpr-2": [
+        {
+            "hash": "13cee9be088057f198e08ee7217ed2af08cfd825",
+            "author_name": "martin0413133",
+            "commit_date": "2026-04-26T22:26:52+00:00",
+            "subject": "[sanitizer] Fix race condition in GetNamedMappingFd with decorate_pro\u2026 (#190981)"
+        },
+        {
+            "hash": "aee93fde41cfa7050c4241969d99b3028dd06ee0",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-04-26T17:50:40-05:00",
+            "subject": "[TableGen] Emit constexpr versions of some directive\/clause functions"
         }
     ]
 }
