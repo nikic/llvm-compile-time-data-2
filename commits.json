@@ -59849,15 +59849,15 @@
     ],
     "RKSimon\/perf\/topological-dag": [
         {
-            "hash": "d593279c0b2891f0b0c8af3f70a1a0383b4ad1b5",
-            "author_name": "Princeton Ferro",
-            "commit_date": "2026-04-26T00:51:14-07:00",
-            "subject": "[NVPTX] Scalarize `contract FMUL v2f32` to enable FMA fusion (#192815)"
+            "hash": "8062e82db89f12d90e8c331db217904689b87947",
+            "author_name": "Grigory Pastukhov",
+            "commit_date": "2026-04-27T13:06:40-07:00",
+            "subject": "[Clang] Emit LLVM flatten attribute instead of per-callsite alwaysinline (#188615)"
         },
         {
-            "hash": "78c8e3e8e8a725e6640c9252b8f6653ff83fc979",
+            "hash": "daa56163e99fdd68d99bd54142d13fc5c49751d7",
             "author_name": "Simon Pilgrim",
-            "commit_date": "2026-04-26T10:40:04+01:00",
+            "commit_date": "2026-04-27T22:22:49+01:00",
             "subject": "[DAG] Process DAG nodes in topological order"
         }
     ],
@@ -117195,6 +117195,36 @@
             "author_name": "apple-fcloutier",
             "commit_date": "2026-04-27T17:07:20-04:00",
             "subject": "[CodeGen] Change -O0 bool load codegen to have nonzero model (#193783)"
+        },
+        {
+            "hash": "48b342ba96246f0c97778f83ffc93e30c6f5620b",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-04-27T14:13:11-07:00",
+            "subject": "[ADT] Make stable_hash_combine to be endian-independent (#194430)"
+        },
+        {
+            "hash": "464555d0921225a6d7e4a1ac23464ce24fda191d",
+            "author_name": "Andy Kaylor",
+            "commit_date": "2026-04-27T14:13:34-07:00",
+            "subject": "[CIR] Set the static_local attribute if needed when initializing (#194094)"
+        },
+        {
+            "hash": "8e8bb22a35a25f8406ba4342cc7ad102cf354b65",
+            "author_name": "Iasonaskrpr",
+            "commit_date": "2026-04-27T17:16:38-04:00",
+            "subject": "Fix offload binary header (#194335)"
+        },
+        {
+            "hash": "34535e9bae8b798370768775dfed6065aaca806b",
+            "author_name": "David Meng",
+            "commit_date": "2026-04-27T21:17:17+00:00",
+            "subject": "[Sema] Enforce parameter match for ownership_returns attribute (#192339)"
+        },
+        {
+            "hash": "d55166c23bf1e865c961440a5ef50badd5f69e0f",
+            "author_name": "modiking",
+            "commit_date": "2026-04-27T14:22:32-07:00",
+            "subject": "[NVPTX] Add reverseBranchCondition and CBranch inverted flag (#191889)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
