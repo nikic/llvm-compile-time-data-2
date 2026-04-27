@@ -116529,6 +116529,60 @@
             "author_name": "Sergio Afonso",
             "commit_date": "2026-04-27T13:10:15+01:00",
             "subject": "[OpenMP][OMPIRBuilder] Support parallel in Generic kernels (#150926)"
+        },
+        {
+            "hash": "333f636c9af90fd77bc6669a74f8bd9e2832640b",
+            "author_name": "Sergio Afonso",
+            "commit_date": "2026-04-27T13:11:17+01:00",
+            "subject": "[OpenMPOpt] Make parallel regions reachable from new DeviceRTL loop functions (#150927)"
+        },
+        {
+            "hash": "b5c755144d665750e5c60849c6612848bf2905d6",
+            "author_name": "Sergio Afonso",
+            "commit_date": "2026-04-27T13:12:07+01:00",
+            "subject": "[OMPIRBuilder] Add support for explicit deallocation points (#154752)"
+        },
+        {
+            "hash": "f6012dd7884822a0428384f1e0a90e61e7380b1f",
+            "author_name": "Sergio Afonso",
+            "commit_date": "2026-04-27T13:12:48+01:00",
+            "subject": "[MLIR][OpenMP] Refactor omp.target_allocmem to allow reuse, NFC (#161861)"
+        },
+        {
+            "hash": "568e1ad61abe03da5a8b2d573067895bbdb380e9",
+            "author_name": "Sergio Afonso",
+            "commit_date": "2026-04-27T13:13:32+01:00",
+            "subject": "[Flang][MLIR][OpenMP] Add explicit shared memory (de-)allocation ops (#161862)"
+        },
+        {
+            "hash": "d6061d297d3c4f462a84bd77f182d191d982ac5d",
+            "author_name": "Sergio Afonso",
+            "commit_date": "2026-04-27T13:14:19+01:00",
+            "subject": "[Flang][OpenMP] Add pass to replace allocas with device shared memory (#161863)"
+        },
+        {
+            "hash": "fad06a418b4f89510a390c215218f1ab8de0ecad",
+            "author_name": "Sergio Afonso",
+            "commit_date": "2026-04-27T13:15:05+01:00",
+            "subject": "[MLIR][OpenMP][OMPIRBuilder] Improve shared memory checks (#161864)"
+        },
+        {
+            "hash": "c94db1af36c2f66d71cd0c492068937eee641e56",
+            "author_name": "Sergio Afonso",
+            "commit_date": "2026-04-27T13:15:55+01:00",
+            "subject": "[MLIR][OpenMP] Unify device shared memory logic, NFCI (#182856)"
+        },
+        {
+            "hash": "cf30e4b5c2d55e217ade2483c4672f2488da48df",
+            "author_name": "Jack Styles",
+            "commit_date": "2026-04-27T13:18:00+01:00",
+            "subject": "[AArch64] Enable Spillage Copy Elimination by default (#186093)"
+        },
+        {
+            "hash": "889708eed861b4218fda5a085b47f37b6b73b739",
+            "author_name": "Jan Leyonberg",
+            "commit_date": "2026-04-27T08:18:34-04:00",
+            "subject": "[CIR][OpenMP] Enable emission of target functions (#193204)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
