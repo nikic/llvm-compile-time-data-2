@@ -104953,15 +104953,15 @@
     ],
     "momchil-velikov\/perf\/exp-disable-pre-lto-vec": [
         {
-            "hash": "22e6a261fae1eb57105cc131592026701f283e0e",
-            "author_name": "Paul Kirth",
-            "commit_date": "2026-04-13T15:40:40+00:00",
-            "subject": "Revert clang-doc arena merging patches (#191668)"
+            "hash": "cf4f678f0448803be0fb98545336ca902352bc65",
+            "author_name": "Ivan R. Ivanov",
+            "commit_date": "2026-04-27T18:57:19+02:00",
+            "subject": "[Offload] Make kernel dynamic memory handling more generic (#194403)"
         },
         {
-            "hash": "bee53014aec0dacd1339aaf6238d837a8dd7b5ea",
+            "hash": "35af6ea2dbd788989d28c1423b32fbafa920385b",
             "author_name": "Momchil Velikov",
-            "commit_date": "2026-04-14T12:56:43+00:00",
+            "commit_date": "2026-04-27T18:02:51+00:00",
             "subject": "Disable pre-link LTO vectorisation and tweak LTO pipeline"
         }
     ],
@@ -117033,6 +117033,18 @@
             "author_name": "Tom Stellard",
             "commit_date": "2026-04-27T11:03:13-07:00",
             "subject": "workflows\/issue-subscriber: Use a GitHub app token (#194073)"
+        },
+        {
+            "hash": "f82e4e95ab0adbe26569060202af64f9ef936a85",
+            "author_name": "khaki3",
+            "commit_date": "2026-04-27T11:05:12-07:00",
+            "subject": "[flang][cuda] Fix CUFDeviceGlobal duplicate skip and CUFAddConstructor for empty gpu.module (#194290)"
+        },
+        {
+            "hash": "4e302b684d885e11de1c9144db2d48c483c6339f",
+            "author_name": "adams381",
+            "commit_date": "2026-04-27T13:09:55-05:00",
+            "subject": "[CIR] Remove overly strict end_catch assertion in catch handler flattening (#193796)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
