@@ -117597,6 +117597,12 @@
             "author_name": "Simon Pilgrim",
             "commit_date": "2026-04-28T07:29:16+00:00",
             "subject": "[X86] combineKSHIFT - fold kshift(logicop(X,C1),C2) -> logicop(kshift(X,C2),kshift(C1,C2)) (#194343)"
+        },
+        {
+            "hash": "e9ad51163b9d101131a3bb04994876a32e7c9dea",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-04-28T08:31:27+01:00",
+            "subject": "[VPlan] Remove unused PhisToFix member from VPRecipeBuilder. NFC (#194451)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
