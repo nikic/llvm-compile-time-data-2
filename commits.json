@@ -118977,6 +118977,12 @@
             "author_name": "JP Hafer",
             "commit_date": "2026-04-29T17:18:07+02:00",
             "subject": "[CodeGen] Use getFnAttributeAsParsedInteger for patchable-function attributes (#194726)"
+        },
+        {
+            "hash": "f78419c36b24b8f5fbf2fef94880e8fab0f355e4",
+            "author_name": "Jackson Stogel",
+            "commit_date": "2026-04-29T08:28:57-07:00",
+            "subject": "[libc++abi][libc][test] Use LLVM-libc headers in LLVM-libc config (#194665)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -119973,6 +119979,26 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-04-29T08:16:03-07:00",
             "subject": "eeee"
+        }
+    ],
+    "c-rhodes\/perf\/optimise-getMinimalPhysRegClass": [
+        {
+            "hash": "4e6d3722fca73c97367720180a8d547057fda380",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-04-27T14:53:03+01:00",
+            "subject": "[LiveDebugValues] Use std::sort for register sorting in collectIDsForRegs (#194339)"
+        },
+        {
+            "hash": "99078866d67348051cbc94e95599a9af86bf9d25",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-04-29T15:13:11+00:00",
+            "subject": "[CodeGen] Precompute untyped getMinimalPhysRegClass"
+        },
+        {
+            "hash": "937679f592e34c1a5460e9c959fcde70f520439d",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-04-29T15:16:12+00:00",
+            "subject": "[AArch64] Avoid getMinimalPhysRegClass in callee-save frame lowering"
         }
     ]
 }
