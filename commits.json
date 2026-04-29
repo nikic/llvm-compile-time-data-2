@@ -118929,6 +118929,18 @@
             "author_name": "Anshul Nigham",
             "commit_date": "2026-04-29T06:02:21-07:00",
             "subject": "[Docs] Normalize headers and indents for ReleaseNotes (#194784)"
+        },
+        {
+            "hash": "ef7dc4759332d3096248409a06b1a3051c230a0e",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-04-29T14:13:19+01:00",
+            "subject": "[VPlan] Strip phi-check in collectUsersRecursively (NFC) (#194816)"
+        },
+        {
+            "hash": "5e7e097888e45fddde397adb8d61dde7cabdcdfa",
+            "author_name": "Alex Duran",
+            "commit_date": "2026-04-29T15:14:20+02:00",
+            "subject": "[offload] Enable Intel GPU tests and mark CUDA tests unsupported (#194790)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -119883,6 +119895,20 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-04-28T15:29:21-07:00",
             "subject": "iiiiiiiiiiiiiiiiii"
+        }
+    ],
+    "c-rhodes\/perf\/gisel-skip-dereferenceable-checks-O0": [
+        {
+            "hash": "4e6d3722fca73c97367720180a8d547057fda380",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-04-27T14:53:03+01:00",
+            "subject": "[LiveDebugValues] Use std::sort for register sorting in collectIDsForRegs (#194339)"
+        },
+        {
+            "hash": "93a4a4a09ee9c94ef39bf07ee859cbb7c199c94e",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-04-29T13:13:01+00:00",
+            "subject": "[GlobalISel] Skip expensive dereferenceable checks at O0"
         }
     ]
 }
