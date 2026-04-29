@@ -119349,6 +119349,24 @@
             "author_name": "adams381",
             "commit_date": "2026-04-29T15:08:26-05:00",
             "subject": "[CIR] Fix array new cookie pointer arithmetic (#194927)"
+        },
+        {
+            "hash": "b79c356fa9159835cdd5b7f211d56a2ea8977a6b",
+            "author_name": "Mariusz Sikora",
+            "commit_date": "2026-04-29T22:19:37+02:00",
+            "subject": "[AMDGPU] Add gfx13 HSA tests (#194714)"
+        },
+        {
+            "hash": "8bc2258ab14f7808db7773d7f847283bc594356b",
+            "author_name": "Peter Collingbourne",
+            "commit_date": "2026-04-29T13:26:02-07:00",
+            "subject": "MC: Group .reloc directive relocations and emit groups in offset order."
+        },
+        {
+            "hash": "8454fb47acaf46bcb02e78fbd871010ccba9e3d1",
+            "author_name": "Tom Stellard",
+            "commit_date": "2026-04-29T13:26:49-07:00",
+            "subject": "workflows\/release-asset-audit: Use a GitHub app token (#194085)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -120399,6 +120417,20 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-04-29T11:56:49-07:00",
             "subject": "iiiiii"
+        }
+    ],
+    "c-rhodes\/perf\/scheddaginstrs-avoid-redundant-aa-queries": [
+        {
+            "hash": "4e6d3722fca73c97367720180a8d547057fda380",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-04-27T14:53:03+01:00",
+            "subject": "[LiveDebugValues] Use std::sort for register sorting in collectIDsForRegs (#194339)"
+        },
+        {
+            "hash": "a0c6f5e50a0ecf4c1658604eb7d2fe43791a39ed",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-04-29T20:16:34+00:00",
+            "subject": "[CodeGen] Avoid redundant memory predecessor AA queries in ScheduleDAGInstrs"
         }
     ]
 }
