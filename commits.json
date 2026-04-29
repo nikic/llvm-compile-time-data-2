@@ -119043,6 +119043,30 @@
             "author_name": "Craig Topper",
             "commit_date": "2026-04-29T09:19:13-07:00",
             "subject": "[RISCV] Fix crashes and add RV32 RUN line to rvp-simd-64.ll (#194782)"
+        },
+        {
+            "hash": "e6d46f16ab54e9994c5616adb9e62cbd44a01458",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-04-29T17:27:11+01:00",
+            "subject": "[VPlan] Expand DerivedIV into executable recipes (#187589)"
+        },
+        {
+            "hash": "6a825893a464c1489f7a70960215a2b6b421fc57",
+            "author_name": "James Y Knight",
+            "commit_date": "2026-04-29T12:28:27-04:00",
+            "subject": "Remove an unused include which causes Bazel dep-check failure (#194902)"
+        },
+        {
+            "hash": "ff8abfa27400168c9d56954a897ca8a1e2af3f0b",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-04-29T09:32:25-07:00",
+            "subject": "[RISCV] Remove codegen for vp_trunc (#194886)"
+        },
+        {
+            "hash": "27b84415bcad96c1ba08978cca6bf42c114bd9d6",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-04-29T12:33:41-04:00",
+            "subject": "[SLP][NFC]Fix building on windows, NFC"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -119673,6 +119697,12 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-04-28T05:54:18+00:00",
             "subject": "address comments"
+        },
+        {
+            "hash": "5de08adc0d8b40c957cf4af57158c141d3a8229d",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-04-29T16:29:55+00:00",
+            "subject": "[CodeGen] Precompute untyped getMinimalPhysRegClass"
         }
     ],
     "nikic\/perf\/auto-deduction": [
