@@ -1,0 +1,211 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage2.sh" failed
+
+STDOUT:
+[8/3019] Building ASM object lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_sse2_x86-64_unix.S.o
+[9/3019] Building C object lib/Support/CMakeFiles/LLVMSupport.dir/regcomp.c.o
+[10/3019] Building C object lib/Support/CMakeFiles/LLVMSupport.dir/regexec.c.o
+[11/3019] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/Demangle.cpp.o
+[12/3019] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/DLangDemangle.cpp.o
+[13/3019] Building C object lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_dispatch.c.o
+[14/3019] Building C object lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_portable.c.o
+[15/3019] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangleNodes.cpp.o
+[16/3019] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/RustDemangle.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage2/lib/Demangle -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Demangle -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wno-pass-failed -Wmisleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -Xclang -fno-pch-timestamp -flto=thin -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/Demangle/CMakeFiles/LLVMDemangle.dir/RustDemangle.cpp.o -MF lib/Demangle/CMakeFiles/LLVMDemangle.dir/RustDemangle.cpp.o.d -o lib/Demangle/CMakeFiles/LLVMDemangle.dir/RustDemangle.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Demangle/RustDemangle.cpp
+1.	<eof> parser at end of file
+2.	Per-file LLVM IR generation
+3.	/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Demangle/RustDemangle.cpp:623:17: Generating code for declaration '(anonymous namespace)::Demangler::demangleFnSig'
+4.	/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Demangle/RustDemangle.cpp:630:23: LLVM IR generation of compound statement ('{}')
+5.	/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Demangle/RustDemangle.cpp:634:12: LLVM IR generation of compound statement ('{}')
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x00005561127112b0 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 240
+1  clang++   0x000055611270ee44 llvm::sys::CleanupOnSignal(unsigned long) + 164
+2  clang++   0x000055611264e1d8
+3  libc.so.6 0x00007f280b1ed520
+4  clang++   0x0000556112b99ec8 clang::CodeGen::ConstantEmitter::tryEmitPrivate(clang::APValue const&, clang::QualType, bool) + 56
+5  clang++   0x0000556112b9d81f clang::CodeGen::ConstantEmitter::emitAbstract(clang::SourceLocation, clang::APValue const&, clang::QualType, bool) + 47
+6  clang++   0x0000556112b42423 clang::CodeGen::CodeGenFunction::EmitDeclRefLValue(clang::DeclRefExpr const*) + 2051
+7  clang++   0x0000556112b5ecb1 clang::CodeGen::CodeGenFunction::EmitLValueHelper(clang::Expr const*, clang::CodeGen::KnownNonNull_t) + 1729
+8  clang++   0x0000556112b5f2ae
+9  clang++   0x0000556115f0f145 clang::StackExhaustionHandler::runWithSufficientStackSpace(clang::SourceLocation, llvm::function_ref<void ()>) + 69
+10 clang++   0x0000556112b23f6a
+11 clang++   0x0000556112b4bd92 clang::CodeGen::CodeGenFunction::EmitCastLValue(clang::CastExpr const*) + 786
+12 clang++   0x0000556112b5e6ce clang::CodeGen::CodeGenFunction::EmitLValueHelper(clang::Expr const*, clang::CodeGen::KnownNonNull_t) + 222
+13 clang++   0x0000556112b5f2ae
+14 clang++   0x0000556115f0f145 clang::StackExhaustionHandler::runWithSufficientStackSpace(clang::SourceLocation, llvm::function_ref<void ()>) + 69
+15 clang++   0x0000556112b2aeea clang::CodeGen::CodeGenFunction::EmitLValue(clang::Expr const*, clang::CodeGen::KnownNonNull_t) + 202
+16 clang++   0x0000556112b7b1bd clang::CodeGen::CodeGenFunction::EmitCXXMemberOrOperatorMemberCallExpr(clang::CallExpr const*, clang::CXXMethodDecl const*, clang::CodeGen::ReturnValueSlot, bool, clang::NestedNameSpecifier, bool, clang::Expr const*, llvm::CallBase**) + 2301
+17 clang++   0x0000556112b7cb03 clang::CodeGen::CodeGenFunction::EmitCXXMemberCallExpr(clang::CXXMemberCallExpr const*, clang::CodeGen::ReturnValueSlot, llvm::CallBase**) + 211
+18 clang++   0x0000556112b5cb2e clang::CodeGen::CodeGenFunction::EmitCallExpr(clang::CallExpr const*, clang::CodeGen::ReturnValueSlot, llvm::CallBase**) + 174
+19 clang++   0x0000556112bc2f7f
+20 clang++   0x0000556112bbcf5f clang::CodeGen::CodeGenFunction::EmitScalarExpr(clang::Expr const*, bool) + 111
+21 clang++   0x0000556113050f3c clang::CodeGen::CodeGenFunction::EmitScalarInit(clang::Expr const*, clang::ValueDecl const*, clang::CodeGen::LValue, bool) + 1404
+22 clang++   0x00005561130531ce clang::CodeGen::CodeGenFunction::EmitExprAsInit(clang::Expr const*, clang::ValueDecl const*, clang::CodeGen::LValue, bool) + 526
+23 clang++   0x000055611305dacf clang::CodeGen::CodeGenFunction::EmitAutoVarInit(clang::CodeGen::CodeGenFunction::AutoVarEmission const&) + 2655
+24 clang++   0x000055611306101c
+25 clang++   0x00005561130616d9 clang::CodeGen::CodeGenFunction::EmitDecl(clang::Decl const&, bool) + 745
+26 clang++   0x0000556112cc002c clang::CodeGen::CodeGenFunction::EmitDeclStmt(clang::DeclStmt const&) + 140
+27 clang++   0x0000556112cd5b15 clang::CodeGen::CodeGenFunction::EmitSimpleStmt(clang::Stmt const*, llvm::ArrayRef<clang::Attr const*>) + 453
+28 clang++   0x0000556112cccf5a clang::CodeGen::CodeGenFunction::EmitStmt(clang::Stmt const*, llvm::ArrayRef<clang::Attr const*>) + 154
+29 clang++   0x0000556112cd0dae clang::CodeGen::CodeGenFunction::EmitCXXForRangeStmt(clang::CXXForRangeStmt const&, llvm::ArrayRef<clang::Attr const*>) + 302
+30 clang++   0x0000556112cd557b clang::CodeGen::CodeGenFunction::EmitCompoundStmtWithoutScope(clang::CompoundStmt const&, bool, clang::CodeGen::AggValueSlot) + 91
+31 clang++   0x0000556112cd5c11 clang::CodeGen::CodeGenFunction::EmitSimpleStmt(clang::Stmt const*, llvm::ArrayRef<clang::Attr const*>) + 705
+32 clang++   0x0000556112cccf5a clang::CodeGen::CodeGenFunction::EmitStmt(clang::Stmt const*, llvm::ArrayRef<clang::Attr const*>) + 154
+33 clang++   0x0000556112cd4dca clang::CodeGen::CodeGenFunction::EmitIfStmt(clang::IfStmt const&) + 1610
+34 clang++   0x0000556112cd557b clang::CodeGen::CodeGenFunction::EmitCompoundStmtWithoutScope(clang::CompoundStmt const&, bool, clang::CodeGen::AggValueSlot) + 91
+35 clang++   0x0000556112cd5c11 clang::CodeGen::CodeGenFunction::EmitSimpleStmt(clang::Stmt const*, llvm::ArrayRef<clang::Attr const*>) + 705
+36 clang++   0x0000556112cccf5a clang::CodeGen::CodeGenFunction::EmitStmt(clang::Stmt const*, llvm::ArrayRef<clang::Attr const*>) + 154
+37 clang++   0x0000556112cd4cf7 clang::CodeGen::CodeGenFunction::EmitIfStmt(clang::IfStmt const&) + 1399
+38 clang++   0x0000556112cd557b clang::CodeGen::CodeGenFunction::EmitCompoundStmtWithoutScope(clang::CompoundStmt const&, bool, clang::CodeGen::AggValueSlot) + 91
+39 clang++   0x0000556112d3bd5c clang::CodeGen::CodeGenFunction::EmitFunctionBody(clang::Stmt const*) + 172
+40 clang++   0x0000556112d4f1ab clang::CodeGen::CodeGenFunction::GenerateCode(clang::GlobalDecl, llvm::Function*, clang::CodeGen::CGFunctionInfo const&) + 1051
+41 clang++   0x0000556112da1dc0 clang::CodeGen::CodeGenModule::EmitGlobalFunctionDefinition(clang::GlobalDecl, llvm::GlobalValue*) + 368
+42 clang++   0x0000556112d9d4ec clang::CodeGen::CodeGenModule::EmitGlobalDefinition(clang::GlobalDecl, llvm::GlobalValue*) + 492
+43 clang++   0x0000556112da7cc9 clang::CodeGen::CodeGenModule::EmitDeferred() + 361
+44 clang++   0x0000556112da7ce1 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+45 clang++   0x0000556112da7ce1 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+46 clang++   0x0000556112da7ce1 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+47 clang++   0x0000556112daa2e4 clang::CodeGen::CodeGenModule::Release() + 116
+48 clang++   0x000055611310d5de
+49 clang++   0x000055611310b445 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) + 1621
+50 clang++   0x00005561145dc57c clang::ParseAST(clang::Sema&, bool, bool) + 1164
+51 clang++   0x000055611347ac5e clang::FrontendAction::Execute() + 46
+52 clang++   0x00005561133e7105 clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 965
+53 clang++   0x0000556113564838 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+54 clang++   0x0000556110e99709 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 2377
+55 clang++   0x0000556110e920bb
+56 clang++   0x0000556110e9216f
+57 clang++   0x000055611317e25d
+58 clang++   0x000055611264e577 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+59 clang++   0x000055611317e5f7
+60 clang++   0x000055611313ccb7 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+61 clang++   0x000055611313dcd9 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 153
+62 clang++   0x000055611314f13c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+63 clang++   0x0000556110e96e0f clang_main(int, char**, llvm::ToolContext const&) + 7839
+64 clang++   0x0000556110d9d491 main + 113
+65 libc.so.6 0x00007f280b1d4d90
+66 libc.so.6 0x00007f280b1d4e40 __libc_start_main + 128
+67 clang++   0x0000556110e91b35 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang++: note: diagnostic msg: /tmp/RustDemangle-dffe65.cpp
+clang++: note: diagnostic msg: /tmp/RustDemangle-dffe65.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[17/3019] Building C object lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_neon.c.o
+[18/3019] Building C object lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3.c.o
+[19/3019] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangle.cpp.o
+[20/3019] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage2/lib/Demangle -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Demangle -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wno-pass-failed -Wmisleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -Xclang -fno-pch-timestamp -flto=thin -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o -MF lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o.d -o lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Demangle/ItaniumDemangle.cpp
+1.	<eof> parser at end of file
+2.	Per-file LLVM IR generation
+3.	/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Demangle/ItaniumDemangle.h:5785:47: Generating code for declaration 'llvm::itanium_demangle::AbstractManglingParser<llvm::itanium_demangle::ManglingParser<(anonymous namespace)::DefaultAllocator>, (anonymous namespace)::DefaultAllocator>::parseFloatingLiteral'
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x000055f5470d22b0 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 240
+1  clang++   0x000055f5470cfe44 llvm::sys::CleanupOnSignal(unsigned long) + 164
+2  clang++   0x000055f54700f1d8
+3  libc.so.6 0x00007fc031cfd520
+4  clang++   0x000055f54755aec8 clang::CodeGen::ConstantEmitter::tryEmitPrivate(clang::APValue const&, clang::QualType, bool) + 56
+5  clang++   0x000055f54755e81f clang::CodeGen::ConstantEmitter::emitAbstract(clang::SourceLocation, clang::APValue const&, clang::QualType, bool) + 47
+6  clang++   0x000055f547503423 clang::CodeGen::CodeGenFunction::EmitDeclRefLValue(clang::DeclRefExpr const*) + 2051
+7  clang++   0x000055f54751fcb1 clang::CodeGen::CodeGenFunction::EmitLValueHelper(clang::Expr const*, clang::CodeGen::KnownNonNull_t) + 1729
+8  clang++   0x000055f5475202ae
+9  clang++   0x000055f54a8d0145 clang::StackExhaustionHandler::runWithSufficientStackSpace(clang::SourceLocation, llvm::function_ref<void ()>) + 69
+10 clang++   0x000055f5474e4f6a
+11 clang++   0x000055f54750cd92 clang::CodeGen::CodeGenFunction::EmitCastLValue(clang::CastExpr const*) + 786
+12 clang++   0x000055f54751f6ce clang::CodeGen::CodeGenFunction::EmitLValueHelper(clang::Expr const*, clang::CodeGen::KnownNonNull_t) + 222
+13 clang++   0x000055f5475202ae
+14 clang++   0x000055f54a8d0145 clang::StackExhaustionHandler::runWithSufficientStackSpace(clang::SourceLocation, llvm::function_ref<void ()>) + 69
+15 clang++   0x000055f5474ebeea clang::CodeGen::CodeGenFunction::EmitLValue(clang::Expr const*, clang::CodeGen::KnownNonNull_t) + 202
+16 clang++   0x000055f54753c1bd clang::CodeGen::CodeGenFunction::EmitCXXMemberOrOperatorMemberCallExpr(clang::CallExpr const*, clang::CXXMethodDecl const*, clang::CodeGen::ReturnValueSlot, bool, clang::NestedNameSpecifier, bool, clang::Expr const*, llvm::CallBase**) + 2301
+17 clang++   0x000055f54753db03 clang::CodeGen::CodeGenFunction::EmitCXXMemberCallExpr(clang::CXXMemberCallExpr const*, clang::CodeGen::ReturnValueSlot, llvm::CallBase**) + 211
+18 clang++   0x000055f54751db2e clang::CodeGen::CodeGenFunction::EmitCallExpr(clang::CallExpr const*, clang::CodeGen::ReturnValueSlot, llvm::CallBase**) + 174
+19 clang++   0x000055f547583f7f
+20 clang++   0x000055f54757df5f clang::CodeGen::CodeGenFunction::EmitScalarExpr(clang::Expr const*, bool) + 111
+21 clang++   0x000055f547a11f3c clang::CodeGen::CodeGenFunction::EmitScalarInit(clang::Expr const*, clang::ValueDecl const*, clang::CodeGen::LValue, bool) + 1404
+22 clang++   0x000055f547a141ce clang::CodeGen::CodeGenFunction::EmitExprAsInit(clang::Expr const*, clang::ValueDecl const*, clang::CodeGen::LValue, bool) + 526
+23 clang++   0x000055f547a1eacf clang::CodeGen::CodeGenFunction::EmitAutoVarInit(clang::CodeGen::CodeGenFunction::AutoVarEmission const&) + 2655
+24 clang++   0x000055f547a2201c
+25 clang++   0x000055f547a226d9 clang::CodeGen::CodeGenFunction::EmitDecl(clang::Decl const&, bool) + 745
+26 clang++   0x000055f54768102c clang::CodeGen::CodeGenFunction::EmitDeclStmt(clang::DeclStmt const&) + 140
+27 clang++   0x000055f547696b15 clang::CodeGen::CodeGenFunction::EmitSimpleStmt(clang::Stmt const*, llvm::ArrayRef<clang::Attr const*>) + 453
+28 clang++   0x000055f54768df5a clang::CodeGen::CodeGenFunction::EmitStmt(clang::Stmt const*, llvm::ArrayRef<clang::Attr const*>) + 154
+29 clang++   0x000055f547691dae clang::CodeGen::CodeGenFunction::EmitCXXForRangeStmt(clang::CXXForRangeStmt const&, llvm::ArrayRef<clang::Attr const*>) + 302
+30 clang++   0x000055f54769657b clang::CodeGen::CodeGenFunction::EmitCompoundStmtWithoutScope(clang::CompoundStmt const&, bool, clang::CodeGen::AggValueSlot) + 91
+31 clang++   0x000055f5476fcd5c clang::CodeGen::CodeGenFunction::EmitFunctionBody(clang::Stmt const*) + 172
+32 clang++   0x000055f5477101ab clang::CodeGen::CodeGenFunction::GenerateCode(clang::GlobalDecl, llvm::Function*, clang::CodeGen::CGFunctionInfo const&) + 1051
+33 clang++   0x000055f547762dc0 clang::CodeGen::CodeGenModule::EmitGlobalFunctionDefinition(clang::GlobalDecl, llvm::GlobalValue*) + 368
+34 clang++   0x000055f54775e4ec clang::CodeGen::CodeGenModule::EmitGlobalDefinition(clang::GlobalDecl, llvm::GlobalValue*) + 492
+35 clang++   0x000055f547768cc9 clang::CodeGen::CodeGenModule::EmitDeferred() + 361
+36 clang++   0x000055f547768ce1 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+37 clang++   0x000055f547768ce1 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+38 clang++   0x000055f547768ce1 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+39 clang++   0x000055f547768ce1 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+40 clang++   0x000055f547768ce1 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+41 clang++   0x000055f547768ce1 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+42 clang++   0x000055f547768ce1 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+43 clang++   0x000055f54776b2e4 clang::CodeGen::CodeGenModule::Release() + 116
+44 clang++   0x000055f547ace5de
+45 clang++   0x000055f547acc445 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) + 1621
+46 clang++   0x000055f548f9d57c clang::ParseAST(clang::Sema&, bool, bool) + 1164
+47 clang++   0x000055f547e3bc5e clang::FrontendAction::Execute() + 46
+48 clang++   0x000055f547da8105 clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 965
+49 clang++   0x000055f547f25838 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+50 clang++   0x000055f54585a709 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 2377
+51 clang++   0x000055f5458530bb
+52 clang++   0x000055f54585316f
+53 clang++   0x000055f547b3f25d
+54 clang++   0x000055f54700f577 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+55 clang++   0x000055f547b3f5f7
+56 clang++   0x000055f547afdcb7 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+57 clang++   0x000055f547afecd9 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 153
+58 clang++   0x000055f547b1013c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+59 clang++   0x000055f545857e0f clang_main(int, char**, llvm::ToolContext const&) + 7839
+60 clang++   0x000055f54575e491 main + 113
+61 libc.so.6 0x00007fc031ce4d90
+62 libc.so.6 0x00007fc031ce4e40 __libc_start_main + 128
+63 clang++   0x000055f545852b35 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang++: note: diagnostic msg: /tmp/ItaniumDemangle-e35a36.cpp
+clang++: note: diagnostic msg: /tmp/ItaniumDemangle-e35a36.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[21/3019] Linking CXX static library lib/libLLVMDemangle.a
+FAILED: lib/libLLVMDemangle.a 
+: && /usr/bin/cmake -E rm -f lib/libLLVMDemangle.a && /tmp/llvm-project-build-stage1/bin/llvm-ar Dqc lib/libLLVMDemangle.a  lib/Demangle/CMakeFiles/LLVMDemangle.dir/Demangle.cpp.o lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangle.cpp.o lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangleNodes.cpp.o lib/Demangle/CMakeFiles/LLVMDemangle.dir/RustDemangle.cpp.o lib/Demangle/CMakeFiles/LLVMDemangle.dir/DLangDemangle.cpp.o && /tmp/llvm-project-build-stage1/bin/llvm-ranlib -D lib/libLLVMDemangle.a && :
+/tmp/llvm-project-build-stage1/bin/llvm-ar: error: lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o: No such file or directory
+[22/3019] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/cmake_pch.hxx.pch
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:494 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
