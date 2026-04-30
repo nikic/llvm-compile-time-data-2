@@ -119565,6 +119565,18 @@
             "author_name": "Rana Pratap Reddy",
             "commit_date": "2026-04-30T11:03:53+05:30",
             "subject": "[CIR][AMDGPU] Adds amdgcn logb and scalebn builtins (#191344)"
+        },
+        {
+            "hash": "cc0a1d85e68de492a33a801838a72e63570d80de",
+            "author_name": "Gil Rapaport",
+            "commit_date": "2026-04-30T09:29:47+03:00",
+            "subject": "[mlir][emitc] Deferred emission as expressions (#159975)"
+        },
+        {
+            "hash": "8106f3b3c29b8318bfc1c447cf9f8409198e5536",
+            "author_name": "David Green",
+            "commit_date": "2026-04-30T07:35:34+01:00",
+            "subject": "[AArch64][GlobalISel] Normalize and cleanup some test checks. NFC (#195016)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -120643,6 +120655,20 @@
             "author_name": "chengjunp",
             "commit_date": "2026-04-27T19:09:22+00:00",
             "subject": "Extend SROA tree merge to handle RMW pattern"
+        }
+    ],
+    "c-rhodes\/perf\/gisel-drop-assumptioncache-O0": [
+        {
+            "hash": "4e6d3722fca73c97367720180a8d547057fda380",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-04-27T14:53:03+01:00",
+            "subject": "[LiveDebugValues] Use std::sort for register sorting in collectIDsForRegs (#194339)"
+        },
+        {
+            "hash": "95b13462d4ff97f3fe5542e3eede0ad029a635f3",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-04-30T06:33:41+00:00",
+            "subject": "[GlobalISel] Remove AssumptionCacheTracker from O0 pipeline"
         }
     ]
 }
