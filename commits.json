@@ -120998,5 +120998,19 @@
             "commit_date": "2026-04-30T04:08:10-07:00",
             "subject": "iiii"
         }
+    ],
+    "c-rhodes\/perf\/gisel-getOrCreateVRegs-single-vreg-fastpath": [
+        {
+            "hash": "4e6d3722fca73c97367720180a8d547057fda380",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-04-27T14:53:03+01:00",
+            "subject": "[LiveDebugValues] Use std::sort for register sorting in collectIDsForRegs (#194339)"
+        },
+        {
+            "hash": "79cd48cd4f74d05596b60aee651d6e0d4bf7ae05",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-04-30T12:12:45+00:00",
+            "subject": "[GlobalISel] Fast-path values that lower to a single vreg in getOrCreateVRegs"
+        }
     ]
 }
