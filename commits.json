@@ -119517,6 +119517,12 @@
             "author_name": "Jan Svoboda",
             "commit_date": "2026-04-29T23:30:21+00:00",
             "subject": "[clang][tools] NFC: Replace `auto` with `Module *` (#194977)"
+        },
+        {
+            "hash": "6cad48ae72fbf344aab52cf28d51cb874dc30e20",
+            "author_name": "Heejin Ahn",
+            "commit_date": "2026-04-29T16:51:30-07:00",
+            "subject": "[WebAssembly] Remove WasmEHFuncInfo (NFC) (#194972)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -120581,6 +120587,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-04-29T20:16:34+00:00",
             "subject": "[CodeGen] Avoid redundant memory predecessor AA queries in ScheduleDAGInstrs"
+        }
+    ],
+    "Chengjunp\/perf\/sroa-rmw-tree-merge": [
+        {
+            "hash": "e38b8da23b0bfcf0585eda4bb5e2a2b8b3bb7539",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-04-25T00:00:17+00:00",
+            "subject": "[RISCV][P-ext] Remove dead code from LowerOperation handling of ISD::STORE. NFC (#194088)"
+        },
+        {
+            "hash": "ee893ce621f60877b739b475c81264c6046c0a7e",
+            "author_name": "chengjunp",
+            "commit_date": "2026-04-27T19:09:22+00:00",
+            "subject": "Extend SROA tree merge to handle RMW pattern"
         }
     ]
 }
