@@ -121769,22 +121769,16 @@
     ],
     "c-rhodes\/perf\/gisel-getOrCreateVRegs-single-vreg-fastpath": [
         {
-            "hash": "4e6d3722fca73c97367720180a8d547057fda380",
+            "hash": "a7a2dc59616a8cb1198d933bcdf55ebdbd78894c",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-04-27T14:53:03+01:00",
-            "subject": "[LiveDebugValues] Use std::sort for register sorting in collectIDsForRegs (#194339)"
+            "commit_date": "2026-05-01T06:26:32+01:00",
+            "subject": "[GlobalISel] Skip expensive dereferenceable checks at O0 (#195012)"
         },
         {
-            "hash": "79cd48cd4f74d05596b60aee651d6e0d4bf7ae05",
+            "hash": "96fcfe733947db64effd5e1d1413697981cbe357",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-04-30T12:12:45+00:00",
-            "subject": "[GlobalISel] Fast-path values that lower to a single vreg in getOrCreateVRegs"
-        },
-        {
-            "hash": "1c1062586e389671a8eead771cc1b6e347317780",
-            "author_name": "Cullen Rhodes",
-            "commit_date": "2026-04-30T14:08:42+00:00",
-            "subject": "[GlobalISel] Avoid offset materialization for single-register loads and stores"
+            "commit_date": "2026-05-01T09:01:46+00:00",
+            "subject": "[GlobalISel] Fast-path single vreg values in getOrCreateVRegs"
         }
     ],
     "alexey-bataev\/perf\/CompNonVect111": [
@@ -121911,6 +121905,26 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-05-01T05:58:00+00:00",
             "subject": "[GlobalISel] Add a fast-path for single-register loads and stores"
+        }
+    ],
+    "clemenswasser\/perf\/clang-cgdebuginfo-curloc-compile-time": [
+        {
+            "hash": "99c9a1f566df3ab4f37e156b62afd1d743882de0",
+            "author_name": "ioana ghiban",
+            "commit_date": "2026-04-24T07:41:31+01:00",
+            "subject": "[mlir][EmitC] Add tests for arith.max\/min float\/signed int conversions (#190160)"
+        },
+        {
+            "hash": "78d281116ba7ee7e6c13625906be325b6495205a",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-04-24T07:33:46+00:00",
+            "subject": "[clang][DebugInfo] Store current location metadata in CGDebugInfo"
+        },
+        {
+            "hash": "6ea3af6a9234b05ff4ab87bb1b26bfb7e654f464",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-05-01T10:58:27+02:00",
+            "subject": "[clang][DebugInfo] Cache repeated debug info lookups"
         }
     ]
 }
