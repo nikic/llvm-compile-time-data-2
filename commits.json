@@ -100503,6 +100503,24 @@
             "author_name": "Matheus Izvekov",
             "commit_date": "2026-04-28T23:30:49+00:00",
             "subject": "[clang] fix crash with c-style casts involving dependent member-pointer types (#194696)"
+        },
+        {
+            "hash": "5c9647b8e680a277281192a5a12b14e9155c7e57",
+            "author_name": "Heejin Ahn",
+            "commit_date": "2026-05-01T03:58:54+00:00",
+            "subject": "release\/22.x: [WebAssembly] Fix EHPadStack calculation in fixCallUnwindMismatches (#194184)"
+        },
+        {
+            "hash": "19f65f31105c0efeb000dda091b5eed0716b2f09",
+            "author_name": "Andrew Ng",
+            "commit_date": "2026-05-01T03:59:37+00:00",
+            "subject": "[LLD][ELF] Fix performance regression when using linker scripts (#194668)"
+        },
+        {
+            "hash": "932756ad6c645d40013a6122c6a97141b17f5890",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-05-01T04:00:40+00:00",
+            "subject": "[X86][FastISel] Restore support for struct returns (#194586)"
         }
     ],
     "enferex\/perf\/init-densemap-members": [
@@ -120513,6 +120531,12 @@
             "author_name": "Doug Gregor",
             "commit_date": "2026-04-30T20:02:55-07:00",
             "subject": "Add ARMv8-M and ARMv8.1-M support for Darwin (#195184)"
+        },
+        {
+            "hash": "cdc41818e3bd9e8cb7788d59365e39fe6433159e",
+            "author_name": "Tom Stellard",
+            "commit_date": "2026-04-30T21:00:05-07:00",
+            "subject": "workflows: Add require-release-manager composite action (#194758)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
