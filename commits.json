@@ -120759,6 +120759,12 @@
             "author_name": "Krzysztof Parzyszek",
             "commit_date": "2026-05-01T07:56:30-05:00",
             "subject": "[flang][OpenMP] Implement better GetOmpObjectList, NFC (#195171)"
+        },
+        {
+            "hash": "fdd2895c4ad559a475929241bb3503eb4ca148db",
+            "author_name": "John Brawn",
+            "commit_date": "2026-05-01T14:02:52+01:00",
+            "subject": "[VPlan] Compute the cost for vector icmp and fcmp (#193268)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -122079,6 +122085,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-05-01T11:02:22+00:00",
             "subject": "[GlobalISel] Use setMemRefs directly for single-MMO builders"
+        }
+    ],
+    "c-rhodes\/perf\/gisel-irtranslator-cache-split-llts": [
+        {
+            "hash": "a7a2dc59616a8cb1198d933bcdf55ebdbd78894c",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-01T06:26:32+01:00",
+            "subject": "[GlobalISel] Skip expensive dereferenceable checks at O0 (#195012)"
+        },
+        {
+            "hash": "0cf9d1fe54a3b6fb80af94b5f8fa9ed3830b7582",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-01T12:16:05+00:00",
+            "subject": "[GlobalISel] Cache split LLTs in IRTranslator"
         }
     ]
 }
