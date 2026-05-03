@@ -121707,6 +121707,12 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-05-03T12:34:38-07:00",
             "subject": "[ELF] Simplify checkDuplicate; cover SharedSymbol\/CommonSymbol resolve. NFC (#195541)"
+        },
+        {
+            "hash": "268813df7fc9666e4b50b95aaf463937805554f5",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-03T13:03:27-07:00",
+            "subject": "[ELF] maybeWarnUnorderableSymbol: drop redundant `d &&`, assert isShared. NFC (#195543)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
