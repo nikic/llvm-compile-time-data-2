@@ -122697,6 +122697,18 @@
             "author_name": "vporpo",
             "commit_date": "2026-05-04T15:41:34-07:00",
             "subject": "[SandboxIR][Tracker] Support nested checkpoints (#191097)"
+        },
+        {
+            "hash": "4ae338ff2339a9f5d9161600a7d95d6a90f6ca51",
+            "author_name": "Luca Ciucci",
+            "commit_date": "2026-05-04T22:58:39+00:00",
+            "subject": "APFloat: fix wrong result status for large floats (#189925)"
+        },
+        {
+            "hash": "53e3ca1612d9aff5fa3e7353b66d69f76332b834",
+            "author_name": "Steven Wu",
+            "commit_date": "2026-05-04T23:03:25+00:00",
+            "subject": "[compiler-rt][test] Disable create_thread_loop2 for lsan on Darwin (#195753)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -123297,27 +123309,27 @@
     ],
     "JiachenYuan\/perf\/jiachen\/bitset_prepare_for_lbm": [
         {
-            "hash": "9708947197e490d62bae590ec7ce04a2b5c903d6",
-            "author_name": "Zeyi Xu",
-            "commit_date": "2026-05-04T12:59:20+08:00",
-            "subject": "[clang-tidy] Skip user headers named like C headers in `modernize-deprecated-headers` (#195507)"
+            "hash": "4ae338ff2339a9f5d9161600a7d95d6a90f6ca51",
+            "author_name": "Luca Ciucci",
+            "commit_date": "2026-05-04T22:58:39+00:00",
+            "subject": "APFloat: fix wrong result status for large floats (#189925)"
         },
         {
-            "hash": "b103609ed69d3305e12c541af12dc66dd275f7ec",
+            "hash": "69cf575983e846b04b1e5516637df1f91949b486",
             "author_name": "Jiachen Yuan",
-            "commit_date": "2026-05-03T22:51:59-07:00",
+            "commit_date": "2026-05-04T15:59:53-07:00",
             "subject": "[ADT] Bitset: add shift operators, word accessors, and etc"
         },
         {
-            "hash": "90a05fb5ff9ae50b8cc883341d405e22fd0b179a",
+            "hash": "ac6caa189a83678007f07f5e1d9147892e4f332f",
             "author_name": "Jiachen Yuan",
-            "commit_date": "2026-05-03T22:51:59-07:00",
+            "commit_date": "2026-05-04T15:59:53-07:00",
             "subject": "refactor loops to be safer"
         },
         {
-            "hash": "a25765b9a7134b512cd46a735ced5ca86c835dc4",
+            "hash": "c67670c013e5689e778c1257e8cce654bf965ddc",
             "author_name": "Jiachen Yuan",
-            "commit_date": "2026-05-03T22:51:59-07:00",
+            "commit_date": "2026-05-04T15:59:53-07:00",
             "subject": "address review feedback on shift\/word APIs and tests"
         }
     ],
