@@ -100539,6 +100539,18 @@
             "author_name": "Alexandre Ganea",
             "commit_date": "2026-05-04T16:56:11+00:00",
             "subject": "[clang][CodeView] Prevent the input name from appearing in LF_BUILDINFO (#194140)"
+        },
+        {
+            "hash": "5e29d8aa0481725f4818c822f8c4e4deb726fe88",
+            "author_name": "JaberwockySeamonstah",
+            "commit_date": "2026-05-04T21:47:11+00:00",
+            "subject": "Prevent undefined behavior caused by combination of branch and load delay slots on MIPS1 (#185427)"
+        },
+        {
+            "hash": "7237429c2edcd8752cdea19b350fabaaa20c7f9b",
+            "author_name": "Folkert de Vries",
+            "commit_date": "2026-05-04T21:47:54+00:00",
+            "subject": "[AArch64] Fix `shufflevector` miscompilation on `aarch64_be` (#193076)"
         }
     ],
     "enferex\/perf\/init-densemap-members": [
@@ -122631,6 +122643,18 @@
             "author_name": "Kazu Hirata",
             "commit_date": "2026-05-04T14:38:16-07:00",
             "subject": "[ModuleInliner] Skip function declarations during candidate scan (#195567)"
+        },
+        {
+            "hash": "9792c778d0fc58d84b42c97b7f76f782705d72cd",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-05-04T21:39:59+00:00",
+            "subject": "[asan] Add tests for __sanitizer_annotate_double_ended_contiguous_container (#195673)"
+        },
+        {
+            "hash": "01aefba75dddd61ca0d60ff19a5c46eab7741798",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-05-04T22:41:02+01:00",
+            "subject": "[VPlan] Get GEP wrap flags from VPInstructions (NFCI). (#195730)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
