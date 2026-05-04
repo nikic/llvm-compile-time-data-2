@@ -122733,6 +122733,18 @@
             "author_name": "Alexander Richardson",
             "commit_date": "2026-05-04T16:34:08-07:00",
             "subject": "[asan] Remove XFAIL from tests that are passing with debug checks"
+        },
+        {
+            "hash": "3cbe75b1433a90a28db068d700b7effd2de8f401",
+            "author_name": "Michael Jones",
+            "commit_date": "2026-05-04T23:39:29+00:00",
+            "subject": "[libc][semaphore] Zero-initialize rand_bytes to fix GCC warning (#195757)"
+        },
+        {
+            "hash": "11317352614b0009d5bd265ac1d8c0c6b8e207de",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-05-04T23:45:35+00:00",
+            "subject": "[NFC][asan] Re-use ErrorGeneric::shadow_val (#195684)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
