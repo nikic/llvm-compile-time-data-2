@@ -121863,6 +121863,36 @@
             "author_name": "Chaitanya",
             "commit_date": "2026-05-04T11:52:24+05:30",
             "subject": "[OpenMP][mlir] Add Groupprivate op in omp dialect. (#162704)"
+        },
+        {
+            "hash": "2c35727e9679e841e8f78607e04761d37ed5392d",
+            "author_name": "Ming Yan",
+            "commit_date": "2026-05-04T06:27:39+00:00",
+            "subject": "[InstCombine] Fold `A == MIN_INT ? MAX_INT : 0 - A` to `ssub_sat 0, A` (#194519)"
+        },
+        {
+            "hash": "d38d8c6226fad08e38655624a0f2296a1aeea695",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-05-04T08:27:48+02:00",
+            "subject": "[libc++] Simplify more <random> engines (#195504)"
+        },
+        {
+            "hash": "be8e0842a103e3dfa276572dd4e4d798759e7e4d",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-05-04T08:28:24+02:00",
+            "subject": "[libc++] Remove libc++'s own ctype.h (#194615)"
+        },
+        {
+            "hash": "f7329e61ad4b0cc069b437ddb15ecd23e65b207b",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-05-04T08:28:45+02:00",
+            "subject": "[libc++] Remove libc++'s own fenv.h (#194629)"
+        },
+        {
+            "hash": "8889e8f85ddf21fc13dad3f416da9d649a4b3895",
+            "author_name": "Anonmiraj",
+            "commit_date": "2026-05-04T09:31:11+03:00",
+            "subject": "[libc][math] Refactor iscanonical-issignaling-nan family to header-only (#195581)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -123277,6 +123307,20 @@
             "author_name": "Yingwei Zheng",
             "commit_date": "2026-05-03T20:47:48+08:00",
             "subject": "[Clang] Fix tests. NFC."
+        }
+    ],
+    "MaskRay\/perf\/x86-reserved-id-fix": [
+        {
+            "hash": "f7329e61ad4b0cc069b437ddb15ecd23e65b207b",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-05-04T08:28:45+02:00",
+            "subject": "[libc++] Remove libc++'s own fenv.h (#194629)"
+        },
+        {
+            "hash": "318d45aa3c08df857a16444ca4eef96245d89146",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-03T23:29:36-07:00",
+            "subject": "[X86] Hoist ReservedIdentifiers to MCAsmInfo and shrink setup cost. NFC"
         }
     ]
 }
