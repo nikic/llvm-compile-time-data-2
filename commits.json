@@ -123447,6 +123447,18 @@
             "author_name": "NeKon69",
             "commit_date": "2026-05-05T19:43:40+00:00",
             "subject": "[LifetimeSafety] Add support for iterator arithmetic (#195442)"
+        },
+        {
+            "hash": "fac68351374776a253bdf3468391400b2d81f65d",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-05-05T19:58:54+00:00",
+            "subject": "clang: Print effective triple in -ccc-print-bindings (#195914)"
+        },
+        {
+            "hash": "b73ce3e53fcb9f72c759139e93db7e16a813c3b2",
+            "author_name": "Ziqing Luo",
+            "commit_date": "2026-05-05T13:01:58-07:00",
+            "subject": "[SSAF][PointerFlow] Add PointerFlow summary and extractor (#188654)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -125023,6 +125035,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-05-05T19:35:00+00:00",
             "subject": "[GlobalISel] Skip match table for opcodes with no combines"
+        }
+    ],
+    "c-rhodes\/perf\/aarch64-subtarget-map-avoid-raw_svector_ostream": [
+        {
+            "hash": "c9d713aa48a714d20b8502d06b9feb24829e6f22",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-05T07:10:20+01:00",
+            "subject": "[GlobalISel] Fast-path single reg loads and stores in IRTranslator (#195245)"
+        },
+        {
+            "hash": "e7ff83884193ee70cf3a69778b891fb729e0bcba",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-05T19:54:42+00:00",
+            "subject": "[AArch64] Avoid raw_svector_ostream for SubtargetMap keys"
         }
     ]
 }
