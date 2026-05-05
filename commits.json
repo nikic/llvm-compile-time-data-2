@@ -123045,6 +123045,24 @@
             "author_name": "cakgok",
             "commit_date": "2026-05-05T12:38:46+02:00",
             "subject": "[clang][bytecode] Don't evaluate bound member function expressions in new constant interpreter (#194851)"
+        },
+        {
+            "hash": "ae9f1ead6b271066aeffeb095d81885eb8b29a86",
+            "author_name": "Levin Dabhi",
+            "commit_date": "2026-05-05T11:42:19+01:00",
+            "subject": "[mlir][spirv] Support OpenCL.std clz in the SPIR-V dialect (#195317)"
+        },
+        {
+            "hash": "cc0d0f475b2657f13689ef2fb5234541215c07aa",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-05-05T10:42:45+00:00",
+            "subject": "[clang][CIR] Add lowering for fp16 intrinsics (#194865)"
+        },
+        {
+            "hash": "3d555a93f0fd930b2329c2e47223f05966f69e94",
+            "author_name": "tigbr",
+            "commit_date": "2026-05-05T12:49:12+02:00",
+            "subject": "[analyzer][NFC] Rename class `StackFrameContext` to `StackFrame` (#195802)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -124533,6 +124551,52 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-05-05T10:30:05+00:00",
             "subject": "[LiveDebugValues] Avoid SmallSet for dead regs"
+        }
+    ],
+    "madhur13490\/perf\/mssa-clobber-cache": [
+        {
+            "hash": "476bc22e852be2e3d3991d299b591392386d908b",
+            "author_name": "Sergei Barannikov",
+            "commit_date": "2026-05-04T18:11:33+03:00",
+            "subject": "[clang] clang-format functionality related to format string parsing (NFC) (#195644)"
+        },
+        {
+            "hash": "41e054a71c4d50d9250751074aef0d0c17b08e7b",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-05-04T23:20:48-07:00",
+            "subject": "[GVN] Add inert infrastructure for an MSSA clobber-query cache"
+        },
+        {
+            "hash": "04e4ef8c839006c9f8de6ff23ce8aee555ca886a",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-05-04T23:21:51-07:00",
+            "subject": "[GVN] Cache MSSA clobber queries within a single runImpl"
+        },
+        {
+            "hash": "9d842b42562b60bc6ce7512361da26a5e62fb0c4",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-05-05T03:48:55-07:00",
+            "subject": "fixup for compile-time"
+        },
+        {
+            "hash": "a6ae291a9f3d62d3842dd62b00f45d1faf62a332",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-05-05T03:49:32-07:00",
+            "subject": "fixup! fixup for compile-time"
+        }
+    ],
+    "nikic\/perf\/scev-udiv-exact": [
+        {
+            "hash": "a3c18c0e594a67b6585ed7181a57df74f22730fd",
+            "author_name": "Nashe Mncube",
+            "commit_date": "2026-05-05T11:16:08+01:00",
+            "subject": "[AArch64] Add C1-Premium scheduling model (#185398)"
+        },
+        {
+            "hash": "70f389d05ce10aa4fe1d9dafb13e8ffc374e4fcb",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-05-05T12:48:46+02:00",
+            "subject": "comment out udiv exact handling"
         }
     ]
 }
