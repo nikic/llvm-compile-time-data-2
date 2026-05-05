@@ -123429,6 +123429,24 @@
             "author_name": "Ebuka Ezike",
             "commit_date": "2026-05-05T20:20:54+01:00",
             "subject": "[lldb-dap] Fix crash in source request handler (#195847)"
+        },
+        {
+            "hash": "6e2d30b44f34b8e8c12d6952e6f44399fdb0be9e",
+            "author_name": "G\u00e1bor Spaits",
+            "commit_date": "2026-05-05T21:29:11+02:00",
+            "subject": "[RISCV][GISel][NFC] Fix file header comment in RISCVInlineAsmLowering.cpp (#195805)"
+        },
+        {
+            "hash": "e816381c7ef5e08821e636583b4ed05e165d87c0",
+            "author_name": "Adel Ejjeh",
+            "commit_date": "2026-05-05T14:39:04-05:00",
+            "subject": "[LoopInfo] Remove redundant LLVM_ABI from Loop member functions (#195863)"
+        },
+        {
+            "hash": "e59c6fe71b996f067a47b25693bdb5ac784e6f8c",
+            "author_name": "NeKon69",
+            "commit_date": "2026-05-05T19:43:40+00:00",
+            "subject": "[LifetimeSafety] Add support for iterator arithmetic (#195442)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -124991,6 +125009,20 @@
             "author_name": "Utkarsh Saxena",
             "commit_date": "2026-05-05T23:51:10+05:30",
             "subject": "Enable lifetime safety analysis unconditionally"
+        }
+    ],
+    "c-rhodes\/perf\/gisel-skip-match-table": [
+        {
+            "hash": "c9d713aa48a714d20b8502d06b9feb24829e6f22",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-05T07:10:20+01:00",
+            "subject": "[GlobalISel] Fast-path single reg loads and stores in IRTranslator (#195245)"
+        },
+        {
+            "hash": "273991b872ee722ac74250ddc3bec0651b6ddba9",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-05T19:35:00+00:00",
+            "subject": "[GlobalISel] Skip match table for opcodes with no combines"
         }
     ]
 }
