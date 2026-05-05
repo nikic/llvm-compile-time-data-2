@@ -122955,6 +122955,24 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-05-05T08:32:49+00:00",
             "subject": "[AssumeBuilder] Fix incorrect nonnull optimization (#195676)"
+        },
+        {
+            "hash": "e12c1081ad0228cf92e098fe7e23e3b0b89ac3a6",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-05-05T09:06:23+00:00",
+            "subject": "[NFC][clang] InterpBuiltin.cpp - use consistent ia32 naming convention for all x86 builtin expansions (#195699)"
+        },
+        {
+            "hash": "40cdfd26497e7d23ed86c84f0629cbc85eb51c25",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-05-05T11:10:07+02:00",
+            "subject": "[mlir][SPIR-V][NFC] Add pushCaps\/pushExts helpers to type visitors (#195796)"
+        },
+        {
+            "hash": "ed07c92c9629cc64e2b17e82eff841dd238c5218",
+            "author_name": "Abid Qadeer",
+            "commit_date": "2026-05-05T10:12:14+01:00",
+            "subject": "[MLIR] Fix offload map metadata order (#195346)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -124303,21 +124321,21 @@
     ],
     "c-rhodes\/perf\/gisel-irtranslator-cache-split-llts": [
         {
-            "hash": "a7a2dc59616a8cb1198d933bcdf55ebdbd78894c",
+            "hash": "c9d713aa48a714d20b8502d06b9feb24829e6f22",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-05-01T06:26:32+01:00",
-            "subject": "[GlobalISel] Skip expensive dereferenceable checks at O0 (#195012)"
+            "commit_date": "2026-05-05T07:10:20+01:00",
+            "subject": "[GlobalISel] Fast-path single reg loads and stores in IRTranslator (#195245)"
         },
         {
-            "hash": "0cf9d1fe54a3b6fb80af94b5f8fa9ed3830b7582",
+            "hash": "80d4847ab6ae97052fe91147b43d034f629f7c11",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-05-01T12:16:05+00:00",
+            "commit_date": "2026-05-05T09:01:30+00:00",
             "subject": "[GlobalISel] Cache split LLTs in IRTranslator"
         },
         {
-            "hash": "c5fbfb32ad7880d89a5bf9cc2d9aa10348178ab1",
+            "hash": "36222d038b36440c62cb1b3d2b5c65f516a02a1e",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-05-01T14:42:48+00:00",
+            "commit_date": "2026-05-05T09:01:30+00:00",
             "subject": "address comments"
         }
     ],
