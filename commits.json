@@ -123723,6 +123723,12 @@
             "author_name": "Jianhui Li",
             "commit_date": "2026-05-05T22:29:59-07:00",
             "subject": "[MLIR][XeGPU] Clean up the temporary layout usage in XeGPU test (#195739)"
+        },
+        {
+            "hash": "b19741877cbc30384a29f9138119c4e9192c082b",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-05T23:37:12-07:00",
+            "subject": "[ELF,test] Cover --why-live mark() paths in MarkLive (#196007)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -125325,6 +125331,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-05-06T05:18:31+00:00",
             "subject": "[AArch64] Avoid raw_svector_ostream for SubtargetMap keys"
+        }
+    ],
+    "madhur13490\/perf\/mssa-skipself-cache": [
+        {
+            "hash": "d6a1064853a558be8770a995828ee7119bbac2b3",
+            "author_name": "Akimasa Watanuki",
+            "commit_date": "2026-05-06T13:11:15+09:00",
+            "subject": "[CIR][NFC] Upstream mem2reg.cir from incubator (#194517)"
+        },
+        {
+            "hash": "5a4bfbd7a7c24e09d4daf990c881ad2eb9f62643",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-05-05T23:36:38-07:00",
+            "subject": "[MemorySSA] Cache skip-self getClobberingMemoryAccess(MA) results"
         }
     ]
 }
