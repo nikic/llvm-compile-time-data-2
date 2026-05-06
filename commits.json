@@ -124347,6 +124347,42 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-05-06T18:34:44+00:00",
             "subject": "Revert \"[lit] [compiler-rt] Add llvm-lit global command cache to speed up test config\" (#196139)"
+        },
+        {
+            "hash": "25deb6e8e7bb274c70d6dad0a6031fbd7c23ace0",
+            "author_name": "Anatoly Trosinenko",
+            "commit_date": "2026-05-06T21:54:20+03:00",
+            "subject": "[BOLT] Rework user-facing documentation of BOLT gadget scanner (#176446)"
+        },
+        {
+            "hash": "bd62f9327279e7e2bcbc9c30476e1b868e4f0081",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-05-06T11:55:45-07:00",
+            "subject": "[flang][cuda] Allow CUDA variable for assumed-type dummy (#196135)"
+        },
+        {
+            "hash": "8ac8e6fc1645f73fbb0a82364980576c5fa2bb67",
+            "author_name": "Peter Rong",
+            "commit_date": "2026-05-06T11:56:16-07:00",
+            "subject": "[dsymutil] Fix linker's ODR uniquing for typedefs with different underlying types (#195749)"
+        },
+        {
+            "hash": "cdf745a9f290fce16ab68499ff0f8850284a7491",
+            "author_name": "Hristo Hristov",
+            "commit_date": "2026-05-06T21:57:01+03:00",
+            "subject": "[libc++][utility] Test `[[nodiscard]] std::exchange` (#195807)"
+        },
+        {
+            "hash": "ce4cef8d3a10acdcaba55463c68297c22c645a30",
+            "author_name": "Jeff Bailey",
+            "commit_date": "2026-05-06T20:00:06+01:00",
+            "subject": "[libc][stdlib] Add EnvironmentManager (#195260)"
+        },
+        {
+            "hash": "a2075c3dea692c6150fb626b328ceeead52df455",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-05-06T15:03:18-04:00",
+            "subject": "[SLP] Treat extracts from undef vectors as real, not free, extracts"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -125983,6 +126019,20 @@
             "author_name": "Guy David",
             "commit_date": "2026-05-06T18:19:36+03:00",
             "subject": "[ValueTracking] Extend computeConstantRange for add\/sub"
+        }
+    ],
+    "aeft\/perf\/lifetime-safety-05": [
+        {
+            "hash": "461e473a8f1d1af85f8392b3b529adfca31eadb1",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-05-05T22:23:27+01:00",
+            "subject": "[VPlan] Add isFreeScalarIntrinsic helper (NFC). (#195929)"
+        },
+        {
+            "hash": "82f78e04354d6c73fd4e6260c4619eb28de69704",
+            "author_name": "Zhijie Wang",
+            "commit_date": "2026-05-06T11:10:44-07:00",
+            "subject": "Enable lifetime safety analysis unconditionally"
         }
     ]
 }
