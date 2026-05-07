@@ -124929,6 +124929,18 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-05-07T12:33:48+02:00",
             "subject": "[LangRef] Fix typo in cross-reference (#196273)"
+        },
+        {
+            "hash": "bdba997f80242972c9732d51d6a0e65c22d2692d",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-05-07T10:38:17+00:00",
+            "subject": "[Clang] Avoid some copies in ClangAttrEmitter. NFC. (#193928)"
+        },
+        {
+            "hash": "240d7c232b8b6c1bb49d8a1e396173486dd868ec",
+            "author_name": "Abid Qadeer",
+            "commit_date": "2026-05-07T11:42:42+01:00",
+            "subject": "[Flang][OpenMP] Preserve MapInfoOp loc on descriptor base-address maps (#196086)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -126605,6 +126617,26 @@
             "author_name": "Iris Shi",
             "commit_date": "2026-05-07T10:01:44+02:00",
             "subject": "pre-commit test"
+        }
+    ],
+    "nikic\/perf\/spill-placement": [
+        {
+            "hash": "ac9e437961c816896a1d7dc812e5a52bbc224b97",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-05-07T12:33:48+02:00",
+            "subject": "[LangRef] Fix typo in cross-reference (#196273)"
+        },
+        {
+            "hash": "ba7bdf683c7a484e47cef7ad9024f08936ab0884",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-07T12:38:10+02:00",
+            "subject": "apply small-size optimization to SmallMapVector"
+        },
+        {
+            "hash": "a342f64eb88c604be615cbdd3d2fdfff70f12d7e",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-07T12:38:10+02:00",
+            "subject": "Use SmallMapVector for SpillPlacement::Node::Links"
         }
     ]
 }
