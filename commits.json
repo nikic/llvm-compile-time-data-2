@@ -127306,5 +127306,31 @@
             "commit_date": "2026-05-07T15:41:51+02:00",
             "subject": "Add Tests."
         }
+    ],
+    "aeft\/perf\/lifetime-safety-07-May": [
+        {
+            "hash": "461e473a8f1d1af85f8392b3b529adfca31eadb1",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-05-05T22:23:27+01:00",
+            "subject": "[VPlan] Add isFreeScalarIntrinsic helper (NFC). (#195929)"
+        },
+        {
+            "hash": "82f78e04354d6c73fd4e6260c4619eb28de69704",
+            "author_name": "Zhijie Wang",
+            "commit_date": "2026-05-06T11:10:44-07:00",
+            "subject": "Enable lifetime safety analysis unconditionally"
+        },
+        {
+            "hash": "1ca455dfd67141676951cbdd4a3790e8ae406ed3",
+            "author_name": "Zhijie Wang",
+            "commit_date": "2026-05-07T21:48:17-07:00",
+            "subject": "[LifetimeSafety][NFC] Refactor OriginList to OriginNode tree"
+        },
+        {
+            "hash": "8448939d08433f13a0b2260d91d5349585984e22",
+            "author_name": "Zhijie Wang",
+            "commit_date": "2026-05-07T21:48:18-07:00",
+            "subject": "[LifetimeSafety] Track per-field origins for record types"
+        }
     ]
 }
