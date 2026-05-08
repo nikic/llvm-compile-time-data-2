@@ -125817,6 +125817,18 @@
             "author_name": "Alex Duran",
             "commit_date": "2026-05-08T12:26:39+00:00",
             "subject": "[clang][OpenMP][SPIRV] Use the right calling convention for reduction helpers (#195911)"
+        },
+        {
+            "hash": "03bd38f411de317422ced4a9527af11294196023",
+            "author_name": "Ryan Mansfield",
+            "commit_date": "2026-05-08T08:36:59-04:00",
+            "subject": "[llvm-otool] Add -m flag and archive(member) input syntax (#194234)"
+        },
+        {
+            "hash": "c48b74fbcf604c14f4e53d284c3f3da4076db427",
+            "author_name": "Jan Schultke",
+            "commit_date": "2026-05-08T12:37:21+00:00",
+            "subject": "[clang] Deduce _BitInt(N) template parameter as size_t (#195534)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -127597,6 +127609,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-05-08T11:35:56+00:00",
             "subject": "address comments"
+        }
+    ],
+    "c-rhodes\/perf\/gisel-combiner-cache-target-info": [
+        {
+            "hash": "71fef6d5a306d1adf8bf7d30d2fe9e286380fecf",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-08T08:04:34+01:00",
+            "subject": "[clang][DebugInfo] Store current location metadata in CGDebugInfo (#193918)"
+        },
+        {
+            "hash": "13bc49510657450402c066098e3a4b7d1af9d0e6",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-08T12:34:50+00:00",
+            "subject": "[GlobalISel] Avoid repeated target info queries in combiners"
         }
     ]
 }
