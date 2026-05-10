@@ -126771,6 +126771,12 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-05-10T09:45:46-07:00",
             "subject": "[libcxx] Switch to check-runtimes for generic-llvm-libc (#196780)"
+        },
+        {
+            "hash": "2f4c387147f1617e242dd500960410728e5ec35e",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-10T10:26:34-07:00",
+            "subject": "Move KCFI type ID hash helpers out of LLVMSupport (#196784)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -128629,16 +128635,16 @@
     ],
     "MaskRay\/perf\/hashing-integer-cleanup": [
         {
-            "hash": "525fab579da1504be3f09013f22e9ad499fb5bfc",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-05-10T04:24:49+00:00",
-            "subject": "[ADT] Decouple xxhash.h from ADT. NFC (#196774)"
+            "hash": "285ac8c1a33cae80357bdc3419e9633e700c1d06",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-05-10T09:45:46-07:00",
+            "subject": "[libcxx] Switch to check-runtimes for generic-llvm-libc (#196780)"
         },
         {
-            "hash": "fed37dc48f57eca0b6419c7ea40428e682824f75",
+            "hash": "dad9bad042480b77cbf1d8145f4207d4984b117b",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-05-09T21:33:08-07:00",
-            "subject": "[Hashing] Replace CityHash mixers with xxh3"
+            "commit_date": "2026-05-10T10:27:45-07:00",
+            "subject": "[Hashing] Simplify hash_integer_value to a direct mix"
         }
     ]
 }
