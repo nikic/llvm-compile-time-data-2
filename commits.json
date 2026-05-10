@@ -104817,28 +104817,22 @@
     ],
     "mizvekov\/perf\/fix-decltype-dependence": [
         {
-            "hash": "2b8c1178ddc4e0e524c14ff4d7fb39a9e502fe9f",
-            "author_name": "Guray Ozen",
-            "commit_date": "2026-05-04T21:40:38+02:00",
-            "subject": "[MLIR][NVVM] Remove the `nvvm.barrier0` op (#195608)"
+            "hash": "5d03beef627a0d733c83c562d9a09e7201d9e001",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-05-09T22:23:41+00:00",
+            "subject": "[DAG] canCreateUndefOrPoison - out of range vector insert\/extract element indices only generate poison (#196720)"
         },
         {
-            "hash": "ebf0ae197e87b811f39df5789c22de138d96e245",
+            "hash": "b370bec67d87f62a7684d89c06a54a53cee924c2",
             "author_name": "Matheus Izvekov",
-            "commit_date": "2026-05-06T13:51:59-03:00",
+            "commit_date": "2026-05-09T20:39:30-03:00",
             "subject": "[clang] implement CWG2064: ignore value dependence for decltype"
         },
         {
-            "hash": "a6260ca8d61ddb0b2508159740152603822effa7",
+            "hash": "2dc02d348a551fd6f9be5459097874aaac0c2661",
             "author_name": "Matheus Izvekov",
-            "commit_date": "2026-05-06T13:51:59-03:00",
+            "commit_date": "2026-05-09T20:39:33-03:00",
             "subject": "trivial changes"
-        },
-        {
-            "hash": "274185f7a21180d7fd34bc8828a44082c5475888",
-            "author_name": "Matheus Izvekov",
-            "commit_date": "2026-05-09T19:11:33-03:00",
-            "subject": "fixup"
         }
     ],
     "nikic\/perf\/scev-block-entry-guarded": [
