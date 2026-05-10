@@ -126645,6 +126645,12 @@
             "author_name": "Andrew Marshall",
             "commit_date": "2026-05-10T01:04:41-07:00",
             "subject": "[cmake] use target names instead of legacy variables (#185463)"
+        },
+        {
+            "hash": "155861873606c3be95e02ecd9247b5ce29cb88ac",
+            "author_name": "Zeyi Xu",
+            "commit_date": "2026-05-10T16:08:33+08:00",
+            "subject": "[clang-tidy] Remove hicpp module [1\/4] (#194516)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -128499,6 +128505,20 @@
             "author_name": "Enna1",
             "commit_date": "2026-05-09T21:06:39+02:00",
             "subject": "Use SmallMapVector for SpillPlacement::Node::Links"
+        }
+    ],
+    "MaskRay\/perf\/hashing-integer-cleanup": [
+        {
+            "hash": "525fab579da1504be3f09013f22e9ad499fb5bfc",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-10T04:24:49+00:00",
+            "subject": "[ADT] Decouple xxhash.h from ADT. NFC (#196774)"
+        },
+        {
+            "hash": "fed37dc48f57eca0b6419c7ea40428e682824f75",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-09T21:33:08-07:00",
+            "subject": "[Hashing] Replace CityHash mixers with xxh3"
         }
     ]
 }
