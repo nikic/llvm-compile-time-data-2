@@ -129003,10 +129003,30 @@
             "subject": "Use auto for DenseMap\/SmallDenseMap iterator variables. NFC (#196883)"
         },
         {
-            "hash": "e4de6e64996423ab4b0602f3bf0512bd44ad9820",
+            "hash": "dc0ac9291813e7465bb77e4dae997219f4772b67",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-05-11T01:07:10-07:00",
+            "commit_date": "2026-05-11T01:40:58-07:00",
             "subject": "[DenseMap] Use linear probing with backward-shift deletion"
+        }
+    ],
+    "PankajDwivedi-25\/perf\/scev-instruction-listener": [
+        {
+            "hash": "52a250ea1b8d6b34da4e437d89dda246d5e87e6f",
+            "author_name": "Juan Manuel Martinez Caama\u00f1o",
+            "commit_date": "2026-04-13T16:39:41+02:00",
+            "subject": "[NFC] Replace `expectedToStdOptional` with `expectedToOptional` (#191359)"
+        },
+        {
+            "hash": "df6e1f485683dc9050d853bef510da012816b4a7",
+            "author_name": "padivedi",
+            "commit_date": "2026-05-08T14:26:39+05:30",
+            "subject": "[IR] InstructionListener: per-function instruction removal\/RAUW notifications"
+        },
+        {
+            "hash": "c0b055259f914d992a996c7e9dbafac5129b27a7",
+            "author_name": "padivedi",
+            "commit_date": "2026-05-08T14:28:16+05:30",
+            "subject": "[Analysis] Replace SCEVCallbackVH with InstructionListener"
         }
     ]
 }
