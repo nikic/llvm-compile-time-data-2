@@ -126855,6 +126855,12 @@
             "author_name": "Daniil Dudkin",
             "commit_date": "2026-05-10T23:05:37+00:00",
             "subject": "[clang-tidy] comment braced and parenthesized init arguments (#180408)"
+        },
+        {
+            "hash": "578ba5f3039e7a1e4e6f3a82891b3838823e37c2",
+            "author_name": "Mingjie Xu",
+            "commit_date": "2026-05-11T09:12:43+08:00",
+            "subject": "[ADT] Avoid map storage for small SmallMapVector (#196473)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -128768,6 +128774,38 @@
             "hash": "9690f96671d89cf8179280573c91ccf5f0e57bb5",
             "author_name": "Zhijie Wang",
             "commit_date": "2026-05-10T16:52:24-07:00",
+            "subject": "MaxFieldDepth=1"
+        }
+    ],
+    "aeft\/perf\/lifetime-safety-10-May-2": [
+        {
+            "hash": "461e473a8f1d1af85f8392b3b529adfca31eadb1",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-05-05T22:23:27+01:00",
+            "subject": "[VPlan] Add isFreeScalarIntrinsic helper (NFC). (#195929)"
+        },
+        {
+            "hash": "82f78e04354d6c73fd4e6260c4619eb28de69704",
+            "author_name": "Zhijie Wang",
+            "commit_date": "2026-05-06T11:10:44-07:00",
+            "subject": "Enable lifetime safety analysis unconditionally"
+        },
+        {
+            "hash": "3804625634d1744743dc58c6239ea83b814bfae0",
+            "author_name": "Zhijie Wang",
+            "commit_date": "2026-05-10T18:10:55-07:00",
+            "subject": "[LifetimeSafety][NFC] Refactor OriginList to OriginNode tree"
+        },
+        {
+            "hash": "0054f21c7577f1c3e15eda2dd5472d3c38e20861",
+            "author_name": "Zhijie Wang",
+            "commit_date": "2026-05-10T18:10:55-07:00",
+            "subject": "[LifetimeSafety] Track per-field origins for record types"
+        },
+        {
+            "hash": "3475645b168bf49769877b940880fe73940b68cb",
+            "author_name": "Zhijie Wang",
+            "commit_date": "2026-05-10T18:11:28-07:00",
             "subject": "MaxFieldDepth=1"
         }
     ]
