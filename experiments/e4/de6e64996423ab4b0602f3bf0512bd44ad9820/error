@@ -1,0 +1,211 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage2.sh" failed
+
+STDOUT:
+40 libc.so.6 0x00007f0d4d836d90
+41 libc.so.6 0x00007f0d4d836e40 __libc_start_main + 128
+42 clang++   0x000056320af49675 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang++: note: diagnostic msg: /tmp/RustDemangle-2bc854.cpp
+clang++: note: diagnostic msg: /tmp/RustDemangle-2bc854.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[18/3039] Building C object lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_portable.c.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage2/lib/Support/BLAKE3 -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/BLAKE3 -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wstring-conversion -Wmisleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -flto=thin -O3 -DNDEBUG -MD -MT lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_portable.c.o -MF lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_portable.c.o.d -o lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_portable.c.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/BLAKE3/blake3_portable.c
+1.	<eof> parser at end of file
+2.	Optimizer
+3.	Running pass "globalopt" on module "/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/BLAKE3/blake3_portable.c"
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang     0x0000558a2f43ef30 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 240
+1  clang     0x0000558a2f43cac4 llvm::sys::CleanupOnSignal(unsigned long) + 164
+2  clang     0x0000558a2f37e4e8
+3  libc.so.6 0x00007f063ae96520
+4  clang     0x0000558a2ef00b5c llvm::ValueHandleBase::ValueIsDeleted(llvm::Value*) + 108
+5  clang     0x0000558a2ef0126d llvm::Value::~Value() + 365
+6  clang     0x0000558a2ee32b27 llvm::Function::eraseFromParent() + 55
+7  clang     0x0000558a30c728a5 llvm::GlobalOptPass::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 1477
+8  clang     0x0000558a30520096
+9  clang     0x0000558a2eeda331 llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 1121
+10 clang     0x0000558a2f7d02a8
+11 clang     0x0000558a2f7d3843 clang::emitBackendOutput(clang::CompilerInstance&, clang::CodeGenOptions&, llvm::StringRef, llvm::Module*, clang::BackendAction, llvm::IntrusiveRefCntPtr<llvm::vfs::FileSystem>, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>, clang::BackendConsumer*) + 2259
+12 clang     0x0000558a2fdf6378 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) + 1368
+13 clang     0x0000558a312960dc clang::ParseAST(clang::Sema&, bool, bool) + 1164
+14 clang     0x0000558a30167d38 clang::FrontendAction::Execute() + 56
+15 clang     0x0000558a300d71bd clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 909
+16 clang     0x0000558a3024ef98 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+17 clang     0x0000558a2dc83239 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 2377
+18 clang     0x0000558a2dc7bbfb
+19 clang     0x0000558a2dc7bcaf
+20 clang     0x0000558a2fe6d0fd
+21 clang     0x0000558a2f37e887 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+22 clang     0x0000558a2fe6d497
+23 clang     0x0000558a2fe2b717 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+24 clang     0x0000558a2fe2c739 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 153
+25 clang     0x0000558a2fe3e2bc clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+26 clang     0x0000558a2dc8094f clang_main(int, char**, llvm::ToolContext const&) + 7839
+27 clang     0x0000558a2db847c1 main + 113
+28 libc.so.6 0x00007f063ae7dd90
+29 libc.so.6 0x00007f063ae7de40 __libc_start_main + 128
+30 clang     0x0000558a2dc7b675 _start + 37
+clang: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang: note: diagnostic msg: /tmp/blake3_portable-207094.c
+clang: note: diagnostic msg: /tmp/blake3_portable-207094.sh
+clang: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang: Segmentation fault
+[19/3039] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangle.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage2/lib/Demangle -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Demangle -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wno-pass-failed -Wmisleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -Xclang -fno-pch-timestamp -flto=thin -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangle.cpp.o -MF lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangle.cpp.o.d -o lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangle.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Demangle/MicrosoftDemangle.cpp
+1.	<eof> parser at end of file
+2.	Optimizer
+3.	Running pass "require<globals-aa>,function(invalidate<aa>),require<profile-summary>,cgscc(devirt<4>(inline,function-attrs<skip-non-recursive-function-attrs>,argpromotion,openmp-opt-cgscc,function<eager-inv;no-rerun>(sroa<modify-cfg>,early-cse<memssa>,speculative-execution<only-if-divergent-target>,jump-threading,correlated-propagation,jump-table-to-switch,simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;no-switch-to-arithmetic;no-switch-to-lookup;keep-loops;no-hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;no-sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,instcombine<max-iterations=1;no-verify-fixpoint>,aggressive-instcombine,libcalls-shrinkwrap,tailcallelim,simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;no-switch-to-arithmetic;no-switch-to-lookup;keep-loops;no-hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;no-sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,reassociate,constraint-elimination,loop-mssa(loop-instsimplify,loop-simplifycfg,licm<no-allowspeculation>,loop-rotate<header-duplication;prepare-for-lto;no-check-exit-count>,licm<allowspeculation>,simple-loop-unswitch<nontrivial;trivial>),simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;no-switch-to-arithmetic;no-switch-to-lookup;keep-loops;no-hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;no-sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,instcombine<max-iterations=1;no-verify-fixpoint>,loop(loop-idiom,indvars,extra-simple-loop-unswitch-passes,loop-deletion,loop-unroll-full),sroa<modify-cfg>,vector-combine,mldst-motion<no-split-footer-bb>,gvn<>,sccp,bdce,instcombine<max-iterations=1;no-verify-fixpoint>,jump-threading,correlated-propagation,adce,memcpyopt,dse,move-auto-init,loop-mssa(licm<allowspeculation>),coro-elide,simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;switch-to-arithmetic;no-switch-to-lookup;keep-loops;hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,instcombine<max-iterations=1;no-verify-fixpoint>),function-attrs,function(require<should-not-run-function-passes>))),function(invalidate<should-not-run-function-passes>),cgscc(devirt<4>())" on module "/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Demangle/MicrosoftDemangle.cpp"
+4.	Running pass "cgscc(devirt<4>(inline,function-attrs<skip-non-recursive-function-attrs>,argpromotion,openmp-opt-cgscc,function<eager-inv;no-rerun>(sroa<modify-cfg>,early-cse<memssa>,speculative-execution<only-if-divergent-target>,jump-threading,correlated-propagation,jump-table-to-switch,simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;no-switch-to-arithmetic;no-switch-to-lookup;keep-loops;no-hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;no-sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,instcombine<max-iterations=1;no-verify-fixpoint>,aggressive-instcombine,libcalls-shrinkwrap,tailcallelim,simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;no-switch-to-arithmetic;no-switch-to-lookup;keep-loops;no-hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;no-sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,reassociate,constraint-elimination,loop-mssa(loop-instsimplify,loop-simplifycfg,licm<no-allowspeculation>,loop-rotate<header-duplication;prepare-for-lto;no-check-exit-count>,licm<allowspeculation>,simple-loop-unswitch<nontrivial;trivial>),simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;no-switch-to-arithmetic;no-switch-to-lookup;keep-loops;no-hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;no-sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,instcombine<max-iterations=1;no-verify-fixpoint>,loop(loop-idiom,indvars,extra-simple-loop-unswitch-passes,loop-deletion,loop-unroll-full),sroa<modify-cfg>,vector-combine,mldst-motion<no-split-footer-bb>,gvn<>,sccp,bdce,instcombine<max-iterations=1;no-verify-fixpoint>,jump-threading,correlated-propagation,adce,memcpyopt,dse,move-auto-init,loop-mssa(licm<allowspeculation>),coro-elide,simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;switch-to-arithmetic;no-switch-to-lookup;keep-loops;hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,instcombine<max-iterations=1;no-verify-fixpoint>),function-attrs,function(require<should-not-run-function-passes>)))" on module "/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Demangle/MicrosoftDemangle.cpp"
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x000055637d2e6f30 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 240
+1  clang++   0x000055637d2e4ac4 llvm::sys::CleanupOnSignal(unsigned long) + 164
+2  clang++   0x000055637d2264e8
+3  libc.so.6 0x00007f6e5b166520
+4  clang++   0x000055637cda8b5c llvm::ValueHandleBase::ValueIsDeleted(llvm::Value*) + 108
+5  clang++   0x000055637cda926d llvm::Value::~Value() + 365
+6  clang++   0x000055637cda9375 llvm::Value::deleteValue() + 117
+7  clang++   0x000055637ccfd38f llvm::Instruction::eraseFromParent() + 79
+8  clang++   0x000055637d3ac3bc llvm::InlineFunctionImpl(llvm::CallBase&, llvm::InlineFunctionInfo&, bool, llvm::AAResults*, bool, bool, llvm::Function*, llvm::OptimizationRemarkEmitter*) + 21196
+9  clang++   0x000055637d3ac6ae llvm::InlineFunction(llvm::CallBase&, llvm::InlineFunctionInfo&, bool, llvm::AAResults*, bool, bool, llvm::Function*, llvm::OptimizationRemarkEmitter*) + 126
+10 clang++   0x000055637eb48ae5 llvm::InlinerPass::run(llvm::LazyCallGraph::SCC&, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>&, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&) + 3573
+11 clang++   0x000055637e3cbca6
+12 clang++   0x000055637c3f4739 llvm::PassManager<llvm::LazyCallGraph::SCC, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&>::run(llvm::LazyCallGraph::SCC&, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>&, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&) + 361
+13 clang++   0x000055637e3c8986
+14 clang++   0x000055637c3f4d6f llvm::DevirtSCCRepeatedPass::run(llvm::LazyCallGraph::SCC&, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>&, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&) + 511
+15 clang++   0x000055637e3c89d6
+16 clang++   0x000055637c3f8afb llvm::ModuleToPostOrderCGSCCPassAdaptor::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 4123
+17 clang++   0x000055637bbbf926
+18 clang++   0x000055637cd82331 llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 1121
+19 clang++   0x000055637eb476bb llvm::ModuleInlinerWrapperPass::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 651
+20 clang++   0x000055637e3c7f06
+21 clang++   0x000055637cd82331 llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 1121
+22 clang++   0x000055637d6782a8
+23 clang++   0x000055637d67b843 clang::emitBackendOutput(clang::CompilerInstance&, clang::CodeGenOptions&, llvm::StringRef, llvm::Module*, clang::BackendAction, llvm::IntrusiveRefCntPtr<llvm::vfs::FileSystem>, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>, clang::BackendConsumer*) + 2259
+24 clang++   0x000055637dc9e378 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) + 1368
+25 clang++   0x000055637f13e0dc clang::ParseAST(clang::Sema&, bool, bool) + 1164
+26 clang++   0x000055637e00fd38 clang::FrontendAction::Execute() + 56
+27 clang++   0x000055637df7f1bd clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 909
+28 clang++   0x000055637e0f6f98 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+29 clang++   0x000055637bb2b239 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 2377
+30 clang++   0x000055637bb23bfb
+31 clang++   0x000055637bb23caf
+32 clang++   0x000055637dd150fd
+33 clang++   0x000055637d226887 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+34 clang++   0x000055637dd15497
+35 clang++   0x000055637dcd3717 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+36 clang++   0x000055637dcd4739 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 153
+37 clang++   0x000055637dce62bc clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+38 clang++   0x000055637bb2894f clang_main(int, char**, llvm::ToolContext const&) + 7839
+39 clang++   0x000055637ba2c7c1 main + 113
+40 libc.so.6 0x00007f6e5b14dd90
+41 libc.so.6 0x00007f6e5b14de40 __libc_start_main + 128
+42 clang++   0x000055637bb23675 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang++: note: diagnostic msg: /tmp/MicrosoftDemangle-f212d4.cpp
+clang++: note: diagnostic msg: /tmp/MicrosoftDemangle-f212d4.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[20/3039] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage2/lib/Demangle -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Demangle -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wno-pass-failed -Wmisleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -Xclang -fno-pch-timestamp -flto=thin -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o -MF lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o.d -o lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Demangle/ItaniumDemangle.cpp
+1.	<eof> parser at end of file
+2.	Per-file LLVM IR generation
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x000055ae67f48f30 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 240
+1  clang++   0x000055ae67f46ac4 llvm::sys::CleanupOnSignal(unsigned long) + 164
+2  clang++   0x000055ae67e884e8
+3  libc.so.6 0x00007f427c77b520
+4  clang++   0x000055ae67a0b5c1 llvm::ValueHandleBase::ValueIsRAUWd(llvm::Value*, llvm::Value*) + 113
+5  clang++   0x000055ae67a0bce5 llvm::Value::doRAUW(llvm::Value*, llvm::Value::ReplaceMetadataUses) + 389
+6  clang++   0x000055ae68567278 clang::CodeGen::CodeGenModule::applyReplacements() + 72
+7  clang++   0x000055ae685ae428 clang::CodeGen::CodeGenModule::Release() + 328
+8  clang++   0x000055ae6890260e
+9  clang++   0x000055ae68900475 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) + 1621
+10 clang++   0x000055ae69da00dc clang::ParseAST(clang::Sema&, bool, bool) + 1164
+11 clang++   0x000055ae68c71d38 clang::FrontendAction::Execute() + 56
+12 clang++   0x000055ae68be11bd clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 909
+13 clang++   0x000055ae68d58f98 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+14 clang++   0x000055ae6678d239 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 2377
+15 clang++   0x000055ae66785bfb
+16 clang++   0x000055ae66785caf
+17 clang++   0x000055ae689770fd
+18 clang++   0x000055ae67e88887 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+19 clang++   0x000055ae68977497
+20 clang++   0x000055ae68935717 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+21 clang++   0x000055ae68936739 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 153
+22 clang++   0x000055ae689482bc clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+23 clang++   0x000055ae6678a94f clang_main(int, char**, llvm::ToolContext const&) + 7839
+24 clang++   0x000055ae6668e7c1 main + 113
+25 libc.so.6 0x00007f427c762d90
+26 libc.so.6 0x00007f427c762e40 __libc_start_main + 128
+27 clang++   0x000055ae66785675 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang++: note: diagnostic msg: /tmp/ItaniumDemangle-a306f3.cpp
+clang++: note: diagnostic msg: /tmp/ItaniumDemangle-a306f3.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[21/3039] Linking CXX static library lib/libLLVMDemangle.a
+FAILED: lib/libLLVMDemangle.a 
+: && /usr/bin/cmake -E rm -f lib/libLLVMDemangle.a && /tmp/llvm-project-build-stage1/bin/llvm-ar Dqc lib/libLLVMDemangle.a  lib/Demangle/CMakeFiles/LLVMDemangle.dir/Demangle.cpp.o lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangle.cpp.o lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangleNodes.cpp.o lib/Demangle/CMakeFiles/LLVMDemangle.dir/RustDemangle.cpp.o lib/Demangle/CMakeFiles/LLVMDemangle.dir/DLangDemangle.cpp.o && /tmp/llvm-project-build-stage1/bin/llvm-ranlib -D lib/libLLVMDemangle.a && :
+/tmp/llvm-project-build-stage1/bin/llvm-ar: error: lib/Demangle/CMakeFiles/LLVMDemangle.dir/Demangle.cpp.o: No such file or directory
+[22/3039] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/cmake_pch.hxx.pch
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:494 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+

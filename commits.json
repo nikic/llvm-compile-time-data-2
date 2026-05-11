@@ -128970,5 +128970,19 @@
             "commit_date": "2026-05-10T22:40:38-07:00",
             "subject": "filter deep depth in hasOrigins"
         }
+    ],
+    "MaskRay\/perf\/densemap-backshift": [
+        {
+            "hash": "0a181a1c0a0f1da569c20b84284154f9c3836d64",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-11T07:20:21+00:00",
+            "subject": "Use auto for DenseMap\/SmallDenseMap iterator variables. NFC (#196883)"
+        },
+        {
+            "hash": "e4de6e64996423ab4b0602f3bf0512bd44ad9820",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-11T01:07:10-07:00",
+            "subject": "[DenseMap] Use linear probing with backward-shift deletion"
+        }
     ]
 }
