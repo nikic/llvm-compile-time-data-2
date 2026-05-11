@@ -127521,6 +127521,54 @@
             "author_name": "Sean Fertile",
             "commit_date": "2026-05-11T13:07:32-04:00",
             "subject": "XCOFF no inline ptr glue (#193786)"
+        },
+        {
+            "hash": "5560a4e8777f44f390899426365b0ef3118d6d0e",
+            "author_name": "Lucas Ramirez",
+            "commit_date": "2026-05-11T19:29:40+02:00",
+            "subject": "[AMDGPU] Fix inconsistencies in RP tracking advance\/reset behavior (#196595)"
+        },
+        {
+            "hash": "8eed046baeed8ead2ed555751f4e42552a0e41b2",
+            "author_name": "adams381",
+            "commit_date": "2026-05-11T12:29:54-05:00",
+            "subject": "[mlir][ABI] Add Test target + classification injection helper (#195725)"
+        },
+        {
+            "hash": "8fb21f9db2ee52b6c210d87a880cfe9549b29603",
+            "author_name": "adams381",
+            "commit_date": "2026-05-11T12:30:23-05:00",
+            "subject": "[CIR] Use SymbolTableCollection in CallOp\/TryCallOp LLVM lowering (#195916)"
+        },
+        {
+            "hash": "d8eca503e62c9315e16387b70ef2f582aa1cb03d",
+            "author_name": "adams381",
+            "commit_date": "2026-05-11T12:32:26-05:00",
+            "subject": "[CIR] Use SymbolTableCollection in LoweringPrepare's getCalledFunction (#195919)"
+        },
+        {
+            "hash": "8f3f74dfe2909bacfd45f0c62d3363c4a8565ab0",
+            "author_name": "Justin Bogner",
+            "commit_date": "2026-05-11T10:33:30-07:00",
+            "subject": "[SPIRV] Make sure spirv-tools are copied with exe suffix (#196658)"
+        },
+        {
+            "hash": "4f41bd4d04fdb2c48fdd2f7fa134bd6ee0a9a73d",
+            "author_name": "albertbolt1",
+            "commit_date": "2026-05-11T17:33:51+00:00",
+            "subject": "[CIR][AArch64] Upstream for vector vector shl (#191655)"
+        },
+        {
+            "hash": "170a788aac7fa98c89e4b4d38c89a680a36f9cf4",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-05-11T19:38:32+02:00",
+            "subject": "[mlir][SPIR-V] Lower math.{exp2,log2} to GLSL.std.450 ops (#196994)"
+        },
+        {
+            "hash": "36f60d848643f9ebd8b0c957fb645bf6a8f68860",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-05-11T19:39:17+02:00",
+            "subject": "[libc] s\/in_addr\/struct in_addr\/ (#196937)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -129609,6 +129657,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-05-11T16:51:54+00:00",
             "subject": "[GlobalISel] Disable Legalizer CSE at O0"
+        }
+    ],
+    "alexey-bataev\/perf\/NonPow102": [
+        {
+            "hash": "1bc0f8e1189f6cbb69a69618df746a780bfac107",
+            "author_name": "Joshua Batista",
+            "commit_date": "2026-04-28T14:18:11-07:00",
+            "subject": "[HLSL] Make load methods take const attribute (#193858)"
+        },
+        {
+            "hash": "6ce84249235a401ddeb690aecab0caf38f8bc883",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-05-11T10:40:17-07:00",
+            "subject": "iiii"
         }
     ]
 }
