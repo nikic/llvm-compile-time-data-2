@@ -126957,6 +126957,18 @@
             "author_name": "Jeff Bailey",
             "commit_date": "2026-05-11T07:34:30+01:00",
             "subject": "[libc] Fix partial multi-byte write detection in File (#196402)"
+        },
+        {
+            "hash": "8a230212a560a60bef18e576ad62b0554158b3b3",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-05-11T08:44:03+02:00",
+            "subject": "[AA] No synchronization effects for never-escaping identified local (#193939)"
+        },
+        {
+            "hash": "58936f7103663d04d6be4f0c9bf61be2ec6077ae",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-05-11T08:45:26+02:00",
+            "subject": "[Bazel] Fixes ce6605a (#196880)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -128535,15 +128547,15 @@
     ],
     "c-rhodes\/perf\/gisel-skip-match-table": [
         {
-            "hash": "9b0d277df1149df2a57e3fe92b56cfc857fe68ea",
+            "hash": "ed50ea52004259af958bb3e5636268342c49ee62",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-05-06T05:43:26+01:00",
-            "subject": "[LiveDebugValues] Avoid SmallSet for dead registers (#195841)"
+            "commit_date": "2026-05-11T07:01:59+01:00",
+            "subject": "[DebugInfo] Pack DILocation hash inputs (#196556)"
         },
         {
-            "hash": "00ae962d643f4bb5bad7556388109e599b3956d4",
+            "hash": "aea6e13cbc76c500a2e0aaedced716b9508811a7",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-05-06T07:20:40+00:00",
+            "commit_date": "2026-05-11T06:31:57+00:00",
             "subject": "[GlobalISel] Skip match table for opcodes with no combines"
         }
     ],
