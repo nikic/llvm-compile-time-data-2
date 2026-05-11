@@ -127491,6 +127491,18 @@
             "author_name": "Jiahao Guo",
             "commit_date": "2026-05-11T17:43:03+01:00",
             "subject": "[CIR][AArch64] Lower NEON vuzp1\/2 intrinsics (#195527)"
+        },
+        {
+            "hash": "a18fbe5890acb2a4e2e379e1c65826c9e17bc221",
+            "author_name": "David Stone",
+            "commit_date": "2026-05-11T10:47:57-06:00",
+            "subject": "[clang-tidy][NFC] Use `std::array` instead of `SmallVector` in `UseTrailingReturnTypeCheck` (#196992)"
+        },
+        {
+            "hash": "7377bac59b4aea64da09873b44df1430571e93c3",
+            "author_name": "Don\u00e1t Nagy",
+            "commit_date": "2026-05-11T18:50:37+02:00",
+            "subject": "[clang-tidy][clang][diagnostics] Unify system header\/macro supression (#193774)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -129565,6 +129577,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-05-11T16:10:34+00:00",
             "subject": "[GlobalISel] Defer RegBankSelect operand mapper creation"
+        }
+    ],
+    "c-rhodes\/perf\/gisel-disable-legalizer-cse-O0": [
+        {
+            "hash": "ed50ea52004259af958bb3e5636268342c49ee62",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-11T07:01:59+01:00",
+            "subject": "[DebugInfo] Pack DILocation hash inputs (#196556)"
+        },
+        {
+            "hash": "0fce1265d04213d57b031eb746296c2c77b7eb1f",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-11T16:51:54+00:00",
+            "subject": "[GlobalISel] Disable Legalizer CSE at O0"
         }
     ]
 }
