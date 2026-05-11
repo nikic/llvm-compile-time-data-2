@@ -127851,6 +127851,54 @@
             "author_name": "jimingham",
             "commit_date": "2026-05-11T15:55:34-07:00",
             "subject": "Add a breakpoint override resolver feature to lldb (#195392)"
+        },
+        {
+            "hash": "91b9a5d4feb4438ddb04c2283ed9bcb93846876f",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-05-11T19:02:13-04:00",
+            "subject": "[gn] port dbf927a6e3ff4b (llvm-extract-bundle-entry) (#197053)"
+        },
+        {
+            "hash": "6f10d3fe22a95e378a858a7380766c0dbf5dc156",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-05-11T19:02:35-04:00",
+            "subject": "[gn build] Port 2162c1692413 (#197054)"
+        },
+        {
+            "hash": "fb66f2d7086764bfd91e3f32e36e5112f53c98c1",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-05-11T19:03:09-04:00",
+            "subject": "[gn build] Port 2f4c387147f1 (#197055)"
+        },
+        {
+            "hash": "12e8aebd6f61542690249f3079aae473ff1a2bea",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-05-11T19:03:38-04:00",
+            "subject": "[gn build] Port 3a7c0eba9bf8 (#197056)"
+        },
+        {
+            "hash": "c6ddfb9c9d9da5b89a88e42a6d9edfca7aa8c5da",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-05-11T19:04:57-04:00",
+            "subject": "[gn build] Port 457380cee197 (#197057)"
+        },
+        {
+            "hash": "5b2ef822228fb7e45e368cf6f810904084c18e9c",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-05-11T19:05:18-04:00",
+            "subject": "[gn build] Port 5022a168a7a9 (#197058)"
+        },
+        {
+            "hash": "8a89800cfc675473a3a4d9b3659d22cbd852db08",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-05-11T19:05:36-04:00",
+            "subject": "[gn build] Port 899663966c7e (#197059)"
+        },
+        {
+            "hash": "65c1ad22c8af7fdfe0a445587af3ba154e644be1",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-05-11T19:05:55-04:00",
+            "subject": "[gn build] Port e361f28b7589 (#197060)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -129959,6 +130007,74 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-05-11T10:40:17-07:00",
             "subject": "iiii"
+        }
+    ],
+    "bababuck\/perf\/SLPRefactorStoreChainGen": [
+        {
+            "hash": "afa5a63c0c3e18fd6a5974ca299bf9989d738d0d",
+            "author_name": "bababuck",
+            "commit_date": "2026-04-22T15:20:26-07:00",
+            "subject": "[SLP] Refactor to generate the StoreChainContext for all chains for a base pointer first"
+        },
+        {
+            "hash": "b8cf4c04cdeb3e954d18f27004ae9d19deca6afe",
+            "author_name": "bababuck",
+            "commit_date": "2026-04-27T12:38:39-07:00",
+            "subject": "Update comment"
+        },
+        {
+            "hash": "8da10fd45633154026e64334595f5af0c98c3ce0",
+            "author_name": "bababuck",
+            "commit_date": "2026-04-27T12:56:29-07:00",
+            "subject": "Remove unused variable"
+        },
+        {
+            "hash": "bab0e6b797b554356fd638368a3002e1097f1b62",
+            "author_name": "bababuck",
+            "commit_date": "2026-04-27T12:59:16-07:00",
+            "subject": "Remove no longer needed clearVectorizedStores"
+        },
+        {
+            "hash": "09b94c3b1900ce2b320a81562afd1504528c21e1",
+            "author_name": "bababuck",
+            "commit_date": "2026-04-28T14:32:17-07:00",
+            "subject": "Add test to demonstrate ordering changes"
+        },
+        {
+            "hash": "941e49a4af4abd7c2835beec8cef278c6887c620",
+            "author_name": "bababuck",
+            "commit_date": "2026-04-28T14:32:49-07:00",
+            "subject": "[SLP] Update new test with changes from this MR"
+        },
+        {
+            "hash": "a089d5173e1c3937e7f3eb2e7cbd24b31c503810",
+            "author_name": "bababuck",
+            "commit_date": "2026-05-04T11:54:07-07:00",
+            "subject": "ExtendOperands -> ExtendContexts"
+        },
+        {
+            "hash": "ef641b71e042bd3597700d9fda92e8c55f6e8ba5",
+            "author_name": "bababuck",
+            "commit_date": "2026-05-04T11:55:30-07:00",
+            "subject": "Update comment on AddOperand()"
+        },
+        {
+            "hash": "a70e8bf406182ad7858d36395db905740e1d0b34",
+            "author_name": "bababuck",
+            "commit_date": "2026-05-04T12:00:07-07:00",
+            "subject": "TryToVectorize -> ActuallyVectorizeContexts"
+        },
+        {
+            "hash": "3b7ac4f4e3f27148f69e8919e100344b00ba79fb",
+            "author_name": "bababuck",
+            "commit_date": "2026-05-06T13:09:39-07:00",
+            "subject": "Merge remote-tracking branch 'upstream\/main' into bababuck\/SLPRefactorStoreChainGen"
+        },
+        {
+            "hash": "69ec0058e5114c1c32b05256c18cb9a339b49020",
+            "author_name": "bababuck",
+            "commit_date": "2026-05-11T16:06:18-07:00",
+            "subject": "Merge remote-tracking branch 'upstream\/main' into bababuck\/SLPRefactorStoreChainGen"
         }
     ]
 }
