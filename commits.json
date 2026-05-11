@@ -127233,6 +127233,12 @@
             "author_name": "Ga\u00ebtan Bossu",
             "commit_date": "2026-05-11T13:00:08+00:00",
             "subject": "[LV] Use isLegalMaskedLoadOrStore for interleaved accesses too (NFC) (#195243)"
+        },
+        {
+            "hash": "b4e8f5911221dcac405cfcd4ac2cffadc0c4ddda",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-05-11T15:02:41+02:00",
+            "subject": "[mlir][SPIR-V] Lower math.{exp2,log2,log10} operations (#196723)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -129239,6 +129245,20 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-05-11T04:08:29-07:00",
             "subject": "iiiii"
+        }
+    ],
+    "momchil-velikov\/perf\/move-lto-full-unroll": [
+        {
+            "hash": "ed07c92c9629cc64e2b17e82eff841dd238c5218",
+            "author_name": "Abid Qadeer",
+            "commit_date": "2026-05-05T10:12:14+01:00",
+            "subject": "[MLIR] Fix offload map metadata order (#195346)"
+        },
+        {
+            "hash": "19ded671798fcf3703276d62c961c0936174d651",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-05-11T13:02:03+00:00",
+            "subject": "[PassBuilder] Move LoopFullUnrollPass to after vectorization in the full LTO pipeline"
         }
     ]
 }
