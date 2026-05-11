@@ -102301,16 +102301,28 @@
     ],
     "guy-david\/perf\/value-tracking-constant-range": [
         {
-            "hash": "5933d0bec78893804b0e8327381c9e1cadcb12eb",
-            "author_name": "Razvan Lupusoru",
-            "commit_date": "2026-05-06T07:24:45-07:00",
-            "subject": "[flang] Add support for fir.absent to AliasAnalysis (#195938)"
+            "hash": "c2b871b321ce3bcef71653f19ab1fc44694a8f3c",
+            "author_name": "Zhige Chen",
+            "commit_date": "2026-05-11T12:12:28+02:00",
+            "subject": "[llubi] Upstream existing floating-point intrinsics (#196034)"
         },
         {
-            "hash": "4988b3a03a54f88a2dec1d89643b3165d0c574d3",
+            "hash": "e00ce662ba5c8f922fa4ee2431ba946dca6cb040",
             "author_name": "Guy David",
-            "commit_date": "2026-05-07T01:09:33+03:00",
-            "subject": "[ValueTracking] Extend computeConstantRange for add\/sub, sext\/zext\/trunc"
+            "commit_date": "2026-05-11T13:18:11+03:00",
+            "subject": "[ValueTracking] Extend computeConstantRange for sext\/zext\/trunc"
+        },
+        {
+            "hash": "5e89048e98f9a426945c4da247bb9bda7372d33f",
+            "author_name": "Guy David",
+            "commit_date": "2026-05-11T13:18:12+03:00",
+            "subject": "[ValueTracking] Add opt-in recursive constant range for add\/sub"
+        },
+        {
+            "hash": "c067c15e950201c1e36cc98ed3d3546df9a51892",
+            "author_name": "Guy David",
+            "commit_date": "2026-05-11T13:18:13+03:00",
+            "subject": "[VectorCombine] Fold (icmp pred (reduce.add X), 0) to reduce.or\/umax"
         }
     ],
     "aengelke\/perf\/pch-ir": [
@@ -127089,6 +127101,18 @@
             "author_name": "Luke Hutton",
             "commit_date": "2026-05-11T10:57:01+01:00",
             "subject": "[mlir][tosa] Add a pass to downgrade TOSA `1.1.draft` to `1.0` (#194971)"
+        },
+        {
+            "hash": "c2b871b321ce3bcef71653f19ab1fc44694a8f3c",
+            "author_name": "Zhige Chen",
+            "commit_date": "2026-05-11T12:12:28+02:00",
+            "subject": "[llubi] Upstream existing floating-point intrinsics (#196034)"
+        },
+        {
+            "hash": "f0c84b3ac80c4c594045aff9b4f88ba564614361",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-11T11:19:39+01:00",
+            "subject": "[GlobalISel] Skip match table for opcodes with no combines (#196017)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
