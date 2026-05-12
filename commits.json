@@ -128127,6 +128127,12 @@
             "author_name": "Piotr Fusik",
             "commit_date": "2026-05-12T10:51:13+02:00",
             "subject": "[InstCombine] Relax the requirements for (X ^ C2) + C -> (C2 + C) - X (#196897)"
+        },
+        {
+            "hash": "b4aa4d4dcb6f1c8a00d1d1e53d2b353c97ec98b7",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-05-12T09:15:39+00:00",
+            "subject": "[X86] combineINSERT_SUBVECTOR - only fold vXi1 zero-widening if scalar mask source has one use (#197125)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -130227,6 +130233,12 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-05-12T06:42:22+00:00",
             "subject": "also disable in IRTranslator"
+        },
+        {
+            "hash": "a05963a972b4b84ae732c956496f5e7fc78cbe7d",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-12T08:57:50+00:00",
+            "subject": "re-generate tests"
         }
     ],
     "alexey-bataev\/perf\/NonPow102": [
