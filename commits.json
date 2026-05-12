@@ -128499,6 +128499,12 @@
             "author_name": "Koakuma",
             "commit_date": "2026-05-12T23:17:33+07:00",
             "subject": "[SPARC] Add BSWAP tests (#192838)"
+        },
+        {
+            "hash": "a185f46661fab005a253fbb54009417f0964b03a",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-05-12T17:30:55+01:00",
+            "subject": "[lldb][windows] fix 4-byte error-code read (#197177)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -130461,16 +130467,34 @@
     ],
     "MaskRay\/perf\/densemap-backshift": [
         {
-            "hash": "f5b99951729a212b20c908ba6e270fe18a426a01",
-            "author_name": "Will Hawkins",
-            "commit_date": "2026-05-11T23:32:53-05:00",
-            "subject": "[lldb] Fix Broken Test For Embedded Source in Binary (#197040)"
+            "hash": "c9560139d3053fe5eb49131c0354ed6a67177fbc",
+            "author_name": "Sergei Barannikov",
+            "commit_date": "2026-05-12T11:15:09+03:00",
+            "subject": "[lld] Remove unused argument of DataExtractor constructor (NFC) (#196361)"
         },
         {
-            "hash": "0c5ee58f1cb03d19f09382eca265860263abdb97",
+            "hash": "db4618663984c0628aeafc5b1a435f06510f4b1e",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-05-11T23:23:07-07:00",
+            "commit_date": "2026-05-12T01:24:24-07:00",
+            "subject": "Don't assume non-erased DenseMap entries remain valid after erase. NFC"
+        },
+        {
+            "hash": "f7f7cd411e63d6ce99b7dd2cfb3e74875b2ed8a3",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-12T01:24:24-07:00",
+            "subject": "[DenseMap] Invalidate iterators on erase"
+        },
+        {
+            "hash": "a56038d4023bb929af666135c9f913dde0bcfa6c",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-12T01:24:24-07:00",
             "subject": "[DenseMap] Use linear probing with backward-shift deletion"
+        },
+        {
+            "hash": "d74f6fff05327a9350e39b8a81224fd226a63ae5",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-12T01:33:52-07:00",
+            "subject": "[DenseMap] Use Robin Hood insertion"
         }
     ],
     "PankajDwivedi-25\/perf\/scev-instruction-listener": [
