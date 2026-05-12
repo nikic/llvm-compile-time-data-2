@@ -128685,6 +128685,24 @@
             "author_name": "Ryan Buchner",
             "commit_date": "2026-05-12T13:29:53-07:00",
             "subject": "[Support] Always scale InstructionCost::Value (#178962)"
+        },
+        {
+            "hash": "939912e66b8e36f1564ecef21ed9fa4b9440fe67",
+            "author_name": "Sadaf Ebrahimi",
+            "commit_date": "2026-05-12T13:40:36-07:00",
+            "subject": "[scudo] Move MemMap tests from to map_test.cpp"
+        },
+        {
+            "hash": "f1c30af5f80fa7d2f7ac4fbf4fbbb36ec387413d",
+            "author_name": "Jameson Nash",
+            "commit_date": "2026-05-12T16:42:15-04:00",
+            "subject": "[SimplifyCFG] correct and move debug info for mergeConditionalStoreToAddress (#180789)"
+        },
+        {
+            "hash": "483ecf89f9fa64c2138c6f5c7b6688e4c95c330e",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-05-12T13:44:33-07:00",
+            "subject": "[flang][cuda] Fix CUDA generic matching with omitted optional args (#197275)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -131045,6 +131063,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-05-12T19:50:48+00:00",
             "subject": "[AArch64][GlobalISel] Filter O0 combiner worklists"
+        }
+    ],
+    "bababuck\/perf\/SLPRefactorStoreChainGen2": [
+        {
+            "hash": "cddc09bb7bcd130f7c5c09456377b3cbcd57f0e6",
+            "author_name": "AbdallahRashed",
+            "commit_date": "2026-05-11T14:53:12-07:00",
+            "subject": "WIR [CIR][CodeGen] Remove dead srcAS code in emitCastLValue address spacecast (#197016)"
+        },
+        {
+            "hash": "af22e9b7e051d1c54de5d7fc7d03a4ac8ab93a3c",
+            "author_name": "bababuck",
+            "commit_date": "2026-05-12T13:45:20-07:00",
+            "subject": "[SLP] Refactor to generate the StoreChainContext for all chains for a base pointer first"
         }
     ]
 }
