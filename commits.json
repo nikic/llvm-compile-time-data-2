@@ -128433,6 +128433,30 @@
             "author_name": "nataliakokoromyti",
             "commit_date": "2026-05-12T17:57:38+03:00",
             "subject": "[clangd] Avoid crash on pseudo-destructor selection (#195939)"
+        },
+        {
+            "hash": "f48026b10efe2c22cafda6f8def385b577ef8dd7",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-05-12T15:02:13+00:00",
+            "subject": "[DAG] canCreateUndefOrPoison - fmaxnum\/fminnum\/fmaximum\/fminimum\/fmaximumnum\/fminimumnum don't create poison (#197195)"
+        },
+        {
+            "hash": "350536e1bea9cfa2cc8c252b6f0ccea2890af7bf",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-05-12T15:04:46+00:00",
+            "subject": "[X86] add llvm.vector.reduce.fminimum test coverage (#197210)"
+        },
+        {
+            "hash": "a83cfda0a0ee8976b4e1e893da4c59593a16d884",
+            "author_name": "Adrian Prantl",
+            "commit_date": "2026-05-12T08:04:56-07:00",
+            "subject": "[LLDB] Simplify the API of ClangUserExpression::ScanContext [NFC] (#197037)"
+        },
+        {
+            "hash": "8bddd0f35f6b3d009a3e28160eb0e97a4ff5b5b5",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-05-12T15:05:50+00:00",
+            "subject": "[DAG] visitBITCAST - fold (conv (scalar_to_vector(load x))) -> (load (conv*)x) (#196978)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
