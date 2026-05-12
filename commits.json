@@ -128589,6 +128589,12 @@
             "author_name": "Jake Egan",
             "commit_date": "2026-05-12T13:41:35-04:00",
             "subject": "[sanitizer_common] Implement address sanitizer on AIX: platform specific support (#131866)"
+        },
+        {
+            "hash": "857dad2b877a045dac634e0d11a5bdfb97fbe210",
+            "author_name": "Andy Kaylor",
+            "commit_date": "2026-05-12T11:01:09-07:00",
+            "subject": "[CIR] Fix function signature mismatch on redirected calls (#196665)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -130863,16 +130869,16 @@
     ],
     "guy-david\/perf\/vector-combine-addv-cmp-zero": [
         {
-            "hash": "d6f6cdaddadb9929dd6778697b3ea422acae2c08",
-            "author_name": "Michal Paszkowski",
-            "commit_date": "2026-05-10T02:38:34-07:00",
-            "subject": "[SPIR-V] Fix inttoptr type deduction with ptr.annotation (#189219)"
+            "hash": "14bf8e76c021c200b6e37b9df996dbfc0b5dbd4e",
+            "author_name": "Joseph Huber",
+            "commit_date": "2026-05-12T07:04:11-05:00",
+            "subject": "[libclc] Base the build around `add_sources` instead of source list (#197034)"
         },
         {
-            "hash": "96ee6243ba658fb6654482deec75bd15a686fe91",
+            "hash": "b601203166f732133fdfe1e23f2bfc0471acbc82",
             "author_name": "Guy David",
-            "commit_date": "2026-05-12T14:11:28+03:00",
-            "subject": "Test"
+            "commit_date": "2026-05-12T21:02:51+03:00",
+            "subject": "[VectorCombine] Fold reduce.add == 0 into reduce.[or,umax] == 0"
         }
     ],
     "alexey-bataev\/perf\/NonPow105": [
