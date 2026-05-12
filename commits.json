@@ -128049,6 +128049,24 @@
             "author_name": "Timm Baeder",
             "commit_date": "2026-05-12T08:28:00+02:00",
             "subject": "[clang][bytecode] Fix a crash with invalid ArraySubscriptExprs (#196964)"
+        },
+        {
+            "hash": "05f1fd371e590605f2a7120d971a17adc8ca1fa5",
+            "author_name": "Konrad Kleine",
+            "commit_date": "2026-05-12T08:47:44+02:00",
+            "subject": "[github] Fix invalid local action invocation in release-doxygen workflow (#197107)"
+        },
+        {
+            "hash": "4ef1ef58e8f12d2d80e98850d845e262e06878e0",
+            "author_name": "Tomer Shafir",
+            "commit_date": "2026-05-12T09:48:19+03:00",
+            "subject": "[AArch64] Add a regression test for Apple tuning features(NFC) (#196792)"
+        },
+        {
+            "hash": "7fddf992e1dd30c51219e298354a817f87b15a66",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-05-12T08:48:52+02:00",
+            "subject": "[clang][bytecode] Pass correct QualType to getFixedPointSemantics() (#196952)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -130127,22 +130145,28 @@
     ],
     "c-rhodes\/perf\/gisel-disable-legalizer-cse-O0": [
         {
-            "hash": "ed50ea52004259af958bb3e5636268342c49ee62",
+            "hash": "f0c84b3ac80c4c594045aff9b4f88ba564614361",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-05-11T07:01:59+01:00",
-            "subject": "[DebugInfo] Pack DILocation hash inputs (#196556)"
+            "commit_date": "2026-05-11T11:19:39+01:00",
+            "subject": "[GlobalISel] Skip match table for opcodes with no combines (#196017)"
         },
         {
-            "hash": "0fce1265d04213d57b031eb746296c2c77b7eb1f",
+            "hash": "4107ade52183fd13615153005b8e679fb6eb2036",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-05-11T16:51:54+00:00",
+            "commit_date": "2026-05-12T06:25:14+00:00",
             "subject": "[GlobalISel] Disable Legalizer CSE at O0"
         },
         {
-            "hash": "7958550a0134a645a66ff75b196a0c82eb53c975",
+            "hash": "f57ef8384f32768232cb482e8631e3fbfef8d6e9",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-05-11T19:45:19+00:00",
+            "commit_date": "2026-05-12T06:25:14+00:00",
             "subject": "re-generate tests"
+        },
+        {
+            "hash": "98bfcb7aa08ba8ecf5ed5a89e64d2e7f0878be5b",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-12T06:42:22+00:00",
+            "subject": "also disable in IRTranslator"
         }
     ],
     "alexey-bataev\/perf\/NonPow102": [
