@@ -128247,6 +128247,12 @@
             "author_name": "walkerkd",
             "commit_date": "2026-05-12T13:37:17+01:00",
             "subject": "[AArch64] Add C1-Nano scheduling model (#182316)"
+        },
+        {
+            "hash": "de696eeb7051c0d9e4729a6f4a84fc99bb38e904",
+            "author_name": "Victor Chernyakin",
+            "commit_date": "2026-05-12T12:59:00+00:00",
+            "subject": "[clang-tidy] Run analysis even with no checks (as long as `--allow-no-checks` is passed) (#194006)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -130477,6 +130483,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-05-12T13:09:27+02:00",
             "subject": "[AA] Respect synchronization effects of arbitrary calls"
+        }
+    ],
+    "nikic\/perf\/remove-special-new-handling": [
+        {
+            "hash": "e51bb36f668be06089d27ba0f14d1aeedc413584",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-05-12T09:16:49+02:00",
+            "subject": "[AA] Respect potential synchronization effects of inline asm (#196965)"
+        },
+        {
+            "hash": "aef87c4f340e9d281604ef690c7e7e52e3b0a2bd",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-05-12T14:53:56+02:00",
+            "subject": "[BasicAA] Remove special malloc handling"
         }
     ]
 }
