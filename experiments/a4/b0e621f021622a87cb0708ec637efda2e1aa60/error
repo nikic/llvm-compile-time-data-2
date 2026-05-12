@@ -1,0 +1,215 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:613:18: note:   ‘llvm::LibcallLoweringInfo’ is not derived from ‘std::tuple<_Tps ...>’
+  613 |         std::swap(MoveVal, B->getSecond());
+      |         ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/functional:59,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLForwardCompat.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPrepare.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:15:
+/usr/include/c++/11/bits/std_function.h:758:5: note: candidate: ‘template<class _Res, class ... _Args> void std::swap(std::function<_Res(_ArgTypes ...)>&, std::function<_Res(_ArgTypes ...)>&)’
+  758 |     swap(function<_Res(_Args...)>& __x, function<_Res(_Args...)>& __y) noexcept
+      |     ^~~~
+/usr/include/c++/11/bits/std_function.h:758:5: note:   template argument deduction/substitution failed:
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPrepare.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:15:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:613:18: note:   ‘llvm::LibcallLoweringInfo’ is not derived from ‘std::function<_Res(_ArgTypes ...)>’
+  613 |         std::swap(MoveVal, B->getSecond());
+      |         ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/unordered_map:47,
+                 from /usr/include/c++/11/functional:61,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLForwardCompat.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPrepare.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:15:
+/usr/include/c++/11/bits/unordered_map.h:2120:5: note: candidate: ‘template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> void std::swap(std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)’
+ 2120 |     swap(unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+      |     ^~~~
+/usr/include/c++/11/bits/unordered_map.h:2120:5: note:   template argument deduction/substitution failed:
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPrepare.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:15:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:613:18: note:   ‘llvm::LibcallLoweringInfo’ is not derived from ‘std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>’
+  613 |         std::swap(MoveVal, B->getSecond());
+      |         ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/unordered_map:47,
+                 from /usr/include/c++/11/functional:61,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLForwardCompat.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPrepare.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:15:
+/usr/include/c++/11/bits/unordered_map.h:2127:5: note: candidate: ‘template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> void std::swap(std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)’
+ 2127 |     swap(unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+      |     ^~~~
+/usr/include/c++/11/bits/unordered_map.h:2127:5: note:   template argument deduction/substitution failed:
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPrepare.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:15:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:613:18: note:   ‘llvm::LibcallLoweringInfo’ is not derived from ‘std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>’
+  613 |         std::swap(MoveVal, B->getSecond());
+      |         ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/vector:67,
+                 from /usr/include/c++/11/functional:62,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLForwardCompat.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPrepare.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:15:
+/usr/include/c++/11/bits/stl_vector.h:1962:5: note: candidate: ‘template<class _Tp, class _Alloc> void std::swap(std::vector<_Tp, _Alloc>&, std::vector<_Tp, _Alloc>&)’
+ 1962 |     swap(vector<_Tp, _Alloc>& __x, vector<_Tp, _Alloc>& __y)
+      |     ^~~~
+/usr/include/c++/11/bits/stl_vector.h:1962:5: note:   template argument deduction/substitution failed:
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPrepare.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:15:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:613:18: note:   ‘llvm::LibcallLoweringInfo’ is not derived from ‘std::vector<_Tp, _Alloc>’
+  613 |         std::swap(MoveVal, B->getSecond());
+      |         ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/memory:76,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:36,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPrepare.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:15:
+/usr/include/c++/11/bits/unique_ptr.h:738:5: note: candidate: ‘template<class _Tp, class _Dp> typename std::enable_if<std::__is_swappable<_T2>::value>::type std::swap(std::unique_ptr<_Tp, _Dp>&, std::unique_ptr<_Tp, _Dp>&)’
+  738 |     swap(unique_ptr<_Tp, _Dp>& __x,
+      |     ^~~~
+/usr/include/c++/11/bits/unique_ptr.h:738:5: note:   template argument deduction/substitution failed:
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPrepare.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:15:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:613:18: note:   ‘llvm::LibcallLoweringInfo’ is not derived from ‘std::unique_ptr<_Tp, _Dp>’
+  613 |         std::swap(MoveVal, B->getSecond());
+      |         ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/memory:76,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:36,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPrepare.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:15:
+/usr/include/c++/11/bits/unique_ptr.h:745:5: note: candidate: ‘template<class _Tp, class _Dp> typename std::enable_if<(! std::__is_swappable<_T2>::value)>::type std::swap(std::unique_ptr<_Tp, _Dp>&, std::unique_ptr<_Tp, _Dp>&)’ (deleted)
+  745 |     swap(unique_ptr<_Tp, _Dp>&,
+      |     ^~~~
+/usr/include/c++/11/bits/unique_ptr.h:745:5: note:   template argument deduction/substitution failed:
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPrepare.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:15:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:613:18: note:   ‘llvm::LibcallLoweringInfo’ is not derived from ‘std::unique_ptr<_Tp, _Dp>’
+  613 |         std::swap(MoveVal, B->getSecond());
+      |         ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/bits/shared_ptr.h:53,
+                 from /usr/include/c++/11/memory:77,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:36,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPrepare.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:15:
+/usr/include/c++/11/bits/shared_ptr_base.h:1534:5: note: candidate: ‘template<class _Tp, __gnu_cxx::_Lock_policy _Lp> void std::swap(std::__shared_ptr<_Tp, _Lp>&, std::__shared_ptr<_Tp, _Lp>&)’
+ 1534 |     swap(__shared_ptr<_Tp, _Lp>& __a, __shared_ptr<_Tp, _Lp>& __b) noexcept
+      |     ^~~~
+/usr/include/c++/11/bits/shared_ptr_base.h:1534:5: note:   template argument deduction/substitution failed:
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPrepare.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:15:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:613:18: note:   ‘llvm::LibcallLoweringInfo’ is not derived from ‘std::__shared_ptr<_Tp, _Lp>’
+  613 |         std::swap(MoveVal, B->getSecond());
+      |         ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/bits/shared_ptr.h:53,
+                 from /usr/include/c++/11/memory:77,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:36,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPrepare.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:15:
+/usr/include/c++/11/bits/shared_ptr_base.h:1740:5: note: candidate: ‘template<class _Tp, __gnu_cxx::_Lock_policy _Lp> void std::swap(std::__weak_ptr<_Tp, _Lp>&, std::__weak_ptr<_Tp, _Lp>&)’
+ 1740 |     swap(__weak_ptr<_Tp, _Lp>& __a, __weak_ptr<_Tp, _Lp>& __b) noexcept
+      |     ^~~~
+/usr/include/c++/11/bits/shared_ptr_base.h:1740:5: note:   template argument deduction/substitution failed:
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPrepare.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:15:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:613:18: note:   ‘llvm::LibcallLoweringInfo’ is not derived from ‘std::__weak_ptr<_Tp, _Lp>’
+  613 |         std::swap(MoveVal, B->getSecond());
+      |         ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/memory:77,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:36,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPrepare.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:15:
+/usr/include/c++/11/bits/shared_ptr.h:574:5: note: candidate: ‘template<class _Tp> void std::swap(std::shared_ptr<_Tp>&, std::shared_ptr<_Tp>&)’
+  574 |     swap(shared_ptr<_Tp>& __a, shared_ptr<_Tp>& __b) noexcept
+      |     ^~~~
+/usr/include/c++/11/bits/shared_ptr.h:574:5: note:   template argument deduction/substitution failed:
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPrepare.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:15:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:613:18: note:   ‘llvm::LibcallLoweringInfo’ is not derived from ‘std::shared_ptr<_Tp>’
+  613 |         std::swap(MoveVal, B->getSecond());
+      |         ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/memory:77,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:36,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPrepare.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:15:
+/usr/include/c++/11/bits/shared_ptr.h:763:5: note: candidate: ‘template<class _Tp> void std::swap(std::weak_ptr<_Tp>&, std::weak_ptr<_Tp>&)’
+  763 |     swap(weak_ptr<_Tp>& __a, weak_ptr<_Tp>& __b) noexcept
+      |     ^~~~
+/usr/include/c++/11/bits/shared_ptr.h:763:5: note:   template argument deduction/substitution failed:
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPrepare.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:15:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:613:18: note:   ‘llvm::LibcallLoweringInfo’ is not derived from ‘std::weak_ptr<_Tp>’
+  613 |         std::swap(MoveVal, B->getSecond());
+      |         ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/vector:68,
+                 from /usr/include/c++/11/functional:62,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLForwardCompat.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPrepare.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:15:
+/usr/include/c++/11/bits/stl_bvector.h:118:3: note: candidate: ‘void std::swap(std::_Bit_reference, std::_Bit_reference)’
+  118 |   swap(_Bit_reference __x, _Bit_reference __y) noexcept
+      |   ^~~~
+/usr/include/c++/11/bits/stl_bvector.h:118:23: note:   no known conversion for argument 1 from ‘llvm::LibcallLoweringInfo’ to ‘std::_Bit_reference’
+  118 |   swap(_Bit_reference __x, _Bit_reference __y) noexcept
+      |        ~~~~~~~~~~~~~~~^~~
+/usr/include/c++/11/bits/stl_bvector.h:126:3: note: candidate: ‘void std::swap(std::_Bit_reference, bool&)’
+  126 |   swap(_Bit_reference __x, bool& __y) noexcept
+      |   ^~~~
+/usr/include/c++/11/bits/stl_bvector.h:126:23: note:   no known conversion for argument 1 from ‘llvm::LibcallLoweringInfo’ to ‘std::_Bit_reference’
+  126 |   swap(_Bit_reference __x, bool& __y) noexcept
+      |        ~~~~~~~~~~~~~~~^~~
+/usr/include/c++/11/bits/stl_bvector.h:134:3: note: candidate: ‘void std::swap(bool&, std::_Bit_reference)’
+  134 |   swap(bool& __x, _Bit_reference __y) noexcept
+      |   ^~~~
+/usr/include/c++/11/bits/stl_bvector.h:134:14: note:   no known conversion for argument 1 from ‘llvm::LibcallLoweringInfo’ to ‘bool&’
+  134 |   swap(bool& __x, _Bit_reference __y) noexcept
+      |        ~~~~~~^~~
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:494 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+135.38user 9.05system 0:10.85elapsed 1330%CPU (0avgtext+0avgdata 766052maxresident)k
+0inputs+557600outputs (1938major+5755202minor)pagefaults 0swaps
