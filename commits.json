@@ -128469,6 +128469,24 @@
             "author_name": "Nick Terrell",
             "commit_date": "2026-05-12T17:22:07+02:00",
             "subject": "[BasicAA] Don't look through llvm.ptrmask in GEP decomposition (#197082)"
+        },
+        {
+            "hash": "4f5b905a2ce4ce8d638f4ef2b273b2fa74445945",
+            "author_name": "James Molloy",
+            "commit_date": "2026-05-12T16:52:27+01:00",
+            "subject": "[ScheduleDAG] Add a reachability cache to amortize DFS calls (#195079)"
+        },
+        {
+            "hash": "b9fd84076ab4f786600b97280757d937e0671bb7",
+            "author_name": "Iris Shi",
+            "commit_date": "2026-05-13T00:02:25+08:00",
+            "subject": "[InstCombine] Fix one operator precedence (#197164)"
+        },
+        {
+            "hash": "80994b7697448d2cf7982dea8a96431141e343c2",
+            "author_name": "Macsen Casaus",
+            "commit_date": "2026-05-12T18:02:40+02:00",
+            "subject": "Fix assertion failure of `APInt::sqrt` on U64 MAX input (#197161)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -130781,6 +130799,20 @@
             "author_name": "tomershafir",
             "commit_date": "2026-05-06T12:52:18+03:00",
             "subject": "[MC] Create new MCScheduleOptions cl::opt category"
+        }
+    ],
+    "c-rhodes\/perf\/aarch64-gisel-static-regbank-mappings": [
+        {
+            "hash": "b4aa4d4dcb6f1c8a00d1d1e53d2b353c97ec98b7",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-05-12T09:15:39+00:00",
+            "subject": "[X86] combineINSERT_SUBVECTOR - only fold vXi1 zero-widening if scalar mask source has one use (#197125)"
+        },
+        {
+            "hash": "0779891fc6bf6a01e4f14d3f359e212c6ec52c0d",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-12T15:38:52+00:00",
+            "subject": "[AArch64][GlobalISel] Fast-path G_CONSTANT\/G_BRCOND\/G_FRAME_INDEX regbank mappings"
         }
     ]
 }
