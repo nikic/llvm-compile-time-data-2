@@ -129195,6 +129195,18 @@
             "author_name": "Hongyu Chen",
             "commit_date": "2026-05-13T18:40:16+08:00",
             "subject": "[InstCombine] Reuse values when scalarizing phis with duplicated incoming edges (#197225)"
+        },
+        {
+            "hash": "3c8026cb7f2b163c3c46e816d9e551d878206f43",
+            "author_name": "Ben Dunbobbin",
+            "commit_date": "2026-05-13T11:47:08+01:00",
+            "subject": "[DTLTO][TEST] Add a test for Unicode characters (#194823)"
+        },
+        {
+            "hash": "e218f7064a1f9fa0a1e7256fe68dfb597888480d",
+            "author_name": "David Spickett",
+            "commit_date": "2026-05-13T10:50:18+00:00",
+            "subject": "[lldb][AArch64][Linux] Remove Is<type of register> forwarding methods (#197412)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -131693,6 +131705,20 @@
             "author_name": "Guy David",
             "commit_date": "2026-05-13T13:38:54+03:00",
             "subject": "[Loads] Prove deref\/align via assume on a GEP with a variable offset"
+        }
+    ],
+    "nikic\/perf\/lto-inaccessiblemem": [
+        {
+            "hash": "d476ab3e85075fb83aef5ef29dafd4f032daddce",
+            "author_name": "Juan Manuel Martinez Caama\u00f1o",
+            "commit_date": "2026-05-13T09:20:08+02:00",
+            "subject": "[Support][Cache] Make `pruneCache` return an `Expected` (#191367)"
+        },
+        {
+            "hash": "c24a4a1902bc4697bd3462fbbb9106ff938a3f63",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-05-13T12:50:23+02:00",
+            "subject": "adjust inaccessiblemem"
         }
     ]
 }
