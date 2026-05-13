@@ -129177,6 +129177,24 @@
             "author_name": "Paul Walker",
             "commit_date": "2026-05-13T11:30:45+01:00",
             "subject": "[LLVM] Refactor FoldBinaryIntrinsic to remove Instruction* dependency. (#197216)"
+        },
+        {
+            "hash": "4aaf41d4352975a71ac1636c640e72dad60b6a5f",
+            "author_name": "Mariusz Sikora",
+            "commit_date": "2026-05-13T12:35:26+02:00",
+            "subject": "[AMDGPU] Add VBUFFER encoding for gfx13 (#196262)"
+        },
+        {
+            "hash": "615721c8ba987bc7beded18ae2d1eafd99dec416",
+            "author_name": "Don\u00e1t Nagy",
+            "commit_date": "2026-05-13T12:39:17+02:00",
+            "subject": "[analyzer] Fix bad logic in VisitArrayInitLoopExpr (#196974)"
+        },
+        {
+            "hash": "83c4c14faef61832baf554b2241be290765ca193",
+            "author_name": "Hongyu Chen",
+            "commit_date": "2026-05-13T18:40:16+08:00",
+            "subject": "[InstCombine] Reuse values when scalarizing phis with duplicated incoming edges (#197225)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -131661,6 +131679,20 @@
             "author_name": "Momchil Velikov",
             "commit_date": "2026-05-12T15:58:35+00:00",
             "subject": "[DIS-PRE-LTO-VEC] Add extra EarlySCE to late passes"
+        }
+    ],
+    "guy-david\/perf\/gep-assume": [
+        {
+            "hash": "f59aca9103391db35e6f1fc06cd441701dd4f876",
+            "author_name": "Robert Imschweiler",
+            "commit_date": "2026-05-13T09:26:48+02:00",
+            "subject": "[OpenMP][offload] Inline target reductions (#196061)"
+        },
+        {
+            "hash": "d28da2345bd626d47648491ce58e412be75e581a",
+            "author_name": "Guy David",
+            "commit_date": "2026-05-13T13:38:54+03:00",
+            "subject": "[Loads] Prove deref\/align via assume on a GEP with a variable offset"
         }
     ]
 }
