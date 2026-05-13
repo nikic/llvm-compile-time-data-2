@@ -129039,6 +129039,24 @@
             "author_name": "Aleksandar Spasojevic",
             "commit_date": "2026-05-13T12:42:06+05:30",
             "subject": "[AMDGPU][InstCombine] Optimize constant shuffle patterns (#192246)"
+        },
+        {
+            "hash": "378456f49b0156974fd6ae690f7848391981433b",
+            "author_name": "Sander de Smalen",
+            "commit_date": "2026-05-13T08:19:33+01:00",
+            "subject": "[AArch64] Don't use GISel for optnone functions if not feasible. (#196343)"
+        },
+        {
+            "hash": "d476ab3e85075fb83aef5ef29dafd4f032daddce",
+            "author_name": "Juan Manuel Martinez Caama\u00f1o",
+            "commit_date": "2026-05-13T09:20:08+02:00",
+            "subject": "[Support][Cache] Make `pruneCache` return an `Expected` (#191367)"
+        },
+        {
+            "hash": "eb899cfc28abc33fcade410d3c78a8cc6419ee42",
+            "author_name": "Frank",
+            "commit_date": "2026-05-13T15:24:47+08:00",
+            "subject": "[clang-tidy] Fix false positives for dependent initializers (#186953)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -131007,16 +131025,22 @@
             "subject": "[lld] Remove unused argument of DataExtractor constructor (NFC) (#196361)"
         },
         {
-            "hash": "acc3cd649438f018a04563cdd6f2233e111b04bc",
+            "hash": "db4618663984c0628aeafc5b1a435f06510f4b1e",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-05-12T09:30:49-07:00",
-            "subject": "[DenseMap] Use linear probing with backward-shift deletion"
+            "commit_date": "2026-05-12T01:24:24-07:00",
+            "subject": "Don't assume non-erased DenseMap entries remain valid after erase. NFC"
         },
         {
-            "hash": "a4b0e621f021622a87cb0708ec637efda2e1aa60",
+            "hash": "f7f7cd411e63d6ce99b7dd2cfb3e74875b2ed8a3",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-05-12T09:30:56-07:00",
-            "subject": "[DenseMap] Use Robin Hood insertion"
+            "commit_date": "2026-05-12T01:24:24-07:00",
+            "subject": "[DenseMap] Invalidate iterators on erase"
+        },
+        {
+            "hash": "53631eec76eb04ff37f17ac6105bfd719d1085a5",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-13T00:18:21-07:00",
+            "subject": "[DenseMap] Use linear probing with backward-shift deletion"
         }
     ],
     "PankajDwivedi-25\/perf\/scev-instruction-listener": [
