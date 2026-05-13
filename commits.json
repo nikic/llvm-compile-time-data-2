@@ -129795,6 +129795,12 @@
             "author_name": "Andy Kaylor",
             "commit_date": "2026-05-13T14:38:25-07:00",
             "subject": "[CIR] Allow local goto within cleanup regions (#197539)"
+        },
+        {
+            "hash": "e721580311e3988e767ec3aaa06bce025f72ff7e",
+            "author_name": "Johannes Doerfert",
+            "commit_date": "2026-05-13T14:50:10-07:00",
+            "subject": "[Instrumentor] Add unreachable support; unreachable stack trace printing (#197339)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -132389,6 +132395,20 @@
             "author_name": "Momchil Velikov",
             "commit_date": "2026-05-13T16:17:50+00:00",
             "subject": "[AArch64] Do not format numbers for the keys of the subtarget map (NFC)"
+        }
+    ],
+    "guy-david\/perf\/mlic-coalesce": [
+        {
+            "hash": "f6007cf3ada595da3e003e0bc7f8dc1a86bff27b",
+            "author_name": "Wenju He",
+            "commit_date": "2026-05-13T18:21:36+08:00",
+            "subject": "[libclc] Move external-funcs.test to static file and use IR checks for .cl tests (#197151)"
+        },
+        {
+            "hash": "a456118c7549a881e48b62370a4bd7eeff3389c8",
+            "author_name": "Guy David",
+            "commit_date": "2026-05-14T00:45:58+03:00",
+            "subject": "[CodeGen] Coalesce duplicate defs into COPY when profitable"
         }
     ]
 }
