@@ -131384,5 +131384,43 @@
             "commit_date": "2026-05-12T13:45:20-07:00",
             "subject": "[SLP] Refactor to generate the StoreChainContext for all chains for a base pointer first"
         }
+    ],
+    "aeft\/perf\/lifetime-safety-12-May": [
+        {
+            "hash": "461e473a8f1d1af85f8392b3b529adfca31eadb1",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-05-05T22:23:27+01:00",
+            "subject": "[VPlan] Add isFreeScalarIntrinsic helper (NFC). (#195929)"
+        },
+        {
+            "hash": "82f78e04354d6c73fd4e6260c4619eb28de69704",
+            "author_name": "Zhijie Wang",
+            "commit_date": "2026-05-06T11:10:44-07:00",
+            "subject": "Enable lifetime safety analysis unconditionally"
+        },
+        {
+            "hash": "e2ad7403d64c00761be4d0da5590fb3d8e0e7b13",
+            "author_name": "Zhijie Wang",
+            "commit_date": "2026-05-12T23:17:46-07:00",
+            "subject": "[LifetimeSafety][NFC] Refactor OriginList to OriginNode tree"
+        },
+        {
+            "hash": "1c0a3d6745b48311a0baa8a879c50ccf74599d1a",
+            "author_name": "Zhijie Wang",
+            "commit_date": "2026-05-12T23:17:46-07:00",
+            "subject": "[LifetimeSafety] Track per-field origins for record types"
+        },
+        {
+            "hash": "d34073424ecd16e236eb89760ab1ba229778ad71",
+            "author_name": "Zhijie Wang",
+            "commit_date": "2026-05-12T23:17:46-07:00",
+            "subject": "only track origins for accessed fields"
+        },
+        {
+            "hash": "8fb471cb27aa196191b748bb89e6c4892d33ece4",
+            "author_name": "Zhijie Wang",
+            "commit_date": "2026-05-12T23:18:27-07:00",
+            "subject": "MaxFieldDepth=1"
+        }
     ]
 }
