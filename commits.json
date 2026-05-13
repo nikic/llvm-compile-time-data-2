@@ -131786,5 +131786,19 @@
             "commit_date": "2026-05-13T12:50:23+02:00",
             "subject": "adjust inaccessiblemem"
         }
+    ],
+    "c-rhodes\/perf\/aarch64-gisel-static-loadstoreptr-regbank-mapping": [
+        {
+            "hash": "b4aa4d4dcb6f1c8a00d1d1e53d2b353c97ec98b7",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-05-12T09:15:39+00:00",
+            "subject": "[X86] combineINSERT_SUBVECTOR - only fold vXi1 zero-widening if scalar mask source has one use (#197125)"
+        },
+        {
+            "hash": "cb05306a3d55210cbb07b0c1e16b9e568691af6e",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-13T13:24:15+00:00",
+            "subject": "[AArch64][GlobalISel] Add static mapping for pointer G_LOAD\/G_STORE"
+        }
     ]
 }
