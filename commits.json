@@ -129447,6 +129447,24 @@
             "author_name": "vangthao95",
             "commit_date": "2026-05-13T08:40:31-07:00",
             "subject": "AMDGPU\/GlobalISel: RegBankLegalize rules for load monitor opcodes (#197321)"
+        },
+        {
+            "hash": "c966c50a7eb9246e0ec794c784743528e93d5142",
+            "author_name": "Muhammad Bassiouni",
+            "commit_date": "2026-05-13T18:42:27+03:00",
+            "subject": "Reland \"[libc][NFC] Propagate LIBC_CONSTEXPR qualifier for those depending on bit_cast.\" (#197479)"
+        },
+        {
+            "hash": "32ab88d2bac60a2aebe649cc13fa74744a17ec1f",
+            "author_name": "elizabethandrews",
+            "commit_date": "2026-05-13T11:49:15-04:00",
+            "subject": "[clang][SYCL] Set default device and host triples for SYCL device compilation  (#172366)"
+        },
+        {
+            "hash": "0fe746abc51c0aa6b3e8a73dbf1f766cb88da7ad",
+            "author_name": "David Green",
+            "commit_date": "2026-05-13T16:54:14+01:00",
+            "subject": "[SPIRV][GlobalISel] Remove dependency on legal ruleset (#197378)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -132001,6 +132019,26 @@
             "author_name": "PaperChalice",
             "commit_date": "2026-05-13T17:35:31+02:00",
             "subject": "Store fast-math flags in subclasses of Instruction"
+        }
+    ],
+    "c-rhodes\/perf\/tri-getMinimalPhysRegClass-drop-type": [
+        {
+            "hash": "b4aa4d4dcb6f1c8a00d1d1e53d2b353c97ec98b7",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-05-12T09:15:39+00:00",
+            "subject": "[X86] combineINSERT_SUBVECTOR - only fold vXi1 zero-widening if scalar mask source has one use (#197125)"
+        },
+        {
+            "hash": "327c5a7e38bce9f262d266cc8c597a6b6eca4eba",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-13T14:37:25+00:00",
+            "subject": "[AArch64] Avoid getMinimalPhysRegClass in callee-save frame lowering"
+        },
+        {
+            "hash": "404666807c7c02b22db45319b03c2e8bcd7cf6d6",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-13T15:39:03+00:00",
+            "subject": "[CodeGen] De-type getMinimalPhysRegClass"
         }
     ]
 }
