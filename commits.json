@@ -129015,6 +129015,18 @@
             "author_name": "Bal\u00e1zs K\u00e9ri",
             "commit_date": "2026-05-13T08:49:35+02:00",
             "subject": "[clang][ASTImporter] Add import of node 'TemplateParamObjectDecl' (#193492)"
+        },
+        {
+            "hash": "6d54f1e565894fd3e0f3fb18e4cee7e4b90bb9b7",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-05-13T09:02:18+02:00",
+            "subject": "[AA] Consider read-only provenance capture for synchronization effects (#197157)"
+        },
+        {
+            "hash": "c8585c11885d7d586bdd162f139bd2ca2fc995b4",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-05-13T09:05:20+02:00",
+            "subject": "[LangRef] Clarify pointer capture spec (#194647)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -131433,6 +131445,20 @@
             "author_name": "Zhijie Wang",
             "commit_date": "2026-05-12T23:18:27-07:00",
             "subject": "MaxFieldDepth=1"
+        }
+    ],
+    "nikic\/perf\/scev-mul-nowrap": [
+        {
+            "hash": "16e8a3c8faa569dca6f4d10b31b6f16ae57b50c6",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-05-12T16:28:29+02:00",
+            "subject": "[MemoryBuiltins] Remove isNewLikeFn() (#197209)"
+        },
+        {
+            "hash": "424dedcc9fdf25818bae78f712f84df9c95dd46b",
+            "author_name": "bababuck",
+            "commit_date": "2026-05-13T09:03:47+02:00",
+            "subject": "Use NUW\/NSW flags in ScalarEvolution::getRangeRef() for MulExpr"
         }
     ]
 }
