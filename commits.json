@@ -129495,6 +129495,12 @@
             "author_name": "lntue",
             "commit_date": "2026-05-13T12:18:23-04:00",
             "subject": "Reapply \"[libc][NFC] Propagate LIBC_CONSTEXPR qualifier for those depending on bitt_cast.\" (#197462) (#197498)"
+        },
+        {
+            "hash": "83dca924c250bc6bf2e1b1b930dcc0e2a2939009",
+            "author_name": "Quentin Colombet",
+            "commit_date": "2026-05-13T09:30:21-07:00",
+            "subject": "[CodeGen][SplitKit] Fix a crash in addDeadDef (#197014)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -132053,22 +132059,42 @@
     ],
     "c-rhodes\/perf\/tri-getMinimalPhysRegClass-drop-type": [
         {
-            "hash": "b4aa4d4dcb6f1c8a00d1d1e53d2b353c97ec98b7",
-            "author_name": "Simon Pilgrim",
-            "commit_date": "2026-05-12T09:15:39+00:00",
-            "subject": "[X86] combineINSERT_SUBVECTOR - only fold vXi1 zero-widening if scalar mask source has one use (#197125)"
+            "hash": "6b617d4ae4a43214f2a03f166dfc753bd97ab5b5",
+            "author_name": "Krzysztof Drewniak",
+            "commit_date": "2026-05-13T09:12:23-07:00",
+            "subject": "[mlir][vector] Drop leading unit dims in memref op folding (#197278)"
         },
         {
-            "hash": "327c5a7e38bce9f262d266cc8c597a6b6eca4eba",
+            "hash": "a25129662e03a46c835f9eefc41014531a2ffd15",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-05-13T14:37:25+00:00",
+            "commit_date": "2026-05-13T16:19:42+00:00",
             "subject": "[AArch64] Avoid getMinimalPhysRegClass in callee-save frame lowering"
         },
         {
-            "hash": "e241afd2dae06d1c0ca0c85fc7169c1c62128146",
+            "hash": "5dff202a652d25c95e57ac9f4533fc9f74789316",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-05-13T15:55:43+00:00",
+            "commit_date": "2026-05-13T16:21:50+00:00",
             "subject": "[CodeGen] De-type getMinimalPhysRegClass and related APIs"
+        }
+    ],
+    "momchil-velikov\/perf\/subtarget-map": [
+        {
+            "hash": "14bf8e76c021c200b6e37b9df996dbfc0b5dbd4e",
+            "author_name": "Joseph Huber",
+            "commit_date": "2026-05-12T07:04:11-05:00",
+            "subject": "[libclc] Base the build around `add_sources` instead of source list (#197034)"
+        },
+        {
+            "hash": "aa05b23c496d051ee1788adc9c056c9f61649705",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-05-13T13:27:56+00:00",
+            "subject": "WIP subtarget maps"
+        },
+        {
+            "hash": "3ca09fe4aea5be6c8170ab4b5ffbcb220556d634",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-05-13T16:17:50+00:00",
+            "subject": "[AArch64] Do not format numbers for the keys of the subtarget map (NFC)"
         }
     ]
 }
