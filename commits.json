@@ -131433,10 +131433,16 @@
             "subject": "[X86] combineINSERT_SUBVECTOR - only fold vXi1 zero-widening if scalar mask source has one use (#197125)"
         },
         {
-            "hash": "0779891fc6bf6a01e4f14d3f359e212c6ec52c0d",
+            "hash": "756c285a551cc02259bea3a72fc14174128dd600",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-05-12T15:38:52+00:00",
-            "subject": "[AArch64][GlobalISel] Fast-path G_CONSTANT\/G_BRCOND\/G_FRAME_INDEX regbank mappings"
+            "commit_date": "2026-05-13T07:48:18+00:00",
+            "subject": "[AArch64][GlobalISel] Fast-path common G_CONSTANT\/G_BRCOND\/G_FRAME_INDEX regbank mappings"
+        },
+        {
+            "hash": "2072fa7052d521b1e68b4fae8ffd255a57ebe66b",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-13T08:02:39+00:00",
+            "subject": "address comments"
         }
     ],
     "dtcxzyw\/perf\/update-assume": [
@@ -131531,6 +131537,20 @@
             "author_name": "bababuck",
             "commit_date": "2026-05-13T09:03:47+02:00",
             "subject": "Use NUW\/NSW flags in ScalarEvolution::getRangeRef() for MulExpr"
+        }
+    ],
+    "MaskRay\/perf\/densemap-ptr": [
+        {
+            "hash": "c9560139d3053fe5eb49131c0354ed6a67177fbc",
+            "author_name": "Sergei Barannikov",
+            "commit_date": "2026-05-12T11:15:09+03:00",
+            "subject": "[lld] Remove unused argument of DataExtractor constructor (NFC) (#196361)"
+        },
+        {
+            "hash": "23d37b18147179d8c908716cd2a8427e5f491d6c",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-13T00:54:54-07:00",
+            "subject": "[ADT] Change DenseMapInfo<T*> to use a stronger mixer"
         }
     ]
 }
