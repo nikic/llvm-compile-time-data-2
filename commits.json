@@ -129147,6 +129147,12 @@
             "author_name": "David Spickett",
             "commit_date": "2026-05-13T09:36:49+00:00",
             "subject": "[lldb][AArch64][Linux] Use member initialisers (#197122)"
+        },
+        {
+            "hash": "ac3c588739a09ebb0f80a22ee10282592d858b47",
+            "author_name": "Corentin Jabot",
+            "commit_date": "2026-05-13T11:38:52+02:00",
+            "subject": "[Clang] Evaluate concepts in their declaration context. (#197215)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -131591,6 +131597,12 @@
             "author_name": "bababuck",
             "commit_date": "2026-05-13T09:03:47+02:00",
             "subject": "Use NUW\/NSW flags in ScalarEvolution::getRangeRef() for MulExpr"
+        },
+        {
+            "hash": "217269846c35bb0ff9a3c681c8cd5a4861fc2a41",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-05-13T11:42:03+02:00",
+            "subject": "optimize mul"
         }
     ],
     "MaskRay\/perf\/densemap-ptr": [
@@ -131605,6 +131617,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-05-13T00:54:54-07:00",
             "subject": "[ADT] Change DenseMapInfo<T*> to use a stronger mixer"
+        }
+    ],
+    "momchil-velikov\/perf\/extra-late-passes": [
+        {
+            "hash": "14bf8e76c021c200b6e37b9df996dbfc0b5dbd4e",
+            "author_name": "Joseph Huber",
+            "commit_date": "2026-05-12T07:04:11-05:00",
+            "subject": "[libclc] Base the build around `add_sources` instead of source list (#197034)"
+        },
+        {
+            "hash": "bb8025f5289b8637b9602703f7eee0b4c919f9f5",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-05-12T15:58:35+00:00",
+            "subject": "[DIS-PRE-LTO-VEC] Add extra EarlySCE to late passes"
         }
     ]
 }
