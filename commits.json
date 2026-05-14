@@ -130143,6 +130143,18 @@
             "author_name": "Simon Tatham",
             "commit_date": "2026-05-14T10:03:32+01:00",
             "subject": "[compiler-rt][ARM] Optimized double-precision FP comparisons (#179924)"
+        },
+        {
+            "hash": "c0ed919396de9ea18c6a247a9ecf42c38af23a37",
+            "author_name": "Carl Ritson",
+            "commit_date": "2026-05-14T18:05:21+09:00",
+            "subject": "[AMDGPU][GCNPreRAOptimizations] Reduce BVH premature reuse (#197386)"
+        },
+        {
+            "hash": "7ae1962cf848637ec3b4b03616235dedb18eb5db",
+            "author_name": "argothiel",
+            "commit_date": "2026-05-14T11:08:22+02:00",
+            "subject": "[clangd] Fix parens suppression in mid-identifier code-completion (#197249)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -132499,15 +132511,15 @@
     ],
     "c-rhodes\/perf\/aarch64-gisel-filter-O0-combiner-worklists": [
         {
-            "hash": "b4aa4d4dcb6f1c8a00d1d1e53d2b353c97ec98b7",
-            "author_name": "Simon Pilgrim",
-            "commit_date": "2026-05-12T09:15:39+00:00",
-            "subject": "[X86] combineINSERT_SUBVECTOR - only fold vXi1 zero-widening if scalar mask source has one use (#197125)"
+            "hash": "35f5d7ea802eae78b26a5fb2a46f072acd15f49d",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-14T06:46:23+01:00",
+            "subject": "[AArch64][GlobalISel] Fast-path common G_CONSTANT\/G_BRCOND\/G_FRAME_INDEX regbank mappings (#197383)"
         },
         {
-            "hash": "931cf5ccfbaef5754517967cec65fb3ed56fcfb6",
+            "hash": "c356bec46b68b59f37b26347f93676c9102d810c",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-05-12T19:50:48+00:00",
+            "commit_date": "2026-05-14T09:05:21+00:00",
             "subject": "[AArch64][GlobalISel] Filter O0 combiner worklists"
         }
     ],
