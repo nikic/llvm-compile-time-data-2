@@ -86095,34 +86095,34 @@
     ],
     "fhahn\/perf\/scev-zext-add-nsw": [
         {
-            "hash": "b799d7e8f8bc412efb7078a977bfac8516849cbb",
-            "author_name": "Hui",
-            "commit_date": "2026-04-21T11:45:59-04:00",
-            "subject": "[libc++] Implement `std::constant_wrapper` (#191695)"
+            "hash": "ca3a21085580454b5687e1f93ad786116ce2ba11",
+            "author_name": "David Green",
+            "commit_date": "2026-05-14T13:39:29+00:00",
+            "subject": "[AArch64][GlobalISel] Add always legal action builders. (#197238)"
         },
         {
-            "hash": "b74c221bed7a15f639b76282b60f04887f4c19d8",
+            "hash": "363b315184d5ca9a3f687bf4a802301d698d7259",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-04-21T17:06:01+01:00",
+            "commit_date": "2026-05-14T14:46:10+01:00",
+            "subject": "Add test"
+        },
+        {
+            "hash": "9cbbbe245c7adb8cc053d4bacc9947b54e41a208",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-05-14T14:46:10+01:00",
             "subject": "[SCEV] Fold zext(C+A)<nsw> -> (sext(C) + zext(A))<nsw> if possible."
         },
         {
-            "hash": "65a9d26a2a20938fad7891e5047131bee077f3f7",
+            "hash": "85bc533ccd423baf5f48c04430fb6aed8fc48edb",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-04-21T17:06:02+01:00",
-            "subject": "educe ore"
+            "commit_date": "2026-05-14T14:46:11+01:00",
+            "subject": "!fixup don't use isKnownNonNegative"
         },
         {
-            "hash": "b62730c66e0acb46cf69ae56b6929442cfcc77b9",
+            "hash": "0f5d0d389f8368f8a61c4a757ce7988e3f22de2c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-04-21T17:07:19+01:00",
-            "subject": "Support UMax"
-        },
-        {
-            "hash": "b3a8f5d4da506ea1249e6fa1af25f494ca78ae40",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-04-21T17:08:04+01:00",
-            "subject": "Support Mul"
+            "commit_date": "2026-05-14T14:46:12+01:00",
+            "subject": "!fixup handle more patterns"
         }
     ],
     "zyn0217\/perf\/resugar-attributed-type-alias": [
@@ -130371,6 +130371,30 @@
             "author_name": "Maryam Moghadas",
             "commit_date": "2026-05-14T10:06:41-04:00",
             "subject": "[PowerPC] Update base crypto builtins and intrinsics (#197017)"
+        },
+        {
+            "hash": "290d0f673424b573a594e99f9fd5a9777619f585",
+            "author_name": "David Sherwood",
+            "commit_date": "2026-05-14T15:08:37+01:00",
+            "subject": "[LV][NFC] Remove instcombine from RUN lines in AArch64 tests (#197448)"
+        },
+        {
+            "hash": "2a110fe9fe03d37b196ce4111543adb603a9495c",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-05-14T16:16:39+02:00",
+            "subject": "[lldb][windows] fix x86_64 arg register mapping for lldb-server (#197663)"
+        },
+        {
+            "hash": "d1a6d7bc106274019e23cca4b256fc58de7c7889",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-05-14T15:16:44+01:00",
+            "subject": "[DAG] SimplifyMultipleUseDemandedBits - fold (mul X, 1) -> X (#197677)"
+        },
+        {
+            "hash": "7206901d53c4460f8fb2aa5e83fcbf7ec443b231",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-05-14T07:19:57-07:00",
+            "subject": "[libc] Include correct headers in type_traits (#197691)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
