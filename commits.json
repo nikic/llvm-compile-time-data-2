@@ -100593,6 +100593,12 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-05-14T07:08:49+00:00",
             "subject": "[Coverage] Fix assertion failure when a -isystem header invokes a user macro (#195427)"
+        },
+        {
+            "hash": "fc4aad7b5db3fff421df9a9637605b9ca5667881",
+            "author_name": "Stephen Tozer",
+            "commit_date": "2026-05-14T07:31:46+00:00",
+            "subject": "[Clang][Coroutines] Don't emit fake uses for coroutine parameters (#194690)"
         }
     ],
     "enferex\/perf\/init-densemap-members": [
@@ -132599,9 +132605,9 @@
             "subject": "[AArch64][GlobalISel] Fast-path common G_CONSTANT\/G_BRCOND\/G_FRAME_INDEX regbank mappings (#197383)"
         },
         {
-            "hash": "fbdd065d4292c6f7c145f663e6de0d34df3bc489",
+            "hash": "ebf39c99b9b50c14c4261f389071849612f120e8",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-05-14T06:03:02+00:00",
+            "commit_date": "2026-05-14T07:14:50+00:00",
             "subject": "[AArch64][GlobalISel] Add static regbank mapping for pointer G_LOAD\/G_STORE"
         }
     ],
@@ -132735,10 +132741,10 @@
             "subject": "[X86][AVX10.2] Add BF16 to (U\/S)8 saturating FP to int lowering  (#197096)"
         },
         {
-            "hash": "7b3137d13a600ff33516432bef5f59c2d489048a",
+            "hash": "cabae3f2218dcd7e6463f539efda675c11391f7e",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-05-14T00:10:26-07:00",
-            "subject": "[SmallPtrSet] Use linear probing with backward-shift deletion"
+            "commit_date": "2026-05-14T00:13:25-07:00",
+            "subject": "[SmallPtrSet] Drop tombstones in large mode"
         }
     ]
 }
