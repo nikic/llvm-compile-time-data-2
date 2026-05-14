@@ -130665,6 +130665,18 @@
             "author_name": "Luke Lau",
             "commit_date": "2026-05-14T19:01:00+01:00",
             "subject": "[RISCV] Fix crash lowering fixed-length llvm.masked.{u,s}{div,rem} (#197724)"
+        },
+        {
+            "hash": "28749538069bb018f1f327b2fe757e216ac80cf1",
+            "author_name": "Matheus Izvekov",
+            "commit_date": "2026-05-14T15:05:03-03:00",
+            "subject": "[clang] NFC: add new test cases involving bugs in getTemplateInstantiationArgs (#197755)"
+        },
+        {
+            "hash": "6741bf0a02af341b938e5704038f806afc40a5af",
+            "author_name": "LU-JOHN",
+            "commit_date": "2026-05-14T13:11:14-05:00",
+            "subject": "[ARM] Do not pass debug insn to liveness analysis (#197769)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -133365,6 +133377,26 @@
             "author_name": "tomershafir",
             "commit_date": "2026-05-14T20:43:01+03:00",
             "subject": "use safer APFloat"
+        }
+    ],
+    "MaskRay\/perf\/smallptrset-6.4R-new": [
+        {
+            "hash": "f996980ff486a0cc03b84f87bbb3554ea99be1e2",
+            "author_name": "Akhil Goel",
+            "commit_date": "2026-05-14T10:25:38+08:00",
+            "subject": "[X86][AVX10.2] Add BF16 to (U\/S)8 saturating FP to int lowering  (#197096)"
+        },
+        {
+            "hash": "6b1a6d3581202cfbce8c3bb030dbf06f1f2423fb",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-14T01:31:48-07:00",
+            "subject": "[SmallPtrSet] Drop tombstones in large mode"
+        },
+        {
+            "hash": "cfb3002ff020c198ea2033abc800d4195bc6fe25",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-14T11:02:35-07:00",
+            "subject": "[SmallPtrSet] Drop one mask wrap in eraseFromBucket"
         }
     ]
 }
