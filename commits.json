@@ -130779,6 +130779,18 @@
             "author_name": "Kareem Ergawy",
             "commit_date": "2026-05-14T21:59:01+02:00",
             "subject": "[flang] Remove `do concurrent` mapping experimental warning (#195009)"
+        },
+        {
+            "hash": "a8c064104aae04e55030acc210a09fe4bc3e26fc",
+            "author_name": "Artem Belevich",
+            "commit_date": "2026-05-14T13:06:02-07:00",
+            "subject": "[Clang][CUDA] Introduce support for 'f' GPU variants and feature test macros (#197584)"
+        },
+        {
+            "hash": "44fe4cd224ecc0381132452110327c4202f198d5",
+            "author_name": "Yury Plyakhin",
+            "commit_date": "2026-05-14T13:11:05-07:00",
+            "subject": "[clang-sycl-linker] Add per-translation-unit device code split mode (#197571)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -133493,6 +133505,50 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-05-14T11:02:35-07:00",
             "subject": "[SmallPtrSet] Drop one mask wrap in eraseFromBucket"
+        }
+    ],
+    "tomershafir\/perf\/add-resource-buffer-size-scale-factor-no-apfloat-by-default": [
+        {
+            "hash": "72a3cd9e54f16d87f47bc984672999a9b67cd4f4",
+            "author_name": "Tomer Shafir",
+            "commit_date": "2026-04-16T08:50:56+03:00",
+            "subject": "[MacroFusion] Early return when insts already clustered (#191710)"
+        },
+        {
+            "hash": "0ccf47066acd23fa17d53bc1fc8ad2c4d51156e9",
+            "author_name": "tomershafir",
+            "commit_date": "2026-05-04T21:40:01+03:00",
+            "subject": "[MC] Add -reservation-station-scale-factor option"
+        },
+        {
+            "hash": "b2d5c76d7831e30eb9b594d5e51bff8952226cb0",
+            "author_name": "tomershafir",
+            "commit_date": "2026-05-14T12:22:25+03:00",
+            "subject": "prefix option with sched-model"
+        },
+        {
+            "hash": "34408376b41a188831db5ed19e7ee5b6a43378c0",
+            "author_name": "tomershafir",
+            "commit_date": "2026-05-14T15:17:05+03:00",
+            "subject": "make scaling 'closed' on OOO resources set"
+        },
+        {
+            "hash": "305637454fbf8d61db32c0eaec4d7722f85f20ec",
+            "author_name": "tomershafir",
+            "commit_date": "2026-05-14T15:24:48+03:00",
+            "subject": "remove ld\/st queues exclusion for now to not skip LSU RSs"
+        },
+        {
+            "hash": "b8a3026d1ad03948eef24b806fbcb5d709769050",
+            "author_name": "tomershafir",
+            "commit_date": "2026-05-14T20:43:01+03:00",
+            "subject": "use safer APFloat"
+        },
+        {
+            "hash": "227bf84a884a6ebdd65550be98a39437efa33502",
+            "author_name": "tomershafir",
+            "commit_date": "2026-05-14T23:09:14+03:00",
+            "subject": "no APFloat on the default fast path"
         }
     ]
 }
