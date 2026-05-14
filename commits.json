@@ -100581,6 +100581,18 @@
             "author_name": "Ulrich Weigand",
             "commit_date": "2026-05-07T20:12:03+00:00",
             "subject": "[SystemZ] Fix internal error with single-element vector types (#196127)"
+        },
+        {
+            "hash": "fd10d8f310777d36be24feb265ee6b57fac52561",
+            "author_name": "Tony Varghese",
+            "commit_date": "2026-05-09T07:04:58+00:00",
+            "subject": "[DAGTypeLegalizer] Add missing BR_CC handler for soft-promoted half operands (#196214)"
+        },
+        {
+            "hash": "5fb52fc3fda6989e65ef4170e344a0f8ef9c9c57",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-14T07:08:49+00:00",
+            "subject": "[Coverage] Fix assertion failure when a -isystem header invokes a user macro (#195427)"
         }
     ],
     "enferex\/perf\/init-densemap-members": [
@@ -130071,6 +130083,12 @@
             "author_name": "David Green",
             "commit_date": "2026-05-14T07:59:48+01:00",
             "subject": "[AArch64] Keep MMO when converting gather lane to LDRSui. (#197522)"
+        },
+        {
+            "hash": "13a628735fdb0023f1fdc477fed00dc68d7fdf11",
+            "author_name": "Thurston Dang",
+            "commit_date": "2026-05-14T00:07:12-07:00",
+            "subject": "[AArch64][test] Fix use-after-scope in createInstrInfo (#197622)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -132707,6 +132725,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-05-14T05:35:22+00:00",
             "subject": "[CodeGen] Replace getPhysRegBaseClass with getMinimalPhysRegClass"
+        }
+    ],
+    "MaskRay\/perf\/smallptrset-6.4R": [
+        {
+            "hash": "f996980ff486a0cc03b84f87bbb3554ea99be1e2",
+            "author_name": "Akhil Goel",
+            "commit_date": "2026-05-14T10:25:38+08:00",
+            "subject": "[X86][AVX10.2] Add BF16 to (U\/S)8 saturating FP to int lowering  (#197096)"
+        },
+        {
+            "hash": "7b3137d13a600ff33516432bef5f59c2d489048a",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-14T00:10:26-07:00",
+            "subject": "[SmallPtrSet] Use linear probing with backward-shift deletion"
         }
     ]
 }
