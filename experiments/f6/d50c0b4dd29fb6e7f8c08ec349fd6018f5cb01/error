@@ -1,0 +1,215 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+      |                                 ^~~~~
+      |                                 union
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h: In member function ‘T& llvm::json::Value::as() const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h:498:42: error: ‘Union’ was not declared in this scope; did you mean ‘union’?
+  498 |     void *Storage = static_cast<void *>(&Union);
+      |                                          ^~~~~
+      |                                          union
+[127/3309] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/JSON.cpp.o
+FAILED: lib/Support/CMakeFiles/LLVMSupport.dir/JSON.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Support -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/../third-party/siphash/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/Support/CMakeFiles/LLVMSupport.dir/JSON.cpp.o -MF lib/Support/CMakeFiles/LLVMSupport.dir/JSON.cpp.o.d -o lib/Support/CMakeFiles/LLVMSupport.dir/JSON.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/JSON.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/JSON.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h:517:17: error: ‘AlignedCharArrayUnion’ in namespace ‘llvm’ does not name a template type
+  517 |   mutable llvm::AlignedCharArrayUnion<bool, double, int64_t, uint64_t,
+      |                 ^~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h: In member function ‘void llvm::json::Value::create(U&& ...)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h:493:33: error: ‘Union’ was not declared in this scope; did you mean ‘union’?
+  493 |     new (reinterpret_cast<T *>(&Union)) T(std::forward<U>(V)...);
+      |                                 ^~~~~
+      |                                 union
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h: In member function ‘T& llvm::json::Value::as() const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h:498:42: error: ‘Union’ was not declared in this scope; did you mean ‘union’?
+  498 |     void *Storage = static_cast<void *>(&Union);
+      |                                          ^~~~~
+      |                                          union
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/JSON.cpp: In member function ‘void llvm::json::Value::copyFrom(const llvm::json::Value&)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/JSON.cpp:108:13: error: ‘Union’ was not declared in this scope; did you mean ‘union’?
+  108 |     memcpy(&Union, &M.Union, sizeof(Union));
+      |             ^~~~~
+      |             union
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/JSON.cpp:108:23: error: ‘const class llvm::json::Value’ has no member named ‘Union’
+  108 |     memcpy(&Union, &M.Union, sizeof(Union));
+      |                       ^~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/JSON.cpp: In member function ‘void llvm::json::Value::moveFrom(const llvm::json::Value&&)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/JSON.cpp:133:13: error: ‘Union’ was not declared in this scope; did you mean ‘union’?
+  133 |     memcpy(&Union, &M.Union, sizeof(Union));
+      |             ^~~~~
+      |             union
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/JSON.cpp:133:23: error: ‘const class llvm::json::Value’ has no member named ‘Union’
+  133 |     memcpy(&Union, &M.Union, sizeof(Union));
+      |                       ^~~~~
+[128/3309] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/DebugCounter.cpp.o
+[129/3309] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/RandomNumberGenerator.cpp.o
+[130/3309] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/CodeGenCoverage.cpp.o
+FAILED: lib/Support/CMakeFiles/LLVMSupport.dir/CodeGenCoverage.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Support -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/../third-party/siphash/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/Support/CMakeFiles/LLVMSupport.dir/CodeGenCoverage.cpp.o -MF lib/Support/CMakeFiles/LLVMSupport.dir/CodeGenCoverage.cpp.o.d -o lib/Support/CMakeFiles/LLVMSupport.dir/CodeGenCoverage.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/CodeGenCoverage.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/ScopedPrinter.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/CodeGenCoverage.cpp:19:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h:517:17: error: ‘AlignedCharArrayUnion’ in namespace ‘llvm’ does not name a template type
+  517 |   mutable llvm::AlignedCharArrayUnion<bool, double, int64_t, uint64_t,
+      |                 ^~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h: In member function ‘void llvm::json::Value::create(U&& ...)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h:493:33: error: ‘Union’ was not declared in this scope; did you mean ‘union’?
+  493 |     new (reinterpret_cast<T *>(&Union)) T(std::forward<U>(V)...);
+      |                                 ^~~~~
+      |                                 union
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h: In member function ‘T& llvm::json::Value::as() const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h:498:42: error: ‘Union’ was not declared in this scope; did you mean ‘union’?
+  498 |     void *Storage = static_cast<void *>(&Union);
+      |                                          ^~~~~
+      |                                          union
+[131/3309] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/AMDGPUMetadata.cpp.o
+[132/3309] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Statistic.cpp.o
+[133/3309] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Mustache.cpp.o
+FAILED: lib/Support/CMakeFiles/LLVMSupport.dir/Mustache.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Support -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/../third-party/siphash/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/Support/CMakeFiles/LLVMSupport.dir/Mustache.cpp.o -MF lib/Support/CMakeFiles/LLVMSupport.dir/Mustache.cpp.o.d -o lib/Support/CMakeFiles/LLVMSupport.dir/Mustache.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/Mustache.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Mustache.h:78,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/Mustache.cpp:8:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h:517:17: error: ‘AlignedCharArrayUnion’ in namespace ‘llvm’ does not name a template type
+  517 |   mutable llvm::AlignedCharArrayUnion<bool, double, int64_t, uint64_t,
+      |                 ^~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h: In member function ‘void llvm::json::Value::create(U&& ...)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h:493:33: error: ‘Union’ was not declared in this scope; did you mean ‘union’?
+  493 |     new (reinterpret_cast<T *>(&Union)) T(std::forward<U>(V)...);
+      |                                 ^~~~~
+      |                                 union
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h: In member function ‘T& llvm::json::Value::as() const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h:498:42: error: ‘Union’ was not declared in this scope; did you mean ‘union’?
+  498 |     void *Storage = static_cast<void *>(&Union);
+      |                                          ^~~~~
+      |                                          union
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/FormatVariadic.h:30,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h:54,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Mustache.h:78,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/Mustache.cpp:8:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallString.h: In instantiation of ‘llvm::SmallString<InternalLen>::SmallString(ItTy, ItTy) [with ItTy = llvm::DenseMapBase<llvm::DenseMap<char, std::__cxx11::basic_string<char> >, char, std::__cxx11::basic_string<char>, llvm::DenseMapInfo<char>, llvm::detail::DenseMapPair<char, std::__cxx11::basic_string<char> > >::keys()::R::It; unsigned int InternalLen = 8]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/Mustache.cpp:499:25:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallString.h:42:68: error: no matching function for call to ‘llvm::SmallVector<char, 8>::SmallVector(llvm::DenseMapBase<llvm::DenseMap<char, std::__cxx11::basic_string<char> >, char, std::__cxx11::basic_string<char>, llvm::DenseMapInfo<char>, llvm::detail::DenseMapPair<char, std::__cxx11::basic_string<char> > >::keys()::R::It&, llvm::DenseMapBase<llvm::DenseMap<char, std::__cxx11::basic_string<char> >, char, std::__cxx11::basic_string<char>, llvm::DenseMapInfo<char>, llvm::detail::DenseMapPair<char, std::__cxx11::basic_string<char> > >::keys()::R::It&)’
+   42 |   SmallString(ItTy S, ItTy E) : SmallVector<char, InternalLen>(S, E) {}
+      |                                                                    ^
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Twine.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Error.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Mustache.h:72,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/Mustache.cpp:8:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1259:12: note: candidate: ‘template<class U, class> llvm::SmallVector<T, N>::SmallVector(llvm::ArrayRef<U>) [with U = U; <template-parameter-2-2> = <template-parameter-1-2>; T = char; unsigned int N = 8]’
+ 1259 |   explicit SmallVector(ArrayRef<U> A) : SmallVectorImpl<T>(N) {
+      |            ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1259:12: note:   template argument deduction/substitution failed:
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/FormatVariadic.h:30,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h:54,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Mustache.h:78,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/Mustache.cpp:8:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallString.h:42:68: note:   ‘llvm::DenseMapBase<llvm::DenseMap<char, std::__cxx11::basic_string<char> >, char, std::__cxx11::basic_string<char>, llvm::DenseMapInfo<char>, llvm::detail::DenseMapPair<char, std::__cxx11::basic_string<char> > >::keys()::R::It’ is not derived from ‘llvm::ArrayRef<U>’
+   42 |   SmallString(ItTy S, ItTy E) : SmallVector<char, InternalLen>(S, E) {}
+      |                                                                    ^
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Twine.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Error.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Mustache.h:72,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/Mustache.cpp:8:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1248:12: note: candidate: ‘template<class RangeTy> llvm::SmallVector<T, N>::SmallVector(const llvm::iterator_range<RangeTy>&) [with RangeTy = RangeTy; T = char; unsigned int N = 8]’
+ 1248 |   explicit SmallVector(const iterator_range<RangeTy> &R)
+      |            ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1248:12: note:   template argument deduction/substitution failed:
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/FormatVariadic.h:30,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h:54,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Mustache.h:78,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/Mustache.cpp:8:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallString.h:42:68: note:   ‘llvm::DenseMapBase<llvm::DenseMap<char, std::__cxx11::basic_string<char> >, char, std::__cxx11::basic_string<char>, llvm::DenseMapInfo<char>, llvm::detail::DenseMapPair<char, std::__cxx11::basic_string<char> > >::keys()::R::It’ is not derived from ‘const llvm::iterator_range<T>’
+   42 |   SmallString(ItTy S, ItTy E) : SmallVector<char, InternalLen>(S, E) {}
+      |                                                                    ^
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Twine.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Error.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Mustache.h:72,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/Mustache.cpp:8:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1243:3: note: candidate: ‘template<class ItTy, class> llvm::SmallVector<T, N>::SmallVector(ItTy, ItTy) [with ItTy = ItTy; <template-parameter-2-2> = <template-parameter-1-2>; T = char; unsigned int N = 8]’
+ 1243 |   SmallVector(ItTy S, ItTy E) : SmallVectorImpl<T>(N) {
+      |   ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1243:3: note:   template argument deduction/substitution failed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h: In substitution of ‘template<class Iterator> using EnableIfConvertibleToInputIterator = std::enable_if_t<std::is_convertible<typename std::iterator_traits<_Iterator>::iterator_category, std::input_iterator_tag>::value> [with Iterator = llvm::DenseMapBase<llvm::DenseMap<char, std::__cxx11::basic_string<char> >, char, std::__cxx11::basic_string<char>, llvm::DenseMapInfo<char>, llvm::detail::DenseMapPair<char, std::__cxx11::basic_string<char> > >::keys()::R::It]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1242:28:   required from ‘llvm::SmallString<InternalLen>::SmallString(ItTy, ItTy) [with ItTy = llvm::DenseMapBase<llvm::DenseMap<char, std::__cxx11::basic_string<char> >, char, std::__cxx11::basic_string<char>, llvm::DenseMapInfo<char>, llvm::detail::DenseMapPair<char, std::__cxx11::basic_string<char> > >::keys()::R::It; unsigned int InternalLen = 8]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/Mustache.cpp:499:25:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:46:7: error: no type named ‘iterator_category’ in ‘struct std::iterator_traits<llvm::DenseMapBase<llvm::DenseMap<char, std::__cxx11::basic_string<char> >, char, std::__cxx11::basic_string<char>, llvm::DenseMapInfo<char>, llvm::detail::DenseMapPair<char, std::__cxx11::basic_string<char> > >::keys()::R::It>’
+   46 | using EnableIfConvertibleToInputIterator =
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallString.h: In instantiation of ‘llvm::SmallString<InternalLen>::SmallString(ItTy, ItTy) [with ItTy = llvm::DenseMapBase<llvm::DenseMap<char, std::__cxx11::basic_string<char> >, char, std::__cxx11::basic_string<char>, llvm::DenseMapInfo<char>, llvm::detail::DenseMapPair<char, std::__cxx11::basic_string<char> > >::keys()::R::It; unsigned int InternalLen = 8]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/Mustache.cpp:499:25:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1278:3: note: candidate: ‘llvm::SmallVector<T, N>::SmallVector(llvm::SmallVectorImpl<T>&&) [with T = char; unsigned int N = 8]’
+ 1278 |   SmallVector(SmallVectorImpl<T> &&RHS) : SmallVectorImpl<T>(N) {
+      |   ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1278:3: note:   candidate expects 1 argument, 2 provided
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1273:3: note: candidate: ‘llvm::SmallVector<T, N>::SmallVector(llvm::SmallVector<T, N>&&) [with T = char; unsigned int N = 8]’
+ 1273 |   SmallVector(SmallVector &&RHS) : SmallVectorImpl<T>(N) {
+      |   ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1273:3: note:   candidate expects 1 argument, 2 provided
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1263:3: note: candidate: ‘llvm::SmallVector<T, N>::SmallVector(const llvm::SmallVector<T, N>&) [with T = char; unsigned int N = 8]’
+ 1263 |   SmallVector(const SmallVector &RHS) : SmallVectorImpl<T>(N) {
+      |   ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1263:3: note:   candidate expects 1 argument, 2 provided
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1253:3: note: candidate: ‘llvm::SmallVector<T, N>::SmallVector(std::initializer_list<_Tp>) [with T = char; unsigned int N = 8]’
+ 1253 |   SmallVector(std::initializer_list<T> IL) : SmallVectorImpl<T>(N) {
+      |   ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1253:3: note:   candidate expects 1 argument, 2 provided
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1238:3: note: candidate: ‘llvm::SmallVector<T, N>::SmallVector(size_t, const T&) [with T = char; unsigned int N = 8; size_t = long unsigned int]’
+ 1238 |   SmallVector(size_t SizeArg, const T &Value) : SmallVectorImpl<T>(N) {
+      |   ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1238:22: note:   no known conversion for argument 1 from ‘llvm::DenseMapBase<llvm::DenseMap<char, std::__cxx11::basic_string<char> >, char, std::__cxx11::basic_string<char>, llvm::DenseMapInfo<char>, llvm::detail::DenseMapPair<char, std::__cxx11::basic_string<char> > >::keys()::R::It’ to ‘size_t’ {aka ‘long unsigned int’}
+ 1238 |   SmallVector(size_t SizeArg, const T &Value) : SmallVectorImpl<T>(N) {
+      |               ~~~~~~~^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1234:12: note: candidate: ‘llvm::SmallVector<T, N>::SmallVector(size_t) [with T = char; unsigned int N = 8; size_t = long unsigned int]’
+ 1234 |   explicit SmallVector(size_t SizeArg) : SmallVectorImpl<T>(N) {
+      |            ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1234:12: note:   candidate expects 1 argument, 2 provided
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1227:3: note: candidate: ‘llvm::SmallVector<T, N>::SmallVector() [with T = char; unsigned int N = 8]’
+ 1227 |   SmallVector() : SmallVectorImpl<T>(N) {}
+      |   ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1227:3: note:   candidate expects 0 arguments, 2 provided
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h:49,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Mustache.h:78,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/Mustache.cpp:8:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h: In instantiation of ‘void llvm::DenseMap<KeyT, ValueT, KeyInfoT, BucketT>::copyFrom(const llvm::DenseMap<KeyT, ValueT, KeyInfoT, BucketT>&) [with KeyT = char; ValueT = std::__cxx11::basic_string<char>; KeyInfoT = llvm::DenseMapInfo<char>; BucketT = llvm::detail::DenseMapPair<char, std::__cxx11::basic_string<char> >]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1046:33:   required from ‘llvm::DenseMap<KeyT, ValueT, KeyInfoT, BucketT>::DenseMap(const llvm::DenseMap<KeyT, ValueT, KeyInfoT, BucketT>&) [with KeyT = char; ValueT = std::__cxx11::basic_string<char>; KeyInfoT = llvm::DenseMapInfo<char>; BucketT = llvm::detail::DenseMapPair<char, std::__cxx11::basic_string<char> >]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/Mustache.cpp:921:27:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1100:33: error: ‘BucketT* llvm::DenseMapBase<DerivedT, KeyT, ValueT, KeyInfoT, BucketT>::uncheckedEmplace(uint64_t, KeyArgT&&, Ts&& ...) [with KeyArgT = const char&; Ts = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}; DerivedT = llvm::DenseMap<char, std::__cxx11::basic_string<char> >; KeyT = char; ValueT = std::__cxx11::basic_string<char>; KeyInfoT = llvm::DenseMapInfo<char>; BucketT = llvm::detail::DenseMapPair<char, std::__cxx11::basic_string<char> >; uint64_t = long unsigned int]’ is private within this context
+ 1100 |           this->uncheckedEmplace(h, ge[i].getFirst(), ge[i].getSecond());
+      |           ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:402:12: note: declared private here
+  402 |   BucketT *uncheckedEmplace(std::uint64_t h, KeyArgT &&key, Ts &&...args) {
+      |            ^~~~~~~~~~~~~~~~
+[134/3309] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/TimeProfiler.cpp.o
+FAILED: lib/Support/CMakeFiles/LLVMSupport.dir/TimeProfiler.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Support -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/../third-party/siphash/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/Support/CMakeFiles/LLVMSupport.dir/TimeProfiler.cpp.o -MF lib/Support/CMakeFiles/LLVMSupport.dir/TimeProfiler.cpp.o.d -o lib/Support/CMakeFiles/LLVMSupport.dir/TimeProfiler.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/TimeProfiler.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/TimeProfiler.cpp:18:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h:517:17: error: ‘AlignedCharArrayUnion’ in namespace ‘llvm’ does not name a template type
+  517 |   mutable llvm::AlignedCharArrayUnion<bool, double, int64_t, uint64_t,
+      |                 ^~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h: In member function ‘void llvm::json::Value::create(U&& ...)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h:493:33: error: ‘Union’ was not declared in this scope; did you mean ‘union’?
+  493 |     new (reinterpret_cast<T *>(&Union)) T(std::forward<U>(V)...);
+      |                                 ^~~~~
+      |                                 union
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h: In member function ‘T& llvm::json::Value::as() const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h:498:42: error: ‘Union’ was not declared in this scope; did you mean ‘union’?
+  498 |     void *Storage = static_cast<void *>(&Union);
+      |                                          ^~~~~
+      |                                          union
+[135/3309] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ThreadPool.cpp.o
+[136/3309] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Timer.cpp.o
+[137/3309] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/BalancedPartitioning.cpp.o
+[138/3309] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/CommandLine.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:494 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+20.14user 1.80system 0:02.80elapsed 782%CPU (0avgtext+0avgdata 318988maxresident)k
+0inputs+122848outputs (10major+1035189minor)pagefaults 0swaps
