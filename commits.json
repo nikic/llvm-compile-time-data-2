@@ -130035,6 +130035,12 @@
             "author_name": "Owen Rodley",
             "commit_date": "2026-05-13T22:24:15-07:00",
             "subject": "Handle typeidCompatibleVTable in skipModuleSummaryEntry (#196849)"
+        },
+        {
+            "hash": "131d66c5332f44b0284ee8f56915a454edbdd16f",
+            "author_name": "Maksim Panchenko",
+            "commit_date": "2026-05-13T22:40:00-07:00",
+            "subject": "[BOLT][DWARF] Support DW_FORM_ref_udata and DW_OP_regval_type (#197565)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -132657,6 +132663,32 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-05-13T21:18:44-07:00",
             "subject": "[ADT] Port DenseMap to Boost unordered_flat_map design"
+        }
+    ],
+    "c-rhodes\/perf\/tri-delete-getPhysRegBaseClass": [
+        {
+            "hash": "6b617d4ae4a43214f2a03f166dfc753bd97ab5b5",
+            "author_name": "Krzysztof Drewniak",
+            "commit_date": "2026-05-13T09:12:23-07:00",
+            "subject": "[mlir][vector] Drop leading unit dims in memref op folding (#197278)"
+        },
+        {
+            "hash": "a25129662e03a46c835f9eefc41014531a2ffd15",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-13T16:19:42+00:00",
+            "subject": "[AArch64] Avoid getMinimalPhysRegClass in callee-save frame lowering"
+        },
+        {
+            "hash": "5dff202a652d25c95e57ac9f4533fc9f74789316",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-13T16:21:50+00:00",
+            "subject": "[CodeGen] De-type getMinimalPhysRegClass and related APIs"
+        },
+        {
+            "hash": "53ce1b3fb80931d4c072b8cd0fdfd94c101ba543",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-14T05:35:22+00:00",
+            "subject": "[CodeGen] Replace getPhysRegBaseClass with getMinimalPhysRegClass"
         }
     ]
 }
