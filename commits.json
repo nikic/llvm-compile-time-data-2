@@ -130197,6 +130197,42 @@
             "author_name": "Stanislav Mekhanoshin",
             "commit_date": "2026-05-14T03:41:52-07:00",
             "subject": "[AMDGPU] Fix disasm roundtrip for forced fp64 literal (#197583)"
+        },
+        {
+            "hash": "b80e53d7a6e5fd269be5ac27d5cc7653eca4bc80",
+            "author_name": "Alexandros Lamprineas",
+            "commit_date": "2026-05-14T11:45:00+01:00",
+            "subject": "[BOLT][AArch64] Account for hugify alignment in AArch64 long jump layout (#195272)"
+        },
+        {
+            "hash": "9a4faee1068c09efbf837cfb7b0f5693b24635f4",
+            "author_name": "Paul Walker",
+            "commit_date": "2026-05-14T11:45:37+01:00",
+            "subject": "[LLVM][Constants] Remove the option to disable vector ConstantFP support. (#197427)"
+        },
+        {
+            "hash": "adb5802b494c98003155635fd33432f788557227",
+            "author_name": "Graham Hunter",
+            "commit_date": "2026-05-14T11:47:03+01:00",
+            "subject": "[LV] Avoid crashing for vector calls with scalar byte types (#197417)"
+        },
+        {
+            "hash": "41416303ea0b2733db81d96c9e4d4cd36949c463",
+            "author_name": "Jonathan Thackray",
+            "commit_date": "2026-05-14T11:47:56+01:00",
+            "subject": "[AArch64][clang] Improve -march= error message with many feature flags (#197441)"
+        },
+        {
+            "hash": "cc9176311ce572ccdfced32da3e483196bae85ad",
+            "author_name": "Jeff Bailey",
+            "commit_date": "2026-05-14T10:47:59+00:00",
+            "subject": "Fix misspelling of 'llvm' (#197649)"
+        },
+        {
+            "hash": "146533e064441415210092c23832064ac4b38e80",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-05-14T12:51:27+02:00",
+            "subject": "[libc] Fix for SYS_mmap2 offset computation (#197413)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
