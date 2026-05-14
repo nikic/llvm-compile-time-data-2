@@ -130833,6 +130833,18 @@
             "author_name": "Jonas Devlieghere",
             "commit_date": "2026-05-14T21:32:34+00:00",
             "subject": "[lldb] Fix data race on Process::FindPlugin's unique-id counter (#197807)"
+        },
+        {
+            "hash": "edaded2a057679f1ac8e71678ffa06e6bf993740",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-05-14T21:38:45+00:00",
+            "subject": "[lldb] Fix data race on ValueObject's unique-id counter (#197809)"
+        },
+        {
+            "hash": "ad14105c34d96363c3f2b2cbb8ec12a707886248",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-05-14T21:39:16+00:00",
+            "subject": "[lldb] Fix data race on ThreadPlan::GetNextID's plan-ID counter (#197811)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
