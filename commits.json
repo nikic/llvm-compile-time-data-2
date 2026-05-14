@@ -130629,6 +130629,30 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-05-14T17:27:21+00:00",
             "subject": "[SCEV] Add extra tests for folding zext\/add nsw. (NFC). (#197750)"
+        },
+        {
+            "hash": "1451eaf4e11964e01dddddc180a9be8472fcc4a6",
+            "author_name": "Kelvin Li",
+            "commit_date": "2026-05-14T13:43:38-04:00",
+            "subject": "[flang] Emit module summary for ThinLTO (#195999)"
+        },
+        {
+            "hash": "2d4e87267cefd1b3607f404d38323fa6db5e1e31",
+            "author_name": "David Green",
+            "commit_date": "2026-05-14T18:49:01+01:00",
+            "subject": "[AArch64] Add more test cases for various mul+add. NFC (#197771)"
+        },
+        {
+            "hash": "d8849944d539012adec4234b693e42fe188feffa",
+            "author_name": "Matthias Springer",
+            "commit_date": "2026-05-14T19:49:12+02:00",
+            "subject": "[llvm][ADT] Fix overload resolution in `to_vector` \/ `to_vector_of` for `bool` containers (#197461)"
+        },
+        {
+            "hash": "a04353fcecacc92c162cd776ac9e09d943f3154e",
+            "author_name": "Andy Kaylor",
+            "commit_date": "2026-05-14T10:49:26-07:00",
+            "subject": "[CIR] Handle goto jumping out of a cleanup scope (#197574)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -133291,6 +133315,44 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-05-14T00:31:11-07:00",
             "subject": "[SmallPtrSet] Lower max load factor to 2\/3"
+        }
+    ],
+    "tomershafir\/perf\/add-resource-buffer-size-scale-factor2": [
+        {
+            "hash": "72a3cd9e54f16d87f47bc984672999a9b67cd4f4",
+            "author_name": "Tomer Shafir",
+            "commit_date": "2026-04-16T08:50:56+03:00",
+            "subject": "[MacroFusion] Early return when insts already clustered (#191710)"
+        },
+        {
+            "hash": "0ccf47066acd23fa17d53bc1fc8ad2c4d51156e9",
+            "author_name": "tomershafir",
+            "commit_date": "2026-05-04T21:40:01+03:00",
+            "subject": "[MC] Add -reservation-station-scale-factor option"
+        },
+        {
+            "hash": "b2d5c76d7831e30eb9b594d5e51bff8952226cb0",
+            "author_name": "tomershafir",
+            "commit_date": "2026-05-14T12:22:25+03:00",
+            "subject": "prefix option with sched-model"
+        },
+        {
+            "hash": "34408376b41a188831db5ed19e7ee5b6a43378c0",
+            "author_name": "tomershafir",
+            "commit_date": "2026-05-14T15:17:05+03:00",
+            "subject": "make scaling 'closed' on OOO resources set"
+        },
+        {
+            "hash": "305637454fbf8d61db32c0eaec4d7722f85f20ec",
+            "author_name": "tomershafir",
+            "commit_date": "2026-05-14T15:24:48+03:00",
+            "subject": "remove ld\/st queues exclusion for now to not skip LSU RSs"
+        },
+        {
+            "hash": "b8a3026d1ad03948eef24b806fbcb5d709769050",
+            "author_name": "tomershafir",
+            "commit_date": "2026-05-14T20:43:01+03:00",
+            "subject": "use safer APFloat"
         }
     ]
 }
