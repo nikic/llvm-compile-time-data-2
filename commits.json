@@ -130053,6 +130053,12 @@
             "author_name": "Kevin Sala Penades",
             "commit_date": "2026-05-13T22:51:02-07:00",
             "subject": "[OpenMP] Fix launch_bounds for OpenMP ompx_attribute (#195665)"
+        },
+        {
+            "hash": "1d93fc4f74fe29481964bb11dd838b800544ca43",
+            "author_name": "Jeff Bailey",
+            "commit_date": "2026-05-14T07:01:13+01:00",
+            "subject": "[libc] Add LLVM_LIBC_ENABLE_EXPERIMENTAL_ENTRYPOINTS CMake flag (#197537)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -132569,16 +132575,16 @@
     ],
     "c-rhodes\/perf\/aarch64-gisel-static-loadstoreptr-regbank-mapping": [
         {
-            "hash": "b4aa4d4dcb6f1c8a00d1d1e53d2b353c97ec98b7",
-            "author_name": "Simon Pilgrim",
-            "commit_date": "2026-05-12T09:15:39+00:00",
-            "subject": "[X86] combineINSERT_SUBVECTOR - only fold vXi1 zero-widening if scalar mask source has one use (#197125)"
+            "hash": "35f5d7ea802eae78b26a5fb2a46f072acd15f49d",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-14T06:46:23+01:00",
+            "subject": "[AArch64][GlobalISel] Fast-path common G_CONSTANT\/G_BRCOND\/G_FRAME_INDEX regbank mappings (#197383)"
         },
         {
-            "hash": "cb05306a3d55210cbb07b0c1e16b9e568691af6e",
+            "hash": "fbdd065d4292c6f7c145f663e6de0d34df3bc489",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-05-13T13:24:15+00:00",
-            "subject": "[AArch64][GlobalISel] Add static mapping for pointer G_LOAD\/G_STORE"
+            "commit_date": "2026-05-14T06:03:02+00:00",
+            "subject": "[AArch64][GlobalISel] Add static regbank mapping for pointer G_LOAD\/G_STORE"
         }
     ],
     "dtcxzyw\/perf\/reuse-knownbits": [
