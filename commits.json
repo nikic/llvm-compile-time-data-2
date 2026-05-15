@@ -130971,6 +130971,18 @@
             "author_name": "Jonas Devlieghere",
             "commit_date": "2026-05-14T17:32:46-07:00",
             "subject": "[lldb] Use llvm::sys::RWMutex instead of std::shared_mutex (NFC) (#197847)"
+        },
+        {
+            "hash": "b571b4db67e718f032852dcf1c2d66ae7bbf7a8b",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-05-14T17:52:47-07:00",
+            "subject": "[lldb] Fix data race in UnwindTable::Initialize (#197816)"
+        },
+        {
+            "hash": "b1c020b8f987d101d42920621b9922e626e58f1b",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-05-15T00:53:06+00:00",
+            "subject": "[lldb] Stop looking for libarclite symbol (#197848)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
