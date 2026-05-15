@@ -131223,6 +131223,12 @@
             "author_name": "David Green",
             "commit_date": "2026-05-15T11:40:14+01:00",
             "subject": "[AArch64] Add a test for select-of-select with the same condition. NFC (#197903)"
+        },
+        {
+            "hash": "7126e6ac72397e595ab9fb6a41d7bd389914c0e4",
+            "author_name": "Paul Walker",
+            "commit_date": "2026-05-15T11:55:13+01:00",
+            "subject": "[LLVM][CodeGen][SME] Improve regalloc hinting for multi-vector instructions. (#197711)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -134003,6 +134009,26 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-05-15T10:31:10+02:00",
             "subject": "unswitch"
+        }
+    ],
+    "nikic\/perf\/delete-nocapture": [
+        {
+            "hash": "54789b90c59fb7badb94c28e6433ae14b40d6e78",
+            "author_name": "eiytoq",
+            "commit_date": "2026-05-15T15:39:12+08:00",
+            "subject": "[libc++][mdspan] Refactor bounds checking in `std::extents` (#197001)"
+        },
+        {
+            "hash": "5239dc64993427d169dbf5eee41d1a7c4061acc7",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-05-15T12:43:53+02:00",
+            "subject": "[CGCall] Initially store arg attrs using AttrBuilder"
+        },
+        {
+            "hash": "c8802adeb5c4479ffdd13d67426b54abcf3ae743",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-05-15T12:54:58+02:00",
+            "subject": "delete captures address"
         }
     ]
 }
