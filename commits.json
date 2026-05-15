@@ -131439,6 +131439,30 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-05-15T11:26:49-04:00",
             "subject": "[SLP] Skip no-return blocks in spill cost analysis"
+        },
+        {
+            "hash": "e11afed8d827b4148be6aa98d7e40bcb85f8e3a6",
+            "author_name": "Jan Svoboda",
+            "commit_date": "2026-05-15T15:29:51+00:00",
+            "subject": "[clang][deps] Allow using collector with different consumers (#197287)"
+        },
+        {
+            "hash": "af8454d4193d712d6dc5493a46e0f79e4ef541a2",
+            "author_name": "Jimmy Brisson",
+            "commit_date": "2026-05-15T11:32:16-04:00",
+            "subject": "SystemZ: Remove always-true conditional (#197729)"
+        },
+        {
+            "hash": "131446ad2ad2697ab1e6fd76bf32e86092bdef29",
+            "author_name": "Min-Yih Hsu",
+            "commit_date": "2026-05-15T08:33:06-07:00",
+            "subject": "[AggressiveInstCombine] Loosen some conditions in the popcount pattern (#197536)"
+        },
+        {
+            "hash": "c998fcb0d1757309656ee0dfe4f2aa8dcf06aecc",
+            "author_name": "Min-Yih Hsu",
+            "commit_date": "2026-05-15T08:37:03-07:00",
+            "subject": "[IA][RISCV] Support gap mask for loads that are de-interleaved through intrinsics (#197062)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -133433,16 +133457,22 @@
             "subject": "[NFC] Replace `expectedToStdOptional` with `expectedToOptional` (#191359)"
         },
         {
-            "hash": "2ca9faf42d92aca39f926215d6d5a301d75ddf58",
+            "hash": "f05c190699cc37a0a46ddaa141580ff7dd829528",
             "author_name": "padivedi",
-            "commit_date": "2026-05-14T11:38:40+05:30",
-            "subject": "[IR] InstructionListener: per-function instruction removal\/RAUW notifications"
+            "commit_date": "2026-05-15T19:33:12+05:30",
+            "subject": "Introduce Listener framework"
         },
         {
-            "hash": "fb72448d6ff393af9f05eea332515ec5f557beb7",
+            "hash": "bbfe8b1c5389f24c4e3b3fba7259be9141045dad",
             "author_name": "padivedi",
-            "commit_date": "2026-05-14T16:53:02+05:30",
-            "subject": "[Analysis] Replace SCEVCallbackVH with per-function InstructionListener"
+            "commit_date": "2026-05-15T20:55:30+05:30",
+            "subject": "Functional changes added after listener"
+        },
+        {
+            "hash": "8faa4573e3810ac8c4bed2006ce2134cd5187b07",
+            "author_name": "padivedi",
+            "commit_date": "2026-05-15T21:06:27+05:30",
+            "subject": "replace callbackVH with listener"
         }
     ],
     "alexey-bataev\/perf\/NonPow100": [
