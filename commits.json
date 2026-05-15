@@ -131823,6 +131823,12 @@
             "author_name": "adams381",
             "commit_date": "2026-05-15T16:42:47-05:00",
             "subject": "[CIR] Cast global var address to declared type at dtor call site"
+        },
+        {
+            "hash": "aaaae52215b4d8e44d9a05a40782560030850921",
+            "author_name": "Michael Jones",
+            "commit_date": "2026-05-15T21:49:37+00:00",
+            "subject": "[libc] Reduce number of iterations in threading tests. (#198030)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -134629,6 +134635,26 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-05-15T12:54:58+02:00",
             "subject": "delete captures address"
+        }
+    ],
+    "bababuck\/perf\/GetRangeRefMulExprFlags": [
+        {
+            "hash": "a3a9b17aa5f25429cf11326b58820df93fc2315e",
+            "author_name": "bababuck",
+            "commit_date": "2026-05-12T16:00:24-07:00",
+            "subject": "[SCEV] Use NUW\/NSW flags in ScalarEvolution::getRangeRef() for MulExpr"
+        },
+        {
+            "hash": "59d09de20a536306efd6821d04bbff0f7f904197",
+            "author_name": "bababuck",
+            "commit_date": "2026-05-12T17:00:32-07:00",
+            "subject": "Merge remote-tracking branch 'upstream\/main' into bababuck\/getRangeRefMulExprFlags"
+        },
+        {
+            "hash": "f5a1b588de1c889eda8132f7d19976f6c086c2d6",
+            "author_name": "bababuck",
+            "commit_date": "2026-05-15T14:55:32-07:00",
+            "subject": "Merge remote-tracking branch 'upstream\/main' into bababuck\/getRangeRefMulExprFlags"
         }
     ]
 }
