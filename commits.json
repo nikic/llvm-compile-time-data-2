@@ -131091,6 +131091,18 @@
             "author_name": "Jay Foad",
             "commit_date": "2026-05-15T08:21:41+01:00",
             "subject": "[TableGen] Fix assertion when initializing a bit from !cond or !foldl (#197224)"
+        },
+        {
+            "hash": "f68c7f7165e00b6cfd212cb26cbd749ee9186998",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-05-15T09:37:13+02:00",
+            "subject": "[ConstantRange] Optimize multiply with nowrap (#197481)"
+        },
+        {
+            "hash": "54789b90c59fb7badb94c28e6433ae14b40d6e78",
+            "author_name": "eiytoq",
+            "commit_date": "2026-05-15T15:39:12+08:00",
+            "subject": "[libc++][mdspan] Refactor bounds checking in `std::extents` (#197001)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -133643,21 +133655,15 @@
     ],
     "c-rhodes\/perf\/tri-getMinimalPhysRegClass-drop-type": [
         {
-            "hash": "6b617d4ae4a43214f2a03f166dfc753bd97ab5b5",
-            "author_name": "Krzysztof Drewniak",
-            "commit_date": "2026-05-13T09:12:23-07:00",
-            "subject": "[mlir][vector] Drop leading unit dims in memref op folding (#197278)"
+            "hash": "eae0b6b2498305ee29dc85a405ede9ccdc10ce7d",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-05-15T07:41:30+01:00",
+            "subject": "[CodeGen] Precompute untyped getMinimalPhysRegClass (#193438)"
         },
         {
-            "hash": "a25129662e03a46c835f9eefc41014531a2ffd15",
+            "hash": "08c052a2db407d2a21d468001fd2035d3720acf7",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-05-13T16:19:42+00:00",
-            "subject": "[AArch64] Avoid getMinimalPhysRegClass in callee-save frame lowering"
-        },
-        {
-            "hash": "5dff202a652d25c95e57ac9f4533fc9f74789316",
-            "author_name": "Cullen Rhodes",
-            "commit_date": "2026-05-13T16:21:50+00:00",
+            "commit_date": "2026-05-15T07:25:45+00:00",
             "subject": "[CodeGen] De-type getMinimalPhysRegClass and related APIs"
         }
     ],
