@@ -134739,10 +134739,16 @@
             "subject": "use safer APFloat"
         },
         {
-            "hash": "227bf84a884a6ebdd65550be98a39437efa33502",
+            "hash": "149c9a4e3d104dd648cf790575b0203c95068422",
             "author_name": "tomershafir",
-            "commit_date": "2026-05-14T23:09:14+03:00",
-            "subject": "no APFloat on the default fast path"
+            "commit_date": "2026-05-16T11:35:07+03:00",
+            "subject": "inline fast path"
+        },
+        {
+            "hash": "cc2231a902a7c78f4f54ebe88864d2da286bb810",
+            "author_name": "tomershafir",
+            "commit_date": "2026-05-16T11:35:17+03:00",
+            "subject": "add LLVM_LIKELY"
         }
     ],
     "mizvekov\/perf\/get-template-inst-args": [
@@ -134824,6 +134830,20 @@
             "hash": "e198a4d140a17f7926bc4ae3d7bfd0517b061a2b",
             "author_name": "Yingwei Zheng",
             "commit_date": "2026-05-16T16:27:39+08:00",
+            "subject": "test"
+        }
+    ],
+    "dtcxzyw\/perf\/earlycse-bump": [
+        {
+            "hash": "a1d40dd0ebd3b62dfa36f21e9d13eeeb0dfd87a6",
+            "author_name": "flovent",
+            "commit_date": "2026-05-16T13:14:58+08:00",
+            "subject": "[clang-tidy] Fix false positives about reinitialization detection in `bugprone-use-after-move` (#197438)"
+        },
+        {
+            "hash": "25ffc2429f46e59d8eee17156242ace9c651c494",
+            "author_name": "Yingwei Zheng",
+            "commit_date": "2026-05-16T16:41:40+08:00",
             "subject": "test"
         }
     ]
