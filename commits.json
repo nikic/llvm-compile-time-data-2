@@ -104159,34 +104159,40 @@
     ],
     "fhahn\/perf\/scevuse-indvars": [
         {
-            "hash": "7c08b8ea10d87988f070b12afa873ccb14bb1e9f",
-            "author_name": "PiJoules",
-            "commit_date": "2026-04-15T13:13:57-07:00",
-            "subject": "[compiler-rt][Fuchsia] Use dynamic shadow global in hwasan runtime (#192148)"
+            "hash": "fa4d73761d122c49ebc591118c83f5e142c98b4d",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-05-16T17:22:09+00:00",
+            "subject": "[X86] LowerVECREDUCE - add AllowScalarization operand (#198109)"
         },
         {
-            "hash": "260d55681c7ecdda03b623891107a2c38a47fa3c",
+            "hash": "0740d38c7dbb665d9bcd7a8ff5787e22b3a9428d",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-04-15T21:48:38+01:00",
+            "commit_date": "2026-05-16T19:05:39+01:00",
             "subject": "[SCEV] Add option to request use-specific SCEV for a GEP expr"
         },
         {
-            "hash": "91302e7f8aa0e5ef500bd10e4e050037ce030e54",
+            "hash": "57b75e92870f7c98d08cc929ee434ad4bc35c516",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-04-15T21:48:38+01:00",
+            "commit_date": "2026-05-16T19:05:39+01:00",
             "subject": "[SCEV] Use SCEVUse more broadly in ScalarEvolution infrastructure (NFC)"
         },
         {
-            "hash": "eb8df2ddeb5439404365d268fc3026de283fe2bd",
+            "hash": "6420b87f0b651aee988e23d548d645a4ee2bbe32",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-04-15T21:48:39+01:00",
+            "commit_date": "2026-05-16T19:05:39+01:00",
             "subject": "Restrict more"
         },
         {
-            "hash": "dd84d1cd1f6f5e73c18dee0ad41e664dcc619ec6",
+            "hash": "5083021c097ef792735279d351eec3f7a980fbc4",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-04-15T21:48:39+01:00",
+            "commit_date": "2026-05-16T19:05:39+01:00",
             "subject": "[IndVarSimplify] Propagate SCEVUse flags through exit value expansion"
+        },
+        {
+            "hash": "27a64ba1a3d625095e6cf24a8dd7cd43ddc7a57e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-05-16T19:14:02+01:00",
+            "subject": "Track SCEVUses at ValuesAtScope"
         }
     ],
     "bababuck\/perf\/StrideStores": [
@@ -134928,6 +134934,20 @@
             "hash": "25ffc2429f46e59d8eee17156242ace9c651c494",
             "author_name": "Yingwei Zheng",
             "commit_date": "2026-05-16T16:41:40+08:00",
+            "subject": "test"
+        }
+    ],
+    "dtcxzyw\/perf\/drop-value-handles-hash-map": [
+        {
+            "hash": "d90baa054dfc7d9f53148e4739effbf9fd7ac27a",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-05-16T09:43:38-07:00",
+            "subject": "[lldb] Make CommandObject::GetTarget filter out the dummy target (#198026)"
+        },
+        {
+            "hash": "431a99496947e997049ef465f5a6ba69fccb8552",
+            "author_name": "Yingwei Zheng",
+            "commit_date": "2026-05-17T02:14:51+08:00",
             "subject": "test"
         }
     ]
