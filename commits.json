@@ -135021,22 +135021,10 @@
             "subject": "use safer APFloat"
         },
         {
-            "hash": "149c9a4e3d104dd648cf790575b0203c95068422",
+            "hash": "0ee549592e9fe7c5535708966dc83077c808b8a8",
             "author_name": "tomershafir",
-            "commit_date": "2026-05-16T11:35:07+03:00",
-            "subject": "inline fast path"
-        },
-        {
-            "hash": "cc2231a902a7c78f4f54ebe88864d2da286bb810",
-            "author_name": "tomershafir",
-            "commit_date": "2026-05-16T11:35:17+03:00",
-            "subject": "add LLVM_LIKELY"
-        },
-        {
-            "hash": "80a8945a76644394e0eb5ea2b07c596cc8a48845",
-            "author_name": "tomershafir",
-            "commit_date": "2026-05-17T19:46:52+03:00",
-            "subject": "no inline but native float fast path"
+            "commit_date": "2026-05-17T20:22:03+03:00",
+            "subject": "use native float on fast path"
         }
     ],
     "mizvekov\/perf\/get-template-inst-args": [
@@ -135109,16 +135097,22 @@
     ],
     "dtcxzyw\/perf\/infer-align-dt": [
         {
-            "hash": "a1d40dd0ebd3b62dfa36f21e9d13eeeb0dfd87a6",
-            "author_name": "flovent",
-            "commit_date": "2026-05-16T13:14:58+08:00",
-            "subject": "[clang-tidy] Fix false positives about reinitialization detection in `bugprone-use-after-move` (#197438)"
+            "hash": "f45f3ce5da9e35f819db9b8ed2775dac8c2b1171",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-05-17T15:20:31+00:00",
+            "subject": "[X86] avx512-calling-conv.ll - ensure we check stack math (#198182)"
         },
         {
-            "hash": "e198a4d140a17f7926bc4ae3d7bfd0517b061a2b",
+            "hash": "9643c56c2ed100515fd9d36bf83b6b45aa554ed5",
             "author_name": "Yingwei Zheng",
-            "commit_date": "2026-05-16T16:27:39+08:00",
-            "subject": "test"
+            "commit_date": "2026-05-18T01:23:40+08:00",
+            "subject": "[InferAlignment] Add pre-commit tests. NFC."
+        },
+        {
+            "hash": "192851bd6264f3b22e8b06bfe3a78145e0cdde11",
+            "author_name": "Yingwei Zheng",
+            "commit_date": "2026-05-18T01:24:20+08:00",
+            "subject": "[InferAlignment] Propagate alignment information across blocks"
         }
     ],
     "dtcxzyw\/perf\/earlycse-bump": [
