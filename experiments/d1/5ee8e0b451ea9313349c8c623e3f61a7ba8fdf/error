@@ -1,0 +1,211 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage2.sh" failed
+
+STDOUT:
+-- Performing Test CXX_SUPPORTS_SUGGEST_OVERRIDE_FLAG - Success
+-- Performing Test CXX_WSUGGEST_OVERRIDE_ALLOWS_ONLY_FINAL
+-- Performing Test CXX_WSUGGEST_OVERRIDE_ALLOWS_ONLY_FINAL - Success
+-- Performing Test C_WCOMMENT_ALLOWS_LINE_WRAP
+-- Performing Test C_WCOMMENT_ALLOWS_LINE_WRAP - Success
+-- Performing Test C_SUPPORTS_MISLEADING_INDENTATION_FLAG
+-- Performing Test C_SUPPORTS_MISLEADING_INDENTATION_FLAG - Success
+-- Performing Test CXX_SUPPORTS_MISLEADING_INDENTATION_FLAG
+-- Performing Test CXX_SUPPORTS_MISLEADING_INDENTATION_FLAG - Success
+-- Performing Test C_SUPPORTS_CTAD_MAYBE_UNSPPORTED_FLAG
+-- Performing Test C_SUPPORTS_CTAD_MAYBE_UNSPPORTED_FLAG - Success
+-- Performing Test CXX_SUPPORTS_CTAD_MAYBE_UNSPPORTED_FLAG
+-- Performing Test CXX_SUPPORTS_CTAD_MAYBE_UNSPPORTED_FLAG - Success
+-- Performing Test LINKER_SUPPORTS_COLOR_DIAGNOSTICS
+-- Performing Test LINKER_SUPPORTS_COLOR_DIAGNOSTICS - Success
+-- Precompiled headers enabled.
+-- Looking for os_signpost_interval_begin
+-- Looking for os_signpost_interval_begin - not found
+-- Looking for flock
+-- Looking for flock - found
+-- Linker detection: LLD
+-- Performing Test LLVM_LINKER_SUPPORTS_B_SYMBOLIC_FUNCTIONS
+-- Performing Test LLVM_LINKER_SUPPORTS_B_SYMBOLIC_FUNCTIONS - Success
+-- Performing Test HAS_WERROR_GLOBAL_CTORS
+-- Performing Test HAS_WERROR_GLOBAL_CTORS - Success
+-- Performing Test LLVM_HAS_NOGLOBAL_CTOR_MUTEX
+-- Performing Test LLVM_HAS_NOGLOBAL_CTOR_MUTEX - Success
+-- Looking for __x86_64__
+-- Looking for __x86_64__ - found
+-- Found Git: /usr/bin/git (found version "2.34.1") 
+-- Looking for logf128
+-- Looking for logf128 - not found
+-- Targeting X86
+-- Looking for sys/resource.h
+-- Looking for sys/resource.h - found
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - found
+-- Looking for dladdr
+-- Looking for dladdr - found
+-- Clang version: 23.0.0git
+-- Looking for include file sys/inotify.h
+-- Looking for include file sys/inotify.h - found
+-- Performing Test HAVE_LINKER_FLAG_LONG_PLT
+-- Performing Test HAVE_LINKER_FLAG_LONG_PLT - Success
+-- Not building llvm-mt because libxml2 is not available
+-- Registering ExampleIRTransforms as a pass plugin (static build: OFF)
+-- Registering Bye as a pass plugin (static build: OFF)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/llvm-project-build-stage2
+ninja: Entering directory `/tmp/llvm-project-build-stage2'
+[1/3042] Building C object lib/Support/CMakeFiles/LLVMSupport.dir/regstrlcpy.c.o
+[2/3042] Building C object lib/Support/CMakeFiles/LLVMSupport.dir/regfree.c.o
+[3/3042] Building C object lib/Support/CMakeFiles/LLVMSupport.dir/regerror.c.o
+[4/3042] Building ASM object lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_avx2_x86-64_unix.S.o
+[5/3042] Building ASM object lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_avx512_x86-64_unix.S.o
+[6/3042] Building ASM object lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_sse2_x86-64_unix.S.o
+[7/3042] Generating VCSRevision.h
+[8/3042] Building ASM object lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_sse41_x86-64_unix.S.o
+[9/3042] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/Demangle.cpp.o
+[10/3042] Building C object lib/Support/CMakeFiles/LLVMSupport.dir/regexec.c.o
+[11/3042] Building C object lib/Support/CMakeFiles/LLVMSupport.dir/regcomp.c.o
+[12/3042] Building C object lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_dispatch.c.o
+[13/3042] Building C object lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_neon.c.o
+[14/3042] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangleNodes.cpp.o
+[15/3042] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/DLangDemangle.cpp.o
+[16/3042] Building C object lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3.c.o
+[17/3042] Building C object lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_portable.c.o
+[18/3042] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/RustDemangle.cpp.o
+[19/3042] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage2/lib/Demangle -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Demangle -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wno-pass-failed -Wmisleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -Xclang -fno-pch-timestamp -flto=thin -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o -MF lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o.d -o lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Demangle/ItaniumDemangle.cpp
+1.	<eof> parser at end of file
+2.	Per-file LLVM IR generation
+3.	/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Demangle/ItaniumDemangle.h:5695:47: Generating code for declaration 'llvm::itanium_demangle::AbstractManglingParser<llvm::itanium_demangle::ManglingParser<(anonymous namespace)::DefaultAllocator>, (anonymous namespace)::DefaultAllocator>::parseEncoding'
+4.	/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Demangle/ItaniumDemangle.h:5753:24: LLVM IR generation of compound statement ('{}')
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[20/3042] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangle.cpp.o
+[21/3042] Linking CXX static library lib/libLLVMDemangle.a
+FAILED: lib/libLLVMDemangle.a 
+: && /usr/bin/cmake -E rm -f lib/libLLVMDemangle.a && /tmp/llvm-project-build-stage1/bin/llvm-ar Dqc lib/libLLVMDemangle.a  lib/Demangle/CMakeFiles/LLVMDemangle.dir/Demangle.cpp.o lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangle.cpp.o lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangleNodes.cpp.o lib/Demangle/CMakeFiles/LLVMDemangle.dir/RustDemangle.cpp.o lib/Demangle/CMakeFiles/LLVMDemangle.dir/DLangDemangle.cpp.o && /tmp/llvm-project-build-stage1/bin/llvm-ranlib -D lib/libLLVMDemangle.a && :
+/tmp/llvm-project-build-stage1/bin/llvm-ar: error: lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o: No such file or directory
+[22/3042] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/cmake_pch.hxx.pch
+ConstantArrayType 0x563cd95284a0 'const char[1]' 1 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd8842760 'const char[5]' 5 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd95284a0 'const char[1]' 1 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd8842760 'const char[5]' 5 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd9c26270 'const char[13]' 13 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd87fb020 'const char[14]' 14 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd9c26270 'const char[13]' 13 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd87fb020 'const char[14]' 14 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd9c26270 'const char[13]' 13 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd87fb020 'const char[14]' 14 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd9c26270 'const char[13]' 13 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd87fb020 'const char[14]' 14 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd9545cb0 'const char[8]' 8 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cda0eae30 'const char[33]' 33 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd8a19430 'const char[2]' 2 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd8a19430 'const char[2]' 2 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd8a19430 'const char[2]' 2 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd8a19430 'const char[2]' 2 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd8a19430 'const char[2]' 2 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd95284a0 'const char[1]' 1 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd8a19430 'const char[2]' 2 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd95284a0 'const char[1]' 1 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd95284a0 'const char[1]' 1 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd95284a0 'const char[1]' 1 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd95284a0 'const char[1]' 1 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd82e0370 'const char[16]' 16 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd82e00f0 'const char[17]' 17 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd82e00f0 'const char[17]' 17 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd82e0370 'const char[16]' 16 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd82e00f0 'const char[17]' 17 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd869a2c0 'const char[26]' 26 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd82e1210 'const char[18]' 18 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd87fb020 'const char[14]' 14 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd8792280 'const char[15]' 15 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd82e0370 'const char[16]' 16 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd82e0370 'const char[16]' 16 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x563cd87fb020 'const char[14]' 14 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ConstantArrayType 0x7f84ab20e660 'const char[44]' 44 
+`-QualType 0x563cd7fb1561 'const char' const
+  `-BuiltinType 0x563cd7fb1560 'char'
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:494 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
