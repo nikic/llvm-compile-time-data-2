@@ -135352,5 +135352,31 @@
             "commit_date": "2026-05-17T18:59:23-07:00",
             "subject": "[SLP] Refactor to generate the StoreChainContext for all chains for a base pointer first"
         }
+    ],
+    "MaskRay\/perf\/densemap-verstable": [
+        {
+            "hash": "e6a12781bcc2d1713f9e5593de36f68cc00aaab6",
+            "author_name": "Alex Bradbury",
+            "commit_date": "2026-05-17T06:44:41+01:00",
+            "subject": "[AArch64] Copy x4\/x5 vararg payload into the x64 stack in Arm64EC exit thunks (#190933)"
+        },
+        {
+            "hash": "4ac48e7edfdc072e01c9b88b721c5671adbc4cad",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-17T00:08:40-07:00",
+            "subject": "Don't assume non-erased DenseMap entries remain valid after erase. NFC"
+        },
+        {
+            "hash": "7c0138ef8efbdcfb62a77999920c5cf38e7d35b6",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-17T00:08:41-07:00",
+            "subject": "[DenseMap] Invalidate iterators on erase"
+        },
+        {
+            "hash": "0e80ea1165ecd002648fe77259ba2e6842af9967",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-17T21:22:08-07:00",
+            "subject": "[ADT][DenseMap] Reimplement on the Verstable algorithm"
+        }
     ]
 }
