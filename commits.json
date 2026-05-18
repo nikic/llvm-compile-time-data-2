@@ -132471,6 +132471,12 @@
             "author_name": "Pengxiang Huang",
             "commit_date": "2026-05-18T07:38:30+00:00",
             "subject": "[Sema] Call ActOnFields before late parsing in ParseStructUnionBody (#187166)"
+        },
+        {
+            "hash": "3bdd54eb11e2005610efbd33daf5ed126decb3e4",
+            "author_name": "Amina Chabane",
+            "commit_date": "2026-05-18T08:54:02+01:00",
+            "subject": "[BOLT] Add support for CREL code relocations (#196383)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -135407,6 +135413,26 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-05-17T23:37:06-07:00",
             "subject": "[ADT][DenseMap] Reimplement on the Verstable algorithm"
+        }
+    ],
+    "Enna1\/perf\/twoaddressinstr-commute": [
+        {
+            "hash": "e9122d11ff92f2f343668cc759081496a130a943",
+            "author_name": "eiytoq",
+            "commit_date": "2026-05-18T09:15:41+08:00",
+            "subject": "[libc++][mdspan] Add missing `std::move` in `std::extents` (#196574)"
+        },
+        {
+            "hash": "e49051073e3b917a597382a653d2c600f2b4772d",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-18T14:39:14+08:00",
+            "subject": "[CodeGen] Avoid physical-reg hasOneUse when kill is explicit"
+        },
+        {
+            "hash": "674cb1000cc10c56e9484f7011881d37951b4ebd",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-18T14:39:25+08:00",
+            "subject": "[CodeGen] Cache MBB single defs in TwoAddressInstructionPass"
         }
     ]
 }
