@@ -133719,6 +133719,36 @@
             "author_name": "Sairudra More",
             "commit_date": "2026-05-19T19:46:15+05:30",
             "subject": "[flang] Inline scalar-to-array hlfir.assign at -O0 (#197092)"
+        },
+        {
+            "hash": "b7cc80035ad6bd4b778680707283f06fe0912f21",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-05-19T14:46:00+00:00",
+            "subject": "[VPlan] Simplify select x, (i1 y | z), y -> y | (x && z) (#190196)"
+        },
+        {
+            "hash": "94b1d194ac4b7c11ad871efe5e333aed36f576bf",
+            "author_name": "Jameson Nash",
+            "commit_date": "2026-05-19T10:48:17-04:00",
+            "subject": "[Utils] Examine debug info type instead of alloca type to guess the debug behavior of the alloca uses (#177480)"
+        },
+        {
+            "hash": "213b3292904995e00db309eea66431e1b727c181",
+            "author_name": "Adel Ejjeh",
+            "commit_date": "2026-05-19T09:48:59-05:00",
+            "subject": "[AMDGPU][NFCI] Change MCSubtargetInfo references in AMDGPUBaseInfo.h\/.cpp to be const ref instead of pointers (#197038)"
+        },
+        {
+            "hash": "52ca170e12c6ec42aa9327e3486e4c37efec1c31",
+            "author_name": "Tom Stellard",
+            "commit_date": "2026-05-19T07:50:36-07:00",
+            "subject": "[Github] Hashpin base container in CI Tooling containerfile (#197315)"
+        },
+        {
+            "hash": "75e4aafad0b3b1cb3a9f4314da8eca299437646c",
+            "author_name": "Jameson Nash",
+            "commit_date": "2026-05-19T10:51:00-04:00",
+            "subject": "Reland \"[CodeGen] Use byte offsets and ptradd in ShadowStackGCLowering\" (#197436)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
