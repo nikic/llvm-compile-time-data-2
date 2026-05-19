@@ -136674,5 +136674,31 @@
             "commit_date": "2026-05-19T10:28:28+03:00",
             "subject": "keep TargetSchedule helper but do not speculatively scale for CodeGen"
         }
+    ],
+    "Enna1\/perf\/SCEV-PushDefUseChildren": [
+        {
+            "hash": "64f70354e262e288e3787566645919230c05196d",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-05-19T10:24:40+01:00",
+            "subject": "[lldb] Fix wrong buffer size when fetching Objective-C classes (#197389)"
+        },
+        {
+            "hash": "1d5713718cca3b7d4402af22cea72d546159d967",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-19T19:24:44+08:00",
+            "subject": "[SCEV] Optimize visitAndClearUsers by pruning uncached SCEVable users"
+        },
+        {
+            "hash": "dc4346dd82629ce942ecce3584c7c0eb4d5a8a26",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-19T19:24:44+08:00",
+            "subject": "Revert \"[SCEV] Optimize visitAndClearUsers by pruning uncached SCEVable users\""
+        },
+        {
+            "hash": "351000c193968494c167dfa36da3b1d3dd69df85",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-19T19:45:50+08:00",
+            "subject": "[SCEV] Speed up forgetLoop and forgetValue by exploiting reverse maps and single-lookup worklist"
+        }
     ]
 }
