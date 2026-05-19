@@ -133761,6 +133761,30 @@
             "author_name": "Simon Pilgrim",
             "commit_date": "2026-05-19T16:02:41+01:00",
             "subject": "[DAG] scalarizeExtractedBinOp - extract from non-constant one use buildvectors (#198013)"
+        },
+        {
+            "hash": "f6fb8f573ecbb64f41b473700589040acf0b44b9",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-05-19T17:03:41+02:00",
+            "subject": "[lldb][windows] remove path separator replacement from TestGDBRemoteClient.py (#198537)"
+        },
+        {
+            "hash": "4cb4bbca087458d33e946341cd79c6a2b9a605cc",
+            "author_name": "Sirraide",
+            "commit_date": "2026-05-19T17:05:29+02:00",
+            "subject": "[Clang] [NFC] Use `unique_ptr<Lexer>` everywhere (#198393)"
+        },
+        {
+            "hash": "960ae6f812c8db7c92532898c338aeefc6f7ac6d",
+            "author_name": "Jean-Didier PAILLEUX",
+            "commit_date": "2026-05-19T17:07:20+02:00",
+            "subject": "[Flang] Adding -ffree-line-length-<value> flag (#192941)"
+        },
+        {
+            "hash": "38949dbc8b8f763cc14139703f1513abfe7f4b2f",
+            "author_name": "Alex Bradbury",
+            "commit_date": "2026-05-19T15:08:31+00:00",
+            "subject": "Revert \"[AArch64] Copy x4\/x5 vararg payload into the x64 stack in Arm64EC exit thunks\" (#198540)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -136893,6 +136917,26 @@
             "author_name": "Alexis Engelke",
             "commit_date": "2026-05-19T12:47:16+00:00",
             "subject": "[Analysis][NFC] Reduce memory usage of CodeMetrics"
+        }
+    ],
+    "guy-david\/perf\/cheap-remat": [
+        {
+            "hash": "0e8f3574ad757596eeb1df446121f61c3146c961",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-05-19T07:09:14-04:00",
+            "subject": "[SLP] Prefer outer binary op when opcode groups tie in buildInstructionsState"
+        },
+        {
+            "hash": "77bc618179abe3bcc4a4193111e3a4cbeccf6cd2",
+            "author_name": "Guy David",
+            "commit_date": "2026-05-19T17:57:17+03:00",
+            "subject": "[RegisterCoalescer] Don't remat trivial defs without a size benefit"
+        },
+        {
+            "hash": "2f706a825718505678867cceac8e27064f308e21",
+            "author_name": "Guy David",
+            "commit_date": "2026-05-19T17:57:32+03:00",
+            "subject": "[AArch64] Consider MOVaddr* as cheap if fuse-adrp-add"
         }
     ]
 }
