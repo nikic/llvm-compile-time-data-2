@@ -134073,6 +134073,54 @@
             "author_name": "Tomer Shafir",
             "commit_date": "2026-05-19T20:37:04+03:00",
             "subject": "[MC] Add -sched-model-reservation-station-scale-factor option (#195638)"
+        },
+        {
+            "hash": "43b66dfce623888a8f88415a2a97ca96d4405cd3",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-05-19T10:42:09-07:00",
+            "subject": "[IR] Explicitly note C standard library UB (#198562)"
+        },
+        {
+            "hash": "d46cca082b2e4974985118fb7a419f9ba309ab60",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-05-19T10:43:49-07:00",
+            "subject": "[dsymutil] Add missing --linker {classic,parallel} in tests (#198568)"
+        },
+        {
+            "hash": "ed1441988943c6ad00b1452b54f632019f1c0f47",
+            "author_name": "Jacques Pienaar",
+            "commit_date": "2026-05-19T19:44:25+02:00",
+            "subject": "[mlirbc] Add missing encoding for float types (#191962)"
+        },
+        {
+            "hash": "987b0e3db2f4bd9d3622679e3ba376836a90270b",
+            "author_name": "Krzysztof Drewniak",
+            "commit_date": "2026-05-19T10:44:41-07:00",
+            "subject": "[mlir][AMDGPU] Extend amdgpu.transpose_load for gfx1250 (#198354)"
+        },
+        {
+            "hash": "ace44dc5a2a48e5d024bc5c015f69a67cd9be909",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-05-19T19:56:04+02:00",
+            "subject": "[AMDGPU] Gate `S_LSHL[1-4]_ADD_U32` patterns on uniform results (#198508)"
+        },
+        {
+            "hash": "58a43dcbfe4577773c09fce0de9f0036cd99c49f",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-05-19T19:57:52+02:00",
+            "subject": "[mlir][SPIR-V] Support literal struct type in spirv.Constant (#198414)"
+        },
+        {
+            "hash": "bb95a8dd341e6bac6e6d94ac8906d223bc7a215d",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-05-19T10:58:56-07:00",
+            "subject": "[CIR] Fix assumption that 'curFn' is always a function in direct-call (#197766)"
+        },
+        {
+            "hash": "e13d9c2630569e024a0763694806716354b54e1f",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-05-19T10:59:00-07:00",
+            "subject": "[CIR] Implement atomic cmp exhange with non-const 'weak' lowering (#198546)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
