@@ -133785,6 +133785,36 @@
             "author_name": "Alex Bradbury",
             "commit_date": "2026-05-19T15:08:31+00:00",
             "subject": "Revert \"[AArch64] Copy x4\/x5 vararg payload into the x64 stack in Arm64EC exit thunks\" (#198540)"
+        },
+        {
+            "hash": "8f6ed9f490bc8f7b88d945b9e38fd715fcee1966",
+            "author_name": "Ebuka Ezike",
+            "commit_date": "2026-05-19T16:13:18+01:00",
+            "subject": "[lldb] Fix possible invalidated iterator. (#198482)"
+        },
+        {
+            "hash": "9ccaf838121687821a098975f55be1872bc288f3",
+            "author_name": "Benjamin Stott",
+            "commit_date": "2026-05-19T16:13:42+01:00",
+            "subject": "[LLVM] Add a function to reset the opt bisector (#197723)"
+        },
+        {
+            "hash": "e32fc5dc5e71251f0f7d605604739602792b6e61",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-05-19T08:20:40-07:00",
+            "subject": "[SelectionDAG] Use getExtractSubvector. NFC (#198450)"
+        },
+        {
+            "hash": "91467766a8afb52439619163828c5f6816ddd550",
+            "author_name": "SunilKuravinakop",
+            "commit_date": "2026-05-19T20:52:20+05:30",
+            "subject": "[Flang] [OpenMP] atomic compare (#184761)"
+        },
+        {
+            "hash": "6fd09a539f5f397c569f81e22dcd032d5e818526",
+            "author_name": "Carlos Seo",
+            "commit_date": "2026-05-19T12:22:24-03:00",
+            "subject": "[flang][OpenMP] Skip declare simd lowering for interface bodies (#197010)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -136927,15 +136957,15 @@
             "subject": "[SLP] Prefer outer binary op when opcode groups tie in buildInstructionsState"
         },
         {
-            "hash": "77bc618179abe3bcc4a4193111e3a4cbeccf6cd2",
+            "hash": "c9c4a3b099bac4de30cd72af1b83d88c333d2605",
             "author_name": "Guy David",
-            "commit_date": "2026-05-19T17:57:17+03:00",
+            "commit_date": "2026-05-19T18:16:30+03:00",
             "subject": "[RegisterCoalescer] Don't remat trivial defs without a size benefit"
         },
         {
-            "hash": "2f706a825718505678867cceac8e27064f308e21",
+            "hash": "4b358b29e7d4a1ba1de9cb87c528cc2347c57a2f",
             "author_name": "Guy David",
-            "commit_date": "2026-05-19T17:57:32+03:00",
+            "commit_date": "2026-05-19T18:16:31+03:00",
             "subject": "[AArch64] Consider MOVaddr* as cheap if fuse-adrp-add"
         }
     ]
