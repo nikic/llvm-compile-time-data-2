@@ -1,0 +1,215 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[1180/3313] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/RealtimeSanitizer.cpp.o
+[1181/3313] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAddSub.cpp.o
+[1182/3313] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/ThreadSanitizer.cpp.o
+[1183/3313] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/HWAddressSanitizer.cpp.o
+[1184/3313] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAndOrXor.cpp.o
+[1185/3313] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAtomicRMW.cpp.o
+[1186/3313] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCalls.cpp.o
+[1187/3313] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCasts.cpp.o
+[1188/3313] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCompares.cpp.o
+[1189/3313] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineLoadStoreAlloca.cpp.o
+[1190/3313] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineMulDivRem.cpp.o
+[1191/3313] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineSelect.cpp.o
+[1192/3313] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineNegator.cpp.o
+[1193/3313] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombinePHI.cpp.o
+[1194/3313] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineShifts.cpp.o
+[1195/3313] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineSimplifyDemanded.cpp.o
+[1196/3313] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineVectorOps.cpp.o
+[1197/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/ADCE.cpp.o
+[1198/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/AlignmentFromAssumptions.cpp.o
+[1199/3313] Building X86GenGlobalISel.inc...
+[1200/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/AnnotationRemarks.cpp.o
+[1201/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/BDCE.cpp.o
+[1202/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/CallSiteSplitting.cpp.o
+[1203/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/ConstantHoisting.cpp.o
+[1204/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/ConstraintElimination.cpp.o
+[1205/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/CorrelatedValuePropagation.cpp.o
+[1206/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DCE.cpp.o
+[1207/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DeadStoreElimination.cpp.o
+[1208/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DFAJumpThreading.cpp.o
+[1209/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DivRemPairs.cpp.o
+[1210/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DropUnnecessaryAssumes.cpp.o
+[1211/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/EarlyCSE.cpp.o
+[1212/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/ExpandMemCmp.cpp.o
+[1213/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/FlattenCFGPass.cpp.o
+[1214/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/Float2Int.cpp.o
+[1215/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/GuardWidening.cpp.o
+[1216/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/GVN.cpp.o
+[1217/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/GVNHoist.cpp.o
+[1218/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/GVNSink.cpp.o
+[1219/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/IVUsersPrinter.cpp.o
+[1220/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/InductiveRangeCheckElimination.cpp.o
+[1221/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/InferAlignment.cpp.o
+[1222/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/InferAddressSpaces.cpp.o
+[1223/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/JumpThreading.cpp.o
+[1224/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/IndVarSimplify.cpp.o
+[1225/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/InstSimplifyPass.cpp.o
+[1226/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/JumpTableToSwitch.cpp.o
+[1227/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LICM.cpp.o
+[1228/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopAccessAnalysisPrinter.cpp.o
+[1229/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopBoundSplit.cpp.o
+[1230/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopSink.cpp.o
+[1231/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopDeletion.cpp.o
+[1232/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopDataPrefetch.cpp.o
+[1233/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopFuse.cpp.o
+[1234/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopDistribute.cpp.o
+[1235/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopIdiomRecognize.cpp.o
+[1236/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopInterchange.cpp.o
+[1237/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopInstSimplify.cpp.o
+[1238/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopFlatten.cpp.o
+[1239/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopLoadElimination.cpp.o
+[1240/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopPredication.cpp.o
+[1241/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopPassManager.cpp.o
+[1242/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopRotation.cpp.o
+[1243/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopSimplifyCFG.cpp.o
+[1244/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopStrengthReduce.cpp.o
+[1245/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopTermFold.cpp.o
+[1246/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopUnrollPass.cpp.o
+[1247/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopUnrollAndJamPass.cpp.o
+[1248/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopVersioningLICM.cpp.o
+[1249/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LowerAtomicPass.cpp.o
+[1250/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LowerExpectIntrinsic.cpp.o
+[1251/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LowerConstantIntrinsics.cpp.o
+[1252/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LowerGuardIntrinsic.cpp.o
+[1253/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LowerWidenableCondition.cpp.o
+[1254/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/MemCpyOptimizer.cpp.o
+[1255/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/MergeICmps.cpp.o
+[1256/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/MergedLoadStoreMotion.cpp.o
+[1257/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/MakeGuardsExplicit.cpp.o
+[1258/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/NaryReassociate.cpp.o
+[1259/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LowerMatrixIntrinsics.cpp.o
+[1260/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/PartiallyInlineLibCalls.cpp.o
+[1261/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/PlaceSafepoints.cpp.o
+[1262/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/NewGVN.cpp.o
+[1263/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/Reassociate.cpp.o
+[1264/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/Reg2Mem.cpp.o
+[1265/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/RewriteStatepointsForGC.cpp.o
+[1266/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/SCCP.cpp.o
+[1267/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/Scalar.cpp.o
+[1268/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/SROA.cpp.o
+[1269/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/Scalarizer.cpp.o
+[1270/3313] Building CXX object lib/Frontend/HLSL/CMakeFiles/LLVMFrontendHLSL.dir/HLSLRootSignature.cpp.o
+[1271/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/ScalarizeMaskedMemIntrin.cpp.o
+[1272/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/SimplifyCFGPass.cpp.o
+[1273/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/SeparateConstOffsetFromGEP.cpp.o
+[1274/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/Sink.cpp.o
+[1275/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/SpeculativeExecution.cpp.o
+[1276/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/StructurizeCFG.cpp.o
+[1277/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/SimpleLoopUnswitch.cpp.o
+[1278/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/WarnMissedTransforms.cpp.o
+[1279/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/Annotation2Metadata.cpp.o
+[1280/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/StraightLineStrengthReduce.cpp.o
+[1281/3313] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/TailRecursionElimination.cpp.o
+[1282/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/AlwaysInliner.cpp.o
+[1283/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/ArgumentPromotion.cpp.o
+[1284/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/Attributor.cpp.o
+[1285/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/AttributorAttributes.cpp.o
+[1286/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/BarrierNoopPass.cpp.o
+[1287/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/BlockExtractor.cpp.o
+[1288/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/ConstantMerge.cpp.o
+[1289/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/CalledValuePropagation.cpp.o
+[1290/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/DeadArgumentElimination.cpp.o
+[1291/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/ElimAvailExtern.cpp.o
+[1292/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/EmbedBitcodePass.cpp.o
+[1293/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/ExpandVariadics.cpp.o
+[1294/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/CrossDSOCFI.cpp.o
+[1295/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/ExtractGV.cpp.o
+[1296/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/ForceFunctionAttrs.cpp.o
+[1297/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/FatLTOCleanup.cpp.o
+[1298/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/FunctionAttrs.cpp.o
+[1299/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/FunctionImport.cpp.o
+[1300/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/FunctionSpecialization.cpp.o
+[1301/3313] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/DXContainerYAML.cpp.o
+FAILED: lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/DXContainerYAML.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/ObjectYAML -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/DXContainerYAML.cpp.o -MF lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/DXContainerYAML.cpp.o.d -o lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/DXContainerYAML.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML/DXContainerYAML.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML/DXContainerYAML.cpp:14:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/DXContainerYAML.h:328:34: error: declaration of ‘std::optional<llvm::DXContainerYAML::CompilerVersion> llvm::DXContainerYAML::Part::CompilerVersion’ changes meaning of ‘CompilerVersion’ [-fpermissive]
+  328 |   std::optional<CompilerVersion> CompilerVersion;
+      |                                  ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/DXContainerYAML.h:305:8: note: ‘CompilerVersion’ declared here as ‘struct llvm::DXContainerYAML::CompilerVersion’
+  305 | struct CompilerVersion {
+      |        ^~~~~~~~~~~~~~~
+[1302/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/GlobalDCE.cpp.o
+[1303/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/IPO.cpp.o
+[1304/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/GlobalSplit.cpp.o
+[1305/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/GlobalOpt.cpp.o
+[1306/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/HotColdSplitting.cpp.o
+[1307/3313] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/IROutliner.cpp.o
+[1308/3313] Building CXX object lib/BinaryFormat/CMakeFiles/LLVMBinaryFormat.dir/DXContainer.cpp.o
+[1309/3313] Building X86GenDAGISel.inc...
+[1310/3313] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/GOFFEmitter.cpp.o
+FAILED: lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/GOFFEmitter.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/ObjectYAML -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/GOFFEmitter.cpp.o -MF lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/GOFFEmitter.cpp.o.d -o lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/GOFFEmitter.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML/GOFFEmitter.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/ObjectYAML.h:14,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML/GOFFEmitter.cpp:14:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/DXContainerYAML.h:328:34: error: declaration of ‘std::optional<llvm::DXContainerYAML::CompilerVersion> llvm::DXContainerYAML::Part::CompilerVersion’ changes meaning of ‘CompilerVersion’ [-fpermissive]
+  328 |   std::optional<CompilerVersion> CompilerVersion;
+      |                                  ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/DXContainerYAML.h:305:8: note: ‘CompilerVersion’ declared here as ‘struct llvm::DXContainerYAML::CompilerVersion’
+  305 | struct CompilerVersion {
+      |        ^~~~~~~~~~~~~~~
+[1311/3313] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/COFFEmitter.cpp.o
+FAILED: lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/COFFEmitter.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/ObjectYAML -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/COFFEmitter.cpp.o -MF lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/COFFEmitter.cpp.o.d -o lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/COFFEmitter.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML/COFFEmitter.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/ObjectYAML.h:14,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML/COFFEmitter.cpp:17:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/DXContainerYAML.h:328:34: error: declaration of ‘std::optional<llvm::DXContainerYAML::CompilerVersion> llvm::DXContainerYAML::Part::CompilerVersion’ changes meaning of ‘CompilerVersion’ [-fpermissive]
+  328 |   std::optional<CompilerVersion> CompilerVersion;
+      |                                  ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/DXContainerYAML.h:305:8: note: ‘CompilerVersion’ declared here as ‘struct llvm::DXContainerYAML::CompilerVersion’
+  305 | struct CompilerVersion {
+      |        ^~~~~~~~~~~~~~~
+[1312/3313] Building AArch64GenDAGISel.inc...
+[1313/3313] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/MachOEmitter.cpp.o
+FAILED: lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/MachOEmitter.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/ObjectYAML -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/MachOEmitter.cpp.o -MF lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/MachOEmitter.cpp.o.d -o lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/MachOEmitter.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML/MachOEmitter.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/ObjectYAML.h:14,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML/MachOEmitter.cpp:16:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/DXContainerYAML.h:328:34: error: declaration of ‘std::optional<llvm::DXContainerYAML::CompilerVersion> llvm::DXContainerYAML::Part::CompilerVersion’ changes meaning of ‘CompilerVersion’ [-fpermissive]
+  328 |   std::optional<CompilerVersion> CompilerVersion;
+      |                                  ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/DXContainerYAML.h:305:8: note: ‘CompilerVersion’ declared here as ‘struct llvm::DXContainerYAML::CompilerVersion’
+  305 | struct CompilerVersion {
+      |        ^~~~~~~~~~~~~~~
+[1314/3313] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/DXContainerEmitter.cpp.o
+FAILED: lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/DXContainerEmitter.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/ObjectYAML -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/DXContainerEmitter.cpp.o -MF lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/DXContainerEmitter.cpp.o.d -o lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/DXContainerEmitter.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML/DXContainerEmitter.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/ObjectYAML.h:14,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML/DXContainerEmitter.cpp:18:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/DXContainerYAML.h:328:34: error: declaration of ‘std::optional<llvm::DXContainerYAML::CompilerVersion> llvm::DXContainerYAML::Part::CompilerVersion’ changes meaning of ‘CompilerVersion’ [-fpermissive]
+  328 |   std::optional<CompilerVersion> CompilerVersion;
+      |                                  ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/DXContainerYAML.h:305:8: note: ‘CompilerVersion’ declared here as ‘struct llvm::DXContainerYAML::CompilerVersion’
+  305 | struct CompilerVersion {
+      |        ^~~~~~~~~~~~~~~
+[1315/3313] Building CXX object lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/ObjectYAML.cpp.o
+FAILED: lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/ObjectYAML.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/ObjectYAML -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/ObjectYAML.cpp.o -MF lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/ObjectYAML.cpp.o.d -o lib/ObjectYAML/CMakeFiles/LLVMObjectYAML.dir/ObjectYAML.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML/ObjectYAML.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/ObjectYAML.h:14,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/ObjectYAML/ObjectYAML.cpp:13:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/DXContainerYAML.h:328:34: error: declaration of ‘std::optional<llvm::DXContainerYAML::CompilerVersion> llvm::DXContainerYAML::Part::CompilerVersion’ changes meaning of ‘CompilerVersion’ [-fpermissive]
+  328 |   std::optional<CompilerVersion> CompilerVersion;
+      |                                  ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ObjectYAML/DXContainerYAML.h:305:8: note: ‘CompilerVersion’ declared here as ‘struct llvm::DXContainerYAML::CompilerVersion’
+  305 | struct CompilerVersion {
+      |        ^~~~~~~~~~~~~~~
+[1316/3313] Building CXX object lib/Frontend/HLSL/CMakeFiles/LLVMFrontendHLSL.dir/RootSignatureMetadata.cpp.o
+[1317/3313] Building X86GenSubtargetInfo.inc...
+[1318/3313] Building X86GenInstrInfo.inc...
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:494 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+89.88user 8.71system 0:07.61elapsed 1294%CPU (0avgtext+0avgdata 730520maxresident)k
+0inputs+671040outputs (2868major+4854623minor)pagefaults 0swaps
