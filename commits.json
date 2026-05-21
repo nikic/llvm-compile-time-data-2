@@ -135909,6 +135909,42 @@
             "author_name": "Craig Topper",
             "commit_date": "2026-05-21T08:08:52-07:00",
             "subject": "[RISCV][P-ext] Return SDValue() instead of calling DAG.UnrollVectorOp for non-splat shift amounts. NFCI (#198914)"
+        },
+        {
+            "hash": "3c8670b4a90c64199e905be698077089b58622ca",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-05-21T16:19:10+01:00",
+            "subject": "clang: Add BoundArch\/OffloadKind argument to getSupportedSanitizers (#196503)"
+        },
+        {
+            "hash": "a77010fc490feb17e892b862bffdb7752c58a8a2",
+            "author_name": "Andy Kaylor",
+            "commit_date": "2026-05-21T08:20:44-07:00",
+            "subject": "[CIR] Fix problem with multiple references to an alloca in a cleanup (#198928)"
+        },
+        {
+            "hash": "9b64970de9c2ecf5d19cf7e6c65b56bb9adf807e",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-05-21T16:24:17+01:00",
+            "subject": "[NFC][lldb][windows] Replace typedef with using (#199036)"
+        },
+        {
+            "hash": "a5bc2ad5ec7c72d8eb2c1bd1abb1652ab535e9fd",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-05-21T16:24:37+01:00",
+            "subject": "[lldb][windows] relax TestMissingDll.py assert (#199046)"
+        },
+        {
+            "hash": "57011c962565846b7343915ff3489b91cd036da1",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-05-21T16:24:59+01:00",
+            "subject": "[NFC][lldb][windows] Default empty user-defined destructors (#199037)"
+        },
+        {
+            "hash": "8ef4456ec5780db05c0143f7b3aac56799982cf7",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-05-21T16:25:27+01:00",
+            "subject": "[NFC][lldb][windows] NULL to nullptr replacement (#199031)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
