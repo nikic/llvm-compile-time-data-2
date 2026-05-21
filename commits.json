@@ -135747,6 +135747,36 @@
             "author_name": "Ryotaro Kasuga",
             "commit_date": "2026-05-21T12:57:15+00:00",
             "subject": "[LoopInterchange] Disable LoopCacheAnalysis-based heuristic by default (#193478)"
+        },
+        {
+            "hash": "f5f96b80b4a490db865d054d05b62907f07692b7",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-05-21T14:03:00+01:00",
+            "subject": "[CI] Fix GH PR Greeter (#198160)"
+        },
+        {
+            "hash": "8bdc185b887bc0813f8dae203389e8c497ebf723",
+            "author_name": "Jack Styles",
+            "commit_date": "2026-05-21T14:03:31+01:00",
+            "subject": "[Flang][OpenMP][NFC] Remove Fortran Evaluate Depedancy from Support (#198742)"
+        },
+        {
+            "hash": "f53a508c4af085b3aedd71724ea6fbdb7a6b3136",
+            "author_name": "David Spickett",
+            "commit_date": "2026-05-21T14:05:49+01:00",
+            "subject": "[CI] Pass script args using env var in merged PRs workflow (#199022)"
+        },
+        {
+            "hash": "c64b7083ce8c7e1b8de9581e3e0045197bfd50a1",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-05-21T14:10:13+01:00",
+            "subject": "[RISCV] Ensure AVL dominates True in vmerge peephole (#199008)"
+        },
+        {
+            "hash": "ad1311e967a5a8ea9a68200f766033d3b7a6753e",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-05-21T14:10:52+01:00",
+            "subject": "[lldb][windows] Fix HostProcessWindows::Terminate clobbering error (#199012)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -138917,6 +138947,20 @@
             "author_name": "Guy David",
             "commit_date": "2026-05-19T18:16:31+03:00",
             "subject": "[AArch64] Consider MOVaddr* as cheap if fuse-adrp-add"
+        }
+    ],
+    "kasuga-fj\/perf\/enable-loop-interchange": [
+        {
+            "hash": "f53a508c4af085b3aedd71724ea6fbdb7a6b3136",
+            "author_name": "David Spickett",
+            "commit_date": "2026-05-21T14:05:49+01:00",
+            "subject": "[CI] Pass script args using env var in merged PRs workflow (#199022)"
+        },
+        {
+            "hash": "e9e6e2da0c887355645b4695696d8c7656e4d4ce",
+            "author_name": "Ryotaro Kasuga",
+            "commit_date": "2026-05-21T13:09:20+00:00",
+            "subject": "enable loop-interchange"
         }
     ]
 }
