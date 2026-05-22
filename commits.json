@@ -136851,6 +136851,36 @@
             "author_name": "LU-JOHN",
             "commit_date": "2026-05-22T15:18:01-05:00",
             "subject": "Reapply [SimplifyCFG] Extend jump-threading to allow live local defs (#197850)"
+        },
+        {
+            "hash": "f8392616fafe26a6132645d0474253afe0549f32",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-05-22T22:31:33+02:00",
+            "subject": "[MLIR] Fix mlir-doc build, add missing \"-dialect nvgpu\" (#199279)"
+        },
+        {
+            "hash": "c61c8808b4aa1cbcde195859ddb5dd1402cb5914",
+            "author_name": "Paul Kirth",
+            "commit_date": "2026-05-22T13:31:47-07:00",
+            "subject": "[clang-doc][nfc] Silence tidy warning about anonymous namespace (#198071)"
+        },
+        {
+            "hash": "90d4ed570dbc685120fb5824efd8eb9b568ac5ff",
+            "author_name": "Paul Kirth",
+            "commit_date": "2026-05-22T13:32:44-07:00",
+            "subject": "[clang-doc][nfc] Use static declarations to enforce internal linkage (#198072)"
+        },
+        {
+            "hash": "d755b04e38363e02fc64578654705d52a321b739",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-05-22T21:33:46+01:00",
+            "subject": "[SCEV] Fold zext(C+A)<nsw> -> (sext(C) + zext(A))<nsw> if possible. (#142599)"
+        },
+        {
+            "hash": "cc926938e05be54018d1bfd72144d07ad7599a8a",
+            "author_name": "Kevin Sala Penades",
+            "commit_date": "2026-05-22T13:35:43-07:00",
+            "subject": "[offload] Use device memory for the multithreaded kernel lanuch test (#199132)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
