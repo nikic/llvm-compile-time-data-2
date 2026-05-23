@@ -136977,6 +136977,12 @@
             "author_name": "Henrik G. Olsson",
             "commit_date": "2026-05-22T21:55:41-07:00",
             "subject": "[Clang][CodeGen] map `noescape` to capture(address) (was capture(none)) (#199281)"
+        },
+        {
+            "hash": "a8e55950fdc19c23ad78c8aeeea5a907690c4b6d",
+            "author_name": "Alex Bradbury",
+            "commit_date": "2026-05-23T06:03:58+01:00",
+            "subject": "[RISCV][TTI] Make getShuffleCost check we have a vector before querying getVectorElementCount (#199286)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -139915,15 +139921,15 @@
     ],
     "MaskRay\/perf\/densemap-verstable": [
         {
-            "hash": "e6a12781bcc2d1713f9e5593de36f68cc00aaab6",
-            "author_name": "Alex Bradbury",
-            "commit_date": "2026-05-17T06:44:41+01:00",
-            "subject": "[AArch64] Copy x4\/x5 vararg payload into the x64 stack in Arm64EC exit thunks (#190933)"
+            "hash": "b153bed8fae4db1a8df3c52ca5b6e3e8f88113bd",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-05-22T17:11:25+00:00",
+            "subject": "[VectorCombine] foldShuffleChainsToReduce - add dbg cost comparison message (#199233)"
         },
         {
-            "hash": "3fe8ba3d1dd29083c5a0e3bf8379a986ac1e87af",
+            "hash": "f1f251b011c8e0dc4255dc094583d0013e6db357",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-05-17T23:37:06-07:00",
+            "commit_date": "2026-05-22T22:02:01-07:00",
             "subject": "[ADT][DenseMap] Reimplement on the Verstable algorithm"
         }
     ],
