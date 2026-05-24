@@ -139215,28 +139215,28 @@
     ],
     "MaskRay\/perf\/densemap-backshift": [
         {
-            "hash": "c9560139d3053fe5eb49131c0354ed6a67177fbc",
-            "author_name": "Sergei Barannikov",
-            "commit_date": "2026-05-12T11:15:09+03:00",
-            "subject": "[lld] Remove unused argument of DataExtractor constructor (NFC) (#196361)"
+            "hash": "6302439f5aaea6cb776d8ceb5c2ef9108fccf702",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-24T10:25:38-07:00",
+            "subject": "[llvm,clang] Don't assume non-erased DenseMap entries remain valid after erase. NFC (#198982)"
         },
         {
-            "hash": "db4618663984c0628aeafc5b1a435f06510f4b1e",
+            "hash": "d911a95bb55fc7759b4b7ae59eba43379d1e40c7",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-05-12T01:24:24-07:00",
-            "subject": "Don't assume non-erased DenseMap entries remain valid after erase. NFC"
+            "commit_date": "2026-05-24T10:34:11-07:00",
+            "subject": "[mlir] Don't assume non-erased DenseMap entries remain valid after erase. NFC"
         },
         {
-            "hash": "f7f7cd411e63d6ce99b7dd2cfb3e74875b2ed8a3",
+            "hash": "e7e4062b3fe127a8dd07235a947d8eb8c81c5c21",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-05-12T01:24:24-07:00",
+            "commit_date": "2026-05-24T10:34:11-07:00",
             "subject": "[DenseMap] Invalidate iterators on erase"
         },
         {
-            "hash": "53631eec76eb04ff37f17ac6105bfd719d1085a5",
+            "hash": "fc90f96bc634323f45f8643bac4f9a7b0e73cb08",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-05-13T00:18:21-07:00",
-            "subject": "[DenseMap] Use linear probing with backward-shift deletion"
+            "commit_date": "2026-05-24T10:34:11-07:00",
+            "subject": "[DenseMap] Drop tombstones from large mode"
         }
     ],
     "PankajDwivedi-25\/perf\/scev-instruction-listener": [
