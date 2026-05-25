@@ -137427,6 +137427,18 @@
             "author_name": "Rohit Garg",
             "commit_date": "2026-05-25T20:02:30+09:00",
             "subject": "[LoopInterchange] drop duplicate Instruction type check in populateDependencyMatrix (#199498)"
+        },
+        {
+            "hash": "af92edf8b3aa4104992de9fe08ce2170d14bc28d",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-05-25T13:07:05+02:00",
+            "subject": "[libc] Port munmap and mprotect to the new syscall interface (#199199)"
+        },
+        {
+            "hash": "c59178d6037f582c7e8fb0141c7a16cd8d5d8d5e",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-05-25T13:10:03+02:00",
+            "subject": "[libc] Fix inet_aton (#198791)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -140671,6 +140683,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-05-24T22:30:19-07:00",
             "subject": "[DenseMap] Alias SmallDenseMap to DenseMap to drop the inline small-buffer"
+        }
+    ],
+    "guy-david\/perf\/cheap-remat-v2": [
+        {
+            "hash": "af92edf8b3aa4104992de9fe08ce2170d14bc28d",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-05-25T13:07:05+02:00",
+            "subject": "[libc] Port munmap and mprotect to the new syscall interface (#199199)"
+        },
+        {
+            "hash": "de1ba780dd2cfcde544c9cde29c05680c775ac49",
+            "author_name": "Guy David",
+            "commit_date": "2026-05-25T14:10:31+03:00",
+            "subject": "[AArch64] Consider MOVaddr* as cheap if fuse-adrp-add"
         }
     ]
 }
