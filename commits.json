@@ -140622,5 +140622,25 @@
             "commit_date": "2026-05-22T14:11:07+02:00",
             "subject": "[IR] Add fast-path to MetadataTracking::track() for resolved MDNodes"
         }
+    ],
+    "MaskRay\/perf\/densemap-backshift-2": [
+        {
+            "hash": "8811c2b3586831761807b683382d50ee185f3d7a",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-25T01:09:53+00:00",
+            "subject": "[ConstantHoisting] Avoid DenseMap reference invalidated by insertion (#199468)"
+        },
+        {
+            "hash": "1ff55e6d1c34274fb14999db9045a260e1065538",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-24T22:28:13-07:00",
+            "subject": "[DenseMap] Drop tombstones from large mode"
+        },
+        {
+            "hash": "e0aa3a3c197f6fdf7e168910a67bae68d8cc81c8",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-24T22:30:19-07:00",
+            "subject": "[DenseMap] Alias SmallDenseMap to DenseMap to drop the inline small-buffer"
+        }
     ]
 }
