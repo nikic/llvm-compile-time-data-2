@@ -137349,6 +137349,12 @@
             "author_name": "isuckatcs",
             "commit_date": "2026-05-25T02:16:17+02:00",
             "subject": "[CodeGen][GC] Initialize roots with `Constant::getNullValue()` instead of `ConstantPointerNull::get()` (#199367)"
+        },
+        {
+            "hash": "a029fb9dda06a08c1f37037d03dda3ec053bc139",
+            "author_name": "Matheus Izvekov",
+            "commit_date": "2026-05-24T21:48:56-03:00",
+            "subject": "[clang] NFC: add some new test cases (#199467)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -140293,15 +140299,15 @@
     ],
     "MaskRay\/perf\/densemap-verstable": [
         {
-            "hash": "b153bed8fae4db1a8df3c52ca5b6e3e8f88113bd",
-            "author_name": "Simon Pilgrim",
-            "commit_date": "2026-05-22T17:11:25+00:00",
-            "subject": "[VectorCombine] foldShuffleChainsToReduce - add dbg cost comparison message (#199233)"
+            "hash": "6302439f5aaea6cb776d8ceb5c2ef9108fccf702",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-24T10:25:38-07:00",
+            "subject": "[llvm,clang] Don't assume non-erased DenseMap entries remain valid after erase. NFC (#198982)"
         },
         {
-            "hash": "f1f251b011c8e0dc4255dc094583d0013e6db357",
+            "hash": "c3d816adf42f7f0f942e25434448cdc9df17a305",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-05-22T22:02:01-07:00",
+            "commit_date": "2026-05-24T17:46:01-07:00",
             "subject": "[ADT][DenseMap] Reimplement on the Verstable algorithm"
         }
     ],
