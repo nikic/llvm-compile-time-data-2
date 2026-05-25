@@ -139225,16 +139225,16 @@
     ],
     "MaskRay\/perf\/hashing-integer-cleanup": [
         {
-            "hash": "fb534780379c1ef735ed8b46f2bb11d813965b97",
+            "hash": "8811c2b3586831761807b683382d50ee185f3d7a",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-05-10T21:54:25+00:00",
-            "subject": "Add missing direct includes for bit.h\/SwapByteOrder.h. NFC (#196843)"
+            "commit_date": "2026-05-25T01:09:53+00:00",
+            "subject": "[ConstantHoisting] Avoid DenseMap reference invalidated by insertion (#199468)"
         },
         {
-            "hash": "aa5c4814d76d29855f7376b13f92e3112f83eadf",
+            "hash": "2fadc4c720861a6e9361a6cde45f6690870e4359",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-05-10T15:02:40-07:00",
-            "subject": "[Hashing] Simplify hash_integer_value to a direct mix"
+            "commit_date": "2026-05-24T18:25:54-07:00",
+            "subject": "[Hashing] Replace hash_integer_value with splitmix64 finalizer"
         }
     ],
     "nikic\/perf\/slp-non-pow2": [
