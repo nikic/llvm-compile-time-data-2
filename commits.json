@@ -140347,15 +140347,15 @@
     ],
     "MaskRay\/perf\/densemap-verstable": [
         {
-            "hash": "8811c2b3586831761807b683382d50ee185f3d7a",
+            "hash": "0285f1c6b791fb974a71a236e329848cf2d2fbe9",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-05-25T01:09:53+00:00",
-            "subject": "[ConstantHoisting] Avoid DenseMap reference invalidated by insertion (#199468)"
+            "commit_date": "2026-05-25T00:42:33-07:00",
+            "subject": "[mlir] Don't assume non-erased DenseMap entries remain valid after erase. NFC (#199365)"
         },
         {
-            "hash": "8cad1afca8f3dacdb83fbc5b272c204301dd5cd9",
+            "hash": "84875673f297ea3783a0d740489f7de484bd53e4",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-05-24T23:45:02-07:00",
+            "commit_date": "2026-05-25T01:32:58-07:00",
             "subject": "[ADT][DenseMap] Reimplement on the Verstable algorithm"
         }
     ],

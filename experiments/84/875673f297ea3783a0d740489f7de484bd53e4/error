@@ -1,0 +1,215 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[1298/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ReplayInlineAdvisor.cpp.o
+[1299/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/RegionInfo.cpp.o
+In file included from /usr/include/string.h:535,
+                 from /usr/include/c++/11/cstring:42,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:25,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:41,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RegionInfo.h:39,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/RegionInfo.cpp:11:
+In function ‘void* memset(void*, int, size_t)’,
+    inlined from ‘void llvm::DenseMapBase<DerivedT, KeyT, ValueT, KeyInfoT, BucketT>::initEmpty() [with DerivedT = llvm::DenseMap<llvm::BasicBlock*, llvm::Region*, llvm::DenseMapInfo<llvm::BasicBlock*, void>, llvm::detail::DenseMapPair<llvm::BasicBlock*, llvm::Region*> >; KeyT = llvm::BasicBlock*; ValueT = llvm::Region*; KeyInfoT = llvm::DenseMapInfo<llvm::BasicBlock*, void>; BucketT = llvm::detail::DenseMapPair<llvm::BasicBlock*, llvm::Region*>]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:504:16,
+    inlined from ‘void llvm::DenseMapBase<DerivedT, KeyT, ValueT, KeyInfoT, BucketT>::shrink_and_clear() [with DerivedT = llvm::DenseMap<llvm::BasicBlock*, llvm::Region*, llvm::DenseMapInfo<llvm::BasicBlock*, void>, llvm::detail::DenseMapPair<llvm::BasicBlock*, llvm::Region*> >; KeyT = llvm::BasicBlock*; ValueT = llvm::Region*; KeyInfoT = llvm::DenseMapInfo<llvm::BasicBlock*, void>; BucketT = llvm::detail::DenseMapPair<llvm::BasicBlock*, llvm::Region*>]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:202:16,
+    inlined from ‘void llvm::DenseMapBase<DerivedT, KeyT, ValueT, KeyInfoT, BucketT>::shrink_and_clear() [with DerivedT = llvm::DenseMap<llvm::BasicBlock*, llvm::Region*, llvm::DenseMapInfo<llvm::BasicBlock*, void>, llvm::detail::DenseMapPair<llvm::BasicBlock*, llvm::Region*> >; KeyT = llvm::BasicBlock*; ValueT = llvm::Region*; KeyInfoT = llvm::DenseMapInfo<llvm::BasicBlock*, void>; BucketT = llvm::detail::DenseMapPair<llvm::BasicBlock*, llvm::Region*>]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:198:8,
+    inlined from ‘void llvm::DenseMapBase<DerivedT, KeyT, ValueT, KeyInfoT, BucketT>::clear() [with DerivedT = llvm::DenseMap<llvm::BasicBlock*, llvm::Region*, llvm::DenseMapInfo<llvm::BasicBlock*, void>, llvm::detail::DenseMapPair<llvm::BasicBlock*, llvm::Region*> >; KeyT = llvm::BasicBlock*; ValueT = llvm::Region*; KeyInfoT = llvm::DenseMapInfo<llvm::BasicBlock*, void>; BucketT = llvm::detail::DenseMapPair<llvm::BasicBlock*, llvm::Region*>]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:187:23,
+    inlined from ‘void llvm::RegionInfoBase<RegionTr>::wipe() [with Tr = llvm::RegionTraits<llvm::Function>]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RegionInfo.h:747:21,
+    inlined from ‘llvm::RegionInfoBase<RegionTr>& llvm::RegionInfoBase<RegionTr>::operator=(llvm::RegionInfoBase<RegionTr>&&) [with Tr = llvm::RegionTraits<llvm::Function>]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RegionInfo.h:707:13:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:59:33: warning: ‘void* __builtin_memset(void*, int, long unsigned int)’ writing between 130 and 8589934590 bytes into a region of size 2 overflows the destination [-Wstringop-overflow=]
+   59 |   return __builtin___memset_chk (__dest, __ch, __len,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+   60 |                                  __glibc_objsize0 (__dest));
+      |                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RegionInfo.h:39,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/RegionInfo.cpp:11:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h: In member function ‘llvm::RegionInfoBase<RegionTr>& llvm::RegionInfoBase<RegionTr>::operator=(llvm::RegionInfoBase<RegionTr>&&) [with Tr = llvm::RegionTraits<llvm::Function>]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:103:15: note: destination object ‘llvm::detail::densemap_vt::EmptyMetadata’ of size 2
+  103 | inline meta_t EmptyMetadata = Empty;
+      |               ^~~~~~~~~~~~~
+[1300/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemorySSA.cpp.o
+[1301/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/StructuralHash.cpp.o
+[1302/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolutionAliasAnalysis.cpp.o
+[1303/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/RegionPrinter.cpp.o
+[1304/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolutionNormalization.cpp.o
+[1305/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolutionDivision.cpp.o
+[1306/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/Trace.cpp.o
+[1307/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/StaticDataProfileInfo.cpp.o
+[1308/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TensorSpec.cpp.o
+[1309/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TrainingLogger.cpp.o
+[1310/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ModuleSummaryAnalysis.cpp.o
+[1311/3314] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Argument.cpp.o
+[1312/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScopedNoAliasAA.cpp.o
+[1313/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ValueLatticeUtils.cpp.o
+[1314/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ValueLattice.cpp.o
+[1315/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TypeBasedAliasAnalysis.cpp.o
+[1316/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/StackLifetime.cpp.o
+[1317/3314] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/DXContainerInfo.cpp.o
+[1318/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/SyntheticCountsUtils.cpp.o
+[1319/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TypeMetadataUtils.cpp.o
+[1320/3314] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/DXContainerRootSignature.cpp.o
+[1321/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolution.cpp.o
+FAILED: lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolution.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DHAS_LOGF128 -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Analysis -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolution.cpp.o -MF lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolution.cpp.o.d -o lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolution.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/ScalarEvolution.h:26,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:60:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h: In instantiation of ‘void llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::swapImpl(llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>&) [with KeyT = const llvm::BasicBlock*; ValueT = llvm::ScalarEvolution::LoopGuards; unsigned int InlineBuckets = 4; KeyInfoT = llvm::DenseMapInfo<const llvm::BasicBlock*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::BasicBlock*, llvm::ScalarEvolution::LoopGuards>]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:784:23:   required from ‘void llvm::DenseMapBase<DerivedT, KeyT, ValueT, KeyInfoT, BucketT>::grow(unsigned int) [with DerivedT = llvm::SmallDenseMap<const llvm::BasicBlock*, llvm::ScalarEvolution::LoopGuards>; KeyT = const llvm::BasicBlock*; ValueT = llvm::ScalarEvolution::LoopGuards; KeyInfoT = llvm::DenseMapInfo<const llvm::BasicBlock*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::BasicBlock*, llvm::ScalarEvolution::LoopGuards>]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:737:7:   required from ‘BucketT* llvm::DenseMapBase<DerivedT, KeyT, ValueT, KeyInfoT, BucketT>::findOrInsertBucket(const LookupKeyT&, bool&, OnMovedT&&) [with LookupKeyT = const llvm::BasicBlock*; OnMovedT = llvm::DenseMapBase<llvm::SmallDenseMap<const llvm::BasicBlock*, llvm::ScalarEvolution::LoopGuards>, const llvm::BasicBlock*, llvm::ScalarEvolution::LoopGuards, llvm::DenseMapInfo<const llvm::BasicBlock*, void>, llvm::detail::DenseMapPair<const llvm::BasicBlock*, llvm::ScalarEvolution::LoopGuards> >::findOrInsertBucket<const llvm::BasicBlock*>(const llvm::BasicBlock* const&, bool&)::<lambda(llvm::detail::DenseMapPair<const llvm::BasicBlock*, llvm::ScalarEvolution::LoopGuards>&)>; DerivedT = llvm::SmallDenseMap<const llvm::BasicBlock*, llvm::ScalarEvolution::LoopGuards>; KeyT = const llvm::BasicBlock*; ValueT = llvm::ScalarEvolution::LoopGuards; KeyInfoT = llvm::DenseMapInfo<const llvm::BasicBlock*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::BasicBlock*, llvm::ScalarEvolution::LoopGuards>]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:716:30:   required from ‘BucketT* llvm::DenseMapBase<DerivedT, KeyT, ValueT, KeyInfoT, BucketT>::findOrInsertBucket(const LookupKeyT&, bool&) [with LookupKeyT = const llvm::BasicBlock*; DerivedT = llvm::SmallDenseMap<const llvm::BasicBlock*, llvm::ScalarEvolution::LoopGuards>; KeyT = const llvm::BasicBlock*; ValueT = llvm::ScalarEvolution::LoopGuards; KeyInfoT = llvm::DenseMapInfo<const llvm::BasicBlock*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::BasicBlock*, llvm::ScalarEvolution::LoopGuards>]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:863:44:   required from ‘std::pair<llvm::DenseMapIterator<KeyT, ValueT, KeyInfoT, BucketT>, bool> llvm::DenseMapBase<DerivedT, KeyT, ValueT, KeyInfoT, BucketT>::try_emplace_impl(KeyArgT&&, Ts&& ...) [with KeyArgT = const llvm::BasicBlock* const&; Ts = {llvm::ScalarEvolution::LoopGuards}; DerivedT = llvm::SmallDenseMap<const llvm::BasicBlock*, llvm::ScalarEvolution::LoopGuards>; KeyT = const llvm::BasicBlock*; ValueT = llvm::ScalarEvolution::LoopGuards; KeyInfoT = llvm::DenseMapInfo<const llvm::BasicBlock*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::BasicBlock*, llvm::ScalarEvolution::LoopGuards>]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:304:28:   required from ‘std::pair<llvm::DenseMapIterator<KeyT, ValueT, KeyInfoT, BucketT>, bool> llvm::DenseMapBase<DerivedT, KeyT, ValueT, KeyInfoT, BucketT>::try_emplace(const KeyT&, Ts&& ...) [with Ts = {llvm::ScalarEvolution::LoopGuards}; DerivedT = llvm::SmallDenseMap<const llvm::BasicBlock*, llvm::ScalarEvolution::LoopGuards>; KeyT = const llvm::BasicBlock*; ValueT = llvm::ScalarEvolution::LoopGuards; KeyInfoT = llvm::DenseMapInfo<const llvm::BasicBlock*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::BasicBlock*, llvm::ScalarEvolution::LoopGuards>]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:15687:52:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1234:20: error: use of deleted function ‘typename std::enable_if<(! std::__and_<std::__is_swappable<_T1>, std::__is_swappable<_T2> >::value)>::type std::swap(std::pair<_T1, _T2>&, std::pair<_T1, _T2>&) [with _T1 = const llvm::BasicBlock*; _T2 = llvm::ScalarEvolution::LoopGuards; typename std::enable_if<(! std::__and_<std::__is_swappable<_T1>, std::__is_swappable<_T2> >::value)>::type = void]’
+ 1234 |           std::swap(*LB, *RB);
+      |           ~~~~~~~~~^~~~~~~~~~
+In file included from /usr/include/c++/11/utility:70,
+                 from /usr/include/c++/11/tuple:38,
+                 from /usr/include/c++/11/functional:54,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLForwardCompat.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/MathExtras.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/ScalarEvolution.h:23,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:60:
+/usr/include/c++/11/bits/stl_pair.h:541:5: note: declared here
+  541 |     swap(pair<_T1, _T2>&, pair<_T1, _T2>&) = delete;
+      |     ^~~~
+[1322/3314] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/DXContainerPSVInfo.cpp.o
+[1323/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TargetTransformInfo.cpp.o
+[1324/3314] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/ConstantPools.cpp.o
+[1325/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/UniformityAnalysis.cpp.o
+[1326/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/StackSafetyAnalysis.cpp.o
+[1327/3314] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/ELFObjectWriter.cpp.o
+[1328/3314] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/UpdateCompilerUsed.cpp.o
+[1329/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/VectorUtils.cpp.o
+[1330/3314] Building CXX object lib/DTLTO/CMakeFiles/LLVMDTLTO.dir/DTLTO.cpp.o
+[1331/3314] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/LTOModule.cpp.o
+[1332/3314] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/LTOCodeGenerator.cpp.o
+[1333/3314] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/LTOBackend.cpp.o
+[1334/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ValueTracking.cpp.o
+[1335/3314] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/ThinLTOCodeGenerator.cpp.o
+[1336/3314] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/LTO.cpp.o
+[1337/3314] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TargetLibraryInfo.cpp.o
+[1338/3314] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o
+In file included from /usr/include/string.h:535,
+                 from /usr/include/c++/11/cstring:42,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h:56,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ArrayRef.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/SLPVectorizer.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:19:
+In function ‘void* memcpy(void*, const void*, size_t)’,
+    inlined from ‘constexpr llvm::detail::PunnedPointer<Ptr>& llvm::detail::PunnedPointer<Ptr>::operator=(intptr_t) [with Ptr = llvm::ValueHandleBase**]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerIntPair.h:48:16,
+    inlined from ‘void llvm::PointerIntPair<PointerTy, IntBits, IntType, PtrTraits, Info>::setPointerAndInt(PointerTy, IntType) & [with PointerTy = llvm::ValueHandleBase**; unsigned int IntBits = 2; IntType = llvm::ValueHandleBase::HandleBaseKind; PtrTraits = llvm::PointerLikeTypeTraits<llvm::ValueHandleBase**>; Info = llvm::PointerIntPairInfo<llvm::ValueHandleBase**, 2, llvm::PointerLikeTypeTraits<llvm::ValueHandleBase**> >]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerIntPair.h:111:11,
+    inlined from ‘llvm::PointerIntPair<PointerTy, IntBits, IntType, PtrTraits, Info>::PointerIntPair(PointerTy, IntType) [with PointerTy = llvm::ValueHandleBase**; unsigned int IntBits = 2; IntType = llvm::ValueHandleBase::HandleBaseKind; PtrTraits = llvm::PointerLikeTypeTraits<llvm::ValueHandleBase**>; Info = llvm::PointerIntPairInfo<llvm::ValueHandleBase**, 2, llvm::PointerLikeTypeTraits<llvm::ValueHandleBase**> >]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerIntPair.h:89:21,
+    inlined from ‘llvm::ValueHandleBase::ValueHandleBase(llvm::ValueHandleBase::HandleBaseKind, const llvm::ValueHandleBase&)’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/ValueHandle.h:44:9,
+    inlined from ‘llvm::WeakTrackingVH::WeakTrackingVH(const llvm::WeakTrackingVH&)’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/ValueHandle.h:239:42,
+    inlined from ‘static void llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::relocateInlineBucket(BucketT*, BucketT*, llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::meta_t) [with KeyT = const llvm::slpvectorizer::BoUpSLP::TreeEntry*; ValueT = llvm::WeakTrackingVH; unsigned int InlineBuckets = 4; KeyInfoT = llvm::DenseMapInfo<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, llvm::WeakTrackingVH>]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1212:5,
+    inlined from ‘static void llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::relocateInlineBucket(BucketT*, BucketT*, llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::meta_t) [with KeyT = const llvm::slpvectorizer::BoUpSLP::TreeEntry*; ValueT = llvm::WeakTrackingVH; unsigned int InlineBuckets = 4; KeyInfoT = llvm::DenseMapInfo<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, llvm::WeakTrackingVH>]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1208:15,
+    inlined from ‘void llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::swapImpl(llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>&) [with KeyT = const llvm::slpvectorizer::BoUpSLP::TreeEntry*; ValueT = llvm::WeakTrackingVH; unsigned int InlineBuckets = 4; KeyInfoT = llvm::DenseMapInfo<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, llvm::WeakTrackingVH>]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1259:27:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: writing 8 bytes into a region of size 0 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+   30 |                                  __glibc_objsize0 (__dest));
+      |                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/MapVector.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/SLPVectorizer.h:22,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:19:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h: In member function ‘void llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::swapImpl(llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>&) [with KeyT = const llvm::slpvectorizer::BoUpSLP::TreeEntry*; ValueT = llvm::WeakTrackingVH; unsigned int InlineBuckets = 4; KeyInfoT = llvm::DenseMapInfo<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, llvm::WeakTrackingVH>]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1138:14: note: at offset 8 into destination object ‘llvm::SmallDenseMap<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, llvm::WeakTrackingVH>::LargeRep::Buckets’ of size 8
+ 1138 |     BucketT *Buckets;
+      |              ^~~~~~~
+In file included from /usr/include/string.h:535,
+                 from /usr/include/c++/11/cstring:42,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h:56,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ArrayRef.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/SLPVectorizer.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:19:
+In function ‘void* memcpy(void*, const void*, size_t)’,
+    inlined from ‘constexpr llvm::detail::PunnedPointer<Ptr>& llvm::detail::PunnedPointer<Ptr>::operator=(intptr_t) [with Ptr = llvm::ValueHandleBase**]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerIntPair.h:48:16,
+    inlined from ‘void llvm::PointerIntPair<PointerTy, IntBits, IntType, PtrTraits, Info>::setPointerAndInt(PointerTy, IntType) & [with PointerTy = llvm::ValueHandleBase**; unsigned int IntBits = 2; IntType = llvm::ValueHandleBase::HandleBaseKind; PtrTraits = llvm::PointerLikeTypeTraits<llvm::ValueHandleBase**>; Info = llvm::PointerIntPairInfo<llvm::ValueHandleBase**, 2, llvm::PointerLikeTypeTraits<llvm::ValueHandleBase**> >]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerIntPair.h:111:11,
+    inlined from ‘llvm::PointerIntPair<PointerTy, IntBits, IntType, PtrTraits, Info>::PointerIntPair(PointerTy, IntType) [with PointerTy = llvm::ValueHandleBase**; unsigned int IntBits = 2; IntType = llvm::ValueHandleBase::HandleBaseKind; PtrTraits = llvm::PointerLikeTypeTraits<llvm::ValueHandleBase**>; Info = llvm::PointerIntPairInfo<llvm::ValueHandleBase**, 2, llvm::PointerLikeTypeTraits<llvm::ValueHandleBase**> >]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerIntPair.h:89:21,
+    inlined from ‘llvm::ValueHandleBase::ValueHandleBase(llvm::ValueHandleBase::HandleBaseKind, const llvm::ValueHandleBase&)’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/ValueHandle.h:44:9,
+    inlined from ‘llvm::WeakTrackingVH::WeakTrackingVH(const llvm::WeakTrackingVH&)’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/ValueHandle.h:239:42,
+    inlined from ‘static void llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::relocateInlineBucket(BucketT*, BucketT*, llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::meta_t) [with KeyT = const llvm::slpvectorizer::BoUpSLP::TreeEntry*; ValueT = llvm::WeakTrackingVH; unsigned int InlineBuckets = 4; KeyInfoT = llvm::DenseMapInfo<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, llvm::WeakTrackingVH>]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1212:5,
+    inlined from ‘static void llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::relocateInlineBucket(BucketT*, BucketT*, llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::meta_t) [with KeyT = const llvm::slpvectorizer::BoUpSLP::TreeEntry*; ValueT = llvm::WeakTrackingVH; unsigned int InlineBuckets = 4; KeyInfoT = llvm::DenseMapInfo<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, llvm::WeakTrackingVH>]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1208:15,
+    inlined from ‘void llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::swapImpl(llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>&) [with KeyT = const llvm::slpvectorizer::BoUpSLP::TreeEntry*; ValueT = llvm::WeakTrackingVH; unsigned int InlineBuckets = 4; KeyInfoT = llvm::DenseMapInfo<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, llvm::WeakTrackingVH>]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1259:27:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: writing 8 bytes into a region of size 0 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+   30 |                                  __glibc_objsize0 (__dest));
+      |                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/MapVector.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/SLPVectorizer.h:22,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:19:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h: In member function ‘void llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::swapImpl(llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>&) [with KeyT = const llvm::slpvectorizer::BoUpSLP::TreeEntry*; ValueT = llvm::WeakTrackingVH; unsigned int InlineBuckets = 4; KeyInfoT = llvm::DenseMapInfo<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, llvm::WeakTrackingVH>]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1138:14: note: at offset 40 into destination object ‘llvm::SmallDenseMap<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, llvm::WeakTrackingVH>::LargeRep::Buckets’ of size 8
+ 1138 |     BucketT *Buckets;
+      |              ^~~~~~~
+In file included from /usr/include/string.h:535,
+                 from /usr/include/c++/11/cstring:42,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h:56,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ArrayRef.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/SLPVectorizer.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:19:
+In function ‘void* memcpy(void*, const void*, size_t)’,
+    inlined from ‘constexpr llvm::detail::PunnedPointer<Ptr>& llvm::detail::PunnedPointer<Ptr>::operator=(intptr_t) [with Ptr = llvm::ValueHandleBase**]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerIntPair.h:48:16,
+    inlined from ‘void llvm::PointerIntPair<PointerTy, IntBits, IntType, PtrTraits, Info>::setPointerAndInt(PointerTy, IntType) & [with PointerTy = llvm::ValueHandleBase**; unsigned int IntBits = 2; IntType = llvm::ValueHandleBase::HandleBaseKind; PtrTraits = llvm::PointerLikeTypeTraits<llvm::ValueHandleBase**>; Info = llvm::PointerIntPairInfo<llvm::ValueHandleBase**, 2, llvm::PointerLikeTypeTraits<llvm::ValueHandleBase**> >]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerIntPair.h:111:11,
+    inlined from ‘llvm::PointerIntPair<PointerTy, IntBits, IntType, PtrTraits, Info>::PointerIntPair(PointerTy, IntType) [with PointerTy = llvm::ValueHandleBase**; unsigned int IntBits = 2; IntType = llvm::ValueHandleBase::HandleBaseKind; PtrTraits = llvm::PointerLikeTypeTraits<llvm::ValueHandleBase**>; Info = llvm::PointerIntPairInfo<llvm::ValueHandleBase**, 2, llvm::PointerLikeTypeTraits<llvm::ValueHandleBase**> >]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerIntPair.h:89:21,
+    inlined from ‘llvm::ValueHandleBase::ValueHandleBase(llvm::ValueHandleBase::HandleBaseKind, const llvm::ValueHandleBase&)’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/ValueHandle.h:44:9,
+    inlined from ‘llvm::WeakTrackingVH::WeakTrackingVH(const llvm::WeakTrackingVH&)’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/ValueHandle.h:239:42,
+    inlined from ‘static void llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::relocateInlineBucket(BucketT*, BucketT*, llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::meta_t) [with KeyT = const llvm::slpvectorizer::BoUpSLP::TreeEntry*; ValueT = llvm::WeakTrackingVH; unsigned int InlineBuckets = 4; KeyInfoT = llvm::DenseMapInfo<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, llvm::WeakTrackingVH>]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1212:5,
+    inlined from ‘static void llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::relocateInlineBucket(BucketT*, BucketT*, llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::meta_t) [with KeyT = const llvm::slpvectorizer::BoUpSLP::TreeEntry*; ValueT = llvm::WeakTrackingVH; unsigned int InlineBuckets = 4; KeyInfoT = llvm::DenseMapInfo<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, llvm::WeakTrackingVH>]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1208:15,
+    inlined from ‘void llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::swapImpl(llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>&) [with KeyT = const llvm::slpvectorizer::BoUpSLP::TreeEntry*; ValueT = llvm::WeakTrackingVH; unsigned int InlineBuckets = 4; KeyInfoT = llvm::DenseMapInfo<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, llvm::WeakTrackingVH>]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1259:27:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: writing 8 bytes into a region of size 0 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+   30 |                                  __glibc_objsize0 (__dest));
+      |                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/MapVector.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/SLPVectorizer.h:22,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:19:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h: In member function ‘void llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::swapImpl(llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>&) [with KeyT = const llvm::slpvectorizer::BoUpSLP::TreeEntry*; ValueT = llvm::WeakTrackingVH; unsigned int InlineBuckets = 4; KeyInfoT = llvm::DenseMapInfo<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, llvm::WeakTrackingVH>]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1138:14: note: at offset 72 into destination object ‘llvm::SmallDenseMap<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, llvm::WeakTrackingVH>::LargeRep::Buckets’ of size 8
+ 1138 |     BucketT *Buckets;
+      |              ^~~~~~~
+In file included from /usr/include/string.h:535,
+                 from /usr/include/c++/11/cstring:42,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/Hashing.h:56,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ArrayRef.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/SLPVectorizer.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:19:
+In function ‘void* memcpy(void*, const void*, size_t)’,
+    inlined from ‘constexpr llvm::detail::PunnedPointer<Ptr>& llvm::detail::PunnedPointer<Ptr>::operator=(intptr_t) [with Ptr = llvm::ValueHandleBase**]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerIntPair.h:48:16,
+    inlined from ‘void llvm::PointerIntPair<PointerTy, IntBits, IntType, PtrTraits, Info>::setPointerAndInt(PointerTy, IntType) & [with PointerTy = llvm::ValueHandleBase**; unsigned int IntBits = 2; IntType = llvm::ValueHandleBase::HandleBaseKind; PtrTraits = llvm::PointerLikeTypeTraits<llvm::ValueHandleBase**>; Info = llvm::PointerIntPairInfo<llvm::ValueHandleBase**, 2, llvm::PointerLikeTypeTraits<llvm::ValueHandleBase**> >]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerIntPair.h:111:11,
+    inlined from ‘llvm::PointerIntPair<PointerTy, IntBits, IntType, PtrTraits, Info>::PointerIntPair(PointerTy, IntType) [with PointerTy = llvm::ValueHandleBase**; unsigned int IntBits = 2; IntType = llvm::ValueHandleBase::HandleBaseKind; PtrTraits = llvm::PointerLikeTypeTraits<llvm::ValueHandleBase**>; Info = llvm::PointerIntPairInfo<llvm::ValueHandleBase**, 2, llvm::PointerLikeTypeTraits<llvm::ValueHandleBase**> >]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerIntPair.h:89:21,
+    inlined from ‘llvm::ValueHandleBase::ValueHandleBase(llvm::ValueHandleBase::HandleBaseKind, const llvm::ValueHandleBase&)’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/ValueHandle.h:44:9,
+    inlined from ‘llvm::WeakTrackingVH::WeakTrackingVH(const llvm::WeakTrackingVH&)’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/ValueHandle.h:239:42,
+    inlined from ‘static void llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::relocateInlineBucket(BucketT*, BucketT*, llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::meta_t) [with KeyT = const llvm::slpvectorizer::BoUpSLP::TreeEntry*; ValueT = llvm::WeakTrackingVH; unsigned int InlineBuckets = 4; KeyInfoT = llvm::DenseMapInfo<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, llvm::WeakTrackingVH>]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1212:5,
+    inlined from ‘static void llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::relocateInlineBucket(BucketT*, BucketT*, llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::meta_t) [with KeyT = const llvm::slpvectorizer::BoUpSLP::TreeEntry*; ValueT = llvm::WeakTrackingVH; unsigned int InlineBuckets = 4; KeyInfoT = llvm::DenseMapInfo<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, llvm::WeakTrackingVH>]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1208:15,
+    inlined from ‘void llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::swapImpl(llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>&) [with KeyT = const llvm::slpvectorizer::BoUpSLP::TreeEntry*; ValueT = llvm::WeakTrackingVH; unsigned int InlineBuckets = 4; KeyInfoT = llvm::DenseMapInfo<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, llvm::WeakTrackingVH>]’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1259:27:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: writing 8 bytes into a region of size 0 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+   30 |                                  __glibc_objsize0 (__dest));
+      |                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/MapVector.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/SLPVectorizer.h:22,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:19:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h: In member function ‘void llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>::swapImpl(llvm::SmallDenseMap<KeyT, ValueT, InlineBuckets, KeyInfoT, BucketT>&) [with KeyT = const llvm::slpvectorizer::BoUpSLP::TreeEntry*; ValueT = llvm::WeakTrackingVH; unsigned int InlineBuckets = 4; KeyInfoT = llvm::DenseMapInfo<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, void>; BucketT = llvm::detail::DenseMapPair<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, llvm::WeakTrackingVH>]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1138:14: note: at offset 104 into destination object ‘llvm::SmallDenseMap<const llvm::slpvectorizer::BoUpSLP::TreeEntry*, llvm::WeakTrackingVH>::LargeRep::Buckets’ of size 8
+ 1138 |     BucketT *Buckets;
+      |              ^~~~~~~
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:494 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+4036.96user 189.94system 4:37.42elapsed 1523%CPU (0avgtext+0avgdata 2153624maxresident)k
+8inputs+9305808outputs (2094major+111890685minor)pagefaults 0swaps
