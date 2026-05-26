@@ -138111,6 +138111,24 @@
             "author_name": "Nishant Patel",
             "commit_date": "2026-05-26T09:26:36-07:00",
             "subject": "[MLIR][XeGPU] Clone trivial operations with multiple consumers in layout propagation to avoid layout conflict (#197514)"
+        },
+        {
+            "hash": "eca8638e130325d108e39aab5654bae8f0a06209",
+            "author_name": "Guy David",
+            "commit_date": "2026-05-26T19:39:37+03:00",
+            "subject": "[ORC] Avoid iterator invalidation when erasing image info symbols (#199655)"
+        },
+        {
+            "hash": "4b7ec0c715398d970a2669573f931e167b532e75",
+            "author_name": "Guy David",
+            "commit_date": "2026-05-26T19:39:50+03:00",
+            "subject": "[GlobalsModRef] Don't erase while iterating (#199656)"
+        },
+        {
+            "hash": "68ebd09d5e19c30a79d416940d3400b5637b0f69",
+            "author_name": "Ellis Hoag",
+            "commit_date": "2026-05-26T09:41:41-07:00",
+            "subject": "[lld][macho] Restructure thunk generation algorithm (#193367)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -141431,6 +141449,20 @@
             "author_name": "Antonio Frighetto",
             "commit_date": "2026-05-26T17:45:58+02:00",
             "subject": "Reapply \"[JumpThreading] Freeze undef\/poison select condition in unfoldSelectInstr\""
+        }
+    ],
+    "cachemeifyoucan\/perf\/regression-199126": [
+        {
+            "hash": "26f19eed998d513c1200f46733db14d73e2b3a71",
+            "author_name": "Matthias Wippich",
+            "commit_date": "2026-05-26T17:51:19+02:00",
+            "subject": "[clang] propagate constexpr\/constinit to binding VarDecl (#195860)"
+        },
+        {
+            "hash": "59ae15416c3d72f1dcdd818b03feeb4f81212ea1",
+            "author_name": "Steven Wu",
+            "commit_date": "2026-05-26T09:16:54-07:00",
+            "subject": "[clang] Fix a minor perf regression from #199126"
         }
     ]
 }
