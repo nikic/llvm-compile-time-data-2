@@ -140587,15 +140587,21 @@
     ],
     "MaskRay\/perf\/densemap-verstable": [
         {
-            "hash": "c1c4c8e23d099c199ea90b050742c3d6c5efcfaf",
-            "author_name": "Omair Javaid",
-            "commit_date": "2026-05-25T21:36:36+05:00",
-            "subject": "Revert \"[mlir][vector] Migrate drop-lead-unit-dim to shape_cast #196206\" (#199546)"
+            "hash": "884e828617bf512a992723bd70dc108deb775753",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-25T23:02:54+00:00",
+            "subject": "[AMDGPU] Don't assume non-erased DenseMap entries remain valid after erase. NFC (#199578)"
         },
         {
-            "hash": "ee1d36f5f32561ff502fc5e6a5cf063109b1ad92",
+            "hash": "3057b1415df70b2a446ba459f8b9db65bbdeecb5",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-05-25T12:29:55-07:00",
+            "commit_date": "2026-05-25T16:33:40-07:00",
+            "subject": "[DenseMap] Invalidate iterators on erase"
+        },
+        {
+            "hash": "ef7d1abd2cebda9912e0dacd1432f0bb3a8db01f",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-25T16:44:14-07:00",
             "subject": "[ADT][DenseMap] Reimplement on the Verstable algorithm"
         }
     ],
