@@ -138213,6 +138213,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-05-26T18:01:54+00:00",
             "subject": "[VPlan] Add missing maybe_unsused to OpTy (NFC). (#199734)"
+        },
+        {
+            "hash": "196c7018fc11e40d69b476562a105023e56e72a5",
+            "author_name": "Krzysztof Drewniak",
+            "commit_date": "2026-05-26T11:12:17-07:00",
+            "subject": "[mlir][MemRef] Move FlattenMemRefs to interfaces (#198625)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -141561,6 +141567,20 @@
             "author_name": "Ben Langmuir",
             "commit_date": "2026-05-26T10:27:30-07:00",
             "subject": "[clang] Use FileError in FileManager::getFileRef, getDirectoryRef"
+        }
+    ],
+    "cachemeifyoucan\/perf\/filemanager-error-inline": [
+        {
+            "hash": "990e35ea9d80e9ef2dc9a4fc1cc2a386d538b576",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-05-26T10:06:23-07:00",
+            "subject": "[Bazel] Fixes 44da860 (#199723)"
+        },
+        {
+            "hash": "68df48e7e738b6181397c9b0d462bdac826ac26e",
+            "author_name": "Ben Langmuir",
+            "commit_date": "2026-05-26T11:03:31-07:00",
+            "subject": "[clang] Move FileError construction to inline functions in FileManager"
         }
     ]
 }
