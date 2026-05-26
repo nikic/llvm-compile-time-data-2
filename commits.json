@@ -138459,6 +138459,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-05-26T21:28:24+00:00",
             "subject": "[LV] Add tests with pointers based on URem expressions (NFC). (#199763)"
+        },
+        {
+            "hash": "0e0127e5b21dce0cf500e24467f1471d479876be",
+            "author_name": "Alex Langford",
+            "commit_date": "2026-05-26T14:33:57-07:00",
+            "subject": "[lldb] Fix vtable support on arm64e (#199116)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -141835,6 +141841,26 @@
             "author_name": "Ben Langmuir",
             "commit_date": "2026-05-26T13:37:22-07:00",
             "subject": "Reapply \"[clang] Use FileError in FileManager::getFileRef, getDirectoryRef\""
+        }
+    ],
+    "yasmincs\/perf\/inferalign-assume": [
+        {
+            "hash": "bf8cf4b7b31b956ea4dfec93b0b4d77b359b188b",
+            "author_name": "PiJoules",
+            "commit_date": "2026-04-21T12:09:11-07:00",
+            "subject": "[compiler-rt][asan] Add asan checks for __builtin_assume_dereferencable (#190871)"
+        },
+        {
+            "hash": "8aa18ea40fa9ad54282375a25cae11cdafcfd728",
+            "author_name": "ysarita",
+            "commit_date": "2026-05-26T18:59:56+00:00",
+            "subject": "Add test for variable offset alignment inference"
+        },
+        {
+            "hash": "f7442d7dd2c8c0b3939ae65e444cb62e2afb963f",
+            "author_name": "ysarita",
+            "commit_date": "2026-05-26T19:01:01+00:00",
+            "subject": "Add variable offset alignment computations to inferalignment"
         }
     ]
 }
