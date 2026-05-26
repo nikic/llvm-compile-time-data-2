@@ -100617,6 +100617,24 @@
             "author_name": "Chuanqi Xu",
             "commit_date": "2026-05-26T08:20:37+00:00",
             "subject": "Reland [C++20] [Modules] Don't profiling the callee of CXXFoldExpr (#190732) (#195983)"
+        },
+        {
+            "hash": "4d5dffb59420df29cc3b419a7fc90834aed7f7a9",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-26T08:45:47+00:00",
+            "subject": "[ELF] Initialize Symbol fields in the constructor instead of via memset (#198129)"
+        },
+        {
+            "hash": "6e5effc4990b9cf475180a46b8d08c7db391cd83",
+            "author_name": "hev",
+            "commit_date": "2026-05-26T08:48:06+00:00",
+            "subject": "[LoongArch] Revert \"Add patterns to support vector type average instructions generation\" (#198306)"
+        },
+        {
+            "hash": "8798085803f18d2ad763c2060660b7af5708fe5d",
+            "author_name": "Joseph Huber",
+            "commit_date": "2026-05-26T08:51:44+00:00",
+            "subject": "[libc] Demote compiler check error to a warning (#198033)"
         }
     ],
     "enferex\/perf\/init-densemap-members": [
@@ -137811,6 +137829,30 @@
             "author_name": "Vladislav Semykin",
             "commit_date": "2026-05-26T08:16:15+00:00",
             "subject": "[Clang][Sema] Fix crash in __builtin_dump_struct with immediate callables (#192880)"
+        },
+        {
+            "hash": "a975b7cd3538cfba015c7a49e2e86be58aa546c3",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-05-26T08:39:27+00:00",
+            "subject": "[RISCV] Fix fixed-length masked.{u,s}{div,rem} lowering not converting operands (#197913)"
+        },
+        {
+            "hash": "4448a1a7c095dc781495d631b73dcdff652436ba",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-05-26T08:46:59+00:00",
+            "subject": "[X86] LowerBUILD_VECTORvXi1 - scalarize the bool masks if we insert a single non-const value (#199523)"
+        },
+        {
+            "hash": "19e915fc5c91645ccc4050180e9daabec30358c4",
+            "author_name": "hev",
+            "commit_date": "2026-05-26T16:47:55+08:00",
+            "subject": "[LoongArch] Fix musttail with indirect arguments by forwarding incoming pointers (#198965)"
+        },
+        {
+            "hash": "73f141f75caf842e289a9d8166365b702adfeb3b",
+            "author_name": "Hans Wennborg",
+            "commit_date": "2026-05-26T08:50:44+00:00",
+            "subject": "[NFC] Add null terminator assert to CodeViewRecordIO::mapStringZ (#199624)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
