@@ -100605,6 +100605,12 @@
             "author_name": "Douglas Yung",
             "commit_date": "2026-05-19T09:20:09+00:00",
             "subject": "Bump version to 22.1.7"
+        },
+        {
+            "hash": "e624f1204282bef96279d07a03bf9ec27056ff5e",
+            "author_name": "Weibo He",
+            "commit_date": "2026-05-26T08:12:51+00:00",
+            "subject": "[CoroSplit] Never collect allocas used by catchpad into frame (#186728)"
         }
     ],
     "enferex\/perf\/init-densemap-members": [
@@ -137787,6 +137793,18 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-05-26T08:25:57+01:00",
             "subject": "[AArch64][GlobalISel] Add tablegen pattern for uaddo combine (#198724)"
+        },
+        {
+            "hash": "4ab4d2d9bb4a1d87b36bb4703d3b95138129c051",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-05-26T08:12:35+00:00",
+            "subject": "[VPlan] Fold canonical IV recipe creation into createLoopRegion. (#198383)"
+        },
+        {
+            "hash": "970ecaef1db3701f04e63223ce9188a748be6083",
+            "author_name": "Vladislav Semykin",
+            "commit_date": "2026-05-26T08:16:15+00:00",
+            "subject": "[Clang][Sema] Fix crash in __builtin_dump_struct with immediate callables (#192880)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -141073,6 +141091,26 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-05-25T15:27:35-07:00",
             "subject": "[IR] Inline remove_if in PMDataManager::removeNotPreservedAnalysis"
+        }
+    ],
+    "tbaederr\/perf\/dtor": [
+        {
+            "hash": "8446759ee610fe5ad1c5ab9cb2239ef3ad2e4c30",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-25T08:50:59+00:00",
+            "subject": "[lldb] Don't assume non-erased DenseMap entries remain valid after erase. NFC (#199499)"
+        },
+        {
+            "hash": "1e0066c3b81001f69672a72495cb2ccf4967f44a",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-05-26T10:16:13+02:00",
+            "subject": "Test"
+        },
+        {
+            "hash": "21f2d3013f507b7a7198586ebaeaab41ba62889c",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-05-26T10:16:14+02:00",
+            "subject": "dtor"
         }
     ]
 }
