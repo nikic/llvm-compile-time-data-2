@@ -138069,6 +138069,24 @@
             "author_name": "Arthur Eubanks",
             "commit_date": "2026-05-26T08:23:35-07:00",
             "subject": "[gn build] Port c437052c (#199709)"
+        },
+        {
+            "hash": "d1b31664ea1c8caeefc24c289bcc2617ae81a40b",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-05-26T15:44:20+00:00",
+            "subject": "[X86] getFauxShuffleMask - add handling for X86ISD::VSHLD\/VSHRD funnel shifts (#199707)"
+        },
+        {
+            "hash": "4acfc32f007528dbe5de20a163ccadfd4668a849",
+            "author_name": "Arthur Eubanks",
+            "commit_date": "2026-05-26T17:47:02+02:00",
+            "subject": "Revert \"[JumpThreading] Freeze undef\/poison select condition in unfoldSelectInstr\" (#199713)"
+        },
+        {
+            "hash": "6fdfe1ead81f20ad5365de3f9313b9d658e40153",
+            "author_name": "Fabrice de Gans",
+            "commit_date": "2026-05-26T08:47:34-07:00",
+            "subject": "llvm: Fix most LLVM_ABI annotations in Transforms (#199042)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -141375,6 +141393,20 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-05-26T10:16:14+02:00",
             "subject": "dtor"
+        }
+    ],
+    "antoniofrighetto\/perf\/move-freeze-creation": [
+        {
+            "hash": "c927d44cb119a290b4946ebbd5547ca4f3f872a7",
+            "author_name": "DeanSturtevant1",
+            "commit_date": "2026-05-26T08:03:03-07:00",
+            "subject": "Revert \"Revert \"[libc] Port 2b2a63819f9f26d661bad5c269a03077d22ff6b4\"\" (#199681)"
+        },
+        {
+            "hash": "1744181bf8ecaa186bfacc786ae664676bdca4c6",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-05-26T17:45:58+02:00",
+            "subject": "Reapply \"[JumpThreading] Freeze undef\/poison select condition in unfoldSelectInstr\""
         }
     ]
 }
