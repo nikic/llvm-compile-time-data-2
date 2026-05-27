@@ -141807,52 +141807,46 @@
     ],
     "Enna1\/perf\/SCEV-PushDefUseChildren": [
         {
-            "hash": "1d5713718cca3b7d4402af22cea72d546159d967",
+            "hash": "6bbbf743ae49736ba438e9dbd14a5bd0f4166382",
+            "author_name": "Carlos Alberto Enciso",
+            "commit_date": "2026-05-27T07:07:12+01:00",
+            "subject": "[llvm-debuginfo-analyzer] Add support for LLVM IR format. (#135440)"
+        },
+        {
+            "hash": "66fd879a247cee9ef85ab0ca05282bee9aae6c18",
             "author_name": "Enna1",
-            "commit_date": "2026-05-19T19:24:44+08:00",
+            "commit_date": "2026-05-27T14:21:08+08:00",
             "subject": "[SCEV] Optimize visitAndClearUsers by pruning uncached SCEVable users"
         },
         {
-            "hash": "dc4346dd82629ce942ecce3584c7c0eb4d5a8a26",
+            "hash": "942eb2cd975f06af15dda5c4ea081c44a54c2d12",
             "author_name": "Enna1",
-            "commit_date": "2026-05-19T19:24:44+08:00",
+            "commit_date": "2026-05-27T14:21:08+08:00",
             "subject": "Revert \"[SCEV] Optimize visitAndClearUsers by pruning uncached SCEVable users\""
         },
         {
-            "hash": "351000c193968494c167dfa36da3b1d3dd69df85",
+            "hash": "ebe4c51167239737cfb40022b09b3ca9a7bc086e",
             "author_name": "Enna1",
-            "commit_date": "2026-05-19T19:45:50+08:00",
+            "commit_date": "2026-05-27T14:21:54+08:00",
             "subject": "[SCEV] Speed up forgetLoop and forgetValue by exploiting reverse maps and single-lookup worklist"
         },
         {
-            "hash": "de259ca7d954abc77c859b0247324cd3a5c3437a",
+            "hash": "b09dcd6db0eeb4fddbd900fdf439de457322dcec",
             "author_name": "Enna1",
-            "commit_date": "2026-05-20T16:51:32+08:00",
+            "commit_date": "2026-05-27T14:21:57+08:00",
             "subject": "remove redundancy eraseValueFromMap from forgetValue"
         },
         {
-            "hash": "337e9083f6a80efa4409047357bcb06356e605e6",
+            "hash": "8c65a46e06c0e39aa72d97c4ff7970608f902eae",
             "author_name": "Enna1",
-            "commit_date": "2026-05-20T16:52:16+08:00",
+            "commit_date": "2026-05-27T14:21:57+08:00",
             "subject": "Restore check for worklist root"
         },
         {
-            "hash": "3f19b490c4755d9a15291f5ae1e37202560c7f1d",
+            "hash": "c4992d7977b64fbcbb58a94e3e628a0fb4fc2ef6",
             "author_name": "Enna1",
-            "commit_date": "2026-05-20T20:09:21+08:00",
+            "commit_date": "2026-05-27T14:21:58+08:00",
             "subject": "clang-format"
-        },
-        {
-            "hash": "e576fc185079a08f787635999b9ca35d027185b6",
-            "author_name": "Mingjie Xu",
-            "commit_date": "2026-05-22T08:28:42+08:00",
-            "subject": "Merge branch 'main' into perf\/SCEV-PushDefUseChildren"
-        },
-        {
-            "hash": "a123802cb88d1f54759e134f0031817ec8753508",
-            "author_name": "Mingjie Xu",
-            "commit_date": "2026-05-22T10:51:53+08:00",
-            "subject": "Merge branch 'main' into perf\/SCEV-PushDefUseChildren"
         }
     ],
     "aengelke\/perf\/ipsccp-memusage": [
