@@ -140547,22 +140547,22 @@
     ],
     "MaskRay\/perf\/densemap-backshift": [
         {
-            "hash": "884e828617bf512a992723bd70dc108deb775753",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-05-25T23:02:54+00:00",
-            "subject": "[AMDGPU] Don't assume non-erased DenseMap entries remain valid after erase. NFC (#199578)"
+            "hash": "7938535a54b51a4ca84821b7766d68049c9aa895",
+            "author_name": "Owen Rodley",
+            "commit_date": "2026-05-27T10:10:48+10:00",
+            "subject": "Compute GUIDs once and store in metadata (#184065)"
         },
         {
-            "hash": "d75d8c21112c2392a4dd1592794675be517dfc8b",
+            "hash": "d18af0ce56b041902307ad82819db252186b5117",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-05-25T16:17:19-07:00",
-            "subject": "[DenseMap] Invalidate iterators on erase"
-        },
-        {
-            "hash": "df22635fff9a82d193b4bdc47eeca732e124d15c",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-05-25T17:10:47-07:00",
+            "commit_date": "2026-05-26T17:49:54-07:00",
             "subject": "[DenseMap] Replace tombstone deletion with TAOCP 6.4 Algorithm R"
+        },
+        {
+            "hash": "c12aa252183b33f229907c9d55e69430ec14afd1",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-26T18:02:28-07:00",
+            "subject": "[DenseMap] Lower max load factor to 2\/3"
         }
     ],
     "PankajDwivedi-25\/perf\/scev-instruction-listener": [
