@@ -140145,6 +140145,18 @@
             "author_name": "Matheus Izvekov",
             "commit_date": "2026-05-28T13:38:32-03:00",
             "subject": "[clang] fix member specializations of class and variable partial specializations (#200092)"
+        },
+        {
+            "hash": "b76d08a8fc46684c43728eb3c097718d0b6c00b7",
+            "author_name": "Min-Yih Hsu",
+            "commit_date": "2026-05-28T09:55:24-07:00",
+            "subject": "[RISCV] Factor out common scheduling model part between SiFive P400 and P500. NFCI (#199796)"
+        },
+        {
+            "hash": "7e539a4497fb6f4c7a8c112514bb1b1ec54fe94f",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-05-28T16:57:05+00:00",
+            "subject": "[VPlan] Thread scalar types through VPWiden(Cast)Recipe. (NFC) (#199572)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -143721,6 +143733,18 @@
             "author_name": "Enna1",
             "commit_date": "2026-05-28T19:40:01+08:00",
             "subject": "increate to 16"
+        },
+        {
+            "hash": "b5d0e407e008b0543f14dc892ea14a76f9ee0bd7",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-29T00:51:10+08:00",
+            "subject": "Revert \"[ADT] Avoid map storage for small SmallMapVector (#196473)\""
+        },
+        {
+            "hash": "633126b909cad9c6adce3a39677e3155cc13c786",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-29T00:51:37+08:00",
+            "subject": "[ADT] apply small-size optimization to SmallMapVector"
         }
     ],
     "Enna1\/perf\/RA-SpillPlacement-DeferLinkDeduplication": [
