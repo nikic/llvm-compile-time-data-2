@@ -139929,6 +139929,18 @@
             "author_name": "Oliver Stannard",
             "commit_date": "2026-05-28T14:29:09+01:00",
             "subject": "[SCEV] Canonicalise round-up idiom when some bits known (#197126)"
+        },
+        {
+            "hash": "ebe8595c0012674eb5ce7427ee938214f711ca66",
+            "author_name": "Felipe de Azevedo Piovezan",
+            "commit_date": "2026-05-28T14:37:40+01:00",
+            "subject": "[lldb][NFCI] Cleanup APIs in AppleObjCClassDescriptorV2 (#200122)"
+        },
+        {
+            "hash": "c8ef5dcfae341d176cd84a182c320d61afc441cf",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-05-28T09:39:27-04:00",
+            "subject": "[VPlan] Directly pass SrcEltTy when constructing WideGEP (NFC) (#200043)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -143487,6 +143499,20 @@
             "author_name": "Enna1",
             "commit_date": "2026-05-28T19:40:01+08:00",
             "subject": "increate to 16"
+        }
+    ],
+    "Enna1\/perf\/RA-SpillPlacement-DeferLinkDeduplication": [
+        {
+            "hash": "326a1320dc98be6ce17270a2138b76f2036aaa5e",
+            "author_name": "Benjamin Maxwell",
+            "commit_date": "2026-05-28T11:46:40+01:00",
+            "subject": "[LSR][AArch64] Precommit tests showing lack of `mul vl` addressing (NFC) (#200149)"
+        },
+        {
+            "hash": "be54189098646ad74419493d620322e9612582dc",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-28T21:34:32+08:00",
+            "subject": "[CodeGen][SpillPlacement] Defer link deduplication in Node::addLink"
         }
     ]
 }
