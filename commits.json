@@ -140103,6 +140103,18 @@
             "author_name": "Prasoon",
             "commit_date": "2026-05-28T15:53:41+00:00",
             "subject": "[lit] Modernize ParserKind implementation using Python3 IntEnum (#199965)"
+        },
+        {
+            "hash": "10497d20fc2f5312df03dc7c48f4f050f92ad6d5",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-05-28T18:08:19+02:00",
+            "subject": "[IR] Remove options for vector of null representation (#200172)"
+        },
+        {
+            "hash": "aff129e825b5e21943f89a3994d6e26a14600367",
+            "author_name": "Joshua Rodriguez",
+            "commit_date": "2026-05-28T17:11:25+01:00",
+            "subject": "[AArch64][GlobalISel] Add support for pmul intrinsic (#198809)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -143317,10 +143329,28 @@
             "subject": "[Bazel] Fixes 08124b7 (#199180)"
         },
         {
-            "hash": "46de2bc6f01a898af4a423212ed2021eb284f649",
+            "hash": "3a01ecf5b637909d6809d715c56fc1a6d9f04ebd",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-05-22T14:11:07+02:00",
+            "commit_date": "2026-05-28T17:14:33+02:00",
             "subject": "[IR] Add fast-path to MetadataTracking::track() for resolved MDNodes"
+        },
+        {
+            "hash": "c9917c0ca279c9809603ead46766a6e86938e27a",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-05-28T17:14:33+02:00",
+            "subject": "[IR] Inline getDbgRecordRange"
+        },
+        {
+            "hash": "218b9a95de2d5b4cf1271016476e42f1e0a02389",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-05-28T17:14:34+02:00",
+            "subject": "[SCEV] Preserve nowrap flags for multiply ranges"
+        },
+        {
+            "hash": "195ee54ca77688ee4bcfa6ce37e8c470998c6f34",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-05-28T17:14:34+02:00",
+            "subject": "[CanonicalizeFreezeInLoops] Add fast-path check for loops without freeze instructions"
         }
     ],
     "MaskRay\/perf\/densemap-backshift-2": [
