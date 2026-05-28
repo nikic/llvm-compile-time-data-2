@@ -139827,6 +139827,12 @@
             "author_name": "Benjamin Maxwell",
             "commit_date": "2026-05-28T11:46:40+01:00",
             "subject": "[LSR][AArch64] Precommit tests showing lack of `mul vl` addressing (NFC) (#200149)"
+        },
+        {
+            "hash": "dbdbb8d6afd8d30a0074ee0aadc2dbf81c0e8d02",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-05-28T12:59:36+02:00",
+            "subject": "[libc++] Simplify the implementation of conditional a bit (#199916)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -143353,6 +143359,32 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-05-28T12:12:39+02:00",
             "subject": "wip"
+        }
+    ],
+    "Enna1\/perf\/RA-Spill-LinkVector": [
+        {
+            "hash": "326a1320dc98be6ce17270a2138b76f2036aaa5e",
+            "author_name": "Benjamin Maxwell",
+            "commit_date": "2026-05-28T11:46:40+01:00",
+            "subject": "[LSR][AArch64] Precommit tests showing lack of `mul vl` addressing (NFC) (#200149)"
+        },
+        {
+            "hash": "9f7377b80e23f33e51e389347b76e2127e47d5ba",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-28T18:55:38+08:00",
+            "subject": "[CodeGen] Use SmallMapVector for SpillPlacement::Node::Links"
+        },
+        {
+            "hash": "3a3d7e06e49115126865cbfcfcc2b9491db590e0",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-28T18:55:42+08:00",
+            "subject": "SmallMapVector<*, 8>"
+        },
+        {
+            "hash": "a41fd85dc985b107df526160195fd0c3e38e12c7",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-28T18:55:48+08:00",
+            "subject": "by reference"
         }
     ]
 }
