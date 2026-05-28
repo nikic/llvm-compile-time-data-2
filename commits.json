@@ -139941,6 +139941,18 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-05-28T09:39:27-04:00",
             "subject": "[VPlan] Directly pass SrcEltTy when constructing WideGEP (NFC) (#200043)"
+        },
+        {
+            "hash": "5d29057a58760454c96411d27a92b8d80e40b048",
+            "author_name": "Tom Stellard",
+            "commit_date": "2026-05-28T06:45:25-07:00",
+            "subject": "actions\/push-container: Remove template expansion (#200062)"
+        },
+        {
+            "hash": "d5edbe411d8f60d13a5aeb2a4b0764dbb83a6155",
+            "author_name": "Tom Stellard",
+            "commit_date": "2026-05-28T06:45:55-07:00",
+            "subject": "workflows\/upload-release-artifact: Validate input and remove template expansion (#199972)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -143513,6 +143525,62 @@
             "author_name": "Enna1",
             "commit_date": "2026-05-28T21:34:32+08:00",
             "subject": "[CodeGen][SpillPlacement] Defer link deduplication in Node::addLink"
+        }
+    ],
+    "Enna1\/perf\/RA-Spill-LinkVector-0": [
+        {
+            "hash": "a0ee51ce686455aa8bb8e24ac057e88b0bb9d9b9",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-07T17:35:05+08:00",
+            "subject": "[ADT] apply small-size optimization to SmallMapVector"
+        },
+        {
+            "hash": "5cd23b57566fe9c713c39db30f3842535f2e6a4e",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-07T17:36:31+08:00",
+            "subject": "[CodeGen] Use SmallMapVector for SpillPlacement::Node::Links"
+        },
+        {
+            "hash": "fb2c064446acad7b6ada9bdc87549bf770602e54",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-08T14:01:27+08:00",
+            "subject": "Merge branch 'users\/Enna1\/SmallMapVector' into users\/Enna1\/RA-Spill-LinkVector"
+        },
+        {
+            "hash": "33f13c93a0d2ade58a650f3012ae31b622b452d3",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-08T14:05:10+08:00",
+            "subject": "SmallMapVector<*, 8>"
+        },
+        {
+            "hash": "9be60c5df9933fa8fbe3b8be1ff9b0f6734c2986",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-08T14:07:08+08:00",
+            "subject": "Merge branch 'users\/Enna1\/SmallMapVector' into users\/Enna1\/RA-Spill-LinkVector"
+        },
+        {
+            "hash": "a9a1bf5982c84fba39cc0fc50440fe56f161da6b",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-09T18:38:45+08:00",
+            "subject": "Merge branch 'users\/Enna1\/SmallMapVector' into users\/Enna1\/RA-Spill-LinkVector"
+        },
+        {
+            "hash": "be0cdfe8bf5c6ef5ad38057181bd5d286ae834c0",
+            "author_name": "Mingjie Xu",
+            "commit_date": "2026-05-11T09:13:32+08:00",
+            "subject": "Merge branch 'main' into users\/Enna1\/RA-Spill-LinkVector"
+        },
+        {
+            "hash": "9ed86a93f2f8dff3381817e1d746a3839b165d57",
+            "author_name": "Mingjie Xu",
+            "commit_date": "2026-05-19T14:19:09+08:00",
+            "subject": "Merge branch 'main' into users\/Enna1\/RA-Spill-LinkVector"
+        },
+        {
+            "hash": "66707c118b60b96fca2229db29166d4b91c79a74",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-19T17:48:38+08:00",
+            "subject": "by reference"
         }
     ]
 }
