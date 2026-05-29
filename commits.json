@@ -140625,6 +140625,12 @@
             "author_name": "Jonas Paulsson",
             "commit_date": "2026-05-29T09:08:38+02:00",
             "subject": "[SystemZ] Handle pointer size correctly in getVectorBitmaskConversionCost(). (#200171)"
+        },
+        {
+            "hash": "64bc1fae11d6591739ed0c14f1f3464ae7bc24ac",
+            "author_name": "Dominik Steenken",
+            "commit_date": "2026-05-29T09:17:49+02:00",
+            "subject": "[SystemZ] Global Stackprotector and associated location section (#169317)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -142859,22 +142865,16 @@
     ],
     "nikic\/perf\/remove-special-new-handling": [
         {
-            "hash": "e51bb36f668be06089d27ba0f14d1aeedc413584",
+            "hash": "01c93f511b4b5f734ac420709266036497610014",
             "author_name": "Nikita Popov",
-            "commit_date": "2026-05-12T09:16:49+02:00",
-            "subject": "[AA] Respect potential synchronization effects of inline asm (#196965)"
+            "commit_date": "2026-05-29T09:00:35+02:00",
+            "subject": "[Clang] Mark new as inaccessiblememonly if sane (#197199)"
         },
         {
-            "hash": "aef87c4f340e9d281604ef690c7e7e52e3b0a2bd",
+            "hash": "1c908ed019bea5b6375255ed7a4850355efd6a45",
             "author_name": "Nikita Popov",
-            "commit_date": "2026-05-12T14:53:56+02:00",
+            "commit_date": "2026-05-29T09:11:15+02:00",
             "subject": "[BasicAA] Remove special malloc handling"
-        },
-        {
-            "hash": "e9f8ade13503568ccbb1364157c6bad1bf36a5cc",
-            "author_name": "Nikita Popov",
-            "commit_date": "2026-05-12T15:56:23+02:00",
-            "subject": "[Clang] Mark new as inaccessiblememonly if sane"
         }
     ],
     "alexey-bataev\/perf\/NonPow104": [
