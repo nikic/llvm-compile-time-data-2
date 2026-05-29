@@ -140793,6 +140793,18 @@
             "author_name": "Martin Storsj\u00f6",
             "commit_date": "2026-05-29T13:33:46+03:00",
             "subject": "[compiler-rt] [ARM] Restore Windows specific names for fp->int functions (#200360)"
+        },
+        {
+            "hash": "458e23591c4df2b330aa9d949c4b0933c1529be2",
+            "author_name": "Paul Walker",
+            "commit_date": "2026-05-29T11:44:04+01:00",
+            "subject": "[LLVM][InstSimplify] Ensure scalar sincos constant fold only triggers for scalars. (#200229)"
+        },
+        {
+            "hash": "fad51d3f41482e148683e12741ac9abfbe49742d",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-05-29T12:47:37+02:00",
+            "subject": "[libc++] Only push\/pop diagnostics for ABI annotations pragmas if not in a system header (#200338)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -144383,6 +144395,18 @@
             "author_name": "Enna1",
             "commit_date": "2026-05-28T21:34:32+08:00",
             "subject": "[CodeGen][SpillPlacement] Defer link deduplication in Node::addLink"
+        },
+        {
+            "hash": "5e0eefd2a69895cae9b41f1088e5ed998a6f51e7",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-29T18:53:20+08:00",
+            "subject": "Revert \"[CodeGen][SpillPlacement] Defer link deduplication in Node::addLink\""
+        },
+        {
+            "hash": "0feba8ed517d3b463c6dcbfb49942c97c5f9a991",
+            "author_name": "Enna1",
+            "commit_date": "2026-05-29T18:53:25+08:00",
+            "subject": "[CodeGen] Batch SpillPlacement link materialization"
         }
     ],
     "Enna1\/perf\/RA-Spill-LinkVector-0": [
