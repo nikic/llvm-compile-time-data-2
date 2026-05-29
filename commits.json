@@ -140763,6 +140763,18 @@
             "author_name": "Deepak Shirke",
             "commit_date": "2026-05-29T10:58:29+01:00",
             "subject": "[ELF] Fix location counter used for output section address with MEMOR\u2026 (#197293)"
+        },
+        {
+            "hash": "3843c160526fcda1e6c0760bff09b9c43c3a0b9d",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-05-29T12:17:28+02:00",
+            "subject": "[clang][bytecode] `Pointer::computeOffsetForComparison()` can fail (#199987)"
+        },
+        {
+            "hash": "cfeeab33e66c56bf7619a8672bf44cb48473b00d",
+            "author_name": "Dominik Steenken",
+            "commit_date": "2026-05-29T12:20:57+02:00",
+            "subject": "[SystemZ] Remove unused variable warning (#200359)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -144411,6 +144423,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-05-28T11:14:36-07:00",
             "subject": "[IR] Skip remove_if scan for empty maps in removeNotPreservedAnalysis"
+        }
+    ],
+    "nikic\/perf\/errno-struct-tbaa": [
+        {
+            "hash": "01c93f511b4b5f734ac420709266036497610014",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-05-29T09:00:35+02:00",
+            "subject": "[Clang] Mark new as inaccessiblememonly if sane (#197199)"
+        },
+        {
+            "hash": "ea47797bce9433df56201e2f9454d152f0f87a82",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-05-29T12:04:50+02:00",
+            "subject": "[TBAA] Assume struct member TBAA does not alias errno"
         }
     ]
 }
