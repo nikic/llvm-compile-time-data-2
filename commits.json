@@ -141075,6 +141075,36 @@
             "author_name": "Dave Lee",
             "commit_date": "2026-05-29T09:02:33-07:00",
             "subject": "[lldb] Avoid trie prefix recompuation (NFC) (#200026)"
+        },
+        {
+            "hash": "a8a988bd6a5be1d58402a66613814afcb60ef920",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-05-29T09:07:27-07:00",
+            "subject": "[CIR]Fix CIR Test failures after unnamed_addr removed from vtables (#200435)"
+        },
+        {
+            "hash": "7dcce4c16da12365709adc685679df70572ac49e",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-05-29T16:08:21+00:00",
+            "subject": "[lldb][windows] fix scope_exit warning (#200439)"
+        },
+        {
+            "hash": "bf8e8c221f26fd92fc4ab8baa0e801e599b67fc8",
+            "author_name": "Yingwei Zheng",
+            "commit_date": "2026-05-29T16:10:04+00:00",
+            "subject": "[llubi] Map tags into provenances (#200236)"
+        },
+        {
+            "hash": "398573eecb37143f649f0562e565a6a5f6da5255",
+            "author_name": "Prasoon",
+            "commit_date": "2026-05-29T09:10:07-07:00",
+            "subject": "[lit] Make MetricValue a proper abstract base class (#200187)"
+        },
+        {
+            "hash": "0ad051a0a338797c37aa05ca8e79c0062d9c52eb",
+            "author_name": "vporpo",
+            "commit_date": "2026-05-29T09:13:03-07:00",
+            "subject": "[AMDGPU][MIRFormatter] S_WAIT_LOADCNT_DSCNT human-readable mask (#200059)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -144791,10 +144821,16 @@
             "subject": "[IR] SubclassOptionalData is only optional for Instruction"
         },
         {
-            "hash": "38a0dfced101d0f83e2b87733424b8828fea3e5f",
+            "hash": "f8b69ea914f0e69c5367970fbb882efdaba9387d",
             "author_name": "Alexis Engelke",
-            "commit_date": "2026-05-29T15:01:03+00:00",
-            "subject": "[IR] Fast Constant::isNullValue"
+            "commit_date": "2026-05-29T15:28:53+00:00",
+            "subject": "[IR][NFC] Fast path for Constant::isNullValue"
+        },
+        {
+            "hash": "fcc00c6b4da057496e2ed6e4249e909c6fb82b18",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-05-29T16:08:41+00:00",
+            "subject": "[IR][NFC] Inline Type::isIntegerTy"
         }
     ]
 }
