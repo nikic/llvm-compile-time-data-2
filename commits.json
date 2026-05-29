@@ -141135,6 +141135,36 @@
             "author_name": "Ilia Kuklin",
             "commit_date": "2026-05-29T21:40:43+05:00",
             "subject": "Reapply \"[PDB][llvm-pdbutil] Add DXContainer support for `pdb2yaml` and `yaml2pdb`\" (#200413)"
+        },
+        {
+            "hash": "4472e935678ae8aba762b2464867f9e3fe81ca15",
+            "author_name": "Adrian Prantl",
+            "commit_date": "2026-05-29T09:50:50-07:00",
+            "subject": "[LLDB] Skip test with older versions of clang (#200456)"
+        },
+        {
+            "hash": "2f2122a1438116b6e4d159bc8c7d7abe49ce7098",
+            "author_name": "lntue",
+            "commit_date": "2026-05-29T12:52:11-04:00",
+            "subject": "[libc][NFC] Add few options to allow users to skip building and running some tests. (#199474)"
+        },
+        {
+            "hash": "2520a9bcd0911b598e99a34420d6359c3dc61277",
+            "author_name": "Jan Schultke",
+            "commit_date": "2026-05-29T16:56:01+00:00",
+            "subject": "[APInt] Add `APIntOps::compressBits` and `APIntOps::expandBits` (#200114)"
+        },
+        {
+            "hash": "df697a65e67300c72851dddb31f7e1b5e869c931",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-05-29T09:56:29-07:00",
+            "subject": "[CIR] Set the linkage properly for the _GLOBAL__SUB_I_ function (#200443)"
+        },
+        {
+            "hash": "e5dc01128ac53f4831c314906305ccca480eeecb",
+            "author_name": "Domenic Nutile",
+            "commit_date": "2026-05-29T13:00:03-04:00",
+            "subject": "[AMDGPU][True16] Add legalization\/selection handling for G_MERGE_VALUES of 2 s16 -> s32 (#200082)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -144861,6 +144891,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-05-29T16:08:41+00:00",
             "subject": "[IR][NFC] Inline Type::isIntegerTy"
+        }
+    ],
+    "aeft\/perf\/lifetime-safety-29-May": [
+        {
+            "hash": "8dc8411a75707fb7c914a851fce6aa3915e8a3bc",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-05-27T13:47:55-05:00",
+            "subject": "[Bazel] Fixes 3d9d776 (#200029)"
+        },
+        {
+            "hash": "fca6cb8eab49e03bfc0e3271f8fa12b194b1b167",
+            "author_name": "Zhijie Wang",
+            "commit_date": "2026-05-29T09:46:04-07:00",
+            "subject": "EnableLifetimeSafetyTUAnalysis"
         }
     ]
 }
