@@ -140991,6 +140991,30 @@
             "author_name": "Srividya Sundaram",
             "commit_date": "2026-05-29T14:04:58+00:00",
             "subject": "[SYCL] Fix -nolibsycl and spurious spirv-link flags for SYCL offloading (#200252)"
+        },
+        {
+            "hash": "4db74c054e2bc911a942f0843c2fdb49a95dd9df",
+            "author_name": "Valery Pykhtin",
+            "commit_date": "2026-05-29T16:20:29+02:00",
+            "subject": "[NFC][AMDGPU] Replace uint64_t SDWA inst-type discriminant with typed enum (#200388)"
+        },
+        {
+            "hash": "bdcce4a12c828d7cf5475e5f39dde32280c29a3c",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-05-29T14:21:17+00:00",
+            "subject": "[X86] combineMaskBitOp - fold vXi1 logicop(truncate(N0),truncate(N1)) -> truncate(logicop(X,Y)) (#200385)"
+        },
+        {
+            "hash": "170bdf55faef8000f8abe8eb97472b3c3bab91c5",
+            "author_name": "Valery Pykhtin",
+            "commit_date": "2026-05-29T16:22:00+02:00",
+            "subject": "[NFC][AMDGPU] Introduce AMDGPU::FlatVariant enum to replace uint64_t FLAT discriminant (#200396)"
+        },
+        {
+            "hash": "c4a6fe766e2fe71d478efc9652f45abec8ce5abb",
+            "author_name": "hev",
+            "commit_date": "2026-05-29T22:24:48+08:00",
+            "subject": "[lld][LoongArch] Handle DTPREL relocations in debug sections (#199327)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
