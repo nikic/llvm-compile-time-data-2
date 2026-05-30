@@ -141633,6 +141633,12 @@
             "author_name": "Justin Lebar",
             "commit_date": "2026-05-30T00:55:36-07:00",
             "subject": "[MergeICmps] Don't merge comparisons whose width isn't a byte multiple (#200346)"
+        },
+        {
+            "hash": "3c4bc6c9f7b535275a2344a78c94b8b7eb10b433",
+            "author_name": "Andreas Jonson",
+            "commit_date": "2026-05-30T10:02:55+02:00",
+            "subject": "[InstCombine] Handle \"trunc nuw to i1\" as \"icmp ne,0\" in foldSelectValueEquivalence (#198131)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
