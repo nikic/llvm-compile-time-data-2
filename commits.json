@@ -141759,6 +141759,18 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-05-30T16:23:24+00:00",
             "subject": "[IR] Fix PoisoningVH relocation of a poisoned handle (#200540)"
+        },
+        {
+            "hash": "b771021970fcacf5eb01aaca360541534fc51547",
+            "author_name": "lntue",
+            "commit_date": "2026-05-30T12:32:08-04:00",
+            "subject": "[libc][ci] Clean up libc-fullbuild-tests precommit CI. (#200520)"
+        },
+        {
+            "hash": "013ee58df53b528657bc18d3869fa5dc8d1d5ff5",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-05-30T16:36:20+00:00",
+            "subject": "Revert \"Reapply \"[PDB][llvm-pdbutil] Add DXContainer support for `pdb2yaml` and `yaml2pdb`\"\" (#200588)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -145545,6 +145557,20 @@
             "author_name": "Mircea Trofin",
             "commit_date": "2026-05-29T21:39:26-07:00",
             "subject": "one more test"
+        }
+    ],
+    "aengelke\/perf\/irbmetadata": [
+        {
+            "hash": "7a4d7733ae55ef8ac139d80e2b0f2bd1951ff5c8",
+            "author_name": "Deepak Shirke",
+            "commit_date": "2026-05-29T10:58:29+01:00",
+            "subject": "[ELF] Fix location counter used for output section address with MEMOR\u2026 (#197293)"
+        },
+        {
+            "hash": "dba9a46dc48a37d1895682f112d09af7f2f510df",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-05-30T16:42:40+00:00",
+            "subject": "[IR] Lazily collect MetadataToCopy in IRBuilder"
         }
     ]
 }
