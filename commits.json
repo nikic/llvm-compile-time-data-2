@@ -145694,5 +145694,19 @@
             "commit_date": "2026-05-30T15:26:52-07:00",
             "subject": "Split dense map experiment"
         }
+    ],
+    "MaskRay\/perf\/densemap-drop-tombstone": [
+        {
+            "hash": "1f10f1ca8af3dff956b353d7ff3ea169c82ed909",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-30T18:55:12+00:00",
+            "subject": "[DenseMap] Replace tombstone deletion with TAOCP 6.4 Algorithm R (#200595)"
+        },
+        {
+            "hash": "ef49d83f28236fa62002a7f6277fc87cd4ec1908",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-05-30T21:44:03-07:00",
+            "subject": "Remove unused DenseMapInfo::getTombstoneKey"
+        }
     ]
 }
