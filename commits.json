@@ -142599,6 +142599,30 @@
             "author_name": "Timm Baeder",
             "commit_date": "2026-06-01T16:28:50+02:00",
             "subject": "[clang][bytecode] Remove unknown-size-array special handling (#200789)"
+        },
+        {
+            "hash": "e6ab63e40b5d53ec7c2b03cc6d084c0edeb7f32b",
+            "author_name": "idubinov",
+            "commit_date": "2026-06-01T16:44:46+02:00",
+            "subject": "[SPIRV] Fix enqueue empty kernel (#187671)"
+        },
+        {
+            "hash": "8994480709a9b39042685842d8201c97fb822a68",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-01T15:50:46+01:00",
+            "subject": "[LV] Remove legacy setVectorizedCallDecision & co (NFC). (#195519)"
+        },
+        {
+            "hash": "5c9b5781b7384956db5bd4ca019593a2d4024088",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-01T15:51:10+01:00",
+            "subject": "[AArch64][SME2] Fix mnemonic in uqcvt-diagnostics.s test (NFC) (#200824)"
+        },
+        {
+            "hash": "87f09d325da79b379723b29755861da9baf2dc7a",
+            "author_name": "Conscat",
+            "commit_date": "2026-06-01T16:51:33+02:00",
+            "subject": "[clang] Parse `__typeof_unqual__` consistently with `__typeof__` (#198948)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -146579,6 +146603,20 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-06-01T12:54:10+02:00",
             "subject": "[SCEV] Preserve nowrap flags for multiply ranges"
+        }
+    ],
+    "aengelke\/perf\/gvn-mapvector": [
+        {
+            "hash": "78f429c3b2aeb8105c888133008dea0023b8eebb",
+            "author_name": "Harry Ramsey",
+            "commit_date": "2026-06-01T09:06:56+01:00",
+            "subject": "[AArch64][SVE] Match (add_like x (lsr y, c)) -> usra x, y, c"
+        },
+        {
+            "hash": "38d7be78e60cb8216e9bc03c1f4cfde593a6b7e0",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-06-01T14:50:16+00:00",
+            "subject": "gvn drop one mapvector"
         }
     ]
 }
