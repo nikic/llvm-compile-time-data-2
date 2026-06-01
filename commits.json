@@ -142041,6 +142041,12 @@
             "author_name": "lijinpei-amd",
             "commit_date": "2026-06-01T02:36:53+00:00",
             "subject": "[AMDGPU] Fix missing SIMachineFunctionInfo::MinNumAGPRs from YAML mirror (#200647)"
+        },
+        {
+            "hash": "090308199b301dc5c6a2470b3a6b7ef89866dd6a",
+            "author_name": "Thrrreeee",
+            "commit_date": "2026-06-01T10:50:42+08:00",
+            "subject": "[BOLT][DebugInfo] Make parallel DWARF debug names generation deterministic(1\/2) (#197670)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -144967,21 +144973,15 @@
     ],
     "MaskRay\/perf\/densemap-verstable": [
         {
-            "hash": "884e828617bf512a992723bd70dc108deb775753",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-05-25T23:02:54+00:00",
-            "subject": "[AMDGPU] Don't assume non-erased DenseMap entries remain valid after erase. NFC (#199578)"
+            "hash": "1bbd613e6267ea0a08994b56adc73cc7b2b5d07d",
+            "author_name": "Aayush Shrivastava",
+            "commit_date": "2026-06-01T06:44:04+08:00",
+            "subject": "[InstCombine] Fold lshr 1, X into zext (X == 0) (#200669)"
         },
         {
-            "hash": "3057b1415df70b2a446ba459f8b9db65bbdeecb5",
+            "hash": "83fb0b41f146a5f3688c2336cdb329f07be94d10",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-05-25T16:33:40-07:00",
-            "subject": "[DenseMap] Invalidate iterators on erase"
-        },
-        {
-            "hash": "f689a02a32e3d73bbef5d5cf219505d81961f9ac",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-05-25T21:46:41-07:00",
+            "commit_date": "2026-05-31T19:40:43-07:00",
             "subject": "[ADT][DenseMap] Reimplement on the Verstable algorithm"
         }
     ],
