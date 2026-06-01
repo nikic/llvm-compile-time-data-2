@@ -142017,6 +142017,18 @@
             "author_name": "Aayush Shrivastava",
             "commit_date": "2026-06-01T06:44:04+08:00",
             "subject": "[InstCombine] Fold lshr 1, X into zext (X == 0) (#200669)"
+        },
+        {
+            "hash": "50f452f4b561eafccec23f649e379d9c845afa64",
+            "author_name": "mike-goutokuji",
+            "commit_date": "2026-06-01T00:34:51+00:00",
+            "subject": "[InstCombine] Fix miscompilation when folding cttz with non-powers-of-2 (#200583)"
+        },
+        {
+            "hash": "f68ef5b4303de763ecf37fd57cbefc3891ee48c0",
+            "author_name": "Zeyi Xu",
+            "commit_date": "2026-06-01T08:38:38+08:00",
+            "subject": "[clang-tidy] Fix FP\/FN in cppcoreguidelines-missing-std-forward (#178651)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
