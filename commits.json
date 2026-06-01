@@ -142881,6 +142881,24 @@
             "author_name": "Justin Lebar",
             "commit_date": "2026-06-01T18:28:39+00:00",
             "subject": "[NVPTX] Fix fptosi\/fptoui to i1. (#200718)"
+        },
+        {
+            "hash": "0f1f234990f40c942fb8b87cd2141c48848b8253",
+            "author_name": "Zorojuro",
+            "commit_date": "2026-06-01T14:30:20-04:00",
+            "subject": "[libc][math] Adding constexpr to tests for Double-type math functions  (#200681)"
+        },
+        {
+            "hash": "209d77c43a8aba33d1fbadfdcc4246a35d5fe433",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-06-01T20:35:21+02:00",
+            "subject": "[IR] Reorder checks in isInterposable() (NFC) (#200862)"
+        },
+        {
+            "hash": "80875b8a637dcee352721ad6fe4f7b2886abc370",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-01T18:35:41+00:00",
+            "subject": "[LV] Add users to header phis in tests (NFC). (#200890)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -146889,6 +146907,26 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-06-01T14:57:46+00:00",
             "subject": "[GlobalISel] Don't add G_BR to legalizer worklist"
+        }
+    ],
+    "aengelke\/perf\/gisel-test-260601": [
+        {
+            "hash": "e6ab63e40b5d53ec7c2b03cc6d084c0edeb7f32b",
+            "author_name": "idubinov",
+            "commit_date": "2026-06-01T16:44:46+02:00",
+            "subject": "[SPIRV] Fix enqueue empty kernel (#187671)"
+        },
+        {
+            "hash": "e903e89c161929b954b1d00107cab12fd2f9617a",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-06-01T18:35:05+00:00",
+            "subject": "[NO MERGE] No GlobalISel at AArch64 -O0"
+        },
+        {
+            "hash": "34cefc51e8d4524da9006d16ee55b548e889eac4",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-06-01T18:35:06+00:00",
+            "subject": "[NO MERGE] GlobalISel at AArch64 -O3"
         }
     ]
 }
