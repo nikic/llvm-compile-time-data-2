@@ -100647,6 +100647,42 @@
             "author_name": "Amy Kwan",
             "commit_date": "2026-06-01T06:57:31+00:00",
             "subject": "[PowerPC] Fix i128 vcmpequb optimization for loads with range metadata and small constants (#196801)"
+        },
+        {
+            "hash": "6ac68778a76e1c0ab62b3cc8ac555f349bf62048",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-06-01T07:12:41+00:00",
+            "subject": "[X86] Add test coverage for #137422 (#182832)"
+        },
+        {
+            "hash": "c43c9b426055a78abbd3f7751865b6fb0d717fff",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-06-01T07:12:41+00:00",
+            "subject": "[X86] lowerV64I8Shuffle - prefer VPERMV3 byte shuffles to OR(PSHUFB,PSHUFB) on VBMI targets (#182852)"
+        },
+        {
+            "hash": "6db0725886bb9fafab67f2eb362d4b84354fe7de",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-06-01T07:12:42+00:00",
+            "subject": "[X86] lowerV64I8Shuffle - avoid lowerShuffleAsRepeatedMaskAndLanePermute call on VBMI targets (#183109)"
+        },
+        {
+            "hash": "294ae8d1e62a3bd238c411d22a109e0b38ddc363",
+            "author_name": "Amy Kwan",
+            "commit_date": "2026-06-01T07:15:17+00:00",
+            "subject": "[PowerPC] Drop invalid range metadata when lowering i64 load to fp in INT_TO_FP (#198705)"
+        },
+        {
+            "hash": "a760d7c07024feaf3b58212edd388a4f016a71ce",
+            "author_name": "Martin Storsj\u00f6",
+            "commit_date": "2026-06-01T07:17:28+00:00",
+            "subject": "[LLD] [COFF] Fix handling of immediates in ARM64_SECREL_HIGH12A (#200060)"
+        },
+        {
+            "hash": "2615295c15bab420d8134aff473c098a48403d42",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-06-01T07:19:52+00:00",
+            "subject": "[libc++] Fix multi{map,set}::extract not returning the first matching element (#199703)"
         }
     ],
     "enferex\/perf\/init-densemap-members": [
@@ -142137,6 +142173,12 @@
             "author_name": "Madhur Amilkanthwar",
             "commit_date": "2026-06-01T06:58:04+00:00",
             "subject": "[VPlan][NFC] Extract logical recipe simplifications from simplifyRecipe() (#196915)"
+        },
+        {
+            "hash": "fb2fe71ffe5ffbced0ce2ce1f4c81bfcb5d487d9",
+            "author_name": "David Green",
+            "commit_date": "2026-06-01T07:09:56+00:00",
+            "subject": "[AArch64] Generate umaddl and smaddl from disjoint or (#200198)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
