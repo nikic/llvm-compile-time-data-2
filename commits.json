@@ -142101,6 +142101,24 @@
             "author_name": "Justin Lebar",
             "commit_date": "2026-05-31T23:18:09-07:00",
             "subject": "[SelectionDAG] Fix SplitVecRes_VP_SPLICE for sub-byte (i1) element types (#200626)"
+        },
+        {
+            "hash": "01b0cccf58d2f908d8d9a29188dc586d17261b64",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-01T07:31:12+01:00",
+            "subject": "[Maintainers] Fix broken libc link (NFC) (#199653)"
+        },
+        {
+            "hash": "f0c423380111db36f946c4ffd696928cf09db78a",
+            "author_name": "David Green",
+            "commit_date": "2026-06-01T07:35:16+01:00",
+            "subject": "[AArch64] Copy MMO in ld1 \/ st1 post index selection. (#199023)"
+        },
+        {
+            "hash": "dbe5e3391c0f7ecb4dd5b3f8943c1ebf689e4118",
+            "author_name": "Jeff Bailey",
+            "commit_date": "2026-06-01T07:38:35+01:00",
+            "subject": "[libc] Add sys\/param.h header (#200559)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -146001,10 +146019,24 @@
             "subject": "[InstCombine] Fold lshr 1, X into zext (X == 0) (#200669)"
         },
         {
-            "hash": "dd3ba5d5477f5d46f96429710d0c9aa46fe708f1",
+            "hash": "6331169e651c94f35289268697f45211fa27ed30",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-05-31T23:23:50-07:00",
+            "commit_date": "2026-05-31T23:29:31-07:00",
             "subject": "[ADT][DenseMap] Store occupancy in a packed used-bit array"
+        }
+    ],
+    "madhur13490\/perf\/vp-cache-loop-region": [
+        {
+            "hash": "e4716e0c1155fc945c02fa81a1c1aa2f72dc4c6f",
+            "author_name": "Justin Lebar",
+            "commit_date": "2026-05-24T02:14:02-07:00",
+            "subject": "[ConstantFolding] Handle large exponents in ldexp (#199309)"
+        },
+        {
+            "hash": "17f710051a626ed43e542b76fbb670e9597dcaab",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-05-24T11:42:51-07:00",
+            "subject": "[VPlan] Cache the vector loop region lookup"
         }
     ]
 }
