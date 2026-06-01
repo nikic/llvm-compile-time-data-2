@@ -100683,6 +100683,18 @@
             "author_name": "Nikolas Klauser",
             "commit_date": "2026-06-01T07:19:52+00:00",
             "subject": "[libc++] Fix multi{map,set}::extract not returning the first matching element (#199703)"
+        },
+        {
+            "hash": "a2b77904509333f5c9aa8e71427c694961e417c9",
+            "author_name": "Dominik Steenken",
+            "commit_date": "2026-06-01T07:21:42+00:00",
+            "subject": "[SystemZ] Fix off-by-one error in backend (#200141)"
+        },
+        {
+            "hash": "a255c1ed36a1d06f79bd2633ba9f8d900153007c",
+            "author_name": "Derek Schuff",
+            "commit_date": "2026-06-01T07:23:32+00:00",
+            "subject": "[WebAssembly] Avoid crash in LateEHPrepare with empty cleanup pads (#200322)"
         }
     ],
     "enferex\/perf\/init-densemap-members": [
@@ -142179,6 +142191,36 @@
             "author_name": "David Green",
             "commit_date": "2026-06-01T07:09:56+00:00",
             "subject": "[AArch64] Generate umaddl and smaddl from disjoint or (#200198)"
+        },
+        {
+            "hash": "c9b2d7224c006239641214b2b58b0ab67a254308",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-06-01T09:21:31+02:00",
+            "subject": "[TBAA] Remove handling for old TBAA format (#200370)"
+        },
+        {
+            "hash": "44ddc97ade5ae1dcc06a10492ac9f2119cecd9c4",
+            "author_name": "Tomer Shafir",
+            "commit_date": "2026-06-01T10:27:30+03:00",
+            "subject": "[TableGen] Remove redundant special BitsInit\/BitInt resolution(NFC) (#200674)"
+        },
+        {
+            "hash": "b73b44b5f8463072b9084b2d791f7639f0adad17",
+            "author_name": "Tomer Shafir",
+            "commit_date": "2026-06-01T10:27:49+03:00",
+            "subject": "[TableGen] Align ParseOperationCond vector names(NFC) (#199666)"
+        },
+        {
+            "hash": "e5ab4f8a1f766febdc65ce89c00dec85393cfd68",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-06-01T09:31:27+02:00",
+            "subject": "[lldb] Fix CommandInterpreter::GetExecutionContext (#199922)"
+        },
+        {
+            "hash": "6a33d3f71207ae2d8497bbc29f738a91bf38aab4",
+            "author_name": "David Green",
+            "commit_date": "2026-06-01T08:33:45+01:00",
+            "subject": "[AArch64][GlobalISel] Fill in some missing float types in mir tests. NFC (#200743)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
