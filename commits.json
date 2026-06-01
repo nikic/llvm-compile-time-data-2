@@ -142395,6 +142395,18 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-06-01T12:30:32+02:00",
             "subject": "[IR] Handle nofree noalias in canBeFreed() (#200194)"
+        },
+        {
+            "hash": "0059fe6596aee0052f9ba40188ee2cef27b93af0",
+            "author_name": "Kashika Akhouri",
+            "commit_date": "2026-06-01T16:28:48+05:30",
+            "subject": "[LifetimeSafety] Add support for lifetime capture_by (#196884)"
+        },
+        {
+            "hash": "9738adaff8e2ea79917858a5e6349572e884c4cd",
+            "author_name": "Kseniya Tikhomirova",
+            "commit_date": "2026-06-01T12:59:52+02:00",
+            "subject": "[libsycl] Add single_task (#192499)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -145601,24 +145613,6 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-05-28T17:14:33+02:00",
             "subject": "[IR] Add fast-path to MetadataTracking::track() for resolved MDNodes"
-        },
-        {
-            "hash": "c9917c0ca279c9809603ead46766a6e86938e27a",
-            "author_name": "Clemens Wasser",
-            "commit_date": "2026-05-28T17:14:33+02:00",
-            "subject": "[IR] Inline getDbgRecordRange"
-        },
-        {
-            "hash": "218b9a95de2d5b4cf1271016476e42f1e0a02389",
-            "author_name": "Clemens Wasser",
-            "commit_date": "2026-05-28T17:14:34+02:00",
-            "subject": "[SCEV] Preserve nowrap flags for multiply ranges"
-        },
-        {
-            "hash": "195ee54ca77688ee4bcfa6ce37e8c470998c6f34",
-            "author_name": "Clemens Wasser",
-            "commit_date": "2026-05-28T17:14:34+02:00",
-            "subject": "[CanonicalizeFreezeInLoops] Add fast-path check for loops without freeze instructions"
         }
     ],
     "MaskRay\/perf\/densemap-backshift-2": [
@@ -146333,6 +146327,48 @@
             "author_name": "Alexis Engelke",
             "commit_date": "2026-06-01T09:57:01+00:00",
             "subject": "[IR] BlockAddress doesn't use BasicBlock"
+        }
+    ],
+    "clemenswasser\/perf\/canonicalize-freeze-fastpath": [
+        {
+            "hash": "081d6881d5dafd4bfc7450f94d0dd65e72dcd360",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-05-22T10:31:29+02:00",
+            "subject": "[Bazel] Fixes 08124b7 (#199180)"
+        },
+        {
+            "hash": "da0c4601f0311da567a0a9e2db010f35d3ef4975",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-06-01T12:54:10+02:00",
+            "subject": "[CanonicalizeFreezeInLoops] Add fast-path check for loops without freeze instructions"
+        }
+    ],
+    "clemenswasser\/perf\/ir-inline-getdbgrecordrange": [
+        {
+            "hash": "081d6881d5dafd4bfc7450f94d0dd65e72dcd360",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-05-22T10:31:29+02:00",
+            "subject": "[Bazel] Fixes 08124b7 (#199180)"
+        },
+        {
+            "hash": "46ead0fcca7809c8ad988b4cf332a74fec49e18b",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-06-01T12:54:09+02:00",
+            "subject": "[IR] Inline getDbgRecordRange"
+        }
+    ],
+    "clemenswasser\/perf\/scev-nowrap-multiply": [
+        {
+            "hash": "081d6881d5dafd4bfc7450f94d0dd65e72dcd360",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-05-22T10:31:29+02:00",
+            "subject": "[Bazel] Fixes 08124b7 (#199180)"
+        },
+        {
+            "hash": "682d53beef19614d446c21b014a64ab0da7ae4c0",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-06-01T12:54:10+02:00",
+            "subject": "[SCEV] Preserve nowrap flags for multiply ranges"
         }
     ]
 }
