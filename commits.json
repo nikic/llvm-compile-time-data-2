@@ -146278,5 +146278,19 @@
             "commit_date": "2026-05-24T11:42:51-07:00",
             "subject": "[VPlan] Cache the vector loop region lookup"
         }
+    ],
+    "aengelke\/perf\/blockaddress-no-use": [
+        {
+            "hash": "78f429c3b2aeb8105c888133008dea0023b8eebb",
+            "author_name": "Harry Ramsey",
+            "commit_date": "2026-06-01T09:06:56+01:00",
+            "subject": "[AArch64][SVE] Match (add_like x (lsr y, c)) -> usra x, y, c"
+        },
+        {
+            "hash": "81b6920e4b2c2757b4608c46d7027dd54a719b2a",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-06-01T09:57:01+00:00",
+            "subject": "[IR] BlockAddress doesn't use BasicBlock"
+        }
     ]
 }
