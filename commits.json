@@ -144123,6 +144123,18 @@
             "author_name": "Pavel Labath",
             "commit_date": "2026-06-02T21:23:23+02:00",
             "subject": "[libc] Move INET_ADDRSTRLEN and INET6_ADDRSTRLEN to a common header (#201083)"
+        },
+        {
+            "hash": "1d77b84e5133bfd39489ed6f119beff91f9db194",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-06-02T19:38:54+00:00",
+            "subject": "[X86] incDecVectorConstant - use getConstVector (#201169)"
+        },
+        {
+            "hash": "6656fa57d610475a55ed1dd909e40b00190a4615",
+            "author_name": "vporpo",
+            "commit_date": "2026-06-02T12:44:31-07:00",
+            "subject": "[SandboxVec][VecUtils][NFC] Improve VecUtils::areConsecutive() template (#201168)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -148293,6 +148305,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-06-02T11:36:56-07:00",
             "subject": "[ADT][DenseMap] PROTOTYPE: pointer keys use in-band sentinel, others use used-bit array"
+        }
+    ],
+    "antoniofrighetto\/perf\/sroa-rmw-tree-merge": [
+        {
+            "hash": "1d77b84e5133bfd39489ed6f119beff91f9db194",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-06-02T19:38:54+00:00",
+            "subject": "[X86] incDecVectorConstant - use getConstVector (#201169)"
+        },
+        {
+            "hash": "6ce97773b019b27d35c09e21be61b12723733fa6",
+            "author_name": "chengjunp",
+            "commit_date": "2026-06-02T21:42:29+02:00",
+            "subject": "Extend SROA tree merge to handle RMW pattern"
         }
     ]
 }
