@@ -143325,6 +143325,18 @@
             "author_name": "Yuta Nakamura",
             "commit_date": "2026-06-02T01:58:55+00:00",
             "subject": "[clang-tidy] Fix false positive in bugprone-use-after-move for std::tie (#192895)"
+        },
+        {
+            "hash": "734012d9897c5b6a9157b8e3a8f8c38dd8ac63f4",
+            "author_name": "Sudharsan Veeravalli",
+            "commit_date": "2026-06-02T07:34:24+05:30",
+            "subject": "[RISCV] Disable Zilsd CSR-pair generation when push\/pop or save-restore is enabled (#200623)"
+        },
+        {
+            "hash": "ff2fec30ac7ca732aec032f45c7d300d04c1e7bf",
+            "author_name": "Zeyi Xu",
+            "commit_date": "2026-06-02T10:11:13+08:00",
+            "subject": "[clang-tidy] Add `bugprone-missing-end-comparison` check (#182543)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -147225,15 +147237,15 @@
     ],
     "MaskRay\/perf\/densemap-packed-used": [
         {
-            "hash": "1bbd613e6267ea0a08994b56adc73cc7b2b5d07d",
-            "author_name": "Aayush Shrivastava",
-            "commit_date": "2026-06-01T06:44:04+08:00",
-            "subject": "[InstCombine] Fold lshr 1, X into zext (X == 0) (#200669)"
+            "hash": "c92353836fc9cccebe8af71b93bafb450d128505",
+            "author_name": "Harald van Dijk",
+            "commit_date": "2026-06-02T01:27:17+01:00",
+            "subject": "[DirectX] Disable DCE and DSE for -O0 (#192520)"
         },
         {
-            "hash": "034c52ec4e6a23219d7b1f0fe2d0cf20206c5521",
+            "hash": "7ed01d2fc0ba54a157157cc661c6b5678ef9c0b7",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-06-01T12:25:07-07:00",
+            "commit_date": "2026-06-01T19:04:28-07:00",
             "subject": "[ADT][DenseMap] Store occupancy in a packed used-bit array"
         }
     ],
