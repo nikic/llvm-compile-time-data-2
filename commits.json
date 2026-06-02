@@ -144189,6 +144189,12 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-06-02T16:35:16-04:00",
             "subject": "[SLP] Scale extract cost of external uses with nullptr user"
+        },
+        {
+            "hash": "1fe6d564523982d2efbd28334ef50fe449765eb5",
+            "author_name": "Justin Bogner",
+            "commit_date": "2026-06-02T13:49:06-07:00",
+            "subject": "Fix a warning and an uninitialized variable in benchmark (#200927)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -148373,6 +148379,20 @@
             "author_name": "chengjunp",
             "commit_date": "2026-06-02T21:42:29+02:00",
             "subject": "Extend SROA tree merge to handle RMW pattern"
+        }
+    ],
+    "nikic\/perf\/cvp-store": [
+        {
+            "hash": "3c95dd29d834fde3a1070655a8a33df8ab3ee8b8",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-05-30T13:54:48+00:00",
+            "subject": "[VPlan] Thread scalar type through VPBlend, VPExpression recipes. (NFC) (#200255)"
+        },
+        {
+            "hash": "37d1815ad5bb8649baa7ad12d695664fb9974f5e",
+            "author_name": "iamaayushrivastava",
+            "commit_date": "2026-06-02T22:55:22+02:00",
+            "subject": "Fold store operands to constants using LazyValueInfo"
         }
     ]
 }
