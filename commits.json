@@ -143667,6 +143667,18 @@
             "author_name": "Weronika Lewandowska",
             "commit_date": "2026-06-02T13:25:24+02:00",
             "subject": "[Offload] Forward LIBOMPTARGET_ cmake options to offload (#199906)"
+        },
+        {
+            "hash": "3c86ffb3bd282cfad0bf1e3aa2cedf1e4895b057",
+            "author_name": "Paul Walker",
+            "commit_date": "2026-06-02T12:42:54+01:00",
+            "subject": "[LLVM][Verifier] Reject \"splat (...)\" as an invalid value for an immarg operand. (#200445)"
+        },
+        {
+            "hash": "b29352f7ea1d46fa7d90900d7a279851b6de9f74",
+            "author_name": "Hans Wennborg",
+            "commit_date": "2026-06-02T11:43:23+00:00",
+            "subject": "Revert \"[clang] fix getTemplateInstantiationArgs\" (#201093)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -147735,6 +147747,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-06-02T12:17:33+01:00",
             "subject": "[Pipeline] Defer full loop unrolling for likely-vectorizable loops"
+        }
+    ],
+    "Enna1\/perf\/MRI-hasOneUse": [
+        {
+            "hash": "0a758f9356138e327134a9aea2d760a50c49a419",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-06-02T10:23:42+02:00",
+            "subject": "[GVN] MemorySSA for GVN: eliminate redundant loads via MemorySSA (#152859)"
+        },
+        {
+            "hash": "fac24cc23f248f5b34d36a171a55317ea86606fc",
+            "author_name": "Enna1",
+            "commit_date": "2026-06-02T19:41:10+08:00",
+            "subject": "[MRI] Implement hasOneUse via tail pointer in O(1)"
         }
     ]
 }
