@@ -143865,6 +143865,18 @@
             "author_name": "Kelvin Li",
             "commit_date": "2026-06-02T10:46:00-04:00",
             "subject": "[flang] Fix possibly unused variable (NFC) (#200905)"
+        },
+        {
+            "hash": "5d9e965c3f9983278308a00c282810e0f04754cc",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-06-02T16:47:56+02:00",
+            "subject": "[clang][ExprConst] Support DesignatedInitUpdateExpr of array type (#201000)"
+        },
+        {
+            "hash": "ade0e1a49c2118a98b0b34b3136661747bc5aaa0",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-06-02T15:52:17+01:00",
+            "subject": "[cir] Refine cir::CastOp semantics for int <-> float casts (#200005)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -147975,6 +147987,26 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-06-02T16:26:36+02:00",
             "subject": "wip"
+        }
+    ],
+    "aengelke\/perf\/dat": [
+        {
+            "hash": "e6ab63e40b5d53ec7c2b03cc6d084c0edeb7f32b",
+            "author_name": "idubinov",
+            "commit_date": "2026-06-01T16:44:46+02:00",
+            "subject": "[SPIRV] Fix enqueue empty kernel (#187671)"
+        },
+        {
+            "hash": "6e53711eb289464aec04a25e2efb58b801c2ce01",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-06-02T14:47:59+00:00",
+            "subject": "make some writable data read only"
+        },
+        {
+            "hash": "c6f8f94514907b618482775eab60e4dae89516dc",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-06-02T14:48:16+00:00",
+            "subject": "[Analysis][NFC] Make VecDesc constexpr and relocation-free"
         }
     ]
 }
