@@ -143637,6 +143637,24 @@
             "author_name": "Ilia Kuklin",
             "commit_date": "2026-06-02T16:00:54+05:00",
             "subject": "Reapply \"[llvm-objcopy] Strip header from DXContainer's ILDB part during `--dump-section`\" (#200906)"
+        },
+        {
+            "hash": "78cf6cde9fbb6f08dacb3de5bc529243f9f85d9b",
+            "author_name": "Don\u00e1t Nagy",
+            "commit_date": "2026-06-02T13:10:07+02:00",
+            "subject": "[NFC][analyzer] Simplify ExprEngine::Visit, eliminate NodeBuilders (#200837)"
+        },
+        {
+            "hash": "3191c78697c8b499a108e917a9590811db723969",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-06-02T13:14:42+02:00",
+            "subject": "[SPIR-V] Reject module-level inline assembly with a diagnostic (#199992)"
+        },
+        {
+            "hash": "7139d0b46f6d71334b74049bbd540ac4b18a1bc5",
+            "author_name": "Lukacma",
+            "commit_date": "2026-06-02T12:17:02+01:00",
+            "subject": "[AArch64] Add intrinsic support for Fdot instr. (#189987)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -147679,6 +147697,32 @@
             "author_name": "Matheus Izvekov",
             "commit_date": "2026-06-01T19:45:18-03:00",
             "subject": "WIP"
+        }
+    ],
+    "fhahn\/perf\/pe": [
+        {
+            "hash": "6b6cb5fb35183b156f8acf648184b61b985bee8f",
+            "author_name": "Ilia Kuklin",
+            "commit_date": "2026-06-02T16:00:54+05:00",
+            "subject": "Reapply \"[llvm-objcopy] Strip header from DXContainer's ILDB part during `--dump-section`\" (#200906)"
+        },
+        {
+            "hash": "e4f05f525932f87e6e41093a4e9b2026313a12eb",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-02T12:08:43+01:00",
+            "subject": "Non SCEV range analysis"
+        },
+        {
+            "hash": "20af93654f53efe765121312abb0ce69d04602ae",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-02T12:08:43+01:00",
+            "subject": "Add pipeline test"
+        },
+        {
+            "hash": "910e73f991ec6e55819144be76e5270c190602d6",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-02T12:17:33+01:00",
+            "subject": "[Pipeline] Defer full loop unrolling for likely-vectorizable loops"
         }
     ]
 }
