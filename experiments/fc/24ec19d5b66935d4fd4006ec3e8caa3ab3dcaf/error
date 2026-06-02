@@ -1,0 +1,95 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage2.sh" failed
+
+STDOUT:
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- The ASM compiler identification is Clang with GNU-like command-line
+-- Found assembler: /tmp/llvm-project-build-stage1/bin/clang
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: /tmp/llvm-project-build-stage1/bin/clang
+-- Check for working C compiler: /tmp/llvm-project-build-stage1/bin/clang - broken
+-- Configuring incomplete, errors occurred!
+See also "/tmp/llvm-project-build-stage2/CMakeFiles/CMakeOutput.log".
+See also "/tmp/llvm-project-build-stage2/CMakeFiles/CMakeError.log".
+
+
+STDERR:
+CMake Error at /usr/share/cmake-3.22/Modules/CMakeTestCCompiler.cmake:69 (message):
+  The C compiler
+
+    "/tmp/llvm-project-build-stage1/bin/clang"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /tmp/llvm-project-build-stage2/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/usr/bin/ninja cmTC_a05eb && [1/2] Building C object CMakeFiles/cmTC_a05eb.dir/testCCompiler.c.o
+    FAILED: CMakeFiles/cmTC_a05eb.dir/testCCompiler.c.o 
+    /tmp/llvm-project-build-stage1/bin/clang    -o CMakeFiles/cmTC_a05eb.dir/testCCompiler.c.o -c /tmp/llvm-project-build-stage2/CMakeFiles/CMakeTmp/testCCompiler.c
+    PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+    Stack dump:
+    0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang -o CMakeFiles/cmTC_a05eb.dir/testCCompiler.c.o -c /tmp/llvm-project-build-stage2/CMakeFiles/CMakeTmp/testCCompiler.c
+    1.	<eof> parser at end of file
+    2.	/tmp/llvm-project-build-stage2/CMakeFiles/CMakeTmp/testCCompiler.c:9:5: LLVM IR generation of declaration 'main'
+    3.	/tmp/llvm-project-build-stage2/CMakeFiles/CMakeTmp/testCCompiler.c:9:5: Generating code for declaration 'main'
+    Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+    0  clang     0x000055f0d8db5010 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 240
+    1  clang     0x000055f0d8db2ba4 llvm::sys::CleanupOnSignal(unsigned long) + 164
+    2  clang     0x000055f0d8cf3468
+    3  libc.so.6 0x00007f6b7e34f520
+    4  clang     0x000055f0d8865752 llvm::FunctionType::get(llvm::Type*, llvm::ArrayRef<llvm::Type*>, bool) + 1074
+    5  clang     0x000055f0d96715bc clang::CodeGen::CodeGenTypes::GetFunctionType(clang::CodeGen::CGFunctionInfo const&) + 1692
+    6  clang     0x000055f0d940aaae clang::CodeGen::CodeGenModule::EmitGlobalFunctionDefinition(clang::GlobalDecl, llvm::GlobalValue*) + 94
+    7  clang     0x000055f0d940567c clang::CodeGen::CodeGenModule::EmitGlobalDefinition(clang::GlobalDecl, llvm::GlobalValue*) + 540
+    8  clang     0x000055f0d9406578 clang::CodeGen::CodeGenModule::EmitGlobal(clang::GlobalDecl) + 3736
+    9  clang     0x000055f0d940facf
+    10 clang     0x000055f0d9771819
+    11 clang     0x000055f0d975c637 clang::BackendConsumer::HandleTopLevelDecl(clang::DeclGroupRef) + 151
+    12 clang     0x000055f0dac07104 clang::ParseAST(clang::Sema&, bool, bool) + 564
+    13 clang     0x000055f0d9aea5c2 clang::FrontendAction::Execute() + 50
+    14 clang     0x000055f0d9a56f0c clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 716
+    15 clang     0x000055f0d9bd1198 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+    16 clang     0x000055f0d7662439 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 2377
+    17 clang     0x000055f0d765acab
+    18 clang     0x000055f0d765ad5f
+    19 clang     0x000055f0d97e8bbd
+    20 clang     0x000055f0d8cf3807 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+    21 clang     0x000055f0d97e8f57
+    22 clang     0x000055f0d97a6497 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+    23 clang     0x000055f0d97a74b9 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 153
+    24 clang     0x000055f0d97b7c4c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+    25 clang     0x000055f0d765fa8f clang_main(int, char**, llvm::ToolContext const&) + 7839
+    26 clang     0x000055f0d755cbc1 main + 113
+    27 libc.so.6 0x00007f6b7e336d90
+    28 libc.so.6 0x00007f6b7e336e40 __libc_start_main + 128
+    29 clang     0x000055f0d765a725 _start + 37
+    clang: error: clang frontend command failed due to signal (use -v to see invocation)
+    clang version 23.0.0git
+    Target: x86_64-unknown-linux-gnu
+    Thread model: posix
+    InstalledDir: /tmp/llvm-project-build-stage1/bin
+    clang: note: diagnostic msg: 
+    ********************
+    
+    PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+    Preprocessed source(s) and associated run script(s) are located at:
+    clang: note: diagnostic msg: /tmp/testCCompiler-168026.c
+    clang: note: diagnostic msg: /tmp/testCCompiler-168026.sh
+    clang: note: diagnostic msg: 
+    
+    ********************
+    Segmentation fault (core dumped)
+    ninja: build stopped: subcommand failed.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:70 (project)
+
+
