@@ -143943,6 +143943,12 @@
             "author_name": "Paul Kirth",
             "commit_date": "2026-06-02T08:18:12-07:00",
             "subject": "[llvm][RISCV][MC] Fix arithmetic error in pseudo parsing (#200217)"
+        },
+        {
+            "hash": "0212229ac05d60314db7dfb8ae89c11a015bb7bc",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-06-02T16:36:08+01:00",
+            "subject": "[CI] install packaging before running lldb tests on Windows (#201112)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -148073,6 +148079,26 @@
             "author_name": "Alexis Engelke",
             "commit_date": "2026-06-02T14:48:16+00:00",
             "subject": "[Analysis][NFC] Make VecDesc constexpr and relocation-free"
+        }
+    ],
+    "c-rhodes\/perf\/aarch64-gisel-regbankselectfast-pass": [
+        {
+            "hash": "ea8f3dfe487e1c0df1fbd31dded17ec77567229e",
+            "author_name": "David Sherwood",
+            "commit_date": "2026-06-01T10:18:02+01:00",
+            "subject": "[LV][NFC] Add cost model tests for VPInstructionWithType (#200135)"
+        },
+        {
+            "hash": "b5358381a425f0c2e2b22a2b426cb02a96992012",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-02T13:59:09+00:00",
+            "subject": "[AArch64][GlobalISel] Add RegBankSelectFast pass"
+        },
+        {
+            "hash": "51c36f4d43abbc7d5887d175752d06855cd12b96",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-02T15:28:32+00:00",
+            "subject": "[AArch64][GlobalISel] Add simple fast regbankselect hook"
         }
     ]
 }
