@@ -144693,6 +144693,24 @@
             "author_name": "Mirko Brku\u0161anin",
             "commit_date": "2026-06-03T13:22:33+02:00",
             "subject": "[AMDGPU] Add llvm.amdgcn.s.prefetch.inst intrinsic (#192440)"
+        },
+        {
+            "hash": "8a81ecc4e7cfc3b63041cc28e620d339f1933cb6",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-06-03T11:34:51+00:00",
+            "subject": "[X86] avx512-trunc.ll - add basic masked trunc coverage for #200617 (#201318)"
+        },
+        {
+            "hash": "d515a6e5381d967f81f5d18d1b2a7a3255b48dc6",
+            "author_name": "Jeff Bailey",
+            "commit_date": "2026-06-03T12:38:02+01:00",
+            "subject": "[libc] Remove redundant file(COPY) for x86_64 types (#201317)"
+        },
+        {
+            "hash": "7dc66bf2353d09a84dfa6aca70942b3902d94f6e",
+            "author_name": "Jeff Bailey",
+            "commit_date": "2026-06-03T12:38:22+01:00",
+            "subject": "[libc] Add BSD\/SysV compatibility types to sys\/types.h (#201314)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -148939,6 +148957,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-06-03T00:32:17-07:00",
             "subject": "[DenseMap] Store occupancy in a packed used-bit array"
+        }
+    ],
+    "c-rhodes\/perf\/gisel-regbankselect-assigninstrfast": [
+        {
+            "hash": "ea8f3dfe487e1c0df1fbd31dded17ec77567229e",
+            "author_name": "David Sherwood",
+            "commit_date": "2026-06-01T10:18:02+01:00",
+            "subject": "[LV][NFC] Add cost model tests for VPInstructionWithType (#200135)"
+        },
+        {
+            "hash": "35040a8aebc30213bd64494d41a1bd2541eaef6b",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-03T11:29:30+00:00",
+            "subject": "[GlobalISel] Add assignInstrFast"
         }
     ]
 }
