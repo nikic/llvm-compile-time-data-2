@@ -144669,6 +144669,30 @@
             "author_name": "Stephen Tozer",
             "commit_date": "2026-06-03T12:12:25+01:00",
             "subject": "[Dexter] Add basic debugging support for structured scripts (#197418)"
+        },
+        {
+            "hash": "869be014cf9a02f26ad938cc40fa83dfb62e90f9",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-06-03T13:17:16+02:00",
+            "subject": "[AMDGPU] Diagnose unsupported permlane16\/mov.dpp8\/tanh intrinsics (#200585)"
+        },
+        {
+            "hash": "2fabed5f49d950b669b9f9a5a624d61aa8bdeda0",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-06-03T13:17:27+02:00",
+            "subject": "[SPIR-V] Diagnose out-of-bounds argument index in function type metadata (#200601)"
+        },
+        {
+            "hash": "66ceecd18b654a4e94c70d2a8d7239114e2705cf",
+            "author_name": "Igor Wodiany",
+            "commit_date": "2026-06-03T12:17:49+01:00",
+            "subject": "Revert \"[AMDGPU] Remove definition of hi16 for scalar registers\" (#201309)"
+        },
+        {
+            "hash": "90d907b54ca222271439467c5f42073625211fed",
+            "author_name": "Mirko Brku\u0161anin",
+            "commit_date": "2026-06-03T13:22:33+02:00",
+            "subject": "[AMDGPU] Add llvm.amdgcn.s.prefetch.inst intrinsic (#192440)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -148815,15 +148839,15 @@
             "subject": "[LV][NFC] Add cost model tests for VPInstructionWithType (#200135)"
         },
         {
-            "hash": "b5358381a425f0c2e2b22a2b426cb02a96992012",
+            "hash": "69361d3fd8c88f4dc40c7ecdaa2791663456e4ca",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-06-02T13:59:09+00:00",
-            "subject": "[AArch64][GlobalISel] Add RegBankSelectFast pass"
+            "commit_date": "2026-06-03T11:19:21+00:00",
+            "subject": "[GlobalISel] Add RegBankSelectFast pass"
         },
         {
-            "hash": "51c36f4d43abbc7d5887d175752d06855cd12b96",
+            "hash": "7b8ae1044d71028e21e4f543dd0c91ed141887d3",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-06-02T15:28:32+00:00",
+            "commit_date": "2026-06-03T11:19:24+00:00",
             "subject": "[AArch64][GlobalISel] Add simple fast regbankselect hook"
         }
     ],
