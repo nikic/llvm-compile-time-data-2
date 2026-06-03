@@ -102509,16 +102509,28 @@
     ],
     "kalxr\/perf\/scev-factor-batch": [
         {
-            "hash": "333f6abe30ed208be6479d7ab701dbbd26c5eed0",
-            "author_name": "srcarroll",
-            "commit_date": "2026-03-17T12:11:09-05:00",
-            "subject": "Reland Support float8_e3m4 and float8_e4m3 in np_to_memref (#186453) (#186833)"
+            "hash": "1b5a86f165d642cac56cb4a4becbded2c1872c1d",
+            "author_name": "Alex Duran",
+            "commit_date": "2026-06-03T21:29:54+02:00",
+            "subject": "[OFFLOAD] Update L0 olMemFill unit tests known failures (#201323)"
         },
         {
-            "hash": "40f089dd1ec5abf1b38d2c9dd6f474889db75fc1",
+            "hash": "a11c481a425241125e1203255fa12c45998217e5",
             "author_name": "Kevin McAfee",
-            "commit_date": "2026-03-17T17:34:14+00:00",
+            "commit_date": "2026-06-03T12:41:16-07:00",
             "subject": "Batch common-factor folding in getAddExpr"
+        },
+        {
+            "hash": "3ceeab1d6fd340bc4e47e06d466bcd8171561dac",
+            "author_name": "Kevin McAfee",
+            "commit_date": "2026-06-03T12:41:16-07:00",
+            "subject": "Apply suggestion from @antoniofrighetto"
+        },
+        {
+            "hash": "de2815704eb28cda62f317833ca4ce2e7f04ca7d",
+            "author_name": "Kevin McAfee",
+            "commit_date": "2026-06-03T19:42:10+00:00",
+            "subject": "make change actually nfc"
         }
     ],
     "tbaederr\/perf\/cmp": [
@@ -145161,6 +145173,12 @@
             "author_name": "Alex Duran",
             "commit_date": "2026-06-03T21:29:54+02:00",
             "subject": "[OFFLOAD] Update L0 olMemFill unit tests known failures (#201323)"
+        },
+        {
+            "hash": "0fcf63e179486c0a7e72d656c65d2c0a45754a11",
+            "author_name": "Ron Green [NVIDIA]",
+            "commit_date": "2026-06-03T15:45:23-04:00",
+            "subject": "[flang][OpenACC] Add minus operator to reduction clause (#200909)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
