@@ -144747,6 +144747,18 @@
             "author_name": "Simon Pilgrim",
             "commit_date": "2026-06-03T12:49:40+00:00",
             "subject": "[X86] combineSelect - fold select(c,trunc(x),y) -> X86ISD::MTRUNC(x,y,c) for non-BWI targets (#201339)"
+        },
+        {
+            "hash": "27fd70f849f417db18ac581457f0419332a7a1fa",
+            "author_name": "Yanzuo Liu",
+            "commit_date": "2026-06-03T20:56:33+08:00",
+            "subject": "[clang][NFC] Introduce `LangOptions::isCompatibleWith(ClangABI)` (#201067)"
+        },
+        {
+            "hash": "799af5d80d6335cd10de91506b6beb7c043278eb",
+            "author_name": "Joshua Rodriguez",
+            "commit_date": "2026-06-03T14:00:37+01:00",
+            "subject": "[AArch64][GlobalISel] Add handling for cls intrinsic (#200440)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
