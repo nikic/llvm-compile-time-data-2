@@ -145803,6 +145803,24 @@
             "author_name": "Charles Zablit",
             "commit_date": "2026-06-04T15:02:10+01:00",
             "subject": "[lldb][Windows] Suspend new threads when stopped (#201558)"
+        },
+        {
+            "hash": "9fbb941b9defce93fb98099b91653db063b0ecba",
+            "author_name": "ioana ghiban",
+            "commit_date": "2026-06-04T16:26:19+02:00",
+            "subject": "[mlir][Func][EmitC] Bail-out to avoid errors from MemRef array conversions (#198583)"
+        },
+        {
+            "hash": "50347f52b68155f49d100839fb17bbda7a40a490",
+            "author_name": "Stephen Tozer",
+            "commit_date": "2026-06-04T15:29:33+01:00",
+            "subject": "[Dexter][NFC] Mark script tests unsupported for non-lldb debuggers (#201596)"
+        },
+        {
+            "hash": "6e58021642834b4646ffea0fb9a2254f46d30173",
+            "author_name": "Arthur Eubanks",
+            "commit_date": "2026-06-04T07:31:20-07:00",
+            "subject": "[MachineScheduler] Rework dag-maps-huge-region (#200945)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -150151,6 +150169,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-06-04T16:13:04+02:00",
             "subject": "[MCP] Early exit if no copies (NFC)"
+        }
+    ],
+    "nikic\/perf\/rda-enterbb": [
+        {
+            "hash": "4d2a670ba868a75103424ff3203f443391d55b1b",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-06-04T14:49:38+02:00",
+            "subject": "[FunctionAttrs] Regenerate test checks (NFC) (#201576)"
+        },
+        {
+            "hash": "481b79aea35769c357a9db93554ea216f958c58e",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-06-04T16:27:05+02:00",
+            "subject": "[RDA] Optimize enterBasicBlock()"
         }
     ]
 }
