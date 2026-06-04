@@ -145689,6 +145689,12 @@
             "author_name": "David Sherwood",
             "commit_date": "2026-06-04T11:58:32+01:00",
             "subject": "[LV] Implement integer part of VPDerivedIV cost model (#198252)"
+        },
+        {
+            "hash": "6a68bd8892d9bbfaba3847fb48da78a8923fe144",
+            "author_name": "adeshcom14",
+            "commit_date": "2026-06-04T16:45:00+05:30",
+            "subject": "[AMDGPU][GIsel] Replace old C type castings with safer C++ (#201505)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -149983,6 +149989,34 @@
             "author_name": "Simon Pilgrim",
             "commit_date": "2026-06-04T09:12:41+01:00",
             "subject": "Local test branch of #107135"
+        }
+    ],
+    "Enna1\/perf\/SCEV-forgetLoop": [
+        {
+            "hash": "8557b5714bca181906118a86d8152598f525fcc7",
+            "author_name": "Jacob Crawley",
+            "commit_date": "2026-06-04T09:23:37+00:00",
+            "subject": "[DAG] Fold INT_TO_FP( FP_TO_INT (x) ) to FTRUNC(X)  (#198477)"
+        },
+        {
+            "hash": "35f4b10f84f0c2a9f487599269b810801af44e0a",
+            "author_name": "Enna1",
+            "commit_date": "2026-06-04T18:33:03+08:00",
+            "subject": "[SCEV] Speed up forgetLoop by avoiding def-use walk for loop-header PHIs"
+        }
+    ],
+    "Enna1\/perf\/SCEV-forgetValue": [
+        {
+            "hash": "8557b5714bca181906118a86d8152598f525fcc7",
+            "author_name": "Jacob Crawley",
+            "commit_date": "2026-06-04T09:23:37+00:00",
+            "subject": "[DAG] Fold INT_TO_FP( FP_TO_INT (x) ) to FTRUNC(X)  (#198477)"
+        },
+        {
+            "hash": "dd5e29f0b811621dd60a7a4823a4adedfca7fad7",
+            "author_name": "Enna1",
+            "commit_date": "2026-06-04T18:33:19+08:00",
+            "subject": "[SCEV] Speed up forgetValue with single-lookup worklist via getExistingSCEV"
         }
     ]
 }
