@@ -15753,16 +15753,22 @@
     ],
     "nikic\/perf\/deref-at-point": [
         {
-            "hash": "b084b98abe07455fe190fba933d14f0dc365dd25",
+            "hash": "ea66732d303ae00e446691e105d039f527382091",
             "author_name": "Nikita Popov",
-            "commit_date": "2021-10-01T22:57:01+02:00",
-            "subject": "[BasicAA] Make test more robust (NFC)"
+            "commit_date": "2026-06-05T14:35:47+02:00",
+            "subject": "[Loads] Handle missing context instruction for willNotFreeBetween() (#201828)"
         },
         {
-            "hash": "e77e1e4309195992ab6e24fb5d4b227bc6f75391",
+            "hash": "a1551812400b906a270c1e2ca918748d83b506cd",
             "author_name": "Nikita Popov",
-            "commit_date": "2021-10-02T11:26:38+02:00",
-            "subject": "Redefine deref(N) attribute family as point-in-time semantics (aka deref-at-point)"
+            "commit_date": "2026-06-05T14:54:50+02:00",
+            "subject": "[Loads] Always pass down context in isSafeToLoadUnconditionally()"
+        },
+        {
+            "hash": "2747eb333c409c833afb0ee58b051910b188f7e5",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-06-05T14:59:21+02:00",
+            "subject": "Enable deref-at-point"
         }
     ],
     "nikic\/perf\/scev-addrec-flags": [
