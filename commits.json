@@ -146685,6 +146685,12 @@
             "author_name": "Benjamin Maxwell",
             "commit_date": "2026-06-05T12:37:56+00:00",
             "subject": "[LV] Allow reductions with partial alias masking (#200813)"
+        },
+        {
+            "hash": "2a80e6670190bf6a0ba0e9ba97a79c1e81eede35",
+            "author_name": "Justin Lebar",
+            "commit_date": "2026-06-05T12:44:15+00:00",
+            "subject": "[JumpThreading] NFC: Add comment referencing #199408. (#199718)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -151135,6 +151141,32 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-06-05T13:24:46+02:00",
             "subject": "201805"
+        }
+    ],
+    "c-rhodes\/perf\/aarch64-gisel-vreginfo-rbs": [
+        {
+            "hash": "78c586615f1b31c6c5f3d37a6638c76cdb821388",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-06-05T11:49:49+05:30",
+            "subject": "[LoopFusion] Reject loops containing atomic accesses (#201525)"
+        },
+        {
+            "hash": "04d471fcb7417f07114266299ff53aa72a4a0531",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-05T12:33:34+00:00",
+            "subject": "[AArch64][GlobalISel] Add aarch64-use-vreginfo-regbankselect pass"
+        },
+        {
+            "hash": "d758ffa6914e4133558e588b003662465cfccfe0",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-05T12:33:35+00:00",
+            "subject": "[AArch64][GlobalISel] Enable aarch64-use-vreginfo-regbankselect at O0"
+        },
+        {
+            "hash": "dfb5b0d8c2b5ae2f9f4dd6f43a64b63c06ff9759",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-05T12:33:35+00:00",
+            "subject": "[AArch64] Fix unimplemented GPR32 <-> FPR16 reg-to-reg copies"
         }
     ]
 }
