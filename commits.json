@@ -151312,5 +151312,33 @@
             "commit_date": "2026-06-05T14:24:13+00:00",
             "subject": "[AArch64][GlobalISel] Reduce fallbacks from type-based RegBankSelect"
         }
+    ],
+    "c-rhodes\/perf\/gisel-lost-debug-locs-smallptrset": [
+        {
+            "hash": "78c586615f1b31c6c5f3d37a6638c76cdb821388",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-06-05T11:49:49+05:30",
+            "subject": "[LoopFusion] Reject loops containing atomic accesses (#201525)"
+        },
+        {
+            "hash": "a788ce4aac8b77e193a07ce9e8c31941e28dd7e7",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-05T15:18:57+00:00",
+            "subject": "[GlobalISel] Store lost debug locations in SmallPtrSet"
+        }
+    ],
+    "mtrofin\/perf\/cfi_reland": [
+        {
+            "hash": "5589d540cce8fe95e12062d5c118da9e7769bd83",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-06-05T04:41:39+00:00",
+            "subject": "[DenseMap] Fix ubsan error after #201281 (#201742)"
+        },
+        {
+            "hash": "a1a789ecc1544df34aaa1c76774090c1734d0426",
+            "author_name": "Mircea Trofin",
+            "commit_date": "2026-06-05T08:20:55-07:00",
+            "subject": "Reland #184065"
+        }
     ]
 }
