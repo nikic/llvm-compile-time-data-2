@@ -1,0 +1,215 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/MachineDominanceFrontier.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/X86/X86LoadValueInjectionLoadHardening.cpp:49:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/DominanceFrontier.h:130: warning: type attributes ignored after type is already defined [-Wattributes]
+  130 |     DominanceFrontierBase<BasicBlock, false>;
+      | 
+[2976/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MacroFusion.cpp.o
+[2977/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MCInstLower.cpp.o
+[2978/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86OptimizeLEAs.cpp.o
+[2979/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86PadShortFunction.cpp.o
+[2980/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ShuffleDecodeConstantPool.cpp.o
+[2981/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetObjectFile.cpp.o
+[2982/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86WinEHState.cpp.o
+[2983/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86PartialReduction.cpp.o
+[2984/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86RegisterInfo.cpp.o
+[2985/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SpeculativeLoadHardening.cpp.o
+[2986/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SpeculativeExecutionSideEffectSuppression.cpp.o
+[2987/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ReturnThunks.cpp.o
+[2988/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SelectionDAGInfo.cpp.o
+[2989/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SuppressAPXForReloc.cpp.o
+[2990/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86WinEHUnwindV2.cpp.o
+[2991/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86Subtarget.cpp.o
+[2992/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetTransformInfo.cpp.o
+[2993/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/GISel/X86LegalizerInfo.cpp.o
+[2994/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/GISel/X86PreLegalizerCombiner.cpp.o
+[2995/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/GISel/X86PostLegalizerCombiner.cpp.o
+[2996/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/GISel/X86RegisterBankInfo.cpp.o
+[2997/3320] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ATTInstPrinter.cpp.o
+[2998/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/GISel/X86InstructionSelector.cpp.o
+[2999/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetMachine.cpp.o
+[3000/3320] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ShuffleDecode.cpp.o
+[3001/3320] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCAsmInfo.cpp.o
+[3002/3320] Building CXX object lib/Target/X86/AsmParser/CMakeFiles/LLVMX86AsmParser.dir/X86AsmParser.cpp.o
+[3003/3320] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86EncodingOptimization.cpp.o
+[3004/3320] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/GISel/X86CallLowering.cpp.o
+[3005/3320] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86IntelInstPrinter.cpp.o
+[3006/3320] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86InstPrinterCommon.cpp.o
+[3007/3320] Building CXX object lib/Target/X86/TargetInfo/CMakeFiles/LLVMX86Info.dir/X86TargetInfo.cpp.o
+[3008/3320] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86AsmBackend.cpp.o
+[3009/3320] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86InstComments.cpp.o
+[3010/3320] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCTargetDesc.cpp.o
+[3011/3320] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCCodeEmitter.cpp.o
+[3012/3320] Linking CXX static library lib/libLLVMX86Info.a
+[3013/3320] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MnemonicTables.cpp.o
+[3014/3320] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ELFObjectWriter.cpp.o
+[3015/3320] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFObjectWriter.cpp.o
+[3016/3320] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFStreamer.cpp.o
+[3017/3320] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFTargetStreamer.cpp.o
+[3018/3320] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MachObjectWriter.cpp.o
+[3019/3320] Linking CXX static library lib/libLLVMX86Disassembler.a
+[3020/3320] Linking CXX static library lib/libLLVMX86Desc.a
+[3021/3320] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/HIPUtility.cpp.o
+[3022/3320] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+[3023/3320] Linking CXX static library lib/libLLVMMCParser.a
+[3024/3320] Linking CXX static library lib/libLLVMX86AsmParser.a
+[3025/3320] Linking CXX static library lib/libLLVMObject.a
+[3026/3320] Linking CXX static library lib/libLLVMDlltoolDriver.a
+[3027/3320] Linking CXX static library lib/libLLVMLibDriver.a
+[3028/3320] Linking CXX static library lib/libLLVMDebugInfoDWARF.a
+[3029/3320] Linking CXX static library lib/libLLVMTextAPIBinaryReader.a
+[3030/3320] Linking CXX static library lib/libLLVMDebugInfoGSYM.a
+[3031/3320] Linking CXX static library lib/libLLVMDebugInfoPDB.a
+[3032/3320] Linking CXX static library lib/libLLVMSymbolize.a
+[3033/3320] Linking CXX static library lib/libLLVMObjectYAML.a
+[3034/3320] Linking CXX static library lib/libLLVMProfileData.a
+[3035/3320] Linking CXX static library lib/libLLVMCoverage.a
+[3036/3320] Linking CXX static library lib/libLLVMAnalysis.a
+[3037/3320] Linking CXX static library lib/libLLVMIRPrinter.a
+[3038/3320] Linking CXX static library lib/libLLVMFrontendAtomic.a
+[3039/3320] Linking CXX static library lib/libLLVMTarget.a
+[3040/3320] Linking CXX static library lib/libLLVMBitWriter.a
+[3041/3320] Linking CXX static library lib/libLLVMSandboxIR.a
+[3042/3320] Linking CXX static library lib/libLLVMCGData.a
+[3043/3320] Linking CXX static library lib/libLLVMTransformUtils.a
+[3044/3320] Linking CXX static library lib/libLLVMHipStdPar.a
+[3045/3320] Linking CXX static library lib/libLLVMLinker.a
+[3046/3320] Linking CXX static library lib/libLLVMAggressiveInstCombine.a
+[3047/3320] Linking CXX static library lib/libLLVMFrontendOffloading.a
+[3048/3320] Linking CXX static library lib/libLLVMObjCARCOpts.a
+[3049/3320] Linking CXX static library lib/libLLVMInstCombine.a
+[3050/3320] Linking CXX static library lib/libLLVMInstrumentation.a
+[3051/3320] Linking CXX static library lib/libLLVMFrontendDriver.a
+[3052/3320] Linking CXX static library lib/libLLVMVectorize.a
+[3053/3320] Linking CXX static library lib/libLLVMScalarOpts.a
+[3054/3320] Linking CXX static library lib/libLLVMFrontendOpenMP.a
+[3055/3320] Linking CXX static library lib/libLLVMipo.a
+[3056/3320] Linking CXX static library lib/libclangBasic.a
+[3057/3320] Linking CXX static library lib/libLLVMCoroutines.a
+[3058/3320] Linking CXX static library lib/libclangOptions.a
+[3059/3320] Linking CXX static library lib/libclangAPINotes.a
+[3060/3320] Linking CXX static library lib/libclangLex.a
+[3061/3320] Linking CXX static library lib/libclangRewrite.a
+[3062/3320] Linking CXX static library lib/libLLVMCodeGen.a
+[3063/3320] Generating VCSVersion.inc
+[3064/3320] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/CommonLinkerContext.cpp.o
+[3065/3320] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Memory.cpp.o
+[3066/3320] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Reproduce.cpp.o
+[3067/3320] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/DriverDispatcher.cpp.o
+[3068/3320] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Args.cpp.o
+[3069/3320] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Filesystem.cpp.o
+[3070/3320] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Strings.cpp.o
+[3071/3320] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/TargetOptionsCommandFlags.cpp.o
+[3072/3320] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Timer.cpp.o
+[3073/3320] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/DWARF.cpp.o
+[3074/3320] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/ErrorHandler.cpp.o
+[3075/3320] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Utils.cpp.o
+[3076/3320] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Version.cpp.o
+[3077/3320] Linking CXX static library lib/libLLVMAsmPrinter.a
+[3078/3320] Linking CXX static library lib/liblldCommon.a
+[3079/3320] Linking CXX static library lib/libLLVMSelectionDAG.a
+[3080/3320] Linking CXX static library lib/libLLVMGlobalISel.a
+[3081/3320] Linking CXX static library lib/libLLVMPasses.a
+[3082/3320] Linking CXX static library lib/libclangAST.a
+[3083/3320] Linking CXX static library lib/libclangEdit.a
+[3084/3320] Linking CXX static library lib/libclangUnifiedSymbolResolution.a
+[3085/3320] Linking CXX static library lib/libLLVMX86CodeGen.a
+[3086/3320] Linking CXX static library lib/libLLVMLTO.a
+[3087/3320] Linking CXX static library lib/libclangInstallAPI.a
+[3088/3320] Linking CXX static library lib/libLLVMDTLTO.a
+[3089/3320] Linking CXX static library lib/libclangScalableStaticAnalysisFrameworkCore.a
+[3090/3320] Linking CXX static library lib/libclangASTMatchers.a
+[3091/3320] Linking CXX static library lib/libclangAnalysis.a
+[3092/3320] Linking CXX static library lib/libclangScalableStaticAnalysisFrameworkAnalyses.a
+[3093/3320] Linking CXX static library lib/libclangAnalysisLifetimeSafety.a
+[3094/3320] Linking CXX static library lib/libclangSema.a
+[3095/3320] Linking CXX static library lib/libclangParse.a
+[3096/3320] Linking CXX static library lib/libclangSerialization.a
+[3097/3320] Linking CXX static library lib/libclangFrontend.a
+[3098/3320] Linking CXX static library lib/libclangScalableStaticAnalysisFrameworkFrontend.a
+[3099/3320] Linking CXX static library lib/libclangDependencyScanning.a
+[3100/3320] Linking CXX static library lib/libclangExtractAPI.a
+[3101/3320] Linking CXX static library lib/libclangRewriteFrontend.a
+[3102/3320] Linking CXX static library lib/libclangDriver.a
+[3103/3320] Linking CXX static library lib/libclangCodeGen.a
+[3104/3320] Linking CXX static library lib/libclangFrontendTool.a
+[3105/3320] Building AArch64GenInstrInfo.inc...
+[3106/3320] Building AArch64GenSubtargetInfo.inc...
+[3107/3320] Building CXX object tools/lld/tools/lld/CMakeFiles/lld.dir/lld-driver.cpp.o
+[3108/3320] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/InputFiles.cpp.o
+[3109/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64GlobalISelUtils.cpp.o
+[3110/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64Arm64ECCallLowering.cpp.o
+[3111/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64CollectLOH.cpp.o
+[3112/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64CondBrTuning.cpp.o
+[3113/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64AdvSIMDScalarPass.cpp.o
+[3114/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64ConditionalCompares.cpp.o
+[3115/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64DeadRegisterDefinitionsPass.cpp.o
+[3116/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64ExpandImm.cpp.o
+[3117/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64ExpandPseudoInsts.cpp.o
+[3118/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64FastISel.cpp.o
+[3119/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64FalkorHWPFFix.cpp.o
+[3120/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64A53Fix835769.cpp.o
+[3121/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64CompressJumpTables.cpp.o
+[3122/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64FrameLowering.cpp.o
+[3123/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64ConditionOptimizer.cpp.o
+[3124/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64RedundantCopyElimination.cpp.o
+[3125/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64RedundantCondBranchPass.cpp.o
+[3126/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64ISelDAGToDAG.cpp.o
+[3127/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64InstrInfo.cpp.o
+[3128/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64ISelLowering.cpp.o
+[3129/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64PostSelectOptimize.cpp.o
+[3130/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64LegalizerInfo.cpp.o
+[3131/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64PreLegalizerCombiner.cpp.o
+[3132/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64CodeLayoutOpt.cpp.o
+[3133/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64BranchTargets.cpp.o
+[3134/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64O0PreLegalizerCombiner.cpp.o
+[3135/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64RegisterBankInfo.cpp.o
+[3136/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64CallingConvention.cpp.o
+[3137/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64CallLowering.cpp.o
+[3138/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64PostLegalizerLowering.cpp.o
+[3139/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64CleanupLocalDynamicTLSPass.cpp.o
+[3140/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64AsmPrinter.cpp.o
+[3141/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64SMEAttributes.cpp.o
+[3142/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64A57FPLoadBalancing.cpp.o
+[3143/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64PostLegalizerCombiner.cpp.o
+[3144/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64InstructionSelector.cpp.o
+[3145/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64VRegInfoRegBankSelect.cpp.o
+FAILED: lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64VRegInfoRegBankSelect.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Target/AArch64 -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/AArch64 -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fvisibility=hidden -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64VRegInfoRegBankSelect.cpp.o -MF lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64VRegInfoRegBankSelect.cpp.o.d -o lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64VRegInfoRegBankSelect.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/AArch64/GISel/AArch64VRegInfoRegBankSelect.cpp
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/AArch64/GISel/AArch64VRegInfoRegBankSelect.cpp: In member function ‘virtual void {anonymous}::AArch64VRegInfoRegBankSelect::getAnalysisUsage(llvm::AnalysisUsage&) const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/AArch64/GISel/AArch64VRegInfoRegBankSelect.cpp:61:5: error: ‘getSelectionDAGFallbackAnalysisUsage’ was not declared in this scope
+   61 |     getSelectionDAGFallbackAnalysisUsage(AU);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[3146/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64PromoteConstant.cpp.o
+[3147/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64MIPeepholeOpt.cpp.o
+[3148/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64PBQPRegAlloc.cpp.o
+[3149/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64LowerHomogeneousPrologEpilog.cpp.o
+[3150/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64MachineScheduler.cpp.o
+[3151/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64MacroFusion.cpp.o
+[3152/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64MachineFunctionInfo.cpp.o
+[3153/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64SpeculationHardening.cpp.o
+[3154/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64PostCoalescerPass.cpp.o
+[3155/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64SelectionDAGInfo.cpp.o
+[3156/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64SLSHardening.cpp.o
+[3157/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64StackTaggingPreRA.cpp.o
+[3158/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64PointerAuth.cpp.o
+[3159/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64MCInstLower.cpp.o
+[3160/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64LoadStoreOptimizer.cpp.o
+[3161/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64StackTagging.cpp.o
+[3162/3320] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64RegisterInfo.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:497 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+272.66user 26.36system 0:24.12elapsed 1239%CPU (0avgtext+0avgdata 940420maxresident)k
+0inputs+4200936outputs (4485major+15950180minor)pagefaults 0swaps
