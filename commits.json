@@ -146433,6 +146433,12 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-06-05T07:17:00+01:00",
             "subject": "[GlobalISel] Move G_MEMCPY_INLINE into lowerMemCpyFamily (NFC) (#201570)"
+        },
+        {
+            "hash": "78c586615f1b31c6c5f3d37a6638c76cdb821388",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-06-05T11:49:49+05:30",
+            "subject": "[LoopFusion] Reject loops containing atomic accesses (#201525)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -150829,6 +150835,20 @@
             "author_name": "Claude (ctopt)",
             "commit_date": "2026-06-04T23:16:04+02:00",
             "subject": "dummy"
+        }
+    ],
+    "MaskRay\/perf\/densemap-drop-emptykey": [
+        {
+            "hash": "6ae71f321933ff629755ca61978a276a6e816827",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-06-05T08:04:45+02:00",
+            "subject": "[libc] (Begin to) implement ptrace for linux (#201601)"
+        },
+        {
+            "hash": "1e635086c72aeccde0381332e463ed1cea8d21be",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-06-04T23:23:34-07:00",
+            "subject": "Remove unused DenseMapInfo::getEmptyKey"
         }
     ]
 }
