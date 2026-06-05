@@ -1,0 +1,211 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage2.sh" failed
+
+STDOUT:
+27 clang++   0x000055e245e16fd8 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) + 1368
+28 clang++   0x000055e2473723cc clang::ParseAST(clang::Sema&, bool, bool) + 1164
+29 clang++   0x000055e246193582 clang::FrontendAction::Execute() + 50
+30 clang++   0x000055e2460feba5 clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 997
+31 clang++   0x000055e24627c448 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+32 clang++   0x000055e243b56499 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 2377
+33 clang++   0x000055e243b4ee4b
+34 clang++   0x000055e243b4eeff
+35 clang++   0x000055e245e91a3d
+36 clang++   0x000055e2453429f7 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+37 clang++   0x000055e245e91dd7
+38 clang++   0x000055e245e4fc67 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+39 clang++   0x000055e245e50c89 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 153
+40 clang++   0x000055e245e6095c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+41 clang++   0x000055e243b53b9f clang_main(int, char**, llvm::ToolContext const&) + 7839
+42 clang++   0x000055e243a53621 main + 113
+43 libc.so.6 0x00007fa78bbabd90
+44 libc.so.6 0x00007fa78bbabe40 __libc_start_main + 128
+45 clang++   0x000055e243b4e8c5 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang++: note: diagnostic msg: /tmp/Constant-d1d42c.cpp
+clang++: note: diagnostic msg: /tmp/Constant-d1d42c.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[1666/3046] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Module.cpp.o
+[1667/3046] Building X86GenPostLegalizeGICombiner.inc...
+[1668/3046] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/PassManager.cpp.o
+[1669/3046] Building X86GenRegisterBank.inc...
+[1670/3046] Building X86GenPreLegalizeGICombiner.inc...
+[1671/3046] Building X86GenRegisterInfo.inc...
+[1672/3046] Building X86GenSDNodeInfo.inc...
+[1673/3046] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Type.cpp.o
+[1674/3046] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/User.cpp.o
+[1675/3046] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Use.cpp.o
+[1676/3046] Building X86GenGlobalISel.inc...
+[1677/3046] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Value.cpp.o
+[1678/3046] Building X86GenFastISel.inc...
+[1679/3046] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Region.cpp.o
+[1680/3046] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Tracker.cpp.o
+[1681/3046] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o
+[1682/3046] Building CXX object lib/AsmParser/CMakeFiles/LLVMAsmParser.dir/AsmParserContext.cpp.o
+[1683/3046] Building CXX object lib/AsmParser/CMakeFiles/LLVMAsmParser.dir/Parser.cpp.o
+[1684/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/ETMTraceDecoder.cpp.o
+[1685/3046] Building CXX object lib/AsmParser/CMakeFiles/LLVMAsmParser.dir/LLLexer.cpp.o
+[1686/3046] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Context.cpp.o
+[1687/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/MemProfCommon.cpp.o
+[1688/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/DataAccessProf.cpp.o
+[1689/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/GCOV.cpp.o
+[1690/3046] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Instruction.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage2/lib/SandboxIR -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/SandboxIR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wno-pass-failed -Wmisleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -Xclang -fno-pch-timestamp -flto=thin -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -Winvalid-pch -Xclang -include-pch -Xclang /tmp/llvm-project-build-stage2/lib/IR/CMakeFiles/LLVMCore.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /tmp/llvm-project-build-stage2/lib/IR/CMakeFiles/LLVMCore.dir/cmake_pch.hxx -MD -MT lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Instruction.cpp.o -MF lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Instruction.cpp.o.d -o lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Instruction.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/SandboxIR/Instruction.cpp
+1.	<eof> parser at end of file
+2.	Optimizer
+3.	Running pass "require<globals-aa>,function(invalidate<aa>),require<profile-summary>,cgscc(devirt<4>(inline,function-attrs<skip-non-recursive-function-attrs>,argpromotion,openmp-opt-cgscc,function<eager-inv;no-rerun>(sroa<modify-cfg>,early-cse<memssa>,speculative-execution<only-if-divergent-target>,jump-threading,correlated-propagation,jump-table-to-switch,simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;no-switch-to-arithmetic;no-switch-to-lookup;keep-loops;no-hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;no-sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,instcombine<max-iterations=1;no-verify-fixpoint>,aggressive-instcombine,libcalls-shrinkwrap,tailcallelim,simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;no-switch-to-arithmetic;no-switch-to-lookup;keep-loops;no-hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;no-sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,reassociate,constraint-elimination,loop-mssa(loop-instsimplify,loop-simplifycfg,licm<no-allowspeculation>,loop-rotate<header-duplication;prepare-for-lto;no-check-exit-count>,licm<allowspeculation>,simple-loop-unswitch<nontrivial;trivial>),simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;no-switch-to-arithmetic;no-switch-to-lookup;keep-loops;no-hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;no-sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,instcombine<max-iterations=1;no-verify-fixpoint>,loop(loop-idiom,indvars,extra-simple-loop-unswitch-passes,loop-deletion,loop-unroll-full),sroa<modify-cfg>,vector-combine,mldst-motion<no-split-footer-bb>,gvn<>,sccp,bdce,instcombine<max-iterations=1;no-verify-fixpoint>,jump-threading,correlated-propagation,adce,memcpyopt,dse,move-auto-init,loop-mssa(licm<allowspeculation>),coro-elide,simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;switch-to-arithmetic;no-switch-to-lookup;keep-loops;hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,instcombine<max-iterations=1;no-verify-fixpoint>),function-attrs,function(require<should-not-run-function-passes>))),function(invalidate<should-not-run-function-passes>),cgscc(devirt<4>())" on module "/var/llvm-compile-time-tracker/llvm-project/llvm/lib/SandboxIR/Instruction.cpp"
+4.	Running pass "cgscc(devirt<4>(inline,function-attrs<skip-non-recursive-function-attrs>,argpromotion,openmp-opt-cgscc,function<eager-inv;no-rerun>(sroa<modify-cfg>,early-cse<memssa>,speculative-execution<only-if-divergent-target>,jump-threading,correlated-propagation,jump-table-to-switch,simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;no-switch-to-arithmetic;no-switch-to-lookup;keep-loops;no-hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;no-sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,instcombine<max-iterations=1;no-verify-fixpoint>,aggressive-instcombine,libcalls-shrinkwrap,tailcallelim,simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;no-switch-to-arithmetic;no-switch-to-lookup;keep-loops;no-hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;no-sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,reassociate,constraint-elimination,loop-mssa(loop-instsimplify,loop-simplifycfg,licm<no-allowspeculation>,loop-rotate<header-duplication;prepare-for-lto;no-check-exit-count>,licm<allowspeculation>,simple-loop-unswitch<nontrivial;trivial>),simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;no-switch-to-arithmetic;no-switch-to-lookup;keep-loops;no-hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;no-sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,instcombine<max-iterations=1;no-verify-fixpoint>,loop(loop-idiom,indvars,extra-simple-loop-unswitch-passes,loop-deletion,loop-unroll-full),sroa<modify-cfg>,vector-combine,mldst-motion<no-split-footer-bb>,gvn<>,sccp,bdce,instcombine<max-iterations=1;no-verify-fixpoint>,jump-threading,correlated-propagation,adce,memcpyopt,dse,move-auto-init,loop-mssa(licm<allowspeculation>),coro-elide,simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;switch-to-arithmetic;no-switch-to-lookup;keep-loops;hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,instcombine<max-iterations=1;no-verify-fixpoint>),function-attrs,function(require<should-not-run-function-passes>)))" on module "/var/llvm-compile-time-tracker/llvm-project/llvm/lib/SandboxIR/Instruction.cpp"
+5.	Running pass "gvn<>" on function "_ZN4llvm9sandboxir7Tracker17emplaceIfTrackingINS0_13GenericSetterIXadL_ZNKS0_11Instruction16hasAllowContractEvEEXadL_ZNS4_19setHasAllowContractEbEEEEJPS4_EEEbDpT0_"
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x00005595568e5da0 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 240
+1  clang++   0x00005595568e3934 llvm::sys::CleanupOnSignal(unsigned long) + 164
+2  clang++   0x0000559556822658
+3  libc.so.6 0x00007f603e102520
+4  clang++   0x0000559556284311 llvm::DominatorTreeBase<llvm::BasicBlock, false>::dominates(llvm::BasicBlock const*, llvm::BasicBlock const*) const + 33
+5  clang++   0x00005595566d59f9 llvm::GVNPass::findLeader(llvm::BasicBlock const*, unsigned int) + 105
+6  clang++   0x00005595566e1346
+7  clang++   0x00005595566e22ea llvm::GVNPass::performPRE(llvm::Function&) + 1434
+8  clang++   0x00005595566e7e3e llvm::GVNPass::runImpl(llvm::Function&, llvm::AssumptionCache&, llvm::DominatorTree&, llvm::TargetLibraryInfo const&, llvm::AAResults&, llvm::MemoryDependenceResults*, llvm::LoopInfo&, llvm::OptimizationRemarkEmitter*, llvm::MemorySSA*) + 1694
+9  clang++   0x00005595566e86bb llvm::GVNPass::run(llvm::Function&, llvm::AnalysisManager<llvm::Function>&) + 523
+10 clang++   0x0000559556c9d996
+11 clang++   0x0000559556352f00 llvm::PassManager<llvm::Function, llvm::AnalysisManager<llvm::Function>>::run(llvm::Function&, llvm::AnalysisManager<llvm::Function>&) + 1088
+12 clang++   0x00005595550cf8d6
+13 clang++   0x000055955593b53e llvm::CGSCCToFunctionPassAdaptor::run(llvm::LazyCallGraph::SCC&, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>&, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&) + 894
+14 clang++   0x00005595550d1a56
+15 clang++   0x00005595559336ed llvm::PassManager<llvm::LazyCallGraph::SCC, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&>::run(llvm::LazyCallGraph::SCC&, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>&, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&) + 365
+16 clang++   0x0000559557a49686
+17 clang++   0x000055955593877a llvm::DevirtSCCRepeatedPass::run(llvm::LazyCallGraph::SCC&, llvm::AnalysisManager<llvm::LazyCallGraph::SCC, llvm::LazyCallGraph&>&, llvm::LazyCallGraph&, llvm::CGSCCUpdateResult&) + 474
+18 clang++   0x0000559557a496d6
+19 clang++   0x0000559555935d55 llvm::ModuleToPostOrderCGSCCPassAdaptor::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 4101
+20 clang++   0x00005595550d1a06
+21 clang++   0x00005595563559e0 llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 1088
+22 clang++   0x00005595581f52eb llvm::ModuleInlinerWrapperPass::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 651
+23 clang++   0x0000559557a48c56
+24 clang++   0x00005595563559e0 llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 1088
+25 clang++   0x0000559556cab25e
+26 clang++   0x0000559556caf1ad clang::emitBackendOutput(clang::CompilerInstance&, clang::CodeGenOptions&, llvm::StringRef, llvm::Module*, clang::BackendAction, llvm::IntrusiveRefCntPtr<llvm::vfs::FileSystem>, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>, clang::BackendConsumer*) + 2221
+27 clang++   0x00005595572f6fd8 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) + 1368
+28 clang++   0x00005595588523cc clang::ParseAST(clang::Sema&, bool, bool) + 1164
+29 clang++   0x0000559557673582 clang::FrontendAction::Execute() + 50
+30 clang++   0x00005595575deba5 clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 997
+31 clang++   0x000055955775c448 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+32 clang++   0x0000559555036499 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 2377
+33 clang++   0x000055955502ee4b
+34 clang++   0x000055955502eeff
+35 clang++   0x0000559557371a3d
+36 clang++   0x00005595568229f7 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+37 clang++   0x0000559557371dd7
+38 clang++   0x000055955732fc67 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+39 clang++   0x0000559557330c89 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 153
+40 clang++   0x000055955734095c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+41 clang++   0x0000559555033b9f clang_main(int, char**, llvm::ToolContext const&) + 7839
+42 clang++   0x0000559554f33621 main + 113
+43 libc.so.6 0x00007f603e0e9d90
+44 libc.so.6 0x00007f603e0e9e40 __libc_start_main + 128
+45 clang++   0x000055955502e8c5 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING FILES TO THE BUG REPORT:
+Preprocessed source(s) and associated run script(s) are located at:
+clang++: note: diagnostic msg: /tmp/Instruction-890da8.cpp
+clang++: note: diagnostic msg: /tmp/Instruction-890da8.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[1691/3046] Building X86GenDAGISel.inc...
+[1692/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/MemProfSummary.cpp.o
+[1693/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/MemProf.cpp.o
+[1694/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/MemProfSummaryBuilder.cpp.o
+[1695/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/MemProfRadixTree.cpp.o
+[1696/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/PGOCtxProfWriter.cpp.o
+[1697/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/InstrProfCorrelator.cpp.o
+[1698/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/PGOCtxProfReader.cpp.o
+[1699/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/IndexedMemProfData.cpp.o
+[1700/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/SymbolRemappingReader.cpp.o
+[1701/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/ProfileSummaryBuilder.cpp.o
+[1702/3046] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/OptimizationLevel.cpp.o
+[1703/3046] Building CXX object lib/ProfileData/Coverage/CMakeFiles/LLVMCoverage.dir/CoverageMappingWriter.cpp.o
+[1704/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/InstrProfWriter.cpp.o
+[1705/3046] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/CodeGenPassBuilder.cpp.o
+[1706/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/InstrProf.cpp.o
+[1707/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/SampleProf.cpp.o
+[1708/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/ItaniumManglingCanonicalizer.cpp.o
+[1709/3046] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/ARMTargetParserCommon.cpp.o
+[1710/3046] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/AMDGPUTargetParser.cpp.o
+[1711/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/InstrProfReader.cpp.o
+[1712/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/SampleProfWriter.cpp.o
+[1713/3046] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/AVRTargetParser.cpp.o
+[1714/3046] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/AArch64TargetParser.cpp.o
+[1715/3046] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/CSKYTargetParser.cpp.o
+[1716/3046] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/ARMTargetParser.cpp.o
+[1717/3046] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/LoongArchTargetParser.cpp.o
+[1718/3046] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/PPCTargetParser.cpp.o
+[1719/3046] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/Host.cpp.o
+[1720/3046] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/SubtargetFeature.cpp.o
+[1721/3046] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/TargetParser.cpp.o
+[1722/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/SampleProfReader.cpp.o
+[1723/3046] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/TargetDataLayout.cpp.o
+[1724/3046] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/XtensaTargetParser.cpp.o
+[1725/3046] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/ArchitectureSet.cpp.o
+[1726/3046] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/X86TargetParser.cpp.o
+[1727/3046] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/RISCVTargetParser.cpp.o
+[1728/3046] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/RISCVISAInfo.cpp.o
+[1729/3046] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/Architecture.cpp.o
+[1730/3046] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/PackedVersion.cpp.o
+[1731/3046] Building X86GenSubtargetInfo.inc...
+[1732/3046] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/PassBuilderBindings.cpp.o
+[1733/3046] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/MemProfReader.cpp.o
+[1734/3046] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/Platform.cpp.o
+[1735/3046] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/Triple.cpp.o
+[1736/3046] Linking CXX static library lib/libLLVMTargetParser.a
+[1737/3046] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/TextAPIError.cpp.o
+[1738/3046] Linking CXX static library lib/libLLVMBinaryFormat.a
+[1739/3046] Linking CXX static library lib/libLLVMCore.a
+FAILED: lib/libLLVMCore.a 
+: && /usr/bin/cmake -E rm -f lib/libLLVMCore.a && /tmp/llvm-project-build-stage1/bin/llvm-ar Dqc lib/libLLVMCore.a  lib/IR/CMakeFiles/LLVMCore.dir/AbstractCallSite.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/AsmWriter.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/Assumptions.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/Attributes.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/AutoUpgrade.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/BasicBlock.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/BuiltinGCs.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/Comdat.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/ConstantFold.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/ConstantFPRange.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/ConstantRange.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/ConstantRangeList.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/Constants.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/ConvergenceVerifier.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/Core.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/CycleInfo.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/DIBuilder.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/DataLayout.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/DebugInfo.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/DebugInfoMetadata.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/DIExpressionOptimizer.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/DebugProgramInstruction.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/DebugLoc.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/DiagnosticHandler.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/DiagnosticInfo.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/DiagnosticPrinter.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/Dominators.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/DroppedVariableStats.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/DroppedVariableStatsIR.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/EHPersonalities.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/FPEnv.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/Function.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/GCStrategy.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/GVMaterializer.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/Globals.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/Intrinsics.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/NVVMIntrinsicUtils.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/IRBuilder.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/IRPrintingPasses.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/SSAContext.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/InlineAsm.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/Instruction.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/Instructions.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/IntrinsicInst.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/LLVMContext.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/LLVMContextImpl.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/LLVMRemarkStreamer.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/LegacyPassManager.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/MDBuilder.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/MemoryModelRelaxationAnnotations.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/Mangler.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/Metadata.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/Module.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/ModuleSummaryIndex.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/Operator.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/OptBisect.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/PatternMatch.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/Pass.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/PassInstrumentation.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/PassManager.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/PassRegistry.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/PassTimingInfo.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/PrintPasses.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/ProfDataUtils.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/SafepointIRVerifier.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/ProfileSummary.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/PseudoProbe.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/ReplaceConstant.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/Statepoint.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/StructuralHash.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/Type.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/TypedPointerType.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/TypeFinder.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/Use.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/User.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/Value.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/ValueSymbolTable.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/VectorTypeUtils.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/Verifier.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/VFABIDemangler.cpp.o lib/IR/CMakeFiles/LLVMCore.dir/RuntimeLibcalls.cpp.o && /tmp/llvm-project-build-stage1/bin/llvm-ranlib -D lib/libLLVMCore.a && :
+/tmp/llvm-project-build-stage1/bin/llvm-ar: error: lib/IR/CMakeFiles/LLVMCore.dir/TypeFinder.cpp.o: No such file or directory
+[1740/3046] Building CXX object lib/AsmParser/CMakeFiles/LLVMAsmParser.dir/LLParser.cpp.o
+[1741/3046] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/Symbol.cpp.o
+[1742/3046] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/RecordVisitor.cpp.o
+[1743/3046] Building X86GenInstrInfo.inc...
+[1744/3046] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/SymbolSet.cpp.o
+[1745/3046] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/Target.cpp.o
+[1746/3046] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/RecordsSlice.cpp.o
+[1747/3046] Building CXX object lib/ProfileData/Coverage/CMakeFiles/LLVMCoverage.dir/CoverageMappingReader.cpp.o
+[1748/3046] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/InterfaceFile.cpp.o
+[1749/3046] Building CXX object lib/ProfileData/Coverage/CMakeFiles/LLVMCoverage.dir/CoverageMapping.cpp.o
+[1750/3046] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/TextStubV5.cpp.o
+[1751/3046] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/TextStub.cpp.o
+[1752/3046] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/StandardInstrumentations.cpp.o
+[1753/3046] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/PassBuilderPipelines.cpp.o
+[1754/3046] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/PassBuilder.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:497 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
