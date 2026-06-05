@@ -146547,6 +146547,42 @@
             "author_name": "Luke Hutton",
             "commit_date": "2026-06-05T09:41:47+01:00",
             "subject": "[mlir][tosa] Allow numeric values to be specified for mxint8 constants (#200762)"
+        },
+        {
+            "hash": "e379ef3ebeec1fb2592abb9b459c89c82acb3eb6",
+            "author_name": "Igor Wodiany",
+            "commit_date": "2026-06-05T09:58:12+01:00",
+            "subject": "[SLSR] Avoid repeatedly calling canReuseInstruction for the same Basis (#196545)"
+        },
+        {
+            "hash": "9c5dcfcf8572c347b1d4acb165bdac6f43f93838",
+            "author_name": "Tony Varghese",
+            "commit_date": "2026-06-05T14:33:50+05:30",
+            "subject": "[NFC][clang] Add pragma comment formatting commit to blame ignore list (#201765)"
+        },
+        {
+            "hash": "7d987f8a35a71a97754ccab804cb9966ece52e08",
+            "author_name": "Ryosuke Niwa",
+            "commit_date": "2026-06-05T02:05:51-07:00",
+            "subject": "[alpha.webkit.NoDeleteChecker] Allow no-delete default constructors (#201544)"
+        },
+        {
+            "hash": "0d566c6fc6af5c9e9428c03891c9fc4da6920ddc",
+            "author_name": "Igor Kirillov",
+            "commit_date": "2026-06-05T10:12:56+01:00",
+            "subject": "[SimplifyCFG] Look at all uses when checking phi incoming for UB (#200164)"
+        },
+        {
+            "hash": "982dc4f20cce5c6b92b1d9e3235ecf84cc84e149",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-06-05T10:27:52+01:00",
+            "subject": "[X86] combineINSERT_SUBVECTOR - peek through BITCAST and EXTRACT_SUBVECTOR when trying to find shuffle combine candidates (#201781)"
+        },
+        {
+            "hash": "643eec316566aaf5e9bc3b29ef3a0365fdab89df",
+            "author_name": "Abid Qadeer",
+            "commit_date": "2026-06-05T10:37:27+01:00",
+            "subject": "[prettyprinters] Fix syntax error introduced by 17f85f467249. (#201359)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -150957,6 +150993,32 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-06-04T23:23:34-07:00",
             "subject": "Remove unused DenseMapInfo::getEmptyKey"
+        }
+    ],
+    "tbaederr\/perf\/iteration": [
+        {
+            "hash": "f3bed426308372c70df7565095d6abaaab5d1aa6",
+            "author_name": "Justin Lebar",
+            "commit_date": "2026-06-01T21:09:45-07:00",
+            "subject": "[SelectionDAG] Don't over-claim alignment on vector splice\/compress stack MMOs (#200622)"
+        },
+        {
+            "hash": "bff8b524324927596df5eff6f6460f60aefdca72",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-06-05T10:20:29+02:00",
+            "subject": "[clang][bytecode] Fix conditonal op scoping"
+        },
+        {
+            "hash": "0d1a8df9d65f6f82b603d7ae8777639a3fa86a06",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-06-05T11:32:57+02:00",
+            "subject": "Test"
+        },
+        {
+            "hash": "55456df430469671d37d6f65be686cacf7ec70c9",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-06-05T11:33:07+02:00",
+            "subject": "Iteration"
         }
     ]
 }
