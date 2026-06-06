@@ -151966,5 +151966,19 @@
             "commit_date": "2026-06-06T09:34:18+02:00",
             "subject": "Deduplicate cast instructions across ICmpZero fixups"
         }
+    ],
+    "nikic\/perf\/globalopt-unreachable": [
+        {
+            "hash": "3c95dd29d834fde3a1070655a8a33df8ab3ee8b8",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-05-30T13:54:48+00:00",
+            "subject": "[VPlan] Thread scalar type through VPBlend, VPExpression recipes. (NFC) (#200255)"
+        },
+        {
+            "hash": "f0c22257d343c7f6fc2ef904e1c1f4d046bd843e",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-06-06T10:35:55+02:00",
+            "subject": "Don't drop unreachable blocks in globalopt"
+        }
     ]
 }
