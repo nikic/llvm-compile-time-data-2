@@ -147783,6 +147783,12 @@
             "author_name": "Feng Zou",
             "commit_date": "2026-06-07T16:14:56+08:00",
             "subject": "[DAG] Narrow vselect mask to vXi1 in foldToMaskedStore (#201609)"
+        },
+        {
+            "hash": "7df3d9277973096d3b4231b6819b2fcc5603c67e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-07T14:10:05+02:00",
+            "subject": "[VPlan] Add VPReplicateRecipe::operandsWithoutMask() (NFC). (#202115)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -152443,6 +152449,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-06-06T23:02:30-07:00",
             "subject": "[DenseMap] Fibonacci hash"
+        }
+    ],
+    "aengelke\/perf\/instcombine-inserter": [
+        {
+            "hash": "97bb7ec082b675cabae8c9e5001a8a8c14d03731",
+            "author_name": "Xavier Roche",
+            "commit_date": "2026-06-03T10:04:54+02:00",
+            "subject": "[libc++] Reject cv-qualified types in __is_signed\/unsigned_integer_v (#200377)"
+        },
+        {
+            "hash": "015835c48a7de893bf2d12b7434f282b5732c643",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-06-07T12:15:39+00:00",
+            "subject": "[InstCombine][NFC] Use custom inserter class"
         }
     ]
 }
