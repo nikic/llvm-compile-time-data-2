@@ -152512,5 +152512,31 @@
             "commit_date": "2026-06-07T13:40:08+00:00",
             "subject": "ic no operand constantvector\/expr fold"
         }
+    ],
+    "aengelke\/perf\/instcombine-inserter2": [
+        {
+            "hash": "97bb7ec082b675cabae8c9e5001a8a8c14d03731",
+            "author_name": "Xavier Roche",
+            "commit_date": "2026-06-03T10:04:54+02:00",
+            "subject": "[libc++] Reject cv-qualified types in __is_signed\/unsigned_integer_v (#200377)"
+        },
+        {
+            "hash": "f3a8ff1fb7db3d7514343d699aaa6af5dcca3a7a",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-06-07T13:48:23+00:00",
+            "subject": "[InstCombine][NFC] Use custom inserter for metadata"
+        },
+        {
+            "hash": "100e8dae8e36d7d194d8dd84ca59b155e866343d",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-06-07T13:52:13+00:00",
+            "subject": "more test?"
+        },
+        {
+            "hash": "4ce3656c440274f5e2b37edd8c48b7db53256367",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-06-07T13:52:18+00:00",
+            "subject": "Remove IRBuilder AddMetadataToInst"
+        }
     ]
 }
