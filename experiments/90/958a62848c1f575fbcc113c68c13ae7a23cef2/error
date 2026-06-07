@@ -1,0 +1,215 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeRecord.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeVisitorCallbacks.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeRecordMapping.h:15,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/ContinuationRecordBuilder.h:15,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/DebugInfo/CodeView/ContinuationRecordBuilder.cpp:1:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h: In static member function ‘static llvm::codeview::TypeIndex llvm::DenseMapInfo<llvm::codeview::TypeIndex>::getEmptyKey()’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:294:56: error: ‘getEmptyKey’ is not a member of ‘llvm::DenseMapInfo<unsigned int>’
+  294 |     return codeview::TypeIndex{DenseMapInfo<uint32_t>::getEmptyKey()};
+      |                                                        ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:294:69: error: no matching function for call to ‘llvm::codeview::TypeIndex::TypeIndex(<brace-enclosed initializer list>)’
+  294 |     return codeview::TypeIndex{DenseMapInfo<uint32_t>::getEmptyKey()};
+      |                                                                     ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:109:3: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex(llvm::codeview::SimpleTypeKind, llvm::codeview::SimpleTypeMode)’
+  109 |   TypeIndex(SimpleTypeKind Kind, SimpleTypeMode Mode)
+      |   ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:109:3: note:   candidate expects 2 arguments, 1 provided
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:107:12: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex(llvm::codeview::SimpleTypeKind)’
+  107 |   explicit TypeIndex(SimpleTypeKind Kind)
+      |            ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:107:12: note:   conversion of argument 1 would be ill-formed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:106:12: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex(uint32_t)’
+  106 |   explicit TypeIndex(uint32_t Index) : Index(Index) {}
+      |            ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:106:12: note:   conversion of argument 1 would be ill-formed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:105:3: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex()’
+  105 |   TypeIndex() : Index(static_cast<uint32_t>(SimpleTypeKind::None)) {}
+      |   ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:105:3: note:   candidate expects 0 arguments, 1 provided
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note: candidate: ‘constexpr llvm::codeview::TypeIndex::TypeIndex(const llvm::codeview::TypeIndex&)’
+   97 | class TypeIndex {
+      |       ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note:   conversion of argument 1 would be ill-formed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note: candidate: ‘constexpr llvm::codeview::TypeIndex::TypeIndex(llvm::codeview::TypeIndex&&)’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note:   conversion of argument 1 would be ill-formed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h: In static member function ‘static llvm::codeview::TypeIndex llvm::DenseMapInfo<llvm::codeview::TypeIndex>::getTombstoneKey()’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:297:56: error: ‘getTombstoneKey’ is not a member of ‘llvm::DenseMapInfo<unsigned int>’
+  297 |     return codeview::TypeIndex{DenseMapInfo<uint32_t>::getTombstoneKey()};
+      |                                                        ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:297:73: error: no matching function for call to ‘llvm::codeview::TypeIndex::TypeIndex(<brace-enclosed initializer list>)’
+  297 |     return codeview::TypeIndex{DenseMapInfo<uint32_t>::getTombstoneKey()};
+      |                                                                         ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:109:3: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex(llvm::codeview::SimpleTypeKind, llvm::codeview::SimpleTypeMode)’
+  109 |   TypeIndex(SimpleTypeKind Kind, SimpleTypeMode Mode)
+      |   ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:109:3: note:   candidate expects 2 arguments, 1 provided
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:107:12: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex(llvm::codeview::SimpleTypeKind)’
+  107 |   explicit TypeIndex(SimpleTypeKind Kind)
+      |            ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:107:12: note:   conversion of argument 1 would be ill-formed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:106:12: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex(uint32_t)’
+  106 |   explicit TypeIndex(uint32_t Index) : Index(Index) {}
+      |            ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:106:12: note:   conversion of argument 1 would be ill-formed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:105:3: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex()’
+  105 |   TypeIndex() : Index(static_cast<uint32_t>(SimpleTypeKind::None)) {}
+      |   ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:105:3: note:   candidate expects 0 arguments, 1 provided
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note: candidate: ‘constexpr llvm::codeview::TypeIndex::TypeIndex(const llvm::codeview::TypeIndex&)’
+   97 | class TypeIndex {
+      |       ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note:   conversion of argument 1 would be ill-formed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note: candidate: ‘constexpr llvm::codeview::TypeIndex::TypeIndex(llvm::codeview::TypeIndex&&)’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note:   conversion of argument 1 would be ill-formed:
+[226/3312] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/TargetLibraryInfoEmitter.cpp.o
+[227/3312] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/VTEmitter.cpp.o
+[228/3312] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CVSymbolVisitor.cpp.o
+FAILED: lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CVSymbolVisitor.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/DebugInfo/CodeView -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/DebugInfo/CodeView -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CVSymbolVisitor.cpp.o -MF lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CVSymbolVisitor.cpp.o.d -o lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CVSymbolVisitor.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/DebugInfo/CodeView/CVSymbolVisitor.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/SymbolRecord.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/SymbolVisitorCallbacks.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/DebugInfo/CodeView/CVSymbolVisitor.cpp:13:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h: In static member function ‘static llvm::codeview::TypeIndex llvm::DenseMapInfo<llvm::codeview::TypeIndex>::getEmptyKey()’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:294:56: error: ‘getEmptyKey’ is not a member of ‘llvm::DenseMapInfo<unsigned int>’
+  294 |     return codeview::TypeIndex{DenseMapInfo<uint32_t>::getEmptyKey()};
+      |                                                        ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:294:69: error: no matching function for call to ‘llvm::codeview::TypeIndex::TypeIndex(<brace-enclosed initializer list>)’
+  294 |     return codeview::TypeIndex{DenseMapInfo<uint32_t>::getEmptyKey()};
+      |                                                                     ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:109:3: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex(llvm::codeview::SimpleTypeKind, llvm::codeview::SimpleTypeMode)’
+  109 |   TypeIndex(SimpleTypeKind Kind, SimpleTypeMode Mode)
+      |   ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:109:3: note:   candidate expects 2 arguments, 1 provided
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:107:12: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex(llvm::codeview::SimpleTypeKind)’
+  107 |   explicit TypeIndex(SimpleTypeKind Kind)
+      |            ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:107:12: note:   conversion of argument 1 would be ill-formed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:106:12: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex(uint32_t)’
+  106 |   explicit TypeIndex(uint32_t Index) : Index(Index) {}
+      |            ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:106:12: note:   conversion of argument 1 would be ill-formed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:105:3: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex()’
+  105 |   TypeIndex() : Index(static_cast<uint32_t>(SimpleTypeKind::None)) {}
+      |   ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:105:3: note:   candidate expects 0 arguments, 1 provided
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note: candidate: ‘constexpr llvm::codeview::TypeIndex::TypeIndex(const llvm::codeview::TypeIndex&)’
+   97 | class TypeIndex {
+      |       ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note:   conversion of argument 1 would be ill-formed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note: candidate: ‘constexpr llvm::codeview::TypeIndex::TypeIndex(llvm::codeview::TypeIndex&&)’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note:   conversion of argument 1 would be ill-formed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h: In static member function ‘static llvm::codeview::TypeIndex llvm::DenseMapInfo<llvm::codeview::TypeIndex>::getTombstoneKey()’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:297:56: error: ‘getTombstoneKey’ is not a member of ‘llvm::DenseMapInfo<unsigned int>’
+  297 |     return codeview::TypeIndex{DenseMapInfo<uint32_t>::getTombstoneKey()};
+      |                                                        ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:297:73: error: no matching function for call to ‘llvm::codeview::TypeIndex::TypeIndex(<brace-enclosed initializer list>)’
+  297 |     return codeview::TypeIndex{DenseMapInfo<uint32_t>::getTombstoneKey()};
+      |                                                                         ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:109:3: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex(llvm::codeview::SimpleTypeKind, llvm::codeview::SimpleTypeMode)’
+  109 |   TypeIndex(SimpleTypeKind Kind, SimpleTypeMode Mode)
+      |   ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:109:3: note:   candidate expects 2 arguments, 1 provided
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:107:12: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex(llvm::codeview::SimpleTypeKind)’
+  107 |   explicit TypeIndex(SimpleTypeKind Kind)
+      |            ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:107:12: note:   conversion of argument 1 would be ill-formed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:106:12: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex(uint32_t)’
+  106 |   explicit TypeIndex(uint32_t Index) : Index(Index) {}
+      |            ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:106:12: note:   conversion of argument 1 would be ill-formed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:105:3: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex()’
+  105 |   TypeIndex() : Index(static_cast<uint32_t>(SimpleTypeKind::None)) {}
+      |   ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:105:3: note:   candidate expects 0 arguments, 1 provided
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note: candidate: ‘constexpr llvm::codeview::TypeIndex::TypeIndex(const llvm::codeview::TypeIndex&)’
+   97 | class TypeIndex {
+      |       ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note:   conversion of argument 1 would be ill-formed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note: candidate: ‘constexpr llvm::codeview::TypeIndex::TypeIndex(llvm::codeview::TypeIndex&&)’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note:   conversion of argument 1 would be ill-formed:
+[229/3312] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CVTypeVisitor.cpp.o
+FAILED: lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CVTypeVisitor.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/DebugInfo/CodeView -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/DebugInfo/CodeView -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CVTypeVisitor.cpp.o -MF lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CVTypeVisitor.cpp.o.d -o lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/CVTypeVisitor.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/DebugInfo/CodeView/CVTypeVisitor.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeCollection.h:14,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/DebugInfo/CodeView/CVTypeVisitor.cpp:11:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h: In static member function ‘static llvm::codeview::TypeIndex llvm::DenseMapInfo<llvm::codeview::TypeIndex>::getEmptyKey()’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:294:56: error: ‘getEmptyKey’ is not a member of ‘llvm::DenseMapInfo<unsigned int>’
+  294 |     return codeview::TypeIndex{DenseMapInfo<uint32_t>::getEmptyKey()};
+      |                                                        ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:294:69: error: no matching function for call to ‘llvm::codeview::TypeIndex::TypeIndex(<brace-enclosed initializer list>)’
+  294 |     return codeview::TypeIndex{DenseMapInfo<uint32_t>::getEmptyKey()};
+      |                                                                     ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:109:3: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex(llvm::codeview::SimpleTypeKind, llvm::codeview::SimpleTypeMode)’
+  109 |   TypeIndex(SimpleTypeKind Kind, SimpleTypeMode Mode)
+      |   ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:109:3: note:   candidate expects 2 arguments, 1 provided
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:107:12: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex(llvm::codeview::SimpleTypeKind)’
+  107 |   explicit TypeIndex(SimpleTypeKind Kind)
+      |            ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:107:12: note:   conversion of argument 1 would be ill-formed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:106:12: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex(uint32_t)’
+  106 |   explicit TypeIndex(uint32_t Index) : Index(Index) {}
+      |            ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:106:12: note:   conversion of argument 1 would be ill-formed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:105:3: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex()’
+  105 |   TypeIndex() : Index(static_cast<uint32_t>(SimpleTypeKind::None)) {}
+      |   ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:105:3: note:   candidate expects 0 arguments, 1 provided
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note: candidate: ‘constexpr llvm::codeview::TypeIndex::TypeIndex(const llvm::codeview::TypeIndex&)’
+   97 | class TypeIndex {
+      |       ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note:   conversion of argument 1 would be ill-formed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note: candidate: ‘constexpr llvm::codeview::TypeIndex::TypeIndex(llvm::codeview::TypeIndex&&)’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note:   conversion of argument 1 would be ill-formed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h: In static member function ‘static llvm::codeview::TypeIndex llvm::DenseMapInfo<llvm::codeview::TypeIndex>::getTombstoneKey()’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:297:56: error: ‘getTombstoneKey’ is not a member of ‘llvm::DenseMapInfo<unsigned int>’
+  297 |     return codeview::TypeIndex{DenseMapInfo<uint32_t>::getTombstoneKey()};
+      |                                                        ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:297:73: error: no matching function for call to ‘llvm::codeview::TypeIndex::TypeIndex(<brace-enclosed initializer list>)’
+  297 |     return codeview::TypeIndex{DenseMapInfo<uint32_t>::getTombstoneKey()};
+      |                                                                         ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:109:3: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex(llvm::codeview::SimpleTypeKind, llvm::codeview::SimpleTypeMode)’
+  109 |   TypeIndex(SimpleTypeKind Kind, SimpleTypeMode Mode)
+      |   ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:109:3: note:   candidate expects 2 arguments, 1 provided
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:107:12: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex(llvm::codeview::SimpleTypeKind)’
+  107 |   explicit TypeIndex(SimpleTypeKind Kind)
+      |            ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:107:12: note:   conversion of argument 1 would be ill-formed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:106:12: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex(uint32_t)’
+  106 |   explicit TypeIndex(uint32_t Index) : Index(Index) {}
+      |            ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:106:12: note:   conversion of argument 1 would be ill-formed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:105:3: note: candidate: ‘llvm::codeview::TypeIndex::TypeIndex()’
+  105 |   TypeIndex() : Index(static_cast<uint32_t>(SimpleTypeKind::None)) {}
+      |   ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:105:3: note:   candidate expects 0 arguments, 1 provided
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note: candidate: ‘constexpr llvm::codeview::TypeIndex::TypeIndex(const llvm::codeview::TypeIndex&)’
+   97 | class TypeIndex {
+      |       ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note:   conversion of argument 1 would be ill-formed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note: candidate: ‘constexpr llvm::codeview::TypeIndex::TypeIndex(llvm::codeview::TypeIndex&&)’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/DebugInfo/CodeView/TypeIndex.h:97:7: note:   conversion of argument 1 would be ill-formed:
+[230/3312] Building CXX object lib/DebugInfo/MSF/CMakeFiles/LLVMDebugInfoMSF.dir/MSFBuilder.cpp.o
+[231/3312] Building CXX object lib/Bitstream/Reader/CMakeFiles/LLVMBitstreamReader.dir/BitstreamReader.cpp.o
+[232/3312] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/DirectiveEmitter.cpp.o
+[233/3312] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/TGParser.cpp.o
+[234/3312] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/IntrinsicEmitter.cpp.o
+[235/3312] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/Record.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:494 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+165.37user 13.90system 0:12.22elapsed 1466%CPU (0avgtext+0avgdata 379348maxresident)k
+5512inputs+846416outputs (44major+7176800minor)pagefaults 0swaps
