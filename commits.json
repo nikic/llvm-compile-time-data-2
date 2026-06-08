@@ -148731,6 +148731,24 @@
             "author_name": "Hamza Khan",
             "commit_date": "2026-06-08T21:44:05+01:00",
             "subject": "[ARM] Reject invalid BF encoding when target is next instruction (#201533)"
+        },
+        {
+            "hash": "14baa81e24fcd22cca188cabe3a6c76debd14c95",
+            "author_name": "Justin Lebar",
+            "commit_date": "2026-06-08T20:46:22+00:00",
+            "subject": "[InstCombine] Fix invalid IR when folding frexp(frexp(x)) with mismatched exponent types (#202419)"
+        },
+        {
+            "hash": "700febc04caa41923eaf4b3911db26cb13482a83",
+            "author_name": "Justin Lebar",
+            "commit_date": "2026-06-08T20:47:58+00:00",
+            "subject": "[InstCombine] Fix incorrect is_zero_poison when folding select+ctlz to cttz (#202388)"
+        },
+        {
+            "hash": "9f73a97cfb1a40da42a870906e2221102a71f807",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-06-08T13:55:20-07:00",
+            "subject": "[X86] Fix typo in SLH statistic description. NFC (#202424)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
