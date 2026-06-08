@@ -148071,6 +148071,18 @@
             "author_name": "Michael Kruse",
             "commit_date": "2026-06-08T10:22:43+02:00",
             "subject": "[Flang][CMake] Add missing CMakePushCheckState for standalone build (#202285)"
+        },
+        {
+            "hash": "331569d4179012955a0922516cebf314af677913",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-06-08T10:40:53+02:00",
+            "subject": "[mlir][SPIR-V] Convert math.cbrt to OpenCL cbrt (#201915)"
+        },
+        {
+            "hash": "6818ad463b5af19ecfb878a71d829c2f0e4f7f19",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-06-08T10:41:05+02:00",
+            "subject": "[mlir][SPIR-V] Convert math.erfc to OpenCL erfc (#201907)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -152833,6 +152845,20 @@
             "author_name": "Ryotaro Kasuga",
             "commit_date": "2026-06-08T04:38:14+09:00",
             "subject": "disable the exact siv test by default"
+        }
+    ],
+    "aengelke\/perf\/instcombine-phipredmap": [
+        {
+            "hash": "bb088f7e1a23648b56bdd91212d468f66644f94b",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-06-08T09:48:22+02:00",
+            "subject": "[libc++] Remove <atomic> includes from <stop_token> (#201710)"
+        },
+        {
+            "hash": "231a983521f6cf839a310aedf02dc37bcbc02a89",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-06-08T08:39:00+00:00",
+            "subject": "[InstCombine][NFC] Don't use a map to store predecessors"
         }
     ]
 }
