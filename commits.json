@@ -149229,6 +149229,18 @@
             "author_name": "Davide Grohmann",
             "commit_date": "2026-06-09T11:46:23+02:00",
             "subject": "[mlir][spirv] Add Arm.ExperimentalMLOperations.1 extended inst set (#202283)"
+        },
+        {
+            "hash": "514f5b766667c4c696b260f783403e8b41bc8798",
+            "author_name": "lijinpei-amd",
+            "commit_date": "2026-06-09T11:51:52+02:00",
+            "subject": "[ConstantFolding] Fix dropped bits in non-integer-ratio bitcast with undef lane (#202282)"
+        },
+        {
+            "hash": "6746898d2bfc086947d86715e065f8dbf74e9690",
+            "author_name": "Juan Manuel Martinez Caama\u00f1o",
+            "commit_date": "2026-06-09T09:54:16+00:00",
+            "subject": "Revert \"[clang][SPIR-V] Implement -fspv-preserve-interface (#196404)\" (#202558)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -154033,6 +154045,20 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-06-09T10:07:17+02:00",
             "subject": "desc-less intptrs"
+        }
+    ],
+    "c-rhodes\/perf\/gisel-matchtable-increase-OnFailResumeAt-SmallVector-size": [
+        {
+            "hash": "2de2edb943fe1b83d79bdffa03606eb8c5452e9b",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-08T08:21:16+01:00",
+            "subject": "Revert \"[GlobalISel] Add a shared matcher for memcpy-family instructions (NFC)\" (#202275)"
+        },
+        {
+            "hash": "8deb4f949b5f80a26a8a61775fb411bf30fefd80",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-09T09:53:49+00:00",
+            "subject": "[GlobalISel] Use more inline elements in a match table SmallVector"
         }
     ]
 }
