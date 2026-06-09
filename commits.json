@@ -15753,22 +15753,22 @@
     ],
     "nikic\/perf\/deref-at-point": [
         {
-            "hash": "91797152d96713a46f4ca604d191f144cbb48659",
+            "hash": "c04c945d2563297ca75baf13050594e2bd3dcec5",
             "author_name": "Nikita Popov",
-            "commit_date": "2026-06-08T14:36:44+02:00",
-            "subject": "[ArgPromotion] Pass context instruction to dereferenceability check (#202305)"
+            "commit_date": "2026-06-09T07:50:14+00:00",
+            "subject": "[ValueTracking] Handle chain of single-pred blocks in willNotFreeBetween() (#202308)"
         },
         {
-            "hash": "1e7bda669d15251dd056b8c0af513102ffdbded7",
+            "hash": "8d4e55e41542a1fb9a77d7c9999273a1bef1f9be",
             "author_name": "Nikita Popov",
-            "commit_date": "2026-06-08T14:37:06+02:00",
-            "subject": "[ValueTracking] Handle chain of single-pred blocks in willNotFreeBetween()"
-        },
-        {
-            "hash": "291aa4909ab27f87f1da8a0c4ab008dbb8e843f2",
-            "author_name": "Nikita Popov",
-            "commit_date": "2026-06-08T14:38:23+02:00",
+            "commit_date": "2026-06-09T09:59:27+02:00",
             "subject": "Enable deref-at-point"
+        },
+        {
+            "hash": "8cfa37e410a342a115737dac9323906f0b1631fa",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-06-09T09:59:27+02:00",
+            "subject": "mergeicmps"
         }
     ],
     "nikic\/perf\/scev-addrec-flags": [
@@ -149103,6 +149103,18 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-06-09T07:50:14+00:00",
             "subject": "[ValueTracking] Handle chain of single-pred blocks in willNotFreeBetween() (#202308)"
+        },
+        {
+            "hash": "19250eb71a32aafd540b5f9b03eea6be8121b2d2",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-06-09T10:00:02+02:00",
+            "subject": "[InstCombine] Drop zero size dereferenceable assumptions (#202411)"
+        },
+        {
+            "hash": "e12a55706f77052a20cf315d0d8c83a910b360fb",
+            "author_name": "Yexuan Xiao",
+            "commit_date": "2026-06-09T08:02:12+00:00",
+            "subject": "[Clang][CodeGen][Coroutines] Make coroutine startup exception-safe (C\u2026 (#202279)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
