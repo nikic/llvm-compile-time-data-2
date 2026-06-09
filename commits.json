@@ -149349,6 +149349,24 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-06-09T11:36:07+00:00",
             "subject": "[StringMap] Replace tombstone deletion with TAOCP 6.4 Algorithm R (#202103)"
+        },
+        {
+            "hash": "ca227bff07085250e3a146dadf2ea3246d8b23a8",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-06-09T13:37:02+02:00",
+            "subject": "[AMDGPU] Produce ballot\/icmp\/fcmp lane masks at wavefront width (#201358)"
+        },
+        {
+            "hash": "f7e4167f816ac8c5a6e553c66f3b90fe040d1362",
+            "author_name": "Sameer Sahasrabuddhe",
+            "commit_date": "2026-06-09T17:07:33+05:30",
+            "subject": "[AMDGPU] Clamp load_monitor scope to minimum SCOPE_SE (#198245)"
+        },
+        {
+            "hash": "323285f141535bfa8607f773c814000dd4f69e98",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-06-09T12:39:52+01:00",
+            "subject": "[SLP] Update test against const-folding (#202532)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -154167,6 +154185,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-06-09T09:53:49+00:00",
             "subject": "[GlobalISel] Use more inline elements in a match table SmallVector"
+        }
+    ],
+    "c-rhodes\/perf\/cclower-increase-smallvector-size": [
+        {
+            "hash": "2de2edb943fe1b83d79bdffa03606eb8c5452e9b",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-08T08:21:16+01:00",
+            "subject": "Revert \"[GlobalISel] Add a shared matcher for memcpy-family instructions (NFC)\" (#202275)"
+        },
+        {
+            "hash": "2c8d346c8a4fd4a00aef2434e8caf8b1000efe5c",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-09T11:35:23+00:00",
+            "subject": "[CodeGen] Use more inline elements in CCState SmallVector"
         }
     ]
 }
