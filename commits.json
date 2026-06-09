@@ -149385,6 +149385,12 @@
             "author_name": "Vinit Deodhar",
             "commit_date": "2026-06-09T12:52:47+01:00",
             "subject": "[mlir][linalg] Add sin, cos, tan to elementwise operations (#200950)"
+        },
+        {
+            "hash": "9129363adbcc3474639e2a3b2b263905da1f86ca",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-09T13:05:12+01:00",
+            "subject": "[GlobalISel] Use more inline elements in a match table SmallVector (#202568)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -154185,10 +154191,16 @@
             "subject": "Test"
         },
         {
-            "hash": "8081e3e24f460ebe55f39e3d0003da0643f9692c",
+            "hash": "f5205d9fe75b5b5e56636dc63333769815ef0bc3",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-06-09T13:22:46+02:00",
+            "commit_date": "2026-06-09T13:35:35+02:00",
             "subject": "desc-less intptrs"
+        },
+        {
+            "hash": "841c1b0d032f295973d6e238d19d75b803396f65",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-06-09T13:58:03+02:00",
+            "subject": "alloc"
         }
     ],
     "c-rhodes\/perf\/gisel-matchtable-increase-OnFailResumeAt-SmallVector-size": [
@@ -154217,6 +154229,32 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-06-09T11:35:23+00:00",
             "subject": "[CodeGen] Use more inline elements in CCState SmallVector"
+        }
+    ],
+    "aengelke\/perf\/inst-auxdata2": [
+        {
+            "hash": "bb088f7e1a23648b56bdd91212d468f66644f94b",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-06-08T09:48:22+02:00",
+            "subject": "[libc++] Remove <atomic> includes from <stop_token> (#201710)"
+        },
+        {
+            "hash": "de961f82a2f70ed135edd3402c25f56bd977dd55",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-06-09T12:06:33+00:00",
+            "subject": "[CodeGen] Make FuncInfo.ValueMap private [NFC]"
+        },
+        {
+            "hash": "0f9d9a8b08722aad4f333d63cfcac920fb409141",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-06-09T12:06:33+00:00",
+            "subject": "[IR] Add AuxData field to Instruction"
+        },
+        {
+            "hash": "f4cac5e293680dddb36476402e12cd4316f588a6",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-06-09T12:06:34+00:00",
+            "subject": "[CodeGen] Remove ValueMap in FuncLoweringInfo"
         }
     ]
 }
