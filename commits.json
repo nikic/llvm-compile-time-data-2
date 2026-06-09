@@ -15753,22 +15753,34 @@
     ],
     "nikic\/perf\/deref-at-point": [
         {
-            "hash": "c04c945d2563297ca75baf13050594e2bd3dcec5",
+            "hash": "d7d9601c182889ec5e25492fb94d22a70c03fc2b",
             "author_name": "Nikita Popov",
-            "commit_date": "2026-06-09T07:50:14+00:00",
-            "subject": "[ValueTracking] Handle chain of single-pred blocks in willNotFreeBetween() (#202308)"
+            "commit_date": "2026-06-09T12:26:18+02:00",
+            "subject": "[Loads] Migrate isDereferenceable APIs to SimplifyQuery (#202553)"
         },
         {
-            "hash": "8d4e55e41542a1fb9a77d7c9999273a1bef1f9be",
+            "hash": "f680292c1d9e8a5df52086f53a30d4ebf1c13a21",
             "author_name": "Nikita Popov",
-            "commit_date": "2026-06-09T09:59:27+02:00",
+            "commit_date": "2026-06-09T16:35:22+02:00",
             "subject": "Enable deref-at-point"
         },
         {
-            "hash": "8cfa37e410a342a115737dac9323906f0b1631fa",
+            "hash": "d2d9e870a86ae509b931dfe3e7b3a27aa0e910ea",
             "author_name": "Nikita Popov",
-            "commit_date": "2026-06-09T09:59:27+02:00",
+            "commit_date": "2026-06-09T16:35:22+02:00",
             "subject": "mergeicmps"
+        },
+        {
+            "hash": "0c72b7c66c245867be33b5da4274a3da1847a504",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-06-09T16:35:22+02:00",
+            "subject": "ignore free"
+        },
+        {
+            "hash": "b91dee6a08feff8e10532907e234d02339536590",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-06-09T16:35:22+02:00",
+            "subject": "Avoid unnecessary canBeFreed() calls"
         }
     ],
     "nikic\/perf\/scev-addrec-flags": [
@@ -149523,6 +149535,30 @@
             "author_name": "Petar Avramovic",
             "commit_date": "2026-06-09T16:20:00+02:00",
             "subject": "AMDGPU\/GlobalISel: RegBankLegalize rules for tensor load\/store to lds (#202363)"
+        },
+        {
+            "hash": "727ad9a21d32f19dd0fdf26b39a9c6a064692287",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-06-09T15:33:01+01:00",
+            "subject": "[AMDGPU] Add a feature for VOP3PX2 instructions incrementing VA_VDST twice (#202613)"
+        },
+        {
+            "hash": "1723b7a301450d7000fe3a86e48adb9f9794d1e9",
+            "author_name": "Srividya Sundaram",
+            "commit_date": "2026-06-09T14:36:23+00:00",
+            "subject": "[SYCL] Error on C inputs when compiling with -fsycl (#200318)"
+        },
+        {
+            "hash": "6c706ed5896d10b2a900d5860b80851f01cfe943",
+            "author_name": "xys-syx",
+            "commit_date": "2026-06-09T09:38:36-05:00",
+            "subject": "[MLIR][NVVM] Add explicit aligned attribute to nvvm.barrier and nvvm.barrier.reduction (#200745)"
+        },
+        {
+            "hash": "859ee9d83ef227848a98c5948f887574f5e7420c",
+            "author_name": "Joseph Huber",
+            "commit_date": "2026-06-09T09:40:56-05:00",
+            "subject": "[Clang] Set default LTO mode for AMDGCN\/SPIR-V targets to full (#201457)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
