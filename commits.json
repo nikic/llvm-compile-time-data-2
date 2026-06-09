@@ -149115,6 +149115,24 @@
             "author_name": "Yexuan Xiao",
             "commit_date": "2026-06-09T08:02:12+00:00",
             "subject": "[Clang][CodeGen][Coroutines] Make coroutine startup exception-safe (C\u2026 (#202279)"
+        },
+        {
+            "hash": "cbffca291f395f8b8055396a417ee7620f6582b9",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-06-09T10:10:27+02:00",
+            "subject": "[clang][bytecode] Only save frame offset in debug builds (#202294)"
+        },
+        {
+            "hash": "c30ea28015bf0c2899b485c3bf531d7c7e61f518",
+            "author_name": "Vaisman",
+            "commit_date": "2026-06-09T10:10:41+02:00",
+            "subject": "[mlir][nvgpu] Add negative tests for warpgroup MMA accumulator ops (#202516)"
+        },
+        {
+            "hash": "bccd1b9cb744e5dd96ee59baa4bf4583457feea3",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-06-09T08:12:33+00:00",
+            "subject": "[StringMap] Invalidate iterators in remove() (#202520)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -153899,6 +153917,26 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-06-08T19:49:22+00:00",
             "subject": "[GlobalISel] Add a pure type-based RegBankSelect pass"
+        }
+    ],
+    "tbaederr\/perf\/intptr-nodesc": [
+        {
+            "hash": "32b423ec57d76315cd42b99c0cdd9c63623d8b7b",
+            "author_name": "Kareem Ergawy",
+            "commit_date": "2026-06-09T07:47:19+02:00",
+            "subject": "[flang][hlfir] Extend InlineHLFIRCopy to inline copy_out with copy-back (#202290)"
+        },
+        {
+            "hash": "d48b29a7c9c121c9d885809021daeb2977fed5fb",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-06-09T10:07:17+02:00",
+            "subject": "Test"
+        },
+        {
+            "hash": "06e7352010ae0ded1d96e21bad26a4f3f82d8c61",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-06-09T10:07:17+02:00",
+            "subject": "desc-less intptrs"
         }
     ]
 }
