@@ -100725,6 +100725,12 @@
             "author_name": "Abinaya Saravanan",
             "commit_date": "2026-06-04T18:23:46+00:00",
             "subject": "Fix \"Cannot select\" crash on bitcast between f64 and int vector types (#201509)"
+        },
+        {
+            "hash": "761b9134dd9beda6f133fdc19a42b148834cb06b",
+            "author_name": "Bidhan",
+            "commit_date": "2026-06-10T17:46:45+00:00",
+            "subject": "[BPF] treat compiler fence as codegen no-op (#196734)"
         }
     ],
     "enferex\/perf\/init-densemap-members": [
@@ -151017,6 +151023,24 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-06-10T19:31:13+02:00",
             "subject": "clang: Construct toolchains with normalized triples (#201869)"
+        },
+        {
+            "hash": "8d478d367bfd57630c483eb50c7984dc819269f0",
+            "author_name": "Devon Loehr",
+            "commit_date": "2026-06-10T10:37:50-07:00",
+            "subject": "Revert \"[clang] Reland: fix getTemplateInstantiationArgs (#202088)\" (#203024)"
+        },
+        {
+            "hash": "b9b624f3479156be71379beefec5d936d5eb078f",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-06-10T17:41:58+00:00",
+            "subject": "[lldb] Reject a zero child offset in the Mach-O export trie (#203055)"
+        },
+        {
+            "hash": "1b06b0b5795523e0b14b9f5ff9756bf78eed5567",
+            "author_name": "gulfemsavrun",
+            "commit_date": "2026-06-10T10:47:13-07:00",
+            "subject": "[clang][test] Fix cl-pathmap.c test failure on mac (#203043)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
