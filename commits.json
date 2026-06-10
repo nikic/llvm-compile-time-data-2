@@ -150171,6 +150171,12 @@
             "author_name": "Arseniy Obolenskiy",
             "commit_date": "2026-06-10T06:32:12+02:00",
             "subject": "[AMDGPU] Lower mem intrinsics on LDS pointers in AMDGPUSwLowerLDS (#202552)"
+        },
+        {
+            "hash": "5868847241e2d761843a3a9bed9f4c3703e2ac2c",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-06-09T22:23:38-07:00",
+            "subject": "[RISCV] Add Zvfbfa to RISCVABIInfo::coerceVLSVector checks. (#202812)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -155043,6 +155049,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-06-09T16:53:20+02:00",
             "subject": "use attr set"
+        }
+    ],
+    "aengelke\/perf\/dzbarsky-codesize\/generic-domtree-unordered-dfs": [
+        {
+            "hash": "fb2d6709f289525497cdf731bf32085401c6b962",
+            "author_name": "Jiahao Guo",
+            "commit_date": "2026-06-10T09:39:42+08:00",
+            "subject": "[CIR] Support zero-result ops in clangir TableGen lowering (#202273)"
+        },
+        {
+            "hash": "f273c2716e09c2225c1ea577c5dad725b08e7ab9",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-09T22:29:49-04:00",
+            "subject": "[Support] Compile out unused dominator DFS sorting"
         }
     ]
 }
