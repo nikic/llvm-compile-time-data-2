@@ -155438,5 +155438,19 @@
             "commit_date": "2026-06-10T07:46:33+00:00",
             "subject": "[GlobalISel] Use std:move to avoid copy in match table"
         }
+    ],
+    "c-rhodes\/perf\/aarch64-gisel-call-lowering-x0-x7-fast-path": [
+        {
+            "hash": "2de2edb943fe1b83d79bdffa03606eb8c5452e9b",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-08T08:21:16+01:00",
+            "subject": "Revert \"[GlobalISel] Add a shared matcher for memcpy-family instructions (NFC)\" (#202275)"
+        },
+        {
+            "hash": "ee0690a7bd4a1a74b859923259f88d8e65a86227",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-10T11:09:48+00:00",
+            "subject": "[AArch64][GlobalISel] Fast-path simple x0-x7 call args"
+        }
     ]
 }
