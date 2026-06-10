@@ -15753,34 +15753,22 @@
     ],
     "nikic\/perf\/deref-at-point": [
         {
-            "hash": "d7d9601c182889ec5e25492fb94d22a70c03fc2b",
+            "hash": "caa0f0395f4fb95f1d51cd5fdddfe6fcdef038e9",
             "author_name": "Nikita Popov",
-            "commit_date": "2026-06-09T12:26:18+02:00",
-            "subject": "[Loads] Migrate isDereferenceable APIs to SimplifyQuery (#202553)"
+            "commit_date": "2026-06-10T10:24:41+02:00",
+            "subject": "[LICM] Fix typo in variable name (NFC) (#202889)"
         },
         {
-            "hash": "f680292c1d9e8a5df52086f53a30d4ebf1c13a21",
+            "hash": "1977592eb6847ea0ec2c42ee72da41f47eeccc81",
             "author_name": "Nikita Popov",
-            "commit_date": "2026-06-09T16:35:22+02:00",
+            "commit_date": "2026-06-10T10:26:07+02:00",
             "subject": "Enable deref-at-point"
         },
         {
-            "hash": "d2d9e870a86ae509b931dfe3e7b3a27aa0e910ea",
+            "hash": "8e65541ce89c1acb5b663b4610a53dace802aa3b",
             "author_name": "Nikita Popov",
-            "commit_date": "2026-06-09T16:35:22+02:00",
+            "commit_date": "2026-06-10T10:26:07+02:00",
             "subject": "mergeicmps"
-        },
-        {
-            "hash": "0c72b7c66c245867be33b5da4274a3da1847a504",
-            "author_name": "Nikita Popov",
-            "commit_date": "2026-06-09T16:35:22+02:00",
-            "subject": "ignore free"
-        },
-        {
-            "hash": "b91dee6a08feff8e10532907e234d02339536590",
-            "author_name": "Nikita Popov",
-            "commit_date": "2026-06-09T16:35:22+02:00",
-            "subject": "Avoid unnecessary canBeFreed() calls"
         }
     ],
     "nikic\/perf\/scev-addrec-flags": [
@@ -150327,6 +150315,30 @@
             "author_name": "Nikolas Klauser",
             "commit_date": "2026-06-10T10:15:23+02:00",
             "subject": "[libc++] Assume that __array_rank is provided by the compiler (#202511)"
+        },
+        {
+            "hash": "389e924ac7df45d34b613a46d24940abcfeb879d",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-06-10T10:22:29+02:00",
+            "subject": "[LICM][SimplifyCFG] Ignore frees for writable dereferenceability check (#202589)"
+        },
+        {
+            "hash": "caa0f0395f4fb95f1d51cd5fdddfe6fcdef038e9",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-06-10T10:24:41+02:00",
+            "subject": "[LICM] Fix typo in variable name (NFC) (#202889)"
+        },
+        {
+            "hash": "1a09ed10e5c417b5e71f893e63a21498216dd258",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-06-10T08:26:01+00:00",
+            "subject": "[VPlan] Insert VPBlendRecipes in post order. NFC (#201782)"
+        },
+        {
+            "hash": "93e03fc2666e10b4e32091bc27d35709f49c9443",
+            "author_name": "Simon Tatham",
+            "commit_date": "2026-06-10T09:27:08+01:00",
+            "subject": "[compiler-rt][ARM] Optimized integer -> FP conversions (#179928)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
