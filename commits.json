@@ -151005,6 +151005,18 @@
             "author_name": "Jan Svoboda",
             "commit_date": "2026-06-10T10:25:37-07:00",
             "subject": "[CAS] Bypass IO sandbox in `OnDiskGraphDB::store()` (#202760)"
+        },
+        {
+            "hash": "5fc41f90ebb19f7b28c8a11c477856634a9a868f",
+            "author_name": "Aditya Medhane",
+            "commit_date": "2026-06-10T13:30:36-04:00",
+            "subject": "[clang] Fix -Wunused-template in AST and analysis helpers (NFC) (#202977)"
+        },
+        {
+            "hash": "b25bc371ac5a97b4e91b5b4632923007e33f20f1",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-06-10T19:31:13+02:00",
+            "subject": "clang: Construct toolchains with normalized triples (#201869)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -155933,6 +155945,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-06-10T15:47:31+00:00",
             "subject": "[GlobalISel] Avoid redundant copy for zero-offset GEPs"
+        }
+    ],
+    "aengelke\/perf\/clang-instsimplifyfolder": [
+        {
+            "hash": "bb088f7e1a23648b56bdd91212d468f66644f94b",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-06-08T09:48:22+02:00",
+            "subject": "[libc++] Remove <atomic> includes from <stop_token> (#201710)"
+        },
+        {
+            "hash": "0fbca3e68eebc39ef61d958e5759f135aea35c39",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-06-10T17:30:08+00:00",
+            "subject": "try InstSimplifyFolder"
         }
     ]
 }
