@@ -150765,6 +150765,18 @@
             "author_name": "Jameson Nash",
             "commit_date": "2026-06-10T10:25:33-04:00",
             "subject": "[docs] update CI to use latest release of doxygen (#202420)"
+        },
+        {
+            "hash": "3c342a4c2df5c66fe5b1698425986d4e210d7fbb",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-06-10T10:36:17-04:00",
+            "subject": "[SLP][NFC]Add another memory alias test, NFC"
+        },
+        {
+            "hash": "1f0c41367bf42fc335ce10b267080a491327bba2",
+            "author_name": "Lucas Ramirez",
+            "commit_date": "2026-06-10T14:38:49+00:00",
+            "subject": "[CodeGen] Gate rematerializer unit tests on AMDGPU target being enabled (#202966)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -155679,6 +155691,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-06-10T11:09:48+00:00",
             "subject": "[AArch64][GlobalISel] Fast-path simple x0-x7 call args"
+        }
+    ],
+    "c-rhodes\/perf\/gisel-avoid-redundant-copy-zero-offset-gep": [
+        {
+            "hash": "2de2edb943fe1b83d79bdffa03606eb8c5452e9b",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-08T08:21:16+01:00",
+            "subject": "Revert \"[GlobalISel] Add a shared matcher for memcpy-family instructions (NFC)\" (#202275)"
+        },
+        {
+            "hash": "d3d5a4af0e7a58ea7b3a1e8c02b34fa380695e62",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-10T14:31:42+00:00",
+            "subject": "[GlobalISel] Avoid redundant copy for zero-offset GEPs"
         }
     ]
 }
