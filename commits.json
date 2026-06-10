@@ -101447,27 +101447,21 @@
     ],
     "tbaederr\/perf\/ce-test5": [
         {
-            "hash": "fb2d6709f289525497cdf731bf32085401c6b962",
-            "author_name": "Jiahao Guo",
-            "commit_date": "2026-06-10T09:39:42+08:00",
-            "subject": "[CIR] Support zero-result ops in clangir TableGen lowering (#202273)"
+            "hash": "be1f53f568394ee7c1976a9a5785c8127dbcdf39",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-06-10T10:10:57+02:00",
+            "subject": "[clang][bytecode] Save a `Type*` in integral pointers instead of a descriptor (#202835)"
         },
         {
-            "hash": "598a5380ad01efd21974836b8313fc87e283399f",
+            "hash": "878dd243d0fb66ad194b8f37fa76d808500bcb57",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-06-10T05:05:08+02:00",
+            "commit_date": "2026-06-10T10:11:44+02:00",
             "subject": "Test"
         },
         {
-            "hash": "b83d94f17f39437e65998c962a5f5bdb9bf8b38a",
+            "hash": "8202131de1fe461ff958b8a52c9b0603e1413c39",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-06-10T05:05:12+02:00",
-            "subject": "as"
-        },
-        {
-            "hash": "cfa77ce04ab49e562a1742bf679d3f8bcd936d09",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-06-10T05:33:54+02:00",
+            "commit_date": "2026-06-10T10:17:20+02:00",
             "subject": "Ptrview"
         }
     ],
@@ -150303,6 +150297,36 @@
             "author_name": "Robert Imschweiler",
             "commit_date": "2026-06-10T10:04:22+02:00",
             "subject": "[clang][OpenMP] Improve loop structure for distributed loops (pt 1: reductions) (#201670)"
+        },
+        {
+            "hash": "8da9d925ac73becc1733c6733ffabc2020131912",
+            "author_name": "jeanPerier",
+            "commit_date": "2026-06-10T10:10:31+02:00",
+            "subject": "[mlir][mem2reg] fix 197158 by moving visitReplacedValues call (#198552)"
+        },
+        {
+            "hash": "be1f53f568394ee7c1976a9a5785c8127dbcdf39",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-06-10T10:10:57+02:00",
+            "subject": "[clang][bytecode] Save a `Type*` in integral pointers instead of a descriptor (#202835)"
+        },
+        {
+            "hash": "e1110dabc49d10c9353d6af7555c56f55fb0cca8",
+            "author_name": "agozillon",
+            "commit_date": "2026-06-10T10:14:36+02:00",
+            "subject": "[Flang][OpenMP][Sema] Add OpenMP warning when mapping local descriptors to device on enter without a corresponding exit (#201060)"
+        },
+        {
+            "hash": "e65b4e7fa233fd15fb1e84a66329b8936a594b2d",
+            "author_name": "flovent",
+            "commit_date": "2026-06-10T16:15:05+08:00",
+            "subject": "[clang-tidy] Avoid invalid fixes in `readability-delete-null-pointer` (#202488)"
+        },
+        {
+            "hash": "6f2726dc2c03aa78532d60746cdfdff069033cc6",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-06-10T10:15:23+02:00",
+            "subject": "[libc++] Assume that __array_rank is provided by the compiler (#202511)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
