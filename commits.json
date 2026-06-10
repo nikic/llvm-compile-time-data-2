@@ -150285,6 +150285,12 @@
             "author_name": "ritter-x2a",
             "commit_date": "2026-06-10T07:40:43+00:00",
             "subject": "[AMDGPU] Document that only naturally aligned atomics of up to 64 bits are supported by the AMDGPU backend (#200167)"
+        },
+        {
+            "hash": "daa49cfc2e01ff9df3400321ee308ec82b23ff34",
+            "author_name": "Peiqi Li",
+            "commit_date": "2026-06-10T10:53:49+03:00",
+            "subject": "[clang-tidy] Fix false positive in bugprone-use-after-move with std::forward on derived classes (#199905)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -155171,6 +155177,20 @@
             "author_name": "David Zbarsky",
             "commit_date": "2026-06-09T22:29:49-04:00",
             "subject": "[Support] Compile out unused dominator DFS sorting"
+        }
+    ],
+    "c-rhodes\/perf\/gisel-matchtable-avoid-copy": [
+        {
+            "hash": "2de2edb943fe1b83d79bdffa03606eb8c5452e9b",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-08T08:21:16+01:00",
+            "subject": "Revert \"[GlobalISel] Add a shared matcher for memcpy-family instructions (NFC)\" (#202275)"
+        },
+        {
+            "hash": "0302d84f80adc42ff547b4d1fba4ef1b8e408131",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-10T07:46:33+00:00",
+            "subject": "[GlobalISel] Use std:move to avoid copy in match table"
         }
     ]
 }
