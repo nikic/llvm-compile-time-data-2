@@ -151449,6 +151449,18 @@
             "author_name": "David Tenty",
             "commit_date": "2026-06-10T22:36:19-04:00",
             "subject": "Revert \"[Compiler-rt][test] Fix circular link dependency between builtins and libc\" (#203152)"
+        },
+        {
+            "hash": "4a3fe8e38a6cebe805c12722b1505134d1625ce1",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-06-11T04:54:33+02:00",
+            "subject": "[AMDGPU] Gate rootn(x, +-2) -> sqrt\/rsqrt fold on nsz\/ninf (#200578)"
+        },
+        {
+            "hash": "dd315a54d0e95a98948fb6b57d27f0cce4418198",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-06-11T04:55:09+02:00",
+            "subject": "[AMDGPU] Set success flag for weak cmpxchg in LowerBufferFatPointers (#203033)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
