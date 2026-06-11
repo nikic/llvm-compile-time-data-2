@@ -151887,6 +151887,24 @@
             "author_name": "Ryotaro Kasuga",
             "commit_date": "2026-06-11T14:24:27+00:00",
             "subject": "[LoopInterchange] Reject if inner loop IV has outer-variant step (#202751)"
+        },
+        {
+            "hash": "a21a57c483376359d16de7f7f0dce0d546800d9c",
+            "author_name": "Leandro Lupori",
+            "commit_date": "2026-06-11T11:25:52-03:00",
+            "subject": "[flang][OpenMP] Fix the privatization of common blocks (#200446)"
+        },
+        {
+            "hash": "c4f3a5fb2ded04251278de52d979aee52190cd4e",
+            "author_name": "Dmitry Mikushin",
+            "commit_date": "2026-06-11T14:30:47+00:00",
+            "subject": "[Clang][OpenMP] Fix '*' reduction identity for class types (#202292)"
+        },
+        {
+            "hash": "831dd770f78081c13f6d0340769007049e5962ed",
+            "author_name": "Fabrice de Gans",
+            "commit_date": "2026-06-11T07:32:22-07:00",
+            "subject": "[llvm] Fix most LLVM_ABI annotations in SandboxIR (#203266)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -156849,6 +156867,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-06-10T21:51:22-07:00",
             "subject": "[llvm] Replace unordered_{map,set} with Dense{Map,Set}\/SmallPtrSet"
+        }
+    ],
+    "nikic\/perf\/non-zero-shr-add": [
+        {
+            "hash": "2f8c8cb90e0a0e257689313d38bf78a0f95324b6",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-06-11T09:12:24+02:00",
+            "subject": "[IR] Allocas cannot be freed (#202875)"
+        },
+        {
+            "hash": "93c84a964095dbb3d684fc82e97e7e6ed669eafe",
+            "author_name": "Marina Taylor",
+            "commit_date": "2026-06-11T16:31:59+02:00",
+            "subject": "Pre-commit tests for known-non-zero shr-add (NFC)"
         }
     ]
 }
