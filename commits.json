@@ -101507,10 +101507,22 @@
             "subject": "Fewer classify"
         },
         {
-            "hash": "bf95f79bd36b3d64dbc4b80ebcc8d2d3463e5eb0",
+            "hash": "7b75c6e9481415f516ed40186b372cd6472926d7",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-06-12T17:18:29+02:00",
+            "commit_date": "2026-06-12T17:42:06+02:00",
             "subject": "AlwaysSucceeds flag"
+        },
+        {
+            "hash": "e78a6748c0b1c0fbc33c8c42766312a2ad0e9145",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-06-12T17:51:53+02:00",
+            "subject": "signedtype"
+        },
+        {
+            "hash": "3c15582696b089c213ced093175dbefacfe02d26",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-06-12T17:54:16+02:00",
+            "subject": "builtin stuff"
         }
     ],
     "topperc\/perf\/operandlist": [
@@ -153093,6 +153105,42 @@
             "author_name": "Yuan Suo",
             "commit_date": "2026-06-12T17:37:59+02:00",
             "subject": "[LifetimeSafety] Introduce buildOriginFlowChain for use-after-scope (#199345)"
+        },
+        {
+            "hash": "422af7cca672a717bd9505a486e287fa2734bbc9",
+            "author_name": "Quentin Colombet",
+            "commit_date": "2026-06-12T17:42:21+02:00",
+            "subject": "[MIR] Save internal VirtRegMap state in MIR (#197361)"
+        },
+        {
+            "hash": "1b774ab021698428374815fb8d4d88855c3b2a48",
+            "author_name": "Miko\u0142aj Pir\u00f3g",
+            "commit_date": "2026-06-12T17:46:15+02:00",
+            "subject": "[StackColoring] Cleanup stack-coloring test (NFC) (#203551)"
+        },
+        {
+            "hash": "7814cc9454cf454acdc7385fc41809a6bdf5d7f8",
+            "author_name": "Jonathan Thackray",
+            "commit_date": "2026-06-12T16:47:16+01:00",
+            "subject": "[AArch64][clang][llvm] Add ACLE Armv9.7 lookup table intrinsics (#187046)"
+        },
+        {
+            "hash": "5906827e155cc5fca10cd505b88a4e21b861d65b",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-06-12T17:47:35+02:00",
+            "subject": "[lldb][Windows] Forward OUTPUT_DEBUG_STRING_EVENT through lldb-server (#203546)"
+        },
+        {
+            "hash": "9f3ac763bd8c4be2db1a97cec13bb59c87a9595f",
+            "author_name": "Sang Ik Lee",
+            "commit_date": "2026-06-12T08:52:42-07:00",
+            "subject": "[MLIR][XeGPU] Fix issue with expandDim (#203299)"
+        },
+        {
+            "hash": "9bbed741e260753de029fcf7b22844fe23362a39",
+            "author_name": "dibrinsofor",
+            "commit_date": "2026-06-12T16:55:08+01:00",
+            "subject": "[AArch64] Optimize vector slide shuffles with zeros to use shift instructions (#185170)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -158155,6 +158203,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-06-12T06:45:16+00:00",
             "subject": "[GlobalISel] Avoid offset list for scalar vregs"
+        }
+    ],
+    "nikic\/perf\/unswitch-2": [
+        {
+            "hash": "ab5da4b999f862e5b165ac87dd9b90ff162e048b",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-06-12T10:15:04+00:00",
+            "subject": "[X86] Add test showing failure to concat X86ISD::PERMI nodes with different immediates (#203487)"
+        },
+        {
+            "hash": "6d0a15fe3e4633c749241364433055d56576d8de",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-06-12T17:54:09+02:00",
+            "subject": "unswitch"
         }
     ]
 }
