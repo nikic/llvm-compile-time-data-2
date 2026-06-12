@@ -1,0 +1,211 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage2.sh" failed
+
+STDOUT:
+2.	/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Demangle/Utility.h:232:3: instantiating function definition 'llvm::itanium_demangle::ScopedOverride<bool>::ScopedOverride'
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x00005569e8d37bb0 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 240
+1  clang++   0x00005569e8d35744 llvm::sys::CleanupOnSignal(unsigned long) + 164
+2  clang++   0x00005569e8c76ba8
+3  libc.so.6 0x00007f64eda32520
+4  clang++   0x00005569ebfc8688 clang::interp::InterpretBuiltin(clang::interp::InterpState&, clang::interp::CodePtr, clang::CallExpr const*, unsigned int) + 760
+5  clang++   0x00005569ec2d5828 clang::interp::Compiler<clang::interp::EvalEmitter>::VisitBuiltinCallExpr(clang::CallExpr const*, unsigned int) + 344
+6  clang++   0x00005569ec2ddc10 clang::interp::Compiler<clang::interp::EvalEmitter>::visit(clang::Expr const*) + 160
+7  clang++   0x00005569ec2cde83 clang::interp::Compiler<clang::interp::EvalEmitter>::VisitCastExpr(clang::CastExpr const*) + 4451
+8  clang++   0x00005569ec2ddc10 clang::interp::Compiler<clang::interp::EvalEmitter>::visit(clang::Expr const*) + 160
+9  clang++   0x00005569ec2c3b68 clang::interp::Compiler<clang::interp::EvalEmitter>::visitAssignment(clang::Expr const*, clang::Expr const*, clang::Expr const*) + 120
+10 clang++   0x00005569ec2ddc10 clang::interp::Compiler<clang::interp::EvalEmitter>::visit(clang::Expr const*) + 160
+11 clang++   0x00005569ec2d0831 clang::interp::Compiler<clang::interp::EvalEmitter>::visitExpr(clang::Expr const*, bool) + 353
+12 clang++   0x00005569ebe50581 clang::interp::EvalEmitter::interpretExpr(clang::Expr const*, bool, bool) + 129
+13 clang++   0x00005569ebe41666 clang::interp::Context::evaluateAsRValue(clang::interp::State&, clang::Expr const*, clang::APValue&) + 390
+14 clang++   0x00005569ebd87c32
+15 clang++   0x00005569ebd8b50f clang::Expr::EvaluateForOverflow(clang::ASTContext const&) const + 879
+16 clang++   0x00005569eadf06a5 clang::Sema::CheckForIntOverflow(clang::Expr const*) + 117
+17 clang++   0x00005569eae3645b clang::Sema::CheckCompletedExpr(clang::Expr*, clang::SourceLocation, bool) + 219
+18 clang++   0x00005569eb1c994e clang::Sema::ActOnFinishFullExpr(clang::Expr*, clang::SourceLocation, bool, bool, bool) + 270
+19 clang++   0x00005569eb4f4d1e clang::Sema::ActOnExprStmt(clang::ActionResult<clang::Expr*, true>, bool) + 62
+20 clang++   0x00005569eb6c39c5
+21 clang++   0x00005569eb6c487e clang::Sema::SubstStmt(clang::Stmt*, clang::MultiLevelTemplateArgumentList const&) + 126
+22 clang++   0x00005569eb791507 clang::Sema::InstantiateFunctionDefinition(clang::SourceLocation, clang::FunctionDecl*, bool, bool, bool) + 4007
+23 clang++   0x00005569eb78f683 clang::Sema::PerformPendingInstantiations(bool, bool) + 291
+24 clang++   0x00005569ead47886
+25 clang++   0x00005569ead47c04 clang::Sema::ActOnEndOfTranslationUnit() + 132
+26 clang++   0x00005569eaba37b2 clang::Parser::ParseTopLevelDecl(clang::OpaquePtr<clang::DeclGroupRef>&, clang::Sema::ModuleImportState&) + 930
+27 clang++   0x00005569eab7f92a clang::ParseAST(clang::Sema&, bool, bool) + 586
+28 clang++   0x00005569e9a6bc72 clang::FrontendAction::Execute() + 50
+29 clang++   0x00005569e99d8fed clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 717
+30 clang++   0x00005569e9b531e8 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+31 clang++   0x00005569e75c8678 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 4600
+32 clang++   0x00005569e75c067b
+33 clang++   0x00005569e75c072f
+34 clang++   0x00005569e976869d
+35 clang++   0x00005569e8c76f47 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+36 clang++   0x00005569e9768a37
+37 clang++   0x00005569e97258f7 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+38 clang++   0x00005569e9726919 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 153
+39 clang++   0x00005569e973824c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+40 clang++   0x00005569e75c5446 clang_main(int, char**, llvm::ToolContext const&) + 7830
+41 clang++   0x00005569e74c5641 main + 113
+42 libc.so.6 0x00007f64eda19d90
+43 libc.so.6 0x00007f64eda19e40 __libc_start_main + 128
+44 clang++   0x00005569e75c00f5 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING CRASH REPRODUCER FILES TO THE BUG REPORT:
+clang++: note: diagnostic msg: /tmp/ItaniumDemangle-8469a7.cpp
+clang++: note: diagnostic msg: /tmp/ItaniumDemangle-8469a7.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[20/3050] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/RustDemangle.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and dumped files.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage2/lib/Demangle -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Demangle -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wno-pass-failed -Wmisleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -Xclang -fno-pch-timestamp -flto=thin -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/Demangle/CMakeFiles/LLVMDemangle.dir/RustDemangle.cpp.o -MF lib/Demangle/CMakeFiles/LLVMDemangle.dir/RustDemangle.cpp.o.d -o lib/Demangle/CMakeFiles/LLVMDemangle.dir/RustDemangle.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Demangle/RustDemangle.cpp
+1.	<eof> parser at end of file
+2.	/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Demangle/Utility.h:232:3: instantiating function definition 'llvm::itanium_demangle::ScopedOverride<bool>::ScopedOverride'
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x0000561ece353bb0 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 240
+1  clang++   0x0000561ece351744 llvm::sys::CleanupOnSignal(unsigned long) + 164
+2  clang++   0x0000561ece292ba8
+3  libc.so.6 0x00007f7ca6155520
+4  clang++   0x0000561ed15e4688 clang::interp::InterpretBuiltin(clang::interp::InterpState&, clang::interp::CodePtr, clang::CallExpr const*, unsigned int) + 760
+5  clang++   0x0000561ed18f1828 clang::interp::Compiler<clang::interp::EvalEmitter>::VisitBuiltinCallExpr(clang::CallExpr const*, unsigned int) + 344
+6  clang++   0x0000561ed18f9c10 clang::interp::Compiler<clang::interp::EvalEmitter>::visit(clang::Expr const*) + 160
+7  clang++   0x0000561ed18e9e83 clang::interp::Compiler<clang::interp::EvalEmitter>::VisitCastExpr(clang::CastExpr const*) + 4451
+8  clang++   0x0000561ed18f9c10 clang::interp::Compiler<clang::interp::EvalEmitter>::visit(clang::Expr const*) + 160
+9  clang++   0x0000561ed18dfb68 clang::interp::Compiler<clang::interp::EvalEmitter>::visitAssignment(clang::Expr const*, clang::Expr const*, clang::Expr const*) + 120
+10 clang++   0x0000561ed18f9c10 clang::interp::Compiler<clang::interp::EvalEmitter>::visit(clang::Expr const*) + 160
+11 clang++   0x0000561ed18ec831 clang::interp::Compiler<clang::interp::EvalEmitter>::visitExpr(clang::Expr const*, bool) + 353
+12 clang++   0x0000561ed146c581 clang::interp::EvalEmitter::interpretExpr(clang::Expr const*, bool, bool) + 129
+13 clang++   0x0000561ed145d666 clang::interp::Context::evaluateAsRValue(clang::interp::State&, clang::Expr const*, clang::APValue&) + 390
+14 clang++   0x0000561ed13a3c32
+15 clang++   0x0000561ed13a750f clang::Expr::EvaluateForOverflow(clang::ASTContext const&) const + 879
+16 clang++   0x0000561ed040c6a5 clang::Sema::CheckForIntOverflow(clang::Expr const*) + 117
+17 clang++   0x0000561ed045245b clang::Sema::CheckCompletedExpr(clang::Expr*, clang::SourceLocation, bool) + 219
+18 clang++   0x0000561ed07e594e clang::Sema::ActOnFinishFullExpr(clang::Expr*, clang::SourceLocation, bool, bool, bool) + 270
+19 clang++   0x0000561ed0b10d1e clang::Sema::ActOnExprStmt(clang::ActionResult<clang::Expr*, true>, bool) + 62
+20 clang++   0x0000561ed0cdf9c5
+21 clang++   0x0000561ed0ce087e clang::Sema::SubstStmt(clang::Stmt*, clang::MultiLevelTemplateArgumentList const&) + 126
+22 clang++   0x0000561ed0dad507 clang::Sema::InstantiateFunctionDefinition(clang::SourceLocation, clang::FunctionDecl*, bool, bool, bool) + 4007
+23 clang++   0x0000561ed0dab683 clang::Sema::PerformPendingInstantiations(bool, bool) + 291
+24 clang++   0x0000561ed0363886
+25 clang++   0x0000561ed0363c04 clang::Sema::ActOnEndOfTranslationUnit() + 132
+26 clang++   0x0000561ed01bf7b2 clang::Parser::ParseTopLevelDecl(clang::OpaquePtr<clang::DeclGroupRef>&, clang::Sema::ModuleImportState&) + 930
+27 clang++   0x0000561ed019b92a clang::ParseAST(clang::Sema&, bool, bool) + 586
+28 clang++   0x0000561ecf087c72 clang::FrontendAction::Execute() + 50
+29 clang++   0x0000561eceff4fed clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 717
+30 clang++   0x0000561ecf16f1e8 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+31 clang++   0x0000561eccbe4678 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 4600
+32 clang++   0x0000561eccbdc67b
+33 clang++   0x0000561eccbdc72f
+34 clang++   0x0000561eced8469d
+35 clang++   0x0000561ece292f47 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+36 clang++   0x0000561eced84a37
+37 clang++   0x0000561eced418f7 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+38 clang++   0x0000561eced42919 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 153
+39 clang++   0x0000561eced5424c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+40 clang++   0x0000561eccbe1446 clang_main(int, char**, llvm::ToolContext const&) + 7830
+41 clang++   0x0000561eccae1641 main + 113
+42 libc.so.6 0x00007f7ca613cd90
+43 libc.so.6 0x00007f7ca613ce40 __libc_start_main + 128
+44 clang++   0x0000561eccbdc0f5 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING CRASH REPRODUCER FILES TO THE BUG REPORT:
+clang++: note: diagnostic msg: /tmp/RustDemangle-011551.cpp
+clang++: note: diagnostic msg: /tmp/RustDemangle-011551.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[21/3050] Linking CXX static library lib/libLLVMDemangle.a
+FAILED: lib/libLLVMDemangle.a 
+: && /usr/bin/cmake -E rm -f lib/libLLVMDemangle.a && /tmp/llvm-project-build-stage1/bin/llvm-ar Dqc lib/libLLVMDemangle.a  lib/Demangle/CMakeFiles/LLVMDemangle.dir/Demangle.cpp.o lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangle.cpp.o lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangleNodes.cpp.o lib/Demangle/CMakeFiles/LLVMDemangle.dir/RustDemangle.cpp.o lib/Demangle/CMakeFiles/LLVMDemangle.dir/DLangDemangle.cpp.o && /tmp/llvm-project-build-stage1/bin/llvm-ranlib -D lib/libLLVMDemangle.a && :
+/tmp/llvm-project-build-stage1/bin/llvm-ar: error: lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o: No such file or directory
+[22/3050] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/cmake_pch.hxx.pch
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and dumped files.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage2/lib/Support -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/../third-party/siphash/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/../libc -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wno-pass-failed -Wmisleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -Xclang -fno-pch-timestamp -flto=thin -Werror=global-constructors -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -Wno-c99-extensions -std=c++17 -Winvalid-pch -fpch-instantiate-templates -Xclang -emit-pch -Xclang -include -Xclang /tmp/llvm-project-build-stage2/lib/Support/CMakeFiles/LLVMSupport.dir/cmake_pch.hxx -x c++-header -MD -MT lib/Support/CMakeFiles/LLVMSupport.dir/cmake_pch.hxx.pch -MF lib/Support/CMakeFiles/LLVMSupport.dir/cmake_pch.hxx.pch.d -o lib/Support/CMakeFiles/LLVMSupport.dir/cmake_pch.hxx.pch -c /tmp/llvm-project-build-stage2/lib/Support/CMakeFiles/LLVMSupport.dir/cmake_pch.hxx.cxx
+1.	<eof> parser at end of file
+2.	/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:1376:3: instantiating function definition 'std::swap<unsigned long, 6U>'
+3.	/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:997:26: instantiating function definition 'llvm::SmallVectorImpl<unsigned long>::swap'
+4.	/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/move.h:196:5: instantiating function definition 'std::swap<void *>'
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x0000558eecb67bb0 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 240
+1  clang++   0x0000558eecb65744 llvm::sys::CleanupOnSignal(unsigned long) + 164
+2  clang++   0x0000558eecaa6ba8
+3  libc.so.6 0x00007fef841ae520
+4  clang++   0x0000558eefdf8688 clang::interp::InterpretBuiltin(clang::interp::InterpState&, clang::interp::CodePtr, clang::CallExpr const*, unsigned int) + 760
+5  clang++   0x0000558ef0105828 clang::interp::Compiler<clang::interp::EvalEmitter>::VisitBuiltinCallExpr(clang::CallExpr const*, unsigned int) + 344
+6  clang++   0x0000558ef010dc10 clang::interp::Compiler<clang::interp::EvalEmitter>::visit(clang::Expr const*) + 160
+7  clang++   0x0000558ef00fde83 clang::interp::Compiler<clang::interp::EvalEmitter>::VisitCastExpr(clang::CastExpr const*) + 4451
+8  clang++   0x0000558ef010dc10 clang::interp::Compiler<clang::interp::EvalEmitter>::visit(clang::Expr const*) + 160
+9  clang++   0x0000558ef00f3b68 clang::interp::Compiler<clang::interp::EvalEmitter>::visitAssignment(clang::Expr const*, clang::Expr const*, clang::Expr const*) + 120
+10 clang++   0x0000558ef010dc10 clang::interp::Compiler<clang::interp::EvalEmitter>::visit(clang::Expr const*) + 160
+11 clang++   0x0000558ef0100831 clang::interp::Compiler<clang::interp::EvalEmitter>::visitExpr(clang::Expr const*, bool) + 353
+12 clang++   0x0000558eefc80581 clang::interp::EvalEmitter::interpretExpr(clang::Expr const*, bool, bool) + 129
+13 clang++   0x0000558eefc71666 clang::interp::Context::evaluateAsRValue(clang::interp::State&, clang::Expr const*, clang::APValue&) + 390
+14 clang++   0x0000558eefbb7c32
+15 clang++   0x0000558eefbbb50f clang::Expr::EvaluateForOverflow(clang::ASTContext const&) const + 879
+16 clang++   0x0000558eeec206a5 clang::Sema::CheckForIntOverflow(clang::Expr const*) + 117
+17 clang++   0x0000558eeec6645b clang::Sema::CheckCompletedExpr(clang::Expr*, clang::SourceLocation, bool) + 219
+18 clang++   0x0000558eeeff994e clang::Sema::ActOnFinishFullExpr(clang::Expr*, clang::SourceLocation, bool, bool, bool) + 270
+19 clang++   0x0000558eef324d1e clang::Sema::ActOnExprStmt(clang::ActionResult<clang::Expr*, true>, bool) + 62
+20 clang++   0x0000558eef4f39c5
+21 clang++   0x0000558eef4f487e clang::Sema::SubstStmt(clang::Stmt*, clang::MultiLevelTemplateArgumentList const&) + 126
+22 clang++   0x0000558eef5c1507 clang::Sema::InstantiateFunctionDefinition(clang::SourceLocation, clang::FunctionDecl*, bool, bool, bool) + 4007
+23 clang++   0x0000558eef5bf683 clang::Sema::PerformPendingInstantiations(bool, bool) + 291
+24 clang++   0x0000558eef5c17d2 clang::Sema::InstantiateFunctionDefinition(clang::SourceLocation, clang::FunctionDecl*, bool, bool, bool) + 4722
+25 clang++   0x0000558eef5bf683 clang::Sema::PerformPendingInstantiations(bool, bool) + 291
+26 clang++   0x0000558eef5c17d2 clang::Sema::InstantiateFunctionDefinition(clang::SourceLocation, clang::FunctionDecl*, bool, bool, bool) + 4722
+27 clang++   0x0000558eef5bf683 clang::Sema::PerformPendingInstantiations(bool, bool) + 291
+28 clang++   0x0000558eeeb79312 clang::Sema::ActOnEndOfTranslationUnit() + 6034
+29 clang++   0x0000558eee9d37b2 clang::Parser::ParseTopLevelDecl(clang::OpaquePtr<clang::DeclGroupRef>&, clang::Sema::ModuleImportState&) + 930
+30 clang++   0x0000558eee9af92a clang::ParseAST(clang::Sema&, bool, bool) + 586
+31 clang++   0x0000558eed89bc72 clang::FrontendAction::Execute() + 50
+32 clang++   0x0000558eed808fed clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 717
+33 clang++   0x0000558eed9831e8 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+34 clang++   0x0000558eeb3f8678 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 4600
+35 clang++   0x0000558eeb3f067b
+36 clang++   0x0000558eeb3f072f
+37 clang++   0x0000558eed59869d
+38 clang++   0x0000558eecaa6f47 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+39 clang++   0x0000558eed598a37
+40 clang++   0x0000558eed5558f7 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+41 clang++   0x0000558eed556919 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 153
+42 clang++   0x0000558eed56824c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+43 clang++   0x0000558eeb3f5446 clang_main(int, char**, llvm::ToolContext const&) + 7830
+44 clang++   0x0000558eeb2f5641 main + 113
+45 libc.so.6 0x00007fef84195d90
+46 libc.so.6 0x00007fef84195e40 __libc_start_main + 128
+47 clang++   0x0000558eeb3f00f5 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: error: unable to execute command: Segmentation fault (core dumped)
+clang++: note: diagnostic msg: Error generating preprocessed source(s).
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:497 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
