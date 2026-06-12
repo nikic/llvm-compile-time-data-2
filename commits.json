@@ -157630,5 +157630,19 @@
             "commit_date": "2026-06-12T07:56:49+02:00",
             "subject": "paths"
         }
+    ],
+    "c-rhodes\/perf\/gisel-fix-finalize-isel-called-twice": [
+        {
+            "hash": "5e7ec28c5e3a70588bbe9368d3816b009cf3670f",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-06-11T09:01:08+00:00",
+            "subject": "[clang][CIR][AArch64] Add lowering for conversion intrinsics (#199990)"
+        },
+        {
+            "hash": "bebe5085d3acb388ad1dd7bbef572b4cc0f02d85",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-12T06:25:39+00:00",
+            "subject": "[GlobalISel] Do not finalize lowering in InstructionSelect"
+        }
     ]
 }
