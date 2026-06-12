@@ -101465,27 +101465,21 @@
     ],
     "tbaederr\/perf\/ce-test5": [
         {
-            "hash": "1a4e43531e6a483ecc2404ae97faeac8a6b808de",
-            "author_name": "David Zbarsky",
-            "commit_date": "2026-06-11T13:18:47+08:00",
-            "subject": "[NFC][clang][Serialization] Batch serialized LangOptions values (#202844)"
+            "hash": "8f069e7aea7dbf35d87c8a7a700ae6871b831298",
+            "author_name": "Joachim Meyer",
+            "commit_date": "2026-06-12T14:14:00+02:00",
+            "subject": "[lit] Add support for %{s:stem} substitution. (#202885)"
         },
         {
-            "hash": "23105ee86a08b3e106277816343bc24f2d0517ff",
+            "hash": "add017ad969a5609157076ce5a683dbbe05cb58e",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-06-11T07:25:51+02:00",
+            "commit_date": "2026-06-12T14:15:26+02:00",
             "subject": "Test"
         },
         {
-            "hash": "1b0676af6770c2f93f80c4e574a4751d6eb3f1e7",
+            "hash": "23cbcb851b6a82d05a63098fa478ee1d1b330f91",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-06-11T07:25:51+02:00",
-            "subject": "Ptrview"
-        },
-        {
-            "hash": "5eba9c08524be0c8e8be16a3d0568c01d4aa6e36",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-06-11T08:42:09+02:00",
+            "commit_date": "2026-06-12T14:15:30+02:00",
             "subject": "field offsets"
         }
     ],
@@ -152823,6 +152817,24 @@
             "author_name": "Michael Kruse",
             "commit_date": "2026-06-12T13:27:46+02:00",
             "subject": "[openmp] Fix export file paths (#202692)"
+        },
+        {
+            "hash": "9623ae8878b1d2d7ff39f9ce5c30e8bf82dd1896",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-06-12T14:12:59+02:00",
+            "subject": "[clang][bytecode] Add `PtrView` for non-tracking pointers (#184129)"
+        },
+        {
+            "hash": "2b4e89bc254dab3f18b59cd275519d256267b88e",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-06-12T12:13:28+00:00",
+            "subject": "[X86] combineConcatVectorOps - concat(permi(x,imm0),permi(y,imm1)) -> vpermv3(widen(x),m,widen(y)) (#203508)"
+        },
+        {
+            "hash": "8f069e7aea7dbf35d87c8a7a700ae6871b831298",
+            "author_name": "Joachim Meyer",
+            "commit_date": "2026-06-12T14:14:00+02:00",
+            "subject": "[lit] Add support for %{s:stem} substitution. (#202885)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
