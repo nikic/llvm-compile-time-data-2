@@ -152595,6 +152595,18 @@
             "author_name": "Madhur Amilkanthwar",
             "commit_date": "2026-06-12T06:17:30+00:00",
             "subject": "[LoopFusion][NFC] Avoid copying fusion candidates per pair (#203461)"
+        },
+        {
+            "hash": "15e7f2e8f2a14e5d574eb8894a4cbba8546291ca",
+            "author_name": "Amir Ayupov",
+            "commit_date": "2026-06-11T23:44:08-07:00",
+            "subject": "[BOLT] Propagate DataAggregator parse errors"
+        },
+        {
+            "hash": "2b04d746524f6970523ceda9a6a9489caa4f2337",
+            "author_name": "Amir Ayupov",
+            "commit_date": "2026-06-11T23:44:46-07:00",
+            "subject": "[BOLT] Buffer DataAggregator diagnostics"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -157643,6 +157655,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-06-12T06:25:39+00:00",
             "subject": "[GlobalISel] Do not finalize lowering in InstructionSelect"
+        }
+    ],
+    "c-rhodes\/perf\/gisel-defer-offsets-in-scalar-vreg-fast-path": [
+        {
+            "hash": "5e7ec28c5e3a70588bbe9368d3816b009cf3670f",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-06-11T09:01:08+00:00",
+            "subject": "[clang][CIR][AArch64] Add lowering for conversion intrinsics (#199990)"
+        },
+        {
+            "hash": "ca8da6c009e7db0ca17cb42c33a6aef1a0e6b2c6",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-12T06:45:16+00:00",
+            "subject": "[GlobalISel] Avoid offset list for scalar vregs"
         }
     ]
 }
