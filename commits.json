@@ -100755,6 +100755,12 @@
             "author_name": "Rong \"Mantle\" Bao",
             "commit_date": "2026-06-12T03:23:06+00:00",
             "subject": "Inline stack probes immediately after `allocateStack` in `eliminateCallFramePseudoInstr` (#195456)"
+        },
+        {
+            "hash": "e80beda6e2558f03f17351f6805e95c8687a82a9",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-12T19:10:51+00:00",
+            "subject": "[VPlan] Account for any-of costs in legacy cost model"
         }
     ],
     "enferex\/perf\/init-densemap-members": [
@@ -153279,6 +153285,18 @@
             "author_name": "Stanislav Mekhanoshin",
             "commit_date": "2026-06-12T11:47:11-07:00",
             "subject": "[AMGDPU] Add gfx1251 V_PK_MIN\/MAX_NUM_F64 (#203596)"
+        },
+        {
+            "hash": "2c1b71af78df9d7c22e225069971d3276d91d546",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-12T19:04:23+00:00",
+            "subject": "[VPlan] Compute URem via APInt in materializeVectorTripCount (#203604)"
+        },
+        {
+            "hash": "1060a6be0a471106fd65a3f16937ee1c588dabed",
+            "author_name": "Farzon Lotfi",
+            "commit_date": "2026-06-12T15:05:28-04:00",
+            "subject": "[SimplifyCFG][DirectX] Honor target minimum lookup table element width (#203103)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -158355,6 +158373,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-06-12T17:54:09+02:00",
             "subject": "unswitch"
+        }
+    ],
+    "fhahn\/perf\/inline-deref": [
+        {
+            "hash": "fda7a72af7a76ac6b51a8a1b1222f878d76405ed",
+            "author_name": "Stanislav Mekhanoshin",
+            "commit_date": "2026-06-12T11:47:11-07:00",
+            "subject": "[AMGDPU] Add gfx1251 V_PK_MIN\/MAX_NUM_F64 (#203596)"
+        },
+        {
+            "hash": "3da25c6eb622d59d30441c8cd2dab6dae1ee9a4c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-12T20:08:39+01:00",
+            "subject": "[Inline] Preserve dereferenceable param attrs as assumptions on inlining"
         }
     ]
 }
