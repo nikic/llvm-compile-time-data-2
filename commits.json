@@ -15753,22 +15753,28 @@
     ],
     "nikic\/perf\/deref-at-point": [
         {
-            "hash": "caa0f0395f4fb95f1d51cd5fdddfe6fcdef038e9",
+            "hash": "2f8c8cb90e0a0e257689313d38bf78a0f95324b6",
             "author_name": "Nikita Popov",
-            "commit_date": "2026-06-10T10:24:41+02:00",
-            "subject": "[LICM] Fix typo in variable name (NFC) (#202889)"
+            "commit_date": "2026-06-11T09:12:24+02:00",
+            "subject": "[IR] Allocas cannot be freed (#202875)"
         },
         {
-            "hash": "1977592eb6847ea0ec2c42ee72da41f47eeccc81",
+            "hash": "80c3f639cb9ae22a39870e57c6319ea6303b7774",
             "author_name": "Nikita Popov",
-            "commit_date": "2026-06-10T10:26:07+02:00",
+            "commit_date": "2026-06-11T09:25:24+02:00",
             "subject": "Enable deref-at-point"
         },
         {
-            "hash": "8e65541ce89c1acb5b663b4610a53dace802aa3b",
+            "hash": "754af400e96469d104c6c6acd28c79339f954fb2",
             "author_name": "Nikita Popov",
-            "commit_date": "2026-06-10T10:26:07+02:00",
+            "commit_date": "2026-06-11T09:25:24+02:00",
             "subject": "mergeicmps"
+        },
+        {
+            "hash": "8c878ef52aa19addcb3c7bec653d23d781537f44",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-06-12T09:53:14+02:00",
+            "subject": "make optional"
         }
     ],
     "nikic\/perf\/scev-addrec-flags": [
@@ -152631,6 +152637,12 @@
             "author_name": "yueshe",
             "commit_date": "2026-06-12T09:47:14+02:00",
             "subject": "Revert \"[clang][Darwin] Disable ObjC class selector stubs when using LLD\" (#203456)"
+        },
+        {
+            "hash": "b086e198e241fdcde57a3f9961e7d8d3c3ca4a99",
+            "author_name": "Tim Corringham",
+            "commit_date": "2026-06-12T08:54:58+01:00",
+            "subject": "[HLSL] Add IsArray resource attribute (#201163)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
