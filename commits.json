@@ -158845,15 +158845,21 @@
     ],
     "fhahn\/perf\/inline-deref": [
         {
-            "hash": "fda7a72af7a76ac6b51a8a1b1222f878d76405ed",
-            "author_name": "Stanislav Mekhanoshin",
-            "commit_date": "2026-06-12T11:47:11-07:00",
-            "subject": "[AMGDPU] Add gfx1251 V_PK_MIN\/MAX_NUM_F64 (#203596)"
+            "hash": "86543b7a7c3c737f5680f9cb0e2277fe1c23f336",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-14T14:04:18+02:00",
+            "subject": "[LV] Add additional tests for narrowing IGs with invariant ops (NFC). (#203726)"
         },
         {
-            "hash": "3da25c6eb622d59d30441c8cd2dab6dae1ee9a4c",
+            "hash": "f977dd5ce0fc7fb0a62ea7e6139fd9f2fd614df3",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-06-12T20:08:39+01:00",
+            "commit_date": "2026-06-14T13:44:34+01:00",
+            "subject": "[DropUnnecessaryAssumes] Fix iterator invalidation."
+        },
+        {
+            "hash": "755fa171e0345db8a6ace05b1b451cc98afe711f",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-14T13:45:01+01:00",
             "subject": "[Inline] Preserve dereferenceable param attrs as assumptions on inlining"
         }
     ],
