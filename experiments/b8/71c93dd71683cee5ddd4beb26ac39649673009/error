@@ -1,0 +1,215 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[273/3322] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeTableCollection.cpp.o
+[274/3322] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/IntrinsicEmitter.cpp.o
+[275/3322] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/TGParser.cpp.o
+[276/3322] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/Record.cpp.o
+[277/3322] Linking CXX static library lib/libLLVMTableGen.a
+[278/3322] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeStreamMerger.cpp.o
+[279/3322] Linking CXX executable bin/llvm-min-tblgen
+[280/3322] Building TargetLibraryInfo.inc...
+[281/3322] Building GenVT.inc...
+[282/3322] Linking CXX static library lib/libLLVMDebugInfoCodeView.a
+[283/3322] Building Attributes.inc...
+[284/3322] Building IntrinsicEnums.inc...
+[285/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangDataCollectorsEmitter.cpp.o
+[286/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/CIRLoweringEmitter.cpp.o
+[287/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangCommentCommandInfoEmitter.cpp.o
+[288/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ASTTableGen.cpp.o
+[289/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangASTNodesEmitter.cpp.o
+[290/3322] Building IntrinsicImpl.inc...
+[291/3322] Building IntrinsicsARM.h...
+[292/3322] Building IntrinsicsAArch64.h...
+[293/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangBuiltinTemplatesEmitter.cpp.o
+[294/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangCommentHTMLNamedCharacterReferenceEmitter.cpp.o
+[295/3322] Building IntrinsicsAMDGPU.h...
+[296/3322] Building IntrinsicsLoongArch.h...
+[297/3322] Building IntrinsicsDirectX.h...
+[298/3322] Building IntrinsicsMips.h...
+[299/3322] Building IntrinsicsHexagon.h...
+[300/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangSACheckersEmitter.cpp.o
+[301/3322] Building IntrinsicsBPF.h...
+[302/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangOpcodesEmitter.cpp.o
+[303/3322] Building IntrinsicsPowerPC.h...
+[304/3322] Building ACC.h.inc...
+[305/3322] Building RuntimeLibcalls.inc...
+[306/3322] Building IntrinsicsNVPTX.h...
+[307/3322] Building IntrinsicsR600.h...
+[308/3322] Building ACC.inc...
+[309/3322] Building OMP.h.inc...
+[310/3322] Building OMP.inc...
+[311/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangASTPropertiesEmitter.cpp.o
+[312/3322] Building CXX object lib/CodeGenTypes/CMakeFiles/LLVMCodeGenTypes.dir/LowLevelType.cpp.o
+[313/3322] Building IntrinsicsS390.h...
+[314/3322] Building IntrinsicsRISCV.h...
+[315/3322] Linking CXX static library lib/libLLVMCodeGenTypes.a
+[316/3322] Building IntrinsicsSPIRV.h...
+[317/3322] Building IntrinsicsVE.h...
+[318/3322] Building IntrinsicsWebAssembly.h...
+[319/3322] Building IntrinsicsXCore.h...
+[320/3322] Building IntrinsicsX86.h...
+[321/3322] Building PPCGenTargetFeatures.inc...
+[322/3322] Building ARMTargetParserDef.inc...
+[323/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangSyntaxEmitter.cpp.o
+[324/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangOptionDocEmitter.cpp.o
+[325/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangBuiltinsEmitter.cpp.o
+[326/3322] Building AArch64TargetParserDef.inc...
+[327/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangCommentHTMLTagsEmitter.cpp.o
+[328/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangTypeNodesEmitter.cpp.o
+[329/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangOpenCLBuiltinEmitter.cpp.o
+[330/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/HLSLEmitter.cpp.o
+[331/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/GlobalISel/MatchTable/MatchTable.cpp.o
+[332/3322] Building RISCVTargetParserDef.inc...
+[333/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangDiagnosticsEmitter.cpp.o
+[334/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/CTagsEmitter.cpp.o
+[335/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/CodeGenMapTable.cpp.o
+[336/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DecoderTableEmitter.cpp.o
+[337/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DecoderTree.cpp.o
+[338/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/SveEmitter.cpp.o
+[339/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/CodeEmitterGen.cpp.o
+[340/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/RISCVVEmitter.cpp.o
+[341/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/CallingConvEmitter.cpp.o
+[342/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DAGISelMatcher.cpp.o
+[343/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DAGISelEmitter.cpp.o
+[344/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/MveEmitter.cpp.o
+[345/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/NeonEmitter.cpp.o
+[346/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/CompressInstEmitter.cpp.o
+[347/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DAGISelMatcherOpt.cpp.o
+[348/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/llvm-tblgen.cpp.o
+[349/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DisassemblerEmitter.cpp.o
+[350/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DAGISelMatcherGen.cpp.o
+[351/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DFAEmitter.cpp.o
+[352/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/ExegesisEmitter.cpp.o
+[353/3322] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangAttrEmitter.cpp.o
+[354/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DFAPacketizerEmitter.cpp.o
+[355/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/AsmWriterEmitter.cpp.o
+[356/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DXILEmitter.cpp.o
+[357/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DecoderEmitter.cpp.o
+[358/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/OptionRSTEmitter.cpp.o
+[359/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/MacroFusionPredicatorEmitter.cpp.o
+[360/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/InstrDocsEmitter.cpp.o
+[361/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/X86DisassemblerTables.cpp.o
+[362/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DAGISelMatcherEmitter.cpp.o
+[363/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/X86ModRMFilters.cpp.o
+[364/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/OptionParserEmitter.cpp.o
+[365/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/AsmMatcherEmitter.cpp.o
+[366/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/GlobalISel/CodeExpander.cpp.o
+[367/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/GlobalISel/MatchTable/Types.cpp.o
+[368/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/GlobalISel/CXXPredicates.cpp.o
+[369/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/GlobalISel/MatchTable/Matchers.cpp.o
+[370/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/FastISelEmitter.cpp.o
+[371/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/PseudoLoweringEmitter.cpp.o
+[372/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/GlobalISel/CombinerUtils.cpp.o
+[373/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/RegisterBankEmitter.cpp.o
+[374/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/WebAssemblyDisassemblerEmitter.cpp.o
+[375/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/X86MnemonicTables.cpp.o
+[376/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/X86RecognizableInstr.cpp.o
+[377/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/SDNodeInfoEmitter.cpp.o
+[378/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/AsmWriterInst.cpp.o
+[379/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/GlobalISel/PatternParser.cpp.o
+[380/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/SearchableTableEmitter.cpp.o
+[381/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/CodeGenHwModes.cpp.o
+[382/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/X86FoldTablesEmitter.cpp.o
+[383/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/X86InstrMappingEmitter.cpp.o
+[384/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/GlobalISel/GlobalISelMatchTableExecutorEmitter.cpp.o
+[385/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/Types.cpp.o
+[386/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/CodeGenInstruction.cpp.o
+[387/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/InstrInfoEmitter.cpp.o
+[388/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/CodeGenInstAlias.cpp.o
+[389/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/GlobalISel/Patterns.cpp.o
+[390/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/OptEmitter.cpp.o
+[391/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/Utils.cpp.o
+[392/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/SubtargetEmitter.cpp.o
+[393/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/SubtargetFeatureInfo.cpp.o
+[394/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/PredicateExpander.cpp.o
+[395/3322] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/AbstractCallSite.cpp.o
+[396/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/InstructionEncoding.cpp.o
+[397/3322] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Assumptions.cpp.o
+[398/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/GlobalISelCombinerEmitter.cpp.o
+[399/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/InfoByHwMode.cpp.o
+[400/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/GlobalISelEmitter.cpp.o
+[401/3322] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/BuiltinGCs.cpp.o
+[402/3322] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/BundleAttributes.cpp.o
+[403/3322] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Comdat.cpp.o
+[404/3322] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/RegisterInfoEmitter.cpp.o
+[405/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/VarLenCodeEmitterGen.cpp.o
+[406/3322] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/MachineStripDebug.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/MachineStripDebug.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/MachineStripDebug.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/MachineStripDebug.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/MachineStripDebug.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/MachineStripDebug.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/ArrayRecycler.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/MachineInstr.h:33,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/MachineBasicBlock.h:22,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/MachineStripDebug.cpp:14:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Allocator.h: In instantiation of ‘class llvm::SpecificBumpPtrAllocator<llvm::MCSectionCOFF>’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/MC/MCContext.h:142:43:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Allocator.h:408:37: error: invalid application of ‘__alignof__’ to incomplete type ‘llvm::MCSectionCOFF’
+  408 |                            std::min(alignof(T), alignof(std::max_align_t))>;
+      |                                     ^~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Allocator.h: In instantiation of ‘class llvm::SpecificBumpPtrAllocator<llvm::MCSectionDXContainer>’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/MC/MCContext.h:143:50:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Allocator.h:408:37: error: invalid application of ‘__alignof__’ to incomplete type ‘llvm::MCSectionDXContainer’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Allocator.h: In instantiation of ‘class llvm::SpecificBumpPtrAllocator<llvm::MCSectionELF>’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/MC/MCContext.h:144:42:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Allocator.h:408:37: error: invalid application of ‘__alignof__’ to incomplete type ‘llvm::MCSectionELF’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Allocator.h: In instantiation of ‘class llvm::SpecificBumpPtrAllocator<llvm::MCSectionMachO>’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/MC/MCContext.h:145:44:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Allocator.h:408:37: error: invalid application of ‘__alignof__’ to incomplete type ‘llvm::MCSectionMachO’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Allocator.h: In instantiation of ‘class llvm::SpecificBumpPtrAllocator<llvm::MCSectionSPIRV>’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/MC/MCContext.h:147:44:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Allocator.h:408:37: error: invalid application of ‘__alignof__’ to incomplete type ‘llvm::MCSectionSPIRV’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Allocator.h: In instantiation of ‘class llvm::SpecificBumpPtrAllocator<llvm::MCSectionWasm>’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/MC/MCContext.h:148:43:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Allocator.h:408:37: error: invalid application of ‘__alignof__’ to incomplete type ‘llvm::MCSectionWasm’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Allocator.h: In instantiation of ‘class llvm::SpecificBumpPtrAllocator<llvm::MCSectionXCOFF>’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/MC/MCContext.h:149:44:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Allocator.h:408:37: error: invalid application of ‘__alignof__’ to incomplete type ‘llvm::MCSectionXCOFF’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Allocator.h: In instantiation of ‘class llvm::SpecificBumpPtrAllocator<llvm::wasm::WasmSignature>’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/MC/MCContext.h:152:49:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Allocator.h:408:37: error: invalid application of ‘__alignof__’ to incomplete type ‘llvm::wasm::WasmSignature’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Allocator.h: In instantiation of ‘class llvm::SpecificBumpPtrAllocator<llvm::MCSubtargetInfo>’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/MC/MCContext.h:324:45:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Allocator.h:408:37: error: invalid application of ‘__alignof__’ to incomplete type ‘llvm::MCSubtargetInfo’
+[407/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/CodeGenTarget.cpp.o
+[408/3322] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/MachineTraceMetrics.cpp.o
+[409/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/CodeGenSchedule.cpp.o
+[410/3322] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/BasicBlock.cpp.o
+FAILED: lib/IR/CMakeFiles/LLVMCore.dir/BasicBlock.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/IR -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/IR/CMakeFiles/LLVMCore.dir/BasicBlock.cpp.o -MF lib/IR/CMakeFiles/LLVMCore.dir/BasicBlock.cpp.o.d -o lib/IR/CMakeFiles/LLVMCore.dir/BasicBlock.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR/BasicBlock.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/StringSaver.h:15,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLine.h:31,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/ProfDataUtils.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Instructions.h:35,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR/BasicBlock.cpp:20:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Allocator.h: In instantiation of ‘class llvm::SpecificBumpPtrAllocator<llvm::ConstantRangeAttributeImpl>’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR/LLVMContextImpl.h:1685:7:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Allocator.h:408:37: error: invalid application of ‘__alignof__’ to incomplete type ‘llvm::ConstantRangeAttributeImpl’
+  408 |                            std::min(alignof(T), alignof(std::max_align_t))>;
+      |                                     ^~~~~~~~~~
+[411/3322] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ConstantFPRange.cpp.o
+[412/3322] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/MIRFSDiscriminator.cpp.o
+[413/3322] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/MachineUniformityAnalysis.cpp.o
+[414/3322] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ConstantFold.cpp.o
+[415/3322] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Attributes.cpp.o
+[416/3322] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ConstantRange.cpp.o
+[417/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/CodeGenDAGPatterns.cpp.o
+[418/3322] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BranchFolding.cpp.o
+[419/3322] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/CodeGenRegisters.cpp.o
+[420/3322] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/MachineVerifier.cpp.o
+[421/3322] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/AsmWriter.cpp.o
+[422/3322] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BasicTargetTransformInfo.cpp.o
+[423/3322] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/AutoUpgrade.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:497 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+396.72user 22.44system 0:28.75elapsed 1457%CPU (0avgtext+0avgdata 725360maxresident)k
+0inputs+1145576outputs (455major+12841152minor)pagefaults 0swaps
