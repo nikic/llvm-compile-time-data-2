@@ -153705,6 +153705,12 @@
             "author_name": "dyung",
             "commit_date": "2026-06-13T17:55:59-04:00",
             "subject": "Update remaining tests for usage of CLANG_RESOURCE_DIR (#202475)"
+        },
+        {
+            "hash": "3a46e59c2bf4db22cc22ef8a92d459c34c696731",
+            "author_name": "Hubert Tong",
+            "commit_date": "2026-06-14T00:07:42+00:00",
+            "subject": "[NFC][tests] Rename test file and function names to reflect scope\/content (#203731)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -158859,10 +158865,48 @@
             "subject": "[Allocator] Keep bump pointer at a minimum alignment"
         },
         {
-            "hash": "c04beebb3a2d5257e5a03c34ad288b177cfea77b",
+            "hash": "f79163b6a12fa89377f1d75f2a6b62f034f19166",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-06-13T16:43:58-07:00",
-            "subject": "[Allocator] EXPERIMENT: downward bump allocation"
+            "commit_date": "2026-06-13T17:07:00-07:00",
+            "subject": "[Allocator] Bump downward"
+        }
+    ],
+    "aeft\/perf\/lifetime-safety-13-Jun": [
+        {
+            "hash": "4695c84c7954f0133679b76302bff13e2b059def",
+            "author_name": "Jianhui Li",
+            "commit_date": "2026-06-03T22:31:07-07:00",
+            "subject": "[MLIR][XeGPU] Extend op definitions to support 3D+: load_nd, store_nd, prefetch_nd (#199811)"
+        },
+        {
+            "hash": "6c30e67ba22549de6d71cb549b675b3d7a45c257",
+            "author_name": "Zhijie Wang",
+            "commit_date": "2026-06-13T17:09:22-07:00",
+            "subject": "Enable lifetime safety analysis unconditionally"
+        },
+        {
+            "hash": "9357ea9f3f7a2763f9f0c560bd3ff8002adf4cbf",
+            "author_name": "Zhijie Wang",
+            "commit_date": "2026-06-13T17:09:26-07:00",
+            "subject": "[LifetimeSafety][NFC] Refactor OriginList to OriginNode tree"
+        },
+        {
+            "hash": "de1ed3809037edc1700e43de060f6aa05198085f",
+            "author_name": "Zhijie Wang",
+            "commit_date": "2026-06-13T17:09:26-07:00",
+            "subject": "[LifetimeSafety][NFC] Add field-labeled child edges to OriginNode and generalize subtree walks"
+        },
+        {
+            "hash": "64568e6612a85260c334f79c7981aa08e833e5af",
+            "author_name": "Zhijie Wang",
+            "commit_date": "2026-06-13T17:09:26-07:00",
+            "subject": "[LifetimeSafety][NFC] Collect accessed fields in a unified pre-scan"
+        },
+        {
+            "hash": "f8c5a72f2a3b409820750456c3a1366c1d797c32",
+            "author_name": "Zhijie Wang",
+            "commit_date": "2026-06-13T17:09:26-07:00",
+            "subject": "[LifetimeSafety] Track per-field origins for record types"
         }
     ]
 }
