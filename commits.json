@@ -154683,6 +154683,12 @@
             "author_name": "adams381",
             "commit_date": "2026-06-15T15:58:17-05:00",
             "subject": "[CIR] Lower __builtin_bswapg (#203618)"
+        },
+        {
+            "hash": "1b49912b6a91a1f335805791cc093a4153440e2e",
+            "author_name": "adams381",
+            "commit_date": "2026-06-15T16:10:55-05:00",
+            "subject": "[CIR] Fix bitfield post-increment return value (#201723)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -160407,6 +160413,38 @@
             "author_name": "David Zbarsky",
             "commit_date": "2026-06-15T16:16:28-04:00",
             "subject": "[MC] Put operand offsets and sizes in high bits"
+        }
+    ],
+    "dzbarsky\/perf\/mcinstrdesc-direct-hot-fields": [
+        {
+            "hash": "7087094b05a1bba64a99474cc501328919e11b4a",
+            "author_name": "Aviral Goel",
+            "commit_date": "2026-06-08T16:16:15-07:00",
+            "subject": "[clang][ssaf] Convert `JSONFormat` tests for `TUSummary` and `TUSummaryEncoding` to lit tests (#192187)"
+        },
+        {
+            "hash": "c918ca1b4218a5369ec4018b2126c18ebed4030b",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T10:23:29-04:00",
+            "subject": "[MC][TableGen] Pack MCInstrDesc fields into 24 bytes"
+        },
+        {
+            "hash": "049c67acc7044d3c3bbb2a8a8fdea75b64dbcb0c",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T11:45:01-04:00",
+            "subject": "[MC][TableGen] Pre-encode MCInstrDesc records"
+        },
+        {
+            "hash": "75173b379d9b87cdb0e1c7a234135762bc36e0a5",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T12:05:38-04:00",
+            "subject": "[MC] Make MCInstrDesc opcode access cheaper"
+        },
+        {
+            "hash": "a46750d40f6dd0ac130298d5cb2bc44f1f490efa",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T17:02:57-04:00",
+            "subject": "[MC][TableGen] Keep hot MCInstrDesc fields directly accessible"
         }
     ]
 }
