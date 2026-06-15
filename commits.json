@@ -154461,6 +154461,24 @@
             "author_name": "Arseniy Obolenskiy",
             "commit_date": "2026-06-15T18:13:38+02:00",
             "subject": "[SPIR-V] Take ArrayRef instead of owning containers in selection helpers (NFC) (#203908)"
+        },
+        {
+            "hash": "9e0508dc4e30fc92a677c091da5546b458a268ef",
+            "author_name": "Peter Smith",
+            "commit_date": "2026-06-15T17:14:50+01:00",
+            "subject": "[ARM][LLD] Reduce thunk test case size, linkerscript changes [NFC] (#202549)"
+        },
+        {
+            "hash": "dd05657aef81a6e3c7323c1cd5138a3a2bc5c99a",
+            "author_name": "Peter Smith",
+            "commit_date": "2026-06-15T17:15:20+01:00",
+            "subject": "[ARM][LLD] Remove large files at end of test [NFC] (#202548)"
+        },
+        {
+            "hash": "d14b90821790baac19cb6b1d56612b59b465b212",
+            "author_name": "Peter Smith",
+            "commit_date": "2026-06-15T17:16:18+01:00",
+            "subject": "[AArch64][LLD] Update tests to reduce file size [NFC] (#202547)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -159865,6 +159883,20 @@
             "author_name": "David Zbarsky",
             "commit_date": "2026-06-15T12:05:38-04:00",
             "subject": "[MC] Make MCInstrDesc opcode access cheaper"
+        }
+    ],
+    "aengelke\/perf\/dzbarsky-commandline-option-constructor": [
+        {
+            "hash": "bb088f7e1a23648b56bdd91212d468f66644f94b",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-06-08T09:48:22+02:00",
+            "subject": "[libc++] Remove <atomic> includes from <stop_token> (#201710)"
+        },
+        {
+            "hash": "8a8f1ddef40d402f03ffc4024030cce4d688102f",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T16:21:32+00:00",
+            "subject": "[Support] Move the command-line Option constructor out of line"
         }
     ]
 }
