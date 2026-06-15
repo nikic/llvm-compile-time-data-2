@@ -104387,40 +104387,28 @@
     ],
     "fhahn\/perf\/scevuse-indvars": [
         {
-            "hash": "fa4d73761d122c49ebc591118c83f5e142c98b4d",
-            "author_name": "Simon Pilgrim",
-            "commit_date": "2026-05-16T17:22:09+00:00",
-            "subject": "[X86] LowerVECREDUCE - add AllowScalarization operand (#198109)"
+            "hash": "c3c915fca04d3e6a6983519acd3f40b6ca243a73",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T20:15:28+02:00",
+            "subject": "[Support] Move the command-line Option constructor out of line (#202847)"
         },
         {
-            "hash": "0740d38c7dbb665d9bcd7a8ff5787e22b3a9428d",
+            "hash": "ab385462558aa70edb2388070738697cf9c599c9",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-05-16T19:05:39+01:00",
+            "commit_date": "2026-06-15T19:24:42+01:00",
             "subject": "[SCEV] Add option to request use-specific SCEV for a GEP expr"
         },
         {
-            "hash": "57b75e92870f7c98d08cc929ee434ad4bc35c516",
+            "hash": "5fdc7dd8643beba6c282d10cea0d07900dc8c609",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-05-16T19:05:39+01:00",
-            "subject": "[SCEV] Use SCEVUse more broadly in ScalarEvolution infrastructure (NFC)"
+            "commit_date": "2026-06-15T19:25:48+01:00",
+            "subject": "[SCEV] Use SCEVUse for ValuesAtScope."
         },
         {
-            "hash": "6420b87f0b651aee988e23d548d645a4ee2bbe32",
+            "hash": "03cb29a96e0ae518590f2f7ba702b5c968cc6bfc",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-05-16T19:05:39+01:00",
-            "subject": "Restrict more"
-        },
-        {
-            "hash": "5083021c097ef792735279d351eec3f7a980fbc4",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-05-16T19:05:39+01:00",
+            "commit_date": "2026-06-15T19:26:11+01:00",
             "subject": "[IndVarSimplify] Propagate SCEVUse flags through exit value expansion"
-        },
-        {
-            "hash": "27a64ba1a3d625095e6cf24a8dd7cd43ddc7a57e",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-05-16T19:14:02+01:00",
-            "subject": "Track SCEVUses at ValuesAtScope"
         }
     ],
     "bababuck\/perf\/StrideStores": [
@@ -154545,6 +154533,12 @@
             "author_name": "David Zbarsky",
             "commit_date": "2026-06-15T20:15:28+02:00",
             "subject": "[Support] Move the command-line Option constructor out of line (#202847)"
+        },
+        {
+            "hash": "1c07fe864fb4d4c54706b162793e040c206aa181",
+            "author_name": "Amr Hesham",
+            "commit_date": "2026-06-15T20:24:37+02:00",
+            "subject": "[CIR][NFC] Sync ClangIR with MLIR RegionSuccessor changes (#203950)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -160173,6 +160167,38 @@
             "author_name": "David Zbarsky",
             "commit_date": "2026-06-15T14:08:45-04:00",
             "subject": "[MC] Revert MCInstrDesc packing for performance control"
+        }
+    ],
+    "dzbarsky\/perf\/mcinstrdesc-direct-size": [
+        {
+            "hash": "7087094b05a1bba64a99474cc501328919e11b4a",
+            "author_name": "Aviral Goel",
+            "commit_date": "2026-06-08T16:16:15-07:00",
+            "subject": "[clang][ssaf] Convert `JSONFormat` tests for `TUSummary` and `TUSummaryEncoding` to lit tests (#192187)"
+        },
+        {
+            "hash": "c918ca1b4218a5369ec4018b2126c18ebed4030b",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T10:23:29-04:00",
+            "subject": "[MC][TableGen] Pack MCInstrDesc fields into 24 bytes"
+        },
+        {
+            "hash": "049c67acc7044d3c3bbb2a8a8fdea75b64dbcb0c",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T11:45:01-04:00",
+            "subject": "[MC][TableGen] Pre-encode MCInstrDesc records"
+        },
+        {
+            "hash": "75173b379d9b87cdb0e1c7a234135762bc36e0a5",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T12:05:38-04:00",
+            "subject": "[MC] Make MCInstrDesc opcode access cheaper"
+        },
+        {
+            "hash": "f174619a3a2b5bbafcbdbaf12713e33c153129aa",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T14:28:18-04:00",
+            "subject": "[MC] Store MCInstrDesc size directly"
         }
     ]
 }
