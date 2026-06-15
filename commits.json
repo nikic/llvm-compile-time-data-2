@@ -154419,6 +154419,36 @@
             "author_name": "Julian Klappenbach",
             "commit_date": "2026-06-15T17:39:23+02:00",
             "subject": "[SPIR-V] Deduce pointee type for all global variables, not only initialized ones (#202047)"
+        },
+        {
+            "hash": "53e36fb7833acd81a5d07eeffa7ff8ae6968125e",
+            "author_name": "Maryam Moghadas",
+            "commit_date": "2026-06-15T11:42:55-04:00",
+            "subject": "[z\/OS][Clang] Raise minimum supported z\/OS target level to 3.1 (#203580)"
+        },
+        {
+            "hash": "fff4896df38cd1decf6361a8a98e750befb759d9",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-06-15T11:44:34-04:00",
+            "subject": "[Bazel] Fixes 63c9264 (#203875)"
+        },
+        {
+            "hash": "0919b1e54c6eff1841948717035eeffe21b27c6c",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-06-15T08:44:50-07:00",
+            "subject": "[lldb] Recompute the statusline on resize without clearing the screen (#202691)"
+        },
+        {
+            "hash": "8af74a033b667a9af256744a0c701a535694f6d3",
+            "author_name": "Alex Duran",
+            "commit_date": "2026-06-15T17:48:30+02:00",
+            "subject": "[OFFLOAD][L0] Switch to use inorder queues by default (#203897)"
+        },
+        {
+            "hash": "132adf753ac1a78ced1839678bb03070c1ca25df",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-06-15T17:51:10+02:00",
+            "subject": "[SPIR-V] Skip dead second result load for frexp and modf (#201891)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -159777,6 +159807,26 @@
             "author_name": "David Zbarsky",
             "commit_date": "2026-06-15T10:23:29-04:00",
             "subject": "[MC][TableGen] Pack MCInstrDesc fields into 24 bytes"
+        }
+    ],
+    "dzbarsky\/perf\/mcinstrdesc-preencoded": [
+        {
+            "hash": "7087094b05a1bba64a99474cc501328919e11b4a",
+            "author_name": "Aviral Goel",
+            "commit_date": "2026-06-08T16:16:15-07:00",
+            "subject": "[clang][ssaf] Convert `JSONFormat` tests for `TUSummary` and `TUSummaryEncoding` to lit tests (#192187)"
+        },
+        {
+            "hash": "c918ca1b4218a5369ec4018b2126c18ebed4030b",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T10:23:29-04:00",
+            "subject": "[MC][TableGen] Pack MCInstrDesc fields into 24 bytes"
+        },
+        {
+            "hash": "049c67acc7044d3c3bbb2a8a8fdea75b64dbcb0c",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T11:45:01-04:00",
+            "subject": "[MC][TableGen] Pre-encode MCInstrDesc records"
         }
     ]
 }
