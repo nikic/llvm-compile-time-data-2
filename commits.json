@@ -154665,6 +154665,12 @@
             "author_name": "Prashanth Mundkur",
             "commit_date": "2026-06-15T13:10:35-07:00",
             "subject": "[lldb][docs] Some fixes for lldbgdbremote.md. (#200079)"
+        },
+        {
+            "hash": "4bd7cc06f314b7809a480177d7424d0bcff55521",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-06-15T16:24:38-04:00",
+            "subject": "[Bazel] Fixes 7befd2b (#203985)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -160357,6 +160363,38 @@
             "author_name": "David Zbarsky",
             "commit_date": "2026-06-15T16:09:20-04:00",
             "subject": "[MC] Put MCInstrDesc scheduling classes in the high bits"
+        }
+    ],
+    "dzbarsky\/perf\/mcinstrdesc-cycle-layout": [
+        {
+            "hash": "7087094b05a1bba64a99474cc501328919e11b4a",
+            "author_name": "Aviral Goel",
+            "commit_date": "2026-06-08T16:16:15-07:00",
+            "subject": "[clang][ssaf] Convert `JSONFormat` tests for `TUSummary` and `TUSummaryEncoding` to lit tests (#192187)"
+        },
+        {
+            "hash": "c918ca1b4218a5369ec4018b2126c18ebed4030b",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T10:23:29-04:00",
+            "subject": "[MC][TableGen] Pack MCInstrDesc fields into 24 bytes"
+        },
+        {
+            "hash": "049c67acc7044d3c3bbb2a8a8fdea75b64dbcb0c",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T11:45:01-04:00",
+            "subject": "[MC][TableGen] Pre-encode MCInstrDesc records"
+        },
+        {
+            "hash": "75173b379d9b87cdb0e1c7a234135762bc36e0a5",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T12:05:38-04:00",
+            "subject": "[MC] Make MCInstrDesc opcode access cheaper"
+        },
+        {
+            "hash": "4b7daf9de615eeb55f343548c3de6853c4b141ba",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T16:16:28-04:00",
+            "subject": "[MC] Put operand offsets and sizes in high bits"
         }
     ]
 }
