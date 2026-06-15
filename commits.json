@@ -154647,6 +154647,24 @@
             "author_name": "Razvan Lupusoru",
             "commit_date": "2026-06-15T20:01:50+00:00",
             "subject": "[flang][acc] Add PointerLikeType API for MemRef type conversion (#203965)"
+        },
+        {
+            "hash": "e4ffb239aaf13f01d4b59ba1a7d0edbd4f425320",
+            "author_name": "Abid Qadeer",
+            "commit_date": "2026-06-15T21:05:26+01:00",
+            "subject": "[flang][OpenMP][NFC] Extract enclosing-construct trait collection helper (#203924)"
+        },
+        {
+            "hash": "46fc3bb6a48eb72a37b165864340b7f619d743fd",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-06-15T22:05:43+02:00",
+            "subject": "[ValueTracking] Infer nonnull from alignment with non-zero offsets (#203634)"
+        },
+        {
+            "hash": "286da51fa5faec9a3a2fb5afbe62e72e689c0f7c",
+            "author_name": "Prashanth Mundkur",
+            "commit_date": "2026-06-15T13:10:35-07:00",
+            "subject": "[lldb][docs] Some fixes for lldbgdbremote.md. (#200079)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -160307,6 +160325,38 @@
             "author_name": "David Zbarsky",
             "commit_date": "2026-06-15T14:28:18-04:00",
             "subject": "[MC] Store MCInstrDesc size directly"
+        }
+    ],
+    "dzbarsky\/perf\/mcinstrdesc-sched-high": [
+        {
+            "hash": "7087094b05a1bba64a99474cc501328919e11b4a",
+            "author_name": "Aviral Goel",
+            "commit_date": "2026-06-08T16:16:15-07:00",
+            "subject": "[clang][ssaf] Convert `JSONFormat` tests for `TUSummary` and `TUSummaryEncoding` to lit tests (#192187)"
+        },
+        {
+            "hash": "c918ca1b4218a5369ec4018b2126c18ebed4030b",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T10:23:29-04:00",
+            "subject": "[MC][TableGen] Pack MCInstrDesc fields into 24 bytes"
+        },
+        {
+            "hash": "049c67acc7044d3c3bbb2a8a8fdea75b64dbcb0c",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T11:45:01-04:00",
+            "subject": "[MC][TableGen] Pre-encode MCInstrDesc records"
+        },
+        {
+            "hash": "75173b379d9b87cdb0e1c7a234135762bc36e0a5",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T12:05:38-04:00",
+            "subject": "[MC] Make MCInstrDesc opcode access cheaper"
+        },
+        {
+            "hash": "216cd13f16cd41d57940e63143f79f1a131867a1",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T16:09:20-04:00",
+            "subject": "[MC] Put MCInstrDesc scheduling classes in the high bits"
         }
     ]
 }
