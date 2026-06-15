@@ -154521,6 +154521,12 @@
             "author_name": "yonghong-song",
             "commit_date": "2026-06-15T10:51:02-07:00",
             "subject": "[Clang][BPF] Support btf_type_tag on typedef underlying types (#203089)"
+        },
+        {
+            "hash": "89a086927f1ef5384c457c202f1732b2f1f5ec38",
+            "author_name": "Ryan Mansfield",
+            "commit_date": "2026-06-15T14:03:53-04:00",
+            "subject": "[clangd] Keep ModuleCache alive for captured preamble AST (#203952)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -160023,6 +160029,50 @@
             "author_name": "David Zbarsky",
             "commit_date": "2026-06-15T13:53:00-04:00",
             "subject": "[MC] Re-inline MCInstrDesc NumDefs decoding"
+        }
+    ],
+    "dzbarsky\/perf\/mcinstrdesc-cold-numdefs": [
+        {
+            "hash": "7087094b05a1bba64a99474cc501328919e11b4a",
+            "author_name": "Aviral Goel",
+            "commit_date": "2026-06-08T16:16:15-07:00",
+            "subject": "[clang][ssaf] Convert `JSONFormat` tests for `TUSummary` and `TUSummaryEncoding` to lit tests (#192187)"
+        },
+        {
+            "hash": "c918ca1b4218a5369ec4018b2126c18ebed4030b",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T10:23:29-04:00",
+            "subject": "[MC][TableGen] Pack MCInstrDesc fields into 24 bytes"
+        },
+        {
+            "hash": "049c67acc7044d3c3bbb2a8a8fdea75b64dbcb0c",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T11:45:01-04:00",
+            "subject": "[MC][TableGen] Pre-encode MCInstrDesc records"
+        },
+        {
+            "hash": "75173b379d9b87cdb0e1c7a234135762bc36e0a5",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T12:05:38-04:00",
+            "subject": "[MC] Make MCInstrDesc opcode access cheaper"
+        },
+        {
+            "hash": "f97da0c040ba2097c22e95d24e18c0f08039511c",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T13:38:42-04:00",
+            "subject": "[MC] Outline uncommon MCInstrDesc decoding"
+        },
+        {
+            "hash": "d0a3063d596a6da3ce0b4f49a5b3094a19b2aac3",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T13:53:00-04:00",
+            "subject": "[MC] Re-inline MCInstrDesc NumDefs decoding"
+        },
+        {
+            "hash": "4c857a36fbf0a3f1c5bd9ee7b18f474e31bbae2f",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T14:07:16-04:00",
+            "subject": "[MC] Isolate uncommon MCInstrDesc definition decoding"
         }
     ]
 }
