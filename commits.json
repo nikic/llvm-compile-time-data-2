@@ -100761,6 +100761,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-06-12T19:10:51+00:00",
             "subject": "[VPlan] Account for any-of costs in legacy cost model"
+        },
+        {
+            "hash": "208ef916cf2062f833913a767e6aafc2c9b543fc",
+            "author_name": "Folkert de Vries",
+            "commit_date": "2026-06-15T17:41:49+00:00",
+            "subject": "[WebAssembly] narrow instructions use signed saturation (#201798)"
         }
     ],
     "enferex\/perf\/init-densemap-members": [
@@ -154497,6 +154503,12 @@
             "author_name": "Scott Manley",
             "commit_date": "2026-06-15T11:42:47-05:00",
             "subject": "[ACCRecipeMaterialization] materialize destroy region for reductions (#203935)"
+        },
+        {
+            "hash": "b31c239b071bbcb9beb1f999d25854cbb5028642",
+            "author_name": "Folkert de Vries",
+            "commit_date": "2026-06-15T19:38:15+02:00",
+            "subject": "[LangRef] allow omitting `va_end` (#203087)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -159929,6 +159941,38 @@
             "author_name": "Timur Golubovich",
             "commit_date": "2026-06-15T19:03:15+02:00",
             "subject": "Prove implied conditions via matching SCEV differences"
+        }
+    ],
+    "dzbarsky\/perf\/mcinstrdesc-cold-decode": [
+        {
+            "hash": "7087094b05a1bba64a99474cc501328919e11b4a",
+            "author_name": "Aviral Goel",
+            "commit_date": "2026-06-08T16:16:15-07:00",
+            "subject": "[clang][ssaf] Convert `JSONFormat` tests for `TUSummary` and `TUSummaryEncoding` to lit tests (#192187)"
+        },
+        {
+            "hash": "c918ca1b4218a5369ec4018b2126c18ebed4030b",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T10:23:29-04:00",
+            "subject": "[MC][TableGen] Pack MCInstrDesc fields into 24 bytes"
+        },
+        {
+            "hash": "049c67acc7044d3c3bbb2a8a8fdea75b64dbcb0c",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T11:45:01-04:00",
+            "subject": "[MC][TableGen] Pre-encode MCInstrDesc records"
+        },
+        {
+            "hash": "75173b379d9b87cdb0e1c7a234135762bc36e0a5",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T12:05:38-04:00",
+            "subject": "[MC] Make MCInstrDesc opcode access cheaper"
+        },
+        {
+            "hash": "f97da0c040ba2097c22e95d24e18c0f08039511c",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T13:38:42-04:00",
+            "subject": "[MC] Outline uncommon MCInstrDesc decoding"
         }
     ]
 }
