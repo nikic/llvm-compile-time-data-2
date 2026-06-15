@@ -154527,6 +154527,24 @@
             "author_name": "Ryan Mansfield",
             "commit_date": "2026-06-15T14:03:53-04:00",
             "subject": "[clangd] Keep ModuleCache alive for captured preamble AST (#203952)"
+        },
+        {
+            "hash": "df0c6bdfaecd0b6d17742ef9504843f45c9386d9",
+            "author_name": "jofrn",
+            "commit_date": "2026-06-15T11:13:48-07:00",
+            "subject": "[X86] Replace alignedstore\/alignedload custom predicates with MinAlignment. NFC (#201980)"
+        },
+        {
+            "hash": "96adb80f0c5a94f22d61d6f2307c8a3d0483d3b1",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T20:14:14+02:00",
+            "subject": "[AArch64] Move the perfect-shuffle table out of line (#202617)"
+        },
+        {
+            "hash": "c3c915fca04d3e6a6983519acd3f40b6ca243a73",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T20:15:28+02:00",
+            "subject": "[Support] Move the command-line Option constructor out of line (#202847)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -160073,6 +160091,88 @@
             "author_name": "David Zbarsky",
             "commit_date": "2026-06-15T14:07:16-04:00",
             "subject": "[MC] Isolate uncommon MCInstrDesc definition decoding"
+        }
+    ],
+    "dzbarsky\/perf\/mcinstrdesc-cold-size-aba": [
+        {
+            "hash": "7087094b05a1bba64a99474cc501328919e11b4a",
+            "author_name": "Aviral Goel",
+            "commit_date": "2026-06-08T16:16:15-07:00",
+            "subject": "[clang][ssaf] Convert `JSONFormat` tests for `TUSummary` and `TUSummaryEncoding` to lit tests (#192187)"
+        },
+        {
+            "hash": "c918ca1b4218a5369ec4018b2126c18ebed4030b",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T10:23:29-04:00",
+            "subject": "[MC][TableGen] Pack MCInstrDesc fields into 24 bytes"
+        },
+        {
+            "hash": "049c67acc7044d3c3bbb2a8a8fdea75b64dbcb0c",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T11:45:01-04:00",
+            "subject": "[MC][TableGen] Pre-encode MCInstrDesc records"
+        },
+        {
+            "hash": "75173b379d9b87cdb0e1c7a234135762bc36e0a5",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T12:05:38-04:00",
+            "subject": "[MC] Make MCInstrDesc opcode access cheaper"
+        },
+        {
+            "hash": "f97da0c040ba2097c22e95d24e18c0f08039511c",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T13:38:42-04:00",
+            "subject": "[MC] Outline uncommon MCInstrDesc decoding"
+        },
+        {
+            "hash": "d0a3063d596a6da3ce0b4f49a5b3094a19b2aac3",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T13:53:00-04:00",
+            "subject": "[MC] Re-inline MCInstrDesc NumDefs decoding"
+        },
+        {
+            "hash": "99a581e986ab73217b8ba0a51465a2f2eda519ca",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T14:18:01-04:00",
+            "subject": "[MC] Revert cold MCInstrDesc size decoding for performance control"
+        },
+        {
+            "hash": "09503545a09d9ae4abe718c6c6ecf72bbc7b2479",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T14:18:01-04:00",
+            "subject": "[MC] Reapply cold MCInstrDesc size decoding for performance control"
+        }
+    ],
+    "dzbarsky\/perf\/mcinstrdesc-unpacked-control": [
+        {
+            "hash": "7087094b05a1bba64a99474cc501328919e11b4a",
+            "author_name": "Aviral Goel",
+            "commit_date": "2026-06-08T16:16:15-07:00",
+            "subject": "[clang][ssaf] Convert `JSONFormat` tests for `TUSummary` and `TUSummaryEncoding` to lit tests (#192187)"
+        },
+        {
+            "hash": "c918ca1b4218a5369ec4018b2126c18ebed4030b",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T10:23:29-04:00",
+            "subject": "[MC][TableGen] Pack MCInstrDesc fields into 24 bytes"
+        },
+        {
+            "hash": "049c67acc7044d3c3bbb2a8a8fdea75b64dbcb0c",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T11:45:01-04:00",
+            "subject": "[MC][TableGen] Pre-encode MCInstrDesc records"
+        },
+        {
+            "hash": "75173b379d9b87cdb0e1c7a234135762bc36e0a5",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T12:05:38-04:00",
+            "subject": "[MC] Make MCInstrDesc opcode access cheaper"
+        },
+        {
+            "hash": "5d669011c46ec65b59041c5882c34c7a6e56a5b3",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T14:08:45-04:00",
+            "subject": "[MC] Revert MCInstrDesc packing for performance control"
         }
     ]
 }
