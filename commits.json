@@ -101477,52 +101477,58 @@
     ],
     "tbaederr\/perf\/ce-test5": [
         {
-            "hash": "05c8f9b1ead844024f414f45ab9ba11757bef2ea",
-            "author_name": "Timm Baeder",
-            "commit_date": "2026-06-15T06:55:51+02:00",
-            "subject": "[clang][bytecode] Overide constant context state in CallVar (#203747)"
+            "hash": "6548844b972f87816bac56f9921363a890b96b88",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-06-16T04:46:34+00:00",
+            "subject": "[llvm] Replace unordered_set<std::string> with StringSet (#204048)"
         },
         {
-            "hash": "248ad2a4e202ebfd058f525c9922eb361f7b5f07",
+            "hash": "d32496afecc96e7ef64aa29af901a1ffdc4f500e",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-06-15T07:01:31+02:00",
+            "commit_date": "2026-06-16T06:51:49+02:00",
             "subject": "Test"
         },
         {
-            "hash": "6a30f5d95246d1b10f9a8dacc822791003547685",
+            "hash": "2d7bba1eb5d7fa6c21d0c961f6a58dcd67a04dfd",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-06-15T08:54:09+02:00",
+            "commit_date": "2026-06-16T06:51:49+02:00",
             "subject": "constant context"
         },
         {
-            "hash": "80105d619093829dae2e7f99615615bd10ad0a5c",
+            "hash": "4f0106be3ecc657021a42fc30d379b8d1fb167e1",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-06-15T08:54:09+02:00",
+            "commit_date": "2026-06-16T06:51:49+02:00",
             "subject": "call args"
         },
         {
-            "hash": "a633c0cf193ca36db88df8a66c62481d9adae578",
+            "hash": "8057caa843c5416515d3371e39b174fe9f82103e",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-06-15T08:54:09+02:00",
+            "commit_date": "2026-06-16T06:51:49+02:00",
             "subject": "DiagEmmitted flag"
         },
         {
-            "hash": "f463268b7ed24c29bd50d1d327c0beef5d7f91d2",
+            "hash": "ea051bd51d36d62fed50ad106aac768ca905065b",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-06-15T08:54:09+02:00",
+            "commit_date": "2026-06-16T06:51:49+02:00",
             "subject": "SourcELocaiot &"
         },
         {
-            "hash": "9dbda4530497d85f62fcb96d8e56dfa39cc01f43",
+            "hash": "5c9eec21d4299069ca5596c09f4922da7610eb55",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-06-15T09:59:35+02:00",
+            "commit_date": "2026-06-16T06:51:50+02:00",
             "subject": "noinline"
         },
         {
-            "hash": "a59141754d16fcd36608b546400a0ad08fba3efb",
+            "hash": "68b6fdbfd91108e7527336d818fd5552ea503c01",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-06-15T10:27:50+02:00",
+            "commit_date": "2026-06-16T06:51:50+02:00",
             "subject": "hmm!"
+        },
+        {
+            "hash": "c339fb0e603bee31f56421f3627255dec4aef20d",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-06-16T06:51:56+02:00",
+            "subject": "Refactor collectBlocks"
         }
     ],
     "topperc\/perf\/operandlist": [
@@ -154869,6 +154875,18 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-06-16T04:39:02+00:00",
             "subject": "[llvm] Replace unordered_set<T *> with SmallPtrSet<T *, 0> (#204051)"
+        },
+        {
+            "hash": "fa5d8f8c41dfc0fa5f25f094168ca64e7681115b",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-06-16T04:44:47+00:00",
+            "subject": "[ELF] Support multiple PT_GNU_RELRO when SECTIONS is used without PHDRS (#203675)"
+        },
+        {
+            "hash": "6548844b972f87816bac56f9921363a890b96b88",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-06-16T04:46:34+00:00",
+            "subject": "[llvm] Replace unordered_set<std::string> with StringSet (#204048)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
