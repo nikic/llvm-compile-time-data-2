@@ -155139,6 +155139,30 @@
             "author_name": "Orlando Cazalet-Hyams",
             "commit_date": "2026-06-16T11:24:12+01:00",
             "subject": "Fix machine-sink using debug instruction source locations in merged locations (#203900)"
+        },
+        {
+            "hash": "4af8d827f9ad2c28ab98b7404f5803a75980b43d",
+            "author_name": "Dmitry Vasilyev",
+            "commit_date": "2026-06-16T10:27:24+00:00",
+            "subject": "Revert \"[NVPTX] Rip out vestigial variadic support (NFC)\" (#204106)"
+        },
+        {
+            "hash": "f1ec32579d7eb370daf29f571793178b862df64c",
+            "author_name": "Krzysztof Drewniak",
+            "commit_date": "2026-06-16T10:36:13+00:00",
+            "subject": "[SelectionDAG] Fold subvector inserts into concat operands (#200937)"
+        },
+        {
+            "hash": "b85c748c895768681b61c8047f8ff08e469408ca",
+            "author_name": "Folkert de Vries",
+            "commit_date": "2026-06-16T12:36:41+02:00",
+            "subject": "[MIPS] soft-promote `f16` also when using `+msa` (#203065)"
+        },
+        {
+            "hash": "c1ec4b3c79967ae5ef824f7194540f6529405a03",
+            "author_name": "jeanPerier",
+            "commit_date": "2026-06-16T12:43:15+02:00",
+            "subject": "[flang][mem2reg] promote memory slots through declares (#196975)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -160571,6 +160595,12 @@
             "author_name": "Timur Golubovich",
             "commit_date": "2026-06-15T19:03:15+02:00",
             "subject": "Prove implied conditions via matching SCEV differences"
+        },
+        {
+            "hash": "bd8ecf010c3cb35626370e161b4956bbda1d3112",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-06-16T12:38:02+02:00",
+            "subject": "tweak condition"
         }
     ],
     "dzbarsky\/perf\/mcinstrdesc-cold-decode": [
