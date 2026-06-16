@@ -155697,6 +155697,30 @@
             "author_name": "Eugene Epshteyn",
             "commit_date": "2026-06-16T19:56:23+00:00",
             "subject": "[flang][semantics] Allow forward-typed PARAMETER constants under IMPLICIT NONE (#203398)"
+        },
+        {
+            "hash": "3a7f3fd87aadf4d27a5faebd1231a1188e45a2c0",
+            "author_name": "Ryan Buchner",
+            "commit_date": "2026-06-16T13:06:37-07:00",
+            "subject": "[SLP] Add test demonstrating bug in widened strided store logic (#204012)"
+        },
+        {
+            "hash": "dcd41b43f0613057591ae2ba63679c65e18145bf",
+            "author_name": "jofrn",
+            "commit_date": "2026-06-16T13:07:39-07:00",
+            "subject": "[X86] Extend alignedstore PatFrag to cover atomic_store (#197861)"
+        },
+        {
+            "hash": "1b4d46370a1a56be51c2067e7978863b1a992c1f",
+            "author_name": "Igor Kudrin",
+            "commit_date": "2026-06-16T13:08:22-07:00",
+            "subject": "[MCJIT] Fix frem.ll test failure with LLVM_ENABLE_RPMALLOC on Windows (#200319)"
+        },
+        {
+            "hash": "698648fb72e6973a62bf1004287dedd94fd01807",
+            "author_name": "vporpo",
+            "commit_date": "2026-06-16T13:11:22-07:00",
+            "subject": "[SandboxVec][DAG] Implement UnscheduledPreds API (#201240)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -161519,6 +161543,20 @@
             "author_name": "rohgarg",
             "commit_date": "2026-06-16T11:54:19+00:00",
             "subject": "[LoopInterchange] Supported Imperfect Loop Nests"
+        }
+    ],
+    "nikic\/perf\/slp-mem-runtime-check": [
+        {
+            "hash": "77fe8dc5c970fb46092c3abed59e2fb66529ec4a",
+            "author_name": "Eugene Epshteyn",
+            "commit_date": "2026-06-16T19:56:23+00:00",
+            "subject": "[flang][semantics] Allow forward-typed PARAMETER constants under IMPLICIT NONE (#203398)"
+        },
+        {
+            "hash": "95569c871828d31dce00787854e13b6a2f4034ee",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-06-16T22:05:03+02:00",
+            "subject": "runtime checks"
         }
     ]
 }
