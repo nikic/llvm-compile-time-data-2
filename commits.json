@@ -155205,6 +155205,12 @@
             "author_name": "Paul Walker",
             "commit_date": "2026-06-16T12:44:06+01:00",
             "subject": "[NFC][LLVM][Tests] Replace instances of @llvm.aarch64.sve.ptrue.nxv16i1(i32 31) with splat (i1 true). (#204113)"
+        },
+        {
+            "hash": "7567d2128c4670c59c907504d16e2914a9dc7101",
+            "author_name": "Dmitry Sidorov",
+            "commit_date": "2026-06-16T13:57:33+02:00",
+            "subject": "[SPIR-V] Fix verifier crash on aggregate extract into a mutated callsite (#203729)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -161013,6 +161019,20 @@
             "author_name": "Pengcheng Wang",
             "commit_date": "2026-06-16T12:56:48+02:00",
             "subject": "Precommit tests"
+        }
+    ],
+    "kasuga-fj\/perf\/interchange-partially-perfect-nest": [
+        {
+            "hash": "b85c748c895768681b61c8047f8ff08e469408ca",
+            "author_name": "Folkert de Vries",
+            "commit_date": "2026-06-16T12:36:41+02:00",
+            "subject": "[MIPS] soft-promote `f16` also when using `+msa` (#203065)"
+        },
+        {
+            "hash": "d4c71bdf4798a424295dcb832ebcf4317b434e8e",
+            "author_name": "rohgarg",
+            "commit_date": "2026-06-16T11:54:19+00:00",
+            "subject": "[LoopInterchange] Supported Imperfect Loop Nests"
         }
     ]
 }
