@@ -155751,6 +155751,36 @@
             "author_name": "Hristo Hristov",
             "commit_date": "2026-06-16T23:40:24+03:00",
             "subject": "[libc++][numeric] Applied `[[nodiscard]]` to `<numeric>` (#202770)"
+        },
+        {
+            "hash": "1915af8a196863d604eb1c58cf99e64a0ec58153",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-06-16T20:48:35+00:00",
+            "subject": "AMDGPU: Teach disassembler to produce target id directives (#203979)"
+        },
+        {
+            "hash": "4fd2a5cb17c55975ebb4c23f0b90e20621e9a744",
+            "author_name": "Yao Qi",
+            "commit_date": "2026-06-16T20:50:31+00:00",
+            "subject": "[BinaryFormat] Fix UBSan negative-shift in identify_magic Mach-O path (#204122)"
+        },
+        {
+            "hash": "3aea0a064a8649c8068373407609b896915fd7fb",
+            "author_name": "Arthur Eubanks",
+            "commit_date": "2026-06-16T13:57:36-07:00",
+            "subject": "[gn build] Port 930a46d23799 (#204244)"
+        },
+        {
+            "hash": "6e8c2dcbae543084eb7bbb087a6a5e9d4cecb05a",
+            "author_name": "Jan Patrick Lehr",
+            "commit_date": "2026-06-16T23:00:40+02:00",
+            "subject": "Revert \"Reland \"[clang][ssaf] Track target triple in TU and LU summaries\"\" (#204236)"
+        },
+        {
+            "hash": "6b52ab266ad28f5af38832ec4e34eafc93aa2e8e",
+            "author_name": "Alexander Richardson",
+            "commit_date": "2026-06-16T14:18:28-07:00",
+            "subject": "[RISC-V] Rename GPRCMem operand to BasePtrC. NFC"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -161587,6 +161617,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-06-16T22:05:03+02:00",
             "subject": "runtime checks"
+        }
+    ],
+    "nikic\/perf\/dfa-jump-threading-3": [
+        {
+            "hash": "77fe8dc5c970fb46092c3abed59e2fb66529ec4a",
+            "author_name": "Eugene Epshteyn",
+            "commit_date": "2026-06-16T19:56:23+00:00",
+            "subject": "[flang][semantics] Allow forward-typed PARAMETER constants under IMPLICIT NONE (#203398)"
+        },
+        {
+            "hash": "97420296aa01e47a90c976a30566cfa7378bc4d5",
+            "author_name": "Usman Nadeem",
+            "commit_date": "2026-06-16T23:03:53+02:00",
+            "subject": "Revert \"Revert \"[DFAJumpThreading] Enable DFAJumpThread by default.\" (#167352)\""
         }
     ]
 }
