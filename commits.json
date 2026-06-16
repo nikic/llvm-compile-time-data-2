@@ -160560,5 +160560,37 @@
             "commit_date": "2026-06-15T19:45:37-04:00",
             "subject": "[MC][TableGen] Keep hot MCInstrDesc fields directly accessible"
         }
+    ],
+    "dzbarsky\/perf\/mcinstrdesc-direct-hot-fields-v2": [
+        {
+            "hash": "7087094b05a1bba64a99474cc501328919e11b4a",
+            "author_name": "Aviral Goel",
+            "commit_date": "2026-06-08T16:16:15-07:00",
+            "subject": "[clang][ssaf] Convert `JSONFormat` tests for `TUSummary` and `TUSummaryEncoding` to lit tests (#192187)"
+        },
+        {
+            "hash": "c918ca1b4218a5369ec4018b2126c18ebed4030b",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T10:23:29-04:00",
+            "subject": "[MC][TableGen] Pack MCInstrDesc fields into 24 bytes"
+        },
+        {
+            "hash": "049c67acc7044d3c3bbb2a8a8fdea75b64dbcb0c",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T11:45:01-04:00",
+            "subject": "[MC][TableGen] Pre-encode MCInstrDesc records"
+        },
+        {
+            "hash": "75173b379d9b87cdb0e1c7a234135762bc36e0a5",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T12:05:38-04:00",
+            "subject": "[MC] Make MCInstrDesc opcode access cheaper"
+        },
+        {
+            "hash": "e1e74f044cf5c170e58ae15f307cf961fe3ae3f7",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-15T19:45:37-04:00",
+            "subject": "[MC][TableGen] Keep hot MCInstrDesc fields directly accessible"
+        }
     ]
 }
