@@ -162520,5 +162520,19 @@
             "commit_date": "2026-06-17T15:42:34+02:00",
             "subject": "Prove implied conditions via matching SCEV differences"
         }
+    ],
+    "fhahn\/perf\/drop-assume-replace-assume": [
+        {
+            "hash": "a2f4a1cabb083337ccb17c77cafb36d94c1ef52b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-17T21:09:14+02:00",
+            "subject": "[VPlan] Also expand SCEVUDivExpr in expandSCEVExpr. (#203093)"
+        },
+        {
+            "hash": "61a64fc62cbb38001894b75053f4add124869fe0",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-17T20:36:55+01:00",
+            "subject": "[AssumptionCache] Add replaceAssumption() to swap a cached assume in place."
+        }
     ]
 }
