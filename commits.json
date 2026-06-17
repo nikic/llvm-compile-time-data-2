@@ -156117,6 +156117,12 @@
             "author_name": "Jeff Bailey",
             "commit_date": "2026-06-17T10:19:30+01:00",
             "subject": "[libc][NFC] Migrate unistd entrypoints to syscall wrappers (#204176)"
+        },
+        {
+            "hash": "68c947fc7f7182a4fae54533a10e392036efadc2",
+            "author_name": "Pierre van Houtryve",
+            "commit_date": "2026-06-17T11:35:37+02:00",
+            "subject": "[NFC][AMDGPU][InsertWaitCnts] Move some simple functions into Utils (#202936)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -161967,6 +161973,20 @@
             "author_name": "Usman Nadeem",
             "commit_date": "2026-06-16T23:03:53+02:00",
             "subject": "Revert \"Revert \"[DFAJumpThreading] Enable DFAJumpThread by default.\" (#167352)\""
+        }
+    ],
+    "c-rhodes\/perf\/aarch64-gisel-select-narrow-gpr-constants": [
+        {
+            "hash": "2964323a936c79d05c024252eb688b9151f66d3c",
+            "author_name": "Pierre van Houtryve",
+            "commit_date": "2026-06-17T09:54:14+02:00",
+            "subject": "[RFC][AMDGPU][InsertWaitCnt] Move WaitEventType into separate HWEvent header (#202886)"
+        },
+        {
+            "hash": "3479bbf63bfbb5e0026d7bc88fb1a74f90ad8f3a",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-17T09:17:33+00:00",
+            "subject": "[AArch64][GlobalISel] Select narrow GPR constants"
         }
     ]
 }
