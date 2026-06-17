@@ -156207,6 +156207,18 @@
             "author_name": "Harry Ramsey",
             "commit_date": "2026-06-17T12:14:47+00:00",
             "subject": "[AArch64][SVE] Enable known bits for predicated shifts (#200347)"
+        },
+        {
+            "hash": "2395e65f2f6f8a7bce2adeebd52bf2142a4c6853",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-06-17T12:39:32+00:00",
+            "subject": "[X86] Attempt to fold SHUF128(concat(x,y),concat(z,w),0x44) -> concat(x,z) (#204340)"
+        },
+        {
+            "hash": "60ad6ed5dfd225db07f96eb7bbfbf2f8f2f3a8c4",
+            "author_name": "Diego Novillo",
+            "commit_date": "2026-06-17T14:41:43+02:00",
+            "subject": "Reapply \"[clang][SPIR-V] Implement -fspv-preserve-interface (#196404)\" (#204249)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
