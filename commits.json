@@ -156165,6 +156165,18 @@
             "author_name": "Max Graey",
             "commit_date": "2026-06-17T20:05:14+09:00",
             "subject": "[MLIR][WasmSSA] Add f32\/f64.nearest and trapped float to int trunc operations (#193873)"
+        },
+        {
+            "hash": "d7e30d2170ef03d503b69a5bef0734f6a585d5e3",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-06-17T11:16:14+00:00",
+            "subject": "[IRBuilder] Refactor for intrinsics const-folding (NFC) (#202738)"
+        },
+        {
+            "hash": "22e1561c6fa6ab4937936113eed0c5cb037a102b",
+            "author_name": "Davide Grohmann",
+            "commit_date": "2026-06-17T13:18:31+02:00",
+            "subject": "[mlir][tosa] Preserve raw const data in signless conversion (#204324)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -162029,6 +162041,26 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-06-17T09:17:33+00:00",
             "subject": "[AArch64][GlobalISel] Select narrow GPR constants"
+        }
+    ],
+    "fhahn\/perf\/basicaa-rec-phi": [
+        {
+            "hash": "3746f3e4d6129124e80ec93f22cab174e03ba2f7",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-06-17T06:45:08+00:00",
+            "subject": "[llvm] Replace unordered_{map,set} with Dense{Map,Set} (#202222)"
+        },
+        {
+            "hash": "3d3e9a4332438600f82d651b96eeb80fdadd3959",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-17T13:15:47+02:00",
+            "subject": "Add test"
+        },
+        {
+            "hash": "61a7f18e0f8c5e05b73b0c4396fd512531d72fa0",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-17T13:17:58+02:00",
+            "subject": "[BasicAA] Allow some recursion across phis."
         }
     ]
 }
