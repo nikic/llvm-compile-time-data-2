@@ -157107,6 +157107,12 @@
             "author_name": "G\u00e1bor Horv\u00e1th",
             "commit_date": "2026-06-18T11:32:22+00:00",
             "subject": "[LifetimeSafety] Count escape facts when classifying persistent origins (#204485)"
+        },
+        {
+            "hash": "61f46186b0fd72cfdff9bd9d455e5141d1dd1c35",
+            "author_name": "Evgenii Kudriashov",
+            "commit_date": "2026-06-18T13:49:08+02:00",
+            "subject": "[X86][GlobalISel] Explicitly legalize G_INVOKE_REGION_START (#203503)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -163067,6 +163073,32 @@
             "author_name": "Jay Foad",
             "commit_date": "2026-06-18T09:50:39+01:00",
             "subject": "[CodeGenPrepare] Use UniformityAnalysis to sink uniform compares"
+        }
+    ],
+    "clemenswasser\/perf\/inline_debug_loc": [
+        {
+            "hash": "f999ca3037dfb43fc9b14612f03708a6435fab5e",
+            "author_name": "hby",
+            "commit_date": "2026-06-18T09:48:56+01:00",
+            "subject": "[Bitcode] Add SkipDebugIntrinsicUpgrade hook to ParserCallbacks (#201456)"
+        },
+        {
+            "hash": "879a487e1eef0d4c2d9bbe2986307b15d1ee7088",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-06-18T13:40:42+02:00",
+            "subject": "[Inliner] Use distinct DILocations for inlined instruction debug locs"
+        },
+        {
+            "hash": "e9eca6e07cbd2ba2f4056c4f4a57101a5d2e0d70",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-06-18T13:48:56+02:00",
+            "subject": "[Inliner] Use find() instead of operator[] in appendInlinedAt cache"
+        },
+        {
+            "hash": "4206e4d89ae7424cc3e8f61911ebc29a03bd4bea",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-06-18T13:48:56+02:00",
+            "subject": "[Inliner] Fast-path appendInlinedAt for leaf DebugLocs"
         }
     ]
 }
