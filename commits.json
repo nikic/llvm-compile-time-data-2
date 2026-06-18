@@ -157263,6 +157263,18 @@
             "author_name": "Wael Yehia",
             "commit_date": "2026-06-18T10:43:47-04:00",
             "subject": "[PGO] Implement PGO counter promotion for atomic updates (#202487)"
+        },
+        {
+            "hash": "dde579becf31add55c5a473f28fd010df36d2490",
+            "author_name": "Sairudra More",
+            "commit_date": "2026-06-18T20:22:09+05:30",
+            "subject": "[mlir][OpenMP] Translate task_reduction on omp.taskgroup (#199565)"
+        },
+        {
+            "hash": "edbba7c5c6f833d3a631d9bf70785ac5230d4ec1",
+            "author_name": "Dmitry Sidorov",
+            "commit_date": "2026-06-18T15:01:17+00:00",
+            "subject": "[HIP][SPIR-V] Ignore --no-lto for SPIR-V targets (#204609)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -163293,6 +163305,20 @@
             "author_name": "Momchil Velikov",
             "commit_date": "2026-06-18T12:11:08+00:00",
             "subject": "[draft] Add late inliner and SROA passes to the LTO pipeline"
+        }
+    ],
+    "nikic\/perf\/deref-at-point-3": [
+        {
+            "hash": "3c33c36d925f5d278501fea55ef5a2e1f8f331ca",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-06-18T09:09:35-04:00",
+            "subject": "[libc++] Use public os_sync API instead of private __ulock on newer Apple platforms (#202519)"
+        },
+        {
+            "hash": "11fcd26e0c889012950d589726422c06a39bb2a4",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-06-18T16:54:05+02:00",
+            "subject": "[IR] Enable dereferenceable-at-point semantics"
         }
     ]
 }
