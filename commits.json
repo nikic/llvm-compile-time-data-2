@@ -162798,5 +162798,19 @@
             "commit_date": "2026-06-17T21:11:37+01:00",
             "subject": "[AssumptionCache] Add replaceAssumption() to swap a cached assume in place."
         }
+    ],
+    "bababuck\/perf\/getRangeRefMulExprFlags": [
+        {
+            "hash": "d6d93464c59eb5f93452b27dd9e9e7e489606b4f",
+            "author_name": "Ethan Luis McDonough",
+            "commit_date": "2026-06-17T19:38:49-05:00",
+            "subject": "[Instrumentor] Move NumericFlags into InstrumentorRuntimeHelper.h (#204068)"
+        },
+        {
+            "hash": "e9c5c06b7160a0fd1b49e12beb9f0baed8fa0c60",
+            "author_name": "bababuck",
+            "commit_date": "2026-06-17T17:47:45-07:00",
+            "subject": "[SCEV] Use NUW\/NSW flags in ScalarEvolution::getRangeRef() for MulExpr"
+        }
     ]
 }
