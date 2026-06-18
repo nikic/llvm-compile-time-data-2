@@ -157467,6 +157467,12 @@
             "author_name": "Jonas Devlieghere",
             "commit_date": "2026-06-18T12:02:53-07:00",
             "subject": "[DWARFLinker] Fix data race on the global parallel strategy (#204642)"
+        },
+        {
+            "hash": "adae5c0902cd05bc682a18971d7261da006471a1",
+            "author_name": "LU-JOHN",
+            "commit_date": "2026-06-18T14:11:51-05:00",
+            "subject": "[AMDGPU] Fix 64->32 bit division corner case (#204469)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -163341,21 +163347,21 @@
     ],
     "fhahn\/perf\/basicaa-rec-phi": [
         {
-            "hash": "3746f3e4d6129124e80ec93f22cab174e03ba2f7",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-06-17T06:45:08+00:00",
-            "subject": "[llvm] Replace unordered_{map,set} with Dense{Map,Set} (#202222)"
+            "hash": "adae5c0902cd05bc682a18971d7261da006471a1",
+            "author_name": "LU-JOHN",
+            "commit_date": "2026-06-18T14:11:51-05:00",
+            "subject": "[AMDGPU] Fix 64->32 bit division corner case (#204469)"
         },
         {
-            "hash": "3d3e9a4332438600f82d651b96eeb80fdadd3959",
+            "hash": "26ed0c17c0de84add0513a0e9699479f8c88b8fe",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-06-17T13:15:47+02:00",
+            "commit_date": "2026-06-18T21:15:45+02:00",
             "subject": "Add test"
         },
         {
-            "hash": "d68b43201792ee9e3c898f9ef2f358233b27bd35",
+            "hash": "476e7466c5f543ac74c86bad728d79892f668f73",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-06-17T19:07:25+02:00",
+            "commit_date": "2026-06-18T21:15:45+02:00",
             "subject": "[BasicAA] Allow some recursion across phis."
         }
     ],
@@ -163375,16 +163381,16 @@
     ],
     "fhahn\/perf\/drop-assume-replace-assume": [
         {
-            "hash": "a2f4a1cabb083337ccb17c77cafb36d94c1ef52b",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-06-17T21:09:14+02:00",
-            "subject": "[VPlan] Also expand SCEVUDivExpr in expandSCEVExpr. (#203093)"
-        },
-        {
             "hash": "29d04c0d9995b77737bb97ae6b53dccd94d6ea01",
             "author_name": "Florian Hahn",
             "commit_date": "2026-06-17T21:11:37+01:00",
             "subject": "[AssumptionCache] Add replaceAssumption() to swap a cached assume in place."
+        },
+        {
+            "hash": "99418de49c8d10d23bbccb2afef044ffd1b554c1",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-18T21:12:30+02:00",
+            "subject": "Merge branch 'main' into perf\/drop-assume-replace-assume"
         }
     ],
     "bababuck\/perf\/getRangeRefMulExprFlags": [
