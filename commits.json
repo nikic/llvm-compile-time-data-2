@@ -157509,6 +157509,18 @@
             "author_name": "mygitljf",
             "commit_date": "2026-06-18T21:46:00+02:00",
             "subject": "[clang-format] Fix crash on malformed operator input (#199098)"
+        },
+        {
+            "hash": "19f6c18e389bfea2885179fb4f50e019ef7ea002",
+            "author_name": "Wael Yehia",
+            "commit_date": "2026-06-18T15:51:44-04:00",
+            "subject": "[NFC] Add comments and Fix No-Asserts build by using [[maybe_unused]] (#202488) (#204672)"
+        },
+        {
+            "hash": "df9b1f89a4f4f0c7b5afc03d273a825caef268fb",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-06-18T12:57:21-07:00",
+            "subject": "[clang][Mach-O] Add an option to force UNWIND_*_MODE_DWARF compact unwind info (#204005)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -163567,6 +163579,26 @@
             "author_name": "Mircea Trofin",
             "commit_date": "2026-06-18T11:23:50-07:00",
             "subject": "Reland #184065"
+        }
+    ],
+    "fhahn\/perf\/se-umin-predicate-impl": [
+        {
+            "hash": "adae5c0902cd05bc682a18971d7261da006471a1",
+            "author_name": "LU-JOHN",
+            "commit_date": "2026-06-18T14:11:51-05:00",
+            "subject": "[AMDGPU] Fix 64->32 bit division corner case (#204469)"
+        },
+        {
+            "hash": "1e7c27f2829dc0ad1cc123dbdc4cf093afb77c1d",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-06-18T21:12:52+02:00",
+            "subject": "[VPlan] Extend licm to sink replicate stores"
+        },
+        {
+            "hash": "c49c8ec0c975504f8d2681ce3da865332c820379",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-06-18T21:12:52+02:00",
+            "subject": "[VPlan] Use less powerful SinkStoreInfo, strip PSE and L"
         }
     ]
 }
