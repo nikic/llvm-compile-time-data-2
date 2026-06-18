@@ -156999,6 +156999,12 @@
             "author_name": "Nikolas Klauser",
             "commit_date": "2026-06-18T10:05:30+02:00",
             "subject": "[InstCombine] Drop redundant alignment assumptions with offsets (#204321)"
+        },
+        {
+            "hash": "baad7c3238b3203c974787fc4881453b6b23a0b6",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-06-18T10:23:40+02:00",
+            "subject": "[clang][ExprConst] Add `EvalStatus::DiagEmitted` flag (#203838)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -162931,6 +162937,20 @@
             "author_name": "bababuck",
             "commit_date": "2026-06-17T17:47:45-07:00",
             "subject": "[SCEV] Use NUW\/NSW flags in ScalarEvolution::getRangeRef() for MulExpr"
+        }
+    ],
+    "Enna1\/perf\/sroa-mem2reg": [
+        {
+            "hash": "9a9e893f44bca9911cbdb1e0238ce40f23a359d1",
+            "author_name": "Ga\u00ebtan Bossu",
+            "commit_date": "2026-06-18T08:57:23+01:00",
+            "subject": "[LV] Fix unsafe canVectorizeWithIfConvert() checks (#203273)"
+        },
+        {
+            "hash": "e31636125b56c1f00a6be66a5a331eecdccd412d",
+            "author_name": "Enna1",
+            "commit_date": "2026-06-18T16:16:36+08:00",
+            "subject": "[Transforms] Vectorizing Mem2Reg Pass"
         }
     ]
 }
