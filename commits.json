@@ -157431,6 +157431,12 @@
             "author_name": "Scott Linder",
             "commit_date": "2026-06-18T14:15:48-04:00",
             "subject": "[AMDGPU][docs] Correct DWARF extension attribute encodings (#204419)"
+        },
+        {
+            "hash": "a7a3849b63d17494866cd697e958e53aa1b3aed2",
+            "author_name": "Yuyang Zhang",
+            "commit_date": "2026-06-18T20:30:08+02:00",
+            "subject": "[InstCombine] Drop assumption-cache update in freezeOtherUses (#204599)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -163475,6 +163481,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-06-18T16:54:05+02:00",
             "subject": "[IR] Enable dereferenceable-at-point semantics"
+        }
+    ],
+    "mtrofin\/perf\/cfi2_nocopymd": [
+        {
+            "hash": "ee890eb04639464cd523d1305c75a82628a6a8a6",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-17T21:09:32+00:00",
+            "subject": "[ConstraintElim] Do not model negative nuw-only GEP offset as signed. (#203620)"
+        },
+        {
+            "hash": "a6fdde1c331d85c9582cd4b5e8cd0adee2f2b3de",
+            "author_name": "Mircea Trofin",
+            "commit_date": "2026-06-18T11:23:50-07:00",
+            "subject": "Reland #184065"
         }
     ]
 }
