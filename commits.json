@@ -101511,6 +101511,12 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-06-18T09:56:10+02:00",
             "subject": "Ptr fd check"
+        },
+        {
+            "hash": "a56f3208109e80655e4b68941b62cc461e491ba0",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-06-18T11:58:57+02:00",
+            "subject": "builtins"
         }
     ],
     "topperc\/perf\/operandlist": [
@@ -157023,6 +157029,78 @@
             "author_name": "michaelselehov",
             "commit_date": "2026-06-18T11:34:06+02:00",
             "subject": "[AMDGPU] Make SGPR occupancy the exact inverse of getMaxNumSGPRs (#201342)"
+        },
+        {
+            "hash": "4e9609bbd05b0b23d13f36905c5b02e3e02b369d",
+            "author_name": "Ryotaro Kasuga",
+            "commit_date": "2026-06-18T09:52:48+00:00",
+            "subject": "[Delinearization] Fix indentation (NFC) (#204531)"
+        },
+        {
+            "hash": "69c9c023ada07c8cba7fc454f3f66b2d6a73acd0",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-06-18T11:55:07+02:00",
+            "subject": "[clang][bytecode][NFC] Remove StmtExprScope (#204530)"
+        },
+        {
+            "hash": "879786170a480c871a10ca27b93bb97af9135942",
+            "author_name": "halbi2",
+            "commit_date": "2026-06-18T12:07:58+02:00",
+            "subject": "[llvm] Fix typo UNSPPORTED -> UNSUPPORTED (#138628)"
+        },
+        {
+            "hash": "c37248074b85dce34159b2807ffdcf8b59c905fb",
+            "author_name": "NeKon69",
+            "commit_date": "2026-06-18T10:17:13+00:00",
+            "subject": "Reapply \"[LifetimeSafety] Support C Language in LifetimeSafety\" (#204536)"
+        },
+        {
+            "hash": "d85766e2053a35d4fc5b2593d8076e6c7d96a49a",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-06-18T12:23:36+02:00",
+            "subject": "[clang][bytecode] Diagnose jumps to case labels in StmtExprs (#204539)"
+        },
+        {
+            "hash": "7c05d28b817fff25507c0c1aa8a1129f4a69f223",
+            "author_name": "Martin Storsj\u00f6",
+            "commit_date": "2026-06-18T13:23:48+03:00",
+            "subject": "Revert \"[SimpleLoopUnswitch] Generalize the notion of trivial unswitching\" (#204538)"
+        },
+        {
+            "hash": "4d812375c17489019500fa475d76098074d9681a",
+            "author_name": "Graham Hunter",
+            "commit_date": "2026-06-18T10:38:56+00:00",
+            "subject": "[LV] Follow up to uncountable exit with side effects vectorization (#201589)"
+        },
+        {
+            "hash": "2563af1c9ec15c2dbdebf8d7aa8ff9817204ab0e",
+            "author_name": "Mark Murray",
+            "commit_date": "2026-06-18T11:43:36+01:00",
+            "subject": "[AArch64] Add armagicpu CPU (#202557)"
+        },
+        {
+            "hash": "b636f436d3a00bc3cc81812cf646d8b3c5ef435a",
+            "author_name": "Valery Pykhtin",
+            "commit_date": "2026-06-18T12:48:53+02:00",
+            "subject": "[NFC][AMDGPU] Introduce SIInstrFlags predicates for TSFlags access (#201512)"
+        },
+        {
+            "hash": "567eeec75c26f4d0fca28659fb829b8b466539f2",
+            "author_name": "JoshuaGrindstaff",
+            "commit_date": "2026-06-18T12:04:24+01:00",
+            "subject": "[AMDGPU] Capping max number of registers to function's occupancy budget for indirect calls (#199765)"
+        },
+        {
+            "hash": "08b557bf5139394194be22359268b7b88f81faae",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-06-18T13:07:22+02:00",
+            "subject": "AMDGPU: Remove xnack-any-only subtarget feature and handling (#204514)"
+        },
+        {
+            "hash": "12aefe26cedd9a8f94546cc1f2be285cfddcc861",
+            "author_name": "shivaramaarao",
+            "commit_date": "2026-06-18T16:45:58+05:30",
+            "subject": "[Flang][Driver] Support for -fsplit-lto-unit option in flang driver (#202858)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
