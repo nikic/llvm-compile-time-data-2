@@ -157995,6 +157995,12 @@
             "author_name": "Tim Gymnich",
             "commit_date": "2026-06-19T17:22:47+02:00",
             "subject": "[clang] Avoid premature Twine .str() materialization (#204830)"
+        },
+        {
+            "hash": "22dce64361a23b954e5275b151cdbefc92eaa204",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-06-19T15:32:47+00:00",
+            "subject": "[AMDGPU] Remove some functions unused since #105645. NFC. (#204844)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -164127,6 +164133,20 @@
             "author_name": "Timur Golubovich",
             "commit_date": "2026-06-19T17:05:57+02:00",
             "subject": "Prove implied conditions via matching SCEV differences"
+        }
+    ],
+    "nikic\/perf\/x86-abi-check": [
+        {
+            "hash": "40cbc98bb17718eef5e0b1f47e3b58900aac354a",
+            "author_name": "Ga\u00ebtan Bossu",
+            "commit_date": "2026-06-19T10:50:30+01:00",
+            "subject": "[AArch64][SDAG] Legalise nxv1 gather\/scatter nodes (#204620)"
+        },
+        {
+            "hash": "8950355c12f6af360b74429273b99cbf169207d8",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-06-19T17:41:04+02:00",
+            "subject": "use tli"
         }
     ]
 }
