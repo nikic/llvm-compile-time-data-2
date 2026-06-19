@@ -157869,6 +157869,12 @@
             "author_name": "\u00d6mer Sinan A\u011facan",
             "commit_date": "2026-06-19T12:23:03+02:00",
             "subject": "[StackColoring] Remove unused BB numbering state (#204414)"
+        },
+        {
+            "hash": "f6fd6ea3c1b59728c3c8f3443ef9a02d367ec8e0",
+            "author_name": "bogdan-petkovic",
+            "commit_date": "2026-06-19T12:34:25+02:00",
+            "subject": "[mlir][ExecutionEngine] Fix dead -Wno-c++98-compat-extra-semi guard (#204524)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -160213,22 +160219,28 @@
     ],
     "c-rhodes\/perf\/aarch64-gisel-filter-O0-combiner-worklists": [
         {
-            "hash": "35f5d7ea802eae78b26a5fb2a46f072acd15f49d",
+            "hash": "0ad5d54be53f34f71e25575964785670720a5f4c",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-05-14T06:46:23+01:00",
-            "subject": "[AArch64][GlobalISel] Fast-path common G_CONSTANT\/G_BRCOND\/G_FRAME_INDEX regbank mappings (#197383)"
+            "commit_date": "2026-06-19T08:00:45+01:00",
+            "subject": "[GlobalISel] TableGen memcpy-like prelegalizer combines (#203235)"
         },
         {
-            "hash": "c356bec46b68b59f37b26347f93676c9102d810c",
+            "hash": "b43d81545b036d64ac18ea1181ad6479d6479dd5",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-05-14T09:05:21+00:00",
+            "commit_date": "2026-06-19T09:11:25+00:00",
             "subject": "[AArch64][GlobalISel] Filter O0 combiner worklists"
         },
         {
-            "hash": "79efa63ab5832ff1157f9725d1b8b40365dffd40",
+            "hash": "e3b34df85cd72d239d21ee3d7499489522a829c5",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-05-14T14:26:53+00:00",
+            "commit_date": "2026-06-19T09:11:25+00:00",
             "subject": "run-clang-format"
+        },
+        {
+            "hash": "c09eb5098523682349ad78d53b46ba0334deeab7",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-06-19T10:07:38+00:00",
+            "subject": "address comments"
         }
     ],
     "bababuck\/perf\/SLPRefactorStoreChainGen2": [
