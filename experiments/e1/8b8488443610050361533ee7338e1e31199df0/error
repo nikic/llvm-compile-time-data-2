@@ -1,0 +1,215 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[2483/3333] Linking CXX static library lib/libLLVMLinker.a
+[2484/3333] Linking CXX static library lib/libLLVMScalarOpts.a
+[2485/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AsmPrinter.cpp.o
+[2486/3333] Linking CXX static library lib/libLLVMTarget.a
+[2487/3333] Building CXX object lib/Target/X86/Disassembler/CMakeFiles/LLVMX86Disassembler.dir/X86Disassembler.cpp.o
+[2488/3333] Linking CXX static library lib/libLLVMFrontendOpenMP.a
+[2489/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ArgumentStackSlotRebase.cpp.o
+[2490/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AvoidTrailingCall.cpp.o
+[2491/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CallFrameOptimization.cpp.o
+[2492/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CallingConv.cpp.o
+[2493/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CleanupLocalDynamicTLS.cpp.o
+[2494/3333] Linking CXX static library lib/libLLVMCodeGen.a
+[2495/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CmovConversion.cpp.o
+[2496/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CodeGenPassBuilder.cpp.o
+[2497/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86DomainReassignment.cpp.o
+[2498/3333] Linking CXX static library lib/libLLVMAsmPrinter.a
+[2499/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86GlobalBaseReg.cpp.o
+[2500/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LowerAMXType.cpp.o
+[2501/3333] Linking CXX static library lib/libLLVMSelectionDAG.a
+[2502/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LowerAMXIntrinsics.cpp.o
+[2503/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LowerTileCopy.cpp.o
+[2504/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TileConfig.cpp.o
+[2505/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FastPreTileConfig.cpp.o
+[2506/3333] Linking CXX static library lib/libLLVMGlobalISel.a
+[2507/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FastTileConfig.cpp.o
+[2508/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86PreTileConfig.cpp.o
+[2509/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ExpandPseudo.cpp.o
+[2510/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FastISel.cpp.o
+[2511/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FixupBWInsts.cpp.o
+[2512/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FixupLEAs.cpp.o
+[2513/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FixupInstTuning.cpp.o
+[2514/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AvoidStoreForwardingBlocks.cpp.o
+[2515/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FixupVectorConstants.cpp.o
+[2516/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86DynAllocaExpander.cpp.o
+[2517/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FixupSetCC.cpp.o
+[2518/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FlagsCopyLowering.cpp.o
+[2519/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FloatingPoint.cpp.o
+[2520/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86FrameLowering.cpp.o
+[2521/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ISelLowering.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APFloat.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGenTypes/LowLevelType.h:31,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/MachineMemOperand.h:22,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/SelectionDAGTargetInfo.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/X86/X86SelectionDAGInfo.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/X86/X86ISelLowering.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/X86/X86ISelLowering.cpp:14:
+In destructor ‘llvm::APInt::~APInt()’,
+    inlined from ‘LowerShift(llvm::SDValue, const llvm::X86Subtarget&, llvm::SelectionDAG&)::<lambda(llvm::SDValue)>’ at /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/X86/X86ISelLowering.cpp:31784:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:193:18: warning: ‘void operator delete [](void*)’ called on a pointer to an unallocated object ‘72909780498219007’ [-Wfree-nonheap-object]
+  193 |       delete[] U.pVal;
+      |                  ^~~~
+In destructor ‘llvm::APInt::~APInt()’,
+    inlined from ‘LowerShift(llvm::SDValue, const llvm::X86Subtarget&, llvm::SelectionDAG&)::<lambda(llvm::SDValue)>’ at /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/X86/X86ISelLowering.cpp:31785:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:193:18: warning: ‘void operator delete [](void*)’ called on a pointer to an unallocated object ‘9241421688590303745’ [-Wfree-nonheap-object]
+  193 |       delete[] U.pVal;
+      |                  ^~~~
+[2522/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ISelLoweringCall.cpp.o
+[2523/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86IndirectBranchTracking.cpp.o
+[2524/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ISelDAGToDAG.cpp.o
+[2525/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86IndirectThunks.cpp.o
+[2526/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InsertVZeroUpper.cpp.o
+[2527/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InsertX87Wait.cpp.o
+[2528/3333] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpFrame.cpp.o
+[2529/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstCombineIntrinsic.cpp.o
+[2530/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstrFMA3Info.cpp.o
+[2531/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstrInfo.cpp.o
+[2532/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InterleavedAccess.cpp.o
+[2533/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstrFoldTables.cpp.o
+[2534/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CompressEVEX.cpp.o
+[2535/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LoadValueInjectionLoadHardening.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/MachineDominanceFrontier.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/X86/X86LoadValueInjectionLoadHardening.cpp:49:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/DominanceFrontier.h:130: warning: type attributes ignored after type is already defined [-Wattributes]
+  130 |     DominanceFrontierBase<BasicBlock, false>;
+      | 
+[2536/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MachineFunctionInfo.cpp.o
+[2537/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LoadValueInjectionRetHardening.cpp.o
+[2538/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86OptimizeLEAs.cpp.o
+[2539/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MacroFusion.cpp.o
+[2540/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MCInstLower.cpp.o
+[2541/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86PadShortFunction.cpp.o
+[2542/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86PartialReduction.cpp.o
+[2543/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ReturnThunks.cpp.o
+[2544/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86RegisterInfo.cpp.o
+[2545/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ShuffleDecodeConstantPool.cpp.o
+[2546/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SelectionDAGInfo.cpp.o
+[2547/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SpeculativeLoadHardening.cpp.o
+[2548/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SpeculativeExecutionSideEffectSuppression.cpp.o
+[2549/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86Subtarget.cpp.o
+[2550/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SuppressAPXForReloc.cpp.o
+[2551/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetObjectFile.cpp.o
+[2552/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetMachine.cpp.o
+[2553/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86WinEHState.cpp.o
+[2554/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetTransformInfo.cpp.o
+[2555/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86WinEHUnwindV2.cpp.o
+[2556/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86WinEHUnwindV3.cpp.o
+[2557/3333] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Context.cpp.o
+[2558/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/GISel/X86CallLowering.cpp.o
+[2559/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/GISel/X86InstructionSelector.cpp.o
+[2560/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/GISel/X86LegalizerInfo.cpp.o
+[2561/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/GISel/X86PostLegalizerCombiner.cpp.o
+[2562/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/GISel/X86PreLegalizerCombiner.cpp.o
+[2563/3333] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/GISel/X86RegisterBankInfo.cpp.o
+[2564/3333] Building CXX object lib/Target/X86/AsmParser/CMakeFiles/LLVMX86AsmParser.dir/X86AsmParser.cpp.o
+[2565/3333] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ATTInstPrinter.cpp.o
+[2566/3333] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86InstComments.cpp.o
+[2567/3333] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86IntelInstPrinter.cpp.o
+[2568/3333] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86EncodingOptimization.cpp.o
+[2569/3333] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ShuffleDecode.cpp.o
+[2570/3333] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86AsmBackend.cpp.o
+[2571/3333] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCAsmInfo.cpp.o
+[2572/3333] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86InstPrinterCommon.cpp.o
+[2573/3333] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:5421:58: error: expected template-name before ‘<’ token
+ 5421 | class ParamFinder : public DynamicRecursiveASTVisitorBase<true> {
+      |                                                          ^
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:5421:58: error: expected ‘{’ before ‘<’ token
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:5421:58: error: expected unqualified-id before ‘<’ token
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp: In member function ‘bool clang::interp::Compiler<Emitter>::visitWithSubstitutions(const clang::FunctionDecl*, llvm::ArrayRef<const clang::Expr*>, const clang::Expr*, const clang::Expr*)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:5461:15: error: ‘PF’ has incomplete type
+ 5461 |   ParamFinder PF;
+      |               ^~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:5421:7: note: forward declaration of ‘class ParamFinder’
+ 5421 | class ParamFinder : public DynamicRecursiveASTVisitorBase<true> {
+      |       ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:5461:15: error: ‘PF’ has incomplete type
+ 5461 |   ParamFinder PF;
+      |               ^~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:5421:7: note: forward declaration of ‘class ParamFinder’
+ 5421 | class ParamFinder : public DynamicRecursiveASTVisitorBase<true> {
+      |       ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp: In instantiation of ‘bool clang::interp::Compiler<Emitter>::visitWithSubstitutions(const clang::FunctionDecl*, llvm::ArrayRef<const clang::Expr*>, const clang::Expr*, const clang::Expr*) [with Emitter = clang::interp::ByteCodeEmitter]’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:8787:16:   required from here
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:5461:15: error: ‘ParamFinder PF’ has incomplete type
+ 5461 |   ParamFinder PF;
+      |               ^~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp: In instantiation of ‘bool clang::interp::Compiler<Emitter>::visitWithSubstitutions(const clang::FunctionDecl*, llvm::ArrayRef<const clang::Expr*>, const clang::Expr*, const clang::Expr*) [with Emitter = clang::interp::EvalEmitter]’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:8788:16:   required from here
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:5461:15: error: ‘ParamFinder PF’ has incomplete type
+[2574/3333] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MachObjectWriter.cpp.o
+[2575/3333] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCCodeEmitter.cpp.o
+[2576/3333] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCTargetDesc.cpp.o
+[2577/3333] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MnemonicTables.cpp.o
+[2578/3333] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ELFObjectWriter.cpp.o
+[2579/3333] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpState.cpp.o
+[2580/3333] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/ByteCodeEmitter.cpp.o
+[2581/3333] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Program.cpp.o
+[2582/3333] Building AArch64GenInstrInfo.inc...
+[2583/3333] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Pointer.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APFloat.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APNumericStorage.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Decl.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Descriptor.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.cpp:9:
+In destructor ‘llvm::APInt::~APInt()’,
+    inlined from ‘llvm::APSInt::~APSInt()’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:24:21,
+    inlined from ‘clang::interp::Pointer::toRValue(const clang::interp::Context&, clang::QualType) const::<lambda(clang::QualType, clang::interp::PtrView, clang::APValue&)>’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.cpp:918:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:193:18: warning: ‘void operator delete [](void*)’ called on a pointer to an unallocated object ‘1’ [-Wfree-nonheap-object]
+  193 |       delete[] U.pVal;
+      |                  ^~~~
+In destructor ‘llvm::APInt::~APInt()’,
+    inlined from ‘llvm::APSInt::~APSInt()’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:24:21,
+    inlined from ‘clang::interp::Pointer::toRValue(const clang::interp::Context&, clang::QualType) const::<lambda(clang::QualType, clang::interp::PtrView, clang::APValue&)>’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.cpp:918:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:193:18: warning: ‘void operator delete [](void*)’ called on a pointer to an unallocated object ‘1’ [-Wfree-nonheap-object]
+  193 |       delete[] U.pVal;
+      |                  ^~~~
+[2584/3333] Building AArch64GenSubtargetInfo.inc...
+[2585/3333] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltin.cpp.o
+[2586/3333] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Disasm.cpp.o
+[2587/3333] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConstant.cpp.o
+[2588/3333] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTContext.cpp.o
+[2589/3333] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/EvalEmitter.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APFixedPoint.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvaluationResult.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.cpp:9:
+In destructor ‘llvm::APInt::~APInt()’,
+    inlined from ‘llvm::APSInt::~APSInt()’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:24:21,
+    inlined from ‘clang::APValue clang::interp::Boolean::toAPValue(const clang::ASTContext&) const’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Boolean.h:55:72,
+    inlined from ‘void clang::interp::EvalEmitter::updateGlobalTemporaries()’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.cpp:431:7:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:193:18: warning: ‘void operator delete [](void*)’ called on a pointer to an unallocated object ‘1’ [-Wfree-nonheap-object]
+  193 |       delete[] U.pVal;
+      |                  ^~~~
+In destructor ‘llvm::APInt::~APInt()’,
+    inlined from ‘llvm::APSInt::~APSInt()’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:24:21,
+    inlined from ‘clang::APValue clang::interp::Boolean::toAPValue(const clang::ASTContext&) const’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Boolean.h:55:72,
+    inlined from ‘bool clang::interp::EvalEmitter::emitRet(clang::interp::SourceInfo) [with clang::interp::PrimType <anonymous> = clang::interp::PT_Bool]’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.cpp:239:23,
+    inlined from ‘bool clang::interp::EvalEmitter::emitRet(clang::interp::SourceInfo) [with clang::interp::PrimType <anonymous> = clang::interp::PT_Bool]’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.cpp:234:33,
+    inlined from ‘bool clang::interp::EvalEmitter::emitRet(clang::interp::PrimType, clang::interp::SourceInfo)’ at /tmp/llvm-project-build-stage1/tools/clang/lib/AST/Opcodes.inc:43457:7:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:193:18: warning: ‘void operator delete [](void*)’ called on a pointer to an unallocated object ‘1’ [-Wfree-nonheap-object]
+  193 |       delete[] U.pVal;
+      |                  ^~~~
+[2590/3333] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Interp.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:500 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+274.86user 18.54system 0:29.91elapsed 980%CPU (0avgtext+0avgdata 1336260maxresident)k
+24inputs+2240896outputs (3315major+10160151minor)pagefaults 0swaps
