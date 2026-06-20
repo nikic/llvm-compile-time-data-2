@@ -158313,6 +158313,18 @@
             "author_name": "Andreas Jonson",
             "commit_date": "2026-06-20T17:17:39+02:00",
             "subject": "[InstCombine] Fold zext(and\/or\/xor(trunc nuw x), y) -> and\/or\/xor(zext(y), x) (#204927)"
+        },
+        {
+            "hash": "b2c0c48595ab840c5b949d871302b0d1186acf53",
+            "author_name": "AZero13",
+            "commit_date": "2026-06-20T23:27:14+08:00",
+            "subject": "[InstCombine] Fold or (ashr X, BW-1), zext (icmp ne|sgt X, 0) to scmp(X, 0) (#196828)"
+        },
+        {
+            "hash": "bae51e7ffb767d08d684290d34515b91f2cbb2ed",
+            "author_name": "Arda Serdar Pektezol",
+            "commit_date": "2026-06-20T23:30:40+08:00",
+            "subject": "[IR] handle oversized constant alloca counts in getAllocationSize (#204540)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
