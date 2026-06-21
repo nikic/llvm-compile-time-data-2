@@ -158523,6 +158523,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-06-21T19:15:57+00:00",
             "subject": "[VPlan] Add VPReplicateRecipe::getNumOperandsWithoutMask (NFC) (#205004)"
+        },
+        {
+            "hash": "5bb5410d5b6d289a0a402ed4de052eb86e8bce5f",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-21T20:30:15+00:00",
+            "subject": "[VPlan] Use pattern matching in isUsedByLoadStoreAddress (NFC) (#205008)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -164403,21 +164409,15 @@
     ],
     "fhahn\/perf\/basicaa-rec-phi": [
         {
-            "hash": "adae5c0902cd05bc682a18971d7261da006471a1",
-            "author_name": "LU-JOHN",
-            "commit_date": "2026-06-18T14:11:51-05:00",
-            "subject": "[AMDGPU] Fix 64->32 bit division corner case (#204469)"
+            "hash": "d3b48ccccb3a826515e8bc0def3c9fa3b24880a2",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-06-21T14:07:14-04:00",
+            "subject": "[gn build] Port a64928f267f3 (#204997)"
         },
         {
-            "hash": "26ed0c17c0de84add0513a0e9699479f8c88b8fe",
+            "hash": "74ca3e5a380e0b45b17ec5ae90c2d0fdc2232967",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-06-18T21:15:45+02:00",
-            "subject": "Add test"
-        },
-        {
-            "hash": "476e7466c5f543ac74c86bad728d79892f668f73",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-06-18T21:15:45+02:00",
+            "commit_date": "2026-06-21T22:14:10+02:00",
             "subject": "[BasicAA] Allow some recursion across phis."
         }
     ],
