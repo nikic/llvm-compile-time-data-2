@@ -158967,6 +158967,18 @@
             "author_name": "Robert Imschweiler",
             "commit_date": "2026-06-22T17:40:45+02:00",
             "subject": "Reapply \"[OpenMP][offload] Cross-team reductions with variable number of teams\" (#204914) (#205071)"
+        },
+        {
+            "hash": "b9940aa6cf3c30ae8eb3c2059c0869ed95bb42aa",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-06-22T17:52:44+02:00",
+            "subject": "[InstCombine] Merge consecutive assumes (#204983)"
+        },
+        {
+            "hash": "1a4e2d2f0a7b60083f19e68abff80dc14702a579",
+            "author_name": "Petar Avramovic",
+            "commit_date": "2026-06-22T18:03:06+02:00",
+            "subject": "AMDGPU\/GlobalISel: RegBankLegalize rules for pk_u64 add and sub (#205079)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -165191,6 +165203,56 @@
             "author_name": "Yingwei Zheng",
             "commit_date": "2026-06-20T22:05:27+08:00",
             "subject": "test"
+        }
+    ],
+    "momchil-velikov\/perf\/disable-pre-lto-vec-0622": [
+        {
+            "hash": "a67af225694b888b88eddf39a191295159d69e3a",
+            "author_name": "Joseph Huber",
+            "commit_date": "2026-06-16T10:49:21-05:00",
+            "subject": "[llvm-offload-wrapper] Add SYCL wrapping to the standalone tool (#204168)"
+        },
+        {
+            "hash": "3239e193f8060f91f570e73c33d540186c05bc03",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-06-16T15:50:58+00:00",
+            "subject": "[FuncSpec] Relax restrictions on code size growth"
+        },
+        {
+            "hash": "abd6829fcf54c9f7e02726445a9724689e62dd5c",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-06-16T15:50:58+00:00",
+            "subject": "[PassBuilder] Move LoopFullUnrollPass to after vectorization in the full LTO pipeline"
+        },
+        {
+            "hash": "1dd60be74c1e74b45327450f66f969f1310c6219",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-06-16T15:50:58+00:00",
+            "subject": "[PassBuilder] Disable pre-LTO vectorization and loop unroll"
+        },
+        {
+            "hash": "a5bbf5f630042fcfadcc341c01b2ff72207284c3",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-06-16T15:50:59+00:00",
+            "subject": "[DIS-PRE-LTO-VEC] Add extra EarlySCE to late passes"
+        },
+        {
+            "hash": "a48bf73798af30ff3f1de1bb202566843fdc30b7",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-06-16T15:50:59+00:00",
+            "subject": "Remove the late EarlyCSE pass; leave rest of the extra late passes"
+        },
+        {
+            "hash": "0819314ff6838073505c4b4736400491960f72bc",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-06-18T12:11:08+00:00",
+            "subject": "[draft] Add late inliner and SROA passes to the LTO pipeline"
+        },
+        {
+            "hash": "41faccfb6ebae10f64da17c4f9d73135fc18e175",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-06-22T15:45:05+00:00",
+            "subject": "[draft] Conditional running of extra inliner passes"
         }
     ]
 }
