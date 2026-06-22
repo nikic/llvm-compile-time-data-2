@@ -159369,6 +159369,18 @@
             "author_name": "Reid Kleckner",
             "commit_date": "2026-06-22T16:02:50-07:00",
             "subject": "[docs] Migrate 22 popular LLVM docs to MyST (#201244)"
+        },
+        {
+            "hash": "d9a1ed0c32ac6729c45ea6998281a1cd53c44fb6",
+            "author_name": "Kevin Sala Penades",
+            "commit_date": "2026-06-22T16:08:06-07:00",
+            "subject": "[offload] Add kernel replay tool to tests' dependencies (#205209)"
+        },
+        {
+            "hash": "9e80b89e9481a88333c83d1f48a4492cdb8a84aa",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-06-22T16:09:52-07:00",
+            "subject": "[lldb] Use heuristics to extend rather than replace error message (#205196)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -165657,6 +165669,20 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-06-22T17:11:25+01:00",
             "subject": "[VPlan] Run CSE in optz pipeline as well"
+        }
+    ],
+    "mtrofin\/perf\/cfi2_fix_includes": [
+        {
+            "hash": "ee890eb04639464cd523d1305c75a82628a6a8a6",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-17T21:09:32+00:00",
+            "subject": "[ConstraintElim] Do not model negative nuw-only GEP offset as signed. (#203620)"
+        },
+        {
+            "hash": "4da2c32b603f42c823a3bfce3adb2cc64c706be8",
+            "author_name": "Mircea Trofin",
+            "commit_date": "2026-06-22T16:09:02-07:00",
+            "subject": "Reland #184065"
         }
     ]
 }
