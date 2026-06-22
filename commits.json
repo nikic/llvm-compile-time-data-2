@@ -158979,6 +158979,24 @@
             "author_name": "Petar Avramovic",
             "commit_date": "2026-06-22T18:03:06+02:00",
             "subject": "AMDGPU\/GlobalISel: RegBankLegalize rules for pk_u64 add and sub (#205079)"
+        },
+        {
+            "hash": "97fe69eaec8920e84308f80ade9e641aa424267b",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-06-22T16:04:39+00:00",
+            "subject": "[AMDGPU] Add a test for sext i1 feeding into icmp (#205121)"
+        },
+        {
+            "hash": "63862a2d80759a88e0b7408e555bb8f2292c5d40",
+            "author_name": "Zorojuro",
+            "commit_date": "2026-06-22T21:36:55+05:30",
+            "subject": "[libc][math] Add missing freebsd entrypoint for cbrtf16 (#205011)"
+        },
+        {
+            "hash": "a92039c3e44e102f90751c8e8b2ab70a077016b7",
+            "author_name": "Michael Kruse",
+            "commit_date": "2026-06-22T18:12:37+02:00",
+            "subject": "[flang-rt][openmp] Add file-level dependencies for builtin mod files (#204260)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -165253,6 +165271,20 @@
             "author_name": "Momchil Velikov",
             "commit_date": "2026-06-22T15:45:05+00:00",
             "subject": "[draft] Conditional running of extra inliner passes"
+        }
+    ],
+    "artagnon\/perf\/vplan-cse-optimize": [
+        {
+            "hash": "c79333e16d4c567c4ebeccb878ac2fc40fed687d",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-06-22T09:25:25-05:00",
+            "subject": "[flang][OpenMP] Centralize pushing\/popping directive context (#204924)"
+        },
+        {
+            "hash": "2edfe10ddd51d6c46717ae3cb646f6b5bb625d5d",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-06-22T17:11:25+01:00",
+            "subject": "[VPlan] Run CSE in optz pipeline as well"
         }
     ]
 }
