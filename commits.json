@@ -164615,10 +164615,16 @@
             "subject": "Reland [Allocator] Keep bump pointer at a minimum alignment (#205240)"
         },
         {
-            "hash": "1f4f70af62eac38ae96b13418ebc7c09344519fa",
+            "hash": "dc0ea7ad0f67d4bd57df6f5993b96891b8d2b5b7",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-06-22T20:55:31-07:00",
+            "commit_date": "2026-06-22T20:56:56-07:00",
             "subject": "[Allocator] Drop the fast-path null check via a sentinel End"
+        },
+        {
+            "hash": "1fa01e9b39209ff6809c384fa09f3ec2df837a7f",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-06-22T21:02:54-07:00",
+            "subject": "[Allocator] Drop the RedZoneSize member in non-sanitizer builds"
         }
     ],
     "MaskRay\/perf\/bumpalloc-min1": [
