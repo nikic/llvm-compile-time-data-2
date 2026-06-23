@@ -160077,6 +160077,30 @@
             "author_name": "Krzysztof Parzyszek",
             "commit_date": "2026-06-23T13:14:03-05:00",
             "subject": "[TableGen] Use llvm_unreachable in switch guard for all except gcc 8- (#205385)"
+        },
+        {
+            "hash": "5d4296c10053158c8193748994f7a49ae88c626b",
+            "author_name": "adams381",
+            "commit_date": "2026-06-23T13:16:46-05:00",
+            "subject": "[CIR] Lower bitwise vector reduce builtins"
+        },
+        {
+            "hash": "88eaad84c9832a2eaa335d90505b33870cc4b2e8",
+            "author_name": "Jan Svoboda",
+            "commit_date": "2026-06-23T11:18:00-07:00",
+            "subject": "[llvm][option] Remove bitfield marshalling (#203051)"
+        },
+        {
+            "hash": "289e243d2b481ceb604c798f239350108bcd9585",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-06-23T18:20:02+00:00",
+            "subject": "Revert \"[flang][cuda] Do not emit data transfer for constant read on the rhs\" (#205394)"
+        },
+        {
+            "hash": "c70d01a0a6b76e8b34a470cf9ef57a68cfa7cc0d",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-06-23T11:25:11-07:00",
+            "subject": "[lldb] Fix data race in Module::GetSectionList (#205226)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -165963,16 +165987,16 @@
     ],
     "fhahn\/perf\/basicaa-rec-phi": [
         {
-            "hash": "d3b48ccccb3a826515e8bc0def3c9fa3b24880a2",
-            "author_name": "Nico Weber",
-            "commit_date": "2026-06-21T14:07:14-04:00",
-            "subject": "[gn build] Port a64928f267f3 (#204997)"
-        },
-        {
             "hash": "74ca3e5a380e0b45b17ec5ae90c2d0fdc2232967",
             "author_name": "Florian Hahn",
             "commit_date": "2026-06-21T22:14:10+02:00",
             "subject": "[BasicAA] Allow some recursion across phis."
+        },
+        {
+            "hash": "f2fea94c40c9b4353d59fe4e8ac71851d9cdaa38",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-23T20:21:08+02:00",
+            "subject": "Merge branch 'main' into perf\/basicaa-rec-phi"
         }
     ],
     "nikic\/perf\/scev-implied-diff-2": [
