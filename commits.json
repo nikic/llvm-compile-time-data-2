@@ -160593,6 +160593,18 @@
             "author_name": "forking-google-bazel-bot[bot]",
             "commit_date": "2026-06-24T07:48:29-04:00",
             "subject": "[Bazel] Fixes 25ae6ce (#205501)"
+        },
+        {
+            "hash": "94819d04c317d7d17e26a6938208efa856a97d24",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-06-24T14:14:15+02:00",
+            "subject": "[libc++] Move constexpr\/explicit macros to <__configuration\/language.h> (#205535)"
+        },
+        {
+            "hash": "1ad2d369d18da9cb65a0d518f5a1b8bd98577d3e",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-06-24T12:16:03+00:00",
+            "subject": "[X86] combineAddOfPMADDWD - use MaskedVectorIsZero directly instead of MaskedValueIsZero. NFC. (#205534)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -166923,6 +166935,20 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-06-24T06:05:40+02:00",
             "subject": "[clang][ExprConst] Add early exit in `evaluateDestruction()`"
+        }
+    ],
+    "aengelke\/perf\/simplifyicmp": [
+        {
+            "hash": "a562f6a4833eb15d8d2fdbd54c27c595935ff275",
+            "author_name": "jeanPerier",
+            "commit_date": "2026-06-24T11:35:28+02:00",
+            "subject": "[flang][FIR] add canonicalization pattern for fir.if returning OPTIONAL (#205353)"
+        },
+        {
+            "hash": "0fc80e455643206c1994ab60f8a723c01e16ae68",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-06-24T12:10:57+00:00",
+            "subject": "try maxmin match no select"
         }
     ]
 }
