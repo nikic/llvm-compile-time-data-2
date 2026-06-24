@@ -160815,6 +160815,12 @@
             "author_name": "Akash Banerjee",
             "commit_date": "2026-06-24T16:18:54+00:00",
             "subject": "[Flang][OpenMP][Sema] Add OpenMP warning when mapping local descriptors to device on enter without a corresponding exit (#205580)"
+        },
+        {
+            "hash": "a6f8c9c427d8add6715b69ba41e1fff83500494f",
+            "author_name": "Mel Chen",
+            "commit_date": "2026-06-24T16:28:49+00:00",
+            "subject": "[LV] Pre-commit test for live-out derivation requiring VPExpandSCEVRecipe. nfc (#204350)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -165935,16 +165941,16 @@
     ],
     "MaskRay\/perf\/bumpalloc": [
         {
-            "hash": "d17d249e92bfe63f6ccc8a927caa4eb0316474a8",
-            "author_name": "jinge90",
-            "commit_date": "2026-06-24T11:40:34+08:00",
-            "subject": "[libc][NFC] Remove a compiler warning for MPCommon (#205264)"
+            "hash": "25a6b5be6853b2c493ef392d41e43dd35ad4839a",
+            "author_name": "Stephen Tozer",
+            "commit_date": "2026-06-24T16:55:25+01:00",
+            "subject": "[Dexter] Add ability to rewrite scripts to fill-in unknown values (#202799)"
         },
         {
-            "hash": "abbe5430f4db1b801abb0d85397c54a7f623d2a3",
+            "hash": "8ebc975635ad717deb392d20b50f1a1f6bb16054",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-06-23T21:17:40-07:00",
-            "subject": "[Allocator] Drop the fast-path null check via a sentinel End"
+            "commit_date": "2026-06-24T09:23:21-07:00",
+            "subject": "[Allocator] Drop RedZoneSize (non-sanitizer) and BytesAllocated members"
         }
     ],
     "MaskRay\/perf\/bumpalloc-min1": [
