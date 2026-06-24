@@ -160359,6 +160359,18 @@
             "author_name": "Matt",
             "commit_date": "2026-06-23T19:07:16-05:00",
             "subject": "[flang][OpenMP] Fix ICE lowering user-defined operator declare reduction"
+        },
+        {
+            "hash": "4bb31d7c30933e42bc924536728178ba0051ab31",
+            "author_name": "Longsheng Mou",
+            "commit_date": "2026-06-24T09:24:43+08:00",
+            "subject": "[mlir][gpu] Fix memref.dim folding with negative index (#205338)"
+        },
+        {
+            "hash": "719144a271dbefb8719ed9ecd4c142ff514b4f22",
+            "author_name": "Longsheng Mou",
+            "commit_date": "2026-06-24T09:25:13+08:00",
+            "subject": "[mlir] Simplify DimOp::fold by using `getConstantIndex`(NFC) (#205343)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
