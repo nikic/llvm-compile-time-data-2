@@ -104393,27 +104393,39 @@
     ],
     "fhahn\/perf\/scevuse-indvars": [
         {
-            "hash": "3746f3e4d6129124e80ec93f22cab174e03ba2f7",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-06-17T06:45:08+00:00",
-            "subject": "[llvm] Replace unordered_{map,set} with Dense{Map,Set} (#202222)"
+            "hash": "289e243d2b481ceb604c798f239350108bcd9585",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-06-23T18:20:02+00:00",
+            "subject": "Revert \"[flang][cuda] Do not emit data transfer for constant read on the rhs\" (#205394)"
         },
         {
-            "hash": "164548f4b318d84586ce89b740deda7ce854cb4d",
+            "hash": "6061bd6133258f16423e1c61f7b9ffa2297e4d7b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-06-17T13:01:42+01:00",
+            "commit_date": "2026-06-23T20:20:53+02:00",
             "subject": "[SCEV] Add option to request use-specific SCEV for a GEP expr"
         },
         {
-            "hash": "0a12e1a237d37923d547bce403e2d897c3bc82b4",
+            "hash": "985d457be9a12907c9964ba31d08df7172f7ee65",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-06-17T19:11:06+01:00",
+            "commit_date": "2026-06-23T20:20:53+02:00",
             "subject": "[SCEV] Use SCEVUse for ValuesAtScope."
         },
         {
-            "hash": "7468a076cd2bac9666fc7b037d57ba67dca59c0b",
+            "hash": "b4c5d5d819fdc69b6238d7e188b5b424699da15e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-06-17T19:11:43+01:00",
+            "commit_date": "2026-06-23T22:03:18+02:00",
+            "subject": "Step"
+        },
+        {
+            "hash": "43ec9ee1d39e64fed56990a5795cae4b3f600ffd",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-24T19:01:28+02:00",
+            "subject": "Add test"
+        },
+        {
+            "hash": "b3bef1b8f009c039ad972778c9fa04baf087365e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-24T19:01:34+02:00",
             "subject": "[IndVarSimplify] Propagate SCEVUse flags through exit value expansion"
         }
     ],
@@ -160845,6 +160857,18 @@
             "author_name": "A. Jiang",
             "commit_date": "2026-06-25T00:49:59+08:00",
             "subject": "[libc++] Apply `[[nodiscard]]` to `wstring_convert`, `wbuffer_convert` (#205486)"
+        },
+        {
+            "hash": "55b45709a85ccce1fcc768a458179832b030218a",
+            "author_name": "Paul Osmialowski",
+            "commit_date": "2026-06-24T18:00:27+01:00",
+            "subject": "[BOLT] Increase BufSize in runtime\/common.h (#204607)"
+        },
+        {
+            "hash": "44409a06cffd8271bce7bf075ce4f4d4552c35ad",
+            "author_name": "Paul Osmialowski",
+            "commit_date": "2026-06-24T18:01:07+01:00",
+            "subject": "[flang][cmake][perf-training] Optimize flang with PGO and BOLT (#198863)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
