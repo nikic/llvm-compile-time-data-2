@@ -161493,6 +161493,18 @@
             "author_name": "Timm Baeder",
             "commit_date": "2026-06-25T11:57:44+02:00",
             "subject": "[clang][bytecode] Fix ImplicitValueInitExpr array initializer (#205754)"
+        },
+        {
+            "hash": "159ea0a9a8a2a765dad1b487e5a1ece0ea48130d",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-06-25T10:05:25+00:00",
+            "subject": "[VPlan] Strip replicate-region bail in materializing Unpacks (#203907)"
+        },
+        {
+            "hash": "038606bcc37039cd0dbaede7be18a0b353ffcabf",
+            "author_name": "Hongyu Chen",
+            "commit_date": "2026-06-25T10:10:12+00:00",
+            "subject": "[InstCombine] do not assume the operand position of reverse shuffle (#205747)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -167833,16 +167845,10 @@
             "subject": "[flang][FIR] add canonicalization pattern for fir.if returning OPTIONAL (#205353)"
         },
         {
-            "hash": "40f49742bbc07acbdbc3444d785c2af29115e287",
+            "hash": "c38954e304e1ae0e94576ceba6f784ecb1214069",
             "author_name": "Alexis Engelke",
-            "commit_date": "2026-06-24T16:27:49+00:00",
+            "commit_date": "2026-06-25T10:10:08+00:00",
             "subject": "[IR] Don't match icmp+select as min\/max"
-        },
-        {
-            "hash": "8b1aae07f14c8e3a57b4a0be21c2b3a1688ec62f",
-            "author_name": "Alexis Engelke",
-            "commit_date": "2026-06-25T10:00:22+00:00",
-            "subject": "feedback"
         }
     ],
     "jmorse\/perf\/ayermolo_multi_debugloc": [
