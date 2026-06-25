@@ -161487,6 +161487,12 @@
             "author_name": "Nikolas Klauser",
             "commit_date": "2026-06-25T11:45:55+02:00",
             "subject": "[libc++] Remove _LIBCPP_COMPRESSED_PAIR\/TRIPLE from shared_ptr (#200401)"
+        },
+        {
+            "hash": "be8255a294a8fe9f404fcde0bd92b507cf152670",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-06-25T11:57:44+02:00",
+            "subject": "[clang][bytecode] Fix ImplicitValueInitExpr array initializer (#205754)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -167827,10 +167833,16 @@
             "subject": "[flang][FIR] add canonicalization pattern for fir.if returning OPTIONAL (#205353)"
         },
         {
-            "hash": "e8db0b7f8dfe1aca0c18590a0ad52a0acc8f1af1",
+            "hash": "40f49742bbc07acbdbc3444d785c2af29115e287",
             "author_name": "Alexis Engelke",
-            "commit_date": "2026-06-24T16:13:55+00:00",
-            "subject": "try maxmin match no select"
+            "commit_date": "2026-06-24T16:27:49+00:00",
+            "subject": "[IR] Don't match icmp+select as min\/max"
+        },
+        {
+            "hash": "8b1aae07f14c8e3a57b4a0be21c2b3a1688ec62f",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-06-25T10:00:22+00:00",
+            "subject": "feedback"
         }
     ],
     "jmorse\/perf\/ayermolo_multi_debugloc": [
