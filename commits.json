@@ -162099,6 +162099,18 @@
             "author_name": "Alex Langford",
             "commit_date": "2026-06-25T12:52:44-07:00",
             "subject": "[lldb][NFC] Correct documentation for FileSpec::GetFileNameExtension (#205871)"
+        },
+        {
+            "hash": "0a00381c67afcbb411679407c96e6b3e6613ee2f",
+            "author_name": "Krzysztof Drewniak",
+            "commit_date": "2026-06-25T19:59:49+00:00",
+            "subject": "[llvm][NFC] Add invariant.load intrinsic precommit tests (#205894)"
+        },
+        {
+            "hash": "f2459f9ec89db238fb84b13a75ae38867d0b6cb2",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-25T20:04:45+00:00",
+            "subject": "[VPlan] Handle loads feeding memops in makeMemOpWideningDecisions (NFC) (#196842)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -168483,6 +168495,20 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-06-25T11:11:51-07:00",
             "subject": "[\ud835\ude00\ud835\uddfd\ud835\uddff] initial version"
+        }
+    ],
+    "nikic\/perf\/scev-umin-cond": [
+        {
+            "hash": "f0fd1ee64993eca0acb9d847ebf351ed7eb10bac",
+            "author_name": "Alex Langford",
+            "commit_date": "2026-06-25T12:52:44-07:00",
+            "subject": "[lldb][NFC] Correct documentation for FileSpec::GetFileNameExtension (#205871)"
+        },
+        {
+            "hash": "22f80d6a5187256c8deca1abc39412a12f08e2f2",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-06-25T21:59:52+02:00",
+            "subject": "Prove umin\/umax comparisons before operand canonicalization"
         }
     ]
 }
