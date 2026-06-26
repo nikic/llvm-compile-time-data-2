@@ -104375,39 +104375,27 @@
     ],
     "fhahn\/perf\/scevuse-indvars": [
         {
-            "hash": "289e243d2b481ceb604c798f239350108bcd9585",
-            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
-            "commit_date": "2026-06-23T18:20:02+00:00",
-            "subject": "Revert \"[flang][cuda] Do not emit data transfer for constant read on the rhs\" (#205394)"
+            "hash": "6d48d45c130293452e398cda29ea7d348f384034",
+            "author_name": "Pierre van Houtryve",
+            "commit_date": "2026-06-26T10:21:59+02:00",
+            "subject": "[AMDGPU][HWEvents] Refactor VMEM_ACCESS as VMEM_READ_ACCESS (#204545)"
         },
         {
-            "hash": "6061bd6133258f16423e1c61f7b9ffa2297e4d7b",
+            "hash": "34f1560883e14b8f468fa3e5137cfb217925a686",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-06-23T20:20:53+02:00",
+            "commit_date": "2026-06-26T10:31:31+02:00",
+            "subject": "[SCEV] Use SCEVUse for ValuesAtScope (NFC)."
+        },
+        {
+            "hash": "b69c569af80081b385b648982b98142fd0ea4129",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-26T10:41:17+02:00",
             "subject": "[SCEV] Add option to request use-specific SCEV for a GEP expr"
         },
         {
-            "hash": "985d457be9a12907c9964ba31d08df7172f7ee65",
+            "hash": "668e6ed67238e922d2a2d51af45ddd0f397fe76d",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-06-23T20:20:53+02:00",
-            "subject": "[SCEV] Use SCEVUse for ValuesAtScope."
-        },
-        {
-            "hash": "b4c5d5d819fdc69b6238d7e188b5b424699da15e",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-06-23T22:03:18+02:00",
-            "subject": "Step"
-        },
-        {
-            "hash": "43ec9ee1d39e64fed56990a5795cae4b3f600ffd",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-06-24T19:01:28+02:00",
-            "subject": "Add test"
-        },
-        {
-            "hash": "b3bef1b8f009c039ad972778c9fa04baf087365e",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-06-24T19:01:34+02:00",
+            "commit_date": "2026-06-26T10:41:22+02:00",
             "subject": "[IndVarSimplify] Propagate SCEVUse flags through exit value expansion"
         }
     ],
@@ -162567,6 +162555,12 @@
             "author_name": "Pierre van Houtryve",
             "commit_date": "2026-06-26T10:21:59+02:00",
             "subject": "[AMDGPU][HWEvents] Refactor VMEM_ACCESS as VMEM_READ_ACCESS (#204545)"
+        },
+        {
+            "hash": "e354cd076677ba12561fa6925ed12b054623452b",
+            "author_name": "Mel Chen",
+            "commit_date": "2026-06-26T08:47:24+00:00",
+            "subject": "[LV] Only collect strides without predicates under OptForSize when interleaved access analysis (#205793)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
