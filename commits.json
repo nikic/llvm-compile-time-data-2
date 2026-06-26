@@ -163233,6 +163233,12 @@
             "author_name": "hulxv",
             "commit_date": "2026-06-26T20:43:46+00:00",
             "subject": "[libc] add shared divtf3 builtin (#205671)"
+        },
+        {
+            "hash": "7b8b8ff3ffe5aa57ec7a8513d4f0a3a97d188878",
+            "author_name": "Daniel Rank",
+            "commit_date": "2026-06-26T16:53:45-04:00",
+            "subject": "[libc++abi] Fix alternate deletions in exhaustion tests (#193130)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -169679,6 +169685,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-06-26T10:52:33-07:00",
             "subject": "[ADT] Out-of-line the trivially-copyable SmallVector::push_back grow path"
+        }
+    ],
+    "aengelke\/perf\/featurekv-squash": [
+        {
+            "hash": "c124b0e7f69ad1b7320e17f611e3007c442bd649",
+            "author_name": "David Spickett",
+            "commit_date": "2026-06-26T13:58:13+00:00",
+            "subject": "Revert \"Fix ProcessElfCore::FindModuleUUID() so it work with symlinks.\" (#206062)"
+        },
+        {
+            "hash": "c1e9f936d50758563153338251be3ea377ce7023",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-06-26T20:53:57+00:00",
+            "subject": "[MC] Generate FeatureKV with compact string table"
         }
     ]
 }
