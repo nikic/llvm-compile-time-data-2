@@ -163101,6 +163101,12 @@
             "author_name": "Jonas Devlieghere",
             "commit_date": "2026-06-26T10:49:55-07:00",
             "subject": "[lldb] Remove the Diagnostics callback mechanism (#206132)"
+        },
+        {
+            "hash": "2c59ef4d88cce89bccf26ebbdea530f98bfe8002",
+            "author_name": "widberg",
+            "commit_date": "2026-06-26T11:01:53-07:00",
+            "subject": "[CIR] Fix CIR __builtin_(add|sub|mul)_overflow bug (#192569)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -169543,10 +169549,10 @@
             "subject": "[lldb][Windows] Try falling back to TLS 1.2 before erroring out (#206108)"
         },
         {
-            "hash": "5f1665e491341852bc4a4c84896a2dd392721e22",
+            "hash": "eeae5f665f7ddf7bc05676fdcad767cc48deb138",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-06-26T10:30:16-07:00",
-            "subject": "[ADT] Out-of-line the SmallVector::push_back grow path"
+            "commit_date": "2026-06-26T10:52:33-07:00",
+            "subject": "[ADT] Out-of-line the trivially-copyable SmallVector::push_back grow path"
         }
     ]
 }
