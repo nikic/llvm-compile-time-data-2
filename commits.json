@@ -170184,5 +170184,19 @@
             "commit_date": "2026-06-27T20:01:52-07:00",
             "subject": "[Allocator] Decrease inline element count to 1"
         }
+    ],
+    "MaskRay\/perf\/smallset-grow": [
+        {
+            "hash": "ca59c69132eef55cc42bf8854706590dfddf5584",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-06-28T02:15:56+00:00",
+            "subject": "[Allocator] Drop RedZoneSize (non-sanitizer) and BytesAllocated members (#205711)"
+        },
+        {
+            "hash": "d87f1e5561953c7f35c9900e36586d5b683c1623",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-06-27T21:45:26-07:00",
+            "subject": "[SmallPtrSet] Optimize Grow and inline FindBucketFor"
+        }
     ]
 }
