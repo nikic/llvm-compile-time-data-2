@@ -104411,28 +104411,52 @@
     ],
     "fhahn\/perf\/scevuse-indvars": [
         {
-            "hash": "6d48d45c130293452e398cda29ea7d348f384034",
-            "author_name": "Pierre van Houtryve",
-            "commit_date": "2026-06-26T10:21:59+02:00",
-            "subject": "[AMDGPU][HWEvents] Refactor VMEM_ACCESS as VMEM_READ_ACCESS (#204545)"
+            "hash": "b23ba298af84d56be149350bf617dc869c1fb42c",
+            "author_name": "SUBASH BOOPATHI",
+            "commit_date": "2026-06-27T13:51:03+00:00",
+            "subject": "[InstCombine] Optimize fcmp ord\/uno logical select operations using freeze (#205076)"
         },
         {
-            "hash": "34f1560883e14b8f468fa3e5137cfb217925a686",
+            "hash": "1c34f65e8618352b733b381fee060205a848715a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-06-26T10:31:31+02:00",
+            "commit_date": "2026-06-27T15:15:18+01:00",
             "subject": "[SCEV] Use SCEVUse for ValuesAtScope (NFC)."
         },
         {
-            "hash": "b69c569af80081b385b648982b98142fd0ea4129",
+            "hash": "36f02a23eff7173263c35176bfb825019b6fe33d",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-06-26T10:41:17+02:00",
+            "commit_date": "2026-06-27T15:15:19+01:00",
             "subject": "[SCEV] Add option to request use-specific SCEV for a GEP expr"
         },
         {
-            "hash": "668e6ed67238e922d2a2d51af45ddd0f397fe76d",
+            "hash": "487ed4b744b6ce7f6a68c98fc599c32a9c07bf7c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-06-26T10:41:22+02:00",
+            "commit_date": "2026-06-27T15:15:19+01:00",
             "subject": "[IndVarSimplify] Propagate SCEVUse flags through exit value expansion"
+        },
+        {
+            "hash": "47c77779dee804f1bd2f25a143f0955723be52bd",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-28T16:59:06+01:00",
+            "subject": "[SCEV] Only preserve use-NUW on closed-form pointers with SCEVUnknown start"
+        },
+        {
+            "hash": "0b5f5f4a489df2de372f10350dab4232bfe0b05e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-28T16:59:19+01:00",
+            "subject": "[SCEV] Preserve use-NUW for pointer recurrences advanced from the base"
+        },
+        {
+            "hash": "76d1bf4389aad95c8e61a58684bab3e45b99d7f0",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-28T16:59:56+01:00",
+            "subject": "[SCEV] Key uniquing and canonicalization on operand use-flags"
+        },
+        {
+            "hash": "7303f33b39aa0d727a2ca2dfc662a14177a22bc1",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-28T17:00:03+01:00",
+            "subject": "Step"
         }
     ],
     "bababuck\/perf\/StrideStores": [
