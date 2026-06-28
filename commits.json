@@ -74171,34 +74171,40 @@
     ],
     "dtcxzyw\/perf\/fix-115890": [
         {
-            "hash": "bf483ddb42065405e345393e022dc72357ec5a3a",
-            "author_name": "Jeremy Morse",
-            "commit_date": "2024-11-12T15:09:40+00:00",
-            "subject": "[DWARF] Emit a worst-case prologue_end flag for pathological inputs (#107849)"
+            "hash": "92f01b267efe262a096baa433665c169cd53ff2c",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-06-28T06:12:00+00:00",
+            "subject": "[TableGen] Use StringTable for searchable tables (#206252)"
         },
         {
-            "hash": "f683360740f975f12618815ad457dad010497989",
+            "hash": "7c8f342eb4e8106851ba5b8bb59743c183503abb",
             "author_name": "Yingwei Zheng",
-            "commit_date": "2024-11-13T11:49:16+08:00",
+            "commit_date": "2026-06-28T16:06:50+08:00",
             "subject": "[InstCombine] Add pre-commit tests. NFC."
         },
         {
-            "hash": "5367e2e86f6eea38967fd9c903c4ea23c962ba8f",
+            "hash": "5ce8f2e729316824ab9d701d0ad794008c9b2181",
             "author_name": "Yingwei Zheng",
-            "commit_date": "2024-11-13T12:35:53+08:00",
+            "commit_date": "2026-06-28T16:12:24+08:00",
             "subject": "[InstCombine] Drop poison-generating\/UB-implying param attrs after changing operands"
         },
         {
-            "hash": "2b38d1a26dea3272a31453b83c4f48039c8cb0a6",
+            "hash": "bc201b5e5cc18b8747b80391bbe26d69b4f3e00b",
             "author_name": "Yingwei Zheng",
-            "commit_date": "2024-11-15T11:36:32+08:00",
+            "commit_date": "2026-06-28T16:12:28+08:00",
             "subject": "[InstCombine] Swap parameter attributes in `canonicalizeConstantArg0ToArg1`"
         },
         {
-            "hash": "0f9721337f1242a9530c205e1d6d659f4857c0a0",
+            "hash": "d86d4cc571ce4c6b5d46586fea2dc7ea57a4c843",
             "author_name": "Yingwei Zheng",
-            "commit_date": "2024-11-15T11:42:20+08:00",
+            "commit_date": "2026-06-28T16:12:28+08:00",
             "subject": "[InstCombine] Add more tests. NFC."
+        },
+        {
+            "hash": "8eac0bc37d3f4143f6a635336a8b45462a0dfa7c",
+            "author_name": "Yingwei Zheng",
+            "commit_date": "2026-06-28T16:56:13+08:00",
+            "subject": "[InstCombine] Fix regression."
         }
     ],
     "nikic\/perf\/instcombine-select-op": [
