@@ -77035,28 +77035,34 @@
     ],
     "tbaederr\/perf\/ce-test": [
         {
-            "hash": "4d4c865933e1048842f836490e02296b2cb48711",
-            "author_name": "Federico Bruzzone",
-            "commit_date": "2026-06-25T14:49:15+01:00",
-            "subject": "[mlir][vector] add consistent stride verification to `masked load\/store` and `gather\/scatter` ops (#204842)"
+            "hash": "e1aa9d4cf0952b88010c38bae23ea9c651ae08c7",
+            "author_name": "Ingo M\u00fcller",
+            "commit_date": "2026-06-26T16:15:21+02:00",
+            "subject": "[mlir][bazel] Fix build for #204510. (#206069)"
         },
         {
-            "hash": "b9db407de190ba94abc2ad9a67b6577401650800",
+            "hash": "199f9eed5969de57e495493b6f85e2c20d21ba42",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-06-25T15:52:05+02:00",
+            "commit_date": "2026-06-28T21:47:13+02:00",
             "subject": "Test"
         },
         {
-            "hash": "1ec533e8e2f2f82d6fd00e265a7a4ac94d94eb9e",
+            "hash": "12b56a466bb67166f7ac2f7e693d25d2054add91",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-06-28T08:04:11+02:00",
+            "commit_date": "2026-06-28T21:47:13+02:00",
             "subject": "subptr"
         },
         {
-            "hash": "2837415c6f359c1a42cae79c2b298f5d888a50a2",
+            "hash": "5250ccfa92a4388a288ebccd09eebe8c7587aaac",
             "author_name": "hardikxk",
-            "commit_date": "2026-06-28T21:17:19+02:00",
+            "commit_date": "2026-06-28T21:47:13+02:00",
             "subject": "Optimize the FileCheckPoints search in Preprocessor Resolves a FIXME and improved linear search by replacing with a binary search on the FileCheckPoints SmallVector in Lex\/PreProcessor."
+        },
+        {
+            "hash": "4f9eb0b9e249a7c8667e5fd5ed1f099fc6c65b05",
+            "author_name": "Anonmiraj",
+            "commit_date": "2026-06-28T21:47:13+02:00",
+            "subject": "Don't add comments to the AST if not requested"
         }
     ],
     "dtcxzyw\/perf\/nonnull-at-callsite": [
