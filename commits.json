@@ -164493,6 +164493,78 @@
             "author_name": "Maksim Levental",
             "commit_date": "2026-06-29T08:03:17-07:00",
             "subject": "[mlir-c] Add ConversionTarget dynamic legality C API (#206161)"
+        },
+        {
+            "hash": "81a2ac204aea4281c8ed9162db5d4ed491cb2cfa",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-06-29T15:12:01+00:00",
+            "subject": "[Lanai] Port SelectionDAGISel to NewPM"
+        },
+        {
+            "hash": "016954e1489dbd8daf94baf3372dae2b7f2684e3",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-06-29T15:13:22+00:00",
+            "subject": "[Lanai] Add LanaiCodeGenPassBuilder"
+        },
+        {
+            "hash": "9c1726191f5e8188befff3d6d25d92b45baa64e7",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-06-29T17:13:54+02:00",
+            "subject": "[SPIR-V] Add --spirv-fp-contract option to control kernel ContractionOff emission (#206404)"
+        },
+        {
+            "hash": "71d84d29a624aa3f5a29d878d8768e2d8e0eebc8",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-06-29T16:14:14+01:00",
+            "subject": "[lldb][windows] fix long path support in debugger event loop (#206114)"
+        },
+        {
+            "hash": "9abf59bcd002b735126adab4c8491f21478c34df",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-06-29T17:14:24+02:00",
+            "subject": "[SPIR-V] Propagate intrinsic param attributes to generated helper functions (#206061)"
+        },
+        {
+            "hash": "0c265b1aef7d053f6b35ff6310621d1471dd570e",
+            "author_name": "Phoebe Liang",
+            "commit_date": "2026-06-29T11:14:53-04:00",
+            "subject": "Guard type size queries on incomplete types in -Wunsafe-buffer-usage (#205426)"
+        },
+        {
+            "hash": "c886bbf8c95dba5d24756b4d5f60801accfd5703",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-06-29T15:16:10+00:00",
+            "subject": "[Lanai] Port DelaySlotFiller to NewPM"
+        },
+        {
+            "hash": "a6377f4997cefd8edfa1b645a92e3e0033daf66e",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-06-29T17:17:54+02:00",
+            "subject": "[SPIR-V] Allow NoUnsignedWrap decoration on OpShiftLeftLogical (#206155)"
+        },
+        {
+            "hash": "ac85c0afe6c159eb18095569f669157c3e680a30",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-06-29T15:18:05+00:00",
+            "subject": "[Lanai] Remove SetflagAluCombinerPass creation function"
+        },
+        {
+            "hash": "3496d107c2633ae173c7071bb0ec15787df5db34",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-06-29T15:19:23+00:00",
+            "subject": "[Lanai] Port MemAluCombiner to NewPM"
+        },
+        {
+            "hash": "6f099e089e6fe720f8d454bf269e45621b926fb6",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-06-29T15:20:04+00:00",
+            "subject": "[CIR] Add NYI for fmaximum\/fminimum\/fmaximum_num\/fminimum_num atomics (#206502)"
+        },
+        {
+            "hash": "56a1adfe2fac347bed28dca77fc45c80340d22f9",
+            "author_name": "Max Graey",
+            "commit_date": "2026-06-29T17:20:25+02:00",
+            "subject": "[mlir][arith] Implement ValueBoundsOpInterface for ExtSI op (#204476)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
