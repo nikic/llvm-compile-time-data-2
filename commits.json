@@ -164637,6 +164637,12 @@
             "author_name": "Chris B",
             "commit_date": "2026-06-29T15:55:41+00:00",
             "subject": "Revert \"[DirectX] Test stripping debug info for DirectX\" (#206510)"
+        },
+        {
+            "hash": "76968fc856620b833b49335bad65b12e50b7402f",
+            "author_name": "A. Jiang",
+            "commit_date": "2026-06-29T12:19:26-04:00",
+            "subject": "[libc++][docs] Remove superfluous entries for P1286R2 and P2085R0 (#166116)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -171263,6 +171269,20 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-06-29T08:30:48-07:00",
             "subject": "iiiii"
+        }
+    ],
+    "MaskRay\/perf\/smallvector-coalesce-assign": [
+        {
+            "hash": "fe1fc78c3e49eea31e4ba7647727680665923dd7",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-06-27T09:43:45-07:00",
+            "subject": "[SmallVector] Out-of-line the trivially-copyable push_back grow path (#206213)"
+        },
+        {
+            "hash": "7fe289856029e3bead1fc7876f9ec5e90f9674c6",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-06-28T23:46:34-07:00",
+            "subject": "[SmallVector] Type-erase trivially-copyable assignment into assign_pod"
         }
     ]
 }
