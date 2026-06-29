@@ -94491,12 +94491,6 @@
     ],
     "antoniofrighetto\/perf\/sccp-handle-prov-ptr": [
         {
-            "hash": "8da1bb891e003b4fdf4253a76b05ad8d4a19cceb",
-            "author_name": "Janek van Oirschot",
-            "commit_date": "2026-03-02T14:47:35+00:00",
-            "subject": "Reapply \"[AMDGPU] Elide bitcast fold i64 imm to build_vector\" (#160325) (#184114)"
-        },
-        {
             "hash": "0fc66d28749bd807a786d8a46ec5d11ac7ff255c",
             "author_name": "Antonio Frighetto",
             "commit_date": "2026-03-02T16:44:17+01:00",
@@ -94507,6 +94501,18 @@
             "author_name": "Antonio Frighetto",
             "commit_date": "2026-06-17T10:52:40+02:00",
             "subject": "!fixup update state when merging two lattice values, add test"
+        },
+        {
+            "hash": "0b8f8aaccdc4edd9cca8ee9e2a9665d7f3aa96a7",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-06-29T09:18:28+02:00",
+            "subject": "!fixup store dl, visitgep handling"
+        },
+        {
+            "hash": "632fb7c5022574273ecf43182e728ab0e1d94029",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-06-29T09:36:23+02:00",
+            "subject": "Merge branch 'main' into perf\/sccp-handle-prov-ptr"
         }
     ],
     "dtcxzyw\/perf\/implied-fcmp": [
@@ -164043,6 +164049,24 @@
             "author_name": "lonely eagle",
             "commit_date": "2026-06-29T15:30:36+08:00",
             "subject": "[mlir][affine] Remove redundant copyNests.clear() after declaration (NFC) (#206348)"
+        },
+        {
+            "hash": "ece2342812b53cb6fe2121198df21e02f3641047",
+            "author_name": "Ying Chen",
+            "commit_date": "2026-06-29T07:39:06+00:00",
+            "subject": "[RISCV] Convert opaque pointers in vp-combine-store-reverse.ll. NFC (#206411)"
+        },
+        {
+            "hash": "ad30b9a1573f9c8ad2650a19e2bbef28759f0841",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-06-29T08:42:04+01:00",
+            "subject": "[clang][AArch64] Remove dead code-gen code (#205153)"
+        },
+        {
+            "hash": "0b542f01dfc0dee39fda8be1a63995d783a5606b",
+            "author_name": "David Green",
+            "commit_date": "2026-06-29T08:45:40+01:00",
+            "subject": "[ARM] Cleanup for performSTORECombine. NFC (#206420)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
