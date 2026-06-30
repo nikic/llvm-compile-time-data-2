@@ -165435,6 +165435,18 @@
             "author_name": "Tomas Matheson",
             "commit_date": "2026-06-30T10:45:48+01:00",
             "subject": "[AArch64][NFC] remove CPUInfo.getImpliedExtensions() (#206422)"
+        },
+        {
+            "hash": "e11d7478b8ce55f2caab3e8c67622a7920788a57",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-06-30T11:55:37+02:00",
+            "subject": "[SPIR-V] Lower G_SMULFIX and G_UMULFIX (#206507)"
+        },
+        {
+            "hash": "0b834f08ad9d2f013632179b64b9232eb202a555",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-06-30T09:56:03+00:00",
+            "subject": "[X86] Add AVX512F-only test coverage to vector-reduce-add tests (#206686)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -172075,6 +172087,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-06-28T23:46:34-07:00",
             "subject": "[SmallVector] Type-erase trivially-copyable assignment into assign_pod"
+        }
+    ],
+    "nikic\/perf\/x86-mmo-fix": [
+        {
+            "hash": "b8d7413fccb6574d721bbebcfd3b8d5de8a4570d",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-06-30T10:22:20+02:00",
+            "subject": "Revert \"[OffloadBundler] Bound compressed bundles by header size, not magic scan (#205587)\" (#206678)"
+        },
+        {
+            "hash": "903c5c3ed3f120e1b26c5633bfc0957fc9d3ab0d",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-06-30T11:54:52+02:00",
+            "subject": "Add test for miscompile"
         }
     ]
 }
