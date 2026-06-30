@@ -165561,6 +165561,12 @@
             "author_name": "Timm Baeder",
             "commit_date": "2026-06-30T14:45:01+02:00",
             "subject": "[clang][bytecode] Check pointer types in ::toRValue() (#206712)"
+        },
+        {
+            "hash": "d53a1a192b44fb9c9e801645f2c3af3d7a2d8445",
+            "author_name": "Ryotaro Kasuga",
+            "commit_date": "2026-06-30T12:59:57+00:00",
+            "subject": "[LoopInterchange] Add test with dependency `[* =]` and `[= *]` (NFC) (#193479)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -172215,6 +172221,26 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-06-30T11:54:52+02:00",
             "subject": "Add test for miscompile"
+        }
+    ],
+    "fhahn\/perf\/scev-nw-on-construction": [
+        {
+            "hash": "fc20c57067f1aa35968d0a4c7542e2d732e6e159",
+            "author_name": "Sven van Haastregt",
+            "commit_date": "2026-06-30T09:13:51+02:00",
+            "subject": "[CodeGen] Avoid ambiguous Register comparison in C++20; NFC (#205814)"
+        },
+        {
+            "hash": "595aac1260cdf3dacadab517ca1d2dd3327c594b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-30T13:55:13+01:00",
+            "subject": "Nowrap tests"
+        },
+        {
+            "hash": "b73628da04c469c228a1228cd0e72357c20c04a2",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-06-30T13:55:32+01:00",
+            "subject": "[SCEV] Try to infer AddRec NW flags on construction"
         }
     ]
 }
