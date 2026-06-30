@@ -1,0 +1,225 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage2.sh" failed
+
+STDOUT:
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x0000561d9da082c9 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 121
+1  clang++   0x0000561d9da05ec4 llvm::sys::CleanupOnSignal(unsigned long) + 164
+2  clang++   0x0000561d9d948378
+3  libc.so.6 0x00007fddadab0520
+4  clang++   0x0000561da0d846c9
+5  clang++   0x0000561da0d85ae1
+6  clang++   0x0000561da0d86065 clang::interp::Pointer::toRValue(clang::interp::Context const&, clang::QualType) const + 1397
+7  clang++   0x0000561da0b2f935 bool clang::interp::EvalEmitter::emitRet<(clang::interp::PrimType)13>(clang::interp::SourceInfo) + 405
+8  clang++   0x0000561da0fca24a clang::interp::Compiler<clang::interp::EvalEmitter>::visitExpr(clang::Expr const*, bool) + 378
+9  clang++   0x0000561da0b29691 clang::interp::EvalEmitter::interpretExpr(clang::Expr const*, bool, bool) + 129
+10 clang++   0x0000561da0b1ca28 clang::interp::Context::evaluateAsRValue(clang::interp::State&, clang::Expr const*, clang::APValue&) + 392
+11 clang++   0x0000561da0a613a2
+12 clang++   0x0000561da0a65d6e clang::Expr::EvaluateAsRValue(clang::Expr::EvalResult&, clang::ASTContext const&, bool) const + 1118
+13 clang++   0x0000561da0a65dcd clang::Expr::isEvaluatable(clang::ASTContext const&, clang::Expr::SideEffectsKind) const + 77
+14 clang++   0x0000561d9df817e3 clang::CodeGen::CodeGenFunction::EmitReturnStmt(clang::ReturnStmt const&) + 1139
+15 clang++   0x0000561d9df921cb clang::CodeGen::CodeGenFunction::EmitCompoundStmtWithoutScope(clang::CompoundStmt const&, bool, clang::CodeGen::AggValueSlot) + 91
+16 clang++   0x0000561d9dff297c clang::CodeGen::CodeGenFunction::EmitFunctionBody(clang::Stmt const*) + 172
+17 clang++   0x0000561d9e0084a3 clang::CodeGen::CodeGenFunction::GenerateCode(clang::GlobalDecl, llvm::Function*, clang::CodeGen::CGFunctionInfo const&) + 1043
+18 clang++   0x0000561d9e05943a clang::CodeGen::CodeGenModule::EmitGlobalFunctionDefinition(clang::GlobalDecl, llvm::GlobalValue*) + 2170
+19 clang++   0x0000561d9e05391c clang::CodeGen::CodeGenModule::EmitGlobalDefinition(clang::GlobalDecl, llvm::GlobalValue*) + 492
+20 clang++   0x0000561d9e05f379 clang::CodeGen::CodeGenModule::EmitDeferred() + 361
+21 clang++   0x0000561d9e05f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+22 clang++   0x0000561d9e05f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+23 clang++   0x0000561d9e05f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+24 clang++   0x0000561d9e05f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+25 clang++   0x0000561d9e05f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+26 clang++   0x0000561d9e05f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+27 clang++   0x0000561d9e05f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+28 clang++   0x0000561d9e05f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+29 clang++   0x0000561d9e05f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+30 clang++   0x0000561d9e05f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+31 clang++   0x0000561d9e05f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+32 clang++   0x0000561d9e05f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+33 clang++   0x0000561d9e05f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+34 clang++   0x0000561d9e061574 clang::CodeGen::CodeGenModule::Release() + 116
+35 clang++   0x0000561d9e3b340e
+36 clang++   0x0000561d9e3b1265 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) + 1621
+37 clang++   0x0000561d9f84b9ac clang::ParseAST(clang::Sema&, bool, bool) + 1164
+38 clang++   0x0000561d9e722622 clang::FrontendAction::Execute() + 50
+39 clang++   0x0000561d9e69e28d clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 717
+40 clang++   0x0000561d9e80a198 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+41 clang++   0x0000561d9c29d888 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 4600
+42 clang++   0x0000561d9c29582b
+43 clang++   0x0000561d9c2958df
+44 clang++   0x0000561d9e42befd
+45 clang++   0x0000561d9d948717 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+46 clang++   0x0000561d9e42d1cc
+47 clang++   0x0000561d9e3e7a77 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+48 clang++   0x0000561d9e3e8ad2 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 146
+49 clang++   0x0000561d9e3fcb6c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+50 clang++   0x0000561d9c29a626 clang_main(int, char**, llvm::ToolContext const&) + 7798
+51 clang++   0x0000561d9c1eaac1 main + 113
+52 libc.so.6 0x00007fddada97d90
+53 libc.so.6 0x00007fddada97e40 __libc_start_main + 128
+54 clang++   0x0000561d9c2952a5 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING CRASH REPRODUCER FILES TO THE BUG REPORT:
+clang++: note: diagnostic msg: /tmp/Path-45af7c.cpp
+clang++: note: diagnostic msg: /tmp/Path-45af7c.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[186/3062] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/YAMLParser.cpp.o
+[187/3062] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/StringMatcher.cpp.o
+[188/3062] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Signals.cpp.o
+[189/3062] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/Error.cpp.o
+[190/3062] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/TGTimer.cpp.o
+[191/3062] Building CXX object utils/TableGen/CMakeFiles/llvm-min-tblgen.dir/llvm-min-tblgen.cpp.o
+[192/3062] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/SpecialCaseList.cpp.o
+[193/3062] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/VirtualFileSystem.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and dumped files.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage2/lib/Support -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/../third-party/siphash/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/../libc -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wno-pass-failed -Wmisleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -Xclang -fno-pch-timestamp -flto=thin -Werror=global-constructors -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -Wno-c99-extensions -std=c++17 -Winvalid-pch -Xclang -include-pch -Xclang /tmp/llvm-project-build-stage2/lib/Support/CMakeFiles/LLVMSupport.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /tmp/llvm-project-build-stage2/lib/Support/CMakeFiles/LLVMSupport.dir/cmake_pch.hxx -MD -MT lib/Support/CMakeFiles/LLVMSupport.dir/VirtualFileSystem.cpp.o -MF lib/Support/CMakeFiles/LLVMSupport.dir/VirtualFileSystem.cpp.o.d -o lib/Support/CMakeFiles/LLVMSupport.dir/VirtualFileSystem.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/VirtualFileSystem.cpp
+1.	<eof> parser at end of file
+2.	Per-file LLVM IR generation
+3.	/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/shared_ptr_base.h:479:5: Generating code for declaration 'std::_Sp_make_shared_tag::_S_ti'
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x000055d1585d82c9 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 121
+1  clang++   0x000055d1585d5ec4 llvm::sys::CleanupOnSignal(unsigned long) + 164
+2  clang++   0x000055d158518378
+3  libc.so.6 0x00007fbafb36f520
+4  clang++   0x000055d15b9546c9
+5  clang++   0x000055d15b955ae1
+6  clang++   0x000055d15b956065 clang::interp::Pointer::toRValue(clang::interp::Context const&, clang::QualType) const + 1397
+7  clang++   0x000055d15b6ff935 bool clang::interp::EvalEmitter::emitRet<(clang::interp::PrimType)13>(clang::interp::SourceInfo) + 405
+8  clang++   0x000055d15bb9a24a clang::interp::Compiler<clang::interp::EvalEmitter>::visitExpr(clang::Expr const*, bool) + 378
+9  clang++   0x000055d15b6f9691 clang::interp::EvalEmitter::interpretExpr(clang::Expr const*, bool, bool) + 129
+10 clang++   0x000055d15b6eca28 clang::interp::Context::evaluateAsRValue(clang::interp::State&, clang::Expr const*, clang::APValue&) + 392
+11 clang++   0x000055d15b6313a2
+12 clang++   0x000055d15b635d6e clang::Expr::EvaluateAsRValue(clang::Expr::EvalResult&, clang::ASTContext const&, bool) const + 1118
+13 clang++   0x000055d15b635dcd clang::Expr::isEvaluatable(clang::ASTContext const&, clang::Expr::SideEffectsKind) const + 77
+14 clang++   0x000055d158b517e3 clang::CodeGen::CodeGenFunction::EmitReturnStmt(clang::ReturnStmt const&) + 1139
+15 clang++   0x000055d158b621cb clang::CodeGen::CodeGenFunction::EmitCompoundStmtWithoutScope(clang::CompoundStmt const&, bool, clang::CodeGen::AggValueSlot) + 91
+16 clang++   0x000055d158bc297c clang::CodeGen::CodeGenFunction::EmitFunctionBody(clang::Stmt const*) + 172
+17 clang++   0x000055d158bd84a3 clang::CodeGen::CodeGenFunction::GenerateCode(clang::GlobalDecl, llvm::Function*, clang::CodeGen::CGFunctionInfo const&) + 1043
+18 clang++   0x000055d158c2943a clang::CodeGen::CodeGenModule::EmitGlobalFunctionDefinition(clang::GlobalDecl, llvm::GlobalValue*) + 2170
+19 clang++   0x000055d158c2391c clang::CodeGen::CodeGenModule::EmitGlobalDefinition(clang::GlobalDecl, llvm::GlobalValue*) + 492
+20 clang++   0x000055d158c2f379 clang::CodeGen::CodeGenModule::EmitDeferred() + 361
+21 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+22 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+23 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+24 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+25 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+26 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+27 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+28 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+29 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+30 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+31 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+32 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+33 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+34 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+35 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+36 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+37 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+38 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+39 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+40 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+41 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+42 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+43 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+44 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+45 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+46 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+47 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+48 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+49 clang++   0x000055d158c2f391 clang::CodeGen::CodeGenModule::EmitDeferred() + 385
+50 clang++   0x000055d158c31574 clang::CodeGen::CodeGenModule::Release() + 116
+51 clang++   0x000055d158f8340e
+52 clang++   0x000055d158f81265 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) + 1621
+53 clang++   0x000055d15a41b9ac clang::ParseAST(clang::Sema&, bool, bool) + 1164
+54 clang++   0x000055d1592f2622 clang::FrontendAction::Execute() + 50
+55 clang++   0x000055d15926e28d clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 717
+56 clang++   0x000055d1593da198 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+57 clang++   0x000055d156e6d888 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 4600
+58 clang++   0x000055d156e6582b
+59 clang++   0x000055d156e658df
+60 clang++   0x000055d158ffbefd
+61 clang++   0x000055d158518717 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+62 clang++   0x000055d158ffd1cc
+63 clang++   0x000055d158fb7a77 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+64 clang++   0x000055d158fb8ad2 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 146
+65 clang++   0x000055d158fccb6c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+66 clang++   0x000055d156e6a626 clang_main(int, char**, llvm::ToolContext const&) + 7798
+67 clang++   0x000055d156dbaac1 main + 113
+68 libc.so.6 0x00007fbafb356d90
+69 libc.so.6 0x00007fbafb356e40 __libc_start_main + 128
+70 clang++   0x000055d156e652a5 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 23.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING CRASH REPRODUCER FILES TO THE BUG REPORT:
+clang++: note: diagnostic msg: /tmp/VirtualFileSystem-e520a7.cpp
+clang++: note: diagnostic msg: /tmp/VirtualFileSystem-e520a7.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[194/3062] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/TGLexer.cpp.o
+[195/3062] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/DetailedRecordsBackend.cpp.o
+[196/3062] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/JSONBackend.cpp.o
+[197/3062] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/TableGenBackendSkeleton.cpp.o
+[198/3062] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/TableGenBackend.cpp.o
+[199/3062] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/APFloat.cpp.o
+[200/3062] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/Parser.cpp.o
+[201/3062] Linking CXX static library lib/libLLVMSupport.a
+FAILED: lib/libLLVMSupport.a 
+: && /usr/bin/cmake -E rm -f lib/libLLVMSupport.a && /tmp/llvm-project-build-stage1/bin/llvm-ar Dqc lib/libLLVMSupport.a  lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3.c.o lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_dispatch.c.o lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_portable.c.o lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_neon.c.o lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_sse2_x86-64_unix.S.o lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_sse41_x86-64_unix.S.o lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_avx2_x86-64_unix.S.o lib/Support/BLAKE3/CMakeFiles/LLVMSupportBlake3.dir/blake3_avx512_x86-64_unix.S.o lib/Support/CMakeFiles/LLVMSupport.dir/ABIBreak.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/AMDGPUMetadata.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/APFixedPoint.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/APFloat.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/APInt.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/APSInt.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/ARMBuildAttributes.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/AArch64AttributeParser.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/AArch64BuildAttributes.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/ARMAttributeParser.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/ARMWinEH.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/AllocToken.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Allocator.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/AutoConvert.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Base64.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/BalancedPartitioning.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/BinaryStreamError.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/BinaryStreamReader.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/BinaryStreamRef.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/BinaryStreamWriter.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/BlockFrequency.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/BranchProbability.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/BuryPointer.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/CachePruning.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Caching.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/CHERICapabilityFormat.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/circular_raw_ostream.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Chrono.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/COM.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/CodeGenCoverage.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/CommandLine.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Compression.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/CRC.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/ConvertUTF.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/ConvertEBCDIC.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/ConvertUTFWrapper.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/CrashRecoveryContext.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/CSKYAttributes.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/CSKYAttributeParser.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/DataExtractor.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Debug.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/DebugCounter.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/DeltaAlgorithm.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/DeltaTree.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/DivisionByConstantInfo.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/DAGDeltaAlgorithm.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/DJB.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/DXILABI.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/DynamicAPInt.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/ELFAttributes.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/ELFAttrParserCompact.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/ELFAttrParserExtended.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Error.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/ErrorHandling.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/ExponentialBackoff.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/ExtensibleRTTI.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/FileCollector.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/FileUtilities.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/FileOutputBuffer.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/FloatingPointMode.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/FoldingSet.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/FormattedStream.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/FormatVariadic.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/GlobPattern.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/GraphWriter.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/HexagonAttributeParser.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/HexagonAttributes.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/InitLLVM.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/InstructionCost.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/IntEqClasses.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/IntervalMap.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Jobserver.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/JSON.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/KnownBits.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/KnownFPClass.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/LEB128.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/LineIterator.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Locale.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/LockFileManager.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/ManagedStatic.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/MathExtras.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/MemAlloc.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/MemoryBuffer.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/MemoryBufferRef.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/ModRef.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/MD5.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/MSP430Attributes.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/MSP430AttributeParser.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Mustache.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/NativeFormatting.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/OptimizedStructLayout.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Optional.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/OptionStrCmp.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/PGOOptions.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Parallel.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/PluginLoader.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/PrettyStackTrace.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/RandomNumberGenerator.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/IntegerInclusiveInterval.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Regex.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/RewriteBuffer.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/RewriteRope.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/RISCVAttributes.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/RISCVAttributeParser.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/RISCVISAUtils.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/ScaledNumber.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/ScopedPrinter.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/SHA1.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/SHA256.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Signposts.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/SipHash.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/SlowDynamicAPInt.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/SmallPtrSet.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/SmallVector.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/SourceMgr.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/SpecialCaseList.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Statistic.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/StringExtras.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/StringMap.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/StringSaver.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/StringRef.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/SuffixTreeNode.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/SuffixTree.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/SystemUtils.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/TarWriter.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/TextEncoding.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/ThreadPool.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/TimeProfiler.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Timer.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/ToolOutputFile.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/TrieRawHashMap.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Twine.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Unicode.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/UnicodeCaseFold.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/UnicodeNameToCodepoint.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/UnicodeNameToCodepointGenerated.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/VersionTuple.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/VirtualFileSystem.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/VirtualOutputBackend.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/VirtualOutputBackends.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/VirtualOutputConfig.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/VirtualOutputError.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/VirtualOutputFile.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Win64EH.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/WithColor.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/YAMLParser.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/YAMLTraits.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/raw_os_ostream.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/raw_ostream.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/raw_ostream_proxy.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/raw_socket_stream.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/regcomp.c.o lib/Support/CMakeFiles/LLVMSupport.dir/regerror.c.o lib/Support/CMakeFiles/LLVMSupport.dir/regexec.c.o lib/Support/CMakeFiles/LLVMSupport.dir/regfree.c.o lib/Support/CMakeFiles/LLVMSupport.dir/regstrlcpy.c.o lib/Support/CMakeFiles/LLVMSupport.dir/xxhash.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Z3Solver.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Atomic.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/DynamicLibrary.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Errno.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Memory.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Path.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Process.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Program.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/ProgramStack.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/RWMutex.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Signals.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Threading.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Valgrind.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/Watchdog.cpp.o lib/Support/CMakeFiles/LLVMSupport.dir/zOSLibFunctions.cpp.o && /tmp/llvm-project-build-stage1/bin/llvm-ranlib -D lib/libLLVMSupport.a && :
+/tmp/llvm-project-build-stage1/bin/llvm-ar: error: lib/Support/CMakeFiles/LLVMSupport.dir/BalancedPartitioning.cpp.o: No such file or directory
+[202/3062] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/Attributes.cpp.o
+[203/3062] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/Main.cpp.o
+[204/3062] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/SetTheory.cpp.o
+[205/3062] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/ARMTargetDefEmitter.cpp.o
+[206/3062] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/SDNodeProperties.cpp.o
+[207/3062] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/TableGen.cpp.o
+[208/3062] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/TargetFeaturesEmitter.cpp.o
+[209/3062] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/RuntimeLibcalls.cpp.o
+[210/3062] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/RISCVTargetDefEmitter.cpp.o
+[211/3062] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/CodeGenIntrinsics.cpp.o
+[212/3062] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/RuntimeLibcallsEmitter.cpp.o
+[213/3062] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/DirectiveEmitter.cpp.o
+[214/3062] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/TGParser.cpp.o
+[215/3062] Building CXX object utils/TableGen/Basic/CMakeFiles/obj.LLVMTableGenBasic.dir/IntrinsicEmitter.cpp.o
+[216/3062] Building CXX object lib/TableGen/CMakeFiles/LLVMTableGen.dir/Record.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:4 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
