@@ -166227,6 +166227,18 @@
             "author_name": "Lang Hames",
             "commit_date": "2026-07-01T14:13:03+10:00",
             "subject": "[orc-rt] Simplify CallableTraitsHelper specialization inheritance NFC. (#206869)"
+        },
+        {
+            "hash": "62ee075076deae88fd26b413493246c5bc2d80bd",
+            "author_name": "Shanzhi Chen",
+            "commit_date": "2026-07-01T04:18:34+00:00",
+            "subject": "[AArch64][ISel] Fix comment misalignment (NFC) (#206878)"
+        },
+        {
+            "hash": "e7290b1f1815626c4461d38671d93093590bf405",
+            "author_name": "Carlos Alberto Enciso",
+            "commit_date": "2026-07-01T05:20:41+01:00",
+            "subject": "[llvm-debuginfo-analyzer] Add support for LLVM IR format. (#202120)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -172925,10 +172937,16 @@
             "subject": "[LoopUnroll] Skip called function in constant-op reduction filter (#200868)"
         },
         {
-            "hash": "6c9597babdfdc73f17a0e2e17b7c76cd85fad945",
+            "hash": "f911d6c4d678d0762a259950b61b7aacd5985499",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-06-30T10:43:45-07:00",
+            "commit_date": "2026-06-30T19:44:11-07:00",
             "subject": "[GenericDomTreeConstruction] Keep immediate IDom in DFS-number space"
+        },
+        {
+            "hash": "542d826ca3ed2d6c98c62822876b5a83cb2fb3c3",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-06-30T20:22:24-07:00",
+            "subject": "[GenericDomTreeConstruction] Iterate successors lazily in runDFS"
         }
     ]
 }
