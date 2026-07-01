@@ -166905,6 +166905,12 @@
             "author_name": "Keith Smiley",
             "commit_date": "2026-07-01T10:44:04-07:00",
             "subject": "[bazel] Fix remote exec with thin docker images (#205849)"
+        },
+        {
+            "hash": "4a6f7b11e38e5141e80f7664c13eb01a4b1f1c3d",
+            "author_name": "Arthur Eubanks",
+            "commit_date": "2026-07-01T10:50:25-07:00",
+            "subject": "[lld] Make R_AARCH64_PREL32\/16 only signed ints (#205963)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -173641,6 +173647,20 @@
             "author_name": "Alexis Engelke",
             "commit_date": "2026-07-01T10:08:28+00:00",
             "subject": "[TargetParser][ARM][NFC] Make string table reloc-free"
+        }
+    ],
+    "MaskRay\/perf\/domtree-construction-opt": [
+        {
+            "hash": "ffa02793116a850767f34436d01344260ab03e1c",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-06-30T05:22:57+00:00",
+            "subject": "[LoopUnroll] Skip called function in constant-op reduction filter (#200868)"
+        },
+        {
+            "hash": "81a936175604133c56aab304c5fc38a1b6d70aac",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-07-01T10:45:07-07:00",
+            "subject": "[GenericDomTreeConstruction] Speed up Semi-NCA construction"
         }
     ]
 }
