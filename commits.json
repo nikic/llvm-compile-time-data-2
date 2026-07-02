@@ -167367,6 +167367,24 @@
             "author_name": "LeeYoungJoon",
             "commit_date": "2026-07-02T16:21:55+09:00",
             "subject": "[clang][serialization] Fix crash on imported pack indexing type (#205965)"
+        },
+        {
+            "hash": "e7924d50db0ae1c584c975fc4f274960d93c92d2",
+            "author_name": "Hans Wennborg",
+            "commit_date": "2026-07-02T09:35:57+02:00",
+            "subject": "[clang] Handle constructor closures with consteval default args (#203554)"
+        },
+        {
+            "hash": "a5114abd0c022729fdc659dd0dfe14542b25aa85",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-07-02T09:37:09+02:00",
+            "subject": "Revert \"[libc++] Move threading and random device config into <__configuration\/platform.h>\" (#207134)"
+        },
+        {
+            "hash": "9b631e7f24484d1549b24c89b1a59698a201949b",
+            "author_name": "David Truby",
+            "commit_date": "2026-07-02T08:41:38+01:00",
+            "subject": "[Windows][Arm64EC] Enable thunk generation for bfloat16 (#206710)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -174131,6 +174149,20 @@
             "author_name": "Alexis Engelke",
             "commit_date": "2026-07-02T06:20:55+00:00",
             "subject": "[CodeGen][NFC] Move getRawAllocOrder to TargetRegInfo"
+        }
+    ],
+    "nikic\/perf\/indvars-invalidate": [
+        {
+            "hash": "4cb3cef5a4e5ea1b3d9bb4f3cd8ae3951ac0f0d4",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-07-02T07:33:20+02:00",
+            "subject": "[clang][docs] Add \\code comments around code in doc comments (#207116)"
+        },
+        {
+            "hash": "1dcb2fa7c325bd9edeb5be30ff95fdee062fe4ff",
+            "author_name": "Hassnaa Hamdi",
+            "commit_date": "2026-07-02T09:41:43+02:00",
+            "subject": "pre-commit test case"
         }
     ]
 }
