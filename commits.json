@@ -167313,6 +167313,30 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-07-02T04:54:22+00:00",
             "subject": "[PHIElimination] Preserve SlotIndexes even without LiveIntervals"
+        },
+        {
+            "hash": "672dfe90adb57d5b173d17b9f6a8b9f4c36cbb93",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-07-01T22:22:49-07:00",
+            "subject": "[RISCV] Add HasStdExtH to hfence.gvma and hfence.vvma aliases (#207061)"
+        },
+        {
+            "hash": "4425cf1737520c6a6f071eb01ce5791c9e62303f",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-07-01T22:23:49-07:00",
+            "subject": "[RISCV] Rework vmsge(u).vx pseudos to work better with near-miss assembler support (#207097)"
+        },
+        {
+            "hash": "e8950f2a0fb22843dce304f20aff8940f4a6672c",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-07-01T22:24:38-07:00",
+            "subject": "[RISCV] Constant fold bitcast of constant 0 in combineVectorSizedSetCCEquality. (#207112)"
+        },
+        {
+            "hash": "f083dad787e4e8b339ce0e2dad418ec0ce28d8d9",
+            "author_name": "Rahul Joshi",
+            "commit_date": "2026-07-01T22:25:46-07:00",
+            "subject": "[NFC][LLVM] Remove `XFAIL: vg_leaks` from TableGen lit tests (#207016)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
