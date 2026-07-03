@@ -168195,6 +168195,24 @@
             "author_name": "Corentin Jabot",
             "commit_date": "2026-07-03T08:07:54+00:00",
             "subject": "Fix MSVC build after #206326 (again) (#207335)"
+        },
+        {
+            "hash": "73e1c53474a46a9686d7111c8566be2d90263aa4",
+            "author_name": "Simon Tatham",
+            "commit_date": "2026-07-03T09:16:27+01:00",
+            "subject": "[libc][ARM] Defend banked SP setup against register allocator (#206757)"
+        },
+        {
+            "hash": "17e7497629ccb47a1f23aa5e0ba228d6d0e2a0a0",
+            "author_name": "Stephen Tozer",
+            "commit_date": "2026-07-03T09:19:30+01:00",
+            "subject": "[Dexter] Switch to using script-mode by default (#204369)"
+        },
+        {
+            "hash": "67d7dfcfbc91862a85084e7848ebd62b929e8f78",
+            "author_name": "Simon Tatham",
+            "commit_date": "2026-07-03T09:20:33+01:00",
+            "subject": "[AArch64] Fix reversed values in big-endian 128-bit atomics (#205760)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -175007,6 +175025,12 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-07-03T09:56:11+02:00",
             "subject": "[Clang] Mark new as inaccessiblememonly if sane (#197199)"
+        },
+        {
+            "hash": "695813e7d7490d994f12f4375438c6b65c4bd856",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-07-03T10:27:40+02:00",
+            "subject": "inaccessiblememonly"
         }
     ]
 }
