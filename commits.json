@@ -168171,6 +168171,24 @@
             "author_name": "Stephen Tozer",
             "commit_date": "2026-07-03T08:51:22+01:00",
             "subject": "[CrossProjectTests] Fixup expect in ctor.cpp to accept multiple steps (#207337)"
+        },
+        {
+            "hash": "448e7fec76bdedb50c2e8e17f68440b505da369c",
+            "author_name": "G\u00e1bor Horv\u00e1th",
+            "commit_date": "2026-07-03T08:58:44+01:00",
+            "subject": "[LifetimeSafety] Track unary plus on a pointer (#207243)"
+        },
+        {
+            "hash": "b0c9d8ad10786d4861039b6806ceadda313229dd",
+            "author_name": "Ga\u00ebtan Bossu",
+            "commit_date": "2026-07-03T08:58:46+01:00",
+            "subject": "[AArch64][InstCombine] Tidy [su]adalp combine (NFC) (#207219)"
+        },
+        {
+            "hash": "0341dd51303fc13cafdd21a33e2985cbf603c66b",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-07-03T07:59:08+00:00",
+            "subject": "[IR] Explicitly specify target feature for module asm (#204548)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -174969,6 +174987,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-07-02T15:05:19+02:00",
             "subject": "extend -> direct"
+        }
+    ],
+    "nikic\/perf\/new-inaccessiblememonly": [
+        {
+            "hash": "51e0c893151d1ded3b6e5b9c6bb378799a281ef2",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-07-03T08:18:06+02:00",
+            "subject": "[Sparc] Create MMO for STORE_BIG\/LITTLE with MOStore (#206929)"
+        },
+        {
+            "hash": "230669bc8ff081afd0a1a1285af1f09f1943b291",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-07-03T09:56:11+02:00",
+            "subject": "[Clang] Mark new as inaccessiblememonly if sane (#197199)"
         }
     ]
 }
