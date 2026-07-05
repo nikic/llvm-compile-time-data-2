@@ -168957,6 +168957,12 @@
             "author_name": "Zhige Chen",
             "commit_date": "2026-07-05T17:44:56+08:00",
             "subject": "[llubi] Implement experimental vector intrinsics (#206899)"
+        },
+        {
+            "hash": "f26f3e659f4a4292f8cf311f351bcc231dc59c71",
+            "author_name": "AbdallahRashed",
+            "commit_date": "2026-07-05T10:58:46+01:00",
+            "subject": "[clang][CIR] Add lowering for Neon rounding builtins (#195021)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -175833,22 +175839,34 @@
     ],
     "fhahn\/perf\/ce-rotated": [
         {
-            "hash": "64f834271e07350a921f6abe925e5a11cd7da562",
-            "author_name": "disservin",
-            "commit_date": "2026-07-04T17:34:23+02:00",
-            "subject": "[clang] Remove always false comparisons (#207504)"
+            "hash": "7f449d38cd9d203af2be106210f3ef9c30597ebe",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-07-04T18:21:30-04:00",
+            "subject": "[SLP][NFC]Remove undef from the test, cleanup, NFC"
         },
         {
-            "hash": "59f4140982b95aeeecc69046e91afd2b2fa40e42",
+            "hash": "fee914a31a2aa0a2942fe424699f9bc3afe53845",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-04T17:20:26+01:00",
+            "commit_date": "2026-07-05T07:20:35+01:00",
             "subject": "[ConstraintElim] Add more tests."
         },
         {
-            "hash": "00270ca4e4240c857060f03b2d558cb5f650e2fa",
+            "hash": "8f8f4dceae266b90c96a1e42a765d14effab0d70",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-04T17:23:56+01:00",
+            "commit_date": "2026-07-05T09:05:58+01:00",
             "subject": "[ConstrainElim] Use conditions from rotated loops."
+        },
+        {
+            "hash": "17bb85265f5ee73fbb4a426e0cc51f076c0730a0",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-05T09:05:58+01:00",
+            "subject": "[SCEV] Infer no-wrap flags for shl by a constant."
+        },
+        {
+            "hash": "3ad0bcdaacff7c51576a43acaca19d531f25a655",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-05T09:05:58+01:00",
+            "subject": "[ConstraintSystem] Skip overflowing row combinations in FM elimination."
         }
     ],
     "MaskRay\/perf\/domtree-0based": [
