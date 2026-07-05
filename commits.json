@@ -175904,5 +175904,19 @@
             "commit_date": "2026-07-04T18:01:13-07:00",
             "subject": "[ModuleSummaryAnalysis] Avoid redundant DominatorTree construction"
         }
+    ],
+    "MaskRay\/perf\/domtree-node-shrink0": [
+        {
+            "hash": "7f449d38cd9d203af2be106210f3ef9c30597ebe",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-07-04T18:21:30-04:00",
+            "subject": "[SLP][NFC]Remove undef from the test, cleanup, NFC"
+        },
+        {
+            "hash": "7cbb64156b8bdc0e05cca8b411608b931c1ab6c2",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-07-04T20:16:05-07:00",
+            "subject": "[GenericDomTree] Shrink DomTreeNodeBase from 56 to 48 bytes"
+        }
     ]
 }
