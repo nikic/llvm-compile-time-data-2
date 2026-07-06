@@ -169329,6 +169329,12 @@
             "author_name": "Simon Pilgrim",
             "commit_date": "2026-07-06T10:07:42+01:00",
             "subject": "[X86] Attempt to narrow XMM->i64 (v)movq -> (v)movd if the upper 32-bits are known to be zero (#207615)"
+        },
+        {
+            "hash": "b81a4c10c8736e5c2bfec4cc091713e4cb7b5b3a",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-06T11:14:45+02:00",
+            "subject": "[AMDGPU] Fix s.barrier.init\/signal.var member count mask (#207660)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -176217,21 +176223,21 @@
             "subject": "[ConstraintElim] Add more tests."
         },
         {
-            "hash": "8f8f4dceae266b90c96a1e42a765d14effab0d70",
+            "hash": "a2b68427b1693401f0553c2742bd96c165b9200c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-05T09:05:58+01:00",
+            "commit_date": "2026-07-06T10:17:46+01:00",
             "subject": "[ConstrainElim] Use conditions from rotated loops."
         },
         {
-            "hash": "17bb85265f5ee73fbb4a426e0cc51f076c0730a0",
+            "hash": "8019fc82a0f00996ecb70e3e420762409a8d1cdb",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-05T09:05:58+01:00",
+            "commit_date": "2026-07-06T10:17:54+01:00",
             "subject": "[SCEV] Infer no-wrap flags for shl by a constant."
         },
         {
-            "hash": "3ad0bcdaacff7c51576a43acaca19d531f25a655",
+            "hash": "9e4cd570b042d63dc48c8efcbd20ca90d1ef5caf",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-05T09:05:58+01:00",
+            "commit_date": "2026-07-06T10:17:54+01:00",
             "subject": "[ConstraintSystem] Skip overflowing row combinations in FM elimination."
         }
     ],
