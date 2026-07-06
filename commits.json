@@ -169557,6 +169557,24 @@
             "author_name": "Arseniy Obolenskiy",
             "commit_date": "2026-07-06T15:08:02+02:00",
             "subject": "[AMDGPU] Do not copy the range attribute onto a widened kernarg load (#207655)"
+        },
+        {
+            "hash": "bed625b42eeeb854c297508e46d822b96693c671",
+            "author_name": "Stephen Tozer",
+            "commit_date": "2026-07-06T14:11:59+01:00",
+            "subject": "[InstCombine] Propagate debuglocs when replacing insert->extract elts (#206026)"
+        },
+        {
+            "hash": "6eb0dac37aa409390bd96a91a99f216c35a0b8cb",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-07-06T06:14:25-07:00",
+            "subject": "[flang][cuda] Only strip internal linkage for device globals (#207521)"
+        },
+        {
+            "hash": "c827c9011f81ef8b74143dd0ef40db5950aaec81",
+            "author_name": "Hagai Lev Hacohen",
+            "commit_date": "2026-07-06T13:15:17+00:00",
+            "subject": "Improving MinUI and MaxUI implementation in valuebounds (#207701)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -176673,6 +176691,20 @@
             "author_name": "Abhinav Pradeep",
             "commit_date": "2026-07-06T18:00:52+10:00",
             "subject": "Feature: escape-through-function-call"
+        }
+    ],
+    "antoniofrighetto\/perf\/scev-prove-umin-ult": [
+        {
+            "hash": "9d59248664dd8356fe0614950b567a4a1e6429a9",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-06T15:08:02+02:00",
+            "subject": "[AMDGPU] Do not copy the range attribute onto a widened kernarg load (#207655)"
+        },
+        {
+            "hash": "8023ea74a09d4c2cb32a7f35df766fc54d7cfd33",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-06T15:13:17+02:00",
+            "subject": "[SCEV] Prove umin(Ops) u< RHS by checking individual operands"
         }
     ]
 }
