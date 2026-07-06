@@ -79771,21 +79771,21 @@
     ],
     "tbaederr\/perf\/ce-test2": [
         {
-            "hash": "7a3767e361cc0d6acc8e1568727a54d9b0d0b525",
-            "author_name": "Timm Baeder",
-            "commit_date": "2026-07-04T19:56:52+02:00",
-            "subject": "[clang][bytecode] Only pass OpPC if needed (#207479)"
+            "hash": "f7d75024bf194e660aa56714e7f0fdb56b92de69",
+            "author_name": "Phoebe Wang",
+            "commit_date": "2026-07-06T10:43:18+08:00",
+            "subject": "[SPARC] Make SPARC_REGISTER Sparc specific in llvm-readobj and LLDB (#206316)"
         },
         {
-            "hash": "b984ee321d80aa9fd55d13ba712a238f1bdb6296",
+            "hash": "4920424fca4c5fcffd4d967c58399510074b8f63",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-07-05T06:19:35+02:00",
+            "commit_date": "2026-07-06T04:55:10+02:00",
             "subject": "Test"
         },
         {
-            "hash": "e7880a69c38eb4807a70e9895fd471e7abd0dfe1",
+            "hash": "47d1d22adcf2883a120e1660055efc50d003d368",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-07-05T21:52:35+02:00",
+            "commit_date": "2026-07-06T05:18:47+02:00",
             "subject": "compound ops"
         }
     ],
@@ -176237,6 +176237,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-07-05T12:52:39-07:00",
             "subject": "[LoopInfo] Derive Loop::contains(BlockT*) from the block-to-loop map"
+        }
+    ],
+    "MaskRay\/perf\/loopinfo-reverse-preorder": [
+        {
+            "hash": "deecf8dce7dd6df5ce82bf273f7bfb75a783160a",
+            "author_name": "Sameer Sahasrabuddhe",
+            "commit_date": "2026-07-06T07:09:17+05:30",
+            "subject": "[docs][AMDGPU] move DMA operations to a separate file (#206917)"
+        },
+        {
+            "hash": "059d16e2f9294fcb749f767d2557f38110ee9dc8",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-07-05T20:08:26-07:00",
+            "subject": "[LoopInfo] Reuse DomTree's own DFS numbering in analyze(). NFC"
         }
     ]
 }
