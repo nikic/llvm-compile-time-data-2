@@ -169869,6 +169869,12 @@
             "author_name": "\u00d6mer Sinan A\u011facan",
             "commit_date": "2026-07-06T19:39:43+02:00",
             "subject": "[GlobalISel][AArch64] Legalize PHIs with vectors smaller than 64-bits (#207356)"
+        },
+        {
+            "hash": "82d27f67b6aad3bf72e9db610ab5b6984cb02b76",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-07-06T17:48:00+00:00",
+            "subject": "Revert \"[ORC] Track __emutls_t definitions in IRMaterializationUnit\" (#207775)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -177033,6 +177039,38 @@
             "author_name": "CarolineConcatto",
             "commit_date": "2026-07-06T17:10:43+02:00",
             "subject": "[BitcodeReader] Move cached target triple into reader"
+        }
+    ],
+    "fhahn\/perf\/scev-min-max": [
+        {
+            "hash": "39505025e42479ebfde4600df00a80f2fe3625f7",
+            "author_name": "Joseph Huber",
+            "commit_date": "2026-07-06T10:23:13-05:00",
+            "subject": "[ClangLinkerWrapper] Use discrete steps in verbose mode (#204186)"
+        },
+        {
+            "hash": "e9046cf04cf8551f70f4163ac3063efeda30c32e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-06T16:25:57+01:00",
+            "subject": "Add tests"
+        },
+        {
+            "hash": "b4544a174dc082dd83d7b3530d2ddd45d02ec15d",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-06T16:57:12+01:00",
+            "subject": "[SCEV] Prove umin(Ops) u< RHS by checking individual operands"
+        },
+        {
+            "hash": "a08ac1e805ef93365b50241e71570fa2c248f37e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-06T18:27:56+01:00",
+            "subject": "Use isKnownPredicate"
+        },
+        {
+            "hash": "d5b58d1944d9bf79073b573b76b61369dff322ee",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-06T18:28:05+01:00",
+            "subject": "step\\"
         }
     ]
 }
