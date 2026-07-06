@@ -169347,6 +169347,18 @@
             "author_name": "Arseniy Obolenskiy",
             "commit_date": "2026-07-06T11:40:44+02:00",
             "subject": "[mlir][SPIR-V] Add SPIRVToLLVM conversions for GL.FMix and CL.mix (#206935)"
+        },
+        {
+            "hash": "65bbeff0bdcfa53e72517ed59ab510ab6ebd32bf",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-06T11:46:21+02:00",
+            "subject": "[mlir][SPIR-V] Add SPIRVToLLVM conversion for GL.FClamp\/SClamp\/UClamp (#203831)"
+        },
+        {
+            "hash": "8470dfb1e6190cc42c3eb151884533b8b4aba7e6",
+            "author_name": "Yao Qi",
+            "commit_date": "2026-07-06T10:50:24+01:00",
+            "subject": "[lldb] Guard DW_OP_convert against null DWARF unit and empty stack (#207008)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -176443,6 +176455,26 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-07-05T21:26:55-07:00",
             "subject": "[LoopInfo] Reuse DomTree's own DFS numbering in analyze()"
+        }
+    ],
+    "AbhinavPradeep\/perf\/escape-through-function-call": [
+        {
+            "hash": "e6bd7887070e92bba3615de04d3fdefde4beb2de",
+            "author_name": "Feng Zou",
+            "commit_date": "2026-06-07T16:14:56+08:00",
+            "subject": "[DAG] Narrow vselect mask to vXi1 in foldToMaskedStore (#201609)"
+        },
+        {
+            "hash": "bf8f872d2cc247ccf57f33f67597ac53144eec34",
+            "author_name": "Abhinav Pradeep",
+            "commit_date": "2026-07-06T17:50:40+10:00",
+            "subject": "Enabled lifetime safety by default."
+        },
+        {
+            "hash": "13d41c11a62416ccac5851d70423e72eb712d75c",
+            "author_name": "Abhinav Pradeep",
+            "commit_date": "2026-07-06T18:00:52+10:00",
+            "subject": "Feature: escape-through-function-call"
         }
     ]
 }
