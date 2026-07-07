@@ -170847,6 +170847,30 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-07-07T11:19:45-04:00",
             "subject": "Revert \"[SLP][NFC]Add tests with mul to shl transformations, NFC\""
+        },
+        {
+            "hash": "e390e6b7a64353c72dbe1ff3f4bd3382412daca5",
+            "author_name": "sohail",
+            "commit_date": "2026-07-07T11:21:36-04:00",
+            "subject": "[libc][stdfix] Fix idiv* doc table, rename idivfx test helpers and remove duplicate bitsuk source (#206729)"
+        },
+        {
+            "hash": "c1822d6104d7b2cb2093a5273d6ceccd9ebb2fb1",
+            "author_name": "Yanzuo Liu",
+            "commit_date": "2026-07-07T15:23:36+00:00",
+            "subject": "[clang][Sema][NFC] Improve readability in `computeDeclContext` (#208010)"
+        },
+        {
+            "hash": "93ff6992c68766a1def33a8a074f9bce544fc102",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-07-07T11:25:41-04:00",
+            "subject": "[SLP][NFC]Add tests with mul to shl transformations, NFC"
+        },
+        {
+            "hash": "cde011852d0b7d08c820f7d623655e5f354a50c8",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-07-07T11:27:15-04:00",
+            "subject": "[SLP] Drop nsw when mul by INT_MIN is converted to shl"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -178085,6 +178109,20 @@
             "author_name": "Alexis Engelke",
             "commit_date": "2026-07-07T13:55:39+00:00",
             "subject": "[IR][NFC] Drop vtable from PassConcept\/PassModel"
+        }
+    ],
+    "dzbarsky\/perf\/langoptions-mismatch-diagnostics-review": [
+        {
+            "hash": "fe5c70101ec5ffe4db4b4ee657b341514da9008e",
+            "author_name": "Feng Zou",
+            "commit_date": "2026-06-10T11:28:22+08:00",
+            "subject": "[X86][APX] Enable PreferLegacySetCC tuning for Novalake and Diamondrapids (#202480)"
+        },
+        {
+            "hash": "85ffcd83da47e9b234f0c55a0b01a2aff2acca0d",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-06-09T23:50:19-04:00",
+            "subject": "[clang][Serialization] Outline LangOptions mismatch diagnostics"
         }
     ]
 }
