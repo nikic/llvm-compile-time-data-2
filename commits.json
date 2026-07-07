@@ -178374,5 +178374,25 @@
             "commit_date": "2026-07-07T16:31:21+01:00",
             "subject": "[MCP][NFC] Refactor eliminateSpillageCopies"
         }
+    ],
+    "aleks-tmb\/perf\/se-fold-zext-add": [
+        {
+            "hash": "0ca111acd40fe60c424261ef3004987f66959838",
+            "author_name": "Valery Dmitriev",
+            "commit_date": "2026-07-01T09:32:59-07:00",
+            "subject": "Revert \"[MCP] Add test case to demonstrate issue with spill copy elimination (NFC)\" (#207025)"
+        },
+        {
+            "hash": "f8c0c37193732ca04fa4e05b27f38e163e562d54",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-07T14:19:42+00:00",
+            "subject": "Precommit single_early_exit_zext_trip_count.ll test"
+        },
+        {
+            "hash": "36b9bbcd11d6fe4c75770f5004de04b2f2852c23",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-07T14:19:42+00:00",
+            "subject": "[SCEV] Fold zext(C + X)<nsw> to sext(C) + zext(X) when X >=u |C|"
+        }
     ]
 }
