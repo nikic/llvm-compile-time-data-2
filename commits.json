@@ -170607,6 +170607,24 @@
             "author_name": "Juan Manuel Martinez Caama\u00f1o",
             "commit_date": "2026-07-07T13:23:50+02:00",
             "subject": "[NFC][SPIRV] Make `getVacantFunctionName` static (#207954)"
+        },
+        {
+            "hash": "12c36c7abb1600638d976258c1c0d3517df59226",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-07-07T11:26:10+00:00",
+            "subject": "[libc] Implement if_nametoindex and if_indextoname (#206082)"
+        },
+        {
+            "hash": "149e219bf87f31f0a209037e52b0412d0e8cb5a8",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-07-07T13:27:26+02:00",
+            "subject": "[clang][bytecode] Add more checks for pseudo dtors (#207959)"
+        },
+        {
+            "hash": "5506a59c7ff2a3a066d1ec6c3fb0ce69754923d4",
+            "author_name": "fengfeng",
+            "commit_date": "2026-07-07T13:28:40+02:00",
+            "subject": "[SLSR] Fix slsr gep stride delta miscompile (#204278)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -177817,6 +177835,20 @@
             "author_name": "Aleksandr Popov",
             "commit_date": "2026-07-07T08:58:17+02:00",
             "subject": "Prove umin(Ops) u< RHS by checking individual operands"
+        }
+    ],
+    "aengelke\/perf\/loop-asymptotic-fix": [
+        {
+            "hash": "cb19f2b288a94e62c93f3e862cb697c14a7326fb",
+            "author_name": "Ian Anderson",
+            "commit_date": "2026-07-06T22:30:15-07:00",
+            "subject": "[clang][test][darwin] Driver\/clang-offload-bundler-zstd.c fails on macOS (#207876)"
+        },
+        {
+            "hash": "29b37adda8475130eaf0730dbc5f8ec20f61db68",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-07T11:33:23+00:00",
+            "subject": "fix licm"
         }
     ]
 }
