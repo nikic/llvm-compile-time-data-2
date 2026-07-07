@@ -170703,6 +170703,24 @@
             "author_name": "Miko\u0142aj Pir\u00f3g",
             "commit_date": "2026-07-07T15:03:15+02:00",
             "subject": "[X86] Sync compiler-rt cpu subtypes and vendors with libgcc and refactor internal cpu type tables in LLVM (#171172)"
+        },
+        {
+            "hash": "5343b204252d7bf5bdfcacd664e78e9f7f9fd745",
+            "author_name": "Martin Storsj\u00f6",
+            "commit_date": "2026-07-07T16:16:36+03:00",
+            "subject": "[libcxxabi] Don't enable -fvisibility=hidden on Windows (#207943)"
+        },
+        {
+            "hash": "849d90b64e2a91892d45d2fa75f405fa075d3c3d",
+            "author_name": "Aaron Ballman",
+            "commit_date": "2026-07-07T13:22:14+00:00",
+            "subject": "[C23] Allow deducing restrict and _Atomic qualifiers (#207994)"
+        },
+        {
+            "hash": "980f51a9b264a836b1a145366f17cd1b6d843f7c",
+            "author_name": "Tomohiro Kashiwada",
+            "commit_date": "2026-07-07T16:24:24+03:00",
+            "subject": "[Hexagon] Don't use reserved identifiers (#207967)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -177871,33 +177889,27 @@
     ],
     "fhahn\/perf\/scev-min-max": [
         {
-            "hash": "39505025e42479ebfde4600df00a80f2fe3625f7",
-            "author_name": "Joseph Huber",
-            "commit_date": "2026-07-06T10:23:13-05:00",
-            "subject": "[ClangLinkerWrapper] Use discrete steps in verbose mode (#204186)"
+            "hash": "5343b204252d7bf5bdfcacd664e78e9f7f9fd745",
+            "author_name": "Martin Storsj\u00f6",
+            "commit_date": "2026-07-07T16:16:36+03:00",
+            "subject": "[libcxxabi] Don't enable -fvisibility=hidden on Windows (#207943)"
         },
         {
-            "hash": "e9046cf04cf8551f70f4163ac3063efeda30c32e",
+            "hash": "29bab9791c40209a370f5c08d30dfe8e6db5a446",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-06T16:25:57+01:00",
+            "commit_date": "2026-07-07T14:17:43+01:00",
             "subject": "Add tests"
         },
         {
-            "hash": "b4544a174dc082dd83d7b3530d2ddd45d02ec15d",
+            "hash": "2247ed0a1ae4225476782cee15f39f69a14b635a",
             "author_name": "Aleksandr Popov",
-            "commit_date": "2026-07-06T16:57:12+01:00",
+            "commit_date": "2026-07-07T14:18:39+01:00",
             "subject": "[SCEV] Prove umin(Ops) u< RHS by checking individual operands"
         },
         {
-            "hash": "a08ac1e805ef93365b50241e71570fa2c248f37e",
+            "hash": "ceaeea25b4b90acfbdef3b725f874b033d3d3a4f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-06T18:27:56+01:00",
-            "subject": "Use isKnownPredicate"
-        },
-        {
-            "hash": "d5b58d1944d9bf79073b573b76b61369dff322ee",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-06T18:28:05+01:00",
+            "commit_date": "2026-07-07T14:18:52+01:00",
             "subject": "step\\"
         }
     ],
