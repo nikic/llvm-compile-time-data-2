@@ -170739,6 +170739,18 @@
             "author_name": "Mariusz Sikora",
             "commit_date": "2026-07-07T15:47:20+02:00",
             "subject": "[NFC][AMDGPU] Fix orphaned SDAG\/GISEL check prefixes in tests (#207964)"
+        },
+        {
+            "hash": "5db2a39854f32632fb406b1b25a4b0df4842630e",
+            "author_name": "unexpectedlydefined",
+            "commit_date": "2026-07-07T14:57:35+01:00",
+            "subject": "Reapply: [llvm-dwarfdump][LineCov 3\/3] Add IR analysis for variable coverage (#207974)"
+        },
+        {
+            "hash": "17c9f2ea943cb65e1afd02d60c67f7928c9b36c2",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-07-07T10:01:20-04:00",
+            "subject": "[SLP][NFC]Add a new test for fadd\/fsub combination, NFC"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -177957,6 +177969,26 @@
             "author_name": "Alexis Engelke",
             "commit_date": "2026-07-07T11:33:23+00:00",
             "subject": "fix licm"
+        }
+    ],
+    "aengelke\/perf\/pass-no-vtables": [
+        {
+            "hash": "cb19f2b288a94e62c93f3e862cb697c14a7326fb",
+            "author_name": "Ian Anderson",
+            "commit_date": "2026-07-06T22:30:15-07:00",
+            "subject": "[clang][test][darwin] Driver\/clang-offload-bundler-zstd.c fails on macOS (#207876)"
+        },
+        {
+            "hash": "3f482e1e96d67c83735811be48534f0b2082a668",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-07T13:40:04+00:00",
+            "subject": "[IR][NFC] Make PassConcept immovable"
+        },
+        {
+            "hash": "41e55aa7bcd1aafed3415690719a9622f8d74c85",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-07T13:55:39+00:00",
+            "subject": "[IR][NFC] Drop vtable from PassConcept\/PassModel"
         }
     ]
 }
