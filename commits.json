@@ -170799,6 +170799,24 @@
             "author_name": "Arseniy Obolenskiy",
             "commit_date": "2026-07-07T16:36:24+02:00",
             "subject": "[SPIR-V] Fix crash on direct aggregate return of an intrinsic call result (#206491)"
+        },
+        {
+            "hash": "012523d96b30a9a6d7148825fe307919a9c4753c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-07T14:43:42+00:00",
+            "subject": "[VPlan] Support VPInstruction for intrinsic calls in live-in folding. (#207836)"
+        },
+        {
+            "hash": "3a6d3f77960b4dded18d15e28eaa3f953be18faa",
+            "author_name": "Tom Eccles",
+            "commit_date": "2026-07-07T15:46:58+01:00",
+            "subject": "[mlir][LLVM] Add arithmetic fence intrinsic op (#207975)"
+        },
+        {
+            "hash": "43ccdbc84774da0ae4cb5131f2245a9633d977b9",
+            "author_name": "Scott Manley",
+            "commit_date": "2026-07-07T09:50:25-05:00",
+            "subject": "[FIRToSCF] propagate acc.par_dims during fir.do_loop conversion (#207973)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -177621,27 +177639,27 @@
     ],
     "fhahn\/perf\/cvp-at-use-nsw-nuw": [
         {
-            "hash": "580fac02f4ca7be5a04062c19044d261152c42fd",
-            "author_name": "Alexey Bataev",
-            "commit_date": "2026-07-04T12:05:35-04:00",
-            "subject": "[SLP][NFC]Remove undefs, NFC"
+            "hash": "884d9277e89834a9a76a8891de6624c791e5ee08",
+            "author_name": "Hans Wennborg",
+            "commit_date": "2026-07-07T14:52:33+02:00",
+            "subject": "[docs][pdb] Fix description of FileMagic (#207972)"
         },
         {
-            "hash": "798f16167ebdb592e210171ec363b2c6d51ee845",
+            "hash": "70a3ad7ebaab64179b02a89dceecbc4c368c3bbc",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-04T17:45:30+01:00",
+            "commit_date": "2026-07-07T15:30:01+01:00",
             "subject": "[CVP] Extract computeNoWrapFlags helper from processBinOp (NFC)."
         },
         {
-            "hash": "030390224a2b80c4f3cfe233c280a8380b3120d6",
+            "hash": "4111580a8e6a0d8d58e57040dc0ec5b7c749ec11",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-04T17:49:02+01:00",
+            "commit_date": "2026-07-07T15:40:50+01:00",
             "subject": "[CVP] Add tests."
         },
         {
-            "hash": "cc5b2f62728d6d4629f56841ab0a7a2bd6fec56a",
+            "hash": "a7e9d4104abce902e0ef1f03c8f4b60800ef938e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-04T17:49:02+01:00",
+            "commit_date": "2026-07-07T15:40:50+01:00",
             "subject": "[CVP] Infer no-wrap flags from operand ranges at use sites."
         }
     ],
