@@ -170871,6 +170871,24 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-07-07T11:27:15-04:00",
             "subject": "[SLP] Drop nsw when mul by INT_MIN is converted to shl"
+        },
+        {
+            "hash": "94a8d4cbf13810e9f4fee03488312dee8869c074",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-07T17:31:12+02:00",
+            "subject": "[AMDGPU] Clear DS aggregate in inverted sched_barrier mask when LDSDMA allowed (#207779)"
+        },
+        {
+            "hash": "6053d19eb3bc2391fcab76eb20a8ea0462568224",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-07-07T11:33:14-04:00",
+            "subject": "[SLP] Retune look-ahead scores for constants"
+        },
+        {
+            "hash": "a00f7be392d9468779af59d86bed12d17aa578c0",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-07-07T11:40:04-04:00",
+            "subject": "[SLP]Use poor-throughput instructions as vectorization seeds"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -178123,6 +178141,20 @@
             "author_name": "David Zbarsky",
             "commit_date": "2026-06-09T23:50:19-04:00",
             "subject": "[clang][Serialization] Outline LangOptions mismatch diagnostics"
+        }
+    ],
+    "antoniofrighetto\/perf\/bc-earlyreturn-triple": [
+        {
+            "hash": "3a6d3f77960b4dded18d15e28eaa3f953be18faa",
+            "author_name": "Tom Eccles",
+            "commit_date": "2026-07-07T15:46:58+01:00",
+            "subject": "[mlir][LLVM] Add arithmetic fence intrinsic op (#207975)"
+        },
+        {
+            "hash": "4592efd0bb1ac728bbec5b6b6ccb954ba8a765b4",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-07-07T17:38:56+02:00",
+            "subject": "tmp"
         }
     ]
 }
