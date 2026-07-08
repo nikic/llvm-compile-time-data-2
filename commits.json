@@ -171213,6 +171213,12 @@
             "author_name": "Petr Hosek",
             "commit_date": "2026-07-08T00:19:47-07:00",
             "subject": "Revert \"[libc++] Replace the of use custom sections for detecting overriden functions\" (#208157)"
+        },
+        {
+            "hash": "e7195d5d23adf9336555e7244e2fcf397111c57e",
+            "author_name": "Ryotaro Kasuga",
+            "commit_date": "2026-07-08T07:28:52+00:00",
+            "subject": "[LoopInterchange] Fix crash when dbg_value exists right after PHI (#208147)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -178373,9 +178379,9 @@
             "subject": "[AMDGPU] Copy the nofpclass attribute onto a matching kernarg load (#207734)"
         },
         {
-            "hash": "db75e6710dc75ed93ecb7aea9e3eb3b910c8afb1",
+            "hash": "6bbf81f695f522936b9aa8b2dcf51fffe4c6cab4",
             "author_name": "CarolineConcatto",
-            "commit_date": "2026-07-06T17:10:43+02:00",
+            "commit_date": "2026-07-08T09:13:44+02:00",
             "subject": "[BitcodeReader] Move cached target triple into reader"
         }
     ],
@@ -178527,6 +178533,20 @@
             "author_name": "Ryotaro Kasuga",
             "commit_date": "2026-07-08T14:18:36+09:00",
             "subject": "expand directions"
+        }
+    ],
+    "antoniofrighetto\/perf\/bcreader-move-tt-2": [
+        {
+            "hash": "26380406c852574f79f3df58bc6ed2664c186ac9",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-06T17:09:20+02:00",
+            "subject": "[AMDGPU] Copy the nofpclass attribute onto a matching kernarg load (#207734)"
+        },
+        {
+            "hash": "4ed9177954cfe4d6ffc9818a071ce891a519d190",
+            "author_name": "CarolineConcatto",
+            "commit_date": "2026-07-08T09:17:57+02:00",
+            "subject": "[BitcodeReader] Move cached target triple into reader"
         }
     ]
 }
