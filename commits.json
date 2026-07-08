@@ -171525,6 +171525,24 @@
             "author_name": "Chirag Patel",
             "commit_date": "2026-07-08T11:55:57+00:00",
             "subject": "Fix unused variable build failure in Release build (#208195)"
+        },
+        {
+            "hash": "ac1af12027ee0e2787400a896f67dc3f154b3d16",
+            "author_name": "Phoebe Wang",
+            "commit_date": "2026-07-08T11:58:15+00:00",
+            "subject": "[X86][CCMP] Lower select(and\/or(setcc,...), T, F) as a CCMP chain (#207929)"
+        },
+        {
+            "hash": "adfb3be9d098e4c12895957f9ac3fc9d892b45a9",
+            "author_name": "Rito Takeuchi",
+            "commit_date": "2026-07-08T12:02:54+00:00",
+            "subject": "[X86] Add vXi64 MULHU\/MULHS lowering, keeping full-width products scalar (#206983)"
+        },
+        {
+            "hash": "b5fa9eee6798b678fc7cb5f2b42a977932b708f9",
+            "author_name": "inquisitivecrystal",
+            "commit_date": "2026-07-08T20:06:57+08:00",
+            "subject": "[libc++] Implement LWG3918: copy elision in `std::uninitialized_move\/_n` (#207692)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -178887,6 +178905,20 @@
             "author_name": "Aleksandr Popov",
             "commit_date": "2026-07-07T14:19:42+00:00",
             "subject": "[SCEV] Fold zext(C + X)<nsw> to sext(C) + zext(X) when X >=u |C|"
+        }
+    ],
+    "aengelke\/perf\/relr": [
+        {
+            "hash": "475cef62595255a34b795472bba330a60058abb0",
+            "author_name": "Keshav Vinayak Jha",
+            "commit_date": "2026-07-08T15:05:36+05:30",
+            "subject": "[SelectionDAG][AMDGPU] Preserve known bits for demoted sret pointers (#203468)"
+        },
+        {
+            "hash": "b127fd6fceb66a1a87f70c77cbe2d5ffcb6e94a9",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-08T11:53:42+00:00",
+            "subject": "[CMake] Add -Wl,-z,pack-relative-relocs if supported"
         }
     ]
 }
