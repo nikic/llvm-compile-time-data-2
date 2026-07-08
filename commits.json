@@ -171303,6 +171303,72 @@
             "author_name": "Alexis Engelke",
             "commit_date": "2026-07-08T09:27:35+00:00",
             "subject": "[IR][NFC] Make PassConcept immovable (#208167)"
+        },
+        {
+            "hash": "32d06af3ea6d05c0f8b5820da3f651d4e03bb80d",
+            "author_name": "David Green",
+            "commit_date": "2026-07-08T10:32:21+01:00",
+            "subject": "[ARM][MVE] Tests for new sqabs and sqneg tests. NFC (#208180)"
+        },
+        {
+            "hash": "3451dd23d9b098e8cf7201ab303874dab2d88c19",
+            "author_name": "Ricardo Jesus",
+            "commit_date": "2026-07-08T10:34:12+01:00",
+            "subject": "[AArch64] Fold any\/sign-extend of CSET. (#207414)"
+        },
+        {
+            "hash": "302f7aa18e0d68d9db74c2586bd66ef8e4d98e53",
+            "author_name": "Aayush Shrivastava",
+            "commit_date": "2026-07-08T09:34:49+00:00",
+            "subject": "[VectorCombine] Fold concat(binop(a,c), binop(b,d)) -> binop(concat(a,b), concat(c,d)) for i1 vectors (#206087)"
+        },
+        {
+            "hash": "764645b5ef49b18b2ca7c3efc3ca6954e1337f1b",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-07-08T09:35:00+00:00",
+            "subject": "[SDAG][X86] Support shrinking target-independent nodes (#206721)"
+        },
+        {
+            "hash": "3fc15b50c6e5b79332023fe7ccacb35b2ed5614e",
+            "author_name": "Sean Clarke",
+            "commit_date": "2026-07-08T10:35:30+01:00",
+            "subject": "[HashRecognize] Make `LHSAux` null if it is dead (#207231)"
+        },
+        {
+            "hash": "475cef62595255a34b795472bba330a60058abb0",
+            "author_name": "Keshav Vinayak Jha",
+            "commit_date": "2026-07-08T15:05:36+05:30",
+            "subject": "[SelectionDAG][AMDGPU] Preserve known bits for demoted sret pointers (#203468)"
+        },
+        {
+            "hash": "29553517d044e1864b6dd00b0236006ae999d043",
+            "author_name": "Hongyu Chen",
+            "commit_date": "2026-07-08T09:37:44+00:00",
+            "subject": "[RISCV][P-ext] Improve codegen for packed reverse intrinsics (#207575)"
+        },
+        {
+            "hash": "74e44e433a8e1da3da263833e32adde77889f734",
+            "author_name": "Jacek Caban",
+            "commit_date": "2026-07-08T11:38:00+02:00",
+            "subject": "[llvm-readobj][llvm-ar][COFF] Use exclude for .obj.arm64ec section in tests (NFC) (#208116)"
+        },
+        {
+            "hash": "cab8bab9642c33ea42355806730ed431d5cbf205",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-07-08T10:41:06+01:00",
+            "subject": "[VPlan] Forbid CSE'ing writes (NFC) (#207443)"
+        },
+        {
+            "hash": "17b27e7c2cb6267695733969bfca2d5ebb4a0c23",
+            "author_name": "David Green",
+            "commit_date": "2026-07-08T10:41:38+01:00",
+            "subject": "[AArch64] Increase the relative cost of vector i64 multiply on Neoverse V3ae. (#207723)"
+        },
+        {
+            "hash": "9ab13dc4f7ff3c536e493947781ae344bb4be69a",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-08T11:41:48+02:00",
+            "subject": "[mlir][ComplexToSPIRV] Add lowering for complex.eq and complex.neq (#206279)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
