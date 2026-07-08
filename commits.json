@@ -171399,6 +171399,12 @@
             "author_name": "Tomer Shafir",
             "commit_date": "2026-07-08T12:55:13+03:00",
             "subject": "[AArch64] Add missing arithmetic to arith+cb(n)z clustering (#203721)"
+        },
+        {
+            "hash": "dd37265910a290887a16696de6f0dea1731ab4c8",
+            "author_name": "Jolyon",
+            "commit_date": "2026-07-08T12:09:24+02:00",
+            "subject": "[CodeGenPrepare] Cache known-live PHIs when deleting dead PHI chains (#207191)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -178741,6 +178747,26 @@
             "author_name": "YangJian",
             "commit_date": "2026-07-08T11:07:28+02:00",
             "subject": "Memoize non-dead PHIs during huge-function PHI cleanup"
+        }
+    ],
+    "aleks-tmb\/perf\/scev-fold-zext-add": [
+        {
+            "hash": "0ca111acd40fe60c424261ef3004987f66959838",
+            "author_name": "Valery Dmitriev",
+            "commit_date": "2026-07-01T09:32:59-07:00",
+            "subject": "Revert \"[MCP] Add test case to demonstrate issue with spill copy elimination (NFC)\" (#207025)"
+        },
+        {
+            "hash": "f8c0c37193732ca04fa4e05b27f38e163e562d54",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-07T14:19:42+00:00",
+            "subject": "Precommit single_early_exit_zext_trip_count.ll test"
+        },
+        {
+            "hash": "36b9bbcd11d6fe4c75770f5004de04b2f2852c23",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-07T14:19:42+00:00",
+            "subject": "[SCEV] Fold zext(C + X)<nsw> to sext(C) + zext(X) when X >=u |C|"
         }
     ]
 }
