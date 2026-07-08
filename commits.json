@@ -171273,6 +171273,18 @@
             "author_name": "Emmett",
             "commit_date": "2026-07-08T16:59:53+08:00",
             "subject": "[libc++][chrono] Implement LWG 4481: Disallow `chrono::duration<const T, P>` (#207558)"
+        },
+        {
+            "hash": "006423944b8efdb115d8fd001cffca888605cd7f",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-08T11:10:26+02:00",
+            "subject": "[mlir][SPIR-V] Lower arith.maxnumf\/minnumf to spirv.GL.NMax\/NMin (#205975)"
+        },
+        {
+            "hash": "1d387731334d04f677804a09f29e0863ca977e0c",
+            "author_name": "Benjamin Maxwell",
+            "commit_date": "2026-07-08T10:18:21+01:00",
+            "subject": "[LV] Allow setting scalable VFs for `-epilogue-vectorization-force-VF` (#205081)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -178601,6 +178613,20 @@
             "author_name": "Antonio Frighetto",
             "commit_date": "2026-07-08T10:43:10+02:00",
             "subject": "[BitcodeReader] tmp"
+        }
+    ],
+    "nikic\/perf\/cgp-dead-phi": [
+        {
+            "hash": "2b080317511d3285c7376e25ee9668edcc41c06e",
+            "author_name": "Jackson Stogel",
+            "commit_date": "2026-07-07T23:28:17-07:00",
+            "subject": "[bazel] Port 9a1f5b76b4 (#208126)"
+        },
+        {
+            "hash": "95c3774504d532c66b5986121ecbfe1183c81bf0",
+            "author_name": "YangJian",
+            "commit_date": "2026-07-08T11:07:28+02:00",
+            "subject": "Memoize non-dead PHIs during huge-function PHI cleanup"
         }
     ]
 }
