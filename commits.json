@@ -171687,6 +171687,30 @@
             "author_name": "Kseniya Tikhomirova",
             "commit_date": "2026-07-08T16:19:03+02:00",
             "subject": "[libsycl] Add tool dependencies in runtimes mode (#205384)"
+        },
+        {
+            "hash": "7a57458221c99e649ba002505b0b2e4d9c9b5912",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-07-08T22:26:17+08:00",
+            "subject": "[GitHub] Change \/test-suite x86_64 configuration to test x86-64-v3 (#208228)"
+        },
+        {
+            "hash": "974fc1319640cce76523bcee48d003421ec7c163",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-07-08T07:27:10-07:00",
+            "subject": "[clang][Frontend] Table-drive compiler option dumping (#203161)"
+        },
+        {
+            "hash": "b7091e67a1d027d8db62a2e84b070dd23f85bda4",
+            "author_name": "Fateme Hosseini",
+            "commit_date": "2026-07-08T09:28:18-05:00",
+            "subject": "[Hexagon] Add XQFloat extraneous conversion removal pass (#207236)"
+        },
+        {
+            "hash": "4f339eedfce6cc7bf8ea9f6737224629dd6e7d0b",
+            "author_name": "Qi Ye",
+            "commit_date": "2026-07-08T07:29:56-07:00",
+            "subject": "[SPIR-V] Add SPV_INTEL_bfloat16_arithmetic for Opencl.std instructions with bfloat16 type (#205128)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -178563,40 +178587,40 @@
     ],
     "fhahn\/perf\/ce-rotated": [
         {
-            "hash": "7f449d38cd9d203af2be106210f3ef9c30597ebe",
-            "author_name": "Alexey Bataev",
-            "commit_date": "2026-07-04T18:21:30-04:00",
-            "subject": "[SLP][NFC]Remove undef from the test, cleanup, NFC"
+            "hash": "ae281befbf52aca9522c50f1ab3ddebdf0ac2cb9",
+            "author_name": "Sean Perry",
+            "commit_date": "2026-07-08T10:12:05-04:00",
+            "subject": "Use existing encoding when writing to an existing file (#198873)"
         },
         {
-            "hash": "fee914a31a2aa0a2942fe424699f9bc3afe53845",
+            "hash": "4f41b6be1a89796d6ce89188a4fd4e0cde9d06b7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-05T07:20:35+01:00",
+            "commit_date": "2026-07-08T15:27:18+01:00",
             "subject": "[ConstraintElim] Add more tests."
         },
         {
-            "hash": "a2b68427b1693401f0553c2742bd96c165b9200c",
+            "hash": "1dedecc1cefea9c94631cdb272717d898ac6696b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-06T10:17:46+01:00",
+            "commit_date": "2026-07-08T15:27:19+01:00",
+            "subject": "[ConstraintSystem] Skip overflowing row combinations in FM elimination."
+        },
+        {
+            "hash": "4e1fe2ae288eb01bfb41de72937942ad7ef33860",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-08T15:27:19+01:00",
+            "subject": "[ConstraintElim] Gate induction-fact derivation on a consuming compare."
+        },
+        {
+            "hash": "37e9e12907df9e7a70559fe7d4b59119805fd8e4",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-08T15:27:19+01:00",
             "subject": "[ConstrainElim] Use conditions from rotated loops."
         },
         {
-            "hash": "cfc95a31a76825d39a57516b9e40f0359c102de3",
+            "hash": "d69342b06412a42c3d9f9fd00975ac72f8827acc",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-06T14:23:44+01:00",
-            "subject": "Gate"
-        },
-        {
-            "hash": "c7437ba77a0fb294ab9b29fff2fc8ffded2f8743",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-06T14:23:45+01:00",
+            "commit_date": "2026-07-08T15:27:20+01:00",
             "subject": "[SCEV] Infer no-wrap flags for shl by a constant."
-        },
-        {
-            "hash": "415a1e3ba5bbcd2c6a1e055348f7404927f93a6c",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-06T14:23:45+01:00",
-            "subject": "[ConstraintSystem] Skip overflowing row combinations in FM elimination."
         }
     ],
     "MaskRay\/perf\/domtree-0based": [
