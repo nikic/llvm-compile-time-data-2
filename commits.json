@@ -173055,6 +173055,24 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-07-09T18:27:15+00:00",
             "subject": "Reapply \"[VPlan] Refine hasEarlyExit check.\" (#207838) (#208518)"
+        },
+        {
+            "hash": "1bd63928e4fcf575d93aaef220c19ca41965e015",
+            "author_name": "Susan Tan (\u30b9-\u30b6\u30f3\u3000\u30bf\u30f3)",
+            "commit_date": "2026-07-09T14:46:53-04:00",
+            "subject": "[flang][acc] Add `OutlineIdentityOperandOpInterface` to hlfir\/fir declare (#208091)"
+        },
+        {
+            "hash": "8e0712496c891b8532157156ecacce3e5af89e26",
+            "author_name": "Andreas Jonson",
+            "commit_date": "2026-07-09T20:49:21+02:00",
+            "subject": "[InstCombine] Use constant 64-bit indices for CreateExtractElement (NFC) (#208306)"
+        },
+        {
+            "hash": "4aba9d237a1ad07751fff354a56f4f2cf9dfecfe",
+            "author_name": "Luke Hutton",
+            "commit_date": "2026-07-09T19:49:44+01:00",
+            "subject": "[mlir][tosa] Fold tiled input into binary elementwise operations (#203941)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -180479,6 +180497,50 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-07-09T13:01:34+02:00",
             "subject": "Revert \"[clang] [serialization] Step into UsingShadowDecl when find existing decl (#208393)\""
+        }
+    ],
+    "fhahn\/perf\/ce-rotated-split": [
+        {
+            "hash": "1bd63928e4fcf575d93aaef220c19ca41965e015",
+            "author_name": "Susan Tan (\u30b9-\u30b6\u30f3\u3000\u30bf\u30f3)",
+            "commit_date": "2026-07-09T14:46:53-04:00",
+            "subject": "[flang][acc] Add `OutlineIdentityOperandOpInterface` to hlfir\/fir declare (#208091)"
+        },
+        {
+            "hash": "8cad2b6873026f0cbc4dd55f7142ec7ff894b893",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-09T19:52:55+01:00",
+            "subject": "[ConstraintElim] Add tests for post-increment\/latch induction facts (NFC)."
+        },
+        {
+            "hash": "5f325c1647c871b02b61e231e60ef821d0d288f0",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-09T19:53:00+01:00",
+            "subject": "[ConstraintElim] Gate induction-fact derivation on a consuming compare."
+        },
+        {
+            "hash": "589b896492a70493367aa3c3e9628aa81893ae96",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-09T19:53:00+01:00",
+            "subject": "[ConstraintElim] Look through post-increment in header EQ\/NE compare."
+        },
+        {
+            "hash": "1dc5c8910d7c93b6d4db975cecc76656a6578413",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-09T19:53:00+01:00",
+            "subject": "[ConstraintElim] Match counting compare in the loop latch."
+        },
+        {
+            "hash": "0ccfc268f51aacd2a4340a013804f7dc24ae7aed",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-09T19:53:00+01:00",
+            "subject": "[ConstraintElim] Derive signed facts for post-increment inductions."
+        },
+        {
+            "hash": "7322081551c0e795d20636599fc1f74e37d1bf58",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-09T19:53:00+01:00",
+            "subject": "[ConstraintElim] Read induction start\/step\/flags off IR, skip SCEV."
         }
     ]
 }
