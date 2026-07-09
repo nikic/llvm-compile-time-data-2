@@ -173073,6 +173073,18 @@
             "author_name": "Luke Hutton",
             "commit_date": "2026-07-09T19:49:44+01:00",
             "subject": "[mlir][tosa] Fold tiled input into binary elementwise operations (#203941)"
+        },
+        {
+            "hash": "5114f5e4269bd7b189b1500889cd88d0d1eff033",
+            "author_name": "Kyungtak Woo",
+            "commit_date": "2026-07-09T12:58:50-06:00",
+            "subject": "[Clang][Sema] Ensure explicitly defaulted functions respect FP pragmas from their declaration site (#207429)"
+        },
+        {
+            "hash": "64a9e0c2a5301797ca4cc89b9a332f01e34404fe",
+            "author_name": "David Green",
+            "commit_date": "2026-07-09T20:02:54+01:00",
+            "subject": "[AArch64][GlobalISel] Update scalar types in selection tests. NFC (#208534)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -180241,28 +180253,40 @@
     ],
     "fhahn\/perf\/scev-min-max": [
         {
-            "hash": "5343b204252d7bf5bdfcacd664e78e9f7f9fd745",
-            "author_name": "Martin Storsj\u00f6",
-            "commit_date": "2026-07-07T16:16:36+03:00",
-            "subject": "[libcxxabi] Don't enable -fvisibility=hidden on Windows (#207943)"
+            "hash": "4aba9d237a1ad07751fff354a56f4f2cf9dfecfe",
+            "author_name": "Luke Hutton",
+            "commit_date": "2026-07-09T19:49:44+01:00",
+            "subject": "[mlir][tosa] Fold tiled input into binary elementwise operations (#203941)"
         },
         {
-            "hash": "29bab9791c40209a370f5c08d30dfe8e6db5a446",
+            "hash": "4da3d1b655be3618eb6f2992e6017731ee0cfb70",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-07T14:17:43+01:00",
-            "subject": "Add tests"
+            "commit_date": "2026-07-09T19:56:20+01:00",
+            "subject": "[SCEV] Add more tests for reasoning about min\/max expressions (NFC)"
         },
         {
-            "hash": "2247ed0a1ae4225476782cee15f39f69a14b635a",
-            "author_name": "Aleksandr Popov",
-            "commit_date": "2026-07-07T14:18:39+01:00",
-            "subject": "[SCEV] Prove umin(Ops) u< RHS by checking individual operands"
-        },
-        {
-            "hash": "ceaeea25b4b90acfbdef3b725f874b033d3d3a4f",
+            "hash": "ebf0df37461b66c536403561ac6ed6d99703709f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-07T14:18:52+01:00",
-            "subject": "step\\"
+            "commit_date": "2026-07-09T19:56:55+01:00",
+            "subject": "[SCEV] Prove max(X0..Xn) Pred RHS via per-operand decomposition."
+        },
+        {
+            "hash": "8f9200be782929a4fef2fb197e2abe3d2492e3f7",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-09T19:58:58+01:00",
+            "subject": "[SCEV] Prove LHS Pred min(Y0..Yn) via per-operand decomposition."
+        },
+        {
+            "hash": "3ebb39debced9a33bd9a5df967d93f448129fce4",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-09T20:00:05+01:00",
+            "subject": "[SCEV] Prove min(X0..Xn) Pred RHS via decomposition; drop umin fast-path."
+        },
+        {
+            "hash": "aa5f9674e8cb00fc12e3da4743e6e3b2af17a250",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-09T20:01:44+01:00",
+            "subject": "[SCEV] Prove LHS u<= umax(Y0..Yn) via decomposition."
         }
     ],
     "nikic\/perf\/scev-umin-cond-2": [
