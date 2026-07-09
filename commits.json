@@ -172551,6 +172551,24 @@
             "author_name": "Varad Rahul Kamthe",
             "commit_date": "2026-07-09T15:39:06+05:30",
             "subject": "[NVPTX] Add native `tanh.approx` support for f16\/f16x2\/bf16\/bf16x2 (#203257)"
+        },
+        {
+            "hash": "1f55374f8d05bda4844a192848368a84e976a8ec",
+            "author_name": "Lucas Mellone",
+            "commit_date": "2026-07-09T13:27:09+03:00",
+            "subject": "[libc++][ranges] Applied [[nodiscard]] to `lazy_split` (#208036)"
+        },
+        {
+            "hash": "4500116810d69622da80469993ca4d1e2e9ae2c8",
+            "author_name": "michaelselehov",
+            "commit_date": "2026-07-09T12:29:22+02:00",
+            "subject": "[Offload] Make compressed offload bundle header little-endian (#206744)"
+        },
+        {
+            "hash": "095e9a16eaf0982208006138a2f03ec0a540d73e",
+            "author_name": "Avi Patel",
+            "commit_date": "2026-07-09T18:29:43+08:00",
+            "subject": "[libc++] Implement LWG4472: std::atomic_ref<const T> can be constructed from temporaries (#208131)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -179427,39 +179445,39 @@
     ],
     "fhahn\/perf\/ce-rotated": [
         {
-            "hash": "ae281befbf52aca9522c50f1ab3ddebdf0ac2cb9",
-            "author_name": "Sean Perry",
-            "commit_date": "2026-07-08T10:12:05-04:00",
-            "subject": "Use existing encoding when writing to an existing file (#198873)"
+            "hash": "6b7cd6499b1638ad4341148ab70f28cd5ac23e20",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-07-09T09:47:55+02:00",
+            "subject": "[libc][bazel] Append '\/' to TEST_UNDECLARED_OUTPUTS_DIR (#207710)"
         },
         {
-            "hash": "4f41b6be1a89796d6ce89188a4fd4e0cde9d06b7",
+            "hash": "2499a004ef4094ab70dec3787e835e98a7c7d593",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-08T15:27:18+01:00",
-            "subject": "[ConstraintElim] Add more tests."
-        },
-        {
-            "hash": "1dedecc1cefea9c94631cdb272717d898ac6696b",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-08T15:27:19+01:00",
+            "commit_date": "2026-07-09T09:47:41+01:00",
             "subject": "[ConstraintSystem] Skip overflowing row combinations in FM elimination."
         },
         {
-            "hash": "4e1fe2ae288eb01bfb41de72937942ad7ef33860",
+            "hash": "f5b69bc2d4cf2e433a6e99a8e9dbc806477c91de",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-08T15:27:19+01:00",
+            "commit_date": "2026-07-09T09:47:41+01:00",
             "subject": "[ConstraintElim] Gate induction-fact derivation on a consuming compare."
         },
         {
-            "hash": "37e9e12907df9e7a70559fe7d4b59119805fd8e4",
+            "hash": "54f1401767bcf01649b16f1ec86334302f716a8b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-08T15:27:19+01:00",
+            "commit_date": "2026-07-09T09:47:41+01:00",
             "subject": "[ConstrainElim] Use conditions from rotated loops."
         },
         {
-            "hash": "d69342b06412a42c3d9f9fd00975ac72f8827acc",
+            "hash": "a037729976f91dc11b41a76834dfca9d8812c4fe",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-08T15:27:20+01:00",
+            "commit_date": "2026-07-09T09:47:59+01:00",
+            "subject": "Fix"
+        },
+        {
+            "hash": "2050d622aed5606774f0902b352bbb2142e654e1",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-09T09:48:06+01:00",
             "subject": "[SCEV] Infer no-wrap flags for shl by a constant."
         }
     ],
