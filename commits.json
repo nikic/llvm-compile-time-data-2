@@ -172599,6 +172599,12 @@
             "author_name": "Sergio Afonso",
             "commit_date": "2026-07-09T11:56:50+01:00",
             "subject": "[Flang][MLIR][OpenMP] Move host op filtering to the omp dialect (#208189)"
+        },
+        {
+            "hash": "841e01daa0126941cd3b1b322b3e3b5605fcd03c",
+            "author_name": "Ammar Askar",
+            "commit_date": "2026-07-09T11:05:59+00:00",
+            "subject": "[ISEL] Fix x86-64 instruction selection bug leaking upper 32 bits (#205600)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -179979,22 +179985,50 @@
     ],
     "fhahn\/perf\/vglr": [
         {
-            "hash": "3282c06fc30e742ae230fd5341d9c06103e671fd",
-            "author_name": "Simon Pilgrim",
-            "commit_date": "2026-07-09T10:24:39+01:00",
-            "subject": "[X86] udiv-const-optimization.ll - regenerate test checks (#208403)"
+            "hash": "5b9fa24dbd7b504b99143ebd2f5f12f8560c6331",
+            "author_name": "Sergio Afonso",
+            "commit_date": "2026-07-09T11:56:50+01:00",
+            "subject": "[Flang][MLIR][OpenMP] Move host op filtering to the omp dialect (#208189)"
         },
         {
-            "hash": "7c35998c7c0458f0849c2d0abd6d62ab0980e798",
+            "hash": "7ba8268c58b2857d5e5a4dc300ba3ee959f9e75d",
             "author_name": "Madhur Amilkanthwar",
-            "commit_date": "2026-07-09T10:33:35+01:00",
+            "commit_date": "2026-07-09T11:59:19+01:00",
             "subject": "[VPlan] Cache the vector loop region lookup"
         },
         {
-            "hash": "5ec6bd70876037271d1a19f9e23f925dbbac37d9",
+            "hash": "05208c67b7cb9778999a1dd9c0e8e810cfea6257",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-09T10:33:35+01:00",
+            "commit_date": "2026-07-09T11:59:19+01:00",
             "subject": "[VPlan] structural walk"
+        }
+    ],
+    "nikic\/perf\/revert-test": [
+        {
+            "hash": "50d186480ee9b0fa3f2500c4b963a47ee78db902",
+            "author_name": "Scott Manley",
+            "commit_date": "2026-07-09T05:55:43-05:00",
+            "subject": "[OpenACC] apply par dims to reductions in parallel regions (#208258)"
+        },
+        {
+            "hash": "283517f055ef9198f5d836ee462879048adb26cf",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-07-09T13:00:08+02:00",
+            "subject": "Revert \"[clang] Reject 'auto' storage class with type specifier in C++ (#166004)\""
+        }
+    ],
+    "nikic\/perf\/revert-test2": [
+        {
+            "hash": "50d186480ee9b0fa3f2500c4b963a47ee78db902",
+            "author_name": "Scott Manley",
+            "commit_date": "2026-07-09T05:55:43-05:00",
+            "subject": "[OpenACC] apply par dims to reductions in parallel regions (#208258)"
+        },
+        {
+            "hash": "e0bc2acaa7b5200a2b19665055d12c4032d9c917",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-07-09T13:01:34+02:00",
+            "subject": "Revert \"[clang] [serialization] Step into UsingShadowDecl when find existing decl (#208393)\""
         }
     ]
 }
