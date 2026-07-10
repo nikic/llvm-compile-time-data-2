@@ -174309,6 +174309,18 @@
             "author_name": "Yihan Wang",
             "commit_date": "2026-07-10T14:50:42-04:00",
             "subject": "[libc++] Bump base image version to most recent (#208776)"
+        },
+        {
+            "hash": "95a117bc8a724095e26d942228564ff7c685ca25",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-10T21:02:18+02:00",
+            "subject": "AMDGPU: Migrate target id tests to use new subarch triples (#206488)"
+        },
+        {
+            "hash": "b29d4b270b96b6e291306332ab87d72e639ccba9",
+            "author_name": "Ron Green [NVIDIA]",
+            "commit_date": "2026-07-10T15:06:54-04:00",
+            "subject": "[flang][OpenACC] Bind DO CONCURRENT construct index for nested acc loops (#208529)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -181829,6 +181841,26 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-07-10T19:37:21+01:00",
             "subject": "[SCEV] Try to fold ZExt\/SExt of AddRec before existing lookup."
+        }
+    ],
+    "aleks-tmb\/perf\/zext-add-loop-guards-2": [
+        {
+            "hash": "a6cf9ec73060bf2b38b3981459071d86b254e8fc",
+            "author_name": "Yihan Wang",
+            "commit_date": "2026-07-10T14:50:42-04:00",
+            "subject": "[libc++] Bump base image version to most recent (#208776)"
+        },
+        {
+            "hash": "ab666bc8cd4f77985402de827948a19de0566213",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-10T18:54:03+00:00",
+            "subject": "Fold zext(C + X)<nsw> -> sext(C) + zext(X) when guard-rewritten X >=u |C|"
+        },
+        {
+            "hash": "01212cbedd233d5e09e205070b2451b6b8bd7cf8",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-10T18:54:04+00:00",
+            "subject": "[SCEV] Propagate loop guards through zext of add sub-expressions"
         }
     ]
 }
