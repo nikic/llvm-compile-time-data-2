@@ -173943,6 +173943,54 @@
             "author_name": "Yitzhak Mandelbaum",
             "commit_date": "2026-07-10T10:25:18-04:00",
             "subject": "[clang][dataflow] Fix bug in transfer function of CK_BaseToDerived (#208726)"
+        },
+        {
+            "hash": "3018fd74d14d9b9c25f7931e6ef51ee5f203a66b",
+            "author_name": "Jerry Dang",
+            "commit_date": "2026-07-10T15:30:48+01:00",
+            "subject": "[AArch64] Stop determineCalleeSaves double counting registers with saved supers (#208521)"
+        },
+        {
+            "hash": "73976bc0e88a6fb5e8213726074f2b0474899499",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-07-10T15:32:18+01:00",
+            "subject": "[lldb][test] Get rid of radar references in test names (#208673)"
+        },
+        {
+            "hash": "5394e2aec901f34dc3f92976529dab9ce7829d93",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-07-10T15:33:04+01:00",
+            "subject": "[lldb][test] Modernize and expand C union test (#208662)"
+        },
+        {
+            "hash": "54aa96fdd08c79bbd8143cbbd3b2fcb95b1377fc",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-07-10T15:33:22+01:00",
+            "subject": "[lldb][test] Add a new test for long types (#208447)"
+        },
+        {
+            "hash": "a465ef6968f30abacde4f2d526b98b206b9a149f",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-07-10T15:33:44+01:00",
+            "subject": "[lldb][test] Add a new test for recursive types (#208449)"
+        },
+        {
+            "hash": "2c0541b661c98467caf0b70d147ff8ffa34a6331",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-07-10T15:33:49+01:00",
+            "subject": "[lldb][test] Add a new test for char types (#208442)"
+        },
+        {
+            "hash": "c8b02ba5ac7a37c4fa0100431b357da74f1b200f",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-07-10T15:34:00+01:00",
+            "subject": "[lldb][test] Expand blocks test (#208406)"
+        },
+        {
+            "hash": "ff5363bf29ba9f426b241abb9e72d12d9b785221",
+            "author_name": "Bartosz Wiklak",
+            "commit_date": "2026-07-10T17:34:56+03:00",
+            "subject": "[clangd][remote] Add clangd-index-server support for cross platform indexes (#207202)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -181443,6 +181491,26 @@
             "author_name": "Aleksandr Popov",
             "commit_date": "2026-07-10T07:44:36+00:00",
             "subject": "[SCEV] Propagate loop guards through zext of add sub-expressions"
+        }
+    ],
+    "fhahn\/perf\/cast-add-rec-fold-early": [
+        {
+            "hash": "640079288c5ea829f481b4904217a386b5c38959",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-10T12:29:59+00:00",
+            "subject": "clang\/AMDGPU: Merge toolchain subclasses (#204863)"
+        },
+        {
+            "hash": "167d65906cc3c636221158abe8289ab4a03dfc7d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-10T13:57:02+01:00",
+            "subject": "Add tests"
+        },
+        {
+            "hash": "381abca0d5ead4443d86287d754f47c21396a9be",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-10T14:00:38+01:00",
+            "subject": "Fix"
         }
     ]
 }
