@@ -174261,6 +174261,24 @@
             "author_name": "Matsu",
             "commit_date": "2026-07-10T11:30:17-07:00",
             "subject": "[flang][OpenACC] Preserve source extents in section strides (#208594)"
+        },
+        {
+            "hash": "59b0935b1494c90e02cc95a625f168f606966c3d",
+            "author_name": "Yaxun (Sam) Liu",
+            "commit_date": "2026-07-10T14:34:30-04:00",
+            "subject": "[Clang] Treat address-of template substitution as SFINAE"
+        },
+        {
+            "hash": "fbc9c356e11b8b47ed60c1329d7a2f2363e6b388",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-07-10T11:37:20-07:00",
+            "subject": "[docs] Rename selected libc docs to Markdown (#208354)"
+        },
+        {
+            "hash": "71fe35814f4b4b5dc88b9caa65f44da5da946df8",
+            "author_name": "Kewen Meng",
+            "commit_date": "2026-07-10T11:38:16-07:00",
+            "subject": "[OpenMP][Offload][AMDGPU] Fix offload tests failure after the new triple (#208617)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -181765,22 +181783,22 @@
     ],
     "fhahn\/perf\/cast-add-rec-fold-early": [
         {
-            "hash": "640079288c5ea829f481b4904217a386b5c38959",
-            "author_name": "Matt Arsenault",
-            "commit_date": "2026-07-10T12:29:59+00:00",
-            "subject": "clang\/AMDGPU: Merge toolchain subclasses (#204863)"
+            "hash": "59b0935b1494c90e02cc95a625f168f606966c3d",
+            "author_name": "Yaxun (Sam) Liu",
+            "commit_date": "2026-07-10T14:34:30-04:00",
+            "subject": "[Clang] Treat address-of template substitution as SFINAE"
         },
         {
-            "hash": "167d65906cc3c636221158abe8289ab4a03dfc7d",
+            "hash": "07fa64f399ceb94a67de4a4bb86f8f1a108a0bc8",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-10T13:57:02+01:00",
+            "commit_date": "2026-07-10T19:37:21+01:00",
             "subject": "Add tests"
         },
         {
-            "hash": "381abca0d5ead4443d86287d754f47c21396a9be",
+            "hash": "208d406d97bb62144f50e9d01895bdedb4058fc1",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-10T14:00:38+01:00",
-            "subject": "Fix"
+            "commit_date": "2026-07-10T19:37:21+01:00",
+            "subject": "[SCEV] Try to fold ZExt\/SExt of AddRec before existing lookup."
         }
     ]
 }
