@@ -174321,6 +174321,24 @@
             "author_name": "Ron Green [NVIDIA]",
             "commit_date": "2026-07-10T15:06:54-04:00",
             "subject": "[flang][OpenACC] Bind DO CONCURRENT construct index for nested acc loops (#208529)"
+        },
+        {
+            "hash": "b2ae07fde4029f9c40932101680fbade34e237ff",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-07-10T12:10:49-07:00",
+            "subject": "[TableGen] Add MCReadAdvanceEntry to vector first, then write its fields. NFC (#208789)"
+        },
+        {
+            "hash": "3bc47c8dc927e0d6145eb128e588179f7654b5f7",
+            "author_name": "Ziqing Luo",
+            "commit_date": "2026-07-10T12:11:36-07:00",
+            "subject": "[SSAF][WPA] Operator new\/delete overload entities that shall retain their types (#208342)"
+        },
+        {
+            "hash": "15480d2d7f4519b4bdda633d2f9e8f8e6413b19d",
+            "author_name": "Younan Zhang",
+            "commit_date": "2026-07-10T19:17:57+00:00",
+            "subject": "[Clang][NFC] Add two CWG2369 regression tests (#186380)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -181825,21 +181843,21 @@
     ],
     "fhahn\/perf\/cast-add-rec-fold-early": [
         {
-            "hash": "59b0935b1494c90e02cc95a625f168f606966c3d",
-            "author_name": "Yaxun (Sam) Liu",
-            "commit_date": "2026-07-10T14:34:30-04:00",
-            "subject": "[Clang] Treat address-of template substitution as SFINAE"
+            "hash": "821afb2ed82f66513cbaab1657d680179f10ed35",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-07-10T11:45:43-07:00",
+            "subject": "[docs] Rewrite libc docs from reST to markdown (#208802)"
         },
         {
-            "hash": "07fa64f399ceb94a67de4a4bb86f8f1a108a0bc8",
+            "hash": "bc2a086d08e4f87f538dcb6c422f0e93d00f45fd",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-10T19:37:21+01:00",
+            "commit_date": "2026-07-10T19:47:17+01:00",
             "subject": "Add tests"
         },
         {
-            "hash": "208d406d97bb62144f50e9d01895bdedb4058fc1",
+            "hash": "5b7649ad014feac6f1f1561612f5fcd2e3af63a7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-10T19:37:21+01:00",
+            "commit_date": "2026-07-10T20:17:17+01:00",
             "subject": "[SCEV] Try to fold ZExt\/SExt of AddRec before existing lookup."
         }
     ],
