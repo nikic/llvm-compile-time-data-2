@@ -173541,6 +173541,30 @@
             "author_name": "firmiana402",
             "commit_date": "2026-07-10T15:39:52+08:00",
             "subject": "[lldb] Fix DW_OP_convert type handling (#208435)"
+        },
+        {
+            "hash": "3595454d79c9bc4253f70961e32516e23805b982",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-10T07:49:14+00:00",
+            "subject": "MC: Start some error messages with a lowercase (#208570)"
+        },
+        {
+            "hash": "5b27878e5c6b9055436b917868266b7fd05414bb",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-10T09:51:15+02:00",
+            "subject": "COFF: Start error message with lowercase letter (#208636)"
+        },
+        {
+            "hash": "2d5aa733913c0691e8c8f2b9a43dc4cb82279f8d",
+            "author_name": "Zeyi Xu",
+            "commit_date": "2026-07-10T15:52:15+08:00",
+            "subject": "[clang-tidy] Add IgnoreMacros option to readability-trivial-switch (#208622)"
+        },
+        {
+            "hash": "03aca1aebe3dff60130f0383ec842ddd3f756405",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-07-10T09:53:15+02:00",
+            "subject": "[AMDGPU] Introduce tests for PR207922 (NFC) (#208640)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -181027,6 +181051,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-07-09T19:53:00+01:00",
             "subject": "[ConstraintElim] Read induction start\/step\/flags off IR, skip SCEV."
+        }
+    ],
+    "aleks-tmb\/perf\/zext-add-loop-guards": [
+        {
+            "hash": "c09d9a4d03a9211844e146b03ec41f957c74c4b7",
+            "author_name": "John Brawn",
+            "commit_date": "2026-07-09T14:45:58+01:00",
+            "subject": "[LSR] VScale doesn't occupy a register if it's a legal offset (#206754)"
+        },
+        {
+            "hash": "7cbee6cdb124303dd4385137fbf4ed31dc8b8980",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-10T07:44:36+00:00",
+            "subject": "[SCEV] Propagate loop guards through zext of add sub-expressions"
         }
     ]
 }
