@@ -176235,6 +176235,24 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-07-13T22:53:16+02:00",
             "subject": "clang\/AMDGPU: Remove StringSwitch over r600 aliases (#209256)"
+        },
+        {
+            "hash": "41388b1d74d4fa973db029de6ef89c03149bcb19",
+            "author_name": "lntue",
+            "commit_date": "2026-07-13T16:57:28-04:00",
+            "subject": "[libc] Add riscv64 qemu precommit CI for overlay mode. (#192816)"
+        },
+        {
+            "hash": "76a21c86af48dc1f0c0fbcca33145c26a2ef328b",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-07-13T17:00:09-04:00",
+            "subject": "[libc++] Add a workflow to run libc++ benchmarks on historical commits (#208080)"
+        },
+        {
+            "hash": "3287d11199c644193cbf5829d3786aec41723d28",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-07-13T17:03:08-04:00",
+            "subject": "[libc++] Switch PR benchmark job to llvm-premerge-libcxx-runners (#209267)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -183857,6 +183875,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-07-13T20:31:29+01:00",
             "subject": "[ConstraintElim] Try to get induction step\/start\/flags from IR (NFC-ish)"
+        }
+    ],
+    "bababuck\/perf\/mr208511": [
+        {
+            "hash": "06499c927e5012166f4553c58f8af593521ea14d",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-07-09T12:51:52-04:00",
+            "subject": "[SLP][NFC] Add regressed vectorization of reduced values, NFC"
+        },
+        {
+            "hash": "ec2041a4674fc8ac171f5f3d507cd744532ef1e6",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-07-09T10:09:30-07:00",
+            "subject": "[\ud835\ude00\ud835\uddfd\ud835\uddff] initial version"
         }
     ]
 }
