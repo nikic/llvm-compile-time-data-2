@@ -175977,6 +175977,30 @@
             "author_name": "Bal\u00e1zs Benics",
             "commit_date": "2026-07-13T16:24:26+00:00",
             "subject": "[clang][ssaf] Add --ssaf-include-local-entities flag (#209225)"
+        },
+        {
+            "hash": "fd3d20f13f4d29eb99ada5fb9c6c87c6dee6ed17",
+            "author_name": "Garvit Gupta",
+            "commit_date": "2026-07-13T22:02:34+05:30",
+            "subject": "[RISCV] Add SelectAddrRegImm26 isel complex pattern for Xqcilo 26-bit load\/store (#207363)"
+        },
+        {
+            "hash": "38033e2c2316dbb264264d9fb8be5c3b543b5c1e",
+            "author_name": "Bal\u00e1zs Benics",
+            "commit_date": "2026-07-13T17:35:43+01:00",
+            "subject": "[clang][ssaf][NFC] Add unittests for PointerFlow and UnsafeBufferUsage about local entities (#209227)"
+        },
+        {
+            "hash": "15d8e43e7d1efa0d0a86589e1e2c28dbe011e226",
+            "author_name": "Bal\u00e1zs Benics",
+            "commit_date": "2026-07-13T17:36:57+01:00",
+            "subject": "[clang][ssaf] Add FIXME that CallGraphExtractor does not honor IncludeLocalEntities (#209228)"
+        },
+        {
+            "hash": "c5d5988520d90c77dfc279e86b1e052703d86960",
+            "author_name": "Rito Takeuchi",
+            "commit_date": "2026-07-13T16:39:00+00:00",
+            "subject": "[X86][CostModel] Add vXi64 divide\/remainder-by-constant costs (#208491)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -183571,6 +183595,20 @@
             "author_name": "Aleksandr Popov",
             "commit_date": "2026-07-13T11:56:29+00:00",
             "subject": "[SCEV] Generalize A + zext(-A + B) fold to A + zext(C + X)"
+        }
+    ],
+    "aleks-tmb\/perf\/scev-zext-add-loop-guards": [
+        {
+            "hash": "efd160260d8437710714d8a3ba9301f45d61ee95",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-13T13:55:09+02:00",
+            "subject": "[SCEV][NFC] Address post-merge comments on precommit test (#209094)"
+        },
+        {
+            "hash": "532d678b9dfdcf824babe50df1519f28a39d0fae",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-13T16:00:48+00:00",
+            "subject": "[SCEV] Propagate loop guards through zext of add sub-expressions"
         }
     ]
 }
