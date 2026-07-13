@@ -175503,6 +175503,60 @@
             "author_name": "Nico Weber",
             "commit_date": "2026-07-13T08:04:44-04:00",
             "subject": "[gn build] Port 1b879464b362 (#209147)"
+        },
+        {
+            "hash": "7a9bbe00493434ad70bd3de0840c980fd88abde6",
+            "author_name": "rdevshp",
+            "commit_date": "2026-07-13T13:07:14+01:00",
+            "subject": "[analyzer] Fix unary\/binary op support for SMT symbolic execution (#205078)"
+        },
+        {
+            "hash": "cc11dd4aa650abce746953c4c243427c2a6d16cc",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-07-13T08:07:29-04:00",
+            "subject": "[gn build] Port 3bc47c8dc927 (#209148)"
+        },
+        {
+            "hash": "fb0563958e113bf9d384284ec2be1a73cfe7ff3e",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-07-13T08:07:56-04:00",
+            "subject": "[gn build] Port 640079288c5e (#209149)"
+        },
+        {
+            "hash": "af30b76228e315fac32b8cf0b8282841d839c365",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-07-13T08:09:14-04:00",
+            "subject": "[gn build] Port 9b9f44d1c55c (#209150)"
+        },
+        {
+            "hash": "ff331ac51c37746f5f3ea9679f791992e3d93918",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-07-13T08:09:49-04:00",
+            "subject": "[gn build] Port c847ddf8f18d (#209151)"
+        },
+        {
+            "hash": "6da5260422379a53aadc0aedacded102fcff3fac",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-07-13T08:10:59-04:00",
+            "subject": "[gn build] Port d09048a46401 (#209152)"
+        },
+        {
+            "hash": "d9a5286ac41e54ed8aa73b61a8f173a9d0460085",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-07-13T08:11:30-04:00",
+            "subject": "[gn build] Port d1dbd484ada2 (#209153)"
+        },
+        {
+            "hash": "4df8add1fd27371378285cd68cbfd3474e3f84b5",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-07-13T08:12:19-04:00",
+            "subject": "[gn build] Port e6673bd03771 (#209154)"
+        },
+        {
+            "hash": "e2dee8e8d047f858b03d451c37b3cc21dcefe69c",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-07-13T08:12:57-04:00",
+            "subject": "[gn build] Port f99f2a582e94 (#209155)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -183083,6 +183137,20 @@
             "author_name": "tomershafir",
             "commit_date": "2026-07-13T03:34:49+03:00",
             "subject": "[AArch64] Add SME clustering on Apple CPU"
+        }
+    ],
+    "aleks-tmb\/perf\/scev-fold-zext-add-2": [
+        {
+            "hash": "efd160260d8437710714d8a3ba9301f45d61ee95",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-13T13:55:09+02:00",
+            "subject": "[SCEV][NFC] Address post-merge comments on precommit test (#209094)"
+        },
+        {
+            "hash": "ddf6de5f8d5c7d692bf07d0b5e73eaf8435c74b1",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-13T11:56:29+00:00",
+            "subject": "[SCEV] Generalize A + zext(-A + B) fold to A + zext(C + X)"
         }
     ]
 }
