@@ -175275,6 +175275,18 @@
             "author_name": "jeanPerier",
             "commit_date": "2026-07-13T10:14:35+02:00",
             "subject": "[flang][FIR] implement asm alias interface for fir.type under option (#208665)"
+        },
+        {
+            "hash": "3a61e727bc056024bdf4960e914ec6651fd41a72",
+            "author_name": "Simon Tatham",
+            "commit_date": "2026-07-13T09:33:02+01:00",
+            "subject": "[ARM][Thumb1] Improve EstimateFunctionSizeInBytes accuracy (#203318)"
+        },
+        {
+            "hash": "1651159f32cfcf82ecbb364dbf879e97b53d8060",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-07-13T09:33:38+01:00",
+            "subject": "[MLIR] Install missing standalone helper tools (#205066)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -182721,45 +182733,45 @@
     ],
     "fhahn\/perf\/ce-rotated-split": [
         {
-            "hash": "1bd63928e4fcf575d93aaef220c19ca41965e015",
-            "author_name": "Susan Tan (\u30b9-\u30b6\u30f3\u3000\u30bf\u30f3)",
-            "commit_date": "2026-07-09T14:46:53-04:00",
-            "subject": "[flang][acc] Add `OutlineIdentityOperandOpInterface` to hlfir\/fir declare (#208091)"
+            "hash": "c47d1cf955f607fea1d089b9e05aedf8867231ff",
+            "author_name": "jeanPerier",
+            "commit_date": "2026-07-13T10:14:35+02:00",
+            "subject": "[flang][FIR] implement asm alias interface for fir.type under option (#208665)"
         },
         {
-            "hash": "8cad2b6873026f0cbc4dd55f7142ec7ff894b893",
+            "hash": "f19e7d871b2d8d90d440476acd03c0c399edf83a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-09T19:52:55+01:00",
+            "commit_date": "2026-07-13T09:22:05+01:00",
             "subject": "[ConstraintElim] Add tests for post-increment\/latch induction facts (NFC)."
         },
         {
-            "hash": "5f325c1647c871b02b61e231e60ef821d0d288f0",
+            "hash": "15caf2894d549b789409c83acee62b226a0244f2",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-09T19:53:00+01:00",
-            "subject": "[ConstraintElim] Gate induction-fact derivation on a consuming compare."
-        },
-        {
-            "hash": "589b896492a70493367aa3c3e9628aa81893ae96",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-09T19:53:00+01:00",
+            "commit_date": "2026-07-13T09:22:06+01:00",
             "subject": "[ConstraintElim] Look through post-increment in header EQ\/NE compare."
         },
         {
-            "hash": "1dc5c8910d7c93b6d4db975cecc76656a6578413",
+            "hash": "8a02248e561632a18807cb48d5db0da466632737",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-09T19:53:00+01:00",
+            "commit_date": "2026-07-13T09:22:06+01:00",
             "subject": "[ConstraintElim] Match counting compare in the loop latch."
         },
         {
-            "hash": "0ccfc268f51aacd2a4340a013804f7dc24ae7aed",
+            "hash": "c0385ee1cc792eb0e5dab2f957046f0bd2e24e79",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-09T19:53:00+01:00",
+            "commit_date": "2026-07-13T09:22:06+01:00",
             "subject": "[ConstraintElim] Derive signed facts for post-increment inductions."
         },
         {
-            "hash": "7322081551c0e795d20636599fc1f74e37d1bf58",
+            "hash": "bb0c4ea42b2e978e0e790ba47941f49abfaf4042",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-09T19:53:00+01:00",
+            "commit_date": "2026-07-13T09:22:06+01:00",
+            "subject": "[ConstraintElim] Gate induction-fact derivation on a consuming compare."
+        },
+        {
+            "hash": "57f72c743d75d332c7a20a50202ad5407b0fb876",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-13T09:22:06+01:00",
             "subject": "[ConstraintElim] Read induction start\/step\/flags off IR, skip SCEV."
         }
     ],
