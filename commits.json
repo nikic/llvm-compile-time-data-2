@@ -177651,6 +177651,12 @@
             "author_name": "Lucas Ramirez",
             "commit_date": "2026-07-14T21:55:04+02:00",
             "subject": "[AMDGPU][CodeGen] Fix `S_NOP` insertion during `S_SET_VGPR_MSB` placement (#209525)"
+        },
+        {
+            "hash": "0b908e100f3d88232aa3b0190e23e41ca327edf1",
+            "author_name": "Jordan Rupprecht",
+            "commit_date": "2026-07-14T15:01:26-05:00",
+            "subject": "[clang][test] Avoid relying on `-fuse-ld=ld` default value for marm64x test (#209597)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -185121,27 +185127,27 @@
             "subject": "[ConstraintElim] Try to get induction step\/start\/flags from IR (NFC-ish)"
         },
         {
-            "hash": "f19f586909f53f40068ef052cfff35fb518ecbf3",
+            "hash": "ef3ab3ecd92fac51ee811c1a0ee6012f7e1e824b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-14T20:25:16+01:00",
+            "commit_date": "2026-07-14T21:00:00+01:00",
             "subject": "[ConstraintElim] Add tests for post-increment\/latch induction facts (NFC)."
         },
         {
-            "hash": "5e91506fe2bfc43d1f941a653777d0eed2ec9164",
+            "hash": "5d7be5d6f4d7228974adbc34bde6510cde17eb99",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-14T20:25:16+01:00",
+            "commit_date": "2026-07-14T21:00:14+01:00",
             "subject": "[ConstraintElim] Derive signed facts for post-increment inductions."
         },
         {
-            "hash": "3f7b580ee4c3944508b7304199313bb17bee667b",
+            "hash": "b4acb13843113aaca24556fef3816d26664bd8f2",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-14T20:25:16+01:00",
+            "commit_date": "2026-07-14T21:00:14+01:00",
             "subject": "[ConstraintElim] Match counting compare in the loop latch."
         },
         {
-            "hash": "ac4fc53989f5909fd50a08f213928a584f3d3be1",
+            "hash": "da28f5fe203060a0d64f457a4a6340e3823b6dd5",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-14T20:25:17+01:00",
+            "commit_date": "2026-07-14T21:00:14+01:00",
             "subject": "[ConstraintElim] Gate induction-fact derivation on a consuming compare."
         }
     ],
