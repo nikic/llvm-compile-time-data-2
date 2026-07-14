@@ -176865,6 +176865,12 @@
             "author_name": "Ryotaro Kasuga",
             "commit_date": "2026-07-14T19:23:24+09:00",
             "subject": "[SCEVDivision] Add assertion to check operand types match (NFCI) (#204146)"
+        },
+        {
+            "hash": "96dcb03caa310852329c4e7ad1d678c024c6ed94",
+            "author_name": "Paul Walker",
+            "commit_date": "2026-07-14T11:31:00+01:00",
+            "subject": "[NFC][LLVM][CodeGen][SVE] Strengthen the isel definition of AArch64setcc_z. (#209170)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -184521,6 +184527,26 @@
             "author_name": "Alexis Engelke",
             "commit_date": "2026-07-14T09:45:35+00:00",
             "subject": "cleanup?"
+        }
+    ],
+    "Enna1\/perf\/Jolyon0202\/opt-regco": [
+        {
+            "hash": "4708581453ead90685a55e343cc5ace1e1ddabb1",
+            "author_name": "hev",
+            "commit_date": "2026-07-08T02:24:04+00:00",
+            "subject": "[LoongArch] Add DAG combines for vector widening extends (#207316)"
+        },
+        {
+            "hash": "f2209419884ceb97fd1857127dc0eaf9d50a4f97",
+            "author_name": "YangJian",
+            "commit_date": "2026-07-09T15:43:34+08:00",
+            "subject": "[RegisterCoalescer] Avoid retrying high-cost joins for large segmented intervals"
+        },
+        {
+            "hash": "38a20d7fc82166b9c4dd0f46d7f2c78a9243c80b",
+            "author_name": "YangJian",
+            "commit_date": "2026-07-10T14:15:00+08:00",
+            "subject": "[RegisterCoalescer] change return value to an enum"
         }
     ]
 }
