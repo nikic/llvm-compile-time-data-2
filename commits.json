@@ -177621,6 +177621,12 @@
             "author_name": "Mike Kruskal",
             "commit_date": "2026-07-14T12:23:48-07:00",
             "subject": "Reland \"[compiler-rt] [sanitizer_common] Fix SIGSEGV in ForEachMappedRegion for DSOs with custom image base\" (#209576)"
+        },
+        {
+            "hash": "0fae10b74b93723b4a2a53804331696c1b37fe14",
+            "author_name": "Scott Linder",
+            "commit_date": "2026-07-14T15:30:53-04:00",
+            "subject": "[AMDGPU] Add stackPtrOffsetReg to llvm\/test\/CodeGen\/AMDGPU\/misaligned-vgpr-regsequence.mir (#209533)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -185383,6 +185389,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-07-14T20:25:55+01:00",
             "subject": "Step"
+        }
+    ],
+    "cachemeifyoucan\/perf\/unused-local-typedef-determinism": [
+        {
+            "hash": "e3227da7cdb8173c2df465e443a1dc73c71f017b",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-07-14T15:02:45-04:00",
+            "subject": "[SLP] Fix ScatterVectorize reorder desyncing scalars from operands"
+        },
+        {
+            "hash": "e37ce00ade184e68a14b793b52b26e729e30e7cb",
+            "author_name": "Steven Wu",
+            "commit_date": "2026-07-14T12:37:08-07:00",
+            "subject": "[Sema][Serialization] Emit unused local typedefs in a deterministic order"
         }
     ]
 }
