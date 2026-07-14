@@ -177609,6 +177609,18 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-07-14T12:17:49-07:00",
             "subject": "Revert \"[PGO][ICP] Prevent indirect call promotion to functions with incompatible target features\" (#209572)"
+        },
+        {
+            "hash": "5245afc014c4d34705bf8734fc835bcbfe9b6f39",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-14T21:19:12+02:00",
+            "subject": "[NFC][SPIR-V] Remove stale XFAIL in vk-pushconstant-layout.ll (#209447)"
+        },
+        {
+            "hash": "f69342fa200100560c689e0ccdbbc5c3249aee4b",
+            "author_name": "Mike Kruskal",
+            "commit_date": "2026-07-14T12:23:48-07:00",
+            "subject": "Reland \"[compiler-rt] [sanitizer_common] Fix SIGSEGV in ForEachMappedRegion for DSOs with custom image base\" (#209576)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -185067,39 +185079,39 @@
     ],
     "fhahn\/perf\/ce-rotated-split": [
         {
-            "hash": "4b32060e213376bf1d014ffc3a462c959d8adc0a",
-            "author_name": "disservin",
-            "commit_date": "2026-07-14T11:40:37+00:00",
-            "subject": "[X86] Use BMM for bitreverse without GFNI (#209223)"
+            "hash": "5245afc014c4d34705bf8734fc835bcbfe9b6f39",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-14T21:19:12+02:00",
+            "subject": "[NFC][SPIR-V] Remove stale XFAIL in vk-pushconstant-layout.ll (#209447)"
         },
         {
-            "hash": "6c6d35d9209844d965a1d60228b34bfeea73b9ec",
+            "hash": "4363e123798f266e943111f1b0b95ad62fe3c730",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-14T13:22:10+01:00",
+            "commit_date": "2026-07-14T20:25:15+01:00",
             "subject": "[ConstraintElim] Try to get induction step\/start\/flags from IR (NFC-ish)"
         },
         {
-            "hash": "cc52fdd9db8fcf46c2a1b402b7033b869aed75fb",
+            "hash": "f19f586909f53f40068ef052cfff35fb518ecbf3",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-14T13:22:36+01:00",
+            "commit_date": "2026-07-14T20:25:16+01:00",
             "subject": "[ConstraintElim] Add tests for post-increment\/latch induction facts (NFC)."
         },
         {
-            "hash": "89433cbb1174c12fbcb2503b27911bb9aeb38598",
+            "hash": "5e91506fe2bfc43d1f941a653777d0eed2ec9164",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-14T14:01:32+01:00",
+            "commit_date": "2026-07-14T20:25:16+01:00",
             "subject": "[ConstraintElim] Derive signed facts for post-increment inductions."
         },
         {
-            "hash": "cb20e8f299e5bfe5584ed37a5bd3802ae4fd4fa2",
+            "hash": "3f7b580ee4c3944508b7304199313bb17bee667b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-14T14:11:25+01:00",
+            "commit_date": "2026-07-14T20:25:16+01:00",
             "subject": "[ConstraintElim] Match counting compare in the loop latch."
         },
         {
-            "hash": "848a10da398d9eb79fd9fd11b56d57745bdce9c3",
+            "hash": "ac4fc53989f5909fd50a08f213928a584f3d3be1",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-14T14:11:27+01:00",
+            "commit_date": "2026-07-14T20:25:17+01:00",
             "subject": "[ConstraintElim] Gate induction-fact derivation on a consuming compare."
         }
     ],
@@ -185345,6 +185357,32 @@
             "author_name": "Momchil Velikov",
             "commit_date": "2026-07-14T14:15:54+00:00",
             "subject": "Add late inliner and SROA passes to the LTO pipeline"
+        }
+    ],
+    "fhahn\/perf\/ce-get-step-without-scev-2": [
+        {
+            "hash": "f69342fa200100560c689e0ccdbbc5c3249aee4b",
+            "author_name": "Mike Kruskal",
+            "commit_date": "2026-07-14T12:23:48-07:00",
+            "subject": "Reland \"[compiler-rt] [sanitizer_common] Fix SIGSEGV in ForEachMappedRegion for DSOs with custom image base\" (#209576)"
+        },
+        {
+            "hash": "eba151ee2d921a4cbf1d085bb0297489ea619eb4",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-14T20:25:54+01:00",
+            "subject": "[ConstraintElim] Add tests."
+        },
+        {
+            "hash": "de7fa15542c70a77ab964e86811b65cf79ab1805",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-14T20:25:55+01:00",
+            "subject": "[ConstraintElim] Try to get induction step\/start\/flags from IR (NFC-ish)"
+        },
+        {
+            "hash": "02ff0b51221cc6809e73aabe84c8e8f043ca4161",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-14T20:25:55+01:00",
+            "subject": "Step"
         }
     ]
 }
