@@ -177057,6 +177057,18 @@
             "author_name": "Pavel Labath",
             "commit_date": "2026-07-14T14:14:17+02:00",
             "subject": "[libc] Fix non-relative includes of __llvm-libc-common.h (#209412)"
+        },
+        {
+            "hash": "cd943207f38d36528a36009e55f80501da98bcef",
+            "author_name": "Mark Zhuang",
+            "commit_date": "2026-07-14T20:21:31+08:00",
+            "subject": "[flang-rt] Disable tests by default when cross-compiling (#208926)"
+        },
+        {
+            "hash": "d64972c91369c6372e23e728881d9c645edeb37d",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-14T14:23:11+02:00",
+            "subject": "clang-linker-wrapper: Add additional amdgpu device merging tests (#209428)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -184681,15 +184693,15 @@
     ],
     "fhahn\/perf\/ce-get-step-without-scev": [
         {
-            "hash": "add1925e5ee942794d7d6e8b4d65b32c959d472a",
-            "author_name": "Sander de Smalen",
-            "commit_date": "2026-07-14T10:20:15+01:00",
-            "subject": "[AArch64] NFCI: Simplify LowerVectorFP_TO_INT_SAT (part 2) (#207199)"
+            "hash": "4b32060e213376bf1d014ffc3a462c959d8adc0a",
+            "author_name": "disservin",
+            "commit_date": "2026-07-14T11:40:37+00:00",
+            "subject": "[X86] Use BMM for bitreverse without GFNI (#209223)"
         },
         {
-            "hash": "d28fa681b2cea9ab7bc0b19e0a7221a48fd93cd8",
+            "hash": "6c6d35d9209844d965a1d60228b34bfeea73b9ec",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-14T11:45:28+01:00",
+            "commit_date": "2026-07-14T13:22:10+01:00",
             "subject": "[ConstraintElim] Try to get induction step\/start\/flags from IR (NFC-ish)"
         }
     ],
