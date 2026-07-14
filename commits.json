@@ -184936,5 +184936,19 @@
             "commit_date": "2026-07-14T13:24:57+00:00",
             "subject": "Bump version to 23.1.0git"
         }
+    ],
+    "momchil-velikov\/perf\/extra-late-passes-squished": [
+        {
+            "hash": "1b10cd91d12d783fe8754c100a3afaacfee3bf9f",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-07-14T09:58:03-04:00",
+            "subject": "[SLP]Do not blacklist ordered-reduction operands on failed root attempt"
+        },
+        {
+            "hash": "d4b7fe233f7dd6d4eb0746dfe9bc13d907b77f75",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-07-14T14:15:54+00:00",
+            "subject": "Add late inliner and SROA passes to the LTO pipeline"
+        }
     ]
 }
