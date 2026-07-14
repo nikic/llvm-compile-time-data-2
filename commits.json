@@ -176907,6 +176907,30 @@
             "author_name": "Miko\u0142aj Pir\u00f3g",
             "commit_date": "2026-07-14T10:50:29+00:00",
             "subject": "[UnwinderV3] Include padding in spliting calculations (#208458)"
+        },
+        {
+            "hash": "24c3eaa9ccaffca94e4d82a312fcc4ed13e62476",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-14T10:57:08+00:00",
+            "subject": "AMDGPU: Migrate CodeGen tests to amdgpu subarch triple (18) (#209121)"
+        },
+        {
+            "hash": "23a32bcedb91f27ffdac5d6e6bc65a3b19b3b36c",
+            "author_name": "Ryotaro Kasuga",
+            "commit_date": "2026-07-14T11:03:19+00:00",
+            "subject": "[SCEVDivision] Remove unnecessary integer casts (NFCI) (#208155)"
+        },
+        {
+            "hash": "b1c29d83c938183a4fbd706818aa09de7e9eafec",
+            "author_name": "David Spickett",
+            "commit_date": "2026-07-14T12:06:00+01:00",
+            "subject": "[lldb][docs] Fix some formatting in the packets doc (#209440)"
+        },
+        {
+            "hash": "03b4714611ab0aab34c7267e0946fb79bf40babe",
+            "author_name": "Sergey Shcherbinin",
+            "commit_date": "2026-07-14T16:37:06+05:30",
+            "subject": "[flang][NFC] Fix function-attr-readonly test on PowerPC (#209431)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -179369,16 +179393,28 @@
     ],
     "momchil-velikov\/perf\/extra-late-passes": [
         {
-            "hash": "14bf8e76c021c200b6e37b9df996dbfc0b5dbd4e",
-            "author_name": "Joseph Huber",
-            "commit_date": "2026-05-12T07:04:11-05:00",
-            "subject": "[libclc] Base the build around `add_sources` instead of source list (#197034)"
+            "hash": "2a6cc991cc691f2cc666483c417f01675321ce2c",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-07-14T12:21:10+02:00",
+            "subject": "[SystemZ] Support pseudo fmin\/fmax (#209178)"
         },
         {
-            "hash": "bb8025f5289b8637b9602703f7eee0b4c919f9f5",
+            "hash": "9d1fb22f2822826aed23b8ef7399517ea4815e71",
             "author_name": "Momchil Velikov",
-            "commit_date": "2026-05-12T15:58:35+00:00",
+            "commit_date": "2026-07-14T11:35:42+01:00",
             "subject": "[DIS-PRE-LTO-VEC] Add extra EarlySCE to late passes"
+        },
+        {
+            "hash": "a3b999e91a1553a4edc39cd621758330e161bfde",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-07-14T11:35:42+01:00",
+            "subject": "[fuxup] Remove the late EarlyCSE pass (previously added)"
+        },
+        {
+            "hash": "3d4b943268b1d2ce8fd26c94a864dd20bd7dbfb5",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-07-14T11:35:43+01:00",
+            "subject": "[fixup] Add late inliner and SROA passes to the LTO pipeline"
         }
     ],
     "guy-david\/perf\/gep-assume": [
