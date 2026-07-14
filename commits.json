@@ -177573,6 +177573,42 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-07-14T15:02:45-04:00",
             "subject": "[SLP] Fix ScatterVectorize reorder desyncing scalars from operands"
+        },
+        {
+            "hash": "42b67e529c59b77c6dfac9cc5d2b263e752851f6",
+            "author_name": "David Young",
+            "commit_date": "2026-07-14T12:13:21-07:00",
+            "subject": "[lit] Don't crash in _write_message when getsourcefile() returns None (#206957)"
+        },
+        {
+            "hash": "e0b4701f2621d2542405830008797e3cf319a3f0",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-14T21:14:30+02:00",
+            "subject": "AMDGPU: Migrate CodeGen tests to amdgpu subarch triple (31) (#209560)"
+        },
+        {
+            "hash": "d0775bdb7f483b8aa4700b97a65718d5f3c9cfa8",
+            "author_name": "lntue",
+            "commit_date": "2026-07-14T15:15:14-04:00",
+            "subject": "[libc] Fix potential timespec type mismatch for arm32 targets in futex_utils.h. (#209556)"
+        },
+        {
+            "hash": "226b0b59bfca58ef831bd668dcf219a79f11f957",
+            "author_name": "Muhammad Bassiouni",
+            "commit_date": "2026-07-14T22:16:31+03:00",
+            "subject": "[Clang][C2y] Add support for if declarations (N3356 paper) (#198244)"
+        },
+        {
+            "hash": "21bc62e6688a5dcaf79ebd992e5e4676b287a674",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-14T21:16:34+02:00",
+            "subject": "AMDGPU: Migrate CodeGen tests to amdgpu subarch triple (32) (#209561)"
+        },
+        {
+            "hash": "fc0b032ba8b56f02e834847ec3e2a6375011017f",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-07-14T12:17:49-07:00",
+            "subject": "Revert \"[PGO][ICP] Prevent indirect call promotion to functions with incompatible target features\" (#209572)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
