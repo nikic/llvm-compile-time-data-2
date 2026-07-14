@@ -184770,5 +184770,31 @@
             "commit_date": "2026-07-10T14:15:00+08:00",
             "subject": "[RegisterCoalescer] change return value to an enum"
         }
+    ],
+    "momchil-velikov\/perf\/chill-extra-late-passes": [
+        {
+            "hash": "2a6cc991cc691f2cc666483c417f01675321ce2c",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-07-14T12:21:10+02:00",
+            "subject": "[SystemZ] Support pseudo fmin\/fmax (#209178)"
+        },
+        {
+            "hash": "9d1fb22f2822826aed23b8ef7399517ea4815e71",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-07-14T11:35:42+01:00",
+            "subject": "[DIS-PRE-LTO-VEC] Add extra EarlySCE to late passes"
+        },
+        {
+            "hash": "a3b999e91a1553a4edc39cd621758330e161bfde",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-07-14T11:35:42+01:00",
+            "subject": "[fuxup] Remove the late EarlyCSE pass (previously added)"
+        },
+        {
+            "hash": "3d4b943268b1d2ce8fd26c94a864dd20bd7dbfb5",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-07-14T11:35:43+01:00",
+            "subject": "[fixup] Add late inliner and SROA passes to the LTO pipeline"
+        }
     ]
 }
