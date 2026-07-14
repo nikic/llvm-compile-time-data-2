@@ -184665,52 +184665,40 @@
     ],
     "fhahn\/perf\/ce-rotated-split": [
         {
-            "hash": "c47d1cf955f607fea1d089b9e05aedf8867231ff",
-            "author_name": "jeanPerier",
-            "commit_date": "2026-07-13T10:14:35+02:00",
-            "subject": "[flang][FIR] implement asm alias interface for fir.type under option (#208665)"
+            "hash": "4b32060e213376bf1d014ffc3a462c959d8adc0a",
+            "author_name": "disservin",
+            "commit_date": "2026-07-14T11:40:37+00:00",
+            "subject": "[X86] Use BMM for bitreverse without GFNI (#209223)"
         },
         {
-            "hash": "f19e7d871b2d8d90d440476acd03c0c399edf83a",
+            "hash": "6c6d35d9209844d965a1d60228b34bfeea73b9ec",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-13T09:22:05+01:00",
+            "commit_date": "2026-07-14T13:22:10+01:00",
+            "subject": "[ConstraintElim] Try to get induction step\/start\/flags from IR (NFC-ish)"
+        },
+        {
+            "hash": "cc52fdd9db8fcf46c2a1b402b7033b869aed75fb",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-14T13:22:36+01:00",
             "subject": "[ConstraintElim] Add tests for post-increment\/latch induction facts (NFC)."
         },
         {
-            "hash": "754435d4b62d32b6d220b8fef178574fa0267d72",
+            "hash": "89433cbb1174c12fbcb2503b27911bb9aeb38598",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-13T12:33:30+01:00",
-            "subject": "[ConstraintElim] Check if there's a loop predecessors first (NFC)."
-        },
-        {
-            "hash": "f15af95a0be1545fb8c61b2aa024b43254deb6af",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-13T12:38:39+01:00",
-            "subject": "[ConstraintElim] Look through post-increment in header EQ\/NE compare."
-        },
-        {
-            "hash": "6056a84379fb52ca78d8203cc669d62bb471aff3",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-13T12:38:41+01:00",
-            "subject": "[ConstraintElim] Match counting compare in the loop latch."
-        },
-        {
-            "hash": "5b635a6c2ebefc426c553d2faeca4938f01b85ac",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-13T12:38:41+01:00",
+            "commit_date": "2026-07-14T14:01:32+01:00",
             "subject": "[ConstraintElim] Derive signed facts for post-increment inductions."
         },
         {
-            "hash": "cebfe14ea679020225a43b9f7a01b4280d8fd732",
+            "hash": "cb20e8f299e5bfe5584ed37a5bd3802ae4fd4fa2",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-13T12:39:15+01:00",
-            "subject": "[ConstraintElim] Gate induction-fact derivation on a consuming compare."
+            "commit_date": "2026-07-14T14:11:25+01:00",
+            "subject": "[ConstraintElim] Match counting compare in the loop latch."
         },
         {
-            "hash": "0967563c32bbb9f6bf8460706abac9515ab113ab",
+            "hash": "848a10da398d9eb79fd9fd11b56d57745bdce9c3",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-13T12:40:12+01:00",
-            "subject": "[ConstraintElim] Read induction start\/step\/flags off IR, skip SCEV."
+            "commit_date": "2026-07-14T14:11:27+01:00",
+            "subject": "[ConstraintElim] Gate induction-fact derivation on a consuming compare."
         }
     ],
     "aleks-tmb\/perf\/zext-add-loop-guards": [
