@@ -177153,6 +177153,18 @@
             "author_name": "Paul Walker",
             "commit_date": "2026-07-14T14:22:21+01:00",
             "subject": "[LLVM][CodeGen][SVE] Add isel for zext(setcc(x,0,ne)) -> umin(x,1). (#209452)"
+        },
+        {
+            "hash": "c5022b53e409f68de0a21039f536d0119bb666c9",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-07-14T15:33:04+02:00",
+            "subject": "[SystemZ] Add support for strict_pseudo_fmin\/fmax (#209434)"
+        },
+        {
+            "hash": "6d12cf1389fa3ef57f880b8c0b25e66f0caa2f32",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-14T15:33:25+02:00",
+            "subject": "Reapply \"[IR][NFC] Drop vtable from PassConcept\/PassModel\" (#208168) (#209414)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -184873,6 +184885,20 @@
             "author_name": "Momchil Velikov",
             "commit_date": "2026-07-14T11:35:43+01:00",
             "subject": "[fixup] Add late inliner and SROA passes to the LTO pipeline"
+        }
+    ],
+    "origin\/release\/23.x": [
+        {
+            "hash": "fb423ba07c3ff51fda3caa41d8bbb78d50f61906",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-07-14T06:18:31-07:00",
+            "subject": "[ThinLTO] Error on missing ValueInfo for function definition"
+        },
+        {
+            "hash": "f0777c1f997c0a95897dbaba2919bb96236849b2",
+            "author_name": "Douglas Yung",
+            "commit_date": "2026-07-14T13:24:57+00:00",
+            "subject": "Bump version to 23.1.0git"
         }
     ]
 }
