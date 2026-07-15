@@ -178191,6 +178191,12 @@
             "author_name": "Ilia Kuklin",
             "commit_date": "2026-07-15T14:52:28+05:00",
             "subject": "[Driver][DirectX] Add `\/Qsource_in_debug_module` flag (#204415)"
+        },
+        {
+            "hash": "17406f7e49d45808cb828d6bc225b6f6656938b1",
+            "author_name": "Kseniya Tikhomirova",
+            "commit_date": "2026-07-15T12:00:59+02:00",
+            "subject": "[libsycl] implement methods of synchronization in event and queue classes (#205860)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -185925,6 +185931,24 @@
             "author_name": "Douglas Yung",
             "commit_date": "2026-07-15T08:22:52+00:00",
             "subject": "Fix test that had a check embedded which depended on the current LLVM version number. (#209530)"
+        },
+        {
+            "hash": "b9c1e158337a9f3975f868c493cf902406d13954",
+            "author_name": "Jordan Rupprecht",
+            "commit_date": "2026-07-15T09:13:27+00:00",
+            "subject": "[clang][test] Avoid relying on `-fuse-ld=ld` default value for marm64x test (#209597)"
+        },
+        {
+            "hash": "5100381e4719316bb4f00419bb52e260dc32f2e6",
+            "author_name": "Garvit Gupta",
+            "commit_date": "2026-07-15T10:01:58+00:00",
+            "subject": "[RISCV] Fold 26-bit frame-index offsets into Xqcilo\/Xqcilia load\/store\/addi (#209315)"
+        },
+        {
+            "hash": "6e708e7d66bb2c8daee1334068190c3138ca20ee",
+            "author_name": "Hans Wennborg",
+            "commit_date": "2026-07-15T10:07:19+00:00",
+            "subject": "Revert \"[Clang] Allow devirtualization involving array subscripts with constant indices when the pointee type is known [CWG1504] (#207540) (#209596)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
