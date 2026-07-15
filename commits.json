@@ -178341,6 +178341,12 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-07-15T14:05:24+02:00",
             "subject": "clang-offload-bundler: Fix host dependency of tests (#209720)"
+        },
+        {
+            "hash": "e41f5aa4d656ed16b8f9890ee7f30fb1845d4a03",
+            "author_name": "Robert Imschweiler",
+            "commit_date": "2026-07-15T14:09:17+02:00",
+            "subject": "[runtimes] Add explicit offload arch tool dependencies (#206076)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -186199,27 +186205,21 @@
     ],
     "tbaederr\/perf\/virtual-bases": [
         {
-            "hash": "b1a6a90dff53b60d66f49516938ef47344a45699",
-            "author_name": "Vachan",
-            "commit_date": "2026-07-14T13:37:07+00:00",
-            "subject": "[X86] Remove redundant `cmp` before `adc` after `lzcnt` or `tzcnt` (#208392)"
+            "hash": "0f24969ade9df74b11ff70a2c0b1f49ff49e92fd",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-07-15T11:07:57+00:00",
+            "subject": "[Clang][AMDGPU] Deprecate icmp\/fcmp builtins in favor of ballot (#209416)"
         },
         {
-            "hash": "117750645dee45d9be24be04f6e0962d9ef90e16",
+            "hash": "f7134429111ed2f8da1a971af5664e9a99c9c920",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-07-14T16:55:08+02:00",
+            "commit_date": "2026-07-15T14:12:35+02:00",
             "subject": "[clang][bytecode] Support virtual bases"
         },
         {
-            "hash": "4acbd9d90715d38b1eef8db7936f799d26c57b0a",
+            "hash": "8d55e8c2c22b8cfaf1793844bd2091bd34c2b571",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-07-15T07:38:29+02:00",
-            "subject": "Revamp pointsToCompleteClass()"
-        },
-        {
-            "hash": "ab45398707a23302673a841ac33dade091488c7e",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-07-15T13:42:31+02:00",
+            "commit_date": "2026-07-15T14:12:38+02:00",
             "subject": "test"
         }
     ]
