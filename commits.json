@@ -179067,6 +179067,42 @@
             "author_name": "Sirraide",
             "commit_date": "2026-07-15T19:49:29+00:00",
             "subject": "[Clang] [Diagnostic] Extend DiagCompat() to C language modes (#209241)"
+        },
+        {
+            "hash": "0f494fc6576600f79bbcdb5314fbed6c13da7395",
+            "author_name": "Vy Nguyen",
+            "commit_date": "2026-07-15T19:53:15+00:00",
+            "subject": "[codegen]Ensure __builtin_trap() has an unreachable (#197789)"
+        },
+        {
+            "hash": "23ead65310da314ae04a1c30137f279beaac1a4f",
+            "author_name": "Patrik Dokoupil",
+            "commit_date": "2026-07-15T19:54:08+00:00",
+            "subject": "[compiler-rt][sanitizer_common] Fix setgroups syscall pre-hook to check its input (#209207)"
+        },
+        {
+            "hash": "09599503b1314a0394e57adbd6279d9a220bfdb8",
+            "author_name": "Arda Serdar Pektezol",
+            "commit_date": "2026-07-15T12:54:13-07:00",
+            "subject": "[LowerTypeTests] Avoid null dereference on invalid branch funnel operand (#204951)"
+        },
+        {
+            "hash": "ce586b57f4a8e32d47df58dc1b11730f07ffc834",
+            "author_name": "Thurston Dang",
+            "commit_date": "2026-07-15T12:55:20-07:00",
+            "subject": "[msan] Handle AVX512 fpclass (floating-point classification) for packed double\/float (#209652)"
+        },
+        {
+            "hash": "835ae525713e27aa98c46469792cee980669c6ca",
+            "author_name": "Wenju He",
+            "commit_date": "2026-07-15T12:57:32-07:00",
+            "subject": "[compiler-rt] Fix asan_interceptors.cpp build warning -Wunused-template (#209750)"
+        },
+        {
+            "hash": "7021b428656d283626e9ab3c1a81795c1f6c7086",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-15T20:58:06+01:00",
+            "subject": "[ConstraintElim] Try to get induction step\/start\/flags from IR (NFC-ish) (#209284)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
