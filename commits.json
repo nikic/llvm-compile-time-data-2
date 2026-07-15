@@ -178857,6 +178857,30 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-07-15T10:15:13-07:00",
             "subject": "[CycleInfo] Move representation-dependent queries to GenericCycleInfo. NFC"
+        },
+        {
+            "hash": "a16f3a09415d28928b1e5133ad63ad3d2d97fa99",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-07-15T13:21:26-04:00",
+            "subject": "[libc++] Add benchmarks for std::replace_copy and std::replace_copy_if (#207070)"
+        },
+        {
+            "hash": "0a933be62ea9fb3c6835ffa37852ef9a0288bccf",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-07-15T13:22:25-04:00",
+            "subject": "[libc++] Add benchmarks for std::binary_search and std::equal_range (#207268)"
+        },
+        {
+            "hash": "f4120c4a1d0daaac81983df10a809df883b25173",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-07-15T13:24:03-04:00",
+            "subject": "[libc++] Treat negative counts in copy_n & friends as no-ops (#207086)"
+        },
+        {
+            "hash": "dccdacc2dc49c708a8fde04b04ae76b552aaf122",
+            "author_name": "Victor Perez",
+            "commit_date": "2026-07-15T13:24:17-04:00",
+            "subject": "[mlir][arith] Canonicalize `addf(negf(x), y)` to `subf(y, x)` (#209277)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
