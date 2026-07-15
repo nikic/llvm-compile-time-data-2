@@ -179013,6 +179013,18 @@
             "author_name": "Bj\u00f6rn Sch\u00e4pers",
             "commit_date": "2026-07-15T20:58:21+02:00",
             "subject": "[clang-format] Improve requires clause parsing (#207542)"
+        },
+        {
+            "hash": "105261293d6763055cecf7e37aced21de94eaefc",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-07-15T19:04:40+00:00",
+            "subject": "[X86] fmaddsub-combine.ll + fmsubadd-combine.ll - cleanup 512-bit buildvector tests (#209850)"
+        },
+        {
+            "hash": "f41f334bff98866aefa33f09ae67b61532afa4a5",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-15T19:08:03+00:00",
+            "subject": "AMDGPU: Migrate tests with regenerated checks to amdgpu subarch triple (54) (#209780)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -186951,6 +186963,20 @@
             "author_name": "Antonio Frighetto",
             "commit_date": "2026-07-15T18:46:43+02:00",
             "subject": "[ConstraintElimination] Handle equality predicates with signed system"
+        }
+    ],
+    "antoniofrighetto\/perf\/constraintelim-trunc-nuw": [
+        {
+            "hash": "2c57ae5efb0159521287c80255e3a604f3b0dcfe",
+            "author_name": "Faijul Amin",
+            "commit_date": "2026-07-15T09:42:15-07:00",
+            "subject": "[SPIRV] Sign-extend operands of sign-sensitive ops on sub-pow2 widths (#203661)"
+        },
+        {
+            "hash": "828c9c28e41d0e00768c5a064c90077aca3f0655",
+            "author_name": "Andreas Jonson",
+            "commit_date": "2026-07-15T21:06:53+02:00",
+            "subject": "[ConstraintElim] Add trunc nuw support to condition checks"
         }
     ]
 }
