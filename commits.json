@@ -178917,6 +178917,18 @@
             "author_name": "Joseph Huber",
             "commit_date": "2026-07-15T12:49:02-05:00",
             "subject": "[LLVM] Fix not passing CMAKE_CROSSCOMPILING_EMULATOR for amdgpu (#209828)"
+        },
+        {
+            "hash": "3a10c3aa3c2087ca4e6f0a18e182ced84a8a7fd0",
+            "author_name": "Rashmi Mudduluru",
+            "commit_date": "2026-07-15T10:55:39-07:00",
+            "subject": "[clang][SSAF] Optionally skip system-header contributors (#205446)"
+        },
+        {
+            "hash": "5979f7c96f44d225219d3c637773455e51190ad2",
+            "author_name": "Letu Ren",
+            "commit_date": "2026-07-15T10:58:40-07:00",
+            "subject": "[CIR][NFC] Update stale elementwise handler (#207530)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -186529,16 +186541,16 @@
     ],
     "fhahn\/perf\/ce-get-step-without-scev": [
         {
-            "hash": "4b32060e213376bf1d014ffc3a462c959d8adc0a",
-            "author_name": "disservin",
-            "commit_date": "2026-07-14T11:40:37+00:00",
-            "subject": "[X86] Use BMM for bitreverse without GFNI (#209223)"
-        },
-        {
             "hash": "6c6d35d9209844d965a1d60228b34bfeea73b9ec",
             "author_name": "Florian Hahn",
             "commit_date": "2026-07-14T13:22:10+01:00",
             "subject": "[ConstraintElim] Try to get induction step\/start\/flags from IR (NFC-ish)"
+        },
+        {
+            "hash": "ca6550c3fa0eb7776dc897394ec5b227ed2ebda4",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-15T19:02:39+01:00",
+            "subject": "Merge branch 'main' into perf\/ce-get-step-without-scev"
         }
     ],
     "bababuck\/perf\/mr208511": [
@@ -186669,6 +186681,12 @@
             "author_name": "Hans Wennborg",
             "commit_date": "2026-07-15T10:07:19+00:00",
             "subject": "Revert \"[Clang] Allow devirtualization involving array subscripts with constant indices when the pointee type is known [CWG1504] (#207540) (#209596)"
+        },
+        {
+            "hash": "8cc33c0fec099662f6e9ecb9e0a0c792b3643967",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-07-15T18:02:56+00:00",
+            "subject": "[Clang] Require x86 target for some tests (#209532)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
