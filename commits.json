@@ -178833,6 +178833,30 @@
             "author_name": "Markos Horro",
             "commit_date": "2026-07-15T18:55:07+02:00",
             "subject": "[LLVM][ADT] Adding range-based test_all and test_any methods for BitVector (#209790)"
+        },
+        {
+            "hash": "0cf914adef4b0f1f5251354b91f5c709b95b1b1e",
+            "author_name": "Michael Jones",
+            "commit_date": "2026-07-15T09:58:49-07:00",
+            "subject": "[libcxx][libc] update LLVM-libc test status (#201236)"
+        },
+        {
+            "hash": "547e9d0c9175f37c9ddd367bbe443a2fd7d6ab7a",
+            "author_name": "Ulrich Weigand",
+            "commit_date": "2026-07-15T18:59:52+02:00",
+            "subject": "[OpenMP] Fix endian bug in hierarchical barrier code (#117073)"
+        },
+        {
+            "hash": "0639fe182414f04d767175a195a8a26da5d48159",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-07-15T18:01:20+01:00",
+            "subject": "[X86] combineINSERT_SUBVECTOR - use peekThroughBitcastsAndExtracts helper to match target shuffles as well. NFC. (#209803)"
+        },
+        {
+            "hash": "d55259aa61b703ce63613a022c5cb14f6b588b46",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-07-15T10:15:13-07:00",
+            "subject": "[CycleInfo] Move representation-dependent queries to GenericCycleInfo. NFC"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -186721,6 +186745,20 @@
             "author_name": "Abhay Kanhere",
             "commit_date": "2026-07-15T15:36:41+02:00",
             "subject": "LSHR x, n <= x when n< bitwidth"
+        }
+    ],
+    "antoniofrighetto\/perf\/ce-eq-holds-signed-2": [
+        {
+            "hash": "2c57ae5efb0159521287c80255e3a604f3b0dcfe",
+            "author_name": "Faijul Amin",
+            "commit_date": "2026-07-15T09:42:15-07:00",
+            "subject": "[SPIRV] Sign-extend operands of sign-sensitive ops on sub-pow2 widths (#203661)"
+        },
+        {
+            "hash": "bf39b0cddfedee71eeb90ba44abc16509b9ffce3",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-07-15T18:46:43+02:00",
+            "subject": "[ConstraintElimination] Handle equality predicates with signed system"
         }
     ]
 }
