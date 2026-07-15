@@ -179037,6 +179037,18 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-07-15T21:27:55+02:00",
             "subject": "AMDGPU: Fold -mcpu into subarch triple for attributor tests (56) (#209816)"
+        },
+        {
+            "hash": "90a2e5010fa88627cd21bd0311833c786be8a213",
+            "author_name": "Thurston Dang",
+            "commit_date": "2026-07-15T12:30:37-07:00",
+            "subject": "[msan] Handle AVX512 mask.compress (#209654)"
+        },
+        {
+            "hash": "d48f3ca0dc9027fd892336f7b4f046a6c5887c02",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-15T21:30:40+02:00",
+            "subject": "AMDGPU: Migrate more tests to using subarch triple commands (57) (#209817)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -186989,6 +187001,32 @@
             "author_name": "Andreas Jonson",
             "commit_date": "2026-07-15T21:06:53+02:00",
             "subject": "[ConstraintElim] Add trunc nuw support to condition checks"
+        }
+    ],
+    "fhahn\/perf\/vplan-split-up-transforms": [
+        {
+            "hash": "f41f334bff98866aefa33f09ae67b61532afa4a5",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-15T19:08:03+00:00",
+            "subject": "AMDGPU: Migrate tests with regenerated checks to amdgpu subarch triple (54) (#209780)"
+        },
+        {
+            "hash": "d9343aa06c0e363cf0f1773591d9b6cae349b211",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-15T20:20:34+01:00",
+            "subject": "[VPlan] Move EVL-based transforms to VPlanEVLTransforms.cpp (NFC)"
+        },
+        {
+            "hash": "df84429b5087187f8f5e2f875eae491eb9d88190",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-15T20:20:34+01:00",
+            "subject": "[VPlan] Move lowering transforms to VPlanLowering.cpp (NFC)"
+        },
+        {
+            "hash": "1aa01cff7973a9f0694fe6a1ac36a5a4a32a4126",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-15T20:20:35+01:00",
+            "subject": "[VPlan] Move widening decisions to VPlanWideningDecisions.cpp (NFC)"
         }
     ]
 }
