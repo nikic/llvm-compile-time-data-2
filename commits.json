@@ -178929,6 +178929,24 @@
             "author_name": "Letu Ren",
             "commit_date": "2026-07-15T10:58:40-07:00",
             "subject": "[CIR][NFC] Update stale elementwise handler (#207530)"
+        },
+        {
+            "hash": "b8ba3c2b72cb53268129bbecfeb4ba7ec5b8d831",
+            "author_name": "Reinhard Stahn",
+            "commit_date": "2026-07-15T20:05:26+02:00",
+            "subject": "[mlir][SCFToAffine] Raise scf.for to affine.for (#200851)"
+        },
+        {
+            "hash": "ea612545644d1e3f238ac4cd053758f569f9bf3b",
+            "author_name": "Karthika Devi C",
+            "commit_date": "2026-07-15T23:36:45+05:30",
+            "subject": "[Polly] Fix codegen assertions to account for DefinedBehaviorContext (#209188)"
+        },
+        {
+            "hash": "378629b2200b092fa33e6171e7c749c95ff92e9c",
+            "author_name": "anoopkg6",
+            "commit_date": "2026-07-15T20:08:17+02:00",
+            "subject": "[flang] Derive target-specific data layout from triple in TargetRewrite (#209649)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -186541,16 +186559,22 @@
     ],
     "fhahn\/perf\/ce-get-step-without-scev": [
         {
-            "hash": "6c6d35d9209844d965a1d60228b34bfeea73b9ec",
+            "hash": "b8ba3c2b72cb53268129bbecfeb4ba7ec5b8d831",
+            "author_name": "Reinhard Stahn",
+            "commit_date": "2026-07-15T20:05:26+02:00",
+            "subject": "[mlir][SCFToAffine] Raise scf.for to affine.for (#200851)"
+        },
+        {
+            "hash": "435a79ebc359b5e09a83ae00c37125039c71c23b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-14T13:22:10+01:00",
+            "commit_date": "2026-07-15T19:06:32+01:00",
             "subject": "[ConstraintElim] Try to get induction step\/start\/flags from IR (NFC-ish)"
         },
         {
-            "hash": "ca6550c3fa0eb7776dc897394ec5b227ed2ebda4",
+            "hash": "2bede223d3ec3ed6e2e9654b635258c50e4e90df",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-15T19:02:39+01:00",
-            "subject": "Merge branch 'main' into perf\/ce-get-step-without-scev"
+            "commit_date": "2026-07-15T19:06:32+01:00",
+            "subject": "!fixup fall back to SCEV for monotonicity"
         }
     ],
     "bababuck\/perf\/mr208511": [
@@ -186687,6 +186711,30 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-07-15T18:02:56+00:00",
             "subject": "[Clang] Require x86 target for some tests (#209532)"
+        },
+        {
+            "hash": "a431e974f000a55eef4936a92965034eb1f5acaf",
+            "author_name": "Krisitan Erik Olsen",
+            "commit_date": "2026-07-15T18:03:35+00:00",
+            "subject": "[X86] Skip debug instructions in tile copy lowering (#209640)"
+        },
+        {
+            "hash": "ed334243b371778ed994f6bec07b49bb33379d4a",
+            "author_name": "Lukacma",
+            "commit_date": "2026-07-15T18:04:13+00:00",
+            "subject": "[AArch64] Remove HCX feature flag from backend (#209477)"
+        },
+        {
+            "hash": "fc48c7e574f87f478ed17cee143afae350f7be88",
+            "author_name": "Mel Chen",
+            "commit_date": "2026-07-15T18:04:50+00:00",
+            "subject": "[VPlan] Fix nowrap flags for strided access pointers from SCEV (#209453)"
+        },
+        {
+            "hash": "ce6af707aac85db6e176ad0faa3bfe608e1a68f5",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-07-15T18:05:27+00:00",
+            "subject": "Create a Template member to be the MemberSpec of a failed TemplVarDecl (#209604)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
