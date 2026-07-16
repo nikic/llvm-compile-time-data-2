@@ -187011,39 +187011,33 @@
     ],
     "fhahn\/perf\/ce-rotated-split": [
         {
-            "hash": "5245afc014c4d34705bf8734fc835bcbfe9b6f39",
-            "author_name": "Arseniy Obolenskiy",
-            "commit_date": "2026-07-14T21:19:12+02:00",
-            "subject": "[NFC][SPIR-V] Remove stale XFAIL in vk-pushconstant-layout.ll (#209447)"
+            "hash": "83582cfcdb4973a337195c1f59d6a3468d135434",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-07-16T09:40:30+00:00",
+            "subject": "[clang][CodeGen] Do not use atomicrmw in compound assignments with FP conversions (#209114)"
         },
         {
-            "hash": "4363e123798f266e943111f1b0b95ad62fe3c730",
+            "hash": "cc8ae4aac638aabea9444d434f618fd8ed680997",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-14T20:25:15+01:00",
-            "subject": "[ConstraintElim] Try to get induction step\/start\/flags from IR (NFC-ish)"
+            "commit_date": "2026-07-16T10:53:12+01:00",
+            "subject": "Add test"
         },
         {
-            "hash": "ef3ab3ecd92fac51ee811c1a0ee6012f7e1e824b",
+            "hash": "8f65692c2b74f5b5ac7a79db57fae481e42878c4",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-14T21:00:00+01:00",
-            "subject": "[ConstraintElim] Add tests for post-increment\/latch induction facts (NFC)."
-        },
-        {
-            "hash": "5d7be5d6f4d7228974adbc34bde6510cde17eb99",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-14T21:00:14+01:00",
+            "commit_date": "2026-07-16T10:53:12+01:00",
             "subject": "[ConstraintElim] Derive signed facts for post-increment inductions."
         },
         {
-            "hash": "b4acb13843113aaca24556fef3816d26664bd8f2",
+            "hash": "694a561d80446f6796189e547458bb4f63029b4a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-14T21:00:14+01:00",
+            "commit_date": "2026-07-16T10:53:13+01:00",
             "subject": "[ConstraintElim] Match counting compare in the loop latch."
         },
         {
-            "hash": "da28f5fe203060a0d64f457a4a6340e3823b6dd5",
+            "hash": "0231848804201389de9e2476d18da872f5cb7ade",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-14T21:00:14+01:00",
+            "commit_date": "2026-07-16T10:53:13+01:00",
             "subject": "[ConstraintElim] Gate induction-fact derivation on a consuming compare."
         }
     ],
