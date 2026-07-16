@@ -179613,6 +179613,12 @@
             "author_name": "Philip742",
             "commit_date": "2026-07-16T12:53:58+01:00",
             "subject": "[mlir][tosa] Add support for MXFP in CONCAT (#209719)"
+        },
+        {
+            "hash": "18fc5a8adbe5dba7dc281bacdb149e95dc7dc1be",
+            "author_name": "Pengcheng Wang",
+            "commit_date": "2026-07-16T12:12:15+00:00",
+            "subject": "[TableGen][RISCV] Generate pre\/post-RA statistics for macro fusions (#209394)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -187639,6 +187645,32 @@
             "author_name": "Antonio Frighetto",
             "commit_date": "2026-07-16T11:27:43+02:00",
             "subject": "[BitcodeReader] Early return when matching the target triple (NFC)"
+        }
+    ],
+    "fhahn\/perf\/ce-decompose-bin-or": [
+        {
+            "hash": "88acd428fd72f44312408c3fb6165992fb3b043a",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-16T10:12:58+02:00",
+            "subject": "AMDGPU: Migrate KernelInfo tests to new subarch triples (61) (#209867)"
+        },
+        {
+            "hash": "778b87e462b9ed81c916d979ec26077b02ea3f10",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-16T11:57:20+01:00",
+            "subject": "[ConstraintElim] Handle (X | Y) >=s 0 as X >=s 0 && Y >=s 0."
+        },
+        {
+            "hash": "0bdf09572d4e80426b66e00ea4c0e365258531f2",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-16T11:57:20+01:00",
+            "subject": "!fixup strip stray comment, remove sge 0 support"
+        },
+        {
+            "hash": "a2aa4cacb953b32d6319939b9aee3226a7294334",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-16T12:00:31+01:00",
+            "subject": "!fixup use Pred instead of spelling out predicate."
         }
     ]
 }
