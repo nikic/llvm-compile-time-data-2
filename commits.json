@@ -179805,6 +179805,12 @@
             "author_name": "Shilei Tian",
             "commit_date": "2026-07-16T12:13:16-04:00",
             "subject": "[AMDGPU] Guard more intrinsics with target features (#203956)"
+        },
+        {
+            "hash": "53dae32b8a3e973a1677bd2745b9128741d69f59",
+            "author_name": "Kseniya Tikhomirova",
+            "commit_date": "2026-07-16T18:21:37+02:00",
+            "subject": "[libsycl] fix nd_range template resolution (#210081)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -187587,6 +187593,36 @@
             "author_name": "Erich Keane",
             "commit_date": "2026-07-15T18:05:27+00:00",
             "subject": "Create a Template member to be the MemberSpec of a failed TemplVarDecl (#209604)"
+        },
+        {
+            "hash": "f54355e08d91e1f4c87337505936e9299a9ffb99",
+            "author_name": "\u9648\u5b50\u6602",
+            "commit_date": "2026-07-16T08:00:41+00:00",
+            "subject": "[LoopUnroll] Invalidate SCEV after full unrolling (#208874)"
+        },
+        {
+            "hash": "a2520c9f136c302b05b501c05222e0f605897b32",
+            "author_name": "Karthika Devi C",
+            "commit_date": "2026-07-16T16:26:34+00:00",
+            "subject": "[Polly] Skip vectorize.enable for FP loops with dist=1 dependences (#205756)"
+        },
+        {
+            "hash": "23780df286c2e5914014d002206f1bfde7d0f1b9",
+            "author_name": "Karthika Devi C",
+            "commit_date": "2026-07-16T16:27:11+00:00",
+            "subject": "[Polly] Fix codegen assertions to account for DefinedBehaviorContext (#209188)"
+        },
+        {
+            "hash": "88c69e55f3da48bcebdb425f54431f80ce457c8d",
+            "author_name": "Amy Kwan",
+            "commit_date": "2026-07-16T16:27:50+00:00",
+            "subject": "[Object][GOFF] Recognize RLD and LEN records (#207118)"
+        },
+        {
+            "hash": "c7280675cd04a97c958bcf46db8042e33ab35fc9",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-07-16T16:28:26+00:00",
+            "subject": "Fix references to complete types in attribute references (#209537)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
