@@ -179679,6 +179679,12 @@
             "author_name": "Yuan Suo",
             "commit_date": "2026-07-16T17:01:05+03:00",
             "subject": "[LifetimeSafety] Introduce buildOriginFlowChain to use-after-invalidation (#208891)"
+        },
+        {
+            "hash": "19595357e32b36383a025fddaaf8c38f90658b7b",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-07-16T14:05:51+00:00",
+            "subject": "[X86] combineAdd - remove unnecessary add(a,concat(vpmaddwd(x,y),vpmaddwd(z,w))) -> vpdpwssd(a,concat(x,z),concat(y,w)) fold (#209838)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
