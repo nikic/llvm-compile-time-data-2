@@ -180189,6 +180189,12 @@
             "author_name": "Eric Christopher",
             "commit_date": "2026-07-16T15:04:33-07:00",
             "subject": "[NFC][LSR] Remove duplicate debug expression update (#210188)"
+        },
+        {
+            "hash": "205a66201235c03b892e075ae548d6ea12f024a3",
+            "author_name": "Jacek Caban",
+            "commit_date": "2026-07-17T00:17:00+02:00",
+            "subject": "[clang][mingw] Try both native and ARM64EC triples when looking for a sysroot on the ARM64EC target (#210017)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -188277,6 +188283,26 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-07-16T12:00:31+01:00",
             "subject": "!fixup use Pred instead of spelling out predicate."
+        }
+    ],
+    "usx95\/perf\/lifetime-safety-merging-17-07": [
+        {
+            "hash": "b74a97cae97a7732df5bcdef3d09f08a2e586468",
+            "author_name": "firmiana",
+            "commit_date": "2026-07-16T13:06:48-07:00",
+            "subject": "[lldb] Produce generic results for DWARF relational operations (#210122)"
+        },
+        {
+            "hash": "2fd62e052df86d1d060f124995edd913eded4003",
+            "author_name": "Utkarsh Saxena",
+            "commit_date": "2026-07-16T22:09:42+00:00",
+            "subject": "enable lifetime safety by default"
+        },
+        {
+            "hash": "305d29bb33872fef308efb04b7dbdef8cfb5b464",
+            "author_name": "Utkarsh Saxena",
+            "commit_date": "2026-07-16T22:12:32+00:00",
+            "subject": "Apply '[ADT] Add single-pass merge for ImmutableSet\/ImmutableMap'"
         }
     ]
 }
