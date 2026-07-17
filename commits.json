@@ -180861,6 +180861,12 @@
             "author_name": "Mikhail R. Gadelha",
             "commit_date": "2026-07-17T14:23:39-03:00",
             "subject": "[libc][NFC] Port raw syscall users to existing syscall_wrappers (#208039)"
+        },
+        {
+            "hash": "246c752ef1b6098a7aa222f02ca09db76e17cabe",
+            "author_name": "Jordan Rupprecht",
+            "commit_date": "2026-07-17T12:37:53-05:00",
+            "subject": "[bazel][libc] Add layering deps (#210380)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -188715,6 +188721,48 @@
             "author_name": "Daniel Kiss",
             "commit_date": "2026-07-17T07:48:53+00:00",
             "subject": "[AArch64][COFF] Branch-protection=standard\/pac-ret means \"b-key\" on Windows (#203989)"
+        },
+        {
+            "hash": "033aa122e399ba23d216fa3e469ee62721b1b8e7",
+            "author_name": "Ikhlas Ajbar",
+            "commit_date": "2026-07-17T17:33:13+00:00",
+            "subject": "[Hexagon] Fix HexagonRDFOpt hang during live-in recomputation (#209986)"
+        },
+        {
+            "hash": "52cbf59a5085bff2083a03a71bfbd82b882b024a",
+            "author_name": "maflcko",
+            "commit_date": "2026-07-17T17:34:08+00:00",
+            "subject": "[compiler-rt][ubsan] Fix suppressions for inlined functions (#206735)"
+        },
+        {
+            "hash": "44addbd4e1fbf754092185cd74c08a1e283df80f",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-07-17T17:35:03+00:00",
+            "subject": "[LTO] Sort DefinedGlobals in LTO cache key (#210025)"
+        },
+        {
+            "hash": "28af770db4db6f04d047f52e7e135386fe7a6824",
+            "author_name": "cqwrteur",
+            "commit_date": "2026-07-17T17:36:02+00:00",
+            "subject": "[libcxx] avoid include Uppercase windows headers (#208903)"
+        },
+        {
+            "hash": "44727f2bc6e66afccfc0e3e3f0d2e5f241924593",
+            "author_name": "Jacek Caban",
+            "commit_date": "2026-07-17T17:36:45+00:00",
+            "subject": "[clang][mingw] Try both native and ARM64EC triples when looking for a sysroot on the ARM64EC target (#210017)"
+        },
+        {
+            "hash": "f83ba9d97b34021e3d2ff2faf7b04a3001b2c7ca",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-07-17T17:37:23+00:00",
+            "subject": "[X86] Fix assertion failure for tail call on i686+pic (#210302)"
+        },
+        {
+            "hash": "278c31bfb8ceb7ea17dbfd11a4fb21e6634af957",
+            "author_name": "Tom Stellard",
+            "commit_date": "2026-07-17T17:38:11+00:00",
+            "subject": "workflows: Fixes for release-binaries and upload-release-artifact (#209246)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
