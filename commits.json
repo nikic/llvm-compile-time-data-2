@@ -180621,6 +180621,18 @@
             "author_name": "Joel Walker",
             "commit_date": "2026-07-17T12:49:32+02:00",
             "subject": "[KnownBits] Use X < Y identity and umin(MaxX, MaxY - 1) bound in urem (#210262)"
+        },
+        {
+            "hash": "671c0a275a1f304f22855fabb299090233fdbd54",
+            "author_name": "tyan0",
+            "commit_date": "2026-07-17T14:04:06+03:00",
+            "subject": "[Clang][Driver] Fix compiler-rt library directory for cygwin (#208925)"
+        },
+        {
+            "hash": "8377d59dfade3f1a4bf5779ddd90359bd4ddc249",
+            "author_name": "Kseniya Tikhomirova",
+            "commit_date": "2026-07-17T13:07:39+02:00",
+            "subject": "[libsycl] add explicit instantiations for event::get_profiling_info (#210118)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -188125,12 +188137,6 @@
     ],
     "fhahn\/perf\/cast-add-rec-fold-early": [
         {
-            "hash": "dfa1360735f5a834ce96c8c63594e2cdc3bfe0ea",
-            "author_name": "Ayokunle Amodu",
-            "commit_date": "2026-07-16T11:42:39-04:00",
-            "subject": "[CIR][AMDGPU] Add support for AMDGCN cos builtins (#197806)"
-        },
-        {
             "hash": "0c7f2f5622e3697d8c7996e7130048cfc7d24157",
             "author_name": "Florian Hahn",
             "commit_date": "2026-07-16T16:59:23+01:00",
@@ -188141,6 +188147,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-07-16T16:59:23+01:00",
             "subject": "[SCEV] Try to fold ZExt\/SExt of AddRec before existing lookup."
+        },
+        {
+            "hash": "6b1b8d98ea710c0ae876d184dd3e1b7aaa0db675",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-17T12:08:23+01:00",
+            "subject": "Merge branch 'main' into perf\/cast-add-rec-fold-early"
         }
     ],
     "aleks-tmb\/perf\/zext-add-loop-guards-2": [
