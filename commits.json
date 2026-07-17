@@ -181095,6 +181095,18 @@
             "author_name": "adams381",
             "commit_date": "2026-07-17T17:02:10-05:00",
             "subject": "[CIR] Add x86_64 scalar calling-convention lowering (#209636)"
+        },
+        {
+            "hash": "12e3d9db0088d95675a0081495122483faa7b60d",
+            "author_name": "Akshay K",
+            "commit_date": "2026-07-17T15:08:36-07:00",
+            "subject": "[CIR] Add support for lowering __builtin_c23_va_start in ClangIR (#208741)"
+        },
+        {
+            "hash": "fefdf74c073b0361fb9a5100f6b1f38a13d72e55",
+            "author_name": "lianjinfeng2003",
+            "commit_date": "2026-07-17T22:10:35+00:00",
+            "subject": "[SelectionDAG] Fold constant min\/max vector reductions (#209190)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -189349,6 +189361,20 @@
             "author_name": "Aleksandr Popov",
             "commit_date": "2026-07-17T17:56:14+02:00",
             "subject": "[SCEV][NFC] Refactor LoopGuards range check matching"
+        }
+    ],
+    "aleks-tmb\/perf\/tighten-loop-guards-range-check-idiom": [
+        {
+            "hash": "2b68eb4d70072d4e0084c0b4113bbd209c600088",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-17T23:59:40+02:00",
+            "subject": "[SCEV][NFCI] Refactor LoopGuards range check matching (#210362)"
+        },
+        {
+            "hash": "ef025a6807d1e60215a720960fdf92a3179a57ea",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-17T22:05:48+00:00",
+            "subject": "[SCEV] Tighten MatchRangeCheckIdiom with LHSUnknown's known range"
         }
     ]
 }
