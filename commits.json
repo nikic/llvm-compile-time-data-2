@@ -180705,6 +180705,18 @@
             "author_name": "Iliyan Georgiev",
             "commit_date": "2026-07-17T15:19:23+01:00",
             "subject": "[mlir][tosa] Add support for MXFP conv2d (#210054)"
+        },
+        {
+            "hash": "6f64e7cf0ad7699a5f1e6b2418d4c2cdcdb26470",
+            "author_name": "Shreyansh Lodha",
+            "commit_date": "2026-07-17T10:28:44-04:00",
+            "subject": "[Clang][AST] Add source range for deleted and defaulted functions (#205408)"
+        },
+        {
+            "hash": "7c1b00b38d7fb9eecfd345c51f9e9509e6b039ad",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-07-17T14:29:10+00:00",
+            "subject": "[AMDGPU] Fix type of SIlds \/ AMDGPUISD::LDS node (#210340)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -188163,34 +188175,52 @@
     ],
     "fhahn\/perf\/ce-rotated-split": [
         {
-            "hash": "83582cfcdb4973a337195c1f59d6a3468d135434",
-            "author_name": "Antonio Frighetto",
-            "commit_date": "2026-07-16T09:40:30+00:00",
-            "subject": "[clang][CodeGen] Do not use atomicrmw in compound assignments with FP conversions (#209114)"
+            "hash": "1f2772f8e26beb909c2a559f1fb08697e3e06909",
+            "author_name": "Iliyan Georgiev",
+            "commit_date": "2026-07-17T15:19:23+01:00",
+            "subject": "[mlir][tosa] Add support for MXFP conv2d (#210054)"
         },
         {
-            "hash": "cc8ae4aac638aabea9444d434f618fd8ed680997",
+            "hash": "ca8dc16f831eb0a5f0bffad7774085bfb2ba19ba",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-16T10:53:12+01:00",
+            "commit_date": "2026-07-17T15:27:15+01:00",
+            "subject": "[ConstraintSystem] Solve only the query's connected component in isConditionImplied."
+        },
+        {
+            "hash": "b3026b024e56bdfd2f49483ff13ff168b126d3a5",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-17T15:27:15+01:00",
+            "subject": "Partitaiton with integer eq"
+        },
+        {
+            "hash": "f55a7ae566512113a097c1c4a12a6fe5051ba7ac",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-17T15:27:16+01:00",
             "subject": "Add test"
         },
         {
-            "hash": "8f65692c2b74f5b5ac7a79db57fae481e42878c4",
+            "hash": "780b44808bf72bda9759f4cf83eb3de88e1e4814",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-16T10:53:12+01:00",
+            "commit_date": "2026-07-17T15:27:16+01:00",
             "subject": "[ConstraintElim] Derive signed facts for post-increment inductions."
         },
         {
-            "hash": "694a561d80446f6796189e547458bb4f63029b4a",
+            "hash": "5144626af8b31ee8734235c5cb1ef3030c13bc25",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-16T10:53:13+01:00",
+            "commit_date": "2026-07-17T15:27:16+01:00",
             "subject": "[ConstraintElim] Match counting compare in the loop latch."
         },
         {
-            "hash": "0231848804201389de9e2476d18da872f5cb7ade",
+            "hash": "8b2d348d4eefc5aa4c5c4dcad9535b1a43b729b7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-16T10:53:13+01:00",
+            "commit_date": "2026-07-17T15:27:16+01:00",
             "subject": "[ConstraintElim] Gate induction-fact derivation on a consuming compare."
+        },
+        {
+            "hash": "e353335541b2665bea9024e4fb592fc084e24918",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-17T15:27:17+01:00",
+            "subject": "[ConstraintElim] Skip redundant signed<->unsigned transfer for induction facts."
         }
     ],
     "aleks-tmb\/perf\/zext-add-loop-guards": [
