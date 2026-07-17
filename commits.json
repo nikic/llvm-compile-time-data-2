@@ -188670,5 +188670,19 @@
             "commit_date": "2026-07-16T22:12:32+00:00",
             "subject": "Apply '[ADT] Add single-pass merge for ImmutableSet\/ImmutableMap'"
         }
+    ],
+    "c-rhodes\/perf\/cache-reg-pressure-set-classes": [
+        {
+            "hash": "4aa1590ad66a1bff9b3c74b4a2c7366473015b4c",
+            "author_name": "Ella Ma",
+            "commit_date": "2026-07-15T11:25:01+02:00",
+            "subject": "[analyzer] Ignoring `T v=v;` idiom for uninitialized variable checker and dead store checker (#187530)"
+        },
+        {
+            "hash": "718db48ac6089407886fee0eda98038a4795eb0c",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-07-17T08:58:13+00:00",
+            "subject": "[CodeGen] Cache register class lookups for pressure set limits"
+        }
     ]
 }
