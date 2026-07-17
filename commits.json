@@ -180963,6 +180963,24 @@
             "author_name": "LU-JOHN",
             "commit_date": "2026-07-17T15:17:35-05:00",
             "subject": "[AMDGPU] Remove unnecessary and broken sign\/zero extension in fastdiv (#210348)"
+        },
+        {
+            "hash": "dc3b1ed3ccd10995b26fa5278cb80c45419f9457",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-17T22:21:56+02:00",
+            "subject": "TableGen: Deterministically order predicate groups by calling convention (#210409)"
+        },
+        {
+            "hash": "6ff0ebea015e3ed984dfff941e7d8a48e4810784",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-07-17T15:25:27-05:00",
+            "subject": "[lldb] Collect the executable, symbol file, and core in diagnostics (#210391)"
+        },
+        {
+            "hash": "977eced054d9de031423dee9493addd4e1fd5eaf",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-07-17T15:25:51-05:00",
+            "subject": "[lldb] Truncate an over-wide symbol address in the IR interpreter (#210372)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -189209,6 +189227,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-07-17T20:32:01+01:00",
             "subject": "Simplify"
+        }
+    ],
+    "aleks-tmb\/perf\/refactor-loop-guards-range-check-idiom": [
+        {
+            "hash": "bcb459015e12fb03e4ae3d56393883b2974f96fb",
+            "author_name": "Zachary Henkel",
+            "commit_date": "2026-07-17T08:47:03-07:00",
+            "subject": "Replace Python's deprecated tempfile.mktemp() with secure temp APIs (#210123)"
+        },
+        {
+            "hash": "d6de4f6b5927d6de92817fa80ce5341e82d68800",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-17T17:56:14+02:00",
+            "subject": "[SCEV][NFC] Refactor LoopGuards range check matching"
         }
     ]
 }
