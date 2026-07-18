@@ -189600,5 +189600,69 @@
             "commit_date": "2026-07-17T23:35:18+00:00",
             "subject": "[SCEV] Reach MatchRangeCheckIdiom through zext in LoopGuards worklist"
         }
+    ],
+    "aengelke\/perf\/bpibfi-cycleinfo-rebase": [
+        {
+            "hash": "e96755f08bab48f1578bd70a1f55d336b5e44a69",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-07-18T11:25:46+00:00",
+            "subject": "[VPlan] Factor vputils::getOpcodeOrIntrinsicID (NFC) (#208993)"
+        },
+        {
+            "hash": "9f903ddfaf622416cad1514a950a0b923644ffd1",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-18T11:36:47+00:00",
+            "subject": "[Analysis] Use CycleInfo for BranchProbabilityInfo"
+        },
+        {
+            "hash": "5ba733769e8147aae6a4474c2014b58ceba4a363",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-18T11:36:47+00:00",
+            "subject": "BPI cleanup: remove SccInfo"
+        },
+        {
+            "hash": "e3e26cbedaf35d6fdc412507dcd3755171fe2d9d",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-18T11:36:48+00:00",
+            "subject": "clang-format"
+        },
+        {
+            "hash": "c8777eaa6ed3e57171414999b672c285256f7561",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-18T11:36:48+00:00",
+            "subject": "BPI remove now rather pointless LoopBlock"
+        },
+        {
+            "hash": "cc1ac018096949a4a6121740349abec8cf86af89",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-07-18T11:36:48+00:00",
+            "subject": "[CycleInfo] Identify cycles with a single-pass DFS algorithm"
+        },
+        {
+            "hash": "b21d69c61cc5873a0840e72bd4776c8b94e65242",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-18T11:36:48+00:00",
+            "subject": "MLICM perseve MCA"
+        },
+        {
+            "hash": "128916980cc5fc5aa9e8f1bbee8774d619f0a06d",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-18T11:36:49+00:00",
+            "subject": "WIP Use CycleInfo for BlockFrequencyInfo (tests fail)"
+        }
+    ],
+    "aengelke\/perf\/cycleinfo-wei-construction": [
+        {
+            "hash": "6a33b69d8bae737e5e1d60c7b7776a0b1f885bfa",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-07-17T22:09:17-07:00",
+            "subject": "[SampleProfile] Support MD5-based ProfileSymbolList (#210235)"
+        },
+        {
+            "hash": "0c235be238813d7f5dc925ced840e1dd0a5e9c5b",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-07-17T23:40:26-07:00",
+            "subject": "[CycleInfo] Identify cycles with a single-pass DFS algorithm"
+        }
     ]
 }
