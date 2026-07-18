@@ -181323,6 +181323,24 @@
             "author_name": "Lang Hames",
             "commit_date": "2026-07-18T23:14:34+10:00",
             "subject": "[orc-rt] Drop callManagedCodeAsync; tokens guard execution (#210508)"
+        },
+        {
+            "hash": "7b446294e098c7c02bbc998da1b4a438f7270879",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-07-18T08:22:16-05:00",
+            "subject": "[Support] Add constexpr versions of Add\/Sub\/MulOverflow (#210404)"
+        },
+        {
+            "hash": "36c812f77142aa77b99b4e4d059ccba591a944c0",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-07-18T08:22:17-05:00",
+            "subject": "[ADT] Make enum iterators constexpr (#210405)"
+        },
+        {
+            "hash": "fdf1adc8910ce4083d4c18205f665ef3c30cc851",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-07-18T23:28:07+10:00",
+            "subject": "[orc-rt] Add comment for Session::HandlerTag type. NFC. (#210510)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -189707,6 +189725,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-07-18T12:47:32+00:00",
             "subject": "[CodeGen][TableGen] Precompute register classes for pressure sets"
+        }
+    ],
+    "nikic\/perf\/compute-range-dominating": [
+        {
+            "hash": "f0fd1ee64993eca0acb9d847ebf351ed7eb10bac",
+            "author_name": "Alex Langford",
+            "commit_date": "2026-06-25T12:52:44-07:00",
+            "subject": "[lldb][NFC] Correct documentation for FileSpec::GetFileNameExtension (#205871)"
+        },
+        {
+            "hash": "ab3de38a11973665edd40d9120b29008c9ee5a26",
+            "author_name": "Joel-Wwalker",
+            "commit_date": "2026-07-18T15:27:23+02:00",
+            "subject": "Use dominating conditions in computeConstantRange"
         }
     ]
 }
