@@ -189424,5 +189424,31 @@
             "commit_date": "2026-07-17T22:05:48+00:00",
             "subject": "[SCEV] Tighten MatchRangeCheckIdiom with LHSUnknown's known range"
         }
+    ],
+    "aleks-tmb\/perf\/scev-reach-range-check-zext": [
+        {
+            "hash": "2b68eb4d70072d4e0084c0b4113bbd209c600088",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-17T23:59:40+02:00",
+            "subject": "[SCEV][NFCI] Refactor LoopGuards range check matching (#210362)"
+        },
+        {
+            "hash": "ef025a6807d1e60215a720960fdf92a3179a57ea",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-17T22:05:48+00:00",
+            "subject": "[SCEV] Tighten MatchRangeCheckIdiom with LHSUnknown's known range"
+        },
+        {
+            "hash": "cd34f79529f786e904e469a72e4cf133a73092a7",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-17T23:35:18+00:00",
+            "subject": "[SCEV][NFC] Precommit tests for MatchRangeCheckIdiom through zext"
+        },
+        {
+            "hash": "4d69d1fb6d7168391f2056bce2afd6ff98b4a340",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-17T23:35:18+00:00",
+            "subject": "[SCEV] Reach MatchRangeCheckIdiom through zext in LoopGuards worklist"
+        }
     ]
 }
