@@ -181413,6 +181413,12 @@
             "author_name": "Peter Collingbourne",
             "commit_date": "2026-07-18T11:02:06-07:00",
             "subject": "mailmap: Add entries for Peter Collingbourne. (#210526)"
+        },
+        {
+            "hash": "d89537dd93f6fba07864e3583e11996c91a794b8",
+            "author_name": "Ilia Kuklin",
+            "commit_date": "2026-07-19T00:06:30+05:00",
+            "subject": "[DirectX] Fix `--dx-embed-debug` flag dependency (#210513)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -189811,6 +189817,56 @@
             "author_name": "Joel-Wwalker",
             "commit_date": "2026-07-18T15:27:23+02:00",
             "subject": "Use dominating conditions in computeConstantRange"
+        }
+    ],
+    "fhahn\/perf\/ce-system-cc2": [
+        {
+            "hash": "0c5b2258f0b517c0822e5b2f8e6a8de311d6db9d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-18T12:36:42+00:00",
+            "subject": "[SCEV] Infer no-wrap flags for shl by a constant. (#208434)"
+        },
+        {
+            "hash": "77fd5cafde4ce4951be9eaffe6a9a532537cb320",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-18T14:16:19+01:00",
+            "subject": "[ConstraintSys] Solve sub-system with variables needed for query (NFC)"
+        },
+        {
+            "hash": "e955117864f0cdb47c8312ce1cb902ac59fbc071",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-18T20:01:24+01:00",
+            "subject": "!fixup use set_bits"
+        },
+        {
+            "hash": "5bb68d99ac0f3e82172c0faf08bd3fdde0014de6",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-18T20:01:34+01:00",
+            "subject": "[ConstraintSystem] Track included rows when building sub-system (NFC)"
+        },
+        {
+            "hash": "65e181025475b03f0b9b8ce253117cf10ed7d51f",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-18T20:02:11+01:00",
+            "subject": "[ConstraintSystem] Build rows in addVariableRow in a single pass (NFC)"
+        },
+        {
+            "hash": "8172bbe43db8b653918973989febedef49502422",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-18T20:02:11+01:00",
+            "subject": "[ConstraintSystem] Move Value2Index map out of ConstraintSystem (NFC)"
+        },
+        {
+            "hash": "7a6d43074d37cda0db4b96cd1264b49ddce255f3",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-18T20:02:12+01:00",
+            "subject": "[ConstraintElimination] Skip guaranteed-to-transfer check once false (NFC)"
+        },
+        {
+            "hash": "13e1825a86a92ab252c6b9fcf219966019759b2f",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-18T20:02:12+01:00",
+            "subject": "[ConstraintElimination] Compute null constant lazily in getConstraintForSolving (NFC)"
         }
     ]
 }
