@@ -182019,6 +182019,36 @@
             "author_name": "Petar Avramovic",
             "commit_date": "2026-07-20T14:24:01+02:00",
             "subject": "AMDGPU\/GlobalISel: Explicitly widen scalar to i32 for load and store (#210095)"
+        },
+        {
+            "hash": "16e213f7dd3b8a2ec93b3015268efb8f59c9b52d",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-20T14:45:46+02:00",
+            "subject": "[AMDGPU][GlobalISel] Fix wrong half selection in wave.shuffle lowering (#210661)"
+        },
+        {
+            "hash": "75ee393652ca86f5d9b3670be5fa04d2bd8bb95a",
+            "author_name": "Petar Avramovic",
+            "commit_date": "2026-07-20T14:46:27+02:00",
+            "subject": "AMDGPU\/GlobalISel: Use integer as MMO type for loads and stores lowering (#210096)"
+        },
+        {
+            "hash": "112aac39131f7fdc8b4a50cb3fb13ef293e1c620",
+            "author_name": "Petar Avramovic",
+            "commit_date": "2026-07-20T14:47:11+02:00",
+            "subject": "AMDGPU\/GlobalISel: Fix extending load narrow scalar (#210097)"
+        },
+        {
+            "hash": "88a19bdee051ef4ce15fc4e29f50a328b80b0166",
+            "author_name": "Petar Avramovic",
+            "commit_date": "2026-07-20T14:47:46+02:00",
+            "subject": "AMDGPU\/GlobalISel: Use integers for read-any-lane split type (#210098)"
+        },
+        {
+            "hash": "92873559f90a35f89ebc5ac94a6d7e4c3a419ecb",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-07-20T13:48:44+01:00",
+            "subject": "[lldb][test] Bump safety timeout in simulator tests to fix flakyness (#209180)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
