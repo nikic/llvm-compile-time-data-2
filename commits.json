@@ -181959,6 +181959,36 @@
             "author_name": "Petar Avramovic",
             "commit_date": "2026-07-20T13:51:48+02:00",
             "subject": "AMDGPU\/GlobalISel: Stop using changeTo in legalizer actions (#209203)"
+        },
+        {
+            "hash": "8abc26930cf9ee0f059228acdbd1d22cd1c325e3",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-07-20T13:04:22+01:00",
+            "subject": "[X86] combineShiftRightLogical - fold srl(vecreduce_umax(x),bw-1) as MOVMSK signbit reduction (#210281)"
+        },
+        {
+            "hash": "d9c88062ecf9dc8ece4bb1482b0f1789979e3da5",
+            "author_name": "rdevshp",
+            "commit_date": "2026-07-20T13:05:49+01:00",
+            "subject": "[analyzer] Fix _BitInt support & casting behavior for Z3 symbolic execution (#210525)"
+        },
+        {
+            "hash": "27fe16dcf920c92bcb7050e5abf4164ed3b496d1",
+            "author_name": "Dan Blackwell",
+            "commit_date": "2026-07-20T13:06:48+01:00",
+            "subject": "[Darwin][ASan] Strip MTE-tags for inlined shadow translations (#204827)"
+        },
+        {
+            "hash": "1caf9e1ef68ef85f1976e82bfc33befe1edc6eff",
+            "author_name": "Federico Bruzzone",
+            "commit_date": "2026-07-20T14:09:00+02:00",
+            "subject": "[mlir][ArmSVE] Fix comment inconsistency for `pack_lhs` in `ArmSVE\/pack-unpack-mmt4d.mlir` (NFC) (#210502)"
+        },
+        {
+            "hash": "c30b1fa7a08e36346f80b1798ae587bc1d5e032b",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-07-20T08:09:35-04:00",
+            "subject": "[gn build] Port b21fb937f165 (#210698)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
