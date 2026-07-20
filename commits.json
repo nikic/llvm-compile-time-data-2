@@ -182109,6 +182109,30 @@
             "author_name": "Petar Avramovic",
             "commit_date": "2026-07-20T15:18:33+02:00",
             "subject": "GlobalISel: Use extended LLTs in lshr narrow combine (#210298)"
+        },
+        {
+            "hash": "a8617034c4a7cc733676a31b736d3118fec34259",
+            "author_name": "Hubert Tong",
+            "commit_date": "2026-07-20T09:36:43-04:00",
+            "subject": "[libc++][utils] Fix LIT `%if` substitution support (#209358)"
+        },
+        {
+            "hash": "3fc6711ccaf60c15371402c3ee7776fde5f01b4f",
+            "author_name": "zhijian lin",
+            "commit_date": "2026-07-20T09:37:35-04:00",
+            "subject": "[PowerPC]optimize the epilogue for restore non volatile cr fields (#202339)"
+        },
+        {
+            "hash": "faf7261308da236627ae8f813d17d6e1ef1e9d68",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-07-20T09:38:04-04:00",
+            "subject": "[libc++] Bring std::{any,all,none}_of tests up to current standards (#209266)"
+        },
+        {
+            "hash": "44e37579d19c7d0965166808c77f9e7ebf407df9",
+            "author_name": "Kareem Ergawy",
+            "commit_date": "2026-07-20T15:43:08+02:00",
+            "subject": "[flang][PFT-to-MLIR] reset Evaluation blocks between entry-point passes (#210681)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -190679,6 +190703,20 @@
             "author_name": "Alexis Engelke",
             "commit_date": "2026-07-20T13:29:16+00:00",
             "subject": "[Clang][CodeGen] Use ptrtoaddr for pointer diff"
+        }
+    ],
+    "aleks-tmb\/perf\/scev-loopguards-zext-neg-add": [
+        {
+            "hash": "91ad9f0ce9655eb3715c937f7d64d329bac63817",
+            "author_name": "Petar Avramovic",
+            "commit_date": "2026-07-20T12:48:21+02:00",
+            "subject": "AMDGPU\/GlobalISel: Handle G_BITCAST for 16 bit extendedLLTs (#208750)"
+        },
+        {
+            "hash": "ce8289b4c72ca28cf1c3a3a438edd6259096a840",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-20T13:33:09+00:00",
+            "subject": "[SCEV] Distribute zext across (-C + Rest) in LoopGuards rewriter"
         }
     ]
 }
