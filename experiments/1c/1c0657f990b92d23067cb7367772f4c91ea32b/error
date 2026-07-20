@@ -1,0 +1,236 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[1201/3364] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAndOrXor.cpp.o
+[1202/3364] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCalls.cpp.o
+[1203/3364] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCasts.cpp.o
+[1204/3364] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCompares.cpp.o
+[1205/3364] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineLoadStoreAlloca.cpp.o
+[1206/3364] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineMulDivRem.cpp.o
+[1207/3364] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineNegator.cpp.o
+[1208/3364] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombinePHI.cpp.o
+[1209/3364] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineShifts.cpp.o
+[1210/3364] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineSimplifyDemanded.cpp.o
+[1211/3364] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineVectorOps.cpp.o
+[1212/3364] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineSelect.cpp.o
+[1213/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/ADCE.cpp.o
+[1214/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/AlignmentFromAssumptions.cpp.o
+[1215/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/AnnotationRemarks.cpp.o
+[1216/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/BDCE.cpp.o
+[1217/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/CallSiteSplitting.cpp.o
+[1218/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/ConstantHoisting.cpp.o
+[1219/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/CorrelatedValuePropagation.cpp.o
+[1220/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DFAJumpThreading.cpp.o
+[1221/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DeadStoreElimination.cpp.o
+[1222/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DCE.cpp.o
+[1223/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DivRemPairs.cpp.o
+[1224/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DropUnnecessaryAssumes.cpp.o
+[1225/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/EarlyCSE.cpp.o
+[1226/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/ExpandMemCmp.cpp.o
+[1227/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/Float2Int.cpp.o
+[1228/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/GuardWidening.cpp.o
+[1229/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/IVUsersPrinter.cpp.o
+[1230/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/InductiveRangeCheckElimination.cpp.o
+[1231/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/FlattenCFGPass.cpp.o
+[1232/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/GVNHoist.cpp.o
+[1233/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/GVNSink.cpp.o
+[1234/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/InferAddressSpaces.cpp.o
+[1235/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/InferAlignment.cpp.o
+[1236/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/InstSimplifyPass.cpp.o
+[1237/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LogicalSROA.cpp.o
+[1238/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/IndVarSimplify.cpp.o
+[1239/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/JumpThreading.cpp.o
+[1240/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/JumpTableToSwitch.cpp.o
+[1241/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopAccessAnalysisPrinter.cpp.o
+[1242/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopBoundSplit.cpp.o
+[1243/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopSink.cpp.o
+[1244/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LICM.cpp.o
+[1245/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopDeletion.cpp.o
+[1246/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopDataPrefetch.cpp.o
+[1247/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopDistribute.cpp.o
+[1248/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopFuse.cpp.o
+[1249/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopIdiomRecognize.cpp.o
+[1250/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopInterchange.cpp.o
+[1251/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopFlatten.cpp.o
+[1252/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopPassManager.cpp.o
+[1253/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopInstSimplify.cpp.o
+[1254/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopLoadElimination.cpp.o
+[1255/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopPredication.cpp.o
+[1256/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopSimplifyCFG.cpp.o
+[1257/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopStrengthReduce.cpp.o
+[1258/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopTermFold.cpp.o
+[1259/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopRotation.cpp.o
+[1260/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LowerAtomicPass.cpp.o
+[1261/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopUnrollAndJamPass.cpp.o
+[1262/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopUnrollPass.cpp.o
+[1263/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopVersioningLICM.cpp.o
+[1264/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LowerExpectIntrinsic.cpp.o
+[1265/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LowerConstantIntrinsics.cpp.o
+[1266/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LowerWidenableCondition.cpp.o
+[1267/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/MakeGuardsExplicit.cpp.o
+[1268/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/MemCpyOptimizer.cpp.o
+[1269/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/NaryReassociate.cpp.o
+[1270/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LowerGuardIntrinsic.cpp.o
+[1271/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LowerMatrixIntrinsics.cpp.o
+[1272/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/MergeICmps.cpp.o
+[1273/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/MergedLoadStoreMotion.cpp.o
+[1274/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/NewGVN.cpp.o
+[1275/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/PartiallyInlineLibCalls.cpp.o
+[1276/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/Reassociate.cpp.o
+[1277/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/PlaceSafepoints.cpp.o
+[1278/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/Scalar.cpp.o
+[1279/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/Reg2Mem.cpp.o
+[1280/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/RewriteStatepointsForGC.cpp.o
+[1281/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/SCCP.cpp.o
+[1282/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/SROA.cpp.o
+[1283/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/SeparateConstOffsetFromGEP.cpp.o
+[1284/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/Scalarizer.cpp.o
+[1285/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/SimplifyCFGPass.cpp.o
+[1286/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/ScalarizeMaskedMemIntrin.cpp.o
+[1287/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/SimpleLoopUnswitch.cpp.o
+[1288/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/StructurizeCFG.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/StructurizeCFG.cpp:18:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RegionInfo.h:898:41: warning: type attributes ignored after type is already defined [-Wattributes]
+  898 | extern template class LLVM_TEMPLATE_ABI RegionBase<RegionTraits<Function>>;
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RegionInfo.h:899:41: warning: type attributes ignored after type is already defined [-Wattributes]
+  899 | extern template class LLVM_TEMPLATE_ABI RegionNodeBase<RegionTraits<Function>>;
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1289/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/SpeculativeExecution.cpp.o
+[1290/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/Sink.cpp.o
+[1291/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/StraightLineStrengthReduce.cpp.o
+[1292/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/TailRecursionElimination.cpp.o
+[1293/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/WarnMissedTransforms.cpp.o
+[1294/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/Annotation2Metadata.cpp.o
+[1295/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/CalledValuePropagation.cpp.o
+[1296/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/BlockExtractor.cpp.o
+[1297/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/ConstantMerge.cpp.o
+[1298/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/CrossDSOCFI.cpp.o
+[1299/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/EmbedBitcodePass.cpp.o
+[1300/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/ExtractGV.cpp.o
+[1301/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/FatLTOCleanup.cpp.o
+[1302/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/ForceFunctionAttrs.cpp.o
+[1303/3364] Building AArch64GenAsmMatcher.inc...
+[1304/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/FunctionImport.cpp.o
+[1305/3364] Building X86GenFastISel.inc...
+[1306/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/BarrierNoopPass.cpp.o
+[1307/3364] Building X86GenGlobalISel.inc...
+[1308/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/GlobalSplit.cpp.o
+[1309/3364] Building X86GenDAGISel.inc...
+[1310/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/IPO.cpp.o
+[1311/3364] Building AArch64GenDAGISel.inc...
+[1312/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/InferFunctionAttrs.cpp.o
+[1313/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/ElimAvailExtern.cpp.o
+[1314/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/ExpandVariadics.cpp.o
+[1315/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/InstrumentorUtils.cpp.o
+[1316/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/InstrumentorConfigFile.cpp.o
+[1317/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/InstrumentorStubPrinter.cpp.o
+[1318/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/Internalize.cpp.o
+[1319/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/GVN.cpp.o
+FAILED: lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/GVN.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Transforms/Scalar -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/GVN.cpp.o -MF lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/GVN.cpp.o.d -o lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/GVN.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/GVN.cpp
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/GVN.cpp:4001:27: error: qualified name does not name a class before ‘:’ token
+ 4001 | class llvm::GVNLegacyPass : public FunctionPass {
+      |                           ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/GVN.cpp:4001:27: error: expected ‘{’ before ‘:’ token
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/GVN.cpp:4001:27: error: expected unqualified-id before ‘:’ token
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/GVN.cpp:4058:6: error: ‘GVNLegacyPass’ has not been declared
+ 4058 | char GVNLegacyPass::ID = 0;
+      |      ^~~~~~~~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Pass.h:348,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Dominators.h:30,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Scalar/GVN.h:23,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/GVN.cpp:17:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/GVN.cpp: In function ‘void initializeGVNLegacyPassPassOnce(llvm::PassRegistry&)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/GVN.cpp:4069:21: error: ‘GVNLegacyPass’ has not been declared
+ 4069 | INITIALIZE_PASS_END(GVNLegacyPass, "gvn", "Global Value Numbering", false, false)
+      |                     ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/PassSupport.h:46:19: note: in definition of macro ‘INITIALIZE_PASS_END’
+   46 |       name, arg, &passName::ID,                                                \
+      |                   ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/GVN.cpp:4069:21: error: ‘GVNLegacyPass’ was not declared in this scope
+ 4069 | INITIALIZE_PASS_END(GVNLegacyPass, "gvn", "Global Value Numbering", false, false)
+      |                     ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/PassSupport.h:47:46: note: in definition of macro ‘INITIALIZE_PASS_END’
+   47 |       PassInfo::NormalCtor_t(callDefaultCtor<passName>), cfg, analysis);       \
+      |                                              ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/PassSupport.h:47:30: error: insufficient contextual information to determine type
+   47 |       PassInfo::NormalCtor_t(callDefaultCtor<passName>), cfg, analysis);       \
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/GVN.cpp:4069:1: note: in expansion of macro ‘INITIALIZE_PASS_END’
+ 4069 | INITIALIZE_PASS_END(GVNLegacyPass, "gvn", "Global Value Numbering", false, false)
+      | ^~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/GVN.cpp: In function ‘llvm::FunctionPass* llvm::createGVNPass()’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/GVN.cpp:4072:50: error: expected type-specifier before ‘GVNLegacyPass’
+ 4072 | FunctionPass *llvm::createGVNPass() { return new GVNLegacyPass(); }
+      |                                                  ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/GVN.cpp:4072:49: error: expected ‘;’ before ‘GVNLegacyPass’
+ 4072 | FunctionPass *llvm::createGVNPass() { return new GVNLegacyPass(); }
+      |                                                 ^~~~~~~~~~~~~~
+      |                                                 ;
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/GVN.cpp:4072:50: error: ‘GVNLegacyPass’ was not declared in this scope
+ 4072 | FunctionPass *llvm::createGVNPass() { return new GVNLegacyPass(); }
+      |                                                  ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/GVN.cpp: In function ‘llvm::FunctionPass* llvm::createGVNPass(bool)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/GVN.cpp:4074:14: error: expected type-specifier before ‘GVNLegacyPass’
+ 4074 |   return new GVNLegacyPass(GVNEnableMemDep, GVNEnableMemorySSA, ScalarPRE);
+      |              ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/GVN.cpp:4074:13: error: expected ‘;’ before ‘GVNLegacyPass’
+ 4074 |   return new GVNLegacyPass(GVNEnableMemDep, GVNEnableMemorySSA, ScalarPRE);
+      |             ^~~~~~~~~~~~~~
+      |             ;
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/GVN.cpp:4074:14: error: ‘GVNLegacyPass’ was not declared in this scope
+ 4074 |   return new GVNLegacyPass(GVNEnableMemDep, GVNEnableMemorySSA, ScalarPRE);
+      |              ^~~~~~~~~~~~~
+[1320/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/AlwaysInliner.cpp.o
+[1321/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/DeadArgumentElimination.cpp.o
+[1322/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/GlobalDCE.cpp.o
+[1323/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/FunctionSpecialization.cpp.o
+[1324/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/ArgumentPromotion.cpp.o
+[1325/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/HotColdSplitting.cpp.o
+[1326/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/LoopExtractor.cpp.o
+[1327/3364] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/ConstraintElimination.cpp.o
+[1328/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/GlobalOpt.cpp.o
+[1329/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/Inliner.cpp.o
+[1330/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/FunctionAttrs.cpp.o
+[1331/3364] Building X86GenSubtargetInfo.inc...
+[1332/3364] Building X86GenInstrInfo.inc...
+[1333/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/Instrumentor.cpp.o
+[1334/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/IROutliner.cpp.o
+[1335/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/Attributor.cpp.o
+[1336/3364] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/AttributorAttributes.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:4 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/lld/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+167.64user 11.36system 0:20.44elapsed 875%CPU (0avgtext+0avgdata 1062956maxresident)k
+0inputs+804328outputs (2839major+6448048minor)pagefaults 0swaps
