@@ -181923,6 +181923,30 @@
             "author_name": "Younan Zhang",
             "commit_date": "2026-07-20T19:32:18+08:00",
             "subject": "[Clang] Fix evaluation of fold expanded constraints for NTTP (#210005)"
+        },
+        {
+            "hash": "14f6b9f0a3976f85d3ef509c8361991ae3702002",
+            "author_name": "Deepak Shirke",
+            "commit_date": "2026-07-20T11:35:49+00:00",
+            "subject": "[VectorCombine] Fold bitcast(bitreverse.v8i8(bitcast(IntTy))) into bswap+bitreverse (#209037)"
+        },
+        {
+            "hash": "06e3180cd141d9a8efdb9e9867b4a32300679038",
+            "author_name": "Barbara Mitic",
+            "commit_date": "2026-07-20T13:37:09+02:00",
+            "subject": "[AMDGPU] Accept extractelement of a widening cast when folding image ops to a16 (#208207)"
+        },
+        {
+            "hash": "bd38dd0ace19c3b9512da2b37bb9690ee6c9e97f",
+            "author_name": "AntonyCJ30",
+            "commit_date": "2026-07-20T11:39:26+00:00",
+            "subject": "[X86] Fix swapped VPTERNLOG231_imm8\/VPTERNLOG312_imm8 SDNodeXForm bodies (#209782)"
+        },
+        {
+            "hash": "60f8b4624badab6bec5e2600d82cf98b6a4e303b",
+            "author_name": "Petar Avramovic",
+            "commit_date": "2026-07-20T13:40:00+02:00",
+            "subject": "AMDGPU\/GlobalISel: Fix G_MERGE_VALUES lowering for extended LLTs (#209202)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
