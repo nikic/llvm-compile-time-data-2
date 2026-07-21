@@ -182937,6 +182937,18 @@
             "author_name": "Yanzuo Liu",
             "commit_date": "2026-07-21T16:09:56+08:00",
             "subject": "[clang][Parser] Warn when the body of expansion statement is not a compound statement (#209229)"
+        },
+        {
+            "hash": "285a3cb74ef4cdc080cb264d44d1e3c9aa3a33be",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-07-21T08:22:50+00:00",
+            "subject": "[CycleInfo] Store entries in the block layout. NFC (#210866)"
+        },
+        {
+            "hash": "0228facbd558a55e7db6646572d857d1b0cf9596",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-07-21T16:25:26+08:00",
+            "subject": "[RISCV][P-Ext] Add RISCVISD::WADD\/WSUB. (#210862)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -191573,6 +191585,20 @@
             "author_name": "Benjamin Luke",
             "commit_date": "2026-07-20T16:44:18-07:00",
             "subject": "Add comment & fixme"
+        }
+    ],
+    "c-rhodes\/perf\/aarch64-smeattrs-opt": [
+        {
+            "hash": "4aa1590ad66a1bff9b3c74b4a2c7366473015b4c",
+            "author_name": "Ella Ma",
+            "commit_date": "2026-07-15T11:25:01+02:00",
+            "subject": "[analyzer] Ignoring `T v=v;` idiom for uninitialized variable checker and dead store checker (#187530)"
+        },
+        {
+            "hash": "37796f0f92101225e2fb5b6924acfdb5cba1b672",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-07-21T08:13:43+00:00",
+            "subject": "[AArch64][SME] Scan function attributes once in SMEAttrs (NFC)"
         }
     ]
 }
