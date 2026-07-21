@@ -183237,6 +183237,12 @@
             "author_name": "Paulius Velesko",
             "commit_date": "2026-07-21T07:39:14-05:00",
             "subject": "[ExpandVariadics] Don't lower unmangled C printf on SPIR-V (#206998)"
+        },
+        {
+            "hash": "4aa8d561bb06ecf89c723524fddbf0b58c5ec205",
+            "author_name": "Paul Walker",
+            "commit_date": "2026-07-21T13:49:16+01:00",
+            "subject": "[LLVM][SVE] Convert FFR intrinsic definition to use IntrRead\/IntrWrite. (#210084)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -191825,34 +191831,22 @@
     ],
     "fhahn\/perf\/ce-iv-latch-compare": [
         {
-            "hash": "13822d0b1808b759dd4f4d237ea347729f93b3ed",
-            "author_name": "Fabian Ritter",
-            "commit_date": "2026-07-21T09:17:39+02:00",
-            "subject": "[RFC][LangRef] Specify that the accessed bytes of concurrent atomics must be either disjoint or the same (#204329)"
+            "hash": "be25717739a8b4f15fd4ccc2f8b28490ed67e922",
+            "author_name": "Alexey Gerenkov",
+            "commit_date": "2026-07-21T13:17:45+03:00",
+            "subject": "[Xtensa] Support 'f' Inline Assembly Constraint (#202345)"
         },
         {
-            "hash": "f332f6eec30ae684b4e5ce8f9c067eab84478767",
+            "hash": "beefc441f23f8c4607da331478fa7a345d01d5e7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-21T08:21:08+01:00",
-            "subject": "Precommit test"
-        },
-        {
-            "hash": "71cf8ceda7a4912dcd98d20859aa7a9655bb8798",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-21T10:59:36+01:00",
-            "subject": "[ConstraintElim] Derive signed facts for post-increment inductions."
-        },
-        {
-            "hash": "697e904cbd93033d61dd95c4868a137a87e7d0f9",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-21T13:02:22+01:00",
+            "commit_date": "2026-07-21T13:44:52+01:00",
             "subject": "[ConstraintElim] Add more latch counted tests."
         },
         {
-            "hash": "396e9eb79147231dd615edc65bd6bdac115325c1",
+            "hash": "6f76c4319485aa9b976265aa7a1cc5b37a3cf4c7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-21T13:02:28+01:00",
-            "subject": "[constraintelim] use condition from latch in addInfoForInductions."
+            "commit_date": "2026-07-21T13:54:39+01:00",
+            "subject": "[ConstraintElim] use condition from latch in addInfoForInductions."
         }
     ],
     "freaknbigpanda\/perf\/attribute-target-fix-reland": [
