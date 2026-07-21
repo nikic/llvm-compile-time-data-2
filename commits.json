@@ -183759,6 +183759,18 @@
             "author_name": "Henry Jiang",
             "commit_date": "2026-07-21T13:38:33-07:00",
             "subject": "Revert \"[dsymutil] Add support for pseudo probes (#186877)\" (#206789)"
+        },
+        {
+            "hash": "009e841dbde021aa59bd7357269aeabfcc4f6128",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-07-21T20:41:14+00:00",
+            "subject": "[flang][cuda] Add option for allocator registration function to CUFAddConstructor (#211098)"
+        },
+        {
+            "hash": "db816fe2ed4e0be51192d3030d90a176d5fec9d5",
+            "author_name": "Vladislav Dzhidzhoev",
+            "commit_date": "2026-07-21T22:41:48+02:00",
+            "subject": "[DirectX][Driver] Add \/Qpdb_in_private flag support (#204903)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -192415,6 +192427,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-07-21T08:13:43+00:00",
             "subject": "[AArch64][SME] Scan function attributes once in SMEAttrs (NFC)"
+        }
+    ],
+    "aleks-tmb\/perf\/scev-loopguards-zext-neg-add-2": [
+        {
+            "hash": "91ad9f0ce9655eb3715c937f7d64d329bac63817",
+            "author_name": "Petar Avramovic",
+            "commit_date": "2026-07-20T12:48:21+02:00",
+            "subject": "AMDGPU\/GlobalISel: Handle G_BITCAST for 16 bit extendedLLTs (#208750)"
+        },
+        {
+            "hash": "fa9c83974559bbb3377912cca6439898a3e16f55",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-21T20:40:45+00:00",
+            "subject": "[SCEV] Distribute zext across (-C + X) in LoopGuards rewriter"
         }
     ]
 }
