@@ -183513,6 +183513,24 @@
             "author_name": "ustachow",
             "commit_date": "2026-07-21T09:40:22-07:00",
             "subject": "[MemorySSA] Make getPreviousDef iterative to avoid stack overflow (#205159)"
+        },
+        {
+            "hash": "e959a280d5ac91d219abb802913c4e5cadb45f2a",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-07-21T09:47:51-07:00",
+            "subject": "[mlir][openacc] Do not erase acc routine information early (#210813)"
+        },
+        {
+            "hash": "9b362c71c51a45871d5fe337c7da7ff1ed9fe0cb",
+            "author_name": "David Young",
+            "commit_date": "2026-07-21T09:48:36-07:00",
+            "subject": "[bazel] Only set LLVM_ENABLE_DIA_SDK in bazel build defs to zero if not set by build args (#210723)"
+        },
+        {
+            "hash": "350c2d86228f330d986f6c8cd63899cd147427c3",
+            "author_name": "Lucas Ramirez",
+            "commit_date": "2026-07-21T16:54:19+00:00",
+            "subject": "[AMDGPU] Fix `GCNRegPressureTest`'s super-class to ensure proper target initialization (#211030)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -191427,6 +191445,12 @@
             "author_name": "Tom Stellard",
             "commit_date": "2026-07-21T16:43:52+00:00",
             "subject": "workflows: Add missing checkouts when using validate-release-version (#210471)"
+        },
+        {
+            "hash": "fd8d9d53043e84807bda631d21d9742eb595e30a",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-07-21T16:44:58+00:00",
+            "subject": "[libc++] Target the release runners set from the LLVM 23 release branch"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
