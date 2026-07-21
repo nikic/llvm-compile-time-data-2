@@ -183777,6 +183777,24 @@
             "author_name": "forking-google-bazel-bot[bot]",
             "commit_date": "2026-07-21T15:56:19-05:00",
             "subject": "[Bazel] Fixes db816fe (#211109)"
+        },
+        {
+            "hash": "3421dc247e4d6e87c6ab9b5db44c11873c28814f",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-07-21T14:22:36-07:00",
+            "subject": "[MC][AArch64] Add .cfi_set_ra_state for PAuth_LR (#209949)"
+        },
+        {
+            "hash": "866832a59612e569c8d18bc8e846cc32e9a5730b",
+            "author_name": "Farzon Lotfi",
+            "commit_date": "2026-07-21T17:24:57-04:00",
+            "subject": "[SPIRV] Fix legalization of widened cbuffer vector loads (#209912)"
+        },
+        {
+            "hash": "e55d3bca36ff8a23ef598f6f452ec1e3f399dc31",
+            "author_name": "Henry Jiang",
+            "commit_date": "2026-07-21T14:27:22-07:00",
+            "subject": "[MC] Emit Mach-O pseudo-probe sections in the __LLVM segment (#206793)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -192447,6 +192465,20 @@
             "author_name": "Aleksandr Popov",
             "commit_date": "2026-07-21T20:40:45+00:00",
             "subject": "[SCEV] Distribute zext across (-C + X) in LoopGuards rewriter"
+        }
+    ],
+    "usx95\/perf\/lifetime-safety-opt-21-july": [
+        {
+            "hash": "b74a97cae97a7732df5bcdef3d09f08a2e586468",
+            "author_name": "firmiana",
+            "commit_date": "2026-07-16T13:06:48-07:00",
+            "subject": "[lldb] Produce generic results for DWARF relational operations (#210122)"
+        },
+        {
+            "hash": "fead4fbe2faf27cdb020123d61e338b4e3aa883e",
+            "author_name": "Utkarsh Saxena",
+            "commit_date": "2026-07-21T21:19:04+00:00",
+            "subject": "enable lifetime safety by default"
         }
     ]
 }
