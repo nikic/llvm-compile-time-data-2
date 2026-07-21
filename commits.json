@@ -182721,6 +182721,12 @@
             "author_name": "Kazu Hirata",
             "commit_date": "2026-07-20T17:26:16-07:00",
             "subject": "[ProfileData] Refactor SampleProfileNameTable into a polymorphic class hierarchy (NFC) (#210252)"
+        },
+        {
+            "hash": "27ede4b415797b5df26d2e1f28d30b3e9c14f340",
+            "author_name": "Domenic Nutile",
+            "commit_date": "2026-07-20T20:55:31-04:00",
+            "subject": "[AMDGPU] Clean up check prefixes and regenerate checklines for some tests that were out of date (#209889)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -191331,6 +191337,32 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-07-20T22:42:11+01:00",
             "subject": "[constraintelim] use condition from latch in addInfoForInductions."
+        }
+    ],
+    "freaknbigpanda\/perf\/attribute-target-fix-reland": [
+        {
+            "hash": "2120490a54645f9a4390605adec5509243641d29",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-07-17T16:19:57-05:00",
+            "subject": "[lldb] Add an artifact provider mechanism to Diagnostics (#210417)"
+        },
+        {
+            "hash": "8972661af85ae0f0946fb22b35ecf1b5f555a2a1",
+            "author_name": "Benjamin Luke",
+            "commit_date": "2026-07-17T14:21:30-07:00",
+            "subject": "[clang][CodeGen][X86_64] Honor per-function AVX ABI in C\/C++ call paths, maintain old psABI for PlayStation. (#193298)"
+        },
+        {
+            "hash": "a6fe7aaa1068e1c1a43c04d0650b5a53bb9ac5e6",
+            "author_name": "Benjamin Luke",
+            "commit_date": "2026-07-17T14:21:30-07:00",
+            "subject": "Only call getFunctionFeatureMap if the FD has target attributes to avoid compile time regressions"
+        },
+        {
+            "hash": "18d066f083741da598689184eb030cb373bc80f6",
+            "author_name": "Benjamin Luke",
+            "commit_date": "2026-07-20T16:44:18-07:00",
+            "subject": "Add comment & fixme"
         }
     ]
 }
