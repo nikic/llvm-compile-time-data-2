@@ -184371,6 +184371,12 @@
             "author_name": "Shilei Tian",
             "commit_date": "2026-07-22T09:12:48-04:00",
             "subject": "[Clang][LTO] Assign GUIDs after post-opt bitcode linking (#211155)"
+        },
+        {
+            "hash": "150aa53d48aa6fdde26e00ea118582eb949f0dca",
+            "author_name": "Alexander Kornienko",
+            "commit_date": "2026-07-22T15:29:37+02:00",
+            "subject": "Revert \"[Clang] Rebuild lambda captures in default member initializers while skipping body (#196597)\" (#211001)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -192977,22 +192983,28 @@
     ],
     "fhahn\/perf\/ce-iv-latch-compare": [
         {
-            "hash": "948c4a2fc3df17eeb44337d590d669d0150aecbb",
-            "author_name": "Cullen Rhodes",
-            "commit_date": "2026-07-22T09:04:41+01:00",
-            "subject": "[AArch64][GlobalISel] Select vector element extract into GPR (#210030)"
+            "hash": "e757e814e30741d6eae6044cea22dca78baa4edf",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-07-22T13:05:56+00:00",
+            "subject": "[AMDGPU] Cost i1 insertelements as free (#211246)"
         },
         {
-            "hash": "94a85bbdb4b614380ed1301323fbda7953a6293a",
+            "hash": "8293ae27cf7f38022197e506302fb7dae831ae06",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-22T11:37:39+01:00",
+            "commit_date": "2026-07-22T14:09:57+01:00",
             "subject": "[ConstraintElim] Add more latch counted tests."
         },
         {
-            "hash": "7c4c94fe739fc99faaf69729368dbd57d360ce2a",
+            "hash": "f475fdd0f34d768525405fe26b7527c75659baf5",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-22T11:40:03+01:00",
+            "commit_date": "2026-07-22T14:09:58+01:00",
             "subject": "[ConstraintElim] use condition from latch in addInfoForInductions."
+        },
+        {
+            "hash": "2d67ed88f38ea0cd047e986d9aceb0f4cfaefe71",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-22T14:25:50+01:00",
+            "subject": "!fixup refine comment"
         }
     ],
     "freaknbigpanda\/perf\/attribute-target-fix-reland": [
