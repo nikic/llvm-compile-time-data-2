@@ -97059,40 +97059,16 @@
     ],
     "fhahn\/perf\/scev-rewrite-add-expr": [
         {
-            "hash": "4aecd04545746e08f9ea4ccacde9c0278de8dad9",
-            "author_name": "David Spickett",
-            "commit_date": "2026-04-22T09:23:11+01:00",
-            "subject": "[libcxx][test] Skip cas_non_power_of_2.pass.cpp in Picolibc build (#191415)"
+            "hash": "543160345be41f399c142f51355408362988f44e",
+            "author_name": "Arthur Eubanks",
+            "commit_date": "2026-07-22T18:59:30+00:00",
+            "subject": "Revert \"[SimplifyCFG] Simplify switch default branch when branch proves operand value\" (#211341)"
         },
         {
-            "hash": "1fbe1388f688b27800e649a9bc700aa3ab47b253",
+            "hash": "364412e209e347918653a7801d5e5cb614bcfd82",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-04-22T09:52:06+01:00",
-            "subject": "Lookup early."
-        },
-        {
-            "hash": "9f2b21fb7dd7c99055a83de793e58ca2ef9439c2",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-04-22T09:52:18+01:00",
+            "commit_date": "2026-07-22T21:51:28+01:00",
             "subject": "[SCEV] Rewrite more SCEVAddExpr when applying guards."
-        },
-        {
-            "hash": "20283aea1a2f679fba2133a36212865629bf2cf2",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-04-22T09:52:18+01:00",
-            "subject": "Dont rewrite"
-        },
-        {
-            "hash": "dbf83178b2c9b51474a582aee5cc3c2187b885d9",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-04-22T09:52:18+01:00",
-            "subject": "Disable"
-        },
-        {
-            "hash": "8c143cb4e1c4dfc650d9ab866698f8ede3f6f9f3",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-04-22T09:52:18+01:00",
-            "subject": "try to reduce overhead"
         }
     ],
     "tbaederr\/perf\/initmaps2": [
@@ -184851,6 +184827,24 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-07-22T16:23:34-04:00",
             "subject": "[SLP][NFC]Add a test with non-profitable wide vectorization, NFC"
+        },
+        {
+            "hash": "3093d8c577d71a98ec4d9a2bdf26b196cc7a0f8d",
+            "author_name": "Paulius Velesko",
+            "commit_date": "2026-07-22T16:44:46-04:00",
+            "subject": "[HIPSPV] Preserve device debug info requested via -g"
+        },
+        {
+            "hash": "252f31a6893b6a3dcb8b2a404e13933e376bf36b",
+            "author_name": "Benedek Kaibas",
+            "commit_date": "2026-07-22T22:48:32+02:00",
+            "subject": "[analyzer] Detect dangling pointers passed to function calls (#211045)"
+        },
+        {
+            "hash": "f1483ea484bafdf5e7ec6f17e94f7200256aa0e5",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-22T21:52:57+01:00",
+            "subject": "[PhaseOrdering] Add more tests for expanding ptr SCEVs (NFC) (#211360)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
