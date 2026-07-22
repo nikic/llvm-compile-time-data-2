@@ -184671,6 +184671,12 @@
             "author_name": "Maksim Levental",
             "commit_date": "2026-07-22T10:28:49-07:00",
             "subject": "[mlir-c] Add TypeConverter materialization; use a status enum for the type conversion callback (#208934)"
+        },
+        {
+            "hash": "e19eb38d6f9eb78113c44783ed69e1ae6639783e",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-22T19:31:43+02:00",
+            "subject": "RuntimeLibcalls: Drop artificial __aeabi_?cmpeq suffixes (#211251)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -191747,15 +191753,15 @@
     ],
     "MaskRay\/perf\/loopinfo-drop-denseblockset": [
         {
-            "hash": "9bcb851e86941117ec9e82db8986ed301f929647",
-            "author_name": "Sudharsan Veeravalli",
-            "commit_date": "2026-07-22T09:03:29+05:30",
-            "subject": "[RISCV] Support uimm5 operands for Xqcicm cmovs in RISCVExpandPseudoInsts (#210955)"
+            "hash": "7c72a115065720e2b6ad38bdee91ea3c5e580cfb",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-07-22T00:24:16-07:00",
+            "subject": "PerThreadBumpPtrAllocator: remove dependency on getThreadIndex (#209687)"
         },
         {
-            "hash": "af81f578e1387783de02bd0ceeb37cf22738e096",
+            "hash": "86f478e685d612b382b6bf24d63cd36f560be349",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-07-21T20:58:54-07:00",
+            "commit_date": "2026-07-22T10:26:32-07:00",
             "subject": "[LoopInfo] Derive Loop::contains(BlockT*) from the block-to-loop map"
         }
     ],
