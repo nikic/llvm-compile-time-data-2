@@ -184179,6 +184179,12 @@
             "author_name": "Takayuki Todokoro",
             "commit_date": "2026-07-22T09:42:00+00:00",
             "subject": "[MLIR][Affine] Preserve discardable attrs when adding loop yields (#210571)"
+        },
+        {
+            "hash": "dabf57f31715144eb75f2ce82efc5b0db6b9228d",
+            "author_name": "Paul Walker",
+            "commit_date": "2026-07-22T11:01:27+01:00",
+            "subject": "[LLVM][CodeGen][SVE] Extend NEON->SVE splat imm isel to cover 64-bit vectors. (#209833)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -192859,16 +192865,22 @@
     ],
     "usx95\/perf\/lifetime-safety-opt-21-july": [
         {
-            "hash": "b74a97cae97a7732df5bcdef3d09f08a2e586468",
-            "author_name": "firmiana",
-            "commit_date": "2026-07-16T13:06:48-07:00",
-            "subject": "[lldb] Produce generic results for DWARF relational operations (#210122)"
+            "hash": "9bb81c2ffc5b349b54605cecb3e3a5e4a611f642",
+            "author_name": "Takayuki Todokoro",
+            "commit_date": "2026-07-22T09:42:00+00:00",
+            "subject": "[MLIR][Affine] Preserve discardable attrs when adding loop yields (#210571)"
         },
         {
-            "hash": "fead4fbe2faf27cdb020123d61e338b4e3aa883e",
+            "hash": "8afb1e192a2bb1bee85eea953d5d6abbb200ac24",
             "author_name": "Utkarsh Saxena",
-            "commit_date": "2026-07-21T21:19:04+00:00",
+            "commit_date": "2026-07-22T09:59:26+00:00",
             "subject": "enable lifetime safety by default"
+        },
+        {
+            "hash": "25862ae7943eb105c0d0da20a91d28f0dc2f91e7",
+            "author_name": "Utkarsh Saxena",
+            "commit_date": "2026-07-22T10:00:33+00:00",
+            "subject": "Multiple compile-time improvements"
         }
     ],
     "MaskRay\/perf\/loopinfo-smallvector": [
@@ -192903,6 +192915,26 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-07-21T23:46:29-07:00",
             "subject": "[LoopInfo] Presize the populate-DFS visited set and reuse discovery buffers. NFC"
+        }
+    ],
+    "usx95\/perf\/lifetime-safety-opt-22-july": [
+        {
+            "hash": "9bb81c2ffc5b349b54605cecb3e3a5e4a611f642",
+            "author_name": "Takayuki Todokoro",
+            "commit_date": "2026-07-22T09:42:00+00:00",
+            "subject": "[MLIR][Affine] Preserve discardable attrs when adding loop yields (#210571)"
+        },
+        {
+            "hash": "c38b52daa94a9c7311af6469243252dbdae144cc",
+            "author_name": "Utkarsh Saxena",
+            "commit_date": "2026-07-22T10:01:29+00:00",
+            "subject": "enable lifetime safety by default"
+        },
+        {
+            "hash": "091000206e29cbcd6ea3dff05f860a72141c768a",
+            "author_name": "Utkarsh Saxena",
+            "commit_date": "2026-07-22T10:01:41+00:00",
+            "subject": "Multiple compile-time improvements"
         }
     ]
 }

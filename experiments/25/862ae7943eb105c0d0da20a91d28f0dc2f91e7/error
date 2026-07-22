@@ -1,0 +1,225 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage2.sh" failed
+
+STDOUT:
+[1648/3095] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/TpiStreamBuilder.cpp.o
+[1649/3095] Building CXX object lib/DebugInfo/Symbolize/CMakeFiles/LLVMSymbolize.dir/DIPrinter.cpp.o
+[1650/3095] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/PDBFileBuilder.cpp.o
+[1651/3095] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/PDBFile.cpp.o
+[1652/3095] Building CXX object lib/Target/CMakeFiles/LLVMTarget.dir/RegisterTargetPassConfigCallback.cpp.o
+[1653/3095] Building CXX object lib/Target/CMakeFiles/LLVMTarget.dir/Target.cpp.o
+[1654/3095] Building CXX object lib/DebugInfo/BTF/CMakeFiles/LLVMDebugInfoBTF.dir/BTFContext.cpp.o
+[1655/3095] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/TpiStream.cpp.o
+[1656/3095] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/GSIStreamBuilder.cpp.o
+[1657/3095] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeSession.cpp.o
+[1658/3095] Building CXX object lib/Target/CMakeFiles/LLVMTarget.dir/TargetMachineC.cpp.o
+[1659/3095] Building CXX object lib/DebugInfo/Symbolize/CMakeFiles/LLVMSymbolize.dir/MarkupFilter.cpp.o
+[1660/3095] Building CXX object lib/DebugInfo/BTF/CMakeFiles/LLVMDebugInfoBTF.dir/BTFParser.cpp.o
+[1661/3095] Linking CXX static library lib/libLLVMDebugInfoBTF.a
+[1662/3095] Building CXX object lib/DebugInfo/Symbolize/CMakeFiles/LLVMSymbolize.dir/SymbolizableObjectFile.cpp.o
+[1663/3095] Building CXX object lib/Target/CMakeFiles/LLVMTarget.dir/TargetLoweringObjectFile.cpp.o
+[1664/3095] Building CXX object lib/Target/CMakeFiles/LLVMTarget.dir/TargetMachine.cpp.o
+[1665/3095] Building X86GenExegesis.inc...
+[1666/3095] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/SymbolCache.cpp.o
+[1667/3095] Building X86GenCallingConv.inc...
+[1668/3095] Building X86GenAsmWriter.inc...
+[1669/3095] Building X86GenAsmWriter1.inc...
+[1670/3095] Building X86GenDisassemblerTables.inc...
+[1671/3095] Building X86GenAsmMatcher.inc...
+[1672/3095] Building CXX object lib/DebugInfo/Symbolize/CMakeFiles/LLVMSymbolize.dir/Symbolize.cpp.o
+[1673/3095] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Argument.cpp.o
+[1674/3095] Building X86GenMnemonicTables.inc...
+[1675/3095] Building X86GenInstrMapping.inc...
+[1676/3095] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Function.cpp.o
+[1677/3095] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/BasicBlock.cpp.o
+[1678/3095] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Constant.cpp.o
+[1679/3095] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Module.cpp.o
+[1680/3095] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Pass.cpp.o
+[1681/3095] Building X86GenSDNodeInfo.inc...
+[1682/3095] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/PassManager.cpp.o
+[1683/3095] Building X86GenPreLegalizeGICombiner.inc...
+[1684/3095] Building X86GenRegisterBank.inc...
+[1685/3095] Building X86GenFoldTables.inc...
+[1686/3095] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Type.cpp.o
+[1687/3095] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/User.cpp.o
+[1688/3095] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Use.cpp.o
+[1689/3095] Building X86GenRegisterInfo.inc...
+[1690/3095] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Value.cpp.o
+[1691/3095] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Region.cpp.o
+[1692/3095] Building X86GenFastISel.inc...
+[1693/3095] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Tracker.cpp.o
+[1694/3095] Building CXX object lib/AsmParser/CMakeFiles/LLVMAsmParser.dir/AsmParserContext.cpp.o
+[1695/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/ETMTraceDecoder.cpp.o
+[1696/3095] Building CXX object lib/AsmParser/CMakeFiles/LLVMAsmParser.dir/Parser.cpp.o
+[1697/3095] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Context.cpp.o
+[1698/3095] Building CXX object lib/AsmParser/CMakeFiles/LLVMAsmParser.dir/LLLexer.cpp.o
+[1699/3095] Building X86GenGlobalISel.inc...
+[1700/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/DataAccessProf.cpp.o
+[1701/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/GCOV.cpp.o
+[1702/3095] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Instruction.cpp.o
+[1703/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/MemProfCommon.cpp.o
+[1704/3095] Building X86GenDAGISel.inc...
+[1705/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/MemProf.cpp.o
+[1706/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/MemProfSummary.cpp.o
+[1707/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/MemProfSummaryBuilder.cpp.o
+[1708/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/InstrProfCorrelator.cpp.o
+[1709/3095] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o
+[1710/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/IndexedMemProfData.cpp.o
+[1711/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/MemProfRadixTree.cpp.o
+[1712/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/SymbolRemappingReader.cpp.o
+[1713/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/PGOCtxProfWriter.cpp.o
+[1714/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/PGOCtxProfReader.cpp.o
+[1715/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/InstrProf.cpp.o
+[1716/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/InstrProfWriter.cpp.o
+[1717/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/ProfileSummaryBuilder.cpp.o
+[1718/3095] Building CXX object lib/ProfileData/Coverage/CMakeFiles/LLVMCoverage.dir/CoverageMappingWriter.cpp.o
+[1719/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/SampleProf.cpp.o
+[1720/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/ItaniumManglingCanonicalizer.cpp.o
+[1721/3095] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/CodeGenPassBuilder.cpp.o
+[1722/3095] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/AMDGPUTargetParser.cpp.o
+[1723/3095] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/ARMTargetParserCommon.cpp.o
+[1724/3095] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/AArch64TargetParser.cpp.o
+[1725/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/SampleProfWriter.cpp.o
+[1726/3095] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/AVRTargetParser.cpp.o
+[1727/3095] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/ARMTargetParser.cpp.o
+[1728/3095] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/CSKYTargetParser.cpp.o
+[1729/3095] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/LoongArchTargetParser.cpp.o
+[1730/3095] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/PPCTargetParser.cpp.o
+[1731/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/SampleProfReader.cpp.o
+[1732/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/MemProfReader.cpp.o
+[1733/3095] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/Host.cpp.o
+[1734/3095] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/InstrProfReader.cpp.o
+[1735/3095] Building CXX object lib/AsmParser/CMakeFiles/LLVMAsmParser.dir/LLParser.cpp.o
+[1736/3095] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/TargetParser.cpp.o
+[1737/3095] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/SubtargetFeature.cpp.o
+[1738/3095] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/TargetDataLayout.cpp.o
+[1739/3095] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/PassBuilderBindings.cpp.o
+[1740/3095] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/XtensaTargetParser.cpp.o
+[1741/3095] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/Architecture.cpp.o
+[1742/3095] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/ArchitectureSet.cpp.o
+[1743/3095] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/RISCVISAInfo.cpp.o
+[1744/3095] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/X86TargetParser.cpp.o
+[1745/3095] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/PackedVersion.cpp.o
+[1746/3095] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/RISCVTargetParser.cpp.o
+[1747/3095] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/Platform.cpp.o
+[1748/3095] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/Symbol.cpp.o
+[1749/3095] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/RecordVisitor.cpp.o
+[1750/3095] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/TextAPIError.cpp.o
+[1751/3095] Building CXX object lib/ProfileData/Coverage/CMakeFiles/LLVMCoverage.dir/CoverageMappingReader.cpp.o
+[1752/3095] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/SymbolSet.cpp.o
+[1753/3095] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/Triple.cpp.o
+[1754/3095] Linking CXX static library lib/libLLVMTargetParser.a
+[1755/3095] Linking CXX static library lib/libLLVMBinaryFormat.a
+[1756/3095] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/Target.cpp.o
+[1757/3095] Linking CXX static library lib/libLLVMCore.a
+[1758/3095] Linking CXX static library lib/libLLVMDebugInfoDWARFLowLevel.a
+[1759/3095] Linking CXX static library lib/libLLVMABI.a
+[1760/3095] Linking CXX static library lib/libLLVMBitReader.a
+FAILED: lib/libLLVMBitReader.a 
+: && /usr/bin/cmake -E rm -f lib/libLLVMBitReader.a && /tmp/llvm-project-build-stage1/bin/llvm-ar Dqc lib/libLLVMBitReader.a  lib/Bitcode/Reader/CMakeFiles/LLVMBitReader.dir/BitcodeAnalyzer.cpp.o lib/Bitcode/Reader/CMakeFiles/LLVMBitReader.dir/BitReader.cpp.o lib/Bitcode/Reader/CMakeFiles/LLVMBitReader.dir/BitcodeReader.cpp.o lib/Bitcode/Reader/CMakeFiles/LLVMBitReader.dir/MetadataLoader.cpp.o lib/Bitcode/Reader/CMakeFiles/LLVMBitReader.dir/ValueList.cpp.o && /tmp/llvm-project-build-stage1/bin/llvm-ranlib -D lib/libLLVMBitReader.a && :
+/tmp/llvm-project-build-stage1/bin/llvm-ar: error: lib/Bitcode/Reader/CMakeFiles/LLVMBitReader.dir/BitcodeReader.cpp.o: No such file or directory
+[1761/3095] Building X86GenSubtargetInfo.inc...
+[1762/3095] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/Utils.cpp.o
+[1763/3095] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/RecordsSlice.cpp.o
+[1764/3095] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/TextStubCommon.cpp.o
+[1765/3095] Building CXX object lib/WindowsDriver/CMakeFiles/LLVMWindowsDriver.dir/MSVCPaths.cpp.o
+[1766/3095] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/InterfaceFile.cpp.o
+[1767/3095] Building CXX object lib/ProfileData/Coverage/CMakeFiles/LLVMCoverage.dir/CoverageMapping.cpp.o
+[1768/3095] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/StandardInstrumentations.cpp.o
+[1769/3095] Building X86GenInstrInfo.inc...
+[1770/3095] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/TextStubV5.cpp.o
+[1771/3095] Building CXX object lib/TextAPI/BinaryReader/CMakeFiles/LLVMTextAPIBinaryReader.dir/DylibReader.cpp.o
+[1772/3095] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/TextStub.cpp.o
+[1773/3095] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/PassBuilderPipelines.cpp.o
+[1774/3095] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/PassBuilder.cpp.o
+[1775/3095] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/UDTLayout.cpp.o
+LLVM ERROR: out of memory
+Allocation failed
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and dumped files.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage2/lib/DebugInfo/PDB -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/DebugInfo/PDB -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wno-pass-failed -Wmisleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -Xclang -fno-pch-timestamp -flto=thin -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -Winvalid-pch -Xclang -include-pch -Xclang /tmp/llvm-project-build-stage2/lib/Support/CMakeFiles/LLVMSupport.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /tmp/llvm-project-build-stage2/lib/Support/CMakeFiles/LLVMSupport.dir/cmake_pch.hxx -MD -MT lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/UDTLayout.cpp.o -MF lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/UDTLayout.cpp.o.d -o lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/UDTLayout.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/DebugInfo/PDB/UDTLayout.cpp
+1.	/var/llvm-compile-time-tracker/llvm-project/llvm/lib/DebugInfo/PDB/UDTLayout.cpp:269:1: current parser token 'bool'
+2.	/var/llvm-compile-time-tracker/llvm-project/llvm/lib/DebugInfo/PDB/UDTLayout.cpp:167:62: parsing function body 'llvm::pdb::UDTLayoutBase::initializeChildren'
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x00005590e9eff7e9 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 121
+1  clang++   0x00005590e9efd3bc llvm::sys::CleanupOnSignal(unsigned long) + 220
+2  clang++   0x00005590e9e3fc88
+3  libc.so.6 0x00007fadb89af520
+4  libc.so.6 0x00007fadb8a039fc pthread_kill + 300
+5  libc.so.6 0x00007fadb89af476 raise + 22
+6  libc.so.6 0x00007fadb89957f3 abort + 211
+7  clang++   0x00005590e9e49121
+8  clang++   0x00005590e9e793f3 llvm::SmallVectorBase<unsigned int>::mallocForGrow(void*, unsigned long, unsigned long, unsigned long&) + 179
+9  clang++   0x00005590ecb377c4
+10 clang++   0x00005590ecb3813d clang::lifetimes::internal::LoanPropagationAnalysis::buildOriginFlowChain(clang::lifetimes::internal::UseFact const*, clang::lifetimes::internal::utils::ID<clang::lifetimes::internal::LoanTag>, clang::CFG const*) const + 269
+11 clang++   0x00005590ecb69acc
+12 clang++   0x00005590ecb6b4a6
+13 clang++   0x00005590ecb6da16 clang::lifetimes::internal::runLifetimeChecker(clang::lifetimes::internal::LoanPropagationAnalysis const&, clang::lifetimes::internal::MovedLoansAnalysis const&, clang::lifetimes::internal::LiveOriginsAnalysis const&, clang::lifetimes::internal::FactManager&, clang::AnalysisDeclContext&, clang::lifetimes::LifetimeSafetySemaHelper*, clang::lifetimes::LifetimeSafetyOpts const&) + 134
+14 clang++   0x00005590ecb19f9b clang::lifetimes::internal::LifetimeSafetyAnalysis::run() + 1419
+15 clang++   0x00005590ecb1a45a clang::lifetimes::runLifetimeSafetyAnalysis(clang::AnalysisDeclContext&, clang::lifetimes::LifetimeSafetySemaHelper*, clang::lifetimes::LifetimeSafetyOpts const&, clang::lifetimes::LifetimeSafetyStats&, bool) + 442
+16 clang++   0x00005590eca663d0 clang::sema::AnalysisBasedWarnings::IssueWarnings(clang::sema::AnalysisBasedWarnings::Policy, clang::sema::FunctionScopeInfo*, clang::Decl const*, clang::QualType) + 5424
+17 clang++   0x00005590ebf424d8 clang::Sema::PopFunctionScopeInfo(clang::sema::AnalysisBasedWarnings::Policy const*, clang::Decl*, clang::QualType) + 1544
+18 clang++   0x00005590ec1a1ee6 clang::Sema::ActOnFinishFunctionBody(clang::Decl*, clang::Stmt*, bool, bool) + 2502
+19 clang++   0x00005590ebeba878 clang::Parser::ParseFunctionStatementBody(clang::Decl*, clang::Parser::ParseScope&) + 280
+20 clang++   0x00005590ebda46b7 clang::Parser::ParseFunctionDefinition(clang::ParsingDeclarator&, clang::Parser::ParsedTemplateInfo const&, clang::LateParsedAttrList*) + 3079
+21 clang++   0x00005590ebdf16cf clang::Parser::ParseDeclGroup(clang::ParsingDeclSpec&, clang::DeclaratorContext, clang::ParsedAttributes&, clang::Parser::ParsedTemplateInfo&, clang::SourceLocation*, clang::Parser::ForRangeInit*) + 5215
+22 clang++   0x00005590ebd9ce64 clang::Parser::ParseDeclOrFunctionDefInternal(clang::ParsedAttributes&, clang::ParsedAttributes&, clang::ParsingDeclSpec&, clang::AccessSpecifier) + 996
+23 clang++   0x00005590ebd9d623 clang::Parser::ParseDeclarationOrFunctionDefinition(clang::ParsedAttributes&, clang::ParsedAttributes&, clang::ParsingDeclSpec*, clang::AccessSpecifier) + 883
+24 clang++   0x00005590ebda87da clang::Parser::ParseExternalDeclaration(clang::ParsedAttributes&, clang::ParsedAttributes&, clang::ParsingDeclSpec*) + 602
+25 clang++   0x00005590ebda97b7 clang::Parser::ParseTopLevelDecl(clang::OpaquePtr<clang::DeclGroupRef>&, clang::Sema::ModuleImportState&) + 599
+26 clang++   0x00005590ebd859e2 clang::ParseAST(clang::Sema&, bool, bool) + 530
+27 clang++   0x00005590eac320d2 clang::FrontendAction::Execute() + 50
+28 clang++   0x00005590eabafd0d clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 717
+29 clang++   0x00005590eacfb068 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+30 clang++   0x00005590e876e4e8 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 4616
+31 clang++   0x00005590e876647b
+32 clang++   0x00005590e876652f
+33 clang++   0x00005590ea9415bd
+34 clang++   0x00005590e9e40027 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+35 clang++   0x00005590ea9428dc
+36 clang++   0x00005590ea8fa8c7 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+37 clang++   0x00005590ea8fec47 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 295
+38 clang++   0x00005590ea910f7c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+39 clang++   0x00005590e876b276 clang_main(int, char**, llvm::ToolContext const&) + 7798
+40 clang++   0x00005590e86bc581 main + 113
+41 libc.so.6 0x00007fadb8996d90
+42 libc.so.6 0x00007fadb8996e40 __libc_start_main + 128
+43 clang++   0x00005590e8765ef5 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 24.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING CRASH REPRODUCER FILES TO THE BUG REPORT:
+clang++: note: diagnostic msg: /tmp/UDTLayout-89eb43.cpp
+clang++: note: diagnostic msg: /tmp/UDTLayout-89eb43.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Aborted
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:4 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
