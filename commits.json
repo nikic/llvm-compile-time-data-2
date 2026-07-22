@@ -184215,6 +184215,12 @@
             "author_name": "Stefan Gr\u00e4nitz",
             "commit_date": "2026-07-22T12:38:27+02:00",
             "subject": "[lldb] Fix SymbolFilePDBTests after FileSpec change f9b5264523b1 (#208425)"
+        },
+        {
+            "hash": "6d0e88210cd02ef517e42bc095c1bfd1fd5d1d3c",
+            "author_name": "Jeff Bailey",
+            "commit_date": "2026-07-22T10:45:16+00:00",
+            "subject": "[libc] Add langinfo.h header generation, macros, and types (#210941)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -192821,21 +192827,21 @@
     ],
     "fhahn\/perf\/ce-iv-latch-compare": [
         {
-            "hash": "be25717739a8b4f15fd4ccc2f8b28490ed67e922",
-            "author_name": "Alexey Gerenkov",
-            "commit_date": "2026-07-21T13:17:45+03:00",
-            "subject": "[Xtensa] Support 'f' Inline Assembly Constraint (#202345)"
+            "hash": "948c4a2fc3df17eeb44337d590d669d0150aecbb",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-07-22T09:04:41+01:00",
+            "subject": "[AArch64][GlobalISel] Select vector element extract into GPR (#210030)"
         },
         {
-            "hash": "beefc441f23f8c4607da331478fa7a345d01d5e7",
+            "hash": "94a85bbdb4b614380ed1301323fbda7953a6293a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-21T13:44:52+01:00",
+            "commit_date": "2026-07-22T11:37:39+01:00",
             "subject": "[ConstraintElim] Add more latch counted tests."
         },
         {
-            "hash": "6f76c4319485aa9b976265aa7a1cc5b37a3cf4c7",
+            "hash": "7c4c94fe739fc99faaf69729368dbd57d360ce2a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-21T13:54:39+01:00",
+            "commit_date": "2026-07-22T11:40:03+01:00",
             "subject": "[ConstraintElim] use condition from latch in addInfoForInductions."
         }
     ],
@@ -192965,6 +192971,20 @@
             "author_name": "Utkarsh Saxena",
             "commit_date": "2026-07-22T10:01:41+00:00",
             "subject": "Multiple compile-time improvements"
+        }
+    ],
+    "fhahn\/perf\/getrangeatuse-single-user": [
+        {
+            "hash": "948c4a2fc3df17eeb44337d590d669d0150aecbb",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-07-22T09:04:41+01:00",
+            "subject": "[AArch64][GlobalISel] Select vector element extract into GPR (#210030)"
+        },
+        {
+            "hash": "1723e3fa6fcb5b64b8a059783304048946448a61",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-22T11:48:44+01:00",
+            "subject": "[CVP] Refine ranges for single users in processBinOp."
         }
     ]
 }
