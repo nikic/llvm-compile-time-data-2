@@ -184395,6 +184395,12 @@
             "author_name": "Thibault Monnier",
             "commit_date": "2026-07-22T15:57:56+02:00",
             "subject": "[Clang][Lexer] Reland \"Detect SSE4.2 availability at runtime in fastParseASCIIIdentifier\" (#180631)"
+        },
+        {
+            "hash": "75e637791bff7b6c0c11754fb29991b6b140ee2c",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-22T16:03:55+02:00",
+            "subject": "[mlir][SPIR-V] Lower memref.copy to spirv.CopyMemory (#206016)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -192435,6 +192441,66 @@
             "author_name": "Brian Cain",
             "commit_date": "2026-07-22T13:58:05+00:00",
             "subject": "[docs][Hexagon] Add 23.x release notes for Hexagon changes (NFC)"
+        },
+        {
+            "hash": "2f8eaf6ef04cb81fc98c30c1a8dd7fa1a0f4c43e",
+            "author_name": "Yanzuo Liu",
+            "commit_date": "2026-07-22T13:58:49+00:00",
+            "subject": "[clang][Parser] Warn when the body of expansion statement is not a compound statement (#209229)"
+        },
+        {
+            "hash": "37532c319a905e75c6a9b028989da2d1b6073692",
+            "author_name": "David Green",
+            "commit_date": "2026-07-22T13:59:33+00:00",
+            "subject": "[SDAG] Use DAG.getTokenFactor in more places (#210949)"
+        },
+        {
+            "hash": "69873d3d1985f34fd16a3c5af89a00f9fc4df1fc",
+            "author_name": "Med Ismail Bennani",
+            "commit_date": "2026-07-22T14:00:22+00:00",
+            "subject": "[lldb] Gate `PolicyStack::Current()` log behind verbose (#209527)"
+        },
+        {
+            "hash": "b82e355d1b5ffe8e9ef16df751ad5151856c0a0d",
+            "author_name": "Andy Ames",
+            "commit_date": "2026-07-22T14:01:06+00:00",
+            "subject": "[analyzer] Fix crash in RegionStoreManager::bindArray from constructor array-to-pointer decay (#210649)"
+        },
+        {
+            "hash": "e23de9497b1f3b44a7a6b8e9dc1002496485e242",
+            "author_name": "John Paul Jepko",
+            "commit_date": "2026-07-22T14:01:46+00:00",
+            "subject": "[analyzer] Fix StdVariantChecker crash on std::get with a non-ptr arg (#210167)"
+        },
+        {
+            "hash": "6f033fece5f5ae501698b9f49f3bca3f1fa19b38",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-07-22T14:03:18+00:00",
+            "subject": "[llvm-readobj] Print all callgraph sections (#198929)"
+        },
+        {
+            "hash": "6c8106221abb8ecf67527ec2707157d4fb1c1f8b",
+            "author_name": "Sudharsan Veeravalli",
+            "commit_date": "2026-07-22T14:04:03+00:00",
+            "subject": "[RISCV] Support uimm5 operands for Xqcicm cmovs in RISCVExpandPseudoInsts (#210955)"
+        },
+        {
+            "hash": "ed059dae037e650b3f7670acc36b897283fe858f",
+            "author_name": "Sudharsan Veeravalli",
+            "commit_date": "2026-07-22T14:04:40+00:00",
+            "subject": "[RISCV] Avoid forming Zilsd pairs with x0 for non-x0 register classes (#211019)"
+        },
+        {
+            "hash": "b2628f061ea76a2beb09228701719916f5e355bf",
+            "author_name": "jay0x",
+            "commit_date": "2026-07-22T14:05:29+00:00",
+            "subject": "[flang][Lower][OpenMP] Fix reduction on array sections aborting in lowering (#209701)"
+        },
+        {
+            "hash": "165c472d65cd62eb332246eb39901603e4b1e4ce",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-07-22T14:06:58+00:00",
+            "subject": "[libc++] Don't require complete types in vector<T>::empty() (#210754)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
