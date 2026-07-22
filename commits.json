@@ -192702,5 +192702,25 @@
             "commit_date": "2026-07-21T21:19:04+00:00",
             "subject": "enable lifetime safety by default"
         }
+    ],
+    "MaskRay\/perf\/loopinfo-smallvector": [
+        {
+            "hash": "9bcb851e86941117ec9e82db8986ed301f929647",
+            "author_name": "Sudharsan Veeravalli",
+            "commit_date": "2026-07-22T09:03:29+05:30",
+            "subject": "[RISCV] Support uimm5 operands for Xqcicm cmovs in RISCVExpandPseudoInsts (#210955)"
+        },
+        {
+            "hash": "af81f578e1387783de02bd0ceeb37cf22738e096",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-07-21T20:58:54-07:00",
+            "subject": "[LoopInfo] Derive Loop::contains(BlockT*) from the block-to-loop map"
+        },
+        {
+            "hash": "0f9571fd223dde818a8111efa33bf843f42b4706",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-07-21T22:06:12-07:00",
+            "subject": "[LoopInfo] Store blocks and subloops in SmallVector<T, 0>. NFC"
+        }
     ]
 }
