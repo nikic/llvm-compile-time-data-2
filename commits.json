@@ -184047,6 +184047,12 @@
             "author_name": "Haowei",
             "commit_date": "2026-07-21T23:23:13-07:00",
             "subject": "Remove debug leftovers (#211068)"
+        },
+        {
+            "hash": "33928f632158afe0f4b23e2b9f9cd70e4b5520fa",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-07-21T23:45:51-07:00",
+            "subject": "[LoopInfo] Make getSmallestCommonLoop O(depth). NFC (#211175)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -192751,6 +192757,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-07-21T22:06:12-07:00",
             "subject": "[LoopInfo] Store blocks and subloops in SmallVector<T, 0>. NFC"
+        }
+    ],
+    "MaskRay\/perf\/loopinfo-populate-dfs": [
+        {
+            "hash": "33928f632158afe0f4b23e2b9f9cd70e4b5520fa",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-07-21T23:45:51-07:00",
+            "subject": "[LoopInfo] Make getSmallestCommonLoop O(depth). NFC (#211175)"
+        },
+        {
+            "hash": "04c93a3a7119b52f4159a290c4b7428588f840cd",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-07-21T23:46:29-07:00",
+            "subject": "[LoopInfo] Presize the populate-DFS visited set and reuse discovery buffers. NFC"
         }
     ]
 }
