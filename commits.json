@@ -185781,6 +185781,18 @@
             "author_name": "Jon Roelofs",
             "commit_date": "2026-07-23T09:02:51-07:00",
             "subject": "[llvm][AArch64] Eliminate redundant mov's sandwiching aut's in tail calls (#211105)"
+        },
+        {
+            "hash": "10600d0f4825a1896f571abc154eb9ddf47eee9d",
+            "author_name": "Lucas Ly Ba",
+            "commit_date": "2026-07-23T16:09:40+00:00",
+            "subject": "[analyzer] Make pointer\/null comparison commutative for addresses of fields of symbolic regions (#209875)"
+        },
+        {
+            "hash": "557e5c12f88e607628048b7768a30d19e9c95670",
+            "author_name": "Rithik Sharma",
+            "commit_date": "2026-07-23T09:15:00-07:00",
+            "subject": "[CIR] Recognize strlen in the IdiomRecognizer pass (#210400)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -194933,10 +194945,16 @@
             "subject": "[Hexagon] Fix HexagonRDFOpt hang during live-in recomputation (#209986)"
         },
         {
-            "hash": "708755307fdd0b931eec498d0c1f2f8aaec27ca7",
+            "hash": "02ee0eb082d9dc07d7412fd0e6ef8a504780def5",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-23T16:02:33+02:00",
-            "subject": "[globals-aa] Switch GlobalsAA to LazyCallGraph"
+            "commit_date": "2026-07-23T18:12:18+02:00",
+            "subject": "[CallGraph] Replace slow dyn_cast with fast check"
+        },
+        {
+            "hash": "15da475c35f5d636cbfc88a4a5f5b6950cadec81",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-07-23T18:12:18+02:00",
+            "subject": "[GlobalsAA] Switch to LazyCallGraph"
         }
     ]
 }
