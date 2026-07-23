@@ -185229,6 +185229,24 @@
             "author_name": "HighW4y2H3ll",
             "commit_date": "2026-07-23T05:46:08+00:00",
             "subject": "[llvm-profgen] Formatting StringRef iteration in isLBRSample (#211462)"
+        },
+        {
+            "hash": "22cb41c9ad9658319fb211b04f92806c504a8388",
+            "author_name": "Sean Clarke",
+            "commit_date": "2026-07-23T07:49:24+02:00",
+            "subject": "[LoopIdiom] Use narrower bit widths where possible in `optimizeCRCLoopUsingClmul` (#210139)"
+        },
+        {
+            "hash": "87304516a10cfbd148d0ad23fd03e7f838aed267",
+            "author_name": "Pankaj Dwivedi",
+            "commit_date": "2026-07-23T11:21:20+05:30",
+            "subject": "[Reassociate] Use UniformityInfo to group uniform operands together (#198507)"
+        },
+        {
+            "hash": "da27aac10e157e5659ba6dfa0e362b570a236978",
+            "author_name": "SiHuaN",
+            "commit_date": "2026-07-23T13:55:44+08:00",
+            "subject": "[RISCV][P-ext] Add packed sign and zero extend intrinsics (#208685)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -193359,6 +193377,24 @@
             "author_name": "AntonyCJ30",
             "commit_date": "2026-07-23T07:46:37+02:00",
             "subject": "[X86] Fix swapped VPTERNLOG231_imm8\/VPTERNLOG312_imm8 SDNodeXForm bodies (#209782)"
+        },
+        {
+            "hash": "bb709cbce5518899fd64f14a0ecc984ea5864d6e",
+            "author_name": "Ben Dunbobbin",
+            "commit_date": "2026-07-23T07:54:04+02:00",
+            "subject": "[DTLTO] Add remote compiler option forwarding coverage (#208589)"
+        },
+        {
+            "hash": "5910053397fd94218911be6e6845c2ac8927af0b",
+            "author_name": "Ben Dunbobbin",
+            "commit_date": "2026-07-23T07:54:04+02:00",
+            "subject": "[DTLTO] Forward loop interchange to DTLTO remote compilations (#208591)"
+        },
+        {
+            "hash": "32eed90cb80eb7b88a3d3cf0fed7258d69a65075",
+            "author_name": "Adrian Prantl",
+            "commit_date": "2026-07-23T07:56:02+02:00",
+            "subject": "[lldb] Fix Unicode code point formatting to use proper notation  (#211131)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
@@ -194213,9 +194249,9 @@
             "subject": "[WebAssembly] Port WebAssemblyDebugFixupPass"
         },
         {
-            "hash": "1d73dab06116e46c66198644b045a56ef822b4e0",
+            "hash": "158f336b5ee7a3bcdf363655cb01488479cab95c",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-07-22T21:51:02-07:00",
+            "commit_date": "2026-07-22T22:49:16-07:00",
             "subject": "[LoopInfo] Store each loop's blocks as a slice of one shared layout"
         }
     ]
