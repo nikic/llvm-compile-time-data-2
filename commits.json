@@ -185673,6 +185673,12 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-07-23T07:03:27-07:00",
             "subject": "[WebAssembly] Port AsmPrinter"
+        },
+        {
+            "hash": "3cbb24bd5412a5ecea5a0e4d1603e0a38676432d",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-07-23T15:10:27+01:00",
+            "subject": "[mlir][vector] Update CastAway{Extract|Insert}StridedSliceLeadingOneDim (#210902)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -193887,6 +193893,18 @@
             "author_name": "Med Ismail Bennani",
             "commit_date": "2026-07-23T08:09:07+02:00",
             "subject": "[lldb\/script] Remove verbose comments following c4962f5721a3 (NFC) (#210827)"
+        },
+        {
+            "hash": "2acc07fb438d7c7ffaccc06da0d4b9d2ec416d24",
+            "author_name": "Shikhar Jain",
+            "commit_date": "2026-07-23T16:17:26+02:00",
+            "subject": "[Polly] Guard ISL ast gen compute out (#201859)"
+        },
+        {
+            "hash": "b24ef7e132308a78dfbc6194b9519e8ea9cba8cc",
+            "author_name": "Michael Kruse",
+            "commit_date": "2026-07-23T16:17:26+02:00",
+            "subject": "[Polly][test] Add missing REQUIRES line (#210578)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
@@ -194721,22 +194739,16 @@
     ],
     "fhahn\/perf\/getrangeatuse-single-user": [
         {
-            "hash": "b605aa6ac3fcd85a608e7ca4ab5b69109ae1272e",
-            "author_name": "Madhur Amilkanthwar",
-            "commit_date": "2026-07-23T07:28:58+00:00",
-            "subject": "[LoopDistribute][NFC] Autogenerate checks for some tests (#211471)"
+            "hash": "cb383a37440d27238f8a01eee05228910d65d63e",
+            "author_name": "Evgenii Kudriashov",
+            "commit_date": "2026-07-23T14:33:57+02:00",
+            "subject": "[Clang][X86] Introduce Clang ABI Gate for MSVC alignment (#210305)"
         },
         {
-            "hash": "30c174c3146b24073a9ffed8ec5090891a1ed0be",
+            "hash": "550b405b0ad24084f22c181e3ee4ba61a3c39874",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-23T11:05:27+01:00",
-            "subject": "[CVP] Refine ranges for single users in processBinOp."
-        },
-        {
-            "hash": "dcea513606fc6c62f5a3754c1392399df9fd1311",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-23T12:58:17+01:00",
-            "subject": "Skip same block case"
+            "commit_date": "2026-07-23T14:17:20+01:00",
+            "subject": "[LVI] Refine ranges for single users in processBinOp."
         }
     ],
     "MaskRay\/perf\/loopinfo-block-layout": [
