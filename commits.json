@@ -185745,6 +185745,18 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-07-23T17:35:12+02:00",
             "subject": "AMDGPU: Use llvm-mc -triple= arguments instead of space separator (#211510)"
+        },
+        {
+            "hash": "8e473468609ada1c03770343ce81299db68c07c4",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-23T17:41:22+02:00",
+            "subject": "[AMDGPU] Fix v32f16 FMINIMUMNUM\/FMAXIMUMNUM lowering in non-IEEE mode (#207896)"
+        },
+        {
+            "hash": "3beb48b6bfeffe70d0e794171901f6d6f391fcda",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-23T17:41:28+02:00",
+            "subject": "[AMDGPU] Fix SIPreAllocateWWMRegs to reserve AV-class WWM defs (#211560)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
