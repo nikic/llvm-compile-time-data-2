@@ -185247,6 +185247,24 @@
             "author_name": "SiHuaN",
             "commit_date": "2026-07-23T13:55:44+08:00",
             "subject": "[RISCV][P-ext] Add packed sign and zero extend intrinsics (#208685)"
+        },
+        {
+            "hash": "f7ae0ec1b5821ff219e70218b6877bb977be06b7",
+            "author_name": "Damian H\u00f6ster",
+            "commit_date": "2026-07-23T13:59:53+08:00",
+            "subject": "[clang-format][clang-tools-extra] Fix leaking of host-level config into test environment (#206358)"
+        },
+        {
+            "hash": "72b764559fd2d5f564f2c6f42edd782c8e20616d",
+            "author_name": "Ritanya-B-Bharadwaj",
+            "commit_date": "2026-07-23T11:35:19+05:30",
+            "subject": "[flang][OpenMP] Add lowering for assume and assumes directives (#205615)"
+        },
+        {
+            "hash": "0a79ab0b7a7fe38f20d0f5df11b2530ff1c0c0cc",
+            "author_name": "Kareem Ergawy",
+            "commit_date": "2026-07-23T08:06:02+02:00",
+            "subject": "[flang][PFT-to-MLIR] Default wrap-unstructured-constructs-in-execute-region to off (#211290)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -193395,6 +193413,72 @@
             "author_name": "Adrian Prantl",
             "commit_date": "2026-07-23T07:56:02+02:00",
             "subject": "[lldb] Fix Unicode code point formatting to use proper notation  (#211131)"
+        },
+        {
+            "hash": "3eed3d7f35e313f3d5b51c695777196126112210",
+            "author_name": "Alexander Kornienko",
+            "commit_date": "2026-07-23T08:03:10+02:00",
+            "subject": "Revert \"[Clang] Rebuild lambda captures in default member initializers while skipping body (#196597)\" (#211001)"
+        },
+        {
+            "hash": "fe4580e97f23cabe4c1664888aad78875ef8b7f1",
+            "author_name": "Daniil Kovalev",
+            "commit_date": "2026-07-23T08:04:13+02:00",
+            "subject": "[PAC][libc++] Fix build with `ptrauth_calls` feature (#211033)"
+        },
+        {
+            "hash": "b570122870b6ddce104475f7d6e2441540f6a191",
+            "author_name": "Yuxuan Chen",
+            "commit_date": "2026-07-23T08:05:05+02:00",
+            "subject": "[Clang][coro] Fix `coro.free` in `.resume` clones with `[[clang::coro_await_elidable]]` (#207799)"
+        },
+        {
+            "hash": "6a8bec8771d46e9c1f085eb95e28c3400731ea66",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-23T08:06:15+02:00",
+            "subject": "[Matrix] Use incoming terminator as insert point in visitPHI. (#211211)"
+        },
+        {
+            "hash": "62d4ad9d04ce02a59edd12170418b93ea6334d7a",
+            "author_name": "Xing Xue",
+            "commit_date": "2026-07-23T08:06:55+02:00",
+            "subject": "[libunwind][AIX] Handle VAPI-based return addresses in stack unwinding for LLU (#209280)"
+        },
+        {
+            "hash": "c1ee0469a29838971c46ec358bba3a6ff0b55e17",
+            "author_name": "Med Ismail Bennani",
+            "commit_date": "2026-07-23T08:09:06+02:00",
+            "subject": "[lldb\/script] Improve `scripting extension list` output and filtering (#209400)"
+        },
+        {
+            "hash": "694db4d29649887af61cdba22bd5c15d3adc180b",
+            "author_name": "Med Ismail Bennani",
+            "commit_date": "2026-07-23T08:09:06+02:00",
+            "subject": "[lldb\/script] Add type hints to scripted extension base classes (#209680)"
+        },
+        {
+            "hash": "e28ea20ce0e8e38c2bbb209af8d3d361794be087",
+            "author_name": "Med Ismail Bennani",
+            "commit_date": "2026-07-23T08:09:06+02:00",
+            "subject": "[lldb\/script] Migrate frame recognizers onto ScriptedPythonInterface  (#209805)"
+        },
+        {
+            "hash": "3df0bbdc25cd467192ffafd6500d3404de34cd0e",
+            "author_name": "Med Ismail Bennani",
+            "commit_date": "2026-07-23T08:09:06+02:00",
+            "subject": "[lldb\/script] Add scripting extension template generator (#209647)"
+        },
+        {
+            "hash": "938bba16d3552561cfaddab1322d065d6c021ffa",
+            "author_name": "Med Ismail Bennani",
+            "commit_date": "2026-07-23T08:09:07+02:00",
+            "subject": "[lldb\/script] Only auto-open the generator template in an editor when interactive (#210808)"
+        },
+        {
+            "hash": "493aab374fd960aa776fd0571eb05395a2588e10",
+            "author_name": "Med Ismail Bennani",
+            "commit_date": "2026-07-23T08:09:07+02:00",
+            "subject": "[lldb\/script] Remove verbose comments following c4962f5721a3 (NFC) (#210827)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
@@ -194249,9 +194333,9 @@
             "subject": "[WebAssembly] Port WebAssemblyDebugFixupPass"
         },
         {
-            "hash": "158f336b5ee7a3bcdf363655cb01488479cab95c",
+            "hash": "48a9bac322dd8e1fb3c9322bcd8008755720dbb0",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-07-22T22:49:16-07:00",
+            "commit_date": "2026-07-22T23:02:36-07:00",
             "subject": "[LoopInfo] Store each loop's blocks as a slice of one shared layout"
         }
     ]
