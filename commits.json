@@ -185679,6 +185679,18 @@
             "author_name": "Andrzej Warzy\u0144ski",
             "commit_date": "2026-07-23T15:10:27+01:00",
             "subject": "[mlir][vector] Update CastAway{Extract|Insert}StridedSliceLeadingOneDim (#210902)"
+        },
+        {
+            "hash": "dcbf87542b26480c365b6388b5accf05d0507626",
+            "author_name": "Federico Bruzzone",
+            "commit_date": "2026-07-23T15:33:10+01:00",
+            "subject": "[mlir][sparse] Avoid vectorizing non-contiguous COO coordinate loads (#211004)"
+        },
+        {
+            "hash": "bb22aa8127450930eb27215eb9f2c70acdee69fc",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-07-23T14:34:24+00:00",
+            "subject": "[IR] Slightly optimize getElementAsInteger() (#211550)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -193923,6 +193935,12 @@
             "author_name": "guillem-bartrina-sonarsource",
             "commit_date": "2026-07-23T16:26:32+02:00",
             "subject": "[analyzer][z3] Fix crash in Z3 SMTConv when casting atomic int (#211489)"
+        },
+        {
+            "hash": "63a847a41d0bbd4ab05f980ca895fbc7ab5c863b",
+            "author_name": "Benjamin Maxwell",
+            "commit_date": "2026-07-23T16:30:36+02:00",
+            "subject": "Revert \"[LV] Allow scalable epilogue VFs matching the MainLoop VF (#208686)\""
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
