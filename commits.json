@@ -186057,6 +186057,12 @@
             "author_name": "Jianhui Li",
             "commit_date": "2026-07-23T12:34:25-07:00",
             "subject": "[mlir][gpu] Add VectorToXeGPU and adjust VectorToSCF placement in XeVM pipeline (#210539)"
+        },
+        {
+            "hash": "1a7ece827ab3543387ee1adf1eb4c8878905b577",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-23T21:45:11+02:00",
+            "subject": "AMDGPU: Mostly migrate mc tests to subarch triples (#211590)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -195135,22 +195141,22 @@
     ],
     "fhahn\/perf\/getrangeatuse-single-user": [
         {
-            "hash": "cb383a37440d27238f8a01eee05228910d65d63e",
-            "author_name": "Evgenii Kudriashov",
-            "commit_date": "2026-07-23T14:33:57+02:00",
-            "subject": "[Clang][X86] Introduce Clang ABI Gate for MSVC alignment (#210305)"
+            "hash": "6a230696441d7b2fa51e2887ef7664d2a73ae04d",
+            "author_name": "Greg Clayton",
+            "commit_date": "2026-07-23T14:24:08-04:00",
+            "subject": "Fix ProcessELFCore::GetProcessInfo() to return expected results. (#210807)"
         },
         {
-            "hash": "550b405b0ad24084f22c181e3ee4ba61a3c39874",
+            "hash": "56d99bcdfd23d1746f9fefd2df0c2dd03df2edec",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-23T14:17:20+01:00",
-            "subject": "[LVI] Refine ranges for single users in processBinOp."
+            "commit_date": "2026-07-23T20:36:58+01:00",
+            "subject": "[CVP] Add tests for single-user change."
         },
         {
-            "hash": "31efc67e6d10a85c6e53d5d91a9e77da943fc4cf",
+            "hash": "d245a88e381151fbe04c5a2af46cc7c68944b244",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-23T16:52:27+01:00",
-            "subject": "Limit to isSafeToSpeculativelyExecuteWithVariableReplaced"
+            "commit_date": "2026-07-23T20:39:16+01:00",
+            "subject": "[CVP] Refine results of getConstantRangeAtUse for single users."
         }
     ],
     "MaskRay\/perf\/loopinfo-block-layout": [
