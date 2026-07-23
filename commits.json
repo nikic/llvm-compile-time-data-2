@@ -185865,6 +185865,24 @@
             "author_name": "Benedek Kaibas",
             "commit_date": "2026-07-23T17:00:51+00:00",
             "subject": "[NFC][analyzer] Apply any_of to detect destructors stack frame (#211582)"
+        },
+        {
+            "hash": "98e71359dd152335797c274b6dd735eedb70f7b8",
+            "author_name": "Karim Alweheshy",
+            "commit_date": "2026-07-23T10:06:46-07:00",
+            "subject": "[LCSSA] Avoid rewriting lifetime markers through PHIs (#210811)"
+        },
+        {
+            "hash": "ca204851eb3177d69159a8f8a755e1b622089a19",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-07-23T12:11:55-05:00",
+            "subject": "[lldb] Create a GetStartLineEntry helper (#211264)"
+        },
+        {
+            "hash": "6425cf4ce732d660a1cdd08ea830d7734a325eb8",
+            "author_name": "Ian Li",
+            "commit_date": "2026-07-23T17:12:31+00:00",
+            "subject": "[NFC][Clang][Lex] Add assert to prevent null pointer dereference in Preprocessor::HandleModuleContextualKeyword (#211117)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -195041,6 +195059,20 @@
             "author_name": "Ricardo Jesus",
             "commit_date": "2026-07-23T08:24:19-07:00",
             "subject": "[AArch64] Skip hints for non-pseudo instructions (NFC)."
+        }
+    ],
+    "fhahn\/perf\/cache-loop-guards2": [
+        {
+            "hash": "1e7817c938ef58c015eab4d18538a5509559cd8a",
+            "author_name": "Benedek Kaibas",
+            "commit_date": "2026-07-23T17:00:51+00:00",
+            "subject": "[NFC][analyzer] Apply any_of to detect destructors stack frame (#211582)"
+        },
+        {
+            "hash": "9cb71e56f08e3db8d96ec183640c41bfb2ede5a2",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-23T18:06:37+01:00",
+            "subject": "Cache loop guards"
         }
     ]
 }
