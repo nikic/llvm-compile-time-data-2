@@ -97059,16 +97059,22 @@
     ],
     "fhahn\/perf\/scev-rewrite-add-expr": [
         {
-            "hash": "543160345be41f399c142f51355408362988f44e",
-            "author_name": "Arthur Eubanks",
-            "commit_date": "2026-07-22T18:59:30+00:00",
-            "subject": "Revert \"[SimplifyCFG] Simplify switch default branch when branch proves operand value\" (#211341)"
+            "hash": "c151d33acea677cee0c29ec15f9d5f6c7d31d0fd",
+            "author_name": "Anutosh Bhat",
+            "commit_date": "2026-07-23T07:15:12+00:00",
+            "subject": "[MLIR][Python] Do not install ExecutionEngine wrapper when disabled (#211250)"
         },
         {
-            "hash": "364412e209e347918653a7801d5e5cb614bcfd82",
+            "hash": "d9b7ceff5d5908a8fec7e10c1eb75867112b07af",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-22T21:51:28+01:00",
+            "commit_date": "2026-07-23T08:24:04+01:00",
             "subject": "[SCEV] Rewrite more SCEVAddExpr when applying guards."
+        },
+        {
+            "hash": "b5d605f7937c72431dc6b9bb2b6fa91b98ff277c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-23T11:37:10+01:00",
+            "subject": "Fold to try reduce compile-time"
         }
     ],
     "tbaederr\/perf\/initmaps2": [
@@ -185445,6 +185451,18 @@
             "author_name": "Pengcheng Wang",
             "commit_date": "2026-07-23T18:34:00+08:00",
             "subject": "[RISCV] Add TuneNoDefaultUnroll to spacemit-x60 (#211502)"
+        },
+        {
+            "hash": "492d726bcc169233d5e2c2077759977851c770ed",
+            "author_name": "Phoebe Wang",
+            "commit_date": "2026-07-23T18:37:55+08:00",
+            "subject": "[X86][AVX10.2] Add missing _mm_cvtts_ss\/sd* intrinsics (#211185)"
+        },
+        {
+            "hash": "f953ed4ec657bef2b92b798faa2872b75f1f4e81",
+            "author_name": "guillem-bartrina-sonarsource",
+            "commit_date": "2026-07-23T10:40:44+00:00",
+            "subject": "[analyzer][z3] Fix crash in Z3 SMTConv when casting atomic int (#211489)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
