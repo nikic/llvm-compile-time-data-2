@@ -185661,6 +185661,18 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-07-23T09:53:30-04:00",
             "subject": "[SLP]Combine fma and fmuladd into a single vector fma node"
+        },
+        {
+            "hash": "c2811362b9dd240583ffaa59fabd16d29c644931",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-07-23T06:59:54-07:00",
+            "subject": "[WebAssembly] Port WebAssemblyMCLowerPrePass"
+        },
+        {
+            "hash": "b9f17dd9d7604129f35eb30124f713b819197972",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-07-23T07:03:27-07:00",
+            "subject": "[WebAssembly] Port AsmPrinter"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -194773,6 +194785,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-07-23T13:02:44+00:00",
             "subject": "[AArch64] Mark SP-only register classes as non-allocatable"
+        }
+    ],
+    "clemenswasser\/perf\/lazy-globals-aa": [
+        {
+            "hash": "da6f3e6cc2565e4c6cf720931845c8eee132ce86",
+            "author_name": "Ikhlas Ajbar",
+            "commit_date": "2026-07-16T14:18:20-05:00",
+            "subject": "[Hexagon] Fix HexagonRDFOpt hang during live-in recomputation (#209986)"
+        },
+        {
+            "hash": "708755307fdd0b931eec498d0c1f2f8aaec27ca7",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-07-23T16:02:33+02:00",
+            "subject": "[globals-aa] Switch GlobalsAA to LazyCallGraph"
         }
     ]
 }
