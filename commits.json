@@ -185835,6 +185835,18 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-07-23T09:43:54-07:00",
             "subject": "[CI] Drop replacement comment in monolithic-* workflows (#211580)"
+        },
+        {
+            "hash": "d77e1617b7e6d857dc9cb42d449126e4cb2b3783",
+            "author_name": "Shilei Tian",
+            "commit_date": "2026-07-23T12:46:22-04:00",
+            "subject": "[NFC][AMDGPU] Fix redundant target feature datacachelinesize128 (#211586)"
+        },
+        {
+            "hash": "1e7c2ac9789b166cdb96a6712a694ae08b6f7a91",
+            "author_name": "Alex Duran",
+            "commit_date": "2026-07-23T18:48:56+02:00",
+            "subject": "[OFFLOAD] Add level_zero to list of default plugins (#210070)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -194997,6 +195009,20 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-07-23T18:12:18+02:00",
             "subject": "[GlobalsAA] Switch to LazyCallGraph"
+        }
+    ],
+    "rj-jesus\/perf\/rjj\/aarch64-sve-skip-non-pseudo-hints": [
+        {
+            "hash": "beca2e90e6bc75f517fa4b78ac76de6141fc558f",
+            "author_name": "Ricardo Jesus",
+            "commit_date": "2026-07-23T09:13:41+01:00",
+            "subject": "[AArch64] Prefer (sub x, -c) over (add x, c) if -c is cheaper. (#211020)"
+        },
+        {
+            "hash": "c0ab37c80ffcefa90bc63fa0a6f01d38b8a472d6",
+            "author_name": "Ricardo Jesus",
+            "commit_date": "2026-07-23T08:24:19-07:00",
+            "subject": "[AArch64] Skip hints for non-pseudo instructions (NFC)."
         }
     ]
 }
