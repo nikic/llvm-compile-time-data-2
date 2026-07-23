@@ -185727,6 +185727,24 @@
             "author_name": "Prem C",
             "commit_date": "2026-07-23T08:17:10-07:00",
             "subject": "[mlir] Handle null region in LoopLikeOpInterface::isDefinedOutsideOfLoop (#204521)"
+        },
+        {
+            "hash": "d2f164231c6cf5ed24ae67ea6bd9c7ea89257076",
+            "author_name": "vangthao95",
+            "commit_date": "2026-07-23T08:28:16-07:00",
+            "subject": "AMDGPU\/GlobalISel: RegBankLegalize G_ANYEXT s16 to s64 (#205470)"
+        },
+        {
+            "hash": "e2a39f504fee836e4def9581bed817ecc327b9dc",
+            "author_name": "Siu Chi Chan",
+            "commit_date": "2026-07-23T11:30:55-04:00",
+            "subject": "[AMDGPU] Use global_prefetch_b8 for GFX1250 unclaused VMEM workaround (#210874)"
+        },
+        {
+            "hash": "8543a5b116c03289b7659cd1d2cbd85fa51a7175",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-23T17:35:12+02:00",
+            "subject": "AMDGPU: Use llvm-mc -triple= arguments instead of space separator (#211510)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -193283,22 +193301,16 @@
     ],
     "fhahn\/perf\/repply-vpslot-tracker": [
         {
-            "hash": "b8d37cbc139a5adcd56611c21850e02600e560f2",
-            "author_name": "David Green",
-            "commit_date": "2026-07-12T20:57:32+01:00",
-            "subject": "[AArch64] Add an OPERAND_IMM_UINT8 operand type. (#209050)"
+            "hash": "8fb7dfe629b94f57eead9b8fa3423606492fac31",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-23T14:20:18+02:00",
+            "subject": "[SPIR-V] Cache PartialOrderingVisitor in Splitter instead of rebuilding per call (#211198)"
         },
         {
-            "hash": "5d7f05dee0b193584f23f09c4f414103c2c407f3",
+            "hash": "bf451b17a2704e5c3b103cd6d7e9908b6c952fcb",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-12T21:15:26+01:00",
+            "commit_date": "2026-07-23T16:27:37+01:00",
             "subject": "Reapply \"[VPlan] Re-use VPSlotTracker when printing recipes for costs (NFC).\" (#209003)"
-        },
-        {
-            "hash": "9d34f7ae907b4988593d36c9be4f63a78793e6c6",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-12T22:48:31+01:00",
-            "subject": "!fixup lazily construct"
         }
     ],
     "tomershafir\/perf\/aarch64-add-sme-clustering-iter-regclass": [
