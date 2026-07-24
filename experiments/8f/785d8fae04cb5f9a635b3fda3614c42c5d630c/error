@@ -1,0 +1,1640 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_test_suite.sh O3 stage1 " failed
+
+STDOUT:
+clang: note: diagnostic msg: /tmp/rdopt-c04792.c
+clang: note: diagnostic msg: /tmp/rdopt-c04792.sh
+clang: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang: Segmentation fault
+[435/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/sei.c.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+[436/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/rc_quadratic.c.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+[437/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/slice.c.o
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+[438/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/vlc.c.o
+[439/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/clock.c.o
+[440/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/analyze.c.o
+[441/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/weighted_prediction.c.o
+[442/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/component.c.o
+[443/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/closure.c.o
+[444/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/condensing.c.o
+[445/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/transform8x8.c.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+[446/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/context.c.o
+[447/671] Linking C executable CTMark/lencod/lencod
+FAILED: CTMark/lencod/lencod 
+: && /tmp/llvm-test-suite-build/tools/timeit --summary CTMark/lencod/lencod.link.time /tmp/llvm-project-build-stage1/bin/clang -O3  CTMark/lencod/CMakeFiles/lencod.dir/annexb.c.o CTMark/lencod/CMakeFiles/lencod.dir/biariencode.c.o CTMark/lencod/CMakeFiles/lencod.dir/block.c.o CTMark/lencod/CMakeFiles/lencod.dir/cabac.c.o CTMark/lencod/CMakeFiles/lencod.dir/configfile.c.o CTMark/lencod/CMakeFiles/lencod.dir/context_ini.c.o CTMark/lencod/CMakeFiles/lencod.dir/decoder.c.o CTMark/lencod/CMakeFiles/lencod.dir/explicit_gop.c.o CTMark/lencod/CMakeFiles/lencod.dir/filehandle.c.o CTMark/lencod/CMakeFiles/lencod.dir/fmo.c.o CTMark/lencod/CMakeFiles/lencod.dir/header.c.o CTMark/lencod/CMakeFiles/lencod.dir/image.c.o CTMark/lencod/CMakeFiles/lencod.dir/img_chroma.c.o CTMark/lencod/CMakeFiles/lencod.dir/img_luma.c.o CTMark/lencod/CMakeFiles/lencod.dir/intrarefresh.c.o CTMark/lencod/CMakeFiles/lencod.dir/leaky_bucket.c.o CTMark/lencod/CMakeFiles/lencod.dir/lencod.c.o CTMark/lencod/CMakeFiles/lencod.dir/loopFilter.c.o CTMark/lencod/CMakeFiles/lencod.dir/macroblock.c.o CTMark/lencod/CMakeFiles/lencod.dir/mb_access.c.o CTMark/lencod/CMakeFiles/lencod.dir/mbuffer.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_high.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_highfast.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_highloss.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_low.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_distortion.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_epzs.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_fullfast.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_fullsearch.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_umhex.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_umhexsmp.c.o CTMark/lencod/CMakeFiles/lencod.dir/memalloc.c.o CTMark/lencod/CMakeFiles/lencod.dir/mode_decision.c.o CTMark/lencod/CMakeFiles/lencod.dir/mv-search.c.o CTMark/lencod/CMakeFiles/lencod.dir/nal.c.o CTMark/lencod/CMakeFiles/lencod.dir/nalu.c.o CTMark/lencod/CMakeFiles/lencod.dir/nalucommon.c.o CTMark/lencod/CMakeFiles/lencod.dir/output.c.o CTMark/lencod/CMakeFiles/lencod.dir/parset.c.o CTMark/lencod/CMakeFiles/lencod.dir/parsetcommon.c.o CTMark/lencod/CMakeFiles/lencod.dir/q_matrix.c.o CTMark/lencod/CMakeFiles/lencod.dir/q_offsets.c.o CTMark/lencod/CMakeFiles/lencod.dir/ratectl.c.o CTMark/lencod/CMakeFiles/lencod.dir/rc_quadratic.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdopt.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdopt_coding_state.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdpicdecision.c.o CTMark/lencod/CMakeFiles/lencod.dir/refbuf.c.o CTMark/lencod/CMakeFiles/lencod.dir/rtp.c.o CTMark/lencod/CMakeFiles/lencod.dir/sei.c.o CTMark/lencod/CMakeFiles/lencod.dir/slice.c.o CTMark/lencod/CMakeFiles/lencod.dir/symbol.c.o CTMark/lencod/CMakeFiles/lencod.dir/transform8x8.c.o CTMark/lencod/CMakeFiles/lencod.dir/vlc.c.o CTMark/lencod/CMakeFiles/lencod.dir/weighted_prediction.c.o -o CTMark/lencod/lencod  -lm && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/lencod.reference_output /tmp/llvm-test-suite-build/CTMark/lencod/lencod.reference_output && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/encoder.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/encoder.cfg && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/foreman_part_qcif_444.yuv /tmp/llvm-test-suite-build/CTMark/lencod/data/foreman_part_qcif_444.yuv && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/leakybucketrate.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/leakybucketrate.cfg && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/q_matrix.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/q_matrix.cfg
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/lencod.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mbuffer.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/me_umhex.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/me_umhexsmp.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mode_decision.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mv-search.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/q_offsets.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/rdopt.c.o'
+[448/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/defs.c.o
+[449/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/dfgscanner.c.o
+SUCCESS: 0
+[450/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/dfgparser.c.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+[451/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/cnf.c.o
+SUCCESS: 1
+[452/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/clause.c.o
+[453/671] Building CXX object CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_test_suite.sh ReleaseThinLTO stage1 " failed
+
+STDOUT:
+58 clang     0x00005563c8a11bbc clang::Parser::ParseStatementOrDeclaration(llvm::SmallVector<clang::Stmt*, 24u>&, clang::Parser::ParsedStmtContext, clang::SourceLocation*, clang::LabelDecl*) + 380
+59 clang     0x00005563c8a12c0b clang::Parser::ParseStatement(clang::SourceLocation*, clang::Parser::ParsedStmtContext, clang::LabelDecl*) + 107
+60 clang     0x00005563c8a13855 clang::Parser::ParseForStatement(clang::SourceLocation*, clang::LabelDecl*, clang::CXXExpansionStmtDecl*) + 3061
+61 clang     0x00005563c8a10769 clang::Parser::ParseStatementOrDeclarationAfterAttributes(llvm::SmallVector<clang::Stmt*, 24u>&, clang::Parser::ParsedStmtContext, clang::SourceLocation*, clang::ParsedAttributes&, clang::ParsedAttributes&, clang::LabelDecl*) + 2137
+62 clang     0x00005563c8a11bbc clang::Parser::ParseStatementOrDeclaration(llvm::SmallVector<clang::Stmt*, 24u>&, clang::Parser::ParsedStmtContext, clang::SourceLocation*, clang::LabelDecl*) + 380
+63 clang     0x00005563c8a195b7 clang::Parser::ParseCompoundStatementBody(bool) + 1287
+64 clang     0x00005563c8a19e2a clang::Parser::ParseFunctionStatementBody(clang::Decl*, clang::Parser::ParseScope&) + 218
+65 clang     0x00005563c8903ca7 clang::Parser::ParseFunctionDefinition(clang::ParsingDeclarator&, clang::Parser::ParsedTemplateInfo const&, clang::LateParsedAttrList*) + 3079
+66 clang     0x00005563c8950cbf clang::Parser::ParseDeclGroup(clang::ParsingDeclSpec&, clang::DeclaratorContext, clang::ParsedAttributes&, clang::Parser::ParsedTemplateInfo&, clang::SourceLocation*, clang::Parser::ForRangeInit*) + 5215
+67 clang     0x00005563c88fc454 clang::Parser::ParseDeclOrFunctionDefInternal(clang::ParsedAttributes&, clang::ParsedAttributes&, clang::ParsingDeclSpec&, clang::AccessSpecifier) + 996
+68 clang     0x00005563c88fcc13 clang::Parser::ParseDeclarationOrFunctionDefinition(clang::ParsedAttributes&, clang::ParsedAttributes&, clang::ParsingDeclSpec*, clang::AccessSpecifier) + 883
+69 clang     0x00005563c8907dca clang::Parser::ParseExternalDeclaration(clang::ParsedAttributes&, clang::ParsedAttributes&, clang::ParsingDeclSpec*) + 602
+70 clang     0x00005563c8908da7 clang::Parser::ParseTopLevelDecl(clang::OpaquePtr<clang::DeclGroupRef>&, clang::Sema::ModuleImportState&) + 599
+71 clang     0x00005563c88e4fd2 clang::ParseAST(clang::Sema&, bool, bool) + 530
+72 clang     0x00005563c778cf72 clang::FrontendAction::Execute() + 50
+73 clang     0x00005563c770aa0d clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 717
+74 clang     0x00005563c7855ee8 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+75 clang     0x00005563c52c1168 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 4616
+76 clang     0x00005563c52b90fb
+77 clang     0x00005563c52b91af
+78 clang     0x00005563c749bf6d
+79 clang     0x00005563c6992277 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+80 clang     0x00005563c749d28c
+81 clang     0x00005563c7454bf7 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+82 clang     0x00005563c7458f77 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 295
+83 clang     0x00005563c746b71c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+84 clang     0x00005563c52bdef6 clang_main(int, char**, llvm::ToolContext const&) + 7798
+85 clang     0x00005563c520d581 main + 113
+86 libc.so.6 0x00007f73fc2cbd90
+87 libc.so.6 0x00007f73fc2cbe40 __libc_start_main + 128
+88 clang     0x00005563c52b8b75 _start + 37
+clang: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 24.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING CRASH REPRODUCER FILES TO THE BUG REPORT:
+clang: note: diagnostic msg: /tmp/rdopt-a52232.c
+clang: note: diagnostic msg: /tmp/rdopt-a52232.sh
+clang: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang: Segmentation fault
+[436/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/weighted_prediction.c.o
+[437/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/vlc.c.o
+[438/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/slice.c.o
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+[439/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/clock.c.o
+[440/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/transform8x8.c.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+[441/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/analyze.c.o
+[442/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/closure.c.o
+[443/671] Linking C executable CTMark/lencod/lencod
+FAILED: CTMark/lencod/lencod 
+: && /tmp/llvm-test-suite-build/tools/timeit --summary CTMark/lencod/lencod.link.time /tmp/llvm-project-build-stage1/bin/clang -O3 -fomit-frame-pointer -flto=thin -DNDEBUG  CTMark/lencod/CMakeFiles/lencod.dir/annexb.c.o CTMark/lencod/CMakeFiles/lencod.dir/biariencode.c.o CTMark/lencod/CMakeFiles/lencod.dir/block.c.o CTMark/lencod/CMakeFiles/lencod.dir/cabac.c.o CTMark/lencod/CMakeFiles/lencod.dir/configfile.c.o CTMark/lencod/CMakeFiles/lencod.dir/context_ini.c.o CTMark/lencod/CMakeFiles/lencod.dir/decoder.c.o CTMark/lencod/CMakeFiles/lencod.dir/explicit_gop.c.o CTMark/lencod/CMakeFiles/lencod.dir/filehandle.c.o CTMark/lencod/CMakeFiles/lencod.dir/fmo.c.o CTMark/lencod/CMakeFiles/lencod.dir/header.c.o CTMark/lencod/CMakeFiles/lencod.dir/image.c.o CTMark/lencod/CMakeFiles/lencod.dir/img_chroma.c.o CTMark/lencod/CMakeFiles/lencod.dir/img_luma.c.o CTMark/lencod/CMakeFiles/lencod.dir/intrarefresh.c.o CTMark/lencod/CMakeFiles/lencod.dir/leaky_bucket.c.o CTMark/lencod/CMakeFiles/lencod.dir/lencod.c.o CTMark/lencod/CMakeFiles/lencod.dir/loopFilter.c.o CTMark/lencod/CMakeFiles/lencod.dir/macroblock.c.o CTMark/lencod/CMakeFiles/lencod.dir/mb_access.c.o CTMark/lencod/CMakeFiles/lencod.dir/mbuffer.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_high.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_highfast.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_highloss.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_low.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_distortion.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_epzs.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_fullfast.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_fullsearch.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_umhex.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_umhexsmp.c.o CTMark/lencod/CMakeFiles/lencod.dir/memalloc.c.o CTMark/lencod/CMakeFiles/lencod.dir/mode_decision.c.o CTMark/lencod/CMakeFiles/lencod.dir/mv-search.c.o CTMark/lencod/CMakeFiles/lencod.dir/nal.c.o CTMark/lencod/CMakeFiles/lencod.dir/nalu.c.o CTMark/lencod/CMakeFiles/lencod.dir/nalucommon.c.o CTMark/lencod/CMakeFiles/lencod.dir/output.c.o CTMark/lencod/CMakeFiles/lencod.dir/parset.c.o CTMark/lencod/CMakeFiles/lencod.dir/parsetcommon.c.o CTMark/lencod/CMakeFiles/lencod.dir/q_matrix.c.o CTMark/lencod/CMakeFiles/lencod.dir/q_offsets.c.o CTMark/lencod/CMakeFiles/lencod.dir/ratectl.c.o CTMark/lencod/CMakeFiles/lencod.dir/rc_quadratic.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdopt.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdopt_coding_state.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdpicdecision.c.o CTMark/lencod/CMakeFiles/lencod.dir/refbuf.c.o CTMark/lencod/CMakeFiles/lencod.dir/rtp.c.o CTMark/lencod/CMakeFiles/lencod.dir/sei.c.o CTMark/lencod/CMakeFiles/lencod.dir/slice.c.o CTMark/lencod/CMakeFiles/lencod.dir/symbol.c.o CTMark/lencod/CMakeFiles/lencod.dir/transform8x8.c.o CTMark/lencod/CMakeFiles/lencod.dir/vlc.c.o CTMark/lencod/CMakeFiles/lencod.dir/weighted_prediction.c.o -o CTMark/lencod/lencod  -lm && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/lencod.reference_output /tmp/llvm-test-suite-build/CTMark/lencod/lencod.reference_output && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/encoder.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/encoder.cfg && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/foreman_part_qcif_444.yuv /tmp/llvm-test-suite-build/CTMark/lencod/data/foreman_part_qcif_444.yuv && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/leakybucketrate.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/leakybucketrate.cfg && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/q_matrix.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/q_matrix.cfg
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/lencod.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mbuffer.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/me_umhex.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/me_umhexsmp.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mode_decision.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mv-search.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/q_offsets.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/rdopt.c.o'
+[444/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/component.c.o
+[445/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/condensing.c.o
+[446/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/cnf.c.o
+SUCCESS: 1
+[447/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/clause.c.o
+[448/671] Linking CXX executable CTMark/kimwitu++/kc
+[449/671] Building CXX object CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_test_suite.sh ReleaseLTO-g stage1 " failed
+
+STDOUT:
+85 clang     0x00005562d88ee581 main + 113
+86 libc.so.6 0x00007f97db8aed90
+87 libc.so.6 0x00007f97db8aee40 __libc_start_main + 128
+88 clang     0x00005562d8999b75 _start + 37
+clang: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 24.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING CRASH REPRODUCER FILES TO THE BUG REPORT:
+clang: note: diagnostic msg: /tmp/rdopt-cdbdd6.c
+clang: note: diagnostic msg: /tmp/rdopt-cdbdd6.sh
+clang: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang: Segmentation fault
+[430/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/refbuf.c.o
+[431/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/rtp.c.o
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+[432/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/symbol.c.o
+[433/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/sei.c.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+[434/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/slice.c.o
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+[435/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/vlc.c.o
+[436/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/weighted_prediction.c.o
+[437/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/analyze.c.o
+[438/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/clock.c.o
+[439/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/transform8x8.c.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+[440/671] Linking C executable CTMark/lencod/lencod
+FAILED: CTMark/lencod/lencod 
+: && /tmp/llvm-test-suite-build/tools/timeit --summary CTMark/lencod/lencod.link.time /tmp/llvm-project-build-stage1/bin/clang -O3 -fomit-frame-pointer -flto -DNDEBUG -g  CTMark/lencod/CMakeFiles/lencod.dir/annexb.c.o CTMark/lencod/CMakeFiles/lencod.dir/biariencode.c.o CTMark/lencod/CMakeFiles/lencod.dir/block.c.o CTMark/lencod/CMakeFiles/lencod.dir/cabac.c.o CTMark/lencod/CMakeFiles/lencod.dir/configfile.c.o CTMark/lencod/CMakeFiles/lencod.dir/context_ini.c.o CTMark/lencod/CMakeFiles/lencod.dir/decoder.c.o CTMark/lencod/CMakeFiles/lencod.dir/explicit_gop.c.o CTMark/lencod/CMakeFiles/lencod.dir/filehandle.c.o CTMark/lencod/CMakeFiles/lencod.dir/fmo.c.o CTMark/lencod/CMakeFiles/lencod.dir/header.c.o CTMark/lencod/CMakeFiles/lencod.dir/image.c.o CTMark/lencod/CMakeFiles/lencod.dir/img_chroma.c.o CTMark/lencod/CMakeFiles/lencod.dir/img_luma.c.o CTMark/lencod/CMakeFiles/lencod.dir/intrarefresh.c.o CTMark/lencod/CMakeFiles/lencod.dir/leaky_bucket.c.o CTMark/lencod/CMakeFiles/lencod.dir/lencod.c.o CTMark/lencod/CMakeFiles/lencod.dir/loopFilter.c.o CTMark/lencod/CMakeFiles/lencod.dir/macroblock.c.o CTMark/lencod/CMakeFiles/lencod.dir/mb_access.c.o CTMark/lencod/CMakeFiles/lencod.dir/mbuffer.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_high.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_highfast.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_highloss.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_low.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_distortion.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_epzs.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_fullfast.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_fullsearch.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_umhex.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_umhexsmp.c.o CTMark/lencod/CMakeFiles/lencod.dir/memalloc.c.o CTMark/lencod/CMakeFiles/lencod.dir/mode_decision.c.o CTMark/lencod/CMakeFiles/lencod.dir/mv-search.c.o CTMark/lencod/CMakeFiles/lencod.dir/nal.c.o CTMark/lencod/CMakeFiles/lencod.dir/nalu.c.o CTMark/lencod/CMakeFiles/lencod.dir/nalucommon.c.o CTMark/lencod/CMakeFiles/lencod.dir/output.c.o CTMark/lencod/CMakeFiles/lencod.dir/parset.c.o CTMark/lencod/CMakeFiles/lencod.dir/parsetcommon.c.o CTMark/lencod/CMakeFiles/lencod.dir/q_matrix.c.o CTMark/lencod/CMakeFiles/lencod.dir/q_offsets.c.o CTMark/lencod/CMakeFiles/lencod.dir/ratectl.c.o CTMark/lencod/CMakeFiles/lencod.dir/rc_quadratic.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdopt.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdopt_coding_state.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdpicdecision.c.o CTMark/lencod/CMakeFiles/lencod.dir/refbuf.c.o CTMark/lencod/CMakeFiles/lencod.dir/rtp.c.o CTMark/lencod/CMakeFiles/lencod.dir/sei.c.o CTMark/lencod/CMakeFiles/lencod.dir/slice.c.o CTMark/lencod/CMakeFiles/lencod.dir/symbol.c.o CTMark/lencod/CMakeFiles/lencod.dir/transform8x8.c.o CTMark/lencod/CMakeFiles/lencod.dir/vlc.c.o CTMark/lencod/CMakeFiles/lencod.dir/weighted_prediction.c.o -o CTMark/lencod/lencod  -lm && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/lencod.reference_output /tmp/llvm-test-suite-build/CTMark/lencod/lencod.reference_output && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/encoder.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/encoder.cfg && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/foreman_part_qcif_444.yuv /tmp/llvm-test-suite-build/CTMark/lencod/data/foreman_part_qcif_444.yuv && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/leakybucketrate.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/leakybucketrate.cfg && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/q_matrix.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/q_matrix.cfg
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/lencod.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mbuffer.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/me_umhex.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/me_umhexsmp.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mode_decision.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mv-search.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/q_offsets.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/rdopt.c.o'
+[441/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/closure.c.o
+[442/671] Linking CXX executable CTMark/Bullet/bullet
+[443/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/clause.c.o
+[444/671] Linking CXX executable CTMark/kimwitu++/kc
+[445/671] Linking CXX executable CTMark/7zip/7zip-benchmark
+[446/671] Building CXX object CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_test_suite.sh O0-g stage1 " failed
+
+STDOUT:
+81 clang     0x000055e601a3dbf7 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+82 clang     0x000055e601a41f77 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 295
+83 clang     0x000055e601a5471c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+84 clang     0x000055e5ff8a6ef6 clang_main(int, char**, llvm::ToolContext const&) + 7798
+85 clang     0x000055e5ff7f6581 main + 113
+86 libc.so.6 0x00007f1734d67d90
+87 libc.so.6 0x00007f1734d67e40 __libc_start_main + 128
+88 clang     0x000055e5ff8a1b75 _start + 37
+clang: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 24.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING CRASH REPRODUCER FILES TO THE BUG REPORT:
+clang: note: diagnostic msg: /tmp/rdopt-fdde3d.c
+clang: note: diagnostic msg: /tmp/rdopt-fdde3d.sh
+clang: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang: Segmentation fault
+[439/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/analyze.c.o
+[440/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/clock.c.o
+[441/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/unpk.cc.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+[442/671] Linking C executable CTMark/lencod/lencod
+FAILED: CTMark/lencod/lencod 
+: && /tmp/llvm-test-suite-build/tools/timeit --summary CTMark/lencod/lencod.link.time /tmp/llvm-project-build-stage1/bin/clang -O0 -g  CTMark/lencod/CMakeFiles/lencod.dir/annexb.c.o CTMark/lencod/CMakeFiles/lencod.dir/biariencode.c.o CTMark/lencod/CMakeFiles/lencod.dir/block.c.o CTMark/lencod/CMakeFiles/lencod.dir/cabac.c.o CTMark/lencod/CMakeFiles/lencod.dir/configfile.c.o CTMark/lencod/CMakeFiles/lencod.dir/context_ini.c.o CTMark/lencod/CMakeFiles/lencod.dir/decoder.c.o CTMark/lencod/CMakeFiles/lencod.dir/explicit_gop.c.o CTMark/lencod/CMakeFiles/lencod.dir/filehandle.c.o CTMark/lencod/CMakeFiles/lencod.dir/fmo.c.o CTMark/lencod/CMakeFiles/lencod.dir/header.c.o CTMark/lencod/CMakeFiles/lencod.dir/image.c.o CTMark/lencod/CMakeFiles/lencod.dir/img_chroma.c.o CTMark/lencod/CMakeFiles/lencod.dir/img_luma.c.o CTMark/lencod/CMakeFiles/lencod.dir/intrarefresh.c.o CTMark/lencod/CMakeFiles/lencod.dir/leaky_bucket.c.o CTMark/lencod/CMakeFiles/lencod.dir/lencod.c.o CTMark/lencod/CMakeFiles/lencod.dir/loopFilter.c.o CTMark/lencod/CMakeFiles/lencod.dir/macroblock.c.o CTMark/lencod/CMakeFiles/lencod.dir/mb_access.c.o CTMark/lencod/CMakeFiles/lencod.dir/mbuffer.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_high.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_highfast.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_highloss.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_low.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_distortion.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_epzs.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_fullfast.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_fullsearch.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_umhex.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_umhexsmp.c.o CTMark/lencod/CMakeFiles/lencod.dir/memalloc.c.o CTMark/lencod/CMakeFiles/lencod.dir/mode_decision.c.o CTMark/lencod/CMakeFiles/lencod.dir/mv-search.c.o CTMark/lencod/CMakeFiles/lencod.dir/nal.c.o CTMark/lencod/CMakeFiles/lencod.dir/nalu.c.o CTMark/lencod/CMakeFiles/lencod.dir/nalucommon.c.o CTMark/lencod/CMakeFiles/lencod.dir/output.c.o CTMark/lencod/CMakeFiles/lencod.dir/parset.c.o CTMark/lencod/CMakeFiles/lencod.dir/parsetcommon.c.o CTMark/lencod/CMakeFiles/lencod.dir/q_matrix.c.o CTMark/lencod/CMakeFiles/lencod.dir/q_offsets.c.o CTMark/lencod/CMakeFiles/lencod.dir/ratectl.c.o CTMark/lencod/CMakeFiles/lencod.dir/rc_quadratic.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdopt.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdopt_coding_state.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdpicdecision.c.o CTMark/lencod/CMakeFiles/lencod.dir/refbuf.c.o CTMark/lencod/CMakeFiles/lencod.dir/rtp.c.o CTMark/lencod/CMakeFiles/lencod.dir/sei.c.o CTMark/lencod/CMakeFiles/lencod.dir/slice.c.o CTMark/lencod/CMakeFiles/lencod.dir/symbol.c.o CTMark/lencod/CMakeFiles/lencod.dir/transform8x8.c.o CTMark/lencod/CMakeFiles/lencod.dir/vlc.c.o CTMark/lencod/CMakeFiles/lencod.dir/weighted_prediction.c.o -o CTMark/lencod/lencod  -lm && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/lencod.reference_output /tmp/llvm-test-suite-build/CTMark/lencod/lencod.reference_output && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/encoder.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/encoder.cfg && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/foreman_part_qcif_444.yuv /tmp/llvm-test-suite-build/CTMark/lencod/data/foreman_part_qcif_444.yuv && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/leakybucketrate.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/leakybucketrate.cfg && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/q_matrix.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/q_matrix.cfg
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/lencod.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mbuffer.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/me_umhex.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/me_umhexsmp.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mode_decision.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mv-search.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/q_offsets.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/rdopt.c.o'
+[443/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/closure.c.o
+[444/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/component.c.o
+[445/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/clause.c.o
+[446/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/cnf.c.o
+SUCCESS: 1
+[447/671] Linking CXX executable CTMark/kimwitu++/kc
+[448/671] Building CXX object CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_test_suite.sh O3 stage1 aarch64" failed
+
+STDOUT:
+clang: note: diagnostic msg: /tmp/rdopt-1a65fb.c
+clang: note: diagnostic msg: /tmp/rdopt-1a65fb.sh
+clang: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang: Segmentation fault
+[435/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/sei.c.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+[436/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/rc_quadratic.c.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+[437/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/slice.c.o
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+[438/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/vlc.c.o
+[439/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/clock.c.o
+[440/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/analyze.c.o
+[441/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/closure.c.o
+[442/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/weighted_prediction.c.o
+[443/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/component.c.o
+[444/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/condensing.c.o
+[445/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/context.c.o
+[446/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/transform8x8.c.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+[447/671] Linking C executable CTMark/lencod/lencod
+FAILED: CTMark/lencod/lencod 
+: && /tmp/llvm-test-suite-build/tools/timeit --summary CTMark/lencod/lencod.link.time /tmp/llvm-project-build-stage1/bin/clang --target=aarch64-linux-gnu -O3  CTMark/lencod/CMakeFiles/lencod.dir/annexb.c.o CTMark/lencod/CMakeFiles/lencod.dir/biariencode.c.o CTMark/lencod/CMakeFiles/lencod.dir/block.c.o CTMark/lencod/CMakeFiles/lencod.dir/cabac.c.o CTMark/lencod/CMakeFiles/lencod.dir/configfile.c.o CTMark/lencod/CMakeFiles/lencod.dir/context_ini.c.o CTMark/lencod/CMakeFiles/lencod.dir/decoder.c.o CTMark/lencod/CMakeFiles/lencod.dir/explicit_gop.c.o CTMark/lencod/CMakeFiles/lencod.dir/filehandle.c.o CTMark/lencod/CMakeFiles/lencod.dir/fmo.c.o CTMark/lencod/CMakeFiles/lencod.dir/header.c.o CTMark/lencod/CMakeFiles/lencod.dir/image.c.o CTMark/lencod/CMakeFiles/lencod.dir/img_chroma.c.o CTMark/lencod/CMakeFiles/lencod.dir/img_luma.c.o CTMark/lencod/CMakeFiles/lencod.dir/intrarefresh.c.o CTMark/lencod/CMakeFiles/lencod.dir/leaky_bucket.c.o CTMark/lencod/CMakeFiles/lencod.dir/lencod.c.o CTMark/lencod/CMakeFiles/lencod.dir/loopFilter.c.o CTMark/lencod/CMakeFiles/lencod.dir/macroblock.c.o CTMark/lencod/CMakeFiles/lencod.dir/mb_access.c.o CTMark/lencod/CMakeFiles/lencod.dir/mbuffer.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_high.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_highfast.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_highloss.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_low.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_distortion.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_epzs.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_fullfast.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_fullsearch.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_umhex.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_umhexsmp.c.o CTMark/lencod/CMakeFiles/lencod.dir/memalloc.c.o CTMark/lencod/CMakeFiles/lencod.dir/mode_decision.c.o CTMark/lencod/CMakeFiles/lencod.dir/mv-search.c.o CTMark/lencod/CMakeFiles/lencod.dir/nal.c.o CTMark/lencod/CMakeFiles/lencod.dir/nalu.c.o CTMark/lencod/CMakeFiles/lencod.dir/nalucommon.c.o CTMark/lencod/CMakeFiles/lencod.dir/output.c.o CTMark/lencod/CMakeFiles/lencod.dir/parset.c.o CTMark/lencod/CMakeFiles/lencod.dir/parsetcommon.c.o CTMark/lencod/CMakeFiles/lencod.dir/q_matrix.c.o CTMark/lencod/CMakeFiles/lencod.dir/q_offsets.c.o CTMark/lencod/CMakeFiles/lencod.dir/ratectl.c.o CTMark/lencod/CMakeFiles/lencod.dir/rc_quadratic.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdopt.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdopt_coding_state.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdpicdecision.c.o CTMark/lencod/CMakeFiles/lencod.dir/refbuf.c.o CTMark/lencod/CMakeFiles/lencod.dir/rtp.c.o CTMark/lencod/CMakeFiles/lencod.dir/sei.c.o CTMark/lencod/CMakeFiles/lencod.dir/slice.c.o CTMark/lencod/CMakeFiles/lencod.dir/symbol.c.o CTMark/lencod/CMakeFiles/lencod.dir/transform8x8.c.o CTMark/lencod/CMakeFiles/lencod.dir/vlc.c.o CTMark/lencod/CMakeFiles/lencod.dir/weighted_prediction.c.o -o CTMark/lencod/lencod  -lm && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/lencod.reference_output /tmp/llvm-test-suite-build/CTMark/lencod/lencod.reference_output && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/encoder.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/encoder.cfg && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/foreman_part_qcif_444.yuv /tmp/llvm-test-suite-build/CTMark/lencod/data/foreman_part_qcif_444.yuv && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/leakybucketrate.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/leakybucketrate.cfg && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/q_matrix.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/q_matrix.cfg
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/lencod.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mbuffer.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/me_umhex.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/me_umhexsmp.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mode_decision.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mv-search.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/q_offsets.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/rdopt.c.o'
+[448/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/defs.c.o
+[449/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/dfgscanner.c.o
+SUCCESS: 0
+[450/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/dfgparser.c.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+[451/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/cnf.c.o
+SUCCESS: 1
+[452/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/clause.c.o
+[453/671] Building CXX object CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_test_suite.sh O0-g stage1 aarch64" failed
+
+STDOUT:
+49 clang     0x0000557a49325c0b clang::Parser::ParseStatement(clang::SourceLocation*, clang::Parser::ParsedStmtContext, clang::LabelDecl*) + 107
+50 clang     0x0000557a49322a06 clang::Parser::ParseIfStatement(clang::SourceLocation*) + 1590
+51 clang     0x0000557a49323710 clang::Parser::ParseStatementOrDeclarationAfterAttributes(llvm::SmallVector<clang::Stmt*, 24u>&, clang::Parser::ParsedStmtContext, clang::SourceLocation*, clang::ParsedAttributes&, clang::ParsedAttributes&, clang::LabelDecl*) + 2048
+52 clang     0x0000557a49324bbc clang::Parser::ParseStatementOrDeclaration(llvm::SmallVector<clang::Stmt*, 24u>&, clang::Parser::ParsedStmtContext, clang::SourceLocation*, clang::LabelDecl*) + 380
+53 clang     0x0000557a4932c5b7 clang::Parser::ParseCompoundStatementBody(bool) + 1287
+54 clang     0x0000557a4932cd48
+55 clang     0x0000557a4ab7ac05 clang::StackExhaustionHandler::runWithSufficientStackSpace(clang::SourceLocation, llvm::function_ref<void ()>) + 69
+56 clang     0x0000557a4931c6f7 clang::Parser::ParseCompoundStatement(bool, unsigned int) + 103
+57 clang     0x0000557a493235f4 clang::Parser::ParseStatementOrDeclarationAfterAttributes(llvm::SmallVector<clang::Stmt*, 24u>&, clang::Parser::ParsedStmtContext, clang::SourceLocation*, clang::ParsedAttributes&, clang::ParsedAttributes&, clang::LabelDecl*) + 1764
+58 clang     0x0000557a49324bbc clang::Parser::ParseStatementOrDeclaration(llvm::SmallVector<clang::Stmt*, 24u>&, clang::Parser::ParsedStmtContext, clang::SourceLocation*, clang::LabelDecl*) + 380
+59 clang     0x0000557a49325c0b clang::Parser::ParseStatement(clang::SourceLocation*, clang::Parser::ParsedStmtContext, clang::LabelDecl*) + 107
+60 clang     0x0000557a49326855 clang::Parser::ParseForStatement(clang::SourceLocation*, clang::LabelDecl*, clang::CXXExpansionStmtDecl*) + 3061
+61 clang     0x0000557a49323769 clang::Parser::ParseStatementOrDeclarationAfterAttributes(llvm::SmallVector<clang::Stmt*, 24u>&, clang::Parser::ParsedStmtContext, clang::SourceLocation*, clang::ParsedAttributes&, clang::ParsedAttributes&, clang::LabelDecl*) + 2137
+62 clang     0x0000557a49324bbc clang::Parser::ParseStatementOrDeclaration(llvm::SmallVector<clang::Stmt*, 24u>&, clang::Parser::ParsedStmtContext, clang::SourceLocation*, clang::LabelDecl*) + 380
+63 clang     0x0000557a4932c5b7 clang::Parser::ParseCompoundStatementBody(bool) + 1287
+64 clang     0x0000557a4932ce2a clang::Parser::ParseFunctionStatementBody(clang::Decl*, clang::Parser::ParseScope&) + 218
+65 clang     0x0000557a49216ca7 clang::Parser::ParseFunctionDefinition(clang::ParsingDeclarator&, clang::Parser::ParsedTemplateInfo const&, clang::LateParsedAttrList*) + 3079
+66 clang     0x0000557a49263cbf clang::Parser::ParseDeclGroup(clang::ParsingDeclSpec&, clang::DeclaratorContext, clang::ParsedAttributes&, clang::Parser::ParsedTemplateInfo&, clang::SourceLocation*, clang::Parser::ForRangeInit*) + 5215
+67 clang     0x0000557a4920f454 clang::Parser::ParseDeclOrFunctionDefInternal(clang::ParsedAttributes&, clang::ParsedAttributes&, clang::ParsingDeclSpec&, clang::AccessSpecifier) + 996
+68 clang     0x0000557a4920fc13 clang::Parser::ParseDeclarationOrFunctionDefinition(clang::ParsedAttributes&, clang::ParsedAttributes&, clang::ParsingDeclSpec*, clang::AccessSpecifier) + 883
+69 clang     0x0000557a4921adca clang::Parser::ParseExternalDeclaration(clang::ParsedAttributes&, clang::ParsedAttributes&, clang::ParsingDeclSpec*) + 602
+70 clang     0x0000557a4921bda7 clang::Parser::ParseTopLevelDecl(clang::OpaquePtr<clang::DeclGroupRef>&, clang::Sema::ModuleImportState&) + 599
+71 clang     0x0000557a491f7fd2 clang::ParseAST(clang::Sema&, bool, bool) + 530
+72 clang     0x0000557a4809ff72 clang::FrontendAction::Execute() + 50
+73 clang     0x0000557a4801da0d clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 717
+74 clang     0x0000557a48168ee8 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+75 clang     0x0000557a45bd4168 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 4616
+76 clang     0x0000557a45bcc0fb
+77 clang     0x0000557a45bcc1af
+78 clang     0x0000557a47daef6d
+79 clang     0x0000557a472a5277 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+80 clang     0x0000557a47db028c
+81 clang     0x0000557a47d67bf7 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+82 clang     0x0000557a47d6bf77 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 295
+83 clang     0x0000557a47d7e71c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+84 clang     0x0000557a45bd0ef6 clang_main(int, char**, llvm::ToolContext const&) + 7798
+85 clang     0x0000557a45b20581 main + 113
+86 libc.so.6 0x00007f787d038d90
+87 libc.so.6 0x00007f787d038e40 __libc_start_main + 128
+88 clang     0x0000557a45bcbb75 _start + 37
+clang: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 24.0.0git
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING CRASH REPRODUCER FILES TO THE BUG REPORT:
+clang: note: diagnostic msg: /tmp/rdopt-20fc90.c
+clang: note: diagnostic msg: /tmp/rdopt-20fc90.sh
+clang: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang: Segmentation fault
+[439/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/transform8x8.c.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+[440/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/clock.c.o
+[441/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/analyze.c.o
+[442/671] Linking C executable CTMark/lencod/lencod
+FAILED: CTMark/lencod/lencod 
+: && /tmp/llvm-test-suite-build/tools/timeit --summary CTMark/lencod/lencod.link.time /tmp/llvm-project-build-stage1/bin/clang --target=aarch64-linux-gnu -O0 -g  CTMark/lencod/CMakeFiles/lencod.dir/annexb.c.o CTMark/lencod/CMakeFiles/lencod.dir/biariencode.c.o CTMark/lencod/CMakeFiles/lencod.dir/block.c.o CTMark/lencod/CMakeFiles/lencod.dir/cabac.c.o CTMark/lencod/CMakeFiles/lencod.dir/configfile.c.o CTMark/lencod/CMakeFiles/lencod.dir/context_ini.c.o CTMark/lencod/CMakeFiles/lencod.dir/decoder.c.o CTMark/lencod/CMakeFiles/lencod.dir/explicit_gop.c.o CTMark/lencod/CMakeFiles/lencod.dir/filehandle.c.o CTMark/lencod/CMakeFiles/lencod.dir/fmo.c.o CTMark/lencod/CMakeFiles/lencod.dir/header.c.o CTMark/lencod/CMakeFiles/lencod.dir/image.c.o CTMark/lencod/CMakeFiles/lencod.dir/img_chroma.c.o CTMark/lencod/CMakeFiles/lencod.dir/img_luma.c.o CTMark/lencod/CMakeFiles/lencod.dir/intrarefresh.c.o CTMark/lencod/CMakeFiles/lencod.dir/leaky_bucket.c.o CTMark/lencod/CMakeFiles/lencod.dir/lencod.c.o CTMark/lencod/CMakeFiles/lencod.dir/loopFilter.c.o CTMark/lencod/CMakeFiles/lencod.dir/macroblock.c.o CTMark/lencod/CMakeFiles/lencod.dir/mb_access.c.o CTMark/lencod/CMakeFiles/lencod.dir/mbuffer.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_high.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_highfast.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_highloss.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_low.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_distortion.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_epzs.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_fullfast.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_fullsearch.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_umhex.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_umhexsmp.c.o CTMark/lencod/CMakeFiles/lencod.dir/memalloc.c.o CTMark/lencod/CMakeFiles/lencod.dir/mode_decision.c.o CTMark/lencod/CMakeFiles/lencod.dir/mv-search.c.o CTMark/lencod/CMakeFiles/lencod.dir/nal.c.o CTMark/lencod/CMakeFiles/lencod.dir/nalu.c.o CTMark/lencod/CMakeFiles/lencod.dir/nalucommon.c.o CTMark/lencod/CMakeFiles/lencod.dir/output.c.o CTMark/lencod/CMakeFiles/lencod.dir/parset.c.o CTMark/lencod/CMakeFiles/lencod.dir/parsetcommon.c.o CTMark/lencod/CMakeFiles/lencod.dir/q_matrix.c.o CTMark/lencod/CMakeFiles/lencod.dir/q_offsets.c.o CTMark/lencod/CMakeFiles/lencod.dir/ratectl.c.o CTMark/lencod/CMakeFiles/lencod.dir/rc_quadratic.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdopt.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdopt_coding_state.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdpicdecision.c.o CTMark/lencod/CMakeFiles/lencod.dir/refbuf.c.o CTMark/lencod/CMakeFiles/lencod.dir/rtp.c.o CTMark/lencod/CMakeFiles/lencod.dir/sei.c.o CTMark/lencod/CMakeFiles/lencod.dir/slice.c.o CTMark/lencod/CMakeFiles/lencod.dir/symbol.c.o CTMark/lencod/CMakeFiles/lencod.dir/transform8x8.c.o CTMark/lencod/CMakeFiles/lencod.dir/vlc.c.o CTMark/lencod/CMakeFiles/lencod.dir/weighted_prediction.c.o -o CTMark/lencod/lencod  -lm && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/lencod.reference_output /tmp/llvm-test-suite-build/CTMark/lencod/lencod.reference_output && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/encoder.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/encoder.cfg && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/foreman_part_qcif_444.yuv /tmp/llvm-test-suite-build/CTMark/lencod/data/foreman_part_qcif_444.yuv && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/leakybucketrate.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/leakybucketrate.cfg && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/q_matrix.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/q_matrix.cfg
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/lencod.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mbuffer.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/me_umhex.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/me_umhexsmp.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mode_decision.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mv-search.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/q_offsets.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/rdopt.c.o'
+[443/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/closure.c.o
+[444/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/component.c.o
+[445/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/clause.c.o
+[446/671] Linking CXX executable CTMark/kimwitu++/kc
+[447/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/cnf.c.o
+SUCCESS: 1
+[448/671] Building CXX object CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_test_suite.sh O3 stage2 " failed
+
+STDOUT:
+clang: note: diagnostic msg: /tmp/rdopt-8c1ec6.c
+clang: note: diagnostic msg: /tmp/rdopt-8c1ec6.sh
+clang: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage2/bin/clang: Segmentation fault
+[435/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/sei.c.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+[436/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/rc_quadratic.c.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+[437/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/slice.c.o
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+[438/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/vlc.c.o
+[439/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/clock.c.o
+[440/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/weighted_prediction.c.o
+[441/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/analyze.c.o
+[442/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/component.c.o
+[443/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/condensing.c.o
+[444/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/closure.c.o
+[445/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/context.c.o
+[446/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/transform8x8.c.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+[447/671] Linking C executable CTMark/lencod/lencod
+FAILED: CTMark/lencod/lencod 
+: && /tmp/llvm-test-suite-build/tools/timeit --summary CTMark/lencod/lencod.link.time /tmp/llvm-project-build-stage2/bin/clang -O3  CTMark/lencod/CMakeFiles/lencod.dir/annexb.c.o CTMark/lencod/CMakeFiles/lencod.dir/biariencode.c.o CTMark/lencod/CMakeFiles/lencod.dir/block.c.o CTMark/lencod/CMakeFiles/lencod.dir/cabac.c.o CTMark/lencod/CMakeFiles/lencod.dir/configfile.c.o CTMark/lencod/CMakeFiles/lencod.dir/context_ini.c.o CTMark/lencod/CMakeFiles/lencod.dir/decoder.c.o CTMark/lencod/CMakeFiles/lencod.dir/explicit_gop.c.o CTMark/lencod/CMakeFiles/lencod.dir/filehandle.c.o CTMark/lencod/CMakeFiles/lencod.dir/fmo.c.o CTMark/lencod/CMakeFiles/lencod.dir/header.c.o CTMark/lencod/CMakeFiles/lencod.dir/image.c.o CTMark/lencod/CMakeFiles/lencod.dir/img_chroma.c.o CTMark/lencod/CMakeFiles/lencod.dir/img_luma.c.o CTMark/lencod/CMakeFiles/lencod.dir/intrarefresh.c.o CTMark/lencod/CMakeFiles/lencod.dir/leaky_bucket.c.o CTMark/lencod/CMakeFiles/lencod.dir/lencod.c.o CTMark/lencod/CMakeFiles/lencod.dir/loopFilter.c.o CTMark/lencod/CMakeFiles/lencod.dir/macroblock.c.o CTMark/lencod/CMakeFiles/lencod.dir/mb_access.c.o CTMark/lencod/CMakeFiles/lencod.dir/mbuffer.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_high.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_highfast.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_highloss.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_low.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_distortion.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_epzs.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_fullfast.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_fullsearch.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_umhex.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_umhexsmp.c.o CTMark/lencod/CMakeFiles/lencod.dir/memalloc.c.o CTMark/lencod/CMakeFiles/lencod.dir/mode_decision.c.o CTMark/lencod/CMakeFiles/lencod.dir/mv-search.c.o CTMark/lencod/CMakeFiles/lencod.dir/nal.c.o CTMark/lencod/CMakeFiles/lencod.dir/nalu.c.o CTMark/lencod/CMakeFiles/lencod.dir/nalucommon.c.o CTMark/lencod/CMakeFiles/lencod.dir/output.c.o CTMark/lencod/CMakeFiles/lencod.dir/parset.c.o CTMark/lencod/CMakeFiles/lencod.dir/parsetcommon.c.o CTMark/lencod/CMakeFiles/lencod.dir/q_matrix.c.o CTMark/lencod/CMakeFiles/lencod.dir/q_offsets.c.o CTMark/lencod/CMakeFiles/lencod.dir/ratectl.c.o CTMark/lencod/CMakeFiles/lencod.dir/rc_quadratic.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdopt.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdopt_coding_state.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdpicdecision.c.o CTMark/lencod/CMakeFiles/lencod.dir/refbuf.c.o CTMark/lencod/CMakeFiles/lencod.dir/rtp.c.o CTMark/lencod/CMakeFiles/lencod.dir/sei.c.o CTMark/lencod/CMakeFiles/lencod.dir/slice.c.o CTMark/lencod/CMakeFiles/lencod.dir/symbol.c.o CTMark/lencod/CMakeFiles/lencod.dir/transform8x8.c.o CTMark/lencod/CMakeFiles/lencod.dir/vlc.c.o CTMark/lencod/CMakeFiles/lencod.dir/weighted_prediction.c.o -o CTMark/lencod/lencod  -lm && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/lencod.reference_output /tmp/llvm-test-suite-build/CTMark/lencod/lencod.reference_output && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/encoder.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/encoder.cfg && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/foreman_part_qcif_444.yuv /tmp/llvm-test-suite-build/CTMark/lencod/data/foreman_part_qcif_444.yuv && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/leakybucketrate.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/leakybucketrate.cfg && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/q_matrix.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/q_matrix.cfg
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/lencod.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mbuffer.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/me_umhex.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/me_umhexsmp.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mode_decision.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mv-search.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/q_offsets.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/rdopt.c.o'
+[448/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/defs.c.o
+[449/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/dfgscanner.c.o
+SUCCESS: 0
+[450/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/dfgparser.c.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+[451/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/cnf.c.o
+SUCCESS: 1
+[452/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/clause.c.o
+[453/671] Building CXX object CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_test_suite.sh O0-g stage2 " failed
+
+STDOUT:
+[438/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/transform8x8.c.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+[439/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/clock.c.o
+[440/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/analyze.c.o
+[441/671] Linking C executable CTMark/lencod/lencod
+FAILED: CTMark/lencod/lencod 
+: && /tmp/llvm-test-suite-build/tools/timeit --summary CTMark/lencod/lencod.link.time /tmp/llvm-project-build-stage2/bin/clang -O0 -g  CTMark/lencod/CMakeFiles/lencod.dir/annexb.c.o CTMark/lencod/CMakeFiles/lencod.dir/biariencode.c.o CTMark/lencod/CMakeFiles/lencod.dir/block.c.o CTMark/lencod/CMakeFiles/lencod.dir/cabac.c.o CTMark/lencod/CMakeFiles/lencod.dir/configfile.c.o CTMark/lencod/CMakeFiles/lencod.dir/context_ini.c.o CTMark/lencod/CMakeFiles/lencod.dir/decoder.c.o CTMark/lencod/CMakeFiles/lencod.dir/explicit_gop.c.o CTMark/lencod/CMakeFiles/lencod.dir/filehandle.c.o CTMark/lencod/CMakeFiles/lencod.dir/fmo.c.o CTMark/lencod/CMakeFiles/lencod.dir/header.c.o CTMark/lencod/CMakeFiles/lencod.dir/image.c.o CTMark/lencod/CMakeFiles/lencod.dir/img_chroma.c.o CTMark/lencod/CMakeFiles/lencod.dir/img_luma.c.o CTMark/lencod/CMakeFiles/lencod.dir/intrarefresh.c.o CTMark/lencod/CMakeFiles/lencod.dir/leaky_bucket.c.o CTMark/lencod/CMakeFiles/lencod.dir/lencod.c.o CTMark/lencod/CMakeFiles/lencod.dir/loopFilter.c.o CTMark/lencod/CMakeFiles/lencod.dir/macroblock.c.o CTMark/lencod/CMakeFiles/lencod.dir/mb_access.c.o CTMark/lencod/CMakeFiles/lencod.dir/mbuffer.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_high.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_highfast.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_highloss.c.o CTMark/lencod/CMakeFiles/lencod.dir/md_low.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_distortion.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_epzs.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_fullfast.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_fullsearch.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_umhex.c.o CTMark/lencod/CMakeFiles/lencod.dir/me_umhexsmp.c.o CTMark/lencod/CMakeFiles/lencod.dir/memalloc.c.o CTMark/lencod/CMakeFiles/lencod.dir/mode_decision.c.o CTMark/lencod/CMakeFiles/lencod.dir/mv-search.c.o CTMark/lencod/CMakeFiles/lencod.dir/nal.c.o CTMark/lencod/CMakeFiles/lencod.dir/nalu.c.o CTMark/lencod/CMakeFiles/lencod.dir/nalucommon.c.o CTMark/lencod/CMakeFiles/lencod.dir/output.c.o CTMark/lencod/CMakeFiles/lencod.dir/parset.c.o CTMark/lencod/CMakeFiles/lencod.dir/parsetcommon.c.o CTMark/lencod/CMakeFiles/lencod.dir/q_matrix.c.o CTMark/lencod/CMakeFiles/lencod.dir/q_offsets.c.o CTMark/lencod/CMakeFiles/lencod.dir/ratectl.c.o CTMark/lencod/CMakeFiles/lencod.dir/rc_quadratic.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdopt.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdopt_coding_state.c.o CTMark/lencod/CMakeFiles/lencod.dir/rdpicdecision.c.o CTMark/lencod/CMakeFiles/lencod.dir/refbuf.c.o CTMark/lencod/CMakeFiles/lencod.dir/rtp.c.o CTMark/lencod/CMakeFiles/lencod.dir/sei.c.o CTMark/lencod/CMakeFiles/lencod.dir/slice.c.o CTMark/lencod/CMakeFiles/lencod.dir/symbol.c.o CTMark/lencod/CMakeFiles/lencod.dir/transform8x8.c.o CTMark/lencod/CMakeFiles/lencod.dir/vlc.c.o CTMark/lencod/CMakeFiles/lencod.dir/weighted_prediction.c.o -o CTMark/lencod/lencod  -lm && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/lencod.reference_output /tmp/llvm-test-suite-build/CTMark/lencod/lencod.reference_output && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/encoder.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/encoder.cfg && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/foreman_part_qcif_444.yuv /tmp/llvm-test-suite-build/CTMark/lencod/data/foreman_part_qcif_444.yuv && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/leakybucketrate.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/leakybucketrate.cfg && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E make_directory data && cd /tmp/llvm-test-suite-build/CTMark/lencod && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/data/q_matrix.cfg /tmp/llvm-test-suite-build/CTMark/lencod/data/q_matrix.cfg
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/lencod.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mbuffer.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/me_umhex.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/me_umhexsmp.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mode_decision.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/mv-search.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/q_offsets.c.o'
+clang: error: no such file or directory: 'CTMark/lencod/CMakeFiles/lencod.dir/rdopt.c.o'
+[442/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/unpk.cc.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 1
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+[443/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/closure.c.o
+[444/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/component.c.o
+[445/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/clause.c.o
+[446/671] Building C object CTMark/SPASS/CMakeFiles/SPASS.dir/cnf.c.o
+SUCCESS: 1
+[447/671] Building CXX object CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+SUCCESS: 0
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
