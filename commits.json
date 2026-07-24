@@ -186507,6 +186507,48 @@
             "author_name": "Iurii Khosoi",
             "commit_date": "2026-07-24T10:47:40+00:00",
             "subject": "[X86] Break false dependencies of compress\/expand on Zen 6 (#211671)"
+        },
+        {
+            "hash": "19857baa713d1f6c3bb7489f49e73e77f93ba81c",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-07-24T05:59:04-05:00",
+            "subject": "[OpenMP] Implement EnumSet container (#211323)"
+        },
+        {
+            "hash": "6c7fc0c2388481d2217494d440281bb39e9a8013",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-07-24T05:59:05-05:00",
+            "subject": "[flang][OpenMP] Use llvm::omp::ClauseSet instead of common::EnumSet (#211324)"
+        },
+        {
+            "hash": "c9ef522734713eeb6be3815b1dc5ed91ef49fbde",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-07-24T05:59:05-05:00",
+            "subject": "[flang][OpenMP] Use llvm::omp::DirectiveSet instead of common::EnumSet (#211325)"
+        },
+        {
+            "hash": "49c39708a6a6349a4798c6894f9125ecd47f6173",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-07-24T05:59:06-05:00",
+            "subject": "[flang] Provide \"clause set\" type as parameter to DirectiveStructureChecker (#211326)"
+        },
+        {
+            "hash": "862a390f54f0ecde773d2daaf1d6c0f582ce290a",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-07-24T05:59:06-05:00",
+            "subject": "[flang][OpenMP] Switch TableGen generation to use llvm::EnumSet (#211327)"
+        },
+        {
+            "hash": "3d69ace09ec4e053e36fbdbeaf66d6caa0c6e60f",
+            "author_name": "Abid Qadeer",
+            "commit_date": "2026-07-24T12:00:36+01:00",
+            "subject": "Reland [OMPIRBuilder] Don't use invalid debug loc in reduction fn. (#211566)"
+        },
+        {
+            "hash": "2e272fbc6e6dc75555dbd53863c223fdd3105dec",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-07-24T11:04:23+00:00",
+            "subject": "[X86] Match (FM)ADDSUB patterns from target shuffles as well as ISD::VECTOR_SHUFFLE (#211764)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
