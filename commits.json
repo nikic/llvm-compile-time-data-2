@@ -186981,6 +186981,24 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-07-24T19:34:51+01:00",
             "subject": "[ConstraintElim] use condition from latch in addInfoForInductions. (#210984)"
+        },
+        {
+            "hash": "044a1d9743a1484ef8b8282454a4fa61dfbc2b44",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-07-24T13:40:25-05:00",
+            "subject": "[lldb] Recover a WebAssembly function's mangled name from its declaration (#211707)"
+        },
+        {
+            "hash": "75a1d31c69c98eeb236d8bf954d709b271fcb55a",
+            "author_name": "Guo Chen",
+            "commit_date": "2026-07-24T14:40:38-04:00",
+            "subject": "[AMDGPU] revert srl pattern for true16 mode (#208136)"
+        },
+        {
+            "hash": "3b87272648f483c6b0763b44e8cb4b470283b7d5",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-24T20:41:56+02:00",
+            "subject": "[MC][NFC] Remove some virtual function from MCAsmInfo (#211858)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -196299,28 +196317,16 @@
     ],
     "fhahn\/perf\/ce-skip-decomp": [
         {
-            "hash": "905ec411bd1e8ebf3ea527b79c208d58dbaa6f16",
-            "author_name": "Arseniy Obolenskiy",
-            "commit_date": "2026-07-24T11:05:58+02:00",
-            "subject": "[NFC][SPIR-V] Remove unused LoopInfo member from structurizer splitter (#211538)"
+            "hash": "8231fda982ba419bc8ac05a45ec752e00218db8b",
+            "author_name": "Alex Langford",
+            "commit_date": "2026-07-24T11:23:22-07:00",
+            "subject": "[lldb] Remove ConstString from FileSpec (#211394)"
         },
         {
-            "hash": "61836b2cc65b011bc44d23d0f6e7fc32cdfef45e",
+            "hash": "ef7ba4be7b659e58dd5b53daa00d2ca09e8df7bf",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-24T11:13:36+01:00",
-            "subject": "Precommit tests"
-        },
-        {
-            "hash": "d693153593c4dc16f225ea31df9c5bad649f1a07",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-24T11:14:33+01:00",
+            "commit_date": "2026-07-24T19:38:04+01:00",
             "subject": "[ConstraintElim] Skip decomposition if precondition does not hold."
-        },
-        {
-            "hash": "a94b067e060e740cfd6197e276869f7c75143ee5",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-24T12:34:09+01:00",
-            "subject": "Try reduce compile-time"
         }
     ],
     "aengelke\/perf\/pm-devirt": [
