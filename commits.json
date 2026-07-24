@@ -186711,6 +186711,18 @@
             "author_name": "Arseniy Obolenskiy",
             "commit_date": "2026-07-24T16:50:05+02:00",
             "subject": "[AMDGPU] Fix incorrect grid_dims constant folding for reqd_work_group_size (#211285)"
+        },
+        {
+            "hash": "1f896524c95a9ed02fc8da970811fe6310475093",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-24T15:02:56+00:00",
+            "subject": "[ConstraintElim] Precommit additional tests (NFC). (#211802)"
+        },
+        {
+            "hash": "5018aebcde6bcb3a29e3e10bd332865289e01e29",
+            "author_name": "Fabrice de Gans",
+            "commit_date": "2026-07-24T08:08:57-07:00",
+            "subject": "[VPlan] Drop redundant member LLVM_ABI annotations (#205767)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -195701,27 +195713,21 @@
     ],
     "fhahn\/perf\/ce-iv-latch-compare": [
         {
-            "hash": "3b7447e00baff23660b49fdcb67ce83a3bf94605",
-            "author_name": "Nikolas Klauser",
-            "commit_date": "2026-07-23T09:46:47+02:00",
-            "subject": "[libc++] Optimize standard streams with sync_with_stdio(false) (#209161)"
+            "hash": "1f896524c95a9ed02fc8da970811fe6310475093",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-24T15:02:56+00:00",
+            "subject": "[ConstraintElim] Precommit additional tests (NFC). (#211802)"
         },
         {
-            "hash": "25c083cec8c1d2b5c21337c5453b5b532d25fa46",
+            "hash": "59092069f5d950f2838d9dcfdb687147f133ae93",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-23T08:53:22+01:00",
-            "subject": "[ConstraintElim] Add more latch counted tests."
-        },
-        {
-            "hash": "fb8ccd669191837309541f39616ed627b58e85c8",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-23T08:53:22+01:00",
+            "commit_date": "2026-07-24T16:09:15+01:00",
             "subject": "[ConstraintElim] use condition from latch in addInfoForInductions."
         },
         {
-            "hash": "14410e74d32c543cf9e9bd7d7d8464087ef6df35",
+            "hash": "6eb4bba320a83dce94a2f7cfdff94dd0f6af433f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-23T08:53:22+01:00",
+            "commit_date": "2026-07-24T16:09:15+01:00",
             "subject": "!fixup refine comment"
         }
     ],
@@ -196073,6 +196079,26 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-07-24T15:31:23+01:00",
             "subject": "Compute up front"
+        }
+    ],
+    "aleks-tmb\/perf\/laa-deref-or-null-assumption": [
+        {
+            "hash": "9c756612c7a0231ba40982ab2c7f8b6cf8fb895b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-24T11:20:58+00:00",
+            "subject": "[LV] Simplify VPCostContext ctor by using VFSelectionContext (NFC). (#211765)"
+        },
+        {
+            "hash": "c8bea475359bd27e21eb03ea7a27995c57d3015d",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-24T14:25:07+00:00",
+            "subject": "[LV][NFC] Add test for EE-loop with dereferenceable_or_null arg and deref assumption"
+        },
+        {
+            "hash": "3eb1b2877796904d321ed8e34f598a8e687e5cae",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-24T14:49:03+00:00",
+            "subject": "[LAA] Use dereferenceable assumption for dereferenceable_or_null pointers"
         }
     ]
 }
