@@ -186339,6 +186339,18 @@
             "author_name": "Vitaly Buka",
             "commit_date": "2026-07-23T23:04:23-07:00",
             "subject": "[mlir] Fix alignment assertion for empty DenseArrayAttr (#211730)"
+        },
+        {
+            "hash": "9edfdc231c9811124bbb7e3943c578c538d46aba",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-07-24T08:42:39+02:00",
+            "subject": "[AggressiveInstCombine] Avoid converting first table element when folding table-based cttz (#211202)"
+        },
+        {
+            "hash": "3cba2943a9d391e2ba301dd37948ef8b248bb031",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-07-24T07:47:08+01:00",
+            "subject": "[TableGen] Add register-info statistics (#211528)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -194631,6 +194643,24 @@
             "author_name": "Eli Friedman",
             "commit_date": "2026-07-24T08:39:55+02:00",
             "subject": "[LoopInfo] Fix makeLoopInvariant to strip UB-implying attributes. (#211413)"
+        },
+        {
+            "hash": "4977a9adab25df32ba965b8f594ebe544576eaf3",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-07-24T08:40:56+02:00",
+            "subject": "[DWARFLinker] Treat DW_AT_LLVM_alloc_type as a type reference (#211655)"
+        },
+        {
+            "hash": "77b12913a0e3a2769dbc93569944c7187c934ae8",
+            "author_name": "Hubert Tong",
+            "commit_date": "2026-07-24T08:41:54+02:00",
+            "subject": "[libunwind][test][AIX] Add C API test for unwinding from AIX VAPI (non-signal-handler case) (#209306)"
+        },
+        {
+            "hash": "2a0942d3e93c15e8923054797fe93704dd35c92b",
+            "author_name": "Hubert Tong",
+            "commit_date": "2026-07-24T08:43:50+02:00",
+            "subject": "[libunwind][test][AIX] Add C API test for unwinding from AIX VAPI (as signal handler) (#209662)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
