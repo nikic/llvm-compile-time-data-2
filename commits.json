@@ -79783,9 +79783,9 @@
             "subject": "Test"
         },
         {
-            "hash": "8f785d8fae04cb5f9a635b3fda3614c42c5d630c",
+            "hash": "b119d764068195011135b01251b9222c3decfc70",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-07-24T10:56:21+02:00",
+            "commit_date": "2026-07-24T12:17:18+02:00",
             "subject": "object-size.c works."
         }
     ],
@@ -195731,22 +195731,28 @@
     ],
     "fhahn\/perf\/getrangeatuse-single-user2": [
         {
-            "hash": "6a230696441d7b2fa51e2887ef7664d2a73ae04d",
-            "author_name": "Greg Clayton",
-            "commit_date": "2026-07-23T14:24:08-04:00",
-            "subject": "Fix ProcessELFCore::GetProcessInfo() to return expected results. (#210807)"
+            "hash": "1102d3f04027faf2aa1b9e9d68a4b9026ba6126d",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-07-24T07:50:01+00:00",
+            "subject": "[X86] Remove lowerToAddSubOrFMAddSub vectorization lowering code (#211666)"
         },
         {
-            "hash": "56d99bcdfd23d1746f9fefd2df0c2dd03df2edec",
+            "hash": "caf88ce5ab957de0a1a7d47a5e46e65eea395053",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-23T20:36:58+01:00",
+            "commit_date": "2026-07-24T10:59:55+01:00",
             "subject": "[CVP] Add tests for single-user change."
         },
         {
-            "hash": "a2f4823679762b631786c64a8548860e0b18efb9",
+            "hash": "7a40429794ce32ef68bc70b6ee370e1e0621e1d6",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-23T22:38:19+01:00",
+            "commit_date": "2026-07-24T11:00:04+01:00",
             "subject": "Update get"
+        },
+        {
+            "hash": "dfc3a063ff5261f7e692c3e1cb257ce7575a0707",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-24T11:18:18+01:00",
+            "subject": "Limit to one-use"
         }
     ],
     "MaskRay\/perf\/align-bundle": [
@@ -195761,6 +195767,26 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-07-23T23:19:24-07:00",
             "subject": "WIP PR #175830 squashed"
+        }
+    ],
+    "fhahn\/perf\/ce-skip-decomp": [
+        {
+            "hash": "905ec411bd1e8ebf3ea527b79c208d58dbaa6f16",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-24T11:05:58+02:00",
+            "subject": "[NFC][SPIR-V] Remove unused LoopInfo member from structurizer splitter (#211538)"
+        },
+        {
+            "hash": "61836b2cc65b011bc44d23d0f6e7fc32cdfef45e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-24T11:13:36+01:00",
+            "subject": "Precommit tests"
+        },
+        {
+            "hash": "d693153593c4dc16f225ea31df9c5bad649f1a07",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-24T11:14:33+01:00",
+            "subject": "[ConstraintElim] Skip decomposition if precondition does not hold."
         }
     ]
 }
