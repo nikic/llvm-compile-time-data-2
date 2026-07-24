@@ -186759,6 +186759,48 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-07-24T17:38:34+02:00",
             "subject": "cross-project-tests: Migrate amdgpu tests to use subarch triples (#210115)"
+        },
+        {
+            "hash": "7a3208c8550564489037111f1d85a01f18a196a2",
+            "author_name": "Zhen Wang",
+            "commit_date": "2026-07-24T15:41:03+00:00",
+            "subject": "[flang][cuda] Emit data transfers for whole-array and function-result managed assignments (#211640)"
+        },
+        {
+            "hash": "227ef987a7d0e9c88bf8e06d038565bda09958b5",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-24T15:41:17+00:00",
+            "subject": "clang\/AMDGPU: Migrate cc1 tests to subarch triples (1) (#211822)"
+        },
+        {
+            "hash": "fb420255a43d5eeb19cf8fa7905e94561c33f442",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-24T17:41:36+02:00",
+            "subject": "[IR][NFC] Remove vtables from AnalysisResultConcept (#211810)"
+        },
+        {
+            "hash": "f1bf19b05493d54b1c5c5d938e8ea2c2d92e8130",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-24T17:43:58+02:00",
+            "subject": "[AMDGPU] Avoid quadratic MapVector::erase in SIFixSGPRCopies (#211740)"
+        },
+        {
+            "hash": "e6c604edc609ed9dfa7c701f6bc96001f28ac94d",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-07-24T11:44:15-04:00",
+            "subject": "[gn build] Port 19857baa713d (#211835)"
+        },
+        {
+            "hash": "13040fb13addf9aa4631762640fe79b5e0c306c3",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-07-24T11:44:37-04:00",
+            "subject": "[gn build] Port 10e0a2ee03b0 (#211834)"
+        },
+        {
+            "hash": "165121e8b1d6dba116a8103c08597f585f2e8d60",
+            "author_name": "Sayan Sivakumaran",
+            "commit_date": "2026-07-24T23:49:00+08:00",
+            "subject": "Reland \"[SimplifyCFG] Simplify switch default branch when branch proves operand value\" (#211427)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -195765,6 +195807,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-07-24T16:09:15+01:00",
             "subject": "!fixup refine comment"
+        },
+        {
+            "hash": "29f2886509922b6ba72f5dab47c2ebf033d78ac5",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-24T16:43:25+01:00",
+            "subject": "!fixup update comment as suggested, thanks!"
         }
     ],
     "freaknbigpanda\/perf\/attribute-target-fix-reland": [
@@ -196099,22 +196147,16 @@
     ],
     "fhahn\/perf\/scev-ct": [
         {
-            "hash": "82488f0e7119dd05cd63329458733e8c295f0338",
-            "author_name": "Jinjie Huang",
-            "commit_date": "2026-07-24T19:55:26+08:00",
-            "subject": "[BOLT] Fix pwrite assertion failure via a new safePWrite wrapper (#198569)"
+            "hash": "f9b12955f891bb086d12309d89656821d776e858",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-24T17:16:06+02:00",
+            "subject": "[AMDGPU] Use erase_if for Kills transfer in SIOptimizeVGPRLiveRange (#211800)"
         },
         {
-            "hash": "60491dfa7a23a14f9f100e5f56562c089843a3af",
+            "hash": "f22bd6cfded0d59a332423bc39bf2273da0e4805",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-24T13:17:15+01:00",
-            "subject": "[SCEV] Cache type"
-        },
-        {
-            "hash": "7523d83777b8aea173c79d7e741b0c945a3c8781",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-24T15:31:23+01:00",
-            "subject": "Compute up front"
+            "commit_date": "2026-07-24T16:41:34+01:00",
+            "subject": "[SCEV] Store type of expression inline, compute up front (NFC)."
         }
     ],
     "aleks-tmb\/perf\/laa-deref-or-null-assumption": [
