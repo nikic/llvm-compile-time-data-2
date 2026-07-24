@@ -187041,6 +187041,24 @@
             "author_name": "Jianhui Li",
             "commit_date": "2026-07-24T12:01:20-07:00",
             "subject": "[mlir][xegpu] Allow create_mem_desc from ND memref (#211836)"
+        },
+        {
+            "hash": "0f7854f4a3f2000ab11d5c5f153eaef05442e263",
+            "author_name": "Roland McGrath",
+            "commit_date": "2026-07-24T12:04:35-07:00",
+            "subject": "[clang][Fuchsia] Add __Fuchsia_Compiler_ABI__ predefine (#211744)"
+        },
+        {
+            "hash": "45ccbd4eb6c0411b5edaf8df425c71816e76aa70",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-24T21:05:54+02:00",
+            "subject": "AMDGPU: Don't pack a build_vector with an undef\/poison lane (#211871)"
+        },
+        {
+            "hash": "5b741ef515c010bebefb648fb030cbcc5d5ae744",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-24T21:06:09+02:00",
+            "subject": "AMDGPU: Avoid dropping poison when extracting a high element (#211872)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -196429,6 +196447,20 @@
             "author_name": "Aleksandr Popov",
             "commit_date": "2026-07-24T14:49:03+00:00",
             "subject": "[LAA] Use dereferenceable assumption for dereferenceable_or_null pointers"
+        }
+    ],
+    "fhahn\/perf\/scev-type-field": [
+        {
+            "hash": "8a6a039eb31f33749cfe251a5985b335e9a09681",
+            "author_name": "Jianhui Li",
+            "commit_date": "2026-07-24T12:01:20-07:00",
+            "subject": "[mlir][xegpu] Allow create_mem_desc from ND memref (#211836)"
+        },
+        {
+            "hash": "c31487c387f667f2908781f24708ba0c9c7168dc",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-24T20:08:40+01:00",
+            "subject": "[SCEV] Store type of expression inline, compute up front (NFC)."
         }
     ]
 }
