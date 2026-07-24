@@ -187059,6 +187059,18 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-07-24T21:06:09+02:00",
             "subject": "AMDGPU: Avoid dropping poison when extracting a high element (#211872)"
+        },
+        {
+            "hash": "fca20bc99b4107cc5e766fcdbe01f5dd02e6db57",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-07-24T19:16:29+00:00",
+            "subject": "[Bazel] Fixes 8a6a039 (#211892)"
+        },
+        {
+            "hash": "8e76c3f0d29a713c41f1b3d0f19d965a504481cf",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-24T20:20:48+01:00",
+            "subject": "[SCEV] Use SCEVPtrToAddr instead of SCEVPtrToInt in SCEV. (#180244)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -196383,9 +196395,9 @@
             "subject": "[lldb] Remove ConstString from FileSpec (#211394)"
         },
         {
-            "hash": "ef7ba4be7b659e58dd5b53daa00d2ca09e8df7bf",
+            "hash": "99c8cfcc3c6a4eedf167b743e62a32b04d807fd3",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-24T19:38:04+01:00",
+            "commit_date": "2026-07-24T20:15:40+01:00",
             "subject": "[ConstraintElim] Skip decomposition if precondition does not hold."
         }
     ],
@@ -196461,6 +196473,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-07-24T20:08:40+01:00",
             "subject": "[SCEV] Store type of expression inline, compute up front (NFC)."
+        }
+    ],
+    "fhahn\/perf\/scev-densemap-for-constants": [
+        {
+            "hash": "8a6a039eb31f33749cfe251a5985b335e9a09681",
+            "author_name": "Jianhui Li",
+            "commit_date": "2026-07-24T12:01:20-07:00",
+            "subject": "[mlir][xegpu] Allow create_mem_desc from ND memref (#211836)"
+        },
+        {
+            "hash": "4146ff3be6be4c9d9bb10399a83658690222252e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-24T20:14:42+01:00",
+            "subject": "[SCEV] Use DenseMap for constant lookup"
         }
     ]
 }
