@@ -186855,6 +186855,36 @@
             "author_name": "Bal\u00e1zs Benics",
             "commit_date": "2026-07-24T17:59:41+01:00",
             "subject": "Revert \"[analyzer] Fix false positive in strchr\/strrchr with constant args\" (#211857)"
+        },
+        {
+            "hash": "03d3c7b0493d45d1a45768f88da9812cdf0ed758",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-24T19:03:59+02:00",
+            "subject": "[ADT] Skip initial empty string in StringTable iterator (#211808)"
+        },
+        {
+            "hash": "a98d10f58baf3270f1cc611885eaef02214b7ffe",
+            "author_name": "Aleksandr Popov",
+            "commit_date": "2026-07-24T19:05:07+02:00",
+            "subject": "[LAA] Use dereferenceable assumption for dereferenceable_or_null pointers (#211820)"
+        },
+        {
+            "hash": "5337a2abb0b476d219cade1185b22890639ef9b8",
+            "author_name": "Jackson Stogel",
+            "commit_date": "2026-07-24T10:07:46-07:00",
+            "subject": "[libc][memory_utils] Rename shadowed load\/store to avoid ADL ambiguity (#211714)"
+        },
+        {
+            "hash": "0e0e0c388ec7894ff22d84e4f1c1c0d2833509a2",
+            "author_name": "Nick Sarnie",
+            "commit_date": "2026-07-24T17:11:24+00:00",
+            "subject": "[clang][Driver][SYCL] Fix SYCLInstallationDetector for compiler installs outside sysroot (#211351)"
+        },
+        {
+            "hash": "c50d1635fe651c7bcad08405555cf0673dfaa3d0",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-24T19:13:12+02:00",
+            "subject": "clang\/AMDGPU: Migrate cc1 tests to subarch triples (4) (#211839)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -195165,6 +195195,24 @@
             "author_name": "Hubert Tong",
             "commit_date": "2026-07-24T08:43:50+02:00",
             "subject": "[libunwind][test][AIX] Add C API test for unwinding from AIX VAPI (as signal handler) (#209662)"
+        },
+        {
+            "hash": "be831ac325fb2f73269d0de18982d95211bb5630",
+            "author_name": "hev",
+            "commit_date": "2026-07-24T19:07:00+02:00",
+            "subject": "[LoongArch] Support i128 operands for LSX inline assembly (#211464)"
+        },
+        {
+            "hash": "22f18c41e971cb7184f92765020b7a6f3f003a2a",
+            "author_name": "dong jianqiang",
+            "commit_date": "2026-07-24T19:10:06+02:00",
+            "subject": "[ARM] Use .reloc for dso_local weak symbols in PIC mode instead of GOT indirection (#209660)"
+        },
+        {
+            "hash": "a1886a957cb8f35a8d64282f691b22b1b4c7934e",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-07-24T19:11:35+02:00",
+            "subject": "[AggressiveInstCombine] Avoid converting first table element when folding table-based cttz (#211202)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
