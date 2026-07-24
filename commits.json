@@ -186333,6 +186333,12 @@
             "author_name": "Roland McGrath",
             "commit_date": "2026-07-23T22:56:46-07:00",
             "subject": "[libc] Fix compilation when AVX is not available (#211726)"
+        },
+        {
+            "hash": "906f520af01a4c788935f24caea00237b42624e2",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-07-23T23:04:23-07:00",
+            "subject": "[mlir] Fix alignment assertion for empty DenseArrayAttr (#211730)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -194577,6 +194583,18 @@
             "author_name": "Benjamin Maxwell",
             "commit_date": "2026-07-23T16:30:36+02:00",
             "subject": "Revert \"[LV] Allow scalable epilogue VFs matching the MainLoop VF (#208686)\""
+        },
+        {
+            "hash": "18f4b593ef0ef8d44879fa52496e2327689ff0d4",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-24T08:06:25+02:00",
+            "subject": "[LV] Add test showing incorrect trip count materialization (NFC) (#209460)"
+        },
+        {
+            "hash": "09b884a41dab18f4bb933e999d7923970698aed1",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-24T08:06:26+02:00",
+            "subject": "[VPlan] Use VPlan::hasTailFolded in materializeConstantVectorTC. (#209502)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
