@@ -187395,6 +187395,12 @@
             "author_name": "Nerixyz",
             "commit_date": "2026-07-25T11:01:04+02:00",
             "subject": "[lldb] Move GetVTableInfo to C++ language runtime (#207010)"
+        },
+        {
+            "hash": "2755ffcabdce740c65d773155c659f505ac6c74e",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-25T09:11:19+00:00",
+            "subject": "[InstCombine] Fold icmp ptrtoaddr x, ptrtoaddr y -> icmp x, y (#211991)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -196399,16 +196405,34 @@
             "subject": "[ASan] Instrument ptrtoaddr as pointer difference"
         },
         {
-            "hash": "2551603d6b55b38f2bd42959e803e24ffb8b8d6d",
+            "hash": "cb457dbe2287ba8c770969c4494c67688992b7fd",
             "author_name": "Alexis Engelke",
-            "commit_date": "2026-07-25T06:16:10+00:00",
+            "commit_date": "2026-07-25T08:34:27+00:00",
             "subject": "[InstCombine] Fold icmp ptrtoaddr x, ptrtoaddr y -> icmp x, y"
         },
         {
-            "hash": "3308082856150a51ea4ef63016079c998f758869",
+            "hash": "3a7ac5aacc415bc954cbb84b558371a61a013659",
             "author_name": "Alexis Engelke",
-            "commit_date": "2026-07-25T06:49:16+00:00",
+            "commit_date": "2026-07-25T08:37:49+00:00",
             "subject": "try"
+        },
+        {
+            "hash": "98e24ca7afca21a41e16482f5cfc08db50795cff",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-25T08:37:49+00:00",
+            "subject": "[DomTreeConstr][NFC] Resize NodeInfos once on construction"
+        },
+        {
+            "hash": "04dd04da2e664eea61ab2e17775148ffc21e29ae",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-25T08:40:52+00:00",
+            "subject": "[VPlan][NFC] Number blocks"
+        },
+        {
+            "hash": "b73d1d4fff4ff18d0e47129bcd0638eed3d07f03",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-25T08:40:52+00:00",
+            "subject": "[DomTree] Remove support for unnumbered graphs"
         }
     ],
     "aleks-tmb\/perf\/scev-loopguards-zext-neg-add": [
