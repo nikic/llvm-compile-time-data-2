@@ -187353,6 +187353,12 @@
             "author_name": "Alexis Engelke",
             "commit_date": "2026-07-25T06:03:35+00:00",
             "subject": "[IR][NFC] Remove vtables from analysis passes (#211864)"
+        },
+        {
+            "hash": "943d6498fabf0143d31a39a87a103146bfc9af69",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-25T08:20:47+02:00",
+            "subject": "clang\/AMDGPU: Migrate cc1 tests to subarch triples (8) (#211870)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -196349,6 +196355,18 @@
             "author_name": "Alexis Engelke",
             "commit_date": "2026-07-25T05:35:49+00:00",
             "subject": "[Clang][CodeGen] Use ptrtoaddr for pointer diff"
+        },
+        {
+            "hash": "1839e39acf20004d0fc836695919bfeb7ac89e08",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-25T05:48:14+00:00",
+            "subject": "[ASan] Instrument ptrtoaddr as pointer difference"
+        },
+        {
+            "hash": "5be7a99bf5f51c759310225b889ef2b6c3584e22",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-25T06:16:10+00:00",
+            "subject": "[InstCombine] Fold icmp ptrtoaddr x, ptrtoaddr y -> icmp x, y"
         }
     ],
     "aleks-tmb\/perf\/scev-loopguards-zext-neg-add": [
