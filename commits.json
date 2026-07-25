@@ -196973,16 +196973,22 @@
     ],
     "fhahn\/perf\/scev-type-field": [
         {
-            "hash": "8a6a039eb31f33749cfe251a5985b335e9a09681",
-            "author_name": "Jianhui Li",
-            "commit_date": "2026-07-24T12:01:20-07:00",
-            "subject": "[mlir][xegpu] Allow create_mem_desc from ND memref (#211836)"
+            "hash": "4c3a4f1180ac1026a1d5292ee4c681d9e9fc4e0c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-25T17:46:45+01:00",
+            "subject": "[SCEV] Use DenseMap for constant lookup, bypassing FoldingSet (NFC) (#212022)"
         },
         {
-            "hash": "c31487c387f667f2908781f24708ba0c9c7168dc",
+            "hash": "253a6a34d147c9bacd2c19f587f301b6298a0865",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-24T20:08:40+01:00",
+            "commit_date": "2026-07-25T18:03:15+01:00",
             "subject": "[SCEV] Store type of expression inline, compute up front (NFC)."
+        },
+        {
+            "hash": "39b3984aefb61d234994ef07a578f4936d595edd",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-25T18:06:44+01:00",
+            "subject": "!fixup drop comment, use lhs"
         }
     ],
     "fhahn\/perf\/scev-densemap-for-constants": [
