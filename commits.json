@@ -187515,6 +187515,18 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-07-25T20:39:49+02:00",
             "subject": "DAG: Stop legalizing poison to undef (#211890)"
+        },
+        {
+            "hash": "890d1331a35c6961191db07447df2623619afb7e",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-25T21:07:27+02:00",
+            "subject": "[Clang] Don't build static analyzer if disabled (#212024)"
+        },
+        {
+            "hash": "6b0a46958c56d91e3b2fd5ffecfe163dde1fac3a",
+            "author_name": "Piotr Kubaj",
+            "commit_date": "2026-07-25T12:11:31-07:00",
+            "subject": "[libunwind][PPC64] Fix unw_getcontext corrupting callee-saved VSX registers on LE (#198371)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -197083,10 +197095,16 @@
             "subject": "[lldb] Fix heap-use-after-free in FileSpec usage (#211908)"
         },
         {
-            "hash": "640d1bfafcc25574ea73e0345ad4eb03217a437e",
+            "hash": "7752b94b68313f2637ce9a5ede678226ee0fe01a",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-07-25T01:50:13-07:00",
+            "commit_date": "2026-07-25T01:56:21-07:00",
             "subject": "[LoopInfo] Identify loops with a single-pass DFS algorithm. NFC"
+        },
+        {
+            "hash": "e2d0cf69fa5f14bf19cac1701fac764738980924",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-07-25T11:54:53-07:00",
+            "subject": "[LoopInfo] Build dominator tree only for irreducible CFG"
         }
     ],
     "fhahn\/perf\/scev-const-range-fastpath": [
