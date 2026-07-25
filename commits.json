@@ -196451,6 +196451,12 @@
             "author_name": "Alexis Engelke",
             "commit_date": "2026-07-25T08:40:52+00:00",
             "subject": "[DomTree] Remove support for unnumbered graphs"
+        },
+        {
+            "hash": "83f20975fa39ea7966dbd0e5bd4feb96ac609278",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-25T11:50:45+00:00",
+            "subject": "try"
         }
     ],
     "aleks-tmb\/perf\/scev-loopguards-zext-neg-add": [
@@ -196861,16 +196867,16 @@
     ],
     "fhahn\/perf\/scev-densemap-for-constants": [
         {
-            "hash": "8a6a039eb31f33749cfe251a5985b335e9a09681",
-            "author_name": "Jianhui Li",
-            "commit_date": "2026-07-24T12:01:20-07:00",
-            "subject": "[mlir][xegpu] Allow create_mem_desc from ND memref (#211836)"
+            "hash": "f539edf74b2c9c33b298b4d2c58201f91c22beb4",
+            "author_name": "Xiaoyang Gong",
+            "commit_date": "2026-07-25T16:01:24+08:00",
+            "subject": "[LTO] Include debug options in legacy ThinLTO cache keys (#211474)"
         },
         {
-            "hash": "4146ff3be6be4c9d9bb10399a83658690222252e",
+            "hash": "7f46916f34fce8aaa77bc8798d00bf5b95680764",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-24T20:14:42+01:00",
-            "subject": "[SCEV] Use DenseMap for constant lookup"
+            "commit_date": "2026-07-25T12:51:22+01:00",
+            "subject": "[SCEV] Use DenseMap for constant lookupm bypassing FoldingSet (NFC)"
         }
     ],
     "mtrofin\/perf\/peak-mem": [
