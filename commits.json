@@ -187377,6 +187377,12 @@
             "author_name": "Xiaoyang Gong",
             "commit_date": "2026-07-25T16:01:24+08:00",
             "subject": "[LTO] Include debug options in legacy ThinLTO cache keys (#211474)"
+        },
+        {
+            "hash": "b9c05ca60ab11ecea4a58d864f62c65fce8cf912",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-07-25T08:23:02+00:00",
+            "subject": "[SCEV] Fix MSan uninitialized value in createSCEV (#211996)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -196851,6 +196857,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-07-24T23:15:08-07:00",
             "subject": "[LoopInfo] Drop the backward traversal for irreducible CFGs"
+        }
+    ],
+    "MaskRay\/perf\/loopinfo-wei-tao": [
+        {
+            "hash": "861adf6f34727fbcc66c64ddba916ac0bb0423c2",
+            "author_name": "Jordan Rupprecht",
+            "commit_date": "2026-07-24T20:57:47-05:00",
+            "subject": "[lldb] Fix heap-use-after-free in FileSpec usage (#211908)"
+        },
+        {
+            "hash": "106e15c4363b2c05685bef3d28a5df946a4612f3",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-07-25T01:14:35-07:00",
+            "subject": "[LoopInfo] Identify loops with a single-pass DFS algorithm. NFC"
         }
     ]
 }
