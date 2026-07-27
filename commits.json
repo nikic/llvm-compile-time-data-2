@@ -188043,6 +188043,12 @@
             "author_name": "Avi Patel",
             "commit_date": "2026-07-27T18:00:45+08:00",
             "subject": "[libc++] Implement P1901R2: owner_hash and owner_equal for shared_ptr\/weak_ptr (#210551)"
+        },
+        {
+            "hash": "a744ab39c43cf6ae483bbd72613cf589daaade56",
+            "author_name": "Vlad Serebrennikov",
+            "commit_date": "2026-07-27T10:04:09+00:00",
+            "subject": "[clang] Update C++ DR status page (#212210)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -195223,40 +195229,16 @@
     ],
     "fhahn\/perf\/scev-min-max": [
         {
-            "hash": "4aba9d237a1ad07751fff354a56f4f2cf9dfecfe",
-            "author_name": "Luke Hutton",
-            "commit_date": "2026-07-09T19:49:44+01:00",
-            "subject": "[mlir][tosa] Fold tiled input into binary elementwise operations (#203941)"
+            "hash": "13706f1c73b91f74a8a555748b68362fbb5d698f",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-27T07:46:18+02:00",
+            "subject": "AMDGPU: Migrate misc. tests to subarch triples (#211585)"
         },
         {
-            "hash": "4da3d1b655be3618eb6f2992e6017731ee0cfb70",
+            "hash": "18bb271ca6a193e2cdd9575c1daf5287507f5cfa",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-09T19:56:20+01:00",
-            "subject": "[SCEV] Add more tests for reasoning about min\/max expressions (NFC)"
-        },
-        {
-            "hash": "ebf0df37461b66c536403561ac6ed6d99703709f",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-09T19:56:55+01:00",
+            "commit_date": "2026-07-27T11:11:13+01:00",
             "subject": "[SCEV] Prove max(X0..Xn) Pred RHS via per-operand decomposition."
-        },
-        {
-            "hash": "8f9200be782929a4fef2fb197e2abe3d2492e3f7",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-09T19:58:58+01:00",
-            "subject": "[SCEV] Prove LHS Pred min(Y0..Yn) via per-operand decomposition."
-        },
-        {
-            "hash": "3ebb39debced9a33bd9a5df967d93f448129fce4",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-09T20:00:05+01:00",
-            "subject": "[SCEV] Prove min(X0..Xn) Pred RHS via decomposition; drop umin fast-path."
-        },
-        {
-            "hash": "aa5f9674e8cb00fc12e3da4743e6e3b2af17a250",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-09T20:01:44+01:00",
-            "subject": "[SCEV] Prove LHS u<= umax(Y0..Yn) via decomposition."
         }
     ],
     "nikic\/perf\/scev-umin-cond-2": [
@@ -197751,16 +197733,22 @@
     ],
     "fhahn\/perf\/scev-urem-matcher": [
         {
-            "hash": "bdd8c64a2ae89cc9d860bd3b37b1bb782ccde077",
-            "author_name": "Victor Perez",
-            "commit_date": "2026-07-26T16:25:34+00:00",
-            "subject": "[mlir][arith] Fold trivial integer division and remainder (#212074)"
+            "hash": "13706f1c73b91f74a8a555748b68362fbb5d698f",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-27T07:46:18+02:00",
+            "subject": "AMDGPU: Migrate misc. tests to subarch triples (#211585)"
         },
         {
-            "hash": "72525dadd0b8ce51380e315677bd189db48042f4",
+            "hash": "298da9b93121c17fb37de3c2483d6aaa4735b505",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-26T21:20:07+01:00",
+            "commit_date": "2026-07-27T11:03:27+01:00",
             "subject": "[SCEV] Avoid building throwaway nodes in SCEVURem_match (NFC)"
+        },
+        {
+            "hash": "f0b5252d705eee8a1c115ddf85b1bc02e17db3c9",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-27T11:05:34+01:00",
+            "subject": "!fixup add missing if to comment, thanks"
         }
     ],
     "MaskRay\/perf\/bfi-cycleinfo": [
