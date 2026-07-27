@@ -188559,6 +188559,24 @@
             "author_name": "David Green",
             "commit_date": "2026-07-27T18:54:43+01:00",
             "subject": "[AArch64][GlobalISel] Use integer type for truncating merged call args. (#212208)"
+        },
+        {
+            "hash": "02da01251156c831a54417d4882aad7226cdbbe1",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-27T19:57:14+02:00",
+            "subject": "TableGen: Use a compact table for CPU aliases (#211952)"
+        },
+        {
+            "hash": "b9a7aad4a9d50b9ec60b59d197be43a973a0572c",
+            "author_name": "Tom Stellard",
+            "commit_date": "2026-07-27T10:58:58-07:00",
+            "subject": "workflows\/release-tasks: Fix permissions for release-documentation (#212310)"
+        },
+        {
+            "hash": "0600aeae3ba6c41da80bbb84c10f1cad4c9a58ba",
+            "author_name": "David Green",
+            "commit_date": "2026-07-27T19:01:35+01:00",
+            "subject": "[AArch64][GlobalISel] Use integer types for inline assembly lowering (#212214)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -196941,6 +196959,48 @@
             "author_name": "Balazs Benics",
             "commit_date": "2026-07-26T20:20:53+02:00",
             "subject": "Revert \"[analyzer] Model strchr\/strrchr\/memchr\/strstr\/strpbrk\/strchrnul (#207267)\""
+        },
+        {
+            "hash": "8f02027d8aaaae3123a93c53c9bd6d74f24d8eb6",
+            "author_name": "David Green",
+            "commit_date": "2026-07-27T20:00:07+02:00",
+            "subject": "[LoopUnroll] Make the list of supported recurrence kinds inclusive. (#210957)"
+        },
+        {
+            "hash": "56a1c9d0a8fbc91e3289d49c795a7de2cd7e608c",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-07-27T20:02:25+02:00",
+            "subject": "Add release note for LLDB_ENABLE_DYNAMIC_SCRIPTINTERPRETERS"
+        },
+        {
+            "hash": "c86b1c1a01061085e0ee8faabdf7bd2e5766d59c",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-07-27T20:02:25+02:00",
+            "subject": "Add David's suggestion"
+        },
+        {
+            "hash": "b229b3538dc8f6a5540543bf3e0a57fcff2ab196",
+            "author_name": "Marco Elver",
+            "commit_date": "2026-07-27T20:03:54+02:00",
+            "subject": "Thread Safety Analysis: Handle statement expressions in try-lock conditions (#209330)"
+        },
+        {
+            "hash": "a0177f77dd93f1ee94a271d2ac58e01cf59bd8ed",
+            "author_name": "Timothy Day",
+            "commit_date": "2026-07-27T20:03:54+02:00",
+            "subject": "Thread Safety Analysis: Don't warn at joins that re-branch on a try-lock result (#209796)"
+        },
+        {
+            "hash": "6781c9c82895c42c5393ea0aafc1a28cf28a2593",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-07-27T20:04:44+02:00",
+            "subject": "[IR] Slightly optimize getElementAsInteger() (#211550)"
+        },
+        {
+            "hash": "f918c2880d54560122dc16aeebad8c66eaaed23a",
+            "author_name": "Sirraide",
+            "commit_date": "2026-07-27T20:05:30+02:00",
+            "subject": "[Clang] [Sema] Use getCurFunctionDecl() to get the current function (#211938)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
