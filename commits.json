@@ -97047,21 +97047,21 @@
     ],
     "fhahn\/perf\/scev-rewrite-add-expr": [
         {
-            "hash": "905ec411bd1e8ebf3ea527b79c208d58dbaa6f16",
-            "author_name": "Arseniy Obolenskiy",
-            "commit_date": "2026-07-24T11:05:58+02:00",
-            "subject": "[NFC][SPIR-V] Remove unused LoopInfo member from structurizer splitter (#211538)"
+            "hash": "cd653d59160ee91fd33b949cc6989c7945d9cdf3",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-07-27T21:06:19+10:00",
+            "subject": "[orc-rt] Add C API for Session::callController. (#212204)"
         },
         {
-            "hash": "f8607cafe6445ec208fdd9dd36621c1716902063",
+            "hash": "36b82eece78ce502fff78e9de2ca2709b7b40602",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-24T10:16:27+01:00",
+            "commit_date": "2026-07-27T12:19:16+01:00",
             "subject": "[SCEV] Rewrite more SCEVAddExpr when applying guards."
         },
         {
-            "hash": "b13ddb6f7f05aa3ddb165be68c847e05ac22bf7c",
+            "hash": "674c714355ce473fd93863b7d5b19e98959c2d62",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-24T10:16:27+01:00",
+            "commit_date": "2026-07-27T12:20:22+01:00",
             "subject": "Fold to try reduce compile-time"
         }
     ],
@@ -188091,6 +188091,18 @@
             "author_name": "Lang Hames",
             "commit_date": "2026-07-27T21:06:19+10:00",
             "subject": "[orc-rt] Add C API for Session::callController. (#212204)"
+        },
+        {
+            "hash": "1333e0a05d822b96e76d9edf55f1af66e2cbb0b3",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-07-27T13:21:45+02:00",
+            "subject": "[libc++] Remove locale::id::__next_id from the ABI (#210360)"
+        },
+        {
+            "hash": "e10674378de70647d666499c6fd7f11a7ee03f6e",
+            "author_name": "Tim Besard",
+            "commit_date": "2026-07-27T13:22:24+02:00",
+            "subject": "[SPIR-V] Fix direct return of aggregate extractvalue (#209762)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
