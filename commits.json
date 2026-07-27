@@ -187905,6 +187905,12 @@
             "author_name": "Phoebe Wang",
             "commit_date": "2026-07-27T11:42:18+08:00",
             "subject": "[X86] Add dynamic tags support for llvm-readobj and lldb per psABI (#207661)"
+        },
+        {
+            "hash": "13706f1c73b91f74a8a555748b68362fbb5d698f",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-27T07:46:18+02:00",
+            "subject": "AMDGPU: Migrate misc. tests to subarch triples (#211585)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -197623,6 +197629,26 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-07-26T21:20:07+01:00",
             "subject": "[SCEV] Avoid building throwaway nodes in SCEVURem_match (NFC)"
+        }
+    ],
+    "MaskRay\/perf\/bfi-cycleinfo": [
+        {
+            "hash": "89c0b16768b4b83d86e0aeda47df813274e6d2db",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-07-27T02:31:11+00:00",
+            "subject": "[DomTree] Define the members calling the construction algorithms out of line. NFC (#212145)"
+        },
+        {
+            "hash": "947adb8fa0540fc141af117fcda31ee182b1af88",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-07-26T21:19:55-07:00",
+            "subject": "WIP Use CycleInfo for BlockFrequencyInfo (tests fail)"
+        },
+        {
+            "hash": "4d1631947366b99b400494e1640b9b933427488f",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-07-26T22:47:02-07:00",
+            "subject": "fixup: parent a child cycle to its enclosing loop"
         }
     ]
 }
