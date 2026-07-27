@@ -188283,6 +188283,18 @@
             "author_name": "Leandro Lupori",
             "commit_date": "2026-07-27T11:31:30-03:00",
             "subject": "[mlir][OpenMP] Fix update of linear iteration variables (#183800)"
+        },
+        {
+            "hash": "7e607a0931394460ab9f4994f6928553da13e472",
+            "author_name": "muhammadshayanasim1-web",
+            "commit_date": "2026-07-27T14:35:29+00:00",
+            "subject": "[InstCombine] Copy metadata in select-to-masked.load fold (#211965)"
+        },
+        {
+            "hash": "f613ead38efdc327c78d4b00f9195e84092c2d57",
+            "author_name": "Petar Avramovic",
+            "commit_date": "2026-07-27T16:40:03+02:00",
+            "subject": "AMDGPU\/GlobalISel: Fix cs_chain use of constrainOperandRegClass (#212248)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -198077,6 +198089,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-07-27T13:43:35+00:00",
             "subject": "[MISched] Lower -fast-cluster-threshold to 250"
+        }
+    ],
+    "nikic\/perf\/scev-predicate-addrec-max": [
+        {
+            "hash": "bb75638cb7fa090bb6e4c4c3e6e15e693a69b1d1",
+            "author_name": "Utkarsh Saxena",
+            "commit_date": "2026-07-27T08:23:32+00:00",
+            "subject": "[LifetimeSafety][NFC] Refactor AccessPath and Loan representations  (#180369)"
+        },
+        {
+            "hash": "c8ca50a792969b61c3a46f43ffa206806f971f77",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-07-27T16:42:45+02:00",
+            "subject": "Prove predicate via nuw AddRec value at max iteration"
         }
     ]
 }
