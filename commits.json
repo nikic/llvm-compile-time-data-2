@@ -188319,6 +188319,12 @@
             "author_name": "Krzysztof Parzyszek",
             "commit_date": "2026-07-27T10:02:10-05:00",
             "subject": "[flang][OpenMP] Split DEFAULT into DEFAULT(dsa) and DEFAULT(variant) (#212128)"
+        },
+        {
+            "hash": "a0710105925b8455f38fd861712279d04f656d4c",
+            "author_name": "Sean Clarke",
+            "commit_date": "2026-07-27T15:03:52+00:00",
+            "subject": "[HashRecognize] Fix two more compiler hangs on dense use-def chains (#211887)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -198141,6 +198147,20 @@
             "author_name": "Mayank Solanki",
             "commit_date": "2026-07-27T16:53:45+02:00",
             "subject": "Propagate constant equalities into expressions defined outside the dominated region"
+        }
+    ],
+    "antoniofrighetto\/perf\/gvn-const-expr-prop": [
+        {
+            "hash": "3ca666f496681600f5528f4346c0303dd1171230",
+            "author_name": "Jonas Paulsson",
+            "commit_date": "2026-07-27T14:31:44+02:00",
+            "subject": "[SystemZ] Improve handling of memmoves. (#196285)"
+        },
+        {
+            "hash": "3371bed632f8407bbe06d6e82063a8fc1593d648",
+            "author_name": "Mayank Solanki",
+            "commit_date": "2026-07-27T17:06:40+02:00",
+            "subject": "[GVN] Propagate constant equalities into expressions defined outside the dominated region"
         }
     ]
 }
