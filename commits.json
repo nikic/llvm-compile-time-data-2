@@ -188247,6 +188247,12 @@
             "author_name": "Serafean",
             "commit_date": "2026-07-27T09:38:01-04:00",
             "subject": "[libclang]Visit lambda init-capture as VarDeclaration (#174116)"
+        },
+        {
+            "hash": "26480c7d1678fbea8e7b1cd064775d0f48649f91",
+            "author_name": "Petar Avramovic",
+            "commit_date": "2026-07-27T15:45:33+02:00",
+            "subject": "AMDGPU\/GlobalISel: Test for cs_chain argument from G_EXTRACT_VECTOR_ELT (#212247)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -198021,6 +198027,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-07-27T13:33:44+00:00",
             "subject": "[AArch64] Mark FIXED_REGS register class as non-allocatable"
+        }
+    ],
+    "c-rhodes\/perf\/msched-tune-fast-cluster-threshold": [
+        {
+            "hash": "3ca666f496681600f5528f4346c0303dd1171230",
+            "author_name": "Jonas Paulsson",
+            "commit_date": "2026-07-27T14:31:44+02:00",
+            "subject": "[SystemZ] Improve handling of memmoves. (#196285)"
+        },
+        {
+            "hash": "0174bea5bc16cdb4da3519ec334a418729781edf",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-07-27T13:43:35+00:00",
+            "subject": "[MISched] Lower -fast-cluster-threshold to 250"
         }
     ]
 }
