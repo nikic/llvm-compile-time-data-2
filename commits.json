@@ -97047,22 +97047,28 @@
     ],
     "fhahn\/perf\/scev-rewrite-add-expr": [
         {
-            "hash": "cd653d59160ee91fd33b949cc6989c7945d9cdf3",
-            "author_name": "Lang Hames",
-            "commit_date": "2026-07-27T21:06:19+10:00",
-            "subject": "[orc-rt] Add C API for Session::callController. (#212204)"
+            "hash": "42b4ee6383e340c4c3ab4cfddd17f864ab331e0d",
+            "author_name": "Konrad Kleine",
+            "commit_date": "2026-07-27T13:42:02+02:00",
+            "subject": "docs: Adjust HowToReleaseLLVM to include man page signing (#210092)"
         },
         {
-            "hash": "36b82eece78ce502fff78e9de2ca2709b7b40602",
+            "hash": "df6509d513e138d1543a0009d5a1bee242c41afd",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-27T12:19:16+01:00",
+            "commit_date": "2026-07-27T13:58:46+01:00",
             "subject": "[SCEV] Rewrite more SCEVAddExpr when applying guards."
         },
         {
-            "hash": "674c714355ce473fd93863b7d5b19e98959c2d62",
+            "hash": "3b7c1f2864ca45ed7debb3464499831c4d23239e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-27T12:20:22+01:00",
+            "commit_date": "2026-07-27T13:58:46+01:00",
             "subject": "Fold to try reduce compile-time"
+        },
+        {
+            "hash": "7b5221e21c2c18152dcb72a82122730690153aed",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-27T13:59:11+01:00",
+            "subject": "!fixup remove lookup"
         }
     ],
     "tbaederr\/perf\/initmaps2": [
@@ -188175,6 +188181,24 @@
             "author_name": "Vladislav Dzhidzhoev",
             "commit_date": "2026-07-27T12:50:35+00:00",
             "subject": "[DebugInfo][DwarfDebug] Move emission of types from beginModule() to endModule() (7\/7) (#211536)"
+        },
+        {
+            "hash": "0695ea8d442c3271634892a7bec78b3b3a4368b9",
+            "author_name": "Kevin Bravo",
+            "commit_date": "2026-07-27T13:53:42+01:00",
+            "subject": "[TableGen] Check for EOF in prepSkipRegion to avoid preprocessor crash. (#208961)"
+        },
+        {
+            "hash": "6bb73fd3e418d1bade9050776ddb6a8f84a8bfb3",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-07-27T22:55:23+10:00",
+            "subject": "[orc-rt] Fix maybe_unused attribute. (#212237)"
+        },
+        {
+            "hash": "98d41d2f75395ab1f91198f2493cff62a33b80c1",
+            "author_name": "Nerixyz",
+            "commit_date": "2026-07-27T14:58:38+02:00",
+            "subject": "[lldb][Windows] Disable debug heap by default (#212126)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -197923,6 +197947,26 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-07-27T07:01:52+00:00",
             "subject": "[AArch64] Use FastISel at O0"
+        }
+    ],
+    "c-rhodes\/perf\/aarch64-mark-fixedregs-regclass-nonallocatable": [
+        {
+            "hash": "3ca666f496681600f5528f4346c0303dd1171230",
+            "author_name": "Jonas Paulsson",
+            "commit_date": "2026-07-27T14:31:44+02:00",
+            "subject": "[SystemZ] Improve handling of memmoves. (#196285)"
+        },
+        {
+            "hash": "b22d261e4ba62634e42e54fd0ba49da19bbe0b9a",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-07-27T12:46:36+00:00",
+            "subject": "[AArch64] Add register pressure scheduling regression test"
+        },
+        {
+            "hash": "595000b8df5aa1278f684b11e1cc6989ef7d262d",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-07-27T12:54:20+00:00",
+            "subject": "[AArch64] Mark FIXED_REGS register class as non-allocatable"
         }
     ]
 }
