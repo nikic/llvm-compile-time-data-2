@@ -197469,6 +197469,12 @@
             "author_name": "Henry Jiang",
             "commit_date": "2026-07-28T11:09:33+02:00",
             "subject": "[Hexagon] Fix missing requires assert for swp-epilog-phi12.mir (#212062)"
+        },
+        {
+            "hash": "f181815b8e094287ba4ac36e5b8127fcda34e49f",
+            "author_name": "Rainer Orth",
+            "commit_date": "2026-07-28T11:16:16+02:00",
+            "subject": "[llvm][cas] Fix OnDiskCASLoggerTest.cpp compilation on NetBSD (#212113)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
@@ -198121,64 +198127,28 @@
     ],
     "aengelke\/perf\/clang-ptrtoaddr": [
         {
-            "hash": "bf7b5a0fedb924e7f3db3423cbeb97c343c37b25",
-            "author_name": "Sirui Mu",
-            "commit_date": "2026-07-25T12:22:52+08:00",
-            "subject": "[CIR] Add support for atomic fmaximum\/fminimum\/fmaximumnum\/fminimumnum (#211845)"
+            "hash": "7bc2770064d3afbb4ce49c159d99c69a9e4b5c5b",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-07-28T09:25:31+02:00",
+            "subject": "[libc] Make assert_test hermetic (#210700)"
         },
         {
-            "hash": "5d3cc0d1ff38e4b395883b7338d08ae2ba17f89d",
+            "hash": "037eaf74d30cbec0cafba1fd74fdb0ce0d53cb48",
             "author_name": "Alexis Engelke",
-            "commit_date": "2026-07-25T05:35:49+00:00",
+            "commit_date": "2026-07-28T07:26:18+00:00",
             "subject": "[Clang][CodeGen] Use ptrtoaddr for pointer diff"
         },
         {
-            "hash": "1839e39acf20004d0fc836695919bfeb7ac89e08",
+            "hash": "e71cbb3c37e82966eb9a45312b18b0082985b796",
             "author_name": "Alexis Engelke",
-            "commit_date": "2026-07-25T05:48:14+00:00",
-            "subject": "[ASan] Instrument ptrtoaddr as pointer difference"
+            "commit_date": "2026-07-28T07:28:50+00:00",
+            "subject": "try dylib"
         },
         {
-            "hash": "cb457dbe2287ba8c770969c4494c67688992b7fd",
+            "hash": "36864664345256a853814320bf4ae665381a7ac6",
             "author_name": "Alexis Engelke",
-            "commit_date": "2026-07-25T08:34:27+00:00",
-            "subject": "[InstCombine] Fold icmp ptrtoaddr x, ptrtoaddr y -> icmp x, y"
-        },
-        {
-            "hash": "3a7ac5aacc415bc954cbb84b558371a61a013659",
-            "author_name": "Alexis Engelke",
-            "commit_date": "2026-07-25T08:37:49+00:00",
-            "subject": "try"
-        },
-        {
-            "hash": "98e24ca7afca21a41e16482f5cfc08db50795cff",
-            "author_name": "Alexis Engelke",
-            "commit_date": "2026-07-25T08:37:49+00:00",
-            "subject": "[DomTreeConstr][NFC] Resize NodeInfos once on construction"
-        },
-        {
-            "hash": "04dd04da2e664eea61ab2e17775148ffc21e29ae",
-            "author_name": "Alexis Engelke",
-            "commit_date": "2026-07-25T08:40:52+00:00",
-            "subject": "[VPlan][NFC] Number blocks"
-        },
-        {
-            "hash": "b73d1d4fff4ff18d0e47129bcd0638eed3d07f03",
-            "author_name": "Alexis Engelke",
-            "commit_date": "2026-07-25T08:40:52+00:00",
-            "subject": "[DomTree] Remove support for unnumbered graphs"
-        },
-        {
-            "hash": "83f20975fa39ea7966dbd0e5bd4feb96ac609278",
-            "author_name": "Alexis Engelke",
-            "commit_date": "2026-07-25T11:50:45+00:00",
-            "subject": "try"
-        },
-        {
-            "hash": "939584802000eb499b9b9142c5ffe2783e9283eb",
-            "author_name": "Alexis Engelke",
-            "commit_date": "2026-07-25T12:22:40+00:00",
-            "subject": "try"
+            "commit_date": "2026-07-28T09:16:12+00:00",
+            "subject": "orc pch"
         }
     ],
     "aleks-tmb\/perf\/scev-loopguards-zext-neg-add": [
