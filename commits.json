@@ -199078,5 +199078,19 @@
             "commit_date": "2026-07-28T16:43:25+08:00",
             "subject": "[SCEV] Invalidate IR-derived properties in forgetLoop"
         }
+    ],
+    "fhahn\/perf\/scev-add-nuw-check": [
+        {
+            "hash": "ff46298372dc64d8fb56f1397c2914772b815605",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-28T13:25:00+02:00",
+            "subject": "[mlir][SPIR-V] Support bitwise and\/or\/xor in gpu reduction lowering (#202351)"
+        },
+        {
+            "hash": "15c1e42001fe863e384de3f86b97b20167e7a95a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-28T14:04:19+01:00",
+            "subject": "[SCEV] Only try (A+B)\/C distribution for nuw adds (NFC)"
+        }
     ]
 }

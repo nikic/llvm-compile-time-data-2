@@ -1,0 +1,236 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/SummaryAnalysis.h:109:15: warning: ‘llvm::Error clang::ssaf::SummaryAnalysis<ResultT, EntitySummaryT>::add(clang::ssaf::EntityId, const clang::ssaf::EntitySummary&) [with ResultT = clang::ssaf::UnsafeBufferUsageAnalysisResult; EntitySummaryT = clang::ssaf::UnsafeBufferUsageEntitySummary]’ was hidden [-Woverloaded-virtual]
+  109 |   llvm::Error add(EntityId Id, const EntitySummary &Summary) final {
+      |               ^~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsageAnalysis.cpp:72:15: note:   by ‘virtual llvm::Error {anonymous}::UnsafeBufferUsageAnalysis::add(clang::ssaf::EntityId, const clang::ssaf::UnsafeBufferUsageEntitySummary&)’
+   72 |   llvm::Error add(EntityId Id,
+      |               ^~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/AnalysisRegistry.h:36,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsageAnalysis.cpp:21:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/DerivedAnalysis.h:111:3: warning: ‘llvm::Error clang::ssaf::DerivedAnalysis<ResultT, DepResultTs>::initialize(const std::map<clang::ssaf::AnalysisName, const clang::ssaf::AnalysisResult*>&) [with ResultT = clang::ssaf::UnsafeBufferReachableAnalysisResult; DepResultTs = {clang::ssaf::PointerFlowAnalysisResult, clang::ssaf::UnsafeBufferUsageAnalysisResult}]’ was hidden [-Woverloaded-virtual]
+  111 |   initialize(const std::map<AnalysisName, const AnalysisResult *> &Map) final {
+      |   ^~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsageAnalysis.cpp:212:3: note:   by ‘virtual llvm::Error {anonymous}::UnsafeBufferReachableAnalysis::initialize(const clang::ssaf::PointerFlowAnalysisResult&, const clang::ssaf::UnsafeBufferUsageAnalysisResult&)’
+  212 |   initialize(const PointerFlowAnalysisResult &PtrFlowGraph,
+      |   ^~~~~~~~~~
+[2932/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Model/BuildNamespace.cpp.o
+[2933/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Model/EntityId.cpp.o
+[2934/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Model/EntityIdTable.cpp.o
+[2935/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Analyses/CMakeFiles/obj.clangScalableStaticAnalysisAnalyses.dir/UnsafeBufferUsage/UnsafeBufferUsageExtractor.cpp.o
+[2936/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Model/EntityLinkage.cpp.o
+[2937/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Model/EntityName.cpp.o
+[2938/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Model/SummaryName.cpp.o
+[2939/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/ASTEntityMapping.cpp.o
+[2940/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Analyses/CMakeFiles/obj.clangScalableStaticAnalysisAnalyses.dir/EntityPointerLevel/EntityPointerLevelFormat.cpp.o
+[2941/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Analyses/CMakeFiles/obj.clangScalableStaticAnalysisAnalyses.dir/TypeConstrainedPointers/TypeConstrainedPointers.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/AnalysisRegistry.h:37,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/TypeConstrainedPointers/TypeConstrainedPointers.cpp:32:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/SummaryAnalysis.h:109:15: warning: ‘llvm::Error clang::ssaf::SummaryAnalysis<ResultT, EntitySummaryT>::add(clang::ssaf::EntityId, const clang::ssaf::EntitySummary&) [with ResultT = clang::ssaf::TypeConstrainedPointersAnalysisResult; EntitySummaryT = clang::ssaf::TypeConstrainedPointersEntitySummary]’ was hidden [-Woverloaded-virtual]
+  109 |   llvm::Error add(EntityId Id, const EntitySummary &Summary) final {
+      |               ^~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/TypeConstrainedPointers/TypeConstrainedPointers.cpp:141:3: note:   by ‘virtual llvm::Error {anonymous}::TypeConstrainedPointersAnalysis::add(clang::ssaf::EntityId, const clang::ssaf::TypeConstrainedPointersEntitySummary&)’
+  141 |   add(EntityId, const TypeConstrainedPointersEntitySummary &Summary) override {
+      |   ^~~
+[2942/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Analyses/CMakeFiles/obj.clangScalableStaticAnalysisAnalyses.dir/UnsafeBufferUsage/UnsafeBufferUsage.cpp.o
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsage.cpp:15:1: warning: ‘clang::ssaf::UnsafeBufferUsageEntitySummary clang::ssaf::buildUnsafeBufferUsageEntitySummary(clang::ssaf::EntityPointerLevelSet)’ has not been declared within ‘clang::ssaf’
+   15 | ssaf::buildUnsafeBufferUsageEntitySummary(EntityPointerLevelSet UnsafeBuffers) {
+      | ^~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsage.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsage.h:24:7: note: only here as a ‘friend’
+   24 |       buildUnsafeBufferUsageEntitySummary(EntityPointerLevelSet);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsage.cpp:20:1: warning: ‘llvm::iterator_range<std::_Rb_tree_const_iterator<clang::ssaf::EntityPointerLevel> > clang::ssaf::getUnsafeBuffers(const clang::ssaf::UnsafeBufferUsageEntitySummary&)’ has not been declared within ‘clang::ssaf’
+   20 | ssaf::getUnsafeBuffers(const UnsafeBufferUsageEntitySummary &S) {
+      | ^~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsage.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsage.h:26:3: note: only here as a ‘friend’
+   26 |   getUnsafeBuffers(const UnsafeBufferUsageEntitySummary &);
+      |   ^~~~~~~~~~~~~~~~
+[2943/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Analyses/CMakeFiles/obj.clangScalableStaticAnalysisAnalyses.dir/UnsafeBufferUsage/UnsafeBufferUsageFormat.cpp.o
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsageFormat.cpp:25:1: warning: ‘clang::ssaf::UnsafeBufferUsageEntitySummary clang::ssaf::buildUnsafeBufferUsageEntitySummary(clang::ssaf::EntityPointerLevelSet)’ has not been declared within ‘clang::ssaf’
+   25 | ssaf::buildUnsafeBufferUsageEntitySummary(EntityPointerLevelSet UnsafeBuffers);
+      | ^~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsageFormat.cpp:12:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsage.h:24:7: note: only here as a ‘friend’
+   24 |       buildUnsafeBufferUsageEntitySummary(EntityPointerLevelSet);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsageFormat.cpp:28:1: warning: ‘llvm::iterator_range<std::_Rb_tree_const_iterator<clang::ssaf::EntityPointerLevel> > clang::ssaf::getUnsafeBuffers(const clang::ssaf::UnsafeBufferUsageEntitySummary&)’ has not been declared within ‘clang::ssaf’
+   28 | ssaf::getUnsafeBuffers(const UnsafeBufferUsageEntitySummary &S);
+      | ^~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsageFormat.cpp:12:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsage.h:26:3: note: only here as a ‘friend’
+   26 |   getUnsafeBuffers(const UnsafeBufferUsageEntitySummary &);
+      |   ^~~~~~~~~~~~~~~~
+[2944/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/EntityLinker/EntityLinker.cpp.o
+[2945/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/JSONEntitySummaryEncoding.cpp.o
+[2946/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/Artifact.cpp.o
+[2947/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/JSONFormatImpl.cpp.o
+[2948/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/LUSummary.cpp.o
+[2949/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/LUSummaryEncoding.cpp.o
+[2950/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/StaticLibrary.cpp.o
+[2951/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/MultiArchStaticLibrary.cpp.o
+[2952/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/MultiArchSharedLibrary.cpp.o
+[2953/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/TUSummaryEncoding.cpp.o
+[2954/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/TUSummary.cpp.o
+[2955/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/SummaryData/LUSummaryConsumer.cpp.o
+[2956/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/SummaryData/SummaryDataBuilderRegistry.cpp.o
+[2957/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/WPASuite.cpp.o
+[2958/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Support/ErrorBuilder.cpp.o
+[2959/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/TUSummary/TUSummaryBuilder.cpp.o
+[2960/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/WholeProgramAnalysis/AnalysisName.cpp.o
+[2961/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/SerializationFormatRegistry.cpp.o
+[2962/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/WholeProgramAnalysis/AnalysisDriver.cpp.o
+[2963/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/WholeProgramAnalysis/AnalysisRegistry.cpp.o
+[2964/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/TUSummary/TUSummaryExtractor.cpp.o
+[2965/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/TUSummary/ExtractorRegistry.cpp.o
+[2966/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/SourceTransformation/CMakeFiles/obj.clangScalableStaticAnalysisSourceTransformation.dir/SARIFTransformationReportFormat.cpp.o
+[2967/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/SourceTransformation/CMakeFiles/obj.clangScalableStaticAnalysisSourceTransformation.dir/TransformationRegistry.cpp.o
+[2968/3371] Building CXX object tools/clang/lib/UnifiedSymbolResolution/CMakeFiles/obj.clangUnifiedSymbolResolution.dir/USRGeneration.cpp.o
+[2969/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Frontend/CMakeFiles/obj.clangScalableStaticAnalysisFrontend.dir/TUSummaryExtractorFrontendAction.cpp.o
+[2970/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Frontend/CMakeFiles/obj.clangScalableStaticAnalysisFrontend.dir/SourceTransformationFrontendAction.cpp.o
+[2971/3371] Building CXX object tools/clang/lib/ScalableStaticAnalysis/SourceTransformation/CMakeFiles/obj.clangScalableStaticAnalysisSourceTransformation.dir/YAMLSourceEditFormat.cpp.o
+[2972/3371] Building AArch64GenGlobalISel.inc...
+[2973/3371] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolution.cpp.o
+FAILED: lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolution.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DHAS_LOGF128 -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Analysis -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolution.cpp.o -MF lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolution.cpp.o.d -o lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolution.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp: In member function ‘const llvm::SCEV* llvm::ScalarEvolution::getUDivExpr(llvm::SCEVUse, llvm::SCEVUse)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3632:9: error: expected primary-expression before ‘if’
+ 3632 |         if (A->hasNoUnsignedWrap()) {
+      |         ^~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3631:61: error: expected ‘)’ before ‘if’
+ 3631 |       if (const SCEVAddExpr *A = dyn_cast<SCEVAddExpr>(LHS);
+      |          ~                                                  ^
+      |                                                             )
+ 3632 |         if (A->hasNoUnsignedWrap()) {
+      |         ~~                                                   
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3644:7: error: expected primary-expression before ‘}’ token
+ 3644 |       }
+      |       ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3631:30: warning: unused variable ‘A’ [-Wunused-variable]
+ 3631 |       if (const SCEVAddExpr *A = dyn_cast<SCEVAddExpr>(LHS);
+      |                              ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp: At global scope:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3674:3: error: expected unqualified-id before ‘if’
+ 3674 |   if (match(LHS,
+      |   ^~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3681:43: error: ‘LHS’ was not declared in this scope
+ 3681 |   const auto *Mul = dyn_cast<SCEVMulExpr>(LHS);
+      |                                           ^~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3682:3: error: expected unqualified-id before ‘if’
+ 3682 |   if (Mul && Mul->hasNoUnsignedWrap()) {
+      |   ^~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3696:3: error: expected unqualified-id before ‘if’
+ 3696 |   if (match(LHS, m_scev_c_NUWMul(m_SCEV(NewLHS), m_SCEVVScale())) &&
+      |   ^~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3702:3: error: ‘IP’ does not name a type
+ 3702 |   IP = nullptr;
+      |   ^~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3703:3: error: expected unqualified-id before ‘if’
+ 3703 |   if (const SCEV *S = UniqueSCEVs.FindNodeOrInsertPos(ID, IP)) return S;
+      |   ^~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3704:18: error: ‘SCEVAllocator’ was not declared in this scope
+ 3704 |   SCEV *S = new (SCEVAllocator) SCEVUDivExpr(ID.Intern(SCEVAllocator),
+      |                  ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3704:46: error: ‘ID’ was not declared in this scope
+ 3704 |   SCEV *S = new (SCEVAllocator) SCEVUDivExpr(ID.Intern(SCEVAllocator),
+      |                                              ^~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3704:46: note: suggested alternatives:
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/InstrTypes.h:25,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/ConstantRange.h:35,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/ScalarEvolution.h:33,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:60:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/CallingConv.h:24:9: note:   ‘llvm::CallingConv::ID’
+   24 |   using ID = unsigned;
+      |         ^~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Metadata.h:27,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/TrackingMDRef.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/DebugLoc.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/DebugProgramInstruction.h:54,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/BasicBlock.h:23,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Function.h:27,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/InstrTypes.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/ConstantRange.h:35,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/ScalarEvolution.h:33,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:60:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/LLVMContext.h:47:17: note:   ‘llvm::SyncScope::ID’
+   47 | typedef uint8_t ID;
+      |                 ^~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/InstructionSimplify.h:35,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:76:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/FPEnv.h:27:18: note:   ‘llvm::Intrinsic::ID’
+   27 | typedef unsigned ID;
+      |                  ^~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3704:56: error: ‘SCEVAllocator’ was not declared in this scope
+ 3704 |   SCEV *S = new (SCEVAllocator) SCEVUDivExpr(ID.Intern(SCEVAllocator),
+      |                                                        ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3705:46: error: ‘LHS’ was not declared in this scope
+ 3705 |                                              LHS, RHS);
+      |                                              ^~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3705:51: error: ‘RHS’ was not declared in this scope
+ 3705 |                                              LHS, RHS);
+      |                                                   ^~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3706:3: error: ‘UniqueSCEVs’ does not name a type
+ 3706 |   UniqueSCEVs.InsertNode(S, IP);
+      |   ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3707:3: error: ‘S’ does not name a type
+ 3707 |   S->computeAndSetCanonical(*this);
+      |   ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3708:15: error: expected constructor, destructor, or type conversion before ‘(’ token
+ 3708 |   registerUser(S, ArrayRef<SCEVUse>({LHS, RHS}));
+      |               ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3708:47: error: expected unqualified-id before ‘)’ token
+ 3708 |   registerUser(S, ArrayRef<SCEVUse>({LHS, RHS}));
+      |                                               ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3709:3: error: expected unqualified-id before ‘return’
+ 3709 |   return S;
+      |   ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3710:1: error: expected declaration before ‘}’ token
+ 3710 | }
+      | ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp: In member function ‘const llvm::SCEV* llvm::ScalarEvolution::getUDivExpr(llvm::SCEVUse, llvm::SCEVUse)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:3670:3: warning: control reaches end of non-void function [-Wreturn-type]
+ 3670 |   }
+      |   ^
+[2974/3371] Building X86GenSubtargetInfo.inc...
+[2975/3371] Building X86GenInstrInfo.inc...
+[2976/3371] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+[2977/3371] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/HIPUtility.cpp.o
+[2978/3371] Building AArch64GenInstrInfo.inc...
+[2979/3371] Building AArch64GenSubtargetInfo.inc...
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:4 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/lld/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+121.70user 12.98system 0:12.67elapsed 1062%CPU (0avgtext+0avgdata 734876maxresident)k
+0inputs+1422048outputs (2957major+6459418minor)pagefaults 0swaps
