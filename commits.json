@@ -189003,6 +189003,42 @@
             "author_name": "Lang Hames",
             "commit_date": "2026-07-28T18:56:25+10:00",
             "subject": "[ORC] Fix buildSimpleReexportsAliasMap signature. (#212420)"
+        },
+        {
+            "hash": "437b42f23250660f9a3f262ca6626324cd32a094",
+            "author_name": "Kevin Bravo",
+            "commit_date": "2026-07-28T10:01:53+01:00",
+            "subject": "[TableGen] don't print redundant diagnostic when parser sees Error token at end of file. (#212410)"
+        },
+        {
+            "hash": "b349bef025f294ef100d02ac8c928836cd979f3f",
+            "author_name": "David Green",
+            "commit_date": "2026-07-28T09:02:44+00:00",
+            "subject": "[AArch64][GlobalISel] Use integer type for cttz icmp type. (#212327)"
+        },
+        {
+            "hash": "6520ac73f22d53e93e5ae8da6351a1714723497c",
+            "author_name": "David Spickett",
+            "commit_date": "2026-07-28T10:03:07+01:00",
+            "subject": "[lldb][test][AArch64] Add test for AArch32 compatibility execution (#211793)"
+        },
+        {
+            "hash": "2d7aaf670d704bbb4bfb3ef023f18ba0b85b58c7",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-07-28T11:04:03+02:00",
+            "subject": "[libc] Fix path collisions between unit and hermetic tests (#212425)"
+        },
+        {
+            "hash": "636d8a253e71651ffa75f3bb515a14de0f20341d",
+            "author_name": "David Spickett",
+            "commit_date": "2026-07-28T10:05:43+01:00",
+            "subject": "[lldb][AArch64][Linux] Track all register cache validity in one place (#197113)"
+        },
+        {
+            "hash": "a1194be1baefa99d20a09bd04b16056be0ab7225",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-28T11:05:59+02:00",
+            "subject": "[SPIR-V] Fix hex float exponent for f64 Inf\/NaN literals (#212295)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -197427,6 +197463,12 @@
             "author_name": "Sirraide",
             "commit_date": "2026-07-27T20:05:30+02:00",
             "subject": "[Clang] [Sema] Use getCurFunctionDecl() to get the current function (#211938)"
+        },
+        {
+            "hash": "01f5362e847dcbd9fabe3a3182189b7a036a32d0",
+            "author_name": "Henry Jiang",
+            "commit_date": "2026-07-28T11:09:33+02:00",
+            "subject": "[Hexagon] Fix missing requires assert for swp-epilog-phi12.mir (#212062)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
