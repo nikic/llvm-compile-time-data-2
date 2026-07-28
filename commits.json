@@ -189261,6 +189261,12 @@
             "author_name": "Jeff Bailey",
             "commit_date": "2026-07-28T15:37:12+01:00",
             "subject": "[libc] Add POSIX redirection header specifications in YAML (#211859)"
+        },
+        {
+            "hash": "557dcec6258aac87f9c2bb6d651ec7e774f7d09d",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-07-28T22:49:30+08:00",
+            "subject": "[VE] Fix crash when splitting all-ones v512i1 mask (#212489)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -199213,6 +199219,26 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-07-28T06:14:37-07:00",
             "subject": "iiii"
+        }
+    ],
+    "fhahn\/perf\/ce-srem": [
+        {
+            "hash": "e432cb12962f1619bc73c50a2dc4d2ad5ac6b44c",
+            "author_name": "Natanael Cintean",
+            "commit_date": "2026-07-28T13:11:34+00:00",
+            "subject": "[mlir]Add resultSegmentSizes\/operandSegmentSizes to prop-dict. (#211222)"
+        },
+        {
+            "hash": "56fd0cf23e2836af60bcba6f575cf2b50940f1c0",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-28T15:34:37+01:00",
+            "subject": "[ConstraintElim] Add tests with SRem and NE predicates. (NFC"
+        },
+        {
+            "hash": "c4bff4053b83402861173abef054d4c0e0c365d1",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-28T15:42:52+01:00",
+            "subject": "[ConstraintElim] Add facts for srem."
         }
     ]
 }
