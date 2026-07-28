@@ -189165,6 +189165,18 @@
             "author_name": "Natanael Cintean",
             "commit_date": "2026-07-28T13:11:34+00:00",
             "subject": "[mlir]Add resultSegmentSizes\/operandSegmentSizes to prop-dict. (#211222)"
+        },
+        {
+            "hash": "89d39f69cb18f21d92b261cc0ca2a2314453b1fe",
+            "author_name": "Yingwei Zheng",
+            "commit_date": "2026-07-28T21:18:10+08:00",
+            "subject": "[SimplifyCFG] Bail out on trivial cases in `mergeNestedCondBranch` (#212309)"
+        },
+        {
+            "hash": "857746b37949a87faa42faff4fae12c35b34db51",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-28T15:27:46+02:00",
+            "subject": "AMDGPU: Fix missing extended-image-insts missing from feature map (#212418)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -199093,15 +199105,15 @@
     ],
     "fhahn\/perf\/scev-add-nuw-check": [
         {
-            "hash": "ff46298372dc64d8fb56f1397c2914772b815605",
-            "author_name": "Arseniy Obolenskiy",
-            "commit_date": "2026-07-28T13:25:00+02:00",
-            "subject": "[mlir][SPIR-V] Support bitwise and\/or\/xor in gpu reduction lowering (#202351)"
+            "hash": "e432cb12962f1619bc73c50a2dc4d2ad5ac6b44c",
+            "author_name": "Natanael Cintean",
+            "commit_date": "2026-07-28T13:11:34+00:00",
+            "subject": "[mlir]Add resultSegmentSizes\/operandSegmentSizes to prop-dict. (#211222)"
         },
         {
-            "hash": "15c1e42001fe863e384de3f86b97b20167e7a95a",
+            "hash": "6e11321bd7308202d7973656dee8dc03ac6a4686",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-28T14:04:19+01:00",
+            "commit_date": "2026-07-28T14:19:51+01:00",
             "subject": "[SCEV] Only try (A+B)\/C distribution for nuw adds (NFC)"
         }
     ],
