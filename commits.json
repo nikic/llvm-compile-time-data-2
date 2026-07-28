@@ -189267,6 +189267,24 @@
             "author_name": "Luke Lau",
             "commit_date": "2026-07-28T22:49:30+08:00",
             "subject": "[VE] Fix crash when splitting all-ones v512i1 mask (#212489)"
+        },
+        {
+            "hash": "b6b9603c7675fff5ec9befacf54391a516fc723c",
+            "author_name": "Paschalis Mpeis",
+            "commit_date": "2026-07-28T15:52:44+01:00",
+            "subject": "[RFC][BOLT] Enable lite mode by default on AArch64 (#205545)"
+        },
+        {
+            "hash": "760fc017332d4d5a5cdf1b6cf754f40774a97821",
+            "author_name": "Nick Sarnie",
+            "commit_date": "2026-07-28T14:53:22+00:00",
+            "subject": "[offload][lit] Run check-offload-unit as part of check-all (#212513)"
+        },
+        {
+            "hash": "034f0f1ad4badc02d9d26b6f1ae3324a09276c4a",
+            "author_name": "Eugene Epshteyn",
+            "commit_date": "2026-07-28T10:59:35-04:00",
+            "subject": "[flang] Stop running array-value-copy in the default pipeline (#211816)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -199067,6 +199085,12 @@
             "author_name": "Anonmiraj",
             "commit_date": "2026-07-27T12:10:51+03:00",
             "subject": "[clang] Cache the analysis-based warning policy in effect"
+        },
+        {
+            "hash": "c5f626c2e6f28160df043263e179f5b257c13249",
+            "author_name": "Anonmiraj",
+            "commit_date": "2026-07-28T17:54:59+03:00",
+            "subject": "Don't cache when SourceLocation is invalid"
         }
     ],
     "c-rhodes\/perf\/aarch64-fastisel-o0-27-07-2026": [
