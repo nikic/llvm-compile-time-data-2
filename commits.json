@@ -189105,6 +189105,18 @@
             "author_name": "Zichen Lu",
             "commit_date": "2026-07-28T13:52:33+02:00",
             "subject": "[mlir][Target] Make nvptxcompiler passed options high priority to keep consistent with ptxas behavior (#121036)"
+        },
+        {
+            "hash": "f11d740e204f0551ac72ab1a2cacd72ae5c41b26",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-07-28T14:11:16+02:00",
+            "subject": "[libc] Make hash_test hermetic (#212428)"
+        },
+        {
+            "hash": "2a50c95322bc0ff3bbd976564914ce297b251a1a",
+            "author_name": "Jameson Nash",
+            "commit_date": "2026-07-28T08:12:39-04:00",
+            "subject": "Thread Safety Analysis: Honor try-lock branches of a void conditional (#211973)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -197577,6 +197589,12 @@
             "author_name": "Rainer Orth",
             "commit_date": "2026-07-28T12:16:53+02:00",
             "subject": "[llvm][release] Build openmp as runtime in test-release.sh (#212111)"
+        },
+        {
+            "hash": "561093d94eb7156dea780c1c71a779824ef90e5b",
+            "author_name": "Tobias Hieta",
+            "commit_date": "2026-07-28T14:11:17+02:00",
+            "subject": "Bump version to 23.1.0-rc2"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
@@ -199009,6 +199027,20 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-07-27T13:12:00-07:00",
             "subject": "iiiii"
+        }
+    ],
+    "Enna1\/perf\/wip-forgetLoop-fix": [
+        {
+            "hash": "912128312f026605bce4ff11ef8a37d56a1a03f8",
+            "author_name": "Patryk Stefanski",
+            "commit_date": "2026-07-27T16:51:06-07:00",
+            "subject": "[clang][Index][USR] Generate USRs for class-type non-type template arguments (#212356)"
+        },
+        {
+            "hash": "9b9da12c75a40e12b5fea303b805e8297a5c5e9d",
+            "author_name": "Enna1",
+            "commit_date": "2026-07-28T16:43:25+08:00",
+            "subject": "[SCEV] Invalidate IR-derived properties in forgetLoop"
         }
     ]
 }
