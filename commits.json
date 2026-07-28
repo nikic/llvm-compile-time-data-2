@@ -79771,27 +79771,27 @@
     ],
     "tbaederr\/perf\/ce-test2": [
         {
-            "hash": "545f9fab9ed84d55a97b3f08d306c0da70b625a6",
-            "author_name": "Timm Baeder",
-            "commit_date": "2026-07-26T08:53:58+02:00",
-            "subject": "[clang][bytecode] Don't check global variable init size (#212092)"
+            "hash": "88d26e71960579c5a7b40856664b1f57791597ce",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-28T15:23:45+00:00",
+            "subject": "[ConstraintElim] Add tests with SRem and NE predicates. (NFC (#212511)"
         },
         {
-            "hash": "baa02e3da1cdd5e98894a67c2543c523a1fe33eb",
+            "hash": "e2661a5adfb374893e9568282c78aa84c29302eb",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-07-26T09:04:27+02:00",
+            "commit_date": "2026-07-28T17:25:07+02:00",
             "subject": "Test"
         },
         {
-            "hash": "0fa0a9fdf24579151046d89893cbc3092ef3da85",
+            "hash": "23123f34f90707882d5c62bcc086fd24d5fd26b6",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-07-26T09:45:47+02:00",
+            "commit_date": "2026-07-28T17:25:07+02:00",
             "subject": "object-size.c works."
         },
         {
-            "hash": "0076e41806037cd88a4514d2bbbdbef247c3f36b",
+            "hash": "5af1b6cff0cbf8aa625653b670f48ce76b3d3b80",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-07-27T17:42:15+02:00",
+            "commit_date": "2026-07-28T17:25:07+02:00",
             "subject": "2 failures"
         }
     ],
@@ -189327,6 +189327,42 @@
             "author_name": "Petr Kurapov",
             "commit_date": "2026-07-28T15:16:23+00:00",
             "subject": "[MIR2Vec] Handle registers without a register class (#212280)"
+        },
+        {
+            "hash": "511502bfd869ebb74448bd3f67c6c0162507ef85",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-07-28T16:20:29+01:00",
+            "subject": "[VPlan] Strip dead code in optimizeEarlyExitIndUser (NFC) (#212463)"
+        },
+        {
+            "hash": "9876e0469e315b767c4ba114e7f51207d198e762",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-28T17:23:39+02:00",
+            "subject": "[mlir][SPIR-V] Add SPIRVToLLVM conversion for VectorTimesScalar (#206949)"
+        },
+        {
+            "hash": "88d26e71960579c5a7b40856664b1f57791597ce",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-28T15:23:45+00:00",
+            "subject": "[ConstraintElim] Add tests with SRem and NE predicates. (NFC (#212511)"
+        },
+        {
+            "hash": "326d563cf70d7f43d8c15eb78f65dd22c1fbdf87",
+            "author_name": "dmaclach",
+            "commit_date": "2026-07-28T08:25:45-07:00",
+            "subject": "Tracks source location of the selector name within ObjCSelectorExpr (#211623)"
+        },
+        {
+            "hash": "98fb5dae73c3887e6659ee126b131b004d12592d",
+            "author_name": "Alexey Samsonov",
+            "commit_date": "2026-07-28T08:27:07-07:00",
+            "subject": "[libc] Fix EOF handling in fscanf (#211982)"
+        },
+        {
+            "hash": "687818b3fbab242132b91ed2a1815507a7b2a371",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-07-28T08:27:51-07:00",
+            "subject": "[Docs] Delete BugpointRedesign (#212518)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
