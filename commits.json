@@ -190089,6 +190089,12 @@
             "author_name": "Petar Avramovic",
             "commit_date": "2026-07-29T11:54:49+02:00",
             "subject": "AMDGPU\/GlobalISel: Fix Vcc reg bank apply method for sgpr i1 input (#212532)"
+        },
+        {
+            "hash": "9df6ca12f24bd35b02f5eae7a27cc92533482e03",
+            "author_name": "Paul Walker",
+            "commit_date": "2026-07-29T11:09:09+01:00",
+            "subject": "[LLVM][CodeGen][SVE] Add ElementSize information to fp compare, continuous\/replicating load and store instructions (#204821)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -200217,6 +200223,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-07-29T01:08:51-07:00",
             "subject": "[BFI] Simplify irreducible header discovery. NFC"
+        }
+    ],
+    "antoniofrighetto\/perf\/gvn-sel-scev": [
+        {
+            "hash": "56fd82467c5b5a98411c02df1957528aaf57b487",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-28T14:24:34+00:00",
+            "subject": "AMDGPU: Migrate verifier tests to subarch triples (#212494)"
+        },
+        {
+            "hash": "f7fa414efbb27c1ad11b816384dd665fdb65c5d2",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-07-29T11:31:57+02:00",
+            "subject": "[GVN][MemDep] Recover affine-equal select-dependent load addresses via SCEV"
         }
     ]
 }
