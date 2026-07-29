@@ -190281,6 +190281,12 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-07-29T14:46:03+01:00",
             "subject": "[AArch64] Remove GPR64arg register class (#212457)"
+        },
+        {
+            "hash": "2faa90a208a14b7e681dc9122a889c894823814a",
+            "author_name": "Zach Goldthorpe",
+            "commit_date": "2026-07-29T13:50:14+00:00",
+            "subject": "[AMDGPU] Retain subreg when legalising generic operand (#212636)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -199723,16 +199729,16 @@
     ],
     "c-rhodes\/perf\/aarch64-remove-asm-only-regclasses": [
         {
-            "hash": "3cba2943a9d391e2ba301dd37948ef8b248bb031",
-            "author_name": "Cullen Rhodes",
-            "commit_date": "2026-07-24T07:47:08+01:00",
-            "subject": "[TableGen] Add register-info statistics (#211528)"
-        },
-        {
             "hash": "083b0480778473ed50cffca8d75999760220cc1e",
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-07-24T06:51:19+00:00",
             "subject": "[AArch64] Remove assembler-only register classes"
+        },
+        {
+            "hash": "e0db806075600ff01e11038e44a8faacae42ff79",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-07-29T13:53:50+00:00",
+            "subject": "Merge remote-tracking branch 'origin\/main' into perf\/aarch64-remove-asm-only-regclasses"
         }
     ],
     "c-rhodes\/perf\/aarch64-mark-sp-only-regclasses-nonallocatable": [
@@ -200431,6 +200437,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-07-29T13:39:33+01:00",
             "subject": "[ConstraintElim] Tighten a bound using a disequality against a constant."
+        }
+    ],
+    "dtcxzyw\/perf\/preserve-dt-simplifycfg": [
+        {
+            "hash": "f43c0e2dac8d75362a07e283f44ae20339cd1de2",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-29T14:33:32+02:00",
+            "subject": "AMDGPU: Manually convert some MC tests to subarch triples (#212728)"
+        },
+        {
+            "hash": "8fea5bf4e13105d61b6286d2b92dd59d9821d2fb",
+            "author_name": "Yingwei Zheng",
+            "commit_date": "2026-07-29T22:01:33+08:00",
+            "subject": "[SimplifyCFG] Preserve DomTreeAnalysis"
         }
     ]
 }
