@@ -189969,6 +189969,18 @@
             "author_name": "dong jianqiang",
             "commit_date": "2026-07-29T14:16:37+08:00",
             "subject": "[ARM] Exclude TLS symbols from the .reloc\/R_ARM_REL32 path (#212549)"
+        },
+        {
+            "hash": "ad300a7712f3506e702501097ddfe6b322cfa0fb",
+            "author_name": "Marc Auberer",
+            "commit_date": "2026-07-29T08:34:05+02:00",
+            "subject": "[IR] Remove deprecated InsertPosition(Instruction*) constructor (#212640)"
+        },
+        {
+            "hash": "9cdb4219e8edb617076a8c1a118cce119179e288",
+            "author_name": "lorenzo chelini",
+            "commit_date": "2026-07-29T08:34:23+02:00",
+            "subject": "[MLIR] Validate directly parsed optional operand types (#212493)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -198459,6 +198471,48 @@
             "author_name": "Anatoly Trosinenko",
             "commit_date": "2026-07-29T08:27:49+02:00",
             "subject": "[PAC][Headers] Fix incorrect comment in ptrauth.h (#207265)"
+        },
+        {
+            "hash": "fc8295ffaaf1b026877a3b1c113d4d52d5b7ebb8",
+            "author_name": "Nerixyz",
+            "commit_date": "2026-07-29T08:28:41+02:00",
+            "subject": "[lldb][Windows] Add missing release notes"
+        },
+        {
+            "hash": "0bb4a649970777b8dbd66cd2aae3f66f6b8f1359",
+            "author_name": "Pengcheng Wang",
+            "commit_date": "2026-07-29T08:29:56+02:00",
+            "subject": "[RISCV] Don't move memory instructions across calls in isSafeToMove (#212236)"
+        },
+        {
+            "hash": "4d9c1306b9f7d120c3e0a72c8c2b27ab17a43087",
+            "author_name": "Brian Cain",
+            "commit_date": "2026-07-29T08:31:00+02:00",
+            "subject": "[Hexagon] Fix compiler-rt install dir type, scope sanitizers (#209375)"
+        },
+        {
+            "hash": "02a26cbf32e4786ae772f7811ec4bb01300c035d",
+            "author_name": "Brian Cain",
+            "commit_date": "2026-07-29T08:34:18+02:00",
+            "subject": "[Hexagon] Link static PIE executables against rcrt1.o (#210125)"
+        },
+        {
+            "hash": "ef9887b0f225b22123ad8caa748baf3fe53e2949",
+            "author_name": "Osama Abdelkader",
+            "commit_date": "2026-07-29T08:35:31+02:00",
+            "subject": "[Clang] Avoid querying tag definitions for invalid DeclSpecs (#210085)"
+        },
+        {
+            "hash": "e1f270365a92cfd72b845fd7cc0d3337e9a65df5",
+            "author_name": "Adrian Prantl",
+            "commit_date": "2026-07-29T08:36:17+02:00",
+            "subject": "[LLDB] Hide unresolvable children from ObjC tagged pointers  (#211936)"
+        },
+        {
+            "hash": "faa811cdef92040abe2e31e4cfd3ff60e1c14e10",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-07-29T08:37:17+02:00",
+            "subject": "[VPlan] zext canonical IV in convertToStridedAccesses (#212291)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
