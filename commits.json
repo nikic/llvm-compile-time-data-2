@@ -189981,6 +189981,12 @@
             "author_name": "lorenzo chelini",
             "commit_date": "2026-07-29T08:34:23+02:00",
             "subject": "[MLIR] Validate directly parsed optional operand types (#212493)"
+        },
+        {
+            "hash": "52f6c88c2c1b6f0c10b9c8fb09ec35e147c593e3",
+            "author_name": "David Green",
+            "commit_date": "2026-07-29T07:40:21+01:00",
+            "subject": "[Codegen] Replace any_of with is_contained. NFC (#212289)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -198513,6 +198519,18 @@
             "author_name": "Luke Lau",
             "commit_date": "2026-07-29T08:37:17+02:00",
             "subject": "[VPlan] zext canonical IV in convertToStridedAccesses (#212291)"
+        },
+        {
+            "hash": "b67c5a8413227dde13122e941f95beb3fc210e8a",
+            "author_name": "Matthew Blewitt",
+            "commit_date": "2026-07-29T08:38:48+02:00",
+            "subject": "[AArch64][SVE] Fix v16i8 -> v2i64 partial_reduce for VL > 128 (#204938)"
+        },
+        {
+            "hash": "fe1201cfd7404c673094a440a0b822abca9d0fe1",
+            "author_name": "David Green",
+            "commit_date": "2026-07-29T08:44:27+02:00",
+            "subject": "[AArch64] Add lowering for fixed-vector bf16 masked gather\/scatter. (#210273)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
