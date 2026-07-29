@@ -190545,6 +190545,12 @@
             "author_name": "Alexis Engelke",
             "commit_date": "2026-07-29T18:43:56+00:00",
             "subject": "Revert \"[Clang] Don't build static analyzer if disabled\" (#212836)"
+        },
+        {
+            "hash": "5c57064076a189c457fc0cff463fb2090ccc7347",
+            "author_name": "Rafael Auler",
+            "commit_date": "2026-07-29T11:50:02-07:00",
+            "subject": "[BOLT] Stop materializing .dwo DIE vectors early in the pipeline (#207292)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -200691,15 +200697,15 @@
     ],
     "fhahn\/perf\/ce-signed-ne": [
         {
-            "hash": "f43c0e2dac8d75362a07e283f44ae20339cd1de2",
-            "author_name": "Matt Arsenault",
-            "commit_date": "2026-07-29T14:33:32+02:00",
-            "subject": "AMDGPU: Manually convert some MC tests to subarch triples (#212728)"
+            "hash": "f2453af624353273325fe888d794a925ea9fe852",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-07-29T15:14:49+01:00",
+            "subject": "[AMDGPU] Improve MemorySSA walking in isClobberedInFunction (#211817)"
         },
         {
-            "hash": "a76a7077b3df6a37601de272567f9a3d9a5fa2d3",
+            "hash": "a78d58a4cb95486cf6e73bc872a8e36c93be3b88",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-29T13:39:33+01:00",
+            "commit_date": "2026-07-29T19:46:21+01:00",
             "subject": "[ConstraintElim] Tighten a bound using a disequality against a constant."
         }
     ],
