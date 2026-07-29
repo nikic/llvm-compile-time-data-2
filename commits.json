@@ -190113,6 +190113,18 @@
             "author_name": "Arseniy Obolenskiy",
             "commit_date": "2026-07-29T12:35:43+02:00",
             "subject": "[AMDGPU] Remove redundant AGPR\/VGPR register class verification (#212721)"
+        },
+        {
+            "hash": "3757c5d331d5d4781a7325ea890b2754c6dad5bb",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-07-29T12:06:05+01:00",
+            "subject": "[AArch64] Mark FIXED_REGS register class as non-allocatable (#212250)"
+        },
+        {
+            "hash": "9c9e12c80a421d6454c49869fdf14aa78d11078b",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-07-29T11:10:32+00:00",
+            "subject": "[AMDGPU] Fix typos SGRP and VGRP. NFC. (#212732)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -200185,22 +200197,16 @@
     ],
     "fhahn\/perf\/scev-udiv-match": [
         {
-            "hash": "ff46298372dc64d8fb56f1397c2914772b815605",
+            "hash": "f193d19d2127023966cbeb6ccf1487f975f53acc",
             "author_name": "Arseniy Obolenskiy",
-            "commit_date": "2026-07-28T13:25:00+02:00",
-            "subject": "[mlir][SPIR-V] Support bitwise and\/or\/xor in gpu reduction lowering (#202351)"
+            "commit_date": "2026-07-29T09:48:00+02:00",
+            "subject": "[SPIR-V] Fix OpDecorate insertion point for non-PHI defs in decorateUsesAsNonUniform (#212524)"
         },
         {
-            "hash": "9cdd3f0f3d4e542a0b86f779ca17af76148d756a",
+            "hash": "fcdf18a37dbca54722499d5395f1c03118a84bfd",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-28T17:01:40+01:00",
+            "commit_date": "2026-07-29T12:11:04+01:00",
             "subject": "Match sturcturally"
-        },
-        {
-            "hash": "5558791fec6490ada691b58683cde001755f08b0",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-28T17:10:03+01:00",
-            "subject": "More pattern match"
         }
     ],
     "tbaederr\/perf\/opaque": [
