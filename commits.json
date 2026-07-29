@@ -190335,6 +190335,12 @@
             "author_name": "Michael G. Kazakov",
             "commit_date": "2026-07-29T11:08:13-04:00",
             "subject": "[libc++][pstl] Implementation of a parallel std::adjacent_find() based on std::mismatch() (#210604)"
+        },
+        {
+            "hash": "705aa2a864d1573a17e62cfbcffbafdab7745a6d",
+            "author_name": "lijinpei-amd",
+            "commit_date": "2026-07-29T23:14:27+08:00",
+            "subject": "[JumpThreading] Materialize PHIs in duplicateCondBranchOnPHIIntoPred (#204859)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -200407,16 +200413,22 @@
     ],
     "fhahn\/perf\/scev-udiv-match": [
         {
-            "hash": "f193d19d2127023966cbeb6ccf1487f975f53acc",
-            "author_name": "Arseniy Obolenskiy",
-            "commit_date": "2026-07-29T09:48:00+02:00",
-            "subject": "[SPIR-V] Fix OpDecorate insertion point for non-PHI defs in decorateUsesAsNonUniform (#212524)"
+            "hash": "a463071dc427777a2a2bfc155c6680d7ff220994",
+            "author_name": "Marina Taylor",
+            "commit_date": "2026-07-29T15:04:19+01:00",
+            "subject": "[LTO] Handle GlobalIFunc in LTOModule::parseSymbols (#212515)"
         },
         {
-            "hash": "fcdf18a37dbca54722499d5395f1c03118a84bfd",
+            "hash": "9486b255900acafa8734f930dea0702775f2adb7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-29T12:11:04+01:00",
+            "commit_date": "2026-07-29T15:09:33+01:00",
             "subject": "Match sturcturally"
+        },
+        {
+            "hash": "91388479e1a922dbf2afac5ad30c6d0499658811",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-29T16:20:12+01:00",
+            "subject": "General match"
         }
     ],
     "tbaederr\/perf\/opaque": [
