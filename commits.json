@@ -191007,6 +191007,18 @@
             "author_name": "Pengcheng Wang",
             "commit_date": "2026-07-30T16:44:07+08:00",
             "subject": "[RISCV] Fix crash in convertToVLMAX when AVL is an ADDI of a frame index (#212923)"
+        },
+        {
+            "hash": "9aee37146dc374f3668bef37e3e15c29abb1a1e0",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-30T10:49:48+02:00",
+            "subject": "IR: Introduce \"float-abi\" module flag (#210821)"
+        },
+        {
+            "hash": "ddb662d3cbadb7c2c96cc2c00f95a3a5562d5b06",
+            "author_name": "Anutosh Bhat",
+            "commit_date": "2026-07-30T14:26:21+05:30",
+            "subject": "[WebAssembly][TTI] Avoid crash when costing scalable vector shifts (#212759)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -201091,21 +201103,21 @@
     ],
     "fhahn\/perf\/scev-udiv-match": [
         {
-            "hash": "a463071dc427777a2a2bfc155c6680d7ff220994",
-            "author_name": "Marina Taylor",
-            "commit_date": "2026-07-29T15:04:19+01:00",
-            "subject": "[LTO] Handle GlobalIFunc in LTOModule::parseSymbols (#212515)"
+            "hash": "b84c5f4abcfb464e362bcd2b8eb58ef96ecbae9d",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-07-30T07:16:59+00:00",
+            "subject": "[BFI] Simplify\/optimize getMass\/getContainingLoop. NFC (#212938)"
         },
         {
-            "hash": "9486b255900acafa8734f930dea0702775f2adb7",
+            "hash": "d8c4a197f249dc20a7c095af7f5b6ff4282c7a1c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-29T15:09:33+01:00",
+            "commit_date": "2026-07-30T08:30:16+01:00",
             "subject": "Match sturcturally"
         },
         {
-            "hash": "91388479e1a922dbf2afac5ad30c6d0499658811",
+            "hash": "e29ec8bb18e2d1bafa762af0fe999d238a7e2ac6",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-29T16:20:12+01:00",
+            "commit_date": "2026-07-30T09:52:54+01:00",
             "subject": "General match"
         }
     ],
