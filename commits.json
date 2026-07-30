@@ -79771,34 +79771,22 @@
     ],
     "tbaederr\/perf\/ce-test2": [
         {
-            "hash": "88d26e71960579c5a7b40856664b1f57791597ce",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-28T15:23:45+00:00",
-            "subject": "[ConstraintElim] Add tests with SRem and NE predicates. (NFC (#212511)"
+            "hash": "dc6cd6a29a0831d1a4d607162a1dbd07b556143a",
+            "author_name": "Benjamin Kramer",
+            "commit_date": "2026-07-30T14:32:20+02:00",
+            "subject": "[mlir] Honor IntrHasSideEffects on IntrNoMem LLVM intrinsics (#212760)"
         },
         {
-            "hash": "e2661a5adfb374893e9568282c78aa84c29302eb",
+            "hash": "74aa915950c5d263be5a0ac08a306b3230272f1d",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-07-28T17:25:07+02:00",
+            "commit_date": "2026-07-30T14:32:34+02:00",
             "subject": "Test"
         },
         {
-            "hash": "23123f34f90707882d5c62bcc086fd24d5fd26b6",
+            "hash": "aa36c65e681ba217adb761964fba3c64dba4af88",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-07-28T17:25:07+02:00",
+            "commit_date": "2026-07-30T14:32:39+02:00",
             "subject": "object-size.c works."
-        },
-        {
-            "hash": "ad1e85fd6cd7ac5e163e5addcce5e0b6fe3cbd8a",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-07-28T18:14:01+02:00",
-            "subject": "2 failures"
-        },
-        {
-            "hash": "37b79c3f7096bf2c892b61d27c4e8c4eb6e7b219",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-07-29T07:06:24+02:00",
-            "subject": "also exprs"
         }
     ],
     "dtcxzyw\/perf\/cvp-minmax-at-use": [
@@ -191199,6 +191187,42 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-07-30T08:19:33-04:00",
             "subject": "[SLP]Fix a crash on non-fp operator isFast request"
+        },
+        {
+            "hash": "424d5a7cb36fb4770f4436762b636ded1e035bb0",
+            "author_name": "fineg74",
+            "commit_date": "2026-07-30T07:29:41-05:00",
+            "subject": "[OFFLOAD] Fix a platform selection issue for llvm-gpu-loader (#212893)"
+        },
+        {
+            "hash": "e9777c58be265687897e04c5d8013d7d6cb43571",
+            "author_name": "David Green",
+            "commit_date": "2026-07-30T13:31:56+01:00",
+            "subject": "[AArch64] Add all cost kinds for integer getArithmeticInstrCost (#210759)"
+        },
+        {
+            "hash": "dc6cd6a29a0831d1a4d607162a1dbd07b556143a",
+            "author_name": "Benjamin Kramer",
+            "commit_date": "2026-07-30T14:32:20+02:00",
+            "subject": "[mlir] Honor IntrHasSideEffects on IntrNoMem LLVM intrinsics (#212760)"
+        },
+        {
+            "hash": "9771205212d9802c9de142335fc8af3bc52a1d85",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-07-30T14:36:04+02:00",
+            "subject": "[clang][bytecode] Add Record::findBase() (#212952)"
+        },
+        {
+            "hash": "a0c7f8366b8dbbfb25d294541ab9298851cfa65f",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-07-30T07:37:07-05:00",
+            "subject": "[Bazel] Fixes ba37179 (#212986)"
+        },
+        {
+            "hash": "6a898832ff382b1a288f9eb3bc5cd1f37d0fc29f",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-30T14:37:55+02:00",
+            "subject": "[AMDGPU] Fix getDestEquivalentVGPRClass narrowing AV-class registers (#212963)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
