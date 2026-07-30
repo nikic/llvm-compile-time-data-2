@@ -191409,6 +191409,30 @@
             "author_name": "Ilia Kuklin",
             "commit_date": "2026-07-30T20:27:41+05:00",
             "subject": "[lldb] Add bitwise operators to DIL (#209768)"
+        },
+        {
+            "hash": "bf4bafc5595b8ed408121e0c5c695b23d52394fc",
+            "author_name": "Bal\u00e1zs Benics",
+            "commit_date": "2026-07-30T16:46:47+01:00",
+            "subject": "[analyzer] Require x86 target for Analysis\/string-search-modeling.c (#213048)"
+        },
+        {
+            "hash": "3d6d0457bbc4698cb515f5d68e981a1ebf3d724e",
+            "author_name": "vangthao95",
+            "commit_date": "2026-07-30T08:48:36-07:00",
+            "subject": "AMDGPU\/GlobalISel: Switch some FP opcodes to extended LLTs (#212664)"
+        },
+        {
+            "hash": "0eddedc4e718f05617c8649be78c72eda60d14a2",
+            "author_name": "Ian Li",
+            "commit_date": "2026-07-30T08:56:25-07:00",
+            "subject": "[clang][DependencyScanning] Return failure upon CompilerInstanceWithContext failure to create target (#211607)"
+        },
+        {
+            "hash": "e4c2875c397861ea45a0cca05107d91d7d785d03",
+            "author_name": "Ehren Bendler",
+            "commit_date": "2026-07-30T15:56:45+00:00",
+            "subject": "[clang][docs] Update CommandLineUsage and UsersManual with some flags (#209519)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -201499,22 +201523,16 @@
     ],
     "fhahn\/perf\/scev-udiv-match": [
         {
-            "hash": "b84c5f4abcfb464e362bcd2b8eb58ef96ecbae9d",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-07-30T07:16:59+00:00",
-            "subject": "[BFI] Simplify\/optimize getMass\/getContainingLoop. NFC (#212938)"
+            "hash": "2f08dff5138a4ce908b6d4511a9439e859fedf86",
+            "author_name": "Alexey Samsonov",
+            "commit_date": "2026-07-30T07:46:38-07:00",
+            "subject": "[libc] Refactor statfs Linux syscalls and provide 'struct statfs' (#212930)"
         },
         {
-            "hash": "d8c4a197f249dc20a7c095af7f5b6ff4282c7a1c",
+            "hash": "01d1a8918543f9ba95b81322c87c67d75a375c31",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-30T08:30:16+01:00",
-            "subject": "Match sturcturally"
-        },
-        {
-            "hash": "e29ec8bb18e2d1bafa762af0fe999d238a7e2ac6",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-30T09:52:54+01:00",
-            "subject": "General match"
+            "commit_date": "2026-07-30T16:58:46+01:00",
+            "subject": "[SCEV] Match more URem patterns structurally (NFC)."
         }
     ],
     "tbaederr\/perf\/opaque": [
@@ -201783,6 +201801,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-07-30T16:36:43+01:00",
             "subject": "remove constant restriction"
+        }
+    ],
+    "madhur13490\/perf\/ilc-matching-index": [
+        {
+            "hash": "e7db113dca5582f512e95053dd1b770f594ae2e8",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-07-29T12:35:43+02:00",
+            "subject": "[AMDGPU] Remove redundant AGPR\/VGPR register class verification (#212721)"
+        },
+        {
+            "hash": "d2267fb322ae37ed08e60ef92f47f4ebbdd06c0a",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-07-30T08:51:56-07:00",
+            "subject": "[InterleavedLoadCombine] Index candidates to avoid quadratic matching"
         }
     ]
 }
