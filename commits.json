@@ -191661,6 +191661,18 @@
             "author_name": "vsimion26",
             "commit_date": "2026-07-30T11:52:07-07:00",
             "subject": "Fix classof implementation for QuantizedType (#213014)"
+        },
+        {
+            "hash": "0e42c871c2c8a40926ad929cfa334fd1d3c98dfa",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-30T20:57:36+02:00",
+            "subject": "NVPTX: Add target names in TargetParser (#212734)"
+        },
+        {
+            "hash": "1562871d4191f39de7ed0ae53f8ca48b8e2d4242",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-30T20:59:47+02:00",
+            "subject": "clang: Use NVPTX TargetParser for OpenMP unified-addressing check (#212746)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -201819,16 +201831,22 @@
     ],
     "fhahn\/perf\/ce-signed-ne": [
         {
-            "hash": "2f08dff5138a4ce908b6d4511a9439e859fedf86",
-            "author_name": "Alexey Samsonov",
-            "commit_date": "2026-07-30T07:46:38-07:00",
-            "subject": "[libc] Refactor statfs Linux syscalls and provide 'struct statfs' (#212930)"
+            "hash": "2f238db9da1cec04f7e143fb264aa1c0fd4578ef",
+            "author_name": "Zhen Wang",
+            "commit_date": "2026-07-30T17:38:16+00:00",
+            "subject": "[flang][cuda] Treat unified data as host data in assignments (#212912)"
         },
         {
-            "hash": "fafe1d0d9d012654bc10e2b68d50ffe3b9fdbdcd",
+            "hash": "3ebb5f753f005a50e94c87b28f6f99638718317c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-30T16:32:18+01:00",
+            "commit_date": "2026-07-30T19:37:00+01:00",
             "subject": "[ConstraintElim] Tighten bounds using inequalities with constants."
+        },
+        {
+            "hash": "1af625cd193597a33cb534e6cff42dad16058eae",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-30T19:50:32+01:00",
+            "subject": "!fixup move predicates to variable"
         }
     ],
     "dtcxzyw\/perf\/preserve-dt-simplifycfg": [
