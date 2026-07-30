@@ -191175,6 +191175,24 @@
             "author_name": "Nikolas Klauser",
             "commit_date": "2026-07-30T14:05:39+02:00",
             "subject": "[libc++] Clean up windows macros (#207577)"
+        },
+        {
+            "hash": "e7b04d7b58941cc9173930871a18d149f0b8a432",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-07-30T14:10:29+02:00",
+            "subject": "[libc++abi] Use the same .clang-format as libc++ (#208661)"
+        },
+        {
+            "hash": "7b463ebd0d5b23a5efc9ffba1363593e6c6745fb",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-30T14:15:32+02:00",
+            "subject": "clang\/AMDGPU: Forward xnack\/sramecc mode to the assembler (#212955)"
+        },
+        {
+            "hash": "76140a666d18b940597bf73362d4101af0247ea6",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-07-30T14:15:45+02:00",
+            "subject": "[libc++] Switch XFAIL in xsgetn.buffer.pass.cpp to LLVM 23 (#212969)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -197157,39 +197175,39 @@
     ],
     "clemenswasser\/perf\/inline_debug_loc": [
         {
-            "hash": "fcf4bb1af7450f618504201610ef8c3ef52844d7",
-            "author_name": "Tomer Shafir",
-            "commit_date": "2026-07-30T14:32:53+03:00",
-            "subject": "[AArch64] Relax SDep requirement for AppleSMECompute clustering      (#212603)"
+            "hash": "a8cc3d25922b689508dc63487525c73bc2747585",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-07-30T14:05:39+02:00",
+            "subject": "[libc++] Clean up windows macros (#207577)"
         },
         {
-            "hash": "35fc7b0b20915d051130a3937961db9e920fd15b",
+            "hash": "ae99f5cbb55ff47b9bce5d14141453b4bc7b569d",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T13:47:33+02:00",
+            "commit_date": "2026-07-30T14:09:22+02:00",
             "subject": "[Inliner] Use distinct DILocations for inlined instruction debug locs"
         },
         {
-            "hash": "a0b696701874fd2bb634c728b4dcf9f0038efad8",
+            "hash": "99a7ecb8ff0b60e2661c4e7e28e8749b254bbbec",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T13:47:33+02:00",
+            "commit_date": "2026-07-30T14:09:22+02:00",
             "subject": "[Inliner] Use find() instead of operator[] in appendInlinedAt cache"
         },
         {
-            "hash": "2c8efa37c410a5488e7b0a918cff39cad3867231",
+            "hash": "dd4b50e85400ab2736fb105e4a131a9a133eba52",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T13:47:33+02:00",
+            "commit_date": "2026-07-30T14:09:22+02:00",
             "subject": "[Inliner] Fast-path appendInlinedAt for leaf DebugLocs"
         },
         {
-            "hash": "12d684755c4fdc092575b46363030bb1a861ff0a",
+            "hash": "c0c80e775c1bca8f622f16d280e00c6d92145061",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T13:47:33+02:00",
+            "commit_date": "2026-07-30T14:09:22+02:00",
             "subject": "[Inliner] Fix Transforms\/SafeStack\/ARM\/debug.ll test"
         },
         {
-            "hash": "bfaafffda5ff003a6fa7de49785168e61e0be30b",
+            "hash": "a8baa9aeb6acb8e3d97db66c32ce4663f5c12139",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T13:47:33+02:00",
+            "commit_date": "2026-07-30T14:09:22+02:00",
             "subject": "[Inliner] Fix type of InlineLocs"
         }
     ],
@@ -200663,51 +200681,21 @@
     ],
     "clemenswasser\/perf\/lazy-globals-aa": [
         {
-            "hash": "fcf4bb1af7450f618504201610ef8c3ef52844d7",
-            "author_name": "Tomer Shafir",
-            "commit_date": "2026-07-30T14:32:53+03:00",
-            "subject": "[AArch64] Relax SDep requirement for AppleSMECompute clustering      (#212603)"
+            "hash": "a8cc3d25922b689508dc63487525c73bc2747585",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-07-30T14:05:39+02:00",
+            "subject": "[libc++] Clean up windows macros (#207577)"
         },
         {
-            "hash": "35fc7b0b20915d051130a3937961db9e920fd15b",
+            "hash": "f85572bce03c345fce2a0381d6db7875870057f7",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T13:47:33+02:00",
-            "subject": "[Inliner] Use distinct DILocations for inlined instruction debug locs"
-        },
-        {
-            "hash": "a0b696701874fd2bb634c728b4dcf9f0038efad8",
-            "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T13:47:33+02:00",
-            "subject": "[Inliner] Use find() instead of operator[] in appendInlinedAt cache"
-        },
-        {
-            "hash": "2c8efa37c410a5488e7b0a918cff39cad3867231",
-            "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T13:47:33+02:00",
-            "subject": "[Inliner] Fast-path appendInlinedAt for leaf DebugLocs"
-        },
-        {
-            "hash": "12d684755c4fdc092575b46363030bb1a861ff0a",
-            "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T13:47:33+02:00",
-            "subject": "[Inliner] Fix Transforms\/SafeStack\/ARM\/debug.ll test"
-        },
-        {
-            "hash": "bfaafffda5ff003a6fa7de49785168e61e0be30b",
-            "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T13:47:33+02:00",
-            "subject": "[Inliner] Fix type of InlineLocs"
-        },
-        {
-            "hash": "fca6e5a50108a1138825e35fd75a5ca8038bc528",
-            "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T13:47:33+02:00",
+            "commit_date": "2026-07-30T14:09:22+02:00",
             "subject": "[CallGraph] Replace slow dyn_cast with fast check"
         },
         {
-            "hash": "ed355a4ccb6d7d97e3119b47f5f54cc351179602",
+            "hash": "d87b571a701316b9f17e2782dbb2647115958608",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T13:47:33+02:00",
+            "commit_date": "2026-07-30T14:09:22+02:00",
             "subject": "[GlobalsAA] Switch to LazyCallGraph"
         }
     ],
@@ -201479,68 +201467,58 @@
             "author_name": "Sockke",
             "commit_date": "2026-07-30T19:30:07+08:00",
             "subject": "[CodeGen] Enable SpillPlacement link index per query"
+        },
+        {
+            "hash": "72fa14f1384ea2f1f82eec184897d8372132d0ab",
+            "author_name": "Sockke",
+            "commit_date": "2026-07-30T20:06:55+08:00",
+            "subject": "[CodeGen] Raise SpillPlacement link index threshold"
         }
     ],
     "clemenswasser\/perf\/globalopt-unreachable-scan": [
         {
-            "hash": "fcf4bb1af7450f618504201610ef8c3ef52844d7",
-            "author_name": "Tomer Shafir",
-            "commit_date": "2026-07-30T14:32:53+03:00",
-            "subject": "[AArch64] Relax SDep requirement for AppleSMECompute clustering      (#212603)"
+            "hash": "a8cc3d25922b689508dc63487525c73bc2747585",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-07-30T14:05:39+02:00",
+            "subject": "[libc++] Clean up windows macros (#207577)"
         },
         {
-            "hash": "35fc7b0b20915d051130a3937961db9e920fd15b",
+            "hash": "8270bd758ae0f7f97bb406474d8e26f5613a8e9b",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T13:47:33+02:00",
-            "subject": "[Inliner] Use distinct DILocations for inlined instruction debug locs"
-        },
-        {
-            "hash": "a0b696701874fd2bb634c728b4dcf9f0038efad8",
-            "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T13:47:33+02:00",
-            "subject": "[Inliner] Use find() instead of operator[] in appendInlinedAt cache"
-        },
-        {
-            "hash": "2c8efa37c410a5488e7b0a918cff39cad3867231",
-            "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T13:47:33+02:00",
-            "subject": "[Inliner] Fast-path appendInlinedAt for leaf DebugLocs"
-        },
-        {
-            "hash": "12d684755c4fdc092575b46363030bb1a861ff0a",
-            "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T13:47:33+02:00",
-            "subject": "[Inliner] Fix Transforms\/SafeStack\/ARM\/debug.ll test"
-        },
-        {
-            "hash": "bfaafffda5ff003a6fa7de49785168e61e0be30b",
-            "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T13:47:33+02:00",
-            "subject": "[Inliner] Fix type of InlineLocs"
-        },
-        {
-            "hash": "fca6e5a50108a1138825e35fd75a5ca8038bc528",
-            "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T13:47:33+02:00",
-            "subject": "[CallGraph] Replace slow dyn_cast with fast check"
-        },
-        {
-            "hash": "ed355a4ccb6d7d97e3119b47f5f54cc351179602",
-            "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T13:47:33+02:00",
-            "subject": "[GlobalsAA] Switch to LazyCallGraph"
-        },
-        {
-            "hash": "a568607a5f27c8cb6582bf89c1b1ea4314ed9f1f",
-            "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T13:47:33+02:00",
+            "commit_date": "2026-07-30T14:09:22+02:00",
             "subject": "[GlobalOpt] Skip removeUnreachableBlocks when CFG is fully reachable"
         },
         {
-            "hash": "f1f761f88d204536e725987065861a69f2cf1309",
+            "hash": "1f09932b7f8982c7b08f85f06b925a1955e8dc2d",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T13:47:33+02:00",
+            "commit_date": "2026-07-30T14:09:22+02:00",
             "subject": "[Local] Use direct opcode compare instead of dyn_cast in markAliveBlocks"
+        }
+    ],
+    "Enna1\/perf\/SCEV-forget-value-expr-map-pruning": [
+        {
+            "hash": "9572596c3951a5fef5eecc011c617c1b264357b7",
+            "author_name": "Paul Walker",
+            "commit_date": "2026-07-28T13:45:54+01:00",
+            "subject": "[LLVM][CodeGen] Clean up uses of useSVEForFixedLengthVectorVT(). (#211605)"
+        },
+        {
+            "hash": "acf3f097b02927210a63fdf800b2292e471f3d84",
+            "author_name": "Mingjie Xu",
+            "commit_date": "2026-07-28T20:57:51+08:00",
+            "subject": "Revert \"[SCEV] Speed up forgetLoop by avoiding def-use walk for loop-header P\u2026\""
+        },
+        {
+            "hash": "89e43e35f9d4e4f68234767bc5d46c5736150bc6",
+            "author_name": "Enna1",
+            "commit_date": "2026-07-28T21:01:09+08:00",
+            "subject": "revert fix in #208874, keep test"
+        },
+        {
+            "hash": "bd76488ef4803fe118599528babcfc9024fcf884",
+            "author_name": "Enna1",
+            "commit_date": "2026-07-30T20:13:49+08:00",
+            "subject": "test"
         }
     ]
 }
