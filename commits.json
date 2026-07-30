@@ -190983,6 +190983,18 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-07-30T08:28:41+00:00",
             "subject": "CSKY: Avoid constructing a temporary CSKYSubtarget in AsmPrinter (#212944)"
+        },
+        {
+            "hash": "60074081ea925868392d4256a5578ffd6f88db42",
+            "author_name": "LiqinWeng",
+            "commit_date": "2026-07-30T08:32:02+00:00",
+            "subject": "[RISCV] Split and rename WriteVSlideI\/WriteVISlide1X\/WriteVFSlide1F (#212184)"
+        },
+        {
+            "hash": "46919d267fd440dc3a82672e188b57fc441deafb",
+            "author_name": "Sameer Sahasrabuddhe",
+            "commit_date": "2026-07-30T14:05:00+05:30",
+            "subject": "[Docs][AMDGPU] Explain completion of async operations (#212756)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -201141,16 +201153,22 @@
     ],
     "fhahn\/perf\/ce-signed-ne": [
         {
-            "hash": "f2453af624353273325fe888d794a925ea9fe852",
-            "author_name": "Jay Foad",
-            "commit_date": "2026-07-29T15:14:49+01:00",
-            "subject": "[AMDGPU] Improve MemorySSA walking in isClobberedInFunction (#211817)"
+            "hash": "b84c5f4abcfb464e362bcd2b8eb58ef96ecbae9d",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-07-30T07:16:59+00:00",
+            "subject": "[BFI] Simplify\/optimize getMass\/getContainingLoop. NFC (#212938)"
         },
         {
-            "hash": "a78d58a4cb95486cf6e73bc872a8e36c93be3b88",
+            "hash": "07dec0e150c95b6997b39da46c1c26bb42561393",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-29T19:46:21+01:00",
+            "commit_date": "2026-07-30T09:36:16+01:00",
             "subject": "[ConstraintElim] Tighten a bound using a disequality against a constant."
+        },
+        {
+            "hash": "d7a600e360dd2341c81d7f2760c72040cb485131",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-30T09:37:27+01:00",
+            "subject": "[ConstraintElim] Use doesHold for ne tightening, skip unknown values."
         }
     ],
     "dtcxzyw\/perf\/preserve-dt-simplifycfg": [
