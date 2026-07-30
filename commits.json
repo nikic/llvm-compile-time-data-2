@@ -197139,39 +197139,39 @@
     ],
     "clemenswasser\/perf\/inline_debug_loc": [
         {
-            "hash": "f999ca3037dfb43fc9b14612f03708a6435fab5e",
-            "author_name": "hby",
-            "commit_date": "2026-06-18T09:48:56+01:00",
-            "subject": "[Bitcode] Add SkipDebugIntrinsicUpgrade hook to ParserCallbacks (#201456)"
+            "hash": "fcf4bb1af7450f618504201610ef8c3ef52844d7",
+            "author_name": "Tomer Shafir",
+            "commit_date": "2026-07-30T14:32:53+03:00",
+            "subject": "[AArch64] Relax SDep requirement for AppleSMECompute clustering      (#212603)"
         },
         {
-            "hash": "879a487e1eef0d4c2d9bbe2986307b15d1ee7088",
+            "hash": "35fc7b0b20915d051130a3937961db9e920fd15b",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-06-18T13:40:42+02:00",
+            "commit_date": "2026-07-30T13:47:33+02:00",
             "subject": "[Inliner] Use distinct DILocations for inlined instruction debug locs"
         },
         {
-            "hash": "e9eca6e07cbd2ba2f4056c4f4a57101a5d2e0d70",
+            "hash": "a0b696701874fd2bb634c728b4dcf9f0038efad8",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-06-18T13:48:56+02:00",
+            "commit_date": "2026-07-30T13:47:33+02:00",
             "subject": "[Inliner] Use find() instead of operator[] in appendInlinedAt cache"
         },
         {
-            "hash": "4206e4d89ae7424cc3e8f61911ebc29a03bd4bea",
+            "hash": "2c8efa37c410a5488e7b0a918cff39cad3867231",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-06-18T13:48:56+02:00",
+            "commit_date": "2026-07-30T13:47:33+02:00",
             "subject": "[Inliner] Fast-path appendInlinedAt for leaf DebugLocs"
         },
         {
-            "hash": "504a8eb7bd3613a003011ee2f6e980074f05cf62",
+            "hash": "12d684755c4fdc092575b46363030bb1a861ff0a",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-06-19T15:18:17+02:00",
+            "commit_date": "2026-07-30T13:47:33+02:00",
             "subject": "[Inliner] Fix Transforms\/SafeStack\/ARM\/debug.ll test"
         },
         {
-            "hash": "432ffdc0a6a2dcc19459311c2f0cee678f4a42f3",
+            "hash": "bfaafffda5ff003a6fa7de49785168e61e0be30b",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-06-20T13:53:14+02:00",
+            "commit_date": "2026-07-30T13:47:33+02:00",
             "subject": "[Inliner] Fix type of InlineLocs"
         }
     ],
@@ -200645,21 +200645,51 @@
     ],
     "clemenswasser\/perf\/lazy-globals-aa": [
         {
-            "hash": "da6f3e6cc2565e4c6cf720931845c8eee132ce86",
-            "author_name": "Ikhlas Ajbar",
-            "commit_date": "2026-07-16T14:18:20-05:00",
-            "subject": "[Hexagon] Fix HexagonRDFOpt hang during live-in recomputation (#209986)"
+            "hash": "fcf4bb1af7450f618504201610ef8c3ef52844d7",
+            "author_name": "Tomer Shafir",
+            "commit_date": "2026-07-30T14:32:53+03:00",
+            "subject": "[AArch64] Relax SDep requirement for AppleSMECompute clustering      (#212603)"
         },
         {
-            "hash": "02ee0eb082d9dc07d7412fd0e6ef8a504780def5",
+            "hash": "35fc7b0b20915d051130a3937961db9e920fd15b",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-23T18:12:18+02:00",
+            "commit_date": "2026-07-30T13:47:33+02:00",
+            "subject": "[Inliner] Use distinct DILocations for inlined instruction debug locs"
+        },
+        {
+            "hash": "a0b696701874fd2bb634c728b4dcf9f0038efad8",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-07-30T13:47:33+02:00",
+            "subject": "[Inliner] Use find() instead of operator[] in appendInlinedAt cache"
+        },
+        {
+            "hash": "2c8efa37c410a5488e7b0a918cff39cad3867231",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-07-30T13:47:33+02:00",
+            "subject": "[Inliner] Fast-path appendInlinedAt for leaf DebugLocs"
+        },
+        {
+            "hash": "12d684755c4fdc092575b46363030bb1a861ff0a",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-07-30T13:47:33+02:00",
+            "subject": "[Inliner] Fix Transforms\/SafeStack\/ARM\/debug.ll test"
+        },
+        {
+            "hash": "bfaafffda5ff003a6fa7de49785168e61e0be30b",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-07-30T13:47:33+02:00",
+            "subject": "[Inliner] Fix type of InlineLocs"
+        },
+        {
+            "hash": "fca6e5a50108a1138825e35fd75a5ca8038bc528",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-07-30T13:47:33+02:00",
             "subject": "[CallGraph] Replace slow dyn_cast with fast check"
         },
         {
-            "hash": "15da475c35f5d636cbfc88a4a5f5b6950cadec81",
+            "hash": "ed355a4ccb6d7d97e3119b47f5f54cc351179602",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-23T18:12:18+02:00",
+            "commit_date": "2026-07-30T13:47:33+02:00",
             "subject": "[GlobalsAA] Switch to LazyCallGraph"
         }
     ],
@@ -201431,6 +201461,68 @@
             "author_name": "Sockke",
             "commit_date": "2026-07-30T19:30:07+08:00",
             "subject": "[CodeGen] Enable SpillPlacement link index per query"
+        }
+    ],
+    "clemenswasser\/perf\/globalopt-unreachable-scan": [
+        {
+            "hash": "fcf4bb1af7450f618504201610ef8c3ef52844d7",
+            "author_name": "Tomer Shafir",
+            "commit_date": "2026-07-30T14:32:53+03:00",
+            "subject": "[AArch64] Relax SDep requirement for AppleSMECompute clustering      (#212603)"
+        },
+        {
+            "hash": "35fc7b0b20915d051130a3937961db9e920fd15b",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-07-30T13:47:33+02:00",
+            "subject": "[Inliner] Use distinct DILocations for inlined instruction debug locs"
+        },
+        {
+            "hash": "a0b696701874fd2bb634c728b4dcf9f0038efad8",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-07-30T13:47:33+02:00",
+            "subject": "[Inliner] Use find() instead of operator[] in appendInlinedAt cache"
+        },
+        {
+            "hash": "2c8efa37c410a5488e7b0a918cff39cad3867231",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-07-30T13:47:33+02:00",
+            "subject": "[Inliner] Fast-path appendInlinedAt for leaf DebugLocs"
+        },
+        {
+            "hash": "12d684755c4fdc092575b46363030bb1a861ff0a",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-07-30T13:47:33+02:00",
+            "subject": "[Inliner] Fix Transforms\/SafeStack\/ARM\/debug.ll test"
+        },
+        {
+            "hash": "bfaafffda5ff003a6fa7de49785168e61e0be30b",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-07-30T13:47:33+02:00",
+            "subject": "[Inliner] Fix type of InlineLocs"
+        },
+        {
+            "hash": "fca6e5a50108a1138825e35fd75a5ca8038bc528",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-07-30T13:47:33+02:00",
+            "subject": "[CallGraph] Replace slow dyn_cast with fast check"
+        },
+        {
+            "hash": "ed355a4ccb6d7d97e3119b47f5f54cc351179602",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-07-30T13:47:33+02:00",
+            "subject": "[GlobalsAA] Switch to LazyCallGraph"
+        },
+        {
+            "hash": "a568607a5f27c8cb6582bf89c1b1ea4314ed9f1f",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-07-30T13:47:33+02:00",
+            "subject": "[GlobalOpt] Skip removeUnreachableBlocks when CFG is fully reachable"
+        },
+        {
+            "hash": "f1f761f88d204536e725987065861a69f2cf1309",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-07-30T13:47:33+02:00",
+            "subject": "[Local] Use direct opcode compare instead of dyn_cast in markAliveBlocks"
         }
     ]
 }
