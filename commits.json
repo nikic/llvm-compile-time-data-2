@@ -201573,22 +201573,16 @@
     ],
     "fhahn\/perf\/ce-signed-ne": [
         {
-            "hash": "b84c5f4abcfb464e362bcd2b8eb58ef96ecbae9d",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-07-30T07:16:59+00:00",
-            "subject": "[BFI] Simplify\/optimize getMass\/getContainingLoop. NFC (#212938)"
+            "hash": "2f08dff5138a4ce908b6d4511a9439e859fedf86",
+            "author_name": "Alexey Samsonov",
+            "commit_date": "2026-07-30T07:46:38-07:00",
+            "subject": "[libc] Refactor statfs Linux syscalls and provide 'struct statfs' (#212930)"
         },
         {
-            "hash": "07dec0e150c95b6997b39da46c1c26bb42561393",
+            "hash": "fafe1d0d9d012654bc10e2b68d50ffe3b9fdbdcd",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-30T09:36:16+01:00",
-            "subject": "[ConstraintElim] Tighten a bound using a disequality against a constant."
-        },
-        {
-            "hash": "d7a600e360dd2341c81d7f2760c72040cb485131",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-07-30T09:37:27+01:00",
-            "subject": "[ConstraintElim] Use doesHold for ne tightening, skip unknown values."
+            "commit_date": "2026-07-30T16:32:18+01:00",
+            "subject": "[ConstraintElim] Tighten bounds using inequalities with constants."
         }
     ],
     "dtcxzyw\/perf\/preserve-dt-simplifycfg": [
@@ -201769,6 +201763,26 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-07-30T16:43:42+02:00",
             "subject": "[PassManager] Use SmallVector for analysis result storage"
+        }
+    ],
+    "fhahn\/perf\/ce-signed-ne2": [
+        {
+            "hash": "2f08dff5138a4ce908b6d4511a9439e859fedf86",
+            "author_name": "Alexey Samsonov",
+            "commit_date": "2026-07-30T07:46:38-07:00",
+            "subject": "[libc] Refactor statfs Linux syscalls and provide 'struct statfs' (#212930)"
+        },
+        {
+            "hash": "fafe1d0d9d012654bc10e2b68d50ffe3b9fdbdcd",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-30T16:32:18+01:00",
+            "subject": "[ConstraintElim] Tighten bounds using inequalities with constants."
+        },
+        {
+            "hash": "042fe61e79f101b0f943b414e612b52a03ae5044",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-30T16:36:43+01:00",
+            "subject": "remove constant restriction"
         }
     ]
 }
