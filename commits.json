@@ -191067,6 +191067,18 @@
             "author_name": "Bal\u00e1zs Benics",
             "commit_date": "2026-07-30T10:44:58+01:00",
             "subject": "Reapply \"[analyzer] Fix false positive in strchr\/strrchr with constant args\" (#212124)"
+        },
+        {
+            "hash": "840558c5ff53a95efbed5fafacc8fb3b6c377fec",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-30T09:49:18+00:00",
+            "subject": "[LV] Only use legacy scalarization costs with replicate regions. (#212738)"
+        },
+        {
+            "hash": "2f7a0da7ba3d1de5311118d60e685432238d4e72",
+            "author_name": "David Spickett",
+            "commit_date": "2026-07-30T09:50:14+00:00",
+            "subject": "[lldb][test] Fix TestMinidumpSizeOfImage.py with glibc >= 2.41 (#212972)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -201315,6 +201327,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-07-29T23:16:49-07:00",
             "subject": "[BFI] Simplify getMass and drop a fragile assumption. NFC"
+        }
+    ],
+    "Enna1\/perf\/sockke\/spillplacement-linkindex-threshold32": [
+        {
+            "hash": "85db72339ba6b7ceef7b7314e7c2a5d43f7a039e",
+            "author_name": "Varad Rahul Kamthe",
+            "commit_date": "2026-05-18T11:26:04+05:30",
+            "subject": "[MLIR][NVVM] Add sqrt Ops (#197422)"
+        },
+        {
+            "hash": "82a17dd78185bcc1f5c56724ff74a88ab98eb439",
+            "author_name": "Sockke",
+            "commit_date": "2026-07-30T17:48:51+08:00",
+            "subject": "[CodeGen] Speed up SpillPlacement addLink lookups"
         }
     ]
 }
