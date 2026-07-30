@@ -191535,6 +191535,42 @@
             "author_name": "Alok Kumar Sharma",
             "commit_date": "2026-07-30T22:34:46+05:30",
             "subject": "[MergeFunctions] Preserve import GUIDs when folding functions (#207003)"
+        },
+        {
+            "hash": "9e43e04108dddff6476152d0fff672fb4c577925",
+            "author_name": "Md Abdullah Shahneous Bari",
+            "commit_date": "2026-07-30T12:05:27-05:00",
+            "subject": "[mlir][arith] Gate min\/max expansion in arith-expand behind include-min-max (#211884)"
+        },
+        {
+            "hash": "f8eefd3d9d1b083563b1b095a8cf4513026252e0",
+            "author_name": "Zibi Sarbinowski",
+            "commit_date": "2026-07-30T13:08:46-04:00",
+            "subject": "[libc++] Fix difference_type expectations in range adaptor iterator member_types tests (#201853)"
+        },
+        {
+            "hash": "af8e570d9009f398473813e8af7e617d40d87199",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-07-30T10:10:54-07:00",
+            "subject": "[CIR] Fixup type of no-prototype functions when emitting an alias. (#212308)"
+        },
+        {
+            "hash": "0cf29309fd12668307f39bd540100618de626e94",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-07-30T10:14:40-07:00",
+            "subject": "[CIR]Implement lowering for simple sin\/cos\/tan\/exp10 builtins. (#211614)"
+        },
+        {
+            "hash": "3ce0df7ca8027229618de9802eeffe1f0023bf74",
+            "author_name": "Volodymyr Sapsai",
+            "commit_date": "2026-07-30T10:15:44-07:00",
+            "subject": "[Modules] Handle decl attributes on deserialization the same as during parsing. (#208348)"
+        },
+        {
+            "hash": "97ff9fc6daee52427f64ba9f11c1c6f268fab4fa",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-07-30T10:15:58-07:00",
+            "subject": "[CIR] Allow cir.copy to work across address spaces- (#211873)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -201625,15 +201661,15 @@
     ],
     "fhahn\/perf\/scev-udiv-match": [
         {
-            "hash": "2f08dff5138a4ce908b6d4511a9439e859fedf86",
-            "author_name": "Alexey Samsonov",
-            "commit_date": "2026-07-30T07:46:38-07:00",
-            "subject": "[libc] Refactor statfs Linux syscalls and provide 'struct statfs' (#212930)"
+            "hash": "f8eefd3d9d1b083563b1b095a8cf4513026252e0",
+            "author_name": "Zibi Sarbinowski",
+            "commit_date": "2026-07-30T13:08:46-04:00",
+            "subject": "[libc++] Fix difference_type expectations in range adaptor iterator member_types tests (#201853)"
         },
         {
-            "hash": "01d1a8918543f9ba95b81322c87c67d75a375c31",
+            "hash": "f67b9e03ca696bf3dbd02db775b5f5e66276afcc",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-30T16:58:46+01:00",
+            "commit_date": "2026-07-30T18:09:38+01:00",
             "subject": "[SCEV] Match more URem patterns structurally (NFC)."
         }
     ],
