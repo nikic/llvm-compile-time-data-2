@@ -200661,6 +200661,72 @@
             "author_name": "Nathan Ridge",
             "commit_date": "2026-07-30T07:53:25+02:00",
             "subject": "[clangd] Clarify release note about skipping preamble builds when using modules"
+        },
+        {
+            "hash": "aa67f5ae65f5354be4b45e4c550456f2dbce0411",
+            "author_name": "Ajay Wakodikar",
+            "commit_date": "2026-07-31T08:56:18+02:00",
+            "subject": "[Sema] Fix assertion in TreeTransform when rebuilding CXXParenListInitExpr"
+        },
+        {
+            "hash": "def37339be35964399dae8935ea8fc958e047d49",
+            "author_name": "Ajay Wakodikar",
+            "commit_date": "2026-07-31T08:56:19+02:00",
+            "subject": "Backport PR #203715 to release\/23.x"
+        },
+        {
+            "hash": "9e4460b54cfc46192948571dc5996ed5f60a57ef",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-31T08:56:41+02:00",
+            "subject": "clang\/AMDGPU: Fix handling of subarch triples with no -mcpu (#211467)"
+        },
+        {
+            "hash": "834c3bcec496068372920790bbd571b4fa091c65",
+            "author_name": "Hubert Tong",
+            "commit_date": "2026-07-31T08:56:59+02:00",
+            "subject": "[libc++][utils] Fix LIT `%if` substitution support (#209358)"
+        },
+        {
+            "hash": "aaa931e5edae052b04334c54119f4c7fc4e53509",
+            "author_name": "dong jianqiang",
+            "commit_date": "2026-07-31T08:57:16+02:00",
+            "subject": "[ARM] Exclude TLS symbols from the .reloc\/R_ARM_REL32 path (#212549)"
+        },
+        {
+            "hash": "989e9efa0de6d887e85b76ff96a263a867c7ecb9",
+            "author_name": "yingopq",
+            "commit_date": "2026-07-31T08:57:32+02:00",
+            "subject": "[Mips] Fix Clang crashes when assembling MIPS div\/rem with register-name symbol as divisor (#200354)"
+        },
+        {
+            "hash": "1b1145f5648f4acc5ace66146ea78aff97883c89",
+            "author_name": "Pengcheng Wang",
+            "commit_date": "2026-07-31T08:57:48+02:00",
+            "subject": "[RISCV] Fix crash in convertToVLMAX when AVL is an ADDI of a frame index (#212923)"
+        },
+        {
+            "hash": "b7d8db9ddee73288463108b46aa29871fa95a482",
+            "author_name": "Marina Taylor",
+            "commit_date": "2026-07-31T08:58:04+02:00",
+            "subject": "[LTO] Handle GlobalIFunc in LTOModule::parseSymbols (#212515)"
+        },
+        {
+            "hash": "cbd6540e5a2ef91bc8c8b6a10845415d40d12f45",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-07-31T08:58:21+02:00",
+            "subject": "[VPlan] Fix optimizeFindIVReductions not negating condition of blend (#213050)"
+        },
+        {
+            "hash": "c8bb66dd4f48747f67a5e25df946ef5db30b185e",
+            "author_name": "Rainer Orth",
+            "commit_date": "2026-07-31T08:58:38+02:00",
+            "subject": "[tsan] Fix buildgo.sh on FreeBSD\/NetBSD (#213047)"
+        },
+        {
+            "hash": "38acb5b2332d09a5637044fa0bcc237e5168c4fc",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-31T08:59:06+02:00",
+            "subject": "[VPlan] Set correct VPIRFlags for FP selects when sinking stores. (#212973)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
