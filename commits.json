@@ -192561,6 +192561,18 @@
             "author_name": "Vachan",
             "commit_date": "2026-07-31T16:59:11+00:00",
             "subject": "[X86] combineSelect - `fold select(c,vtrunc(x),0)` => `X86ISD::MTRUNC(x,c)`  (#212865)"
+        },
+        {
+            "hash": "bbbc3e4cc9eed0085c60d3d1644a8e0a86b0755f",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-07-31T19:07:04+02:00",
+            "subject": "clang: Emit \"float-abi\" module flag (#212985)"
+        },
+        {
+            "hash": "5e67107334216e076073817f4f7b96b5ec57d1d0",
+            "author_name": "Valery Dmitriev",
+            "commit_date": "2026-07-31T10:10:28-07:00",
+            "subject": "[flang] Do not convert load and store FIR ops to memref if volatile (#212884)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -202853,10 +202865,10 @@
             "subject": "[SimplifyCFG] Use Lazy updater"
         },
         {
-            "hash": "75a4802f6b2d413d7a987dc81ce354a86071495d",
+            "hash": "d78ebd1bdc338cf526dbd3848e0a23120916aa21",
             "author_name": "Yingwei Zheng",
-            "commit_date": "2026-07-30T03:51:15+08:00",
-            "subject": "[SimplifyCFG] Avoid simplify dead BBs"
+            "commit_date": "2026-08-01T01:10:46+08:00",
+            "subject": "test3"
         }
     ],
     "dtcxzyw\/perf\/simplifycfg-scan-once": [
