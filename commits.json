@@ -193113,6 +193113,12 @@
             "author_name": "Zorojuro",
             "commit_date": "2026-08-01T19:36:57+05:30",
             "subject": "[libc] Add conversion tests between emulated and native f128 (#213422)"
+        },
+        {
+            "hash": "efe31d6dfee457ad97ec109c9746bf1a69ce2ac9",
+            "author_name": "Vachan",
+            "commit_date": "2026-08-01T14:46:08+00:00",
+            "subject": "[InstSimplify] Fold `zext(X) | sext(X)` --> `sext(X)` and `zext(X) & sext(X)` --> `zext(X)` (#213313)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -203285,9 +203291,9 @@
             "subject": "[clang-tidy] Fix trailing semicolon and lost comment in readability-use-std-min-max (#208782)"
         },
         {
-            "hash": "ebc652af5700d569884e27812d33735d604990a1",
+            "hash": "d46456455143fd892003430c7a1cac150388d8ab",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-01T13:13:39+01:00",
+            "commit_date": "2026-08-01T15:53:35+01:00",
             "subject": "[ConstraintElim] Add facts for srem."
         }
     ],
