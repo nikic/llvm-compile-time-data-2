@@ -193119,6 +193119,18 @@
             "author_name": "Vachan",
             "commit_date": "2026-08-01T14:46:08+00:00",
             "subject": "[InstSimplify] Fold `zext(X) | sext(X)` --> `sext(X)` and `zext(X) & sext(X)` --> `zext(X)` (#213313)"
+        },
+        {
+            "hash": "78909083d74f2509ffbb8481680eb27ed5e8679a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-01T17:01:45+02:00",
+            "subject": "[ConstraintElim] Remove const op restriction from tightenBoundUsingNe. (#213440)"
+        },
+        {
+            "hash": "eeb1e687b28c0f64f36e9b59f88b2afa0aa58fba",
+            "author_name": "David Green",
+            "commit_date": "2026-08-01T16:03:53+01:00",
+            "subject": "[AArch64][GlobalISel] Update a number of select tests to concrete types. NFC (#213454)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -203689,6 +203701,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-01T14:09:14+01:00",
             "subject": "[LoopLoadElim] Check cheap necessary conditions before building LoopAccessInfo (NFC)"
+        }
+    ],
+    "fhahn\/perf\/slpv": [
+        {
+            "hash": "7650a43aa8a6dabe890e08d3d482aa25ae31c826",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-07-30T22:00:29+01:00",
+            "subject": "[LV] Add tests for preserving branch weights through VPlan (NFC). (#213131)"
+        },
+        {
+            "hash": "053e02e990f330d4401710f2680adcfc883790dd",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-01T15:59:08+01:00",
+            "subject": "[SLP] Add -slp-use-vplan-codegen to emit vector code via VPlan."
         }
     ]
 }
