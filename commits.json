@@ -193275,6 +193275,18 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-08-02T01:12:13-07:00",
             "subject": "[test] Add irreducible CFGs with closed-form block frequencies (#213492)"
+        },
+        {
+            "hash": "ffc32ca95939e131c87072fdbfb36e08e0a495cc",
+            "author_name": "Harrison Hao",
+            "commit_date": "2026-08-02T16:54:20+08:00",
+            "subject": "[InstCombine] Don't change the type of elementwise atomic loads (#213414)"
+        },
+        {
+            "hash": "e1d649a644a5a18585aa7324fb35e7792314eb4f",
+            "author_name": "Harrison Hao",
+            "commit_date": "2026-08-02T16:54:39+08:00",
+            "subject": "[LowerAtomic] Clear elementwise flag when lowering atomic load (#213401)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -201951,6 +201963,36 @@
             "author_name": "Maryam Moghadas",
             "commit_date": "2026-07-31T11:18:27+02:00",
             "subject": "[SystemZ][z\/OS] Implement emitCommonSymbol in MCGOFFStreamer (#210179)"
+        },
+        {
+            "hash": "5d610051fc6aaaf6d10abe1c1bae5e0fd266b2b2",
+            "author_name": "Paschalis Mpeis",
+            "commit_date": "2026-08-02T10:59:00+02:00",
+            "subject": "[docs] Add BOLT release notes"
+        },
+        {
+            "hash": "59712179ce3f8ae70fda7fb0464b65f883d13b31",
+            "author_name": "Augusto Noronha",
+            "commit_date": "2026-08-02T10:59:28+02:00",
+            "subject": "[DWARFLinker] Keep DW_TAG_enumerator children of a live enumeration_type (#212849)"
+        },
+        {
+            "hash": "222ff599da2254a3c2453547f2c96b74a1a77ec3",
+            "author_name": "Min-Yih Hsu",
+            "commit_date": "2026-08-02T10:59:45+02:00",
+            "subject": "[RISCV] Fix incorrect lowering of VECTOR_INTERLEAVE on fixed vectors (#212642)"
+        },
+        {
+            "hash": "edb9efb3e0823d32d6b4baa8f5f798bca3e300a3",
+            "author_name": "Daniil Kovalev",
+            "commit_date": "2026-08-02T11:00:21+02:00",
+            "subject": "[clang][llvm][AArch64] Set hardening fn attrs on synthetic functions (#211013)"
+        },
+        {
+            "hash": "774cc4f348a839a9d5a52ac74ee502daf1fc1af3",
+            "author_name": "Tom Stellard",
+            "commit_date": "2026-08-02T11:00:49+02:00",
+            "subject": "workflows\/release-sources: Pass release-version to upload-release-artifacts (#212660)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
