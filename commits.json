@@ -194031,6 +194031,24 @@
             "author_name": "Krzysztof Parzyszek",
             "commit_date": "2026-08-03T11:28:03-05:00",
             "subject": "[flang][OpenMP] Version-dependent parsing of map-type-modifier (#213473)"
+        },
+        {
+            "hash": "cc30c65cbeed4f643d3dfe5869dcbbb998cbc1c0",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-08-03T09:33:13-07:00",
+            "subject": "[docs] Rename selected Clang docs to Markdown (#210842)"
+        },
+        {
+            "hash": "1789918aa3272d90bc26006c4c18e1435ea15659",
+            "author_name": "SharonXSharon",
+            "commit_date": "2026-08-03T09:37:30-07:00",
+            "subject": "[llvm-profdata] Reject merging single-byte-coverage with count profiles (#213177)"
+        },
+        {
+            "hash": "9cb3a6ed4f4eecb78c41e589341263c2d0cecd36",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-03T09:38:56-07:00",
+            "subject": "[ELF] Quote the value in \"unknown -z\" diagnostics (#213572)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -204763,6 +204781,20 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-08-03T17:37:11+02:00",
             "subject": "[LiveDebugValues] drop unique_ptr in FuncValueTable"
+        }
+    ],
+    "AnonMiraj\/perf\/gate-obt-mergetypes": [
+        {
+            "hash": "49de424f45389cb757c3cc8c50daf38d024e2314",
+            "author_name": "owenca",
+            "commit_date": "2026-06-28T09:58:21-07:00",
+            "subject": "[clang-format][NFC] Clean up clang\/lib\/Format\/CMakeLists.txt (#206314)"
+        },
+        {
+            "hash": "f3b6e755e0f6369ae3076324aef5c59b986db04f",
+            "author_name": "Anonmiraj",
+            "commit_date": "2026-08-03T19:35:18+03:00",
+            "subject": "[clang] Only probe for OverflowBehaviorTypes in mergeTypes when enabled"
         }
     ]
 }
