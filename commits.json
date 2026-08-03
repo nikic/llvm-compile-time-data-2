@@ -194049,6 +194049,18 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-08-03T09:38:56-07:00",
             "subject": "[ELF] Quote the value in \"unknown -z\" diagnostics (#213572)"
+        },
+        {
+            "hash": "5ab6b42200a4646c9581dc19dc677599a81230b0",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-08-03T09:43:14-07:00",
+            "subject": "[docs] Rewrite selected Clang docs to Markdown (#210843)"
+        },
+        {
+            "hash": "073f2a25646a88b16703c01989ce008d3e0a53fd",
+            "author_name": "Ryan Buchner",
+            "commit_date": "2026-08-03T09:44:10-07:00",
+            "subject": "[SLP] Add additional test for deferred rematerialization (#213400)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -204685,34 +204697,28 @@
     ],
     "fhahn\/perf\/ce-check-signed": [
         {
-            "hash": "4148d0b61dfe9f5fa1fd5c7cde9c34d4ea92cb8b",
-            "author_name": "ejose02",
-            "commit_date": "2026-08-03T10:07:25+05:30",
-            "subject": "[flang] Reject type bound procedure overrides with mismatched passed-object dummy names (#210876)"
+            "hash": "dfcd28df1d80c1056aa820bd148e6dba42166945",
+            "author_name": "blazej-smorawski",
+            "commit_date": "2026-08-03T16:57:19+02:00",
+            "subject": "[offload] Add `dlwrap::loaded` function to check for optional symbols (#210737)"
         },
         {
-            "hash": "4f254d2c53c062dc822338ba24598fa89b582335",
+            "hash": "0b5405cb6986cc0d9ddb7a1a11b8d6792bf4101b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-03T06:34:28+01:00",
+            "commit_date": "2026-08-03T17:46:18+01:00",
             "subject": "[ConstraintElim] Precommi tests"
         },
         {
-            "hash": "fa0562250c3625cf9cec4062f3026dccff64bc00",
+            "hash": "045f39a70c5445a30788c041d9d1b6636117d4ea",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-03T13:19:51+01:00",
+            "commit_date": "2026-08-03T17:46:32+01:00",
             "subject": "[ConstraintElim] Answer unsigned queries using the signed system."
         },
         {
-            "hash": "6f1db47f85bf65e783c35c9518d8b9869e055fbb",
+            "hash": "74ffd3f30cbc0b5b200f53bf439126033815b9c7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-03T13:20:02+01:00",
+            "commit_date": "2026-08-03T17:46:34+01:00",
             "subject": "[ConstraintElim] Don't seed signed system with function arguments (NFCI)."
-        },
-        {
-            "hash": "4773beec7bea6212c55d453d1010742449dfdfa0",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-03T13:20:19+01:00",
-            "subject": "[ConstraintElim] Check signed constraint before proving non-negativity."
         }
     ],
     "aengelke\/perf\/bpibfi3": [
