@@ -194133,6 +194133,18 @@
             "author_name": "Reid Kleckner",
             "commit_date": "2026-08-03T11:34:53-07:00",
             "subject": "[clang-tidy][docs] Generate static analyzer check docs as Markdown (#211449)"
+        },
+        {
+            "hash": "4296c142ee473b640fac9c8f0af0012e8496d039",
+            "author_name": "Aidan Lam",
+            "commit_date": "2026-08-03T14:40:22-04:00",
+            "subject": "[libc++][docs] Mark LWG3116 as Complete (#209916)"
+        },
+        {
+            "hash": "f338032ff6f5c4d082cde3d9e89c95afc3b6982a",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-08-03T14:47:58-04:00",
+            "subject": "[SLP]Support copyable fmuls in fmuladd, modeled as fmuladd(a, b, -0.0)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -204785,12 +204797,6 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-03T17:46:32+01:00",
             "subject": "[ConstraintElim] Answer unsigned queries using the signed system."
-        },
-        {
-            "hash": "74ffd3f30cbc0b5b200f53bf439126033815b9c7",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-03T17:46:34+01:00",
-            "subject": "[ConstraintElim] Don't seed signed system with function arguments (NFCI)."
         }
     ],
     "aengelke\/perf\/bpibfi3": [
@@ -204887,6 +204893,20 @@
             "author_name": "Anonmiraj",
             "commit_date": "2026-08-03T20:36:50+03:00",
             "subject": "[clang][Basic] Cache in-system-header classification in shouldSuppressAsSystemWarning"
+        }
+    ],
+    "fhahn\/perf\/ce-args": [
+        {
+            "hash": "dfcd28df1d80c1056aa820bd148e6dba42166945",
+            "author_name": "blazej-smorawski",
+            "commit_date": "2026-08-03T16:57:19+02:00",
+            "subject": "[offload] Add `dlwrap::loaded` function to check for optional symbols (#210737)"
+        },
+        {
+            "hash": "dbacd1869b8d656a280a2965270406a2bba550d5",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-03T19:40:11+01:00",
+            "subject": "[ConstraintElim] Don't seed signed system with function arguments (NFCI)."
         }
     ]
 }
