@@ -92231,9 +92231,9 @@
             "subject": "Test"
         },
         {
-            "hash": "b9bbf0adf7ed8905d141e578c8a702d395a1482d",
+            "hash": "e5a5e36abed2d2f6d1283fc2511236aabcd23bd5",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-03T16:49:50+02:00",
+            "commit_date": "2026-08-03T17:01:30+02:00",
             "subject": "[clang][bytecode] Add DeclOrExpr"
         }
     ],
@@ -193893,6 +193893,24 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-08-03T10:51:42-04:00",
             "subject": "[SLP][NFC]Add extra test with alternate add\/sub vectorization, NFC"
+        },
+        {
+            "hash": "58f386207ac8dca5ad4729a3ba9e6f448fba99c3",
+            "author_name": "Ivan R. Ivanov",
+            "commit_date": "2026-08-03T16:55:38+02:00",
+            "subject": "[offload] Remove `omptarget` references from tests (#208205)"
+        },
+        {
+            "hash": "dfcd28df1d80c1056aa820bd148e6dba42166945",
+            "author_name": "blazej-smorawski",
+            "commit_date": "2026-08-03T16:57:19+02:00",
+            "subject": "[offload] Add `dlwrap::loaded` function to check for optional symbols (#210737)"
+        },
+        {
+            "hash": "3edb821ef483d91b99defd7297a724ab32f12457",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-08-03T15:01:59+00:00",
+            "subject": "[X86] vector-compare-all_of\/any_of - updates tests to use reduction intrinsics (#213683)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -204529,22 +204547,34 @@
     ],
     "fhahn\/perf\/ce-check-signed": [
         {
-            "hash": "e18c3ea024846a60c43e0066af3be953745cc34e",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-08-02T01:12:13-07:00",
-            "subject": "[test] Add irreducible CFGs with closed-form block frequencies (#213492)"
+            "hash": "4148d0b61dfe9f5fa1fd5c7cde9c34d4ea92cb8b",
+            "author_name": "ejose02",
+            "commit_date": "2026-08-03T10:07:25+05:30",
+            "subject": "[flang] Reject type bound procedure overrides with mismatched passed-object dummy names (#210876)"
         },
         {
-            "hash": "261b62b4af9c6ce592eb5da3963eb46d163e3307",
+            "hash": "4f254d2c53c062dc822338ba24598fa89b582335",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-02T09:42:44+01:00",
+            "commit_date": "2026-08-03T06:34:28+01:00",
             "subject": "[ConstraintElim] Precommi tests"
         },
         {
-            "hash": "d0114105489b9f7e110bab4a510cb0cc029dd900",
+            "hash": "fa0562250c3625cf9cec4062f3026dccff64bc00",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-02T09:42:44+01:00",
+            "commit_date": "2026-08-03T13:19:51+01:00",
             "subject": "[ConstraintElim] Answer unsigned queries using the signed system."
+        },
+        {
+            "hash": "6f1db47f85bf65e783c35c9518d8b9869e055fbb",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-03T13:20:02+01:00",
+            "subject": "[ConstraintElim] Don't seed signed system with function arguments (NFCI)."
+        },
+        {
+            "hash": "4773beec7bea6212c55d453d1010742449dfdfa0",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-03T13:20:19+01:00",
+            "subject": "[ConstraintElim] Check signed constraint before proving non-negativity."
         }
     ],
     "aengelke\/perf\/bpibfi3": [
@@ -204593,6 +204623,26 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-08-02T00:53:28-07:00",
             "subject": "[LoopInfo] Add recompute() and use it in SimpleLoopUnswitch"
+        }
+    ],
+    "clemenswasser\/perf\/ldv-smallvector-filln": [
+        {
+            "hash": "a8cc3d25922b689508dc63487525c73bc2747585",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-07-30T14:05:39+02:00",
+            "subject": "[libc++] Clean up windows macros (#207577)"
+        },
+        {
+            "hash": "4e5a4a99dae9f1f2d33184c827d29e50e56fa699",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-08-03T16:50:47+02:00",
+            "subject": "[SmallVector] fill_n for trivially copyable types"
+        },
+        {
+            "hash": "87bf8f7b810e58626d0dd10930cc572332f44fb6",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-08-03T16:51:02+02:00",
+            "subject": "[LiveDebugValues] drop unique_ptr in FuncValueTable"
         }
     ]
 }
