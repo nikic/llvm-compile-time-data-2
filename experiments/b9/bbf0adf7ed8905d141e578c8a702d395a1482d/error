@@ -1,0 +1,236 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Casting.h:744:34: note: ‘llvm::dyn_cast_if_present’ declared here
+  744 | template <class X, class Y> auto dyn_cast_if_present(Y *Val) {
+      |                                  ^~~~~~~~~~~~~~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvaluationResult.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:36:41: error: expected primary-expression before ‘>’ token
+   36 |     return dyn_cast_if_present<ValueDecl>(asDecl());
+      |                                         ^
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h: In member function ‘const clang::VarDecl* clang::interp::DeclOrExpr::asVarDecl() const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:39:12: error: ‘dyn_cast_if_present’ was not declared in this scope; did you mean ‘llvm::dyn_cast_if_present’?
+   39 |     return dyn_cast_if_present<VarDecl>(asDecl());
+      |            ^~~~~~~~~~~~~~~~~~~
+      |            llvm::dyn_cast_if_present
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/PointerUnion.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvaluationResult.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Casting.h:744:34: note: ‘llvm::dyn_cast_if_present’ declared here
+  744 | template <class X, class Y> auto dyn_cast_if_present(Y *Val) {
+      |                                  ^~~~~~~~~~~~~~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvaluationResult.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:39:39: error: expected primary-expression before ‘>’ token
+   39 |     return dyn_cast_if_present<VarDecl>(asDecl());
+      |                                       ^
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h: At global scope:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:58:14: error: ‘raw_ostream’ in namespace ‘llvm’ does not name a type
+   58 | inline llvm::raw_ostream &operator<<(llvm::raw_ostream &OS, DeclOrExpr D) {
+      |              ^~~~~~~~~~~
+[2746/3375] Building AArch64GenSubtargetInfo.inc...
+[2747/3375] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Context.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Context.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Context.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Context.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Context.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Descriptor.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/MemberPointer.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:48:28: error: return type ‘class clang::QualType’ is incomplete
+   48 |   QualType getType() const {
+      |                            ^
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h: In member function ‘void clang::interp::DeclOrExpr::getType() const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:50:16: error: invalid use of incomplete type ‘const class clang::ValueDecl’
+   50 |       return VD->getType();
+      |                ^~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FixedPoint.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:40:9: note: forward declaration of ‘class clang::ValueDecl’
+   40 |   class ValueDecl;
+      |         ^~~~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Descriptor.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/MemberPointer.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:51:20: error: invalid use of incomplete type ‘const class clang::Expr’
+   51 |     return asExpr()->getType();
+      |                    ^~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FixedPoint.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:36:9: note: forward declaration of ‘class clang::Expr’
+   36 |   class Expr;
+      |         ^~~~
+[2748/3375] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+[2749/3375] Building AArch64GenInstrInfo.inc...
+[2750/3375] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Descriptor.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/MemberPointer.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/ByteCodeEmitter.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:48:28: error: return type ‘class clang::QualType’ is incomplete
+   48 |   QualType getType() const {
+      |                            ^
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h: In member function ‘void clang::interp::DeclOrExpr::getType() const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:50:16: error: invalid use of incomplete type ‘const class clang::ValueDecl’
+   50 |       return VD->getType();
+      |                ^~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FixedPoint.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/ByteCodeEmitter.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:40:9: note: forward declaration of ‘class clang::ValueDecl’
+   40 |   class ValueDecl;
+      |         ^~~~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Descriptor.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/MemberPointer.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/ByteCodeEmitter.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:51:20: error: invalid use of incomplete type ‘const class clang::Expr’
+   51 |     return asExpr()->getType();
+      |                    ^~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FixedPoint.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/ByteCodeEmitter.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:36:9: note: forward declaration of ‘class clang::Expr’
+   36 |   class Expr;
+      |         ^~~~
+[2751/3375] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConstant.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConstant.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConstant.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConstant.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConstant.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ExprConstant.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Descriptor.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/MemberPointer.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ExprConstant.cpp:35:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:48:28: error: return type ‘class clang::QualType’ is incomplete
+   48 |   QualType getType() const {
+      |                            ^
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h: In member function ‘void clang::interp::DeclOrExpr::getType() const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:50:16: error: invalid use of incomplete type ‘const class clang::ValueDecl’
+   50 |       return VD->getType();
+      |                ^~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FixedPoint.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ExprConstant.cpp:35:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:40:9: note: forward declaration of ‘class clang::ValueDecl’
+   40 |   class ValueDecl;
+      |         ^~~~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Descriptor.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/MemberPointer.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ExprConstant.cpp:35:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:51:20: error: invalid use of incomplete type ‘const class clang::Expr’
+   51 |     return asExpr()->getType();
+      |                    ^~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FixedPoint.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ExprConstant.cpp:35:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:36:9: note: forward declaration of ‘class clang::Expr’
+   36 |   class Expr;
+      |         ^~~~
+[2752/3375] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Interp.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Interp.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Interp.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Interp.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Interp.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Descriptor.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Integral.h:25,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Boolean.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:48:28: error: return type ‘class clang::QualType’ is incomplete
+   48 |   QualType getType() const {
+      |                            ^
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h: In member function ‘void clang::interp::DeclOrExpr::getType() const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:50:16: error: invalid use of incomplete type ‘const class clang::ValueDecl’
+   50 |       return VD->getType();
+      |                ^~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Integral.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Boolean.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:40:9: note: forward declaration of ‘class clang::ValueDecl’
+   40 |   class ValueDecl;
+      |         ^~~~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Descriptor.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Integral.h:25,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Boolean.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:51:20: error: invalid use of incomplete type ‘const class clang::Expr’
+   51 |     return asExpr()->getType();
+      |                    ^~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/../ExprConstShared.h:31:7: note: forward declaration of ‘class clang::Expr’
+   31 | class Expr;
+      |       ^~~~
+[2753/3375] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/CompilerInvocation.cpp.o
+[2754/3375] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTContext.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:4 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/lld/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+222.17user 17.85system 0:28.47elapsed 842%CPU (0avgtext+0avgdata 1459692maxresident)k
+8inputs+1603648outputs (2982major+10373323minor)pagefaults 0swaps
