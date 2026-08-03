@@ -194265,6 +194265,24 @@
             "author_name": "Farzon Lotfi",
             "commit_date": "2026-08-03T18:02:42-04:00",
             "subject": "[SPIR-V] Legalize wide-vector atan2 by splitting first (#213341)"
+        },
+        {
+            "hash": "1611cc4b2dbcf3e0ebd42941232f21be6adb3cf2",
+            "author_name": "Ebuka Ezike",
+            "commit_date": "2026-08-03T23:10:27+01:00",
+            "subject": "[lldb-dap] Migrate extended stackTrace and source test (#213234)"
+        },
+        {
+            "hash": "9c0528f195f7b9c5a29a91bc42a2633e6006dfe7",
+            "author_name": "Ebuka Ezike",
+            "commit_date": "2026-08-03T23:11:20+01:00",
+            "subject": "[lldb-dap] Migrate setDataBreakpoint and Locations test (#213269)"
+        },
+        {
+            "hash": "e1e6193bb2ce55e6cd82eecd9fc3448e666af478",
+            "author_name": "Joel E. Denny",
+            "commit_date": "2026-08-03T18:16:15-04:00",
+            "subject": "[LoopUnroll] Fix freq accuracy calculations (#213762)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -205027,6 +205045,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-03T19:40:11+01:00",
             "subject": "[ConstraintElim] Don't seed signed system with function arguments (NFCI)."
+        }
+    ],
+    "AnonMiraj\/perf\/pack-indexing-selected-only": [
+        {
+            "hash": "256a6d2807a980c1477df0ed3b6ea6763460b967",
+            "author_name": "Dmitry Sidorov",
+            "commit_date": "2026-07-30T23:10:27+02:00",
+            "subject": "[AMDGPU] Use a single SubtargetPredicate for fp8\/bf8 -> f32 conversions (#212888)"
+        },
+        {
+            "hash": "d89bdae8e715629b8199f400be0a46359ba26f1f",
+            "author_name": "Anonmiraj",
+            "commit_date": "2026-08-04T01:09:17+03:00",
+            "subject": "[Clang] Avoid quadratic pack-indexing instantiation (store only the selected element)"
         }
     ]
 }
