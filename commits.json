@@ -79771,22 +79771,28 @@
     ],
     "tbaederr\/perf\/ce-test2": [
         {
-            "hash": "21b0fc84c2f5fac1d3f763cfa581762684ad2a89",
-            "author_name": "Timm Baeder",
-            "commit_date": "2026-07-31T09:45:37+02:00",
-            "subject": "[clang][bytecode][NFC] Remove redundant casts (#213210)"
+            "hash": "50f1e69560a15ebe8493202c63859fc074c8541a",
+            "author_name": "Simon Tatham",
+            "commit_date": "2026-08-04T15:06:54+01:00",
+            "subject": "[AArch64][CodeGen] Don't try to compute stack addresses in xzr (#213009)"
         },
         {
-            "hash": "4ac82136097063339af14a171e39188dfbdda016",
+            "hash": "30f4bdaaaaaacf2caeac2da17d83ff09f979393c",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-07-31T09:46:26+02:00",
+            "commit_date": "2026-08-04T16:21:46+02:00",
             "subject": "Test"
         },
         {
-            "hash": "5a32c80221117cc05d385a0706f49a84a4772632",
+            "hash": "98613986bffe0a2fbd1fd7a3c4d6feb16cb52bff",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-07-31T09:46:26+02:00",
+            "commit_date": "2026-08-04T16:22:10+02:00",
             "subject": "opaque pointers"
+        },
+        {
+            "hash": "b5cd86c40a11a01f77752dc83c68bb4b8a96571e",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-08-04T16:22:33+02:00",
+            "subject": "6 errors"
         }
     ],
     "dtcxzyw\/perf\/cvp-minmax-at-use": [
@@ -194877,6 +194883,24 @@
             "author_name": "Simon Tatham",
             "commit_date": "2026-08-04T15:06:54+01:00",
             "subject": "[AArch64][CodeGen] Don't try to compute stack addresses in xzr (#213009)"
+        },
+        {
+            "hash": "0eefd513c29e88d90cf55d16a002bc09fe1f8eac",
+            "author_name": "LU-JOHN",
+            "commit_date": "2026-08-04T09:23:32-05:00",
+            "subject": "[AMDGPU] Canonicalize scalar bf16 more efficiently (#213789)"
+        },
+        {
+            "hash": "3217105056c59500981c1d00b60ac4d474b37b03",
+            "author_name": "Shilei Tian",
+            "commit_date": "2026-08-04T10:27:08-04:00",
+            "subject": "[NFC][AMDGPU] Rename some variable names to follow convention better (#213827)"
+        },
+        {
+            "hash": "91ccd1b10ce82fa4e79e62b0b6e575c6c0ee41eb",
+            "author_name": "Jan Patrick Lehr",
+            "commit_date": "2026-08-04T14:34:02+00:00",
+            "subject": "[Clang] Make exact dynamic_cast optimization AS aware (#213927)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
