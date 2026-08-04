@@ -194853,6 +194853,30 @@
             "author_name": "Marcos Maronas",
             "commit_date": "2026-08-04T14:48:57+01:00",
             "subject": "[SPIRV] Emit FPFastMathMode for Call (#211879)"
+        },
+        {
+            "hash": "d28193fa1ff64027cc5547355e9d70785268aec8",
+            "author_name": "A. Jiang",
+            "commit_date": "2026-08-04T21:59:34+08:00",
+            "subject": "[libc++][test] Add `void` cast to a discarded call to `remquo` (#213849)"
+        },
+        {
+            "hash": "962d16fd97793d22c42227e7fab397f62475c18b",
+            "author_name": "DylanFleming-arm",
+            "commit_date": "2026-08-04T15:03:42+01:00",
+            "subject": "[libc][mathvec] Vectorise exp2f and exp10f (#211365)"
+        },
+        {
+            "hash": "62c5ede9fd14083aa57d62302df06a44062d8bfc",
+            "author_name": "Marc Auberer",
+            "commit_date": "2026-08-04T16:05:44+02:00",
+            "subject": "[IR] Remove deprecated BasicBlock::getFirstNonPHI (#213926)"
+        },
+        {
+            "hash": "50f1e69560a15ebe8493202c63859fc074c8541a",
+            "author_name": "Simon Tatham",
+            "commit_date": "2026-08-04T15:06:54+01:00",
+            "subject": "[AArch64][CodeGen] Don't try to compute stack addresses in xzr (#213009)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -203619,6 +203643,12 @@
             "author_name": "Garvit Gupta",
             "commit_date": "2026-08-04T12:34:04+00:00",
             "subject": "[RISCV] Reduce spill\/reload pairs when Xqcilo extension is enabled (#212807)"
+        },
+        {
+            "hash": "fa70bdd819bbb0e2b22f20ad7e79edfcbfd4a0cd",
+            "author_name": "Tom Stellard",
+            "commit_date": "2026-08-04T14:01:19+00:00",
+            "subject": "workflows\/require-team-membership: Fix typo (#212686)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
