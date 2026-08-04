@@ -206164,5 +206164,47 @@
             "commit_date": "2026-08-04T23:23:34+03:00",
             "subject": "[Clang][Analysis] avoid redundant getUninitUse in prune phase"
         }
+    ],
+    "AnonMiraj\/perf\/136568-designated-init-quadratic": [
+        {
+            "hash": "49de424f45389cb757c3cc8c50daf38d024e2314",
+            "author_name": "owenca",
+            "commit_date": "2026-06-28T09:58:21-07:00",
+            "subject": "[clang-format][NFC] Clean up clang\/lib\/Format\/CMakeLists.txt (#206314)"
+        },
+        {
+            "hash": "1bb509580235f9499992aee2d09de3829af938d9",
+            "author_name": "Anonmiraj",
+            "commit_date": "2026-08-04T23:01:04+03:00",
+            "subject": "[Sema] Fix O(n^2) in designated-init overlap check (#136568)"
+        }
+    ],
+    "AnonMiraj\/perf\/137891-generic-pairwise-compat": [
+        {
+            "hash": "49de424f45389cb757c3cc8c50daf38d024e2314",
+            "author_name": "owenca",
+            "commit_date": "2026-06-28T09:58:21-07:00",
+            "subject": "[clang-format][NFC] Clean up clang\/lib\/Format\/CMakeLists.txt (#206314)"
+        },
+        {
+            "hash": "263efde627c448854f9c8a50f1645878bce677a7",
+            "author_name": "Anonmiraj",
+            "commit_date": "2026-08-04T23:01:21+03:00",
+            "subject": "[Sema] Reduce _Generic pairwise-compatibility cost (#137891)"
+        }
+    ],
+    "AnonMiraj\/perf\/151451-cxx23-codegen-hang": [
+        {
+            "hash": "49de424f45389cb757c3cc8c50daf38d024e2314",
+            "author_name": "owenca",
+            "commit_date": "2026-06-28T09:58:21-07:00",
+            "subject": "[clang-format][NFC] Clean up clang\/lib\/Format\/CMakeLists.txt (#206314)"
+        },
+        {
+            "hash": "9be2e1dabd2e7c5a6f08dd32cf4031238393d9af",
+            "author_name": "Anonmiraj",
+            "commit_date": "2026-08-04T23:01:06+03:00",
+            "subject": "[AST] Fix C++23 constant-eval hang from P2280R4 (#151451)"
+        }
     ]
 }
