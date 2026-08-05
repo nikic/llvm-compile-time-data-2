@@ -195915,6 +195915,36 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-08-05T11:53:30-04:00",
             "subject": "[SLP]Fix unscheduled-deps assert for copyable elements peeled into reassoc nodes"
+        },
+        {
+            "hash": "019fc9efa2dc8f36d9b4794caeca0738a06db667",
+            "author_name": "arsnyder16",
+            "commit_date": "2026-08-05T09:01:27-07:00",
+            "subject": "[openmp][WebAssembly] Add support for wasm64 (#181669)"
+        },
+        {
+            "hash": "fb831c73635aab090cbd0b8e9671a289b691b0cf",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-08-05T16:02:29+00:00",
+            "subject": "[SLP][modularisation][NFC] Move getSameOpcode cluster to SLPCompatibilityAnalysis (3\/3) (#213609)"
+        },
+        {
+            "hash": "da2a4685fe5c23f90c8357c2d6732396adbe74be",
+            "author_name": "Tom Stellard",
+            "commit_date": "2026-08-05T09:03:07-07:00",
+            "subject": "workflows\/zizmor: Update to latest version (#213922)"
+        },
+        {
+            "hash": "5d234827e0e6e7abbccdc4ffb93ce99fe892fd56",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-08-05T12:04:51-04:00",
+            "subject": "[SLP]Fix a compiler warning\/error on captured structured bindings"
+        },
+        {
+            "hash": "c94f0e31986a93d6702a3a88fa3d69a3ea7d2377",
+            "author_name": "Dmitry Sidorov",
+            "commit_date": "2026-08-05T18:06:49+02:00",
+            "subject": "[SPIR-V] Put deduced function pointer types in CodeSectionINTEL (#214240)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -206885,6 +206915,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-08-05T00:51:19-07:00",
             "subject": "[Support] Use a native 128-bit product in ScaledNumbers::multiply64"
+        }
+    ],
+    "bababuck\/perf\/mr206259": [
+        {
+            "hash": "c9721e602a350637449781746a8e58996c4969bc",
+            "author_name": "Sirui Mu",
+            "commit_date": "2026-07-02T10:04:00+08:00",
+            "subject": "[CIR] Add alignment attributes to cir.copy (#206341)"
+        },
+        {
+            "hash": "e2f1223dea0130ca1e4e81e8039cba25c0ee614e",
+            "author_name": "Harrison Hao",
+            "commit_date": "2026-08-05T09:04:45-07:00",
+            "subject": "[SLP] Allow non-power-of-2 VF in tryToVectorizeList"
         }
     ]
 }
