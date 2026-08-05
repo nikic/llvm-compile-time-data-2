@@ -195975,6 +195975,42 @@
             "author_name": "Brandon Wu",
             "commit_date": "2026-08-06T00:28:46+08:00",
             "subject": "[llvm][RISCV] Correct the ci value in batched dot product mnemonic (#213579)"
+        },
+        {
+            "hash": "5c6ee6f34b681e5563e0e06ac3c2e83e53eb768e",
+            "author_name": "Sean Clarke",
+            "commit_date": "2026-08-05T09:30:09-07:00",
+            "subject": "[RISCV] Combine chained `V[SZ]EXT_VL` ops (#211583)"
+        },
+        {
+            "hash": "cc8e95a312a7c5d1980ab5c0acea2c650d76ca4f",
+            "author_name": "ZERICO2005",
+            "commit_date": "2026-08-06T00:31:17+08:00",
+            "subject": "[KnownFPClass] Mark cosh result as non-zero and non-subnormal (#213763)"
+        },
+        {
+            "hash": "6a7c3341e50523c62896db2344691585da6ffbb0",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-08-05T09:31:27-07:00",
+            "subject": "[Utils] Remove bugpoint specific scripts"
+        },
+        {
+            "hash": "7454858f6b58ad24e895904f0ad77e50c1ad7720",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-08-05T09:32:49-07:00",
+            "subject": "[GN] Remove bugpoint build"
+        },
+        {
+            "hash": "e920fdb659929b79d7c4c11b0856108a2260fef0",
+            "author_name": "Fabian Parzefall",
+            "commit_date": "2026-08-05T09:33:18-07:00",
+            "subject": "[BOLT] Build BOLT runtime with bazel (#213729)"
+        },
+        {
+            "hash": "0130acf8430b64a8da97217ea57bea64abb51685",
+            "author_name": "ZERICO2005",
+            "commit_date": "2026-08-06T00:38:55+08:00",
+            "subject": "[KnownFPClass] Do not propagate non-NaN through `asin` and `acos` (#213812)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -206959,6 +206995,20 @@
             "author_name": "Harrison Hao",
             "commit_date": "2026-08-05T09:04:45-07:00",
             "subject": "[SLP] Allow non-power-of-2 VF in tryToVectorizeList"
+        }
+    ],
+    "c-rhodes\/perf\/reverse-csr": [
+        {
+            "hash": "2ef2ab65e8622a81b060b96a2ed579816d01f03f",
+            "author_name": "Kamlesh Kumar",
+            "commit_date": "2026-08-03T12:26:37+01:00",
+            "subject": "[AArch64] Update tests with interleave intrinsics (#212312)"
+        },
+        {
+            "hash": "921a67ccfdc99b15915dbb6321318017b425a652",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-08-05T16:28:56+00:00",
+            "subject": "[AArch64] Allocate callee-saved GPRs in reverse order"
         }
     ]
 }
