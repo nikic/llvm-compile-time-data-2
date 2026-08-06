@@ -1,0 +1,236 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[1646/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/BreakCriticalEdges.cpp.o
+[1647/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/CtorUtils.cpp.o
+[1648/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/AssumeBundleBuilder.cpp.o
+[1649/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/BypassSlowDivision.cpp.o
+[1650/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/CallPromotionUtils.cpp.o
+[1651/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/CloneModule.cpp.o
+[1652/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/BuildLibCalls.cpp.o
+[1653/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/CountVisits.cpp.o
+[1654/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/CanonicalizeFreezeInLoops.cpp.o
+[1655/3374] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/DAGCombiner.cpp.o
+[1656/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/Evaluator.cpp.o
+[1657/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/BasicBlockUtils.cpp.o
+[1658/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/CodeMoverUtils.cpp.o
+[1659/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/FunctionComparator.cpp.o
+[1660/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/ControlFlowUtils.cpp.o
+[1661/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/FunctionImportUtils.cpp.o
+[1662/3374] Building CXX object lib/CodeGen/GlobalISel/CMakeFiles/LLVMGlobalISel.dir/CombinerHelper.cpp.o
+[1663/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/GlobalStatus.cpp.o
+[1664/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/DeclareRuntimeLibcalls.cpp.o
+[1665/3374] Building CXX object lib/CodeGen/GlobalISel/CMakeFiles/LLVMGlobalISel.dir/IRTranslator.cpp.o
+[1666/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/DXILUpgrade.cpp.o
+[1667/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/DemoteRegToStack.cpp.o
+[1668/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/Instrumentation.cpp.o
+[1669/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/IntegerDivision.cpp.o
+[1670/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/KCFIHash.cpp.o
+[1671/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/HelloWorld.cpp.o
+[1672/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/InstructionNamer.cpp.o
+[1673/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/EntryExitInstrumenter.cpp.o
+[1674/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/EscapeEnumerator.cpp.o
+[1675/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/FlattenCFG.cpp.o
+[1676/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/CloneFunction.cpp.o
+[1677/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/DebugSSAUpdater.cpp.o
+[1678/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/FixIrreducible.cpp.o
+[1679/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/GuardUtils.cpp.o
+[1680/3374] Building CXX object lib/CodeGen/GlobalISel/CMakeFiles/LLVMGlobalISel.dir/LegalizerHelper.cpp.o
+[1681/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/Debugify.cpp.o
+[1682/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/InjectTLIMappings.cpp.o
+[1683/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LowerAtomic.cpp.o
+[1684/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/CodeExtractor.cpp.o
+[1685/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/IRNormalizer.cpp.o
+[1686/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LibCallsShrinkWrap.cpp.o
+[1687/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LowerCommentStringPass.cpp.o
+[1688/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LCSSA.cpp.o
+[1689/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopConstrainer.cpp.o
+[1690/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LowerVectorIntrinsics.cpp.o
+[1691/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LowerIFunc.cpp.o
+[1692/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LowerGlobalDtors.cpp.o
+[1693/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopRotationUtils.cpp.o
+[1694/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LowerInvoke.cpp.o
+[1695/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopSimplify.cpp.o
+[1696/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopPeel.cpp.o
+[1697/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/MatrixUtils.cpp.o
+[1698/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUnrollAndJam.cpp.o
+[1699/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LowerSwitch.cpp.o
+[1700/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/Mem2Reg.cpp.o
+[1701/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopVersioning.cpp.o
+[1702/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUnrollRuntime.cpp.o
+[1703/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUnroll.cpp.o
+[1704/3374] Building CXX object lib/Bitcode/Reader/CMakeFiles/LLVMBitReader.dir/BitcodeReader.cpp.o
+[1705/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/MetaRenamer.cpp.o
+[1706/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/MemoryOpRemark.cpp.o
+[1707/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/MisExpect.cpp.o
+[1708/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/NameAnonGlobals.cpp.o
+[1709/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/Local.cpp.o
+[1710/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SampleProfileInference.cpp.o
+[1711/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUtils.cpp.o
+[1712/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SanitizerStats.cpp.o
+[1713/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/InlineFunction.cpp.o
+[1714/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LowerMemIntrinsics.cpp.o
+[1715/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/ProfileVerify.cpp.o
+[1716/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/MemoryTaggingSupport.cpp.o
+[1717/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/ModuleUtils.cpp.o
+[1718/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/MoveAutoInit.cpp.o
+[1719/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/StripConvergenceIntrinsics.cpp.o
+[1720/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/StripGCRelocates.cpp.o
+[1721/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/RelLookupTableConverter.cpp.o
+[1722/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/PredicateInfo.cpp.o
+[1723/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/Utils.cpp.o
+[1724/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/ValueMapper.cpp.o
+[1725/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/VNCoercion.cpp.o
+[1726/3374] Building CXX object lib/Frontend/OpenMP/CMakeFiles/LLVMFrontendOpenMP.dir/OMPIRBuilder.cpp.o
+[1727/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SizeOpts.cpp.o
+[1728/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SSAUpdater.cpp.o
+[1729/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SampleProfileLoaderBaseUtil.cpp.o
+[1730/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SSAUpdaterBulk.cpp.o
+[1731/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/TriggerCrashPass.cpp.o
+[1732/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SymbolRewriter.cpp.o
+[1733/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/PromoteMemoryToRegister.cpp.o
+[1734/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/StripNonLineTableDebugInfo.cpp.o
+[1735/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SplitModule.cpp.o
+[1736/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/UnifyLoopExits.cpp.o
+[1737/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SplitModuleByCategory.cpp.o
+[1738/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/ScalarEvolutionExpander.cpp.o
+[1739/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SimplifyIndVar.cpp.o
+[1740/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SCCPSolver.cpp.o
+[1741/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/CopyProf.cpp.o
+[1742/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/BoundsChecking.cpp.o
+[1743/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/CGProfile.cpp.o
+[1744/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/BlockCoverageInference.cpp.o
+[1745/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/AllocToken.cpp.o
+[1746/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SimplifyLibCalls.cpp.o
+[1747/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/KCFI.cpp.o
+[1748/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/MemProfInstrumentation.cpp.o
+[1749/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/LowerAllowCheckPass.cpp.o
+[1750/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/ControlHeightReduction.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Instrumentation/ControlHeightReduction.cpp:23:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RegionInfo.h:898:41: warning: type attributes ignored after type is already defined [-Wattributes]
+  898 | extern template class LLVM_TEMPLATE_ABI RegionBase<RegionTraits<Function>>;
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RegionInfo.h:899:41: warning: type attributes ignored after type is already defined [-Wattributes]
+  899 | extern template class LLVM_TEMPLATE_ABI RegionNodeBase<RegionTraits<Function>>;
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1751/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/ValueProfileCollector.cpp.o
+[1752/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/SanitizerBinaryMetadata.cpp.o
+[1753/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/GCOVProfiling.cpp.o
+[1754/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/NumericalStabilitySanitizer.cpp.o
+[1755/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/RealtimeSanitizer.cpp.o
+[1756/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/AddressSanitizer.cpp.o
+[1757/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/SanitizerCoverage.cpp.o
+[1758/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/DataFlowSanitizer.cpp.o
+[1759/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/ThreadSanitizer.cpp.o
+[1760/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/TypeSanitizer.cpp.o
+[1761/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/MemProfUse.cpp.o
+[1762/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/MemorySanitizer.cpp.o
+[1763/3374] Building CXX object lib/Transforms/AggressiveInstCombine/CMakeFiles/LLVMAggressiveInstCombine.dir/TruncInstCombine.cpp.o
+[1764/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/IndirectCallPromotion.cpp.o
+[1765/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/InstrProfiling.cpp.o
+[1766/3374] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAtomicRMW.cpp.o
+[1767/3374] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SimplifyCFG.cpp.o
+[1768/3374] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/HWAddressSanitizer.cpp.o
+[1769/3374] Building CXX object lib/Transforms/AggressiveInstCombine/CMakeFiles/LLVMAggressiveInstCombine.dir/AggressiveInstCombine.cpp.o
+[1770/3374] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineNegator.cpp.o
+[1771/3374] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAddSub.cpp.o
+[1772/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/AnnotationRemarks.cpp.o
+[1773/3374] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineShifts.cpp.o
+[1774/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/AlignmentFromAssumptions.cpp.o
+[1775/3374] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineLoadStoreAlloca.cpp.o
+[1776/3374] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineMulDivRem.cpp.o
+[1777/3374] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCasts.cpp.o
+[1778/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/BDCE.cpp.o
+[1779/3374] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombinePHI.cpp.o
+[1780/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/ADCE.cpp.o
+[1781/3374] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineVectorOps.cpp.o
+[1782/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/CallSiteSplitting.cpp.o
+[1783/3374] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAndOrXor.cpp.o
+[1784/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DCE.cpp.o
+[1785/3374] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineSimplifyDemanded.cpp.o
+[1786/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/FlattenCFGPass.cpp.o
+[1787/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DropUnnecessaryAssumes.cpp.o
+[1788/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DivRemPairs.cpp.o
+[1789/3374] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineSelect.cpp.o
+[1790/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/CorrelatedValuePropagation.cpp.o
+[1791/3374] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstructionCombining.cpp.o
+[1792/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/ConstantHoisting.cpp.o
+[1793/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/IVUsersPrinter.cpp.o
+[1794/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/ExpandMemCmp.cpp.o
+[1795/3374] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCalls.cpp.o
+[1796/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/Float2Int.cpp.o
+[1797/3374] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCompares.cpp.o
+[1798/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/InstSimplifyPass.cpp.o
+[1799/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DFAJumpThreading.cpp.o
+[1800/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/EarlyCSE.cpp.o
+[1801/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/ConstraintElimination.cpp.o
+[1802/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/InferAlignment.cpp.o
+FAILED: lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/InferAlignment.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Transforms/Scalar -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/InferAlignment.cpp.o -MF lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/InferAlignment.cpp.o.d -o lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/InferAlignment.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/InferAlignment.cpp
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/InferAlignment.cpp: In function ‘bool inferAlignment(llvm::Function&, llvm::AssumptionCache&, llvm::DominatorTree&)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/InferAlignment.cpp:165:8: error: ‘list’ is not a member of ‘std’
+  165 |   std::list<AlignmentScope> Stack;
+      |        ^~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/InferAlignment.cpp:27:1: note: ‘std::list’ is defined in header ‘<list>’; did you forget to ‘#include <list>’?
+   26 | #include "llvm/Transforms/Utils/Local.h"
+  +++ |+#include <list>
+   27 | 
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/InferAlignment.cpp:165:27: error: expected primary-expression before ‘>’ token
+  165 |   std::list<AlignmentScope> Stack;
+      |                           ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/InferAlignment.cpp:165:29: error: ‘Stack’ was not declared in this scope; did you mean ‘obstack’?
+  165 |   std::list<AlignmentScope> Stack;
+      |                             ^~~~~
+      |                             obstack
+[1803/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/GuardWidening.cpp.o
+[1804/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DeadStoreElimination.cpp.o
+[1805/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/GVNSink.cpp.o
+[1806/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/InductiveRangeCheckElimination.cpp.o
+[1807/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/JumpTableToSwitch.cpp.o
+[1808/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LogicalSROA.cpp.o
+[1809/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/InferAddressSpaces.cpp.o
+[1810/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopAccessAnalysisPrinter.cpp.o
+[1811/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/GVNHoist.cpp.o
+[1812/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/IndVarSimplify.cpp.o
+[1813/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopDataPrefetch.cpp.o
+[1814/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopSink.cpp.o
+[1815/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopBoundSplit.cpp.o
+[1816/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/JumpThreading.cpp.o
+[1817/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopDeletion.cpp.o
+[1818/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/GVN.cpp.o
+[1819/3374] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LICM.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:4 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/lld/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+2183.90user 104.48system 2:27.22elapsed 1554%CPU (0avgtext+0avgdata 1140028maxresident)k
+4264inputs+5569104outputs (3076major+64301338minor)pagefaults 0swaps
