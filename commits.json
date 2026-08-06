@@ -196479,6 +196479,18 @@
             "author_name": "Jean-Didier PAILLEUX",
             "commit_date": "2026-08-06T08:22:39+02:00",
             "subject": "[flang][MIF] Fix team_type usage in all MIF operations #205953 (#214207)"
+        },
+        {
+            "hash": "ed5f9f9dc15fd5ea18f0da1be5a1b8be8b21b762",
+            "author_name": "Federico Bruzzone",
+            "commit_date": "2026-08-06T08:45:35+02:00",
+            "subject": "[TailRecElim] Introduce support for shift accumulator optimization (#181331)"
+        },
+        {
+            "hash": "073f509daadc94878455548ef471b0949cc4167a",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-08-06T08:50:03+02:00",
+            "subject": "[libc] Enable UNIT_TEST_ONLY tests in hermetic mode (#213860)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -207383,12 +207395,6 @@
             "author_name": "Sockke",
             "commit_date": "2026-08-04T15:30:27+08:00",
             "subject": "[CodeGen] Add SpillPlacement link order fast paths"
-        },
-        {
-            "hash": "70b5e63f67ebfb8481b0875766eb2484692b8244",
-            "author_name": "Sockke",
-            "commit_date": "2026-08-05T17:43:00+08:00",
-            "subject": "[CodeGen] Add cache for split insert check"
         }
     ],
     "clemenswasser\/perf\/cgp-skip-dbg-fixup-no-sunkaddrs": [
@@ -207520,6 +207526,26 @@
             "hash": "5240edf70f99cd36bf9d91b16eb83c5f2a17374c",
             "author_name": "Sockke",
             "commit_date": "2026-08-06T14:09:49+08:00",
+            "subject": "[CodeGen] Add cache for split insert check"
+        }
+    ],
+    "Enna1\/perf\/sockke\/spillplacement-fastpath-split-insert-cache": [
+        {
+            "hash": "85db72339ba6b7ceef7b7314e7c2a5d43f7a039e",
+            "author_name": "Varad Rahul Kamthe",
+            "commit_date": "2026-05-18T11:26:04+05:30",
+            "subject": "[MLIR][NVVM] Add sqrt Ops (#197422)"
+        },
+        {
+            "hash": "5c81013d6427c9d465d123d5c4060123d89496c7",
+            "author_name": "Sockke",
+            "commit_date": "2026-08-06T14:43:28+08:00",
+            "subject": "[CodeGen] Add SpillPlacement link order fast paths"
+        },
+        {
+            "hash": "ab62da252b3a54a6ea7f90f815399979734982e7",
+            "author_name": "Sockke",
+            "commit_date": "2026-08-06T14:43:28+08:00",
             "subject": "[CodeGen] Add cache for split insert check"
         }
     ]
