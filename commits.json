@@ -196773,6 +196773,30 @@
             "author_name": "Durgesh Nandan Mohanty",
             "commit_date": "2026-08-06T15:50:37+01:00",
             "subject": "[AArch64][CodeGen] Fold tbx(splat(0), table, idxs) to tbl(table, idxs) (#214268)"
+        },
+        {
+            "hash": "bc00b3aae17eb8d3f1dee2e8fbbdf5c3e4a36546",
+            "author_name": "Ga\u00ebtan Bossu",
+            "commit_date": "2026-08-06T16:04:20+01:00",
+            "subject": "[AArch64][CostModel] Explicitly disable histograms for nxv1 types (#214470)"
+        },
+        {
+            "hash": "708dafb270b5f6971c6666cc0afe96d227fb198d",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-08-06T17:05:24+02:00",
+            "subject": "[SPIR-V] Build vendored SPIRV-Tools in Release mode (#214159)"
+        },
+        {
+            "hash": "ac9e7f5e9d9170a56945c716b6c87126a3d0963d",
+            "author_name": "Zeyi Xu",
+            "commit_date": "2026-08-06T23:13:36+08:00",
+            "subject": "[clang-tidy][docs] Rename bugprone check docs to Markdown [1\/4] (#214412)"
+        },
+        {
+            "hash": "11ba1b712acbee90dcc07b36467a7b2bb5a9b07b",
+            "author_name": "Zeyi Xu",
+            "commit_date": "2026-08-06T23:13:37+08:00",
+            "subject": "[clang-tidy][docs] Rewrite bugprone check docs to Markdown [1\/4] (#214413)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -207863,6 +207887,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-06T15:58:17+01:00",
             "subject": "[ConstraintElim] Drop the SCEV monotonicity refinement in addInfoForInductions."
+        }
+    ],
+    "antoniofrighetto\/perf\/scev-revert": [
+        {
+            "hash": "708dafb270b5f6971c6666cc0afe96d227fb198d",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-08-06T17:05:24+02:00",
+            "subject": "[SPIR-V] Build vendored SPIRV-Tools in Release mode (#214159)"
+        },
+        {
+            "hash": "c99f5b6edbca9497f328712aff907f0345b07a0b",
+            "author_name": "Mingjie Xu",
+            "commit_date": "2026-08-06T17:07:44+02:00",
+            "subject": "Revert \"[SCEV] Speed up forgetLoop by avoiding def-use walk for loop-header P\u2026\""
         }
     ]
 }
