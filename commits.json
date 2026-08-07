@@ -197829,6 +197829,36 @@
             "author_name": "Eric Christopher",
             "commit_date": "2026-08-07T11:15:01-07:00",
             "subject": "[DebugInfo] Keep validating after register and entry-value ops (#214057)"
+        },
+        {
+            "hash": "fcb62bdc3e98baba3c5c9472d54d2133010eb74a",
+            "author_name": "Andrei Elovikov",
+            "commit_date": "2026-08-07T18:27:52+00:00",
+            "subject": "[NFC][VPlan] Extract BTC-related tests into `vplan-based-stride-mv-btc.ll` (#214047)"
+        },
+        {
+            "hash": "c4e20acafd5fcb58ab884691edcfa056dcb1e5ac",
+            "author_name": "Zachary Yedidia",
+            "commit_date": "2026-08-07T11:32:01-07:00",
+            "subject": "[NFC][X86] Add getMemoryOperandIdx helper function (#211685)"
+        },
+        {
+            "hash": "997fd9c559bb8584fdf437b28404f9d2565c3b8e",
+            "author_name": "Zeyi Xu",
+            "commit_date": "2026-08-08T02:32:31+08:00",
+            "subject": "[clang-tidy][docs] Rename bugprone check docs to Markdown [2\/4] (#214418)"
+        },
+        {
+            "hash": "b563de4ea77181cd7844348f1512b32e815f9077",
+            "author_name": "Zeyi Xu",
+            "commit_date": "2026-08-08T02:32:31+08:00",
+            "subject": "[clang-tidy][docs] Rewrite bugprone check docs to Markdown [2\/4] (#214419)"
+        },
+        {
+            "hash": "5a0eacfbc43226368deef170cf1bcff21b31fd8e",
+            "author_name": "Eugene Epshteyn",
+            "commit_date": "2026-08-07T18:35:36+00:00",
+            "subject": "Revert \"[flang][debug] Emit debug info for named constants\" (#214813)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -208603,12 +208633,6 @@
     ],
     "fhahn\/perf\/ce-check-signed": [
         {
-            "hash": "dfcd28df1d80c1056aa820bd148e6dba42166945",
-            "author_name": "blazej-smorawski",
-            "commit_date": "2026-08-03T16:57:19+02:00",
-            "subject": "[offload] Add `dlwrap::loaded` function to check for optional symbols (#210737)"
-        },
-        {
             "hash": "0b5405cb6986cc0d9ddb7a1a11b8d6792bf4101b",
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-03T17:46:18+01:00",
@@ -208619,6 +208643,18 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-03T20:21:33+01:00",
             "subject": "[ConstraintElim] Answer unsigned queries using the signed system."
+        },
+        {
+            "hash": "d47e50a59cd7552d4dc579559ba4fc76c0d38cf6",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-07T18:52:04+01:00",
+            "subject": "Merge remote-tracking branch 'origin\/main' into perf\/ce-check-signed"
+        },
+        {
+            "hash": "191a8de560c52f94d78d5b36a305ae42bb0593a4",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-07T19:28:59+01:00",
+            "subject": "!fixup remove IsKnownNonNegative lambda"
         }
     ],
     "aengelke\/perf\/bpibfi3": [
