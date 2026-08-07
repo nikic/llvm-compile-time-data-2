@@ -197547,6 +197547,18 @@
             "author_name": "Reid Kleckner",
             "commit_date": "2026-08-07T06:12:43-07:00",
             "subject": "[clang-tools-extra][docs] Convert top-level docs\/*.rst to MyST Markdown (#214352)"
+        },
+        {
+            "hash": "d1784c08ac847c9ee2a92c2634c24d5696f5d9c1",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-08-07T09:22:32-04:00",
+            "subject": "[libc++] Generate a per-target modulemap when using per-target runtime dirs (#209312)"
+        },
+        {
+            "hash": "e02d1e2d88f753f115a716e7ec6f30083169ca73",
+            "author_name": "Lucas Ramirez",
+            "commit_date": "2026-08-07T15:25:24+02:00",
+            "subject": "[AMDGPU][CodeGen] Do not rematerialize convergent MIs (#214711)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -208753,6 +208765,20 @@
             "author_name": "Enna1",
             "commit_date": "2026-08-07T18:02:35+08:00",
             "subject": "collect SuccMBB instead"
+        }
+    ],
+    "MacDue\/perf\/live-reg-units-loop": [
+        {
+            "hash": "94af8651da4a1b907a8ea2acb698d72aad3df722",
+            "author_name": "Nerixyz",
+            "commit_date": "2026-08-07T14:49:03+02:00",
+            "subject": "[lldb] Remove Python 2 operators from lldb.value (#214296)"
+        },
+        {
+            "hash": "ce67ef155e8fc7945a6ec930a12e5762a45fa00b",
+            "author_name": "Benjamin Maxwell",
+            "commit_date": "2026-08-07T13:21:53+00:00",
+            "subject": "[LiveRegUnits] Avoid accidentally O(n^2) loop in addCalleeSavedRegs (NFC)"
         }
     ]
 }
