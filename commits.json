@@ -197379,6 +197379,18 @@
             "author_name": "Juan Manuel Martinez Caama\u00f1o",
             "commit_date": "2026-08-07T11:50:21+02:00",
             "subject": "[HIP][Driver] Use alternative `\/lib64` or `\/lib` depending on `amdhip64` library location (#211587)"
+        },
+        {
+            "hash": "3cce637322a762daef7b50e4997c86af94d2d3c6",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-08-07T09:56:55+00:00",
+            "subject": "Enforce single-operand form for llvm.loop.vectorize.predicate metadata (#213902)"
+        },
+        {
+            "hash": "d77a7569bc52e8b94b0a9d5a134106b0146f52db",
+            "author_name": "David Sherwood",
+            "commit_date": "2026-08-07T10:58:09+01:00",
+            "subject": "[LV] Apply urem folds to preheader (#213928)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -208573,6 +208585,18 @@
             "author_name": "Enna1",
             "commit_date": "2026-08-07T10:24:50+08:00",
             "subject": "[LiveVariables] Use BitVector for kill block lookup in isLiveOut"
+        },
+        {
+            "hash": "2b7d018afc06fa8e783049465ceb8b1a4e938b0e",
+            "author_name": "Enna1",
+            "commit_date": "2026-08-07T14:06:02+08:00",
+            "subject": "Revert \"[LiveVariables] Use BitVector for kill block lookup in isLiveOut\""
+        },
+        {
+            "hash": "c7decbded225e22ed52474e5efd6c624a39e135d",
+            "author_name": "Enna1",
+            "commit_date": "2026-08-07T18:02:35+08:00",
+            "subject": "collect SuccMBB instead"
         }
     ]
 }
