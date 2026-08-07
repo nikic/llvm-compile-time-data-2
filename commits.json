@@ -197325,6 +197325,18 @@
             "author_name": "Simon Pilgrim",
             "commit_date": "2026-08-07T08:59:23+00:00",
             "subject": "[InstCombine] Remove binop(concat(x,y),concat(a,b)) -> concat(binop(x,a),binop(y,b)) fold (#214285)"
+        },
+        {
+            "hash": "8969ae16e06587601fb80642a4036592e57c2473",
+            "author_name": "Jeff Bailey",
+            "commit_date": "2026-08-07T10:07:22+01:00",
+            "subject": "[libc][NFC] Format all CMake files under libc\/ (#213132)"
+        },
+        {
+            "hash": "096481ddc5aa696f26ae4fd704adb28ce31babc6",
+            "author_name": "Jeff Bailey",
+            "commit_date": "2026-08-07T10:09:15+01:00",
+            "subject": "[libc] Add getpwent, setpwent, and endpwent entrypoints (#213076)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -206175,6 +206187,12 @@
             "author_name": "Jean-Didier PAILLEUX",
             "commit_date": "2026-08-07T08:25:18+00:00",
             "subject": "[flang][MIF] Fix team_type usage in all MIF operations #205953 (#214207)"
+        },
+        {
+            "hash": "6278eba367e2f0eebfdc31ab8b29a02ca27e6f15",
+            "author_name": "Mingjie Xu",
+            "commit_date": "2026-08-07T09:00:15+00:00",
+            "subject": "Revert \"[SCEV] Speed up forgetLoop by avoiding def-use walk for loop-header PHIs\" (#212485)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
