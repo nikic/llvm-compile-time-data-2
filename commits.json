@@ -198249,6 +198249,12 @@
             "author_name": "Nerixyz",
             "commit_date": "2026-08-08T12:11:18+02:00",
             "subject": "[lldb] Remove duplicate declarations after merge (#214949)"
+        },
+        {
+            "hash": "4e274280c33edd820ab04d469d9edc1f9239d567",
+            "author_name": "Zeyi Xu",
+            "commit_date": "2026-08-08T20:16:55+08:00",
+            "subject": "[clang-tidy] Fix a crash in bugprone-std-namespace-modification (#214704)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -209359,28 +209365,28 @@
     ],
     "fhahn\/perf\/more-ce": [
         {
-            "hash": "9fd1052125a393b8aa16fa3e8411168332b22610",
-            "author_name": "Durgesh Nandan Mohanty",
-            "commit_date": "2026-08-06T15:50:37+01:00",
-            "subject": "[AArch64][CodeGen] Fold tbx(splat(0), table, idxs) to tbl(table, idxs) (#214268)"
+            "hash": "2f9775ad49bf8eb0d4a54592d40652df3e4f38dd",
+            "author_name": "Luc Forget",
+            "commit_date": "2026-08-08T12:47:57+09:00",
+            "subject": "[mlir][wasm] Support for saturating FP truncations (#212709)"
         },
         {
-            "hash": "ccfd7dfaf6c55d7ffc8050cbb1ec474a6d011218",
+            "hash": "7f931584420c0469e318b26b98e1bb52d48608ed",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-06T15:57:57+01:00",
+            "commit_date": "2026-08-08T08:54:30+01:00",
             "subject": "[ConstraintElim] Add lower bounds for all inductions in a loop header."
         },
         {
-            "hash": "354d49f848f67ebe974e79550e43a0d52db1bd8a",
+            "hash": "3f5c6071158f58c23db887ac387db302849ee3bc",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-06T15:58:07+01:00",
-            "subject": "[ConstraintElim] Look through a chain of zexts when decomposing."
+            "commit_date": "2026-08-08T08:54:30+01:00",
+            "subject": "[ConstraintElim] Drop the SCEV monotonicity refinement in addInfoForInductions."
         },
         {
-            "hash": "84b44a888035835b2b0b6a88bae596d00fc87ce4",
+            "hash": "88aa09d9551021e567edf035aa9fd66fd9eaf8d4",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-06T15:58:17+01:00",
-            "subject": "[ConstraintElim] Drop the SCEV monotonicity refinement in addInfoForInductions."
+            "commit_date": "2026-08-08T13:12:45+01:00",
+            "subject": "Reduce compile-time"
         }
     ],
     "antoniofrighetto\/perf\/scev-revert": [
