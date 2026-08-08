@@ -209486,5 +209486,19 @@
             "commit_date": "2026-08-08T01:19:32-07:00",
             "subject": "[BFI] Detect irreducible SCC from CycleInfo instead of by failing. NFC"
         }
+    ],
+    "tomershafir\/perf\/aarch64-harden-is-fp-imm-legal-check": [
+        {
+            "hash": "e7dd336e0f7884c34108a1e722205a16c3f5307b",
+            "author_name": "Dan Salvato",
+            "commit_date": "2026-08-02T12:47:10-05:00",
+            "subject": "[M68k] Prevent COPY instruction from killing live condition flags (#168485)"
+        },
+        {
+            "hash": "53305993c63a01adcbc9696ea5fefdf050b849e6",
+            "author_name": "tomershafir",
+            "commit_date": "2026-08-08T11:45:05+03:00",
+            "subject": "[AArch64] Restrict FP imm ISel by accurate subtarget macro-fusion"
+        }
     ]
 }
