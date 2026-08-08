@@ -198381,6 +198381,18 @@
             "author_name": "Paul Kirth",
             "commit_date": "2026-08-08T14:03:51-07:00",
             "subject": "[llvm][LoopVectorize] Avoid nondeterministic iteration (#214886)"
+        },
+        {
+            "hash": "f9b0ba3fdae3df4e6e1559b243d6bc786bc90807",
+            "author_name": "hulxv",
+            "commit_date": "2026-08-08T21:24:13+00:00",
+            "subject": "[compiler-rt][builtins] libc-backed int-to-double\/float builtins (#209900)"
+        },
+        {
+            "hash": "bebff2a2e93c8c0db4b4cb94b504166e345d19e3",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-08-08T14:31:46-07:00",
+            "subject": "[docs] Prefer colon fences to delineate blocks containing markup (#214921)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -209647,22 +209659,16 @@
     ],
     "MaskRay\/perf\/bfi-irr-solve": [
         {
-            "hash": "90cc2a4c147db94a3cf1b7bd31a7db858da017e5",
-            "author_name": "Shilei Tian",
-            "commit_date": "2026-08-08T03:11:58+00:00",
-            "subject": "[AMDGPU] Fix an AMDGPU disassembler crash (#214914)"
+            "hash": "21bcdab5e9cee2d990c2ba1680a1984a567fb7af",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-08-08T07:16:13+00:00",
+            "subject": "[CostModel][X86] Update logic vector reduction costs to match llvm-mca estimates (#214191)"
         },
         {
-            "hash": "311a2a6b71f28c4cbeb4a4b898342df688fbced5",
+            "hash": "e170d62365b3cd19b60244c9e807183fa00d221f",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-08-07T20:22:14-07:00",
-            "subject": "[BFI] Reuse one Distribution across the blocks of a traversal. NFC"
-        },
-        {
-            "hash": "c767591bd242fe52b82111b135e724dfc8a8db3f",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-08-07T20:22:14-07:00",
-            "subject": "[Support] Use a native 128-bit product in ScaledNumbers::multiply64"
+            "commit_date": "2026-08-08T14:23:31-07:00",
+            "subject": "[BFI] Solve irreducible SCCs instead of splitting their headers"
         }
     ],
     "MaskRay\/perf\/bfi-proactive-irr-ci": [
