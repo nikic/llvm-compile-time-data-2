@@ -198705,6 +198705,12 @@
             "author_name": "Shengxin Pei",
             "commit_date": "2026-08-09T20:04:20+00:00",
             "subject": "[InstCombine] Fold select (A & Shift == 0 | B & Shift == 0), 0, Shift to Shift & A & B (#212132)"
+        },
+        {
+            "hash": "61856db051aad12de96eaa50ca833646d524564f",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-09T20:33:11+00:00",
+            "subject": "[LoopPassManager] Exit early for loop-free fns in FunctionToLoopPass. (#215011)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
