@@ -198687,6 +198687,12 @@
             "author_name": "Chris Apple",
             "commit_date": "2026-08-09T10:36:53-07:00",
             "subject": "[sanitizer-common][rtsan] Mark unsupported tests (#213404)"
+        },
+        {
+            "hash": "08cb7d93f7e88de47c50f41ae08514f17c624f7a",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-09T10:59:18-07:00",
+            "subject": "[DomTree] Store immediate dominator as DFS number. NFC (#215059)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -209819,16 +209825,22 @@
     ],
     "fhahn\/perf\/li-skip-try": [
         {
-            "hash": "066dfd519323589e89847e65a40d4a9836f61188",
-            "author_name": "Jean-Didier PAILLEUX",
-            "commit_date": "2026-08-08T20:56:12+02:00",
-            "subject": "[flang][MIF] Update prif_coarray_handle in accordance with PRIF 0.8 #214080 (#214747)"
+            "hash": "20e75d44d9c03855b1a1adff9fb9f53c86213fce",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-09T16:35:46+02:00",
+            "subject": "[VPlan] Verify hoist point when hoisting previous value of a recurrence. (#215084)"
         },
         {
-            "hash": "363e007ee1361e7162eeb393c25df52868614327",
+            "hash": "f1a757dfd84e1c3ed70c2deb8145ab3319d0d98e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-08T20:29:54+01:00",
+            "commit_date": "2026-08-09T18:47:27+01:00",
             "subject": "[LoopPassManager] Exit early for loop-free fns in FunctionToLoopPass."
+        },
+        {
+            "hash": "40438acc339321df48bafe4ad694ba66e65fe174",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-09T18:59:46+01:00",
+            "subject": "!fixup update test, move bail out earlier, remove duplicate"
         }
     ],
     "fhahn\/perf\/more-ce": [
@@ -210179,21 +210191,27 @@
     ],
     "fhahn\/perf\/any": [
         {
-            "hash": "5371bcaa368e59a99a03f6a726949ee52e07fb65",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-08-09T01:06:51-07:00",
-            "subject": "[DomTree] Remove the DomTreeNodeBase overload of isReachableFromEntry. NFC (#215068)"
+            "hash": "78e17e70bd52058add1b8bfaeafa696b1e4e4cf5",
+            "author_name": "\u66fe\u921c\u5bec Tseng Hung Kuan",
+            "commit_date": "2026-08-09T11:03:48-04:00",
+            "subject": "[mlir][arith][NFC] Make AtomicRMWKind switches exhaustive (#214622)"
         },
         {
-            "hash": "a4544f9d91d9f806791f2ba74cd93b0685fc3f75",
+            "hash": "89815f14ba2fa536c44a4aa1452a6311fb2826ea",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-09T10:38:34+01:00",
-            "subject": "[Passes] Pass Any as const &."
+            "commit_date": "2026-08-09T18:37:21+01:00",
+            "subject": "[PassInstrumentation] Pass Any as const &. (NFC)"
         },
         {
-            "hash": "f8c12ff912cbde606e60138c6e9323e50af55f40",
+            "hash": "4964c658016b3ec40424f186da509577d93657a8",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-09T10:39:07+01:00",
+            "commit_date": "2026-08-09T18:51:58+01:00",
+            "subject": "[PassInstrumentation] Construct llvm::Any once per instrumentation."
+        },
+        {
+            "hash": "78fb1ba9ef2e09358eaa83dfbb908c8a145e95e2",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-09T18:52:25+01:00",
             "subject": "[ADT] Store small trivially-copyable values inline in Any (NFC)"
         }
     ],
