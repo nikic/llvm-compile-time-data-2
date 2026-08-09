@@ -210044,5 +210044,25 @@
             "commit_date": "2026-08-09T09:48:12+01:00",
             "subject": "[VPlan] Check cheap hoist\/sink preconditions before alias checks (NFC)"
         }
+    ],
+    "fhahn\/perf\/any": [
+        {
+            "hash": "5371bcaa368e59a99a03f6a726949ee52e07fb65",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-09T01:06:51-07:00",
+            "subject": "[DomTree] Remove the DomTreeNodeBase overload of isReachableFromEntry. NFC (#215068)"
+        },
+        {
+            "hash": "a4544f9d91d9f806791f2ba74cd93b0685fc3f75",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-09T10:38:34+01:00",
+            "subject": "[Passes] Pass Any as const &."
+        },
+        {
+            "hash": "f8c12ff912cbde606e60138c6e9323e50af55f40",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-09T10:39:07+01:00",
+            "subject": "[ADT] Store small trivially-copyable values inline in Any (NFC)"
+        }
     ]
 }
