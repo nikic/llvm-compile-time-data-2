@@ -198699,6 +198699,12 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-08-09T19:18:50+00:00",
             "subject": "[BFI] Detect irreducible SCC from CycleInfo instead of by failing. NFC (#214941)"
+        },
+        {
+            "hash": "003903d92260a5847464f5cb36fffc8d98bf53b8",
+            "author_name": "Shengxin Pei",
+            "commit_date": "2026-08-09T20:04:20+00:00",
+            "subject": "[InstCombine] Fold select (A & Shift == 0 | B & Shift == 0), 0, Shift to Shift & A & B (#212132)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -210215,9 +210221,15 @@
             "subject": "[PassInstrumentation] Construct llvm::Any once per instrumentation."
         },
         {
-            "hash": "78fb1ba9ef2e09358eaa83dfbb908c8a145e95e2",
+            "hash": "12559bd8dd8975ed795b3b4fc2440a5edcdef025",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-09T18:52:25+01:00",
+            "commit_date": "2026-08-09T21:05:11+01:00",
+            "subject": "Add IRUnit via PointerSumType"
+        },
+        {
+            "hash": "fe026c356a975524fac516a3c5b8370511d4d768",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-09T21:05:33+01:00",
             "subject": "[ADT] Store small trivially-copyable values inline in Any (NFC)"
         }
     ],
@@ -210233,6 +210245,32 @@
             "author_name": "Enna1",
             "commit_date": "2026-08-09T22:00:32+08:00",
             "subject": "test"
+        }
+    ],
+    "fhahn\/perf\/ce-negative-step-monotonic-facts": [
+        {
+            "hash": "25fdcd73aa55dee9d6a15d3b522d4ca42734be92",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-08T21:45:08-07:00",
+            "subject": "[DomTree] Remove redundant getNode() calls. NFC (#215050)"
+        },
+        {
+            "hash": "4fa0967086a325fc0046ccd9da9da6180463dc3a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-09T20:59:16+01:00",
+            "subject": "[ConstraintElim] Add tests for facts with decrementing IVs."
+        },
+        {
+            "hash": "36e30c34632e8982a6ffac887f9341580d32d978",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-09T21:00:51+01:00",
+            "subject": "[Constrinat"
+        },
+        {
+            "hash": "0b67ca53e64e92995554fc7d9ddc77bbd9f4f6a1",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-09T21:03:02+01:00",
+            "subject": "[ConstraintElim] Derive monotonicity facts for negative-step post-inc inductions."
         }
     ]
 }
