@@ -210007,10 +210007,30 @@
             "subject": "[LV] Build the scalar VPlan on demand rather than for every loop (NFC)"
         },
         {
-            "hash": "a7fc52258119b88b2ca50f94ad705624d6c91386",
+            "hash": "36fdb17532a7b63e102736419654b84620189aca",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-09T09:36:23+01:00",
+            "commit_date": "2026-08-09T09:45:13+01:00",
             "subject": "Simplify"
+        }
+    ],
+    "fhahn\/perf\/vplan-licm": [
+        {
+            "hash": "25fdcd73aa55dee9d6a15d3b522d4ca42734be92",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-08T21:45:08-07:00",
+            "subject": "[DomTree] Remove redundant getNode() calls. NFC (#215050)"
+        },
+        {
+            "hash": "5e5aef579d453e4e29b00ece91a0215afc0eed86",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-09T09:48:01+01:00",
+            "subject": "[VPlan] Check enclosing region first"
+        },
+        {
+            "hash": "a3c2a67e9fbf79da1f7e6a42fe4ed333ab8e55d5",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-09T09:48:12+01:00",
+            "subject": "[VPlan] Check cheap hoist\/sink preconditions before alias checks (NFC)"
         }
     ]
 }
