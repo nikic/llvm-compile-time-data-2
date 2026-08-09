@@ -209992,5 +209992,25 @@
             "commit_date": "2026-08-08T23:21:41-07:00",
             "subject": "[DomTree] Store immediate dominator as DFS number. NFC"
         }
+    ],
+    "fhahn\/perf\/vplan-full-scalar-plan-on-demand": [
+        {
+            "hash": "25fdcd73aa55dee9d6a15d3b522d4ca42734be92",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-08T21:45:08-07:00",
+            "subject": "[DomTree] Remove redundant getNode() calls. NFC (#215050)"
+        },
+        {
+            "hash": "bb9a16f7d05432d1468027c7fc8065ce35646aa7",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-09T06:20:56+01:00",
+            "subject": "[LV] Build the scalar VPlan on demand rather than for every loop (NFC)"
+        },
+        {
+            "hash": "a7fc52258119b88b2ca50f94ad705624d6c91386",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-09T09:36:23+01:00",
+            "subject": "Simplify"
+        }
     ]
 }
