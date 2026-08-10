@@ -84669,28 +84669,196 @@
     ],
     "OCHyams\/perf\/scratch": [
         {
-            "hash": "ed1a1eda0ff9c5d59b13551c0447793e92d375bd",
-            "author_name": "Dan Blackwell",
-            "commit_date": "2026-02-25T10:55:41-08:00",
-            "subject": "[compiler-rt][Fuzzer] Relax reduce_inputs.test to account for non-determinism (#182495)"
+            "hash": "6cab7a15e3c89b9ab3becb02b28d788308167fe7",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-04-29T13:40:05+01:00",
+            "subject": "[dyndbg][LLVM] Implement dynamic debugging support"
         },
         {
-            "hash": "c9f6f4ddc605d8287b04ea6b72d7b3e94d0f9410",
+            "hash": "278c62534becef872c8a53d57b1b634580c94021",
             "author_name": "Orlando Cazalet-Hyams",
-            "commit_date": "2026-02-26T08:49:51+00:00",
-            "subject": "compiler changes"
+            "commit_date": "2026-04-29T13:40:05+01:00",
+            "subject": "llvm dyndbg: name unnamed values"
         },
         {
-            "hash": "cbb0fb353e97b0af50def1df0bbb0fa0a2e29846",
+            "hash": "93ff9f8e9420d5cb40b0e3b44f0bfaa34a387f43",
             "author_name": "Orlando Cazalet-Hyams",
-            "commit_date": "2026-02-26T08:49:51+00:00",
-            "subject": "always dbg"
+            "commit_date": "2026-07-06T12:40:48+01:00",
+            "subject": "Merge branch 'main' into dyndbg-llvm"
         },
         {
-            "hash": "867810761ec9fe7951f750edfab92de84feae600",
+            "hash": "1dc77aad34d0a76449bf5988631712c75b5b3928",
             "author_name": "Orlando Cazalet-Hyams",
-            "commit_date": "2026-02-26T08:49:51+00:00",
-            "subject": "flag on"
+            "commit_date": "2026-07-06T12:41:56+01:00",
+            "subject": "fmt"
+        },
+        {
+            "hash": "8366cf87896e28f0e3057976bb098f6e40c1a119",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-07-06T13:05:41+01:00",
+            "subject": "replace atribute no-func-spec with NoIPA"
+        },
+        {
+            "hash": "583c9e3ac9a36ccdc68c3db7da523665dc88934e",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-07-06T13:06:01+01:00",
+            "subject": "block outlining"
+        },
+        {
+            "hash": "2a56b1c20befc334ed1733796849a90c0a0001e3",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-07-06T14:02:59+01:00",
+            "subject": "LLVM_ABI"
+        },
+        {
+            "hash": "d81945d047f4fa73c596c728b68f3103ff899c6f",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-07-07T08:49:04+01:00",
+            "subject": "[dyndbg] Create .debug_llvm_dyndbg section without any section flags"
+        },
+        {
+            "hash": "d49682fb1439614850bf21dd73c4d9fb1d3829e7",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-07-07T08:49:34+01:00",
+            "subject": "[dyndbg][AsmPrinter] Add tail padding attributes"
+        },
+        {
+            "hash": "6efd8706b718962af48457713e363ff5a5351ec6",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-07-07T08:49:34+01:00",
+            "subject": "emit before .size"
+        },
+        {
+            "hash": "1bcfab5bc1abd5b3f1a42c0c6dab5c208f516f5f",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-07-07T08:49:34+01:00",
+            "subject": "verifier: checkUnsignedBaseTenFuncAttr"
+        },
+        {
+            "hash": "16adf8f3dbe0f885fd801989c2478bff3c883600",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-07-07T08:49:34+01:00",
+            "subject": "use getFnAttributeAsParsedInteger"
+        },
+        {
+            "hash": "f77cf9785bf97d62b907b084b5558ae3a11b0965",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-07-07T08:49:34+01:00",
+            "subject": "langref"
+        },
+        {
+            "hash": "4c7775d4731e988c3e93002e1bd76fda342746a1",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-07-07T08:49:34+01:00",
+            "subject": "improve test coverage"
+        },
+        {
+            "hash": "d9af98997570e196d2a9c2465651507c433b3737",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-07-07T08:49:54+01:00",
+            "subject": "[dyndbg][Clang] Implement nested-ELF dynamic debugging support"
+        },
+        {
+            "hash": "725bec1093518c6ba4451fc7cb2bd12aac4e7d41",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-07-07T08:49:54+01:00",
+            "subject": "err on profile-instrumentation"
+        },
+        {
+            "hash": "9eb1904b4e2f6f5079829119420b90feca65ca49",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-07-07T08:49:55+01:00",
+            "subject": "[Clang] Disable dyndbg and sanitizer composition"
+        },
+        {
+            "hash": "98472ec14cfcb752fd04872451215265c2734445",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-07-07T08:49:55+01:00",
+            "subject": "Align .debug_llvm_dyndbg to 8 bytes"
+        },
+        {
+            "hash": "0dd2d877121c4ed3b3563c410d851fc6e0feadfa",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-07-09T14:40:21+01:00",
+            "subject": "kfhdjaahsf"
+        },
+        {
+            "hash": "b7cc9f56cdcfcdfe279c4daaa9daa1d2d87d26b2",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-07-17T13:45:50+01:00",
+            "subject": "clean dyndbg opt pass"
+        },
+        {
+            "hash": "686f2072143d054bc086bfbfc9fd84d9343b1319",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-07-17T13:47:21+01:00",
+            "subject": "ELF section"
+        },
+        {
+            "hash": "5ed8824dbf53b372a9344d5e1096a6f5c451327b",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-07-17T16:00:54+01:00",
+            "subject": "fixup clang patch: update tests"
+        },
+        {
+            "hash": "8760bc66f663d8e96a250a8a0e0eb88508a58ac5",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-07-22T13:14:29+01:00",
+            "subject": "add metadata_section_kind MD: needs tests"
+        },
+        {
+            "hash": "e95556c3c1a1bc442a0f7c6234cc121b6955e3b8",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-07-22T13:21:33+01:00",
+            "subject": "add SectionExclude param to embedBufferInModule - needs tests?"
+        },
+        {
+            "hash": "d99542c959391d30c072f15df0903ce61400b749",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-07-22T17:07:00+01:00",
+            "subject": "Use elf_section_properties metadata for dyndbg"
+        },
+        {
+            "hash": "073df2fdeedd145248e1160fb0353a055effe302",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-08-10T11:44:04+01:00",
+            "subject": "wip"
+        },
+        {
+            "hash": "452b8ab5dfb0a874127629854630e68ee52efa04",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-08-10T12:06:09+01:00",
+            "subject": "wip"
+        },
+        {
+            "hash": "db314fff78e59a4bf37efa9907ec4aae5af07bea",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-08-10T13:13:44+01:00",
+            "subject": "wip: add to createMethod"
+        },
+        {
+            "hash": "e744b4cc54c108929005890502b83ac82c41d762",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-08-10T13:14:08+01:00",
+            "subject": "oops, never added uniquer files?"
+        },
+        {
+            "hash": "556e00eafcab8f1e70563cc3478cc161959af658",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-08-10T13:22:25+01:00",
+            "subject": "fmt"
+        },
+        {
+            "hash": "ce4e16ab5d4dc0e4ca8d026c0dfa32bb7da03581",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-08-10T14:01:26+01:00",
+            "subject": "actually add SPs to the map lol, also fix hash difference between SP and SPLookup"
+        },
+        {
+            "hash": "e43799c5a64098b5115c5bb29c0c896397676d9d",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-08-10T14:45:11+01:00",
+            "subject": "tidy"
         }
     ],
     "tobias-stadler\/perf\/inline-simplify-callerinst": [
@@ -199197,6 +199365,36 @@
             "author_name": "Charles Zablit",
             "commit_date": "2026-08-10T15:46:41+02:00",
             "subject": "[lldb-dap] Convert test to use the require decorator (#213462)"
+        },
+        {
+            "hash": "dd297590de15d5a9a287425d74c67abb46bf9136",
+            "author_name": "ykhatav",
+            "commit_date": "2026-08-10T09:48:16-04:00",
+            "subject": "[Clang][OpenMP] Validate prefer_type fr()\/attr() arguments in append_args clause (#212307)"
+        },
+        {
+            "hash": "9b02a8065f9f62eceaf888861077b5d0cd5ded2b",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-08-10T13:48:32+00:00",
+            "subject": "[X86] concatvectors(cvtneps2bf16(x),cvtneps2bf16(y)) -> cvtne2ps2bf16(y,x) (#215215)"
+        },
+        {
+            "hash": "a33dc5aeb1383dce2d78394deebaea8b8cc714c6",
+            "author_name": "Nazar Mokrynskyi",
+            "commit_date": "2026-08-10T13:49:38+00:00",
+            "subject": "[X86][SchedModel] Use ZMM zero-idiom class for 512-bit VPSUB\/VPCMPGT on Znver4 (#215109)"
+        },
+        {
+            "hash": "635b4166c1bddc03df0aa405cddaa11a2970285d",
+            "author_name": "Kirill Vedernikov",
+            "commit_date": "2026-08-10T15:53:50+02:00",
+            "subject": "[MLIR][NVVM][NVPTX] Add collector_b operand to tcgen05.mma intrinsics (#214280)"
+        },
+        {
+            "hash": "3e9127ba3a056a787e76d155274e05e3d5f76861",
+            "author_name": "Sven van Haastregt",
+            "commit_date": "2026-08-10T15:56:06+02:00",
+            "subject": "[GVN] Use SmallDenseSet for visited node tracking (#215258)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
