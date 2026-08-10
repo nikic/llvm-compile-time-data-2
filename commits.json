@@ -198975,6 +198975,30 @@
             "author_name": "Dharuni R Acharya",
             "commit_date": "2026-08-10T15:36:38+05:30",
             "subject": "[NVPTX] Add intrinsics for ue5m3x2 to f16x2\/bf16x2 conversions (#214411)"
+        },
+        {
+            "hash": "364002a941d75f281556657cb4529e8265a272aa",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-10T10:13:45+00:00",
+            "subject": "[LoopSplitUtils] Revert, removing from tree (#214577)"
+        },
+        {
+            "hash": "47f32bddd3496cea2eac0df5f46108a704dde51d",
+            "author_name": "Jinpeng Wang",
+            "commit_date": "2026-08-10T10:20:45+00:00",
+            "subject": "[VectorCombine] Fold reduction chains with equivalent bitcast sources (#212084)"
+        },
+        {
+            "hash": "29726d8824c206f3b633f526241df2fc3e68b5b6",
+            "author_name": "David Spickett",
+            "commit_date": "2026-08-10T11:22:51+01:00",
+            "subject": "[lldb][AArch64] Detect type for many registers with a single function (#214734)"
+        },
+        {
+            "hash": "a7fd911d28814406982bc91adba8427484660496",
+            "author_name": "Philipp Rados",
+            "commit_date": "2026-08-10T18:25:56+08:00",
+            "subject": "[RISCV] Change undef->poison in cttz_elts.ll test (#215218)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -210479,33 +210503,39 @@
     ],
     "fhahn\/perf\/any": [
         {
-            "hash": "78e17e70bd52058add1b8bfaeafa696b1e4e4cf5",
-            "author_name": "\u66fe\u921c\u5bec Tseng Hung Kuan",
-            "commit_date": "2026-08-09T11:03:48-04:00",
-            "subject": "[mlir][arith][NFC] Make AtomicRMWKind switches exhaustive (#214622)"
+            "hash": "364002a941d75f281556657cb4529e8265a272aa",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-10T10:13:45+00:00",
+            "subject": "[LoopSplitUtils] Revert, removing from tree (#214577)"
         },
         {
-            "hash": "89815f14ba2fa536c44a4aa1452a6311fb2826ea",
+            "hash": "e0864add9cf47bbfc62a9744edc9d4c0c7ff3a43",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-09T18:37:21+01:00",
+            "commit_date": "2026-08-10T11:19:19+01:00",
             "subject": "[PassInstrumentation] Pass Any as const &. (NFC)"
         },
         {
-            "hash": "4964c658016b3ec40424f186da509577d93657a8",
+            "hash": "b391e06a6a36b8cecee6164eb11bbf7c24ba3046",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-09T18:51:58+01:00",
-            "subject": "[PassInstrumentation] Construct llvm::Any once per instrumentation."
-        },
-        {
-            "hash": "12559bd8dd8975ed795b3b4fc2440a5edcdef025",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-09T21:05:11+01:00",
+            "commit_date": "2026-08-10T11:19:19+01:00",
             "subject": "Add IRUnit via PointerSumType"
         },
         {
-            "hash": "fe026c356a975524fac516a3c5b8370511d4d768",
+            "hash": "0b3c1ad06e38794305ab91cd4b2327671cc4b613",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-09T21:05:33+01:00",
+            "commit_date": "2026-08-10T11:19:19+01:00",
+            "subject": "[PassInstrumentation] Pack the IR unit kind into IRUnitRef's pointer."
+        },
+        {
+            "hash": "ed5a8a7678cb12442873a757fe619dbda7cbcf3d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-10T11:19:20+01:00",
+            "subject": "Step"
+        },
+        {
+            "hash": "48ac2e83dbc7265684430decec1fda84178008b8",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-10T11:20:40+01:00",
             "subject": "[ADT] Store small trivially-copyable values inline in Any (NFC)"
         }
     ],
@@ -210557,22 +210587,28 @@
             "subject": "[libc++] Refactor `optional<T>` and `optional<T&>` base classes (#215012)"
         },
         {
-            "hash": "b56f0d49b2f43785dc120cdce23d3e5c9a699c37",
+            "hash": "2b6c973978e346972bd367e6bd32ed4b1f1fa358",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-10T07:56:15+01:00",
+            "commit_date": "2026-08-10T11:08:13+01:00",
             "subject": "[ConstraintSystem] Don't add constant-only rows during FM elimination."
         },
         {
-            "hash": "00ffaff3c947bc42e68b1651c33d334bd48f655e",
+            "hash": "ad3834d63cfb5a2d483b635078e8803f7ed0916f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-10T07:56:15+01:00",
+            "commit_date": "2026-08-10T11:08:14+01:00",
             "subject": "[ConstraintSystem] Give the coefficient vector a large enough inline capacity (NFC)."
         },
         {
-            "hash": "40dea47a3a565a5b557f5158501824fd03f283a3",
+            "hash": "aeab0abf65f9fc1fd33d0e2a560afc980b7ad4a7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-10T07:56:16+01:00",
-            "subject": "[ConstraintSystem] Shrink the inline capacity of a constraint row (NFC)."
+            "commit_date": "2026-08-10T11:08:22+01:00",
+            "subject": "[ConstraintSystem] Avoid copying the system and the query for every solve (NFC)."
+        },
+        {
+            "hash": "56305f411c45794721b8284816ce8751f9604b98",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-10T11:11:35+01:00",
+            "subject": "[ConstraintElim] Add lower bounds for all inductions in a loop header."
         }
     ],
     "c-rhodes\/perf\/aarch64_csr_214773": [
