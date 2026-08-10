@@ -198849,6 +198849,24 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-08-09T22:49:17-07:00",
             "subject": "[Support] Optimize ScaledNumbers::multiply64 (#215172)"
+        },
+        {
+            "hash": "a4f740f144ddccb30bd3b26c69740914518a642b",
+            "author_name": "Bagodiya",
+            "commit_date": "2026-08-10T14:17:40+08:00",
+            "subject": "[InstCombine] Fold X + ((-X) & (C - 1)) to (X + C - 1) & -C (#215122)"
+        },
+        {
+            "hash": "3eb121cd9f7d2069493b19f83434570caad11e70",
+            "author_name": "Bryth",
+            "commit_date": "2026-08-10T08:18:34+02:00",
+            "subject": "[mlir][complex] Make AddOp commutative (#212199)"
+        },
+        {
+            "hash": "93c0911a74433395155ceee38dfe8842f0fc639d",
+            "author_name": "Bryth",
+            "commit_date": "2026-08-10T08:19:39+02:00",
+            "subject": "[mlir][complex] Fix signed zero miscompile with complex.add fold (#212751)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -207729,6 +207747,12 @@
             "author_name": "Jean-Didier PAILLEUX",
             "commit_date": "2026-08-09T05:55:26+00:00",
             "subject": "[Flang] Coarray allocation, update error for pointer component #193829 (#194651)"
+        },
+        {
+            "hash": "ea40e7f7724e16c509327ddfd547593d69598906",
+            "author_name": "Jean-Didier PAILLEUX",
+            "commit_date": "2026-08-10T08:19:04+02:00",
+            "subject": "[flang][MIF] Update prif_coarray_handle in accordance with PRIF 0.8 #214080 (#214747)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
