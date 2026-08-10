@@ -199653,6 +199653,24 @@
             "author_name": "Konstantinos Parasyris",
             "commit_date": "2026-08-10T13:01:46-07:00",
             "subject": "[CIR] Add cir.fmuladd op lowering to llvm.fmuladd (#215329)"
+        },
+        {
+            "hash": "f3d0df914d37098eb8b6c12e8c81ac7842119052",
+            "author_name": "Andy Kaylor",
+            "commit_date": "2026-08-10T13:11:45-07:00",
+            "subject": "[CIR] Add alias analysis skeleton (#214357)"
+        },
+        {
+            "hash": "3ff3c15845129f59030789c1e5aa3aa021a5e82f",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-08-10T13:13:41-07:00",
+            "subject": "[llvm][AArch64] Fix callee-pops epilogue AUT (#211889)"
+        },
+        {
+            "hash": "1069de7c5ab71508bd99620337af261684d87020",
+            "author_name": "David Green",
+            "commit_date": "2026-08-10T21:14:12+01:00",
+            "subject": "[AArch64][GlobalISel] Change the remaining tests to concrete types. NFC (#215383)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -211217,34 +211235,40 @@
     ],
     "fhahn\/perf\/ce-fm-constant-rows": [
         {
-            "hash": "0f985af790f8d542b126de8c3d219fc591df9652",
-            "author_name": "William Tran-Viet",
-            "commit_date": "2026-08-10T14:53:21+08:00",
-            "subject": "[libc++] Refactor `optional<T>` and `optional<T&>` base classes (#215012)"
+            "hash": "fa3119c355fc0be0b70e744d28efd85fcd20d600",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-10T16:04:45+00:00",
+            "subject": "clang\/AMDGPU: Add half typed image gather4 builtin (#213613)"
         },
         {
-            "hash": "2b6c973978e346972bd367e6bd32ed4b1f1fa358",
+            "hash": "c29702172c5475c8956c014cc1da3ea1a62eb18d",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-10T11:08:13+01:00",
+            "commit_date": "2026-08-10T17:37:10+01:00",
+            "subject": "[ConstraintElim] Add lower bounds for all inductions in a loop header."
+        },
+        {
+            "hash": "7b395651a128bcb40962b3ccc20397a5ceae5f55",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-10T17:37:10+01:00",
             "subject": "[ConstraintSystem] Don't add constant-only rows during FM elimination."
         },
         {
-            "hash": "ad3834d63cfb5a2d483b635078e8803f7ed0916f",
+            "hash": "4f0de63d1b5ecbda42b255e41af982d6b3ebba5c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-10T11:08:14+01:00",
+            "commit_date": "2026-08-10T17:37:11+01:00",
             "subject": "[ConstraintSystem] Give the coefficient vector a large enough inline capacity (NFC)."
         },
         {
-            "hash": "aeab0abf65f9fc1fd33d0e2a560afc980b7ad4a7",
+            "hash": "b433bdc6d180d055e945a66ec31dcf06cd928337",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-10T11:08:22+01:00",
+            "commit_date": "2026-08-10T21:14:43+01:00",
             "subject": "[ConstraintSystem] Avoid copying the system and the query for every solve (NFC)."
         },
         {
-            "hash": "56305f411c45794721b8284816ce8751f9604b98",
+            "hash": "63a4e24e181faddd5b0e217f525bfefa7e93ff17",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-10T11:11:35+01:00",
-            "subject": "[ConstraintElim] Add lower bounds for all inductions in a loop header."
+            "commit_date": "2026-08-10T21:14:53+01:00",
+            "subject": "ConstantsOnly"
         }
     ],
     "c-rhodes\/perf\/aarch64_csr_214773": [
