@@ -198885,6 +198885,18 @@
             "author_name": "Pranav Kant",
             "commit_date": "2026-08-10T06:51:38+00:00",
             "subject": "[LoopInfo] Do not enqueue unreachable nodes; fix infinite loop (#214832)"
+        },
+        {
+            "hash": "0f985af790f8d542b126de8c3d219fc591df9652",
+            "author_name": "William Tran-Viet",
+            "commit_date": "2026-08-10T14:53:21+08:00",
+            "subject": "[libc++] Refactor `optional<T>` and `optional<T&>` base classes (#215012)"
+        },
+        {
+            "hash": "98d5b27f79fc897cfc8b72a91a20890fb7443156",
+            "author_name": "LU-JOHN",
+            "commit_date": "2026-08-10T01:58:09-05:00",
+            "subject": "[AMDGPU] Fold constants in 2-elt vector canonicalization (#214384)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -210457,6 +210469,32 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-09T21:03:02+01:00",
             "subject": "[ConstraintElim] Derive monotonicity facts for negative-step post-inc inductions."
+        }
+    ],
+    "fhahn\/perf\/ce-fm-constant-rows": [
+        {
+            "hash": "0f985af790f8d542b126de8c3d219fc591df9652",
+            "author_name": "William Tran-Viet",
+            "commit_date": "2026-08-10T14:53:21+08:00",
+            "subject": "[libc++] Refactor `optional<T>` and `optional<T&>` base classes (#215012)"
+        },
+        {
+            "hash": "b56f0d49b2f43785dc120cdce23d3e5c9a699c37",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-10T07:56:15+01:00",
+            "subject": "[ConstraintSystem] Don't add constant-only rows during FM elimination."
+        },
+        {
+            "hash": "00ffaff3c947bc42e68b1651c33d334bd48f655e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-10T07:56:15+01:00",
+            "subject": "[ConstraintSystem] Give the coefficient vector a large enough inline capacity (NFC)."
+        },
+        {
+            "hash": "40dea47a3a565a5b557f5158501824fd03f283a3",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-10T07:56:16+01:00",
+            "subject": "[ConstraintSystem] Shrink the inline capacity of a constraint row (NFC)."
         }
     ]
 }
