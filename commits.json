@@ -199407,6 +199407,18 @@
             "author_name": "Yue Huang",
             "commit_date": "2026-08-10T17:33:57+01:00",
             "subject": "[MLIR][Mem2Reg] Add support for memref.alloca_scope (#214221)"
+        },
+        {
+            "hash": "8237c29e6b60e2bf3bab374df3f3e429999d2e53",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-08-10T18:39:05+02:00",
+            "subject": "[ADT][Reassociate] Invalidate stale UniformityInfo entries on instruction erase (#214719)"
+        },
+        {
+            "hash": "9d69e21a0043136cd72fd9d9e54df04c71459765",
+            "author_name": "Paul Kirth",
+            "commit_date": "2026-08-10T09:43:57-07:00",
+            "subject": "[lit] Address scaling problems with ProcessPoolExecutor (#214853)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -211019,6 +211031,38 @@
             "author_name": "Shreeyash Pandey",
             "commit_date": "2026-08-07T15:18:28+00:00",
             "subject": "[AArch64][RegAlloc] Enable callee-saved register optimization for AArch64"
+        }
+    ],
+    "fhahn\/perf\/ce-fm-constant-rows2": [
+        {
+            "hash": "fa3119c355fc0be0b70e744d28efd85fcd20d600",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-10T16:04:45+00:00",
+            "subject": "clang\/AMDGPU: Add half typed image gather4 builtin (#213613)"
+        },
+        {
+            "hash": "c29702172c5475c8956c014cc1da3ea1a62eb18d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-10T17:37:10+01:00",
+            "subject": "[ConstraintElim] Add lower bounds for all inductions in a loop header."
+        },
+        {
+            "hash": "73e1f851eab7c371b084f567af60f18ef2aa44f5",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-10T17:37:10+01:00",
+            "subject": "[ConstraintSystem] Don't add constant-only rows during FM elimination."
+        },
+        {
+            "hash": "f55d2aec12491e938353c71c6eacca24cbacafc8",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-10T17:37:11+01:00",
+            "subject": "[ConstraintSystem] Give the coefficient vector a large enough inline capacity (NFC)."
+        },
+        {
+            "hash": "d4ff8f3a21656729bfa26891dcc1f91e8b50e5b9",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-10T17:37:11+01:00",
+            "subject": "[ConstraintSystem] Avoid copying the system and the query for every solve (NFC)."
         }
     ]
 }
