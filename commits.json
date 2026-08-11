@@ -200319,6 +200319,30 @@
             "author_name": "Raphael Isemann",
             "commit_date": "2026-08-11T14:28:51+00:00",
             "subject": "[lldb][NFC] Fix unused variables in RegisterContextPOSIXCore_riscv32 (#215569)"
+        },
+        {
+            "hash": "d7cb4acff3d2b1942d599dd18e0f8048cc912a0b",
+            "author_name": "Victor Perez",
+            "commit_date": "2026-08-11T10:41:54-04:00",
+            "subject": "[mlir][tensor] Add a ValueBoundsOpInterface model for tensor.splat (#215344)"
+        },
+        {
+            "hash": "5f1702af42d06448f9a5653cc9ed3162920b371d",
+            "author_name": "Victor Perez",
+            "commit_date": "2026-08-11T10:42:22-04:00",
+            "subject": "[mlir][tensor] Add a ValueBoundsOpInterface model for tensor.concat (#215346)"
+        },
+        {
+            "hash": "9c317bbbdbeaaf2b2e039ece201baba8f21f9d2a",
+            "author_name": "Spencer Bryngelson",
+            "commit_date": "2026-08-11T10:46:23-04:00",
+            "subject": "[OpenMP][DeviceRTL] Use the actual block size in the SPMD no-loop distribute path (#214073)"
+        },
+        {
+            "hash": "81e8fe4480842d56821d2b09a757bdc4e26eeb0c",
+            "author_name": "dmaclach",
+            "commit_date": "2026-08-11T10:47:18-04:00",
+            "subject": "[clang] Replace existing `#include` directives with `#import` when inserting an import (#213751)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -212071,6 +212095,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-10T17:37:11+01:00",
             "subject": "[ConstraintSystem] Avoid copying the system and the query for every solve (NFC)."
+        }
+    ],
+    "c-rhodes\/perf\/codegen-regclassinfo-ignoreCSRForAllocationOrder-opt": [
+        {
+            "hash": "9c7ba7b1d12ed3f395a2317c525a98e5bfcf28e9",
+            "author_name": "Sean Perry",
+            "commit_date": "2026-08-10T09:32:27-04:00",
+            "subject": "[AIX][SystemZ][Support] Check if file is dir on open instead of read (#214815)"
+        },
+        {
+            "hash": "c80013a2d8e968eeeb23280663e73c86e7e5616f",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-08-11T14:45:06+00:00",
+            "subject": "[CodeGen] Optimize ignoreCSRForAllocationOrder"
         }
     ]
 }
