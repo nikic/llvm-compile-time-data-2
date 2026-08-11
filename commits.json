@@ -200241,6 +200241,24 @@
             "author_name": "Arseniy Obolenskiy",
             "commit_date": "2026-08-11T15:18:58+02:00",
             "subject": "[NFC][SPIR-V] Fuse redundant full-traversal loops in SPIRVPrepareFunctions (#215490)"
+        },
+        {
+            "hash": "d798a6dd1c30146a9cdee7eb4f5c2a35967cd991",
+            "author_name": "Tom Stellard",
+            "commit_date": "2026-08-11T06:28:56-07:00",
+            "subject": "workflows\/release-binaries: Fixup Windows version string for release candidates (#215030)"
+        },
+        {
+            "hash": "d3186b091c06216502f668871fcafb2b848e2201",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-08-11T15:30:16+02:00",
+            "subject": "[lldb][Windows] Expose each thread's TEB address as extended thread info (#213301)"
+        },
+        {
+            "hash": "e7b0b420957ed4a250a6b137fc6834c9d5d247bd",
+            "author_name": "Sunil Shrestha",
+            "commit_date": "2026-08-11T06:32:36-07:00",
+            "subject": "[Flang][OpenMP] Support conditional lastprivate on host (#200086)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -210459,6 +210477,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-11T07:06:17+02:00",
             "subject": "Merge branch 'main' into perf\/getrangeatuse-single-user3"
+        },
+        {
+            "hash": "18b96df2171c0f1858d7c7721d024e70cd91cea6",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-11T15:27:23+02:00",
+            "subject": "Merge branch 'main' into perf\/getrangeatuse-single-user3"
         }
     ],
     "alexey-bataev\/perf\/SLPOneUse1113": [
@@ -211883,40 +211907,64 @@
     ],
     "fhahn\/perf\/ce-fm-constant-rows": [
         {
-            "hash": "fa3119c355fc0be0b70e744d28efd85fcd20d600",
-            "author_name": "Matt Arsenault",
-            "commit_date": "2026-08-10T16:04:45+00:00",
-            "subject": "clang\/AMDGPU: Add half typed image gather4 builtin (#213613)"
+            "hash": "d33566d943e5ebc7065b1b077910ef91ea6d9be6",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-08-11T15:18:58+02:00",
+            "subject": "[NFC][SPIR-V] Fuse redundant full-traversal loops in SPIRVPrepareFunctions (#215490)"
         },
         {
-            "hash": "c29702172c5475c8956c014cc1da3ea1a62eb18d",
+            "hash": "56b8e0e5190cb7330ad96a76f778d173bbdff70b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-10T17:37:10+01:00",
+            "commit_date": "2026-08-11T14:20:53+01:00",
             "subject": "[ConstraintElim] Add lower bounds for all inductions in a loop header."
         },
         {
-            "hash": "7b395651a128bcb40962b3ccc20397a5ceae5f55",
+            "hash": "12171199b96f88dc05bb97c519f84f0b796bdaf2",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-10T17:37:10+01:00",
+            "commit_date": "2026-08-11T14:20:53+01:00",
             "subject": "[ConstraintSystem] Don't add constant-only rows during FM elimination."
         },
         {
-            "hash": "4f0de63d1b5ecbda42b255e41af982d6b3ebba5c",
+            "hash": "c289d226c20ecd9a4ed1c274104e8b211c6567c7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-10T17:37:11+01:00",
+            "commit_date": "2026-08-11T14:20:54+01:00",
             "subject": "[ConstraintSystem] Give the coefficient vector a large enough inline capacity (NFC)."
         },
         {
-            "hash": "b433bdc6d180d055e945a66ec31dcf06cd928337",
+            "hash": "45afce868528b0b1b59a3cd36fcfe35b96a93c70",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-10T21:14:43+01:00",
+            "commit_date": "2026-08-11T14:20:54+01:00",
             "subject": "[ConstraintSystem] Avoid copying the system and the query for every solve (NFC)."
         },
         {
-            "hash": "63a4e24e181faddd5b0e217f525bfefa7e93ff17",
+            "hash": "e4f542b7ce15d3383e02819e4da5985e836a39a0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-10T21:14:53+01:00",
+            "commit_date": "2026-08-11T14:20:54+01:00",
             "subject": "ConstantsOnly"
+        },
+        {
+            "hash": "439c95afd7e25d87a96c2325078be4d66fa82603",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-11T14:24:07+01:00",
+            "subject": "[SCEV] Propagate a recurrence's no-wrap flags to its exit value."
+        },
+        {
+            "hash": "777940a3cadc5692c949a0d1ed05c65481cc3237",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-11T14:24:15+01:00",
+            "subject": "[SCEV] A no-wrap AddRec is never below its start value."
+        },
+        {
+            "hash": "30ffc0ef1e067ef2445a155bebf7b60e18730bcb",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-11T14:24:33+01:00",
+            "subject": "[InstCombine] Fold a select of a shift and its boundary value to a clamp."
+        },
+        {
+            "hash": "0862cc56102dada19451906697836498b1009a55",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-11T14:24:45+01:00",
+            "subject": "[SCEV] Apply a dominating upper bound to the start of a monotonic AddRec."
         }
     ],
     "c-rhodes\/perf\/aarch64_csr_214773": [
