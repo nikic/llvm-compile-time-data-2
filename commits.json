@@ -200691,6 +200691,36 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-11T18:57:37+00:00",
             "subject": "[CVP] Extract computeNoWrapFlags helper from processBinOp (NFC). (#207527)"
+        },
+        {
+            "hash": "297c739709b51dfcd9bb447f8210b525cc4a0d49",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-08-11T14:58:35-04:00",
+            "subject": "[SLP][NFC]Add a test with reassociated fmul\/fadd\/fsub missed in fma, NFC"
+        },
+        {
+            "hash": "bf2fc124673798d92c70d368652ad30769dbff80",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-08-11T14:59:28-04:00",
+            "subject": "[libc++] Skip dry-runs of the workflow in dispatch-benchmarks (#215637)"
+        },
+        {
+            "hash": "cbca9b8cc23f5a2e28c3f896a31c62aed4f2063e",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-08-11T15:00:05-04:00",
+            "subject": "[libc++] Remove legacy LNT benchmarking infrastructure (#215612)"
+        },
+        {
+            "hash": "d4696cc7fa234a69d6aa37077696c04dd3df5d85",
+            "author_name": "Alex MacLean",
+            "commit_date": "2026-08-11T12:01:58-07:00",
+            "subject": "[NVPTX] Add NewPM boilerplate to NVPTXReplaceImageHandles (#215327)"
+        },
+        {
+            "hash": "dbde22497768e692c402e8b1c7ad1dfe63db5c69",
+            "author_name": "Richard Smith",
+            "commit_date": "2026-08-11T19:02:24+00:00",
+            "subject": "Fix visibility of default arguments in friends. (#215395)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -212467,22 +212497,16 @@
             "subject": "[SLP]Flatten alternate associative chains into one reassociated node"
         },
         {
-            "hash": "d399dd23210f8e890597ad8604eb33d6699fad59",
+            "hash": "616820527baba1778086c9001f3601cabda7154f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-11T16:18:00+01:00",
-            "subject": "[ConstraintSystem] Give the coefficient vector a large enough inline capacity (NFC)."
-        },
-        {
-            "hash": "f4f403b5072bc9e65a0832793b420314955c41fe",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-11T18:38:25+01:00",
-            "subject": "[ConstraintSystem] Add rows with a single coefficient directly (NFC)."
-        },
-        {
-            "hash": "a7a8bb61e14e1e98e3de9ecf23958efd4297f804",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-11T18:45:41+01:00",
+            "commit_date": "2026-08-11T19:52:58+01:00",
             "subject": "[ConstraintSystem] Build constraint rows in sparse form (NFC)."
+        },
+        {
+            "hash": "3b42882ca30b165825afbe2d53d4a25f70d6e9a0",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-11T19:54:01+01:00",
+            "subject": "[ConstraintSystem] Add rows with a single coefficient directly (NFC)."
         }
     ]
 }
