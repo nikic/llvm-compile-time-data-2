@@ -200433,6 +200433,42 @@
             "author_name": "Tomer Shafir",
             "commit_date": "2026-08-11T18:27:40+03:00",
             "subject": "[MISched] Reformat print of region header (#215540)"
+        },
+        {
+            "hash": "470c2f5bb8d4ee22b51bad3e7313922b110c34e1",
+            "author_name": "Mikhail Gudim",
+            "commit_date": "2026-08-11T08:29:32-07:00",
+            "subject": "[RISCV][NFC] Add tests for zext(phi\/select) (#215363)"
+        },
+        {
+            "hash": "35b1b567a0db2679da5635eb9689dd5d1ffa2d91",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-11T16:31:12+01:00",
+            "subject": "[Verifier] Strip incorrect strictfp FIXME, test (NFC) (#215487)"
+        },
+        {
+            "hash": "ba0b623b6736102901346f4889891a1d8a42caf7",
+            "author_name": "Ellis Hoag",
+            "commit_date": "2026-08-11T08:31:55-07:00",
+            "subject": "[lld][macho] Use canonical() to find ICF thunks to order (#214558)"
+        },
+        {
+            "hash": "c8d3f60785e5ae8f2e8c89463d7fb6bf12334d07",
+            "author_name": "Sophia Herrmann",
+            "commit_date": "2026-08-11T08:34:17-07:00",
+            "subject": "[Offload] generate LLVMOffloadKernel library (#211694)"
+        },
+        {
+            "hash": "ef04927f4a8b890504d770186f6002f487a6790e",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-08-11T08:37:06-07:00",
+            "subject": "[DWARFLinker] Keep module type definitions in the parallel linker (#215435)"
+        },
+        {
+            "hash": "2bef9576d0c37f71dbe6cd50d8fce69e2f27ea18",
+            "author_name": "Med Ismail Bennani",
+            "commit_date": "2026-08-11T08:38:22-07:00",
+            "subject": "[lldb\/test] Retry the remote platform connection in dotest (#215425)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -207279,27 +207315,27 @@
     ],
     "fhahn\/perf\/cvp-at-use-nsw-nuw": [
         {
-            "hash": "92aded9ac802ed85971627bfa651697f960eefbf",
-            "author_name": "Kareem Ergawy",
-            "commit_date": "2026-07-20T09:54:10+02:00",
-            "subject": "[flang][PFT-to-MLIR] Wrap unstructured Fortran constructs in scf.execute_region (#208635)"
+            "hash": "ed76a52ce1e0679d56403a5a10fa040201f561e9",
+            "author_name": "Nerixyz",
+            "commit_date": "2026-08-11T15:15:05+00:00",
+            "subject": "[lldb] Use `GetValueAsUnsigned` for pointers in an `lldb.value` (#215580)"
         },
         {
-            "hash": "f8d2a04b92481cf1e14e3d684fa6d9b8bc760a8d",
+            "hash": "0ec2584ef4c96e9a1db763db0ec72a09b6203993",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-20T11:38:16+01:00",
+            "commit_date": "2026-08-11T16:20:04+01:00",
             "subject": "[CVP] Extract computeNoWrapFlags helper from processBinOp (NFC)."
         },
         {
-            "hash": "c08a480dbc946a6918cede5b1a8173570cb36d6e",
+            "hash": "620f536b56e4cb5e36c6874074e5f9cf1b18004b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-20T11:38:16+01:00",
+            "commit_date": "2026-08-11T16:20:04+01:00",
             "subject": "[CVP] Add tests."
         },
         {
-            "hash": "d0b190f693b45f32e47b41d8b4d25ee6988a0409",
+            "hash": "892ec5f6decf5eda5c37b0be889725c86a174fd9",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-20T11:38:16+01:00",
+            "commit_date": "2026-08-11T16:32:59+01:00",
             "subject": "[CVP] Infer no-wrap flags from operand ranges at use sites."
         }
     ],
