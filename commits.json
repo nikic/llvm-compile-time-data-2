@@ -201549,6 +201549,18 @@
             "author_name": "Kaitlin Peng",
             "commit_date": "2026-08-12T10:43:47-07:00",
             "subject": "[HLSL] Move `radians` implementation to header files (#215379)"
+        },
+        {
+            "hash": "1204e6f2e85920e9aac396ee413d8a234b42a884",
+            "author_name": "Kaitlin Peng",
+            "commit_date": "2026-08-12T10:58:12-07:00",
+            "subject": "[HLSL] Move `lerp` implementation to header files (#215692)"
+        },
+        {
+            "hash": "cb721957e5e78875ea1d96dc53d46353e7b98d23",
+            "author_name": "Ayush Sahay",
+            "commit_date": "2026-08-12T23:30:18+05:30",
+            "subject": "[lldb][RISCV] Construct CSR information dynamically (#203234)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -213363,6 +213375,116 @@
             "author_name": "John Brawn",
             "commit_date": "2026-08-12T17:18:53+01:00",
             "subject": "[SROA] Use SparseBitVector for splittable offsets"
+        }
+    ],
+    "Sockke\/perf\/spillplacement-linkindex-threshold32": [
+        {
+            "hash": "26d08c22c68bbb9e644012c4e5cae32f68d897cb",
+            "author_name": "saloni-shinde-Q",
+            "commit_date": "2026-07-30T11:23:55+05:30",
+            "subject": "[RISCV][MC] Improve FPR Error Messages (#212492)"
+        },
+        {
+            "hash": "c6de17f018d215e51064ab281965a96265fdd720",
+            "author_name": "Sockke",
+            "commit_date": "2026-07-30T16:35:49+08:00",
+            "subject": "[CodeGen] Speed up SpillPlacement addLink lookups"
+        }
+    ],
+    "kartcq\/perf\/eager-bfi": [
+        {
+            "hash": "93c0911a74433395155ceee38dfe8842f0fc639d",
+            "author_name": "Bryth",
+            "commit_date": "2026-08-10T08:19:39+02:00",
+            "subject": "[mlir][complex] Fix signed zero miscompile with complex.add fold (#212751)"
+        },
+        {
+            "hash": "1435a866d11762526ba9696e1bae87fcf14986a0",
+            "author_name": "Karthika Devi C",
+            "commit_date": "2026-08-10T03:34:53-07:00",
+            "subject": "[LoopVectorize] Compute BlockFrequencyInfo eagerly to fix assertion failure"
+        },
+        {
+            "hash": "ff5a6dfa183d3a593fe4b2bd939b1073a14ce54a",
+            "author_name": "Karthika Devi C",
+            "commit_date": "2026-08-10T04:51:20-07:00",
+            "subject": "NFC: clang-format LoopVectorize.cpp"
+        },
+        {
+            "hash": "0245aa32550651c677fa4c6ad6a95349cb2a18d0",
+            "author_name": "Karthika Devi C",
+            "commit_date": "2026-08-10T05:55:03-07:00",
+            "subject": "Add regression test for BFI crash"
+        },
+        {
+            "hash": "4cbef7057545587d2fa09653edffa6d0c1806b10",
+            "author_name": "Karthika Devi C",
+            "commit_date": "2026-08-10T07:22:44-07:00",
+            "subject": "Update pass manager tests"
+        },
+        {
+            "hash": "7a793d01b4226535362fbe46203d6596c5aaf073",
+            "author_name": "Karthika Devi C",
+            "commit_date": "2026-08-11T00:51:48-07:00",
+            "subject": "Update bfi-stale-crash test as per review comments"
+        }
+    ],
+    "mbhade-amd\/perf\/slp-stlf": [
+        {
+            "hash": "0ef35be046b020a2106651ad4da879249872c88e",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-06-01T14:09:12+02:00",
+            "subject": "[clang][bytecode] Don't deref() non-dereferencable pointers (#200774)"
+        },
+        {
+            "hash": "4687e85e80a2866a8c61dae7de061d9da22bf71b",
+            "author_name": "mbhade",
+            "commit_date": "2026-06-01T18:29:59+05:30",
+            "subject": "[SLP] Bail out on store-to-load forwarding hazards"
+        },
+        {
+            "hash": "52855d752960bacb9ce876a6f808fa8442601da5",
+            "author_name": "mbhade",
+            "commit_date": "2026-06-11T15:52:35+05:30",
+            "subject": "[SLP] Address review comments on STLF bail-out"
+        },
+        {
+            "hash": "a20a32ca56ff1f6e03c4cfaed51cdc2f94c54c5d",
+            "author_name": "mbhade",
+            "commit_date": "2026-07-20T11:55:30+05:30",
+            "subject": "[SLP] Model store-to-load forwarding hazards as a cost penalty"
+        },
+        {
+            "hash": "e98fce2be4c658a8ed58edd90cb8466f837f4f57",
+            "author_name": "mbhade",
+            "commit_date": "2026-07-21T14:18:55+05:30",
+            "subject": "[SLP] Default store-to-load forwarding penalty to 10 cycles"
+        },
+        {
+            "hash": "f683bece9cfc7e4a48cfd5063a8219c5ea577d1c",
+            "author_name": "mbhade",
+            "commit_date": "2026-07-22T13:28:23+05:30",
+            "subject": "[SLP] Address review comments on the STLF cost hook"
+        }
+    ],
+    "mbhade-amd\/perf\/slp-stlf-cost-model": [
+        {
+            "hash": "4120b5f5a3770cea9b26063eaca3d18153307961",
+            "author_name": "Yingying Wang",
+            "commit_date": "2026-07-31T16:53:04+08:00",
+            "subject": "[RISCV] Deduplicate frame base address materializations for large stack frames (#211748)"
+        },
+        {
+            "hash": "b612a00c90ccd0c1609e42224c8aa16c39d1b174",
+            "author_name": "mbhade",
+            "commit_date": "2026-07-31T15:10:14+05:30",
+            "subject": "[SLP] Model store-to-load forwarding hazards as a cost penalty"
+        },
+        {
+            "hash": "6766960ddae4347a14f7aea98f43f243734ef3d1",
+            "author_name": "mbhade",
+            "commit_date": "2026-08-06T15:05:19+05:30",
+            "subject": "[SLP] Address review comments on STLF cost modeling - Enumerate candidate loads directly from the tree's load\/gather nodes   instead of a whole-tree operand walk. - Move the scalable-type bailout early and drop the redundant VF cast. - Extend the no-conflict cache seeding to all divisors of VF (covers   non-power-of-2 VFs), and add a -slp-vectorize-non-power-of-2 test. - Define the fallback STLF penalty as an InstructionCost in the TTI   layer and drop the MCSchedule.h include from TargetTransformInfoImpl.h."
         }
     ]
 }
