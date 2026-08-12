@@ -201147,6 +201147,12 @@
             "author_name": "David Meng",
             "commit_date": "2026-08-12T11:22:46+03:00",
             "subject": "[clang-tidy] Fix `misc-const-correctness` false positive on writes through adjusted pointers (#215285)"
+        },
+        {
+            "hash": "3c40ab78ebf73964a0fe045c2fdfe6fdae6e5ce1",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-08-12T10:25:31+02:00",
+            "subject": "[clang][bytecode][NFC] Remove unused includes from Boolean.h (#215741)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -212937,16 +212943,16 @@
     ],
     "MaskRay\/perf\/fastra-ssra": [
         {
-            "hash": "52d63830c519ed2d51c43fc418f0ae3232ac65e9",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-08-09T22:49:17-07:00",
-            "subject": "[Support] Optimize ScaledNumbers::multiply64 (#215172)"
+            "hash": "f41b4745c00282e7d46fc9392626dac6ec536ac1",
+            "author_name": "Chuanqi Xu",
+            "commit_date": "2026-08-12T14:31:52+08:00",
+            "subject": "[mlir] [arith] Fold trunc(extremum(ext(lhs), ext(rhs))) (#214658)"
         },
         {
-            "hash": "069cd19d2f3539249295901640845d2c05f61859",
+            "hash": "3f727092579d58a472d8a4a8721b19da4bc80831",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-08-11T21:43:01-07:00",
-            "subject": "[RegAllocFast] Consume SSA MachineIR, absorbing PHI and two-address lowering"
+            "commit_date": "2026-08-12T01:29:16-07:00",
+            "subject": "[CodeGen] Derive the regalloc pipeline from the allocator, remove -optimize-regalloc"
         }
     ]
 }
