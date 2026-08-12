@@ -201537,6 +201537,12 @@
             "author_name": "Lucile Rose Nihlen",
             "commit_date": "2026-08-12T10:24:47-07:00",
             "subject": "Exclude more libc math C++ builtins from compiler-rt Bazel overlay (#214779)"
+        },
+        {
+            "hash": "5f4fba907b0ab490ca0c16f714083512c39a4607",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-12T19:33:45+02:00",
+            "subject": "DAG: Gracefully diagnose missing lrint\/lround float-operand libcalls (#215064)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -213333,9 +213339,9 @@
             "subject": "[mlir] [arith] Fold trunc(extremum(ext(lhs), ext(rhs))) (#214658)"
         },
         {
-            "hash": "3f727092579d58a472d8a4a8721b19da4bc80831",
+            "hash": "909f2ca05b7b4be57798de7931459c9b14d5f0db",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-08-12T01:29:16-07:00",
+            "commit_date": "2026-08-12T10:27:35-07:00",
             "subject": "[CodeGen] Derive the regalloc pipeline from the allocator, remove -optimize-regalloc"
         }
     ],
