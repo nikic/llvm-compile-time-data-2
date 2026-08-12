@@ -201045,6 +201045,12 @@
             "author_name": "Keshav Vinayak Jha",
             "commit_date": "2026-08-12T11:12:28+05:30",
             "subject": "[AMDGPU] Avoid width-32 V_BFE in GlobalISel (#215457)"
+        },
+        {
+            "hash": "83ec9bd7181db8e5be6de82f0d74295abf48ae91",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-08-12T07:50:25+02:00",
+            "subject": "[clang][bytecode][NFC] Remove redundant setSource() call (#215716)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -207891,27 +207897,21 @@
     ],
     "fhahn\/perf\/cvp-at-use-nsw-nuw": [
         {
-            "hash": "ed76a52ce1e0679d56403a5a10fa040201f561e9",
-            "author_name": "Nerixyz",
-            "commit_date": "2026-08-11T15:15:05+00:00",
-            "subject": "[lldb] Use `GetValueAsUnsigned` for pointers in an `lldb.value` (#215580)"
+            "hash": "2088c0abbe7529a02dd7f3da40eade01d4b60b47",
+            "author_name": "Keshav Vinayak Jha",
+            "commit_date": "2026-08-12T11:12:28+05:30",
+            "subject": "[AMDGPU] Avoid width-32 V_BFE in GlobalISel (#215457)"
         },
         {
-            "hash": "0ec2584ef4c96e9a1db763db0ec72a09b6203993",
+            "hash": "5245a4e65929509a61e17f2c93120ab7af6c88f1",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-11T16:20:04+01:00",
-            "subject": "[CVP] Extract computeNoWrapFlags helper from processBinOp (NFC)."
-        },
-        {
-            "hash": "620f536b56e4cb5e36c6874074e5f9cf1b18004b",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-11T16:20:04+01:00",
+            "commit_date": "2026-08-12T06:49:47+01:00",
             "subject": "[CVP] Add tests."
         },
         {
-            "hash": "892ec5f6decf5eda5c37b0be889725c86a174fd9",
+            "hash": "6a86d0be73b7605fe06ca4bec954a766a36289b8",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-11T16:32:59+01:00",
+            "commit_date": "2026-08-12T06:49:47+01:00",
             "subject": "[CVP] Infer no-wrap flags from operand ranges at use sites."
         }
     ],
