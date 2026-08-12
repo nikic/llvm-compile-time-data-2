@@ -201015,6 +201015,12 @@
             "author_name": "Akimasa Watanuki",
             "commit_date": "2026-08-12T13:45:18+09:00",
             "subject": "[MLIR][LLVM] Preserve global value metadata operands on import (#203017)"
+        },
+        {
+            "hash": "adddcef03b6d1e4b20ee7ebad6d32926ab632d9d",
+            "author_name": "Kiva",
+            "commit_date": "2026-08-12T13:04:29+08:00",
+            "subject": "[ValueTracking][InstCombine] Preserve samesign when flipping icmp strictness (#209097)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -212807,6 +212813,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-11T22:14:06+01:00",
             "subject": "[ConstraintSystem] Build constraint rows in sparse form (NFC)."
+        }
+    ],
+    "MaskRay\/perf\/fastra-ssra": [
+        {
+            "hash": "52d63830c519ed2d51c43fc418f0ae3232ac65e9",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-09T22:49:17-07:00",
+            "subject": "[Support] Optimize ScaledNumbers::multiply64 (#215172)"
+        },
+        {
+            "hash": "069cd19d2f3539249295901640845d2c05f61859",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-11T21:43:01-07:00",
+            "subject": "[RegAllocFast] Consume SSA MachineIR, absorbing PHI and two-address lowering"
         }
     ]
 }
