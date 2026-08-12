@@ -92219,64 +92219,22 @@
     ],
     "tbaederr\/perf\/ce-test3": [
         {
-            "hash": "524e20d6c6559de7fef8953cea543c0023a39f6b",
-            "author_name": "Arseniy Obolenskiy",
-            "commit_date": "2026-08-11T07:42:14+02:00",
-            "subject": "[AMDGPU] Let LDSDMA ops cross a sched_barrier when the mask allows it (#203255)"
+            "hash": "4a0fdbc25bb738b5d550fefa71bf854e6ba7d422",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-08-12T17:04:37+10:00",
+            "subject": "[orc-rt] Add GDBJITRegistrar for debug object registration (#215739)"
         },
         {
-            "hash": "2076bebf7787eb932f44bec00bd2ad503f4787e8",
+            "hash": "9c9bbff38f866714c5db1608654393f67797a387",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-11T13:23:48+02:00",
+            "commit_date": "2026-08-12T10:02:11+02:00",
             "subject": "Test"
         },
         {
-            "hash": "c89568601da2faeeb59f26e5b98411c3e05cc5d1",
+            "hash": "d9c7e7501b6ffc74383c77dba961634dab56d217",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-11T13:23:50+02:00",
-            "subject": "source mapper mess"
-        },
-        {
-            "hash": "3da84f5b4d6ac5568510de2a348f96ac08896061",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-11T14:47:07+02:00",
-            "subject": "[clang][bytecode] Take rvalue references in Global ctor"
-        },
-        {
-            "hash": "0b2bad33bca8c3ae768882ea9f589b735c91a103",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-11T14:47:31+02:00",
-            "subject": "[clang][bytecode] Fix copy-paste error in needsCtor()"
-        },
-        {
-            "hash": "532e0d687776e8cdfa9511b0b0e9b1d9a1228092",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-11T14:47:54+02:00",
-            "subject": "[clang][bytecode][NFC] Fix some copies in for-range loops"
-        },
-        {
-            "hash": "f2d852c00a3a02edc686e779876914afc4767334",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-11T14:49:29+02:00",
-            "subject": "getfielddesc in PtrView::getTyep()"
-        },
-        {
-            "hash": "a24580c91d8b78988b8d83a8f14dc9e11dbccb54",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-12T06:47:25+02:00",
-            "subject": "[clang][bytecode][NFC] Use hasBody() instead of getBody()"
-        },
-        {
-            "hash": "011789af0dfb4b0605f6592ebcb1fc8e5385e66c",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-12T09:02:15+02:00",
-            "subject": "sourcempa"
-        },
-        {
-            "hash": "021c41510f28c4143ec98097dba15e9ea4150ffb",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-12T09:02:17+02:00",
-            "subject": "pointers"
+            "commit_date": "2026-08-12T10:02:11+02:00",
+            "subject": "CheckConstant"
         }
     ],
     "fhahn\/perf\/proveNoWrapViaConstantRanges": [
@@ -201165,6 +201123,12 @@
             "author_name": "Timm Baeder",
             "commit_date": "2026-08-12T09:46:08+02:00",
             "subject": "[clang][bytecode] Fix copy-paste error in needsCtor() (#215542)"
+        },
+        {
+            "hash": "6c8a605e097863e8410bb81c434702f2ce13902a",
+            "author_name": "Bryth",
+            "commit_date": "2026-08-12T09:57:02+02:00",
+            "subject": "[mlir][complex] Make complex MulOp commutative (#215257)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -212933,10 +212897,10 @@
             "subject": "[AIX][SystemZ][Support] Check if file is dir on open instead of read (#214815)"
         },
         {
-            "hash": "c80013a2d8e968eeeb23280663e73c86e7e5616f",
+            "hash": "10dcdd24f082d00258e43ce4dfa74524aa3f5b6d",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-08-11T14:45:06+00:00",
-            "subject": "[CodeGen] Optimize ignoreCSRForAllocationOrder"
+            "commit_date": "2026-08-12T07:56:52+00:00",
+            "subject": "[CodeGen] Avoid querying allocation order for every CSR alias"
         }
     ],
     "fhahn\/perf\/ce-inline-storage": [
