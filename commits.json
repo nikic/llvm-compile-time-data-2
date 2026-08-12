@@ -201591,6 +201591,24 @@
             "author_name": "Bruno Cardoso Lopes",
             "commit_date": "2026-08-12T11:27:53-07:00",
             "subject": "[CIR] Honor -fno-clangir (#214904)"
+        },
+        {
+            "hash": "4127ca442f8fb248d504d94c11c8c47a0518dd56",
+            "author_name": "Alex Langford",
+            "commit_date": "2026-08-12T11:34:14-07:00",
+            "subject": "[lldb] Remove ConstString from DumpValueObjectOptions (#215421)"
+        },
+        {
+            "hash": "d3fa48732e0d1a76746fafecb879e65ec3a3aff0",
+            "author_name": "Richard Smith",
+            "commit_date": "2026-08-12T18:36:01+00:00",
+            "subject": "Fix lambda merging to apply to locally-parsed lambdas. (#215661)"
+        },
+        {
+            "hash": "5835482e92cc469259e2d24f3eb5f1e5a584428b",
+            "author_name": "Victor Perez",
+            "commit_date": "2026-08-12T14:38:43-04:00",
+            "subject": "[mlir][bufferization] Make the dialect's bufferization customizable (#215590)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -208437,12 +208455,6 @@
     ],
     "fhahn\/perf\/cvp-at-use-nsw-nuw": [
         {
-            "hash": "2088c0abbe7529a02dd7f3da40eade01d4b60b47",
-            "author_name": "Keshav Vinayak Jha",
-            "commit_date": "2026-08-12T11:12:28+05:30",
-            "subject": "[AMDGPU] Avoid width-32 V_BFE in GlobalISel (#215457)"
-        },
-        {
             "hash": "5245a4e65929509a61e17f2c93120ab7af6c88f1",
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-12T06:49:47+01:00",
@@ -208453,6 +208465,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-12T06:49:47+01:00",
             "subject": "[CVP] Infer no-wrap flags from operand ranges at use sites."
+        },
+        {
+            "hash": "cec4236eeef3c200c4bb852d7e07c7b9dc3fd295",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-12T20:35:48+02:00",
+            "subject": "Merge branch 'main' into perf\/cvp-at-use-nsw-nuw"
         }
     ],
     "aengelke\/perf\/formatv-vtables": [
