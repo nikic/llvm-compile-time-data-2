@@ -201495,6 +201495,24 @@
             "author_name": "ppetrovi-amd",
             "commit_date": "2026-08-12T16:58:34+00:00",
             "subject": "[MLIR][ROCm] Export runtime wrappers on Windows (#213046)"
+        },
+        {
+            "hash": "fae0fc73ef861b9eb9547572da1d0abf2611d4d0",
+            "author_name": "Anthony Latsis",
+            "commit_date": "2026-08-12T10:05:00-07:00",
+            "subject": "[modulemap] Exclude the z\/OS string.h wrapper from LLVM_Utils (#215800)"
+        },
+        {
+            "hash": "942ed073b90120b592b735b7a615fae0fe1b0abd",
+            "author_name": "Joseph Huber",
+            "commit_date": "2026-08-12T12:06:05-05:00",
+            "subject": "[Clang] Include libc wrappers for LLVM environment CUDA \/ HIP (#208084)"
+        },
+        {
+            "hash": "bef86c3e425706427116d67d57399d9ec20e468b",
+            "author_name": "William Tran-Viet",
+            "commit_date": "2026-08-13T01:08:05+08:00",
+            "subject": "[libc++] Collapse `optional<T&>` inheritance hierarchy (#215286)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -213295,6 +213313,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-08-12T01:29:16-07:00",
             "subject": "[CodeGen] Derive the regalloc pipeline from the allocator, remove -optimize-regalloc"
+        }
+    ],
+    "john-brawn-arm\/perf\/sroa_splitoffset": [
+        {
+            "hash": "6722098228e9f317d3795d971efbe6f29f67ac57",
+            "author_name": "Vladimir Suvorov",
+            "commit_date": "2026-08-11T15:47:50+00:00",
+            "subject": "[libc][bazel] Remove full-build dependency from __support_libc_assert (#215588)"
+        },
+        {
+            "hash": "a2e7252f7507edd376a961202d0ba1c35c1c0225",
+            "author_name": "John Brawn",
+            "commit_date": "2026-08-12T17:18:53+01:00",
+            "subject": "[SROA] Use SparseBitVector for splittable offsets"
         }
     ]
 }
