@@ -201123,6 +201123,18 @@
             "author_name": "Federico Bruzzone",
             "commit_date": "2026-08-12T09:10:14+02:00",
             "subject": "[mlir][ArmNeon] Add linalg.matmul e2e tests (#212809)"
+        },
+        {
+            "hash": "9f6271f981ca23142a4aee218399f7bfc09acdda",
+            "author_name": "David Green",
+            "commit_date": "2026-08-12T08:13:56+01:00",
+            "subject": "[AArch64][GlobalISel] Update AArch64GISelMITest tests to concrete types. NFC (#215641)"
+        },
+        {
+            "hash": "efc12a03bd2477eb5737eb3453b67d64230d134a",
+            "author_name": "David Green",
+            "commit_date": "2026-08-12T08:20:34+01:00",
+            "subject": "[AArch64][GlobalISel] Use integer type for abs to cneg lowering. (#215463)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -212717,22 +212729,22 @@
     ],
     "fhahn\/perf\/any": [
         {
-            "hash": "6583c61e3f5a14ddd0a8817d57f297b0b44674b8",
-            "author_name": "David Salinas",
-            "commit_date": "2026-08-10T12:17:00-04:00",
-            "subject": "[AMDGPU] Add AMDGPU support for llvm-objcopy (#190020)"
+            "hash": "2088c0abbe7529a02dd7f3da40eade01d4b60b47",
+            "author_name": "Keshav Vinayak Jha",
+            "commit_date": "2026-08-12T11:12:28+05:30",
+            "subject": "[AMDGPU] Avoid width-32 V_BFE in GlobalISel (#215457)"
         },
         {
-            "hash": "2ee231877608a24ab671b034e1da87e190318f40",
+            "hash": "05c92fa805f4ce6936e88818023dbfe47bda924d",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-10T17:23:37+01:00",
-            "subject": "[PassInstrumentation] Pass Any as const &. (NFC)"
-        },
-        {
-            "hash": "c2cd861bb79563759f2dc24236832f540b7f0b4f",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-10T18:03:57+01:00",
+            "commit_date": "2026-08-12T06:53:05+01:00",
             "subject": "[PassInstrumentation] Replace llvm::Any with a tagged IRUnitRef. (NFC)"
+        },
+        {
+            "hash": "a60c1d50121071ac53361fb3a153969e405c9ab9",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-12T08:18:30+01:00",
+            "subject": "!fixup always use Kind\/ptr."
         }
     ],
     "Enna1\/perf\/phi-liveout-via-livein": [
