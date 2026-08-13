@@ -202143,6 +202143,24 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-13T08:38:34+00:00",
             "subject": "[LV] Add tests with branch weights and estimated trip counts (NFC) (#215978)"
+        },
+        {
+            "hash": "a59059d267144cf20fa7ad6c1329c8d4376ace5e",
+            "author_name": "Mark Murray",
+            "commit_date": "2026-08-13T09:51:41+01:00",
+            "subject": "[libc][test] Avoid getauxval dependency for bare-metal AArch64 (#215509)"
+        },
+        {
+            "hash": "844a18e753e822736c9805ab779144b647a2c186",
+            "author_name": "Keyi Zhang",
+            "commit_date": "2026-08-13T09:53:54+01:00",
+            "subject": "[lldb][AArch64] Fix compilation error in RegisterTypeDetector (#215623)"
+        },
+        {
+            "hash": "50e6fb6ae7a097c9c08315b0e84aa20e5c10c1b8",
+            "author_name": "David Spickett",
+            "commit_date": "2026-08-13T09:57:54+01:00",
+            "subject": "[lldb][test] Remove references to dotest's removed -A option (#215804)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -213919,16 +213937,22 @@
     ],
     "fhahn\/perf\/ce-inline-storage": [
         {
-            "hash": "adddcef03b6d1e4b20ee7ebad6d32926ab632d9d",
-            "author_name": "Kiva",
-            "commit_date": "2026-08-12T13:04:29+08:00",
-            "subject": "[ValueTracking][InstCombine] Preserve samesign when flipping icmp strictness (#209097)"
+            "hash": "6dbb0508fec4453ba8b8801444930b15e868a507",
+            "author_name": "hev",
+            "commit_date": "2026-08-13T15:19:42+08:00",
+            "subject": "[LoongArch] Fold shifted vector extract comparisons (#214204)"
         },
         {
-            "hash": "3a31eabd98ca55eaceaa8dec40aa71dc6da1b599",
+            "hash": "b913df73f7fcc19356de490d46bc36bb9d0c53bc",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-12T07:21:47+01:00",
+            "commit_date": "2026-08-13T09:38:45+01:00",
             "subject": "[ConstraintSystem] Build constraint rows in sparse form (NFC)."
+        },
+        {
+            "hash": "2e0fcab4c0c32a2302e5bb31adbe4c98d68f2d6b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-13T09:48:45+01:00",
+            "subject": "!fixup address comments"
         }
     ],
     "MaskRay\/perf\/fastra-ssra": [
