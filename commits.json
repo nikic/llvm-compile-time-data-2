@@ -202005,6 +202005,24 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-08-13T06:54:19+01:00",
             "subject": "[CodeGen] Avoid querying allocation order for every CSR alias (#215752)"
+        },
+        {
+            "hash": "2a4cb1f1f80b49abe5b87aeb0155cee2e6bd3730",
+            "author_name": "Federico Bruzzone",
+            "commit_date": "2026-08-13T07:58:47+02:00",
+            "subject": "[mlir][ArmSME] Reject non-unit-stride `tile_load\/tile_store` memrefs and pass `layout{IdentityLayoutMap}` to matmul tests (#214959)"
+        },
+        {
+            "hash": "0c4f374b180155075d72fd9dd7742f0479d77ebd",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-08-12T22:58:58-07:00",
+            "subject": "[MSP430] Default to NewPM"
+        },
+        {
+            "hash": "6651a116b6f5ab6e9812be29b33e1fa6bdaaf76c",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-08-12T23:00:03-07:00",
+            "subject": "[Lanai] Default to NewPM"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -206027,9 +206045,9 @@
             "subject": "[AIX][SystemZ][Support] Check if file is dir on open instead of read (#214815)"
         },
         {
-            "hash": "fb519b9c9f8e439804456d89b723f8e72de5349b",
+            "hash": "7bffce68a51366fab634bb8781be13ed9a5d89e6",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-08-12T13:28:40+00:00",
+            "commit_date": "2026-08-13T05:55:33+00:00",
             "subject": "[GlobalISel] Don't add uncond G_BR to legalizer worklist"
         }
     ],
