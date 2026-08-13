@@ -202455,6 +202455,12 @@
             "author_name": "Alex Crichton",
             "commit_date": "2026-08-13T07:48:09-07:00",
             "subject": "[WebAssembly] Fix issues combining coop threads and PIC (#208332)"
+        },
+        {
+            "hash": "282c5a58926f8064591cb6563856bc4d886f8b8b",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-08-13T08:02:59-07:00",
+            "subject": "[NewPM] Register AsmPrinter passes like normal (#215965)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -214481,6 +214487,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-13T09:56:16+01:00",
             "subject": "[SCEV] Handle createAddRecFromPHI's backedge value iteratively"
+        }
+    ],
+    "clemenswasser\/perf\/lower-dbg-declare-defuse": [
+        {
+            "hash": "a8cc3d25922b689508dc63487525c73bc2747585",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-07-30T14:05:39+02:00",
+            "subject": "[libc++] Clean up windows macros (#207577)"
+        },
+        {
+            "hash": "c52ef5da0f96d0811db388b95004e29fa87b258e",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-08-13T16:51:26+02:00",
+            "subject": "[Local] Avoid scanning debug records in LowerDbgDeclare"
         }
     ]
 }
