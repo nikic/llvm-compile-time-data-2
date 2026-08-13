@@ -202161,6 +202161,12 @@
             "author_name": "David Spickett",
             "commit_date": "2026-08-13T09:57:54+01:00",
             "subject": "[lldb][test] Remove references to dotest's removed -A option (#215804)"
+        },
+        {
+            "hash": "681b73cf6417616cc82f07d79e56a70614d7642b",
+            "author_name": "Benjamin Maxwell",
+            "commit_date": "2026-08-13T09:04:35+00:00",
+            "subject": "[LV] Don't treat the pointer operand of histograms as scalar uses (#215769)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -214123,6 +214129,64 @@
             "author_name": "mbhade",
             "commit_date": "2026-08-13T10:41:48+05:30",
             "subject": "[SLP] Address review: widened load width, same-loop guard, skip gathered nodes"
+        }
+    ],
+    "fhahn\/perf\/ce-lower-bound": [
+        {
+            "hash": "26646686161b302f7f53776637f1d3cc1eca4b01",
+            "author_name": "Robert Imschweiler",
+            "commit_date": "2026-08-13T10:16:25+02:00",
+            "subject": "[libomp] Fix debug build after #176164 (#215961)"
+        },
+        {
+            "hash": "bd589dde3cc1dfde14f1c514209f353f8f5acd10",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-13T10:02:19+01:00",
+            "subject": "[ConstraintElim] Add lower bounds for all inductions in a loop header."
+        },
+        {
+            "hash": "dabe54025c8babb97729df2b753a5efdfb390956",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-13T10:02:48+01:00",
+            "subject": "Unify"
+        }
+    ],
+    "fhahn\/perf\/scev-iter-phi": [
+        {
+            "hash": "a0257099f1e4741133788929d16387952ca9e179",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-08-12T22:16:03-07:00",
+            "subject": "[llc] Respect shouldDefaultToNewPM"
+        },
+        {
+            "hash": "226ddc9ca124ec32856e7990c85bca86ff083cdc",
+            "author_name": "Eli Friedman",
+            "commit_date": "2026-08-13T06:32:17+01:00",
+            "subject": "[SCEV] Avoid recursion in PHI handling in more cases."
+        },
+        {
+            "hash": "17123d850bd2fb93dd7fa52a07f0c95c5408a78b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-13T09:42:18+01:00",
+            "subject": "[SCEV] Also queue icmp operands for selects in getOperandsToCreate (NFC)"
+        },
+        {
+            "hash": "ec926b833196283411e4c2920602f6c4bca8c4eb",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-13T09:47:26+01:00",
+            "subject": "[SCEV] Queue the invariant step of a simple affine addrec (NFC)"
+        },
+        {
+            "hash": "1e8229ade230d34795a31978384d6ab9af5702e2",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-13T09:52:44+01:00",
+            "subject": "[SCEV] Split createAddRecFromPHI and createNodeForPHI (NFC)"
+        },
+        {
+            "hash": "437a772378daae92982a420687aa2a3b6caf8345",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-13T09:56:16+01:00",
+            "subject": "[SCEV] Handle createAddRecFromPHI's backedge value iteratively"
         }
     ]
 }
