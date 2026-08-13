@@ -201981,6 +201981,24 @@
             "author_name": "Nico Weber",
             "commit_date": "2026-08-12T22:25:55-07:00",
             "subject": "[gn] Attempt to get CASTests passing after #214856 (#215949)"
+        },
+        {
+            "hash": "087eff51226a6a1eeb70cd60b81ffa6e8e53ac4f",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-08-12T22:39:35-07:00",
+            "subject": "[gn build] Port 1e798c1343fa (#215954)"
+        },
+        {
+            "hash": "e90f59152c11bdafc89821ad377ba5dccff60dc6",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-08-12T22:40:53-07:00",
+            "subject": "[gn build] Port c3792d66d2c1 (#215955)"
+        },
+        {
+            "hash": "136691148938f9f49f520a32cd7c3bb2b9eebb86",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-08-12T22:41:23-07:00",
+            "subject": "[gn build] Port ff494c648aec (#215956)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -213905,6 +213923,38 @@
             "author_name": "mbhade",
             "commit_date": "2026-08-06T15:05:19+05:30",
             "subject": "[SLP] Address review comments on STLF cost modeling - Enumerate candidate loads directly from the tree's load\/gather nodes   instead of a whole-tree operand walk. - Move the scalable-type bailout early and drop the redundant VF cast. - Extend the no-conflict cache seeding to all divisors of VF (covers   non-power-of-2 VFs), and add a -slp-vectorize-non-power-of-2 test. - Define the fallback STLF penalty as an InstructionCost in the TTI   layer and drop the MCSchedule.h include from TargetTransformInfoImpl.h."
+        }
+    ],
+    "mbhade-amd\/perf\/slp-stlf-review": [
+        {
+            "hash": "4120b5f5a3770cea9b26063eaca3d18153307961",
+            "author_name": "Yingying Wang",
+            "commit_date": "2026-07-31T16:53:04+08:00",
+            "subject": "[RISCV] Deduplicate frame base address materializations for large stack frames (#211748)"
+        },
+        {
+            "hash": "b612a00c90ccd0c1609e42224c8aa16c39d1b174",
+            "author_name": "mbhade",
+            "commit_date": "2026-07-31T15:10:14+05:30",
+            "subject": "[SLP] Model store-to-load forwarding hazards as a cost penalty"
+        },
+        {
+            "hash": "6766960ddae4347a14f7aea98f43f243734ef3d1",
+            "author_name": "mbhade",
+            "commit_date": "2026-08-06T15:05:19+05:30",
+            "subject": "[SLP] Address review comments on STLF cost modeling - Enumerate candidate loads directly from the tree's load\/gather nodes   instead of a whole-tree operand walk. - Move the scalable-type bailout early and drop the redundant VF cast. - Extend the no-conflict cache seeding to all divisors of VF (covers   non-power-of-2 VFs), and add a -slp-vectorize-non-power-of-2 test. - Define the fallback STLF penalty as an InstructionCost in the TTI   layer and drop the MCSchedule.h include from TargetTransformInfoImpl.h."
+        },
+        {
+            "hash": "e8300d5744a85326e8a64e1ceecf2c7bd566da4e",
+            "author_name": "mbhade",
+            "commit_date": "2026-08-12T13:55:36+05:30",
+            "subject": "[SLP] Detect wider-than-store loads in STLF check; dedup penalty default Extend MemoryDepChecker::isStoreLoadForwardingConflict with an optional LoadElementSize: an aligned load wider than the widened store still straddles two wide stores, which the misalignment-only test missed. LAA's call is unchanged (default 0), keeping it NFC; SLP passes the load width. Also dedup the store-load-forwarding penalty default via MCSchedModel and drop an unused DenseMap.h include."
+        },
+        {
+            "hash": "8e06b065d3520e571664db3bc6678d912df0f8ca",
+            "author_name": "mbhade",
+            "commit_date": "2026-08-13T10:41:48+05:30",
+            "subject": "[SLP] Address review: widened load width, same-loop guard, skip gathered nodes"
         }
     ]
 }
