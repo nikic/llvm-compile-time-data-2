@@ -202683,6 +202683,12 @@
             "author_name": "Arseniy Obolenskiy",
             "commit_date": "2026-08-13T19:16:14+02:00",
             "subject": "[SPIR-V] Drop storage-class MemorySemantics bit for relaxed Vulkan atomics (#215802)"
+        },
+        {
+            "hash": "2dd35f8ff91fbea3d898474851f78dfad2332c18",
+            "author_name": "Eli Friedman",
+            "commit_date": "2026-08-13T10:29:18-07:00",
+            "subject": "[DAGCombine] Fix alignment of store in replaceStoreOfInsertLoad. (#215895)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -214655,21 +214661,21 @@
     ],
     "fhahn\/perf\/ce-lower-bound": [
         {
-            "hash": "26646686161b302f7f53776637f1d3cc1eca4b01",
-            "author_name": "Robert Imschweiler",
-            "commit_date": "2026-08-13T10:16:25+02:00",
-            "subject": "[libomp] Fix debug build after #176164 (#215961)"
+            "hash": "fdc178994aa78fd285e2ffe7673b1150510b5e83",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-13T16:58:33+00:00",
+            "subject": "CodeGen: Pass the exception model to the EH register hooks (#216099)"
         },
         {
-            "hash": "bd589dde3cc1dfde14f1c514209f353f8f5acd10",
+            "hash": "7ec438aaca388731a78952f639158449e89274d4",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-13T10:02:19+01:00",
+            "commit_date": "2026-08-13T18:05:11+01:00",
             "subject": "[ConstraintElim] Add lower bounds for all inductions in a loop header."
         },
         {
-            "hash": "dabe54025c8babb97729df2b753a5efdfb390956",
+            "hash": "3637f52f633dd3bf9141b62ad3a7338a05647e2b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-13T10:02:48+01:00",
+            "commit_date": "2026-08-13T18:05:11+01:00",
             "subject": "Unify"
         }
     ],
