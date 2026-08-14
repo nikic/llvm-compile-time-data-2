@@ -203553,6 +203553,24 @@
             "author_name": "Abid Qadeer",
             "commit_date": "2026-08-14T17:50:24+01:00",
             "subject": "[flang][debug] Emit imported entities in source order (#215845)"
+        },
+        {
+            "hash": "8873c2986bae2b6bf34a382c27467a528c5fe4e0",
+            "author_name": "Augusto Noronha",
+            "commit_date": "2026-08-14T10:05:21-07:00",
+            "subject": "[lldb][test] Don't let the Darwin builder clobber ARCH_CFLAGS (#215655)"
+        },
+        {
+            "hash": "cca9b1331372eadf57b66d50ee69c45d9bb2973f",
+            "author_name": "Joseph Huber",
+            "commit_date": "2026-08-14T12:06:33-05:00",
+            "subject": "[LinkerWrapper] Fix search paths for Windows link style invocations (#216239)"
+        },
+        {
+            "hash": "4cac4bbb55ad7b3a5d6601f56a8f55a16c3d074f",
+            "author_name": "Walter Lee",
+            "commit_date": "2026-08-14T13:07:27-04:00",
+            "subject": "[bazel][libc] Temporarily disable full_build include tests (#216359)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -215703,6 +215721,26 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-08-14T14:52:01+02:00",
             "subject": "[GlobalOpt] Avoid unnecessary dead constant user scans"
+        }
+    ],
+    "tbaederr\/perf\/strptr": [
+        {
+            "hash": "b77c0b1b2c8cb7610b43dc4a7f22eef1c6a3587b",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-08-13T22:57:56-07:00",
+            "subject": "[RISCV] Don't fold vector (fp_to_sint (ceil\/floor\/round\/etc X)) if the inner op has multiple uses. (#216137)"
+        },
+        {
+            "hash": "99b302fee39036750d0a491c388fa59d4be97853",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-08-14T19:04:12+02:00",
+            "subject": "StringPOinter"
+        },
+        {
+            "hash": "d578d341018f6f27aea3a0e510177045f36e6e51",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-08-14T19:04:13+02:00",
+            "subject": "Test"
         }
     ]
 }
