@@ -203307,6 +203307,12 @@
             "author_name": "Aaron Ballman",
             "commit_date": "2026-08-14T07:13:04-04:00",
             "subject": "Add John McCall as Swift conformance maintainer (#216041)"
+        },
+        {
+            "hash": "a4bea9975fbe73b02dfeffe896695494e1c19df9",
+            "author_name": "John Otken",
+            "commit_date": "2026-08-14T07:36:35-04:00",
+            "subject": "[flang] Add warning when BOZ literal is too large for assignment (#210749)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -215341,40 +215347,52 @@
     ],
     "fhahn\/perf\/scev-iter-phi": [
         {
-            "hash": "a0257099f1e4741133788929d16387952ca9e179",
-            "author_name": "Aiden Grossman",
-            "commit_date": "2026-08-12T22:16:03-07:00",
-            "subject": "[llc] Respect shouldDefaultToNewPM"
+            "hash": "53a7028134738d799d8b758a5675873e325dd9e0",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-08-13T08:50:53-04:00",
+            "subject": "[libc++] Report the runs created by dispatch-benchmarks (#216029)"
         },
         {
-            "hash": "226ddc9ca124ec32856e7990c85bca86ff083cdc",
+            "hash": "e6c4daf11c69a256e7b139911c50a8e27cba6c60",
             "author_name": "Eli Friedman",
-            "commit_date": "2026-08-13T06:32:17+01:00",
+            "commit_date": "2026-08-13T15:05:35+01:00",
             "subject": "[SCEV] Avoid recursion in PHI handling in more cases."
         },
         {
-            "hash": "17123d850bd2fb93dd7fa52a07f0c95c5408a78b",
+            "hash": "4384f510e545e155e963992047afee66c506642f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-13T09:42:18+01:00",
+            "commit_date": "2026-08-13T15:05:35+01:00",
             "subject": "[SCEV] Also queue icmp operands for selects in getOperandsToCreate (NFC)"
         },
         {
-            "hash": "ec926b833196283411e4c2920602f6c4bca8c4eb",
+            "hash": "a3e668e0a8c170db703ee7df0809e9f746748ab3",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-13T09:47:26+01:00",
+            "commit_date": "2026-08-13T15:05:35+01:00",
             "subject": "[SCEV] Queue the invariant step of a simple affine addrec (NFC)"
         },
         {
-            "hash": "1e8229ade230d34795a31978384d6ab9af5702e2",
+            "hash": "bf4718acfd65fd9e0abfa486f7391b9d6d3d48ed",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-13T09:52:44+01:00",
+            "commit_date": "2026-08-13T15:05:36+01:00",
             "subject": "[SCEV] Split createAddRecFromPHI and createNodeForPHI (NFC)"
         },
         {
-            "hash": "437a772378daae92982a420687aa2a3b6caf8345",
+            "hash": "10358340080b98522cfa2e6a370a9c0f93c9cc26",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-13T09:56:16+01:00",
+            "commit_date": "2026-08-13T15:05:36+01:00",
             "subject": "[SCEV] Handle createAddRecFromPHI's backedge value iteratively"
+        },
+        {
+            "hash": "b2b470e7a92b0e31b6aebb5ac70de25ca50ab5ac",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-14T12:27:38+01:00",
+            "subject": "[SCEV] Stop collecting operands for PHI cases that cannot be reached"
+        },
+        {
+            "hash": "5e44b65d6e49574a618f4b324402ce264824e370",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-14T12:31:51+01:00",
+            "subject": "[SCEV] Form add recurrences for pointer IVs without a symbolic name"
         }
     ],
     "clemenswasser\/perf\/lower-dbg-declare-defuse": [
