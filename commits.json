@@ -203715,6 +203715,12 @@
             "author_name": "Mehdi Amini",
             "commit_date": "2026-08-14T20:03:03+00:00",
             "subject": "[MLIR][SPIRV] Enable strict property assembly format (#196282)"
+        },
+        {
+            "hash": "4ebdce437b04793d0bc4318b50a9f8278113a59c",
+            "author_name": "Jinsong Ji",
+            "commit_date": "2026-08-14T16:07:17-04:00",
+            "subject": "[NFC] Remove obsolete typeids.test after fa23198d685b (#216379)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -215497,22 +215503,34 @@
     ],
     "fhahn\/perf\/ce-inline-storage": [
         {
-            "hash": "6dbb0508fec4453ba8b8801444930b15e868a507",
-            "author_name": "hev",
-            "commit_date": "2026-08-13T15:19:42+08:00",
-            "subject": "[LoongArch] Fold shifted vector extract comparisons (#214204)"
+            "hash": "38ef96c4c86de36acb9665bb243099189b17410e",
+            "author_name": "David Spickett",
+            "commit_date": "2026-08-14T09:44:38+01:00",
+            "subject": "[lldb][AArch64][Linux] Add function to get size of register set (#213976)"
         },
         {
-            "hash": "b913df73f7fcc19356de490d46bc36bb9d0c53bc",
+            "hash": "3eb9b7d604908dc5486f1bc405f379585d204852",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-13T09:38:45+01:00",
+            "commit_date": "2026-08-14T13:17:45+01:00",
+            "subject": "[ConstraintElimination] Fix trivially true compares with no variables."
+        },
+        {
+            "hash": "da6c956241422830cf2bfa90e9f62d379724d452",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-14T13:18:17+01:00",
             "subject": "[ConstraintSystem] Build constraint rows in sparse form (NFC)."
         },
         {
-            "hash": "2e0fcab4c0c32a2302e5bb31adbe4c98d68f2d6b",
+            "hash": "f8a5e1dc2034f01733147689b7fd83bd7a42db5a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-13T09:48:45+01:00",
+            "commit_date": "2026-08-14T13:18:20+01:00",
             "subject": "!fixup address comments"
+        },
+        {
+            "hash": "5e499235afaf1bd4a896373510ad98c3d4a05dbe",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-14T20:49:31+01:00",
+            "subject": "!fixup clarify NumVars, asserts"
         }
     ],
     "MaskRay\/perf\/fastra-ssra": [
@@ -215755,46 +215773,52 @@
             "subject": "[libc++] Report the runs created by dispatch-benchmarks (#216029)"
         },
         {
-            "hash": "e6c4daf11c69a256e7b139911c50a8e27cba6c60",
+            "hash": "fd20fee0f75d0e3e50059a031809c0c0698b4a26",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-14T19:39:04+01:00",
+            "subject": "[SCEV] Form add recurrences for pointer IVs without a symbolic name"
+        },
+        {
+            "hash": "f5a666e93f3dd177fff0515c2f506267c8f7090e",
             "author_name": "Eli Friedman",
-            "commit_date": "2026-08-13T15:05:35+01:00",
+            "commit_date": "2026-08-14T19:39:14+01:00",
             "subject": "[SCEV] Avoid recursion in PHI handling in more cases."
         },
         {
-            "hash": "4384f510e545e155e963992047afee66c506642f",
+            "hash": "2ed5a43745d8a3c95cb73fd07a5fd729e00afd60",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-13T15:05:35+01:00",
+            "commit_date": "2026-08-14T19:39:15+01:00",
             "subject": "[SCEV] Also queue icmp operands for selects in getOperandsToCreate (NFC)"
         },
         {
-            "hash": "a3e668e0a8c170db703ee7df0809e9f746748ab3",
+            "hash": "b088cd2f07f20679af770f4522227bad6622cdc0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-13T15:05:35+01:00",
+            "commit_date": "2026-08-14T19:39:16+01:00",
             "subject": "[SCEV] Queue the invariant step of a simple affine addrec (NFC)"
         },
         {
-            "hash": "bf4718acfd65fd9e0abfa486f7391b9d6d3d48ed",
+            "hash": "ebfbc4a28c48bbc3352e70af1ac8a3b7146a1b0c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-13T15:05:36+01:00",
+            "commit_date": "2026-08-14T19:39:17+01:00",
             "subject": "[SCEV] Split createAddRecFromPHI and createNodeForPHI (NFC)"
         },
         {
-            "hash": "10358340080b98522cfa2e6a370a9c0f93c9cc26",
+            "hash": "47dbcf8a4883d0b90c04b2ffbf52edd56378f8f4",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-13T15:05:36+01:00",
+            "commit_date": "2026-08-14T19:39:53+01:00",
             "subject": "[SCEV] Handle createAddRecFromPHI's backedge value iteratively"
         },
         {
-            "hash": "b2b470e7a92b0e31b6aebb5ac70de25ca50ab5ac",
+            "hash": "633ea3936666dc9dc3c437b78788de2429f79575",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-14T12:27:38+01:00",
+            "commit_date": "2026-08-14T19:39:54+01:00",
             "subject": "[SCEV] Stop collecting operands for PHI cases that cannot be reached"
         },
         {
-            "hash": "5e44b65d6e49574a618f4b324402ce264824e370",
+            "hash": "8783ac3c406578b077032a633fce5cd30e250687",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-14T12:31:51+01:00",
-            "subject": "[SCEV] Form add recurrences for pointer IVs without a symbolic name"
+            "commit_date": "2026-08-14T20:00:57+01:00",
+            "subject": "[SCEV] Queue the invariant index of a pointer IV's step (NFC)"
         }
     ],
     "clemenswasser\/perf\/lower-dbg-declare-defuse": [
