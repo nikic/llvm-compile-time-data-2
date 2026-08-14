@@ -203283,6 +203283,12 @@
             "author_name": "Orlando Cazalet-Hyams",
             "commit_date": "2026-08-14T11:28:37+01:00",
             "subject": "Revert \"[dyndbg][Clang] Implement nested-ELF dynamic debugging support\" (#216298)"
+        },
+        {
+            "hash": "0bdcce77087ccf50af70000ade03de1e61294fae",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-08-14T13:03:52+02:00",
+            "subject": "[AMDGPU] Skip pointer users with no uses when preloading kernel args (#216281)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -215389,10 +215395,24 @@
             "subject": "[VectorCombine] Align shrinkLoadForShuffles to register boundaries (#209775)"
         },
         {
-            "hash": "a44a08eb6dc034dfe8f184bccc793a1a93af7198",
+            "hash": "e98ab5abe9a26c3b5747f117377638e8e5ae94fc",
             "author_name": "Steffen Holst Larsen",
-            "commit_date": "2026-08-14T03:00:00-05:00",
+            "commit_date": "2026-08-14T05:56:56-05:00",
             "subject": "WIP"
+        }
+    ],
+    "c-rhodes\/perf\/gisel-legalizer-fast-path": [
+        {
+            "hash": "9c7ba7b1d12ed3f395a2317c525a98e5bfcf28e9",
+            "author_name": "Sean Perry",
+            "commit_date": "2026-08-10T09:32:27-04:00",
+            "subject": "[AIX][SystemZ][Support] Check if file is dir on open instead of read (#214815)"
+        },
+        {
+            "hash": "d4954bc3245a8e08f202ba5b857f5a4db18955ad",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-08-14T10:57:06+00:00",
+            "subject": "[AArch64][GlobalISel] Add a fast path for common legal operations"
         }
     ]
 }
