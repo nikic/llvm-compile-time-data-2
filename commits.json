@@ -215001,16 +215001,16 @@
     ],
     "MaskRay\/perf\/fastra-ssra": [
         {
-            "hash": "f41b4745c00282e7d46fc9392626dac6ec536ac1",
-            "author_name": "Chuanqi Xu",
-            "commit_date": "2026-08-12T14:31:52+08:00",
-            "subject": "[mlir] [arith] Fold trunc(extremum(ext(lhs), ext(rhs))) (#214658)"
+            "hash": "3387214f70edc41cfd4cacb02a46290de11abcc8",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-14T08:49:39+02:00",
+            "subject": "DAG: Gracefully diagnose missing FP conversion libcalls when softening (#215765)"
         },
         {
-            "hash": "909f2ca05b7b4be57798de7931459c9b14d5f0db",
+            "hash": "df7b58b9474d78717a603882acdb47550d78fcb5",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-08-12T10:27:35-07:00",
-            "subject": "[CodeGen] Derive the regalloc pipeline from the allocator, remove -optimize-regalloc"
+            "commit_date": "2026-08-13T23:55:56-07:00",
+            "subject": "[RegAllocFast] Consume SSA MachineIR, absorbing PHI and two-address lowering"
         }
     ],
     "john-brawn-arm\/perf\/sroa_splitoffset": [
