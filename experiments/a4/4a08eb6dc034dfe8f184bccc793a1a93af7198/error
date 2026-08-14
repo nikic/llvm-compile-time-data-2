@@ -1,0 +1,236 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[321/3396] Linking CXX static library lib/libLLVMCodeGenTypes.a
+[322/3396] Building IntrinsicsWebAssembly.h...
+[323/3396] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SymbolDumper.cpp.o
+[324/3396] Building IntrinsicsVE.h...
+[325/3396] Building IntrinsicsX86.h...
+[326/3396] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/RISCVVEmitter.cpp.o
+[327/3396] Linking CXX static library lib/libLLVMDebugInfoCodeView.a
+[328/3396] Building IntrinsicsXCore.h...
+[329/3396] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/SveEmitter.cpp.o
+[330/3396] Building ARMTargetParserDef.inc...
+[331/3396] Building PPCGenTargetFeatures.inc...
+[332/3396] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangASTPropertiesEmitter.cpp.o
+[333/3396] Building AArch64TargetParserDef.inc...
+[334/3396] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangDataCollectorsEmitter.cpp.o
+[335/3396] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/NeonEmitter.cpp.o
+[336/3396] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/MveEmitter.cpp.o
+[337/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DAGISelMatcher.cpp.o
+[338/3396] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangOpcodesEmitter.cpp.o
+[339/3396] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangASTNodesEmitter.cpp.o
+[340/3396] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/CIRLoweringEmitter.cpp.o
+[341/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DAGISelMatcherOpt.cpp.o
+[342/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DecoderTableEmitter.cpp.o
+[343/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DecoderTree.cpp.o
+[344/3396] Building RISCVTargetParserDef.inc...
+[345/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/CTagsEmitter.cpp.o
+[346/3396] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangOptionDocEmitter.cpp.o
+[347/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/CodeGenMapTable.cpp.o
+[348/3396] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangBuiltinsEmitter.cpp.o
+[349/3396] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangOpenCLBuiltinEmitter.cpp.o
+[350/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/CallingConvEmitter.cpp.o
+[351/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/CodeEmitterGen.cpp.o
+[352/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DisassemblerEmitter.cpp.o
+[353/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DAGISelEmitter.cpp.o
+[354/3396] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangDiagnosticsEmitter.cpp.o
+[355/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/CompressInstEmitter.cpp.o
+[356/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DFAEmitter.cpp.o
+[357/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DAGISelMatcherGen.cpp.o
+[358/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/ExegesisEmitter.cpp.o
+[359/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/llvm-tblgen.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/SupportOptionsOptInfos.h:26,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/SupportOptions.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/llvm-tblgen.cpp:15:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h: In instantiation of ‘llvm::clv2::ErasedRegistry llvm::clv2::eraseRegistry() [with const auto* Reg = (& llvm::clv2::SupportOptsReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = llvm::support::applySupportOptions]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:2224:54:   required from ‘llvm::clv2::OptionParser& llvm::clv2::OptionParser::add() [with const auto* Reg = (& llvm::clv2::SupportOptsReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = llvm::support::applySupportOptions]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/llvm-tblgen.cpp:20:73:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:1999:26: warning: the address of ‘void llvm::support::applySupportOptions(const ParsedOpts&)’ will never be NULL [-Waddress]
+ 1999 |   if constexpr (BridgeFn != nullptr) {
+      |                 ~~~~~~~~~^~~~~~~~~~
+[360/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DXILEmitter.cpp.o
+[361/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/AsmWriterEmitter.cpp.o
+[362/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DFAPacketizerEmitter.cpp.o
+[363/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/OptionRSTEmitter.cpp.o
+[364/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/WebAssemblyDisassemblerEmitter.cpp.o
+[365/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/MacroFusionPredicatorEmitter.cpp.o
+[366/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/X86DisassemblerTables.cpp.o
+[367/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/InstrDocsEmitter.cpp.o
+[368/3396] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangAttrEmitter.cpp.o
+[369/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/X86ModRMFilters.cpp.o
+[370/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/X86RecognizableInstr.cpp.o
+[371/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/GlobalISel/MatchTable/MatchTable.cpp.o
+[372/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DAGISelMatcherEmitter.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/DAGISelMatcherEmitter.cpp:24:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h: In instantiation of ‘llvm::clv2::ErasedRegistry llvm::clv2::eraseRegistry() [with const auto* Reg = (& DAGISelMatcherEmitterReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = applyDAGISelMatcherEmitter]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:2224:54:   required from ‘llvm::clv2::OptionParser& llvm::clv2::OptionParser::add() [with const auto* Reg = (& DAGISelMatcherEmitterReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = applyDAGISelMatcherEmitter]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/DAGISelMatcherEmitter.cpp:63:63:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:1999:26: warning: the address of ‘void applyDAGISelMatcherEmitter(const ParsedOptionsT&)’ will never be NULL [-Waddress]
+ 1999 |   if constexpr (BridgeFn != nullptr) {
+      |                 ~~~~~~~~~^~~~~~~~~~
+[373/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/GlobalISel/MatchTable/Types.cpp.o
+[374/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/DecoderEmitter.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/DecoderEmitter.cpp:35:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h: In instantiation of ‘llvm::clv2::ErasedRegistry llvm::clv2::eraseRegistry() [with const auto* Reg = (& DecoderEmitterReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = applyDecoderEmitterOptions]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:2224:54:   required from ‘llvm::clv2::OptionParser& llvm::clv2::OptionParser::add() [with const auto* Reg = (& DecoderEmitterReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = applyDecoderEmitterOptions]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/DecoderEmitter.cpp:132:56:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:1999:26: warning: the address of ‘void applyDecoderEmitterOptions(const ParsedOptionsT&)’ will never be NULL [-Waddress]
+ 1999 |   if constexpr (BridgeFn != nullptr) {
+      |                 ~~~~~~~~~^~~~~~~~~~
+[375/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/GlobalISel/CombinerUtils.cpp.o
+[376/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/GlobalISel/CXXPredicates.cpp.o
+[377/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/PseudoLoweringEmitter.cpp.o
+[378/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/OptionParserEmitter.cpp.o
+[379/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/FastISelEmitter.cpp.o
+[380/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/GlobalISel/CodeExpander.cpp.o
+[381/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/AsmMatcherEmitter.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/AsmMatcherEmitter.cpp:110:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h: In instantiation of ‘llvm::clv2::ErasedRegistry llvm::clv2::eraseRegistry() [with const auto* Reg = (& AsmMatcherEmitterReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = applyAsmMatcherEmitter]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:2224:54:   required from ‘llvm::clv2::OptionParser& llvm::clv2::OptionParser::add() [with const auto* Reg = (& AsmMatcherEmitterReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = applyAsmMatcherEmitter]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/AsmMatcherEmitter.cpp:146:55:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:1999:26: warning: the address of ‘void applyAsmMatcherEmitter(const ParsedOptionsT&)’ will never be NULL [-Waddress]
+ 1999 |   if constexpr (BridgeFn != nullptr) {
+      |                 ~~~~~~~~~^~~~~~~~~~
+[382/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/RegisterBankEmitter.cpp.o
+[383/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/X86MnemonicTables.cpp.o
+[384/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/SDNodeInfoEmitter.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/SDNodeInfoEmitter.cpp:11:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h: In instantiation of ‘llvm::clv2::ErasedRegistry llvm::clv2::eraseRegistry() [with const auto* Reg = (& SDNodeInfoEmitterReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = applySDNodeInfoEmitter]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:2224:54:   required from ‘llvm::clv2::OptionParser& llvm::clv2::OptionParser::add() [with const auto* Reg = (& SDNodeInfoEmitterReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = applySDNodeInfoEmitter]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/SDNodeInfoEmitter.cpp:50:55:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:1999:26: warning: the address of ‘void applySDNodeInfoEmitter(const ParsedOptionsT&)’ will never be NULL [-Waddress]
+ 1999 |   if constexpr (BridgeFn != nullptr) {
+      |                 ~~~~~~~~~^~~~~~~~~~
+[385/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/AsmWriterInst.cpp.o
+[386/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/X86FoldTablesEmitter.cpp.o
+[387/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/X86InstrMappingEmitter.cpp.o
+[388/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/CodeGenHwModes.cpp.o
+[389/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/GlobalISel/PatternParser.cpp.o
+[390/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/InstrInfoEmitter.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/InstrInfoEmitter.cpp:29:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h: In instantiation of ‘llvm::clv2::ErasedRegistry llvm::clv2::eraseRegistry() [with const auto* Reg = (& InstrInfoEmitterReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = applyInstrInfoEmitter]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:2224:54:   required from ‘llvm::clv2::OptionParser& llvm::clv2::OptionParser::add() [with const auto* Reg = (& InstrInfoEmitterReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = applyInstrInfoEmitter]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/InstrInfoEmitter.cpp:66:53:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:1999:26: warning: the address of ‘void applyInstrInfoEmitter(const ParsedOptionsT&)’ will never be NULL [-Waddress]
+ 1999 |   if constexpr (BridgeFn != nullptr) {
+      |                 ~~~~~~~~~^~~~~~~~~~
+[391/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/PredicateExpander.cpp.o
+[392/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/GlobalISel/GlobalISelMatchTableExecutorEmitter.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/Common/GlobalISel/GlobalISelMatchTableExecutorEmitter.cpp:11:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h: In instantiation of ‘llvm::clv2::ErasedRegistry llvm::clv2::eraseRegistry() [with const auto* Reg = (& GlobalISelMatchTableReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = applyGlobalISelMatchTable]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:2224:54:   required from ‘llvm::clv2::OptionParser& llvm::clv2::OptionParser::add() [with const auto* Reg = (& GlobalISelMatchTableReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = applyGlobalISelMatchTable]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/Common/GlobalISel/GlobalISelMatchTableExecutorEmitter.cpp:31:61:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:1999:26: warning: the address of ‘void applyGlobalISelMatchTable(const ParsedOptionsT&)’ will never be NULL [-Waddress]
+ 1999 |   if constexpr (BridgeFn != nullptr) {
+      |                 ~~~~~~~~~^~~~~~~~~~
+[393/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/Types.cpp.o
+[394/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/CodeGenInstruction.cpp.o
+[395/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/SearchableTableEmitter.cpp.o
+[396/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/GlobalISel/Patterns.cpp.o
+[397/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/CodeGenInstAlias.cpp.o
+[398/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/SubtargetEmitter.cpp.o
+[399/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/OptEmitter.cpp.o
+[400/3396] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/ScheduleDAGRRList.cpp.o
+FAILED: lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/ScheduleDAGRRList.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen/SelectionDAG -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/SelectionDAG -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/ScheduleDAGRRList.cpp.o -MF lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/ScheduleDAGRRList.cpp.o.d -o lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/ScheduleDAGRRList.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/SelectionDAG/ScheduleDAGRRList.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/SelectionDAG/ScheduleDAGRRList.cpp:24:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPassOptionsOptInfos.h:23:10: fatal error: llvm/CodeGen/CodeGenPassOptionsOptInfos.inc: No such file or directory
+   23 | #include "llvm/CodeGen/CodeGenPassOptionsOptInfos.inc"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+[401/3396] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/ScheduleDAGSDNodes.cpp.o
+FAILED: lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/ScheduleDAGSDNodes.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen/SelectionDAG -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/SelectionDAG -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/ScheduleDAGSDNodes.cpp.o -MF lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/ScheduleDAGSDNodes.cpp.o.d -o lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/ScheduleDAGSDNodes.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/SelectionDAG/ScheduleDAGSDNodes.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/SelectionDAG/ScheduleDAGSDNodes.cpp:22:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/CodeGenPassOptionsOptInfos.h:23:10: fatal error: llvm/CodeGen/CodeGenPassOptionsOptInfos.inc: No such file or directory
+   23 | #include "llvm/CodeGen/CodeGenPassOptionsOptInfos.inc"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+[402/3396] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstructionCombining.cpp.o
+FAILED: lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstructionCombining.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Transforms/InstCombine -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstructionCombining.cpp.o -MF lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstructionCombining.cpp.o.d -o lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstructionCombining.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstructionCombining.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstructionCombining.cpp:100:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/InstCombine/InstCombineOptionsOptInfos.h:21:10: fatal error: llvm/Transforms/InstCombine/InstCombineOptionsOptInfos.inc: No such file or directory
+   21 | #include "llvm/Transforms/InstCombine/InstCombineOptionsOptInfos.inc"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+[403/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/InstructionEncoding.cpp.o
+[404/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/SubtargetFeatureInfo.cpp.o
+[405/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/Utils.cpp.o
+[406/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/InfoByHwMode.cpp.o
+[407/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/VarLenCodeEmitterGen.cpp.o
+[408/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/GlobalISelCombinerEmitter.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/GlobalISelCombinerEmitter.cpp:48:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h: In instantiation of ‘llvm::clv2::ErasedRegistry llvm::clv2::eraseRegistry() [with const auto* Reg = (& GICombinerEmitterReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = applyGICombinerEmitterOptions]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:2224:54:   required from ‘llvm::clv2::OptionParser& llvm::clv2::OptionParser::add() [with const auto* Reg = (& GICombinerEmitterReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = applyGICombinerEmitterOptions]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/GlobalISelCombinerEmitter.cpp:105:62:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:1999:26: warning: the address of ‘void applyGICombinerEmitterOptions(const ParsedOptionsT&)’ will never be NULL [-Waddress]
+ 1999 |   if constexpr (BridgeFn != nullptr) {
+      |                 ~~~~~~~~~^~~~~~~~~~
+[409/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/GlobalISelEmitter.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/GlobalISelEmitter.cpp:45:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h: In instantiation of ‘llvm::clv2::ErasedRegistry llvm::clv2::eraseRegistry() [with const auto* Reg = (& GlobalISelEmitterReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = applyGlobalISelEmitterOptions]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:2224:54:   required from ‘llvm::clv2::OptionParser& llvm::clv2::OptionParser::add() [with const auto* Reg = (& GlobalISelEmitterReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = applyGlobalISelEmitterOptions]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/GlobalISelEmitter.cpp:107:62:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:1999:26: warning: the address of ‘void applyGlobalISelEmitterOptions(const ParsedOptionsT&)’ will never be NULL [-Waddress]
+ 1999 |   if constexpr (BridgeFn != nullptr) {
+      |                 ~~~~~~~~~^~~~~~~~~~
+[410/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/CodeGenTarget.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/Common/CodeGenTarget.cpp:23:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h: In instantiation of ‘llvm::clv2::ErasedRegistry llvm::clv2::eraseRegistry() [with const auto* Reg = (& CodeGenTargetReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = applyCodeGenTarget]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:2224:54:   required from ‘llvm::clv2::OptionParser& llvm::clv2::OptionParser::add() [with const auto* Reg = (& CodeGenTargetReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = applyCodeGenTarget]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/Common/CodeGenTarget.cpp:55:47:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:1999:26: warning: the address of ‘void applyCodeGenTarget(const ParsedOptionsT&)’ will never be NULL [-Waddress]
+ 1999 |   if constexpr (BridgeFn != nullptr) {
+      |                 ~~~~~~~~~^~~~~~~~~~
+[411/3396] Building CXX object utils/TableGen/CMakeFiles/llvm-tblgen.dir/RegisterInfoEmitter.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineCompat.h:14,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/RegisterInfoEmitter.cpp:31:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h: In instantiation of ‘llvm::clv2::ErasedRegistry llvm::clv2::eraseRegistry() [with const auto* Reg = (& RegisterInfoDebugReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = applyRegisterInfoDebug]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:2224:54:   required from ‘llvm::clv2::OptionParser& llvm::clv2::OptionParser::add() [with const auto* Reg = (& RegisterInfoDebugReg); void (* BridgeFn)(const typename std::remove_pointer<decltype (Reg)>::type::ParsedOptionsT&) = applyRegisterInfoDebug]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/utils/TableGen/RegisterInfoEmitter.cpp:2196:55:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLineV2.h:1999:26: warning: the address of ‘void applyRegisterInfoDebug(const ParsedOptionsT&)’ will never be NULL [-Waddress]
+ 1999 |   if constexpr (BridgeFn != nullptr) {
+      |                 ~~~~~~~~~^~~~~~~~~~
+[412/3396] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/SDNodeInfo.cpp.o
+[413/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/CodeGenSchedule.cpp.o
+[414/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/GlobalISel/MatchTable/Matchers.cpp.o
+[415/3396] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/ScheduleDAGFast.cpp.o
+[416/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/CodeGenDAGPatterns.cpp.o
+[417/3396] Building CXX object utils/TableGen/Common/CMakeFiles/obj.LLVMTableGenCommon.dir/CodeGenRegisters.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:4 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/lld/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+343.60user 20.24system 0:25.52elapsed 1425%CPU (0avgtext+0avgdata 665588maxresident)k
+304inputs+1073400outputs (474major+11553765minor)pagefaults 0swaps
