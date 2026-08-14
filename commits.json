@@ -203187,6 +203187,18 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-08-14T08:49:39+02:00",
             "subject": "DAG: Gracefully diagnose missing FP conversion libcalls when softening (#215765)"
+        },
+        {
+            "hash": "02da53965a997431327349f304c8aa8d213e55f4",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-14T09:10:14+02:00",
+            "subject": "CodeGen: Add getDefBlock helper (#216182)"
+        },
+        {
+            "hash": "f0070530bfa4eb2158c567216d801d819ece35f6",
+            "author_name": "Karthika Devi C",
+            "commit_date": "2026-08-14T12:45:23+05:30",
+            "subject": "[LoopVectorize] Clear stale CycleAnalysis after vectorizing a loop (#215237)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -215165,28 +215177,58 @@
     ],
     "fhahn\/perf\/ce-lower-bound": [
         {
-            "hash": "fdc178994aa78fd285e2ffe7673b1150510b5e83",
-            "author_name": "Matt Arsenault",
-            "commit_date": "2026-08-13T16:58:33+00:00",
-            "subject": "CodeGen: Pass the exception model to the EH register hooks (#216099)"
+            "hash": "23175748b72af4253667d37eca76b217e0e20822",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-08-14T14:21:54+10:00",
+            "subject": "[ORC] Drop SimpleExecutorMemoryManagerSymbolNames struct (#216231)"
         },
         {
-            "hash": "7ec438aaca388731a78952f639158449e89274d4",
+            "hash": "97a067a271616c83b5297bb85c379379630377fe",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-13T18:05:11+01:00",
+            "commit_date": "2026-08-14T08:09:18+01:00",
+            "subject": "[ConstraintSystem] Build constraint rows in sparse form (NFC)."
+        },
+        {
+            "hash": "33fc9ffa3f059375262af70829e4cc106143bfe5",
+            "author_name": "DeanSturtevant1",
+            "commit_date": "2026-08-14T08:09:18+01:00",
+            "subject": "Fix Bazel build for cb72195 (#215879)"
+        },
+        {
+            "hash": "414f4c542f760420529e1aef540a9e25f303d2b8",
+            "author_name": "Yusra Syeda",
+            "commit_date": "2026-08-14T08:09:19+01:00",
+            "subject": "[obj2yaml] Add Obj2Yaml ability to dump GOFF header records (#204194)"
+        },
+        {
+            "hash": "37c153e9da367d7fc052c757f32e7a7ed7d7a8a3",
+            "author_name": "DeanSturtevant1",
+            "commit_date": "2026-08-14T08:09:19+01:00",
+            "subject": "Fix Bazel build for cb72195 (#216144)"
+        },
+        {
+            "hash": "302f49efd4f43d1fc95ace58bf7405cf9241e63c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-14T08:09:20+01:00",
             "subject": "[ConstraintElim] Add lower bounds for all inductions in a loop header."
         },
         {
-            "hash": "3637f52f633dd3bf9141b62ad3a7338a05647e2b",
+            "hash": "bd00984ef28ebc3d300f832634db2b5d436f8d6a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-13T18:05:11+01:00",
+            "commit_date": "2026-08-14T08:09:20+01:00",
             "subject": "Unify"
         },
         {
-            "hash": "b677f3d15882f44876aa71d01aa03637ae3eb58b",
+            "hash": "93bcb79693a3297b3f834f9f30473ee4aef25d9a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-13T21:15:25+01:00",
+            "commit_date": "2026-08-14T08:09:20+01:00",
             "subject": "Allow pointers"
+        },
+        {
+            "hash": "77c74bbdebd1958626339dae06302857b9b05060",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-14T08:09:21+01:00",
+            "subject": "Support GEPs again"
         }
     ],
     "fhahn\/perf\/scev-iter-phi": [
