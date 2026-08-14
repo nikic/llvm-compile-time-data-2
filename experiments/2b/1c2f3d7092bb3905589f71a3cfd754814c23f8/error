@@ -1,0 +1,236 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[2681/3376] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/XCore.cpp.o
+[2682/3376] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Xtensa.cpp.o
+[2683/3376] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Version.cpp.o
+[2684/3376] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/X86.cpp.o
+[2685/3376] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/TokenKinds.cpp.o
+[2686/3376] Linking CXX static library lib/libLLVMCore.a
+[2687/3376] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/XRayInstr.cpp.o
+[2688/3376] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/VE.cpp.o
+[2689/3376] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Warnings.cpp.o
+[2690/3376] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/XRayLists.cpp.o
+[2691/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Comment.cpp.o
+[2692/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentCommandTraits.cpp.o
+[2693/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentLexer.cpp.o
+[2694/3376] Linking CXX static library lib/libLLVMABI.a
+[2695/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentBriefParser.cpp.o
+[2696/3376] Linking CXX static library lib/libLLVMX86Disassembler.a
+[2697/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentParser.cpp.o
+[2698/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ComparisonCategories.cpp.o
+[2699/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ComputeDependence.cpp.o
+[2700/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CXXInheritance.cpp.o
+[2701/3376] Linking CXX static library lib/libLLVMCFGuard.a
+[2702/3376] Linking CXX static library lib/libLLVMFrontendHLSL.a
+[2703/3376] Linking CXX static library lib/libLLVMBitReader.a
+[2704/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentSema.cpp.o
+[2705/3376] Linking CXX static library lib/libLLVMAsmParser.a
+[2706/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DataCollection.cpp.o
+[2707/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclarationName.cpp.o
+[2708/3376] Linking CXX static library lib/libLLVMX86Desc.a
+[2709/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Decl.cpp.o
+[2710/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclBase.cpp.o
+[2711/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclCXX.cpp.o
+[2712/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclFriend.cpp.o
+[2713/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclObjC.cpp.o
+[2714/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclOpenACC.cpp.o
+[2715/3376] Linking CXX static library lib/libLLVMIRReader.a
+[2716/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclOpenMP.cpp.o
+[2717/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclGroup.cpp.o
+[2718/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclPrinter.cpp.o
+[2719/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclTemplate.cpp.o
+[2720/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConcepts.cpp.o
+[2721/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprObjC.cpp.o
+[2722/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprClassification.cpp.o
+[2723/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ParentMapContext.cpp.o
+[2724/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DynamicRecursiveASTVisitor.cpp.o
+[2725/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExternalASTSource.cpp.o
+[2726/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExternalASTMerger.cpp.o
+[2727/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/FormatString.cpp.o
+[2728/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprCXX.cpp.o
+[2729/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/InheritViz.cpp.o
+[2730/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Expr.cpp.o
+[2731/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/BitcastBuffer.cpp.o
+[2732/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/InferAlloc.cpp.o
+[2733/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Floating.cpp.o
+[2734/3376] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CallingConv.cpp.o
+[2735/3376] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InterleavedAccess.cpp.o
+[2736/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InitMap.cpp.o
+[2737/3376] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MCInstLower.cpp.o
+[2738/3376] Building AArch64GenInstrInfo.inc...
+[2739/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/DynamicAllocator.cpp.o
+[2740/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Function.cpp.o
+[2741/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Descriptor.cpp.o
+[2742/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBlock.cpp.o
+[2743/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/EvaluationResult.cpp.o
+[2744/3376] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+[2745/3376] Linking CXX static library lib/libLLVMMCParser.a
+[2746/3376] Linking CXX static library lib/libLLVMX86AsmParser.a
+[2747/3376] Linking CXX static library lib/libLLVMObject.a
+[2748/3376] Linking CXX static library lib/libLLVMObjectYAML.a
+[2749/3376] Linking CXX static library lib/libLLVMDebugInfoDWARF.a
+[2750/3376] Linking CXX static library lib/libLLVMDebugInfoGSYM.a
+[2751/3376] Linking CXX static library lib/libLLVMDebugInfoPDB.a
+[2752/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltinBitCast.cpp.o
+[2753/3376] Linking CXX static library lib/libLLVMSymbolize.a
+[2754/3376] Linking CXX static library lib/libLLVMTextAPIBinaryReader.a
+[2755/3376] Linking CXX static library lib/libLLVMProfileData.a
+[2756/3376] Linking CXX static library lib/libLLVMDlltoolDriver.a
+[2757/3376] Linking CXX static library lib/libLLVMCoverage.a
+[2758/3376] Building AArch64GenSubtargetInfo.inc...
+[2759/3376] Linking CXX static library lib/libLLVMLibDriver.a
+[2760/3376] Linking CXX static library lib/libLLVMAnalysis.a
+[2761/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64GlobalISelUtils.cpp.o
+[2762/3376] Linking CXX static library lib/libLLVMIRPrinter.a
+[2763/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpFrame.cpp.o
+[2764/3376] Linking CXX static library lib/libLLVMBitWriter.a
+[2765/3376] Linking CXX static library lib/libLLVMFrontendAtomic.a
+[2766/3376] Linking CXX static library lib/libLLVMCGData.a
+[2767/3376] Linking CXX static library lib/libLLVMTarget.a
+[2768/3376] Linking CXX static library lib/libLLVMTransformUtils.a
+[2769/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64LegalizerInfo.cpp.o
+[2770/3376] Linking CXX static library lib/libLLVMFrontendOffloading.a
+[2771/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64InstructionSelector.cpp.o
+[2772/3376] Linking CXX static library lib/libLLVMAggressiveInstCombine.a
+[2773/3376] Linking CXX static library lib/libLLVMInstCombine.a
+[2774/3376] Linking CXX static library lib/libLLVMObjCARCOpts.a
+[2775/3376] Linking CXX static library lib/libLLVMInstrumentation.a
+[2776/3376] Linking CXX static library lib/libLLVMHipStdPar.a
+[2777/3376] Linking CXX static library lib/libLLVMFrontendDriver.a
+[2778/3376] Linking CXX static library lib/libLLVMScalarOpts.a
+[2779/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Context.cpp.o
+[2780/3376] Linking CXX static library lib/libLLVMLinker.a
+[2781/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64O0PreLegalizerCombiner.cpp.o
+[2782/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64PreLegalizerCombiner.cpp.o
+[2783/3376] Linking CXX static library lib/libLLVMFrontendOpenMP.a
+[2784/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64PostLegalizerCombiner.cpp.o
+[2785/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64PostLegalizerLowering.cpp.o
+[2786/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64PostSelectOptimize.cpp.o
+[2787/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64A57FPLoadBalancing.cpp.o
+[2788/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64RegisterBankInfo.cpp.o
+[2789/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64CodeLayoutOpt.cpp.o
+[2790/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64Arm64ECCallLowering.cpp.o
+[2791/3376] Linking CXX static library lib/libLLVMCodeGen.a
+[2792/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64AdvSIMDScalarPass.cpp.o
+[2793/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64AsmPrinter.cpp.o
+[2794/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64BranchTargets.cpp.o
+[2795/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64CleanupLocalDynamicTLSPass.cpp.o
+[2796/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64CallingConvention.cpp.o
+[2797/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64CollectLOH.cpp.o
+[2798/3376] Linking CXX static library lib/libLLVMAsmPrinter.a
+[2799/3376] Linking CXX static library lib/libLLVMSelectionDAG.a
+[2800/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64CondBrTuning.cpp.o
+[2801/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64ConditionalCompares.cpp.o
+[2802/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64DeadRegisterDefinitionsPass.cpp.o
+[2803/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64ExpandImm.cpp.o
+[2804/3376] Linking CXX static library lib/libLLVMGlobalISel.a
+[2805/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64ExpandPseudoInsts.cpp.o
+[2806/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64FalkorHWPFFix.cpp.o
+[2807/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp: In member function ‘bool clang::interp::Compiler<Emitter>::VisitSYCLUniqueStableNameExpr(const clang::SYCLUniqueStableNameExpr*)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:3205:28: error: ‘class clang::interp::Program’ has no member named ‘createGlobalString’; did you mean ‘createGlobal’?
+ 3205 |   unsigned StringIndex = P.createGlobalString(SL);
+      |                            ^~~~~~~~~~~~~~~~~~
+      |                            createGlobal
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp: In member function ‘bool clang::interp::Compiler<Emitter>::VisitPredefinedExpr(const clang::PredefinedExpr*)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:3737:30: error: ‘class clang::interp::Program’ has no member named ‘createGlobalString’; did you mean ‘createGlobal’?
+ 3737 |     unsigned StringIndex = P.createGlobalString(E->getFunctionName(), E);
+      |                              ^~~~~~~~~~~~~~~~~~
+      |                              createGlobal
+[2808/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64FastISel.cpp.o
+[2809/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64FrameLowering.cpp.o
+[2810/3376] Linking CXX static library lib/libLLVMX86CodeGen.a
+[2811/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpStack.cpp.o
+[2812/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpState.cpp.o
+[2813/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/PrimType.cpp.o
+[2814/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/GISel/AArch64CallLowering.cpp.o
+[2815/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/ByteCodeEmitter.cpp.o
+[2816/3376] Building CXX object lib/Target/AArch64/CMakeFiles/LLVMAArch64CodeGen.dir/AArch64A53Fix835769.cpp.o
+[2817/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Program.cpp.o
+[2818/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Pointer.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APFloat.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APNumericStorage.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Decl.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Descriptor.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.cpp:9:
+In destructor ‘llvm::APInt::~APInt()’,
+    inlined from ‘llvm::APSInt::~APSInt()’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:24:21,
+    inlined from ‘clang::interp::Pointer::toRValue(const clang::interp::Context&, clang::QualType) const::<lambda(clang::QualType, clang::interp::PtrView, clang::APValue&)>’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.cpp:1097:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:193:18: warning: ‘void operator delete [](void*)’ called on a pointer to an unallocated object ‘1’ [-Wfree-nonheap-object]
+  193 |       delete[] U.pVal;
+      |                  ^~~~
+In destructor ‘llvm::APInt::~APInt()’,
+    inlined from ‘llvm::APSInt::~APSInt()’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:24:21,
+    inlined from ‘clang::interp::Pointer::toRValue(const clang::interp::Context&, clang::QualType) const::<lambda(clang::QualType, clang::interp::PtrView, clang::APValue&)>’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.cpp:1097:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:193:18: warning: ‘void operator delete [](void*)’ called on a pointer to an unallocated object ‘1’ [-Wfree-nonheap-object]
+  193 |       delete[] U.pVal;
+      |                  ^~~~
+[2819/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltin.cpp.o
+[2820/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTContext.cpp.o
+[2821/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConstant.cpp.o
+[2822/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/EvalEmitter.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APFloat.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APNumericStorage.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Decl.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvaluationResult.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.cpp:9:
+In destructor ‘llvm::APInt::~APInt()’,
+    inlined from ‘llvm::APSInt::~APSInt()’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:24:21,
+    inlined from ‘clang::APValue clang::interp::Boolean::toAPValue(const clang::ASTContext&) const’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Boolean.h:55:72,
+    inlined from ‘void clang::interp::EvalEmitter::updateGlobalTemporaries()’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.cpp:444:7:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:193:18: warning: ‘void operator delete [](void*)’ called on a pointer to an unallocated object ‘1’ [-Wfree-nonheap-object]
+  193 |       delete[] U.pVal;
+      |                  ^~~~
+In destructor ‘llvm::APInt::~APInt()’,
+    inlined from ‘llvm::APSInt::~APSInt()’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:24:21,
+    inlined from ‘clang::APValue clang::interp::Boolean::toAPValue(const clang::ASTContext&) const’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Boolean.h:55:72,
+    inlined from ‘bool clang::interp::EvalEmitter::emitRet(clang::interp::SourceInfo) [with clang::interp::PrimType <anonymous> = clang::interp::PT_Bool]’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.cpp:241:23,
+    inlined from ‘bool clang::interp::EvalEmitter::emitRet(clang::interp::SourceInfo) [with clang::interp::PrimType <anonymous> = clang::interp::PT_Bool]’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.cpp:236:33,
+    inlined from ‘bool clang::interp::EvalEmitter::emitRet(clang::interp::PrimType, clang::interp::SourceInfo)’ at /tmp/llvm-project-build-stage1/tools/clang/lib/AST/Opcodes.inc:43560:7:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:193:18: warning: ‘void operator delete [](void*)’ called on a pointer to an unallocated object ‘1’ [-Wfree-nonheap-object]
+  193 |       delete[] U.pVal;
+      |                  ^~~~
+[2823/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Interp.cpp.o
+[2824/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Disasm.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:4 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/lld/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+357.10user 22.51system 1:09.73elapsed 544%CPU (0avgtext+0avgdata 1358056maxresident)k
+0inputs+2624848outputs (3008major+12383438minor)pagefaults 0swaps
