@@ -213087,6 +213087,66 @@
             "author_name": "Hubert Tong",
             "commit_date": "2026-08-15T15:38:01+00:00",
             "subject": "[Release Notes] Clang UBSan changes to aggregate copy\/move operand checks"
+        },
+        {
+            "hash": "5aeb89c435bc192faf8ba2f8d5582cfab8bda0fc",
+            "author_name": "Brian Cain",
+            "commit_date": "2026-08-15T15:40:21+00:00",
+            "subject": "[Hexagon] Fix unusable SCS reg, make it selectable (#213820)"
+        },
+        {
+            "hash": "cf723481e1629d35db5c8f8a8a7afff0823ac889",
+            "author_name": "Ebuka Ezike",
+            "commit_date": "2026-08-15T15:41:00+00:00",
+            "subject": "[lldb] Fix incorrect Python property bindings in SBExtensions. (#215283)"
+        },
+        {
+            "hash": "0fc9903bd5511f6c1e42d8aba42bfeb42965d392",
+            "author_name": "Tony Guillot",
+            "commit_date": "2026-08-15T15:41:45+00:00",
+            "subject": "[Clang] Revert \"Reject auto combined with type specifiers in C++ (#208552)\" and follow-ups commits (#215320)"
+        },
+        {
+            "hash": "d43346200ddafbb8237f0d0bafbd16af9b0d0e98",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-08-15T15:42:23+00:00",
+            "subject": "[DWARFLinker] Keep module type definitions in the parallel linker (#215435)"
+        },
+        {
+            "hash": "4a94b37026f5b50bcdc7f4711f65a61816514e1d",
+            "author_name": "Sudharsan Veeravalli",
+            "commit_date": "2026-08-15T15:43:02+00:00",
+            "subject": "[RISCV] Avoid pre-RA Zilsd pairs with same src\/dst registers (#215575)"
+        },
+        {
+            "hash": "8c94eaedf6e9cb0d22c291454e3b77a1f2aec6f7",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-08-15T15:44:04+00:00",
+            "subject": "[DWARFLinker] Consider module units when creating the type unit (#215731)"
+        },
+        {
+            "hash": "c3bbd061100b85e076a74067d9414841de68c186",
+            "author_name": "Kane Wang",
+            "commit_date": "2026-08-15T15:44:58+00:00",
+            "subject": "[RISCV] Fix prefetch ADDI-adjustment range upper bound (#215985)"
+        },
+        {
+            "hash": "cb42065d334aca14f63bbf16caa44b5b3e6522c2",
+            "author_name": "Daniel Chen",
+            "commit_date": "2026-08-15T15:45:34+00:00",
+            "subject": "[flang] To fix LIT test that AIX does not emit comdat. (#214950)"
+        },
+        {
+            "hash": "ee9bfe9b77e6b4a45c006e9b06dd616c73fcf7d8",
+            "author_name": "Ebuka Ezike",
+            "commit_date": "2026-08-15T15:46:13+00:00",
+            "subject": "[lldb] Fix crash when adding a python ParsedCommand (#215807)"
+        },
+        {
+            "hash": "0380caa08342afc85226053e686571739ec570ef",
+            "author_name": "Eli Friedman",
+            "commit_date": "2026-08-15T15:46:59+00:00",
+            "subject": "[DAGCombine] Fix alignment of store in replaceStoreOfInsertLoad. (#215895)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
