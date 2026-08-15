@@ -1,0 +1,236 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[3209/3376] Linking CXX static library lib/libclangLex.a
+[3210/3376] Linking CXX static library lib/libclangRewrite.a
+[3211/3376] Linking CXX static library lib/libclangToolingCore.a
+[3212/3376] Linking CXX static library lib/libLLVMCodeGen.a
+[3213/3376] Generating VCSVersion.inc
+[3214/3376] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/CommonLinkerContext.cpp.o
+[3215/3376] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Filesystem.cpp.o
+[3216/3376] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Args.cpp.o
+[3217/3376] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/DriverDispatcher.cpp.o
+[3218/3376] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/DWARF.cpp.o
+[3219/3376] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Memory.cpp.o
+[3220/3376] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Strings.cpp.o
+[3221/3376] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/TargetOptionsCommandFlags.cpp.o
+[3222/3376] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Version.cpp.o
+[3223/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Arch/X86_64.cpp.o
+[3224/3376] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/ErrorHandler.cpp.o
+[3225/3376] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Reproduce.cpp.o
+[3226/3376] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Timer.cpp.o
+[3227/3376] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Utils.cpp.o
+[3228/3376] Building CXX object tools/lld/tools/lld/CMakeFiles/lld.dir/lld-driver.cpp.o
+[3229/3376] Building CXX object tools/lld/tools/lld/CMakeFiles/lld.dir/lld.cpp.o
+[3230/3376] Building CXX object tools/lld/COFF/CMakeFiles/lldCOFF.dir/CallGraphSort.cpp.o
+[3231/3376] Building CXX object tools/lld/COFF/CMakeFiles/lldCOFF.dir/COFFLinkerContext.cpp.o
+[3232/3376] Building CXX object tools/lld/COFF/CMakeFiles/lldCOFF.dir/Chunks.cpp.o
+[3233/3376] Building CXX object tools/lld/COFF/CMakeFiles/lldCOFF.dir/DLL.cpp.o
+[3234/3376] Building CXX object tools/lld/COFF/CMakeFiles/lldCOFF.dir/DriverUtils.cpp.o
+[3235/3376] Building CXX object tools/lld/COFF/CMakeFiles/lldCOFF.dir/DebugTypes.cpp.o
+[3236/3376] Building CXX object tools/lld/COFF/CMakeFiles/lldCOFF.dir/Driver.cpp.o
+[3237/3376] Building CXX object tools/lld/COFF/CMakeFiles/lldCOFF.dir/ICF.cpp.o
+[3238/3376] Building CXX object tools/lld/COFF/CMakeFiles/lldCOFF.dir/LLDMapFile.cpp.o
+[3239/3376] Building CXX object tools/lld/COFF/CMakeFiles/lldCOFF.dir/MarkLive.cpp.o
+[3240/3376] Building CXX object tools/lld/COFF/CMakeFiles/lldCOFF.dir/MinGW.cpp.o
+[3241/3376] Building CXX object tools/lld/COFF/CMakeFiles/lldCOFF.dir/Symbols.cpp.o
+[3242/3376] Building CXX object tools/lld/COFF/CMakeFiles/lldCOFF.dir/Writer.cpp.o
+[3243/3376] Linking CXX static library lib/liblldCommon.a
+[3244/3376] Building CXX object tools/lld/COFF/CMakeFiles/lldCOFF.dir/PDB.cpp.o
+[3245/3376] Building CXX object tools/lld/COFF/CMakeFiles/lldCOFF.dir/InputFiles.cpp.o
+[3246/3376] Building CXX object tools/lld/COFF/CMakeFiles/lldCOFF.dir/MapFile.cpp.o
+[3247/3376] Building CXX object tools/lld/COFF/CMakeFiles/lldCOFF.dir/SymbolTable.cpp.o
+[3248/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/AMDGPU.cpp.o
+[3249/3376] Building CXX object tools/lld/COFF/CMakeFiles/lldCOFF.dir/LTO.cpp.o
+[3250/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/AArch64.cpp.o
+[3251/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/AArch64ErrataFix.cpp.o
+[3252/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/ARM.cpp.o
+[3253/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/AVR.cpp.o
+[3254/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/Hexagon.cpp.o
+[3255/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/LoongArch.cpp.o
+[3256/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/Mips.cpp.o
+[3257/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/MipsArchTree.cpp.o
+[3258/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/MSP430.cpp.o
+[3259/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/PPC.cpp.o
+[3260/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/PPC64.cpp.o
+[3261/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/SPARCV9.cpp.o
+[3262/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/SystemZ.cpp.o
+[3263/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/X86.cpp.o
+[3264/3376] Linking CXX static library lib/libLLVMAsmPrinter.a
+[3265/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/RISCV.cpp.o
+[3266/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/X86_64.cpp.o
+[3267/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/ARMErrataFix.cpp.o
+[3268/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/DriverUtils.cpp.o
+[3269/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/CallGraphSort.cpp.o
+[3270/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/DWARF.cpp.o
+[3271/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/EhFrame.cpp.o
+[3272/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/ICF.cpp.o
+[3273/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/InputSection.cpp.o
+[3274/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/LinkerScript.cpp.o
+[3275/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/MarkLive.cpp.o
+[3276/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/ScriptLexer.cpp.o
+[3277/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Driver.cpp.o
+[3278/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/InputFiles.cpp.o
+[3279/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/LTO.cpp.o
+[3280/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/MapFile.cpp.o
+[3281/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/OutputSections.cpp.o
+[3282/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/SymbolTable.cpp.o
+[3283/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Relocations.cpp.o
+[3284/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/ScriptParser.cpp.o
+[3285/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Symbols.cpp.o
+[3286/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Thunks.cpp.o
+[3287/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Arch/ARM64Common.cpp.o
+[3288/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Target.cpp.o
+[3289/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/SyntheticSections.cpp.o
+[3290/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Arch/ARM64.cpp.o
+[3291/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Writer.cpp.o
+[3292/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Arch/ARM64_32.cpp.o
+[3293/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Dwarf.cpp.o
+[3294/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/ExportTrie.cpp.o
+[3295/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/ConcatOutputSection.cpp.o
+[3296/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/DriverUtils.cpp.o
+[3297/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/EhFrame.cpp.o
+[3298/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/ICF.cpp.o
+[3299/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/LinkerOptimizationHints.cpp.o
+[3300/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/MapFile.cpp.o
+[3301/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/InputSection.cpp.o
+[3302/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Driver.cpp.o
+[3303/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/InputFiles.cpp.o
+[3304/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/MarkLive.cpp.o
+[3305/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/ObjC.cpp.o
+/var/llvm-compile-time-tracker/llvm-project/lld/MachO/ObjC.cpp:748:1: warning: ‘{anonymous}::ObjcCategoryMerger::PointerListInfo {anonymous}::ObjcCategoryMerger::parseProtocolListInfo(const lld::macho::ConcatInputSection*, uint32_t, {anonymous}::ObjcCategoryMerger::SourceLanguage)’ defined but not used [-Wunused-function]
+  748 | ObjcCategoryMerger::parseProtocolListInfo(const ConcatInputSection *isec,
+      | ^~~~~~~~~~~~~~~~~~
+[3306/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/OutputSection.cpp.o
+[3307/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/OutputSegment.cpp.o
+[3308/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/LTO.cpp.o
+[3309/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Relocations.cpp.o
+[3310/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/BPSectionOrderer.cpp.o
+[3311/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/SectionPriorities.cpp.o
+[3312/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Sections.cpp.o
+[3313/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Symbols.cpp.o
+[3314/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Target.cpp.o
+[3315/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/SymbolTable.cpp.o
+[3316/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/UnwindInfoSection.cpp.o
+[3317/3376] Linking CXX static library lib/libLLVMSelectionDAG.a
+[3318/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/SyntheticSections.cpp.o
+[3319/3376] Building CXX object tools/lld/MinGW/CMakeFiles/lldMinGW.dir/Driver.cpp.o
+[3320/3376] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Writer.cpp.o
+[3321/3376] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/Driver.cpp.o
+[3322/3376] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/InputChunks.cpp.o
+[3323/3376] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/MapFile.cpp.o
+[3324/3376] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/InputFiles.cpp.o
+[3325/3376] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/LTO.cpp.o
+[3326/3376] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/MarkLive.cpp.o
+[3327/3376] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/OutputSections.cpp.o
+[3328/3376] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/OutputSegment.cpp.o
+[3329/3376] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/Relocations.cpp.o
+[3330/3376] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/SymbolTable.cpp.o
+[3331/3376] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/Symbols.cpp.o
+[3332/3376] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/WriterUtils.cpp.o
+[3333/3376] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/SyntheticSections.cpp.o
+[3334/3376] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/Writer.cpp.o
+[3335/3376] Linking CXX static library lib/libLLVMGlobalISel.a
+[3336/3376] Linking CXX static library lib/libLLVMPasses.a
+[3337/3376] Linking CXX static library lib/libLLVMLTO.a
+[3338/3376] Linking CXX static library lib/libLLVMDTLTO.a
+[3339/3376] Linking CXX static library lib/libLLVMX86CodeGen.a
+[3340/3376] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/BPSectionOrderer.cpp.o
+[3341/3376] Linking CXX static library lib/libLLVMAArch64CodeGen.a
+[3342/3376] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp: In member function ‘bool clang::interp::Compiler<Emitter>::VisitSYCLUniqueStableNameExpr(const clang::SYCLUniqueStableNameExpr*)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:3206:37: error: expected ‘)’ before ‘E’
+ 3206 |     return this->emitGetStringPtr(SL E);
+      |                                  ~  ^~
+      |                                     )
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp: In member function ‘bool clang::interp::Compiler<Emitter>::VisitPredefinedExpr(const clang::PredefinedExpr*)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:3737:55: error: expected ‘)’ before ‘E’
+ 3737 |     return this->emitGetStringPtr(E->getFunctionName() E);
+      |                                  ~                    ^~
+      |                                                       )
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp: In instantiation of ‘bool clang::interp::Compiler<Emitter>::VisitSYCLUniqueStableNameExpr(const clang::SYCLUniqueStableNameExpr*) [with Emitter = clang::interp::ByteCodeEmitter]’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:9234:16:   required from here
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:3206:34: error: no matching function for call to ‘clang::interp::Compiler<clang::interp::ByteCodeEmitter>::emitGetStringPtr(clang::StringLiteral*&)’
+ 3206 |     return this->emitGetStringPtr(SL E);
+      |            ~~~~~~~~~~~~~~~~~~~~~~^~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/ByteCodeEmitter.h:112,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:9:
+/tmp/llvm-project-build-stage1/tools/clang/lib/AST/Opcodes.inc:28318:6: note: candidate: ‘bool clang::interp::ByteCodeEmitter::emitGetStringPtr(const clang::StringLiteral*, clang::interp::SourceInfo)’
+28318 | bool emitGetStringPtr( const StringLiteral * , SourceInfo);
+      |      ^~~~~~~~~~~~~~~~
+/tmp/llvm-project-build-stage1/tools/clang/lib/AST/Opcodes.inc:28318:6: note:   candidate expects 2 arguments, 1 provided
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp: In instantiation of ‘bool clang::interp::Compiler<Emitter>::VisitPredefinedExpr(const clang::PredefinedExpr*) [with Emitter = clang::interp::ByteCodeEmitter]’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:9234:16:   required from here
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:3737:34: error: no matching function for call to ‘clang::interp::Compiler<clang::interp::ByteCodeEmitter>::emitGetStringPtr(const clang::StringLiteral*)’
+ 3737 |     return this->emitGetStringPtr(E->getFunctionName() E);
+      |            ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/ByteCodeEmitter.h:112,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:9:
+/tmp/llvm-project-build-stage1/tools/clang/lib/AST/Opcodes.inc:28318:6: note: candidate: ‘bool clang::interp::ByteCodeEmitter::emitGetStringPtr(const clang::StringLiteral*, clang::interp::SourceInfo)’
+28318 | bool emitGetStringPtr( const StringLiteral * , SourceInfo);
+      |      ^~~~~~~~~~~~~~~~
+/tmp/llvm-project-build-stage1/tools/clang/lib/AST/Opcodes.inc:28318:6: note:   candidate expects 2 arguments, 1 provided
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp: In instantiation of ‘bool clang::interp::Compiler<Emitter>::VisitSYCLUniqueStableNameExpr(const clang::SYCLUniqueStableNameExpr*) [with Emitter = clang::interp::EvalEmitter]’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:9235:16:   required from here
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:3206:34: error: no matching function for call to ‘clang::interp::Compiler<clang::interp::EvalEmitter>::emitGetStringPtr(clang::StringLiteral*&)’
+ 3206 |     return this->emitGetStringPtr(SL E);
+      |            ~~~~~~~~~~~~~~~~~~~~~~^~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.h:150,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:9:
+/tmp/llvm-project-build-stage1/tools/clang/lib/AST/Opcodes.inc:28318:6: note: candidate: ‘bool clang::interp::EvalEmitter::emitGetStringPtr(const clang::StringLiteral*, clang::interp::SourceInfo)’
+28318 | bool emitGetStringPtr( const StringLiteral * , SourceInfo);
+      |      ^~~~~~~~~~~~~~~~
+/tmp/llvm-project-build-stage1/tools/clang/lib/AST/Opcodes.inc:28318:6: note:   candidate expects 2 arguments, 1 provided
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp: In instantiation of ‘bool clang::interp::Compiler<Emitter>::VisitPredefinedExpr(const clang::PredefinedExpr*) [with Emitter = clang::interp::EvalEmitter]’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:9235:16:   required from here
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:3737:34: error: no matching function for call to ‘clang::interp::Compiler<clang::interp::EvalEmitter>::emitGetStringPtr(const clang::StringLiteral*)’
+ 3737 |     return this->emitGetStringPtr(E->getFunctionName() E);
+      |            ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.h:150,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:9:
+/tmp/llvm-project-build-stage1/tools/clang/lib/AST/Opcodes.inc:28318:6: note: candidate: ‘bool clang::interp::EvalEmitter::emitGetStringPtr(const clang::StringLiteral*, clang::interp::SourceInfo)’
+28318 | bool emitGetStringPtr( const StringLiteral * , SourceInfo);
+      |      ^~~~~~~~~~~~~~~~
+/tmp/llvm-project-build-stage1/tools/clang/lib/AST/Opcodes.inc:28318:6: note:   candidate expects 2 arguments, 1 provided
+[3343/3376] Building CXX object lib/Target/AArch64/AsmParser/CMakeFiles/LLVMAArch64AsmParser.dir/AArch64AsmParser.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:4 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/lld/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+150.28user 19.77system 0:22.46elapsed 756%CPU (0avgtext+0avgdata 1071260maxresident)k
+0inputs+3210152outputs (4234major+9279463minor)pagefaults 0swaps
