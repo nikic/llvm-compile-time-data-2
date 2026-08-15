@@ -216450,5 +216450,45 @@
             "commit_date": "2026-08-15T12:23:16-07:00",
             "subject": "[perf] Enable iterative BFI inference unconditionally"
         }
+    ],
+    "MaskRay\/perf\/bfi-inference-capped64": [
+        {
+            "hash": "0c2e521f8b587b0c3fb5825fb157c3938fef4ff6",
+            "author_name": "Yao Qi",
+            "commit_date": "2026-08-15T17:56:39+01:00",
+            "subject": "[lldb][test] Skip the frame 0 stack expedite test with an out-of-tree debugserver (#216496)"
+        },
+        {
+            "hash": "cb1f9afc556bd732278a6d937511c3a0a03e8241",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-15T12:23:11-07:00",
+            "subject": "[perf] Enable iterative BFI inference unconditionally"
+        },
+        {
+            "hash": "d0b30ff2b24e4755f0b4c54cfbcc384cde8d096b",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-15T15:34:43-07:00",
+            "subject": "[perf] Cap iterative BFI inference at 64 iterations per block"
+        }
+    ],
+    "MaskRay\/perf\/bfi-inference-capped8": [
+        {
+            "hash": "0c2e521f8b587b0c3fb5825fb157c3938fef4ff6",
+            "author_name": "Yao Qi",
+            "commit_date": "2026-08-15T17:56:39+01:00",
+            "subject": "[lldb][test] Skip the frame 0 stack expedite test with an out-of-tree debugserver (#216496)"
+        },
+        {
+            "hash": "cb1f9afc556bd732278a6d937511c3a0a03e8241",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-15T12:23:11-07:00",
+            "subject": "[perf] Enable iterative BFI inference unconditionally"
+        },
+        {
+            "hash": "516ce9cf513ec53ca72969726cee3a868aedd5fb",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-15T15:34:34-07:00",
+            "subject": "[perf] Cap iterative BFI inference at 8 iterations per block"
+        }
     ]
 }
