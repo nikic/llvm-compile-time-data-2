@@ -216708,5 +216708,55 @@
             "commit_date": "2026-08-16T17:07:42+02:00",
             "subject": "Test"
         }
+    ],
+    "fhahn\/perf\/scev-flags-evaluate-at": [
+        {
+            "hash": "f9f1170cb5960846e6f53a6492dc113c77745ebe",
+            "author_name": "Dan Salvato",
+            "commit_date": "2026-08-16T10:36:45-05:00",
+            "subject": "[M68k] Implement `SWAP` instruction encoding, patterns, and tests (#215597)"
+        },
+        {
+            "hash": "e07ea47ed526e168457fb8fce4cfc2099a8ee24d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-16T17:04:22+01:00",
+            "subject": "[SCEV] Use SCEVUse for ValuesAtScope (NFC)."
+        },
+        {
+            "hash": "eb52bfea63b681e7d1070c7aeecf93654aaf6461",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-16T17:04:22+01:00",
+            "subject": "[SCEV] Print use-specific no-wrap flags (NFC)."
+        },
+        {
+            "hash": "d5c30a04a940554324e40cf8c54d4a0acddeb725",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-16T17:04:23+01:00",
+            "subject": "[SCEV] Add a unit test for printing at-scope use flags (NFC)."
+        },
+        {
+            "hash": "c899deaa9332eff56bb9d80083cb1ce235dd97b0",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-16T17:04:23+01:00",
+            "subject": "[SCEV] Make an operand's use flags part of an expression's identity (NFC)."
+        },
+        {
+            "hash": "63cc67b148b82e7ad0a102342db0ecd889cb3dab",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-16T17:04:24+01:00",
+            "subject": "[SCEV] Compare operands structurally where \"same expression\" is meant (NFC)."
+        },
+        {
+            "hash": "62993e98fb8686c3c4b6d8e6c6ccb6efa535a97a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-16T17:04:24+01:00",
+            "subject": "[SCEV] Propagate a recurrence's no-wrap flags to its exit value."
+        },
+        {
+            "hash": "395aea650856985be86cb74b9d4c0d18ae04d9da",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-16T17:04:24+01:00",
+            "subject": "[SCEV] Attach a recurrence's no-wrap flags to its exit value's multiply."
+        }
     ]
 }
