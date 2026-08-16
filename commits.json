@@ -84669,22 +84669,58 @@
     ],
     "OCHyams\/perf\/scratch": [
         {
-            "hash": "4bdf31cf09320fd498f8d01fc5e45a4fac6572d2",
+            "hash": "edc3a42bc22df7dc279d1282b6f440a377e870ff",
             "author_name": "Orlando Cazalet-Hyams",
-            "commit_date": "2026-08-04T08:00:21+01:00",
-            "subject": "[dyndbg] Add Dynamic Debugging docs (#210001)"
+            "commit_date": "2026-08-13T11:49:23+01:00",
+            "subject": "[dyndbg][LLVM] Implement dynamic debugging support (#194854)"
         },
         {
-            "hash": "29e87ef591aad15bddf38038f1f10ae0614f1a81",
+            "hash": "7934bc8701bf7d99ff02a502d1147130f11c97f1",
             "author_name": "Orlando Cazalet-Hyams",
-            "commit_date": "2026-08-04T08:06:09+01:00",
-            "subject": "[dyndbg] Add SHT_LLVM_DYNDBG_ELF to Dynamic Debugging docs"
+            "commit_date": "2026-08-14T13:36:27+01:00",
+            "subject": "[NFC] Add DebugInfoODRUniquer class"
         },
         {
-            "hash": "9f06b111b88b297feb43ce5a21cc4333cae52de3",
+            "hash": "84f4b04d5faa78ca754e04794bad812cbd9fc12c",
             "author_name": "Orlando Cazalet-Hyams",
-            "commit_date": "2026-08-11T17:32:31+01:00",
-            "subject": "dbg odr fix"
+            "commit_date": "2026-08-16T14:21:08+01:00",
+            "subject": "NFC: add DISubprogram odr uniquing facilities"
+        },
+        {
+            "hash": "9067eeafa6f58563e9de3ecc3b8c8591dfb69492",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-08-16T14:21:56+01:00",
+            "subject": "Add LLVMContext::getDebugTypeODRUniquer"
+        },
+        {
+            "hash": "9a5b3d8b4229838004f9a0b9bf662cdcd3702db4",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-08-16T14:22:58+01:00",
+            "subject": "fixup 'add DISubprogram..'"
+        },
+        {
+            "hash": "4b53113cc9b3f3e6b37b3a8b5295fb5b43d24621",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-08-16T14:43:31+01:00",
+            "subject": "add LLVM_ABI tags, fixup add DISubprogram... patch"
+        },
+        {
+            "hash": "554be87abab98bb8de43a8e2b5c117780c767411",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-08-16T17:52:52+01:00",
+            "subject": "add infra for odr-uniquing, enabled for loading already"
+        },
+        {
+            "hash": "9ccce94e7967faeb419397589e28f7513bc5224b",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-08-16T17:53:01+01:00",
+            "subject": "enable odr uniquing from clang"
+        },
+        {
+            "hash": "9a1264a81d49d9b84f73ddbe3b5a4ed84e9ac9a9",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-08-16T17:54:52+01:00",
+            "subject": "remove old disubprogram uniquer"
         }
     ],
     "tobias-stadler\/perf\/inline-simplify-callerinst": [
@@ -204375,6 +204411,12 @@
             "author_name": "forking-google-bazel-bot[bot]",
             "commit_date": "2026-08-16T18:39:49+02:00",
             "subject": "[Bazel] Fixes 1f4574c (#216346)"
+        },
+        {
+            "hash": "30a31c467683a6c635d143848051160e9c8330be",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-08-16T16:51:54+00:00",
+            "subject": "[libc] Remove (weak) __cxa_thread_finalize (#216081)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
