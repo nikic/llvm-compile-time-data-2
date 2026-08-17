@@ -205203,6 +205203,12 @@
             "author_name": "Shilei Tian",
             "commit_date": "2026-08-17T16:16:00-04:00",
             "subject": "[AMDGPU][MC] Fix a crash when invalid SDWA encoding is used (#215140)"
+        },
+        {
+            "hash": "eddfe45aed546399a7579853a434f2e533be17bf",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-17T22:21:56+02:00",
+            "subject": "AArch64: Fix csel-fold crash on an undef register (#216720)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -217775,15 +217781,15 @@
     ],
     "fhahn\/perf\/value-mapper": [
         {
-            "hash": "edc3a42bc22df7dc279d1282b6f440a377e870ff",
-            "author_name": "Orlando Cazalet-Hyams",
-            "commit_date": "2026-08-13T11:49:23+01:00",
-            "subject": "[dyndbg][LLVM] Implement dynamic debugging support (#194854)"
+            "hash": "eddfe45aed546399a7579853a434f2e533be17bf",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-17T22:21:56+02:00",
+            "subject": "AArch64: Fix csel-fold crash on an undef register (#216720)"
         },
         {
-            "hash": "d46dd4941c7d9f79199ee26147f2b02fb6bbde8e",
+            "hash": "d1040a2612ddbe8763e8adbee18b6b43f9f50659",
             "author_name": "AntoineBastide47",
-            "commit_date": "2026-08-13T12:58:48+02:00",
+            "commit_date": "2026-08-17T21:25:34+01:00",
             "subject": "[Utils] Hoist ValueMapper out of per-instruction remap loops in CloneFunction"
         }
     ],
