@@ -205251,6 +205251,18 @@
             "author_name": "Craig Topper",
             "commit_date": "2026-08-17T15:10:35-07:00",
             "subject": "[RISCV] Simplify the SelectCompressOpt patterns. NFC (#216819)"
+        },
+        {
+            "hash": "5639cba92a088dc21e48d3e9b6b12e1b9abf230e",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-08-17T15:21:50-07:00",
+            "subject": "[flang][cuda] Allow call to len intrinsic on host with device argument (#216846)"
+        },
+        {
+            "hash": "65f31e567b71aa6af09cf8456abd42591c1feac8",
+            "author_name": "Alex MacLean",
+            "commit_date": "2026-08-17T15:25:19-07:00",
+            "subject": "[NVPTX] Add NewPM codegen pipeline (#215712)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -217847,6 +217859,32 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-08-17T22:34:57+01:00",
             "subject": "[SCEV] findExistingSCEVInCache, thanks"
+        }
+    ],
+    "artagnon\/perf\/scev-sdiv": [
+        {
+            "hash": "ec68d09b410b7912b585027453bf1331f6329d26",
+            "author_name": "Eric Christopher",
+            "commit_date": "2026-08-17T18:35:50+00:00",
+            "subject": "[DSE] Stop double-counting the dead slice offset in shortenAssignment (#216227)"
+        },
+        {
+            "hash": "2099f78ccfb3595b550de6e139a42ab5b4dc9a6e",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-17T20:17:54+01:00",
+            "subject": "[SCEV] Introduce getOrCreateUDivExpr (NFC)"
+        },
+        {
+            "hash": "829c03b82bb4ee22280b1d09c164c536b29af5d7",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-17T22:34:57+01:00",
+            "subject": "[SCEV] findExistingSCEVInCache, thanks"
+        },
+        {
+            "hash": "400e6b2d666ee9fefbcd6e4034e4d080ef3ee4be",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-17T23:17:55+01:00",
+            "subject": "[SCEV] Introduce SDiv expressions"
         }
     ]
 }
