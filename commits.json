@@ -205035,6 +205035,12 @@
             "author_name": "Sophia Herrmann",
             "commit_date": "2026-08-17T10:57:18-07:00",
             "subject": "[LLVMOffload] Fix unitialized variable in test from #212373 (#216788)"
+        },
+        {
+            "hash": "27ffa745f3a7eaafe5f3491ace03d345e3a80129",
+            "author_name": "jimingham",
+            "commit_date": "2026-08-17T11:11:14-07:00",
+            "subject": "Don't ask trampoline handler plans to step past line 0. (#216770)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -217457,15 +217463,15 @@
     ],
     "MaskRay\/perf\/fastra-ssa": [
         {
-            "hash": "97ef3d4dcdda6116e4ec78683f1129626833ab54",
-            "author_name": "shalom",
-            "commit_date": "2026-08-16T08:15:31+00:00",
-            "subject": "[InstCombine] Fold shl of constant by cttz into multiply of lowest set bit (#214517)"
+            "hash": "b4cf46103cdbbecb16339bb8e96dcbeb99330c06",
+            "author_name": "Sophia Herrmann",
+            "commit_date": "2026-08-17T10:57:18-07:00",
+            "subject": "[LLVMOffload] Fix unitialized variable in test from #212373 (#216788)"
         },
         {
-            "hash": "3b819e403d1e8ebf877b7e7b14c72ccc05554a2c",
+            "hash": "dd74d35b96e1d8b8e8e269f92d6c66b1beb3de11",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-08-16T13:40:07-07:00",
+            "commit_date": "2026-08-17T11:04:52-07:00",
             "subject": "[RegAllocFast] Consume SSA MachineIR, absorbing PHI and two-address lowering"
         }
     ],
