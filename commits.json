@@ -205209,6 +205209,24 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-08-17T22:21:56+02:00",
             "subject": "AArch64: Fix csel-fold crash on an undef register (#216720)"
+        },
+        {
+            "hash": "53356c99b40042131d0942d817f823765b75f0f0",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-08-17T13:31:00-07:00",
+            "subject": "[RISCV] Use PatLeaf to reduce Xqcibi select and SFB patterns. NFC (#216451)"
+        },
+        {
+            "hash": "f53b4d1bbecf83d272ee1f4a07609c1097f4ef5e",
+            "author_name": "Tomer Shafir",
+            "commit_date": "2026-08-17T23:33:11+03:00",
+            "subject": "[AArch64] Restrict FP imm ISel by accurate subtarget macro-fusion (#214849)"
+        },
+        {
+            "hash": "9353eddc544692cec9d3ac4d1f2a392a13300d6f",
+            "author_name": "Chinmay Deshpande",
+            "commit_date": "2026-08-17T13:34:10-07:00",
+            "subject": "[APFloat][SelectionDAG] Support Float8E5M3FNU in `convert.{to,from}.arbitrary.fp` (#216387)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
