@@ -204603,6 +204603,12 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-08-17T10:07:32+02:00",
             "subject": "AArch64: Fix optimizeCondBranch crash on an undef register (#216593)"
+        },
+        {
+            "hash": "bcbe2e2dbc6c5ee44536aff93579fa0d8d7ed34f",
+            "author_name": "Luke Hutton",
+            "commit_date": "2026-08-17T09:37:40+01:00",
+            "subject": "[mlir][tosa] Add option to validate function signature during validation (#214276)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -216677,83 +216683,101 @@
     ],
     "fhahn\/perf\/ce-lower-bound": [
         {
-            "hash": "7cb5d896117ccd4142cd7a7bde284ea3392dd3b4",
-            "author_name": "Ziqing Luo",
-            "commit_date": "2026-08-16T12:59:58-07:00",
-            "subject": "[SSAF][UnsafeBufferAnalysis] Do not create entries for empty contributors (follow-up change on #209354) (#216526)"
+            "hash": "bcbe2e2dbc6c5ee44536aff93579fa0d8d7ed34f",
+            "author_name": "Luke Hutton",
+            "commit_date": "2026-08-17T09:37:40+01:00",
+            "subject": "[mlir][tosa] Add option to validate function signature during validation (#214276)"
         },
         {
-            "hash": "14a9ea46ca31c5093e01dcd47dfcc25af31d8b77",
+            "hash": "09aebb3b68def6d89fadc3aa5efceab97a60d8fb",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-16T21:03:37+01:00",
+            "commit_date": "2026-08-17T09:40:58+01:00",
             "subject": "[ConstraintSystem] Build constraint rows in sparse form (NFC)."
         },
         {
-            "hash": "11762869b9859a94066759168aaebce2e6319464",
+            "hash": "78db87998f8557a85f0dcde33a158ed6d565d789",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-16T21:03:37+01:00",
+            "commit_date": "2026-08-17T09:40:58+01:00",
             "subject": "[ConstraintElim] Add lower bounds for all inductions in a loop header."
-        },
-        {
-            "hash": "6c562123d06f264a8762a98cf6138830ec0290ca",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-16T21:03:37+01:00",
-            "subject": "!fixup unify more"
         }
     ],
     "fhahn\/perf\/scev-iter-phi": [
         {
-            "hash": "53a7028134738d799d8b758a5675873e325dd9e0",
-            "author_name": "Louis Dionne",
-            "commit_date": "2026-08-13T08:50:53-04:00",
-            "subject": "[libc++] Report the runs created by dispatch-benchmarks (#216029)"
+            "hash": "a6d40b40c42d95963f915234851855f456a55b53",
+            "author_name": "Robert Imschweiler",
+            "commit_date": "2026-08-17T09:22:49+02:00",
+            "subject": "[libomp] Fix hang when a fatal error is raised before library registration (#215988)"
         },
         {
-            "hash": "fd20fee0f75d0e3e50059a031809c0c0698b4a26",
+            "hash": "99665cdf84de9904f022ea1497167b1df9adf8dc",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-14T19:39:04+01:00",
+            "commit_date": "2026-08-17T09:32:58+01:00",
+            "subject": "[SCEV] Look up uniqued nodes without building a FoldingSetNodeID"
+        },
+        {
+            "hash": "99110419399ca73f7640a05575f00dc99b68bad2",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-17T09:32:58+01:00",
+            "subject": "[SCEV] Use the direct uniquing lookup for the remaining node kinds"
+        },
+        {
+            "hash": "ad3b84dced134a8fa82b38bca68128cdaf9f7e08",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-17T09:32:58+01:00",
+            "subject": "[SCEV] Reuse the sign-hint-independent range of an affine add recurrence"
+        },
+        {
+            "hash": "994b35d4812c972ed01a7c95005c67489a9036f0",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-17T09:32:58+01:00",
+            "subject": "[SCEV] Compare against the whole operand use when computing the canonical"
+        },
+        {
+            "hash": "3caf006f11175e13d62a1ab0b6239caac55a545a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-17T09:32:59+01:00",
             "subject": "[SCEV] Form add recurrences for pointer IVs without a symbolic name"
         },
         {
-            "hash": "f5a666e93f3dd177fff0515c2f506267c8f7090e",
+            "hash": "fa285dee92a58a3e563f9f78b6d94204341d1288",
             "author_name": "Eli Friedman",
-            "commit_date": "2026-08-14T19:39:14+01:00",
+            "commit_date": "2026-08-17T09:32:59+01:00",
             "subject": "[SCEV] Avoid recursion in PHI handling in more cases."
         },
         {
-            "hash": "2ed5a43745d8a3c95cb73fd07a5fd729e00afd60",
+            "hash": "a67fdecccef8462cbdb683c8915e44d4fa999d7d",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-14T19:39:15+01:00",
+            "commit_date": "2026-08-17T09:32:59+01:00",
             "subject": "[SCEV] Also queue icmp operands for selects in getOperandsToCreate (NFC)"
         },
         {
-            "hash": "b088cd2f07f20679af770f4522227bad6622cdc0",
+            "hash": "3cfe004c9094a7d891581a5c15a2cf0ebbd584e1",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-14T19:39:16+01:00",
+            "commit_date": "2026-08-17T09:32:59+01:00",
             "subject": "[SCEV] Queue the invariant step of a simple affine addrec (NFC)"
         },
         {
-            "hash": "ebfbc4a28c48bbc3352e70af1ac8a3b7146a1b0c",
+            "hash": "f71304afe558ce904198caba73b8435d87e6cf61",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-14T19:39:17+01:00",
+            "commit_date": "2026-08-17T09:32:59+01:00",
             "subject": "[SCEV] Split createAddRecFromPHI and createNodeForPHI (NFC)"
         },
         {
-            "hash": "47dbcf8a4883d0b90c04b2ffbf52edd56378f8f4",
+            "hash": "40615dcf2e2eb55b30525ed699a2315eef8e30e7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-14T19:39:53+01:00",
+            "commit_date": "2026-08-17T09:33:00+01:00",
             "subject": "[SCEV] Handle createAddRecFromPHI's backedge value iteratively"
         },
         {
-            "hash": "633ea3936666dc9dc3c437b78788de2429f79575",
+            "hash": "e780250d4b90e39eaa6d0fd583b8f25d023edc6a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-14T19:39:54+01:00",
+            "commit_date": "2026-08-17T09:33:00+01:00",
             "subject": "[SCEV] Stop collecting operands for PHI cases that cannot be reached"
         },
         {
-            "hash": "8783ac3c406578b077032a633fce5cd30e250687",
+            "hash": "46091579295812a8cbc765a19416ab452c07357f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-14T20:00:57+01:00",
+            "commit_date": "2026-08-17T09:33:00+01:00",
             "subject": "[SCEV] Queue the invariant index of a pointer IV's step (NFC)"
         }
     ],
