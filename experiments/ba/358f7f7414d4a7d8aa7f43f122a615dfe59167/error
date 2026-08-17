@@ -1,0 +1,205 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_test_suite.sh O3 stage1 aarch64" failed
+
+STDOUT:
+26 clang++   0x000055d547006857 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+27 clang++   0x000055d54700ac67 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 295
+28 clang++   0x000055d54701d37c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+29 clang++   0x000055d544e4a286 clang_main(int, char**, llvm::ToolContext const&) + 7798
+30 clang++   0x000055d544d99cb1 main + 113
+31 libc.so.6 0x00007f9ad2adad90
+32 libc.so.6 0x00007f9ad2adae40 __libc_start_main + 128
+33 clang++   0x000055d544e44f05 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 24.0.0git
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING CRASH REPRODUCER FILES TO THE BUG REPORT:
+clang++: note: diagnostic msg: /tmp/btBoxBoxCollisionAlgorithm-d94c08.cpp
+clang++: note: diagnostic msg: /tmp/btBoxBoxCollisionAlgorithm-d94c08.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[255/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBox2dBox2dCollisionAlgorithm.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and dumped files.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ --target=aarch64-linux-gnu -DNDEBUG -O3 -w -Werror=date-time -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/include -std=gnu++98 -DNO_TIME -MD -MT CTMark/Bullet/CMakeFiles/bullet.dir/btBox2dBox2dCollisionAlgorithm.cpp.o -MF CTMark/Bullet/CMakeFiles/bullet.dir/btBox2dBox2dCollisionAlgorithm.cpp.o.d -o CTMark/Bullet/CMakeFiles/bullet.dir/btBox2dBox2dCollisionAlgorithm.cpp.o -c /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/btBox2dBox2dCollisionAlgorithm.cpp
+1.	<eof> parser at end of file
+2.	Code generation
+3.	Running pass 'Function Pass Manager' on module '/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/btBox2dBox2dCollisionAlgorithm.cpp'.
+4.	Running pass 'Peephole Optimizations' on function '@_ZN30btBox2dBox2dCollisionAlgorithmC2EP20btPersistentManifoldRK36btCollisionAlgorithmConstructionInfoP17btCollisionObjectS6_'
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x0000557a45a0d119 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 121
+1  clang++   0x0000557a45a0acec llvm::sys::CleanupOnSignal(unsigned long) + 220
+2  clang++   0x0000557a4594ced8
+3  libc.so.6 0x00007ffbe169b520
+4  clang++   0x0000557a44147932
+5  clang++   0x0000557a4500a24a
+6  clang++   0x0000557a4500b971
+7  clang++   0x0000557a44eed8a5 llvm::MachineFunctionPass::runOnFunction(llvm::Function&) + 373
+8  clang++   0x0000557a45440dc2 llvm::FPPassManager::runOnFunction(llvm::Function&) + 1810
+9  clang++   0x0000557a454411b4 llvm::FPPassManager::runOnModule(llvm::Module&) + 52
+10 clang++   0x0000557a45441c5d
+11 clang++   0x0000557a4544232d llvm::legacy::PassManagerImpl::run(llvm::Module&) + 205
+12 clang++   0x0000557a45d900b2
+13 clang++   0x0000557a45da4781
+14 clang++   0x0000557a45da49e1 clang::emitBackendOutput(clang::CompilerInstance&, clang::CodeGenOptions&, llvm::StringRef, llvm::Module*, clang::BackendAction, llvm::IntrusiveRefCntPtr<llvm::vfs::FileSystem>, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>, clang::BackendConsumer*) + 465
+15 clang++   0x0000557a463d88b8 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) + 1368
+16 clang++   0x0000557a478a585c clang::ParseAST(clang::Sema&, bool, bool) + 1068
+17 clang++   0x0000557a467458f2 clang::FrontendAction::Execute() + 50
+18 clang++   0x0000557a466c5a1d clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 717
+19 clang++   0x0000557a4680de78 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+20 clang++   0x0000557a442574f8 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 4616
+21 clang++   0x0000557a4424f48b
+22 clang++   0x0000557a4424f53f
+23 clang++   0x0000557a4645815d
+24 clang++   0x0000557a4594d277 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+25 clang++   0x0000557a4645947c
+26 clang++   0x0000557a46410857 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+27 clang++   0x0000557a46414c67 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 295
+28 clang++   0x0000557a4642737c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+29 clang++   0x0000557a44254286 clang_main(int, char**, llvm::ToolContext const&) + 7798
+30 clang++   0x0000557a441a3cb1 main + 113
+31 libc.so.6 0x00007ffbe1682d90
+32 libc.so.6 0x00007ffbe1682e40 __libc_start_main + 128
+33 clang++   0x0000557a4424ef05 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 24.0.0git
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING CRASH REPRODUCER FILES TO THE BUG REPORT:
+clang++: note: diagnostic msg: /tmp/btBox2dBox2dCollisionAlgorithm-6291e7.cpp
+clang++: note: diagnostic msg: /tmp/btBox2dBox2dCollisionAlgorithm-6291e7.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[256/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBoxBoxDetector.cpp.o
+[257/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btAxisSweep3.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and dumped files.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ --target=aarch64-linux-gnu -DNDEBUG -O3 -w -Werror=date-time -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/include -std=gnu++98 -DNO_TIME -MD -MT CTMark/Bullet/CMakeFiles/bullet.dir/btAxisSweep3.cpp.o -MF CTMark/Bullet/CMakeFiles/bullet.dir/btAxisSweep3.cpp.o.d -o CTMark/Bullet/CMakeFiles/bullet.dir/btAxisSweep3.cpp.o -c /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/btAxisSweep3.cpp
+1.	<eof> parser at end of file
+2.	Code generation
+3.	Running pass 'Function Pass Manager' on module '/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/btAxisSweep3.cpp'.
+4.	Running pass 'Peephole Optimizations' on function '@_ZN20btAxisSweep3InternalItE25calculateOverlappingPairsEP12btDispatcher'
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x0000563883be0119 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 121
+1  clang++   0x0000563883bddcec llvm::sys::CleanupOnSignal(unsigned long) + 220
+2  clang++   0x0000563883b1fed8
+3  libc.so.6 0x00007ff0fe9a5520
+4  clang++   0x000056388231a932
+5  clang++   0x00005638831dd24a
+6  clang++   0x00005638831de971
+7  clang++   0x00005638830c08a5 llvm::MachineFunctionPass::runOnFunction(llvm::Function&) + 373
+8  clang++   0x0000563883613dc2 llvm::FPPassManager::runOnFunction(llvm::Function&) + 1810
+9  clang++   0x00005638836141b4 llvm::FPPassManager::runOnModule(llvm::Module&) + 52
+10 clang++   0x0000563883614c5d
+11 clang++   0x000056388361532d llvm::legacy::PassManagerImpl::run(llvm::Module&) + 205
+12 clang++   0x0000563883f630b2
+13 clang++   0x0000563883f77781
+14 clang++   0x0000563883f779e1 clang::emitBackendOutput(clang::CompilerInstance&, clang::CodeGenOptions&, llvm::StringRef, llvm::Module*, clang::BackendAction, llvm::IntrusiveRefCntPtr<llvm::vfs::FileSystem>, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>, clang::BackendConsumer*) + 465
+15 clang++   0x00005638845ab8b8 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) + 1368
+16 clang++   0x0000563885a7885c clang::ParseAST(clang::Sema&, bool, bool) + 1068
+17 clang++   0x00005638849188f2 clang::FrontendAction::Execute() + 50
+18 clang++   0x0000563884898a1d clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 717
+19 clang++   0x00005638849e0e78 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+20 clang++   0x000056388242a4f8 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 4616
+21 clang++   0x000056388242248b
+22 clang++   0x000056388242253f
+23 clang++   0x000056388462b15d
+24 clang++   0x0000563883b20277 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+25 clang++   0x000056388462c47c
+26 clang++   0x00005638845e3857 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+27 clang++   0x00005638845e7c67 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 295
+28 clang++   0x00005638845fa37c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+29 clang++   0x0000563882427286 clang_main(int, char**, llvm::ToolContext const&) + 7798
+30 clang++   0x0000563882376cb1 main + 113
+31 libc.so.6 0x00007ff0fe98cd90
+32 libc.so.6 0x00007ff0fe98ce40 __libc_start_main + 128
+33 clang++   0x0000563882421f05 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 24.0.0git
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING CRASH REPRODUCER FILES TO THE BUG REPORT:
+clang++: note: diagnostic msg: /tmp/btAxisSweep3-03552b.cpp
+clang++: note: diagnostic msg: /tmp/btAxisSweep3-03552b.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[258/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/BenchmarkDemo.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and dumped files.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ --target=aarch64-linux-gnu -DNDEBUG -O3 -w -Werror=date-time -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/include -std=gnu++98 -DNO_TIME -MD -MT CTMark/Bullet/CMakeFiles/bullet.dir/BenchmarkDemo.cpp.o -MF CTMark/Bullet/CMakeFiles/bullet.dir/BenchmarkDemo.cpp.o.d -o CTMark/Bullet/CMakeFiles/bullet.dir/BenchmarkDemo.cpp.o -c /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/BenchmarkDemo.cpp
+1.	<eof> parser at end of file
+2.	Code generation
+3.	Running pass 'Function Pass Manager' on module '/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/BenchmarkDemo.cpp'.
+4.	Running pass 'Peephole Optimizations' on function '@_ZN11btMatrix3x311getIdentityEv'
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x0000556cd84c5119 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 121
+1  clang++   0x0000556cd84c2cec llvm::sys::CleanupOnSignal(unsigned long) + 220
+2  clang++   0x0000556cd8404ed8
+3  libc.so.6 0x00007f50d19df520
+4  clang++   0x0000556cd6bff932
+5  clang++   0x0000556cd7ac224a
+6  clang++   0x0000556cd7ac3971
+7  clang++   0x0000556cd79a58a5 llvm::MachineFunctionPass::runOnFunction(llvm::Function&) + 373
+8  clang++   0x0000556cd7ef8dc2 llvm::FPPassManager::runOnFunction(llvm::Function&) + 1810
+9  clang++   0x0000556cd7ef91b4 llvm::FPPassManager::runOnModule(llvm::Module&) + 52
+10 clang++   0x0000556cd7ef9c5d
+11 clang++   0x0000556cd7efa32d llvm::legacy::PassManagerImpl::run(llvm::Module&) + 205
+12 clang++   0x0000556cd88480b2
+13 clang++   0x0000556cd885c781
+14 clang++   0x0000556cd885c9e1 clang::emitBackendOutput(clang::CompilerInstance&, clang::CodeGenOptions&, llvm::StringRef, llvm::Module*, clang::BackendAction, llvm::IntrusiveRefCntPtr<llvm::vfs::FileSystem>, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>, clang::BackendConsumer*) + 465
+15 clang++   0x0000556cd8e908b8 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) + 1368
+16 clang++   0x0000556cda35d85c clang::ParseAST(clang::Sema&, bool, bool) + 1068
+17 clang++   0x0000556cd91fd8f2 clang::FrontendAction::Execute() + 50
+18 clang++   0x0000556cd917da1d clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 717
+19 clang++   0x0000556cd92c5e78 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+20 clang++   0x0000556cd6d0f4f8 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 4616
+21 clang++   0x0000556cd6d0748b
+22 clang++   0x0000556cd6d0753f
+23 clang++   0x0000556cd8f1015d
+24 clang++   0x0000556cd8405277 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+25 clang++   0x0000556cd8f1147c
+26 clang++   0x0000556cd8ec8857 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+27 clang++   0x0000556cd8eccc67 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 295
+28 clang++   0x0000556cd8edf37c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+29 clang++   0x0000556cd6d0c286 clang_main(int, char**, llvm::ToolContext const&) + 7798
+30 clang++   0x0000556cd6c5bcb1 main + 113
+31 libc.so.6 0x00007f50d19c6d90
+32 libc.so.6 0x00007f50d19c6e40 __libc_start_main + 128
+33 clang++   0x0000556cd6d06f05 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 24.0.0git
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING CRASH REPRODUCER FILES TO THE BUG REPORT:
+clang++: note: diagnostic msg: /tmp/BenchmarkDemo-51e904.cpp
+clang++: note: diagnostic msg: /tmp/BenchmarkDemo-51e904.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
