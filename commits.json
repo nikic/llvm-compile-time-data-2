@@ -84663,58 +84663,16 @@
     ],
     "OCHyams\/perf\/scratch": [
         {
-            "hash": "edc3a42bc22df7dc279d1282b6f440a377e870ff",
-            "author_name": "Orlando Cazalet-Hyams",
-            "commit_date": "2026-08-13T11:49:23+01:00",
-            "subject": "[dyndbg][LLVM] Implement dynamic debugging support (#194854)"
+            "hash": "d2bd0203bee02681b0a150fb8d2d6563b7e56b2e",
+            "author_name": "Tom Eccles",
+            "commit_date": "2026-08-17T13:24:18+00:00",
+            "subject": "Revert \"workflows\/release-binaries: Disable flang on Darwin (#164667)\" (#216667)"
         },
         {
-            "hash": "7934bc8701bf7d99ff02a502d1147130f11c97f1",
+            "hash": "52362ffb8e2d0fef740757b18c1fdfd015e3bbd1",
             "author_name": "Orlando Cazalet-Hyams",
-            "commit_date": "2026-08-14T13:36:27+01:00",
-            "subject": "[NFC] Add DebugInfoODRUniquer class"
-        },
-        {
-            "hash": "84f4b04d5faa78ca754e04794bad812cbd9fc12c",
-            "author_name": "Orlando Cazalet-Hyams",
-            "commit_date": "2026-08-16T14:21:08+01:00",
-            "subject": "NFC: add DISubprogram odr uniquing facilities"
-        },
-        {
-            "hash": "9067eeafa6f58563e9de3ecc3b8c8591dfb69492",
-            "author_name": "Orlando Cazalet-Hyams",
-            "commit_date": "2026-08-16T14:21:56+01:00",
-            "subject": "Add LLVMContext::getDebugTypeODRUniquer"
-        },
-        {
-            "hash": "9a5b3d8b4229838004f9a0b9bf662cdcd3702db4",
-            "author_name": "Orlando Cazalet-Hyams",
-            "commit_date": "2026-08-16T14:22:58+01:00",
-            "subject": "fixup 'add DISubprogram..'"
-        },
-        {
-            "hash": "4b53113cc9b3f3e6b37b3a8b5295fb5b43d24621",
-            "author_name": "Orlando Cazalet-Hyams",
-            "commit_date": "2026-08-16T14:43:31+01:00",
-            "subject": "add LLVM_ABI tags, fixup add DISubprogram... patch"
-        },
-        {
-            "hash": "554be87abab98bb8de43a8e2b5c117780c767411",
-            "author_name": "Orlando Cazalet-Hyams",
-            "commit_date": "2026-08-16T17:52:52+01:00",
-            "subject": "add infra for odr-uniquing, enabled for loading already"
-        },
-        {
-            "hash": "9ccce94e7967faeb419397589e28f7513bc5224b",
-            "author_name": "Orlando Cazalet-Hyams",
-            "commit_date": "2026-08-16T17:53:01+01:00",
-            "subject": "enable odr uniquing from clang"
-        },
-        {
-            "hash": "9a1264a81d49d9b84f73ddbe3b5a4ed84e9ac9a9",
-            "author_name": "Orlando Cazalet-Hyams",
-            "commit_date": "2026-08-16T17:54:52+01:00",
-            "subject": "remove old disubprogram uniquer"
+            "commit_date": "2026-08-17T21:47:30+01:00",
+            "subject": "New ODR type debug uniquer"
         }
     ],
     "tobias-stadler\/perf\/inline-simplify-callerinst": [
@@ -205233,6 +205191,30 @@
             "author_name": "Andy Kaylor",
             "commit_date": "2026-08-17T13:43:57-07:00",
             "subject": "[LLVMABI][AARCH64] Add support for simple direct return case (#216437)"
+        },
+        {
+            "hash": "1e1b09267034a6fe76024f58e13c08440aac6691",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-17T22:48:12+02:00",
+            "subject": "AArch64: Guard optimizeCondBranch against a physical copy source (#216699)"
+        },
+        {
+            "hash": "bf8c3e15a4202287c562d3045a1eddc84d16cf2d",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-17T22:48:37+02:00",
+            "subject": "AMDGPU: Use mi_match for G_BITCAST check in RegBankLegalize (#216808)"
+        },
+        {
+            "hash": "b04bfb59acd79baff6f9f94d08c86dcd1cf77cb3",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-17T22:49:04+02:00",
+            "subject": "AMDGPU: Capture G_PTR_ADD flags via m_MIFlags in getBaseWithConstantOffset (#216809)"
+        },
+        {
+            "hash": "3ec64dd5420f57abc780efa1bc935cfda02f6f8b",
+            "author_name": "Katze719",
+            "commit_date": "2026-08-17T20:53:52+00:00",
+            "subject": "[clang-format] Add support for additional C++ declaration specifiers in QualifierOrder (#160853)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -217757,21 +217739,15 @@
             "subject": "[ConstraintElim] Precommit tests for flags strengthening"
         },
         {
-            "hash": "aa96a342d51036a4b01eb950da38e342efc445fa",
+            "hash": "c40e83008a9530007539cf5b49a658a1a31aab91",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T20:49:04+01:00",
+            "commit_date": "2026-08-17T21:48:02+01:00",
             "subject": "[ConstraintElim] Materialize sext and sub no-wrap facts as flags."
         },
         {
-            "hash": "4b40f2d404d4ee52666ca30dd87dc7d57afe4b27",
+            "hash": "23e1b29a9a767851682af42bd04d6ac907644420",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T21:06:17+01:00",
-            "subject": "Simp"
-        },
-        {
-            "hash": "56e8b307fec45fc97433958d58a1031c2860e3f1",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T21:06:26+01:00",
+            "commit_date": "2026-08-17T21:51:42+01:00",
             "subject": "[ConstraintElim] Add nuw to nusw GEPs with non-negative offsets."
         }
     ],
