@@ -205137,6 +205137,12 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-08-17T19:18:35+00:00",
             "subject": "RISCV: Fix VL optimizer crash on an undef VL operand (#216803)"
+        },
+        {
+            "hash": "b3bac42e660e2337e2b6443bd7b08667147fc764",
+            "author_name": "kwyatt-ext",
+            "commit_date": "2026-08-17T14:19:29-05:00",
+            "subject": "[flang] Improve error for misplaced statement after CONTAINS in derived type (#215886)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -217707,6 +217713,20 @@
             "author_name": "AntoineBastide47",
             "commit_date": "2026-08-13T12:58:48+02:00",
             "subject": "[Utils] Hoist ValueMapper out of per-instruction remap loops in CloneFunction"
+        }
+    ],
+    "artagnon\/perf\/scev-udiv-getorcreate-nfc": [
+        {
+            "hash": "ec68d09b410b7912b585027453bf1331f6329d26",
+            "author_name": "Eric Christopher",
+            "commit_date": "2026-08-17T18:35:50+00:00",
+            "subject": "[DSE] Stop double-counting the dead slice offset in shortenAssignment (#216227)"
+        },
+        {
+            "hash": "2099f78ccfb3595b550de6e139a42ab5b4dc9a6e",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-17T20:17:54+01:00",
+            "subject": "[SCEV] Introduce getOrCreateUDivExpr (NFC)"
         }
     ]
 }
