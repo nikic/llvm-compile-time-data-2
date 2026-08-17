@@ -205179,6 +205179,24 @@
             "author_name": "Ellis Hoag",
             "commit_date": "2026-08-17T12:56:49-07:00",
             "subject": "[NFC][MemProf] Replace MemProf binary with YAML (#216796)"
+        },
+        {
+            "hash": "c86596f978479c2fdcb3b06ac5a893b66a4fd6d3",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-17T19:59:32+00:00",
+            "subject": "AMDGPU: Use mi_match in isFPExtFromF16OrConst (#216807)"
+        },
+        {
+            "hash": "74bb5a3f3f9f3f23ec3d57da4c8f8a73a815585f",
+            "author_name": "Andrei Elovikov",
+            "commit_date": "2026-08-17T19:59:37+00:00",
+            "subject": "[VPlan][UTC] Number VPlan passes' instances in printing\/filtering (#211424)"
+        },
+        {
+            "hash": "9a1c6e5616971a90b5aab4068ac7680feb88cb4b",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-08-17T13:04:46-07:00",
+            "subject": "[CIR] Fix array consts who change during layout (#216732)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -217691,22 +217709,34 @@
     ],
     "fhahn\/perf\/ce-strengthen-flags": [
         {
-            "hash": "d9274cddde31007dab8db336db6fdaf44b5e3379",
-            "author_name": "Kristina Bessonova",
-            "commit_date": "2026-08-17T16:42:06+01:00",
-            "subject": "[AArch64][GlobalISel] Preserve scalar type when widening atomic G_STORE (#216162)"
+            "hash": "b3bac42e660e2337e2b6443bd7b08667147fc764",
+            "author_name": "kwyatt-ext",
+            "commit_date": "2026-08-17T14:19:29-05:00",
+            "subject": "[flang] Improve error for misplaced statement after CONTAINS in derived type (#215886)"
         },
         {
-            "hash": "fc9ca3e505a089ac8f280b49a1c007d4b79362de",
+            "hash": "b5fb83fbbf7464a6f27db5cbf754e47ef7ac085a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T17:08:31+01:00",
+            "commit_date": "2026-08-17T20:45:38+01:00",
             "subject": "[ConstraintElim] Precommit tests for flags strengthening"
         },
         {
-            "hash": "44af0268a74c146ad817f50815a7ae2bff67e128",
+            "hash": "aa96a342d51036a4b01eb950da38e342efc445fa",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T17:08:32+01:00",
-            "subject": "[ConstraintElim] Strengthen various flags."
+            "commit_date": "2026-08-17T20:49:04+01:00",
+            "subject": "[ConstraintElim] Materialize sext and sub no-wrap facts as flags."
+        },
+        {
+            "hash": "4b40f2d404d4ee52666ca30dd87dc7d57afe4b27",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-17T21:06:17+01:00",
+            "subject": "Simp"
+        },
+        {
+            "hash": "56e8b307fec45fc97433958d58a1031c2860e3f1",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-17T21:06:26+01:00",
+            "subject": "[ConstraintElim] Add nuw to nusw GEPs with non-negative offsets."
         }
     ],
     "akadutta\/perf\/store-chain-outside-user-threshold": [
