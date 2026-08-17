@@ -204915,6 +204915,30 @@
             "author_name": "Adam Smith",
             "commit_date": "2026-08-17T11:24:17-05:00",
             "subject": "[CIR] Derive record padding from the member marks (#215176)r"
+        },
+        {
+            "hash": "782f1130177b2c792dc37f0923d21d187a4c150b",
+            "author_name": "Rainer Orth",
+            "commit_date": "2026-08-17T18:30:39+02:00",
+            "subject": "[sanitizer] Skip hanging tests on NetBSD (#216712)"
+        },
+        {
+            "hash": "0b02ca0e2295b6b54f9f5a09f02cc5ee5c2e8ae1",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-08-17T09:30:59-07:00",
+            "subject": "[mlir] Remove dead declarations (#216651)"
+        },
+        {
+            "hash": "7c26749bab308ca21a8145dcaa403f59b32ac29f",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-17T18:31:08+02:00",
+            "subject": "NVPTX: Fix using getVRegDef on a physical register (#216735)"
+        },
+        {
+            "hash": "052e6ffdbf68cab9f14ed6369b916127f89d0ae1",
+            "author_name": "Maddy Dunn",
+            "commit_date": "2026-08-17T17:36:20+01:00",
+            "subject": "[mlir][tosa] Add input_unsigned attribute to CAST (#215838)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -217443,6 +217467,34 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-17T17:08:32+01:00",
             "subject": "[ConstraintElim] Strengthen various flags."
+        }
+    ],
+    "akadutta\/perf\/store-chain-outside-user-threshold": [
+        {
+            "hash": "022d936cce575d40220fa947dad9e0d8b17b2546",
+            "author_name": "Kunal Dubey",
+            "commit_date": "2026-08-11T16:18:07-07:00",
+            "subject": "[CIR] Avoid folding non-integer constants as integer casts (#214551)"
+        },
+        {
+            "hash": "3a9c31d9e36a4bb07683dd679785593b9dd10242",
+            "author_name": "akadutta_amdeng",
+            "commit_date": "2026-08-11T18:59:45-05:00",
+            "subject": "relax store chain user limit to 2"
+        }
+    ],
+    "fhahn\/perf\/scev-affine-ar-range-cache": [
+        {
+            "hash": "4f1066bd8249d0a02611778530774aacd63d5092",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-08-17T09:56:23-04:00",
+            "subject": "[SLP]Recalculate cleared deps for all cancelled copyable elements"
+        },
+        {
+            "hash": "ac575ad0a9052fd488628f1d1dfc8716abde4543",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-17T17:31:24+01:00",
+            "subject": "[SCEV] Reuse the sign-hint-independent range of an affine add recurrence"
         }
     ]
 }
