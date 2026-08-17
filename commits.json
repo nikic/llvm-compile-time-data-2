@@ -54605,28 +54605,22 @@
     ],
     "fhahn\/perf\/extra-unswitch": [
         {
-            "hash": "e176220de90d6859a91a85171864c33d29236df0",
-            "author_name": "Florian Hahn",
-            "commit_date": "2024-02-09T16:29:02+00:00",
-            "subject": "[Passes] Run SimpleLoopUnswitch after introducing invariant branches."
+            "hash": "bcbe2e2dbc6c5ee44536aff93579fa0d8d7ed34f",
+            "author_name": "Luke Hutton",
+            "commit_date": "2026-08-17T09:37:40+01:00",
+            "subject": "[mlir][tosa] Add option to validate function signature during validation (#214276)"
         },
         {
-            "hash": "1089034302b5c6570e99dd3f3be25eb379d7f48c",
-            "author_name": "Florian Hahn",
-            "commit_date": "2024-04-10T10:29:40+01:00",
-            "subject": "Merge remote-tracking branch 'origin\/main' into perf\/extra-unswitch"
+            "hash": "4353feb4e455b6f3d82248f49f984ac69e842a3f",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-08-17T10:47:53+01:00",
+            "subject": "[PassBuilder] Run trivial loop unswitching after late function-simplification LICM"
         },
         {
-            "hash": "c44e229058b0752bb045b7f8f72456e184618563",
-            "author_name": "Florian Hahn",
-            "commit_date": "2024-04-10T13:31:52+01:00",
-            "subject": "Merge remote-tracking branch 'origin\/main' into perf\/extra-unswitch"
-        },
-        {
-            "hash": "913e3a486ec6549c7d558913b429a774cac8f72f",
-            "author_name": "Florian Hahn",
-            "commit_date": "2024-04-10T13:40:50+01:00",
-            "subject": "!fixup add comments"
+            "hash": "a1c55585492642c8becce67d953290f930f4aaa1",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-08-17T10:47:53+01:00",
+            "subject": "Apply clang-format"
         }
     ],
     "nikic\/perf\/jump-table-opt": [
@@ -204675,6 +204669,18 @@
             "author_name": "David Spickett",
             "commit_date": "2026-08-17T09:41:39+00:00",
             "subject": "[lldb] Fix GetIndexOfChildWithName and GetChildMemberWithName on register sets (#212727)"
+        },
+        {
+            "hash": "184f413181a81a90f2c5d9ec52c8bbba1ec521c6",
+            "author_name": "Akimasa Watanuki",
+            "commit_date": "2026-08-17T18:42:51+09:00",
+            "subject": "[mlir][affine] Require a vector size in affine-super-vectorize (#171110)"
+        },
+        {
+            "hash": "cfd277e2eff7ee8b9740481c0ded3caa4c5b1d7d",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-08-17T10:46:52+01:00",
+            "subject": "[clang][CIR][AArch64] Add lowering for conversion intrinsics (#211609)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
