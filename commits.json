@@ -204987,6 +204987,24 @@
             "author_name": "guyfischman",
             "commit_date": "2026-08-17T18:32:36+01:00",
             "subject": "[AArch64] Select sqdmulh for smul.fix.sat with scale == eltbits-1 (#211579)"
+        },
+        {
+            "hash": "9bfcc0509e541b345210f6e159dc9fe0af86a890",
+            "author_name": "Kyungtak Woo",
+            "commit_date": "2026-08-17T10:38:07-07:00",
+            "subject": "[bazel] Include Orc\/Shared\/SPSCI headers in OrcShared target (#216634)"
+        },
+        {
+            "hash": "e7b3f73552ea839702edce448dd046d3b974a9ef",
+            "author_name": "Alex MacLean",
+            "commit_date": "2026-08-17T10:43:31-07:00",
+            "subject": "[ExpandVariadics] Move NewPM class to RequiredPassInfoMixin (#216597)"
+        },
+        {
+            "hash": "5ccbdeff313a0b0bdf613848109466e0928d5603",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-08-17T17:44:40+00:00",
+            "subject": "[RISCV] Add HasConditionalMoveFusion Zibi patterns. (#216452)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -217543,6 +217561,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-17T17:31:24+01:00",
             "subject": "[SCEV] Reuse the sign-hint-independent range of an affine add recurrence"
+        }
+    ],
+    "fhahn\/perf\/value-mapper": [
+        {
+            "hash": "edc3a42bc22df7dc279d1282b6f440a377e870ff",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-08-13T11:49:23+01:00",
+            "subject": "[dyndbg][LLVM] Implement dynamic debugging support (#194854)"
+        },
+        {
+            "hash": "d46dd4941c7d9f79199ee26147f2b02fb6bbde8e",
+            "author_name": "AntoineBastide47",
+            "commit_date": "2026-08-13T12:58:48+02:00",
+            "subject": "[Utils] Hoist ValueMapper out of per-instruction remap loops in CloneFunction"
         }
     ]
 }
