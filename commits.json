@@ -204897,6 +204897,12 @@
             "author_name": "Yaxun (Sam) Liu",
             "commit_date": "2026-08-17T11:24:37-04:00",
             "subject": "[HIP] Link profile runtime in device-only lld path (#211675)"
+        },
+        {
+            "hash": "d9274cddde31007dab8db336db6fdaf44b5e3379",
+            "author_name": "Kristina Bessonova",
+            "commit_date": "2026-08-17T16:42:06+01:00",
+            "subject": "[AArch64][GlobalISel] Preserve scalar type when widening atomic G_STORE (#216162)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -216971,28 +216977,22 @@
     ],
     "fhahn\/perf\/ce-lower-bound": [
         {
-            "hash": "4f1066bd8249d0a02611778530774aacd63d5092",
-            "author_name": "Alexey Bataev",
-            "commit_date": "2026-08-17T09:56:23-04:00",
-            "subject": "[SLP]Recalculate cleared deps for all cancelled copyable elements"
+            "hash": "d9274cddde31007dab8db336db6fdaf44b5e3379",
+            "author_name": "Kristina Bessonova",
+            "commit_date": "2026-08-17T16:42:06+01:00",
+            "subject": "[AArch64][GlobalISel] Preserve scalar type when widening atomic G_STORE (#216162)"
         },
         {
-            "hash": "a75c1d70949e06b4e9b3e05ee8ffcdeecbd4c791",
+            "hash": "3c9fa7aeb3ef44207160f9f617d50484392cd261",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T15:25:57+01:00",
+            "commit_date": "2026-08-17T16:46:29+01:00",
             "subject": "[ConstraintSystem] Build constraint rows in sparse form (NFC)."
         },
         {
-            "hash": "e1c1574505d227cf6b9e416c2899d954f3e47f66",
+            "hash": "442532f2858608557e485e5c778918813dc0b43a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T15:36:22+01:00",
+            "commit_date": "2026-08-17T16:46:29+01:00",
             "subject": "[ConstraintElim] Add lower bounds for all inductions in a loop header."
-        },
-        {
-            "hash": "e75e45cf5742ee1fafc7cd88a51a918c2859f825",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T15:42:28+01:00",
-            "subject": "!Fixup skip when zero"
         }
     ],
     "fhahn\/perf\/scev-iter-phi": [
