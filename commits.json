@@ -204621,6 +204621,12 @@
             "author_name": "Orlando Cazalet-Hyams",
             "commit_date": "2026-08-17T09:56:15+01:00",
             "subject": "[dyndbg][nfc] use -emit-llvm-only in coverage test (#216662)"
+        },
+        {
+            "hash": "39440565ffd98a811f2e17086494a5d28d36ac28",
+            "author_name": "Frank Schlimbach",
+            "commit_date": "2026-08-17T11:07:35+02:00",
+            "subject": "[mlir][gpu] Fix L0_SAFE_CALL in LevelZero runtime (#215308)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -217067,6 +217073,20 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-08-17T10:00:51+01:00",
             "subject": "[LV] Mark functions in legacy cost model const (NFC)"
+        }
+    ],
+    "arsenm\/perf\/inline-getvregdef": [
+        {
+            "hash": "38da688c60b208a48d60b70396ac46716edc72d5",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-17T07:46:37+02:00",
+            "subject": "RISCV: Fix optimizeCondBranch crash on an undef register (#216633)"
+        },
+        {
+            "hash": "ba358f7f7414d4a7d8aa7f43f122a615dfe59167",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-17T10:47:59+02:00",
+            "subject": "perf: Inline getVRegDef\/getUniqueVRegDef into the header"
         }
     ]
 }
