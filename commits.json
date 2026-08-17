@@ -204609,6 +204609,18 @@
             "author_name": "Luke Hutton",
             "commit_date": "2026-08-17T09:37:40+01:00",
             "subject": "[mlir][tosa] Add option to validate function signature during validation (#214276)"
+        },
+        {
+            "hash": "3ea0b52258cbe94abcdf3ff57bfd7f4d6a93016c",
+            "author_name": "Jianjian Guan",
+            "commit_date": "2026-08-17T16:45:14+08:00",
+            "subject": "[CIR][RISCV] Support Zknd builtins (#212947)"
+        },
+        {
+            "hash": "93ebddedab9833af230754ab49f5b642a02f36e6",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-08-17T09:56:15+01:00",
+            "subject": "[dyndbg][nfc] use -emit-llvm-only in coverage test (#216662)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -216695,9 +216707,9 @@
             "subject": "[ConstraintSystem] Build constraint rows in sparse form (NFC)."
         },
         {
-            "hash": "78db87998f8557a85f0dcde33a158ed6d565d789",
+            "hash": "1ed0f1d1f481234d66e6dd2055502862f5510d15",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T09:40:58+01:00",
+            "commit_date": "2026-08-17T09:54:37+01:00",
             "subject": "[ConstraintElim] Add lower bounds for all inductions in a loop header."
         }
     ],
@@ -217041,6 +217053,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-08-16T13:40:07-07:00",
             "subject": "[RegAllocFast] Consume SSA MachineIR, absorbing PHI and two-address lowering"
+        }
+    ],
+    "artagnon\/perf\/lv-costmodel-cost-nfc": [
+        {
+            "hash": "93ebddedab9833af230754ab49f5b642a02f36e6",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-08-17T09:56:15+01:00",
+            "subject": "[dyndbg][nfc] use -emit-llvm-only in coverage test (#216662)"
+        },
+        {
+            "hash": "d25ef33d7ffdf1c4bffba3d1b89b6aed1b90d2f6",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-17T10:00:51+01:00",
+            "subject": "[LV] Mark functions in legacy cost model const (NFC)"
         }
     ]
 }
