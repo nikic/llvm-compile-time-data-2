@@ -204903,6 +204903,12 @@
             "author_name": "Kristina Bessonova",
             "commit_date": "2026-08-17T16:42:06+01:00",
             "subject": "[AArch64][GlobalISel] Preserve scalar type when widening atomic G_STORE (#216162)"
+        },
+        {
+            "hash": "759e2140f2f8daca5b7927789df45e2d003d805c",
+            "author_name": "Alex MacLean",
+            "commit_date": "2026-08-17T09:18:32-07:00",
+            "subject": "[NVPTX] Cleanup overloaded intrinsic addrspace matching (NFC) (#213110)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -217417,6 +217423,26 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-17T15:53:48+01:00",
             "subject": "[SCEV] Look up uniqued nodes by comparing against the interned profile."
+        }
+    ],
+    "fhahn\/perf\/ce-strengthen-flags": [
+        {
+            "hash": "d9274cddde31007dab8db336db6fdaf44b5e3379",
+            "author_name": "Kristina Bessonova",
+            "commit_date": "2026-08-17T16:42:06+01:00",
+            "subject": "[AArch64][GlobalISel] Preserve scalar type when widening atomic G_STORE (#216162)"
+        },
+        {
+            "hash": "fc9ca3e505a089ac8f280b49a1c007d4b79362de",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-17T17:08:31+01:00",
+            "subject": "[ConstraintElim] Precommit tests for flags strengthening"
+        },
+        {
+            "hash": "44af0268a74c146ad817f50815a7ae2bff67e128",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-17T17:08:32+01:00",
+            "subject": "[ConstraintElim] Strengthen various flags."
         }
     ]
 }
