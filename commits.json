@@ -218361,16 +218361,22 @@
     ],
     "fhahn\/perf\/scev-affine-ar-range-cache": [
         {
-            "hash": "4f1066bd8249d0a02611778530774aacd63d5092",
-            "author_name": "Alexey Bataev",
-            "commit_date": "2026-08-17T09:56:23-04:00",
-            "subject": "[SLP]Recalculate cleared deps for all cancelled copyable elements"
+            "hash": "94f597cee5b8058ca16d679b10a2cfd5a191f4e7",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-08-18T17:27:41+10:00",
+            "subject": "[orc-rt] Add clarifying note to BootstrapInfo::CreateDefault (#216936)"
         },
         {
-            "hash": "ac575ad0a9052fd488628f1d1dfc8716abde4543",
+            "hash": "89b93ced67cbec044d202668318f228a80180874",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T17:31:24+01:00",
+            "commit_date": "2026-08-18T08:33:42+01:00",
             "subject": "[SCEV] Reuse the sign-hint-independent range of an affine add recurrence"
+        },
+        {
+            "hash": "a826b2cba945b6fccaed844bb9e08aba3622e90a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-18T13:15:22+01:00",
+            "subject": "reafactor"
         }
     ],
     "fhahn\/perf\/value-mapper": [
@@ -218405,6 +218411,12 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-08-17T22:34:57+01:00",
             "subject": "[SCEV] findExistingSCEVInCache, thanks"
+        },
+        {
+            "hash": "1759858278b4909cb5d5665f836aba6dfa91b42d",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-18T13:16:19+01:00",
+            "subject": "[SCEV] Strip left-over dead code"
         }
     ],
     "artagnon\/perf\/scev-sdiv": [
