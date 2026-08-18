@@ -205869,6 +205869,18 @@
             "author_name": "Arseniy Obolenskiy",
             "commit_date": "2026-08-18T16:08:49+02:00",
             "subject": "[AMDGPU] Fix crash folding cos\/sin table lookups on poison\/undef vector lanes (#216972)"
+        },
+        {
+            "hash": "8c1cd84e68f19466533c7f614d433f1afd5256bc",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-08-18T16:24:51+02:00",
+            "subject": "[AMDGPU] Fix miscompile from stale value cache in LowerBufferFatPointers (#216962)"
+        },
+        {
+            "hash": "6473ad53f6af0bf2a224aa830ff974783dbc4e22",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-08-18T16:25:22+02:00",
+            "subject": "[AMDGPU] Fix miscompile folding math calls with poison\/undef vector lanes (#216971)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
