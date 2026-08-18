@@ -206259,6 +206259,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-18T20:02:49+00:00",
             "subject": "[ObjcARCContract] Do not replace llvm.lifetime argument. (#216991)"
+        },
+        {
+            "hash": "b259dec37be8493d09fd9476a1b0d59321bcf429",
+            "author_name": "Andy Kaylor",
+            "commit_date": "2026-08-18T13:10:56-07:00",
+            "subject": "[LLVMABI][AARCH64] Add support for simple direct argument cases (#216849)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -219049,6 +219055,32 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-08-18T18:41:36+02:00",
             "subject": "double init"
+        }
+    ],
+    "efriedma-quic\/perf\/scev-partially-iterative-addrecfromphi-earlyreturn": [
+        {
+            "hash": "13034ef965533cdc9d215a8d506ee8250ead972b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-18T20:02:49+00:00",
+            "subject": "[ObjcARCContract] Do not replace llvm.lifetime argument. (#216991)"
+        },
+        {
+            "hash": "b33ce912063cf8c2da9a47922fe9d25aef26a37f",
+            "author_name": "Eli Friedman",
+            "commit_date": "2026-08-18T13:08:08-07:00",
+            "subject": "[SCEV] Avoid recursion in PHI handling in more cases."
+        },
+        {
+            "hash": "b57a0bfd9cf583601c9a8df26b340afab3deae72",
+            "author_name": "Eli Friedman",
+            "commit_date": "2026-08-18T13:08:08-07:00",
+            "subject": "Update comment."
+        },
+        {
+            "hash": "7c44c957c05755d0693eb286aadd1441ad1f9acf",
+            "author_name": "Eli Friedman",
+            "commit_date": "2026-08-18T13:08:08-07:00",
+            "subject": "Add back early returns to check for perf issue."
         }
     ]
 }
