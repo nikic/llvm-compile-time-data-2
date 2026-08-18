@@ -219063,15 +219063,27 @@
     ],
     "artagnon\/perf\/scev-sdiv": [
         {
-            "hash": "4e00d18cdc93e2a56941aaa583d1c227527580c4",
-            "author_name": "Matt Arsenault",
-            "commit_date": "2026-08-18T13:39:24+00:00",
-            "subject": "CodeGen: Use getDefBlock in MachineLoop::isLoopInvariant (#217018)"
+            "hash": "8b1e3aa6b661bae5b4155905796ed5c37e2a1a82",
+            "author_name": "Ivan R. Ivanov",
+            "commit_date": "2026-08-18T18:59:36+02:00",
+            "subject": "[mlir][arith] Allow folding all +\/- 0 under fastmath nsz (#217031)"
         },
         {
-            "hash": "910469a4787fe09ea365f8de56d09bbdfc4e8f62",
+            "hash": "54db31e369c4764bfc60c389202f03306a5b17fa",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-18T15:51:01+01:00",
+            "commit_date": "2026-08-18T22:14:57+01:00",
+            "subject": "[SCEV] Directly use wrap flags in getUDivExpr (NFC)"
+        },
+        {
+            "hash": "4016c42336c8e6e1fabb0ef54d1ce0d9ccf78ac0",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-18T23:13:56+01:00",
+            "subject": "[LSR] Missed test update"
+        },
+        {
+            "hash": "26b3e98f33171f708826fbdd78d50e8e7093b8be",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-18T23:14:57+01:00",
             "subject": "[SCEV] Introduce SDiv expressions"
         }
     ],
@@ -219209,6 +219221,12 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-08-18T22:14:57+01:00",
             "subject": "[SCEV] Directly use wrap flags in getUDivExpr (NFC)"
+        },
+        {
+            "hash": "4016c42336c8e6e1fabb0ef54d1ce0d9ccf78ac0",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-18T23:13:56+01:00",
+            "subject": "[LSR] Missed test update"
         }
     ]
 }
