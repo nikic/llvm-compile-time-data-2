@@ -205893,6 +205893,18 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-18T14:36:42+00:00",
             "subject": "[SCEV] Make operand use flags part of expression's identity. (#216604)"
+        },
+        {
+            "hash": "025da4a733ed9dd016318eb0f3448b6dff444694",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-08-18T08:01:04-07:00",
+            "subject": "[mlir] Remove dead declaration populateSparseTensorRewriting (#216942)"
+        },
+        {
+            "hash": "a1a534c81255185dca40601616626f66f3a361bd",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-08-18T17:01:40+02:00",
+            "subject": "[NFC][SPIR-V] Enable spirv-val for SPV_AMD_weak_linkage test (#216316)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -218559,34 +218571,16 @@
     ],
     "artagnon\/perf\/scev-sdiv": [
         {
-            "hash": "ec68d09b410b7912b585027453bf1331f6329d26",
-            "author_name": "Eric Christopher",
-            "commit_date": "2026-08-17T18:35:50+00:00",
-            "subject": "[DSE] Stop double-counting the dead slice offset in shortenAssignment (#216227)"
+            "hash": "4e00d18cdc93e2a56941aaa583d1c227527580c4",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-18T13:39:24+00:00",
+            "subject": "CodeGen: Use getDefBlock in MachineLoop::isLoopInvariant (#217018)"
         },
         {
-            "hash": "2099f78ccfb3595b550de6e139a42ab5b4dc9a6e",
+            "hash": "910469a4787fe09ea365f8de56d09bbdfc4e8f62",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-17T20:17:54+01:00",
-            "subject": "[SCEV] Introduce getOrCreateUDivExpr (NFC)"
-        },
-        {
-            "hash": "829c03b82bb4ee22280b1d09c164c536b29af5d7",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-17T22:34:57+01:00",
-            "subject": "[SCEV] findExistingSCEVInCache, thanks"
-        },
-        {
-            "hash": "400e6b2d666ee9fefbcd6e4034e4d080ef3ee4be",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-17T23:17:55+01:00",
+            "commit_date": "2026-08-18T15:51:01+01:00",
             "subject": "[SCEV] Introduce SDiv expressions"
-        },
-        {
-            "hash": "e2e09fd10f418f582ebb2ba58536e48b60c8824f",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-18T08:10:46+01:00",
-            "subject": "[SCEV] Fix lots of issues, include tests"
         }
     ],
     "madhur13490\/perf\/loop-interchange-o3-default": [
