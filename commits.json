@@ -205881,6 +205881,18 @@
             "author_name": "Arseniy Obolenskiy",
             "commit_date": "2026-08-18T16:25:22+02:00",
             "subject": "[AMDGPU] Fix miscompile folding math calls with poison\/undef vector lanes (#216971)"
+        },
+        {
+            "hash": "efd053f8ef306e6fa21ab0cd1bd185ef48f09fc0",
+            "author_name": "Alexandre Isoard",
+            "commit_date": "2026-08-18T16:36:19+02:00",
+            "subject": "[PromoteMemToReg] Insert store undef when removing lifetime markers (#191909)"
+        },
+        {
+            "hash": "04c879ac131a936a41cae03a9630a0eb1365be2e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-18T14:36:42+00:00",
+            "subject": "[SCEV] Make operand use flags part of expression's identity. (#216604)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -218657,6 +218669,26 @@
             "author_name": "Nick Riasanovsky",
             "commit_date": "2026-08-18T16:14:06+02:00",
             "subject": "Allow reuse of provably-disjoint `or` in canReuseInstruction"
+        }
+    ],
+    "tbaederr\/perf\/apvalue": [
+        {
+            "hash": "94f597cee5b8058ca16d679b10a2cfd5a191f4e7",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-08-18T17:27:41+10:00",
+            "subject": "[orc-rt] Add clarifying note to BootstrapInfo::CreateDefault (#216936)"
+        },
+        {
+            "hash": "14378c525b8ae630962a6c6c4ca309420115f8aa",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-08-18T16:23:01+02:00",
+            "subject": "bitfields"
+        },
+        {
+            "hash": "c16a4dd89e3f292c98cb41a3c39e141af0e33320",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-08-18T16:38:16+02:00",
+            "subject": "double init"
         }
     ]
 }
