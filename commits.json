@@ -218632,5 +218632,19 @@
             "commit_date": "2026-08-18T12:52:23+00:00",
             "subject": "[GlobalISel] Scan attributes once in CallLowering (NFC)"
         }
+    ],
+    "nikic\/perf\/scev-or-disjoint-reuse": [
+        {
+            "hash": "8a34f9d127e52586c7285fa07efd1b6b8e428ca0",
+            "author_name": "David Green",
+            "commit_date": "2026-08-17T07:26:28+01:00",
+            "subject": "[DAGCombine][AArch64][X86] Adjust profitability check on and(anyext, c) -> zext(and) transform (#214749)"
+        },
+        {
+            "hash": "8928452ed67e3865c5a1b3fc5485cf8f51813c71",
+            "author_name": "Nick Riasanovsky",
+            "commit_date": "2026-08-18T16:14:06+02:00",
+            "subject": "Allow reuse of provably-disjoint `or` in canReuseInstruction"
+        }
     ]
 }
