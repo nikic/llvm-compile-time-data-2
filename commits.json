@@ -205581,6 +205581,30 @@
             "author_name": "Chennes",
             "commit_date": "2026-08-18T11:33:05+02:00",
             "subject": "[InstCombine] Fix miscompile when folding a select into a masked load (#216730)"
+        },
+        {
+            "hash": "b5e18ba8d7439f5ba6da35c0a0de71f06651003e",
+            "author_name": "ejose02",
+            "commit_date": "2026-08-18T15:05:23+05:30",
+            "subject": "[Flang][HLFIR] Lower PACK(array, .TRUE.) to hlfir.reshape (#213603)"
+        },
+        {
+            "hash": "e7141271e89ce17ae75961a70d9cf033b44dcb4f",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-18T11:41:38+02:00",
+            "subject": "AArch64: Use mi_match for G_CONSTANT operand check in RegisterBankInfo (#216955)"
+        },
+        {
+            "hash": "c7ff5c347764061febd84c9486501742df5000c5",
+            "author_name": "fo40225",
+            "commit_date": "2026-08-18T11:42:07+02:00",
+            "subject": "[SelectionDAG] Fix soft-promotion of f16 BUILD_VECTOR for MSA targets (#210515)"
+        },
+        {
+            "hash": "2d10fed10ebccc185445025789a5b41f4caa1e2a",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-18T11:42:52+02:00",
+            "subject": "RISCV\/GlobalISel: Use mi_match for constant checks (#216954)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -218283,6 +218307,20 @@
             "author_name": "Madhur Amilkanthwar",
             "commit_date": "2026-08-17T23:47:02-07:00",
             "subject": "fixup! [Clang][Flang] Enable loop interchange by default at -O3"
+        }
+    ],
+    "Enna1\/perf\/sockke\/regmask-interference-scan-reuse": [
+        {
+            "hash": "b5e18ba8d7439f5ba6da35c0a0de71f06651003e",
+            "author_name": "ejose02",
+            "commit_date": "2026-08-18T15:05:23+05:30",
+            "subject": "[Flang][HLFIR] Lower PACK(array, .TRUE.) to hlfir.reshape (#213603)"
+        },
+        {
+            "hash": "57b24e090211b40d54805927314d378eb6301b67",
+            "author_name": "Sockke",
+            "commit_date": "2026-08-18T17:40:37+08:00",
+            "subject": "improve RegMask interference scan"
         }
     ]
 }
