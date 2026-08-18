@@ -218490,5 +218490,19 @@
             "commit_date": "2026-08-18T17:40:37+08:00",
             "subject": "improve RegMask interference scan"
         }
+    ],
+    "fhahn\/perf\/scev-zext-nneg": [
+        {
+            "hash": "90c0c675b463b7aaace2c9f90dfe7fc4f851678c",
+            "author_name": "David Green",
+            "commit_date": "2026-08-18T08:11:59+01:00",
+            "subject": "[AArch64] Do not allow anyext load in isEquivalentMaskless (#216288)"
+        },
+        {
+            "hash": "54695267f76ba00ecfc8c9e927db14c5cac578cd",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-18T13:29:27+01:00",
+            "subject": "[SCEV] Use the sign-extended expression for a `zext nneg` when it distributes"
+        }
     ]
 }
