@@ -205767,6 +205767,12 @@
             "author_name": "Andrzej Warzy\u0144ski",
             "commit_date": "2026-08-18T13:47:28+01:00",
             "subject": "[clang][CIR][AArch64] Add lowering for conversion intrinsics (#216757)"
+        },
+        {
+            "hash": "759327d9a39e6bbcd31383f16396dde04fa424a6",
+            "author_name": "Adam",
+            "commit_date": "2026-08-18T15:59:27+03:00",
+            "subject": "[libc++] Fix missing 'get_new_handler()' for MSVC mode builds (#150182)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -218515,6 +218521,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-18T13:29:27+01:00",
             "subject": "[SCEV] Use the sign-extended expression for a `zext nneg` when it distributes"
+        }
+    ],
+    "c-rhodes\/perf\/gisel-call-lowering-scan-attrs-once": [
+        {
+            "hash": "b025f5b75941fcf2e719535473c51b5e0617c4f9",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-08-18T13:11:15+01:00",
+            "subject": "[clang][cir] Fix tests post #210729 (#216963)"
+        },
+        {
+            "hash": "780a10dba2415886d8daf2fe52ad66109c5aa4ff",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-08-18T12:52:23+00:00",
+            "subject": "[GlobalISel] Scan attributes once in CallLowering (NFC)"
         }
     ]
 }
