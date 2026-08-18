@@ -205947,6 +205947,12 @@
             "author_name": "Emery Conrad",
             "commit_date": "2026-08-18T18:27:25+03:00",
             "subject": "[clang-repl] Keep access to private nested types in out-of-line members (#217040)"
+        },
+        {
+            "hash": "77adee27440ec76263560a7673dfb6acfa2f2ad6",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-18T17:33:38+02:00",
+            "subject": "CodeGen: Synthesize \"float-abi\" module flag from -float-abi (#215795)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -218549,6 +218555,12 @@
             "author_name": "akadutta_amdeng",
             "commit_date": "2026-08-11T18:59:45-05:00",
             "subject": "relax store chain user limit to 2"
+        },
+        {
+            "hash": "055b2b54c7f7de9a8f98f1deb33a6a0e83345dd6",
+            "author_name": "akadutta_amdeng",
+            "commit_date": "2026-08-18T10:35:41-05:00",
+            "subject": "early-reject store chains only for non-local or 3+ outside users"
         }
     ],
     "fhahn\/perf\/scev-affine-ar-range-cache": [
