@@ -214599,6 +214599,42 @@
             "author_name": "Adam Scott",
             "commit_date": "2026-08-18T08:00:50+00:00",
             "subject": "[DAGCombiner][AArch64] Fix the multiplier when folding a partial reduction of a mask (#215187)"
+        },
+        {
+            "hash": "7e107983c5f365de463e24e9cb84cfb7b12f6a43",
+            "author_name": "Hassnaa Hamdi",
+            "commit_date": "2026-08-18T08:08:51+00:00",
+            "subject": "[AArch64] Fix cost of vector shifts with non-uniform constant amounts (#214206)"
+        },
+        {
+            "hash": "53c64aa519aac1fda507720ce902851dde97d3d7",
+            "author_name": "David Tenty",
+            "commit_date": "2026-08-18T08:09:52+00:00",
+            "subject": "[llvm][object][GOFF] refine Global flag conditions (#211632)"
+        },
+        {
+            "hash": "c2347d5252378b1092a6330797d02bcf58556b6a",
+            "author_name": "hev",
+            "commit_date": "2026-08-18T08:10:44+00:00",
+            "subject": "[clang][LoongArch] Match GCC ABI handling of integer complex types (#215222)"
+        },
+        {
+            "hash": "3cc48bac4b7392d1d4d70b21ee554eef5ae4aca2",
+            "author_name": "Jan Svoboda",
+            "commit_date": "2026-08-18T08:11:29+00:00",
+            "subject": "[clang][lex] Cache stat failures in `-Wshadow-header` (#215962)"
+        },
+        {
+            "hash": "bbb622ba935324697403cc4b6785ba25b71c47ac",
+            "author_name": "Yao Qi",
+            "commit_date": "2026-08-18T08:12:19+00:00",
+            "subject": "[lldb] Fix stale L1 memory cache read after memory write (#208347)"
+        },
+        {
+            "hash": "d353d7b3a4f81fe82981fa34685c37cdd859220c",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-18T08:13:03+00:00",
+            "subject": "RISCV: Fix optimizeCondBranch crash on an undef register (#216633)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
