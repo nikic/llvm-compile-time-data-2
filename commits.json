@@ -206799,6 +206799,30 @@
             "author_name": "Zorojuro",
             "commit_date": "2026-08-19T10:20:24+00:00",
             "subject": "[libc] Modify `roundf128` to use emulated Float128 type (#216563)"
+        },
+        {
+            "hash": "d7f1904ecf19040e686266af38e9df819e9485f4",
+            "author_name": "Patrick Ribbsaeter",
+            "commit_date": "2026-08-19T10:27:15+00:00",
+            "subject": "[X86] Vectorize non-power-of-two integer division (#215076)"
+        },
+        {
+            "hash": "28e4457f03a0fa41b99a9c7b0dda06d7660dee7e",
+            "author_name": "hsnaveen2u",
+            "commit_date": "2026-08-19T10:35:56+00:00",
+            "subject": "[InstCombine] Fold length-one memset with variable fillFold length-one memset with variable fill (#217224)"
+        },
+        {
+            "hash": "9584b932c86d8c234856c13a185bc02d8afeb317",
+            "author_name": "sipher",
+            "commit_date": "2026-08-19T10:36:30+00:00",
+            "subject": "[X86] Narrow vXi32\/vXi64 usubsat to vpsubusb\/vpsubusw when LHS is known to fit in fewer bits (#206592)"
+        },
+        {
+            "hash": "2d697458ac3f472e666b7f47586da362839cfacb",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-19T11:39:31+01:00",
+            "subject": "[SCEV] Directly use NUW on mul in getUDivExpr (NFC) (#217235)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -219789,6 +219813,26 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-08-19T12:16:23+02:00",
             "subject": "only constants"
+        }
+    ],
+    "fhahn\/perf\/scev-constant-range-direct": [
+        {
+            "hash": "727136090b77a4c6840283758af4bceb8056dcfc",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-08-19T09:46:37+00:00",
+            "subject": "[X86] isTargetShuffleEquivalent - only use \"known zero\" element if its known never poison\/undef as well (#217030)"
+        },
+        {
+            "hash": "8147b8e3d130ee0be42e000f43de114936e6e015",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-19T10:51:35+01:00",
+            "subject": "[SCEV] Answer range queries for constants directly (NFC)"
+        },
+        {
+            "hash": "2d0e914a56a00684024b6195b0a616c33624b9ce",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-19T11:25:03+01:00",
+            "subject": "add getRange() helper"
         }
     ]
 }
