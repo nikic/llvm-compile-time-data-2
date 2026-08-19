@@ -206541,6 +206541,12 @@
             "author_name": "Craig Topper",
             "commit_date": "2026-08-18T21:20:40-07:00",
             "subject": "[RISCV] Lower (select c, x, -x) -> (sub (czero_eqz x, c), (czero_nez x, c)) with Zicond. (#217181)"
+        },
+        {
+            "hash": "fcec6ca6fd9c359f32d3894b0adc2a6d6b92bc30",
+            "author_name": "Ryotaro Kasuga",
+            "commit_date": "2026-08-19T13:35:26+09:00",
+            "subject": "[LoopInterchange] Bail out if a PHI would be cloned into the new latch (#212742)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
