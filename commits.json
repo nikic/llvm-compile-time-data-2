@@ -206727,6 +206727,18 @@
             "author_name": "Mehdi Amini",
             "commit_date": "2026-08-19T10:48:58+02:00",
             "subject": "[MLIR] Fix ErasedOpsListener false positives for newly created ops\/blocks (#192291)"
+        },
+        {
+            "hash": "f5eb3a430fe7f6a51cf6b363fe8749cfa147204c",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-08-19T11:06:59+02:00",
+            "subject": "[clang][diagnostics] Remove incorrect spaces before punctuation (#217212)"
+        },
+        {
+            "hash": "3c2eaf3920a8320930a8334b328a040ec0402091",
+            "author_name": "Marco Elver",
+            "commit_date": "2026-08-19T11:12:34+02:00",
+            "subject": "Thread Safety Analysis: Treat blocks constructing noreturn temporaries as non-returning (#215691)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -219285,16 +219297,22 @@
     ],
     "fhahn\/perf\/scev-folding-set": [
         {
-            "hash": "4f1066bd8249d0a02611778530774aacd63d5092",
-            "author_name": "Alexey Bataev",
-            "commit_date": "2026-08-17T09:56:23-04:00",
-            "subject": "[SLP]Recalculate cleared deps for all cancelled copyable elements"
+            "hash": "ba30b230ce829f642aec8601b7752f10ec2c761b",
+            "author_name": "jinge90",
+            "commit_date": "2026-08-19T00:41:54-07:00",
+            "subject": "[compiler-rt] Add clang_rt library path to LIB env var for profile lit (#217189)"
         },
         {
-            "hash": "94e18fdb1f64c4ddfd592da5b6ddb6666ad48bd2",
+            "hash": "ae10aafde486b492cb635b30038e81d20e1df003",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T15:53:48+01:00",
+            "commit_date": "2026-08-19T09:57:52+01:00",
             "subject": "[SCEV] Look up uniqued nodes by comparing against the interned profile."
+        },
+        {
+            "hash": "e406b927eb9867ef0449e87511ad00fb2a555f1a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-19T09:58:57+01:00",
+            "subject": "[SCEV] Fold single-use findExistingNAry into findExistingSCEVInCache (NFC)."
         }
     ],
     "fhahn\/perf\/ce-strengthen-flags": [
