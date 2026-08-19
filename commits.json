@@ -206643,6 +206643,24 @@
             "author_name": "Pavel Labath",
             "commit_date": "2026-08-19T09:50:02+02:00",
             "subject": "[libc] Refactor thread.h (#216943)"
+        },
+        {
+            "hash": "3ff78bc8058700b642a1c11c3e7750b1eae6cff1",
+            "author_name": "Amr Hesham",
+            "commit_date": "2026-08-19T09:55:02+02:00",
+            "subject": "[CIR] Support vector of boolean in cir.not op (#217012)"
+        },
+        {
+            "hash": "8486d37a08c5ef10c7a62206d1002b89e2837acf",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-08-19T08:57:30+01:00",
+            "subject": "[GlobalISel] Scan attributes once in CallLowering (NFC) (#217034)"
+        },
+        {
+            "hash": "c318bb43f74dd6065a17b5f3c1644324bc980176",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-08-19T10:01:24+02:00",
+            "subject": "[libc] Convert test framework libraries to standard target infrastructure (#216931)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -219487,22 +219505,10 @@
             "subject": "[mlir][arith] Allow folding all +\/- 0 under fastmath nsz (#217031)"
         },
         {
-            "hash": "54db31e369c4764bfc60c389202f03306a5b17fa",
+            "hash": "42dc6c296bc078bd41eeec875e1571b33af7e1f7",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-18T22:14:57+01:00",
-            "subject": "[SCEV] Directly use wrap flags in getUDivExpr (NFC)"
-        },
-        {
-            "hash": "4016c42336c8e6e1fabb0ef54d1ce0d9ccf78ac0",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-18T23:13:56+01:00",
-            "subject": "[LSR] Missed test update"
-        },
-        {
-            "hash": "466803651d4ad93421b21be3692f7374122e7684",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-19T08:06:42+01:00",
-            "subject": "[SCEV] Attempt to fix failure; return NoWrap"
+            "commit_date": "2026-08-19T09:00:50+01:00",
+            "subject": "[SCEV] Infer NUW on AR in getUDivExpr"
         }
     ],
     "yxsamliu\/perf\/pr216838-baseline": [
@@ -219571,6 +219577,20 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-08-19T08:29:00+01:00",
             "subject": "[SCEV] Directly use nuw on add\/mul in getUDivExpr (NFC)"
+        }
+    ],
+    "steffenlarsen\/perf\/steffen\/multi_attr_lookup": [
+        {
+            "hash": "8c835ee87def288eca2587293499008dce54c4e7",
+            "author_name": "Timur Golubovich",
+            "commit_date": "2026-07-27T15:25:29+02:00",
+            "subject": "[VectorCombine] Align shrinkLoadForShuffles to register boundaries (#209775)"
+        },
+        {
+            "hash": "135c0a3d822bd1722a1cb0b1b04edb766d5f2c16",
+            "author_name": "Steffen Holst Larsen",
+            "commit_date": "2026-08-19T02:54:10-05:00",
+            "subject": "[Clang][NFC] Add support for multi-attribute lookup"
         }
     ]
 }
