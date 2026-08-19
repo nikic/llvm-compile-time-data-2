@@ -207027,6 +207027,12 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-08-19T14:43:52+02:00",
             "subject": "[DAGCombine] Push freeze through sra (#208749)"
+        },
+        {
+            "hash": "98205aa1932e475704a4e0da76ce013c3fcc34bd",
+            "author_name": "Chirag Patel",
+            "commit_date": "2026-08-19T12:47:47+00:00",
+            "subject": "[X86][Clang] VectorExprEvaluator::VisitCallExpr \/ InterpretBuiltin - allow SSE\/AVX FP2INT conversion intrinsics to be used in constexpr (#214611)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -220071,6 +220077,32 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-08-19T13:07:53+02:00",
             "subject": "elemdesc\/elemrecord"
+        }
+    ],
+    "fhahn\/perf\/vpcses": [
+        {
+            "hash": "157af9cb0e9cad7df0e8e1d44c78f08ffa7c48e7",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-19T14:13:04+02:00",
+            "subject": "AMDGPU: Extract mergeIncomingLaneMasks from SILowerI1Copies lowerPhis (#216995)"
+        },
+        {
+            "hash": "65d4357bf5e1d097e63e32250650422c919cd351",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-08-19T13:14:18+01:00",
+            "subject": "[VPlan] Make simplifyRecipe more like InstCombine"
+        },
+        {
+            "hash": "4f825c83aca06f800efdc71b39e90339f269dbe9",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-08-19T13:14:18+01:00",
+            "subject": "Update trunc combine, fix m_Not return position"
+        },
+        {
+            "hash": "f504ff565dbbfa05c25cc706c72381c71cfb02a8",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-19T13:49:08+01:00",
+            "subject": "[VPlan] Simplify and CSE"
         }
     ]
 }
