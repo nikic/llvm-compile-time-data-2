@@ -206535,6 +206535,12 @@
             "author_name": "Amy Kwan",
             "commit_date": "2026-08-18T23:54:45-04:00",
             "subject": "[llvm-nm][GOFF] Display archive attributes in GOFF archives through --print-armap (#214527)"
+        },
+        {
+            "hash": "b29eb4b10264aeb3d2339db52bcb982bdf6d7e07",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-08-18T21:20:40-07:00",
+            "subject": "[RISCV] Lower (select c, x, -x) -> (sub (czero_eqz x, c), (czero_nez x, c)) with Zicond. (#217181)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
