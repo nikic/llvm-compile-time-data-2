@@ -207093,6 +207093,24 @@
             "author_name": "flovent",
             "commit_date": "2026-08-19T13:29:30+00:00",
             "subject": "[ASan] Correctly handle vectorized pointer sub\/cmp for `invalid-pointer-pair` (#213546)"
+        },
+        {
+            "hash": "e84b8cf804ea41c7ed1c1c64c519b6355abafa31",
+            "author_name": "Alex Strelnikov",
+            "commit_date": "2026-08-19T10:07:25-04:00",
+            "subject": "[libc] Add support for wchar_t in StringConverter. (#211867)"
+        },
+        {
+            "hash": "f2d08fa4c21e27122f9570f9016fa5d5a0a9d335",
+            "author_name": "David Sherwood",
+            "commit_date": "2026-08-19T15:10:14+01:00",
+            "subject": "[LV][NFC] Fix up else-after-return introduced by PR #216981 (#217337)"
+        },
+        {
+            "hash": "1d7d16b94c614a1ce2ce90bb19edd1e71115f999",
+            "author_name": "hjagasiaAMD",
+            "commit_date": "2026-08-19T09:13:43-05:00",
+            "subject": "[CodeGen] Avoid register pressure limit underflow (#216372)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -220157,6 +220175,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-19T13:49:08+01:00",
             "subject": "[VPlan] Simplify and CSE"
+        }
+    ],
+    "c-rhodes\/perf\/ccstate-increase-usedregs-inline-capacity": [
+        {
+            "hash": "b025f5b75941fcf2e719535473c51b5e0617c4f9",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-08-18T13:11:15+01:00",
+            "subject": "[clang][cir] Fix tests post #210729 (#216963)"
+        },
+        {
+            "hash": "022c827d3d3560812b429bc4dcbbea393b37479b",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-08-19T14:03:13+00:00",
+            "subject": "[CodeGen] Increase CCState::UsedRegs inline capacity"
         }
     ]
 }
