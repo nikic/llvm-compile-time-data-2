@@ -207081,6 +207081,18 @@
             "author_name": "Eugene Epshteyn",
             "commit_date": "2026-08-19T09:19:05-04:00",
             "subject": "[flang][NFC] Fix BUILD_SHARED_LIBS build of FortranUtils (#217312)"
+        },
+        {
+            "hash": "d2adf78b4492cfe166f905addc74d8c424208358",
+            "author_name": "Kirill Vedernikov",
+            "commit_date": "2026-08-19T15:22:36+02:00",
+            "subject": "[MLIR][NVVM] Support kind::ti16 for tcgen05.mma Ops (#216588)"
+        },
+        {
+            "hash": "297fe1e500a8dbb21a70ed5ace5f9c4b68c21e15",
+            "author_name": "flovent",
+            "commit_date": "2026-08-19T13:29:30+00:00",
+            "subject": "[ASan] Correctly handle vectorized pointer sub\/cmp for `invalid-pointer-pair` (#213546)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -220075,16 +220087,10 @@
             "subject": "[X86] isTargetShuffleEquivalent - only use \"known zero\" element if its known never poison\/undef as well (#217030)"
         },
         {
-            "hash": "8147b8e3d130ee0be42e000f43de114936e6e015",
+            "hash": "60d3d7c76e5cece2f8bb616e2362a462364a8cdf",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-19T10:51:35+01:00",
+            "commit_date": "2026-08-19T14:27:27+01:00",
             "subject": "[SCEV] Answer range queries for constants directly (NFC)"
-        },
-        {
-            "hash": "2d0e914a56a00684024b6195b0a616c33624b9ce",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-19T11:25:03+01:00",
-            "subject": "add getRange() helper"
         }
     ],
     "nikic\/perf\/scev-overflow-fast-path": [
