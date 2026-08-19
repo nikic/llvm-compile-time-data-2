@@ -207447,6 +207447,18 @@
             "author_name": "Kazu Hirata",
             "commit_date": "2026-08-19T12:54:42-07:00",
             "subject": "[ADT] Clean up FoldingSet growth (NFC) (#217424)"
+        },
+        {
+            "hash": "077ec543fa3cf83573c1be830c3f9b290a7f5948",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-19T22:00:41+02:00",
+            "subject": "IR: Validate and document the \"target-abi\" module flag (#217397)"
+        },
+        {
+            "hash": "4d0039fd0e4b181bcaf7d798505384cf9ce9675f",
+            "author_name": "Bill Wendling",
+            "commit_date": "2026-08-19T13:05:26-07:00",
+            "subject": "[NewPM] Port MachineCombiner to the new pass manager (#217279)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -220665,6 +220677,20 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-08-19T20:02:16+01:00",
             "subject": "[SCEV] Strengthen wrap-flags of AddRec at construction"
+        }
+    ],
+    "fhahn\/perf\/scev-expander-adjust-insert-point": [
+        {
+            "hash": "a10d7eb9f51408c4181f7d7e195f279b0a6300a5",
+            "author_name": "Pranav Kant",
+            "commit_date": "2026-08-19T19:18:23+00:00",
+            "subject": "[lldb] Use std::unique_lock instead of std::lock_guard in ResumeNewPlan (#217433)"
+        },
+        {
+            "hash": "aa86753caf4646bd7399a261e1e815b29a6e14b8",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-19T21:03:50+01:00",
+            "subject": "[SCEVExpander] Consider values below the hoisted insert point for reuse."
         }
     ]
 }
