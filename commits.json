@@ -207387,6 +207387,12 @@
             "author_name": "Reid Kleckner",
             "commit_date": "2026-08-19T18:09:44+00:00",
             "subject": "[docs] Parallelize Sphinx builds by default (#217161)"
+        },
+        {
+            "hash": "9ba265c2fde9296ccf547fcfddd198f0992ed263",
+            "author_name": "Ellis Hoag",
+            "commit_date": "2026-08-19T11:16:08-07:00",
+            "subject": "[LLD][MachO] Remove eh-frame test binaries (#217107)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -220551,6 +220557,46 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-08-19T18:30:34+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence in zext-addrec"
+        }
+    ],
+    "artagnon\/perf\/scev-fold-sext-addrec": [
+        {
+            "hash": "2d697458ac3f472e666b7f47586da362839cfacb",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-19T11:39:31+01:00",
+            "subject": "[SCEV] Directly use NUW on mul in getUDivExpr (NFC) (#217235)"
+        },
+        {
+            "hash": "18d87c32b898b10cca115b63e5b4c896cd49fc73",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-19T18:41:05+01:00",
+            "subject": "[SCEV] Rework wrap-flag-inferrence for sext-addrec"
+        },
+        {
+            "hash": "54ecd5e4ac93ad4abd2366ab27b12daf1e9610c0",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-19T19:12:53+01:00",
+            "subject": "[SCEV\/related] Regen test with UTC"
+        },
+        {
+            "hash": "d0c3835d317784f3f9b16b3556ab1759e2b6632a",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-19T19:16:24+01:00",
+            "subject": "[SCEV] Fold sext-AddRec on positive step"
+        }
+    ],
+    "boomanaiden154\/perf\/ir-translator-unique-ptr": [
+        {
+            "hash": "9932f190f42e1a12c3cafea23938241abf6337ca",
+            "author_name": "George Burgess IV",
+            "commit_date": "2026-08-19T10:35:37-07:00",
+            "subject": "[profile] hoist length check before use of pointer (#217109)"
+        },
+        {
+            "hash": "394a782c063f55377188044296c5911db45c9a38",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-08-19T11:15:45-07:00",
+            "subject": "[GISel] Hold IRTranslatorImpl rather than recreating"
         }
     ]
 }
