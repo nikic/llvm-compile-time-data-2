@@ -219503,16 +219503,22 @@
     ],
     "fhahn\/perf\/ce-lower-bound": [
         {
-            "hash": "d9274cddde31007dab8db336db6fdaf44b5e3379",
-            "author_name": "Kristina Bessonova",
-            "commit_date": "2026-08-17T16:42:06+01:00",
-            "subject": "[AArch64][GlobalISel] Preserve scalar type when widening atomic G_STORE (#216162)"
+            "hash": "159dcbfcba88c9d3c7760b804f9b916b2a6bc7ca",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-08-19T17:20:51+00:00",
+            "subject": "[X86] Add regression test coverage for #217355 (#217387)"
         },
         {
-            "hash": "78a9ce12f2cb6c5f69fd40d508866a9d52085800",
+            "hash": "7a84c5d3fcaa1f91901257ed6030725dbe09c89a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T17:22:58+01:00",
+            "commit_date": "2026-08-19T18:34:17+01:00",
             "subject": "[ConstraintElim] Add lower bounds for all inductions in a loop header."
+        },
+        {
+            "hash": "88bed21fbdd96e3cffe66810d25dc2901f47e476",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-19T18:42:35+01:00",
+            "subject": "!fixup remove unused start"
         }
     ],
     "fhahn\/perf\/scev-iter-phi": [
@@ -220469,16 +220475,10 @@
             "subject": "[SCEV] Directly use NUW on mul in getUDivExpr (NFC) (#217235)"
         },
         {
-            "hash": "c4f178ffaf53c05ebc5f6ec1946fd5c00c5a2304",
+            "hash": "18d87c32b898b10cca115b63e5b4c896cd49fc73",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-19T16:08:38+01:00",
-            "subject": "[SCEV\/related] Regen tests with UTC"
-        },
-        {
-            "hash": "60350c095764389f548b890572a78ad9e56d0886",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-19T17:54:30+01:00",
-            "subject": "[SCEV] Rework wrap-flag-inferrence in ext-addrec"
+            "commit_date": "2026-08-19T18:41:05+01:00",
+            "subject": "[SCEV] Rework wrap-flag-inferrence for sext-addrec"
         }
     ],
     "fhahn\/perf\/scev-expander-reuse": [
