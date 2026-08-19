@@ -206889,6 +206889,30 @@
             "author_name": "Mehdi Amini",
             "commit_date": "2026-08-19T11:15:14+00:00",
             "subject": "[MLIR][X86] Enable strict property assembly format (#217284)"
+        },
+        {
+            "hash": "9f4703cbe60fa1e15e407256c856c9cc761141b7",
+            "author_name": "Maryam Moghadas",
+            "commit_date": "2026-08-19T13:24:00+02:00",
+            "subject": "[LegalizeTypes] Allow v1i128 as a valid SETCC result type during vector operand scalarization (#216136)"
+        },
+        {
+            "hash": "d141332bd2ae3c07509f221feeb191b8bb27e50d",
+            "author_name": "Hari Limaye",
+            "commit_date": "2026-08-19T12:25:03+01:00",
+            "subject": "[CodeGen][AArch64] Use vector parts for internal non-power-of-two vectors (#213982)"
+        },
+        {
+            "hash": "62f90c194947e719c465dab51e59162bec05e13c",
+            "author_name": "\u029f\u1d1c\u0274\u1d07x",
+            "commit_date": "2026-08-19T11:28:55+00:00",
+            "subject": "[InstCombine] fix assertion failure in intrinsic distributive laws (#216483)"
+        },
+        {
+            "hash": "dc44a1f32e9b4a31d4812512fc25bbd257c9bbd2",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-08-19T13:30:56+02:00",
+            "subject": "[MLIR][GPU] Enable strict property assembly format (#217278)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -219441,22 +219465,16 @@
     ],
     "fhahn\/perf\/scev-folding-set": [
         {
-            "hash": "ba30b230ce829f642aec8601b7752f10ec2c761b",
-            "author_name": "jinge90",
-            "commit_date": "2026-08-19T00:41:54-07:00",
-            "subject": "[compiler-rt] Add clang_rt library path to LIB env var for profile lit (#217189)"
+            "hash": "727136090b77a4c6840283758af4bceb8056dcfc",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-08-19T09:46:37+00:00",
+            "subject": "[X86] isTargetShuffleEquivalent - only use \"known zero\" element if its known never poison\/undef as well (#217030)"
         },
         {
-            "hash": "ae10aafde486b492cb635b30038e81d20e1df003",
+            "hash": "875c3bf5dd8ecc73d491b5652e43b97aeebb21df",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-19T09:57:52+01:00",
-            "subject": "[SCEV] Look up uniqued nodes by comparing against the interned profile."
-        },
-        {
-            "hash": "e406b927eb9867ef0449e87511ad00fb2a555f1a",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-19T09:58:57+01:00",
-            "subject": "[SCEV] Fold single-use findExistingNAry into findExistingSCEVInCache (NFC)."
+            "commit_date": "2026-08-19T12:22:28+01:00",
+            "subject": "[SCEV] Look up uniqued nodes by using interned profile. (NFC)"
         }
     ],
     "fhahn\/perf\/ce-strengthen-flags": [
