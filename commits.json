@@ -207621,6 +207621,24 @@
             "author_name": "Mehdi Amini",
             "commit_date": "2026-08-20T01:08:14+02:00",
             "subject": "[MLIR][OpenACC] Defer lowering atomic capture children (#217475)"
+        },
+        {
+            "hash": "b234afbcb3aee5360e265b74f3e2595ad5f34877",
+            "author_name": "Alex Langford",
+            "commit_date": "2026-08-19T16:23:39-07:00",
+            "subject": "[lldb] Remove ConstString from TypeFormatImpl_EnumType (#215431)"
+        },
+        {
+            "hash": "25a7ebb045cbc3cbfe8d8de59f1c637faea51d93",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-08-19T16:24:25-07:00",
+            "subject": "[ADT] Improve unit test coverage for FoldingSet (#217214)"
+        },
+        {
+            "hash": "d28bc6be2903a967a356cabbb7d90597d9c0ead5",
+            "author_name": "LU-JOHN",
+            "commit_date": "2026-08-19T18:26:48-05:00",
+            "subject": "[AMDGPU] Remove more redundant ANDs (#216900)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -220835,10 +220853,10 @@
             "subject": "[SCEV] Directly use NUW on mul in getUDivExpr (NFC) (#217235)"
         },
         {
-            "hash": "4094d4e7073abd185e45991b931ae6f7962dc117",
+            "hash": "aeb103579db724b8a640c9a92d6377cddbf3d58e",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-19T22:00:37+01:00",
-            "subject": "[SCEV] Do aggressive flag-strengthing for ARs"
+            "commit_date": "2026-08-20T00:30:23+01:00",
+            "subject": "[SCEV] Strengthen flags for AddRec post-inc"
         }
     ],
     "fhahn\/perf\/scev-expander-adjust-insert-point": [
