@@ -206709,6 +206709,12 @@
             "author_name": "Krisitan Erik Olsen",
             "commit_date": "2026-08-19T08:22:36+00:00",
             "subject": "[Sema] Fix crash in DeclareAggregateDeductionGuideFromInitList for alias templates (#207478)"
+        },
+        {
+            "hash": "aa2c9af90422a9bae9c4ab28c3f4f2bfe92fdf14",
+            "author_name": "David Green",
+            "commit_date": "2026-08-19T09:31:37+01:00",
+            "subject": "[GlobalISel] Combine G_SEXT_INREG(G_ZEXT) -> G_SEXT through unmerge (#216951)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -219501,16 +219507,22 @@
     ],
     "tbaederr\/perf\/apvalue": [
         {
-            "hash": "94f597cee5b8058ca16d679b10a2cfd5a191f4e7",
-            "author_name": "Lang Hames",
-            "commit_date": "2026-08-18T17:27:41+10:00",
-            "subject": "[orc-rt] Add clarifying note to BootstrapInfo::CreateDefault (#216936)"
+            "hash": "b14d1e1e1a3829506b45f5b992a3492e1d542389",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-08-19T09:50:02+02:00",
+            "subject": "[libc] Refactor thread.h (#216943)"
         },
         {
-            "hash": "9c4ff0e0ffb71b8e38f5f884494b588eef3a8f87",
+            "hash": "b6f5d06e12fb87155747809fc450e44985124325",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-18T18:41:36+02:00",
-            "subject": "double init"
+            "commit_date": "2026-08-19T10:03:07+02:00",
+            "subject": "NumElems"
+        },
+        {
+            "hash": "056b6e2dbc198caad0e00892f0ff258227c5f2da",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-08-19T10:28:23+02:00",
+            "subject": "elemdesc\/elemrecord"
         }
     ],
     "efriedma-quic\/perf\/scev-partially-iterative-addrecfromphi-earlyreturn": [
