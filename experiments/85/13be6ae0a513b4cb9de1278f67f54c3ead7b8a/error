@@ -1,0 +1,225 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage2.sh" failed
+
+STDOUT:
+[281/3108] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/SymbolDumper.cpp.o
+[282/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangCommentHTMLTagsEmitter.cpp.o
+[283/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangASTNodesEmitter.cpp.o
+[284/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangBuiltinTemplatesEmitter.cpp.o
+[285/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/CIRLoweringEmitter.cpp.o
+[286/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangASTPropertiesEmitter.cpp.o
+[287/3108] Building CXX object lib/DebugInfo/CodeView/CMakeFiles/LLVMDebugInfoCodeView.dir/TypeRecordMapping.cpp.o
+[288/3108] Linking CXX static library lib/libLLVMDebugInfoCodeView.a
+[289/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangOpcodesEmitter.cpp.o
+[290/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangCommentCommandInfoEmitter.cpp.o
+[291/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangTypeNodesEmitter.cpp.o
+[292/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangSACheckersEmitter.cpp.o
+[293/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangBuiltinsEmitter.cpp.o
+[294/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangBuiltinTraitsEmitter.cpp.o
+[295/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangSyntaxEmitter.cpp.o
+[296/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/HLSLEmitter.cpp.o
+[297/3108] Building CXX object tools/clang/lib/Support/CMakeFiles/obj.clangSupport.dir/RISCVVIntrinsicUtils.cpp.o
+[298/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangOptionDocEmitter.cpp.o
+[299/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/TableGen.cpp.o
+[300/3108] Linking CXX static library lib/libclangSupport.a
+[301/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangOpenCLBuiltinEmitter.cpp.o
+[302/3108] Linking CXX executable bin/llvm-min-tblgen
+[303/3108] Building IntrinsicsAVR.h...
+FAILED: include/llvm/IR/IntrinsicsAVR.h /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicsAVR.h 
+cd /tmp/llvm-project-build-stage2/include/llvm/IR && /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-intrinsic-enums -intrinsic-prefix=avr -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Intrinsics.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicsAVR.h
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and instructions to reproduce the bug.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-intrinsic-enums -intrinsic-prefix=avr -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Intrinsics.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicsAVR.h
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  llvm-min-tblgen 0x000055eae82f4bbd
+1  llvm-min-tblgen 0x000055eae82f5863
+2  libc.so.6       0x00007fddcd501520
+3  llvm-min-tblgen 0x000055eae82e7c4e
+4  llvm-min-tblgen 0x000055eae82bac6f
+5  llvm-min-tblgen 0x000055eae82b4b55
+6  libc.so.6       0x00007fddcd4e8d90
+7  libc.so.6       0x00007fddcd4e8e40 __libc_start_main + 128
+8  llvm-min-tblgen 0x000055eae824d5d5
+Segmentation fault (core dumped)
+[304/3108] Building IntrinsicEnums.inc...
+FAILED: include/llvm/IR/IntrinsicEnums.inc /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicEnums.inc 
+cd /tmp/llvm-project-build-stage2/include/llvm/IR && /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-intrinsic-enums -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Intrinsics.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicEnums.inc
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and instructions to reproduce the bug.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-intrinsic-enums -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Intrinsics.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicEnums.inc
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  llvm-min-tblgen 0x0000559282d7fbbd
+1  llvm-min-tblgen 0x0000559282d80863
+2  libc.so.6       0x00007fcc7da62520
+3  llvm-min-tblgen 0x0000559282d72c7e
+4  llvm-min-tblgen 0x0000559282d45c6f
+5  llvm-min-tblgen 0x0000559282d3fb55
+6  libc.so.6       0x00007fcc7da49d90
+7  libc.so.6       0x00007fcc7da49e40 __libc_start_main + 128
+8  llvm-min-tblgen 0x0000559282cd85d5
+Segmentation fault (core dumped)
+[305/3108] Building IntrinsicImpl.inc...
+FAILED: include/llvm/IR/IntrinsicImpl.inc /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicImpl.inc 
+cd /tmp/llvm-project-build-stage2/include/llvm/IR && /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-intrinsic-impl -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Intrinsics.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicImpl.inc
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and instructions to reproduce the bug.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-intrinsic-impl -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Intrinsics.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicImpl.inc
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  llvm-min-tblgen 0x0000560558238bbd
+1  llvm-min-tblgen 0x0000560558239863
+2  libc.so.6       0x00007f7201f52520
+3  llvm-min-tblgen 0x000056055822bc7e
+4  llvm-min-tblgen 0x00005605581fec6f
+5  llvm-min-tblgen 0x00005605581f8b55
+6  libc.so.6       0x00007f7201f39d90
+7  libc.so.6       0x00007f7201f39e40 __libc_start_main + 128
+8  llvm-min-tblgen 0x00005605581915d5
+Segmentation fault (core dumped)
+[306/3108] Building IntrinsicsAMDGPU.h...
+FAILED: include/llvm/IR/IntrinsicsAMDGPU.h /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicsAMDGPU.h 
+cd /tmp/llvm-project-build-stage2/include/llvm/IR && /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-intrinsic-enums -intrinsic-prefix=amdgcn -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Intrinsics.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicsAMDGPU.h
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and instructions to reproduce the bug.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-intrinsic-enums -intrinsic-prefix=amdgcn -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Intrinsics.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicsAMDGPU.h
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  llvm-min-tblgen 0x0000557e50406bbd
+1  llvm-min-tblgen 0x0000557e50407863
+2  libc.so.6       0x00007f2bd6dea520
+3  llvm-min-tblgen 0x0000557e503f9c7e
+4  llvm-min-tblgen 0x0000557e503ccc6f
+5  llvm-min-tblgen 0x0000557e503c6b55
+6  libc.so.6       0x00007f2bd6dd1d90
+7  libc.so.6       0x00007f2bd6dd1e40 __libc_start_main + 128
+8  llvm-min-tblgen 0x0000557e5035f5d5
+Segmentation fault (core dumped)
+[307/3108] Building TargetLibraryInfo.inc...
+FAILED: include/llvm/Analysis/TargetLibraryInfo.inc /tmp/llvm-project-build-stage2/include/llvm/Analysis/TargetLibraryInfo.inc 
+cd /tmp/llvm-project-build-stage2/include/llvm/Analysis && /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-target-library-info -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetLibraryInfo.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/Analysis/TargetLibraryInfo.inc
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and instructions to reproduce the bug.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-target-library-info -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetLibraryInfo.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/Analysis/TargetLibraryInfo.inc
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  llvm-min-tblgen 0x0000564eb35a2bbd
+1  llvm-min-tblgen 0x0000564eb35a3863
+2  libc.so.6       0x00007ff850bac520
+3  llvm-min-tblgen 0x0000564eb3595b30
+4  llvm-min-tblgen 0x0000564eb3568c6f
+5  llvm-min-tblgen 0x0000564eb3562b55
+6  libc.so.6       0x00007ff850b93d90
+7  libc.so.6       0x00007ff850b93e40 __libc_start_main + 128
+8  llvm-min-tblgen 0x0000564eb34fb5d5
+Segmentation fault (core dumped)
+[308/3108] Building IntrinsicsAArch64.h...
+FAILED: include/llvm/IR/IntrinsicsAArch64.h /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicsAArch64.h 
+cd /tmp/llvm-project-build-stage2/include/llvm/IR && /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-intrinsic-enums -intrinsic-prefix=aarch64 -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Intrinsics.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicsAArch64.h
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and instructions to reproduce the bug.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-intrinsic-enums -intrinsic-prefix=aarch64 -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Intrinsics.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicsAArch64.h
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  llvm-min-tblgen 0x0000555cd1e47bbd
+1  llvm-min-tblgen 0x0000555cd1e48863
+2  libc.so.6       0x00007f790abef520
+3  llvm-min-tblgen 0x0000555cd1e3ac7e
+4  llvm-min-tblgen 0x0000555cd1e0dc6f
+5  llvm-min-tblgen 0x0000555cd1e07b55
+6  libc.so.6       0x00007f790abd6d90
+7  libc.so.6       0x00007f790abd6e40 __libc_start_main + 128
+8  llvm-min-tblgen 0x0000555cd1da05d5
+Segmentation fault (core dumped)
+[309/3108] Building IntrinsicsARM.h...
+FAILED: include/llvm/IR/IntrinsicsARM.h /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicsARM.h 
+cd /tmp/llvm-project-build-stage2/include/llvm/IR && /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-intrinsic-enums -intrinsic-prefix=arm -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Intrinsics.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicsARM.h
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and instructions to reproduce the bug.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-intrinsic-enums -intrinsic-prefix=arm -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Intrinsics.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicsARM.h
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  llvm-min-tblgen 0x00005631f5088bbd
+1  llvm-min-tblgen 0x00005631f5089863
+2  libc.so.6       0x00007f334b4d2520
+3  llvm-min-tblgen 0x00005631f507bc4e
+4  llvm-min-tblgen 0x00005631f504ec6f
+5  llvm-min-tblgen 0x00005631f5048b55
+6  libc.so.6       0x00007f334b4b9d90
+7  libc.so.6       0x00007f334b4b9e40 __libc_start_main + 128
+8  llvm-min-tblgen 0x00005631f4fe15d5
+Segmentation fault (core dumped)
+[310/3108] Building Attributes.inc...
+FAILED: include/llvm/IR/Attributes.inc /tmp/llvm-project-build-stage2/include/llvm/IR/Attributes.inc 
+cd /tmp/llvm-project-build-stage2/include/llvm/IR && /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-attrs -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Attributes.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/Attributes.inc
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and instructions to reproduce the bug.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-attrs -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Attributes.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/Attributes.inc
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  llvm-min-tblgen 0x000055f9974febbd
+1  llvm-min-tblgen 0x000055f9974ff863
+2  libc.so.6       0x00007f3377383520
+3  llvm-min-tblgen 0x000055f9974f1c4e
+4  llvm-min-tblgen 0x000055f9974c4c6f
+5  llvm-min-tblgen 0x000055f9974beb55
+6  libc.so.6       0x00007f337736ad90
+7  libc.so.6       0x00007f337736ae40 __libc_start_main + 128
+8  llvm-min-tblgen 0x000055f9974575d5
+Segmentation fault (core dumped)
+[311/3108] Building GenVT.inc...
+FAILED: include/llvm/CodeGen/GenVT.inc /tmp/llvm-project-build-stage2/include/llvm/CodeGen/GenVT.inc 
+cd /tmp/llvm-project-build-stage2/include/llvm/CodeGen && /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-vt -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/ValueTypes.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/CodeGen/GenVT.inc
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and instructions to reproduce the bug.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-vt -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/ValueTypes.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/CodeGen/GenVT.inc
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  llvm-min-tblgen 0x0000562f00dcdbbd
+1  llvm-min-tblgen 0x0000562f00dce863
+2  libc.so.6       0x00007f74c4cca520
+3  llvm-min-tblgen 0x0000562f00dc0cb6
+4  llvm-min-tblgen 0x0000562f00d93c6f
+5  llvm-min-tblgen 0x0000562f00d8db55
+6  libc.so.6       0x00007f74c4cb1d90
+7  libc.so.6       0x00007f74c4cb1e40 __libc_start_main + 128
+8  llvm-min-tblgen 0x0000562f00d265d5
+Bus error (core dumped)
+[312/3108] Building IntrinsicsHexagon.h...
+FAILED: include/llvm/IR/IntrinsicsHexagon.h /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicsHexagon.h 
+cd /tmp/llvm-project-build-stage2/include/llvm/IR && /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-intrinsic-enums -intrinsic-prefix=hexagon -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Intrinsics.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicsHexagon.h
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and instructions to reproduce the bug.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage2/bin/llvm-min-tblgen -gen-intrinsic-enums -intrinsic-prefix=hexagon -I/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Intrinsics.td --write-if-changed -o /tmp/llvm-project-build-stage2/include/llvm/IR/IntrinsicsHexagon.h
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  llvm-min-tblgen 0x000055bf1b9c5bbd
+1  llvm-min-tblgen 0x000055bf1b9c6863
+2  libc.so.6       0x00007fc3ddc7c520
+3  llvm-min-tblgen 0x000055bf1b9b8c7e
+4  llvm-min-tblgen 0x000055bf1b98bc6f
+5  llvm-min-tblgen 0x000055bf1b985b55
+6  libc.so.6       0x00007fc3ddc63d90
+7  libc.so.6       0x00007fc3ddc63e40 __libc_start_main + 128
+8  llvm-min-tblgen 0x000055bf1b91e5d5
+Segmentation fault (core dumped)
+[313/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangDiagnosticsEmitter.cpp.o
+[314/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/SveEmitter.cpp.o
+[315/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/RISCVVEmitter.cpp.o
+[316/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/MveEmitter.cpp.o
+[317/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/NeonEmitter.cpp.o
+[318/3108] Building CXX object tools/clang/utils/TableGen/CMakeFiles/clang-tblgen.dir/ClangAttrEmitter.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:4 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+

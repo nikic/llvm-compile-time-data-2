@@ -207183,6 +207183,12 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-08-19T15:01:12+00:00",
             "subject": "[GISel] Move IRTranslatorImpl into cpp file (#217349)"
+        },
+        {
+            "hash": "de79344abe04cab8fe538cdd0f975f78d941cd24",
+            "author_name": "Matsu",
+            "commit_date": "2026-08-19T08:07:53-07:00",
+            "subject": "[flang][FIRToSCF] Recompute a typed induction variable in closed form (#217051)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -220261,6 +220267,26 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-08-19T14:03:13+00:00",
             "subject": "[CodeGen] Increase CCState::UsedRegs inline capacity"
+        }
+    ],
+    "artagnon\/perf\/scev-extaddrec-wrap": [
+        {
+            "hash": "2d697458ac3f472e666b7f47586da362839cfacb",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-19T11:39:31+01:00",
+            "subject": "[SCEV] Directly use NUW on mul in getUDivExpr (NFC) (#217235)"
+        },
+        {
+            "hash": "c4f178ffaf53c05ebc5f6ec1946fd5c00c5a2304",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-19T16:08:38+01:00",
+            "subject": "[SCEV\/related] Regen tests with UTC"
+        },
+        {
+            "hash": "8513be6ae0a513b4cb9de1278f67f54c3ead7b8a",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-19T16:13:01+01:00",
+            "subject": "[SCEV] Rework wrap-flag-inferrence in ext-addrec"
         }
     ]
 }
