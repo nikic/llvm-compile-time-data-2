@@ -207207,6 +207207,12 @@
             "author_name": "Kenzo Tjandra",
             "commit_date": "2026-08-19T08:29:09-07:00",
             "subject": "[Clang][Sema] Fix lambda attribute processing order with clang optimize off (#217194)"
+        },
+        {
+            "hash": "e1b7e2db893965bcd87eda61b0f387c7af7a11c1",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-08-19T08:35:15-07:00",
+            "subject": "[Bazel] Port 40f48bf (#217367)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -220057,16 +220063,22 @@
     ],
     "artagnon\/perf\/scev-udiv-wrap-infer": [
         {
-            "hash": "8b1e3aa6b661bae5b4155905796ed5c37e2a1a82",
-            "author_name": "Ivan R. Ivanov",
-            "commit_date": "2026-08-18T18:59:36+02:00",
-            "subject": "[mlir][arith] Allow folding all +\/- 0 under fastmath nsz (#217031)"
+            "hash": "2d697458ac3f472e666b7f47586da362839cfacb",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-19T11:39:31+01:00",
+            "subject": "[SCEV] Directly use NUW on mul in getUDivExpr (NFC) (#217235)"
         },
         {
-            "hash": "42dc6c296bc078bd41eeec875e1571b33af7e1f7",
+            "hash": "9b52546fa155d45b7d1cc0c95a05ea11eed8ee07",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-19T09:00:50+01:00",
+            "commit_date": "2026-08-19T11:46:05+01:00",
             "subject": "[SCEV] Infer NUW on AR in getUDivExpr"
+        },
+        {
+            "hash": "a1594a9da2ec446038d1137ebac1c8c6df3a43e2",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-19T16:31:37+01:00",
+            "subject": "[SCEV] Prove NUW by extending start as well"
         }
     ],
     "yxsamliu\/perf\/pr216838-baseline": [
@@ -220305,6 +220317,32 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-08-19T16:13:01+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence in ext-addrec"
+        }
+    ],
+    "fhahn\/perf\/scev-expander-reuse": [
+        {
+            "hash": "f652cd614efdc7c10faea86cdc8da7cd96870aa1",
+            "author_name": "Jacques Pienaar",
+            "commit_date": "2026-08-19T15:18:58+00:00",
+            "subject": "[mlir][IR] Add transient scope support for resettable MLIRContext. (#217320)"
+        },
+        {
+            "hash": "3d5e0bd70ddbe8cee8066e7a5a1cecec6242f474",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-19T16:29:43+01:00",
+            "subject": "[SCEVExpander] Consider values below the hoisted insertion point for reuse"
+        },
+        {
+            "hash": "ac3508887467a397a85aafe9f87d795c2a0bd0be",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-19T16:29:46+01:00",
+            "subject": "[SCEVExpander] Reuse a recurrence a constant factor away from the AddRec"
+        },
+        {
+            "hash": "dc1792efcbbc8e81c78dab13f816412aaf8345a8",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-19T16:29:47+01:00",
+            "subject": "[SCEV] Use the sign-extended expression for a `zext nneg` when it distributes"
         }
     ]
 }
