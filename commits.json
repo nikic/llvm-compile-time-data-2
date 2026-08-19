@@ -206691,6 +206691,24 @@
             "author_name": "David Sherwood",
             "commit_date": "2026-08-19T09:16:04+01:00",
             "subject": "[LV] Improve materialisation of VFxUF for scalable vectors (#216708)"
+        },
+        {
+            "hash": "40fe85daa063f8201174f9a5a777d9db13f77f91",
+            "author_name": "Corentin Jabot",
+            "commit_date": "2026-08-19T10:18:50+02:00",
+            "subject": "[Clang][NFC] Introduce a node to model concept and variable template template parameters (#216729)"
+        },
+        {
+            "hash": "36d7afd0ef4e864a292488cebfc342479e1de5c2",
+            "author_name": "Piotr Fusik",
+            "commit_date": "2026-08-19T10:20:05+02:00",
+            "subject": "[LLVM][Maintainers] Step down as a HashRecognize maintainer (#213218)"
+        },
+        {
+            "hash": "d558c8bd2dee85f128e047d712bb5cb9213f8868",
+            "author_name": "Krisitan Erik Olsen",
+            "commit_date": "2026-08-19T08:22:36+00:00",
+            "subject": "[Sema] Fix crash in DeclareAggregateDeductionGuideFromInitList for alias templates (#207478)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -219621,6 +219639,20 @@
             "author_name": "Steffen Holst Larsen",
             "commit_date": "2026-08-19T02:54:10-05:00",
             "subject": "[Clang][NFC] Add support for multi-attribute lookup"
+        }
+    ],
+    "artagnon\/perf\/scev-udiv-nuw-mul": [
+        {
+            "hash": "8b1e3aa6b661bae5b4155905796ed5c37e2a1a82",
+            "author_name": "Ivan R. Ivanov",
+            "commit_date": "2026-08-18T18:59:36+02:00",
+            "subject": "[mlir][arith] Allow folding all +\/- 0 under fastmath nsz (#217031)"
+        },
+        {
+            "hash": "c78029534d2957017afe203f9d2cbaa72e9dc6f6",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-19T09:14:29+01:00",
+            "subject": "[SCEV] Directly use NUW on mul in getUDivExpr"
         }
     ]
 }
