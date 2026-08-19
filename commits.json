@@ -206625,6 +206625,12 @@
             "author_name": "Matthias Springer",
             "commit_date": "2026-08-19T09:19:46+02:00",
             "subject": "[mlir][Interfaces] Use `areTypesCompatible` instead of `mayForwardTypeToSuccessor` (#216471)"
+        },
+        {
+            "hash": "47e95668d7701034f0d19400fd446b17d95e7fda",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-19T08:28:23+01:00",
+            "subject": "[SCEV] Take SCEVUse in the extend\/truncate builders. (#216761)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -217213,15 +217219,15 @@
     ],
     "fhahn\/perf\/scev-add-nuw-check": [
         {
-            "hash": "e432cb12962f1619bc73c50a2dc4d2ad5ac6b44c",
-            "author_name": "Natanael Cintean",
-            "commit_date": "2026-07-28T13:11:34+00:00",
-            "subject": "[mlir]Add resultSegmentSizes\/operandSegmentSizes to prop-dict. (#211222)"
+            "hash": "47e95668d7701034f0d19400fd446b17d95e7fda",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-19T08:28:23+01:00",
+            "subject": "[SCEV] Take SCEVUse in the extend\/truncate builders. (#216761)"
         },
         {
-            "hash": "6e11321bd7308202d7973656dee8dc03ac6a4686",
+            "hash": "b8dfd3b72d0c526f13637b4354fae3883e9b05f6",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-07-28T14:19:51+01:00",
+            "commit_date": "2026-08-19T08:29:15+01:00",
             "subject": "[SCEV] Only try (A+B)\/C distribution for nuw adds (NFC)"
         }
     ],
@@ -219539,6 +219545,20 @@
             "author_name": "Chandler Carruth",
             "commit_date": "2026-08-18T14:41:27-07:00",
             "subject": "Fix premerge build failures, include order, and comment verbosity"
+        }
+    ],
+    "artagnon\/perf\/scev-udiv-wrap-infer-addsub": [
+        {
+            "hash": "8b1e3aa6b661bae5b4155905796ed5c37e2a1a82",
+            "author_name": "Ivan R. Ivanov",
+            "commit_date": "2026-08-18T18:59:36+02:00",
+            "subject": "[mlir][arith] Allow folding all +\/- 0 under fastmath nsz (#217031)"
+        },
+        {
+            "hash": "5453963c794e27b47845b6f69d2116944df0db30",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-19T08:29:00+01:00",
+            "subject": "[SCEV] Directly use nuw on add\/mul in getUDivExpr (NFC)"
         }
     ]
 }
