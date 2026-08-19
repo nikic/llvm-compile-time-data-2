@@ -206751,6 +206751,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-19T10:24:48+01:00",
             "subject": "[SCEV] Only try (A+B)\/C distribution for nuw adds (NFC) (#212508)"
+        },
+        {
+            "hash": "d92ae181af1ae978b7a036a064897d654fc027b7",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-08-19T17:33:39+08:00",
+            "subject": "[LV] Make operand bundle test not constant-foldable\/dead. NFC (#217253)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -218367,75 +218373,69 @@
     ],
     "fhahn\/perf\/cte": [
         {
-            "hash": "066dfd519323589e89847e65a40d4a9836f61188",
-            "author_name": "Jean-Didier PAILLEUX",
-            "commit_date": "2026-08-08T20:56:12+02:00",
-            "subject": "[flang][MIF] Update prif_coarray_handle in accordance with PRIF 0.8 #214080 (#214747)"
+            "hash": "ba30b230ce829f642aec8601b7752f10ec2c761b",
+            "author_name": "jinge90",
+            "commit_date": "2026-08-19T00:41:54-07:00",
+            "subject": "[compiler-rt] Add clang_rt library path to LIB env var for profile lit (#217189)"
         },
         {
-            "hash": "a87669fbae5fef38b18893760d51f492af0162f3",
+            "hash": "e676271b7cebe3634187460d24bd9d00eda14745",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-08T20:49:01+01:00",
+            "commit_date": "2026-08-19T10:18:49+01:00",
             "subject": "[SCEV] Answer range queries for constants directly (NFC)"
         },
         {
-            "hash": "051504532d41d92ee2ca7225d90ea5660b94beb0",
+            "hash": "469054c7c2e90551158469a127fe1da76e38af1d",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-08T20:50:48+01:00",
+            "commit_date": "2026-08-19T10:18:49+01:00",
             "subject": "[LV] Build the scalar VPlan on demand rather than for every loop (NFC)"
         },
         {
-            "hash": "1c573bc6617e763d5122935a1e842658ea5ea404",
+            "hash": "4933ce661cd5324202d32c6c3f847d5409c1be3c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-08T20:50:59+01:00",
+            "commit_date": "2026-08-19T10:23:03+01:00",
             "subject": "[VPlan] Check cheap hoist\/sink preconditions before alias checks (NFC)"
         },
         {
-            "hash": "16ab1a45346df8679b73e0187f3022ccc13fcbc3",
+            "hash": "28e2d465ce12f33a2b620e1d03768ce8b9c0cb9a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-08T20:51:15+01:00",
+            "commit_date": "2026-08-19T10:23:05+01:00",
             "subject": "[LAA] Hoist program-order lookups out of the dependence loops (NFC)"
         },
         {
-            "hash": "89b1cce89abb6df7ff66f01352617e58352359a8",
+            "hash": "ec309e5f40322a98759eaa9eec601d5904554b55",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-08T20:52:02+01:00",
+            "commit_date": "2026-08-19T10:23:05+01:00",
             "subject": "[MemCpyOpt,DSE,MoveAutoInit] Bail out for functions without memory writes"
         },
         {
-            "hash": "c9b1250568d4546233f059aa3a28588050c13cf5",
+            "hash": "e0ac8cdbbe149de05249c35562df57cef6b89373",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-08T20:53:30+01:00",
-            "subject": "[ADT] Store small trivially-copyable values inline in Any (NFC)"
-        },
-        {
-            "hash": "ebc5077fe1e303c6db5c8539ae6c27414444e3ba",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-08T20:53:44+01:00",
+            "commit_date": "2026-08-19T10:35:04+01:00",
             "subject": "[CodeGenTypes] Look up MVT::getVectorVT by element type (NFC)"
         },
         {
-            "hash": "398b372aed2016b345266cc0328c94f955d933eb",
+            "hash": "77957e6a3b36988dc275f25b2d6d35f3229b3843",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-08T20:54:03+01:00",
+            "commit_date": "2026-08-19T10:35:04+01:00",
             "subject": "[SimplifyCFG] Skip the pass if nothing changed since its last run (NFC)"
         },
         {
-            "hash": "5deba926dbedd78385f1c8787d90a64be5a3c95b",
+            "hash": "e7c1e2c87a97f77c9832ff633165c48a8eaf345e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-08T20:54:14+01:00",
+            "commit_date": "2026-08-19T10:35:05+01:00",
             "subject": "[SROA,EarlyCSE,JumpThreading] Skip a pass if nothing changed since its last run (NFC)"
         },
         {
-            "hash": "959d94bfefbadee41ac6a0bb080c1fe0b044f049",
+            "hash": "4b88e815ff3f835b10cc1bf25608ca17e4b40e36",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-08T20:54:36+01:00",
+            "commit_date": "2026-08-19T10:35:05+01:00",
             "subject": "[Local] Construct ConstantFoldTerminator's IRBuilder only when folding (NFC)"
         },
         {
-            "hash": "e3ae1966667eb4cc81f625dc534af1b1fa7839c3",
+            "hash": "2bf25c44d3ac39a632c3913cfcb9fc9e2be3855e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-08T20:55:10+01:00",
+            "commit_date": "2026-08-19T10:35:05+01:00",
             "subject": "[IR,Local] Drop two redundant recomputations (NFC)"
         }
     ],
