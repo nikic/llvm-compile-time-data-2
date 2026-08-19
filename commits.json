@@ -207369,6 +207369,12 @@
             "author_name": "Simon Pilgrim",
             "commit_date": "2026-08-19T17:20:51+00:00",
             "subject": "[X86] Add regression test coverage for #217355 (#217387)"
+        },
+        {
+            "hash": "9932f190f42e1a12c3cafea23938241abf6337ca",
+            "author_name": "George Burgess IV",
+            "commit_date": "2026-08-19T10:35:37-07:00",
+            "subject": "[profile] hoist length check before use of pointer (#217109)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -220519,6 +220525,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-19T16:50:24+01:00",
             "subject": "Rework"
+        }
+    ],
+    "artagnon\/perf\/scev-zextaddrec-wrap": [
+        {
+            "hash": "2d697458ac3f472e666b7f47586da362839cfacb",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-19T11:39:31+01:00",
+            "subject": "[SCEV] Directly use NUW on mul in getUDivExpr (NFC) (#217235)"
+        },
+        {
+            "hash": "61bfd461535d62a148ae4629af7ac74c5aad7820",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-19T18:30:34+01:00",
+            "subject": "[SCEV] Rework wrap-flag-inferrence in zext-addrec"
         }
     ]
 }
