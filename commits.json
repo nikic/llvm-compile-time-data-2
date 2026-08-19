@@ -220782,5 +220782,19 @@
             "commit_date": "2026-08-19T21:03:50+01:00",
             "subject": "[SCEVExpander] Consider values below the hoisted insert point for reuse."
         }
+    ],
+    "artagnon\/perf\/scev-ar-wrap-samesign": [
+        {
+            "hash": "2d697458ac3f472e666b7f47586da362839cfacb",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-19T11:39:31+01:00",
+            "subject": "[SCEV] Directly use NUW on mul in getUDivExpr (NFC) (#217235)"
+        },
+        {
+            "hash": "ed8c9f05859a01782c13928087706a0cac6199d2",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-19T22:35:07+01:00",
+            "subject": "[SCEV] Infer NUW\/NSW on NW AR with same-sign operands"
+        }
     ]
 }
