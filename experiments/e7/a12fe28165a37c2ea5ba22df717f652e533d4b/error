@@ -1,0 +1,236 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvaluationResult.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.cpp:9:
+In destructor ‘llvm::APInt::~APInt()’,
+    inlined from ‘llvm::APSInt::~APSInt()’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:24:21,
+    inlined from ‘clang::APValue clang::interp::Boolean::toAPValue(const clang::ASTContext&) const’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Boolean.h:53:72,
+    inlined from ‘void clang::interp::EvalEmitter::updateGlobalTemporaries()’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.cpp:444:7:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:189:18: warning: ‘void operator delete [](void*)’ called on a pointer to an unallocated object ‘1’ [-Wfree-nonheap-object]
+  189 |       delete[] U.pVal;
+      |                  ^~~~
+In destructor ‘llvm::APInt::~APInt()’,
+    inlined from ‘llvm::APSInt::~APSInt()’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:24:21,
+    inlined from ‘clang::APValue clang::interp::Boolean::toAPValue(const clang::ASTContext&) const’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Boolean.h:53:72,
+    inlined from ‘bool clang::interp::EvalEmitter::emitRet(clang::interp::SourceInfo) [with clang::interp::PrimType <anonymous> = clang::interp::PT_Bool]’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.cpp:241:23,
+    inlined from ‘bool clang::interp::EvalEmitter::emitRet(clang::interp::SourceInfo) [with clang::interp::PrimType <anonymous> = clang::interp::PT_Bool]’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.cpp:236:33,
+    inlined from ‘bool clang::interp::EvalEmitter::emitRet(clang::interp::PrimType, clang::interp::SourceInfo)’ at /tmp/llvm-project-build-stage1/tools/clang/lib/AST/Opcodes.inc:43519:7:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:189:18: warning: ‘void operator delete [](void*)’ called on a pointer to an unallocated object ‘1’ [-Wfree-nonheap-object]
+  189 |       delete[] U.pVal;
+      |                  ^~~~
+[2829/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Function.cpp.o
+[2830/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltin.cpp.o
+[2831/3382] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseStmtAsm.cpp.o
+[2832/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltinBitCast.cpp.o
+[2833/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Floating.cpp.o
+[2834/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/EvaluationResult.cpp.o
+[2835/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/DynamicAllocator.cpp.o
+[2836/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InitMap.cpp.o
+[2837/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Interp.cpp.o
+[2838/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBlock.cpp.o
+[2839/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpFrame.cpp.o
+[2840/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpState.cpp.o
+[2841/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpStack.cpp.o
+[2842/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Pointer.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APFloat.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APNumericStorage.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Decl.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Descriptor.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.cpp:9:
+In destructor ‘llvm::APInt::~APInt()’,
+    inlined from ‘llvm::APSInt::~APSInt()’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:24:21,
+    inlined from ‘clang::interp::Pointer::toRValue(const clang::interp::Context&, clang::QualType) const::<lambda(clang::QualType, clang::interp::PtrView, clang::APValue&)>’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.cpp:1075:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:189:18: warning: ‘void operator delete [](void*)’ called on a pointer to an unallocated object ‘1’ [-Wfree-nonheap-object]
+  189 |       delete[] U.pVal;
+      |                  ^~~~
+In destructor ‘llvm::APInt::~APInt()’,
+    inlined from ‘llvm::APSInt::~APSInt()’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:24:21,
+    inlined from ‘clang::interp::Pointer::toRValue(const clang::interp::Context&, clang::QualType) const::<lambda(clang::QualType, clang::interp::PtrView, clang::APValue&)>’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.cpp:1075:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:189:18: warning: ‘void operator delete [](void*)’ called on a pointer to an unallocated object ‘1’ [-Wfree-nonheap-object]
+  189 |       delete[] U.pVal;
+      |                  ^~~~
+[2843/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/PrimType.cpp.o
+[2844/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Program.cpp.o
+[2845/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Record.cpp.o
+[2846/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Source.cpp.o
+[2847/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/State.cpp.o
+[2848/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/MemberPointer.cpp.o
+[2849/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpShared.cpp.o
+[2850/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/HLSLResource.cpp.o
+[2851/3382] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseReflect.cpp.o
+[2852/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentLexer.cpp.o
+[2853/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DataCollection.cpp.o
+[2854/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentParser.cpp.o
+[2855/3382] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseOpenACC.cpp.o
+[2856/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/NestedNameSpecifier.cpp.o
+[2857/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/NSAPI.cpp.o
+[2858/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ODRDiagsEmitter.cpp.o
+[2859/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ODRHash.cpp.o
+[2860/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/OpenACCClause.cpp.o
+[2861/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/OpenMPClause.cpp.o
+[2862/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/OSLog.cpp.o
+[2863/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ParentMap.cpp.o
+[2864/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/PrintfFormatString.cpp.o
+[2865/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/GlobalDecl.cpp.o
+[2866/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Randstruct.cpp.o
+[2867/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ItaniumCXXABI.cpp.o
+[2868/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/RecordLayout.cpp.o
+[2869/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentSema.cpp.o
+[2870/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ScanfFormatString.cpp.o
+[2871/3382] Building CXX object tools/clang/lib/ASTMatchers/CMakeFiles/obj.clangASTMatchers.dir/ASTMatchersInternal.cpp.o
+[2872/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/SelectorLocationsKind.cpp.o
+[2873/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Stmt.cpp.o
+[2874/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtIterator.cpp.o
+[2875/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtCXX.cpp.o
+[2876/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtObjC.cpp.o
+[2877/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtOpenACC.cpp.o
+[2878/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtOpenMP.cpp.o
+[2879/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtProfile.cpp.o
+[2880/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtViz.cpp.o
+[2881/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/TemplateBase.cpp.o
+[2882/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/TemplateName.cpp.o
+[2883/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclPrinter.cpp.o
+[2884/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Type.cpp.o
+[2885/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/TypeLoc.cpp.o
+[2886/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/QualTypeNames.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/TypeBase.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclarationName.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclBase.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Decl.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Type.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/CanonicalType.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/QualTypeNames.h:63,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/QualTypeNames.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/NestedNameSpecifierBase.h:133:15: warning: inline function ‘clang::NestedNameSpecifier::Kind clang::NestedNameSpecifier::getKind() const’ used but never defined
+  133 |   inline Kind getKind() const;
+      |               ^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/NestedNameSpecifierBase.h:140:10: warning: inline function ‘clang::NestedNameSpecifier::NestedNameSpecifier(const clang::ASTContext&, const clang::NamespaceBaseDecl*, clang::NestedNameSpecifier)’ used but never defined
+  140 |   inline NestedNameSpecifier(const ASTContext &Ctx,
+      |          ^~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/NestedNameSpecifierBase.h:137:19: warning: inline function ‘clang::NestedNameSpecifier::NestedNameSpecifier(const clang::Type*)’ used but never defined
+  137 |   explicit inline NestedNameSpecifier(const Type *T);
+      |                   ^~~~~~~~~~~~~~~~~~~
+[2887/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/MicrosoftCXXABI.cpp.o
+[2888/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/VTTBuilder.cpp.o
+[2889/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Decl.cpp.o
+[2890/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Mangle.cpp.o
+[2891/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTDumper.cpp.o
+[2892/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/RawCommentList.cpp.o
+[2893/3382] Building OpenCLBuiltins.inc...
+[2894/3382] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGBlocks.cpp.o
+[2895/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ItaniumMangle.cpp.o
+[2896/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/HeuristicResolver.cpp.o
+[2897/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/RecordLayoutBuilder.cpp.o
+[2898/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Expr.cpp.o
+[2899/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/TypePrinter.cpp.o
+[2900/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/JSONNodeDumper.cpp.o
+[2901/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/MicrosoftMangle.cpp.o
+[2902/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtPrinter.cpp.o
+[2903/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTImporter.cpp.o
+[2904/3382] Building CXX object tools/clang/lib/ASTMatchers/CMakeFiles/obj.clangASTMatchers.dir/ASTMatchFinder.cpp.o
+[2905/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/VTableBuilder.cpp.o
+[2906/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/Scope.cpp.o
+[2907/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/ScopeInfo.cpp.o
+[2908/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/IdentifierResolver.cpp.o
+[2909/3382] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGAtomic.cpp.o
+[2910/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/CodeCompleteConsumer.cpp.o
+[2911/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/DelayedDiagnostic.cpp.o
+[2912/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/TextNodeDumper.cpp.o
+[2913/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/CheckExprLifetime.cpp.o
+[2914/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/HLSLExternalSemaSource.cpp.o
+[2915/3382] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGCUDANV.cpp.o
+[2916/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/DeclSpec.cpp.o
+[2917/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/HLSLBuiltinTypeDeclBuilder.cpp.o
+[2918/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/MultiplexExternalSemaSource.cpp.o
+[2919/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/JumpDiagnostics.cpp.o
+[2920/3382] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/BackendUtil.cpp.o
+FAILED: tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/BackendUtil.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/BackendUtil.cpp.o -MF tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/BackendUtil.cpp.o.d -o tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/BackendUtil.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/BackendUtil.cpp
+In file included from /usr/include/c++/11/memory:76,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Casting.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/LLVM.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/CodeGen/BackendUtil.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:9:
+/usr/include/c++/11/bits/unique_ptr.h: In instantiation of ‘void std::default_delete<_Tp>::operator()(_Tp*) const [with _Tp = clang::ASTUnit]’:
+/usr/include/c++/11/bits/unique_ptr.h:361:17:   required from ‘std::unique_ptr<_Tp, _Dp>::~unique_ptr() [with _Tp = clang::ASTUnit; _Dp = std::default_delete<clang::ASTUnit>]’
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/Frontend/FrontendAction.h:163:36:   required from here
+/usr/include/c++/11/bits/unique_ptr.h:83:23: error: invalid application of ‘sizeof’ to incomplete type ‘clang::ASTUnit’
+   83 |         static_assert(sizeof(_Tp)>0,
+      |                       ^~~~~~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/simple_ilist.h:13,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ilist.h:27,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/BasicBlock.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Function.h:27,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/InstrTypes.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/ConstantRange.h:35,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/ModuleSummaryIndex.h:31,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/CodeGen/BackendUtil.h:13,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ilist_iterator.h:332:15: warning: inline function ‘bool llvm::operator!=(const llvm::ilist_iterator_w_bits<llvm::ilist_detail::node_options<llvm::Instruction, false, false, void, true, llvm::BasicBlock>, false, true>&, const llvm::ilist_iterator_w_bits<llvm::ilist_detail::node_options<llvm::Instruction, false, false, void, true, llvm::BasicBlock>, false, true>&)’ used but never defined
+  332 |   friend bool operator!=(const ilist_iterator_w_bits &LHS,
+      |               ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ilist_iterator.h:177:15: warning: inline function ‘bool llvm::operator!=(const llvm::ilist_iterator<llvm::ilist_detail::node_options<llvm::BasicBlock, false, false, void, false, void>, false, true>&, const llvm::ilist_iterator<llvm::ilist_detail::node_options<llvm::BasicBlock, false, false, void, false, void>, false, true>&)’ used but never defined
+  177 |   friend bool operator!=(const ilist_iterator &LHS, const ilist_iterator &RHS) {
+      |               ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ilist_iterator.h:177:15: warning: inline function ‘bool llvm::operator!=(const llvm::ilist_iterator<llvm::ilist_detail::node_options<llvm::GlobalVariable, false, false, void, false, void>, false, true>&, const llvm::ilist_iterator<llvm::ilist_detail::node_options<llvm::GlobalVariable, false, false, void, false, void>, false, true>&)’ used but never defined
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ilist_iterator.h:177:15: warning: inline function ‘bool llvm::operator!=(const llvm::ilist_iterator<llvm::ilist_detail::node_options<llvm::Function, false, false, void, false, void>, false, true>&, const llvm::ilist_iterator<llvm::ilist_detail::node_options<llvm::Function, false, false, void, false, void>, false, true>&)’ used but never defined
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ilist_iterator.h:177:15: warning: inline function ‘bool llvm::operator!=(const llvm::ilist_iterator<llvm::ilist_detail::node_options<llvm::GlobalAlias, false, false, void, false, void>, false, true>&, const llvm::ilist_iterator<llvm::ilist_detail::node_options<llvm::GlobalAlias, false, false, void, false, void>, false, true>&)’ used but never defined
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ilist_iterator.h:177:15: warning: inline function ‘bool llvm::operator!=(const llvm::ilist_iterator<llvm::ilist_detail::node_options<llvm::GlobalIFunc, false, false, void, false, void>, false, true>&, const llvm::ilist_iterator<llvm::ilist_detail::node_options<llvm::GlobalIFunc, false, false, void, false, void>, false, true>&)’ used but never defined
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ilist_iterator.h:177:15: warning: inline function ‘bool llvm::operator!=(const llvm::ilist_iterator<llvm::ilist_detail::node_options<llvm::NamedMDNode, false, false, void, false, void>, false, true>&, const llvm::ilist_iterator<llvm::ilist_detail::node_options<llvm::NamedMDNode, false, false, void, false, void>, false, true>&)’ used but never defined
+[2921/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaAVR.cpp.o
+[2922/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaAMDGPU.cpp.o
+[2923/3382] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGBuiltin.cpp.o
+[2924/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaBase.cpp.o
+[2925/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaBPF.cpp.o
+[2926/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTContext.cpp.o
+[2927/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/AnalysisBasedWarnings.cpp.o
+[2928/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaAccess.cpp.o
+[2929/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaAttr.cpp.o
+[2930/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/ParsedAttr.cpp.o
+[2931/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaBoundsSafety.cpp.o
+[2932/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaARM.cpp.o
+[2933/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaCXXScopeSpec.cpp.o
+[2934/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaAvailability.cpp.o
+[2935/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaAPINotes.cpp.o
+[2936/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaCast.cpp.o
+[2937/3382] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/Sema.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:4 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/lld/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+956.27user 49.72system 1:06.55elapsed 1511%CPU (0avgtext+0avgdata 1366816maxresident)k
+0inputs+4785736outputs (48326major+30908266minor)pagefaults 0swaps
