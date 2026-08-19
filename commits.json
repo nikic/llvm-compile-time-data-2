@@ -220622,5 +220622,19 @@
             "commit_date": "2026-08-19T11:15:45-07:00",
             "subject": "[GISel] Hold IRTranslatorImpl rather than recreating"
         }
+    ],
+    "artagnon\/perf\/scev-addrec-wrap-constr": [
+        {
+            "hash": "2d697458ac3f472e666b7f47586da362839cfacb",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-19T11:39:31+01:00",
+            "subject": "[SCEV] Directly use NUW on mul in getUDivExpr (NFC) (#217235)"
+        },
+        {
+            "hash": "f5a19c8695576779b3c67fc944329fb4e016a6a9",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-19T20:02:16+01:00",
+            "subject": "[SCEV] Strengthen wrap-flags of AddRec at construction"
+        }
     ]
 }
