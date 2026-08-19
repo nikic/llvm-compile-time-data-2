@@ -206433,6 +206433,12 @@
             "author_name": "Ivan R. Ivanov",
             "commit_date": "2026-08-18T23:31:46+00:00",
             "subject": "[flang][Lower] Rewrite present of device variable to deviceptr (#217164)"
+        },
+        {
+            "hash": "607991b0affc3d9f6d3a5c6dd9841d239177be69",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-08-19T09:53:16+10:00",
+            "subject": "[orc-rt] Use StringOutputStream in executor error messages (#217167)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -219287,6 +219293,40 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-08-18T23:13:56+01:00",
             "subject": "[LSR] Missed test update"
+        }
+    ],
+    "yxsamliu\/perf\/pr216838-baseline": [
+        {
+            "hash": "a10f62e878750ca72c61c26bc443cf087a8ee411",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-08-17T12:03:59-07:00",
+            "subject": "[CIR] Implement aligned-array-delete. (#216789)"
+        },
+        {
+            "hash": "5e9e8930aea9bb156c3d85b1fc6448eb41098bb5",
+            "author_name": "Yaxun (Sam) Liu",
+            "commit_date": "2026-08-18T12:13:04-04:00",
+            "subject": "[IR] Add persistent metadata IDs for fast printing"
+        }
+    ],
+    "yxsamliu\/perf\/pr216838-eager-metadata-id": [
+        {
+            "hash": "a10f62e878750ca72c61c26bc443cf087a8ee411",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-08-17T12:03:59-07:00",
+            "subject": "[CIR] Implement aligned-array-delete. (#216789)"
+        },
+        {
+            "hash": "5e9e8930aea9bb156c3d85b1fc6448eb41098bb5",
+            "author_name": "Yaxun (Sam) Liu",
+            "commit_date": "2026-08-18T12:13:04-04:00",
+            "subject": "[IR] Add persistent metadata IDs for fast printing"
+        },
+        {
+            "hash": "e7d10a9cfe5acc261a14b8535d79948d98da4d80",
+            "author_name": "Yaxun (Sam) Liu",
+            "commit_date": "2026-08-18T19:08:32-04:00",
+            "subject": "[IR] Assign persistent metadata IDs eagerly"
         }
     ]
 }
