@@ -1,0 +1,236 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/PointerFlow/PointerFlowFormat.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ScalableStaticAnalysis/Analyses/PointerFlow/PointerFlow.h:31:3: note: only here as a ‘friend’
+   31 |   getEdges(const PointerFlowEntitySummary &);
+      |   ^~~~~~~~
+[1135/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Analyses/CMakeFiles/obj.clangScalableStaticAnalysisAnalyses.dir/SSAFAnalysesCommon.cpp.o
+[1136/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Analyses/CMakeFiles/obj.clangScalableStaticAnalysisAnalyses.dir/TypeConstrainedPointers/TypeConstrainedPointers.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/AnalysisRegistry.h:37,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/TypeConstrainedPointers/TypeConstrainedPointers.cpp:32:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/SummaryAnalysis.h:109:15: warning: ‘llvm::Error clang::ssaf::SummaryAnalysis<ResultT, EntitySummaryT>::add(clang::ssaf::EntityId, const clang::ssaf::EntitySummary&) [with ResultT = clang::ssaf::TypeConstrainedPointersAnalysisResult; EntitySummaryT = clang::ssaf::TypeConstrainedPointersEntitySummary]’ was hidden [-Woverloaded-virtual]
+  109 |   llvm::Error add(EntityId Id, const EntitySummary &Summary) final {
+      |               ^~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/TypeConstrainedPointers/TypeConstrainedPointers.cpp:141:3: note:   by ‘virtual llvm::Error {anonymous}::TypeConstrainedPointersAnalysis::add(clang::ssaf::EntityId, const clang::ssaf::TypeConstrainedPointersEntitySummary&)’
+  141 |   add(EntityId, const TypeConstrainedPointersEntitySummary &Summary) override {
+      |   ^~~
+[1137/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Analyses/CMakeFiles/obj.clangScalableStaticAnalysisAnalyses.dir/UnsafeBufferUsage/UnsafeBufferUsage.cpp.o
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsage.cpp:15:1: warning: ‘clang::ssaf::UnsafeBufferUsageEntitySummary clang::ssaf::buildUnsafeBufferUsageEntitySummary(clang::ssaf::EntityPointerLevelSet)’ has not been declared within ‘clang::ssaf’
+   15 | ssaf::buildUnsafeBufferUsageEntitySummary(EntityPointerLevelSet UnsafeBuffers) {
+      | ^~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsage.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsage.h:24:7: note: only here as a ‘friend’
+   24 |       buildUnsafeBufferUsageEntitySummary(EntityPointerLevelSet);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsage.cpp:20:1: warning: ‘llvm::iterator_range<std::_Rb_tree_const_iterator<clang::ssaf::EntityPointerLevel> > clang::ssaf::getUnsafeBuffers(const clang::ssaf::UnsafeBufferUsageEntitySummary&)’ has not been declared within ‘clang::ssaf’
+   20 | ssaf::getUnsafeBuffers(const UnsafeBufferUsageEntitySummary &S) {
+      | ^~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsage.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsage.h:26:3: note: only here as a ‘friend’
+   26 |   getUnsafeBuffers(const UnsafeBufferUsageEntitySummary &);
+      |   ^~~~~~~~~~~~~~~~
+[1138/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Analyses/CMakeFiles/obj.clangScalableStaticAnalysisAnalyses.dir/UnsafeBufferUsage/UnsafeBufferUsageAnalysis.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/AnalysisRegistry.h:37,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsageAnalysis.cpp:24:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/SummaryAnalysis.h:109:15: warning: ‘llvm::Error clang::ssaf::SummaryAnalysis<ResultT, EntitySummaryT>::add(clang::ssaf::EntityId, const clang::ssaf::EntitySummary&) [with ResultT = clang::ssaf::UnsafeBufferUsageAnalysisResult; EntitySummaryT = clang::ssaf::UnsafeBufferUsageEntitySummary]’ was hidden [-Woverloaded-virtual]
+  109 |   llvm::Error add(EntityId Id, const EntitySummary &Summary) final {
+      |               ^~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsageAnalysis.cpp:77:15: note:   by ‘virtual llvm::Error {anonymous}::UnsafeBufferUsageAnalysis::add(clang::ssaf::EntityId, const clang::ssaf::UnsafeBufferUsageEntitySummary&)’
+   77 |   llvm::Error add(EntityId Id,
+      |               ^~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/AnalysisRegistry.h:36,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsageAnalysis.cpp:24:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/DerivedAnalysis.h:111:3: warning: ‘llvm::Error clang::ssaf::DerivedAnalysis<ResultT, DepResultTs>::initialize(const std::map<clang::ssaf::AnalysisName, const clang::ssaf::AnalysisResult*>&) [with ResultT = clang::ssaf::UnsafeBufferReachableAnalysisResult; DepResultTs = {clang::ssaf::PointerFlowAnalysisResult, clang::ssaf::TypeConstrainedPointersAnalysisResult, clang::ssaf::UnsafeBufferUsageAnalysisResult}]’ was hidden [-Woverloaded-virtual]
+  111 |   initialize(const std::map<AnalysisName, const AnalysisResult *> &Map) final {
+      |   ^~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsageAnalysis.cpp:244:3: note:   by ‘virtual llvm::Error {anonymous}::UnsafeBufferReachableAnalysis::initialize(const clang::ssaf::PointerFlowAnalysisResult&, const clang::ssaf::TypeConstrainedPointersAnalysisResult&, const clang::ssaf::UnsafeBufferUsageAnalysisResult&)’
+  244 |   initialize(const PointerFlowAnalysisResult &PtrFlowGraph,
+      |   ^~~~~~~~~~
+[1139/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/ASTEntityMapping.cpp.o
+[1140/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Model/EntityId.cpp.o
+[1141/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Analyses/CMakeFiles/obj.clangScalableStaticAnalysisAnalyses.dir/UnsafeBufferUsage/UnsafeBufferUsageFormat.cpp.o
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsageFormat.cpp:25:1: warning: ‘clang::ssaf::UnsafeBufferUsageEntitySummary clang::ssaf::buildUnsafeBufferUsageEntitySummary(clang::ssaf::EntityPointerLevelSet)’ has not been declared within ‘clang::ssaf’
+   25 | ssaf::buildUnsafeBufferUsageEntitySummary(EntityPointerLevelSet UnsafeBuffers);
+      | ^~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsageFormat.cpp:12:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsage.h:24:7: note: only here as a ‘friend’
+   24 |       buildUnsafeBufferUsageEntitySummary(EntityPointerLevelSet);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsageFormat.cpp:28:1: warning: ‘llvm::iterator_range<std::_Rb_tree_const_iterator<clang::ssaf::EntityPointerLevel> > clang::ssaf::getUnsafeBuffers(const clang::ssaf::UnsafeBufferUsageEntitySummary&)’ has not been declared within ‘clang::ssaf’
+   28 | ssaf::getUnsafeBuffers(const UnsafeBufferUsageEntitySummary &S);
+      | ^~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsageFormat.cpp:12:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsage.h:26:3: note: only here as a ‘friend’
+   26 |   getUnsafeBuffers(const UnsafeBufferUsageEntitySummary &);
+      |   ^~~~~~~~~~~~~~~~
+[1142/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Analyses/CMakeFiles/obj.clangScalableStaticAnalysisAnalyses.dir/UnsafeBufferUsage/UnsafeBufferUsageExtractor.cpp.o
+[1143/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Model/EntityIdTable.cpp.o
+[1144/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Model/EntityLinkage.cpp.o
+[1145/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Model/EntityName.cpp.o
+[1146/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Model/SummaryName.cpp.o
+[1147/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/EntityLinker/EntityLinker.cpp.o
+[1148/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/Artifact.cpp.o
+[1149/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/JSONEntitySummaryEncoding.cpp.o
+[1150/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/JSONFormatImpl.cpp.o
+[1151/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/LUSummary.cpp.o
+[1152/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/LUSummaryEncoding.cpp.o
+[1153/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/MultiArchStaticLibrary.cpp.o
+[1154/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/MultiArchSharedLibrary.cpp.o
+[1155/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/StaticLibrary.cpp.o
+[1156/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/TUSummaryEncoding.cpp.o
+[1157/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/WPASuite.cpp.o
+[1158/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/JSONFormat/TUSummary.cpp.o
+[1159/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Serialization/SerializationFormatRegistry.cpp.o
+[1160/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/SummaryData/LUSummaryConsumer.cpp.o
+[1161/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/SummaryData/SummaryDataBuilderRegistry.cpp.o
+[1162/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/Support/ErrorBuilder.cpp.o
+[1163/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/TUSummary/TUSummaryBuilder.cpp.o
+[1164/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/TUSummary/ExtractorRegistry.cpp.o
+[1165/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/TUSummary/TUSummaryExtractor.cpp.o
+[1166/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/WholeProgramAnalysis/AnalysisDriver.cpp.o
+[1167/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/WholeProgramAnalysis/AnalysisName.cpp.o
+[1168/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Core/CMakeFiles/obj.clangScalableStaticAnalysisCore.dir/WholeProgramAnalysis/AnalysisRegistry.cpp.o
+[1169/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Frontend/CMakeFiles/obj.clangScalableStaticAnalysisFrontend.dir/SourceTransformationFrontendAction.cpp.o
+[1170/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/Frontend/CMakeFiles/obj.clangScalableStaticAnalysisFrontend.dir/TUSummaryExtractorFrontendAction.cpp.o
+[1171/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/SourceTransformation/CMakeFiles/obj.clangScalableStaticAnalysisSourceTransformation.dir/TransformationRegistry.cpp.o
+[1172/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/SourceTransformation/CMakeFiles/obj.clangScalableStaticAnalysisSourceTransformation.dir/SARIFTransformationReportFormat.cpp.o
+[1173/3381] Building CXX object tools/clang/lib/UnifiedSymbolResolution/CMakeFiles/obj.clangUnifiedSymbolResolution.dir/USRGeneration.cpp.o
+[1174/3381] Building CXX object tools/clang/lib/ScalableStaticAnalysis/SourceTransformation/CMakeFiles/obj.clangScalableStaticAnalysisSourceTransformation.dir/YAMLSourceEditFormat.cpp.o
+[1175/3381] Building X86GenDAGISel.inc...
+[1176/3381] Building AArch64GenSystemOperands.inc...
+[1177/3381] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParsePragma.cpp.o
+[1178/3381] Building AArch64GenDAGISel.inc...
+[1179/3381] Building X86GenSubtargetInfo.inc...
+[1180/3381] Building X86GenInstrInfo.inc...
+[1181/3381] Building AMDGPUTargetParserDef.inc...
+[1182/3381] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/BuiltinGCs.cpp.o
+[1183/3381] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/AbstractCallSite.cpp.o
+[1184/3381] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Assumptions.cpp.o
+[1185/3381] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/BundleAttributes.cpp.o
+[1186/3381] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Comdat.cpp.o
+[1187/3381] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/LiveRegUnits.cpp.o
+[1188/3381] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Attributes.cpp.o
+FAILED: lib/IR/CMakeFiles/LLVMCore.dir/Attributes.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/IR -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/IR/CMakeFiles/LLVMCore.dir/Attributes.cpp.o -MF lib/IR/CMakeFiles/LLVMCore.dir/Attributes.cpp.o.d -o lib/IR/CMakeFiles/LLVMCore.dir/Attributes.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR/Attributes.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR/LLVMContextImpl.h:32,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR/Attributes.cpp:17:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/DebugInfoMetadata.h: In member function ‘llvm::Metadata* llvm::DILocation::getRawIRLayers() const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/DebugInfoMetadata.h:3078:24: error: operands to ‘?:’ have different types ‘const llvm::MDOperand’ and ‘std::nullptr_t’
+ 3078 |     return HasIRLayers ? getOperand(getNumOperands() - 1) : nullptr;
+      |            ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1189/3381] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/BasicBlock.cpp.o
+FAILED: lib/IR/CMakeFiles/LLVMCore.dir/BasicBlock.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/IR -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/IR/CMakeFiles/LLVMCore.dir/BasicBlock.cpp.o -MF lib/IR/CMakeFiles/LLVMCore.dir/BasicBlock.cpp.o.d -o lib/IR/CMakeFiles/LLVMCore.dir/BasicBlock.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR/BasicBlock.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/IntrinsicInst.h:27,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR/BasicBlock.cpp:21:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/DebugInfoMetadata.h: In member function ‘llvm::Metadata* llvm::DILocation::getRawIRLayers() const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/DebugInfoMetadata.h:3078:24: error: operands to ‘?:’ have different types ‘const llvm::MDOperand’ and ‘std::nullptr_t’
+ 3078 |     return HasIRLayers ? getOperand(getNumOperands() - 1) : nullptr;
+      |            ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1190/3381] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/LiveStacks.cpp.o
+[1191/3381] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/LocalStackSlotAllocation.cpp.o
+[1192/3381] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/LiveRegMatrix.cpp.o
+[1193/3381] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/AutoUpgrade.cpp.o
+FAILED: lib/IR/CMakeFiles/LLVMCore.dir/AutoUpgrade.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/IR -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/IR/CMakeFiles/LLVMCore.dir/AutoUpgrade.cpp.o -MF lib/IR/CMakeFiles/LLVMCore.dir/AutoUpgrade.cpp.o.d -o lib/IR/CMakeFiles/LLVMCore.dir/AutoUpgrade.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR/AutoUpgrade.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/IntrinsicInst.h:27,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/DebugInfo.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR/AutoUpgrade.cpp:25:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/DebugInfoMetadata.h: In member function ‘llvm::Metadata* llvm::DILocation::getRawIRLayers() const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/DebugInfoMetadata.h:3078:24: error: operands to ‘?:’ have different types ‘const llvm::MDOperand’ and ‘std::nullptr_t’
+ 3078 |     return HasIRLayers ? getOperand(getNumOperands() - 1) : nullptr;
+      |            ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1194/3381] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ConstantFold.cpp.o
+FAILED: lib/IR/CMakeFiles/LLVMCore.dir/ConstantFold.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/IR -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/IR/CMakeFiles/LLVMCore.dir/ConstantFold.cpp.o -MF lib/IR/CMakeFiles/LLVMCore.dir/ConstantFold.cpp.o.d -o lib/IR/CMakeFiles/LLVMCore.dir/ConstantFold.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR/ConstantFold.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/IntrinsicInst.h:27,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PatternMatch.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR/ConstantFold.cpp:31:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/DebugInfoMetadata.h: In member function ‘llvm::Metadata* llvm::DILocation::getRawIRLayers() const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/DebugInfoMetadata.h:3078:24: error: operands to ‘?:’ have different types ‘const llvm::MDOperand’ and ‘std::nullptr_t’
+ 3078 |     return HasIRLayers ? getOperand(getNumOperands() - 1) : nullptr;
+      |            ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1195/3381] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ConstantFPRange.cpp.o
+[1196/3381] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/AsmWriter.cpp.o
+FAILED: lib/IR/CMakeFiles/LLVMCore.dir/AsmWriter.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/IR -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/IR/CMakeFiles/LLVMCore.dir/AsmWriter.cpp.o -MF lib/IR/CMakeFiles/LLVMCore.dir/AsmWriter.cpp.o.d -o lib/IR/CMakeFiles/LLVMCore.dir/AsmWriter.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR/AsmWriter.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR/AsmWriter.cpp:41:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/DebugInfoMetadata.h: In member function ‘llvm::Metadata* llvm::DILocation::getRawIRLayers() const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/DebugInfoMetadata.h:3078:24: error: operands to ‘?:’ have different types ‘const llvm::MDOperand’ and ‘std::nullptr_t’
+ 3078 |     return HasIRLayers ? getOperand(getNumOperands() - 1) : nullptr;
+      |            ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1197/3381] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ConstantRangeList.cpp.o
+[1198/3381] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/LiveVariables.cpp.o
+[1199/3381] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ConstantRange.cpp.o
+[1200/3381] Building AArch64GenInstrInfo.inc...
+[1201/3381] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseStmtAsm.cpp.o
+[1202/3381] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenTargetMachineImpl.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenTargetMachineImpl.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenTargetMachineImpl.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenTargetMachineImpl.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenTargetMachineImpl.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenTargetMachineImpl.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/IntrinsicInst.h:27,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetTransformInfo.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/BasicTTIImpl.h:27,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenTargetMachineImpl.cpp:17:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/DebugInfoMetadata.h: In member function ‘llvm::Metadata* llvm::DILocation::getRawIRLayers() const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/DebugInfoMetadata.h:3078:24: error: operands to ‘?:’ have different types ‘const llvm::MDOperand’ and ‘std::nullptr_t’
+ 3078 |     return HasIRLayers ? getOperand(getNumOperands() - 1) : nullptr;
+      |            ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1203/3381] Building AArch64GenSubtargetInfo.inc...
+[1204/3381] Building CXX object tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/CompilerInvocation.cpp.o
+FAILED: tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/CompilerInvocation.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/Frontend -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/Frontend -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/CompilerInvocation.cpp.o -MF tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/CompilerInvocation.cpp.o.d -o tools/clang/lib/Frontend/CMakeFiles/obj.clangFrontend.dir/CompilerInvocation.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/Frontend/CompilerInvocation.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/Frontend/CompilerInvocation.cpp:55:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/DebugInfoMetadata.h: In member function ‘llvm::Metadata* llvm::DILocation::getRawIRLayers() const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/DebugInfoMetadata.h:3078:24: error: operands to ‘?:’ have different types ‘const llvm::MDOperand’ and ‘std::nullptr_t’
+ 3078 |     return HasIRLayers ? getOperand(getNumOperands() - 1) : nullptr;
+      |            ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1205/3381] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AsmPrinter.cpp.o
+FAILED: lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AsmPrinter.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Target/X86 -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/X86 -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fvisibility=hidden -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AsmPrinter.cpp.o -MF lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AsmPrinter.cpp.o.d -o lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AsmPrinter.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/X86/X86AsmPrinter.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/IntrinsicInst.h:27,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetTransformInfo.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Passes/CodeGenPassBuilder.h:24,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/X86/X86AsmPrinter.h:15,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Target/X86/X86AsmPrinter.cpp:14:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/DebugInfoMetadata.h: In member function ‘llvm::Metadata* llvm::DILocation::getRawIRLayers() const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/DebugInfoMetadata.h:3078:24: error: operands to ‘?:’ have different types ‘const llvm::MDOperand’ and ‘std::nullptr_t’
+ 3078 |     return HasIRLayers ? getOperand(getNumOperands() - 1) : nullptr;
+      |            ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:4 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/lld/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+177.48user 12.06system 0:17.09elapsed 1108%CPU (0avgtext+0avgdata 1223580maxresident)k
+0inputs+858736outputs (3029major+8392342minor)pagefaults 0swaps
