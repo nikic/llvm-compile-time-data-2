@@ -206601,6 +206601,12 @@
             "author_name": "forking-google-bazel-bot[bot]",
             "commit_date": "2026-08-19T12:11:38+05:30",
             "subject": "[Bazel] Fixes a6e40de (#217219)"
+        },
+        {
+            "hash": "a9f4466de5222f7afaac25b760751599606aef04",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-08-19T17:00:19+10:00",
+            "subject": "[orc-rt] Remove unused <sstream> includes. NFC. (#217216)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -219083,15 +219089,15 @@
     ],
     "MaskRay\/perf\/fastra-ssa": [
         {
-            "hash": "b4cf46103cdbbecb16339bb8e96dcbeb99330c06",
-            "author_name": "Sophia Herrmann",
-            "commit_date": "2026-08-17T10:57:18-07:00",
-            "subject": "[LLVMOffload] Fix unitialized variable in test from #212373 (#216788)"
+            "hash": "f3bc5801e20ce00feb55313735d7ee6b4d62bb23",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-08-18T06:56:24+02:00",
+            "subject": "[clang][bytecode] Add `Pointer::getRootExpr()` (#216706)"
         },
         {
-            "hash": "dd74d35b96e1d8b8e8e269f92d6c66b1beb3de11",
+            "hash": "f0a2800a6b1cf8b3af9396065918b101a67d5d81",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-08-17T11:04:52-07:00",
+            "commit_date": "2026-08-18T23:40:41-07:00",
             "subject": "[RegAllocFast] Consume SSA MachineIR, absorbing PHI and two-address lowering"
         }
     ],
