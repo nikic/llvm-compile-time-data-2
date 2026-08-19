@@ -207213,6 +207213,42 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-08-19T08:35:15-07:00",
             "subject": "[Bazel] Port 40f48bf (#217367)"
+        },
+        {
+            "hash": "9715eb993dce885ad926c8df2d16710e1b52a514",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-19T16:44:15+01:00",
+            "subject": "[SCEV] Answer range queries for constants directly (NFC) (#217339)"
+        },
+        {
+            "hash": "a8ca5b29294096dd6a17885f858ac5cf697a2f48",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-08-19T08:45:44-07:00",
+            "subject": "[DAGCombiner] Pass const SDLoc &DL to visitADDLikeCommutative. NFC (#217169)"
+        },
+        {
+            "hash": "e2679f3e50a8004dd68b15ca2e5b125c09cedfcc",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-08-19T17:45:57+02:00",
+            "subject": "[mlir][SPIR-V] Fix ArrayType::getSizeInBytes double counting the stride (#203821)"
+        },
+        {
+            "hash": "fd6d7a608909dc4ecea57e0155042d16f7b4e61a",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-08-19T08:46:39-07:00",
+            "subject": "[RISCV] Use correct type for (u)int64_t in RVV intrinsics on OpenBSD (#217211)"
+        },
+        {
+            "hash": "d5b4271ac83d9c38ae7b995f01071f744669e7a8",
+            "author_name": "Dmitry Rogozhkin",
+            "commit_date": "2026-08-19T17:50:48+02:00",
+            "subject": "[libsycl] add sycl_khr_default_context (#216863)"
+        },
+        {
+            "hash": "f078d99d6119f2c0f4116c903a4155cbbf8f27ca",
+            "author_name": "Martin Li\u0161ka",
+            "commit_date": "2026-08-19T08:52:51-07:00",
+            "subject": "[WebAssembly] fix: respect -Wl,--no-demangle option (#213878)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -220313,9 +220349,9 @@
             "subject": "[SCEV\/related] Regen tests with UTC"
         },
         {
-            "hash": "8513be6ae0a513b4cb9de1278f67f54c3ead7b8a",
+            "hash": "f24685dfcf80e8e060f79f7a0dda10becdeaae6d",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-19T16:13:01+01:00",
+            "commit_date": "2026-08-19T16:42:19+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence in ext-addrec"
         }
     ],
@@ -220343,6 +220379,26 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-19T16:29:47+01:00",
             "subject": "[SCEV] Use the sign-extended expression for a `zext nneg` when it distributes"
+        }
+    ],
+    "fhahn\/perf\/vt-lookup": [
+        {
+            "hash": "1d7d16b94c614a1ce2ce90bb19edd1e71115f999",
+            "author_name": "hjagasiaAMD",
+            "commit_date": "2026-08-19T09:13:43-05:00",
+            "subject": "[CodeGen] Avoid register pressure limit underflow (#216372)"
+        },
+        {
+            "hash": "8d11fe97bc5081aedaed69c5bf1df151cd81b254",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-19T15:23:50+01:00",
+            "subject": "[CodeGenTypes] Look up MVT::getVectorVT by element type (NFC)"
+        },
+        {
+            "hash": "148d18fe705f049f5ccc71e72bf5c0b9b31d02bf",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-19T16:50:24+01:00",
+            "subject": "Rework"
         }
     ]
 }
