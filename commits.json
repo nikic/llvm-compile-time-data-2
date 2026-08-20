@@ -208695,6 +208695,18 @@
             "author_name": "Adrian Prantl",
             "commit_date": "2026-08-20T13:55:45-07:00",
             "subject": "[LLDB] Let ValueObject::CanSetValue() return a reason (#217454)"
+        },
+        {
+            "hash": "a91380793344c84f3bae3a5425a1fcd1b63dd0a4",
+            "author_name": "UebelAndre",
+            "commit_date": "2026-08-20T14:05:03-07:00",
+            "subject": "[lit][bazel] Fall back to a default PATHEXT when the variable is unset (#217416)"
+        },
+        {
+            "hash": "ab0b549b6b9855e176f6f7ea3f9e5ffe930061c6",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-08-20T21:13:05+00:00",
+            "subject": "[llvm][AArch64] Avoid iterating off the beginning of a BB in a backward scan (#217752)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -217893,6 +217905,48 @@
             "author_name": "Alex Crichton",
             "commit_date": "2026-08-20T21:01:49+00:00",
             "subject": "[WebAssembly] Fix __init_tls_base global in coop threading  (#208597)"
+        },
+        {
+            "hash": "fb14f7f142d935884e0ba2e5d3b228e7a611c740",
+            "author_name": "Benji Smith",
+            "commit_date": "2026-08-20T21:05:52+00:00",
+            "subject": "[SDAG] Fix invalid sign bit condition for abs(sub) -> abdu fold (#215548)"
+        },
+        {
+            "hash": "4f138bfdcd2e0fcfe4f7d3488f748f0b14f30db2",
+            "author_name": "Guy David",
+            "commit_date": "2026-08-20T21:09:04+00:00",
+            "subject": "[ARM] Allow tTAILJMPd on v8-M Baseline (#216747)"
+        },
+        {
+            "hash": "7a1499f14ea036b4a4312084c48dd65ea7abfc85",
+            "author_name": "Jacob Young",
+            "commit_date": "2026-08-20T21:09:43+00:00",
+            "subject": "[SystemZ] Fix assertion failures during DAG combine (#215027)"
+        },
+        {
+            "hash": "f2dc211627b287cb99e02a84cdafe151ac3266fc",
+            "author_name": "Maryam Moghadas",
+            "commit_date": "2026-08-20T21:10:33+00:00",
+            "subject": "[LegalizeTypes] Allow v1i128 as a valid SETCC result type during vector operand scalarization (#216136)"
+        },
+        {
+            "hash": "60db88762f0bdbb5f658e99154fc156ce0d15281",
+            "author_name": "Sam Clegg",
+            "commit_date": "2026-08-20T21:11:13+00:00",
+            "subject": "[lld][WebAssembly] Update incorrect assertion in global relocation code (#215929)"
+        },
+        {
+            "hash": "1013bc46cfa55d60afea0ff996a6de7658d9851b",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-08-20T21:12:46+00:00",
+            "subject": "[X86] Add regression test coverage for #217355 (#217387)"
+        },
+        {
+            "hash": "28fc8c4245434daa9957e8bab60e21c6186d288d",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-08-20T21:12:47+00:00",
+            "subject": "[X86] lowerFPToIntToFP - handle signedness for fp->int and int->fp independently (#217404)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
