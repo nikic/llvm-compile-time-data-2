@@ -208707,6 +208707,18 @@
             "author_name": "Jon Roelofs",
             "commit_date": "2026-08-20T21:13:05+00:00",
             "subject": "[llvm][AArch64] Avoid iterating off the beginning of a BB in a backward scan (#217752)"
+        },
+        {
+            "hash": "00d362aced6fecba591ae8ad98d9cc04fe35c6ee",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-08-20T17:19:28-04:00",
+            "subject": "[libc++] Pin down macOS 26.5 and arm64 in the LNT machines (#217763)"
+        },
+        {
+            "hash": "8265021b9e4a3e2d7a3f79670841649ca0d19570",
+            "author_name": "Sam Elliott",
+            "commit_date": "2026-08-20T14:22:53-07:00",
+            "subject": "[RISCV] Port VL Optimizer to NewPM (#215670)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -217947,6 +217959,12 @@
             "author_name": "Simon Pilgrim",
             "commit_date": "2026-08-20T21:12:47+00:00",
             "subject": "[X86] lowerFPToIntToFP - handle signedness for fp->int and int->fp independently (#217404)"
+        },
+        {
+            "hash": "895aa2c896ada719451be2e3673c83da8ddf1141",
+            "author_name": "yingopq",
+            "commit_date": "2026-08-20T21:13:32+00:00",
+            "subject": "[Mips] Fix getInstSizeInBytes for instructions with delay slots (#216665)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
@@ -221981,15 +221999,21 @@
     ],
     "artagnon\/perf\/scev-zextaddrec-wrap": [
         {
-            "hash": "2d697458ac3f472e666b7f47586da362839cfacb",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-19T11:39:31+01:00",
-            "subject": "[SCEV] Directly use NUW on mul in getUDivExpr (NFC) (#217235)"
+            "hash": "e9c9a4185530497aa5a7abb548acf1f3e0340e02",
+            "author_name": "Bryth",
+            "commit_date": "2026-08-20T18:53:22+02:00",
+            "subject": "[ComplexDeinterleaving] Add fma\/fmuladd support in identifyReassocNodes (#217563)"
         },
         {
-            "hash": "61bfd461535d62a148ae4629af7ac74c5aad7820",
+            "hash": "5f967f456c9e669203846cba81a9551258c62b9c",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-19T18:30:34+01:00",
+            "commit_date": "2026-08-20T21:59:14+01:00",
+            "subject": "[SCEV\/related] Update tests with UTC"
+        },
+        {
+            "hash": "4d6e67dbae744f2b956406bc1e90df1432be9fae",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-20T22:08:20+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence in zext-addrec"
         }
     ],
