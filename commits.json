@@ -212729,16 +212729,22 @@
     ],
     "c-rhodes\/perf\/aarch64-gisel-call-lowering-x0-x7-fast-path": [
         {
-            "hash": "2de2edb943fe1b83d79bdffa03606eb8c5452e9b",
-            "author_name": "Cullen Rhodes",
-            "commit_date": "2026-06-08T08:21:16+01:00",
-            "subject": "Revert \"[GlobalISel] Add a shared matcher for memcpy-family instructions (NFC)\" (#202275)"
+            "hash": "b025f5b75941fcf2e719535473c51b5e0617c4f9",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-08-18T13:11:15+01:00",
+            "subject": "[clang][cir] Fix tests post #210729 (#216963)"
         },
         {
-            "hash": "ee0690a7bd4a1a74b859923259f88d8e65a86227",
+            "hash": "c8fda875fe34fdd5e99d17b6f277dc6e8039e790",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-06-10T11:09:48+00:00",
-            "subject": "[AArch64][GlobalISel] Fast-path simple x0-x7 call args"
+            "commit_date": "2026-08-20T06:12:47+00:00",
+            "subject": "[CodeGen] Represent ISD::ArgFlagsTy flags as a bitmask (NFC)"
+        },
+        {
+            "hash": "a3f10f89b510f74a7cda1e621d44e81d9ac0a5ce",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-08-20T07:27:07+00:00",
+            "subject": "[AArch64][GlobalISel] Fast-path simple calls"
         }
     ],
     "c-rhodes\/perf\/gisel-avoid-redundant-copy-zero-offset-gep": [
@@ -219754,6 +219760,12 @@
             "hash": "c8cedc5168c8d6ca04b8b42836edfe2a5bc5e1bd",
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-19T20:01:21+01:00",
+            "subject": "Merge branch 'main' into perf\/ce-inline-storage"
+        },
+        {
+            "hash": "bc65c4c9dea34735b732f8ee057976d83efacf29",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-20T08:34:42+01:00",
             "subject": "Merge branch 'main' into perf\/ce-inline-storage"
         }
     ],
