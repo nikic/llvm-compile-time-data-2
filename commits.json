@@ -208683,6 +208683,18 @@
             "author_name": "Joshua Batista",
             "commit_date": "2026-08-20T13:13:32-07:00",
             "subject": "Add InterlockedMin function and resource methods (#216856)"
+        },
+        {
+            "hash": "932f5d22df7775f7cb65befd62053c0e93448959",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-20T20:55:41+00:00",
+            "subject": "[LV] Add additional tests with redundant wide IV operations (NFC). (#217749)"
+        },
+        {
+            "hash": "0b97027f99653c102ae9839c744ba3039ac91987",
+            "author_name": "Adrian Prantl",
+            "commit_date": "2026-08-20T13:55:45-07:00",
+            "subject": "[LLDB] Let ValueObject::CanSetValue() return a reason (#217454)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -217845,6 +217857,42 @@
             "author_name": "Chennes",
             "commit_date": "2026-08-20T20:50:18+00:00",
             "subject": "[InstCombine] Fix miscompile when folding a select into a masked load (#216730)"
+        },
+        {
+            "hash": "80e68c79c60d41cbfb8765efaeccac7fbdd46442",
+            "author_name": "Yao Qi",
+            "commit_date": "2026-08-20T20:57:18+00:00",
+            "subject": "[lldb] Serve MemoryCache::ReadRanges from the L2 cache as well as L1 (#216318)"
+        },
+        {
+            "hash": "e47fcdd63792d323a32194b09cf4961716af2489",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-20T21:00:13+00:00",
+            "subject": "[ObjcARCContract] Do not replace llvm.lifetime argument. (#216991)"
+        },
+        {
+            "hash": "34319ed2579f19f4268b0744b802e0a0d237855b",
+            "author_name": "Alex Crichton",
+            "commit_date": "2026-08-20T21:01:48+00:00",
+            "subject": "[WebAssembly] Default export tables with `--cooperative-threading` (#208263)"
+        },
+        {
+            "hash": "2c70d35e9b3fedc2e1e69cf44efc4fc4752feb31",
+            "author_name": "Bailey Hayes",
+            "commit_date": "2026-08-20T21:01:48+00:00",
+            "subject": "[lld][WebAssembly] Follow relocations of TLS-base accessors during GC (#206831)"
+        },
+        {
+            "hash": "6c24753d2c4feb3c2dc1cfbbf210ee2b40cf2b75",
+            "author_name": "Alex Crichton",
+            "commit_date": "2026-08-20T21:01:49+00:00",
+            "subject": "[WebAssembly] Fix issues combining coop threads and PIC (#208332)"
+        },
+        {
+            "hash": "13bd2f0ea203789dbb403a7e4b2b9f7a8ce2a5e4",
+            "author_name": "Alex Crichton",
+            "commit_date": "2026-08-20T21:01:49+00:00",
+            "subject": "[WebAssembly] Fix __init_tls_base global in coop threading  (#208597)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
