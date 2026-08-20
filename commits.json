@@ -208491,6 +208491,36 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-20T17:43:39+00:00",
             "subject": "[ConstraintElim] Add lower bounds for all inductions in a loop header. (#216764)"
+        },
+        {
+            "hash": "4e1eac798768628fcfd986d667515f72d72ed3b3",
+            "author_name": "Jan Svoboda",
+            "commit_date": "2026-08-20T19:50:39+02:00",
+            "subject": "[clang][lex] Fix repeated `#import` of a header missing from umbrella (#217691)"
+        },
+        {
+            "hash": "01b363c49104985f4f746d09094505d362e0253c",
+            "author_name": "Kevin Sala Penades",
+            "commit_date": "2026-08-20T10:50:44-07:00",
+            "subject": "[llvm][OpenMP] Use vector for number of threads and teams (#211453)"
+        },
+        {
+            "hash": "400b052836bdb9b93b5801474fb01e0731c4a7a6",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-20T17:53:07+00:00",
+            "subject": "[VPlan] Sink single-scalar VPI to replicate regions (#208906)"
+        },
+        {
+            "hash": "f2951f7619cb46b93005f42da00e9a1c9e73f95b",
+            "author_name": "Akash Manna",
+            "commit_date": "2026-08-21T02:04:43+08:00",
+            "subject": "[Clang][Sema] Fix crash on default argument added after a parameter pack (#217386)"
+        },
+        {
+            "hash": "cb0fb6c8fc2333cd336d3e39f1727f6ffc40c1e3",
+            "author_name": "agozillon",
+            "commit_date": "2026-08-20T20:07:34+02:00",
+            "subject": "[Flang][OpenMP] Stop emitting implicit mappers for allocatable derived types (and arrays of them) unconditionally (#216184)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -221887,21 +221917,21 @@
     ],
     "artagnon\/perf\/scev-addmul-wrap-strengthen-cr-ct": [
         {
-            "hash": "8f15542e25053a4b38efd5ab53f0aee1cd4892a0",
-            "author_name": "Ingo M\u00fcller",
-            "commit_date": "2026-08-20T13:23:48+02:00",
-            "subject": "[mlir:linalg:py] Undo unintentional type narrowing from #214539. (#217543)"
+            "hash": "e9c9a4185530497aa5a7abb548acf1f3e0340e02",
+            "author_name": "Bryth",
+            "commit_date": "2026-08-20T18:53:22+02:00",
+            "subject": "[ComplexDeinterleaving] Add fma\/fmuladd support in identifyReassocNodes (#217563)"
         },
         {
-            "hash": "bbdf09337b37fbe4ddc15fe6168030d2a5b54a03",
+            "hash": "7cde18e325b6ce782f7ff7d4cf737c7a7a4b6056",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-20T15:04:08+01:00",
+            "commit_date": "2026-08-20T18:50:38+01:00",
             "subject": "[SCEV] Strengthen nuw\/nsw on add\/mul with CR"
         },
         {
-            "hash": "922e1782672b85a9b61300dd8e2363256ff11bdc",
+            "hash": "3d96ef051045b2e4c3b58d63eb3ac5151e2da266",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-20T17:43:26+01:00",
+            "commit_date": "2026-08-20T19:04:04+01:00",
             "subject": "[SCEV] Avoid degenerate compile time blowup"
         }
     ]
