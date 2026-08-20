@@ -207693,6 +207693,12 @@
             "author_name": "yingopq",
             "commit_date": "2026-08-20T10:55:25+08:00",
             "subject": "[Mips] Fix getInstSizeInBytes for instructions with delay slots (#216665)"
+        },
+        {
+            "hash": "b1c24ea77d2aab84f9e8ccb9389bc4366c41e8dd",
+            "author_name": "yingopq",
+            "commit_date": "2026-08-20T10:59:05+08:00",
+            "subject": "[Mips] Legalize vector UNDEF instead of expanding to zero BUILD_VECTOR (#211503)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -220555,16 +220561,10 @@
             "subject": "[SCEV] Directly use NUW on mul in getUDivExpr (NFC) (#217235)"
         },
         {
-            "hash": "9b52546fa155d45b7d1cc0c95a05ea11eed8ee07",
+            "hash": "d9cb18718aa01cbc5a3d3c207caa600e82f64656",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-19T11:46:05+01:00",
+            "commit_date": "2026-08-20T03:58:29+01:00",
             "subject": "[SCEV] Infer NUW on AR in getUDivExpr"
-        },
-        {
-            "hash": "a1594a9da2ec446038d1137ebac1c8c6df3a43e2",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-19T16:31:37+01:00",
-            "subject": "[SCEV] Prove NUW by extending start as well"
         }
     ],
     "yxsamliu\/perf\/pr216838-baseline": [
