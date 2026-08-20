@@ -207939,6 +207939,18 @@
             "author_name": "Folkert de Vries",
             "commit_date": "2026-08-20T12:00:26+02:00",
             "subject": "[MIPS] fix `__int128` register alignment (#214322)"
+        },
+        {
+            "hash": "a60571cd2e9f981216e772cdc40954987a1e1dfa",
+            "author_name": "Adam Scott",
+            "commit_date": "2026-08-20T11:23:54+01:00",
+            "subject": "[AArch64] Select [SU]ADDLP for a partial reduction into a zero accumulator (#217186)"
+        },
+        {
+            "hash": "cfb17eb334170a548e6d841393129025f9420dc9",
+            "author_name": "Sergio Afonso",
+            "commit_date": "2026-08-20T11:30:57+01:00",
+            "subject": "[Flang] Move integration Lit tests to the right directory, NFC (#215536)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -212861,22 +212873,16 @@
     ],
     "c-rhodes\/perf\/aarch64-gisel-call-lowering-x0-x7-fast-path": [
         {
-            "hash": "b025f5b75941fcf2e719535473c51b5e0617c4f9",
-            "author_name": "Andrzej Warzy\u0144ski",
-            "commit_date": "2026-08-18T13:11:15+01:00",
-            "subject": "[clang][cir] Fix tests post #210729 (#216963)"
+            "hash": "a49d90627bd44d2e76c20b9d4e0cafb339fb806f",
+            "author_name": "Folkert de Vries",
+            "commit_date": "2026-08-20T12:00:26+02:00",
+            "subject": "[MIPS] fix `__int128` register alignment (#214322)"
         },
         {
-            "hash": "c8fda875fe34fdd5e99d17b6f277dc6e8039e790",
+            "hash": "76dedf89e79d04406f8f78a664a96a5a2cda52d2",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-08-20T06:12:47+00:00",
-            "subject": "[CodeGen] Represent ISD::ArgFlagsTy flags as a bitmask (NFC)"
-        },
-        {
-            "hash": "a3f10f89b510f74a7cda1e621d44e81d9ac0a5ce",
-            "author_name": "Cullen Rhodes",
-            "commit_date": "2026-08-20T07:27:07+00:00",
-            "subject": "[AArch64][GlobalISel] Fast-path simple calls"
+            "commit_date": "2026-08-20T10:28:05+00:00",
+            "subject": "[AArch64][GlobalISel] Fast-path simple common calls"
         }
     ],
     "c-rhodes\/perf\/gisel-avoid-redundant-copy-zero-offset-gep": [
