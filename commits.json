@@ -208521,6 +208521,24 @@
             "author_name": "agozillon",
             "commit_date": "2026-08-20T20:07:34+02:00",
             "subject": "[Flang][OpenMP] Stop emitting implicit mappers for allocatable derived types (and arrays of them) unconditionally (#216184)"
+        },
+        {
+            "hash": "c6d146b32016294dcf3927a4afc84bb5e720709f",
+            "author_name": "Alexander Wilson",
+            "commit_date": "2026-08-20T11:12:38-07:00",
+            "subject": "[BOLT] Fix code section ordering comparator (#216725)"
+        },
+        {
+            "hash": "299bf4a65c31af57b71f19f87c8df05d47d4e190",
+            "author_name": "David Green",
+            "commit_date": "2026-08-20T19:13:40+01:00",
+            "subject": "[AArch64][ARM] Rename Type *Val to Ty. NFC (#217718)"
+        },
+        {
+            "hash": "0b2e935b198a58439a42c2fda15819bcfea93b16",
+            "author_name": "Jan Andr\u00e9 Reuter",
+            "commit_date": "2026-08-20T20:18:30+02:00",
+            "subject": "[NFCI][OpenMP][OMPT] Move `for_static_init` work callbacks into macro (#217259)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -220299,28 +220317,28 @@
     ],
     "fhahn\/perf\/ce-negative-step-monotonic-facts": [
         {
-            "hash": "c0125a7bf833b6cf0d5b4a085b63094e0893c85a",
-            "author_name": "Matt Arsenault",
-            "commit_date": "2026-08-20T14:28:39+02:00",
-            "subject": "clang: Start using new amdgpu subarch triples (#206482)"
+            "hash": "299bf4a65c31af57b71f19f87c8df05d47d4e190",
+            "author_name": "David Green",
+            "commit_date": "2026-08-20T19:13:40+01:00",
+            "subject": "[AArch64][ARM] Rename Type *Val to Ty. NFC (#217718)"
         },
         {
-            "hash": "e37079aa0b80fe70d5365ed603aadb264b481a57",
+            "hash": "15c626f12832aeb0b0f7b2258786d3d1b79aab0c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-20T13:35:47+01:00",
-            "subject": "[ConstraintElim] Add lower bounds for all inductions in a loop header."
+            "commit_date": "2026-08-20T19:16:08+01:00",
+            "subject": "[ConstraintElim] Generalize getNonDecreasingInfo to a direction (NFC)."
         },
         {
-            "hash": "7e5c19fec9625aecf024292ef4904c26576a550b",
+            "hash": "a920b310d79f6e03e5d57bc1dea73251db83ae76",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-20T13:35:47+01:00",
-            "subject": "!fixup remove unused start"
+            "commit_date": "2026-08-20T19:16:08+01:00",
+            "subject": "[ConstraintElim] Bound non-increasing header inductions by their start value."
         },
         {
-            "hash": "1dda45faab722b493f7bd79836bec5a0fc8bbad0",
+            "hash": "969b24db80848edbf9d3836a8269fc97f886fb71",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-20T14:26:36+01:00",
-            "subject": "[ConstraintElim] Derive monotonicity facts for negative-step post-inc inductions."
+            "commit_date": "2026-08-20T19:16:09+01:00",
+            "subject": "[ConstraintElim] Derive facts for negative-step post-decrement compares."
         }
     ],
     "fhahn\/perf\/ce-fm-constant-rows": [
