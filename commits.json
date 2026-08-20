@@ -207813,6 +207813,18 @@
             "author_name": "David Green",
             "commit_date": "2026-08-20T08:40:21+01:00",
             "subject": "[AArch64] Add tests for trunc nsw smin combine. NFC (#217545)"
+        },
+        {
+            "hash": "020fe197085a730753a781c8127e838bd22e6643",
+            "author_name": "Felipe de Azevedo Piovezan",
+            "commit_date": "2026-08-20T08:51:42+01:00",
+            "subject": "[lldb] Inherit behaves_like_zeroth_frame in synthesized inline frames (#217377)"
+        },
+        {
+            "hash": "b955ea912ac117de532ce619bcf7d89bf4727de0",
+            "author_name": "David Spickett",
+            "commit_date": "2026-08-20T08:57:44+01:00",
+            "subject": "[lldb][debugserver] Fix a bug in FindBreakpointsThatOverlapRange (#217009)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -221065,6 +221077,20 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-08-19T22:52:54+01:00",
             "subject": "[SCEV] isNegative -> isNonPositive"
+        }
+    ],
+    "Sockke\/perf\/regmask-interference-scan-reuse": [
+        {
+            "hash": "bc0c028fa5a3e8a76bc432f5b22d1ee4883acaca",
+            "author_name": "Kaviya Rajendiran",
+            "commit_date": "2026-08-20T12:18:22+05:30",
+            "subject": "[Flang][Driver] Add support for option -f[no-]split-machine-functions in flang (#216637)"
+        },
+        {
+            "hash": "0f6890573f63cdc4a5cf0ffa684d0d81fe258eac",
+            "author_name": "Sockke",
+            "commit_date": "2026-08-20T15:07:05+08:00",
+            "subject": "[CodeGen] Stop scanning RegMasks when all masks are identical"
         }
     ]
 }
