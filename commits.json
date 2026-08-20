@@ -208413,6 +208413,12 @@
             "author_name": "Sean Fertile",
             "commit_date": "2026-08-20T12:41:42-04:00",
             "subject": "[PPC] Don't emit overflow error on branches accross different sections. (#206812)"
+        },
+        {
+            "hash": "c548c6ad4e3965bba68097a588edc8d667328c4f",
+            "author_name": "Daedie-git",
+            "commit_date": "2026-08-20T18:47:36+02:00",
+            "subject": "[lldb] Add MSVC STL\/libstdc++ formatters for error_code and error_condition (#217245)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -221799,6 +221805,26 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-08-20T17:22:02+01:00",
             "subject": "[SCEV] Inherit wrap-flags in pre-inc AddRec"
+        }
+    ],
+    "artagnon\/perf\/scev-addmul-wrap-strengthen-cr-ct": [
+        {
+            "hash": "8f15542e25053a4b38efd5ab53f0aee1cd4892a0",
+            "author_name": "Ingo M\u00fcller",
+            "commit_date": "2026-08-20T13:23:48+02:00",
+            "subject": "[mlir:linalg:py] Undo unintentional type narrowing from #214539. (#217543)"
+        },
+        {
+            "hash": "bbdf09337b37fbe4ddc15fe6168030d2a5b54a03",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-20T15:04:08+01:00",
+            "subject": "[SCEV] Strengthen nuw\/nsw on add\/mul with CR"
+        },
+        {
+            "hash": "922e1782672b85a9b61300dd8e2363256ff11bdc",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-20T17:43:26+01:00",
+            "subject": "[SCEV] Avoid degenerate compile time blowup"
         }
     ]
 }
