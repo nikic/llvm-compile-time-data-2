@@ -208191,6 +208191,30 @@
             "author_name": "Razvan Lupusoru",
             "commit_date": "2026-08-20T07:42:30-07:00",
             "subject": "[mlir][acc] Update par_dims format after strict property assembly format (#217643)"
+        },
+        {
+            "hash": "fe9fc4617abb9720e5e484f6dccf3f582db78fe8",
+            "author_name": "Rohan Shenoy",
+            "commit_date": "2026-08-20T14:52:33+00:00",
+            "subject": "[X86] Add correct model values for masked stores on Zen 1 and 2 (#217254)"
+        },
+        {
+            "hash": "a40e2dbae993214327414dee0f94271ef63f87f7",
+            "author_name": "Tom Eccles",
+            "commit_date": "2026-08-20T15:58:29+01:00",
+            "subject": "[flang][Lower] Reassociate sums containing pure calls (#217286)"
+        },
+        {
+            "hash": "13c9f4b9157d76a629b8280b9bc0d6f8ff7cf269",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-08-20T15:02:48+00:00",
+            "subject": "[X86] combineTargetShuffle - remove redundant INSERTPS shuffle folding (#217641)"
+        },
+        {
+            "hash": "a37cd6916b4ae9541f8baebb2dc859ed0144fd60",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-20T17:04:40+02:00",
+            "subject": "TargetMachine: Verify option\/module-flag consistency once per module (#217597)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -221517,6 +221541,34 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-08-20T15:04:08+01:00",
             "subject": "[SCEV] Strengthen nuw\/nsw on add\/mul with CR"
+        }
+    ],
+    "artagnon\/perf\/scev-infer-nowrap-cheap": [
+        {
+            "hash": "8f15542e25053a4b38efd5ab53f0aee1cd4892a0",
+            "author_name": "Ingo M\u00fcller",
+            "commit_date": "2026-08-20T13:23:48+02:00",
+            "subject": "[mlir:linalg:py] Undo unintentional type narrowing from #214539. (#217543)"
+        },
+        {
+            "hash": "5639e9981f19f3f6336c36a261a27bd71c13b827",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-20T16:01:31+01:00",
+            "subject": "[SCEV] Make inferNoWrapViaConstantRanges cheaper (NFC)"
+        }
+    ],
+    "nikic\/perf\/new-inaccessiblememonly-2": [
+        {
+            "hash": "339163117ed3a2c3cc30d69ad3ef6db15dc12558",
+            "author_name": "David Green",
+            "commit_date": "2026-08-20T08:40:21+01:00",
+            "subject": "[AArch64] Add tests for trunc nsw smin combine. NFC (#217545)"
+        },
+        {
+            "hash": "ba7605c0a47e165890edd24722f767d5dd15b1bc",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-08-20T16:42:26+02:00",
+            "subject": "[Clang] Mark new as inaccessiblememonly if sane (#197199)"
         }
     ]
 }
