@@ -208107,6 +208107,18 @@
             "author_name": "Timm Baeder",
             "commit_date": "2026-08-20T15:19:38+02:00",
             "subject": "[clang][bytecode] Remove a Pointer::toAPValue() call (#217594)"
+        },
+        {
+            "hash": "7fe10a5347f095841a3dca21c7f33eede572003d",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-08-20T06:22:04-07:00",
+            "subject": "[Bazel] Fixes c0125a7 (#217605)"
+        },
+        {
+            "hash": "d98d12cb99b6f1f87be598b81145afcdea4ff305",
+            "author_name": "Jake Egan",
+            "commit_date": "2026-08-20T09:24:39-04:00",
+            "subject": "[libc++] Support file offsets larger than 2GB in basic_filebuf on 32-bit AIX and 32-bit glibc Linux (#215892)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -219885,27 +219897,27 @@
     ],
     "fhahn\/perf\/ce-negative-step-monotonic-facts": [
         {
-            "hash": "25fdcd73aa55dee9d6a15d3b522d4ca42734be92",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-08-08T21:45:08-07:00",
-            "subject": "[DomTree] Remove redundant getNode() calls. NFC (#215050)"
+            "hash": "c0125a7bf833b6cf0d5b4a085b63094e0893c85a",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-20T14:28:39+02:00",
+            "subject": "clang: Start using new amdgpu subarch triples (#206482)"
         },
         {
-            "hash": "4fa0967086a325fc0046ccd9da9da6180463dc3a",
+            "hash": "e37079aa0b80fe70d5365ed603aadb264b481a57",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-09T20:59:16+01:00",
-            "subject": "[ConstraintElim] Add tests for facts with decrementing IVs."
+            "commit_date": "2026-08-20T13:35:47+01:00",
+            "subject": "[ConstraintElim] Add lower bounds for all inductions in a loop header."
         },
         {
-            "hash": "36e30c34632e8982a6ffac887f9341580d32d978",
+            "hash": "7e5c19fec9625aecf024292ef4904c26576a550b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-09T21:00:51+01:00",
-            "subject": "[Constrinat"
+            "commit_date": "2026-08-20T13:35:47+01:00",
+            "subject": "!fixup remove unused start"
         },
         {
-            "hash": "0b67ca53e64e92995554fc7d9ddc77bbd9f4f6a1",
+            "hash": "1dda45faab722b493f7bd79836bec5a0fc8bbad0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-09T21:03:02+01:00",
+            "commit_date": "2026-08-20T14:26:36+01:00",
             "subject": "[ConstraintElim] Derive monotonicity facts for negative-step post-inc inductions."
         }
     ],
