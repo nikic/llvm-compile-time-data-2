@@ -208389,6 +208389,30 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-08-20T16:16:07+00:00",
             "subject": "AMDGPU: Fix null dereference folding a redundant AND with an undef source (#217663)"
+        },
+        {
+            "hash": "084c5507ee0146a7506f3117868082162760b689",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-08-20T12:25:53-04:00",
+            "subject": "[SLP]Extend GEP pointer-chain cost to casts and non-root external uses"
+        },
+        {
+            "hash": "e1c85ccf3d665d4a0da2d69113eaf28a7b4113e0",
+            "author_name": "Christian Sigg",
+            "commit_date": "2026-08-20T18:26:33+02:00",
+            "subject": "[NVPTX] Derive f16 atomic FTZ behavior from the f16 denormal mode (#217584)"
+        },
+        {
+            "hash": "c4d384712e6f727ad9d86e63e1101a01357c047c",
+            "author_name": "Farzon Lotfi",
+            "commit_date": "2026-08-20T12:34:17-04:00",
+            "subject": "[HLSL][LongVec] enable dot product in the frontend (#216418)"
+        },
+        {
+            "hash": "3a947672c77509c5df6891de569c946bafc20971",
+            "author_name": "Sean Fertile",
+            "commit_date": "2026-08-20T12:41:42-04:00",
+            "subject": "[PPC] Don't emit overflow error on branches accross different sections. (#206812)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -220523,22 +220547,28 @@
     ],
     "fhahn\/perf\/ce-lower-bound": [
         {
-            "hash": "cfb17eb334170a548e6d841393129025f9420dc9",
-            "author_name": "Sergio Afonso",
-            "commit_date": "2026-08-20T11:30:57+01:00",
-            "subject": "[Flang] Move integration Lit tests to the right directory, NFC (#215536)"
+            "hash": "e1c85ccf3d665d4a0da2d69113eaf28a7b4113e0",
+            "author_name": "Christian Sigg",
+            "commit_date": "2026-08-20T18:26:33+02:00",
+            "subject": "[NVPTX] Derive f16 atomic FTZ behavior from the f16 denormal mode (#217584)"
         },
         {
-            "hash": "33213ffedd11b0f75039bb40a47f76044bf1b58c",
+            "hash": "30517307eea373c794c1a53e78491fac55a9afe6",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-20T12:20:59+01:00",
+            "commit_date": "2026-08-20T17:29:37+01:00",
             "subject": "[ConstraintElim] Add lower bounds for all inductions in a loop header."
         },
         {
-            "hash": "10107ebe3598161aa3d5a030e0c3d837f81c6a4d",
+            "hash": "1b2fcca11e15e49b5d1391311b45c4d9def2cd56",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-20T12:20:59+01:00",
+            "commit_date": "2026-08-20T17:29:38+01:00",
             "subject": "!fixup remove unused start"
+        },
+        {
+            "hash": "9154b9fed0d46f7e60e80c1e2394cd662bc1727e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-20T17:40:21+01:00",
+            "subject": "!fixup Step -> BackedgeValue"
         }
     ],
     "fhahn\/perf\/scev-iter-phi": [
@@ -221755,6 +221785,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-08-20T16:42:26+02:00",
             "subject": "[Clang] Mark new as inaccessiblememonly if sane (#197199)"
+        }
+    ],
+    "artagnon\/perf\/scev-ar-preinc-wrap-inherit": [
+        {
+            "hash": "8f15542e25053a4b38efd5ab53f0aee1cd4892a0",
+            "author_name": "Ingo M\u00fcller",
+            "commit_date": "2026-08-20T13:23:48+02:00",
+            "subject": "[mlir:linalg:py] Undo unintentional type narrowing from #214539. (#217543)"
+        },
+        {
+            "hash": "e9cd972a69fe3ac40fc34f28b619e2cff1b833df",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-20T17:22:02+01:00",
+            "subject": "[SCEV] Inherit wrap-flags in pre-inc AddRec"
         }
     ]
 }
