@@ -220383,27 +220383,15 @@
     ],
     "artagnon\/perf\/scev-sdiv": [
         {
-            "hash": "8b1e3aa6b661bae5b4155905796ed5c37e2a1a82",
-            "author_name": "Ivan R. Ivanov",
-            "commit_date": "2026-08-18T18:59:36+02:00",
-            "subject": "[mlir][arith] Allow folding all +\/- 0 under fastmath nsz (#217031)"
+            "hash": "2d697458ac3f472e666b7f47586da362839cfacb",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-19T11:39:31+01:00",
+            "subject": "[SCEV] Directly use NUW on mul in getUDivExpr (NFC) (#217235)"
         },
         {
-            "hash": "54db31e369c4764bfc60c389202f03306a5b17fa",
+            "hash": "2dce24dfe1183ddd44f165c5e8c9e469cf768930",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-18T22:14:57+01:00",
-            "subject": "[SCEV] Directly use wrap flags in getUDivExpr (NFC)"
-        },
-        {
-            "hash": "4016c42336c8e6e1fabb0ef54d1ce0d9ccf78ac0",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-18T23:13:56+01:00",
-            "subject": "[LSR] Missed test update"
-        },
-        {
-            "hash": "0c9b212604f1269327c55fb409d62163c207d3fc",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-19T07:21:46+01:00",
+            "commit_date": "2026-08-20T04:12:53+01:00",
             "subject": "[SCEV] Introduce SDiv expressions"
         }
     ],
