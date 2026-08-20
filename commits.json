@@ -207855,6 +207855,18 @@
             "author_name": "Timm Baeder",
             "commit_date": "2026-08-20T10:38:44+02:00",
             "subject": "[clang][bytecode] Fix crash when dynamic_cast'ing a root pointer (#217540)"
+        },
+        {
+            "hash": "dc7baf9d0675cccc7ff164baec5346414aa97512",
+            "author_name": "David Spickett",
+            "commit_date": "2026-08-20T09:45:13+01:00",
+            "subject": "[CAS] Account for LLVM_ENABLE_THREADS=OFF in unit tests (#217251)"
+        },
+        {
+            "hash": "c871d0c17c0680ea584f8aba5f51661dbd8d77df",
+            "author_name": "Pengcheng Wang",
+            "commit_date": "2026-08-20T08:49:35+00:00",
+            "subject": "[LV] Avoid collapsing VF to zero when a loop has no memory ops or reductions (#216266)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -220377,16 +220389,16 @@
     ],
     "arsenm\/perf\/inline-getvregdef": [
         {
-            "hash": "38da688c60b208a48d60b70396ac46716edc72d5",
+            "hash": "394de25db7d7e9c5d00bb7ab93e6666bad9a3bc6",
             "author_name": "Matt Arsenault",
-            "commit_date": "2026-08-17T07:46:37+02:00",
-            "subject": "RISCV: Fix optimizeCondBranch crash on an undef register (#216633)"
+            "commit_date": "2026-08-20T10:25:24+02:00",
+            "subject": "AArch64: Use m_GPtrAdd in selectAddrModeRegisterOffset (#217446)"
         },
         {
-            "hash": "ba358f7f7414d4a7d8aa7f43f122a615dfe59167",
+            "hash": "c05662c3d9cabab0d018534e6ffc14be1266ce6b",
             "author_name": "Matt Arsenault",
-            "commit_date": "2026-08-17T10:47:59+02:00",
-            "subject": "perf: Inline getVRegDef\/getUniqueVRegDef into the header"
+            "commit_date": "2026-08-20T10:43:24+02:00",
+            "subject": "MachineRegisterInfo: Move getVRegDef\/getUniqueVRegDef into the header"
         }
     ],
     "clemenswasser\/perf\/defer-debug-value-tracking": [
