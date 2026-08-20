@@ -207879,6 +207879,18 @@
             "author_name": "Abid Qadeer",
             "commit_date": "2026-08-20T09:57:38+01:00",
             "subject": "[flang][debug] Use lowercase name for the main program. (#217340)"
+        },
+        {
+            "hash": "65b9e060403fcd68c42e2885ebd963c98c5d0be7",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-20T10:02:00+01:00",
+            "subject": "[ConstraintSystem] Build constraint rows in sparse form (NFC). (#215735)"
+        },
+        {
+            "hash": "88fe4c39015a4a841b3c06cbc872e7cab466626a",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-08-20T11:07:06+02:00",
+            "subject": "[MLIR][MemRef] Enable strict property assembly format (#217274)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -220449,15 +220461,15 @@
     ],
     "fhahn\/perf\/scev-folding-set": [
         {
-            "hash": "727136090b77a4c6840283758af4bceb8056dcfc",
-            "author_name": "Simon Pilgrim",
-            "commit_date": "2026-08-19T09:46:37+00:00",
-            "subject": "[X86] isTargetShuffleEquivalent - only use \"known zero\" element if its known never poison\/undef as well (#217030)"
+            "hash": "7fd523496fc9e05ed5b0eabbfaac951d7e7f5dc7",
+            "author_name": "Aman Singh",
+            "commit_date": "2026-08-20T07:21:39+00:00",
+            "subject": "[mlir][SCF] Fix use-after-free in coalesceLoops when inner loop yields its induction var (#217510)"
         },
         {
-            "hash": "875c3bf5dd8ecc73d491b5652e43b97aeebb21df",
+            "hash": "1c8a4a886af918d20c7e4aaa0676d84f27174af8",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-19T12:22:28+01:00",
+            "commit_date": "2026-08-20T10:07:12+01:00",
             "subject": "[SCEV] Look up uniqued nodes by using interned profile. (NFC)"
         }
     ],
@@ -221007,21 +221019,21 @@
     ],
     "fhahn\/perf\/vt-lookup": [
         {
-            "hash": "1d7d16b94c614a1ce2ce90bb19edd1e71115f999",
-            "author_name": "hjagasiaAMD",
-            "commit_date": "2026-08-19T09:13:43-05:00",
-            "subject": "[CodeGen] Avoid register pressure limit underflow (#216372)"
+            "hash": "65b9e060403fcd68c42e2885ebd963c98c5d0be7",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-20T10:02:00+01:00",
+            "subject": "[ConstraintSystem] Build constraint rows in sparse form (NFC). (#215735)"
         },
         {
-            "hash": "8d11fe97bc5081aedaed69c5bf1df151cd81b254",
+            "hash": "110dd09265f9e18e39ffbddba057f91abfcd3682",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-19T15:23:50+01:00",
+            "commit_date": "2026-08-20T10:08:56+01:00",
             "subject": "[CodeGenTypes] Look up MVT::getVectorVT by element type (NFC)"
         },
         {
-            "hash": "148d18fe705f049f5ccc71e72bf5c0b9b31d02bf",
+            "hash": "d121f6c47c6921e05c5c2ee7226c99cc7fb8f815",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-19T16:50:24+01:00",
+            "commit_date": "2026-08-20T10:08:57+01:00",
             "subject": "Rework"
         }
     ],
