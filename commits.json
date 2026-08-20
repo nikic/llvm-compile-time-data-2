@@ -208539,6 +208539,24 @@
             "author_name": "Jan Andr\u00e9 Reuter",
             "commit_date": "2026-08-20T20:18:30+02:00",
             "subject": "[NFCI][OpenMP][OMPT] Move `for_static_init` work callbacks into macro (#217259)"
+        },
+        {
+            "hash": "9c8d7a86766f165757d2de09b109d07d8d734cb7",
+            "author_name": "Scott Manley",
+            "commit_date": "2026-08-20T18:21:07+00:00",
+            "subject": "[OpenACC] fix test after strict properties change (#217717)"
+        },
+        {
+            "hash": "da92ff6a449ffd56e46781c7b893a639296686eb",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-08-20T11:21:11-07:00",
+            "subject": "[lldb] Only report a symbol server error when the download failed (#217669)"
+        },
+        {
+            "hash": "540e3559eddc37f9a537d98abec04452699b098a",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-20T18:25:16+00:00",
+            "subject": "clang\/AMDGPU: Use feature bitset for xnack\/sramecc queries (#217704)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -221951,6 +221969,20 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-08-20T19:04:04+01:00",
             "subject": "[SCEV] Avoid degenerate compile time blowup"
+        }
+    ],
+    "artagnon\/perf\/scev-range-depth-limit": [
+        {
+            "hash": "e9c9a4185530497aa5a7abb548acf1f3e0340e02",
+            "author_name": "Bryth",
+            "commit_date": "2026-08-20T18:53:22+02:00",
+            "subject": "[ComplexDeinterleaving] Add fma\/fmuladd support in identifyReassocNodes (#217563)"
+        },
+        {
+            "hash": "5c2e806b571784fe5d84a536a9867b9f324944e6",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-20T19:16:45+01:00",
+            "subject": "[SCEV] Limit range-iter-threshold"
         }
     ]
 }
