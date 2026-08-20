@@ -221444,5 +221444,19 @@
             "commit_date": "2026-08-20T12:19:09+02:00",
             "subject": "initlist"
         }
+    ],
+    "artagnon\/perf\/scev-addmul-wrap-strengthen-cr": [
+        {
+            "hash": "8f15542e25053a4b38efd5ab53f0aee1cd4892a0",
+            "author_name": "Ingo M\u00fcller",
+            "commit_date": "2026-08-20T13:23:48+02:00",
+            "subject": "[mlir:linalg:py] Undo unintentional type narrowing from #214539. (#217543)"
+        },
+        {
+            "hash": "bbdf09337b37fbe4ddc15fe6168030d2a5b54a03",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-20T15:04:08+01:00",
+            "subject": "[SCEV] Strengthen nuw\/nsw on add\/mul with CR"
+        }
     ]
 }
