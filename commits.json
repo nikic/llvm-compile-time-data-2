@@ -208239,6 +208239,66 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-08-20T17:33:06+02:00",
             "subject": "ARM: Read the ABI from the \"target-abi\" module flag (#217600)"
+        },
+        {
+            "hash": "e1acefbe847d92cec395cc5449ab365f685ef1b6",
+            "author_name": "Abid Qadeer",
+            "commit_date": "2026-08-20T16:37:25+01:00",
+            "subject": "[OMPIRBuilder] Prevent dangling InsertPt in IRBuilder. (#148887)"
+        },
+        {
+            "hash": "b35f809e6c50f0aca8c549cde4023d9ebf257311",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-08-20T08:38:03-07:00",
+            "subject": "[MLIR][SparseTensor] Enable strict property assembly format (#217292)"
+        },
+        {
+            "hash": "dabb97aa27c523fb7aeffb0a2803f8aaf57225e2",
+            "author_name": "Sergey Semenov",
+            "commit_date": "2026-08-20T17:38:41+02:00",
+            "subject": "[libsycl][Unit][NFC] Fix unused lambda capture warnings (#217418)"
+        },
+        {
+            "hash": "618d9e25c06e3b1a45f2f2430f391d7640bc5bf9",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-08-20T08:39:32-07:00",
+            "subject": "[MLIR][SparseTensor] Reject unsupported symbolic demapping (#217476)"
+        },
+        {
+            "hash": "e47b6d19fe2562abe8b2e5807170acdf27f8fba1",
+            "author_name": "Sergey Semenov",
+            "commit_date": "2026-08-20T17:40:17+02:00",
+            "subject": "[libsycl] Fix debug build error caused by RTTI option mismatch (#210997)"
+        },
+        {
+            "hash": "32e8d58b40828a846703b3e2646e3578f36a3480",
+            "author_name": "Sergey Semenov",
+            "commit_date": "2026-08-20T17:41:23+02:00",
+            "subject": "[libsycl] Enable host-to-host memcpy (#217366)"
+        },
+        {
+            "hash": "57ccca6a945b0ef68dd4c4eb4b04936549e3554f",
+            "author_name": "Sergey Semenov",
+            "commit_date": "2026-08-20T17:42:01+02:00",
+            "subject": "[libsycl][NFC] Fix no previous prototype for getDeviceKernelInfo warning (#217417)"
+        },
+        {
+            "hash": "daf063f0638c12082bce677983f4387fe8d20955",
+            "author_name": "eleviant",
+            "commit_date": "2026-08-20T17:43:53+02:00",
+            "subject": "[clang] Add support for relaxed constexpr evaluation to interpreter (#217311)"
+        },
+        {
+            "hash": "60faf067b9fdacf09c8de10c7a90a9c8ea7d4033",
+            "author_name": "Kareem Ergawy",
+            "commit_date": "2026-08-20T17:44:27+02:00",
+            "subject": "Revert \"[flang][FIRToSCF] Recompute a typed induction variable in closed form (#217051)\" (#217654)"
+        },
+        {
+            "hash": "3d8e08f3033d35842c7d9251cd52b6f783b6f140",
+            "author_name": "Shubh",
+            "commit_date": "2026-08-20T23:45:30+08:00",
+            "subject": "[clang][test] Fix misspelled FileCheck prefix in static-init-3.cpp (#217628)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -221467,16 +221527,28 @@
     ],
     "fhahn\/perf\/scev-expander-adjust-insert-point": [
         {
-            "hash": "a10d7eb9f51408c4181f7d7e195f279b0a6300a5",
-            "author_name": "Pranav Kant",
-            "commit_date": "2026-08-19T19:18:23+00:00",
-            "subject": "[lldb] Use std::unique_lock instead of std::lock_guard in ResumeNewPlan (#217433)"
+            "hash": "87c22715f1c42d38e4071802448c2f56b6b6fa34",
+            "author_name": "Muhammed Shiyas N",
+            "commit_date": "2026-08-20T17:19:27+02:00",
+            "subject": "[SCEV] Invalidate extractvalue users of non-SCEVable LCSSA PHIs (#204725)"
         },
         {
-            "hash": "aa86753caf4646bd7399a261e1e815b29a6e14b8",
+            "hash": "79f61c6079584bef5bc37d159374b2414791e016",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-19T21:03:50+01:00",
+            "commit_date": "2026-08-20T16:35:01+01:00",
+            "subject": "[PhaseOrdering] Add test with motivating case."
+        },
+        {
+            "hash": "ee91e2ff5e3fdf32d8eb14e57751a70f73620bb2",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-20T16:36:13+01:00",
             "subject": "[SCEVExpander] Consider values below the hoisted insert point for reuse."
+        },
+        {
+            "hash": "32c7c45d83c77f6f3cff185bf373136c9fcc07da",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-20T16:39:11+01:00",
+            "subject": "!fixup update missed thumb2 test"
         }
     ],
     "artagnon\/perf\/scev-ar-wrap-samesign": [
