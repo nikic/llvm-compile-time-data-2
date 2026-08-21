@@ -209859,6 +209859,24 @@
             "author_name": "Derek Schuff",
             "commit_date": "2026-08-21T22:03:44+00:00",
             "subject": "[WebAssembly] Implement support for Common symbols (#199303)"
+        },
+        {
+            "hash": "f37c1a8eea37d70bb876ffb73991a75ff8d4d250",
+            "author_name": "Zeyi Xu",
+            "commit_date": "2026-08-22T06:24:35+08:00",
+            "subject": "[RISCV][MC] Add experimental Smip, and Ssip support (#215095)"
+        },
+        {
+            "hash": "da24a7e95694fcb4a1e78d81824cd6bb3d3cd0f6",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-08-21T15:26:48-07:00",
+            "subject": "[GISel] Remove SPIRVInstructionSelect"
+        },
+        {
+            "hash": "fbae99404a7afeae4b9207b6a0abbf3b72025733",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-08-21T15:27:46-07:00",
+            "subject": "[SPIRV] Pass optLevel to InstructionSelect"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -219123,6 +219141,30 @@
             "author_name": "Amy Kwan",
             "commit_date": "2026-08-20T23:50:54+00:00",
             "subject": "Add PowerPC-related release notes for LLVM 23.1.0"
+        },
+        {
+            "hash": "18daae2e3af1a4794a4c6c4abfe9546f8ed8c151",
+            "author_name": "Daniel Chen",
+            "commit_date": "2026-08-21T22:21:05+00:00",
+            "subject": "[Support][test] Fix OpenDirectoryAsFileForRead test on AIX and z\/OS (#216241)"
+        },
+        {
+            "hash": "5048f1ae9cbb60a448a4b24769e1a30fde8e9b53",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-08-21T22:21:45+00:00",
+            "subject": "[X86] isTargetShuffleEquivalent - only use \"known zero\" element if its known never poison\/undef as well (#217030)"
+        },
+        {
+            "hash": "443af67afb8b37822ef9968088286369f7b99593",
+            "author_name": "Daniel Lehmann",
+            "commit_date": "2026-08-21T22:22:20+00:00",
+            "subject": "[MIPS] Don't mark SLL64_64 as isMoveReg (#214060)"
+        },
+        {
+            "hash": "4d842cceec7ba2547bc8421a081cfdf45a8f2b59",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-08-21T22:22:53+00:00",
+            "subject": "[PeepholeOpt] Erase optimized compare from LocalMIs earlier (#217848)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
