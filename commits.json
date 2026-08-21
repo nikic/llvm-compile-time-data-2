@@ -209409,6 +209409,18 @@
             "author_name": "A. Cauble",
             "commit_date": "2026-08-21T09:03:10-05:00",
             "subject": "[offload-arch] Report failure when KFD topology cannot be read (#217449)"
+        },
+        {
+            "hash": "59d29629930816515542d913a8dc4f4b91c501cb",
+            "author_name": "Jessica Clarke",
+            "commit_date": "2026-08-21T15:25:41+01:00",
+            "subject": "[test][CSKY] Regenerate atomic-rmw.ll (#217922)"
+        },
+        {
+            "hash": "83889ba28092fdf0e6c573802aa1ab51381193dd",
+            "author_name": "Walter Lee",
+            "commit_date": "2026-08-21T10:26:12-04:00",
+            "subject": "[bazel][libc] Remove LIBC_FULL_BUILD-only dependencies (again) (#217871)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -222641,16 +222653,22 @@
     ],
     "artagnon\/perf\/scev-extaddrec-wrap": [
         {
-            "hash": "e9c9a4185530497aa5a7abb548acf1f3e0340e02",
-            "author_name": "Bryth",
-            "commit_date": "2026-08-20T18:53:22+02:00",
-            "subject": "[ComplexDeinterleaving] Add fma\/fmuladd support in identifyReassocNodes (#217563)"
+            "hash": "e4ab7d421b5beb2f11594953b811e366485175fb",
+            "author_name": "firmiana",
+            "commit_date": "2026-08-21T13:54:08+08:00",
+            "subject": "[lldb] Support i386 Linux TLS thread pointers (DW_OP_form_tls_address) (#216463)"
         },
         {
-            "hash": "a0e4ab5457d7df16f7ee7c39908b004ba26906ae",
+            "hash": "c5fc7b362f5ee2bff3d7bf731001fc37f0793dc2",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-20T22:30:13+01:00",
+            "commit_date": "2026-08-21T14:36:48+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence for sext-addrec"
+        },
+        {
+            "hash": "924ba0c9e1a8dd4131445f365c6117f02ec8c3ca",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-21T15:26:11+01:00",
+            "subject": "[SCEV] Test strip inferNWViaConstantRanges"
         }
     ],
     "fhahn\/perf\/scev-expander-reuse": [
@@ -222707,16 +222725,22 @@
     ],
     "artagnon\/perf\/scev-zextaddrec-wrap": [
         {
-            "hash": "e9c9a4185530497aa5a7abb548acf1f3e0340e02",
-            "author_name": "Bryth",
-            "commit_date": "2026-08-20T18:53:22+02:00",
-            "subject": "[ComplexDeinterleaving] Add fma\/fmuladd support in identifyReassocNodes (#217563)"
+            "hash": "e4ab7d421b5beb2f11594953b811e366485175fb",
+            "author_name": "firmiana",
+            "commit_date": "2026-08-21T13:54:08+08:00",
+            "subject": "[lldb] Support i386 Linux TLS thread pointers (DW_OP_form_tls_address) (#216463)"
         },
         {
-            "hash": "6900bf30f4cd3a9f5bfacba8ec75332575906d01",
+            "hash": "0526ad0a7ae855549d04f08d6675dd8b80f8bc65",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-21T04:50:41+01:00",
+            "commit_date": "2026-08-21T15:12:52+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence in zext-addrec"
+        },
+        {
+            "hash": "8c801837264759fa16c7f09b27c725e49d8cd941",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-21T15:23:20+01:00",
+            "subject": "[SCEV] Test removing inferNWViaConstantRanges"
         }
     ],
     "artagnon\/perf\/scev-fold-sext-addrec": [
@@ -223081,6 +223105,46 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-08-21T14:53:36+01:00",
             "subject": "[SCEV] Strip expensive nw-inferrence in sext-addrec"
+        }
+    ],
+    "artagnon\/perf\/scev-zext-nw-strip": [
+        {
+            "hash": "e4ab7d421b5beb2f11594953b811e366485175fb",
+            "author_name": "firmiana",
+            "commit_date": "2026-08-21T13:54:08+08:00",
+            "subject": "[lldb] Support i386 Linux TLS thread pointers (DW_OP_form_tls_address) (#216463)"
+        },
+        {
+            "hash": "ac08d20c35a2555b6dab1f67ebe2adf2951dbb89",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-21T14:56:39+01:00",
+            "subject": "[SCEV] Strip expensive nw-inferrence in zext-addrec"
+        }
+    ],
+    "tbaederr\/perf\/eval-settings3": [
+        {
+            "hash": "632660d497adb2e4783fa9140e1ba8ca1458f21c",
+            "author_name": "Advit Arora",
+            "commit_date": "2026-08-21T13:51:09+00:00",
+            "subject": "[BlockExtractor] Invalidate analyses after splitting landing pads (#217853)"
+        },
+        {
+            "hash": "58338bdfe17047852ab1f5ab31b9d99149514a80",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-08-21T16:24:12+02:00",
+            "subject": "Test"
+        },
+        {
+            "hash": "4974078e2d9543d65d5b5b2bfcf29abfc0a3943a",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-08-21T16:24:12+02:00",
+            "subject": "2"
+        },
+        {
+            "hash": "6b89d6bb7b520d31bbaa348c3b4a55a411a1265c",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-08-21T16:24:12+02:00",
+            "subject": "more ptr checks"
         }
     ]
 }
