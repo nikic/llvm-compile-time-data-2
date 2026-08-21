@@ -209673,6 +209673,54 @@
             "author_name": "\u9648\u5b50\u6602",
             "commit_date": "2026-08-22T01:49:02+08:00",
             "subject": "[Clang][RISCV] Add packed widening multiply intrinsics (#217534)"
+        },
+        {
+            "hash": "3e50fcab313fa690fe5ebf1490b269b0d0598595",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-08-21T20:02:13+02:00",
+            "subject": "[mlir][SPIR-V] Preserve poison mask in scalarized vector.shuffle lowering (#214686)"
+        },
+        {
+            "hash": "ede975d9f046441b9793e02bab190bd0bafb1fa2",
+            "author_name": "Ziqing Luo",
+            "commit_date": "2026-08-21T11:02:44-07:00",
+            "subject": "[SSAF] Fix a stage2 test failure with ASan-instrumented clang - continued (#217799)"
+        },
+        {
+            "hash": "83d12c2af9c05d9792a9031854ab454c2be170db",
+            "author_name": "Chandler Carruth",
+            "commit_date": "2026-08-21T11:02:49-07:00",
+            "subject": "[clang] Add a timeout to avoid a hang when errors cause a subprocess to stall (#217814)"
+        },
+        {
+            "hash": "58139849bcc132f727a130ebe6710f94346f1b98",
+            "author_name": "Bryth",
+            "commit_date": "2026-08-21T20:07:16+02:00",
+            "subject": "[ComplexDeinterleaving] Add missing negated fcmla matches (#217901)"
+        },
+        {
+            "hash": "179b74aea1134a557be16f8afcb40ad5c113a00d",
+            "author_name": "Yihan Wang",
+            "commit_date": "2026-08-21T18:11:32+00:00",
+            "subject": "[NFC][clang] Update the diagnostic test of unexpected token after module name (#217987)"
+        },
+        {
+            "hash": "78b2bf730da12e4095e64200d7c4c3c3968e2c6c",
+            "author_name": "oltolm",
+            "commit_date": "2026-08-21T11:12:16-07:00",
+            "subject": "[NFC][compiler-rt] Refactor Windows IN_SECTION declarations (#216582)"
+        },
+        {
+            "hash": "8ada288c70876f89d2c4c5caf525ef9719e33804",
+            "author_name": "oltolm",
+            "commit_date": "2026-08-21T11:12:34-07:00",
+            "subject": "[compiler-rt] Add libbacktrace support on Windows (#216584)"
+        },
+        {
+            "hash": "94f216a9cf0e69db996fd573b764cc00d88eba02",
+            "author_name": "oltolm",
+            "commit_date": "2026-08-21T11:12:47-07:00",
+            "subject": "[compiler-rt] Adjust ASan Windows tests for mingw-w64 (#216585)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -222983,22 +223031,16 @@
     ],
     "artagnon\/perf\/scev-zextaddrec-wrap": [
         {
-            "hash": "e4ab7d421b5beb2f11594953b811e366485175fb",
-            "author_name": "firmiana",
-            "commit_date": "2026-08-21T13:54:08+08:00",
-            "subject": "[lldb] Support i386 Linux TLS thread pointers (DW_OP_form_tls_address) (#216463)"
+            "hash": "19c0c901537743438af63e8cd42e20e079e4389d",
+            "author_name": "Krzysztof Drewniak",
+            "commit_date": "2026-08-21T10:25:41-07:00",
+            "subject": "[mlir] Don't print a stray space for a fully-elided prop-dict (#216810)"
         },
         {
-            "hash": "0526ad0a7ae855549d04f08d6675dd8b80f8bc65",
+            "hash": "4371b12898251273749edc59ac5e7edf5d42daa9",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-21T15:12:52+01:00",
+            "commit_date": "2026-08-21T19:14:28+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence in zext-addrec"
-        },
-        {
-            "hash": "cbcccb6a89b69975b25dfbeb272790d1fc5e3707",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-21T18:30:39+01:00",
-            "subject": "[SCEV] Learning from closed incorrect-nw patch"
         }
     ],
     "artagnon\/perf\/scev-fold-sext-addrec": [
