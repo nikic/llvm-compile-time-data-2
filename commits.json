@@ -209085,6 +209085,18 @@
             "author_name": "Oliver Hunt",
             "commit_date": "2026-08-21T07:30:51+00:00",
             "subject": "[clang][nfc] Formatting fix for SubobjectAdjustment struct in Expr.h (#217803)"
+        },
+        {
+            "hash": "33775a58ba5876e837714816c1f81bcaa3c67854",
+            "author_name": "LouisLu060211",
+            "commit_date": "2026-08-21T07:34:08+00:00",
+            "subject": "[mlir][memref] Avoid overflow in mem2reg alloca checks (#205245)"
+        },
+        {
+            "hash": "fdfce9821059b63764ebe9778001f02fba700ba9",
+            "author_name": "Benjamin Maxwell",
+            "commit_date": "2026-08-21T08:42:03+01:00",
+            "subject": "[VectorCombine] Propagate profile metadata when combining selects (#217690)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -222649,6 +222661,20 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-08-20T19:16:45+01:00",
             "subject": "[SCEV] Limit range-iter-threshold"
+        }
+    ],
+    "nikic\/perf\/gvn-equality-2": [
+        {
+            "hash": "fda91dddd648203830a5a67f9b7230bf6ce82876",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-21T07:25:49+00:00",
+            "subject": "[SCEVExpander] Consider values below the hoisted insert point for reuse. (#217452)"
+        },
+        {
+            "hash": "48ea2ff166fa08d80e394bb871158cf7cc439243",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-08-21T09:43:16+02:00",
+            "subject": "gvn eq"
         }
     ]
 }
