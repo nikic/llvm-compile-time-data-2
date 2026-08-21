@@ -209535,6 +209535,12 @@
             "author_name": "Craig Topper",
             "commit_date": "2026-08-21T08:49:27-07:00",
             "subject": "[RISCV] Use SLLI+ADD for a select of constants that differ by a power of 2 in more cases. (#217812)"
+        },
+        {
+            "hash": "6e493ed169c49ed2092d3ebbb6a63b7c01a65230",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-08-21T09:07:17-07:00",
+            "subject": "[Bazel] Fixes e7635cc (#217958)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -223265,6 +223271,32 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-08-21T16:40:47+02:00",
             "subject": "more ptr checks"
+        }
+    ],
+    "fhahn\/perf\/scev-folding-set2": [
+        {
+            "hash": "0c8f1121a2bb2095227dab641e66e5ea4c238e87",
+            "author_name": "Andrew Ng",
+            "commit_date": "2026-08-21T14:23:18+01:00",
+            "subject": "[CMake] Remove references to GnuWin32 tools from `LLVM_LIT_TOOLS_DIR` (#217657)"
+        },
+        {
+            "hash": "43781f14e07b5f38ee76069055d09f19f8afa4ae",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-21T16:07:00+01:00",
+            "subject": "[SCEV] Look up uniqued nodes by using interned profile. (NFC)"
+        },
+        {
+            "hash": "8c099a817e493423192ed1208dab3044b7f9735b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-21T16:07:00+01:00",
+            "subject": "!fixup inline-only"
+        },
+        {
+            "hash": "3b59ebe9ec43269b6e00c8b1bf8d7a6fc050d774",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-21T17:10:41+01:00",
+            "subject": "try fix ThinLTO regression"
         }
     ]
 }
