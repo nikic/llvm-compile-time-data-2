@@ -209349,6 +209349,36 @@
             "author_name": "Mariusz Sikora",
             "commit_date": "2026-08-21T15:02:52+02:00",
             "subject": "[AMDGPU] Set gfx13 LDS to 192KB and model LDS size via subtarget features (#214513)"
+        },
+        {
+            "hash": "3a09bc0a8eb5abd71e627b0cf2201f3c0b497946",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-08-21T13:12:12+00:00",
+            "subject": "[AMDGPU] Fix variable name in PhiIncomingAnalysis. NFC. (#217899)"
+        },
+        {
+            "hash": "5af1c55f938ff025718129f64e8e41136496ff05",
+            "author_name": "bernhardu",
+            "commit_date": "2026-08-21T15:12:45+02:00",
+            "subject": "[win\/asan] GetInstructionSize: Add some more instructions. (#214707)"
+        },
+        {
+            "hash": "c45e3a23d46e809cd27b4154f2ed0fb9b38ff9ee",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-21T14:15:18+01:00",
+            "subject": "[VPlan] Make VPIRFlags verification type aware, fix remaining holes. (#213081)"
+        },
+        {
+            "hash": "cda8ba3cefff219d8cc388c832cf551b59e2f319",
+            "author_name": "Harry Ramsey",
+            "commit_date": "2026-08-21T14:19:06+01:00",
+            "subject": "[AArch64][NFC] Refactor SVE tail-folding option interleave test (#217560)"
+        },
+        {
+            "hash": "fc86647836bc3c6ce11cac53a0306d5737983bba",
+            "author_name": "Zeyi Xu",
+            "commit_date": "2026-08-21T21:20:44+08:00",
+            "subject": "[clang-tidy][docs] Rename check docs in six modules to Markdown (#217671)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -222509,28 +222539,28 @@
     ],
     "tbaederr\/perf\/desc": [
         {
-            "hash": "d4c19355521fe0d7af54dd80c766fa00d1c6a278",
-            "author_name": "Romaric Jodin",
-            "commit_date": "2026-08-19T18:15:50+08:00",
-            "subject": "[libclc] Use generic subnormal_config for spirv-vulkan (#217240)"
+            "hash": "eb2e28ad666b537837f7ee0ca88f6f66c12d2aeb",
+            "author_name": "Ahmed Bougacha",
+            "commit_date": "2026-08-21T14:10:25+02:00",
+            "subject": "[AArch64][FastISel] Avoid TBZ with SLH more thoroughly. (#217329)"
         },
         {
-            "hash": "17b0d00c169b08eca11caf2ce18f211f5a3cf5d3",
+            "hash": "22c3f1149607cb37ad6b39f3ea13d70a469c1d40",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-19T13:07:52+02:00",
+            "commit_date": "2026-08-21T14:19:27+02:00",
             "subject": "Test"
         },
         {
-            "hash": "e2b0397746099900d22c16e449f561be0ee63c6d",
+            "hash": "31447a6190b7a35dea2674c9d1aecccbfcd5a952",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-19T13:07:52+02:00",
-            "subject": "Metadata to block"
+            "commit_date": "2026-08-21T14:19:27+02:00",
+            "subject": "elemdesc\/elemrecord"
         },
         {
-            "hash": "4a7a8ba64ea29e5902f3ccbaf49f06148fddd2e0",
+            "hash": "6ae6c1ff2760477f727fbc603afa48ae4bccf14e",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-19T13:07:53+02:00",
-            "subject": "elemdesc\/elemrecord"
+            "commit_date": "2026-08-21T15:14:40+02:00",
+            "subject": "SmallSetVector"
         }
     ],
     "fhahn\/perf\/vpcses": [
