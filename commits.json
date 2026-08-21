@@ -209385,6 +209385,12 @@
             "author_name": "Andrew Ng",
             "commit_date": "2026-08-21T14:23:18+01:00",
             "subject": "[CMake] Remove references to GnuWin32 tools from `LLVM_LIT_TOOLS_DIR` (#217657)"
+        },
+        {
+            "hash": "29a50bfb631a0a53e190bb637eccceac348607b8",
+            "author_name": "Vimal Patel",
+            "commit_date": "2026-08-21T14:35:35+01:00",
+            "subject": "[ARM_ACLE] Update implementation of __rev16ll for better codegen quality (#217596)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -222099,16 +222105,22 @@
     ],
     "fhahn\/perf\/scev-folding-set": [
         {
-            "hash": "7fd523496fc9e05ed5b0eabbfaac951d7e7f5dc7",
-            "author_name": "Aman Singh",
-            "commit_date": "2026-08-20T07:21:39+00:00",
-            "subject": "[mlir][SCF] Fix use-after-free in coalesceLoops when inner loop yields its induction var (#217510)"
+            "hash": "b64503de8de51df28ce0acd35b670625d026fa72",
+            "author_name": "Chuanqi Xu",
+            "commit_date": "2026-08-21T08:28:16+00:00",
+            "subject": "[C++20] [Modules] Diagnose instantiation of templates including TULocal entities (#217836)"
         },
         {
-            "hash": "1c8a4a886af918d20c7e4aaa0676d84f27174af8",
+            "hash": "a81b0725e80515be69519ab91418b56c7f1dad1f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-20T10:07:12+01:00",
+            "commit_date": "2026-08-21T14:22:45+01:00",
             "subject": "[SCEV] Look up uniqued nodes by using interned profile. (NFC)"
+        },
+        {
+            "hash": "a42894bef3ecc09b380d6bd41d349b376abd0d1a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-21T14:35:33+01:00",
+            "subject": "!fixup inline-only"
         }
     ],
     "fhahn\/perf\/ce-strengthen-flags": [
