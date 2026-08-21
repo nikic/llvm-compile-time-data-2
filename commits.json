@@ -209829,6 +209829,12 @@
             "author_name": "Jonas Devlieghere",
             "commit_date": "2026-08-21T14:01:50-07:00",
             "subject": "[DWARFLinker] Unique a static data member independent of its tag (#217751)"
+        },
+        {
+            "hash": "3dfadb00634647214189f8878daffb0560140f87",
+            "author_name": "Hao Ren",
+            "commit_date": "2026-08-21T21:14:14+00:00",
+            "subject": "[NVPTX] Expose CSE for shifts of logic operations (#213091)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -223605,6 +223611,20 @@
             "author_name": "SomeFlyingThing",
             "commit_date": "2026-08-21T21:36:47+02:00",
             "subject": "Infer alignment for memory intrinsics"
+        }
+    ],
+    "nikic\/perf\/licm-store-promotion-tbaa": [
+        {
+            "hash": "f7ab6bc17dade3378cf2a7c603cd885fa93d926a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-21T20:43:46+01:00",
+            "subject": "[VPlan] Expand negated add operands as a subtract in VPSCEVExpander. (#215253)"
+        },
+        {
+            "hash": "3634ca3f1e0e34410bced0414c5fe2ea09d8203f",
+            "author_name": "Eli Friedman",
+            "commit_date": "2026-08-21T23:16:48+02:00",
+            "subject": "Ignore AA tags on conditional stores in scalar promotion."
         }
     ]
 }
