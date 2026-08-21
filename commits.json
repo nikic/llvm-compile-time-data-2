@@ -209397,6 +209397,12 @@
             "author_name": "Keno Fischer",
             "commit_date": "2026-08-21T15:49:29+02:00",
             "subject": "[SimpleLoopUnswitch][NFC] Factor out conditional clone legality check (#217884)"
+        },
+        {
+            "hash": "632660d497adb2e4783fa9140e1ba8ca1458f21c",
+            "author_name": "Advit Arora",
+            "commit_date": "2026-08-21T13:51:09+00:00",
+            "subject": "[BlockExtractor] Invalidate analyses after splitting landing pads (#217853)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -222881,9 +222887,9 @@
             "subject": "[lldb] Support i386 Linux TLS thread pointers (DW_OP_form_tls_address) (#216463)"
         },
         {
-            "hash": "9e9f8e3e10c1923558507fa7268143dca4e4daca",
+            "hash": "11f54a720904e3318227c1065af821b131137e3e",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-21T14:19:37+01:00",
+            "commit_date": "2026-08-21T14:52:07+01:00",
             "subject": "[SCEV] Strengthen nuw\/nsw on add\/mul with CR"
         }
     ],
@@ -223049,6 +223055,26 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-21T14:21:36+01:00",
             "subject": "[SCEV] Add SCEVURemExpr"
+        }
+    ],
+    "artagnon\/perf\/scev-sext-nw-strip": [
+        {
+            "hash": "e4ab7d421b5beb2f11594953b811e366485175fb",
+            "author_name": "firmiana",
+            "commit_date": "2026-08-21T13:54:08+08:00",
+            "subject": "[lldb] Support i386 Linux TLS thread pointers (DW_OP_form_tls_address) (#216463)"
+        },
+        {
+            "hash": "c3985d447d87189e46f42b6e4885443cf6140b70",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-21T14:53:07+01:00",
+            "subject": "[SCEV] Pre-commit UTC regen of test"
+        },
+        {
+            "hash": "7ddf539d4bfbaae19748ee876f63df06013017ca",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-21T14:53:36+01:00",
+            "subject": "[SCEV] Strip expensive nw-inferrence in sext-addrec"
         }
     ]
 }
