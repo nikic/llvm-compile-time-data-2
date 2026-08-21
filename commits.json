@@ -209745,6 +209745,12 @@
             "author_name": "Daniel Paoliello",
             "commit_date": "2026-08-21T12:33:31-07:00",
             "subject": "[clang][win] Fix __global_delete breaking __attribute__((used)) (#217753)"
+        },
+        {
+            "hash": "f7ab6bc17dade3378cf2a7c603cd885fa93d926a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-21T20:43:46+01:00",
+            "subject": "[VPlan] Expand negated add operands as a subtract in VPSCEVExpander. (#215253)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -223495,6 +223501,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-21T17:10:41+01:00",
             "subject": "try fix ThinLTO regression"
+        }
+    ],
+    "nikic\/perf\/infer-align-mem": [
+        {
+            "hash": "339163117ed3a2c3cc30d69ad3ef6db15dc12558",
+            "author_name": "David Green",
+            "commit_date": "2026-08-20T08:40:21+01:00",
+            "subject": "[AArch64] Add tests for trunc nsw smin combine. NFC (#217545)"
+        },
+        {
+            "hash": "9c6e2a7f38cb7202aa4c038a3dc2c3c9bff40a3b",
+            "author_name": "SomeFlyingThing",
+            "commit_date": "2026-08-21T21:36:47+02:00",
+            "subject": "Infer alignment for memory intrinsics"
         }
     ]
 }
