@@ -222867,15 +222867,15 @@
     ],
     "nikic\/perf\/dl-multi-loc": [
         {
-            "hash": "47e95668d7701034f0d19400fd446b17d95e7fda",
+            "hash": "f7ab6bc17dade3378cf2a7c603cd885fa93d926a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-19T08:28:23+01:00",
-            "subject": "[SCEV] Take SCEVUse in the extend\/truncate builders. (#216761)"
+            "commit_date": "2026-08-21T20:43:46+01:00",
+            "subject": "[VPlan] Expand negated add operands as a subtract in VPSCEVExpander. (#215253)"
         },
         {
-            "hash": "1cd834d9a305c993e069efb1e081c4d8bc32d255",
+            "hash": "ca580f53d4fce5310ec0a0e2f224b3e3ee395f68",
             "author_name": "Alexander Yermolovich",
-            "commit_date": "2026-08-19T11:03:00+02:00",
+            "commit_date": "2026-08-21T21:47:25+02:00",
             "subject": "Add DILayerLoc\/DILayerLocList and DILocation irlayers operand"
         }
     ],
@@ -223065,6 +223065,12 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-08-21T19:14:28+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence in zext-addrec"
+        },
+        {
+            "hash": "5e717ac97e42dad2e7786bbb8e3667bdb5d5e859",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-21T20:49:19+01:00",
+            "subject": "[SCEV] Cover old no-self-wrap logic!"
         }
     ],
     "artagnon\/perf\/scev-fold-sext-addrec": [
