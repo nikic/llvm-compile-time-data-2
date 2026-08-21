@@ -209163,6 +209163,42 @@
             "author_name": "Eisuke Kawashima",
             "commit_date": "2026-08-21T02:32:26-07:00",
             "subject": "[MLIR] Fix invalid escape sequences (#94036)"
+        },
+        {
+            "hash": "a6ec9805a610221fab822365e08a442c285eeb5a",
+            "author_name": "Jessica Clarke",
+            "commit_date": "2026-08-21T10:37:09+01:00",
+            "subject": "[NFC][ELF] Only create alias in handleNonPreemptibleIfunc if needed (#210613)"
+        },
+        {
+            "hash": "9a9c9a5e666ce54df7070ad4e0d8b1c94404edf0",
+            "author_name": "Jessica Clarke",
+            "commit_date": "2026-08-21T10:37:09+01:00",
+            "subject": "[NFC][ELF] Create fresh alias in handleNonPreemptibleIfunc (#210614)"
+        },
+        {
+            "hash": "db8ad403a7d7339ecb43c7512cc880af5c2aef09",
+            "author_name": "Jessica Clarke",
+            "commit_date": "2026-08-21T10:37:10+01:00",
+            "subject": "[NFC][ELF] Remove Symbol's unused copy constructor (#210615)"
+        },
+        {
+            "hash": "ef1a70adee66c0eba35a47badced5b991fb161f2",
+            "author_name": "Jessica Clarke",
+            "commit_date": "2026-08-21T10:37:10+01:00",
+            "subject": "[ELF] Emit synthetic local in symbol table for non-preemptible IFUNC (#210616)"
+        },
+        {
+            "hash": "3629a88db7e40dd0ba94c7fd3c60a84943d9ada5",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-08-21T11:38:06+02:00",
+            "subject": "[clang][AST] Add ASTContext::hasLayout() (#216541)"
+        },
+        {
+            "hash": "c660ef81eb4441c8c4ceb9a354d7784de5bebdf8",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-08-21T10:38:47+01:00",
+            "subject": "[AArch64][GlobalISel] Select integer vector reductions into GPRs (#212976)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -222211,22 +222247,16 @@
     ],
     "aengelke\/perf\/chandlerc-clangtrim-large-ish-includes-from-common": [
         {
-            "hash": "57fdc0d6be41d41422b8b656441e56fecd1143c6",
-            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
-            "commit_date": "2026-08-18T19:38:13+00:00",
-            "subject": "[flang][openacc] Raise an error when UPDATE directive is in compute region (#217090)"
+            "hash": "c660ef81eb4441c8c4ceb9a354d7784de5bebdf8",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-08-21T10:38:47+01:00",
+            "subject": "[AArch64][GlobalISel] Select integer vector reductions into GPRs (#212976)"
         },
         {
-            "hash": "e7a12fe28165a37c2ea5ba22df717f652e533d4b",
-            "author_name": "Chandler Carruth",
-            "commit_date": "2026-08-18T13:05:06-07:00",
-            "subject": "[clang] Trim large(-ish) includes from common headers"
-        },
-        {
-            "hash": "76355f54b2bba62e530e658c88211eb80859a46e",
-            "author_name": "Chandler Carruth",
-            "commit_date": "2026-08-18T14:41:27-07:00",
-            "subject": "Fix premerge build failures, include order, and comment verbosity"
+            "hash": "6ce9490a40bda551c02254190c6c166250ca4b32",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-08-21T09:44:31+00:00",
+            "subject": "foo"
         }
     ],
     "artagnon\/perf\/scev-udiv-wrap-infer-addsub": [
@@ -222755,6 +222785,20 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-08-21T10:07:53+02:00",
             "subject": "0"
+        }
+    ],
+    "c-rhodes\/perf\/gisel-avoid-redundant-gep-copies": [
+        {
+            "hash": "a49d90627bd44d2e76c20b9d4e0cafb339fb806f",
+            "author_name": "Folkert de Vries",
+            "commit_date": "2026-08-20T12:00:26+02:00",
+            "subject": "[MIPS] fix `__int128` register alignment (#214322)"
+        },
+        {
+            "hash": "746b8826c9f7b817fadeaa3496a9c6fa6d886831",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-08-21T09:35:05+00:00",
+            "subject": "[GlobalISel] Avoid redundant copies for GEPs with dynamic indices"
         }
     ]
 }
