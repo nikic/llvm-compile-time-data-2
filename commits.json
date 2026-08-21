@@ -209379,6 +209379,12 @@
             "author_name": "Zeyi Xu",
             "commit_date": "2026-08-21T21:20:44+08:00",
             "subject": "[clang-tidy][docs] Rename check docs in six modules to Markdown (#217671)"
+        },
+        {
+            "hash": "0c8f1121a2bb2095227dab641e66e5ea4c238e87",
+            "author_name": "Andrew Ng",
+            "commit_date": "2026-08-21T14:23:18+01:00",
+            "subject": "[CMake] Remove references to GnuWin32 tools from `LLVM_LIT_TOOLS_DIR` (#217657)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -222851,15 +222857,15 @@
     ],
     "artagnon\/perf\/scev-addmul-wrap-strengthen-cr": [
         {
-            "hash": "8f15542e25053a4b38efd5ab53f0aee1cd4892a0",
-            "author_name": "Ingo M\u00fcller",
-            "commit_date": "2026-08-20T13:23:48+02:00",
-            "subject": "[mlir:linalg:py] Undo unintentional type narrowing from #214539. (#217543)"
+            "hash": "e4ab7d421b5beb2f11594953b811e366485175fb",
+            "author_name": "firmiana",
+            "commit_date": "2026-08-21T13:54:08+08:00",
+            "subject": "[lldb] Support i386 Linux TLS thread pointers (DW_OP_form_tls_address) (#216463)"
         },
         {
-            "hash": "bbdf09337b37fbe4ddc15fe6168030d2a5b54a03",
+            "hash": "9e9f8e3e10c1923558507fa7268143dca4e4daca",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-20T15:04:08+01:00",
+            "commit_date": "2026-08-21T14:19:37+01:00",
             "subject": "[SCEV] Strengthen nuw\/nsw on add\/mul with CR"
         }
     ],
@@ -223011,6 +223017,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-08-21T15:09:05+02:00",
             "subject": "cache guaranteed to execute"
+        }
+    ],
+    "fhahn\/perf\/scev-urem-more": [
+        {
+            "hash": "c315c9dc5d8daa54e681cf59297679647c17355d",
+            "author_name": "Akimasa Watanuki",
+            "commit_date": "2026-08-21T18:14:53+09:00",
+            "subject": "[MLIR][LLVM] Preserve unknown function metadata on import (#203022)"
+        },
+        {
+            "hash": "8b9c6839503699590d73ae92de840e22260df5a3",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-21T14:21:36+01:00",
+            "subject": "[SCEV] Add SCEVURemExpr"
         }
     ]
 }
