@@ -223565,28 +223565,34 @@
     ],
     "artagnon\/perf\/scev-extaddrec-wrap": [
         {
-            "hash": "19c0c901537743438af63e8cd42e20e079e4389d",
-            "author_name": "Krzysztof Drewniak",
-            "commit_date": "2026-08-21T10:25:41-07:00",
-            "subject": "[mlir] Don't print a stray space for a fully-elided prop-dict (#216810)"
+            "hash": "1411f47e2297a95ba02419b7cb0fde3ecc89cce2",
+            "author_name": "Helena Kotas",
+            "commit_date": "2026-08-22T11:06:28-07:00",
+            "subject": "[DirectX] Lower `llvm.dx.resource.handlefromheap` intrinsic (#216459)"
         },
         {
-            "hash": "2da4c8eb787c38e2dfeb5979b03ee86b5cdc85fd",
+            "hash": "c249fc3a2e7a83de1d9b110866e85a06531decc1",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-21T18:31:56+01:00",
+            "commit_date": "2026-08-22T19:30:10+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence for sext-addrec"
         },
         {
-            "hash": "10b064a39496624f5ccfae2e2c380615cc8d8207",
+            "hash": "93473e4825ae1ef14e16fc25cd0b1fd367954317",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-21T21:48:43+01:00",
+            "commit_date": "2026-08-22T19:30:10+01:00",
             "subject": "[SCEV] Cover old no-self-wrap logic, but better!"
         },
         {
-            "hash": "7c3a63fa22692fbfad78c127aa1e1b6238ec3a8c",
+            "hash": "28d0db2b603c3d1859bab100b454eea613ec1864",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-22T18:48:17+01:00",
+            "commit_date": "2026-08-22T19:30:10+01:00",
             "subject": "[SCEV] Final fix"
+        },
+        {
+            "hash": "08765081121767fb9603f97bb91e898f4e3a9ffd",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-22T19:31:10+01:00",
+            "subject": "[SCEV] Template-deduction build fix"
         }
     ],
     "fhahn\/perf\/scev-expander-reuse": [
@@ -223643,28 +223649,34 @@
     ],
     "artagnon\/perf\/scev-zextaddrec-wrap": [
         {
-            "hash": "19c0c901537743438af63e8cd42e20e079e4389d",
-            "author_name": "Krzysztof Drewniak",
-            "commit_date": "2026-08-21T10:25:41-07:00",
-            "subject": "[mlir] Don't print a stray space for a fully-elided prop-dict (#216810)"
+            "hash": "1411f47e2297a95ba02419b7cb0fde3ecc89cce2",
+            "author_name": "Helena Kotas",
+            "commit_date": "2026-08-22T11:06:28-07:00",
+            "subject": "[DirectX] Lower `llvm.dx.resource.handlefromheap` intrinsic (#216459)"
         },
         {
-            "hash": "4371b12898251273749edc59ac5e7edf5d42daa9",
+            "hash": "12bc2ccd33de988e3d14bde69101c2ade9fc16b0",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-21T19:14:28+01:00",
+            "commit_date": "2026-08-22T19:24:55+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence in zext-addrec"
         },
         {
-            "hash": "82600709ee6200235fdc6a09862f7cbda6a728cd",
+            "hash": "4fced557e6876ca0c35cc636da0ffae158bc4af9",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-22T13:01:35+01:00",
+            "commit_date": "2026-08-22T19:24:56+01:00",
             "subject": "[SCEV] Cover old no-self-wrap logic!"
         },
         {
-            "hash": "17b0637f609bd859975130a4a2d7579a4d96019a",
+            "hash": "a99f35b62e67cf2f56f1fd1bb34e5d0b448ca1d3",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-22T19:05:40+01:00",
+            "commit_date": "2026-08-22T19:24:56+01:00",
             "subject": "[SCEV] Fix symmetric bug from sext-addrec"
+        },
+        {
+            "hash": "580e8bfa5b52867a03f996ab6045a525372b6ebf",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-22T19:29:10+01:00",
+            "subject": "[SCEV] Template-deduction build fix"
         }
     ],
     "artagnon\/perf\/scev-fold-sext-addrec": [
