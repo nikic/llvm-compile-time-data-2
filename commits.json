@@ -210231,6 +210231,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-22T13:17:03+00:00",
             "subject": "[SCEV] Avoid overflow in howManyGreaterThans. (#217744)"
+        },
+        {
+            "hash": "cba529d81db3a6512afdc7198ff864dc8ef510f3",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-22T13:29:15+00:00",
+            "subject": "[LAA] ZExt size from deref bundles to widest type. (#217939)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -224001,28 +224007,34 @@
     ],
     "fhahn\/perf\/scev-folding-set2": [
         {
-            "hash": "0c8f1121a2bb2095227dab641e66e5ea4c238e87",
-            "author_name": "Andrew Ng",
-            "commit_date": "2026-08-21T14:23:18+01:00",
-            "subject": "[CMake] Remove references to GnuWin32 tools from `LLVM_LIT_TOOLS_DIR` (#217657)"
+            "hash": "dc14f0aecb1eb838e5cd83c220effc4f3dc1c848",
+            "author_name": "Yingwei Zheng",
+            "commit_date": "2026-08-22T20:02:37+08:00",
+            "subject": "[LangRef] Fix code examples for fptosi\/fptoui (#218121)"
         },
         {
-            "hash": "43781f14e07b5f38ee76069055d09f19f8afa4ae",
+            "hash": "1cbc7bef1f99217075ec1ff411946db55ca84e2b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-21T16:07:00+01:00",
+            "commit_date": "2026-08-22T13:25:19+01:00",
             "subject": "[SCEV] Look up uniqued nodes by using interned profile. (NFC)"
         },
         {
-            "hash": "8c099a817e493423192ed1208dab3044b7f9735b",
+            "hash": "599d43fe640788b89133dd5e15e645f1f4b464c6",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-21T16:07:00+01:00",
+            "commit_date": "2026-08-22T13:25:20+01:00",
             "subject": "!fixup inline-only"
         },
         {
-            "hash": "3b59ebe9ec43269b6e00c8b1bf8d7a6fc050d774",
+            "hash": "a05e3439b6c0169af7b7e4771c5b7ccfc3bf4826",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-21T17:10:41+01:00",
+            "commit_date": "2026-08-22T13:25:20+01:00",
             "subject": "try fix ThinLTO regression"
+        },
+        {
+            "hash": "c89f06785dce01a9cb2bfa8e3c80b5e7c07c4fac",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-22T14:32:00+01:00",
+            "subject": "Take2"
         }
     ],
     "nikic\/perf\/infer-align-mem": [
