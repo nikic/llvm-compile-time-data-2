@@ -219921,6 +219921,42 @@
             "author_name": "Daniel Paoliello",
             "commit_date": "2026-08-23T19:11:41+00:00",
             "subject": "[clang][win] Fix __global_delete breaking __attribute__((used)) (#217753)"
+        },
+        {
+            "hash": "fcfc91b9dc9520693b0f4acb86ce77be1c7ad07e",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-08-23T19:12:21+00:00",
+            "subject": "[RISCV] Use correct type for (u)int64_t in RVV intrinsics on OpenBSD (#217211)"
+        },
+        {
+            "hash": "9a30d9b392edd515458a6d2bab5a07462d6ae68d",
+            "author_name": "Zeyi Xu",
+            "commit_date": "2026-08-23T19:13:18+00:00",
+            "subject": "[clang-tidy] Fix crashes when analyzing unknown exceptions in bugprone-exception-escape (#218067)"
+        },
+        {
+            "hash": "66a285ca58cb19c1cc20baa18ad6ab061e07a123",
+            "author_name": "Bj\u00f6rn Sch\u00e4pers",
+            "commit_date": "2026-08-23T19:14:26+00:00",
+            "subject": "[clang-format] Honor new lines before \/\/ clang-format on (#218022)"
+        },
+        {
+            "hash": "996c97fd9acbf8df326223e38fc06c0679a684bf",
+            "author_name": "Tom Stellard",
+            "commit_date": "2026-08-23T19:15:07+00:00",
+            "subject": "workflows: Merge release-doxygen into release-documenation (#214366)"
+        },
+        {
+            "hash": "fb7dcc270e137f7faa83ead19cca698d60465c8e",
+            "author_name": "Vipul Cariappa",
+            "commit_date": "2026-08-23T19:15:42+00:00",
+            "subject": "[clang-repl] Don't double-remove extern \"C\" decls from the IdResolver (#218129)"
+        },
+        {
+            "hash": "8b6fd979c96b5582dcbc27b7d72a53055632faa7",
+            "author_name": "Tom Stellard",
+            "commit_date": "2026-08-23T19:17:06+00:00",
+            "subject": "workflows\/release-binaries: Install Wix on Windows ARM64 (#217707)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
@@ -224505,22 +224541,22 @@
     ],
     "fhahn\/perf\/scev-addrec-gt-start": [
         {
-            "hash": "dc14f0aecb1eb838e5cd83c220effc4f3dc1c848",
-            "author_name": "Yingwei Zheng",
-            "commit_date": "2026-08-22T20:02:37+08:00",
-            "subject": "[LangRef] Fix code examples for fptosi\/fptoui (#218121)"
+            "hash": "a454a3cdaf82dea7b6293d29628b70eaec918723",
+            "author_name": "Ho\u00e0ng Minh Thi\u00ean",
+            "commit_date": "2026-08-23T11:34:41-04:00",
+            "subject": "[libc][math] Integer-only, statically rounded implementation of expf (#209406)"
         },
         {
-            "hash": "d2137b3d80ac3f0468fc5b3145206267db5559cf",
+            "hash": "f2e8481281094ba2ae5dcbfb5fb644e498485ed6",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-22T13:28:35+01:00",
+            "commit_date": "2026-08-23T20:08:29+01:00",
             "subject": "Precommit test"
         },
         {
-            "hash": "39667b07bef57b37157131251127377c49611edd",
+            "hash": "056fef37d94da48fbb651073da743ca1a9349c9d",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-22T13:28:35+01:00",
-            "subject": "[SCEV] A no-wrap AddRec is never below its start value."
+            "commit_date": "2026-08-23T20:14:36+01:00",
+            "subject": "[SCEV] Use AddRec monotonicity in isKnownViaNonRecursiveReasoning."
         }
     ],
     "nikic\/perf\/foldingset-swiss": [
