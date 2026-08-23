@@ -210591,6 +210591,12 @@
             "author_name": "Kazu Hirata",
             "commit_date": "2026-08-23T08:08:06-07:00",
             "subject": "[Transforms] Remove unused replaceDbgUsesWithUndef (#218215)"
+        },
+        {
+            "hash": "a454a3cdaf82dea7b6293d29628b70eaec918723",
+            "author_name": "Ho\u00e0ng Minh Thi\u00ean",
+            "commit_date": "2026-08-23T11:34:41-04:00",
+            "subject": "[libc][math] Integer-only, statically rounded implementation of expf (#209406)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -223627,16 +223633,16 @@
     ],
     "artagnon\/perf\/scev-udiv-wrap-infer": [
         {
-            "hash": "2d697458ac3f472e666b7f47586da362839cfacb",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-19T11:39:31+01:00",
-            "subject": "[SCEV] Directly use NUW on mul in getUDivExpr (NFC) (#217235)"
+            "hash": "ec5c9182be2aa168b7c843374c5c7497dd3bef17",
+            "author_name": "Vipul Cariappa",
+            "commit_date": "2026-08-23T10:22:31+03:00",
+            "subject": "[clang-repl] Don't double-remove extern \"C\" decls from the IdResolver (#218129)"
         },
         {
-            "hash": "d9cb18718aa01cbc5a3d3c207caa600e82f64656",
+            "hash": "78368e88812e21ecf48ab61c4a490f416b32c16c",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-20T03:58:29+01:00",
-            "subject": "[SCEV] Infer NUW on AR in getUDivExpr"
+            "commit_date": "2026-08-23T16:37:20+01:00",
+            "subject": "[SCEV] Use willNotOverflow for AR-check in udiv (NFC)"
         }
     ],
     "yxsamliu\/perf\/pr216838-baseline": [
