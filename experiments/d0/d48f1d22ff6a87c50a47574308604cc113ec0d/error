@@ -1,0 +1,236 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[2731/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclOpenMP.cpp.o
+[2732/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclTemplate.cpp.o
+[2733/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExternalASTSource.cpp.o
+[2734/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/FormatString.cpp.o
+[2735/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/InferAlloc.cpp.o
+[2736/3382] Linking CXX static library lib/libLLVMCFGuard.a
+[2737/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/BitcastBuffer.cpp.o
+[2738/3382] Linking CXX static library lib/libLLVMFrontendHLSL.a
+[2739/3382] Linking CXX static library lib/libLLVMABI.a
+[2740/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/InheritViz.cpp.o
+[2741/3382] Linking CXX static library lib/libLLVMBitReader.a
+[2742/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Floating.cpp.o
+[2743/3382] Linking CXX static library lib/libLLVMX86Desc.a
+[2744/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/DynamicAllocator.cpp.o
+[2745/3382] Linking CXX static library lib/libLLVMAsmParser.a
+[2746/3382] Linking CXX static library lib/libLLVMIRReader.a
+[2747/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InitMap.cpp.o
+[2748/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBlock.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBlock.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBlock.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBlock.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBlock.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpBlock.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpBlock.cpp:14:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In member function ‘bool clang::interp::PtrView::isOnePastEnd() const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:204:17: error: ‘const struct clang::interp::Descriptor’ has no member named ‘ElemDesc’; did you mean ‘getElemDesc’?
+  204 |           Desc->ElemDesc ? sizeof(InlineDescriptor) : sizeof(InitMapPtr);
+      |                 ^~~~~~~~
+      |                 getElemDesc
+[2749/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Function.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Function.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Function.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Function.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Function.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Function.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Program.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Function.cpp:10:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In member function ‘bool clang::interp::PtrView::isOnePastEnd() const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:204:17: error: ‘const struct clang::interp::Descriptor’ has no member named ‘ElemDesc’; did you mean ‘getElemDesc’?
+  204 |           Desc->ElemDesc ? sizeof(InlineDescriptor) : sizeof(InitMapPtr);
+      |                 ^~~~~~~~
+      |                 getElemDesc
+[2750/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/EvaluationResult.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/EvaluationResult.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/EvaluationResult.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/EvaluationResult.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/EvaluationResult.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvaluationResult.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/MemberPointer.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpState.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvaluationResult.cpp:10:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In member function ‘bool clang::interp::PtrView::isOnePastEnd() const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:204:17: error: ‘const struct clang::interp::Descriptor’ has no member named ‘ElemDesc’; did you mean ‘getElemDesc’?
+  204 |           Desc->ElemDesc ? sizeof(InlineDescriptor) : sizeof(InitMapPtr);
+      |                 ^~~~~~~~
+      |                 getElemDesc
+[2751/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltinBitCast.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltinBitCast.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltinBitCast.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltinBitCast.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltinBitCast.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpBuiltinBitCast.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/MemberPointer.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpBuiltinBitCast.cpp:12:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In member function ‘bool clang::interp::PtrView::isOnePastEnd() const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:204:17: error: ‘const struct clang::interp::Descriptor’ has no member named ‘ElemDesc’; did you mean ‘getElemDesc’?
+  204 |           Desc->ElemDesc ? sizeof(InlineDescriptor) : sizeof(InitMapPtr);
+      |                 ^~~~~~~~
+      |                 getElemDesc
+[2752/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Descriptor.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Descriptor.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Descriptor.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Descriptor.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Descriptor.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Descriptor.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/MemberPointer.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Descriptor.cpp:15:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In member function ‘bool clang::interp::PtrView::isOnePastEnd() const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:204:17: error: ‘const struct clang::interp::Descriptor’ has no member named ‘ElemDesc’; did you mean ‘getElemDesc’?
+  204 |           Desc->ElemDesc ? sizeof(InlineDescriptor) : sizeof(InitMapPtr);
+      |                 ^~~~~~~~
+      |                 getElemDesc
+[2753/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Disasm.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Disasm.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Disasm.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Disasm.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Disasm.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Disasm.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/MemberPointer.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Disasm.cpp:15:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In member function ‘bool clang::interp::PtrView::isOnePastEnd() const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:204:17: error: ‘const struct clang::interp::Descriptor’ has no member named ‘ElemDesc’; did you mean ‘getElemDesc’?
+  204 |           Desc->ElemDesc ? sizeof(InlineDescriptor) : sizeof(InitMapPtr);
+      |                 ^~~~~~~~
+      |                 getElemDesc
+[2754/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpFrame.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpFrame.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpFrame.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpFrame.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpFrame.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpFrame.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpFrame.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpFrame.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In member function ‘bool clang::interp::PtrView::isOnePastEnd() const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:204:17: error: ‘const struct clang::interp::Descriptor’ has no member named ‘ElemDesc’; did you mean ‘getElemDesc’?
+  204 |           Desc->ElemDesc ? sizeof(InlineDescriptor) : sizeof(InitMapPtr);
+      |                 ^~~~~~~~
+      |                 getElemDesc
+[2755/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/ByteCodeEmitter.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/ByteCodeEmitter.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/ByteCodeEmitter.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/ByteCodeEmitter.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/ByteCodeEmitter.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/ByteCodeEmitter.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/MemberPointer.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/ByteCodeEmitter.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/ByteCodeEmitter.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In member function ‘bool clang::interp::PtrView::isOnePastEnd() const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:204:17: error: ‘const struct clang::interp::Descriptor’ has no member named ‘ElemDesc’; did you mean ‘getElemDesc’?
+  204 |           Desc->ElemDesc ? sizeof(InlineDescriptor) : sizeof(InitMapPtr);
+      |                 ^~~~~~~~
+      |                 getElemDesc
+[2756/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltin.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltin.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltin.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltin.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltin.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpBuiltin.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/MemberPointer.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpState.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpBuiltin.cpp:11:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In member function ‘bool clang::interp::PtrView::isOnePastEnd() const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:204:17: error: ‘const struct clang::interp::Descriptor’ has no member named ‘ElemDesc’; did you mean ‘getElemDesc’?
+  204 |           Desc->ElemDesc ? sizeof(InlineDescriptor) : sizeof(InitMapPtr);
+      |                 ^~~~~~~~
+      |                 getElemDesc
+[2757/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/EvalEmitter.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/EvalEmitter.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/EvalEmitter.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/EvalEmitter.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/EvalEmitter.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/MemberPointer.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpState.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/EvalEmitter.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In member function ‘bool clang::interp::PtrView::isOnePastEnd() const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:204:17: error: ‘const struct clang::interp::Descriptor’ has no member named ‘ElemDesc’; did you mean ‘getElemDesc’?
+  204 |           Desc->ElemDesc ? sizeof(InlineDescriptor) : sizeof(InitMapPtr);
+      |                 ^~~~~~~~
+      |                 getElemDesc
+[2758/3382] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+[2759/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Context.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Context.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Context.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Context.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Context.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/MemberPointer.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In member function ‘bool clang::interp::PtrView::isOnePastEnd() const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:204:17: error: ‘const struct clang::interp::Descriptor’ has no member named ‘ElemDesc’; did you mean ‘getElemDesc’?
+  204 |           Desc->ElemDesc ? sizeof(InlineDescriptor) : sizeof(InitMapPtr);
+      |                 ^~~~~~~~
+      |                 getElemDesc
+[2760/3382] Building AArch64GenInstrInfo.inc...
+[2761/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/MemberPointer.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/ByteCodeEmitter.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In member function ‘bool clang::interp::PtrView::isOnePastEnd() const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:204:17: error: ‘const struct clang::interp::Descriptor’ has no member named ‘ElemDesc’; did you mean ‘getElemDesc’?
+  204 |           Desc->ElemDesc ? sizeof(InlineDescriptor) : sizeof(InitMapPtr);
+      |                 ^~~~~~~~
+      |                 getElemDesc
+[2762/3382] Building AArch64GenSubtargetInfo.inc...
+[2763/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConstant.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConstant.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConstant.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConstant.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConstant.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ExprConstant.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/MemberPointer.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ExprConstant.cpp:35:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In member function ‘bool clang::interp::PtrView::isOnePastEnd() const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:204:17: error: ‘const struct clang::interp::Descriptor’ has no member named ‘ElemDesc’; did you mean ‘getElemDesc’?
+  204 |           Desc->ElemDesc ? sizeof(InlineDescriptor) : sizeof(InitMapPtr);
+      |                 ^~~~~~~~
+      |                 getElemDesc
+[2764/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Interp.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Interp.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Interp.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Interp.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Interp.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpFrame.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.h:25,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In member function ‘bool clang::interp::PtrView::isOnePastEnd() const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:204:17: error: ‘const struct clang::interp::Descriptor’ has no member named ‘ElemDesc’; did you mean ‘getElemDesc’?
+  204 |           Desc->ElemDesc ? sizeof(InlineDescriptor) : sizeof(InitMapPtr);
+      |                 ^~~~~~~~
+      |                 getElemDesc
+[2765/3382] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTContext.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTContext.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTContext.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTContext.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTContext.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/MemberPointer.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:14:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In member function ‘bool clang::interp::PtrView::isOnePastEnd() const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:204:17: error: ‘const struct clang::interp::Descriptor’ has no member named ‘ElemDesc’; did you mean ‘getElemDesc’?
+  204 |           Desc->ElemDesc ? sizeof(InlineDescriptor) : sizeof(InitMapPtr);
+      |                 ^~~~~~~~
+      |                 getElemDesc
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:4 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/lld/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+196.99user 17.48system 0:18.09elapsed 1185%CPU (0avgtext+0avgdata 1155064maxresident)k
+0inputs+1551752outputs (3106major+9722680minor)pagefaults 0swaps
