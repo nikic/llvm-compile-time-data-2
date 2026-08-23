@@ -223811,34 +223811,34 @@
     ],
     "artagnon\/perf\/scev-extaddrec-wrap": [
         {
-            "hash": "1411f47e2297a95ba02419b7cb0fde3ecc89cce2",
-            "author_name": "Helena Kotas",
-            "commit_date": "2026-08-22T11:06:28-07:00",
-            "subject": "[DirectX] Lower `llvm.dx.resource.handlefromheap` intrinsic (#216459)"
+            "hash": "ec5c9182be2aa168b7c843374c5c7497dd3bef17",
+            "author_name": "Vipul Cariappa",
+            "commit_date": "2026-08-23T10:22:31+03:00",
+            "subject": "[clang-repl] Don't double-remove extern \"C\" decls from the IdResolver (#218129)"
         },
         {
-            "hash": "c249fc3a2e7a83de1d9b110866e85a06531decc1",
+            "hash": "6349e586f4cc3014ec8d7b7461961007eaf57c7a",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-22T19:30:10+01:00",
+            "commit_date": "2026-08-23T09:40:55+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence for sext-addrec"
         },
         {
-            "hash": "93473e4825ae1ef14e16fc25cd0b1fd367954317",
+            "hash": "6d05d46baf336e6cf24b1ecfbbd7fdd812722c29",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-22T19:30:10+01:00",
+            "commit_date": "2026-08-23T09:40:55+01:00",
             "subject": "[SCEV] Cover old no-self-wrap logic, but better!"
         },
         {
-            "hash": "28d0db2b603c3d1859bab100b454eea613ec1864",
+            "hash": "44391410157968f1f0486a1b4ca3f579be6ac652",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-22T19:30:10+01:00",
-            "subject": "[SCEV] Final fix"
+            "commit_date": "2026-08-23T09:42:49+01:00",
+            "subject": "[SCEV] Handle nsuw case correctly"
         },
         {
-            "hash": "08765081121767fb9603f97bb91e898f4e3a9ffd",
+            "hash": "c44de173b4f95e335744b693e8ba7036b4fa7a3d",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-22T19:31:10+01:00",
-            "subject": "[SCEV] Template-deduction build fix"
+            "commit_date": "2026-08-23T09:43:35+01:00",
+            "subject": "[SCEV] Is nw sufficient to prove nsuw?"
         }
     ],
     "fhahn\/perf\/scev-expander-reuse": [
@@ -223895,39 +223895,33 @@
     ],
     "artagnon\/perf\/scev-zextaddrec-wrap": [
         {
-            "hash": "1411f47e2297a95ba02419b7cb0fde3ecc89cce2",
-            "author_name": "Helena Kotas",
-            "commit_date": "2026-08-22T11:06:28-07:00",
-            "subject": "[DirectX] Lower `llvm.dx.resource.handlefromheap` intrinsic (#216459)"
+            "hash": "ec5c9182be2aa168b7c843374c5c7497dd3bef17",
+            "author_name": "Vipul Cariappa",
+            "commit_date": "2026-08-23T10:22:31+03:00",
+            "subject": "[clang-repl] Don't double-remove extern \"C\" decls from the IdResolver (#218129)"
         },
         {
-            "hash": "12bc2ccd33de988e3d14bde69101c2ade9fc16b0",
+            "hash": "4ee8a792536f94a3038a0b97dac27cd1a298d1fb",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-22T19:24:55+01:00",
+            "commit_date": "2026-08-23T09:45:48+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence in zext-addrec"
         },
         {
-            "hash": "4fced557e6876ca0c35cc636da0ffae158bc4af9",
+            "hash": "771f05df09c568367669fc83aecdffc821a0107f",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-22T19:24:56+01:00",
+            "commit_date": "2026-08-23T09:45:48+01:00",
             "subject": "[SCEV] Cover old no-self-wrap logic!"
         },
         {
-            "hash": "a99f35b62e67cf2f56f1fd1bb34e5d0b448ca1d3",
+            "hash": "68bce4e24731ca177e7e38c2527760300b59a8a1",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-22T19:24:56+01:00",
-            "subject": "[SCEV] Fix symmetric bug from sext-addrec"
+            "commit_date": "2026-08-23T09:47:56+01:00",
+            "subject": "[SCEV] Handle nusw case correctly"
         },
         {
-            "hash": "aa7d19da8a19949a58c833ce88bc8a911ddeeaed",
+            "hash": "aaa636b4e1719f7a5632188895ed5c943a625217",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-22T19:55:17+01:00",
-            "subject": "[SCEV] Template-deduction build fix"
-        },
-        {
-            "hash": "1795ba9e31cece2130779043d36984c21a2c1618",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-22T22:11:27+01:00",
+            "commit_date": "2026-08-23T09:47:56+01:00",
             "subject": "[SCEV] For nusw, nw on the pre-inc is sufficent?"
         }
     ],
