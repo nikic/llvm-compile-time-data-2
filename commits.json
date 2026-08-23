@@ -219909,6 +219909,18 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-08-21T22:22:53+00:00",
             "subject": "[PeepholeOpt] Erase optimized compare from LocalMIs earlier (#217848)"
+        },
+        {
+            "hash": "692fdd97958be7e6aaf19479dea1df479de72a89",
+            "author_name": "yingopq",
+            "commit_date": "2026-08-23T19:10:46+00:00",
+            "subject": "[Mips] Legalize vector UNDEF instead of expanding to zero BUILD_VECTOR (#211503)"
+        },
+        {
+            "hash": "190c84f9d1d567a139ec1bca6b02c4fd818a57fc",
+            "author_name": "Daniel Paoliello",
+            "commit_date": "2026-08-23T19:11:41+00:00",
+            "subject": "[clang][win] Fix __global_delete breaking __attribute__((used)) (#217753)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
@@ -224619,6 +224631,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-23T10:17:09+01:00",
             "subject": "[SCEVExpander] Reuse a recurrence a constant factor away from the AddRec"
+        }
+    ],
+    "MaskRay\/perf\/foldingset-algr2": [
+        {
+            "hash": "56322878d28c16c172a1e46fc2db4913e7db893d",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-22T23:32:57-07:00",
+            "subject": "[DomTree] Prepend children instead of appending (#218178)"
+        },
+        {
+            "hash": "4fc6cb863d015ee40576588e389c4a151f997b4f",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-23T12:03:27-07:00",
+            "subject": "[FoldingSet] Switch to linear probing and Algorithm R deletion"
         }
     ]
 }
