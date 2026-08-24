@@ -223783,6 +223783,12 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-08-24T09:13:09+01:00",
             "subject": "[SCEV] Introduce SDiv expressions"
+        },
+        {
+            "hash": "3b8f3bf18d55d733b7b648593d55cea9ff019b44",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-24T09:42:21+01:00",
+            "subject": "[SCEV] Fix copy-paste error, thanks Antonio!"
         }
     ],
     "madhur13490\/perf\/loop-interchange-o3-default": [
@@ -224557,9 +224563,9 @@
             "subject": "[SCEV] Limit expression sz to 3, test"
         },
         {
-            "hash": "eed122f81fa39275e7a7f9c8f955fd5a72e2abf3",
+            "hash": "65351f8007bd8f361a8ee966c975ac025ea42efa",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-24T09:27:21+01:00",
+            "commit_date": "2026-08-24T09:36:49+01:00",
             "subject": "[SCEV] Forbid integral casts as well"
         }
     ],
@@ -224607,22 +224613,16 @@
     ],
     "c-rhodes\/perf\/gisel-avoid-redundant-gep-copies": [
         {
-            "hash": "a49d90627bd44d2e76c20b9d4e0cafb339fb806f",
-            "author_name": "Folkert de Vries",
-            "commit_date": "2026-08-20T12:00:26+02:00",
-            "subject": "[MIPS] fix `__int128` register alignment (#214322)"
+            "hash": "d8ec70dc8db9b55d3185970be56efdf7066d89fe",
+            "author_name": "David Spickett",
+            "commit_date": "2026-08-24T09:26:21+01:00",
+            "subject": "[lldb][debugserver] Fix bugs in FindBreakpointsThatOverlapRange (#217837)"
         },
         {
-            "hash": "e3053175f7ea31e7070d3ebcadce8a0a2ba8c336",
+            "hash": "8b80acac838069bd8be8160513cc8f62a0f5a5a7",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-08-21T09:49:54+00:00",
-            "subject": "[GlobalISel] Avoid redundant vreg lookups in IRTranslator (NFC)"
-        },
-        {
-            "hash": "93d6aa1f114cfe43c4bd7b569cd36f703fa0a9c8",
-            "author_name": "Cullen Rhodes",
-            "commit_date": "2026-08-21T09:49:59+00:00",
-            "subject": "[GlobalISel] Avoid redundant copies for GEPs with dynamic indices"
+            "commit_date": "2026-08-24T08:38:27+00:00",
+            "subject": "[GlobalISel] Avoid redundant copies of GEPs results"
         }
     ],
     "nikic\/perf\/licm-promote-fix": [
