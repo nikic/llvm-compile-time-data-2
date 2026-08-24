@@ -1,0 +1,225 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage2.sh" failed
+
+STDOUT:
+[1667/3110] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeTypeEnum.cpp.o
+[1668/3110] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/TpiStreamBuilder.cpp.o
+[1669/3110] Building CXX object lib/DebugInfo/DWARF/CMakeFiles/LLVMDebugInfoDWARF.dir/DWARFVerifier.cpp.o
+[1670/3110] Building CXX object lib/Target/CMakeFiles/LLVMTarget.dir/RegisterTargetPassConfigCallback.cpp.o
+[1671/3110] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/PublicsStream.cpp.o
+[1672/3110] Building CXX object lib/DebugInfo/Symbolize/CMakeFiles/LLVMSymbolize.dir/DIPrinter.cpp.o
+[1673/3110] Building CXX object lib/Target/CMakeFiles/LLVMTarget.dir/Target.cpp.o
+[1674/3110] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/PDBFileBuilder.cpp.o
+[1675/3110] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/PDBFile.cpp.o
+[1676/3110] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/TpiStream.cpp.o
+[1677/3110] Building CXX object lib/Target/CMakeFiles/LLVMTarget.dir/TargetMachineC.cpp.o
+[1678/3110] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/NativeSession.cpp.o
+[1679/3110] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/GSIStreamBuilder.cpp.o
+[1680/3110] Building CXX object lib/DebugInfo/Symbolize/CMakeFiles/LLVMSymbolize.dir/MarkupFilter.cpp.o
+[1681/3110] Building CXX object lib/Target/CMakeFiles/LLVMTarget.dir/TargetLoweringObjectFile.cpp.o
+[1682/3110] Building CXX object lib/DebugInfo/Symbolize/CMakeFiles/LLVMSymbolize.dir/SymbolizableObjectFile.cpp.o
+[1683/3110] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Argument.cpp.o
+[1684/3110] Building CXX object lib/Target/CMakeFiles/LLVMTarget.dir/TargetMachine.cpp.o
+[1685/3110] Building X86GenSDNodeInfo.inc...
+[1686/3110] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/BasicBlock.cpp.o
+[1687/3110] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Constant.cpp.o
+[1688/3110] Building X86GenCallingConv.inc...
+[1689/3110] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Pass.cpp.o
+[1690/3110] Building CXX object lib/DebugInfo/PDB/CMakeFiles/LLVMDebugInfoPDB.dir/Native/SymbolCache.cpp.o
+[1691/3110] Building X86GenAsmWriter.inc...
+[1692/3110] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Function.cpp.o
+[1693/3110] Building X86GenDisassemblerTables.inc...
+[1694/3110] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/PassManager.cpp.o
+[1695/3110] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Module.cpp.o
+[1696/3110] Building X86GenRegisterInfo.inc...
+[1697/3110] Building X86GenAsmWriter1.inc...
+[1698/3110] Building X86GenAsmMatcher.inc...
+[1699/3110] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/User.cpp.o
+[1700/3110] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Type.cpp.o
+[1701/3110] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Use.cpp.o
+[1702/3110] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Value.cpp.o
+[1703/3110] Building CXX object lib/DebugInfo/Symbolize/CMakeFiles/LLVMSymbolize.dir/Symbolize.cpp.o
+[1704/3110] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Region.cpp.o
+[1705/3110] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Tracker.cpp.o
+[1706/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/ETMTraceDecoder.cpp.o
+[1707/3110] Building CXX object lib/AsmParser/CMakeFiles/LLVMAsmParser.dir/AsmParserContext.cpp.o
+[1708/3110] Building CXX object lib/AsmParser/CMakeFiles/LLVMAsmParser.dir/Parser.cpp.o
+[1709/3110] Building CXX object lib/AsmParser/CMakeFiles/LLVMAsmParser.dir/LLLexer.cpp.o
+[1710/3110] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Context.cpp.o
+[1711/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/DataAccessProf.cpp.o
+[1712/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/GCOV.cpp.o
+[1713/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/MemProfCommon.cpp.o
+[1714/3110] Building X86GenGlobalISel.inc...
+[1715/3110] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Instruction.cpp.o
+[1716/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/MemProfSummaryBuilder.cpp.o
+[1717/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/MemProfSummary.cpp.o
+[1718/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/MemProf.cpp.o
+[1719/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/MemProfRadixTree.cpp.o
+[1720/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/IndexedMemProfData.cpp.o
+[1721/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/PGOCtxProfWriter.cpp.o
+[1722/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/InstrProfCorrelator.cpp.o
+[1723/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/SymbolRemappingReader.cpp.o
+[1724/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/PGOCtxProfReader.cpp.o
+[1725/3110] Building X86GenDAGISel.inc...
+[1726/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/InstrProfWriter.cpp.o
+[1727/3110] Building BuiltinsX86.inc...
+[1728/3110] Building BuiltinsX86_64.inc...
+[1729/3110] Building CXX object lib/ProfileData/Coverage/CMakeFiles/LLVMCoverage.dir/CoverageMappingWriter.cpp.o
+[1730/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/ProfileSummaryBuilder.cpp.o
+[1731/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/InstrProf.cpp.o
+[1732/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/ItaniumManglingCanonicalizer.cpp.o
+[1733/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/SampleProf.cpp.o
+[1734/3110] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/AMDGPUTargetParser.cpp.o
+[1735/3110] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/AArch64TargetParser.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and dumped files.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage2/lib/TargetParser -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/TargetParser -I/tmp/llvm-project-build-stage2/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wno-pass-failed -Wmisleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -Xclang -fno-pch-timestamp -flto=thin -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -Winvalid-pch -Xclang -include-pch -Xclang /tmp/llvm-project-build-stage2/lib/Support/CMakeFiles/LLVMSupport.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /tmp/llvm-project-build-stage2/lib/Support/CMakeFiles/LLVMSupport.dir/cmake_pch.hxx -MD -MT lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/AArch64TargetParser.cpp.o -MF lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/AArch64TargetParser.cpp.o.d -o lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/AArch64TargetParser.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/TargetParser/AArch64TargetParser.cpp
+1.	/var/llvm-compile-time-tracker/llvm-project/llvm/lib/TargetParser/AArch64TargetParser.cpp:296:1: current parser token 'void'
+2.	/var/llvm-compile-time-tracker/llvm-project/llvm/lib/TargetParser/AArch64TargetParser.cpp:262:29: LLVM IR generation of declaration 'llvm::AArch64::ExtensionSet::enable'
+3.	/var/llvm-compile-time-tracker/llvm-project/llvm/lib/TargetParser/AArch64TargetParser.cpp:262:29: Generating code for declaration 'llvm::AArch64::ExtensionSet::enable'
+4.	/var/llvm-compile-time-tracker/llvm-project/llvm/lib/TargetParser/AArch64TargetParser.cpp:282:17: LLVM IR generation of compound statement ('{}')
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x00005620d4780bc9 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 121
+1  clang++   0x00005620d477e79c llvm::sys::CleanupOnSignal(unsigned long) + 220
+2  clang++   0x00005620d46c09c8
+3  libc.so.6 0x00007fbab3a65520
+4  clang++   0x00005620d4be71cb clang::CodeGen::ConstantEmitter::tryEmitPrivate(clang::APValue const&, clang::QualType, bool) + 59
+5  clang++   0x00005620d4bea92f clang::CodeGen::ConstantEmitter::emitAbstract(clang::SourceLocation, clang::APValue const&, clang::QualType, bool) + 47
+6  clang++   0x00005620d4b9f1b5 clang::CodeGen::CodeGenFunction::EmitDeclRefLValue(clang::DeclRefExpr const*) + 2853
+7  clang++   0x00005620d4baac37 clang::CodeGen::CodeGenFunction::EmitLValueHelper(clang::Expr const*, clang::CodeGen::KnownNonNull_t) + 1719
+8  clang++   0x00005620d4bab1fe
+9  clang++   0x00005620d7fdbee5 clang::StackExhaustionHandler::runWithSufficientStackSpace(clang::SourceLocation, llvm::function_ref<void ()>) + 69
+10 clang++   0x00005620d4b978c9 clang::CodeGen::CodeGenFunction::EmitReferenceBindingToExpr(clang::Expr const*) + 233
+11 clang++   0x00005620d505515b clang::CodeGen::CodeGenFunction::EmitCallArg(clang::CodeGen::CallArgList&, clang::Expr const*, clang::QualType) + 4539
+12 clang++   0x00005620d5056c69 clang::CodeGen::CodeGenFunction::EmitCallArgs(clang::CodeGen::CallArgList&, clang::CodeGen::CodeGenFunction::PrototypeWrapper, llvm::iterator_range<clang::Stmt::CastIterator<clang::Expr, clang::Expr const* const, clang::Stmt const* const>>, clang::CodeGen::CodeGenFunction::AbstractCallee, unsigned int, clang::CodeGen::CodeGenFunction::EvaluationOrder) + 601
+13 clang++   0x00005620d4bc372a
+14 clang++   0x00005620d4bc3c85 clang::CodeGen::CodeGenFunction::EmitCXXMemberOrOperatorCall(clang::CXXMethodDecl const*, clang::CodeGen::CGCallee const&, clang::CodeGen::ReturnValueSlot, llvm::Value*, llvm::Value*, clang::QualType, clang::CallExpr const*, clang::CodeGen::CallArgList*, llvm::CallBase**) + 309
+15 clang++   0x00005620d4bce107 clang::CodeGen::CodeGenFunction::EmitCXXMemberOrOperatorMemberCallExpr(clang::CallExpr const*, clang::CXXMethodDecl const*, clang::CodeGen::ReturnValueSlot, bool, clang::NestedNameSpecifier, bool, clang::Expr const*, llvm::CallBase**) + 4295
+16 clang++   0x00005620d4bcf24d clang::CodeGen::CodeGenFunction::EmitCXXMemberCallExpr(clang::CXXMemberCallExpr const*, clang::CodeGen::ReturnValueSlot, llvm::CallBase**) + 205
+17 clang++   0x00005620d4ba8e9b clang::CodeGen::CodeGenFunction::EmitCallExpr(clang::CallExpr const*, clang::CodeGen::ReturnValueSlot, llvm::CallBase**) + 171
+18 clang++   0x00005620d4c0f72c
+19 clang++   0x00005620d4c09a7f clang::CodeGen::CodeGenFunction::EmitScalarExpr(clang::Expr const*, bool) + 111
+20 clang++   0x00005620d4b7348f clang::CodeGen::CodeGenFunction::EvaluateExprAsBool(clang::Expr const*) + 351
+21 clang++   0x00005620d4d8b670 clang::CodeGen::CodeGenFunction::EmitBranchOnBoolExpr(clang::Expr const*, llvm::BasicBlock*, llvm::BasicBlock*, unsigned long, clang::Stmt::Likelihood, clang::Expr const*, clang::VarDecl const*) + 208
+22 clang++   0x00005620d4d8bf36 clang::CodeGen::CodeGenFunction::EmitBranchOnBoolExpr(clang::Expr const*, llvm::BasicBlock*, llvm::BasicBlock*, unsigned long, clang::Stmt::Likelihood, clang::Expr const*, clang::VarDecl const*) + 2454
+23 clang++   0x00005620d4d8c14b clang::CodeGen::CodeGenFunction::EmitBranchOnBoolExpr(clang::Expr const*, llvm::BasicBlock*, llvm::BasicBlock*, unsigned long, clang::Stmt::Likelihood, clang::Expr const*, clang::VarDecl const*) + 2987
+24 clang++   0x00005620d4d26dcd clang::CodeGen::CodeGenFunction::EmitIfStmt(clang::IfStmt const&) + 1325
+25 clang++   0x00005620d4d2793b clang::CodeGen::CodeGenFunction::EmitCompoundStmtWithoutScope(clang::CompoundStmt const&, bool, clang::CodeGen::AggValueSlot) + 91
+26 clang++   0x00005620d4d27fc1 clang::CodeGen::CodeGenFunction::EmitSimpleStmt(clang::Stmt const*, llvm::ArrayRef<clang::Attr const*>) + 689
+27 clang++   0x00005620d4d1f0d0 clang::CodeGen::CodeGenFunction::EmitStmt(clang::Stmt const*, llvm::ArrayRef<clang::Attr const*>) + 144
+28 clang++   0x00005620d4d26e66 clang::CodeGen::CodeGenFunction::EmitIfStmt(clang::IfStmt const&) + 1478
+29 clang++   0x00005620d4d2793b clang::CodeGen::CodeGenFunction::EmitCompoundStmtWithoutScope(clang::CompoundStmt const&, bool, clang::CodeGen::AggValueSlot) + 91
+30 clang++   0x00005620d4d873ec clang::CodeGen::CodeGenFunction::EmitFunctionBody(clang::Stmt const*) + 172
+31 clang++   0x00005620d4d9d283 clang::CodeGen::CodeGenFunction::GenerateCode(clang::GlobalDecl, llvm::Function*, clang::CodeGen::CGFunctionInfo const&) + 1107
+32 clang++   0x00005620d4df29ea clang::CodeGen::CodeGenModule::EmitGlobalFunctionDefinition(clang::GlobalDecl, llvm::GlobalValue*) + 2170
+33 clang++   0x00005620d4dec0bc clang::CodeGen::CodeGenModule::EmitGlobalDefinition(clang::GlobalDecl, llvm::GlobalValue*) + 492
+34 clang++   0x00005620d4deccf3 clang::CodeGen::CodeGenModule::EmitGlobal(clang::GlobalDecl) + 2979
+35 clang++   0x00005620d4df70cd
+36 clang++   0x00005620d51551b9
+37 clang++   0x00005620d513fd57 clang::BackendConsumer::HandleTopLevelDecl(clang::DeclGroupRef) + 151
+38 clang++   0x00005620d663decc clang::ParseAST(clang::Sema&, bool, bool) + 508
+39 clang++   0x00005620d54c22f2 clang::FrontendAction::Execute() + 50
+40 clang++   0x00005620d54414cd clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 717
+41 clang++   0x00005620d558b7d8 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+42 clang++   0x00005620d2ffe3e8 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 4632
+43 clang++   0x00005620d2ff636b
+44 clang++   0x00005620d2ff641f
+45 clang++   0x00005620d51d22fd
+46 clang++   0x00005620d46c0d67 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+47 clang++   0x00005620d51d361c
+48 clang++   0x00005620d518a787 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+49 clang++   0x00005620d518eb97 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 295
+50 clang++   0x00005620d51a129c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+51 clang++   0x00005620d2ffb166 clang_main(int, char**, llvm::ToolContext const&) + 7798
+52 clang++   0x00005620d2f4ab01 main + 113
+53 libc.so.6 0x00007fbab3a4cd90
+54 libc.so.6 0x00007fbab3a4ce40 __libc_start_main + 128
+55 clang++   0x00005620d2ff5de5 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 24.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING CRASH REPRODUCER FILES TO THE BUG REPORT:
+clang++: note: diagnostic msg: /tmp/AArch64TargetParser-f27c0b.cpp
+clang++: note: diagnostic msg: /tmp/AArch64TargetParser-f27c0b.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[1736/3110] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/ARMTargetParserCommon.cpp.o
+[1737/3110] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/AVRTargetParser.cpp.o
+[1738/3110] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/ARMTargetParser.cpp.o
+[1739/3110] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/CSKYTargetParser.cpp.o
+[1740/3110] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/LoongArchTargetParser.cpp.o
+[1741/3110] Building CXX object lib/AsmParser/CMakeFiles/LLVMAsmParser.dir/LLParser.cpp.o
+[1742/3110] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/NVPTXTargetParser.cpp.o
+[1743/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/SampleProfWriter.cpp.o
+[1744/3110] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/Host.cpp.o
+[1745/3110] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/PPCTargetParser.cpp.o
+[1746/3110] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/TargetParser.cpp.o
+[1747/3110] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/PassBuilderBindings.cpp.o
+[1748/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/MemProfReader.cpp.o
+[1749/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/InstrProfReader.cpp.o
+[1750/3110] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/SubtargetFeature.cpp.o
+[1751/3110] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o
+[1752/3110] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/XtensaTargetParser.cpp.o
+[1753/3110] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/TargetDataLayout.cpp.o
+[1754/3110] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/Architecture.cpp.o
+[1755/3110] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/ArchitectureSet.cpp.o
+[1756/3110] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/PackedVersion.cpp.o
+[1757/3110] Building CXX object lib/ProfileData/CMakeFiles/LLVMProfileData.dir/SampleProfReader.cpp.o
+[1758/3110] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/X86TargetParser.cpp.o
+[1759/3110] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/RISCVTargetParser.cpp.o
+[1760/3110] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/Platform.cpp.o
+[1761/3110] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/RISCVISAInfo.cpp.o
+[1762/3110] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/TextAPIError.cpp.o
+[1763/3110] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/RecordVisitor.cpp.o
+[1764/3110] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/Symbol.cpp.o
+[1765/3110] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/SymbolSet.cpp.o
+[1766/3110] Building CXX object lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/Triple.cpp.o
+[1767/3110] Linking CXX static library lib/libLLVMTargetParser.a
+FAILED: lib/libLLVMTargetParser.a 
+: && /usr/bin/cmake -E rm -f lib/libLLVMTargetParser.a && /tmp/llvm-project-build-stage1/bin/llvm-ar Dqc lib/libLLVMTargetParser.a  lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/AArch64TargetParser.cpp.o lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/AMDGPUTargetParser.cpp.o lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/ARMTargetParserCommon.cpp.o lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/ARMTargetParser.cpp.o lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/AVRTargetParser.cpp.o lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/CSKYTargetParser.cpp.o lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/Host.cpp.o lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/LoongArchTargetParser.cpp.o lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/NVPTXTargetParser.cpp.o lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/PPCTargetParser.cpp.o lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/RISCVISAInfo.cpp.o lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/RISCVTargetParser.cpp.o lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/SubtargetFeature.cpp.o lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/TargetParser.cpp.o lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/Triple.cpp.o lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/TargetDataLayout.cpp.o lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/X86TargetParser.cpp.o lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/XtensaTargetParser.cpp.o && /tmp/llvm-project-build-stage1/bin/llvm-ranlib -D lib/libLLVMTargetParser.a && :
+/tmp/llvm-project-build-stage1/bin/llvm-ar: error: lib/TargetParser/CMakeFiles/LLVMTargetParser.dir/AArch64TargetParser.cpp.o: No such file or directory
+[1768/3110] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/CodeGenPassBuilder.cpp.o
+[1769/3110] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/Target.cpp.o
+[1770/3110] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/Utils.cpp.o
+[1771/3110] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/TextStubCommon.cpp.o
+[1772/3110] Building CXX object lib/ProfileData/Coverage/CMakeFiles/LLVMCoverage.dir/CoverageMappingReader.cpp.o
+[1773/3110] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/InterfaceFile.cpp.o
+[1774/3110] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/RecordsSlice.cpp.o
+[1775/3110] Building X86GenSubtargetInfo.inc...
+[1776/3110] Building CXX object lib/ProfileData/Coverage/CMakeFiles/LLVMCoverage.dir/CoverageMapping.cpp.o
+[1777/3110] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/TextStubV5.cpp.o
+[1778/3110] Building CXX object lib/TextAPI/BinaryReader/CMakeFiles/LLVMTextAPIBinaryReader.dir/DylibReader.cpp.o
+[1779/3110] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/StandardInstrumentations.cpp.o
+[1780/3110] Building CXX object lib/TextAPI/CMakeFiles/LLVMTextAPI.dir/TextStub.cpp.o
+[1781/3110] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/PassBuilderPipelines.cpp.o
+[1782/3110] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/PassBuilder.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:4 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
