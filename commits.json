@@ -210723,6 +210723,18 @@
             "author_name": "Adam Scott",
             "commit_date": "2026-08-24T14:28:30+08:00",
             "subject": "[X86] Widen non-power-of-two vector div\/rem under strictfp (#217572)"
+        },
+        {
+            "hash": "17a5930373025c8acd5ff393503d0691d3907b92",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-24T08:30:19+02:00",
+            "subject": "ModuloSchedule: Fix using getVRegDef\/getUniqueVRegDef on physregs (#216795)"
+        },
+        {
+            "hash": "3c6519006af45003813933136037c376a23a1338",
+            "author_name": "Marc Auberer",
+            "commit_date": "2026-08-24T08:34:29+02:00",
+            "subject": "[Support] Remove deprecated CTLog2 from MathExtras.h (#218274)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -224407,16 +224419,22 @@
     ],
     "artagnon\/perf\/scev-addmul-wrap-strengthen-cr-ct": [
         {
-            "hash": "e4ab7d421b5beb2f11594953b811e366485175fb",
-            "author_name": "firmiana",
-            "commit_date": "2026-08-21T13:54:08+08:00",
-            "subject": "[lldb] Support i386 Linux TLS thread pointers (DW_OP_form_tls_address) (#216463)"
+            "hash": "b615ebdd35cc1c13d722c81ecf52af990ad29c6a",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-24T06:38:42+01:00",
+            "subject": "[APInt] Extend APIntOps::gcd to take IsSigned argument (#217269)"
         },
         {
-            "hash": "8fba25247658ab469fc54a43864b6531c453f01d",
+            "hash": "cbc26c1a059a1af473ef303ee033b001f068b35f",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-21T13:49:54+01:00",
+            "commit_date": "2026-08-24T07:24:46+01:00",
             "subject": "[SCEV] Strengthen nuw\/nsw on add\/mul with CR"
+        },
+        {
+            "hash": "49a19391747a2c65f07b06e2ed740fa3d08b5781",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-24T07:33:27+01:00",
+            "subject": "[SCEV] Limit expression sz test"
         }
     ],
     "artagnon\/perf\/scev-range-depth-limit": [
