@@ -211521,6 +211521,18 @@
             "author_name": "Nerixyz",
             "commit_date": "2026-08-24T22:30:53+02:00",
             "subject": "[cmake] Fix DIA SDK detection from VSINSTALLDIR (#218499)"
+        },
+        {
+            "hash": "ab9c222cf9ccec462fab80846134d96f7e400396",
+            "author_name": "David Green",
+            "commit_date": "2026-08-24T21:35:24+01:00",
+            "subject": "[AArch64][GlobalISel] Add lowering for s\/umul.fix.sat (#217221)"
+        },
+        {
+            "hash": "eb5115595fee15ebd48f595f6da9bece3de13a9f",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-24T22:36:39+02:00",
+            "subject": "AMDGPU: Add SubArchSpelling override to the TargetParser TableGen (#218500)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -225857,27 +225869,21 @@
     ],
     "fhahn\/perf\/ce-strengthen-flags-zext-sub": [
         {
-            "hash": "ec6c2b51aa702144c65d4a0a60019c6f75471cbd",
-            "author_name": "David Green",
-            "commit_date": "2026-08-24T18:05:22+01:00",
-            "subject": "[AArch64] Cleanup a number of intrinsic test definitions. NFC (#218464)"
+            "hash": "5f98333a1cc6ccca8e00d44fc7a56ca15d2888f4",
+            "author_name": "Ryan Buchner",
+            "commit_date": "2026-08-24T12:40:48-07:00",
+            "subject": "[NFC][TTI] Remove default CostKind from TTI::getArithmeticInstrCost (#218465)"
         },
         {
-            "hash": "00e3a00f5acd203b093ad4eef293b5a32c13be54",
+            "hash": "cb3164c7b1f1fe7637f604743900f389627e5244",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-24T18:19:29+01:00",
+            "commit_date": "2026-08-24T21:35:57+01:00",
             "subject": "[ConstraintElim] Precommit tests for flags strengthening"
         },
         {
-            "hash": "b904e336376bba1521227f763d5e21e35733fdf0",
+            "hash": "f05376e870df0250d4f61b21a90c0a24e907e623",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-24T18:20:13+01:00",
-            "subject": "[ConstraintElim] Materialize sext and sub no-wrap facts as flags."
-        },
-        {
-            "hash": "68d7046a33fb821735146bbc37b610e76acca24b",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-24T18:21:54+01:00",
+            "commit_date": "2026-08-24T21:39:38+01:00",
             "subject": "[ConstraintElim] Strengthen flags on sub."
         }
     ]
