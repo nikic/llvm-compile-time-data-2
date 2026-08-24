@@ -211071,6 +211071,18 @@
             "author_name": "Louis Dionne",
             "commit_date": "2026-08-24T09:58:03-04:00",
             "subject": "[libc++] Revert extra-attempts to original value (#218416)"
+        },
+        {
+            "hash": "014621ede7c175aece29796adcaf5000f891cf0c",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-08-24T16:01:04+02:00",
+            "subject": "[libc++] Implement single element vector::insert in terms of emplace (#210284)"
+        },
+        {
+            "hash": "d1d20ad8ab25bee526a89b5d4414e9e659909101",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-08-24T15:04:22+01:00",
+            "subject": "[GlobalISel] Avoid redundant copies of GEPs results (#218352)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -225299,6 +225311,56 @@
             "author_name": "Frank Denis",
             "commit_date": "2026-08-24T15:14:36+02:00",
             "subject": "Speed up instruction insertion with debug info (NFCI)"
+        }
+    ],
+    "fhahn\/perf\/vps": [
+        {
+            "hash": "4cf50d2eca4496b8ee160a0728899f6586aefafc",
+            "author_name": "Kito Cheng",
+            "commit_date": "2026-08-24T21:18:31+08:00",
+            "subject": "[BOLT][RISCV] Precommit test for a call that links through t0 (#218396)"
+        },
+        {
+            "hash": "ff349faff6b12afe3660d8bfbf6bfddc3c9d8a8a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-24T14:58:47+01:00",
+            "subject": "[VPlan] Add tests for consecutive memory ops not widened in VPlan (NFC)."
+        },
+        {
+            "hash": "904e362bca399324e6ea80de5708709fc88e1424",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-24T14:58:47+01:00",
+            "subject": "[VPlan] Compute SCEV for disjoint OR in getSCEVExprForVPValue."
+        },
+        {
+            "hash": "27d4ef20fedf264ffa80ca2bccef0cd17598fca4",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-24T14:58:48+01:00",
+            "subject": "[VPlan] Compute SCEV through no-op bitcasts in getSCEVExprForVPValue."
+        },
+        {
+            "hash": "e09c1b6a6716c9281c65ee65b7b8cb1a404603fe",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-24T14:58:48+01:00",
+            "subject": "[VPlan] Compute SCEV for SDiv with non-negative operands."
+        },
+        {
+            "hash": "c3f6e3b329464b395546e98adaa47f4235cb2384",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-24T14:58:48+01:00",
+            "subject": "[VPlan] Compute SCEV for the two-shift sign-extend-in-register idiom."
+        },
+        {
+            "hash": "c7efe5ab7bd480282fdd66697f156a4394229ce6",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-24T14:58:48+01:00",
+            "subject": "[VPlan] Compute SCEV for blends with identical incoming values."
+        },
+        {
+            "hash": "db99d66c969cd61409482af0ce3c40df3e48d289",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-24T14:58:49+01:00",
+            "subject": "Cache results"
         }
     ]
 }
