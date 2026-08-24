@@ -210801,6 +210801,30 @@
             "author_name": "Luke Lau",
             "commit_date": "2026-08-24T08:07:49+00:00",
             "subject": "[VectorCombine] Fix foldBitcastOfVPLoad reordering loads (#218336)"
+        },
+        {
+            "hash": "297354b40f012fc508c92b88d7ecdf2dd048af28",
+            "author_name": "Nerixyz",
+            "commit_date": "2026-08-24T09:21:10+01:00",
+            "subject": "[lldb] Create mock type systems in array for deterministic order (#218009)"
+        },
+        {
+            "hash": "938e6446b0392a2bdebdab17fd1bf74afea4ea64",
+            "author_name": "David Spickett",
+            "commit_date": "2026-08-24T09:25:58+01:00",
+            "subject": "[lldb][debugserver] Handle breakpoint prior to addr in RemoveTrapsFromBuffer (#217851)"
+        },
+        {
+            "hash": "8ab2745ce76041a0404c36aea5c37160f10d8840",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-08-24T10:26:00+02:00",
+            "subject": "[MemCpyOpt] Don't perform stack-move opt for out-of-bounds copy (#217607)"
+        },
+        {
+            "hash": "d8ec70dc8db9b55d3185970be56efdf7066d89fe",
+            "author_name": "David Spickett",
+            "commit_date": "2026-08-24T09:26:21+01:00",
+            "subject": "[lldb][debugserver] Fix bugs in FindBreakpointsThatOverlapRange (#217837)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -213035,15 +213059,15 @@
     ],
     "nikic\/perf\/remove-special-new-handling": [
         {
-            "hash": "01c93f511b4b5f734ac420709266036497610014",
-            "author_name": "Nikita Popov",
-            "commit_date": "2026-05-29T09:00:35+02:00",
-            "subject": "[Clang] Mark new as inaccessiblememonly if sane (#197199)"
+            "hash": "44da05440681ca36be62e3e7bac489a74fe512ac",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-24T09:58:28+02:00",
+            "subject": "RISCV: Fix VectorPeephole null dereference on an undef vmerge true operand (#218328)"
         },
         {
-            "hash": "1c908ed019bea5b6375255ed7a4850355efd6a45",
+            "hash": "38d08912d79f0cb7593e08640e0b2d66e17f074a",
             "author_name": "Nikita Popov",
-            "commit_date": "2026-05-29T09:11:15+02:00",
+            "commit_date": "2026-08-24T10:08:49+02:00",
             "subject": "[BasicAA] Remove special malloc handling"
         }
     ],
@@ -223725,15 +223749,15 @@
     ],
     "artagnon\/perf\/scev-sdiv": [
         {
-            "hash": "2d697458ac3f472e666b7f47586da362839cfacb",
+            "hash": "b615ebdd35cc1c13d722c81ecf52af990ad29c6a",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-19T11:39:31+01:00",
-            "subject": "[SCEV] Directly use NUW on mul in getUDivExpr (NFC) (#217235)"
+            "commit_date": "2026-08-24T06:38:42+01:00",
+            "subject": "[APInt] Extend APIntOps::gcd to take IsSigned argument (#217269)"
         },
         {
-            "hash": "2dce24dfe1183ddd44f165c5e8c9e469cf768930",
+            "hash": "3a8c1065a524c11e7e1ff288f74f7a197147c41a",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-20T04:12:53+01:00",
+            "commit_date": "2026-08-24T09:13:09+01:00",
             "subject": "[SCEV] Introduce SDiv expressions"
         }
     ],
