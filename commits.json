@@ -211023,6 +211023,24 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-08-24T15:12:09+02:00",
             "subject": "[BasicAA] Remove special malloc handling (#197180)"
+        },
+        {
+            "hash": "b28db577d7d30ab969942c5ab274c62fc9e774cf",
+            "author_name": "Kai Nacke",
+            "commit_date": "2026-08-24T09:12:58-04:00",
+            "subject": "[SystemZ][z\/OS] Support emitting common symbols in HLASM (#215278)"
+        },
+        {
+            "hash": "3ba9584001d1b5fc718a0d5dc889769227aff655",
+            "author_name": "Kai Nacke",
+            "commit_date": "2026-08-24T09:13:27-04:00",
+            "subject": "[SystemZ][z\/OS] Fix crash when personality function is null (#217947)"
+        },
+        {
+            "hash": "4cf50d2eca4496b8ee160a0728899f6586aefafc",
+            "author_name": "Kito Cheng",
+            "commit_date": "2026-08-24T21:18:31+08:00",
+            "subject": "[BOLT][RISCV] Precommit test for a call that links through t0 (#218396)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -213243,15 +213261,15 @@
     ],
     "nikic\/perf\/call-sync": [
         {
-            "hash": "e51bb36f668be06089d27ba0f14d1aeedc413584",
-            "author_name": "Nikita Popov",
-            "commit_date": "2026-05-12T09:16:49+02:00",
-            "subject": "[AA] Respect potential synchronization effects of inline asm (#196965)"
+            "hash": "3ba9584001d1b5fc718a0d5dc889769227aff655",
+            "author_name": "Kai Nacke",
+            "commit_date": "2026-08-24T09:13:27-04:00",
+            "subject": "[SystemZ][z\/OS] Fix crash when personality function is null (#217947)"
         },
         {
-            "hash": "43b0aa06ee91464c05a30266693967d944715ba7",
+            "hash": "8cb49235faf152377b3f64057f5428c3c2377295",
             "author_name": "Nikita Popov",
-            "commit_date": "2026-05-12T13:09:27+02:00",
+            "commit_date": "2026-08-24T15:19:26+02:00",
             "subject": "[AA] Respect synchronization effects of arbitrary calls"
         }
     ],
@@ -225223,6 +225241,34 @@
             "author_name": "Steffen Holst Larsen",
             "commit_date": "2026-08-24T07:18:09-05:00",
             "subject": "[Support] Optimize the FoldingSet implementation"
+        }
+    ],
+    "antoniofrighetto\/perf\/basicaa-minabs-unequal-scales": [
+        {
+            "hash": "be7eff95e930f15745c64242ce35c07b1dc08803",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-08-24T15:12:09+02:00",
+            "subject": "[BasicAA] Remove special malloc handling (#197180)"
+        },
+        {
+            "hash": "8b8b052c52d32e4d48f8e7b937ed471843040acf",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-08-24T15:15:58+02:00",
+            "subject": "[BasicAA] Extend two-variable MinAbsVarIndex heuristic to different scales"
+        }
+    ],
+    "nikic\/perf\/debug-slotindex": [
+        {
+            "hash": "519f6c146e4318ba96746432ae7fd428ae64acfc",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-08-24T14:58:32+02:00",
+            "subject": "[FunctionAttrs] Handle nofreeobj (#218364)"
+        },
+        {
+            "hash": "2411a24c3f599e9e26e9c6abe1ff4d92c0d5174c",
+            "author_name": "Frank Denis",
+            "commit_date": "2026-08-24T15:14:36+02:00",
+            "subject": "Speed up instruction insertion with debug info (NFCI)"
         }
     ]
 }
