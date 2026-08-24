@@ -211341,6 +211341,12 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-08-24T10:18:49-07:00",
             "subject": "[SPIRV] Introduce CodeGenPassBuilder"
+        },
+        {
+            "hash": "340fd2eb513bc7cfe042a8d6d11934c2093dc995",
+            "author_name": "PiJoules",
+            "commit_date": "2026-08-24T10:27:37-07:00",
+            "subject": "[clang] Gate llvm-mt on if libxml2 is provided (#217771)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -225673,6 +225679,32 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-24T18:20:13+01:00",
             "subject": "[ConstraintElim] Materialize sext and sub no-wrap facts as flags."
+        }
+    ],
+    "fhahn\/perf\/ce-strengthen-flags-zext-sub": [
+        {
+            "hash": "ec6c2b51aa702144c65d4a0a60019c6f75471cbd",
+            "author_name": "David Green",
+            "commit_date": "2026-08-24T18:05:22+01:00",
+            "subject": "[AArch64] Cleanup a number of intrinsic test definitions. NFC (#218464)"
+        },
+        {
+            "hash": "00e3a00f5acd203b093ad4eef293b5a32c13be54",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-24T18:19:29+01:00",
+            "subject": "[ConstraintElim] Precommit tests for flags strengthening"
+        },
+        {
+            "hash": "b904e336376bba1521227f763d5e21e35733fdf0",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-24T18:20:13+01:00",
+            "subject": "[ConstraintElim] Materialize sext and sub no-wrap facts as flags."
+        },
+        {
+            "hash": "68d7046a33fb821735146bbc37b610e76acca24b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-24T18:21:54+01:00",
+            "subject": "[ConstraintElim] Strengthen flags on sub."
         }
     ]
 }
