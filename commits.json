@@ -211311,6 +211311,36 @@
             "author_name": "Ryan Buchner",
             "commit_date": "2026-08-24T17:11:27+00:00",
             "subject": "[NFC][TTI] Remove default CostKind from TTI::getShuffleCost() (#217996)"
+        },
+        {
+            "hash": "d27d0a378c92806f9d07c3c189d6921b14834bc7",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-08-24T10:13:59-07:00",
+            "subject": "[SPIRV] Mark NewPM Passes RequirePassInfoMixin"
+        },
+        {
+            "hash": "f5c85f72a62ac9a2595837695f6d44eee7293cf3",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-08-24T10:17:00-07:00",
+            "subject": "[SPIRV] Move NewPM pass definitions to SPIRV.h"
+        },
+        {
+            "hash": "830c9d84e9ac5c57f53e5fc8770a892336e9b64d",
+            "author_name": "Jinsong Ji",
+            "commit_date": "2026-08-24T13:17:47-04:00",
+            "subject": "[NFC][DirectX] Fix GCC 7 build failure caused by a6d7b2f5a931 (#218297)"
+        },
+        {
+            "hash": "57326fc851bd5aab694c1a9b505ee4c2fffdbc98",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-08-24T10:18:05-07:00",
+            "subject": "[SPIRV] Add Pass suffix to NewPM Passes"
+        },
+        {
+            "hash": "46baa5b797904b8f9951bf77f7a95538870bbbea",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-08-24T10:18:49-07:00",
+            "subject": "[SPIRV] Introduce CodeGenPassBuilder"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -225623,6 +225653,26 @@
             "author_name": "Yingwei Zheng",
             "commit_date": "2026-08-24T23:45:16+08:00",
             "subject": "test2"
+        }
+    ],
+    "fhahn\/perf\/ce-strengthen-flags-zext": [
+        {
+            "hash": "ec6c2b51aa702144c65d4a0a60019c6f75471cbd",
+            "author_name": "David Green",
+            "commit_date": "2026-08-24T18:05:22+01:00",
+            "subject": "[AArch64] Cleanup a number of intrinsic test definitions. NFC (#218464)"
+        },
+        {
+            "hash": "00e3a00f5acd203b093ad4eef293b5a32c13be54",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-24T18:19:29+01:00",
+            "subject": "[ConstraintElim] Precommit tests for flags strengthening"
+        },
+        {
+            "hash": "b904e336376bba1521227f763d5e21e35733fdf0",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-24T18:20:13+01:00",
+            "subject": "[ConstraintElim] Materialize sext and sub no-wrap facts as flags."
         }
     ]
 }
