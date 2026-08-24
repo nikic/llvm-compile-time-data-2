@@ -210969,6 +210969,24 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-08-24T13:57:08+02:00",
             "subject": "AArch64: Fix MIPeepholeOpt null dereference on undef source operands (#218291)"
+        },
+        {
+            "hash": "e90b123a872630f1b26d5507e05227a2447e4189",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-24T12:10:29+00:00",
+            "subject": "[LAA] Add additional tests for incorrect negative stride handling (NFC) (#218376)"
+        },
+        {
+            "hash": "254216afbfdc6f7835d23041e517f6e1eeb1b856",
+            "author_name": "Akash Dutta",
+            "commit_date": "2026-08-24T07:15:26-05:00",
+            "subject": "[SLP] Only reject store chains with too many non-benign outside users (#215700)"
+        },
+        {
+            "hash": "e33cbe0b35bc36c1e94ce0ad1d8bd4ca939d6561",
+            "author_name": "Kerry McLaughlin",
+            "commit_date": "2026-08-24T13:15:50+01:00",
+            "subject": "[LV] Rename replaceMaskWithCompare -> replaceMaskWithCompareForScalarPlan (#216340)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -220305,6 +220323,30 @@
             "author_name": "Tom Stellard",
             "commit_date": "2026-08-23T19:17:06+00:00",
             "subject": "workflows\/release-binaries: Install Wix on Windows ARM64 (#217707)"
+        },
+        {
+            "hash": "4e7f3f4e073d16dece9a78bb53ff0dace142d1ac",
+            "author_name": "Dan Liew",
+            "commit_date": "2026-08-24T12:07:12+00:00",
+            "subject": "[NFC][BoundsSafety] Give `counted_by_or_null`, `sized_by`, and `sized_by_or_null` their own documentation (#212877)"
+        },
+        {
+            "hash": "f54c0c47aa71103da3550ebb8b515ca204b9d38e",
+            "author_name": "David Green",
+            "commit_date": "2026-08-24T12:13:22+00:00",
+            "subject": "[AArch64] Do not allow anyext load in isEquivalentMaskless (#216288)"
+        },
+        {
+            "hash": "f919c6db2ac765e1b0a915579d9be42e6a810b1e",
+            "author_name": "Tom Eccles",
+            "commit_date": "2026-08-24T12:24:34+00:00",
+            "subject": "Revert \"workflows\/release-binaries: Disable flang on Darwin (#164667)\" (#216667)"
+        },
+        {
+            "hash": "4b5c875ffe73f79ba1167a9aadf75d5d508a494a",
+            "author_name": "Ahmed Bougacha",
+            "commit_date": "2026-08-24T12:25:27+00:00",
+            "subject": "[AArch64][FastISel] Avoid TBZ with SLH more thoroughly. (#217329)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
@@ -225039,10 +225081,10 @@
             "subject": "2"
         },
         {
-            "hash": "0b234d61571651fa7a6fc345e8b078233aa910d4",
+            "hash": "6eac73d80eadc29b45cc7345c967939f82c976ff",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-24T11:05:22+02:00",
-            "subject": "asdf"
+            "commit_date": "2026-08-24T14:06:41+02:00",
+            "subject": "classify"
         }
     ],
     "fhahn\/perf\/scev-exp-reuse-consts": [
@@ -225107,6 +225149,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-08-24T11:00:02+02:00",
             "subject": "only combine bfi with profile data"
+        }
+    ],
+    "steffenlarsen\/perf\/steffen\/folding_set_opt": [
+        {
+            "hash": "8c835ee87def288eca2587293499008dce54c4e7",
+            "author_name": "Timur Golubovich",
+            "commit_date": "2026-07-27T15:25:29+02:00",
+            "subject": "[VectorCombine] Align shrinkLoadForShuffles to register boundaries (#209775)"
+        },
+        {
+            "hash": "20a8a850b01373ab7e71155a324d06cf5236b73b",
+            "author_name": "Steffen Holst Larsen",
+            "commit_date": "2026-08-24T07:18:09-05:00",
+            "subject": "[Support] Optimize the FoldingSet implementation"
         }
     ]
 }
