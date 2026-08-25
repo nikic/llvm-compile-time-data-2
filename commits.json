@@ -211917,6 +211917,30 @@
             "author_name": "Artem Gindinson",
             "commit_date": "2026-08-25T10:12:59+02:00",
             "subject": "[mlir][Tensor] Preserve correct rank expansions in InsertSlice canonicalizer (#217361)"
+        },
+        {
+            "hash": "a6eb1e1e75a2d29f8f458c6ee513ae5b030ff9a0",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-08-25T09:22:23+01:00",
+            "subject": "[X86] LowerAVXCONCAT_VECTORS - fix some clang-format messiness. NFC. (#218504)"
+        },
+        {
+            "hash": "1769f04c0f38f37e139322e6b822ade8433b179c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-25T09:22:33+01:00",
+            "subject": "[VPlan] Add test for miscompile due to select VPlan fold (NFC). (#218516)"
+        },
+        {
+            "hash": "c254a1ee0d641dcddff201c71ae2dbc682d89391",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-08-25T10:23:58+02:00",
+            "subject": "[libc++][NFC] Remove vector::__base_destruct_at_end (#217631)"
+        },
+        {
+            "hash": "3396be2daea07ceee6a2caa74e01ab0faca227d6",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-08-25T10:25:13+02:00",
+            "subject": "[libc++] Optimize vector growth for nothrow move constructible types (#214690)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
