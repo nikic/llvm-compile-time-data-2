@@ -1,0 +1,236 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[1133/3385] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/OpenMPOpt.cpp.o
+[1134/3385] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/PartialInlining.cpp.o
+[1135/3385] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/SampleContextTracker.cpp.o
+[1136/3385] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/SampleProfile.cpp.o
+[1137/3385] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/SampleProfileMatcher.cpp.o
+[1138/3385] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/SampleProfileProbe.cpp.o
+[1139/3385] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/SCCP.cpp.o
+[1140/3385] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/StripDeadPrototypes.cpp.o
+[1141/3385] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/StripSymbols.cpp.o
+[1142/3385] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/ThinLTOBitcodeWriter.cpp.o
+[1143/3385] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/WholeProgramDevirt.cpp.o
+[1144/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopIdiomRecognize.cpp.o
+[1145/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopVersioningLICM.cpp.o
+[1146/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/PlaceSafepoints.cpp.o
+[1147/3385] Building AArch64GenGlobalISel.inc...
+[1148/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/NaryReassociate.cpp.o
+[1149/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/Interval.cpp.o
+[1150/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopUnrollPass.cpp.o
+[1151/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/Scalarizer.cpp.o
+[1152/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/ScalarizeMaskedMemIntrin.cpp.o
+[1153/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LowerMatrixIntrinsics.cpp.o
+[1154/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/Passes/RegionsFromBBs.cpp.o
+[1155/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/Passes/RegionsFromMetadata.cpp.o
+[1156/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/StraightLineStrengthReduce.cpp.o
+[1157/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/Passes/TransactionAcceptOrRevert.cpp.o
+[1158/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/Passes/TransactionSave.cpp.o
+[1159/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/RegionWithScore.cpp.o
+[1160/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/LoopIdiomVectorize.cpp.o
+[1161/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/LoopVectorizationPlanner.cpp.o
+[1162/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/StructurizeCFG.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Scalar/StructurizeCFG.cpp:18:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RegionInfo.h:898:41: warning: type attributes ignored after type is already defined [-Wattributes]
+  898 | extern template class LLVM_TEMPLATE_ABI RegionBase<RegionTraits<Function>>;
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RegionInfo.h:899:41: warning: type attributes ignored after type is already defined [-Wattributes]
+  899 | extern template class LLVM_TEMPLATE_ABI RegionNodeBase<RegionTraits<Function>>;
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1163/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/InstrMaps.cpp.o
+[1164/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/LoadStoreVectorizer.cpp.o
+[1165/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/DependencyGraph.cpp.o
+[1166/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/LoopVectorizationLegality.cpp.o
+[1167/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer/SLPCostAnalysis.cpp.o
+[1168/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/LoopStrengthReduce.cpp.o
+[1169/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/Legality.cpp.o
+[1170/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/Vectorize.cpp.o
+[1171/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/SimpleLoopUnswitch.cpp.o
+[1172/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/Passes/PackReuse.cpp.o
+[1173/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/SandboxVectorizer.cpp.o
+[1174/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/Passes/BundleVec.cpp.o
+[1175/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/SROA.cpp.o
+[1176/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/Passes/LoadStoreVec.cpp.o
+[1177/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/Passes/SeedCollection.cpp.o
+[1178/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/SandboxVectorizerIR.cpp.o
+[1179/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/SandboxVectorizerPassBuilder.cpp.o
+[1180/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/Scheduler.cpp.o
+[1181/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/SeedCollector.cpp.o
+[1182/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/VecUtils.cpp.o
+[1183/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer/SLPCompatibilityAnalysis.cpp.o
+[1184/3385] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ObjCARC.cpp.o
+[1185/3385] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ObjCARCOpts.cpp.o
+[1186/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer/SLPUtils.cpp.o
+[1187/3385] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ObjCARCExpand.cpp.o
+[1188/3385] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ObjCARCContract.cpp.o
+[1189/3385] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/DependencyAnalysis.cpp.o
+[1190/3385] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ProvenanceAnalysis.cpp.o
+[1191/3385] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ProvenanceAnalysisEvaluator.cpp.o
+[1192/3385] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/PtrState.cpp.o
+[1193/3385] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/Coroutines.cpp.o
+[1194/3385] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroAnnotationElide.cpp.o
+[1195/3385] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroCleanup.cpp.o
+[1196/3385] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroConditionalWrapper.cpp.o
+[1197/3385] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroEarly.cpp.o
+[1198/3385] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroElide.cpp.o
+[1199/3385] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroFrame.cpp.o
+[1200/3385] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroSplit.cpp.o
+[1201/3385] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/SuspendCrossingInfo.cpp.o
+[1202/3385] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/SpillUtils.cpp.o
+[1203/3385] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/MaterializationUtils.cpp.o
+[1204/3385] Building CXX object lib/Transforms/CFGuard/CMakeFiles/LLVMCFGuard.dir/CFGuard.cpp.o
+[1205/3385] Building CXX object lib/Transforms/HipStdPar/CMakeFiles/LLVMHipStdPar.dir/HipStdPar.cpp.o
+[1206/3385] Building CXX object lib/Linker/CMakeFiles/LLVMLinker.dir/IRMover.cpp.o
+[1207/3385] Building CXX object lib/Linker/CMakeFiles/LLVMLinker.dir/LinkModules.cpp.o
+[1208/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AliasAnalysis.cpp.o
+[1209/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AliasAnalysisEvaluator.cpp.o
+[1210/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/Analysis.cpp.o
+[1211/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AssumeBundleQueries.cpp.o
+[1212/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AssumptionCache.cpp.o
+[1213/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/BasicAliasAnalysis.cpp.o
+[1214/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/BlockFrequencyInfo.cpp.o
+[1215/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/BlockFrequencyInfoImpl.cpp.o
+[1216/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/BranchProbabilityInfo.cpp.o
+[1217/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CFG.cpp.o
+[1218/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CFGPrinter.cpp.o
+[1219/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CFGSCCPrinter.cpp.o
+[1220/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CGSCCPassManager.cpp.o
+[1221/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CallGraph.cpp.o
+[1222/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanDominatorTree.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanDominatorTree.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanDominatorTree.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/DominanceFrontier.h:130:5: warning: type attributes ignored after type is already defined [-Wattributes]
+  130 |     DominanceFrontierBase<BasicBlock, false>;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1223/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CallPrinter.cpp.o
+[1224/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CaptureTracking.cpp.o
+[1225/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CmpInstAnalysis.cpp.o
+[1226/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CostModel.cpp.o
+[1227/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CodeMetrics.cpp.o
+[1228/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanAnalysis.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanDominatorTree.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanAnalysis.cpp:12:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/DominanceFrontier.h:130:5: warning: type attributes ignored after type is already defined [-Wattributes]
+  130 |     DominanceFrontierBase<BasicBlock, false>;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1229/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CtxProfAnalysis.cpp.o
+[1230/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CycleAnalysis.cpp.o
+[1231/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AliasSetTracker.cpp.o
+FAILED: lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AliasSetTracker.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DHAS_LOGF128 -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Analysis -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AliasSetTracker.cpp.o -MF lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AliasSetTracker.cpp.o.d -o lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AliasSetTracker.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/AliasSetTracker.cpp
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/AliasSetTracker.cpp: In member function ‘void llvm::AliasSetTracker::addWithoutAATags(llvm::StoreInst*)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/AliasSetTracker.cpp:336:31: error: ‘ModAccess’ is not a member of ‘llvm::AliasSet’
+  336 |                     AliasSet::ModAccess);
+      |                               ^~~~~~~~~
+[1232/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CallGraphSCCPass.cpp.o
+[1233/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanEVLTailFolding.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanDominatorTree.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanHelpers.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanEVLTailFolding.cpp:18:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/DominanceFrontier.h:130:5: warning: type attributes ignored after type is already defined [-Wattributes]
+  130 |     DominanceFrontierBase<BasicBlock, false>;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1234/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanLowering.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanDominatorTree.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanLowering.cpp:19:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/DominanceFrontier.h:130:5: warning: type attributes ignored after type is already defined [-Wattributes]
+  130 |     DominanceFrontierBase<BasicBlock, false>;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1235/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanPredicator.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanDominatorTree.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanPredicator.cpp:17:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/DominanceFrontier.h:130:5: warning: type attributes ignored after type is already defined [-Wattributes]
+  130 |     DominanceFrontierBase<BasicBlock, false>;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1236/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanVerifier.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanDominatorTree.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanVerifier.cpp:18:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/DominanceFrontier.h:130:5: warning: type attributes ignored after type is already defined [-Wattributes]
+  130 |     DominanceFrontierBase<BasicBlock, false>;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1237/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlan.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanDominatorTree.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.cpp:22:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/DominanceFrontier.h:130:5: warning: type attributes ignored after type is already defined [-Wattributes]
+  130 |     DominanceFrontierBase<BasicBlock, false>;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1238/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanUnroll.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanDominatorTree.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanHelpers.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanUnroll.cpp:18:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/DominanceFrontier.h:130:5: warning: type attributes ignored after type is already defined [-Wattributes]
+  130 |     DominanceFrontierBase<BasicBlock, false>;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1239/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanConstruction.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanDominatorTree.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanConstruction.cpp:18:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/DominanceFrontier.h:130:5: warning: type attributes ignored after type is already defined [-Wattributes]
+  130 |     DominanceFrontierBase<BasicBlock, false>;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1240/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/LoopVectorize.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanDominatorTree.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanHelpers.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp:62:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/DominanceFrontier.h:130:5: warning: type attributes ignored after type is already defined [-Wattributes]
+  130 |     DominanceFrontierBase<BasicBlock, false>;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1241/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DDG.cpp.o
+[1242/3385] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ConstantFolding.cpp.o
+[1243/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VectorCombine.cpp.o
+[1244/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanRecipes.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanDominatorTree.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanHelpers.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanRecipes.cpp:16:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/DominanceFrontier.h:130:5: warning: type attributes ignored after type is already defined [-Wattributes]
+  130 |     DominanceFrontierBase<BasicBlock, false>;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1245/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanUtils.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanDominatorTree.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanUtils.cpp:13:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/DominanceFrontier.h:130:5: warning: type attributes ignored after type is already defined [-Wattributes]
+  130 |     DominanceFrontierBase<BasicBlock, false>;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1246/3385] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/AttributorAttributes.cpp.o
+[1247/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanTransforms.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanDominatorTree.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanTransforms.cpp:19:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/DominanceFrontier.h:130:5: warning: type attributes ignored after type is already defined [-Wattributes]
+  130 |     DominanceFrontierBase<BasicBlock, false>;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1248/3385] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:4 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/lld/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+1720.33user 76.56system 2:19.11elapsed 1291%CPU (0avgtext+0avgdata 2255716maxresident)k
+0inputs+3705104outputs (1968major+46116231minor)pagefaults 0swaps
