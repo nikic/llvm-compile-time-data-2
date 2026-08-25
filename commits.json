@@ -212085,6 +212085,18 @@
             "author_name": "Nikolas Klauser",
             "commit_date": "2026-08-25T13:29:57+02:00",
             "subject": "[libc++][NFC] Rename is_trivially_relocatable.h to is_relocatable.h (#218650)"
+        },
+        {
+            "hash": "229e463736d45f526bcd253a74f5e3ce8b12e0f4",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-08-25T07:36:13-04:00",
+            "subject": "[SLP][NFC]Fix a long standing compilation warning for different comparison signs, NFC"
+        },
+        {
+            "hash": "6b9e089c69ae037dede1ed34936ad04d3303c15d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-25T12:38:05+01:00",
+            "subject": "[SCEV] Reuse getWithOperands in computeAndSetCanonical (NFC) (#218497)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -224699,6 +224711,12 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-08-25T12:55:38+02:00",
             "subject": "Cache HasTrivialDtor"
+        },
+        {
+            "hash": "c3394e4bf4034191cb90ebfcb3fd37ee614e6350",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-08-25T13:34:43+02:00",
+            "subject": "primitive ctors"
         }
     ],
     "aengelke\/perf\/MaskRay-pr\/codegen-pass-builder-devirt": [
