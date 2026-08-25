@@ -211845,6 +211845,36 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-08-25T09:24:12+02:00",
             "subject": "[Clang] Mark indirect arguments as nofreeobj instead of nofree (#218404)"
+        },
+        {
+            "hash": "525dff66c289d366229a25c8dd4a54660ee07998",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-08-25T09:24:28+02:00",
+            "subject": "[InstCombine] Add comment on multi-use for indexed compare fold (NFC) (#218434)"
+        },
+        {
+            "hash": "65d6b72e5e1260ff0281475a0c0772f75c6a3551",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-25T08:29:40+01:00",
+            "subject": "[VPlan] Add tests for consecutive memory ops not widened in VPlan (NFC). (#218501)"
+        },
+        {
+            "hash": "4a1c14678024d9b424cbca33774afdccdb14019e",
+            "author_name": "Oscar Priego",
+            "commit_date": "2026-08-25T09:32:25+02:00",
+            "subject": "[X86] Fix NaN handling in minimumnum\/maximumnum zero fixup (#217420)"
+        },
+        {
+            "hash": "2c4d1df4312ba9351513a08e2b854476c0110a89",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-08-25T17:32:44+10:00",
+            "subject": "[ORC] Harmonize the SimpleRemoteEPC hangup protocol (#218586)"
+        },
+        {
+            "hash": "2e7fff907c4192e4aa4efde3d34f34e0cc037df8",
+            "author_name": "Frank Denis",
+            "commit_date": "2026-08-25T09:33:43+02:00",
+            "subject": "[CodeGen] Speed up instruction insertion with debug info (NFCI) (#218373)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -226215,6 +226245,34 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-24T21:39:38+01:00",
             "subject": "[ConstraintElim] Strengthen flags on sub."
+        }
+    ],
+    "nikic\/perf\/gvn-visited-worklist": [
+        {
+            "hash": "3ba9584001d1b5fc718a0d5dc889769227aff655",
+            "author_name": "Kai Nacke",
+            "commit_date": "2026-08-24T09:13:27-04:00",
+            "subject": "[SystemZ][z\/OS] Fix crash when personality function is null (#217947)"
+        },
+        {
+            "hash": "4cd16000f2dc9b1904807d77011684e4aa8e23ce",
+            "author_name": "Katy Thackray",
+            "commit_date": "2026-08-25T09:26:02+02:00",
+            "subject": "Combine visited and worklist in PropagateEquality"
+        }
+    ],
+    "steffenlarsen\/perf\/steffen\/alloca_opts": [
+        {
+            "hash": "8c835ee87def288eca2587293499008dce54c4e7",
+            "author_name": "Timur Golubovich",
+            "commit_date": "2026-07-27T15:25:29+02:00",
+            "subject": "[VectorCombine] Align shrinkLoadForShuffles to register boundaries (#209775)"
+        },
+        {
+            "hash": "ca9b99ca3fe9cd591ead9261026fdd6655ffa42c",
+            "author_name": "Steffen Holst Larsen",
+            "commit_date": "2026-08-25T02:21:13-05:00",
+            "subject": "WIP"
         }
     ]
 }
