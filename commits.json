@@ -227986,5 +227986,37 @@
             "commit_date": "2026-08-26T13:50:49+01:00",
             "subject": "[SCEV] Find existing AR in cache in getAR (NFC)"
         }
+    ],
+    "fhahn\/perf\/ce-improvements": [
+        {
+            "hash": "f3d9e7721e5ac2e16e1564127e2778859d0b45f2",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-08-26T12:40:40+02:00",
+            "subject": "[AMDGPU] Fix PromoteAlloca miscompile of invariant marker intrinsics (#217029)"
+        },
+        {
+            "hash": "80fd439b6301cb2dd611342a3e2124bca623666f",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-26T13:59:47+01:00",
+            "subject": "[ConstraintElim] Add absolute upper bounds for lshr and udiv."
+        },
+        {
+            "hash": "4486bf11b6354bf60601197c3949828b5ad264cd",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-26T13:59:47+01:00",
+            "subject": "[ConstraintElim] Add absolute upper bound for and with constant operand."
+        },
+        {
+            "hash": "40c211d876abd4d1572477f77a2749d873a73fd1",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-26T13:59:48+01:00",
+            "subject": "[InstCombine] Preserve no-wrap flags in trunc (shl X, C) fold."
+        },
+        {
+            "hash": "1b888f35c2f4bbfcb7d2ef2ca3fd2a8b200d1bb0",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-26T13:59:48+01:00",
+            "subject": "Step"
+        }
     ]
 }
