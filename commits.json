@@ -213411,6 +213411,24 @@
             "author_name": "Mehdi Amini",
             "commit_date": "2026-08-26T14:40:39+02:00",
             "subject": "[mlir][Bufferization] Separate AllocTensorOp properties from discardable attribute in assembly (#218914)"
+        },
+        {
+            "hash": "180a0fc57c88e588388114473fc7e062acecf7d4",
+            "author_name": "Matthias Springer",
+            "commit_date": "2026-08-26T12:45:53+00:00",
+            "subject": "[mlir][IR] Fix symbol visibility API (#218910)"
+        },
+        {
+            "hash": "cae2f656a8fc636b3794ac5a6a6208ebda9162ed",
+            "author_name": "Joseph Huber",
+            "commit_date": "2026-08-26T07:46:13-05:00",
+            "subject": "[Offload] Add rpath to LLVM libs if dynamically linked (#215557)"
+        },
+        {
+            "hash": "73e729f7b2f030390095db1eaa162cbd666be3e7",
+            "author_name": "Patryk Wychowaniec",
+            "commit_date": "2026-08-26T12:52:41+00:00",
+            "subject": "[AVR] Support stack realignment (#187129)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -227615,16 +227633,16 @@
     ],
     "fhahn\/perf\/scev-exp-reuse-consts": [
         {
-            "hash": "62b1dce2e660c48407289bc921871590e68e83a9",
-            "author_name": "Hyunjun Shin",
-            "commit_date": "2026-08-23T08:37:04+00:00",
-            "subject": "[mlir][tensor][bufferization] Preserve memory space for tensor.concat (#213528)"
+            "hash": "6f217343afdb2d940c8b1ed6f638549f99d33292",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-08-26T07:48:42-04:00",
+            "subject": "[libc++] Remove confusing summary (#218897)"
         },
         {
-            "hash": "a620e7bdd39d4cbaf3e4fabf31573720a7370f15",
+            "hash": "93a9cb1aeddabf683d4065b87fc0f42a0eaa519a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-23T10:17:09+01:00",
-            "subject": "[SCEVExpander] Reuse a recurrence a constant factor away from the AddRec"
+            "commit_date": "2026-08-26T13:43:35+01:00",
+            "subject": "[SCEVExpander] Reuse unscaled recurrence when expanding scaled one."
         }
     ],
     "MaskRay\/perf\/foldingset-algr2": [
@@ -227953,6 +227971,20 @@
             "author_name": "Steffen Holst Larsen",
             "commit_date": "2026-08-26T03:17:29-05:00",
             "subject": "[Clang][AST] Make Decl reference attributes directly"
+        }
+    ],
+    "artagnon\/perf\/scev-cache-ar": [
+        {
+            "hash": "3638e00f5a7e6b57ff62ced62388a60011d1a8db",
+            "author_name": "Jeffrey Byrnes",
+            "commit_date": "2026-08-25T23:53:20-07:00",
+            "subject": "[AMDGPU] Add stalls for DS FIFO buffer (#192323)"
+        },
+        {
+            "hash": "ac7c640db15bebf3e5826e51b15aeaa55ac03263",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-26T13:50:49+01:00",
+            "subject": "[SCEV] Find existing AR in cache in getAR (NFC)"
         }
     ]
 }
