@@ -213399,6 +213399,18 @@
             "author_name": "Mehdi Amini",
             "commit_date": "2026-08-26T12:19:09+00:00",
             "subject": "[mlir][IR][Rewrite] Use split inherent\/discardable attribute APIs (#218907)"
+        },
+        {
+            "hash": "bdfc8060fbe18c7f43952fa1e229353e5c214fc4",
+            "author_name": "Ilia Kuklin",
+            "commit_date": "2026-08-26T17:37:41+05:00",
+            "subject": "[lldb] Restrict expressions to one top-level assignment in DIL (#214348)"
+        },
+        {
+            "hash": "bfd1a003fb33c85a4ac3618cc0ab303851138e0b",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-08-26T14:40:39+02:00",
+            "subject": "[mlir][Bufferization] Separate AllocTensorOp properties from discardable attribute in assembly (#218914)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -220585,22 +220597,28 @@
     ],
     "fhahn\/perf\/scev-min-max": [
         {
-            "hash": "dc14f0aecb1eb838e5cd83c220effc4f3dc1c848",
-            "author_name": "Yingwei Zheng",
-            "commit_date": "2026-08-22T20:02:37+08:00",
-            "subject": "[LangRef] Fix code examples for fptosi\/fptoui (#218121)"
+            "hash": "7380050ae1a8261400350dd08a952ad3f00db1b3",
+            "author_name": "Christian Ulmann",
+            "commit_date": "2026-08-26T09:50:38+02:00",
+            "subject": "[mlir][VectorToLLVM] Use the converted index type in vector.type_cast (#218742)"
         },
         {
-            "hash": "0570a8ee855538a7b1003d8953190a2099b46193",
+            "hash": "255c9ceeb5cd85f818379e9627d0a1a822efad7d",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-22T13:54:28+01:00",
+            "commit_date": "2026-08-26T09:07:50+01:00",
             "subject": "Add tests"
         },
         {
-            "hash": "de2c6d55c2727b042d2c6e963f8e05a0076ab6bd",
+            "hash": "d13df4d4baafbba91a632da379a487d5aa3cb3d8",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-22T14:44:12+01:00",
+            "commit_date": "2026-08-26T09:07:50+01:00",
             "subject": "[SCEV] Prove max(X0..Xn) Pred RHS via per-operand decomposition."
+        },
+        {
+            "hash": "fdd1192e43f6eddc0093cab115b867f414858d88",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-26T13:33:10+01:00",
+            "subject": "Step"
         }
     ],
     "nikic\/perf\/scev-umin-cond-2": [
