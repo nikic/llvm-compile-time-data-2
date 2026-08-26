@@ -1,0 +1,236 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[2647/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/OpenCLOptions.cpp.o
+[2648/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/OpenMPKinds.cpp.o
+[2649/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/OperatorPrecedence.cpp.o
+[2650/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/IdentifierTable.cpp.o
+[2651/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/ProfileList.cpp.o
+[2652/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/NoSanitizeList.cpp.o
+[2653/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SanitizerSpecialCaseList.cpp.o
+[2654/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Sanitizers.cpp.o
+[2655/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Sarif.cpp.o
+[2656/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SimpleTypoCorrection.cpp.o
+[2657/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Stack.cpp.o
+[2658/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SourceLocation.cpp.o
+[2659/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SourceManager.cpp.o
+[2660/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SourceMgrAdapter.cpp.o
+[2661/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/StackExhaustionHandler.cpp.o
+[2662/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/TargetID.cpp.o
+[2663/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/TargetInfo.cpp.o
+[2664/3385] Building CXX object lib/SandboxIR/CMakeFiles/LLVMSandboxIR.dir/Region.cpp.o
+[2665/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets.cpp.o
+[2666/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/ARC.cpp.o
+[2667/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/AMDGPU.cpp.o
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/Targets/AMDGPU.cpp: In constructor ‘clang::targets::AMDGPUTargetInfo::AMDGPUTargetInfo(const llvm::Triple&, const clang::TargetOptions&)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/Targets/AMDGPU.cpp:200:37: warning: enumerated mismatch in conditional expression: ‘llvm::AMDGPU::ArchFeatureKind’ vs ‘llvm::AMDGPU::R600FeatureKind’ [-Wenum-compare]
+  200 |       GPUFeatures(Triple.isAMDGCN() ? llvm::AMDGPU::FEATURE_NONE
+      |                   ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  201 |                                     : llvm::AMDGPU::getArchAttrR600(GPUKind)) {
+      |                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2668/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/ARM.cpp.o
+[2669/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/AArch64.cpp.o
+[2670/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/AVR.cpp.o
+[2671/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/CSKY.cpp.o
+[2672/3385] Linking CXX static library lib/libLLVMMC.a
+[2673/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/DirectX.cpp.o
+[2674/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Lanai.cpp.o
+[2675/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Hexagon.cpp.o
+[2676/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/BPF.cpp.o
+[2677/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/LoongArch.cpp.o
+[2678/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/M68k.cpp.o
+[2679/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Mips.cpp.o
+[2680/3385] Linking CXX static library lib/libLLVMX86Info.a
+[2681/3385] Linking CXX static library lib/libLLVMMCDisassembler.a
+[2682/3385] Linking CXX static library lib/libLLVMCore.a
+[2683/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/MSP430.cpp.o
+[2684/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/NVPTX.cpp.o
+[2685/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/OSTargets.cpp.o
+[2686/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/RISCV.cpp.o
+[2687/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/SPIR.cpp.o
+[2688/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/SystemZ.cpp.o
+[2689/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/TCE.cpp.o
+[2690/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/PPC.cpp.o
+[2691/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Sparc.cpp.o
+[2692/3385] Linking CXX static library lib/libLLVMABI.a
+[2693/3385] Linking CXX static library lib/libLLVMFrontendHLSL.a
+[2694/3385] Linking CXX static library lib/libLLVMCFGuard.a
+[2695/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/VE.cpp.o
+[2696/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/WebAssembly.cpp.o
+[2697/3385] Linking CXX static library lib/libLLVMX86Disassembler.a
+[2698/3385] Linking CXX static library lib/libLLVMAsmParser.a
+[2699/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/X86.cpp.o
+[2700/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/XCore.cpp.o
+[2701/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/TokenKinds.cpp.o
+[2702/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Version.cpp.o
+[2703/3385] Linking CXX static library lib/libLLVMBitReader.a
+[2704/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/Xtensa.cpp.o
+[2705/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Warnings.cpp.o
+[2706/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/XRayInstr.cpp.o
+[2707/3385] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/XRayLists.cpp.o
+[2708/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentBriefParser.cpp.o
+[2709/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentCommandTraits.cpp.o
+[2710/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Comment.cpp.o
+[2711/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentLexer.cpp.o
+[2712/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentParser.cpp.o
+[2713/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ComparisonCategories.cpp.o
+[2714/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentSema.cpp.o
+[2715/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclarationName.cpp.o
+[2716/3385] Linking CXX static library lib/libLLVMX86Desc.a
+[2717/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Decl.cpp.o
+[2718/3385] Linking CXX static library lib/libLLVMIRReader.a
+[2719/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CXXInheritance.cpp.o
+[2720/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DataCollection.cpp.o
+[2721/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclBase.cpp.o
+[2722/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclFriend.cpp.o
+[2723/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ComputeDependence.cpp.o
+[2724/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclObjC.cpp.o
+[2725/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclOpenACC.cpp.o
+[2726/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclOpenMP.cpp.o
+[2727/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclPrinter.cpp.o
+[2728/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclTemplate.cpp.o
+[2729/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclCXX.cpp.o
+[2730/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclGroup.cpp.o
+[2731/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ParentMapContext.cpp.o
+[2732/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DynamicRecursiveASTVisitor.cpp.o
+[2733/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprClassification.cpp.o
+[2734/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConcepts.cpp.o
+[2735/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprCXX.cpp.o
+[2736/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExternalASTSource.cpp.o
+[2737/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Expr.cpp.o
+[2738/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/FormatString.cpp.o
+[2739/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprObjC.cpp.o
+[2740/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/BitcastBuffer.cpp.o
+[2741/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/InferAlloc.cpp.o
+[2742/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExternalASTMerger.cpp.o
+[2743/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/InheritViz.cpp.o
+[2744/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/GlobalDecl.cpp.o
+[2745/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Floating.cpp.o
+[2746/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/AttrImpl.cpp.o
+[2747/3385] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/CGCXX.cpp.o
+[2748/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/DynamicAllocator.cpp.o
+[2749/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InitMap.cpp.o
+[2750/3385] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstrFoldTables.cpp.o
+[2751/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBlock.cpp.o
+[2752/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Function.cpp.o
+[2753/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Descriptor.cpp.o
+[2754/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/EvaluationResult.cpp.o
+[2755/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Disasm.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Disasm.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Disasm.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Disasm.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Disasm.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Disasm.cpp
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Disasm.cpp: In member function ‘void clang::interp::Function::dump(llvm::raw_ostream&, clang::interp::CodePtr) const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Disasm.cpp:152:29: warning: unused variable ‘FD’ [-Wunused-variable]
+  152 |     if (const FunctionDecl *FD = getDecl()) {
+      |                             ^~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Disasm.cpp: In member function ‘void clang::interp::Program::dump(llvm::raw_ostream&) const’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Disasm.cpp:385:21: error: invalid use of incomplete type ‘const class clang::MaterializeTemporaryExpr’
+  385 |           MTE && MTE->getLifetimeExtendedTemporaryDecl()) {
+      |                     ^~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:13,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Descriptor.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Integral.h:25,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Boolean.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Disasm.cpp:13:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ComputeDependence.h:84:7: note: forward declaration of ‘class clang::MaterializeTemporaryExpr’
+   84 | class MaterializeTemporaryExpr;
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Disasm.cpp:387:20: error: invalid use of incomplete type ‘const class clang::MaterializeTemporaryExpr’
+  387 |                 MTE->getLifetimeExtendedTemporaryDecl()->getValue()) {
+      |                    ^~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:13,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Descriptor.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Integral.h:25,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Boolean.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Disasm.cpp:13:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ComputeDependence.h:84:7: note: forward declaration of ‘class clang::MaterializeTemporaryExpr’
+   84 | class MaterializeTemporaryExpr;
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/LLVM.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Integral.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Boolean.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Disasm.cpp:13:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Casting.h: In instantiation of ‘static bool llvm::isa_impl<To, From, Enabler>::doit(const From&) [with To = clang::MaterializeTemporaryExpr; From = clang::Expr; Enabler = void]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Casting.h:110:36:   required from ‘static bool llvm::isa_impl_cl<To, const From*>::doit(const From*) [with To = clang::MaterializeTemporaryExpr; From = clang::Expr]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Casting.h:137:41:   required from ‘static bool llvm::isa_impl_wrap<To, FromTy, FromTy>::doit(const FromTy&) [with To = clang::MaterializeTemporaryExpr; FromTy = const clang::Expr*]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Casting.h:129:13:   required from ‘static bool llvm::isa_impl_wrap<To, From, SimpleFrom>::doit(const From&) [with To = clang::MaterializeTemporaryExpr; From = const clang::Expr* const; SimpleFrom = const clang::Expr*]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Casting.h:257:62:   required from ‘static bool llvm::CastIsPossible<To, From, Enable>::isPossible(const From&) [with To = clang::MaterializeTemporaryExpr; From = const clang::Expr*; Enable = void]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Casting.h:493:26:   required from ‘static llvm::CastInfo<To, From, Enable>::CastReturnType llvm::CastInfo<To, From, Enable>::doCastIfPossible(const From&) [with To = clang::MaterializeTemporaryExpr; From = const clang::Expr*; Enable = void; llvm::CastInfo<To, From, Enable>::CastReturnType = const clang::MaterializeTemporaryExpr*]’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Casting.h:747:44:   required from ‘auto llvm::dyn_cast_if_present(Y*) [with X = clang::MaterializeTemporaryExpr; Y = const clang::Expr]’
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Disasm.cpp:384:60:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Casting.h:64:64: error: incomplete type ‘clang::MaterializeTemporaryExpr’ used in nested name specifier
+   64 |   static inline bool doit(const From &Val) { return To::classof(&Val); }
+      |                                                     ~~~~~~~~~~~^~~~~~
+[2756/3385] Building AArch64GenInstrInfo.inc...
+[2757/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpFrame.cpp.o
+[2758/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltinBitCast.cpp.o
+[2759/3385] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+[2760/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Context.cpp.o
+[2761/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpStack.cpp.o
+[2762/3385] Building AArch64GenSubtargetInfo.inc...
+[2763/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/PrimType.cpp.o
+[2764/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/ByteCodeEmitter.cpp.o
+[2765/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpState.cpp.o
+[2766/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Pointer.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APFloat.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APNumericStorage.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Decl.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/DeclOrExpr.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Descriptor.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.cpp:9:
+In destructor ‘llvm::APInt::~APInt()’,
+    inlined from ‘llvm::APSInt::~APSInt()’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:24:21,
+    inlined from ‘clang::interp::Pointer::toRValue(const clang::interp::Context&, clang::QualType) const::<lambda(clang::QualType, clang::interp::PtrView, clang::APValue&)>’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.cpp:1102:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:189:18: warning: ‘void operator delete [](void*)’ called on a pointer to an unallocated object ‘1’ [-Wfree-nonheap-object]
+  189 |       delete[] U.pVal;
+      |                  ^~~~
+In destructor ‘llvm::APInt::~APInt()’,
+    inlined from ‘llvm::APSInt::~APSInt()’ at /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:24:21,
+    inlined from ‘clang::interp::Pointer::toRValue(const clang::interp::Context&, clang::QualType) const::<lambda(clang::QualType, clang::interp::PtrView, clang::APValue&)>’ at /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.cpp:1102:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:189:18: warning: ‘void operator delete [](void*)’ called on a pointer to an unallocated object ‘1’ [-Wfree-nonheap-object]
+  189 |       delete[] U.pVal;
+      |                  ^~~~
+[2767/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o
+[2768/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltin.cpp.o
+[2769/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTContext.cpp.o
+[2770/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/EvalEmitter.cpp.o
+[2771/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConstant.cpp.o
+[2772/3385] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Interp.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:4 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/lld/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+294.69user 20.04system 0:32.37elapsed 972%CPU (0avgtext+0avgdata 1290152maxresident)k
+8inputs+2044176outputs (3076major+11285073minor)pagefaults 0swaps
