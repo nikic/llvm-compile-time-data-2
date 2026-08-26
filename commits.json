@@ -226645,28 +226645,34 @@
     ],
     "artagnon\/perf\/scev-udiv-wrap-infer": [
         {
-            "hash": "ec5c9182be2aa168b7c843374c5c7497dd3bef17",
-            "author_name": "Vipul Cariappa",
-            "commit_date": "2026-08-23T10:22:31+03:00",
-            "subject": "[clang-repl] Don't double-remove extern \"C\" decls from the IdResolver (#218129)"
+            "hash": "3638e00f5a7e6b57ff62ced62388a60011d1a8db",
+            "author_name": "Jeffrey Byrnes",
+            "commit_date": "2026-08-25T23:53:20-07:00",
+            "subject": "[AMDGPU] Add stalls for DS FIFO buffer (#192323)"
         },
         {
-            "hash": "78368e88812e21ecf48ab61c4a490f416b32c16c",
+            "hash": "ff851c61ea640fcb784be07ddf9d9e7a27053919",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-23T16:37:20+01:00",
+            "commit_date": "2026-08-26T14:07:13+01:00",
             "subject": "[SCEV] Use willNotOverflow for AR-check in udiv (NFC)"
         },
         {
-            "hash": "421424fe797c951d3ef128c701a257dd3111efa4",
+            "hash": "85e0b8d8bdac2c46570ccd331d0638210ae17625",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-23T19:36:55+01:00",
+            "commit_date": "2026-08-26T14:07:13+01:00",
             "subject": "[SCEV] Fix a couple of minor issues"
         },
         {
-            "hash": "3e6dff1016e04af0291ad5b2b852cdf740f7dd26",
+            "hash": "b7ce01996f24bebbd79a4afdd92e3d3bd35c3f39",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-23T22:17:54+01:00",
+            "commit_date": "2026-08-26T14:07:13+01:00",
             "subject": "[SCEV] Introduce willNotWrapByExtend, strip hack"
+        },
+        {
+            "hash": "99f018f43dc138583180467e382e8aec58bf65cb",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-26T14:21:29+01:00",
+            "subject": "[SCEV] Use ExtendOpTraits in willNotWrapByExtend"
         }
     ],
     "yxsamliu\/perf\/pr216838-baseline": [
@@ -227645,9 +227651,9 @@
             "subject": "[libc++] Remove confusing summary (#218897)"
         },
         {
-            "hash": "93a9cb1aeddabf683d4065b87fc0f42a0eaa519a",
+            "hash": "479e81890cb7596505dc608d337d0ba287d9ef1e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-26T13:43:35+01:00",
+            "commit_date": "2026-08-26T14:16:22+01:00",
             "subject": "[SCEVExpander] Reuse unscaled recurrence when expanding scaled one."
         }
     ],
