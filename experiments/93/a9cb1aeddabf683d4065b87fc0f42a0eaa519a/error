@@ -1,0 +1,236 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[1627/3385] Building CXX object lib/Frontend/HLSL/CMakeFiles/LLVMFrontendHLSL.dir/RootSignatureValidations.cpp.o
+[1628/3385] Building CXX object lib/Frontend/HLSL/CMakeFiles/LLVMFrontendHLSL.dir/SemanticSignatures.cpp.o
+[1629/3385] Building CXX object lib/Frontend/OpenMP/CMakeFiles/LLVMFrontendOpenMP.dir/OMP.cpp.o
+[1630/3385] Building CXX object lib/Frontend/OpenMP/CMakeFiles/LLVMFrontendOpenMP.dir/OMPContext.cpp.o
+[1631/3385] Building CXX object lib/Frontend/OpenMP/CMakeFiles/LLVMFrontendOpenMP.dir/OMPDescriptors.cpp.o
+[1632/3385] Building CXX object lib/Frontend/OpenMP/CMakeFiles/LLVMFrontendOpenMP.dir/DirectiveNameParser.cpp.o
+[1633/3385] Building CXX object lib/Frontend/Offloading/CMakeFiles/LLVMFrontendOffloading.dir/Utility.cpp.o
+[1634/3385] Building CXX object lib/Frontend/Offloading/CMakeFiles/LLVMFrontendOffloading.dir/OffloadWrapper.cpp.o
+[1635/3385] Building CXX object lib/Frontend/Offloading/CMakeFiles/LLVMFrontendOffloading.dir/PropertySet.cpp.o
+[1636/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/AddDiscriminators.cpp.o
+[1637/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/AMDGPUEmitPrintf.cpp.o
+[1638/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/ASanStackFrameLayout.cpp.o
+[1639/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/AssignGUID.cpp.o
+[1640/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/AssumeBundleBuilder.cpp.o
+[1641/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/BasicBlockUtils.cpp.o
+[1642/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/BreakCriticalEdges.cpp.o
+[1643/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/BuildLibCalls.cpp.o
+[1644/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/BypassSlowDivision.cpp.o
+[1645/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/CallPromotionUtils.cpp.o
+[1646/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/CallGraphUpdater.cpp.o
+[1647/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/CanonicalizeAliases.cpp.o
+[1648/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/CloneFunction.cpp.o
+[1649/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/CloneModule.cpp.o
+[1650/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/CodeExtractor.cpp.o
+[1651/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/CodeLayout.cpp.o
+[1652/3385] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/InterleavedAccessPass.cpp.o
+[1653/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/ControlFlowUtils.cpp.o
+[1654/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/CtorUtils.cpp.o
+[1655/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/CountVisits.cpp.o
+[1656/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/Debugify.cpp.o
+[1657/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/DebugSSAUpdater.cpp.o
+[1658/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/DeclareRuntimeLibcalls.cpp.o
+[1659/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/DemoteRegToStack.cpp.o
+[1660/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/DynamicDebugging.cpp.o
+[1661/3385] Building AArch64GenInstrInfo.inc...
+[1662/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/EntryExitInstrumenter.cpp.o
+[1663/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/EscapeEnumerator.cpp.o
+[1664/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/Evaluator.cpp.o
+[1665/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/FixIrreducible.cpp.o
+[1666/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/DXILUpgrade.cpp.o
+[1667/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/FlattenCFG.cpp.o
+[1668/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/FunctionComparator.cpp.o
+[1669/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/FunctionImportUtils.cpp.o
+[1670/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/GlobalStatus.cpp.o
+[1671/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/GuardUtils.cpp.o
+[1672/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/HelloWorld.cpp.o
+[1673/3385] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/LegalizeVectorOps.cpp.o
+[1674/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/InstructionNamer.cpp.o
+[1675/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/Instrumentation.cpp.o
+[1676/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/IntegerDivision.cpp.o
+[1677/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/IRNormalizer.cpp.o
+[1678/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/KCFIHash.cpp.o
+[1679/3385] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/SafeStack.cpp.o
+[1680/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LibCallsShrinkWrap.cpp.o
+[1681/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/CanonicalizeFreezeInLoops.cpp.o
+[1682/3385] Building AArch64GenSubtargetInfo.inc...
+[1683/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/CodeMoverUtils.cpp.o
+[1684/3385] Building CXX object lib/CodeGen/GlobalISel/CMakeFiles/LLVMGlobalISel.dir/GISelValueTracking.cpp.o
+[1685/3385] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenTargetMachineImpl.cpp.o
+[1686/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/InjectTLIMappings.cpp.o
+[1687/3385] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BasicTargetTransformInfo.cpp.o
+[1688/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LCSSA.cpp.o
+[1689/3385] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/LegalizeVectorTypes.cpp.o
+[1690/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopConstrainer.cpp.o
+[1691/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LowerAtomic.cpp.o
+[1692/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LowerCommentStringPass.cpp.o
+[1693/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LowerGlobalDtors.cpp.o
+[1694/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LowerIFunc.cpp.o
+[1695/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LowerInvoke.cpp.o
+[1696/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopRotationUtils.cpp.o
+[1697/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LowerSwitch.cpp.o
+[1698/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LowerVectorIntrinsics.cpp.o
+[1699/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/MatrixUtils.cpp.o
+[1700/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/MemoryOpRemark.cpp.o
+[1701/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/MemoryTaggingSupport.cpp.o
+[1702/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/Mem2Reg.cpp.o
+[1703/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/MetaRenamer.cpp.o
+[1704/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/MisExpect.cpp.o
+[1705/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopSimplify.cpp.o
+[1706/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/MoveAutoInit.cpp.o
+[1707/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/NameAnonGlobals.cpp.o
+[1708/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/PredicateInfo.cpp.o
+[1709/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/ProfileVerify.cpp.o
+[1710/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/PromoteMemoryToRegister.cpp.o
+[1711/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/RelLookupTableConverter.cpp.o
+[1712/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopPeel.cpp.o
+[1713/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SCCPSolver.cpp.o
+[1714/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/StripConvergenceIntrinsics.cpp.o
+[1715/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/StripGCRelocates.cpp.o
+[1716/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SSAUpdater.cpp.o
+[1717/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SSAUpdaterBulk.cpp.o
+[1718/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SampleProfileInference.cpp.o
+[1719/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SampleProfileLoaderBaseUtil.cpp.o
+[1720/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SanitizerStats.cpp.o
+[1721/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SimplifyCFG.cpp.o
+[1722/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUnrollAndJam.cpp.o
+[1723/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SimplifyLibCalls.cpp.o
+[1724/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SizeOpts.cpp.o
+[1725/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SplitModule.cpp.o
+[1726/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SplitModuleByCategory.cpp.o
+[1727/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/StripNonLineTableDebugInfo.cpp.o
+[1728/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SymbolRewriter.cpp.o
+[1729/3385] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenPrepare.cpp.o
+[1730/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/TriggerCrashPass.cpp.o
+[1731/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/UnifyLoopExits.cpp.o
+[1732/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/Utils.cpp.o
+[1733/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/ValueMapper.cpp.o
+[1734/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/AddressSanitizer.cpp.o
+[1735/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/VNCoercion.cpp.o
+[1736/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/AllocToken.cpp.o
+[1737/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/CGProfile.cpp.o
+[1738/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUnrollRuntime.cpp.o
+[1739/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/ControlHeightReduction.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Instrumentation/ControlHeightReduction.cpp:23:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RegionInfo.h:898:41: warning: type attributes ignored after type is already defined [-Wattributes]
+  898 | extern template class LLVM_TEMPLATE_ABI RegionBase<RegionTraits<Function>>;
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/RegionInfo.h:899:41: warning: type attributes ignored after type is already defined [-Wattributes]
+  899 | extern template class LLVM_TEMPLATE_ABI RegionNodeBase<RegionTraits<Function>>;
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1740/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/CopyProf.cpp.o
+[1741/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/DataFlowSanitizer.cpp.o
+[1742/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/GCOVProfiling.cpp.o
+[1743/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/BlockCoverageInference.cpp.o
+[1744/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/MemProfInstrumentation.cpp.o
+[1745/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/MemProfUse.cpp.o
+[1746/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/MemorySanitizer.cpp.o
+[1747/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/NumericalStabilitySanitizer.cpp.o
+[1748/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/PGOCtxProfLowering.cpp.o
+[1749/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/PGOForceFunctionAttrs.cpp.o
+[1750/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/PGOInstrumentation.cpp.o
+[1751/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/PGOMemOPSizeOpt.cpp.o
+[1752/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/SanitizerCoverage.cpp.o
+[1753/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/SanitizerBinaryMetadata.cpp.o
+[1754/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/ValueProfileCollector.cpp.o
+[1755/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/Local.cpp.o
+[1756/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/ThreadSanitizer.cpp.o
+[1757/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/TypeSanitizer.cpp.o
+[1758/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/HWAddressSanitizer.cpp.o
+[1759/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/RealtimeSanitizer.cpp.o
+[1760/3385] Building CXX object lib/Transforms/AggressiveInstCombine/CMakeFiles/LLVMAggressiveInstCombine.dir/AggressiveInstCombine.cpp.o
+[1761/3385] Building CXX object lib/Transforms/AggressiveInstCombine/CMakeFiles/LLVMAggressiveInstCombine.dir/TruncInstCombine.cpp.o
+[1762/3385] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAddSub.cpp.o
+[1763/3385] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAtomicRMW.cpp.o
+[1764/3385] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAndOrXor.cpp.o
+[1765/3385] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCasts.cpp.o
+[1766/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopVersioning.cpp.o
+[1767/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/InlineFunction.cpp.o
+[1768/3385] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineMulDivRem.cpp.o
+[1769/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUnroll.cpp.o
+[1770/3385] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineNegator.cpp.o
+[1771/3385] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombinePHI.cpp.o
+[1772/3385] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineShifts.cpp.o
+[1773/3385] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineSimplifyDemanded.cpp.o
+[1774/3385] Building CXX object lib/CodeGen/GlobalISel/CMakeFiles/LLVMGlobalISel.dir/IRTranslator.cpp.o
+[1775/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/ADCE.cpp.o
+[1776/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/ModuleUtils.cpp.o
+[1777/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/AnnotationRemarks.cpp.o
+[1778/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/BDCE.cpp.o
+[1779/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/CallSiteSplitting.cpp.o
+[1780/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/ConstantHoisting.cpp.o
+[1781/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LowerMemIntrinsics.cpp.o
+[1782/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/CorrelatedValuePropagation.cpp.o
+[1783/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DCE.cpp.o
+[1784/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DeadStoreElimination.cpp.o
+[1785/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DFAJumpThreading.cpp.o
+[1786/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DivRemPairs.cpp.o
+[1787/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DropUnnecessaryAssumes.cpp.o
+[1788/3385] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/SelectionDAG.cpp.o
+[1789/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/EarlyCSE.cpp.o
+[1790/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/FlattenCFGPass.cpp.o
+[1791/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/ExpandMemCmp.cpp.o
+[1792/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/GuardWidening.cpp.o
+[1793/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/ScalarEvolutionExpander.cpp.o
+FAILED: lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/ScalarEvolutionExpander.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Transforms/Utils -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/ScalarEvolutionExpander.cpp.o -MF lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/ScalarEvolutionExpander.cpp.o.d -o lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/ScalarEvolutionExpander.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils/ScalarEvolutionExpander.cpp
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils/ScalarEvolutionExpander.cpp: In member function ‘llvm::Value* llvm::SCEVExpander::tryToReuseScaledAddRec(const llvm::SCEVAddRecExpr*)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Utils/ScalarEvolutionExpander.cpp:1376:32: error: ‘findExistingExpansion’ was not declared in this scope; did you mean ‘hasRelatedExistingExpansion’?
+ 1376 |   if (Value *V = Scaled != S ? findExistingExpansion(Scaled, InsertPt)
+      |                                ^~~~~~~~~~~~~~~~~~~~~
+      |                                hasRelatedExistingExpansion
+[1794/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/GVN.cpp.o
+[1795/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/Float2Int.cpp.o
+[1796/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/LoopUtils.cpp.o
+[1797/3385] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/TargetLowering.cpp.o
+[1798/3385] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/BoundsChecking.cpp.o
+[1799/3385] Building CXX object lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/SimplifyIndVar.cpp.o
+[1800/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/AlignmentFromAssumptions.cpp.o
+[1801/3385] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/SelectionDAGBuilder.cpp.o
+[1802/3385] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineLoadStoreAlloca.cpp.o
+[1803/3385] Building CXX object lib/Frontend/OpenMP/CMakeFiles/LLVMFrontendOpenMP.dir/OMPIRBuilder.cpp.o
+[1804/3385] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineVectorOps.cpp.o
+[1805/3385] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/ConstraintElimination.cpp.o
+[1806/3385] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineSelect.cpp.o
+[1807/3385] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCalls.cpp.o
+[1808/3385] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCompares.cpp.o
+[1809/3385] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstructionCombining.cpp.o
+[1810/3385] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/DAGCombiner.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:4 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/lld/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+430.38user 21.53system 0:36.20elapsed 1248%CPU (0avgtext+0avgdata 1139668maxresident)k
+0inputs+1449952outputs (3185major+13181911minor)pagefaults 0swaps
