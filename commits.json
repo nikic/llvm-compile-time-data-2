@@ -214197,6 +214197,12 @@
             "author_name": "Kazu Hirata",
             "commit_date": "2026-08-27T19:21:36+08:00",
             "subject": "[CodeGen] Remove dead declarations (#219142)"
+        },
+        {
+            "hash": "ec75980bc3d009b20a66438f2d9c73b9bc65b2b1",
+            "author_name": "Justin Fargnoli",
+            "commit_date": "2026-08-27T19:23:35+08:00",
+            "subject": "[CodeMetrics] Remove `NumCalls` (NFC) (#219120)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -228805,34 +228811,40 @@
     ],
     "fhahn\/perf\/ce-improvements": [
         {
-            "hash": "bbedf748783f904529a702c45dba6e8e56d0abac",
-            "author_name": "Aayush Shrivastava",
-            "commit_date": "2026-08-27T03:06:28+08:00",
-            "subject": "[InstCombine] Fold scmp\/ucmp of extended operands (#218871)"
+            "hash": "126c16431bfd22387a49f9382cd5a5a4e0faeea0",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-08-27T07:18:15-04:00",
+            "subject": "[SLP]Delete combined subnodes together with the trimmed combined root"
         },
         {
-            "hash": "f74bbf5f2f5b9b567d9a7bca297d6f2eb5758cdb",
+            "hash": "96bdd0ce6c29108d34800b4d1d3343d95e32daec",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-26T20:45:38+01:00",
-            "subject": "[InstCombine] Preserve no-wrap flags in trunc (shl X, C) fold."
-        },
-        {
-            "hash": "1a19c72ff74f3eb6ab81f9d41f67fee992358247",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-26T20:45:39+01:00",
+            "commit_date": "2026-08-27T12:25:43+01:00",
             "subject": "[ConstraintElim] Add absolute upper bounds for lshr and udiv."
         },
         {
-            "hash": "b0aee53b3b8420e23a377cd0a1d125503c972f8f",
+            "hash": "e58773f850b3f161f61faba26b6a89a430e97de1",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-26T20:45:39+01:00",
+            "commit_date": "2026-08-27T12:25:43+01:00",
             "subject": "Step"
         },
         {
-            "hash": "e1f6e87a4b96445fdc545667e822915c40d8193a",
+            "hash": "2e713d5a1f0d8c70fb1bb0c3dc184f7a38e4eefb",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-26T20:45:39+01:00",
+            "commit_date": "2026-08-27T12:25:44+01:00",
+            "subject": "[ConstraintElim] Strengthen flags on mul and shl."
+        },
+        {
+            "hash": "da1c5a589ffff4c77bf7fe5f088376297ca87d5a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-27T12:25:44+01:00",
             "subject": "[ConstraintElim] Add absolute upper bound for and with constant operand."
+        },
+        {
+            "hash": "e4a6347ae73755dc07f763d864b87303abe8d675",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-27T12:25:44+01:00",
+            "subject": "[InstCombine] Preserve no-wrap flags in trunc (shl X, C) fold."
         }
     ],
     "MaskRay\/perf\/scev-uniquing-denseset": [
