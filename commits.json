@@ -214389,6 +214389,12 @@
             "author_name": "Alex MacLean",
             "commit_date": "2026-08-27T08:13:41-07:00",
             "subject": "[NVPTX] Rewrite sm_110* to sm_101* as demanded by PTX version (#218968)"
+        },
+        {
+            "hash": "a1ab1f7fa23288361d3d081585a17de09c4776b3",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-08-27T08:24:57-07:00",
+            "subject": "[clang][Sema] Fix iterator invalidation in isLayoutCompatibleUnion (#219112)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -227885,40 +227891,28 @@
     ],
     "artagnon\/perf\/scev-extaddrec-wrap": [
         {
-            "hash": "959e8e7c74a341dadca6ec7106cc2eae11a5f692",
-            "author_name": "Bal\u00e1zs Benics",
-            "commit_date": "2026-08-27T08:32:17+01:00",
-            "subject": "[analyzer] Fix assertion in BitwiseShiftChecker from getExtValue (#218940)"
+            "hash": "be851f53bfeb5f416d6b14d7bc4c5a384609e47d",
+            "author_name": "Kaviya Rajendiran",
+            "commit_date": "2026-08-27T16:02:02+05:30",
+            "subject": "[FLANG][Driver] Support -fno-profile-generate and -fprofile-generate=<dir> in flang (#216643)"
         },
         {
-            "hash": "59f735d4c72f72f014e7277534f4da32bebe7e47",
+            "hash": "65e5fe50b04a83206c6e5df409305146d18b4fb5",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-27T08:55:35+01:00",
+            "commit_date": "2026-08-27T13:13:59+01:00",
             "subject": "[SCEV] Add test coverage for ext-nusw\/nsuw inference"
         },
         {
-            "hash": "e44cbde87eefb6cea39ba092016f017e9a4c72ef",
+            "hash": "b13082edb891aef6a2849cf695c088e777ade643",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-27T08:55:35+01:00",
+            "commit_date": "2026-08-27T14:27:57+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence for sext-addrec"
         },
         {
-            "hash": "705f99410441bff3304d0c5affb3dbbf24a83261",
+            "hash": "c1a266c75278cdd7720d8f10a5227fee162bd026",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-27T08:55:35+01:00",
-            "subject": "[SCEV] Cover old no-self-wrap logic"
-        },
-        {
-            "hash": "29e29743c9eea36008987e56541f3f9dc088106e",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-27T08:55:35+01:00",
-            "subject": "[SCEV] Is nw sufficient to prove nsuw?"
-        },
-        {
-            "hash": "ee4fa129021ff3475f83b1d7800c318656110a94",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-27T08:55:35+01:00",
-            "subject": "Revert \"[SCEV] Is nw sufficient to prove nsuw?\""
+            "commit_date": "2026-08-27T16:26:45+01:00",
+            "subject": "[SCEV] Restore an improved version of nsuw logic"
         }
     ],
     "fhahn\/perf\/scev-expander-reuse": [
@@ -227981,40 +227975,28 @@
     ],
     "artagnon\/perf\/scev-zextaddrec-wrap": [
         {
-            "hash": "959e8e7c74a341dadca6ec7106cc2eae11a5f692",
-            "author_name": "Bal\u00e1zs Benics",
-            "commit_date": "2026-08-27T08:32:17+01:00",
-            "subject": "[analyzer] Fix assertion in BitwiseShiftChecker from getExtValue (#218940)"
+            "hash": "be851f53bfeb5f416d6b14d7bc4c5a384609e47d",
+            "author_name": "Kaviya Rajendiran",
+            "commit_date": "2026-08-27T16:02:02+05:30",
+            "subject": "[FLANG][Driver] Support -fno-profile-generate and -fprofile-generate=<dir> in flang (#216643)"
         },
         {
-            "hash": "3ef4043ec4a97d1a5c7a3bc661cb19c64f162c78",
+            "hash": "65e5fe50b04a83206c6e5df409305146d18b4fb5",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-27T08:48:34+01:00",
+            "commit_date": "2026-08-27T13:13:59+01:00",
             "subject": "[SCEV] Add test coverage for ext-nusw\/nsuw inference"
         },
         {
-            "hash": "21ee46168acf0e543bb9e74a37465fb98d196e03",
+            "hash": "1c3675bc318b95a525218f4daa5837f230ef83aa",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-27T08:48:34+01:00",
+            "commit_date": "2026-08-27T16:06:17+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence in zext-addrec"
         },
         {
-            "hash": "e56ad8dcd080bf3ac0fb3bbfcb28d8412731315b",
+            "hash": "7aaa5d16c97d8f83b4fd9ee2930076fc3329329e",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-27T08:48:34+01:00",
-            "subject": "[SCEV] Cover old no-self-wrap logic!"
-        },
-        {
-            "hash": "86ea4cda3f2bd5c3583265720c68e54a5e870380",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-27T08:48:34+01:00",
-            "subject": "[SCEV] For nusw, nw on the pre-inc is sufficent?"
-        },
-        {
-            "hash": "c116c205a390baa96751ea02c8838033fcd67788",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-27T08:48:34+01:00",
-            "subject": "Revert \"[SCEV] For nusw, nw on the pre-inc is sufficent?\""
+            "commit_date": "2026-08-27T16:16:26+01:00",
+            "subject": "[SCEV] Restore improved version of nusw logic"
         }
     ],
     "artagnon\/perf\/scev-fold-sext-addrec": [
@@ -229093,6 +229075,20 @@
             "author_name": "Antonio Frighetto",
             "commit_date": "2026-08-27T15:21:40+02:00",
             "subject": "[CGP] tmp"
+        }
+    ],
+    "cor3ntin\/perf\/attributes": [
+        {
+            "hash": "42e2f1692dc791c31195ff44b0d5a25f0724c935",
+            "author_name": "Farzon Lotfi",
+            "commit_date": "2026-08-27T09:53:59-04:00",
+            "subject": "[DirectX][LongVec] Support large vector splitting for dot product (#216383)"
+        },
+        {
+            "hash": "d388d18595f3cd181cf844cd1790acd20c37bb6f",
+            "author_name": "Corentin Jabot",
+            "commit_date": "2026-08-27T15:57:15+02:00",
+            "subject": "experiment"
         }
     ]
 }
