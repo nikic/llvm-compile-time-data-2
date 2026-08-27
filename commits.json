@@ -214485,6 +214485,18 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-08-27T10:12:36-07:00",
             "subject": "[SPIRV][NewPM] Port SPIRVPreLegalizerCombiner"
+        },
+        {
+            "hash": "0233576df13c6a2f553baf8edece7e9e0d3ec7b7",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-08-27T10:13:35-07:00",
+            "subject": "[SPIRV][NewPM] Port SPIRVPostLegalizer"
+        },
+        {
+            "hash": "0c1af4ee5e0576049926ae693b5b94e1cf09b3c8",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-08-27T10:14:18-07:00",
+            "subject": "[SPIRV][NewPM] Port AsmPrinter"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -221671,27 +221683,27 @@
     ],
     "fhahn\/perf\/scev-min-max": [
         {
-            "hash": "7380050ae1a8261400350dd08a952ad3f00db1b3",
-            "author_name": "Christian Ulmann",
-            "commit_date": "2026-08-26T09:50:38+02:00",
-            "subject": "[mlir][VectorToLLVM] Use the converted index type in vector.type_cast (#218742)"
+            "hash": "0c1af4ee5e0576049926ae693b5b94e1cf09b3c8",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-08-27T10:14:18-07:00",
+            "subject": "[SPIRV][NewPM] Port AsmPrinter"
         },
         {
-            "hash": "255c9ceeb5cd85f818379e9627d0a1a822efad7d",
+            "hash": "b49f3252bf9d3890b95fe94760475cf9a3000580",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-26T09:07:50+01:00",
+            "commit_date": "2026-08-27T18:16:06+01:00",
             "subject": "Add tests"
         },
         {
-            "hash": "d13df4d4baafbba91a632da379a487d5aa3cb3d8",
+            "hash": "5dae795ccc5698ca2cade0a4a557b709bceb150b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-26T09:07:50+01:00",
+            "commit_date": "2026-08-27T18:16:07+01:00",
             "subject": "[SCEV] Prove max(X0..Xn) Pred RHS via per-operand decomposition."
         },
         {
-            "hash": "fdd1192e43f6eddc0093cab115b867f414858d88",
+            "hash": "6b4f30eb9575eea8b497362d93cad9b5eb4e1952",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-26T13:33:10+01:00",
+            "commit_date": "2026-08-27T18:16:07+01:00",
             "subject": "Step"
         }
     ],
@@ -223953,6 +223965,12 @@
             "author_name": "Frank Denis",
             "commit_date": "2026-08-27T09:51:37+02:00",
             "subject": "[WebAssembly] Avoid same-block dominance walks in RegStackify (NFCI) (#218369)"
+        },
+        {
+            "hash": "21cd7726af6f743cd33557fb5311babac83fab05",
+            "author_name": "Tobias Hieta",
+            "commit_date": "2026-08-27T19:16:06+02:00",
+            "subject": "Bump version to 23.1.1"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
