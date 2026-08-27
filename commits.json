@@ -223497,6 +223497,36 @@
             "author_name": "Corentin Jabot",
             "commit_date": "2026-08-26T11:01:05+02:00",
             "subject": "Revert \"Reland \"[Clang] Enable -Wunused-template under -Wall\" (#208001)\" (#218638)"
+        },
+        {
+            "hash": "2c7b58a3bbb190da00ca00c02819fd3a5b6d036e",
+            "author_name": "jimingham",
+            "commit_date": "2026-08-27T09:51:27+02:00",
+            "subject": "Use static_pointer_cast to do SyntheticChildrenSP -> ScriptedSyntheticChildrenSP (#216181)"
+        },
+        {
+            "hash": "024b86e934512fbbd0ad398d461fbe4fcb4fb17b",
+            "author_name": "jimingham",
+            "commit_date": "2026-08-27T09:51:30+02:00",
+            "subject": "If the address of the isa_pointer is returned as an error don't ask if it is a tagged pointer (#213163)"
+        },
+        {
+            "hash": "2bda8f5daeab5c3c740935d5d7c4d6c7f47f53f6",
+            "author_name": "David Green",
+            "commit_date": "2026-08-27T09:51:32+02:00",
+            "subject": "[AArch64] Use SDValue to pass to vectorToScalarBitmask. (#218717)"
+        },
+        {
+            "hash": "ad389cbb46c889ea1412160c69eda425dcf21a78",
+            "author_name": "Tom Stellard",
+            "commit_date": "2026-08-27T09:51:35+02:00",
+            "subject": "workflows\/release-binaries.yml: Only dump the wix logs on failure (#218810)"
+        },
+        {
+            "hash": "8956179fa43cc7ad0913295c4ed57448500b50f4",
+            "author_name": "Frank Denis",
+            "commit_date": "2026-08-27T09:51:37+02:00",
+            "subject": "[WebAssembly] Avoid same-block dominance walks in RegStackify (NFCI) (#218369)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
@@ -227091,33 +227121,33 @@
     ],
     "artagnon\/perf\/scev-sdiv": [
         {
-            "hash": "b615ebdd35cc1c13d722c81ecf52af990ad29c6a",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-24T06:38:42+01:00",
-            "subject": "[APInt] Extend APIntOps::gcd to take IsSigned argument (#217269)"
+            "hash": "959e8e7c74a341dadca6ec7106cc2eae11a5f692",
+            "author_name": "Bal\u00e1zs Benics",
+            "commit_date": "2026-08-27T08:32:17+01:00",
+            "subject": "[analyzer] Fix assertion in BitwiseShiftChecker from getExtValue (#218940)"
         },
         {
-            "hash": "3a8c1065a524c11e7e1ff288f74f7a197147c41a",
+            "hash": "f74267a604d96301bb7726257aefe9ddc0bb7874",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-24T09:13:09+01:00",
+            "commit_date": "2026-08-27T08:34:34+01:00",
             "subject": "[SCEV] Introduce SDiv expressions"
         },
         {
-            "hash": "3b8f3bf18d55d733b7b648593d55cea9ff019b44",
+            "hash": "de1a7f04112a678920aece2e7640ad8affb0ade6",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-24T09:42:21+01:00",
+            "commit_date": "2026-08-27T08:34:51+01:00",
             "subject": "[SCEV] Fix copy-paste error, thanks Antonio!"
         },
         {
-            "hash": "c9b76123a6a89bd9f9b0b71d2475af2e5b753b0d",
+            "hash": "7a3f478c04240cf05419b51c3f5bff9bf462e9cc",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-24T14:05:54+01:00",
+            "commit_date": "2026-08-27T08:34:51+01:00",
             "subject": "[SCEV] Minor NFC restructing"
         },
         {
-            "hash": "bd7e2f598d001e3e1c0fdbee2fed9ec186da5554",
+            "hash": "503bc8d7bd24f80f8df1c65b2b624fba9171009a",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-25T09:42:23+01:00",
+            "commit_date": "2026-08-27T08:34:51+01:00",
             "subject": "[SCEV] Fix expansion, thanks Antonio!"
         }
     ],
