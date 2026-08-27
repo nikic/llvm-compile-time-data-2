@@ -214275,6 +214275,18 @@
             "author_name": "Lang Hames",
             "commit_date": "2026-08-27T22:55:33+10:00",
             "subject": "[orc-rt] Add missing include guard. (#219204)"
+        },
+        {
+            "hash": "052dde9c3a62cd21dda5f1212d127d979e5ceafd",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-08-27T14:59:55+02:00",
+            "subject": "[SCEV] Do not represent ptrtoint as ptrtoaddr (#219156)"
+        },
+        {
+            "hash": "c30c4f5cd9d36a013188d66ab2891c1448a335c2",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-08-27T23:04:54+10:00",
+            "subject": "[orc-rt] Fix relative path in include. NFC. (#219205)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -228951,6 +228963,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-08-26T23:35:49-07:00",
             "subject": "[SelectionDAG] Look up Register nodes in a DenseMap instead of CSEMap"
+        }
+    ],
+    "steffenlarsen\/perf\/steffen\/live_variable_sparse_sweep": [
+        {
+            "hash": "52774473867e49b5891ab9381accf4e5a3ce0024",
+            "author_name": "Chuanqi Xu",
+            "commit_date": "2026-08-27T20:35:27+08:00",
+            "subject": "[C++20] [Modules] Handling merging predefined decls from std (#219151)"
+        },
+        {
+            "hash": "d704e01d2e1e3d21039f63b3c2799cb3ca585899",
+            "author_name": "Steffen Holst Larsen",
+            "commit_date": "2026-08-27T07:59:47-05:00",
+            "subject": "[CodeGen] Track touched physical registers during LiveVariable analysis"
         }
     ]
 }
