@@ -227555,34 +227555,40 @@
     ],
     "artagnon\/perf\/scev-extaddrec-wrap": [
         {
-            "hash": "ec5c9182be2aa168b7c843374c5c7497dd3bef17",
-            "author_name": "Vipul Cariappa",
-            "commit_date": "2026-08-23T10:22:31+03:00",
-            "subject": "[clang-repl] Don't double-remove extern \"C\" decls from the IdResolver (#218129)"
+            "hash": "959e8e7c74a341dadca6ec7106cc2eae11a5f692",
+            "author_name": "Bal\u00e1zs Benics",
+            "commit_date": "2026-08-27T08:32:17+01:00",
+            "subject": "[analyzer] Fix assertion in BitwiseShiftChecker from getExtValue (#218940)"
         },
         {
-            "hash": "6349e586f4cc3014ec8d7b7461961007eaf57c7a",
+            "hash": "59f735d4c72f72f014e7277534f4da32bebe7e47",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-23T09:40:55+01:00",
+            "commit_date": "2026-08-27T08:55:35+01:00",
+            "subject": "[SCEV] Add test coverage for ext-nusw\/nsuw inference"
+        },
+        {
+            "hash": "e44cbde87eefb6cea39ba092016f017e9a4c72ef",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-27T08:55:35+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence for sext-addrec"
         },
         {
-            "hash": "6d05d46baf336e6cf24b1ecfbbd7fdd812722c29",
+            "hash": "705f99410441bff3304d0c5affb3dbbf24a83261",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-23T09:40:55+01:00",
-            "subject": "[SCEV] Cover old no-self-wrap logic, but better!"
+            "commit_date": "2026-08-27T08:55:35+01:00",
+            "subject": "[SCEV] Cover old no-self-wrap logic"
         },
         {
-            "hash": "44391410157968f1f0486a1b4ca3f579be6ac652",
+            "hash": "29e29743c9eea36008987e56541f3f9dc088106e",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-23T09:42:49+01:00",
-            "subject": "[SCEV] Handle nsuw case correctly"
-        },
-        {
-            "hash": "c44de173b4f95e335744b693e8ba7036b4fa7a3d",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-23T09:43:35+01:00",
+            "commit_date": "2026-08-27T08:55:35+01:00",
             "subject": "[SCEV] Is nw sufficient to prove nsuw?"
+        },
+        {
+            "hash": "ee4fa129021ff3475f83b1d7800c318656110a94",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-27T08:55:35+01:00",
+            "subject": "Revert \"[SCEV] Is nw sufficient to prove nsuw?\""
         }
     ],
     "fhahn\/perf\/scev-expander-reuse": [
@@ -227645,34 +227651,40 @@
     ],
     "artagnon\/perf\/scev-zextaddrec-wrap": [
         {
-            "hash": "ec5c9182be2aa168b7c843374c5c7497dd3bef17",
-            "author_name": "Vipul Cariappa",
-            "commit_date": "2026-08-23T10:22:31+03:00",
-            "subject": "[clang-repl] Don't double-remove extern \"C\" decls from the IdResolver (#218129)"
+            "hash": "959e8e7c74a341dadca6ec7106cc2eae11a5f692",
+            "author_name": "Bal\u00e1zs Benics",
+            "commit_date": "2026-08-27T08:32:17+01:00",
+            "subject": "[analyzer] Fix assertion in BitwiseShiftChecker from getExtValue (#218940)"
         },
         {
-            "hash": "4ee8a792536f94a3038a0b97dac27cd1a298d1fb",
+            "hash": "3ef4043ec4a97d1a5c7a3bc661cb19c64f162c78",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-23T09:45:48+01:00",
+            "commit_date": "2026-08-27T08:48:34+01:00",
+            "subject": "[SCEV] Add test coverage for ext-nusw\/nsuw inference"
+        },
+        {
+            "hash": "21ee46168acf0e543bb9e74a37465fb98d196e03",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-27T08:48:34+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence in zext-addrec"
         },
         {
-            "hash": "771f05df09c568367669fc83aecdffc821a0107f",
+            "hash": "e56ad8dcd080bf3ac0fb3bbfcb28d8412731315b",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-23T09:45:48+01:00",
+            "commit_date": "2026-08-27T08:48:34+01:00",
             "subject": "[SCEV] Cover old no-self-wrap logic!"
         },
         {
-            "hash": "68bce4e24731ca177e7e38c2527760300b59a8a1",
+            "hash": "86ea4cda3f2bd5c3583265720c68e54a5e870380",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-23T09:47:56+01:00",
-            "subject": "[SCEV] Handle nusw case correctly"
+            "commit_date": "2026-08-27T08:48:34+01:00",
+            "subject": "[SCEV] For nusw, nw on the pre-inc is sufficent?"
         },
         {
-            "hash": "aaa636b4e1719f7a5632188895ed5c943a625217",
+            "hash": "c116c205a390baa96751ea02c8838033fcd67788",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-23T09:47:56+01:00",
-            "subject": "[SCEV] For nusw, nw on the pre-inc is sufficent?"
+            "commit_date": "2026-08-27T08:48:34+01:00",
+            "subject": "Revert \"[SCEV] For nusw, nw on the pre-inc is sufficent?\""
         }
     ],
     "artagnon\/perf\/scev-fold-sext-addrec": [
