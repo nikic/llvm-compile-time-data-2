@@ -214731,6 +214731,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-08-27T21:04:09+00:00",
             "subject": "[SCEV] Remove unreachable visitMulExpr in SCEVCastSinkingRewriter (NFC) (#219279)"
+        },
+        {
+            "hash": "a4d5d5f03ce4ba9127888256217d8662a27ddf51",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-08-27T17:09:41-04:00",
+            "subject": "[SLP][NFC]Add extra tests for gathered splats, NFC"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -229321,45 +229327,51 @@
     ],
     "fhahn\/perf\/ce-improvements": [
         {
-            "hash": "7c9adcf3cd9bab7ebb739f7d10885d3433d6d7df",
-            "author_name": "Zhen Wang",
-            "commit_date": "2026-08-27T11:05:38-07:00",
-            "subject": "[flang-rt][cuda] Build io-stmt-minimal.cpp as CUDA in the thin I\/O PTX target (#219250)"
+            "hash": "a4d5d5f03ce4ba9127888256217d8662a27ddf51",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-08-27T17:09:41-04:00",
+            "subject": "[SLP][NFC]Add extra tests for gathered splats, NFC"
         },
         {
-            "hash": "d2ea8857771efc59fb1025b910dfe97240c6225d",
+            "hash": "ab455368786e09170caac35d991f94c0a3f048ed",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-27T19:11:54+01:00",
+            "commit_date": "2026-08-27T22:13:37+01:00",
             "subject": "[ConstraintElim] Add tests for shl\/mul materialization"
         },
         {
-            "hash": "bd0d903e1335c5a5f6deb3d334cf2e9b46cc1b65",
+            "hash": "7d139f10655ac91e24f652790010d1c2c9b0a0e8",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-27T20:59:48+01:00",
+            "commit_date": "2026-08-27T22:13:38+01:00",
             "subject": "[ConstraintElim] Strengthen flags on mul and shl with constant operand."
         },
         {
-            "hash": "2e35dfd1fc9c43ab532f6c155ecfdcac850f4888",
+            "hash": "585f78312279a1182beeb96a5b76a0c134193491",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-27T21:02:48+01:00",
+            "commit_date": "2026-08-27T22:13:38+01:00",
+            "subject": "nsw -> nuw"
+        },
+        {
+            "hash": "db09477897826d2441f67064bb966ab2d16a2663",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-27T22:14:56+01:00",
             "subject": "[ConstraintElim] Add absolute upper bounds for lshr and udiv."
         },
         {
-            "hash": "136e85d10708cc58953976169f84a43371b388b8",
+            "hash": "69a7230974b71b998e4c6fd71c2dad70d339bf36",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-27T21:02:48+01:00",
+            "commit_date": "2026-08-27T22:14:57+01:00",
             "subject": "Step"
         },
         {
-            "hash": "cd55be63b45f2c23db312be6522b37ad4c2f4720",
+            "hash": "6cc8ccc81c32bc8fc5b4780a4413f1de1bf9e120",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-27T21:02:52+01:00",
+            "commit_date": "2026-08-27T22:14:57+01:00",
             "subject": "[ConstraintElim] Add absolute upper bound for and with constant operand."
         },
         {
-            "hash": "89ed610f7745881ae337b5cb143823c358e098b9",
+            "hash": "12fedbad3c4f04508295539592f304e29ae02b1f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-27T21:02:53+01:00",
+            "commit_date": "2026-08-27T22:14:57+01:00",
             "subject": "[InstCombine] Preserve no-wrap flags in trunc (shl X, C) fold."
         }
     ],
