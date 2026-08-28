@@ -215589,6 +215589,12 @@
             "author_name": "Heejin Ahn",
             "commit_date": "2026-08-28T11:38:53-07:00",
             "subject": "[WebAssembly] Fix typos (#219339)"
+        },
+        {
+            "hash": "4303ea8d11bc507a9bfcb152d2e463203b3b1854",
+            "author_name": "Ziqing Luo",
+            "commit_date": "2026-08-28T11:52:36-07:00",
+            "subject": "[SSAF] Remove useless anchor variable from test plugin (#219081)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -230431,6 +230437,26 @@
             "author_name": "Abhay Kanhere",
             "commit_date": "2026-08-28T14:07:09+01:00",
             "subject": "[ScalarEvolution] howManyLessThans infer stride isPositive from guard"
+        }
+    ],
+    "artagnon\/perf\/scev-nsuw": [
+        {
+            "hash": "41c2ec559f774b9d92b5378db081ed21ae8085d1",
+            "author_name": "ZERICO2005",
+            "commit_date": "2026-08-27T23:27:38+02:00",
+            "subject": "[KnownFPClass] Add `KnownFPClass::frem` [NFC] (#218949)"
+        },
+        {
+            "hash": "f1c17af26d3f5a52cfe38bcb7471e084bc8fcbd9",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-28T14:01:27+01:00",
+            "subject": "[SCEV] Improve WrapPredicate nusw implication"
+        },
+        {
+            "hash": "52cfdc4e928aefc3e41e675e5e743d06bb4d3877",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-28T19:45:52+01:00",
+            "subject": "[SCEV] Introduce IncrementNSUW, subsuming NSSW"
         }
     ]
 }
