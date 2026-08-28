@@ -215259,6 +215259,12 @@
             "author_name": "Frederik Harwath",
             "commit_date": "2026-08-28T15:00:45+02:00",
             "subject": "[AMDGPU] getMaxLocalMemSizeWithWaveCount: Align to LDS granularity (#219172)"
+        },
+        {
+            "hash": "a5320f84aabb530b941cea3af07427e001302b6e",
+            "author_name": "Leandro Lupori",
+            "commit_date": "2026-08-28T10:06:30-03:00",
+            "subject": "[flang] Allow C style comments in continuation lines (#214336)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -228671,9 +228677,9 @@
             "subject": "[C++20] [Modules] Handling merging predefined decls from std (#219151)"
         },
         {
-            "hash": "833086d36a4eedaf6937fcac499d3e218c56f335",
+            "hash": "3b804e897c295aadacdc7760d37997831021992e",
             "author_name": "Steffen Holst Larsen",
-            "commit_date": "2026-08-27T07:51:28-05:00",
+            "commit_date": "2026-08-28T08:04:22-05:00",
             "subject": "[Clang][NFCI] Add support for multi-attribute lookup"
         }
     ],
@@ -230075,10 +230081,38 @@
             "subject": "[orc-rt] Add include\/orc-rt-internal for internal APIs. (#219386)"
         },
         {
-            "hash": "2c1584f85d7d1a14f89e761918686773aba8935b",
+            "hash": "1f7467b845a398fdcdf49c4c9151cb7612e19e40",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-28T12:45:06+01:00",
+            "commit_date": "2026-08-28T14:06:22+01:00",
             "subject": "Cache loop guards"
+        }
+    ],
+    "artagnon\/perf\/scev-implies-nusw": [
+        {
+            "hash": "41c2ec559f774b9d92b5378db081ed21ae8085d1",
+            "author_name": "ZERICO2005",
+            "commit_date": "2026-08-27T23:27:38+02:00",
+            "subject": "[KnownFPClass] Add `KnownFPClass::frem` [NFC] (#218949)"
+        },
+        {
+            "hash": "f1c17af26d3f5a52cfe38bcb7471e084bc8fcbd9",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-28T14:01:27+01:00",
+            "subject": "[SCEV] Improve WrapPredicate nusw implication"
+        }
+    ],
+    "fhahn\/perf\/abh-lg": [
+        {
+            "hash": "ad3ba4569c37e0dc028cc928393f90a16e0b162d",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-08-28T16:44:15+10:00",
+            "subject": "[orc-rt] Add include\/orc-rt-internal for internal APIs. (#219386)"
+        },
+        {
+            "hash": "8b923b05ee0d1a725fbc59f2db6055649a2cd659",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-08-28T14:07:09+01:00",
+            "subject": "[ScalarEvolution] howManyLessThans infer stride isPositive from guard"
         }
     ]
 }
