@@ -224595,6 +224595,66 @@
             "author_name": "Tobias Hieta",
             "commit_date": "2026-08-27T19:16:06+02:00",
             "subject": "Bump version to 23.1.1"
+        },
+        {
+            "hash": "910bfcd7324d90b20adc2ba843d3fd661f662003",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-08-28T11:05:08+02:00",
+            "subject": "[VectorCombine] Fix foldBitcastOfVPLoad reordering loads (#218336)"
+        },
+        {
+            "hash": "f54a7b77711f7d05f39b5fece6139e931c8a7afc",
+            "author_name": "hev",
+            "commit_date": "2026-08-28T11:05:11+02:00",
+            "subject": "[LoongArch] Fix selection of BRCOND with constant conditions (#216027)"
+        },
+        {
+            "hash": "490d4ed19d16c868c1a9e9f461282deaf05e69c3",
+            "author_name": "Daniel Paoliello",
+            "commit_date": "2026-08-28T11:05:13+02:00",
+            "subject": "[GlobalISel] Fix inverted libcall status check in createFCMPLibcall (#219242)"
+        },
+        {
+            "hash": "d81f5d210b3842c8652d9d8637489e2f3bcd1f2e",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-08-28T11:05:16+02:00",
+            "subject": "[SLP]Fix narrow-tree gate width and extract miscount"
+        },
+        {
+            "hash": "4dea21e892d795318cfac64a914c72ea7be6ffe5",
+            "author_name": "Karthika Devi C",
+            "commit_date": "2026-08-28T11:05:16+02:00",
+            "subject": "[SLP]Extend GEP pointer-chain cost to casts and non-root external uses"
+        },
+        {
+            "hash": "aedf7d6749aa2e3f342584cc0954b9a52e158aaa",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-08-28T11:05:19+02:00",
+            "subject": "[X86] LowerAVXCONCAT_VECTORS - fix some clang-format messiness. NFC. (#218504)"
+        },
+        {
+            "hash": "55a6a0bcd3d315f495697d87c0e867a365c86660",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-08-28T11:05:19+02:00",
+            "subject": "[X86] LowerAVXCONCAT_VECTORS - collect all subvector operands before ReplaceAllUsesWith call (#218381)"
+        },
+        {
+            "hash": "b085518fcd06a7c12fb3dbf3260967eaeb753572",
+            "author_name": "Douglas Yung",
+            "commit_date": "2026-08-28T11:05:21+02:00",
+            "subject": "Revert \"Revert \"workflows\/release-binaries: Disable flang on Darwin (#164667)\"\" (#218978)"
+        },
+        {
+            "hash": "e86c19d77c9d4e4d226d018311b9dc68e410e712",
+            "author_name": "Lane0218",
+            "commit_date": "2026-08-28T11:05:24+02:00",
+            "subject": "[Clang] Fix -Wunused-parameter for implicit coroutine uses (#217518)"
+        },
+        {
+            "hash": "fce01560cee88630b2511c9d8c4386849cbb8ac4",
+            "author_name": "Oscar Priego",
+            "commit_date": "2026-08-28T11:05:27+02:00",
+            "subject": "[SelectionDAG] Preserve CTTZ_ELTS lane count during expansion (#217982)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
