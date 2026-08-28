@@ -215325,6 +215325,18 @@
             "author_name": "Arda Serdar Pektezol",
             "commit_date": "2026-08-28T16:30:47+02:00",
             "subject": "[CodeExtractor] Reject regions with terminating deoptimize (#204560)"
+        },
+        {
+            "hash": "6b6b913c2a6f2da094f9b35c963c9824d7451384",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-28T15:36:22+01:00",
+            "subject": "[ConstraintElim] Strengthen flags on mul and shl with constant operand. (#219293)"
+        },
+        {
+            "hash": "8bbef2905a7b5040b0134b2c58b95f77a09603d9",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-28T14:42:09+00:00",
+            "subject": "AMDGPU: Pass instruction and operand to isKImmOperand\/isKUImmOperand (#219476)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -229975,51 +229987,39 @@
     ],
     "fhahn\/perf\/ce-improvements": [
         {
-            "hash": "a4d5d5f03ce4ba9127888256217d8662a27ddf51",
-            "author_name": "Alexey Bataev",
-            "commit_date": "2026-08-27T17:09:41-04:00",
-            "subject": "[SLP][NFC]Add extra tests for gathered splats, NFC"
+            "hash": "6b6b913c2a6f2da094f9b35c963c9824d7451384",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-28T15:36:22+01:00",
+            "subject": "[ConstraintElim] Strengthen flags on mul and shl with constant operand. (#219293)"
         },
         {
-            "hash": "ab455368786e09170caac35d991f94c0a3f048ed",
+            "hash": "4e534b593809333cac9d08ec5c205d6db7cb5a70",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-27T22:13:37+01:00",
-            "subject": "[ConstraintElim] Add tests for shl\/mul materialization"
-        },
-        {
-            "hash": "7d139f10655ac91e24f652790010d1c2c9b0a0e8",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-27T22:13:38+01:00",
-            "subject": "[ConstraintElim] Strengthen flags on mul and shl with constant operand."
-        },
-        {
-            "hash": "585f78312279a1182beeb96a5b76a0c134193491",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-27T22:13:38+01:00",
+            "commit_date": "2026-08-28T15:40:48+01:00",
             "subject": "nsw -> nuw"
         },
         {
-            "hash": "db09477897826d2441f67064bb966ab2d16a2663",
+            "hash": "b806d3422a08d8da8652a64c35954c47a9cc0061",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-27T22:14:56+01:00",
+            "commit_date": "2026-08-28T15:41:13+01:00",
             "subject": "[ConstraintElim] Add absolute upper bounds for lshr and udiv."
         },
         {
-            "hash": "69a7230974b71b998e4c6fd71c2dad70d339bf36",
+            "hash": "80f89bbcdf3fe82758450d2dd3c25cf9427c2b6e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-27T22:14:57+01:00",
+            "commit_date": "2026-08-28T15:41:13+01:00",
             "subject": "Step"
         },
         {
-            "hash": "6cc8ccc81c32bc8fc5b4780a4413f1de1bf9e120",
+            "hash": "7ba239d44274cbf3021a01fc098eeb76d2c7f8ce",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-27T22:14:57+01:00",
+            "commit_date": "2026-08-28T15:41:14+01:00",
             "subject": "[ConstraintElim] Add absolute upper bound for and with constant operand."
         },
         {
-            "hash": "12fedbad3c4f04508295539592f304e29ae02b1f",
+            "hash": "8bcebc70287c69f80c55173a6f3e53abb24cd500",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-27T22:14:57+01:00",
+            "commit_date": "2026-08-28T15:41:14+01:00",
             "subject": "[InstCombine] Preserve no-wrap flags in trunc (shl X, C) fold."
         }
     ],
