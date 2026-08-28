@@ -215685,6 +215685,18 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-08-28T15:57:56-04:00",
             "subject": "[SLP][NFC]Add a test with non-profitable non-power-of-2 vectorization, NFC"
+        },
+        {
+            "hash": "e5cd716940554b46bcaef9419a801786d409207a",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-08-28T21:03:17+01:00",
+            "subject": "[PowerPC] Remove assumptions about subreg index values. NFC. (#219524)"
+        },
+        {
+            "hash": "d8a53c6df6b6c46b3618c569573de9809d0694a5",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-08-28T21:03:50+01:00",
+            "subject": "[PowerPC] Update MIR syntax for INSERT_SUBREG in tests (#219523)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -229247,27 +229259,27 @@
     ],
     "artagnon\/perf\/scev-extaddrec-wrap": [
         {
-            "hash": "be851f53bfeb5f416d6b14d7bc4c5a384609e47d",
-            "author_name": "Kaviya Rajendiran",
-            "commit_date": "2026-08-27T16:02:02+05:30",
-            "subject": "[FLANG][Driver] Support -fno-profile-generate and -fprofile-generate=<dir> in flang (#216643)"
+            "hash": "fa4c1ba1bd4be33232af93c5b2de6cbf589f102f",
+            "author_name": "Tim Besard",
+            "commit_date": "2026-08-28T12:36:01-07:00",
+            "subject": "[SROA] Reject illegal vector memset promotion (#216772)"
         },
         {
-            "hash": "65e5fe50b04a83206c6e5df409305146d18b4fb5",
+            "hash": "a13c2b4e3a3191206c1796ddaf887124ec4b5799",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-27T13:13:59+01:00",
+            "commit_date": "2026-08-28T21:00:51+01:00",
             "subject": "[SCEV] Add test coverage for ext-nusw\/nsuw inference"
         },
         {
-            "hash": "b13082edb891aef6a2849cf695c088e777ade643",
+            "hash": "0ca067561f003a01bd24bd61c191f0b7b673902a",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-27T14:27:57+01:00",
+            "commit_date": "2026-08-28T21:00:51+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence for sext-addrec"
         },
         {
-            "hash": "c1a266c75278cdd7720d8f10a5227fee162bd026",
+            "hash": "af8791e95f46bbc362ecdde7ffd1919705ca9550",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-27T16:26:45+01:00",
+            "commit_date": "2026-08-28T21:01:29+01:00",
             "subject": "[SCEV] Restore an improved version of nsuw logic"
         }
     ],
@@ -229331,27 +229343,27 @@
     ],
     "artagnon\/perf\/scev-zextaddrec-wrap": [
         {
-            "hash": "be851f53bfeb5f416d6b14d7bc4c5a384609e47d",
-            "author_name": "Kaviya Rajendiran",
-            "commit_date": "2026-08-27T16:02:02+05:30",
-            "subject": "[FLANG][Driver] Support -fno-profile-generate and -fprofile-generate=<dir> in flang (#216643)"
+            "hash": "fa4c1ba1bd4be33232af93c5b2de6cbf589f102f",
+            "author_name": "Tim Besard",
+            "commit_date": "2026-08-28T12:36:01-07:00",
+            "subject": "[SROA] Reject illegal vector memset promotion (#216772)"
         },
         {
-            "hash": "65e5fe50b04a83206c6e5df409305146d18b4fb5",
+            "hash": "9673ac67739d83a8c6e8b3fd842a2b754435b748",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-27T13:13:59+01:00",
+            "commit_date": "2026-08-28T20:58:52+01:00",
             "subject": "[SCEV] Add test coverage for ext-nusw\/nsuw inference"
         },
         {
-            "hash": "1c3675bc318b95a525218f4daa5837f230ef83aa",
+            "hash": "7a380d06fc4e0c8bb70433243783bd83b269fb52",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-27T16:06:17+01:00",
+            "commit_date": "2026-08-28T20:58:52+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence in zext-addrec"
         },
         {
-            "hash": "7aaa5d16c97d8f83b4fd9ee2930076fc3329329e",
+            "hash": "75ca604c3a2ae3404af3432ea6f5754cba079f1f",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-27T16:16:26+01:00",
+            "commit_date": "2026-08-28T20:59:47+01:00",
             "subject": "[SCEV] Restore improved version of nusw logic"
         }
     ],
