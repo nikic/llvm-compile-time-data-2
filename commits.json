@@ -215595,6 +215595,24 @@
             "author_name": "Ziqing Luo",
             "commit_date": "2026-08-28T11:52:36-07:00",
             "subject": "[SSAF] Remove useless anchor variable from test plugin (#219081)"
+        },
+        {
+            "hash": "1b37aad9d17515f0bf24a989074fe305f6934208",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-08-28T11:59:18-07:00",
+            "subject": "[CIR] Fix materialize-temporary-expr for non scalar\/aggregates (#219514)"
+        },
+        {
+            "hash": "102e33fca6d7f5c2c968bb1ac21610e8e557524b",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-08-28T11:59:29-07:00",
+            "subject": "[CIR] Implement indirect-field accesses (#219505)"
+        },
+        {
+            "hash": "c98c903b21fee2c03abc44eeb801eeb04fbabb4b",
+            "author_name": "Alexey Samsonov",
+            "commit_date": "2026-08-28T12:03:34-07:00",
+            "subject": "[libc] Add placeholder for sys\/mount.h Linux header. (#219127)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -230245,40 +230263,52 @@
     ],
     "fhahn\/perf\/ce-improvements": [
         {
-            "hash": "6b6b913c2a6f2da094f9b35c963c9824d7451384",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-28T15:36:22+01:00",
-            "subject": "[ConstraintElim] Strengthen flags on mul and shl with constant operand. (#219293)"
+            "hash": "eb85a8e8073eb60b773f53b0cc3915b035c37ee9",
+            "author_name": "Heejin Ahn",
+            "commit_date": "2026-08-28T11:38:53-07:00",
+            "subject": "[WebAssembly] Fix typos (#219339)"
         },
         {
-            "hash": "4e534b593809333cac9d08ec5c205d6db7cb5a70",
+            "hash": "8e7659c55fac9e56391927333630027c0b882e78",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-28T15:40:48+01:00",
+            "commit_date": "2026-08-28T19:51:08+01:00",
             "subject": "nsw -> nuw"
         },
         {
-            "hash": "b806d3422a08d8da8652a64c35954c47a9cc0061",
+            "hash": "f679ca627c324b7fe8396f204c4947d5785720bb",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-28T15:41:13+01:00",
+            "commit_date": "2026-08-28T19:53:47+01:00",
+            "subject": "[ConstraintElim] Decompose `or disjoint` in the signed system."
+        },
+        {
+            "hash": "ffca22332197f391b286bebb7b0da53d32a4804c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-28T19:53:48+01:00",
+            "subject": "[ConstraintElim] Add `sdiv x, C` facts for a positive constant divisor."
+        },
+        {
+            "hash": "880ebb05b1722a01a5ac2f1255e9d4a74edb81e6",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-28T19:53:48+01:00",
             "subject": "[ConstraintElim] Add absolute upper bounds for lshr and udiv."
         },
         {
-            "hash": "80f89bbcdf3fe82758450d2dd3c25cf9427c2b6e",
+            "hash": "ce64d32819b8f7fe4dd85ee14050c35476e5c9d8",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-28T15:41:13+01:00",
+            "commit_date": "2026-08-28T19:53:48+01:00",
             "subject": "Step"
         },
         {
-            "hash": "7ba239d44274cbf3021a01fc098eeb76d2c7f8ce",
+            "hash": "14e6575f5fb533181caf4635591a4ca26d04bc7a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-28T15:41:14+01:00",
-            "subject": "[ConstraintElim] Add absolute upper bound for and with constant operand."
+            "commit_date": "2026-08-28T19:53:48+01:00",
+            "subject": "[InstCombine] Preserve no-wrap flags in trunc (shl X, C) fold."
         },
         {
-            "hash": "8bcebc70287c69f80c55173a6f3e53abb24cd500",
+            "hash": "5a156b4677d48b7d54ba94a80abdd9d832fda052",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-28T15:41:14+01:00",
-            "subject": "[InstCombine] Preserve no-wrap flags in trunc (shl X, C) fold."
+            "commit_date": "2026-08-28T19:53:49+01:00",
+            "subject": "[ConstraintElim] Add absolute upper bound for and with constant operand."
         }
     ],
     "MaskRay\/perf\/scev-uniquing-denseset": [
