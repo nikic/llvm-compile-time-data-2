@@ -215421,6 +215421,18 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-08-28T17:57:46+02:00",
             "subject": "AArch64: Pass instruction and operand to load\/store rename helpers (#219471)"
+        },
+        {
+            "hash": "209c6d006b589b3d5ebb17b2960777cc3eb9dec8",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-28T16:04:54+00:00",
+            "subject": "VirtRegMap: Pass instruction and operand to readsUndefSubreg (#219485)"
+        },
+        {
+            "hash": "ce328d3ac2be236b3842b7da569d566b76e0f4e2",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-08-28T16:08:39+00:00",
+            "subject": "[X86] Remove duplicate X86ISD::VPERM2X128 v32i8 patterns. NFC. (#219498)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -230201,6 +230213,12 @@
             "author_name": "Leon Clark",
             "commit_date": "2026-08-28T10:36:45+01:00",
             "subject": "Revert \"Optimisations made by clang-include-optimiser in clang and llvm.\""
+        },
+        {
+            "hash": "f856b2a428a219a0937619973ad22aea525cd161",
+            "author_name": "Leon Clark",
+            "commit_date": "2026-08-28T17:00:12+01:00",
+            "subject": "Fix some failing TUs."
         }
     ],
     "antoniofrighetto\/perf\/ic-requeue-users-branch": [
