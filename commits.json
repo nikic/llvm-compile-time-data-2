@@ -215283,6 +215283,30 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-08-28T13:50:38+00:00",
             "subject": "AMDGPU: Avoid querying operand parent in isLegalRegOperand (#219464)"
+        },
+        {
+            "hash": "0fd5ebe14f4fabeab743c24d57d6b7793b110613",
+            "author_name": "Tadeusz",
+            "commit_date": "2026-08-28T15:55:06+02:00",
+            "subject": "[InstCombine] Remove INT_MIN poison check from abs(X) u< C --> X + (C-1) u<= 2*(C-1) fold. (#219264)"
+        },
+        {
+            "hash": "85e73b1674870cadd52034d5bee38c94bad71597",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-28T15:56:08+02:00",
+            "subject": "CodeGen: Pass instruction to LiveRangeEdit::useIsKill (#219466)"
+        },
+        {
+            "hash": "b90e2bc86431ce90496863417a89ae8c8ad738fd",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-28T13:56:19+00:00",
+            "subject": "CodeGen: Pass instruction to DetectDeadLanes::isUndefInput (#219467)"
+        },
+        {
+            "hash": "6eeabb90edaf78dc87aab3caf71eb8facf2b813e",
+            "author_name": "higher-performance",
+            "commit_date": "2026-08-28T09:58:26-04:00",
+            "subject": "Speed up pre-C++20 operator<(std::tuple, std::tuple) (#214646)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
