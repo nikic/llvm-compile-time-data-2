@@ -215853,6 +215853,12 @@
             "author_name": "Tuur Martens",
             "commit_date": "2026-08-28T23:54:40-07:00",
             "subject": "[clang] Fix --entry command line option (#69114)"
+        },
+        {
+            "hash": "d34be0ff2eb68d0e486016d8278695fce7d80c3f",
+            "author_name": "Dmitrii Kuragin",
+            "commit_date": "2026-08-29T15:02:20+08:00",
+            "subject": "[Clang-Tidy] Support lambda's init captures in `readability-identifier-naming`. (#214353)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -229505,22 +229511,28 @@
             "subject": "[SROA] Reject illegal vector memset promotion (#216772)"
         },
         {
-            "hash": "9673ac67739d83a8c6e8b3fd842a2b754435b748",
+            "hash": "ad603d5c42e403efc300692cb3720e44c55e9843",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-28T20:58:52+01:00",
+            "commit_date": "2026-08-29T07:53:55+01:00",
             "subject": "[SCEV] Add test coverage for ext-nusw\/nsuw inference"
         },
         {
-            "hash": "7a380d06fc4e0c8bb70433243783bd83b269fb52",
+            "hash": "08d4fa6fb1aa325d72b3827906edb590dd1dcac6",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-28T20:58:52+01:00",
+            "commit_date": "2026-08-29T07:53:55+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence in zext-addrec"
         },
         {
-            "hash": "75ca604c3a2ae3404af3432ea6f5754cba079f1f",
+            "hash": "935bdab385b11755e6fd751493b018c37b8150b7",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-28T20:59:47+01:00",
+            "commit_date": "2026-08-29T07:53:55+01:00",
             "subject": "[SCEV] Restore improved version of nusw logic"
+        },
+        {
+            "hash": "7e6f387e07695b606a38dd585a21679ffde5e52c",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-29T07:58:53+01:00",
+            "subject": "[SCEV] Attempt to lower compile-time by reordering"
         }
     ],
     "artagnon\/perf\/scev-fold-sext-addrec": [
