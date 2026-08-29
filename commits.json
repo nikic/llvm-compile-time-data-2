@@ -216045,6 +216045,12 @@
             "author_name": "Don\u00e1t Nagy",
             "commit_date": "2026-08-29T21:40:40+02:00",
             "subject": "[analyzer] Fix handling of zero-sized elements in ArrayBound (#218712)"
+        },
+        {
+            "hash": "f5fd1587149a039f4592b6e15647668175bb17a7",
+            "author_name": "Deepesh Varatharajan",
+            "commit_date": "2026-08-29T16:04:52-04:00",
+            "subject": "[clang-tools-extra] Add separate CLANG_TOOLS_EXTRA_INCLUDE_TESTS option (#215761)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -230229,27 +230235,27 @@
     ],
     "fhahn\/perf\/scev-addrec-gt-start": [
         {
-            "hash": "f644508a096df2bd92710f066861e21ebf346b15",
-            "author_name": "Matt Arsenault",
-            "commit_date": "2026-08-24T09:52:30+02:00",
-            "subject": "RISCV: Fix VLOptimizer null dereference on an undef slide amount (#218329)"
+            "hash": "25525299adf55ea46d8590ef4385ea66f2679822",
+            "author_name": "\u9648\u5b50\u6602",
+            "commit_date": "2026-08-29T18:47:16+00:00",
+            "subject": "[Clang][RISCV] Add packed widening add\/sub intrinsics (#219348)"
         },
         {
-            "hash": "1c8b7181c4dff5b39c9dfbe05fa4a0e2324b10a9",
+            "hash": "7a50f3a3833dc19ef5ce5069ce7073d948d550b0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-24T10:23:38+01:00",
+            "commit_date": "2026-08-29T20:56:34+01:00",
             "subject": "Precommit test"
         },
         {
-            "hash": "671794a75e90ddbe9f59e9365d460d68eeb4180c",
+            "hash": "11244467fc2dd7f8d797dfd2dcab9af0d79e231f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-24T10:46:01+01:00",
+            "commit_date": "2026-08-29T20:56:34+01:00",
             "subject": "!fixup add more tests"
         },
         {
-            "hash": "36391c0096fdda3f137ca72dd5c4dc61f087a677",
+            "hash": "3f2e2acc334d91d6744cc4653b2784cfbc55377d",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-24T10:47:01+01:00",
+            "commit_date": "2026-08-29T20:56:34+01:00",
             "subject": "[SCEV] Use AddRec monotonicity in isKnownViaNonRecursiveReasoning."
         }
     ],
