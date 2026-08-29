@@ -215901,6 +215901,12 @@
             "author_name": "Lang Hames",
             "commit_date": "2026-08-29T18:58:12+10:00",
             "subject": "[orc-rt] Drop reserveMemory's \/dev\/zero fallback. (#219656)"
+        },
+        {
+            "hash": "b6fee078ec05d30da7bb749a9d3deb83f2a52065",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-29T02:04:50-07:00",
+            "subject": "[Driver] Reject the joined form -exxx (#219658)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -225435,6 +225441,30 @@
             "author_name": "Oscar Priego",
             "commit_date": "2026-08-28T11:05:27+02:00",
             "subject": "[SelectionDAG] Preserve CTTZ_ELTS lane count during expansion (#217982)"
+        },
+        {
+            "hash": "b201342bdc3154f06103f820373f271979b8f916",
+            "author_name": "Bj\u00f6rn Sch\u00e4pers",
+            "commit_date": "2026-08-29T11:08:28+02:00",
+            "subject": "[clang-format] Harden star and amp annotation (#212856)"
+        },
+        {
+            "hash": "5f58ba54af5e8c723409870dccf2826cbd1e6393",
+            "author_name": "Ebuka Ezike",
+            "commit_date": "2026-08-29T11:08:30+02:00",
+            "subject": "[lldb][API] Fix SBEnvironment crash when Set is called with a nullptr. (#218906)"
+        },
+        {
+            "hash": "cefac32eb6ab00f02b7dd38f62b0f92c2a05a21b",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-08-29T11:08:33+02:00",
+            "subject": "[DWARFLinker] Walk each shared subtree's dependencies once (#218072)"
+        },
+        {
+            "hash": "fdf0409c656cc66c61b14d71c831f2b453c13e19",
+            "author_name": "Frank Denis",
+            "commit_date": "2026-08-29T11:08:35+02:00",
+            "subject": "[WebAssembly] Avoid scanning unrelated debug values (NFCI) (#218378)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
