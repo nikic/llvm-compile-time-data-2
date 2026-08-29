@@ -230719,51 +230719,63 @@
     ],
     "fhahn\/perf\/ce-improvements": [
         {
-            "hash": "eb85a8e8073eb60b773f53b0cc3915b035c37ee9",
-            "author_name": "Heejin Ahn",
-            "commit_date": "2026-08-28T11:38:53-07:00",
-            "subject": "[WebAssembly] Fix typos (#219339)"
+            "hash": "b6fee078ec05d30da7bb749a9d3deb83f2a52065",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-29T02:04:50-07:00",
+            "subject": "[Driver] Reject the joined form -exxx (#219658)"
         },
         {
-            "hash": "8e7659c55fac9e56391927333630027c0b882e78",
+            "hash": "bd00545d02a2037af9380c4c8c4ab381d3bec07a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-28T19:51:08+01:00",
+            "commit_date": "2026-08-29T11:15:59+01:00",
             "subject": "nsw -> nuw"
         },
         {
-            "hash": "f679ca627c324b7fe8396f204c4947d5785720bb",
+            "hash": "836c09926473440c340d73ed2a6fb73ea82b9a67",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-28T19:53:47+01:00",
+            "commit_date": "2026-08-29T11:15:59+01:00",
             "subject": "[ConstraintElim] Decompose `or disjoint` in the signed system."
         },
         {
-            "hash": "ffca22332197f391b286bebb7b0da53d32a4804c",
+            "hash": "09bbc55f36beafc10ca1d160075f74186e8262be",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-28T19:53:48+01:00",
-            "subject": "[ConstraintElim] Add `sdiv x, C` facts for a positive constant divisor."
+            "commit_date": "2026-08-29T11:17:39+01:00",
+            "subject": "[ConstraintElim] Derive induction bound facts from an inequality latch."
         },
         {
-            "hash": "880ebb05b1722a01a5ac2f1255e9d4a74edb81e6",
+            "hash": "95e1716321a76db7b24c310dfb2b55006a75da23",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-28T19:53:48+01:00",
+            "commit_date": "2026-08-29T11:17:42+01:00",
+            "subject": "[ConstraintElim] Allow a non-constant induction start value."
+        },
+        {
+            "hash": "eed7e4fcdb2fd2835301827f7de3cb79429cae89",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-29T11:17:42+01:00",
+            "subject": "[InstCombine] Rewrite a use-dominated with.overflow value to a plain binop."
+        },
+        {
+            "hash": "ec5a9614a06b9f6ff9395c353885d931cc9b6312",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-29T11:17:58+01:00",
             "subject": "[ConstraintElim] Add absolute upper bounds for lshr and udiv."
         },
         {
-            "hash": "ce64d32819b8f7fe4dd85ee14050c35476e5c9d8",
+            "hash": "447667534db21bbed3091c77268d8a6744deedd2",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-28T19:53:48+01:00",
+            "commit_date": "2026-08-29T11:17:58+01:00",
+            "subject": "[ConstraintElim] Add `sdiv x, C` facts for a positive constant divisor."
+        },
+        {
+            "hash": "fc255d9ab49eb9c2e0dc38455c2b63cb44b405de",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-29T20:42:10+01:00",
             "subject": "Step"
         },
         {
-            "hash": "14e6575f5fb533181caf4635591a4ca26d04bc7a",
+            "hash": "661c2d89fb119cfb6967432f9c8309e9080413a2",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-28T19:53:48+01:00",
-            "subject": "[InstCombine] Preserve no-wrap flags in trunc (shl X, C) fold."
-        },
-        {
-            "hash": "5a156b4677d48b7d54ba94a80abdd9d832fda052",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-28T19:53:49+01:00",
+            "commit_date": "2026-08-29T20:42:43+01:00",
             "subject": "[ConstraintElim] Add absolute upper bound for and with constant operand."
         }
     ],
