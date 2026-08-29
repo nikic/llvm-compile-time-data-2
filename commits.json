@@ -230746,5 +230746,19 @@
             "commit_date": "2026-08-29T07:41:32+01:00",
             "subject": "[SCEV] Minor NFC fixups"
         }
+    ],
+    "artagnon\/perf\/scev-udiv-ar-nuw-bw": [
+        {
+            "hash": "fa4c1ba1bd4be33232af93c5b2de6cbf589f102f",
+            "author_name": "Tim Besard",
+            "commit_date": "2026-08-28T12:36:01-07:00",
+            "subject": "[SROA] Reject illegal vector memset promotion (#216772)"
+        },
+        {
+            "hash": "02fe490751f0ae0e0c66a7452bd3f6ef6b575a10",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-29T08:16:44+01:00",
+            "subject": "[SCEV] Use 2 * BW when checking nuw of udiv-AR (NFC)"
+        }
     ]
 }
