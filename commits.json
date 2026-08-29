@@ -230964,5 +230964,19 @@
             "commit_date": "2026-08-29T08:16:44+01:00",
             "subject": "[SCEV] Use 2 * BW when checking nuw of udiv-AR (NFC)"
         }
+    ],
+    "MaskRay\/perf\/apint-cold": [
+        {
+            "hash": "902bfae0ebf46f78609964cec676a372603ac513",
+            "author_name": "Eli Friedman",
+            "commit_date": "2026-08-29T10:14:41-07:00",
+            "subject": "[IR] Add helpers to AllocaInst to avoid getAllocatedType(). (#219594)"
+        },
+        {
+            "hash": "7afe60e67ca1f648633e2a03415ca6fa2b8ad952",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-29T11:27:36-07:00",
+            "subject": "[APInt] Mark out-of-line slow cases cold"
+        }
     ]
 }
