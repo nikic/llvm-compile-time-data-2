@@ -230693,22 +230693,28 @@
     ],
     "artagnon\/perf\/scev-nsuw": [
         {
-            "hash": "41c2ec559f774b9d92b5378db081ed21ae8085d1",
-            "author_name": "ZERICO2005",
-            "commit_date": "2026-08-27T23:27:38+02:00",
-            "subject": "[KnownFPClass] Add `KnownFPClass::frem` [NFC] (#218949)"
+            "hash": "fa4c1ba1bd4be33232af93c5b2de6cbf589f102f",
+            "author_name": "Tim Besard",
+            "commit_date": "2026-08-28T12:36:01-07:00",
+            "subject": "[SROA] Reject illegal vector memset promotion (#216772)"
         },
         {
-            "hash": "f1c17af26d3f5a52cfe38bcb7471e084bc8fcbd9",
+            "hash": "6c6902f0115fe26b918a77856c8cf4496b1a8a1c",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-28T14:01:27+01:00",
+            "commit_date": "2026-08-29T07:17:24+01:00",
             "subject": "[SCEV] Improve WrapPredicate nusw implication"
         },
         {
-            "hash": "fe90c423673fe8d6b3c0392505c7a289266448e3",
+            "hash": "8a850e8e412b60f23942a9be9ce0327d8e5c42cb",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-28T20:44:49+01:00",
+            "commit_date": "2026-08-29T07:17:24+01:00",
             "subject": "[SCEV] Introduce IncrementNSUW, subsuming NSSW"
+        },
+        {
+            "hash": "ac2619c533b7901fbb49c8b5a00c0271eea80bb7",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-08-29T07:41:32+01:00",
+            "subject": "[SCEV] Minor NFC fixups"
         }
     ]
 }
