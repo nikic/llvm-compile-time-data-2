@@ -216411,6 +216411,24 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-08-30T21:04:49+00:00",
             "subject": "[clang] Migrate remaining FoldingSet users to lookup\/insert. NFC (#219844)"
+        },
+        {
+            "hash": "c8c01974b33aea1639ff130cf5fe0f1cb4d51cb3",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-30T23:13:58+02:00",
+            "subject": "AArch64: Use AsmPrinter's MachineFunction in lowerSymbolOperandELF (#219475)"
+        },
+        {
+            "hash": "49b1085d6aa82077597d992597acc4cab1e9ab4b",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-08-30T23:14:18+02:00",
+            "subject": "CodeGen: Use getOneNonDBGUser in PeepholeOptimizer (#219526)"
+        },
+        {
+            "hash": "152edef9d6b25f35388cf2a48aa470cfebe61da9",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-08-30T14:14:42-07:00",
+            "subject": "[libc][Github] Use explicit names for libc overlay tests (#219783)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -231437,27 +231455,33 @@
     ],
     "fhahn\/perf\/more-loop-guards": [
         {
-            "hash": "8c3eb5349678e843b21572b37439d275e97c731b",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-08-30T18:37:59+00:00",
-            "subject": "[CodeGen] Migrate to FoldingSet's typed lookup\/insert\/erase. NFC (#219830)"
+            "hash": "b45b02a93adbea74dffbc41f4a9e295c664ab0ef",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-30T21:42:29+01:00",
+            "subject": "[VPlan] Fix VPScalarIVStepsRecipe for FSub inductions. (#219214)"
         },
         {
-            "hash": "d5ff460939f1802eb5c87753e9771a4e0729dbd6",
+            "hash": "57626d916c9b99e21e95664006ad867f5fa76512",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-30T20:15:08+01:00",
+            "commit_date": "2026-08-30T22:13:43+01:00",
+            "subject": "Add test"
+        },
+        {
+            "hash": "50a29cade40584554f920d3362293609a59c0c25",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-30T22:14:46+01:00",
             "subject": "[SCEV] Apply loop guards to Distance + 1 in howFarToZero."
         },
         {
-            "hash": "130fa42cdbfb4330d538689e2d4fbcdacd633560",
+            "hash": "3ca1535334b92a4e0fc96c82e6faf2482140ca39",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-30T20:15:08+01:00",
+            "commit_date": "2026-08-30T22:15:39+01:00",
             "subject": "[SCEV] Derive a bound on B - A from (A u<= B) and (B u<= A + C)."
         },
         {
-            "hash": "6ba3c028ae18962b6343328c63ac5345e61cccf2",
+            "hash": "393be1d96a1b0a1bbb618f2f83b5d2d6dbae1811",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-30T20:15:08+01:00",
+            "commit_date": "2026-08-30T22:15:45+01:00",
             "subject": "[SCEV] Restate a phi's incoming-edge guards in terms of the phi."
         }
     ]
