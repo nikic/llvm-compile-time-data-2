@@ -230959,63 +230959,69 @@
     ],
     "fhahn\/perf\/ce-improvements": [
         {
-            "hash": "b6fee078ec05d30da7bb749a9d3deb83f2a52065",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-08-29T02:04:50-07:00",
-            "subject": "[Driver] Reject the joined form -exxx (#219658)"
+            "hash": "a11ea419a1f919ee5fdbb34fd1ad38d383c82e0a",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-08-30T08:40:23-07:00",
+            "subject": "[llvm] Remove unused includes (NFC) (#219782)"
         },
         {
-            "hash": "bd00545d02a2037af9380c4c8c4ab381d3bec07a",
+            "hash": "d143112efcdfcd2d95f2386d039a2039ec67b63b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-29T11:15:59+01:00",
-            "subject": "nsw -> nuw"
+            "commit_date": "2026-08-30T17:02:34+01:00",
+            "subject": "[SLP] Do not re-run buildTreeRec on an already rejected gather slice."
         },
         {
-            "hash": "836c09926473440c340d73ed2a6fb73ea82b9a67",
+            "hash": "955f2beedea61b1a5494d0b0df684f0efde12bbe",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-29T11:15:59+01:00",
+            "commit_date": "2026-08-30T17:02:34+01:00",
             "subject": "[ConstraintElim] Decompose `or disjoint` in the signed system."
         },
         {
-            "hash": "09bbc55f36beafc10ca1d160075f74186e8262be",
+            "hash": "b5eb118e0426552dfddf1fa65e002842326b0a8a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-29T11:17:39+01:00",
+            "commit_date": "2026-08-30T17:02:35+01:00",
             "subject": "[ConstraintElim] Derive induction bound facts from an inequality latch."
         },
         {
-            "hash": "95e1716321a76db7b24c310dfb2b55006a75da23",
+            "hash": "660f01002fd5f767cade3ba245201558a65d0db0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-29T11:17:42+01:00",
+            "commit_date": "2026-08-30T17:02:35+01:00",
             "subject": "[ConstraintElim] Allow a non-constant induction start value."
         },
         {
-            "hash": "eed7e4fcdb2fd2835301827f7de3cb79429cae89",
+            "hash": "6031786cd7742bac96f2bccbd0d6d6857b03a0d5",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-29T11:17:42+01:00",
+            "commit_date": "2026-08-30T17:02:35+01:00",
+            "subject": "[ConstraintElim] Fold an icmp against a signed extreme via a strict witness."
+        },
+        {
+            "hash": "9866e261d440a3c46fbfca6f1e5a06474527ebe9",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-30T17:02:53+01:00",
             "subject": "[InstCombine] Rewrite a use-dominated with.overflow value to a plain binop."
         },
         {
-            "hash": "ec5a9614a06b9f6ff9395c353885d931cc9b6312",
+            "hash": "49535b5417dfb2d4fda3c132597ee7c3a57ea073",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-29T11:17:58+01:00",
+            "commit_date": "2026-08-30T17:02:58+01:00",
             "subject": "[ConstraintElim] Add absolute upper bounds for lshr and udiv."
         },
         {
-            "hash": "447667534db21bbed3091c77268d8a6744deedd2",
+            "hash": "c7180a9dbd580df38f754fccca9edc45627c79c7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-29T11:17:58+01:00",
+            "commit_date": "2026-08-30T17:02:58+01:00",
             "subject": "[ConstraintElim] Add `sdiv x, C` facts for a positive constant divisor."
         },
         {
-            "hash": "fc255d9ab49eb9c2e0dc38455c2b63cb44b405de",
+            "hash": "bfc598f52c4ea960451b4f410202542414c334b0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-29T20:42:10+01:00",
+            "commit_date": "2026-08-30T17:02:58+01:00",
             "subject": "Step"
         },
         {
-            "hash": "661c2d89fb119cfb6967432f9c8309e9080413a2",
+            "hash": "7cc50e243e6d1e7c1e7c1608edff8b019f821eb5",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-29T20:42:43+01:00",
+            "commit_date": "2026-08-30T17:02:58+01:00",
             "subject": "[ConstraintElim] Add absolute upper bound for and with constant operand."
         }
     ],
