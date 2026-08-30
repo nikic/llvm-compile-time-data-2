@@ -216297,6 +216297,18 @@
             "author_name": "Timm Baeder",
             "commit_date": "2026-08-30T18:31:36+02:00",
             "subject": "[clang][bytecode][NFC] Remove unused SourceMapper functions (#219786)"
+        },
+        {
+            "hash": "492a3a4f44e6daef57376bf09b2395a82fe44952",
+            "author_name": "Andreas Jonson",
+            "commit_date": "2026-08-30T19:02:43+02:00",
+            "subject": "[InstCombine] Don't change the size of a select if it would mismatch its trunc condition operand size (#219789)"
+        },
+        {
+            "hash": "539a51af8f5bb5955db36c6ba606522fe1974de4",
+            "author_name": "Andreas Jonson",
+            "commit_date": "2026-08-30T19:04:56+02:00",
+            "subject": "[InstCombine] narrow select to match trunc condition operand size (#219794)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
