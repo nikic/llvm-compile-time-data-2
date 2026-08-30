@@ -216255,6 +216255,18 @@
             "author_name": "Timm Baeder",
             "commit_date": "2026-08-30T09:45:48+02:00",
             "subject": "[clang][bytecode] Remove native pointer marshalling (#218911)"
+        },
+        {
+            "hash": "4dbe25d8be69912e506566613ef06e3db1978770",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-08-30T09:56:23+02:00",
+            "subject": "[clang][bytecode] Reduce `EvalEmitter::Descriptors` inline size (#219773)"
+        },
+        {
+            "hash": "4126d3d1d61a2ddd76924923a2bc2046a16640b7",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-08-30T17:57:46+10:00",
+            "subject": "[ORC] Route SimpleRemoteEPC::runAsMain through CallMainProxySpec (#219770)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -231225,6 +231237,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-08-29T23:30:54-07:00",
             "subject": "[RegAllocFast] Lower tied operands, absorbing TwoAddressInstructionPass"
+        }
+    ],
+    "MaskRay\/perf\/foldingset-inline-dispatch": [
+        {
+            "hash": "95473a6cc68b44aed2ee0622d0bb2e60313caad9",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-08-30T09:45:48+02:00",
+            "subject": "[clang][bytecode] Remove native pointer marshalling (#218911)"
+        },
+        {
+            "hash": "253aeb0977bb4b0d6c78f50aae856b55224d213f",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-30T00:58:53-07:00",
+            "subject": "[ADT] Inline FoldingSet's equality dispatch"
         }
     ]
 }
