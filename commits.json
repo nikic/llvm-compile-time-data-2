@@ -230419,9 +230419,9 @@
             "subject": "Revert \"[clang] Don't add documentation comments to the AST if not requested\" (#219807)"
         },
         {
-            "hash": "49a60f4252b280ea9370d715187498ed34049106",
+            "hash": "6bea2906f703723898babdba1ffd7a3d6b3659f7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-30T18:51:15+01:00",
+            "commit_date": "2026-08-30T20:21:47+01:00",
             "subject": "[SCEV] Add SCEVURemExpr"
         }
     ],
@@ -231379,6 +231379,32 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-08-30T10:11:46+02:00",
             "subject": "letd"
+        }
+    ],
+    "fhahn\/perf\/more-loop-guards": [
+        {
+            "hash": "8c3eb5349678e843b21572b37439d275e97c731b",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-30T18:37:59+00:00",
+            "subject": "[CodeGen] Migrate to FoldingSet's typed lookup\/insert\/erase. NFC (#219830)"
+        },
+        {
+            "hash": "d5ff460939f1802eb5c87753e9771a4e0729dbd6",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-30T20:15:08+01:00",
+            "subject": "[SCEV] Apply loop guards to Distance + 1 in howFarToZero."
+        },
+        {
+            "hash": "130fa42cdbfb4330d538689e2d4fbcdacd633560",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-30T20:15:08+01:00",
+            "subject": "[SCEV] Derive a bound on B - A from (A u<= B) and (B u<= A + C)."
+        },
+        {
+            "hash": "6ba3c028ae18962b6343328c63ac5345e61cccf2",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-30T20:15:08+01:00",
+            "subject": "[SCEV] Restate a phi's incoming-edge guards in terms of the phi."
         }
     ]
 }
