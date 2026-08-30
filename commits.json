@@ -77029,100 +77029,58 @@
     ],
     "tbaederr\/perf\/ce-test": [
         {
-            "hash": "9e415db40298b8735a9886389c85aedb49d2e5cd",
-            "author_name": "Matt Davis",
-            "commit_date": "2026-08-26T07:17:13-04:00",
-            "subject": "[CodeGen][DWARF][NFC] Add casts to a few asserts to avoid msvc warning. (#218386)"
+            "hash": "a51a886c8470778790252bc8fd26eb03353c984d",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-08-30T10:15:50+02:00",
+            "subject": "[clang][bytecode] Make Scope::Desc const (#219775)"
         },
         {
-            "hash": "618e027c2c493394c5df338aa33c89e0edec83ef",
+            "hash": "5e592ac8fa5a93c0621375dbc6319afafd767b57",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-26T13:18:39+02:00",
+            "commit_date": "2026-08-30T10:16:37+02:00",
             "subject": "Test"
         },
         {
-            "hash": "d5d99aa4687fe737f694175b132d3670c2f3ac6a",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-26T13:45:32+02:00",
-            "subject": "native pointers"
-        },
-        {
-            "hash": "555fe16b1185899ba7cd5700a06d0eec6019a3f3",
+            "hash": "f85d9a9f8250847d44114e3eafe6a238113845a7",
             "author_name": "yronglin",
-            "commit_date": "2026-08-29T16:32:30+02:00",
+            "commit_date": "2026-08-30T10:16:43+02:00",
             "subject": "Separate aggregate default member initializer evaluation"
         },
         {
-            "hash": "1bb5e41654320260308fa1e4dd5fa9ea44d38fa0",
+            "hash": "742b3f28064fbe9837d061b36aa7cbeab5622b16",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-29T19:15:51+02:00",
+            "commit_date": "2026-08-30T10:16:43+02:00",
             "subject": "unlikely"
         },
         {
-            "hash": "c103508453ca5f3010452d7392776f3cceb22b96",
+            "hash": "41221c12ded5f185a8043c1c7e7c2760d1017a1c",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-29T19:30:36+02:00",
-            "subject": "getsource"
-        },
-        {
-            "hash": "ad62c2f8551c3438b6b0bdea6e03d6b5a079935c",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-29T19:37:36+02:00",
-            "subject": "InterpFrame size"
-        },
-        {
-            "hash": "cb0948d48c56b1609b0fa7d86c24c6db6ebbaacf",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-29T19:46:37+02:00",
+            "commit_date": "2026-08-30T10:16:47+02:00",
             "subject": "noteStep"
         },
         {
-            "hash": "afbdf74d7d623c3f9777be460851f6aba1565c35",
+            "hash": "2bce5311e6c14d0846d236f68d9b3160eeddba10",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-30T07:30:58+02:00",
+            "commit_date": "2026-08-30T10:16:47+02:00",
             "subject": "activate"
         },
         {
-            "hash": "c8a460daff11f165e55450c078b56c5bb47271b0",
+            "hash": "e778d29778e83191bb3445babf1132b7c6102a7a",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-30T07:37:22+02:00",
-            "subject": "local alloc"
-        },
-        {
-            "hash": "32b1a6a0c3df4e881b2060a2ba21b4ace93578c6",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-30T07:42:14+02:00",
+            "commit_date": "2026-08-30T10:16:49+02:00",
             "subject": "torvalue"
         },
         {
-            "hash": "3bad03cc53139cd05d7c249c484c4d0bab1c10bc",
+            "hash": "2a73902c7efc1cc18daa75b5ad42ee0689d7d13b",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-30T07:58:49+02:00",
-            "subject": "always allocator"
-        },
-        {
-            "hash": "d90caa811d232be2e50e528e326c56a1f5764ca5",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-30T07:58:51+02:00",
-            "subject": "Reduce EvalEmitter Descriptors size"
-        },
-        {
-            "hash": "1b2b7efc07a10cdbd24e571667cc82ff1542e8cd",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-30T08:02:00+02:00",
+            "commit_date": "2026-08-30T10:16:50+02:00",
             "subject": "Remove EvalEmitter::P"
         },
         {
-            "hash": "df3bc3d04b8e924a7e5e461c4c688d57a9b2854e",
+            "hash": "0c420de4f2201db18c03aeccff81d9109db478ae",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-30T09:22:21+02:00",
+            "commit_date": "2026-08-30T10:16:51+02:00",
             "subject": "remove pointer move operator"
-        },
-        {
-            "hash": "16f9125658429eb57abc2f25839bae583a2a6e0c",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-30T09:25:14+02:00",
-            "subject": "auto cleanup?"
         }
     ],
     "dtcxzyw\/perf\/nonnull-at-callsite": [
@@ -216267,6 +216225,18 @@
             "author_name": "Lang Hames",
             "commit_date": "2026-08-30T17:57:46+10:00",
             "subject": "[ORC] Route SimpleRemoteEPC::runAsMain through CallMainProxySpec (#219770)"
+        },
+        {
+            "hash": "091328f2e804cb5485c9ddfe08bd1f3d3726ada3",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-08-30T10:08:10+02:00",
+            "subject": "[clang][bytecode][NFC] Make Compiler final (#219774)"
+        },
+        {
+            "hash": "a51a886c8470778790252bc8fd26eb03353c984d",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-08-30T10:15:50+02:00",
+            "subject": "[clang][bytecode] Make Scope::Desc const (#219775)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -231247,10 +231217,30 @@
             "subject": "[clang][bytecode] Remove native pointer marshalling (#218911)"
         },
         {
-            "hash": "253aeb0977bb4b0d6c78f50aae856b55224d213f",
+            "hash": "027bb6950b9289be10866bfc18b19463817929ec",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-08-30T00:58:53-07:00",
+            "commit_date": "2026-08-30T01:04:41-07:00",
             "subject": "[ADT] Inline FoldingSet's equality dispatch"
+        }
+    ],
+    "tbaederr\/perf\/letd": [
+        {
+            "hash": "9e415db40298b8735a9886389c85aedb49d2e5cd",
+            "author_name": "Matt Davis",
+            "commit_date": "2026-08-26T07:17:13-04:00",
+            "subject": "[CodeGen][DWARF][NFC] Add casts to a few asserts to avoid msvc warning. (#218386)"
+        },
+        {
+            "hash": "684443faad9cc8ef33ff0db53517b61c77908b02",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-08-30T09:45:09+02:00",
+            "subject": "torvalue"
+        },
+        {
+            "hash": "13bd2fc794249b1281aa3b4513fcb742c8fa603b",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-08-30T10:11:46+02:00",
+            "subject": "letd"
         }
     ]
 }
