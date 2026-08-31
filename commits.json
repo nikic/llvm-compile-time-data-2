@@ -77041,9 +77041,9 @@
             "subject": "Test"
         },
         {
-            "hash": "e7b2f079dba711e35f654006a2d2b41af4ab0443",
+            "hash": "bf2218e8f5556ea7ae3d1f1840918b548d5cf2a1",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-31T10:32:05+02:00",
+            "commit_date": "2026-08-31T10:43:32+02:00",
             "subject": "stringliteral?"
         }
     ],
@@ -216615,6 +216615,12 @@
             "author_name": "Arseniy Obolenskiy",
             "commit_date": "2026-08-31T10:21:48+02:00",
             "subject": "[SPIR-V] Honor explicit memory_order\/memory_scope in atomic load\/store (#215572)"
+        },
+        {
+            "hash": "cb0ddddd8f20bf30ff92c54a3ed45a7b09d4c310",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-08-31T10:38:15+02:00",
+            "subject": "[X86] Fix VECREDUCE_XOR to PARITY lowering for 16-bit elements (#219216)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -231641,34 +231647,40 @@
     ],
     "fhahn\/perf\/more-loop-guards": [
         {
-            "hash": "b45b02a93adbea74dffbc41f4a9e295c664ab0ef",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-30T21:42:29+01:00",
-            "subject": "[VPlan] Fix VPScalarIVStepsRecipe for FSub inductions. (#219214)"
+            "hash": "cb0ddddd8f20bf30ff92c54a3ed45a7b09d4c310",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-08-31T10:38:15+02:00",
+            "subject": "[X86] Fix VECREDUCE_XOR to PARITY lowering for 16-bit elements (#219216)"
         },
         {
-            "hash": "57626d916c9b99e21e95664006ad867f5fa76512",
+            "hash": "918aa38d750cd40d4265c39817fb31efb628f7e1",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-30T22:13:43+01:00",
+            "commit_date": "2026-08-31T09:43:15+01:00",
             "subject": "Add test"
         },
         {
-            "hash": "50a29cade40584554f920d3362293609a59c0c25",
+            "hash": "33c51ea1c4748883dfef71bdd1007bd72ec9095f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-30T22:14:46+01:00",
+            "commit_date": "2026-08-31T09:43:16+01:00",
             "subject": "[SCEV] Apply loop guards to Distance + 1 in howFarToZero."
         },
         {
-            "hash": "3ca1535334b92a4e0fc96c82e6faf2482140ca39",
+            "hash": "dac3755083cd01b86acd1756614779e050a9583b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-30T22:15:39+01:00",
+            "commit_date": "2026-08-31T09:43:16+01:00",
             "subject": "[SCEV] Derive a bound on B - A from (A u<= B) and (B u<= A + C)."
         },
         {
-            "hash": "393be1d96a1b0a1bbb618f2f83b5d2d6dbae1811",
+            "hash": "bd6cadc80fbe482e936d295f937a72d91bdeb6c4",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-30T22:15:45+01:00",
+            "commit_date": "2026-08-31T09:43:16+01:00",
             "subject": "[SCEV] Restate a phi's incoming-edge guards in terms of the phi."
+        },
+        {
+            "hash": "d05da54ced2b9984c4aac7ed68b4bfa13d2fbd7e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-31T09:43:16+01:00",
+            "subject": "try reduce compile-tiem"
         }
     ],
     "MaskRay\/perf\/foldingset-inline-eq": [
