@@ -77029,16 +77029,22 @@
     ],
     "tbaederr\/perf\/ce-test": [
         {
-            "hash": "a6baa3f0fe3a959cca13bd4cb84b604d29d88530",
-            "author_name": "Timm Baeder",
-            "commit_date": "2026-08-31T09:25:47+02:00",
-            "subject": "[clang][bytecode] Keep sourcemaps smaller (#219878)"
+            "hash": "bfe1283da4922ed313e6bd4dcc3c6a1bcf40e0b0",
+            "author_name": "Oliver Hunt",
+            "commit_date": "2026-08-31T00:52:52-07:00",
+            "subject": "[Sema][NFC] Add additional tests for declarations in expansion statements (#211948)"
         },
         {
-            "hash": "cfd60aed70db13e0da988836c42d605bb30bfacb",
+            "hash": "c2f2006276b8961744fdff51bfabb7390d5dfb9e",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-08-31T09:25:56+02:00",
+            "commit_date": "2026-08-31T10:11:31+02:00",
             "subject": "Test"
+        },
+        {
+            "hash": "e7b2f079dba711e35f654006a2d2b41af4ab0443",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-08-31T10:32:05+02:00",
+            "subject": "stringliteral?"
         }
     ],
     "dtcxzyw\/perf\/nonnull-at-callsite": [
@@ -231691,6 +231697,32 @@
             "author_name": "Sockke",
             "commit_date": "2026-08-27T12:04:32+08:00",
             "subject": "[CodeGen] Cache SpillPlacement link lookups"
+        }
+    ],
+    "fhahn\/perf\/ce-disjoint-or": [
+        {
+            "hash": "5fe9365695490151613358f2213e5a0df90d8fd6",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-08-31T10:21:48+02:00",
+            "subject": "[SPIR-V] Honor explicit memory_order\/memory_scope in atomic load\/store (#215572)"
+        },
+        {
+            "hash": "4526ac9ae588005d96caf02fa0d1fed42f43f010",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-31T09:34:06+01:00",
+            "subject": "[SLP] Do not re-run buildTreeRec on an already rejected gather slice."
+        },
+        {
+            "hash": "e2e17910ebc7b720b4a4d8ddfe45018d5fefc2aa",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-31T09:34:06+01:00",
+            "subject": "TTI cache"
+        },
+        {
+            "hash": "fade3589c84d021904215dcc2e5a27ff5d42388b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-08-31T09:34:06+01:00",
+            "subject": "[ConstraintElim] Decompose `or disjoint` in the signed system."
         }
     ]
 }
