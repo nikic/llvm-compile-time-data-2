@@ -1,0 +1,820 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_test_suite.sh O3 stage1 " failed
+
+STDOUT:
+[256/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBoxShape.cpp.o
+[257/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBvhTriangleMeshShape.cpp.o
+[258/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionAlgorithm.cpp.o
+[259/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBoxBoxDetector.cpp.o
+[260/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCapsuleShape.cpp.o
+[261/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btAxisSweep3.cpp.o
+[262/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionObject.cpp.o
+[263/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionDispatcher.cpp.o
+[264/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionShape.cpp.o
+[265/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConcaveShape.cpp.o
+[266/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConeShape.cpp.o
+[267/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCompoundShape.cpp.o
+[268/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btContactConstraint.cpp.o
+[269/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCompoundCollisionAlgorithm.cpp.o
+[270/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionWorld.cpp.o
+[271/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btContactProcessing.cpp.o
+[272/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btContinuousDynamicsWorld.cpp.o
+[273/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvex2dShape.cpp.o
+[274/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btContinuousConvexCollision.cpp.o
+[275/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvex2dConvex2dAlgorithm.cpp.o
+[276/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexCast.cpp.o
+[277/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/BenchmarkDemo.cpp.o
+[278/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConeTwistConstraint.cpp.o
+[279/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexHullShape.cpp.o
+[280/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexInternalShape.cpp.o
+[281/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexConcaveCollisionAlgorithm.cpp.o
+[282/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexPlaneCollisionAlgorithm.cpp.o
+[283/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexConvexAlgorithm.cpp.o
+[284/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexPointCloudShape.cpp.o
+[285/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexShape.cpp.o
+[286/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexTriangleMeshShape.cpp.o
+[287/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCylinderShape.cpp.o
+[288/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btDispatcher.cpp.o
+[289/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btDefaultCollisionConfiguration.cpp.o
+[290/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btEmptyCollisionAlgorithm.cpp.o
+[291/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexHull.cpp.o
+[292/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btEmptyShape.cpp.o
+[293/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btDbvtBroadphase.cpp.o
+[294/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btDbvt.cpp.o
+[295/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactBvh.cpp.o
+[296/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGeneric6DofSpringConstraint.cpp.o
+[297/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactShape.cpp.o
+[298/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactQuantizedBvh.cpp.o
+[299/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGeneric6DofConstraint.cpp.o
+[300/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGenericPoolAllocator.cpp.o
+[301/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGeometryUtil.cpp.o
+[302/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactCollisionAlgorithm.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and dumped files.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ -DNDEBUG -O3 -w -Werror=date-time -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/include -std=gnu++98 -DNO_TIME -MD -MT CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactCollisionAlgorithm.cpp.o -MF CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactCollisionAlgorithm.cpp.o.d -o CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactCollisionAlgorithm.cpp.o -c /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/btGImpactCollisionAlgorithm.cpp
+1.	<eof> parser at end of file
+2.	Optimizer
+3.	Running pass "function<eager-inv>(drop-unnecessary-assumes,float2int,lower-constant-intrinsics,chr,loop(loop-rotate<header-duplication;no-prepare-for-lto;check-exit-count>,loop-deletion,loop-interchange),loop-distribute,inject-tli-mappings,loop-vectorize<no-interleave-forced-only;no-vectorize-forced-only;>,drop-unnecessary-assumes<drop-deref>,infer-alignment,loop-load-elim,instcombine<max-iterations=1;no-verify-fixpoint>,simplifycfg<bonus-inst-threshold=1;forward-switch-cond;switch-range-to-icmp;switch-to-arithmetic;switch-to-lookup;no-keep-loops;hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,slp-vectorizer,vector-combine,instcombine<max-iterations=1;no-verify-fixpoint>,loop-unroll<O3>,transform-warning,sroa<preserve-cfg;aggregate-to-vector>,infer-alignment,instcombine<max-iterations=1;no-verify-fixpoint>,loop-mssa(licm<allowspeculation>),alignment-from-assumptions,loop-sink,instsimplify,div-rem-pairs,mergeicmps,expand-memcmp,tailcallelim,simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;switch-to-arithmetic;no-switch-to-lookup;keep-loops;no-hoist-common-insts;hoist-loads-stores-with-cond-faulting;no-sink-common-insts;speculate-blocks;simplify-cond-branch;speculate-unpredictables>)" on module "/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/btGImpactCollisionAlgorithm.cpp"
+4.	Running pass "slp-vectorizer" on function "_ZN27btGImpactCollisionAlgorithm21collide_sat_trianglesEP17btCollisionObjectS1_P22btGImpactMeshShapePartS3_PKii"
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x000055f2a2d815b9 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 121
+1  clang++   0x000055f2a2d7f18c llvm::sys::CleanupOnSignal(unsigned long) + 220
+2  clang++   0x000055f2a2cc0c98
+3  libc.so.6 0x00007f09904d3520
+4  clang++   0x000055f2a4970d40 llvm::slpvectorizer::BoUpSLP::tryToVectorizeGatheredLoads(llvm::SmallMapVector<std::tuple<llvm::BasicBlock*, llvm::Value*, llvm::Type*>, llvm::SmallVector<llvm::SmallVector<std::pair<llvm::LoadInst*, long>, 3u>, 1u>, 8u> const&) + 288
+5  clang++   0x000055f2a49724d2 llvm::slpvectorizer::BoUpSLP::transformNodes() + 3938
+6  clang++   0x000055f2a4983c03 llvm::SLPVectorizerPass::vectorizeStoreChainImpl(llvm::ArrayRef<llvm::Value*>, llvm::slpvectorizer::BoUpSLP&, unsigned int, unsigned int, unsigned int&) + 1347
+7  clang++   0x000055f2a4984a37 llvm::SLPVectorizerPass::vectorizeStoreChain(llvm::ArrayRef<llvm::Value*>, llvm::slpvectorizer::BoUpSLP&, unsigned int, unsigned int, unsigned int&) + 71
+8  clang++   0x000055f2a4985f78 llvm::SLPVectorizerPass::vectorizeStores(llvm::ArrayRef<llvm::StoreInst*>, llvm::slpvectorizer::BoUpSLP&, llvm::DenseSet<std::tuple<llvm::Value*, llvm::Value*, llvm::Value*, llvm::Value*, unsigned int>, llvm::DenseMapInfo<std::tuple<llvm::Value*, llvm::Value*, llvm::Value*, llvm::Value*, unsigned int>, void>>&, bool) + 4952
+9  clang++   0x000055f2a4987f4e llvm::SLPVectorizerPass::vectorizeStoreChains(llvm::slpvectorizer::BoUpSLP&) + 1182
+10 clang++   0x000055f2a49a4129
+11 clang++   0x000055f2a49a4843 llvm::SLPVectorizerPass::run(llvm::Function&, llvm::AnalysisManager<llvm::Function>&) + 451
+12 clang++   0x000055f2a3daba16
+13 clang++   0x000055f2a280bf6f llvm::PassManager<llvm::Function, llvm::AnalysisManager<llvm::Function>>::run(llvm::Function&, llvm::AnalysisManager<llvm::Function>&) + 783
+14 clang++   0x000055f2a3108f86
+15 clang++   0x000055f2a280ab72 llvm::ModuleToFunctionPassAdaptor::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 914
+16 clang++   0x000055f2a31088e6
+17 clang++   0x000055f2a280a1ff llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 799
+18 clang++   0x000055f2a3119129
+19 clang++   0x000055f2a311c18d
+20 clang++   0x000055f2a311e691 clang::emitBackendOutput(clang::CompilerInstance&, clang::CodeGenOptions&, llvm::StringRef, llvm::Module*, clang::BackendAction, llvm::IntrusiveRefCntPtr<llvm::vfs::FileSystem>, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>, clang::BackendConsumer*) + 465
+21 clang++   0x000055f2a374d9a8 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) + 1368
+22 clang++   0x000055f2a4c401dc clang::ParseAST(clang::Sema&, bool, bool) + 1068
+23 clang++   0x000055f2a3ac0192 clang::FrontendAction::Execute() + 50
+24 clang++   0x000055f2a3a3ef8d clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 717
+25 clang++   0x000055f2a3b89008 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+26 clang++   0x000055f2a15f14d8 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 4632
+27 clang++   0x000055f2a15e945b
+28 clang++   0x000055f2a15e950f
+29 clang++   0x000055f2a37ccf5d
+30 clang++   0x000055f2a2cc1007 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+31 clang++   0x000055f2a37ce27c
+32 clang++   0x000055f2a37853e7 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+33 clang++   0x000055f2a37897f7 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 295
+34 clang++   0x000055f2a379befc clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+35 clang++   0x000055f2a15ee256 clang_main(int, char**, llvm::ToolContext const&) + 7798
+36 clang++   0x000055f2a15600f1 main + 113
+37 libc.so.6 0x00007f09904bad90
+38 libc.so.6 0x00007f09904bae40 __libc_start_main + 128
+39 clang++   0x000055f2a15e8ed5 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 24.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING CRASH REPRODUCER FILES TO THE BUG REPORT:
+clang++: note: diagnostic msg: /tmp/btGImpactCollisionAlgorithm-b904e3.cpp
+clang++: note: diagnostic msg: /tmp/btGImpactCollisionAlgorithm-b904e3.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[303/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGjkConvexCast.cpp.o
+[304/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGjkEpaPenetrationDepthSolver.cpp.o
+[305/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGhostObject.cpp.o
+[306/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGjkPairDetector.cpp.o
+[307/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btDiscreteDynamicsWorld.cpp.o
+[308/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btHinge2Constraint.cpp.o
+[309/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btHeightfieldTerrainShape.cpp.o
+[310/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btManifoldResult.cpp.o
+[311/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btMinkowskiSumShape.cpp.o
+[312/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGjkEpa2.cpp.o
+[313/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btKinematicCharacterController.cpp.o
+[314/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btMinkowskiPenetrationDepthSolver.cpp.o
+[315/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btHingeConstraint.cpp.o
+[316/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btMultimaterialTriangleMeshShape.cpp.o
+[317/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btMultiSphereShape.cpp.o
+[318/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btMultiSapBroadphase.cpp.o
+[319/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btPersistentManifold.cpp.o
+[320/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btOptimizedBvh.cpp.o
+[321/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btPolyhedralConvexShape.cpp.o
+[322/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btQuickprof.cpp.o
+[323/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btOverlappingPairCache.cpp.o
+[324/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btPoint2PointConstraint.cpp.o
+[325/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btRaycastCallback.cpp.o
+[326/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btScaledBvhTriangleMeshShape.cpp.o
+[327/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btShapeHull.cpp.o
+[328/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btRigidBody.cpp.o
+[329/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btQuantizedBvh.cpp.o
+[330/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSimpleBroadphase.cpp.o
+[331/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSimpleDynamicsWorld.cpp.o
+[332/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btRaycastVehicle.cpp.o
+[333/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSimulationIslandManager.cpp.o
+[334/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyRigidBodyCollisionConfiguration.cpp.o
+[335/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftRigidCollisionAlgorithm.cpp.o
+[336/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSliderConstraint.cpp.o
+[337/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSequentialImpulseConstraintSolver.cpp.o
+[338/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyConcaveCollisionAlgorithm.cpp.o
+[339/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftRigidDynamicsWorld.cpp.o
+[340/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftSoftCollisionAlgorithm.cpp.o
+[341/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereShape.cpp.o
+[342/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSolve2LinearConstraint.cpp.o
+[343/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereBoxCollisionAlgorithm.cpp.o
+[344/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyHelpers.cpp.o
+[345/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereSphereCollisionAlgorithm.cpp.o
+[346/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btStaticPlaneShape.cpp.o
+[347/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btStridingMeshInterface.cpp.o
+[348/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereTriangleCollisionAlgorithm.cpp.o
+[349/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSubSimplexConvexCast.cpp.o
+[350/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleCallback.cpp.o
+[351/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTetrahedronShape.cpp.o
+[352/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleBuffer.cpp.o
+[353/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleIndexVertexArray.cpp.o
+[354/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleIndexVertexMaterialArray.cpp.o
+[355/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTypedConstraint.cpp.o
+[356/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleMeshShape.cpp.o
+[357/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btUniformScalingShape.cpp.o
+[358/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btUnionFind.cpp.o
+[359/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleMesh.cpp.o
+[360/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleShapeEx.cpp.o
+[361/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btWheelInfo.cpp.o
+[362/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_memory.cpp.o
+[363/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btUniversalConstraint.cpp.o
+[364/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btVoronoiSimplexSolver.cpp.o
+[365/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_box_set.cpp.o
+[366/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_contact.cpp.o
+[367/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_tri_collision.cpp.o
+[368/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/main.cpp.o
+[369/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/abs.cc.o
+[370/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/gen.cc.o
+[371/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/error.cc.o
+[372/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/gutil.cc.o
+[373/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/kimwl.cc.o
+[374/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/occur.cc.o
+[375/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/kimwy.cc.o
+[376/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/main.cc.o
+[377/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/parse.cc.o
+[378/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/pat.cc.o
+[379/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/annexb.c.o
+[380/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBody.cpp.o
+[381/671] Linking CXX executable CTMark/Bullet/bullet
+FAILED: CTMark/Bullet/bullet 
+: && /tmp/llvm-test-suite-build/tools/timeit --summary CTMark/Bullet/bullet.link.time /tmp/llvm-project-build-stage1/bin/clang++ -O3  CTMark/Bullet/CMakeFiles/bullet.dir/BenchmarkDemo.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/SphereTriangleDetector.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btActivatingCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btAlignedAllocator.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btAxisSweep3.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBox2dBox2dCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBox2dShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBoxBoxCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBoxBoxDetector.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBoxShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBroadphaseProxy.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBvhTriangleMeshShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCapsuleShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionDispatcher.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionObject.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionWorld.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCompoundCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCompoundShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConcaveShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConeShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConeTwistConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btContactConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btContactProcessing.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btContinuousConvexCollision.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btContinuousDynamicsWorld.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvex2dConvex2dAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvex2dShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexCast.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexConcaveCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexConvexAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexHull.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexHullShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexInternalShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexPlaneCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexPointCloudShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexTriangleMeshShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCylinderShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btDbvt.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btDbvtBroadphase.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btDefaultCollisionConfiguration.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btDiscreteDynamicsWorld.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btDispatcher.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btEmptyCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btEmptyShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactBvh.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactQuantizedBvh.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGeneric6DofConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGeneric6DofSpringConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGenericPoolAllocator.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGeometryUtil.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGhostObject.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGjkConvexCast.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGjkEpa2.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGjkEpaPenetrationDepthSolver.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGjkPairDetector.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btHeightfieldTerrainShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btHinge2Constraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btHingeConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btKinematicCharacterController.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btManifoldResult.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btMinkowskiPenetrationDepthSolver.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btMinkowskiSumShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btMultiSapBroadphase.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btMultiSphereShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btMultimaterialTriangleMeshShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btOptimizedBvh.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btOverlappingPairCache.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btPersistentManifold.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btPoint2PointConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btPolyhedralConvexShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btQuantizedBvh.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btQuickprof.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btRaycastCallback.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btRaycastVehicle.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btRigidBody.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btScaledBvhTriangleMeshShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSequentialImpulseConstraintSolver.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btShapeHull.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSimpleBroadphase.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSimpleDynamicsWorld.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSimulationIslandManager.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSliderConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBody.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyConcaveCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyHelpers.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyRigidBodyCollisionConfiguration.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftRigidCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftRigidDynamicsWorld.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftSoftCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSolve2LinearConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSphereBoxCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSphereShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSphereSphereCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSphereTriangleCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btStaticPlaneShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btStridingMeshInterface.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSubSimplexConvexCast.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTetrahedronShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleBuffer.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleCallback.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleIndexVertexArray.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleIndexVertexMaterialArray.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleMesh.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleMeshShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleShapeEx.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTypedConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btUniformScalingShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btUnionFind.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btUniversalConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btVoronoiSimplexSolver.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btWheelInfo.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/gim_box_set.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/gim_contact.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/gim_memory.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/gim_tri_collision.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/main.cpp.o -o CTMark/Bullet/bullet  -lm && cd /tmp/llvm-test-suite-build/CTMark/Bullet && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/bullet.reference_output /tmp/llvm-test-suite-build/CTMark/Bullet/bullet.reference_output
+clang++: error: no such file or directory: 'CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactCollisionAlgorithm.cpp.o'
+[382/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/biariencode.c.o
+[383/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/util.cc.o
+[384/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/rk.cc.o
+[385/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/k.cc.o
+[386/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/unpk.cc.o
+[387/671] Building CXX object CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_test_suite.sh ReleaseLTO-g stage1 " failed
+
+STDOUT:
+[249/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/SphereTriangleDetector.cpp.o
+[250/671] Building C object CTMark/ClamAV/CMakeFiles/clamscan.dir/libclamav_mbox.c.o
+[251/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBox2dShape.cpp.o
+[252/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBox2dBox2dCollisionAlgorithm.cpp.o
+[253/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBoxBoxCollisionAlgorithm.cpp.o
+[254/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexHull.cpp.o
+[255/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBroadphaseProxy.cpp.o
+[256/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBoxShape.cpp.o
+[257/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btAxisSweep3.cpp.o
+[258/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBoxBoxDetector.cpp.o
+[259/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionAlgorithm.cpp.o
+[260/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCapsuleShape.cpp.o
+[261/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBvhTriangleMeshShape.cpp.o
+[262/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionObject.cpp.o
+[263/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionDispatcher.cpp.o
+[264/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionShape.cpp.o
+[265/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConcaveShape.cpp.o
+[266/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConeShape.cpp.o
+[267/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCompoundShape.cpp.o
+[268/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCompoundCollisionAlgorithm.cpp.o
+[269/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionWorld.cpp.o
+[270/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btContactConstraint.cpp.o
+[271/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btContactProcessing.cpp.o
+[272/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btContinuousDynamicsWorld.cpp.o
+[273/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btContinuousConvexCollision.cpp.o
+[274/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvex2dConvex2dAlgorithm.cpp.o
+[275/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/BenchmarkDemo.cpp.o
+[276/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvex2dShape.cpp.o
+[277/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexCast.cpp.o
+[278/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConeTwistConstraint.cpp.o
+[279/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexHullShape.cpp.o
+[280/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexInternalShape.cpp.o
+[281/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexConcaveCollisionAlgorithm.cpp.o
+[282/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexPointCloudShape.cpp.o
+[283/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexPlaneCollisionAlgorithm.cpp.o
+[284/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexConvexAlgorithm.cpp.o
+[285/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexShape.cpp.o
+[286/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexTriangleMeshShape.cpp.o
+[287/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCylinderShape.cpp.o
+[288/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btDispatcher.cpp.o
+[289/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btDefaultCollisionConfiguration.cpp.o
+[290/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btEmptyCollisionAlgorithm.cpp.o
+[291/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btDbvtBroadphase.cpp.o
+[292/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btEmptyShape.cpp.o
+[293/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btDbvt.cpp.o
+[294/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactBvh.cpp.o
+[295/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactShape.cpp.o
+[296/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactQuantizedBvh.cpp.o
+[297/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGeneric6DofConstraint.cpp.o
+[298/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGeneric6DofSpringConstraint.cpp.o
+[299/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGenericPoolAllocator.cpp.o
+[300/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGeometryUtil.cpp.o
+[301/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGjkConvexCast.cpp.o
+[302/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btDiscreteDynamicsWorld.cpp.o
+[303/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactCollisionAlgorithm.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and dumped files.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ -DNDEBUG -O3 -fomit-frame-pointer -flto -DNDEBUG -g -w -Werror=date-time -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/include -std=gnu++98 -DNO_TIME -MD -MT CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactCollisionAlgorithm.cpp.o -MF CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactCollisionAlgorithm.cpp.o.d -o CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactCollisionAlgorithm.cpp.o -c /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/btGImpactCollisionAlgorithm.cpp
+1.	<eof> parser at end of file
+2.	Optimizer
+3.	Running pass "function<eager-inv>(float2int,lower-constant-intrinsics,chr,loop(loop-rotate<header-duplication;prepare-for-lto;check-exit-count>,loop-deletion,loop-interchange),loop-distribute,inject-tli-mappings,loop-vectorize<no-interleave-forced-only;no-vectorize-forced-only;>,infer-alignment,loop-load-elim,instcombine<max-iterations=1;no-verify-fixpoint>,simplifycfg<bonus-inst-threshold=1;forward-switch-cond;switch-range-to-icmp;switch-to-arithmetic;switch-to-lookup;no-keep-loops;hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,slp-vectorizer,vector-combine,instcombine<max-iterations=1;no-verify-fixpoint>,loop-unroll<O3>,transform-warning,sroa<preserve-cfg;aggregate-to-vector>,infer-alignment,instcombine<max-iterations=1;no-verify-fixpoint>,loop-mssa(licm<allowspeculation>),alignment-from-assumptions,loop-sink,instsimplify,div-rem-pairs,mergeicmps,expand-memcmp,tailcallelim,simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;switch-to-arithmetic;no-switch-to-lookup;keep-loops;no-hoist-common-insts;hoist-loads-stores-with-cond-faulting;no-sink-common-insts;speculate-blocks;simplify-cond-branch;speculate-unpredictables>)" on module "/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/btGImpactCollisionAlgorithm.cpp"
+4.	Running pass "slp-vectorizer" on function "_ZN27btGImpactCollisionAlgorithm21collide_sat_trianglesEP17btCollisionObjectS1_P22btGImpactMeshShapePartS3_PKii"
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x000055e27c4535b9 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 121
+1  clang++   0x000055e27c45118c llvm::sys::CleanupOnSignal(unsigned long) + 220
+2  clang++   0x000055e27c392c98
+3  libc.so.6 0x00007f210b559520
+4  clang++   0x000055e27e042d40 llvm::slpvectorizer::BoUpSLP::tryToVectorizeGatheredLoads(llvm::SmallMapVector<std::tuple<llvm::BasicBlock*, llvm::Value*, llvm::Type*>, llvm::SmallVector<llvm::SmallVector<std::pair<llvm::LoadInst*, long>, 3u>, 1u>, 8u> const&) + 288
+5  clang++   0x000055e27e0444d2 llvm::slpvectorizer::BoUpSLP::transformNodes() + 3938
+6  clang++   0x000055e27e055c03 llvm::SLPVectorizerPass::vectorizeStoreChainImpl(llvm::ArrayRef<llvm::Value*>, llvm::slpvectorizer::BoUpSLP&, unsigned int, unsigned int, unsigned int&) + 1347
+7  clang++   0x000055e27e056a37 llvm::SLPVectorizerPass::vectorizeStoreChain(llvm::ArrayRef<llvm::Value*>, llvm::slpvectorizer::BoUpSLP&, unsigned int, unsigned int, unsigned int&) + 71
+8  clang++   0x000055e27e057f78 llvm::SLPVectorizerPass::vectorizeStores(llvm::ArrayRef<llvm::StoreInst*>, llvm::slpvectorizer::BoUpSLP&, llvm::DenseSet<std::tuple<llvm::Value*, llvm::Value*, llvm::Value*, llvm::Value*, unsigned int>, llvm::DenseMapInfo<std::tuple<llvm::Value*, llvm::Value*, llvm::Value*, llvm::Value*, unsigned int>, void>>&, bool) + 4952
+9  clang++   0x000055e27e059f4e llvm::SLPVectorizerPass::vectorizeStoreChains(llvm::slpvectorizer::BoUpSLP&) + 1182
+10 clang++   0x000055e27e076129
+11 clang++   0x000055e27e076843 llvm::SLPVectorizerPass::run(llvm::Function&, llvm::AnalysisManager<llvm::Function>&) + 451
+12 clang++   0x000055e27d47da16
+13 clang++   0x000055e27beddf6f llvm::PassManager<llvm::Function, llvm::AnalysisManager<llvm::Function>>::run(llvm::Function&, llvm::AnalysisManager<llvm::Function>&) + 783
+14 clang++   0x000055e27c7daf86
+15 clang++   0x000055e27bedcb72 llvm::ModuleToFunctionPassAdaptor::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 914
+16 clang++   0x000055e27c7da8e6
+17 clang++   0x000055e27bedc1ff llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 799
+18 clang++   0x000055e27c7eb129
+19 clang++   0x000055e27c7ee18d
+20 clang++   0x000055e27c7f0691 clang::emitBackendOutput(clang::CompilerInstance&, clang::CodeGenOptions&, llvm::StringRef, llvm::Module*, clang::BackendAction, llvm::IntrusiveRefCntPtr<llvm::vfs::FileSystem>, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>, clang::BackendConsumer*) + 465
+21 clang++   0x000055e27ce1f9a8 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) + 1368
+22 clang++   0x000055e27e3121dc clang::ParseAST(clang::Sema&, bool, bool) + 1068
+23 clang++   0x000055e27d192192 clang::FrontendAction::Execute() + 50
+24 clang++   0x000055e27d110f8d clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 717
+25 clang++   0x000055e27d25b008 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+26 clang++   0x000055e27acc34d8 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 4632
+27 clang++   0x000055e27acbb45b
+28 clang++   0x000055e27acbb50f
+29 clang++   0x000055e27ce9ef5d
+30 clang++   0x000055e27c393007 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+31 clang++   0x000055e27cea027c
+32 clang++   0x000055e27ce573e7 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+33 clang++   0x000055e27ce5b7f7 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 295
+34 clang++   0x000055e27ce6defc clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+35 clang++   0x000055e27acc0256 clang_main(int, char**, llvm::ToolContext const&) + 7798
+36 clang++   0x000055e27ac320f1 main + 113
+37 libc.so.6 0x00007f210b540d90
+38 libc.so.6 0x00007f210b540e40 __libc_start_main + 128
+39 clang++   0x000055e27acbaed5 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 24.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING CRASH REPRODUCER FILES TO THE BUG REPORT:
+clang++: note: diagnostic msg: /tmp/btGImpactCollisionAlgorithm-47daae.cpp
+clang++: note: diagnostic msg: /tmp/btGImpactCollisionAlgorithm-47daae.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[304/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGhostObject.cpp.o
+[305/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGjkEpaPenetrationDepthSolver.cpp.o
+[306/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGjkPairDetector.cpp.o
+[307/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btHeightfieldTerrainShape.cpp.o
+[308/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btHinge2Constraint.cpp.o
+[309/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGjkEpa2.cpp.o
+[310/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btManifoldResult.cpp.o
+[311/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btKinematicCharacterController.cpp.o
+[312/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btMinkowskiPenetrationDepthSolver.cpp.o
+[313/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btMinkowskiSumShape.cpp.o
+[314/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btHingeConstraint.cpp.o
+[315/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btMultimaterialTriangleMeshShape.cpp.o
+[316/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btMultiSphereShape.cpp.o
+[317/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btMultiSapBroadphase.cpp.o
+[318/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btPersistentManifold.cpp.o
+[319/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btOptimizedBvh.cpp.o
+[320/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btPolyhedralConvexShape.cpp.o
+[321/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btOverlappingPairCache.cpp.o
+[322/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btPoint2PointConstraint.cpp.o
+[323/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btQuickprof.cpp.o
+[324/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btRaycastCallback.cpp.o
+[325/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btScaledBvhTriangleMeshShape.cpp.o
+[326/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btRigidBody.cpp.o
+[327/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btQuantizedBvh.cpp.o
+[328/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btShapeHull.cpp.o
+[329/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSimpleBroadphase.cpp.o
+[330/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btRaycastVehicle.cpp.o
+[331/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSimpleDynamicsWorld.cpp.o
+[332/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSimulationIslandManager.cpp.o
+[333/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSequentialImpulseConstraintSolver.cpp.o
+[334/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyRigidBodyCollisionConfiguration.cpp.o
+[335/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSliderConstraint.cpp.o
+[336/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyConcaveCollisionAlgorithm.cpp.o
+[337/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftRigidCollisionAlgorithm.cpp.o
+[338/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftSoftCollisionAlgorithm.cpp.o
+[339/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftRigidDynamicsWorld.cpp.o
+[340/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSolve2LinearConstraint.cpp.o
+[341/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyHelpers.cpp.o
+[342/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereBoxCollisionAlgorithm.cpp.o
+[343/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereShape.cpp.o
+[344/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereSphereCollisionAlgorithm.cpp.o
+[345/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereTriangleCollisionAlgorithm.cpp.o
+[346/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btStaticPlaneShape.cpp.o
+[347/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btStridingMeshInterface.cpp.o
+[348/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSubSimplexConvexCast.cpp.o
+[349/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleBuffer.cpp.o
+[350/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleCallback.cpp.o
+[351/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTetrahedronShape.cpp.o
+[352/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleIndexVertexArray.cpp.o
+[353/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleIndexVertexMaterialArray.cpp.o
+[354/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleMeshShape.cpp.o
+[355/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleMesh.cpp.o
+[356/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleShapeEx.cpp.o
+[357/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTypedConstraint.cpp.o
+[358/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btUniformScalingShape.cpp.o
+[359/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btUnionFind.cpp.o
+[360/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btWheelInfo.cpp.o
+[361/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btUniversalConstraint.cpp.o
+[362/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btVoronoiSimplexSolver.cpp.o
+[363/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_memory.cpp.o
+[364/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_box_set.cpp.o
+[365/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_contact.cpp.o
+[366/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_tri_collision.cpp.o
+[367/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/main.cpp.o
+[368/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/abs.cc.o
+[369/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/error.cc.o
+[370/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/gen.cc.o
+[371/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/gutil.cc.o
+[372/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBody.cpp.o
+[373/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/kimwl.cc.o
+[374/671] Linking CXX executable CTMark/Bullet/bullet
+FAILED: CTMark/Bullet/bullet 
+: && /tmp/llvm-test-suite-build/tools/timeit --summary CTMark/Bullet/bullet.link.time /tmp/llvm-project-build-stage1/bin/clang++ -O3 -fomit-frame-pointer -flto -DNDEBUG -g  CTMark/Bullet/CMakeFiles/bullet.dir/BenchmarkDemo.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/SphereTriangleDetector.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btActivatingCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btAlignedAllocator.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btAxisSweep3.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBox2dBox2dCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBox2dShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBoxBoxCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBoxBoxDetector.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBoxShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBroadphaseProxy.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBvhTriangleMeshShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCapsuleShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionDispatcher.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionObject.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionWorld.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCompoundCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCompoundShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConcaveShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConeShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConeTwistConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btContactConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btContactProcessing.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btContinuousConvexCollision.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btContinuousDynamicsWorld.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvex2dConvex2dAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvex2dShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexCast.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexConcaveCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexConvexAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexHull.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexHullShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexInternalShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexPlaneCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexPointCloudShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexTriangleMeshShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCylinderShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btDbvt.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btDbvtBroadphase.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btDefaultCollisionConfiguration.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btDiscreteDynamicsWorld.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btDispatcher.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btEmptyCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btEmptyShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactBvh.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactQuantizedBvh.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGeneric6DofConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGeneric6DofSpringConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGenericPoolAllocator.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGeometryUtil.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGhostObject.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGjkConvexCast.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGjkEpa2.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGjkEpaPenetrationDepthSolver.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGjkPairDetector.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btHeightfieldTerrainShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btHinge2Constraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btHingeConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btKinematicCharacterController.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btManifoldResult.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btMinkowskiPenetrationDepthSolver.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btMinkowskiSumShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btMultiSapBroadphase.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btMultiSphereShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btMultimaterialTriangleMeshShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btOptimizedBvh.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btOverlappingPairCache.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btPersistentManifold.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btPoint2PointConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btPolyhedralConvexShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btQuantizedBvh.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btQuickprof.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btRaycastCallback.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btRaycastVehicle.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btRigidBody.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btScaledBvhTriangleMeshShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSequentialImpulseConstraintSolver.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btShapeHull.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSimpleBroadphase.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSimpleDynamicsWorld.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSimulationIslandManager.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSliderConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBody.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyConcaveCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyHelpers.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyRigidBodyCollisionConfiguration.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftRigidCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftRigidDynamicsWorld.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftSoftCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSolve2LinearConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSphereBoxCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSphereShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSphereSphereCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSphereTriangleCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btStaticPlaneShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btStridingMeshInterface.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSubSimplexConvexCast.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTetrahedronShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleBuffer.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleCallback.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleIndexVertexArray.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleIndexVertexMaterialArray.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleMesh.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleMeshShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleShapeEx.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTypedConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btUniformScalingShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btUnionFind.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btUniversalConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btVoronoiSimplexSolver.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btWheelInfo.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/gim_box_set.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/gim_contact.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/gim_memory.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/gim_tri_collision.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/main.cpp.o -o CTMark/Bullet/bullet  -lm && cd /tmp/llvm-test-suite-build/CTMark/Bullet && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/bullet.reference_output /tmp/llvm-test-suite-build/CTMark/Bullet/bullet.reference_output
+clang++: error: no such file or directory: 'CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactCollisionAlgorithm.cpp.o'
+[375/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/kimwy.cc.o
+[376/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/occur.cc.o
+[377/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/main.cc.o
+[378/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/k.cc.o
+[379/671] Linking CXX executable CTMark/7zip/7zip-benchmark
+[380/671] Building CXX object CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_test_suite.sh O3 stage1 aarch64" failed
+
+STDOUT:
+[321/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btPersistentManifold.cpp.o
+[322/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btPoint2PointConstraint.cpp.o
+[323/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btQuickprof.cpp.o
+[324/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btOverlappingPairCache.cpp.o
+[325/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btScaledBvhTriangleMeshShape.cpp.o
+[326/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btRaycastCallback.cpp.o
+[327/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btRigidBody.cpp.o
+[328/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btShapeHull.cpp.o
+[329/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btQuantizedBvh.cpp.o
+[330/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSimpleBroadphase.cpp.o
+[331/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSimpleDynamicsWorld.cpp.o
+[332/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btRaycastVehicle.cpp.o
+[333/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSimulationIslandManager.cpp.o
+[334/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyRigidBodyCollisionConfiguration.cpp.o
+[335/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSequentialImpulseConstraintSolver.cpp.o
+[336/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftRigidCollisionAlgorithm.cpp.o
+[337/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSliderConstraint.cpp.o
+[338/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyConcaveCollisionAlgorithm.cpp.o
+[339/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftRigidDynamicsWorld.cpp.o
+[340/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftSoftCollisionAlgorithm.cpp.o
+[341/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSolve2LinearConstraint.cpp.o
+[342/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereShape.cpp.o
+[343/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereBoxCollisionAlgorithm.cpp.o
+[344/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereSphereCollisionAlgorithm.cpp.o
+[345/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereTriangleCollisionAlgorithm.cpp.o
+[346/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyHelpers.cpp.o
+[347/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btStaticPlaneShape.cpp.o
+[348/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btStridingMeshInterface.cpp.o
+[349/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleCallback.cpp.o
+[350/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleBuffer.cpp.o
+[351/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSubSimplexConvexCast.cpp.o
+[352/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTetrahedronShape.cpp.o
+[353/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleIndexVertexArray.cpp.o
+[354/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleIndexVertexMaterialArray.cpp.o
+[355/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTypedConstraint.cpp.o
+[356/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleMeshShape.cpp.o
+[357/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleMesh.cpp.o
+[358/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleShapeEx.cpp.o
+[359/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btUnionFind.cpp.o
+[360/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btUniformScalingShape.cpp.o
+[361/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_memory.cpp.o
+[362/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btWheelInfo.cpp.o
+[363/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btUniversalConstraint.cpp.o
+[364/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btVoronoiSimplexSolver.cpp.o
+[365/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_box_set.cpp.o
+[366/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_contact.cpp.o
+[367/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_tri_collision.cpp.o
+[368/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/main.cpp.o
+[369/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/gen.cc.o
+[370/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/error.cc.o
+[371/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/abs.cc.o
+[372/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/gutil.cc.o
+[373/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/kimwl.cc.o
+[374/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/occur.cc.o
+[375/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/kimwy.cc.o
+[376/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/main.cc.o
+[377/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/parse.cc.o
+[378/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/pat.cc.o
+[379/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/annexb.c.o
+[380/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBody.cpp.o
+[381/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/biariencode.c.o
+[382/671] Linking CXX executable CTMark/Bullet/bullet
+FAILED: CTMark/Bullet/bullet 
+: && /tmp/llvm-test-suite-build/tools/timeit --summary CTMark/Bullet/bullet.link.time /tmp/llvm-project-build-stage1/bin/clang++ --target=aarch64-linux-gnu -O3  CTMark/Bullet/CMakeFiles/bullet.dir/BenchmarkDemo.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/SphereTriangleDetector.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btActivatingCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btAlignedAllocator.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btAxisSweep3.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBox2dBox2dCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBox2dShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBoxBoxCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBoxBoxDetector.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBoxShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBroadphaseProxy.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBvhTriangleMeshShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCapsuleShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionDispatcher.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionObject.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionWorld.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCompoundCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCompoundShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConcaveShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConeShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConeTwistConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btContactConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btContactProcessing.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btContinuousConvexCollision.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btContinuousDynamicsWorld.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvex2dConvex2dAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvex2dShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexCast.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexConcaveCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexConvexAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexHull.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexHullShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexInternalShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexPlaneCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexPointCloudShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexTriangleMeshShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCylinderShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btDbvt.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btDbvtBroadphase.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btDefaultCollisionConfiguration.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btDiscreteDynamicsWorld.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btDispatcher.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btEmptyCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btEmptyShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactBvh.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactQuantizedBvh.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGeneric6DofConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGeneric6DofSpringConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGenericPoolAllocator.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGeometryUtil.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGhostObject.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGjkConvexCast.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGjkEpa2.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGjkEpaPenetrationDepthSolver.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGjkPairDetector.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btHeightfieldTerrainShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btHinge2Constraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btHingeConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btKinematicCharacterController.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btManifoldResult.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btMinkowskiPenetrationDepthSolver.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btMinkowskiSumShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btMultiSapBroadphase.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btMultiSphereShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btMultimaterialTriangleMeshShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btOptimizedBvh.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btOverlappingPairCache.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btPersistentManifold.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btPoint2PointConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btPolyhedralConvexShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btQuantizedBvh.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btQuickprof.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btRaycastCallback.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btRaycastVehicle.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btRigidBody.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btScaledBvhTriangleMeshShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSequentialImpulseConstraintSolver.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btShapeHull.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSimpleBroadphase.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSimpleDynamicsWorld.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSimulationIslandManager.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSliderConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBody.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyConcaveCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyHelpers.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyRigidBodyCollisionConfiguration.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftRigidCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftRigidDynamicsWorld.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftSoftCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSolve2LinearConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSphereBoxCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSphereShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSphereSphereCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSphereTriangleCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btStaticPlaneShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btStridingMeshInterface.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSubSimplexConvexCast.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTetrahedronShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleBuffer.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleCallback.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleIndexVertexArray.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleIndexVertexMaterialArray.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleMesh.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleMeshShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleShapeEx.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTypedConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btUniformScalingShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btUnionFind.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btUniversalConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btVoronoiSimplexSolver.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btWheelInfo.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/gim_box_set.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/gim_contact.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/gim_memory.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/gim_tri_collision.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/main.cpp.o -o CTMark/Bullet/bullet  -lm && cd /tmp/llvm-test-suite-build/CTMark/Bullet && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/bullet.reference_output /tmp/llvm-test-suite-build/CTMark/Bullet/bullet.reference_output
+clang++: error: no such file or directory: 'CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactCollisionAlgorithm.cpp.o'
+[383/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/util.cc.o
+[384/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/rk.cc.o
+[385/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/block.c.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and dumped files.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang --target=aarch64-linux-gnu -DNDEBUG -O3 -w -Werror=date-time -fcommon -D__USE_LARGEFILE64 -D_FILE_OFFSET_BITS=64 -MD -MT CTMark/lencod/CMakeFiles/lencod.dir/block.c.o -MF CTMark/lencod/CMakeFiles/lencod.dir/block.c.o.d -o CTMark/lencod/CMakeFiles/lencod.dir/block.c.o -c /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/block.c
+1.	<eof> parser at end of file
+2.	Optimizer
+3.	Running pass "function<eager-inv>(drop-unnecessary-assumes,float2int,lower-constant-intrinsics,chr,loop(loop-rotate<header-duplication;no-prepare-for-lto;check-exit-count>,loop-deletion,loop-interchange),loop-distribute,inject-tli-mappings,loop-vectorize<no-interleave-forced-only;no-vectorize-forced-only;>,drop-unnecessary-assumes<drop-deref>,infer-alignment,loop-load-elim,instcombine<max-iterations=1;no-verify-fixpoint>,simplifycfg<bonus-inst-threshold=1;forward-switch-cond;switch-range-to-icmp;switch-to-arithmetic;switch-to-lookup;no-keep-loops;hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,slp-vectorizer,vector-combine,instcombine<max-iterations=1;no-verify-fixpoint>,loop-unroll<O3>,transform-warning,sroa<preserve-cfg;aggregate-to-vector>,infer-alignment,instcombine<max-iterations=1;no-verify-fixpoint>,loop-mssa(licm<allowspeculation>),alignment-from-assumptions,loop-sink,instsimplify,div-rem-pairs,mergeicmps,expand-memcmp,tailcallelim,simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;switch-to-arithmetic;no-switch-to-lookup;keep-loops;no-hoist-common-insts;hoist-loads-stores-with-cond-faulting;no-sink-common-insts;speculate-blocks;simplify-cond-branch;speculate-unpredictables>)" on module "/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/lencod/block.c"
+4.	Running pass "slp-vectorizer" on function "dct_luma_16x16"
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang     0x000055e091feb5b9 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 121
+1  clang     0x000055e091fe918c llvm::sys::CleanupOnSignal(unsigned long) + 220
+2  clang     0x000055e091f2ac98
+3  libc.so.6 0x00007f62d95ba520
+4  clang     0x000055e093bdad40 llvm::slpvectorizer::BoUpSLP::tryToVectorizeGatheredLoads(llvm::SmallMapVector<std::tuple<llvm::BasicBlock*, llvm::Value*, llvm::Type*>, llvm::SmallVector<llvm::SmallVector<std::pair<llvm::LoadInst*, long>, 3u>, 1u>, 8u> const&) + 288
+5  clang     0x000055e093bdc4d2 llvm::slpvectorizer::BoUpSLP::transformNodes() + 3938
+6  clang     0x000055e093bedc03 llvm::SLPVectorizerPass::vectorizeStoreChainImpl(llvm::ArrayRef<llvm::Value*>, llvm::slpvectorizer::BoUpSLP&, unsigned int, unsigned int, unsigned int&) + 1347
+7  clang     0x000055e093beea37 llvm::SLPVectorizerPass::vectorizeStoreChain(llvm::ArrayRef<llvm::Value*>, llvm::slpvectorizer::BoUpSLP&, unsigned int, unsigned int, unsigned int&) + 71
+8  clang     0x000055e093beff78 llvm::SLPVectorizerPass::vectorizeStores(llvm::ArrayRef<llvm::StoreInst*>, llvm::slpvectorizer::BoUpSLP&, llvm::DenseSet<std::tuple<llvm::Value*, llvm::Value*, llvm::Value*, llvm::Value*, unsigned int>, llvm::DenseMapInfo<std::tuple<llvm::Value*, llvm::Value*, llvm::Value*, llvm::Value*, unsigned int>, void>>&, bool) + 4952
+9  clang     0x000055e093bf1f4e llvm::SLPVectorizerPass::vectorizeStoreChains(llvm::slpvectorizer::BoUpSLP&) + 1182
+10 clang     0x000055e093c0e129
+11 clang     0x000055e093c0e843 llvm::SLPVectorizerPass::run(llvm::Function&, llvm::AnalysisManager<llvm::Function>&) + 451
+12 clang     0x000055e093015a16
+13 clang     0x000055e091a75f6f llvm::PassManager<llvm::Function, llvm::AnalysisManager<llvm::Function>>::run(llvm::Function&, llvm::AnalysisManager<llvm::Function>&) + 783
+14 clang     0x000055e092372f86
+15 clang     0x000055e091a74b72 llvm::ModuleToFunctionPassAdaptor::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 914
+16 clang     0x000055e0923728e6
+17 clang     0x000055e091a741ff llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 799
+18 clang     0x000055e092383129
+19 clang     0x000055e09238618d
+20 clang     0x000055e092388691 clang::emitBackendOutput(clang::CompilerInstance&, clang::CodeGenOptions&, llvm::StringRef, llvm::Module*, clang::BackendAction, llvm::IntrusiveRefCntPtr<llvm::vfs::FileSystem>, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>, clang::BackendConsumer*) + 465
+21 clang     0x000055e0929b79a8 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) + 1368
+22 clang     0x000055e093eaa1dc clang::ParseAST(clang::Sema&, bool, bool) + 1068
+23 clang     0x000055e092d2a192 clang::FrontendAction::Execute() + 50
+24 clang     0x000055e092ca8f8d clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 717
+25 clang     0x000055e092df3008 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+26 clang     0x000055e09085b4d8 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 4632
+27 clang     0x000055e09085345b
+28 clang     0x000055e09085350f
+29 clang     0x000055e092a36f5d
+30 clang     0x000055e091f2b007 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+31 clang     0x000055e092a3827c
+32 clang     0x000055e0929ef3e7 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+33 clang     0x000055e0929f37f7 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 295
+34 clang     0x000055e092a05efc clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+35 clang     0x000055e090858256 clang_main(int, char**, llvm::ToolContext const&) + 7798
+36 clang     0x000055e0907ca0f1 main + 113
+37 libc.so.6 0x00007f62d95a1d90
+38 libc.so.6 0x00007f62d95a1e40 __libc_start_main + 128
+39 clang     0x000055e090852ed5 _start + 37
+clang: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 24.0.0git
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING CRASH REPRODUCER FILES TO THE BUG REPORT:
+clang: note: diagnostic msg: /tmp/block-6d199d.c
+clang: note: diagnostic msg: /tmp/block-6d199d.sh
+clang: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang: Segmentation fault
+[386/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/k.cc.o
+[387/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/unpk.cc.o
+[388/671] Building CXX object CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and dumped files.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang++ --target=aarch64-linux-gnu -DNDEBUG -O3 -w -Werror=date-time -fno-exceptions -std=gnu++14 -MD -MT CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o -MF CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o.d -o CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o -c /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/tramp3d-v4/tramp3d-v4.cpp
+1.	<eof> parser at end of file
+2.	Optimizer
+3.	Running pass "function<eager-inv>(drop-unnecessary-assumes,float2int,lower-constant-intrinsics,chr,loop(loop-rotate<header-duplication;no-prepare-for-lto;check-exit-count>,loop-deletion,loop-interchange),loop-distribute,inject-tli-mappings,loop-vectorize<no-interleave-forced-only;no-vectorize-forced-only;>,drop-unnecessary-assumes<drop-deref>,infer-alignment,loop-load-elim,instcombine<max-iterations=1;no-verify-fixpoint>,simplifycfg<bonus-inst-threshold=1;forward-switch-cond;switch-range-to-icmp;switch-to-arithmetic;switch-to-lookup;no-keep-loops;hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,slp-vectorizer,vector-combine,instcombine<max-iterations=1;no-verify-fixpoint>,loop-unroll<O3>,transform-warning,sroa<preserve-cfg;aggregate-to-vector>,infer-alignment,instcombine<max-iterations=1;no-verify-fixpoint>,loop-mssa(licm<allowspeculation>),alignment-from-assumptions,loop-sink,instsimplify,div-rem-pairs,mergeicmps,expand-memcmp,tailcallelim,simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;switch-to-arithmetic;no-switch-to-lookup;keep-loops;no-hoist-common-insts;hoist-loads-stores-with-cond-faulting;no-sink-common-insts;speculate-blocks;simplify-cond-branch;speculate-unpredictables>)" on module "/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/tramp3d-v4/tramp3d-v4.cpp"
+4.	Running pass "slp-vectorizer" on function "_ZN18LoopApplyEvaluator8evaluateI16ApplyMultiArgLocI9MultiArg4I5FieldI22UniformRectilinearMeshI10MeshTraitsILi3Ed21UniformRectilinearTag12CartesianTagLi3EEEd10BrickViewUESB_S3_IS9_d16ConstantFunctionESB_EN3CFL10CflFunctorILi3EEEE8IntervalILi3EEEEvRKT_RKT0_10WrappedIntILi3EE"
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x000055f6914355b9 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 121
+1  clang++   0x000055f69143318c llvm::sys::CleanupOnSignal(unsigned long) + 220
+2  clang++   0x000055f691374c98
+3  libc.so.6 0x00007f7ee5a1b520
+4  clang++   0x000055f693024d40 llvm::slpvectorizer::BoUpSLP::tryToVectorizeGatheredLoads(llvm::SmallMapVector<std::tuple<llvm::BasicBlock*, llvm::Value*, llvm::Type*>, llvm::SmallVector<llvm::SmallVector<std::pair<llvm::LoadInst*, long>, 3u>, 1u>, 8u> const&) + 288
+5  clang++   0x000055f6930264d2 llvm::slpvectorizer::BoUpSLP::transformNodes() + 3938
+6  clang++   0x000055f693049611
+7  clang++   0x000055f69304b1fb llvm::SLPVectorizerPass::vectorizeInsertElementInst(llvm::InsertElementInst*, llvm::BasicBlock*, llvm::slpvectorizer::BoUpSLP&, bool) + 459
+8  clang++   0x000055f69305213d llvm::SLPVectorizerPass::vectorizeInserts(llvm::SmallSetVector<llvm::Instruction*, 8u>&, llvm::BasicBlock*, llvm::slpvectorizer::BoUpSLP&, llvm::SmallSetVector<llvm::Instruction*, 8u>&) + 909
+9  clang++   0x000055f693054a5c
+10 clang++   0x000055f69305685a llvm::SLPVectorizerPass::vectorizeChainsInBlock(llvm::BasicBlock*, llvm::slpvectorizer::BoUpSLP&) + 6538
+11 clang++   0x000055f6930580b6
+12 clang++   0x000055f693058843 llvm::SLPVectorizerPass::run(llvm::Function&, llvm::AnalysisManager<llvm::Function>&) + 451
+13 clang++   0x000055f69245fa16
+14 clang++   0x000055f690ebff6f llvm::PassManager<llvm::Function, llvm::AnalysisManager<llvm::Function>>::run(llvm::Function&, llvm::AnalysisManager<llvm::Function>&) + 783
+15 clang++   0x000055f6917bcf86
+16 clang++   0x000055f690ebeb72 llvm::ModuleToFunctionPassAdaptor::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 914
+17 clang++   0x000055f6917bc8e6
+18 clang++   0x000055f690ebe1ff llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 799
+19 clang++   0x000055f6917cd129
+20 clang++   0x000055f6917d018d
+21 clang++   0x000055f6917d2691 clang::emitBackendOutput(clang::CompilerInstance&, clang::CodeGenOptions&, llvm::StringRef, llvm::Module*, clang::BackendAction, llvm::IntrusiveRefCntPtr<llvm::vfs::FileSystem>, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>, clang::BackendConsumer*) + 465
+22 clang++   0x000055f691e019a8 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) + 1368
+23 clang++   0x000055f6932f41dc clang::ParseAST(clang::Sema&, bool, bool) + 1068
+24 clang++   0x000055f692174192 clang::FrontendAction::Execute() + 50
+25 clang++   0x000055f6920f2f8d clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 717
+26 clang++   0x000055f69223d008 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 456
+27 clang++   0x000055f68fca54d8 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 4632
+28 clang++   0x000055f68fc9d45b
+29 clang++   0x000055f68fc9d50f
+30 clang++   0x000055f691e80f5d
+31 clang++   0x000055f691375007 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+32 clang++   0x000055f691e8227c
+33 clang++   0x000055f691e393e7 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+34 clang++   0x000055f691e3d7f7 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 295
+35 clang++   0x000055f691e4fefc clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+36 clang++   0x000055f68fca2256 clang_main(int, char**, llvm::ToolContext const&) + 7798
+37 clang++   0x000055f68fc140f1 main + 113
+38 libc.so.6 0x00007f7ee5a02d90
+39 libc.so.6 0x00007f7ee5a02e40 __libc_start_main + 128
+40 clang++   0x000055f68fc9ced5 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 24.0.0git
+Target: aarch64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING CRASH REPRODUCER FILES TO THE BUG REPORT:
+clang++: note: diagnostic msg: /tmp/tramp3d-v4-8959c5.cpp
+clang++: note: diagnostic msg: /tmp/tramp3d-v4-8959c5.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_test_suite.sh O3 stage2 " failed
+
+STDOUT:
+[253/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBox2dBox2dCollisionAlgorithm.cpp.o
+[254/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBroadphaseProxy.cpp.o
+[255/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBoxShape.cpp.o
+[256/671] Linking CXX executable CTMark/7zip/7zip-benchmark
+[257/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBvhTriangleMeshShape.cpp.o
+[258/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionAlgorithm.cpp.o
+[259/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btBoxBoxDetector.cpp.o
+[260/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCapsuleShape.cpp.o
+[261/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btAxisSweep3.cpp.o
+[262/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionObject.cpp.o
+[263/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionDispatcher.cpp.o
+[264/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionShape.cpp.o
+[265/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConcaveShape.cpp.o
+[266/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConeShape.cpp.o
+[267/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCompoundShape.cpp.o
+[268/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCompoundCollisionAlgorithm.cpp.o
+[269/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btContactConstraint.cpp.o
+[270/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionWorld.cpp.o
+[271/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btContactProcessing.cpp.o
+[272/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/BenchmarkDemo.cpp.o
+[273/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvex2dShape.cpp.o
+[274/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btContinuousConvexCollision.cpp.o
+[275/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btContinuousDynamicsWorld.cpp.o
+[276/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvex2dConvex2dAlgorithm.cpp.o
+[277/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexCast.cpp.o
+[278/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConeTwistConstraint.cpp.o
+[279/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexHullShape.cpp.o
+[280/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexInternalShape.cpp.o
+[281/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexConcaveCollisionAlgorithm.cpp.o
+[282/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexPlaneCollisionAlgorithm.cpp.o
+[283/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexConvexAlgorithm.cpp.o
+[284/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexPointCloudShape.cpp.o
+[285/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexTriangleMeshShape.cpp.o
+[286/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexShape.cpp.o
+[287/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btCylinderShape.cpp.o
+[288/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btDispatcher.cpp.o
+[289/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btDefaultCollisionConfiguration.cpp.o
+[290/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btEmptyCollisionAlgorithm.cpp.o
+[291/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btEmptyShape.cpp.o
+[292/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btConvexHull.cpp.o
+[293/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btDbvtBroadphase.cpp.o
+[294/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btDbvt.cpp.o
+[295/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactBvh.cpp.o
+[296/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGeneric6DofSpringConstraint.cpp.o
+[297/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactShape.cpp.o
+[298/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactQuantizedBvh.cpp.o
+[299/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGenericPoolAllocator.cpp.o
+[300/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGeneric6DofConstraint.cpp.o
+[301/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGeometryUtil.cpp.o
+[302/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGjkConvexCast.cpp.o
+[303/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGjkEpaPenetrationDepthSolver.cpp.o
+[304/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactCollisionAlgorithm.cpp.o
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and dumped files.
+Stack dump:
+0.	Program arguments: /tmp/llvm-project-build-stage2/bin/clang++ -DNDEBUG -O3 -w -Werror=date-time -I/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/include -std=gnu++98 -DNO_TIME -MD -MT CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactCollisionAlgorithm.cpp.o -MF CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactCollisionAlgorithm.cpp.o.d -o CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactCollisionAlgorithm.cpp.o -c /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/btGImpactCollisionAlgorithm.cpp
+1.	<eof> parser at end of file
+2.	Optimizer
+3.	Running pass "function<eager-inv>(drop-unnecessary-assumes,float2int,lower-constant-intrinsics,chr,loop(loop-rotate<header-duplication;no-prepare-for-lto;check-exit-count>,loop-deletion,loop-interchange),loop-distribute,inject-tli-mappings,loop-vectorize<no-interleave-forced-only;no-vectorize-forced-only;>,drop-unnecessary-assumes<drop-deref>,infer-alignment,loop-load-elim,instcombine<max-iterations=1;no-verify-fixpoint>,simplifycfg<bonus-inst-threshold=1;forward-switch-cond;switch-range-to-icmp;switch-to-arithmetic;switch-to-lookup;no-keep-loops;hoist-common-insts;no-hoist-loads-stores-with-cond-faulting;sink-common-insts;speculate-blocks;simplify-cond-branch;no-speculate-unpredictables>,slp-vectorizer,vector-combine,instcombine<max-iterations=1;no-verify-fixpoint>,loop-unroll<O3>,transform-warning,sroa<preserve-cfg;aggregate-to-vector>,infer-alignment,instcombine<max-iterations=1;no-verify-fixpoint>,loop-mssa(licm<allowspeculation>),alignment-from-assumptions,loop-sink,instsimplify,div-rem-pairs,mergeicmps,expand-memcmp,tailcallelim,simplifycfg<bonus-inst-threshold=1;no-forward-switch-cond;switch-range-to-icmp;switch-to-arithmetic;no-switch-to-lookup;keep-loops;no-hoist-common-insts;hoist-loads-stores-with-cond-faulting;no-sink-common-insts;speculate-blocks;simplify-cond-branch;speculate-unpredictables>)" on module "/var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/btGImpactCollisionAlgorithm.cpp"
+4.	Running pass "slp-vectorizer" on function "_ZN27btGImpactCollisionAlgorithm21collide_sat_trianglesEP17btCollisionObjectS1_P22btGImpactMeshShapePartS3_PKii"
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  clang++   0x0000559d00bb5a5b llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 43
+1  clang++   0x0000559d00bb4531 llvm::sys::CleanupOnSignal(unsigned long) + 513
+2  clang++   0x0000559d00b09fba
+3  libc.so.6 0x00007f54163ab520
+4  clang++   0x0000559d024589dc llvm::slpvectorizer::BoUpSLP::tryToVectorizeGatheredLoads(llvm::SmallMapVector<std::tuple<llvm::BasicBlock*, llvm::Value*, llvm::Type*>, llvm::SmallVector<llvm::SmallVector<std::pair<llvm::LoadInst*, long>, 3u>, 1u>, 8u> const&) + 636
+5  clang++   0x0000559d0248ab41 llvm::slpvectorizer::BoUpSLP::transformNodes() + 19201
+6  clang++   0x0000559d024ff6d3 llvm::SLPVectorizerPass::vectorizeStoreChainImpl(llvm::ArrayRef<llvm::Value*>, llvm::slpvectorizer::BoUpSLP&, unsigned int, unsigned int, unsigned int&) + 2707
+7  clang++   0x0000559d024fe85b llvm::SLPVectorizerPass::vectorizeStoreChain(llvm::ArrayRef<llvm::Value*>, llvm::slpvectorizer::BoUpSLP&, unsigned int, unsigned int, unsigned int&) + 43
+8  clang++   0x0000559d02501c64 llvm::SLPVectorizerPass::vectorizeStores(llvm::ArrayRef<llvm::StoreInst*>, llvm::slpvectorizer::BoUpSLP&, llvm::DenseSet<std::tuple<llvm::Value*, llvm::Value*, llvm::Value*, llvm::Value*, unsigned int>, llvm::DenseMapInfo<std::tuple<llvm::Value*, llvm::Value*, llvm::Value*, llvm::Value*, unsigned int>, void>>&, bool) + 5716
+9  clang++   0x0000559d024f8195 llvm::SLPVectorizerPass::vectorizeStoreChains(llvm::slpvectorizer::BoUpSLP&) + 3077
+10 clang++   0x0000559d024f6abb llvm::SLPVectorizerPass::runImpl(llvm::Function&, llvm::ScalarEvolution*, llvm::TargetTransformInfo*, llvm::TargetLibraryInfo*, llvm::AAResults*, llvm::LoopInfo*, llvm::DominatorTree*, llvm::AssumptionCache*, llvm::DemandedBits*, llvm::OptimizationRemarkEmitter*) + 2891
+11 clang++   0x0000559d024f5e8c llvm::SLPVectorizerPass::run(llvm::Function&, llvm::AnalysisManager<llvm::Function>&) + 444
+12 clang++   0x0000559d0060302a llvm::PassManager<llvm::Function, llvm::AnalysisManager<llvm::Function>>::run(llvm::Function&, llvm::AnalysisManager<llvm::Function>&) + 570
+13 clang++   0x0000559d006070b6 llvm::ModuleToFunctionPassAdaptor::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 534
+14 clang++   0x0000559d00602357 llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) + 567
+15 clang++   0x0000559d01452dda
+16 clang++   0x0000559d0144656a
+17 clang++   0x0000559d014445ea clang::emitBackendOutput(clang::CompilerInstance&, clang::CodeGenOptions&, llvm::StringRef, llvm::Module*, clang::BackendAction, llvm::IntrusiveRefCntPtr<llvm::vfs::FileSystem>, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>, clang::BackendConsumer*) + 7386
+18 clang++   0x0000559d014676e8 clang::BackendConsumer::HandleTranslationUnit(clang::ASTContext&) + 2648
+19 clang++   0x0000559d02e98769 clang::ParseAST(clang::Sema&, bool, bool) + 841
+20 clang++   0x0000559d01adbd4d clang::FrontendAction::Execute() + 29
+21 clang++   0x0000559d019f8833 clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 1587
+22 clang++   0x0000559d01bacb00 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 560
+23 clang++   0x0000559cff7cd56b cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 9515
+24 clang++   0x0000559cff7c9701
+25 clang++   0x0000559cff7caf9d
+26 clang++   0x0000559d017eb799
+27 clang++   0x0000559d00b09d28 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 136
+28 clang++   0x0000559d017eb3c9 clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const + 361
+29 clang++   0x0000559d0179916b clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 619
+30 clang++   0x0000559d01799f08 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 3064
+31 clang++   0x0000559d017c41de clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 430
+32 clang++   0x0000559cff7c8a82 clang_main(int, char**, llvm::ToolContext const&) + 7458
+33 clang++   0x0000559cff7da030 main + 96
+34 libc.so.6 0x00007f5416392d90
+35 libc.so.6 0x00007f5416392e40 __libc_start_main + 128
+36 clang++   0x0000559cff7b6e25 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 24.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage2/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING CRASH REPRODUCER FILES TO THE BUG REPORT:
+clang++: note: diagnostic msg: /tmp/btGImpactCollisionAlgorithm-1968a5.cpp
+clang++: note: diagnostic msg: /tmp/btGImpactCollisionAlgorithm-1968a5.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage2/bin/clang++: Segmentation fault
+[305/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGhostObject.cpp.o
+[306/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGjkPairDetector.cpp.o
+[307/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btDiscreteDynamicsWorld.cpp.o
+[308/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btHinge2Constraint.cpp.o
+[309/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btHeightfieldTerrainShape.cpp.o
+[310/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btManifoldResult.cpp.o
+[311/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btMinkowskiSumShape.cpp.o
+[312/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btMinkowskiPenetrationDepthSolver.cpp.o
+[313/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btKinematicCharacterController.cpp.o
+[314/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btGjkEpa2.cpp.o
+[315/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btMultiSphereShape.cpp.o
+[316/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btMultimaterialTriangleMeshShape.cpp.o
+[317/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btHingeConstraint.cpp.o
+[318/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btMultiSapBroadphase.cpp.o
+[319/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btPersistentManifold.cpp.o
+[320/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btPolyhedralConvexShape.cpp.o
+[321/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btOptimizedBvh.cpp.o
+[322/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btPoint2PointConstraint.cpp.o
+[323/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btQuickprof.cpp.o
+[324/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btOverlappingPairCache.cpp.o
+[325/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btRaycastCallback.cpp.o
+[326/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btScaledBvhTriangleMeshShape.cpp.o
+[327/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btShapeHull.cpp.o
+[328/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btRigidBody.cpp.o
+[329/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSimpleBroadphase.cpp.o
+[330/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btQuantizedBvh.cpp.o
+[331/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSimpleDynamicsWorld.cpp.o
+[332/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btRaycastVehicle.cpp.o
+[333/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSimulationIslandManager.cpp.o
+[334/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyRigidBodyCollisionConfiguration.cpp.o
+[335/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftRigidCollisionAlgorithm.cpp.o
+[336/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSequentialImpulseConstraintSolver.cpp.o
+[337/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSliderConstraint.cpp.o
+[338/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyConcaveCollisionAlgorithm.cpp.o
+[339/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftRigidDynamicsWorld.cpp.o
+[340/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSolve2LinearConstraint.cpp.o
+[341/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereShape.cpp.o
+[342/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftSoftCollisionAlgorithm.cpp.o
+[343/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereBoxCollisionAlgorithm.cpp.o
+[344/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyHelpers.cpp.o
+[345/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereSphereCollisionAlgorithm.cpp.o
+[346/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btStaticPlaneShape.cpp.o
+[347/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btStridingMeshInterface.cpp.o
+[348/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSphereTriangleCollisionAlgorithm.cpp.o
+[349/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleCallback.cpp.o
+[350/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSubSimplexConvexCast.cpp.o
+[351/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTetrahedronShape.cpp.o
+[352/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleBuffer.cpp.o
+[353/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleIndexVertexArray.cpp.o
+[354/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleIndexVertexMaterialArray.cpp.o
+[355/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTypedConstraint.cpp.o
+[356/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleMeshShape.cpp.o
+[357/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btUniformScalingShape.cpp.o
+[358/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btUnionFind.cpp.o
+[359/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleShapeEx.cpp.o
+[360/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleMesh.cpp.o
+[361/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btUniversalConstraint.cpp.o
+[362/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btWheelInfo.cpp.o
+[363/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_memory.cpp.o
+[364/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btVoronoiSimplexSolver.cpp.o
+[365/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_box_set.cpp.o
+[366/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_contact.cpp.o
+[367/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/gim_tri_collision.cpp.o
+[368/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/main.cpp.o
+[369/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/abs.cc.o
+[370/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/gen.cc.o
+[371/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/error.cc.o
+[372/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/gutil.cc.o
+[373/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/kimwl.cc.o
+[374/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/occur.cc.o
+[375/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/kimwy.cc.o
+[376/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/main.cc.o
+[377/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/parse.cc.o
+[378/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/pat.cc.o
+[379/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/annexb.c.o
+[380/671] Building CXX object CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBody.cpp.o
+[381/671] Linking CXX executable CTMark/Bullet/bullet
+FAILED: CTMark/Bullet/bullet 
+: && /tmp/llvm-test-suite-build/tools/timeit --summary CTMark/Bullet/bullet.link.time /tmp/llvm-project-build-stage2/bin/clang++ -O3  CTMark/Bullet/CMakeFiles/bullet.dir/BenchmarkDemo.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/SphereTriangleDetector.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btActivatingCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btAlignedAllocator.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btAxisSweep3.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBox2dBox2dCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBox2dShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBoxBoxCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBoxBoxDetector.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBoxShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBroadphaseProxy.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btBvhTriangleMeshShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCapsuleShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionDispatcher.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionObject.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCollisionWorld.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCompoundCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCompoundShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConcaveShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConeShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConeTwistConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btContactConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btContactProcessing.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btContinuousConvexCollision.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btContinuousDynamicsWorld.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvex2dConvex2dAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvex2dShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexCast.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexConcaveCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexConvexAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexHull.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexHullShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexInternalShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexPlaneCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexPointCloudShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btConvexTriangleMeshShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btCylinderShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btDbvt.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btDbvtBroadphase.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btDefaultCollisionConfiguration.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btDiscreteDynamicsWorld.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btDispatcher.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btEmptyCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btEmptyShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactBvh.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactQuantizedBvh.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGeneric6DofConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGeneric6DofSpringConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGenericPoolAllocator.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGeometryUtil.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGhostObject.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGjkConvexCast.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGjkEpa2.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGjkEpaPenetrationDepthSolver.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btGjkPairDetector.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btHeightfieldTerrainShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btHinge2Constraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btHingeConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btKinematicCharacterController.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btManifoldResult.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btMinkowskiPenetrationDepthSolver.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btMinkowskiSumShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btMultiSapBroadphase.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btMultiSphereShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btMultimaterialTriangleMeshShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btOptimizedBvh.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btOverlappingPairCache.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btPersistentManifold.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btPoint2PointConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btPolyhedralConvexShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btQuantizedBvh.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btQuickprof.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btRaycastCallback.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btRaycastVehicle.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btRigidBody.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btScaledBvhTriangleMeshShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSequentialImpulseConstraintSolver.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btShapeHull.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSimpleBroadphase.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSimpleDynamicsWorld.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSimulationIslandManager.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSliderConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBody.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyConcaveCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyHelpers.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftBodyRigidBodyCollisionConfiguration.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftRigidCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftRigidDynamicsWorld.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSoftSoftCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSolve2LinearConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSphereBoxCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSphereShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSphereSphereCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSphereTriangleCollisionAlgorithm.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btStaticPlaneShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btStridingMeshInterface.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btSubSimplexConvexCast.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTetrahedronShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleBuffer.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleCallback.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleIndexVertexArray.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleIndexVertexMaterialArray.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleMesh.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleMeshShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTriangleShapeEx.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btTypedConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btUniformScalingShape.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btUnionFind.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btUniversalConstraint.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btVoronoiSimplexSolver.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/btWheelInfo.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/gim_box_set.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/gim_contact.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/gim_memory.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/gim_tri_collision.cpp.o CTMark/Bullet/CMakeFiles/bullet.dir/main.cpp.o -o CTMark/Bullet/bullet  -lm && cd /tmp/llvm-test-suite-build/CTMark/Bullet && /usr/bin/cmake -E create_symlink /var/llvm-compile-time-tracker/llvm-test-suite/CTMark/Bullet/bullet.reference_output /tmp/llvm-test-suite-build/CTMark/Bullet/bullet.reference_output
+clang++: error: no such file or directory: 'CTMark/Bullet/CMakeFiles/bullet.dir/btGImpactCollisionAlgorithm.cpp.o'
+[382/671] Building C object CTMark/lencod/CMakeFiles/lencod.dir/biariencode.c.o
+[383/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/util.cc.o
+[384/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/rk.cc.o
+[385/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/k.cc.o
+[386/671] Building CXX object CTMark/kimwitu++/CMakeFiles/kc.dir/unpk.cc.o
+[387/671] Building CXX object CTMark/tramp3d-v4/CMakeFiles/tramp3d-v4.dir/tramp3d-v4.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
