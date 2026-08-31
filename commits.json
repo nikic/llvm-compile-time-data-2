@@ -216573,6 +216573,24 @@
             "author_name": "Timm Baeder",
             "commit_date": "2026-08-31T09:25:47+02:00",
             "subject": "[clang][bytecode] Keep sourcemaps smaller (#219878)"
+        },
+        {
+            "hash": "2852d0dd22f3a1e76eb5c01ad58d784ace5164e5",
+            "author_name": "hev",
+            "commit_date": "2026-08-31T15:29:41+08:00",
+            "subject": "[LoongArch][NFC] Add tests for constant branch optimization (#216258)"
+        },
+        {
+            "hash": "7300edd5b15c7077d3be20d4c85fd1f1db48e21f",
+            "author_name": "hev",
+            "commit_date": "2026-08-31T15:29:42+08:00",
+            "subject": "[LoongArch] Add late branch optimization pass (#216261)"
+        },
+        {
+            "hash": "f8ca8fcb9924b93d1d3b8694f85968f6bdb65ec0",
+            "author_name": "Guy David",
+            "commit_date": "2026-08-31T10:34:58+03:00",
+            "subject": "[LAA] Give the symbolic strides map a named type (NFC) (#216731)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -231523,15 +231541,15 @@
     ],
     "artagnon\/perf\/scev-udiv-ar-nuw-bw": [
         {
-            "hash": "fa4c1ba1bd4be33232af93c5b2de6cbf589f102f",
-            "author_name": "Tim Besard",
-            "commit_date": "2026-08-28T12:36:01-07:00",
-            "subject": "[SROA] Reject illegal vector memset promotion (#216772)"
+            "hash": "8b6145d2aa547768cede4bf934db963890124550",
+            "author_name": "Dharuni R Acharya",
+            "commit_date": "2026-08-31T10:56:57+05:30",
+            "subject": "[NVPTX] Add intrinsics for ff\/f16\/bf16 to ue5m3 conversions (#218677)"
         },
         {
-            "hash": "02fe490751f0ae0e0c66a7452bd3f6ef6b575a10",
+            "hash": "e174449508d3c037bbc85d3b4d1d462499548764",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-29T08:16:44+01:00",
+            "commit_date": "2026-08-31T08:34:12+01:00",
             "subject": "[SCEV] Use 2 * BW when checking nuw of udiv-AR (NFC)"
         }
     ],
