@@ -217695,6 +217695,36 @@
             "author_name": "Harrison Hao",
             "commit_date": "2026-09-01T17:18:23+08:00",
             "subject": "[CodeGen] Pass alignment and size to isAtomicAlignmentSupported. NFC (#216621)"
+        },
+        {
+            "hash": "cf584bda4c3434086f7fdfebd1c0ce8ecb9423bb",
+            "author_name": "Daniel Cederman",
+            "commit_date": "2026-09-01T09:40:05+00:00",
+            "subject": "[SPARC] Preserve inline asm relocation modifiers (#219971)"
+        },
+        {
+            "hash": "946fa18850d9fc2520c58f708825056b9f79c9bf",
+            "author_name": "Manuel Carrasco",
+            "commit_date": "2026-09-01T09:43:34+00:00",
+            "subject": "[Verifier] Reject cyclic DIScope parent chains (#217997)"
+        },
+        {
+            "hash": "9225cf4ab6e6a5f2082305528ec315b480ed45ae",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-09-01T09:47:30+00:00",
+            "subject": "Revert \"[lldb] Use Guarded in CPPLanguageRuntime\" (#220201)"
+        },
+        {
+            "hash": "9139bff12d78cc4e4b0c34bf0a240316a70a5aa4",
+            "author_name": "Mariya Podchishchaeva",
+            "commit_date": "2026-09-01T11:50:04+02:00",
+            "subject": "[CIR][CUDA\/HIP] Fix template static member filtering (#219536)"
+        },
+        {
+            "hash": "af6ae639c296e3ab141b0ee755eb669945411810",
+            "author_name": "Daniel M. Zimmerman",
+            "commit_date": "2026-09-01T05:52:11-04:00",
+            "subject": "[clang][analyzer] Fix false positive in StdLibraryFunctionsChecker for mmap with MAP_ANON (#219568)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -232595,6 +232625,12 @@
             "author_name": "Leon Clark",
             "commit_date": "2026-09-01T09:36:19+01:00",
             "subject": "Revert relative paths to system-related headers."
+        },
+        {
+            "hash": "0ffbff71a287638f6bf6dea7c9674d602fde77b5",
+            "author_name": "Leon Clark",
+            "commit_date": "2026-09-01T10:46:12+01:00",
+            "subject": "Revert system-dependent TUs."
         }
     ],
     "antoniofrighetto\/perf\/ic-requeue-users-branch": [
