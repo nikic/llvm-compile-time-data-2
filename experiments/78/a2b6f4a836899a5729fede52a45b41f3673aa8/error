@@ -1,0 +1,236 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+      |     ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:122:5: note: ‘assert’ is defined in header ‘<cassert>’; did you forget to ‘#include <cassert>’?
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h: In member function ‘void clang::interp::FrameAllocator::deallocTail()’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:130:5: error: ‘assert’ was not declared in this scope
+  130 |     assert(Tail);
+      |     ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:130:5: note: ‘assert’ is defined in header ‘<cassert>’; did you forget to ‘#include <cassert>’?
+[3082/3386] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+[3083/3386] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Context.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Context.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Context.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Context.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Context.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h: In member function ‘char* clang::interp::FrameAllocator::reserve(unsigned int)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:61:9: error: ‘LLVM_UNLIKELY’ was not declared in this scope
+   61 |     if (LLVM_UNLIKELY(!Tail))
+      |         ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:61:9: note: the macro ‘LLVM_UNLIKELY’ had not yet been defined
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Casting.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/LLVM.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FixedPoint.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Compiler.h:341: note: it was later defined here
+  341 | #define LLVM_UNLIKELY(EXPR) __builtin_expect((bool)(EXPR), false)
+      | 
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:62:29: error: ‘max’ is not a member of ‘std’
+   62 |       allocateNewChunk(std::max(Size, MinChunkSize));
+      |                             ^~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:64:5: error: ‘assert’ was not declared in this scope
+   64 |     assert(Tail);
+      |     ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:1:1: note: ‘assert’ is defined in header ‘<cassert>’; did you forget to ‘#include <cassert>’?
+  +++ |+#include <cassert>
+    1 | //===-------------------- FrameAllocator.h ----------------------*- C++ -*-===//
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:73:29: error: ‘max’ is not a member of ‘std’
+   73 |       allocateNewChunk(std::max(Size, MinChunkSize));
+      |                             ^~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h: In member function ‘void clang::interp::FrameAllocator::pop(unsigned int)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:92:5: error: ‘assert’ was not declared in this scope
+   92 |     assert(Tail);
+      |     ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:92:5: note: ‘assert’ is defined in header ‘<cassert>’; did you forget to ‘#include <cassert>’?
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h: In member function ‘clang::interp::FrameAllocator::Chunk* clang::interp::FrameAllocator::getChunkToUse(unsigned int)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:110:5: error: ‘assert’ was not declared in this scope
+  110 |     assert(Tail);
+      |     ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:110:5: note: ‘assert’ is defined in header ‘<cassert>’; did you forget to ‘#include <cassert>’?
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h: In member function ‘void clang::interp::FrameAllocator::allocateNewChunk(unsigned int)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:118:35: error: no matching function for call to ‘operator new(sizetype, char*&)’
+  118 |     auto *C = new (Mem) Chunk(Size);
+      |                                   ^
+<built-in>: note: candidate: ‘void* operator new(long unsigned int)’
+<built-in>: note:   candidate expects 1 argument, 2 provided
+<built-in>: note: candidate: ‘void* operator new(long unsigned int, std::align_val_t)’
+<built-in>: note:   no known conversion for argument 2 from ‘char*’ to ‘std::align_val_t’
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:122:5: error: ‘assert’ was not declared in this scope
+  122 |     assert(Tail);
+      |     ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:122:5: note: ‘assert’ is defined in header ‘<cassert>’; did you forget to ‘#include <cassert>’?
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h: In member function ‘void clang::interp::FrameAllocator::deallocTail()’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:130:5: error: ‘assert’ was not declared in this scope
+  130 |     assert(Tail);
+      |     ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:130:5: note: ‘assert’ is defined in header ‘<cassert>’; did you forget to ‘#include <cassert>’?
+[3084/3386] Building AArch64GenSubtargetInfo.inc...
+[3085/3386] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/ByteCodeEmitter.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h: In member function ‘char* clang::interp::FrameAllocator::reserve(unsigned int)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:61:9: error: ‘LLVM_UNLIKELY’ was not declared in this scope
+   61 |     if (LLVM_UNLIKELY(!Tail))
+      |         ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:61:9: note: the macro ‘LLVM_UNLIKELY’ had not yet been defined
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Casting.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/LLVM.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FixedPoint.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/ByteCodeEmitter.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Compiler.h:341: note: it was later defined here
+  341 | #define LLVM_UNLIKELY(EXPR) __builtin_expect((bool)(EXPR), false)
+      | 
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/ByteCodeEmitter.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Compiler.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:62:29: error: ‘max’ is not a member of ‘std’
+   62 |       allocateNewChunk(std::max(Size, MinChunkSize));
+      |                             ^~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:64:5: error: ‘assert’ was not declared in this scope
+   64 |     assert(Tail);
+      |     ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:1:1: note: ‘assert’ is defined in header ‘<cassert>’; did you forget to ‘#include <cassert>’?
+  +++ |+#include <cassert>
+    1 | //===-------------------- FrameAllocator.h ----------------------*- C++ -*-===//
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:73:29: error: ‘max’ is not a member of ‘std’
+   73 |       allocateNewChunk(std::max(Size, MinChunkSize));
+      |                             ^~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h: In member function ‘void clang::interp::FrameAllocator::pop(unsigned int)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:92:5: error: ‘assert’ was not declared in this scope
+   92 |     assert(Tail);
+      |     ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:92:5: note: ‘assert’ is defined in header ‘<cassert>’; did you forget to ‘#include <cassert>’?
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h: In member function ‘clang::interp::FrameAllocator::Chunk* clang::interp::FrameAllocator::getChunkToUse(unsigned int)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:110:5: error: ‘assert’ was not declared in this scope
+  110 |     assert(Tail);
+      |     ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:110:5: note: ‘assert’ is defined in header ‘<cassert>’; did you forget to ‘#include <cassert>’?
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h: In member function ‘void clang::interp::FrameAllocator::allocateNewChunk(unsigned int)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:118:35: error: no matching function for call to ‘operator new(sizetype, char*&)’
+  118 |     auto *C = new (Mem) Chunk(Size);
+      |                                   ^
+<built-in>: note: candidate: ‘void* operator new(long unsigned int)’
+<built-in>: note:   candidate expects 1 argument, 2 provided
+<built-in>: note: candidate: ‘void* operator new(long unsigned int, std::align_val_t)’
+<built-in>: note:   no known conversion for argument 2 from ‘char*’ to ‘std::align_val_t’
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:122:5: error: ‘assert’ was not declared in this scope
+  122 |     assert(Tail);
+      |     ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:122:5: note: ‘assert’ is defined in header ‘<cassert>’; did you forget to ‘#include <cassert>’?
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h: In member function ‘void clang::interp::FrameAllocator::deallocTail()’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:130:5: error: ‘assert’ was not declared in this scope
+  130 |     assert(Tail);
+      |     ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:130:5: note: ‘assert’ is defined in header ‘<cassert>’; did you forget to ‘#include <cassert>’?
+[3086/3386] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConstant.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConstant.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConstant.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConstant.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConstant.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ExprConstant.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ExprConstant.cpp:35:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h: In member function ‘char* clang::interp::FrameAllocator::reserve(unsigned int)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:61:9: error: ‘LLVM_UNLIKELY’ was not declared in this scope
+   61 |     if (LLVM_UNLIKELY(!Tail))
+      |         ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:61:9: note: the macro ‘LLVM_UNLIKELY’ had not yet been defined
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Casting.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/LLVM.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/APValue.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FixedPoint.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ExprConstant.cpp:35:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Compiler.h:341: note: it was later defined here
+  341 | #define LLVM_UNLIKELY(EXPR) __builtin_expect((bool)(EXPR), false)
+      | 
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ExprConstant.cpp:35:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:62:29: error: ‘max’ is not a member of ‘std’
+   62 |       allocateNewChunk(std::max(Size, MinChunkSize));
+      |                             ^~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:64:5: error: ‘assert’ was not declared in this scope
+   64 |     assert(Tail);
+      |     ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:1:1: note: ‘assert’ is defined in header ‘<cassert>’; did you forget to ‘#include <cassert>’?
+  +++ |+#include <cassert>
+    1 | //===-------------------- FrameAllocator.h ----------------------*- C++ -*-===//
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:73:29: error: ‘max’ is not a member of ‘std’
+   73 |       allocateNewChunk(std::max(Size, MinChunkSize));
+      |                             ^~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h: In member function ‘void clang::interp::FrameAllocator::pop(unsigned int)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:92:5: error: ‘assert’ was not declared in this scope
+   92 |     assert(Tail);
+      |     ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:92:5: note: ‘assert’ is defined in header ‘<cassert>’; did you forget to ‘#include <cassert>’?
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h: In member function ‘clang::interp::FrameAllocator::Chunk* clang::interp::FrameAllocator::getChunkToUse(unsigned int)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:110:5: error: ‘assert’ was not declared in this scope
+  110 |     assert(Tail);
+      |     ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:110:5: note: ‘assert’ is defined in header ‘<cassert>’; did you forget to ‘#include <cassert>’?
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h: In member function ‘void clang::interp::FrameAllocator::allocateNewChunk(unsigned int)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:118:35: error: no matching function for call to ‘operator new(sizetype, char*&)’
+  118 |     auto *C = new (Mem) Chunk(Size);
+      |                                   ^
+<built-in>: note: candidate: ‘void* operator new(long unsigned int)’
+<built-in>: note:   candidate expects 1 argument, 2 provided
+<built-in>: note: candidate: ‘void* operator new(long unsigned int, std::align_val_t)’
+<built-in>: note:   no known conversion for argument 2 from ‘char*’ to ‘std::align_val_t’
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:122:5: error: ‘assert’ was not declared in this scope
+  122 |     assert(Tail);
+      |     ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:122:5: note: ‘assert’ is defined in header ‘<cassert>’; did you forget to ‘#include <cassert>’?
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h: In member function ‘void clang::interp::FrameAllocator::deallocTail()’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:130:5: error: ‘assert’ was not declared in this scope
+  130 |     assert(Tail);
+      |     ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/FrameAllocator.h:130:5: note: ‘assert’ is defined in header ‘<cassert>’; did you forget to ‘#include <cassert>’?
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:4 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/lld/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+150.59user 17.24system 0:15.67elapsed 1071%CPU (0avgtext+0avgdata 851924maxresident)k
+0inputs+1757528outputs (3230major+8670061minor)pagefaults 0swaps
