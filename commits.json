@@ -218217,6 +218217,18 @@
             "author_name": "Daniel Cederman",
             "commit_date": "2026-09-01T20:57:08+02:00",
             "subject": "[SPARC] Parse unary complement immediates (#219970)"
+        },
+        {
+            "hash": "abc9e50d382b1a03220f97c3f872effa9bad9738",
+            "author_name": "Akash Manna",
+            "commit_date": "2026-09-01T19:01:07+00:00",
+            "subject": "[Clang] Fix crash when expanding an expansion statement after a fatal error (#220042)"
+        },
+        {
+            "hash": "e99ecf3426ff8578a3e4d4b8ad4b1c7874d713ea",
+            "author_name": "Yuta Nakamura",
+            "commit_date": "2026-09-01T19:04:25+00:00",
+            "subject": "[GlobalISel][NFC] Use TyBits in computeNumSignBits (#220324)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -233591,6 +233603,20 @@
             "author_name": "Kevin McAfee",
             "commit_date": "2026-09-01T17:39:03+00:00",
             "subject": "[SCEV] Model shl by a variable amount as a multiply by a power of two"
+        }
+    ],
+    "arsenm\/perf\/mir-block-args-v3": [
+        {
+            "hash": "b35570ada899b44bc8879af115fcd88ecc83992c",
+            "author_name": "Andreas Jonson",
+            "commit_date": "2026-09-01T20:29:49+02:00",
+            "subject": "[InstCombine] Fold assume(not(icmp eq %x, 0)) to assume [nonnull %x] (#220055)"
+        },
+        {
+            "hash": "53aba4e645c2364b442b94b7792adf773bda40b3",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-01T21:09:13+02:00",
+            "subject": "Add MIR block argument mega patch"
         }
     ]
 }
