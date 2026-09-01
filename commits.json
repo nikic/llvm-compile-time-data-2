@@ -218079,6 +218079,18 @@
             "author_name": "Anchu Rajendran S",
             "commit_date": "2026-09-01T09:39:10-07:00",
             "subject": "[LoopFusion] NFC: Add tests for same-iteration scalar dependence fusion (#216243)"
+        },
+        {
+            "hash": "96a1365dd635b3aa5f58b101d49841ea3d829312",
+            "author_name": "Chinmay Deshpande",
+            "commit_date": "2026-09-01T09:44:42-07:00",
+            "subject": "[AMDGPU] Add `getLDSBankCount` query to TargetParser (#219064)"
+        },
+        {
+            "hash": "b0829c5a09a9cc480718df21d90c454be5dddb88",
+            "author_name": "Nick Desaulniers",
+            "commit_date": "2026-09-01T09:46:04-07:00",
+            "subject": "libcxx: fixups for __BIONIC__ (#219591)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -231759,34 +231771,10 @@
             "subject": "[mlir] [linalg] Fold reduce(broadcast(x)) max\/min (#213190)"
         },
         {
-            "hash": "1edb07e04b9137fb1dc156ecc817ebbfeeaa3842",
+            "hash": "328004801d1a925533a226de00c50e48610d1ff8",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-01T10:56:16+01:00",
-            "subject": "[CodeGenTypes] Look up MVT::getVectorVT by element type (NFC)"
-        },
-        {
-            "hash": "6a481753a10aee186efc4d750836f7e270a895b8",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-01T10:56:17+01:00",
-            "subject": "Rework"
-        },
-        {
-            "hash": "427706abe7725f3e12da761d6586344d8e683df5",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-01T10:56:17+01:00",
-            "subject": "Move vefificaiton"
-        },
-        {
-            "hash": "806adfdd88b3c535109563143d1ecf69af22d924",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-01T10:56:17+01:00",
-            "subject": "Another try"
-        },
-        {
-            "hash": "762762b2ea1e010f44c5aaa37a948d58c4305310",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-01T13:19:44+01:00",
-            "subject": "Simplify more"
+            "commit_date": "2026-09-01T17:43:58+01:00",
+            "subject": "[CodeGenTypes] Use lookup table for MVT::getVectorVT (NFC)"
         }
     ],
     "artagnon\/perf\/scev-zextaddrec-wrap": [
