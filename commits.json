@@ -77047,9 +77047,9 @@
             "subject": "recycle frame"
         },
         {
-            "hash": "e25476544ff051f6c5f114e4db2b174ac04063e3",
+            "hash": "a14c30fd183b87647cb4f00c9628ad90154f2672",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-01T09:17:34+02:00",
+            "commit_date": "2026-09-01T09:36:39+02:00",
             "subject": "FrameAlloc"
         }
     ],
@@ -217617,6 +217617,12 @@
             "author_name": "Bart Van Assche",
             "commit_date": "2026-09-01T03:17:12-04:00",
             "subject": "[Mips] Select GPR register class based on requested type size (#220012)"
+        },
+        {
+            "hash": "19f66fb00411832bd0059d4c7c2b97d987915841",
+            "author_name": "Robert Imschweiler",
+            "commit_date": "2026-09-01T09:40:22+02:00",
+            "subject": "[libomp] Atomically claim library unregistration (#216713)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -232759,6 +232765,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-08-31T23:57:25-07:00",
             "subject": "[SelectionDAG] Look up Register nodes in a DenseMap instead of CSEMap"
+        }
+    ],
+    "MaskRay\/perf\/uniquing-set-sdag": [
+        {
+            "hash": "98e4cdc369e86896e54b6054a7a3f1d617875b2a",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-31T23:31:17-07:00",
+            "subject": "[MC,test] Use # comments in llvm-mc --disassemble inputs (#220163)"
+        },
+        {
+            "hash": "a5366c3f23c2e770f062da149841d22d1baa767f",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-09-01T00:38:23-07:00",
+            "subject": "[ADT][SelectionDAG] Unique SDNodes in a UniquingSet"
         }
     ]
 }
