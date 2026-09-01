@@ -218139,6 +218139,36 @@
             "author_name": "Pawan Nirpal",
             "commit_date": "2026-09-01T10:42:28-07:00",
             "subject": "[VPlan] - Generalize dead cycle removal in removeDeadRecipes.  (#213632)"
+        },
+        {
+            "hash": "62438a74ede6e0c5d2b84acfe391bd0bc751925d",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-09-01T12:55:49-05:00",
+            "subject": "[OpenMP] Make OpenMP version have separate type (#219820)"
+        },
+        {
+            "hash": "bd9c6fcae707e51a8294c971577e2f5343f5135c",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-09-01T12:55:49-05:00",
+            "subject": "[clang][OpenMP] Switch OpenMP version from unsigned to llvm::omp::Version (#219821)"
+        },
+        {
+            "hash": "579a8843ba7564cb5e194732b57fdc2289abc88b",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-09-01T12:55:50-05:00",
+            "subject": "[flang][OpenMP] Switch OpenMP version from unsigned to llvm::omp::Version (#219822)"
+        },
+        {
+            "hash": "a581d29d032ceb2402b696b67b261d58075a96c2",
+            "author_name": "Amr Hesham",
+            "commit_date": "2026-09-01T19:57:13+02:00",
+            "subject": "[CIR] Support Aggregate Atomic to non atomic with padding (#219680)"
+        },
+        {
+            "hash": "593d6710ca06f2113b6644d8581154df6089189b",
+            "author_name": "Volodymyr Sapsai",
+            "commit_date": "2026-09-01T10:57:40-07:00",
+            "subject": "[modules] Avoid redefinition errors when access modular header as non-modular. (#214345)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -230893,9 +230923,9 @@
             "subject": "[InstCombine] Do not apply unsigned sub identities when flipping icmp strictness in `foldICmpBinOp` (#219904)"
         },
         {
-            "hash": "ab5a427b8232a884e61740b0b5f1612b5abf4472",
+            "hash": "649ba0b3344e14b1c0abb8d085c0b089b9fbaf46",
             "author_name": "Steffen Holst Larsen",
-            "commit_date": "2026-09-01T06:12:48-05:00",
+            "commit_date": "2026-09-01T13:01:26-05:00",
             "subject": "WIP"
         }
     ],
