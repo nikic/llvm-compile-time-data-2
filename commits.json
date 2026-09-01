@@ -217791,6 +217791,12 @@
             "author_name": "riccardo-zanetti-arm",
             "commit_date": "2026-09-01T12:08:16+01:00",
             "subject": "[CodeGen][RegCoalescer] Preserve valid lanes when keeping IMPLICIT_DEF (#215272)"
+        },
+        {
+            "hash": "14cdf0c5f29976d682b51fdfb6038ed67acca82b",
+            "author_name": "Daniil Fukalov",
+            "commit_date": "2026-09-01T13:31:38+02:00",
+            "subject": "[mlir] Fix mlir-pdll-lsp-server link. (#220123)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -233097,6 +233103,32 @@
             "author_name": "Steffen Holst Larsen",
             "commit_date": "2026-09-01T05:14:30-05:00",
             "subject": "Test with overflowing bit"
+        }
+    ],
+    "lukel97\/perf\/users\/lukel97\/loop-vectorize\/simplifyRecipes-worklist": [
+        {
+            "hash": "5eaa5ca54df58913f467a4d7318d91958d903345",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-08-27T19:28:05-07:00",
+            "subject": "[flang] Speed up large CHARACTER DATA initializers (#218813)"
+        },
+        {
+            "hash": "b8bd74923962c8cca56993c346c8c6504e49fe04",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-08-28T10:52:19+08:00",
+            "subject": "Precommit test"
+        },
+        {
+            "hash": "fe1edc73ade8ee7a923ec883056efb5cf0db3cbd",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-08-28T10:52:19+08:00",
+            "subject": "[VPlan] Process simplifyRecipes in a worklist"
+        },
+        {
+            "hash": "ce4f49038a5e70883902857e785accec48da53dd",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-08-28T10:53:03+08:00",
+            "subject": "Use make_pointer_range"
         }
     ]
 }
