@@ -232937,33 +232937,39 @@
     ],
     "fhahn\/perf\/ce-disjoint-or": [
         {
-            "hash": "e821909b63ce7d8cc36c5b932068cbfc7230f447",
-            "author_name": "Phoebe Wang",
-            "commit_date": "2026-09-01T16:13:08+08:00",
-            "subject": "[X86][AMX-AVX512] Update intrinsic Operation to match with ISE062, NFCI (#219868)"
+            "hash": "4f711db76c82ed14d07205f09a672b6b7911590d",
+            "author_name": "nishant-sachdeva-amd",
+            "commit_date": "2026-09-01T20:42:18+09:00",
+            "subject": "[LoopInterchange] Swap preheader contents before rebuilding LCSSA (#218468)"
         },
         {
-            "hash": "d11ef6e80fba37d48db6f74e4dbee84116d290ff",
+            "hash": "42747696e3b777b4d00c607a42b530cf49024a3e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-01T09:18:30+01:00",
+            "commit_date": "2026-09-01T12:53:43+01:00",
             "subject": "Avoid queries"
         },
         {
-            "hash": "ce02040f4dc4385172dc623f946ffdc124a1bd3a",
+            "hash": "d241f212b5ebfac9a00e0064d958bf4969ee8f9e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-01T09:18:30+01:00",
+            "commit_date": "2026-09-01T12:53:43+01:00",
             "subject": "[SLP] Do not re-run buildTreeRec on an already rejected gather slice."
         },
         {
-            "hash": "7018ee267d5036f1fe2f04274ceca68a6e78ad43",
+            "hash": "559a52927d58d20cddd126a9b1cfd76f0022e50a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-01T09:18:30+01:00",
+            "commit_date": "2026-09-01T12:53:43+01:00",
             "subject": "TTI cache"
         },
         {
-            "hash": "f3721487840bcf1ae94200e5f3324691ca083593",
+            "hash": "63f3234743066601cce0484712b82c8c9029adce",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-01T09:18:30+01:00",
+            "commit_date": "2026-09-01T12:53:43+01:00",
+            "subject": "[SLP] Memoize getPointersDiff() for the duration of a BoUpSLP."
+        },
+        {
+            "hash": "cc6efec4d56a2357072c4ba5fe1f3413717e6cde",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-01T12:53:44+01:00",
             "subject": "[ConstraintElim] Decompose `or disjoint` in the signed system."
         }
     ],
