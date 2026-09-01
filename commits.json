@@ -218127,6 +218127,18 @@
             "author_name": "Chris Kennelly",
             "commit_date": "2026-09-01T10:32:45-07:00",
             "subject": "[SampleProfile] Ignore the .cfi suffix when matching functions to profiles (#220271)"
+        },
+        {
+            "hash": "3b90cb155a6bf30da86ebcb3d0854d38c53b51b0",
+            "author_name": "Alexey Samsonov",
+            "commit_date": "2026-09-01T17:38:09+00:00",
+            "subject": "[libc] Add <unistd.h> functions for user\/group ID management. (#220087)"
+        },
+        {
+            "hash": "32300f3257d758811d06e54820426bfeeba5fc6f",
+            "author_name": "Pawan Nirpal",
+            "commit_date": "2026-09-01T10:42:28-07:00",
+            "subject": "[VPlan] - Generalize dead cycle removal in removeDeadRecipes.  (#213632)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -233487,6 +233499,20 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-01T18:31:07+02:00",
             "subject": "Add MIR block argument mega patch"
+        }
+    ],
+    "kalxr\/perf\/pow2": [
+        {
+            "hash": "cc7a58e36d6ef7990472d55f8b998269e700afad",
+            "author_name": "Madhur Kumar",
+            "commit_date": "2026-09-01T19:26:41+02:00",
+            "subject": "[AMDGPU] Fix BFMPatterns multiclass operand type for i64 (#216690)"
+        },
+        {
+            "hash": "4776346a9004cdeefd08ae7681e978436f481308",
+            "author_name": "Kevin McAfee",
+            "commit_date": "2026-09-01T17:39:03+00:00",
+            "subject": "[SCEV] Model shl by a variable amount as a multiply by a power of two"
         }
     ]
 }
