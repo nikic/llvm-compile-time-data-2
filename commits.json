@@ -218325,6 +218325,36 @@
             "author_name": "Deric C.",
             "commit_date": "2026-09-01T20:22:25+00:00",
             "subject": "[HLSL] Fix initialization of mips' copy of the resource handle (#220349)"
+        },
+        {
+            "hash": "8d529bb65a37a7c756477fdc44c66262c6cd6b5c",
+            "author_name": "Yonah Goldberg",
+            "commit_date": "2026-09-01T13:34:39-07:00",
+            "subject": "[SelectionDAG][NVPTX] Support cache hints on masked loads and stores (#215307)"
+        },
+        {
+            "hash": "071b3c2fe08770c7d1875c1d58b6e1f9fe74506f",
+            "author_name": "lntue",
+            "commit_date": "2026-09-01T16:36:29-04:00",
+            "subject": "[libc] Fix char8_t public and proxy headers. (#220352)"
+        },
+        {
+            "hash": "de1b1781323c5468d877763d4eb6a365cd4d7bdd",
+            "author_name": "ZERICO2005",
+            "commit_date": "2026-09-01T22:38:11+02:00",
+            "subject": "[KnownFPClass] Remove `propagateNonNan` `PreserveSign` parameter (#219841)"
+        },
+        {
+            "hash": "7c44c505cd7688a8994779f1751e0f9b4b95ab4c",
+            "author_name": "Ambrose Leeb",
+            "commit_date": "2026-09-01T22:41:00+02:00",
+            "subject": "Revert \"[Clang] Fix a number of issues involving expansion statements\" (#220375)"
+        },
+        {
+            "hash": "238ef87194f80ed19a6023901acecd52b214faec",
+            "author_name": "Chinmay Deshpande",
+            "commit_date": "2026-09-01T13:45:36-07:00",
+            "subject": "[AMDGPU] Add `getVGPRAllocGranule` to TargetParser (#220065)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -233763,9 +233793,9 @@
             "subject": "[InstCombine] Fold assume(not(icmp eq %x, 0)) to assume [nonnull %x] (#220055)"
         },
         {
-            "hash": "0e0684a0792fa329cefe6809eff9df1c81cd9caa",
+            "hash": "38bea676b71ffb82fa6a9a34ef0fb0cf9585f6f3",
             "author_name": "Matt Arsenault",
-            "commit_date": "2026-09-01T22:21:13+02:00",
+            "commit_date": "2026-09-01T22:28:14+02:00",
             "subject": "Add MIR block argument mega patch"
         }
     ]
