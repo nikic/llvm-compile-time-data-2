@@ -218313,6 +218313,18 @@
             "author_name": "Yonah Goldberg",
             "commit_date": "2026-09-01T13:12:26-07:00",
             "subject": "[SDAG][NVPTX] Support cache hints on atomic operations (#214918)"
+        },
+        {
+            "hash": "1e5ad0192e93337f0f72fddb9421d4ecac63da53",
+            "author_name": "Joseph Huber",
+            "commit_date": "2026-09-01T15:21:08-05:00",
+            "subject": "[compiler-rt] Fix undefined abort for ubsan_minimal GPU targets (#220314)"
+        },
+        {
+            "hash": "07e310c312063aebc5525c360a1cea70981e31d0",
+            "author_name": "Deric C.",
+            "commit_date": "2026-09-01T20:22:25+00:00",
+            "subject": "[HLSL] Fix initialization of mips' copy of the resource handle (#220349)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -233719,22 +233731,42 @@
     ],
     "fhahn\/perf\/vt-lookup-cpp": [
         {
-            "hash": "c1100cd94b7b89db8c0929192e80aeaea95bc30e",
-            "author_name": "Chuanqi Xu",
-            "commit_date": "2026-09-01T06:52:43+00:00",
-            "subject": "[mlir] [linalg] Fold reduce(broadcast(x)) max\/min (#213190)"
+            "hash": "1b4fc7b6e9e35c7a33748dd1598070a233b61afc",
+            "author_name": "Yonah Goldberg",
+            "commit_date": "2026-09-01T13:12:26-07:00",
+            "subject": "[SDAG][NVPTX] Support cache hints on atomic operations (#214918)"
         },
         {
-            "hash": "d102568559c145b9775d4bc99f05cb3acb3454e9",
+            "hash": "567265994756e0c1aba3e8e52d173c257483f2d7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-01T18:34:55+01:00",
+            "commit_date": "2026-09-01T21:15:26+01:00",
             "subject": "[CodeGenTypes] Use lookup table for MVT::getVectorVT (NFC)"
         },
         {
-            "hash": "d467df045aa4198073b709312b46c43e1be38f82",
+            "hash": "7ba058e27f65e6eef33d04d4d1f49debe8ec9749",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-01T20:48:58+01:00",
+            "commit_date": "2026-09-01T21:15:52+01:00",
             "subject": "Move to .cpp"
+        },
+        {
+            "hash": "4fd2f0b507ab48471c6c950588dcb36875cd87ce",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-01T21:21:14+01:00",
+            "subject": "Disable PCH"
+        }
+    ],
+    "arsenm\/perf\/mir-block-args-v4": [
+        {
+            "hash": "b35570ada899b44bc8879af115fcd88ecc83992c",
+            "author_name": "Andreas Jonson",
+            "commit_date": "2026-09-01T20:29:49+02:00",
+            "subject": "[InstCombine] Fold assume(not(icmp eq %x, 0)) to assume [nonnull %x] (#220055)"
+        },
+        {
+            "hash": "0e0684a0792fa329cefe6809eff9df1c81cd9caa",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-01T22:21:13+02:00",
+            "subject": "Add MIR block argument mega patch"
         }
     ]
 }
