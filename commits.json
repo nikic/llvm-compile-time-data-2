@@ -217635,6 +217635,24 @@
             "author_name": "Phoebe Wang",
             "commit_date": "2026-09-01T16:13:08+08:00",
             "subject": "[X86][AMX-AVX512] Update intrinsic Operation to match with ISE062, NFCI (#219868)"
+        },
+        {
+            "hash": "084cb22437448bc53228f7f03dc20749dabe96a6",
+            "author_name": "Lucas Mellone",
+            "commit_date": "2026-09-01T11:18:18+03:00",
+            "subject": "[libc++][ranges][enumerate_view] Update iterator `iter_move` test (#219474)"
+        },
+        {
+            "hash": "083b00bbe9c29baba0cf006b2be4352d00341b75",
+            "author_name": "Hristo Hristov",
+            "commit_date": "2026-09-01T11:21:08+03:00",
+            "subject": "[libc++][docs][NFC] Remove Format and Parallelism TS status pages (#220021)"
+        },
+        {
+            "hash": "a92d77718fb6059d5094105555de21120f795e57",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-09-01T18:25:50+10:00",
+            "subject": "[orc-rt] Move connection state and teardown to SimpleRemoteCA (#220188)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -232727,27 +232745,33 @@
     ],
     "fhahn\/perf\/ce-disjoint-or": [
         {
-            "hash": "5fe9365695490151613358f2213e5a0df90d8fd6",
-            "author_name": "Arseniy Obolenskiy",
-            "commit_date": "2026-08-31T10:21:48+02:00",
-            "subject": "[SPIR-V] Honor explicit memory_order\/memory_scope in atomic load\/store (#215572)"
+            "hash": "e821909b63ce7d8cc36c5b932068cbfc7230f447",
+            "author_name": "Phoebe Wang",
+            "commit_date": "2026-09-01T16:13:08+08:00",
+            "subject": "[X86][AMX-AVX512] Update intrinsic Operation to match with ISE062, NFCI (#219868)"
         },
         {
-            "hash": "4526ac9ae588005d96caf02fa0d1fed42f43f010",
+            "hash": "d11ef6e80fba37d48db6f74e4dbee84116d290ff",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-31T09:34:06+01:00",
+            "commit_date": "2026-09-01T09:18:30+01:00",
+            "subject": "Avoid queries"
+        },
+        {
+            "hash": "ce02040f4dc4385172dc623f946ffdc124a1bd3a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-01T09:18:30+01:00",
             "subject": "[SLP] Do not re-run buildTreeRec on an already rejected gather slice."
         },
         {
-            "hash": "e2e17910ebc7b720b4a4d8ddfe45018d5fefc2aa",
+            "hash": "7018ee267d5036f1fe2f04274ceca68a6e78ad43",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-31T09:34:06+01:00",
+            "commit_date": "2026-09-01T09:18:30+01:00",
             "subject": "TTI cache"
         },
         {
-            "hash": "fade3589c84d021904215dcc2e5a27ff5d42388b",
+            "hash": "f3721487840bcf1ae94200e5f3324691ca083593",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-31T09:34:06+01:00",
+            "commit_date": "2026-09-01T09:18:30+01:00",
             "subject": "[ConstraintElim] Decompose `or disjoint` in the signed system."
         }
     ],
