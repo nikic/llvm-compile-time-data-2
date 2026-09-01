@@ -218043,6 +218043,18 @@
             "author_name": "ZERICO2005",
             "commit_date": "2026-09-01T18:06:37+02:00",
             "subject": "[KnownFPClass] Refactor direct access to `KnownFPClass::SignBit` [NFC] (#218514)"
+        },
+        {
+            "hash": "5dfed0dd1f01cf1b1ba163cf2a738d46aaf0e0c8",
+            "author_name": "Corentin Jabot",
+            "commit_date": "2026-09-01T18:25:48+02:00",
+            "subject": "[Clang] Remove `[[carries_dependency]]` (#219912)"
+        },
+        {
+            "hash": "de0a006ef659dcf0d800042b28ee867d170e6e0b",
+            "author_name": "Daniel Paoliello",
+            "commit_date": "2026-09-01T09:27:05-07:00",
+            "subject": "[clang][AArch64] Use B-key for -msign-return-address= on Windows (#220122)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -233413,6 +233425,20 @@
             "author_name": "John Brawn",
             "commit_date": "2026-09-01T16:41:01+01:00",
             "subject": "Construct a map of slices once instead of iterating over slices in each call"
+        }
+    ],
+    "arsenm\/perf\/mir-block-args-v2": [
+        {
+            "hash": "07ed92d6987f639b2c29c37a08d99313c69293cd",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-09-01T08:13:46-07:00",
+            "subject": "[Analysis] Remove dead declarations in AliasAnalysis and AliasSetTracker (NFC) (#220184)"
+        },
+        {
+            "hash": "d8ac04a484dfacf04b6f0b211d8139ba25d76e7e",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-01T18:31:07+02:00",
+            "subject": "Add MIR block argument mega patch"
         }
     ]
 }
