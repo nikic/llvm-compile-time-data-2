@@ -230763,34 +230763,22 @@
     ],
     "artagnon\/perf\/scev-sdiv": [
         {
-            "hash": "959e8e7c74a341dadca6ec7106cc2eae11a5f692",
-            "author_name": "Bal\u00e1zs Benics",
-            "commit_date": "2026-08-27T08:32:17+01:00",
-            "subject": "[analyzer] Fix assertion in BitwiseShiftChecker from getExtValue (#218940)"
+            "hash": "98e4cdc369e86896e54b6054a7a3f1d617875b2a",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-31T23:31:17-07:00",
+            "subject": "[MC,test] Use # comments in llvm-mc --disassemble inputs (#220163)"
         },
         {
-            "hash": "f74267a604d96301bb7726257aefe9ddc0bb7874",
+            "hash": "28bdc0ab1fdd1d1642570c77b54843128b4e796a",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-27T08:34:34+01:00",
+            "commit_date": "2026-09-01T07:59:57+01:00",
             "subject": "[SCEV] Introduce SDiv expressions"
         },
         {
-            "hash": "de1a7f04112a678920aece2e7640ad8affb0ade6",
+            "hash": "7082bca927ff64181337412bd41415af850ed982",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-27T08:34:51+01:00",
-            "subject": "[SCEV] Fix copy-paste error, thanks Antonio!"
-        },
-        {
-            "hash": "7a3f478c04240cf05419b51c3f5bff9bf462e9cc",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-27T08:34:51+01:00",
-            "subject": "[SCEV] Minor NFC restructing"
-        },
-        {
-            "hash": "503bc8d7bd24f80f8df1c65b2b624fba9171009a",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-27T08:34:51+01:00",
-            "subject": "[SCEV] Fix expansion, thanks Antonio!"
+            "commit_date": "2026-09-01T07:59:58+01:00",
+            "subject": "[VPlan] Expand SDiv in VPSCEVExpander"
         }
     ],
     "madhur13490\/perf\/loop-interchange-o3-default": [
@@ -232733,6 +232721,20 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-08-31T13:23:51+01:00",
             "subject": "[SCEV] Look thru commutative in isKnownMultipleOf"
+        }
+    ],
+    "MaskRay\/perf\/sdag-register": [
+        {
+            "hash": "98e4cdc369e86896e54b6054a7a3f1d617875b2a",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-31T23:31:17-07:00",
+            "subject": "[MC,test] Use # comments in llvm-mc --disassemble inputs (#220163)"
+        },
+        {
+            "hash": "e54d12ceb0208e61dbf18d79c62cb5c5bf84682d",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-08-31T23:57:25-07:00",
+            "subject": "[SelectionDAG] Look up Register nodes in a DenseMap instead of CSEMap"
         }
     ]
 }
