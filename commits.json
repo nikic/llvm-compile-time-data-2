@@ -217935,6 +217935,24 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-01T16:24:40+02:00",
             "subject": "RISCV: Pass instruction and operand index to getMinimumVLForUser (#219509)"
+        },
+        {
+            "hash": "5099b35d9db46421fa7d7263cce951a54c65f21f",
+            "author_name": "Anshil Gandhi",
+            "commit_date": "2026-09-01T19:56:36+05:30",
+            "subject": "[SandboxVec][LoadStoreVec][NFC] Extract vectorizeStores from runOnRegion (#215860)"
+        },
+        {
+            "hash": "0ea84b42aa30a7f1e0b5cb7cbac35b53bd56345a",
+            "author_name": "Marco Milanese",
+            "commit_date": "2026-09-01T16:28:46+02:00",
+            "subject": "[analyzer] Fix false positive on `UnreachableCode` with CTU mode"
+        },
+        {
+            "hash": "e9e08e8a1fb9211bc823efde25bdbebba5814f58",
+            "author_name": "Scott Manley",
+            "commit_date": "2026-09-01T10:35:21-04:00",
+            "subject": "[flang][FIR] Represent fir.global linkage with a typed enum attribute (#220243)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -233285,6 +233303,20 @@
             "author_name": "Luke Lau",
             "commit_date": "2026-08-28T10:53:03+08:00",
             "subject": "Use make_pointer_range"
+        }
+    ],
+    "john-brawn-arm\/perf\/sroa_overlap": [
+        {
+            "hash": "83582cfcdb4973a337195c1f59d6a3468d135434",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-07-16T09:40:30+00:00",
+            "subject": "[clang][CodeGen] Do not use atomicrmw in compound assignments with FP conversions (#209114)"
+        },
+        {
+            "hash": "202c141ae4abc7c60e4e06b2aaf3721ea9e39265",
+            "author_name": "John Brawn",
+            "commit_date": "2026-07-16T14:17:13+01:00",
+            "subject": "[SROA] Pre-split overlapping move slices within a partition"
         }
     ]
 }
