@@ -217659,6 +217659,18 @@
             "author_name": "Lang Hames",
             "commit_date": "2026-09-01T18:25:50+10:00",
             "subject": "[orc-rt] Move connection state and teardown to SimpleRemoteCA (#220188)"
+        },
+        {
+            "hash": "58371de0d979ef3afc46507455d2e934045f3b30",
+            "author_name": "Corentin Jabot",
+            "commit_date": "2026-09-01T10:52:44+02:00",
+            "subject": "[Clang] Fix a regression introduced by #216729. (#219998)"
+        },
+        {
+            "hash": "e935bd2b2801201e5318f1d68580eb2cfc626129",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-09-01T01:52:49-07:00",
+            "subject": "[LoopVectorize] Clear stale CycleAnalysis where BlockFrequencyInfo is requested (#220173)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -232853,9 +232865,9 @@
             "subject": "[MC,test] Use # comments in llvm-mc --disassemble inputs (#220163)"
         },
         {
-            "hash": "a5366c3f23c2e770f062da149841d22d1baa767f",
+            "hash": "d56ec7d2d83384a088fdbc047fbb4c30b6fc5acb",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-09-01T00:38:23-07:00",
+            "commit_date": "2026-09-01T01:47:34-07:00",
             "subject": "[ADT][SelectionDAG] Unique SDNodes in a UniquingSet"
         }
     ],
@@ -232871,6 +232883,20 @@
             "author_name": "Sockke",
             "commit_date": "2026-09-01T15:39:24+08:00",
             "subject": "[CodeGen] Cache block-start insertion checks during splitting"
+        }
+    ],
+    "antoniofrighetto\/perf\/aic-memset-zeroorone": [
+        {
+            "hash": "a92d77718fb6059d5094105555de21120f795e57",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-09-01T18:25:50+10:00",
+            "subject": "[orc-rt] Move connection state and teardown to SimpleRemoteCA (#220188)"
+        },
+        {
+            "hash": "2b470711cb92748a57ffd5a417bc28e76bcbb419",
+            "author_name": "Naveen",
+            "commit_date": "2026-09-01T10:52:36+02:00",
+            "subject": "[AggressiveInstCombine] Guard memset with length in [0, 1]"
         }
     ]
 }
