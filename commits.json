@@ -217983,6 +217983,30 @@
             "author_name": "Abid Qadeer",
             "commit_date": "2026-09-01T16:21:22+01:00",
             "subject": "Reland [flang][debug] Emit debug info for named constants- #213974 (#215369)"
+        },
+        {
+            "hash": "937027de8df5823b2fa23c5aeabdef2cb05af767",
+            "author_name": "Valery Dmitriev",
+            "commit_date": "2026-09-01T08:32:14-07:00",
+            "subject": "[flang] Try to keep overflow flags in `FIRToMemRef::canonicalizeIndex'. (#220127)"
+        },
+        {
+            "hash": "8ac016e7cc566701ef2751e23edc6bf44ef233e3",
+            "author_name": "Zeyi Xu",
+            "commit_date": "2026-09-01T23:35:04+08:00",
+            "subject": "[RISCV] Add MC support for FCVT.H.Q and FCVT.Q.H (#220176)"
+        },
+        {
+            "hash": "9218dcbd52414fa9ce04bc12dffeaac3ae7bc624",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-09-01T08:36:57-07:00",
+            "subject": "Revert \"[Bazel] Fixes 16a770d (#220089)\" (#220153)"
+        },
+        {
+            "hash": "63078085291f2ad1febc96f4e87cd70955c584a6",
+            "author_name": "Jeremy Johnson",
+            "commit_date": "2026-09-01T16:38:39+01:00",
+            "subject": "[mlir][tosa] Add support for mxfp in TRANSPOSE_CONV2D (#218953)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -233245,28 +233269,16 @@
     ],
     "tbaederr\/perf\/frame-alloc2": [
         {
-            "hash": "678058af7da6a20593d8bb23076dc4773f9e55f1",
-            "author_name": "Matthias Wippich",
-            "commit_date": "2026-09-01T07:51:51+02:00",
-            "subject": "[libc++] Implement P2830R10: Standardized Constexpr Type Ordering (#216616)"
+            "hash": "9218dcbd52414fa9ce04bc12dffeaac3ae7bc624",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-09-01T08:36:57-07:00",
+            "subject": "Revert \"[Bazel] Fixes 16a770d (#220089)\" (#220153)"
         },
         {
-            "hash": "c04f067ae4d0c758dae28deae88027d248297c4c",
+            "hash": "ee34324b5d0cb4d48296f27045c9208f8827e6ab",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-01T07:53:50+02:00",
+            "commit_date": "2026-09-01T17:37:47+02:00",
             "subject": "Test"
-        },
-        {
-            "hash": "78a2b6f4a836899a5729fede52a45b41f3673aa8",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-01T12:52:54+02:00",
-            "subject": "FrameAlloc"
-        },
-        {
-            "hash": "5f710f96a9094020b5034eb2d50518a4f2c0f209",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-01T15:18:40+02:00",
-            "subject": "Remove double destroy"
         }
     ],
     "steffenlarsen\/perf\/steffen\/move_attrs_ownership_bit_overflow": [
@@ -233347,6 +233359,12 @@
             "author_name": "John Brawn",
             "commit_date": "2026-07-16T14:17:13+01:00",
             "subject": "[SROA] Pre-split overlapping move slices within a partition"
+        },
+        {
+            "hash": "a5514354cc000dd115dd73ccc36ec73aa1207d47",
+            "author_name": "John Brawn",
+            "commit_date": "2026-09-01T16:41:01+01:00",
+            "subject": "Construct a map of slices once instead of iterating over slices in each call"
         }
     ]
 }
