@@ -218253,6 +218253,24 @@
             "author_name": "Keith Smiley",
             "commit_date": "2026-09-01T12:39:55-07:00",
             "subject": "[lld-macho][NFC] Change _baz to _qux in test (#220337)"
+        },
+        {
+            "hash": "5f3e8f36d69f7758eb3df00cc51a9f047726723e",
+            "author_name": "Sharjeel Khan",
+            "commit_date": "2026-09-01T12:44:11-07:00",
+            "subject": "[libc++] Add _LIBCPP_NO_SANITIZE for std::__assume_aligned (#220296)"
+        },
+        {
+            "hash": "91bd18e0e18d5f8a6e119cb60288bdd87ce2b8e0",
+            "author_name": "Jacek Caban",
+            "commit_date": "2026-09-01T21:47:49+02:00",
+            "subject": "[IR] Support hybrid_patchable attribute in bitcode reader (#219804)"
+        },
+        {
+            "hash": "81dc0604e4b64cdf826fa7fee0526600982a3135",
+            "author_name": "Jacek Caban",
+            "commit_date": "2026-09-01T21:48:33+02:00",
+            "subject": "[LangRef] Add hybrid_patchable attribute description (#219806)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -233655,6 +233673,26 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-01T21:17:29+02:00",
             "subject": "CodeGen: Track def\/use chain iterators by instruction and operand index"
+        }
+    ],
+    "fhahn\/perf\/vt-lookup-cpp": [
+        {
+            "hash": "c1100cd94b7b89db8c0929192e80aeaea95bc30e",
+            "author_name": "Chuanqi Xu",
+            "commit_date": "2026-09-01T06:52:43+00:00",
+            "subject": "[mlir] [linalg] Fold reduce(broadcast(x)) max\/min (#213190)"
+        },
+        {
+            "hash": "d102568559c145b9775d4bc99f05cb3acb3454e9",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-01T18:34:55+01:00",
+            "subject": "[CodeGenTypes] Use lookup table for MVT::getVectorVT (NFC)"
+        },
+        {
+            "hash": "d467df045aa4198073b709312b46c43e1be38f82",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-01T20:48:58+01:00",
+            "subject": "Move to .cpp"
         }
     ]
 }
