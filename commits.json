@@ -219225,6 +219225,18 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-02T13:27:48+00:00",
             "subject": "[CodeGenTypes] Use lookup table for MVT::getVectorVT (NFC) (#220309)"
+        },
+        {
+            "hash": "e4ef6e5ba3c82ec467840774949f38eb7085d7a8",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-09-02T23:32:06+10:00",
+            "subject": "[ORC] Hoist OrcRTBootstrap.h to fix layering violation (#220564)"
+        },
+        {
+            "hash": "8cc60b748cc3e423e48517c35e8cfea7d6d6c6b7",
+            "author_name": "Petar Avramovic",
+            "commit_date": "2026-09-02T15:35:36+02:00",
+            "subject": "AMDGPU\/GlobalISel: Fix i32 unmerge lowering in RegBankLegalize (#220590)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -234739,6 +234751,26 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-02T11:56:01+02:00",
             "subject": "XXX: pad MachineOperand +8 bytes to measure memory impact"
+        }
+    ],
+    "fhahn\/perf\/cache-tti": [
+        {
+            "hash": "8cc60b748cc3e423e48517c35e8cfea7d6d6c6b7",
+            "author_name": "Petar Avramovic",
+            "commit_date": "2026-09-02T15:35:36+02:00",
+            "subject": "AMDGPU\/GlobalISel: Fix i32 unmerge lowering in RegBankLegalize (#220590)"
+        },
+        {
+            "hash": "55d92fccf21782461882953b91ff31490735a5a8",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-02T14:37:00+01:00",
+            "subject": "TTI cache"
+        },
+        {
+            "hash": "8edcf70fd0c11077dd94ef43c23b4a81e658fd06",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-02T14:37:00+01:00",
+            "subject": "[TTI] Skip the legalization-cost cache for already-legal types."
         }
     ]
 }
