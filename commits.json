@@ -219009,6 +219009,12 @@
             "author_name": "Benjamin Maxwell",
             "commit_date": "2026-09-02T10:10:16+01:00",
             "subject": "[AArch64] Widen v3i8\/v4i8 VECTOR_MATCH needles (#218972)"
+        },
+        {
+            "hash": "ca70db3c250f25f9286ff1aeb9164d4b93a5fdc6",
+            "author_name": "Amit Tiwari",
+            "commit_date": "2026-09-02T14:44:34+05:30",
+            "subject": "[Clang][OpenMP] Canonicalize Intra-tiles in Loop Tiling (#191114)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -228609,6 +228615,24 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-09-01T10:28:34+02:00",
             "subject": "[git-clang-format] Don't format the line preceding a deletion (#215946)"
+        },
+        {
+            "hash": "8e1810950d0ab2c266e574c0b80177e247204d5e",
+            "author_name": "lrzlin",
+            "commit_date": "2026-09-02T11:13:27+02:00",
+            "subject": "[LoongArch] Add omitted LASX patterns for vector extend (#219351)"
+        },
+        {
+            "hash": "91d740bac95375dc51fd4042ff328670803ff451",
+            "author_name": "Younan Zhang",
+            "commit_date": "2026-09-02T11:13:29+02:00",
+            "subject": "release\/23.x: Backport '[Clang] Fix C++26 fold expression normalization of PackIndexingExpr'"
+        },
+        {
+            "hash": "47bafb75220225344cfe236ff0fce54cadc57405",
+            "author_name": "Daniel Cederman",
+            "commit_date": "2026-09-02T11:13:32+02:00",
+            "subject": "[SPARC] Preserve inline asm relocation modifiers (#219971)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
@@ -234483,6 +234507,20 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-01T22:18:17+02:00",
             "subject": "CodeGen: Track def\/use chain iterators by instruction and operand index"
+        }
+    ],
+    "lukel97\/perf\/sdpatternmatch-remove-minmax-computeknownbits": [
+        {
+            "hash": "2f2aa940de68abcdfe4959ddd3b9a0741a7c2a16",
+            "author_name": "David Mentler",
+            "commit_date": "2026-09-02T09:34:09+01:00",
+            "subject": "[lldb] Fallback to `__clang_vtable` for robust dynamic type resolution (#210584)"
+        },
+        {
+            "hash": "b771556fb2a7e9c2cb0c853a4a71ea9641e5ede0",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-02T17:16:26+08:00",
+            "subject": "[DAG] Don't detect flippable signs in MinMax matchers"
         }
     ]
 }
