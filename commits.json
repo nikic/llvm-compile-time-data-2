@@ -219039,6 +219039,36 @@
             "author_name": "Ville-Markus Yli-Suutala",
             "commit_date": "2026-09-02T10:51:29+01:00",
             "subject": "[flang][openmp] Support importing module declare target globals (#213930)"
+        },
+        {
+            "hash": "0f50e2015fc8b260d876fba1f7649e97d14ab8bd",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-02T10:55:30+01:00",
+            "subject": "[LoopVersioning] Preserve MemorySSA if requested. (#220290)"
+        },
+        {
+            "hash": "813bdb184af716091bb927070063a3e065124d33",
+            "author_name": "David Spickett",
+            "commit_date": "2026-09-02T10:55:35+01:00",
+            "subject": "[flang][test] Fix ASAN error in unit tests (#218917)"
+        },
+        {
+            "hash": "85b694bafe39fb68bab494835d227eaf1a98df09",
+            "author_name": "Nashe Mncube",
+            "commit_date": "2026-09-02T10:56:20+01:00",
+            "subject": "[AArch64] C1-Premium SME definitions (#212482)"
+        },
+        {
+            "hash": "fb193562a41ad045a8a2889f671f43cd4137c575",
+            "author_name": "Deepak Shirke",
+            "commit_date": "2026-09-02T11:02:30+01:00",
+            "subject": "[GlobalISel] Add G_EXTRACT_VECTOR_ELT to computeNumSignBits (#218283)"
+        },
+        {
+            "hash": "581d540212ea0f19ea58f01fc77ae0cc1e4cca3f",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-09-02T10:04:59+00:00",
+            "subject": "[Verifier] Forbid operand bundles with label operands (#220529)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -234545,6 +234575,20 @@
             "author_name": "Luke Lau",
             "commit_date": "2026-09-02T17:16:26+08:00",
             "subject": "[DAG] Don't detect flippable signs in MinMax matchers"
+        }
+    ],
+    "arsenm\/perf\/hack-increase-mo-size": [
+        {
+            "hash": "df357e7893ca2aa412b40433c48e352b123fba55",
+            "author_name": "Chris Copeland",
+            "commit_date": "2026-09-01T23:44:02-07:00",
+            "subject": "[SelectionDAG] Use ctlz(x & -x) ^ 31 for CTTZ_ZERO_POISON when ctpop is not available (#220415)"
+        },
+        {
+            "hash": "aec6ecfbc9b1d76d4a97a0dc149ba7b104174c36",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-02T11:56:01+02:00",
+            "subject": "XXX: pad MachineOperand +8 bytes to measure memory impact"
         }
     ]
 }
