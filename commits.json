@@ -218889,6 +218889,18 @@
             "author_name": "Chris Copeland",
             "commit_date": "2026-09-01T23:44:02-07:00",
             "subject": "[SelectionDAG] Use ctlz(x & -x) ^ 31 for CTTZ_ZERO_POISON when ctpop is not available (#220415)"
+        },
+        {
+            "hash": "1d1fe29db747cb51fe74fd034c2786a5c6b05342",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-09-02T09:02:41+02:00",
+            "subject": "[clang][bytecode][NFC] assert(Func) in InterpFrame ctor (#220284)"
+        },
+        {
+            "hash": "cf2b6616398c8e3915b53a4adcea42b987533da9",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-09-02T17:04:47+10:00",
+            "subject": "[orc-rt] Consolidate symbol export macros (#220495)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
