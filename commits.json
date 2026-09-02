@@ -218991,6 +218991,24 @@
             "author_name": "Stanislav Mekhanoshin",
             "commit_date": "2026-09-02T01:36:42-07:00",
             "subject": "[AMDGPU] Regenerate gfx12_err.s. NFC (#220437)"
+        },
+        {
+            "hash": "e4e18dba3d77f4a3eea58bcc9ccae5a5498ede7c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-02T09:00:20+00:00",
+            "subject": "[ConstraintElim] Derive IV bound from an relation predicate in latch. (#220107)"
+        },
+        {
+            "hash": "2c2cffa015e9549aafba9e514384b08204c7cc4b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-02T09:04:56+00:00",
+            "subject": "[LoopInterchange] Bail out on reductions with uses outside their chain. (#220263)"
+        },
+        {
+            "hash": "6b81601a16493ee05b8c36c26bb110d29a60d0ae",
+            "author_name": "Benjamin Maxwell",
+            "commit_date": "2026-09-02T10:10:16+01:00",
+            "subject": "[AArch64] Widen v3i8\/v4i8 VECTOR_MATCH needles (#218972)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -234119,39 +234137,45 @@
     ],
     "fhahn\/perf\/ce-disjoint-or": [
         {
-            "hash": "4f711db76c82ed14d07205f09a672b6b7911590d",
-            "author_name": "nishant-sachdeva-amd",
-            "commit_date": "2026-09-01T20:42:18+09:00",
-            "subject": "[LoopInterchange] Swap preheader contents before rebuilding LCSSA (#218468)"
+            "hash": "e4e18dba3d77f4a3eea58bcc9ccae5a5498ede7c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-02T09:00:20+00:00",
+            "subject": "[ConstraintElim] Derive IV bound from an relation predicate in latch. (#220107)"
         },
         {
-            "hash": "42747696e3b777b4d00c607a42b530cf49024a3e",
+            "hash": "311ca084b5d786110c9e49fc478334efa148df1c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-01T12:53:43+01:00",
+            "commit_date": "2026-09-02T10:02:05+01:00",
+            "subject": "[CodeGenTypes] Use lookup table for MVT::getVectorVT (NFC)"
+        },
+        {
+            "hash": "12cc892efddc5342f8ce5962b36e9b384f50f1bf",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-02T10:02:11+01:00",
             "subject": "Avoid queries"
         },
         {
-            "hash": "d241f212b5ebfac9a00e0064d958bf4969ee8f9e",
+            "hash": "4c2cf3aa04f3ecd012f7fbd67799d8a2ccbe832e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-01T12:53:43+01:00",
+            "commit_date": "2026-09-02T10:02:11+01:00",
             "subject": "[SLP] Do not re-run buildTreeRec on an already rejected gather slice."
         },
         {
-            "hash": "559a52927d58d20cddd126a9b1cfd76f0022e50a",
+            "hash": "bad9ff0c05ee5e5b2e0f09277338985987e87a6e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-01T12:53:43+01:00",
+            "commit_date": "2026-09-02T10:02:11+01:00",
             "subject": "TTI cache"
         },
         {
-            "hash": "63f3234743066601cce0484712b82c8c9029adce",
+            "hash": "481492fa85ba2c2117331263205d0f13cc8f8b90",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-01T12:53:43+01:00",
+            "commit_date": "2026-09-02T10:02:11+01:00",
             "subject": "[SLP] Memoize getPointersDiff() for the duration of a BoUpSLP."
         },
         {
-            "hash": "cc6efec4d56a2357072c4ba5fe1f3413717e6cde",
+            "hash": "33cd992b1fb53b05e4c2e196389e272459ab14af",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-01T12:53:44+01:00",
+            "commit_date": "2026-09-02T10:02:12+01:00",
             "subject": "[ConstraintElim] Decompose `or disjoint` in the signed system."
         }
     ],
