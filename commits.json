@@ -234327,15 +234327,15 @@
     ],
     "arsenm\/perf\/mir-block-args-v4": [
         {
-            "hash": "b35570ada899b44bc8879af115fcd88ecc83992c",
-            "author_name": "Andreas Jonson",
-            "commit_date": "2026-09-01T20:29:49+02:00",
-            "subject": "[InstCombine] Fold assume(not(icmp eq %x, 0)) to assume [nonnull %x] (#220055)"
+            "hash": "df357e7893ca2aa412b40433c48e352b123fba55",
+            "author_name": "Chris Copeland",
+            "commit_date": "2026-09-01T23:44:02-07:00",
+            "subject": "[SelectionDAG] Use ctlz(x & -x) ^ 31 for CTTZ_ZERO_POISON when ctpop is not available (#220415)"
         },
         {
-            "hash": "38bea676b71ffb82fa6a9a34ef0fb0cf9585f6f3",
+            "hash": "e41826169272012c9197526b59a30801ba076fcf",
             "author_name": "Matt Arsenault",
-            "commit_date": "2026-09-01T22:28:14+02:00",
+            "commit_date": "2026-09-02T08:59:22+02:00",
             "subject": "Add MIR block argument mega patch"
         }
     ],
