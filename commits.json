@@ -77029,34 +77029,22 @@
     ],
     "tbaederr\/perf\/ce-test": [
         {
-            "hash": "678058af7da6a20593d8bb23076dc4773f9e55f1",
-            "author_name": "Matthias Wippich",
-            "commit_date": "2026-09-01T07:51:51+02:00",
-            "subject": "[libc++] Implement P2830R10: Standardized Constexpr Type Ordering (#216616)"
+            "hash": "76c63f17762ad60d25a85b9ecacd43d9e828790f",
+            "author_name": "Chi-Chun, Chen",
+            "commit_date": "2026-09-03T00:36:40-05:00",
+            "subject": "[flang][OpenMP] Lower DO, SIMD, and DO SIMD metadirective variants (#218555)"
         },
         {
-            "hash": "c04f067ae4d0c758dae28deae88027d248297c4c",
+            "hash": "61af2f6dadf3efb01f12cbba840f00e3223ae187",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-01T07:53:50+02:00",
+            "commit_date": "2026-09-03T07:39:50+02:00",
             "subject": "Test"
         },
         {
-            "hash": "d86ac9f8feaf3eb6178dcad5ea26d415b56f23c9",
+            "hash": "43357d5faf78843fe1a79910248d0785a8c4087e",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-01T08:14:50+02:00",
-            "subject": "recycle frame"
-        },
-        {
-            "hash": "d503aa31f3cdab0881a95057900a4924f1b5f993",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-01T09:59:58+02:00",
-            "subject": "FrameAlloc"
-        },
-        {
-            "hash": "99f287a237213934cc054a73887b6fb867354eef",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-01T10:43:49+02:00",
-            "subject": "shared frame alloc"
+            "commit_date": "2026-09-03T07:53:06+02:00",
+            "subject": "locals"
         }
     ],
     "dtcxzyw\/perf\/nonnull-at-callsite": [
@@ -219273,6 +219261,762 @@
             "author_name": "Nikolas Klauser",
             "commit_date": "2026-09-02T16:12:58+02:00",
             "subject": "[libc++] Add a test for the ABI of std::once_flag (#218924)"
+        },
+        {
+            "hash": "87d7b5cfe7116f50aca2625aebbbd6f9da6624d0",
+            "author_name": "Sergio Afonso",
+            "commit_date": "2026-09-02T15:17:24+01:00",
+            "subject": "[Flang][OpenMP] Skip unrelated passes in simd-only mode (#219193)"
+        },
+        {
+            "hash": "7a1f6ad89e574d638e4618f41f243c63da76ce7b",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-09-02T16:22:46+02:00",
+            "subject": "[libc++] Simplify allocator propagation in vector assignments (#217635)"
+        },
+        {
+            "hash": "dec011539045b52e16a7767a6a64f24e84dd3958",
+            "author_name": "Razvan Lupusoru",
+            "commit_date": "2026-09-02T07:37:22-07:00",
+            "subject": "[nfc][acc] Expose castPointerLikeType API (#220426)"
+        },
+        {
+            "hash": "17de153b0798d3061580d19e46e053a5d0d93c11",
+            "author_name": "Zorojuro",
+            "commit_date": "2026-09-02T20:09:31+05:30",
+            "subject": "[libc] Make fmaximum\/fminimum functions use the emulated float128 type (#217390)"
+        },
+        {
+            "hash": "d406de1f3a9f3c99a0a7689d36b133c1b63466bb",
+            "author_name": "Dmitry Sidorov",
+            "commit_date": "2026-09-02T14:39:35+00:00",
+            "subject": "[AMDGPU] Sink a single-use fmul into the block of its fadd\/fsub user (#215810)"
+        },
+        {
+            "hash": "4cd368c14adf45464a7874bb5ff48e4809dab5df",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-09-02T16:41:18+02:00",
+            "subject": "[AMDGPU] Fold frame offset into immediate operand when possible (#220521)"
+        },
+        {
+            "hash": "4383f3bc6d5b73695902c6a5c8f136552d6c84de",
+            "author_name": "Razvan Lupusoru",
+            "commit_date": "2026-09-02T07:42:21-07:00",
+            "subject": "[flang][acc] Ensure genPrivateVariableInfo looks through data clause (#220470)"
+        },
+        {
+            "hash": "ff4f2068e58c90b46d4a6a274dbc9a97b9920827",
+            "author_name": "Anshil Gandhi",
+            "commit_date": "2026-09-02T20:17:35+05:30",
+            "subject": "[AMDGPU] Add tests for uniform uaddsat.i16 (NFC) (#211337)"
+        },
+        {
+            "hash": "ddb35e0981f5d101cbd5379ebc9f35b6c8b5d0de",
+            "author_name": "Anshil Gandhi",
+            "commit_date": "2026-09-02T20:17:36+05:30",
+            "subject": "[AMDGPU] Lower uniform uaddsat.i16 to SALU instructions (#210156)"
+        },
+        {
+            "hash": "3b5d3d2c1c7a472d7f19b08ead31a36181240876",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-09-02T08:00:28-07:00",
+            "subject": "[MachineFunction] Print type when printing constant pool value. (#220485)"
+        },
+        {
+            "hash": "7e0e56d9686a1afd747c59b3011ce7c0b3bac9dc",
+            "author_name": "David Green",
+            "commit_date": "2026-09-02T16:00:46+01:00",
+            "subject": "[AArch64][GlobalISel] Add tablegen patterns for smull+sqshrn -> sqdmulh. (#217318)"
+        },
+        {
+            "hash": "964098e2a1ff1a23477af43c736f9721bba178dc",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-09-02T08:01:10-07:00",
+            "subject": "[VectorCombine] Avoid calling getTypeSizeInBits on scalable vectors in scalarizeLoadBitcast (#220482)"
+        },
+        {
+            "hash": "f8024c2308272101c12e10c0c4cb9b586ae4ae1e",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-09-02T08:04:31-07:00",
+            "subject": "[GlobalISel] Remove dead declarations and functions (NFC) (#220499)"
+        },
+        {
+            "hash": "eff5d2d48c9c6b6452c7deac0d2281f8e3dd4120",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-02T15:05:48+00:00",
+            "subject": "[llvm][ADT] Remove function_ref equality operator (#220600)"
+        },
+        {
+            "hash": "8f06f641657927e8ae77fcbb5a49b38c68b1831b",
+            "author_name": "Felipe de Azevedo Piovezan",
+            "commit_date": "2026-09-02T11:15:17-04:00",
+            "subject": "Revert \"[lldb][test] Disable two breakpoint tests for debugserver (#2\u2026 (#220615)"
+        },
+        {
+            "hash": "cd1e53035f74208372d7609b6d815a1077e2042f",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-09-02T08:18:46-07:00",
+            "subject": "[ADT] Move traits after FoldingSetNodeID to inline Equals (NFC) (#220494)"
+        },
+        {
+            "hash": "a422732cd02f900fbf74a305ee6e79ad86f46504",
+            "author_name": "Adrian Prantl",
+            "commit_date": "2026-09-02T08:26:53-07:00",
+            "subject": "[lldb] Return llvm::Expected from Process::ReadPointerFromMemory (#216389)"
+        },
+        {
+            "hash": "b5401fb149dc12ba8b1c5bb088416d9244631da7",
+            "author_name": "Akira Hatanaka",
+            "commit_date": "2026-09-02T08:28:03-07:00",
+            "subject": "Remove overly strict assertion for this-capture in blocks (#219080)"
+        },
+        {
+            "hash": "308892ffc7f2aa1af580b6726297e3d516525488",
+            "author_name": "Hristo Hristov",
+            "commit_date": "2026-09-02T18:33:16+03:00",
+            "subject": "[libc++][ranges] Implement P3052R2: `view_interface::at()` (#205012)"
+        },
+        {
+            "hash": "9b8d049c42cf8ed6688a666d9fd0de14a604b65a",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-02T11:34:11-04:00",
+            "subject": "[SLP]Vectorize unique scalars of splat gather nodes as separate subtrees"
+        },
+        {
+            "hash": "4790539c9a07cab64aff41e89a523cf4bd1e2746",
+            "author_name": "Zibi Sarbinowski",
+            "commit_date": "2026-09-02T11:36:13-04:00",
+            "subject": "[SystemZ] XPLINK64: keep CCAssignToRegAndStack rule for bare i32 args (#220354)"
+        },
+        {
+            "hash": "7fddb2e0ec7342195bfed56e9bced187568e6210",
+            "author_name": "Schrodinger ZHU Yifan",
+            "commit_date": "2026-09-02T11:37:24-04:00",
+            "subject": "[libc][baremetal] add MVE\/MVE_FP feature flags detection (#220345)"
+        },
+        {
+            "hash": "fc254092143db42c8e1fbb35353fad8d9577f748",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-02T15:37:45+00:00",
+            "subject": "[mlir] Remove unnecessary allow-unregistered-dialect flags (#220613)"
+        },
+        {
+            "hash": "bba78f77e4f5ff9602428dec2766ac0c6f18aba0",
+            "author_name": "cmtice",
+            "commit_date": "2026-09-02T08:42:02-07:00",
+            "subject": "clang\/AMDGPU: Fix test to work with -lgomp (#220331)"
+        },
+        {
+            "hash": "78f20e3bb31e2f98078712381b45e837e8084370",
+            "author_name": "satyanarayana reddy janga",
+            "commit_date": "2026-09-02T10:44:30-05:00",
+            "subject": "[lldb-server] Add dynamic loader support to accelerator plugin protocol (#214564)"
+        },
+        {
+            "hash": "54d941486fec3a81f9d8e5a595947d540eace85c",
+            "author_name": "satyanarayana reddy janga",
+            "commit_date": "2026-09-02T10:46:41-05:00",
+            "subject": "[lldb] Add generic address space support (#214089)"
+        },
+        {
+            "hash": "4c9fd71e18f211bfe7d43ef841b429a8ef94a140",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-09-02T15:47:04+00:00",
+            "subject": "[Clang] Use Compat diagnostics for most extension\/compatibility warnings (#216693)"
+        },
+        {
+            "hash": "3ae01af71df1ab3eb868ca15297c565568019ce8",
+            "author_name": "Matt\u00e9o Rizza Murgier",
+            "commit_date": "2026-09-02T17:55:16+02:00",
+            "subject": "[flang][NFC] Remove dead declarations and fix include guard (#219961)"
+        },
+        {
+            "hash": "89b21bed656009821f8c79128e7032fdddc6689b",
+            "author_name": "Simon Tatham",
+            "commit_date": "2026-09-02T16:58:37+01:00",
+            "subject": "[libc] Stop printing \\0 in stdio\/fputc_test.cpp (#220544)"
+        },
+        {
+            "hash": "36cf06de82ff294e36afb500fefdcfa58f890bee",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-09-02T09:04:17-07:00",
+            "subject": "[Bazel] Fixes e4ef6e5 (#220598)"
+        },
+        {
+            "hash": "0725c489f8df6e23583997738be993c0c21b07d9",
+            "author_name": "Graham Hunter",
+            "commit_date": "2026-09-02T17:09:52+01:00",
+            "subject": "[AArch64] Fix widening of half\/bfloat partial reductions. (#220261)"
+        },
+        {
+            "hash": "b95aa1927996ea5ad05191a1a599bcffe51ef971",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-09-02T09:15:45-07:00",
+            "subject": "[mlir][OpenACC][NFC] Avoid per-recipe module walks in ACCRecipeMaterialization (#220420)"
+        },
+        {
+            "hash": "34dc057c4c095dc98cbbd0b1d16c8bf6b2e18c09",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-09-02T09:16:11-07:00",
+            "subject": "[flang][cuda] Honor component CUDA attrs in assignment copies (#220398)"
+        },
+        {
+            "hash": "d6aa82442212a7d55faf107c5bbc81b97f1b66f3",
+            "author_name": "Robert Imschweiler",
+            "commit_date": "2026-09-02T18:23:02+02:00",
+            "subject": "[offload] Add global addrspace qualifier to KLE and member pointers (#213918)"
+        },
+        {
+            "hash": "dd7236de4812ff2c4dc28e2b2948e3f35586d33b",
+            "author_name": "Yaxun (Sam) Liu",
+            "commit_date": "2026-09-02T12:23:58-04:00",
+            "subject": "Reland \"[IR] Use persistent metadata IDs for printing\" (#220390)"
+        },
+        {
+            "hash": "c13e9e15eb005c2645301266887c59b542d6bd10",
+            "author_name": "Chinmay Deshpande",
+            "commit_date": "2026-09-02T16:58:00+00:00",
+            "subject": "[AMDGPU] Fix LDS bank count for gfx950 (#220632)"
+        },
+        {
+            "hash": "31aaf4adb4dae834e0520144548203ecf288272c",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-09-02T10:06:48-07:00",
+            "subject": "[mlir][OpenACC] Avoid per-recipe module walks in ACCImplicitDeclare (#220478)"
+        },
+        {
+            "hash": "5862dad5e39aa7c3e14b6da1020afbe3def4ce49",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-02T19:09:11+02:00",
+            "subject": "PowerPC: Pass opcode through MC lowering symbol reference (#220084)"
+        },
+        {
+            "hash": "6fca89fc81d09716bafcfdfe983bce63cf5a92d3",
+            "author_name": "Justin Bogner",
+            "commit_date": "2026-09-02T10:14:05-07:00",
+            "subject": "[SPIRV] Simplify 64 bit popcount for Vulkan (#219605)"
+        },
+        {
+            "hash": "f62aa8433fd3e06c60baddfe5ced6824ebfcb5a4",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-09-02T17:25:31+00:00",
+            "subject": "[NFCI] Update the directive pure-emitter to skip the switch if empty (#220255)"
+        },
+        {
+            "hash": "dcaf16af3c1687c2b2c5aca21ca6265116dade8d",
+            "author_name": "Md Abdullah Shahneous Bari",
+            "commit_date": "2026-09-02T12:30:53-05:00",
+            "subject": "[mlir][math] Fold exp(a) \/ exp(b) into exp(a - b) (#220010)"
+        },
+        {
+            "hash": "8c4bd7f8edf36232e2687be029ce4a9554139443",
+            "author_name": "Abhina Sree",
+            "commit_date": "2026-09-02T13:36:52-04:00",
+            "subject": "[SystemZ][z\/OS] Add -bcompress=yes when linking to reduce binary size (#220617)"
+        },
+        {
+            "hash": "70d088d10d207483dca826b5f51ee9d63dcb8459",
+            "author_name": "Ali Bahrani",
+            "commit_date": "2026-09-02T13:40:28-04:00",
+            "subject": "[Flang] Interface vs explicit intrinsics priority (#215355)"
+        },
+        {
+            "hash": "0022cd633ee5baf9ddd290f509327b19e991e289",
+            "author_name": "David Mentler",
+            "commit_date": "2026-09-02T10:42:17-07:00",
+            "subject": "[lldb][NFC] CMake - Organize LLDB header rewriting targets (#213437)"
+        },
+        {
+            "hash": "c811f8d4120f2e1b3a02479490b9b042986fd257",
+            "author_name": "Folkert de Vries",
+            "commit_date": "2026-09-02T19:45:35+02:00",
+            "subject": "[Sparc][clang] implement `va_arg` in the clang frontend (#214981)"
+        },
+        {
+            "hash": "309c55493d86ba6caf2851f0df4102cf21cabe2c",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-09-02T17:46:20+00:00",
+            "subject": "[lldb] Improve error message when inline tests fail to launch (#220621)"
+        },
+        {
+            "hash": "7fce4a344efb3cc70b6cda2cfcd70d3e5dbecab9",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-09-02T12:49:28-05:00",
+            "subject": "[flang][OpenMP] Accept trailing colon in DOACROSS(SOURCE:) (#218982)"
+        },
+        {
+            "hash": "6b49d30163e975ae45bf7f10b7837f03f4f38a85",
+            "author_name": "Yonah Goldberg",
+            "commit_date": "2026-09-02T10:59:58-07:00",
+            "subject": "[SROA] Look through phis and selects when finding a common type (#219411)"
+        },
+        {
+            "hash": "3a978837a3bf9cfc5336d8d735134a3faf92a957",
+            "author_name": "Kaitlin Peng",
+            "commit_date": "2026-09-02T11:01:49-07:00",
+            "subject": "[Matrix] Implement matrix support for the `max` and `min` intrinsics (#219537)"
+        },
+        {
+            "hash": "6eb78d3be1ac2f5163fd8a21e19379c4b639d782",
+            "author_name": "Jeff Bailey",
+            "commit_date": "2026-09-02T19:05:27+01:00",
+            "subject": "[libc][CPP] Align span copy and conversion with std::span (#220619)"
+        },
+        {
+            "hash": "db6a71f06492ff39e8de649432ce0ffa69afb566",
+            "author_name": "Dmitry Sidorov",
+            "commit_date": "2026-09-02T20:09:46+02:00",
+            "subject": "[AMDGPU] Carry the log expansion flags through its f32 round trip (#219724)"
+        },
+        {
+            "hash": "93aa6c4b53d28c19aeeaa8c3f00ba07ebf24a10b",
+            "author_name": "Razvan Lupusoru",
+            "commit_date": "2026-09-02T11:28:55-07:00",
+            "subject": "[flang][acc] Extend coverage for offload target verifier (#220468)"
+        },
+        {
+            "hash": "8f246da53a88e09be825ffe94da5e7d07a3c5fc6",
+            "author_name": "Bar Soloveychik",
+            "commit_date": "2026-09-02T11:42:28-07:00",
+            "subject": "[lldb] Parse GDB remote register vector types (#219255)"
+        },
+        {
+            "hash": "5debe9926afa97f0181db244532b4df59c7b86a4",
+            "author_name": "cmtice",
+            "commit_date": "2026-09-02T11:50:15-07:00",
+            "subject": "[bazel][lldb] Update lldb's BUILD.bazel file to fix failure. (#220692)"
+        },
+        {
+            "hash": "437f88f61b16e5564713d0058433f4b34c41bf51",
+            "author_name": "Krzysztof Drewniak",
+            "commit_date": "2026-09-02T11:51:32-07:00",
+            "subject": "[AMDGPU][SIInsertWaitcnts] Fix soft wait removal with loop-carried deps (#220357)"
+        },
+        {
+            "hash": "38214070bb4a8d1d7ef116a2054a4751d89ec458",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-09-02T11:57:19-07:00",
+            "subject": "[mlir][math][NFC] Avoid greedy rewriter in sincos fusion (#220687)"
+        },
+        {
+            "hash": "aa3cf8c58988d7b31ec92c394fc349746a0e1e40",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-09-02T19:01:06+00:00",
+            "subject": "[NFC] Post Commit Feedback from 220255 (#220684)"
+        },
+        {
+            "hash": "11bc6ce46e227718c3b54aa6889d7458656e8ab4",
+            "author_name": "Steven Wu",
+            "commit_date": "2026-09-02T12:07:51-07:00",
+            "subject": "[Support] Don't create unbuffered stream in MirroringOutputBackend (#220648)"
+        },
+        {
+            "hash": "ffa30efb40250e555a23890eb1d22d317b5ba264",
+            "author_name": "Matsu",
+            "commit_date": "2026-09-02T12:17:46-07:00",
+            "subject": "[flang][OpenACC] Release declare-create allocatable on deallocate (#220541)"
+        },
+        {
+            "hash": "d27b8b182b92376a64963f9d9a0a4a100c25a6e0",
+            "author_name": "Tomohiro Kashiwada",
+            "commit_date": "2026-09-02T22:26:55+03:00",
+            "subject": "[Clang][Cygwin] Make -fno-use-init-array default in the driver (#220530)"
+        },
+        {
+            "hash": "9088c7558531bbe29398ba9f6a962a5e0a7e81af",
+            "author_name": "Arthur Eubanks",
+            "commit_date": "2026-09-02T12:38:24-07:00",
+            "subject": "[gn build] Port commits (#220704)"
+        },
+        {
+            "hash": "6ed299c32b9d23be93d076d476c4d9a661ed6006",
+            "author_name": "Stan Ulbrych",
+            "commit_date": "2026-09-02T12:52:01-07:00",
+            "subject": "[libFuzzer] Make -stop_file work with empty files (#220641)"
+        },
+        {
+            "hash": "4b5f5954ea4b918b4ef0ec689a26a67693ca7b06",
+            "author_name": "Andrew Lazarev",
+            "commit_date": "2026-09-02T12:56:47-07:00",
+            "subject": "[clang][docs] Add basic user documentation for Hardware-assisted AddressSanitizer (HWASan) (#220075)"
+        },
+        {
+            "hash": "d8bc63965fcea52586e75490641e27c132add377",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-02T19:58:18+00:00",
+            "subject": "[LoopVersioning] Mark DT, LI and MSSA as perserved. (#220537)"
+        },
+        {
+            "hash": "d03598d71c0612c829d8ea0a860ff68189c7f069",
+            "author_name": "Emilio Cota",
+            "commit_date": "2026-09-02T12:58:23-07:00",
+            "subject": "[msan] handle modf, sincos and sincospi intrinsics (#220416)"
+        },
+        {
+            "hash": "ad26dd521b5add67c312f41a7fdf4f5fadcb548f",
+            "author_name": "cmtice",
+            "commit_date": "2026-09-02T13:08:36-07:00",
+            "subject": "[bazel] Fix mlir bazel build failure. (#220706)"
+        },
+        {
+            "hash": "f1b5015f8cb61dffe5f740cdf105882ff6a76938",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-02T20:15:17+00:00",
+            "subject": "[LV] Add tests for epilogue vectorization of folded bypass checks (NFC). (#220703)"
+        },
+        {
+            "hash": "6a891b1d3f8e63511193ebacbeac9482f0b75e93",
+            "author_name": "Razvan Lupusoru",
+            "commit_date": "2026-09-02T13:16:53-07:00",
+            "subject": "[flang-rt] Resolve unit test shared library paths (#220693)"
+        },
+        {
+            "hash": "dbee54a34764b5c1279bcab41d34fe5173b308a2",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-02T22:21:31+02:00",
+            "subject": "[mlir][IR] Initialize empty AsmResourceBlob mutability (#220586)"
+        },
+        {
+            "hash": "def96c408e121a89ef379af5597dae25b0a583e8",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-02T22:21:51+02:00",
+            "subject": "[mlir][IR] Initialize empty dialect resource handles (#220585)"
+        },
+        {
+            "hash": "ecad6d43ccf0246203995a5e0ce98c60c3035184",
+            "author_name": "Vladislav Dzhidzhoev",
+            "commit_date": "2026-09-02T21:00:40+00:00",
+            "subject": "[DebugInfo] Create concrete lexical block DIEs of scopes with abstract LB DIEs (#220392)"
+        },
+        {
+            "hash": "136f049c0f822db05bad4c946dadf3dc112ccd4c",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-02T23:04:58+02:00",
+            "subject": "[mlir][ODS] Suppress generated ArrayRef Coverity warning (#220601)"
+        },
+        {
+            "hash": "1cc92d2b4278eefa2413e4fe830595868192508c",
+            "author_name": "Bill Wendling",
+            "commit_date": "2026-09-02T14:09:01-07:00",
+            "subject": "[XCore] Fix crash lowering unsized\/zero-length-array thread_local globals (#220543)"
+        },
+        {
+            "hash": "6133326eb4ccb18abbbe6c76b739dbdf19463c55",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-02T22:14:00+01:00",
+            "subject": "[ConstraintElim] Allow a non-constant start values in addInfoForInduct. (#220262)"
+        },
+        {
+            "hash": "cf14e417f808154529fbe1f402d5e6dbf74ff8d4",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-02T17:16:27-04:00",
+            "subject": "[Reassociate]Reject fma pairs with a multi-use fmul addend"
+        },
+        {
+            "hash": "480ae809e2950ddce41544912c7f55a23712ac33",
+            "author_name": "Will Hawkins",
+            "commit_date": "2026-09-02T14:20:57-07:00",
+            "subject": "[lldb] Support Persistent Variables as DIL Identifiers (#215706)"
+        },
+        {
+            "hash": "96cb9c493b96f1ddf0c47c3bb7c1195b88148ec7",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-02T21:24:44+00:00",
+            "subject": "[mlir][LLVM][GPU] Migrate to explicit split inherent\/discardable attribute APIs access (#218921)"
+        },
+        {
+            "hash": "fc1ab1f288992fd22b4f562557ea38b0cc8f9aaf",
+            "author_name": "dmaclach",
+            "commit_date": "2026-09-02T14:27:11-07:00",
+            "subject": "[clang][include cleaner] Fix MainHeader insertion issue (#212852)"
+        },
+        {
+            "hash": "54f8aa7615bb293e0a8cd6f22bd0e3107f3809f8",
+            "author_name": "Hansang Bae",
+            "commit_date": "2026-09-02T16:27:59-05:00",
+            "subject": "[Offload] Address static analyzer hits (#220725)"
+        },
+        {
+            "hash": "4fbc7d8992dbd21f5a0ea0f09fe647c81b1a8c77",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-02T23:32:29+02:00",
+            "subject": "[mlir][OpenACC] Reject unsupported routine bind attributes (#220710)"
+        },
+        {
+            "hash": "1ab694784c99087e0f2828267b0497c91dfc66c3",
+            "author_name": "Min-Yih Hsu",
+            "commit_date": "2026-09-02T14:38:03-07:00",
+            "subject": "[SelectionDAG] Do not use illegal type when expanding `CONVERT_FROM_ARBITRARY_FP` (#219597)"
+        },
+        {
+            "hash": "71a85ef89fc1997205104b72447e0dc2c4ad83da",
+            "author_name": "Romaric Jodin",
+            "commit_date": "2026-09-03T05:42:33+08:00",
+            "subject": "[libclc] Fix remainder calculation in clc_remquo for subnormals (#217925)"
+        },
+        {
+            "hash": "80c5684afdbfa597207a9544e2b2e4b1d8a0f55d",
+            "author_name": "Nadharm",
+            "commit_date": "2026-09-02T14:47:50-07:00",
+            "subject": "[llvm] Use ValueMap for ValueToGUIDMap (#220682)"
+        },
+        {
+            "hash": "32e83eafa73dbdd8edd113de787e2819ea049357",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-09-02T14:50:04-07:00",
+            "subject": "[lldb] Pass Wasm runtime-args before the port argument (#220700)"
+        },
+        {
+            "hash": "3dcc5b37c7dad740bd8c9a9f36627852a1767612",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-02T21:50:16+00:00",
+            "subject": "[LoopVersioning] Add missing verify-analysis-invalidation=false to test. (#220735)"
+        },
+        {
+            "hash": "3b287028f1cf6037666ce9a4439b7995f6924976",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-02T21:55:02+00:00",
+            "subject": "[VPlan] Allow non-live-in IV offsets when simplifying latch cond (NFC). (#220734)"
+        },
+        {
+            "hash": "81bf35d75a2925ff57a470b7a54c5d3730ade165",
+            "author_name": "Scott Manley",
+            "commit_date": "2026-09-02T17:58:31-04:00",
+            "subject": "[flang][cuda] Delay descriptor alloc when addressed reused on host\/device (#220534)"
+        },
+        {
+            "hash": "53b30bfcaf5584fc2c8624b7591530379e278ce8",
+            "author_name": "Stanislav Mekhanoshin",
+            "commit_date": "2026-09-02T14:59:56-07:00",
+            "subject": "[AMDGPU] Use named operands in SOP1_Real. NFC (#220705)"
+        },
+        {
+            "hash": "70519bc4c28e73b39419fedbac19972401da32e7",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-09-03T08:04:02+10:00",
+            "subject": "[orc-rt] Drop the _C_ prefix from ORC_RT_C_FORMAT_PRINTF (#220592)"
+        },
+        {
+            "hash": "f33ef3a26db25f9a4b75a25af6527304bc03fcb8",
+            "author_name": "David Green",
+            "commit_date": "2026-09-02T23:06:45+01:00",
+            "subject": "[AArch64] Use NoSchedPred for SME instructions in C1 scheduling models. (#220553)"
+        },
+        {
+            "hash": "fadd7e640336704bca4546a267b10a73a348e5b0",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-09-03T08:17:50+10:00",
+            "subject": "[orc-rt] Remove unused ORC_RT_HAS_CPP_ATTRIBUTE (#220747)"
+        },
+        {
+            "hash": "a19f61106bef180c1473a11757dfb16a6b85fab5",
+            "author_name": "Min-Yih Hsu",
+            "commit_date": "2026-09-02T15:38:28-07:00",
+            "subject": "[RISCV] Lower `CONVERT_FROM_ARBITRARY_FP` of Float8E5M2 with Zvfofp8min (#220132)"
+        },
+        {
+            "hash": "e775ea816fc48252e2887dcef33f794d0858ec17",
+            "author_name": "Dan Zimmerman",
+            "commit_date": "2026-09-02T15:40:39-07:00",
+            "subject": "[AMDGPU] Track BUFFER_INV during waitcnt insertion (#220694)"
+        },
+        {
+            "hash": "db625160332cce3facb65393a87377d20ad2a8d0",
+            "author_name": "Dan Brown",
+            "commit_date": "2026-09-02T15:44:15-07:00",
+            "subject": "[HLSL] Add matrix support for float->float pure function intrinsics (#202455)"
+        },
+        {
+            "hash": "7ecc2b3eab2a92e614de2757148524fb654f8fbc",
+            "author_name": "Ivan R. Ivanov",
+            "commit_date": "2026-09-03T00:44:36+02:00",
+            "subject": "[Offload] Build LLVMOffloadKernel with add_library (#220748)"
+        },
+        {
+            "hash": "aab4e16eb010d1683f1ea47f8607c5ff58958d2c",
+            "author_name": "Stanislav Mekhanoshin",
+            "commit_date": "2026-09-02T15:50:09-07:00",
+            "subject": "[AMDGPU] Validate barrier ID in S_BARRIER_SIGNAL_ISFIRST (#220101)"
+        },
+        {
+            "hash": "01145e3289d08c8c8e42d5dceefa3806b93cdd69",
+            "author_name": "Sang Ik Lee",
+            "commit_date": "2026-09-02T15:56:35-07:00",
+            "subject": "[MLIR][XeGPU] Promote mixed-size vector.shuffle in xegpu-vector-linearize (#217141)"
+        },
+        {
+            "hash": "e73db4d2c1483af0ef2b2034ef1a5d5f204df0f6",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-09-03T08:57:16+10:00",
+            "subject": "[orc-rt] Add darwin subdir for regression tests. (#220754)"
+        },
+        {
+            "hash": "69091033c62559b622137724a8b9f4d728c9f042",
+            "author_name": "Ivan R. Ivanov",
+            "commit_date": "2026-09-03T01:14:58+02:00",
+            "subject": "[offload][nfc] Extract libomptarget infrastructure into libompaccsupport (#213784)"
+        },
+        {
+            "hash": "74c65691d5c1594e50b2f502e0aa71e12d4902bc",
+            "author_name": "Ryan Buchner",
+            "commit_date": "2026-09-02T23:25:08+00:00",
+            "subject": "[TTI] Fix dyn_cast null-check in BasicTTIImpl (#220755)"
+        },
+        {
+            "hash": "a8bf25cbea41a8e62937b6ff844039c09d90f2ba",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-09-02T16:42:11-07:00",
+            "subject": "[flang][NFC] Allow simplify-region-lite to run on any op (#220698)"
+        },
+        {
+            "hash": "038b4cde32cb6f593a159aee159a18b87ca2662f",
+            "author_name": "Eugene Epshteyn",
+            "commit_date": "2026-09-02T20:31:31-04:00",
+            "subject": "[flang] Warn when an INTENT(IN) dummy is passed to a dummy with no INTENT (#220667)"
+        },
+        {
+            "hash": "58e985b8f39089989c11ea67fcb63c5cea1d7c9e",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-09-02T17:36:43-07:00",
+            "subject": "[SLP] Fix-up profile metadata for runtime alias checks (#220769)"
+        },
+        {
+            "hash": "a4f8918d699b4ed3b34d0842871ca920afc61996",
+            "author_name": "Michael Hu",
+            "commit_date": "2026-09-02T17:37:32-07:00",
+            "subject": "Initialize PBQP Pass for Clang (#217954)"
+        },
+        {
+            "hash": "cdb1815806dd61770e58844f58a8937519527ebf",
+            "author_name": "David Tellenbach",
+            "commit_date": "2026-09-03T00:56:46+00:00",
+            "subject": "[AArch64][NFC] Make insertion of CMP for fused cond. branches reusable (#220771)"
+        },
+        {
+            "hash": "6334d98f5bb78881adaacb7744636f4ce147ae2a",
+            "author_name": "Florian Mayer",
+            "commit_date": "2026-09-03T01:31:03+00:00",
+            "subject": "[test] fix use after destroy in SelectionDAGTestBase (#220775)"
+        },
+        {
+            "hash": "4be38a0764ec87dfb1e1cef5325bbd1df9767d63",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-09-02T18:41:44-07:00",
+            "subject": "[ELF] Omit zero-range FDEs from .eh_frame_hdr (#220492)"
+        },
+        {
+            "hash": "a4eb2ece7b779639b7d9b0855b7c21aa6deafdbf",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-09-03T11:46:41+10:00",
+            "subject": "[orc-rt] Sink remaining Compiler.h macros into C API header (#220780)"
+        },
+        {
+            "hash": "907dd67f959483a8b5dd12aa28dfc3bdb3469311",
+            "author_name": "Oscar Priego",
+            "commit_date": "2026-09-03T10:47:25+09:00",
+            "subject": "[MLIR][LLVM] Avoid narrowing wide constant shift amounts (#220777)"
+        },
+        {
+            "hash": "303475a57c121e13b3363a4ef0e3fcd52523457c",
+            "author_name": "Chinmay Deshpande",
+            "commit_date": "2026-09-02T19:25:14-07:00",
+            "subject": "[AMDGPU] Expose LDS block features to TargetParser (#220717)"
+        },
+        {
+            "hash": "9bd808983596f0d6b018221d609187ff757f81f4",
+            "author_name": "Thrrreeee",
+            "commit_date": "2026-09-03T11:19:12+08:00",
+            "subject": "[BOLT][RISCV] Handle static IFUNC calls through .iplt (#207733)"
+        },
+        {
+            "hash": "d79ce87f19d70db353b96b3f0e5f40b85cf99b14",
+            "author_name": "mleair",
+            "commit_date": "2026-09-02T20:20:57-07:00",
+            "subject": "[flang][Semantics] Accept multiple initialization of a COMMON block (#218529)"
+        },
+        {
+            "hash": "9191266744b70a75de4e273f5c22763271aa43e9",
+            "author_name": "Kelvin Li",
+            "commit_date": "2026-09-02T23:41:27-04:00",
+            "subject": "[flang][PPC] Implement ieee_set_status and ieee_get_status for AIX (#215618)"
+        },
+        {
+            "hash": "334db19b004338728979018c5a2bcd6d44b29109",
+            "author_name": "Aditya Chaudhary",
+            "commit_date": "2026-09-03T09:21:10+05:30",
+            "subject": "[SLP] Handle InsertValueInst in getVectorElementSize. (#215473)"
+        },
+        {
+            "hash": "c5b1e01ed897f417c370a225c6cdaaa14a1c142d",
+            "author_name": "david04g",
+            "commit_date": "2026-09-02T23:54:03-04:00",
+            "subject": "[MIPS] Fix GP-relative selection after select\/add combine (#215414)"
+        },
+        {
+            "hash": "37dbe72e9a0cba2fae6025fc7b8284d7ff01a665",
+            "author_name": "arrowten",
+            "commit_date": "2026-09-03T11:58:06+08:00",
+            "subject": "[SimplifyCFG] Handle switch-to-select remapping correctly (#213302)"
+        },
+        {
+            "hash": "5b2b3d1b319c2ca9745e4b6602fd2bc802679757",
+            "author_name": "Alexey Samsonov",
+            "commit_date": "2026-09-02T21:00:57-07:00",
+            "subject": "[libc][cmake] Introduce add_type_header for OS\/arch-specific types. (#220750)"
+        },
+        {
+            "hash": "5d063386f51b7d9925df7db5f05ec2f0a33f63c4",
+            "author_name": "Jiaxun Yang",
+            "commit_date": "2026-09-03T00:12:30-04:00",
+            "subject": "[Mips] Support reserving GPRs with -ffixed-N (#217013)"
+        },
+        {
+            "hash": "0f391cb05e6e4727453b5ace37eda77ce67db85f",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-03T12:34:06+08:00",
+            "subject": "[VPlan] Regenerate reduction-inloop tests with UTC. NFC (#220799)"
+        },
+        {
+            "hash": "54dc216fae73f1b85dbef9cc5a1c0ec1ade72d79",
+            "author_name": "Nathan Ridge",
+            "commit_date": "2026-09-03T00:36:08-04:00",
+            "subject": "[clangd] Handle varargs functions in resolveForwardingParameters() (#220488)"
+        },
+        {
+            "hash": "3993ccd4f07a5feee69764efa5bc9b53a0ce19ae",
+            "author_name": "Sergey Shcherbinin",
+            "commit_date": "2026-09-03T08:46:24+04:00",
+            "subject": "[llvm-profgen] Support AArch64 BRBE branch profiles (#209769)"
+        },
+        {
+            "hash": "76c63f17762ad60d25a85b9ecacd43d9e828790f",
+            "author_name": "Chi-Chun, Chen",
+            "commit_date": "2026-09-03T00:36:40-05:00",
+            "subject": "[flang][OpenMP] Lower DO, SIMD, and DO SIMD metadirective variants (#218555)"
+        },
+        {
+            "hash": "b4a2ef9364dadd542d8cc638fc45d75966de89be",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-09-03T05:40:22+00:00",
+            "subject": "[SLP][modularisation][NFC] Move REVEC cost helpers to SLPCostAnalysis (#220594)"
+        },
+        {
+            "hash": "c2cc141d26bd6c3cff05ba7176bb49ef37affde0",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-09-03T15:53:14+10:00",
+            "subject": "[orc-rt] Add very basic Linux triple detection. (#220814)"
+        },
+        {
+            "hash": "fbe6f045e733ce3306c78f0856ae4bc3933ade12",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-09-02T23:10:12-07:00",
+            "subject": "[ADT] Invalidate iterators on move and swap in SmallPtrSet and StringMap (#220796)"
+        },
+        {
+            "hash": "34b1799860f3ef48fec5e76e0dcedeecdb7c5294",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-09-03T11:42:11+05:30",
+            "subject": "[GVN] Enforce MemDep\/MemorySSA mutual exclusion for cl::opt overrides (#217896)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -234741,15 +235485,15 @@
     ],
     "arsenm\/perf\/mir-block-args-v4": [
         {
-            "hash": "df357e7893ca2aa412b40433c48e352b123fba55",
-            "author_name": "Chris Copeland",
-            "commit_date": "2026-09-01T23:44:02-07:00",
-            "subject": "[SelectionDAG] Use ctlz(x & -x) ^ 31 for CTTZ_ZERO_POISON when ctpop is not available (#220415)"
+            "hash": "cd1e53035f74208372d7609b6d815a1077e2042f",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-09-02T08:18:46-07:00",
+            "subject": "[ADT] Move traits after FoldingSetNodeID to inline Equals (NFC) (#220494)"
         },
         {
-            "hash": "e41826169272012c9197526b59a30801ba076fcf",
+            "hash": "528560cdc92bd4dd57560cad25324d3529f66d2d",
             "author_name": "Matt Arsenault",
-            "commit_date": "2026-09-02T08:59:22+02:00",
+            "commit_date": "2026-09-02T23:00:31+02:00",
             "subject": "Add MIR block argument mega patch"
         }
     ],
@@ -234797,42 +235541,62 @@
     ],
     "fhahn\/perf\/cache-tti": [
         {
-            "hash": "8cc60b748cc3e423e48517c35e8cfea7d6d6c6b7",
-            "author_name": "Petar Avramovic",
-            "commit_date": "2026-09-02T15:35:36+02:00",
-            "subject": "AMDGPU\/GlobalISel: Fix i32 unmerge lowering in RegBankLegalize (#220590)"
+            "hash": "11bc6ce46e227718c3b54aa6889d7458656e8ab4",
+            "author_name": "Steven Wu",
+            "commit_date": "2026-09-02T12:07:51-07:00",
+            "subject": "[Support] Don't create unbuffered stream in MirroringOutputBackend (#220648)"
         },
         {
-            "hash": "55d92fccf21782461882953b91ff31490735a5a8",
+            "hash": "38db35f21d6219adde7414a7cf9decad7196569c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-02T14:37:00+01:00",
-            "subject": "TTI cache"
-        },
-        {
-            "hash": "8edcf70fd0c11077dd94ef43c23b4a81e658fd06",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-02T14:37:00+01:00",
-            "subject": "[TTI] Skip the legalization-cost cache for already-legal types."
+            "commit_date": "2026-09-02T20:10:40+01:00",
+            "subject": "[TTI] Cache type legalization costs (NFC)."
         }
     ],
     "tbaederr\/perf\/opaque-decl": [
         {
-            "hash": "b1e0aa39763434060ab6e4dc87af3630ac9a04ac",
-            "author_name": "Luke Lau",
-            "commit_date": "2026-09-02T20:10:22+08:00",
-            "subject": "[VPlan] Remove asserts on VF and VFxUF users with EVL tail folding. NFC (#220545)"
+            "hash": "c2cc141d26bd6c3cff05ba7176bb49ef37affde0",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-09-03T15:53:14+10:00",
+            "subject": "[orc-rt] Add very basic Linux triple detection. (#220814)"
         },
         {
-            "hash": "c4eb2d5d12cc6abc96a47fd637c37b9a95d76f81",
+            "hash": "1bfb223e37617b9513ce5c3ea21d8dc22c1ef36b",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-02T17:00:57+02:00",
+            "commit_date": "2026-09-03T07:54:22+02:00",
             "subject": "test"
         },
         {
-            "hash": "25e75f44b1326e4cacfa2222dd19de3c954a689b",
+            "hash": "9c327e7ac8c4c0aab6d711400cb988ccce494b4f",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-02T17:01:08+02:00",
+            "commit_date": "2026-09-03T07:58:30+02:00",
             "subject": "opaque decl"
+        }
+    ],
+    "fhahn\/perf\/ce-ncd-flags": [
+        {
+            "hash": "11bc6ce46e227718c3b54aa6889d7458656e8ab4",
+            "author_name": "Steven Wu",
+            "commit_date": "2026-09-02T12:07:51-07:00",
+            "subject": "[Support] Don't create unbuffered stream in MirroringOutputBackend (#220648)"
+        },
+        {
+            "hash": "6f67fdcdb62a5fe56060cb266448db8b763e13d7",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-02T20:13:44+01:00",
+            "subject": "[ConstraintElim] Strengthen flags at the closest dominator of all uses."
+        },
+        {
+            "hash": "d86508fc36a132657f87ad8e89da43670da34f21",
+            "author_name": "Frederik Harwath",
+            "commit_date": "2026-09-02T20:13:45+01:00",
+            "subject": "Add tests"
+        },
+        {
+            "hash": "a79960c84e9783eb75d9ed9d4694ab398bf2bf23",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-02T20:13:45+01:00",
+            "subject": "[ConstraintElim] Add nsw to adds of a non-negative and a non-positive operand."
         }
     ]
 }
