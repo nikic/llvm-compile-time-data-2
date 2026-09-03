@@ -220503,6 +220503,30 @@
             "author_name": "blazej-smorawski",
             "commit_date": "2026-09-03T17:06:54+02:00",
             "subject": "[Offload] Update skip list for level_zero Offload API tests (#220937)"
+        },
+        {
+            "hash": "aafc318570430eed73891cb84364031c256fe1ac",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-09-03T17:18:42+02:00",
+            "subject": "[libc++] Optimize vector::emplace_back (#218658)"
+        },
+        {
+            "hash": "a7d36a747d51b504983be83040ad24adcae44001",
+            "author_name": "Clayton Knittel",
+            "commit_date": "2026-09-03T08:20:41-07:00",
+            "subject": "[DebugInfo] Ignore delegating constructors in constructor homing. (#218807)"
+        },
+        {
+            "hash": "01cd5ad6ad5fff623eab511efe503e1d4fbe4953",
+            "author_name": "Juan Manuel Martinez Caama\u00f1o",
+            "commit_date": "2026-09-03T17:22:18+02:00",
+            "subject": "[NFC][SPIRV] Converge different `DIScope` to `MCRegister` maps into a single one (#219927)"
+        },
+        {
+            "hash": "fa23e82fa0715ed5db767bbf9f5b312f2a78834d",
+            "author_name": "Alexey Samsonov",
+            "commit_date": "2026-09-03T08:22:58-07:00",
+            "subject": "[libc] Add <sys\/user.h> for Linux-x86_64 (#220809)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -235655,34 +235679,34 @@
     ],
     "fhahn\/perf\/ce-disjoint-or": [
         {
-            "hash": "d23b9dbc4e8b25fc673970b27fad53a2e7a7fe60",
-            "author_name": "Mehdi Amini",
-            "commit_date": "2026-09-03T12:46:58+00:00",
-            "subject": "[mlir][tblgen] Avoid copies when iterating symbols (NFC) (#220910)"
+            "hash": "7ab46731f23c422ac4f119d04890c83236edec46",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-09-03T16:59:39+02:00",
+            "subject": "[MemCpyOpt] Avoid stack-move optzn for out-of-bounds copy reading at offset zero (#220931)"
         },
         {
-            "hash": "c968e08d341112dbf9c1e3741b423e254d1057ab",
+            "hash": "ffe87191eb7090340f12056455104145670ed7e8",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-03T14:09:00+01:00",
+            "commit_date": "2026-09-03T16:18:31+01:00",
             "subject": "Avoid queries"
         },
         {
-            "hash": "ae685c265ee4d4599419a25042483b3046f42d35",
+            "hash": "c073db66b714d3dd26c573ad8371ab8b117890a9",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-03T14:09:01+01:00",
+            "commit_date": "2026-09-03T16:18:40+01:00",
+            "subject": "[ConstraintElim] Decompose `or disjoint` in the signed system."
+        },
+        {
+            "hash": "1f5cfc3a6edd33b1817ab7ad91a79987c832c386",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-03T16:18:40+01:00",
             "subject": "[SLP] Do not re-run buildTreeRec on an already rejected gather slice."
         },
         {
-            "hash": "2cbca2a51725f592ac98f7b00c599831a715a2f7",
+            "hash": "f76ef2b80c79f369cd4f0629d3eb00988b0fefb4",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-03T14:09:05+01:00",
+            "commit_date": "2026-09-03T16:18:40+01:00",
             "subject": "[SLP] Memoize getPointersDiff() for the duration of a BoUpSLP."
-        },
-        {
-            "hash": "e715e852bcbff04cef4e7d6c5da2463993643012",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-03T14:09:05+01:00",
-            "subject": "[ConstraintElim] Decompose `or disjoint` in the signed system."
         }
     ],
     "artagnon\/perf\/scev-knownmultiple-comm": [
