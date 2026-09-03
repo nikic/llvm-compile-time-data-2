@@ -220659,6 +220659,30 @@
             "author_name": "vporpo",
             "commit_date": "2026-09-03T10:12:09-07:00",
             "subject": "[SandboxIR] Callback registration now allows specifying order (#219609)"
+        },
+        {
+            "hash": "2930d9f4295571c01469741d8dc18ea0c4fd7ab5",
+            "author_name": "Andy Bonventre",
+            "commit_date": "2026-09-03T10:17:02-07:00",
+            "subject": "[tsan] Accept a 47-bit VMA for the Go runtime on linux\/aarch64 (#220040)"
+        },
+        {
+            "hash": "f6e6f2c311505498badcd042a8e6833013f101d3",
+            "author_name": "Akash Manna",
+            "commit_date": "2026-09-03T17:18:34+00:00",
+            "subject": "[Clang][Sema] Give calls synthesized by `__builtin_invoke` a valid source range (#220593)"
+        },
+        {
+            "hash": "33ec67a140529cd1ae204e231dc718788c1bc95d",
+            "author_name": "SoulTch",
+            "commit_date": "2026-09-03T17:24:10+00:00",
+            "subject": "[Clang][Parse] Fix crash on a coroutine keyword in a mem-initializer (#218168)"
+        },
+        {
+            "hash": "f8d63a6ca8be0200b4941e905e6dd65f7e4bf855",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-03T13:25:25-04:00",
+            "subject": "[SLP][NFC]Add extra tests with geps\/cast copyables, NFC"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -236319,6 +236343,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-09-03T15:48:01+00:00",
             "subject": "[AArch64][GlobalISel] Inline getRegClassesForCopy into selectCopy (NFC)"
+        }
+    ],
+    "fhahn\/perf\/vt-with-overflow-nowrap": [
+        {
+            "hash": "d802dc9e9cd9f61247417431779f1f0231fdd5fb",
+            "author_name": "vporpo",
+            "commit_date": "2026-09-03T10:12:09-07:00",
+            "subject": "[SandboxIR] Callback registration now allows specifying order (#219609)"
+        },
+        {
+            "hash": "333ea9571264aca9a1b3b30c515525a54acd0223",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-03T18:21:11+01:00",
+            "subject": "[ValueTracking] Use the overflow check to prove *.with.overflow no-wrap."
         }
     ]
 }
