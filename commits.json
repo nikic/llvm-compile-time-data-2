@@ -220569,6 +220569,24 @@
             "author_name": "Jan Trusi\u0142\u0142o",
             "commit_date": "2026-09-03T17:47:27+02:00",
             "subject": "[offload][l0] Report actual driver version through OL_DEVICE_INFO_DRIVER_VERSION (#218412)"
+        },
+        {
+            "hash": "0a3955cae33d4ca6a8d8e7a12b69acfa55a895be",
+            "author_name": "Eugene Epshteyn",
+            "commit_date": "2026-09-03T15:49:14+00:00",
+            "subject": "[flang][test] Expect a single -rpath in fveclib.f90 ArmPL check (#220969)"
+        },
+        {
+            "hash": "df9e06826c294818818358be1267c38a0455679d",
+            "author_name": "Abid Qadeer",
+            "commit_date": "2026-09-03T16:56:59+01:00",
+            "subject": "[OpenMP][CMake] Fix the device runtime build with LLVM_USE_SPLIT_DWARF (#220322)"
+        },
+        {
+            "hash": "5c9830c0a5a7c1bbae3b6e82232530be101723aa",
+            "author_name": "nvptm",
+            "commit_date": "2026-09-03T08:58:42-07:00",
+            "subject": "[flang][OpenACC] Emit module PARAMETERs as initialized linkonce_odr globals (#220666)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -236203,6 +236221,44 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-03T15:16:34+02:00",
             "subject": "Add MIR block argument mega patch"
+        }
+    ],
+    "c-rhodes\/perf\/compile-time-small-wins": [
+        {
+            "hash": "d1d20ad8ab25bee526a89b5d4414e9e659909101",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-08-24T15:04:22+01:00",
+            "subject": "[GlobalISel] Avoid redundant copies of GEPs results (#218352)"
+        },
+        {
+            "hash": "7045e4945ffd73580bb5de6b1e45e5c3053571b5",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-03T15:47:59+00:00",
+            "subject": "[GlobalISel] Use setMemRefs directly for single-MMO builders (NFC)"
+        },
+        {
+            "hash": "0f32a44cc363117be0a9daac40aad6a82dffbcd7",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-03T15:48:00+00:00",
+            "subject": "[CodeGen] Increase CCState::UsedRegs inline capacity (NFC)"
+        },
+        {
+            "hash": "0c63ff45f2f17174c39b80c6f705e98fb05e738f",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-03T15:48:00+00:00",
+            "subject": "[GlobalISel] Avoid redundant offset lists for scalar vregs (NFC)"
+        },
+        {
+            "hash": "b12cb3d0ecf6e4c9fc3f20340c50d4c086690d29",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-03T15:48:00+00:00",
+            "subject": "[GlobalISel] Do not finalize lowering in InstructionSelect"
+        },
+        {
+            "hash": "a6bcd2df3e393dbcace0fdcd87816047f0846456",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-03T15:48:01+00:00",
+            "subject": "[AArch64][GlobalISel] Inline getRegClassesForCopy into selectCopy (NFC)"
         }
     ]
 }
