@@ -220617,6 +220617,36 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-09-03T09:53:16-07:00",
             "subject": "[Passes] Add new runCodeGenPipeline abstraction"
+        },
+        {
+            "hash": "3783ff1fc631c567badb5b22f6a9d5a36a54cb3b",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-09-03T11:57:39-05:00",
+            "subject": "[flang][OpenMP] Replace modifier verification with a generic one (#220675)"
+        },
+        {
+            "hash": "162b2e966699d087ccb920ed35be337dc2dc78bc",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-09-03T11:57:40-05:00",
+            "subject": "[flang][OpenMP] Implement modifier set and modifier group verification (#220676)"
+        },
+        {
+            "hash": "c5858886c7ad7f0c864fe2b6026dbc363c8a651d",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-09-03T11:57:41-05:00",
+            "subject": "[flang][OpenMP] Remove now unused OmpVerifyModifiers (#220677)"
+        },
+        {
+            "hash": "97dc989bb446ba476f71dd4cc36641c3ed186bce",
+            "author_name": "A. Jiang",
+            "commit_date": "2026-09-04T00:58:37+08:00",
+            "subject": "[libc++] Apply `[[nodiscard]]` to `get_new_handler` (#220847)"
+        },
+        {
+            "hash": "d6b2176126d716110eea8bf90c611eb6833f10ba",
+            "author_name": "Sidhartha kumar",
+            "commit_date": "2026-09-03T17:00:35+00:00",
+            "subject": "[clang] Enable -fstack-clash-protection by default for Android (#209279)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -235619,28 +235649,16 @@
     ],
     "artagnon\/perf\/scev-nsuw": [
         {
-            "hash": "fa4c1ba1bd4be33232af93c5b2de6cbf589f102f",
-            "author_name": "Tim Besard",
-            "commit_date": "2026-08-28T12:36:01-07:00",
-            "subject": "[SROA] Reject illegal vector memset promotion (#216772)"
+            "hash": "cf763bc43d36e2078568db83e5c513046cd00abb",
+            "author_name": "Yuvaraj Venkatesh",
+            "commit_date": "2026-09-03T15:32:00+01:00",
+            "subject": "[mlir][tosa] Add support for mxfp IDENTITY (#220624)"
         },
         {
-            "hash": "6c6902f0115fe26b918a77856c8cf4496b1a8a1c",
+            "hash": "4c42d2684e325f5fc3197606fd078fec4597d75e",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-29T07:17:24+01:00",
-            "subject": "[SCEV] Improve WrapPredicate nusw implication"
-        },
-        {
-            "hash": "8a850e8e412b60f23942a9be9ce0327d8e5c42cb",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-29T07:17:24+01:00",
-            "subject": "[SCEV] Introduce IncrementNSUW, subsuming NSSW"
-        },
-        {
-            "hash": "ac2619c533b7901fbb49c8b5a00c0271eea80bb7",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-29T07:41:32+01:00",
-            "subject": "[SCEV] Minor NFC fixups"
+            "commit_date": "2026-09-03T18:03:41+01:00",
+            "subject": "[SCEV] Introduce IncrementNSUW, replacing NSSW"
         }
     ],
     "artagnon\/perf\/scev-udiv-ar-nuw-bw": [
