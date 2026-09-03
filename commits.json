@@ -220341,6 +220341,18 @@
             "author_name": "Marco Milanese",
             "commit_date": "2026-09-03T15:11:16+02:00",
             "subject": "[analyzer][NFC] Fix typo in `exploredAllPaths` variable & predicate"
+        },
+        {
+            "hash": "32fe59e6a1ae8a35619c0ec774be315e0d0bba7c",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-03T15:13:13+02:00",
+            "subject": "TailDuplicator: Use getDefBlock (#220903)"
+        },
+        {
+            "hash": "992d5d0c7c9fefd008478cbffcf6ecf80200526e",
+            "author_name": "Zach Goldthorpe",
+            "commit_date": "2026-09-03T07:16:55-06:00",
+            "subject": "[NFC][AMDGPU] Pre-commit tests for LDS -> DMA hazard (#220671)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -235955,6 +235967,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-03T10:51:59+01:00",
             "subject": "[TLI] Move type legalization caching from TTI to TLI."
+        }
+    ],
+    "arsenm\/perf\/mir-block-args-v5": [
+        {
+            "hash": "32fe59e6a1ae8a35619c0ec774be315e0d0bba7c",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-03T15:13:13+02:00",
+            "subject": "TailDuplicator: Use getDefBlock (#220903)"
+        },
+        {
+            "hash": "ab9f6c5e1117e3d137cec2f54b09f5bafb3ffd0d",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-03T15:16:34+02:00",
+            "subject": "Add MIR block argument mega patch"
         }
     ]
 }
