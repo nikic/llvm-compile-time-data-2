@@ -220797,6 +220797,24 @@
             "author_name": "woruyu",
             "commit_date": "2026-09-03T20:35:58+02:00",
             "subject": "[clang] Clean up switch stack when transforming an invalid body (#211162)"
+        },
+        {
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
+        },
+        {
+            "hash": "11f9ddf65a6c6087b86acb0202d27b65b325abe7",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-03T18:45:19+00:00",
+            "subject": "[VPlan] Allow non-live-in start values for widened inductions (NFC). (#220716)"
+        },
+        {
+            "hash": "fa1857e0ef5575c8472d0b0f59661d811e03f09a",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-09-03T11:45:55-07:00",
+            "subject": "[flang][cuda] Reject DEVICE derived types with attributed allocatable components (#220411)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -226785,12 +226803,6 @@
     ],
     "clemenswasser\/perf\/inline_debug_loc": [
         {
-            "hash": "a8cc3d25922b689508dc63487525c73bc2747585",
-            "author_name": "Nikolas Klauser",
-            "commit_date": "2026-07-30T14:05:39+02:00",
-            "subject": "[libc++] Clean up windows macros (#207577)"
-        },
-        {
             "hash": "ae99f5cbb55ff47b9bce5d14141453b4bc7b569d",
             "author_name": "Clemens Wasser",
             "commit_date": "2026-07-30T14:09:22+02:00",
@@ -226819,6 +226831,12 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-07-30T14:09:22+02:00",
             "subject": "[Inliner] Fix type of InlineLocs"
+        },
+        {
+            "hash": "4dc61353dd6c075c03db4e316bf6853396343982",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-03T20:43:07+02:00",
+            "subject": "Merge branch 'main' into perf\/inline_debug_loc"
         }
     ],
     "momchil-velikov\/perf\/disable-pre-lto-vec-0616": [
