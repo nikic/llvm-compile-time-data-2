@@ -220815,6 +220815,18 @@
             "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
             "commit_date": "2026-09-03T11:45:55-07:00",
             "subject": "[flang][cuda] Reject DEVICE derived types with attributed allocatable components (#220411)"
+        },
+        {
+            "hash": "e973b0c810cac40cfea739c4948749ec00714f84",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-03T20:55:29+02:00",
+            "subject": "MachinePipeliner: Pass instruction to findLoopIncrementValue (#219966)"
+        },
+        {
+            "hash": "640ab6c44d94fbec679b3314e50468bb0c5a8f05",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-09-03T12:00:06-07:00",
+            "subject": "[ADT] Derive FoldingSetNodeIDRef from ArrayRef<unsigned> (NFC) (#220824)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -226803,40 +226815,40 @@
     ],
     "clemenswasser\/perf\/inline_debug_loc": [
         {
-            "hash": "ae99f5cbb55ff47b9bce5d14141453b4bc7b569d",
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
+        },
+        {
+            "hash": "51c5f986d042801d22bda22b3a78be57d0acb2ee",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T14:09:22+02:00",
+            "commit_date": "2026-09-03T20:45:07+02:00",
             "subject": "[Inliner] Use distinct DILocations for inlined instruction debug locs"
         },
         {
-            "hash": "99a7ecb8ff0b60e2661c4e7e28e8749b254bbbec",
+            "hash": "14c130779a9ea1cc7167bbe9a8527cfe586ed87f",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T14:09:22+02:00",
+            "commit_date": "2026-09-03T20:45:07+02:00",
             "subject": "[Inliner] Use find() instead of operator[] in appendInlinedAt cache"
         },
         {
-            "hash": "dd4b50e85400ab2736fb105e4a131a9a133eba52",
+            "hash": "949bb403d7f804c443b1081c84dd3e13d8f62a1a",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T14:09:22+02:00",
+            "commit_date": "2026-09-03T20:45:07+02:00",
             "subject": "[Inliner] Fast-path appendInlinedAt for leaf DebugLocs"
         },
         {
-            "hash": "c0c80e775c1bca8f622f16d280e00c6d92145061",
+            "hash": "daedd395c211130251ae5057395c6840651b69bd",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T14:09:22+02:00",
+            "commit_date": "2026-09-03T20:45:07+02:00",
             "subject": "[Inliner] Fix Transforms\/SafeStack\/ARM\/debug.ll test"
         },
         {
-            "hash": "a8baa9aeb6acb8e3d97db66c32ce4663f5c12139",
+            "hash": "57d314cbea431a79b31e0f1a47dc8c38c20119b0",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T14:09:22+02:00",
+            "commit_date": "2026-09-03T20:45:07+02:00",
             "subject": "[Inliner] Fix type of InlineLocs"
-        },
-        {
-            "hash": "4dc61353dd6c075c03db4e316bf6853396343982",
-            "author_name": "Clemens Wasser",
-            "commit_date": "2026-09-03T20:43:07+02:00",
-            "subject": "Merge branch 'main' into perf\/inline_debug_loc"
         }
     ],
     "momchil-velikov\/perf\/disable-pre-lto-vec-0616": [
@@ -231341,21 +231353,21 @@
     ],
     "clemenswasser\/perf\/lazy-globals-aa": [
         {
-            "hash": "a8cc3d25922b689508dc63487525c73bc2747585",
-            "author_name": "Nikolas Klauser",
-            "commit_date": "2026-07-30T14:05:39+02:00",
-            "subject": "[libc++] Clean up windows macros (#207577)"
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
         },
         {
-            "hash": "f85572bce03c345fce2a0381d6db7875870057f7",
+            "hash": "2f7aad89161bf3b1e0ccaefafda94a0b25ddce59",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T14:09:22+02:00",
+            "commit_date": "2026-09-03T20:45:07+02:00",
             "subject": "[CallGraph] Replace slow dyn_cast with fast check"
         },
         {
-            "hash": "688a38724f1ada2d1338bfaedf89457b97d32d4b",
+            "hash": "9823dd1cf2e8e83f873f9144836c3a277cc7a05f",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-08-06T19:54:30+02:00",
+            "commit_date": "2026-09-03T20:45:07+02:00",
             "subject": "[GlobalsAA] Switch to LazyCallGraph"
         }
     ],
@@ -232149,22 +232161,16 @@
     ],
     "clemenswasser\/perf\/globalopt-unreachable-scan": [
         {
-            "hash": "a8cc3d25922b689508dc63487525c73bc2747585",
-            "author_name": "Nikolas Klauser",
-            "commit_date": "2026-07-30T14:05:39+02:00",
-            "subject": "[libc++] Clean up windows macros (#207577)"
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
         },
         {
-            "hash": "8270bd758ae0f7f97bb406474d8e26f5613a8e9b",
+            "hash": "bd106bcae600f5a5813025536429a90ac8710258",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T14:09:22+02:00",
+            "commit_date": "2026-09-03T20:45:07+02:00",
             "subject": "[GlobalOpt] Skip removeUnreachableBlocks when CFG is fully reachable"
-        },
-        {
-            "hash": "1f09932b7f8982c7b08f85f06b925a1955e8dc2d",
-            "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T14:09:22+02:00",
-            "subject": "[Local] Use direct opcode compare instead of dyn_cast in markAliveBlocks"
         }
     ],
     "Enna1\/perf\/SCEV-forget-value-expr-map-pruning": [
@@ -232195,15 +232201,15 @@
     ],
     "clemenswasser\/perf\/isdebugorpseudo-opcode-fastpath": [
         {
-            "hash": "a8cc3d25922b689508dc63487525c73bc2747585",
-            "author_name": "Nikolas Klauser",
-            "commit_date": "2026-07-30T14:05:39+02:00",
-            "subject": "[libc++] Clean up windows macros (#207577)"
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
         },
         {
-            "hash": "23cc4614f9df755e0b260df671d62ce4549b2e36",
+            "hash": "c6ef3ec8f55ca1c41b1ba70a8e9ce5d5d9fdfa33",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-07-30T15:06:04+02:00",
+            "commit_date": "2026-09-03T20:45:07+02:00",
             "subject": "[IR] Fast-path non-call instructions in isDebugOrPseudoInst()"
         }
     ],
@@ -232545,15 +232551,15 @@
     ],
     "clemenswasser\/perf\/cgp-skip-dbg-fixup-no-sunkaddrs": [
         {
-            "hash": "a8cc3d25922b689508dc63487525c73bc2747585",
-            "author_name": "Nikolas Klauser",
-            "commit_date": "2026-07-30T14:05:39+02:00",
-            "subject": "[libc++] Clean up windows macros (#207577)"
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
         },
         {
-            "hash": "4c64cee207f409e9bc763a502bbb464e724b0d71",
+            "hash": "f14822aa30e9c80d73aafeba490439e8ec70c80f",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-08-04T15:49:14+02:00",
+            "commit_date": "2026-09-03T20:45:07+02:00",
             "subject": "[CGP] Skip dbg record fixup when SunkAddrs is empty"
         }
     ],
@@ -232807,15 +232813,15 @@
     ],
     "clemenswasser\/perf\/analysis-manager-contiguous-results": [
         {
-            "hash": "a8cc3d25922b689508dc63487525c73bc2747585",
-            "author_name": "Nikolas Klauser",
-            "commit_date": "2026-07-30T14:05:39+02:00",
-            "subject": "[libc++] Clean up windows macros (#207577)"
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
         },
         {
-            "hash": "c1018e4ddc606231a49d638b087142a179d702a3",
+            "hash": "f493a4b3436865c05dbf45ca3d33a48efdf31f26",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-08-06T19:53:36+02:00",
+            "commit_date": "2026-09-03T20:45:07+02:00",
             "subject": "[PassManager] Store analysis results in contiguous storage"
         }
     ],
@@ -233559,29 +233565,29 @@
     ],
     "clemenswasser\/perf\/lower-dbg-declare-defuse": [
         {
-            "hash": "a8cc3d25922b689508dc63487525c73bc2747585",
-            "author_name": "Nikolas Klauser",
-            "commit_date": "2026-07-30T14:05:39+02:00",
-            "subject": "[libc++] Clean up windows macros (#207577)"
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
         },
         {
-            "hash": "c52ef5da0f96d0811db388b95004e29fa87b258e",
+            "hash": "4ba474e4e22ec53dfb72d44a8019f41fc7990393",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-08-13T16:51:26+02:00",
+            "commit_date": "2026-09-03T20:45:07+02:00",
             "subject": "[Local] Avoid scanning debug records in LowerDbgDeclare"
         }
     ],
     "clemenswasser\/perf\/ldv-value-loc-map": [
         {
-            "hash": "a8cc3d25922b689508dc63487525c73bc2747585",
-            "author_name": "Nikolas Klauser",
-            "commit_date": "2026-07-30T14:05:39+02:00",
-            "subject": "[libc++] Clean up windows macros (#207577)"
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
         },
         {
-            "hash": "3b2f7983872c1b93f9f32e1f1e1662e825050687",
+            "hash": "b2909a651b8faca9389564a55fd15502f4cb81e6",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-08-13T18:07:11+02:00",
+            "commit_date": "2026-09-03T20:45:07+02:00",
             "subject": "[CodeGen] Use SmallDenseMap in LiveDebugValues"
         }
     ],
@@ -233615,15 +233621,15 @@
     ],
     "clemenswasser\/perf\/globalopt-skip-dead-constant-scan": [
         {
-            "hash": "a8cc3d25922b689508dc63487525c73bc2747585",
-            "author_name": "Nikolas Klauser",
-            "commit_date": "2026-07-30T14:05:39+02:00",
-            "subject": "[libc++] Clean up windows macros (#207577)"
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
         },
         {
-            "hash": "5863d1a66bf8afb6afd4cb38364ee03544075d49",
+            "hash": "0c4b57ae6922471c1eb73f88d99e2e9dc6d68b97",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-08-14T14:52:01+02:00",
+            "commit_date": "2026-09-03T20:45:07+02:00",
             "subject": "[GlobalOpt] Avoid unnecessary dead constant user scans"
         }
     ],
@@ -233861,15 +233867,15 @@
     ],
     "clemenswasser\/perf\/defer-debug-value-tracking": [
         {
-            "hash": "a8cc3d25922b689508dc63487525c73bc2747585",
-            "author_name": "Nikolas Klauser",
-            "commit_date": "2026-07-30T14:05:39+02:00",
-            "subject": "[libc++] Clean up windows macros (#207577)"
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
         },
         {
-            "hash": "0033d3d1f002ed20baea0742d5f71d8fb27988e1",
+            "hash": "c48762a909cba4d56aa1f7c353faf8e5c94c44dc",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-08-17T13:31:05+02:00",
+            "commit_date": "2026-09-03T20:50:31+02:00",
             "subject": "[Cloning] Defer debug-value tracking during cloning"
         }
     ],
