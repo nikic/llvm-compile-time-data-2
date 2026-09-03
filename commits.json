@@ -220149,6 +220149,24 @@
             "author_name": "Luke Lau",
             "commit_date": "2026-09-03T17:44:12+08:00",
             "subject": "[VPlan] Simplify (x && y) | !x -> !x || y (#220801)"
+        },
+        {
+            "hash": "50f7c40b113a06242965feec71909595f97fe522",
+            "author_name": "shivaramaarao",
+            "commit_date": "2026-09-03T15:36:55+05:30",
+            "subject": "[flang][OpenMP] Fix integer kind handling for omp_lib.h entry points (#218836)"
+        },
+        {
+            "hash": "5ba0b37ca29e05939e5bdc77e756140821c23cce",
+            "author_name": "shivaramaarao",
+            "commit_date": "2026-09-03T15:37:15+05:30",
+            "subject": "[flang-rt] Fix missing omp_lib symbols in static runtime archive (#220821)"
+        },
+        {
+            "hash": "d9b65e6e580f40979b6b64c08e641faec8b3fa91",
+            "author_name": "Paul Walker",
+            "commit_date": "2026-09-03T11:08:37+01:00",
+            "subject": "[LLVM][CodeGen][SVE] Improve code quality of predicate vector extracts. (#220254)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -235739,15 +235757,15 @@
     ],
     "aengelke\/perf\/clangir": [
         {
-            "hash": "a908adb93db53c0d630232a5bdab8817495c17eb",
-            "author_name": "Arseniy Obolenskiy",
-            "commit_date": "2026-08-26T14:05:07+02:00",
-            "subject": "[AMDGPU] Fix unsaturated add when moving 64-bit ctlz\/cttz to the VALU (#216707)"
+            "hash": "f4ad12c3e4371874aaf40078785fb3d00a664aa0",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-03T09:42:17+02:00",
+            "subject": "[mlir][LLVMIR] Validate profile format metadata (#220582)"
         },
         {
-            "hash": "dbe99b152b2de1babce7a9f09457be9951ce5a89",
+            "hash": "3448a2f56322d270574fd5555d6b807441839137",
             "author_name": "Alexis Engelke",
-            "commit_date": "2026-09-03T07:02:20+00:00",
+            "commit_date": "2026-09-03T10:13:10+00:00",
             "subject": "try clangir"
         }
     ],
