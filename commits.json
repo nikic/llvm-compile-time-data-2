@@ -220701,6 +220701,36 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-09-03T10:33:25-07:00",
             "subject": "[clang] Fix FoldingSet lookups that disagree with the node's Profile (#220168)"
+        },
+        {
+            "hash": "035640baffe1cd563c5d23554e7c6825414bf6d7",
+            "author_name": "Ryan Buchner",
+            "commit_date": "2026-09-03T17:37:33+00:00",
+            "subject": "[SLP][NFC] Cleanup LIT test labels for RISCV (#220965)"
+        },
+        {
+            "hash": "89082772bed1ed16c0311b12147a96c35bb063d8",
+            "author_name": "vporpo",
+            "commit_date": "2026-09-03T10:41:41-07:00",
+            "subject": "Revert \"[SandboxIR] Callback registration now allows specifying order\" (#221008)"
+        },
+        {
+            "hash": "ecd51d30e3f80863396f5ee05191256f2592880b",
+            "author_name": "Yaxun (Sam) Liu",
+            "commit_date": "2026-09-03T13:46:16-04:00",
+            "subject": "[OCaml] Update debuginfo test for persistent metadata IDs (#220957)"
+        },
+        {
+            "hash": "452f0dd3d02429c305e28d58cb6e3912f40cb9f9",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-09-03T10:47:54-07:00",
+            "subject": "[Clang] Switch to runCodeGenPipeline abstraction"
+        },
+        {
+            "hash": "9b7474651733c596ed31afb2c1ce0e4ebb077951",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-09-03T10:48:33-07:00",
+            "subject": "[Flang] Switch to runCodeGenPipeline abstraction"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -235713,6 +235743,12 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-09-03T18:03:41+01:00",
             "subject": "[SCEV] Introduce IncrementNSUW, replacing NSSW"
+        },
+        {
+            "hash": "aa93b46ab92faa9b35db519d4242787689578e04",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-03T18:34:28+01:00",
+            "subject": "[SCEV] Draft fix for nsuw with known-negative step"
         }
     ],
     "artagnon\/perf\/scev-udiv-ar-nuw-bw": [
