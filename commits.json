@@ -220143,6 +220143,12 @@
             "author_name": "forking-google-bazel-bot[bot]",
             "commit_date": "2026-09-03T11:38:31+02:00",
             "subject": "[Bazel] Fixes 7a5f8a0 (#220838)"
+        },
+        {
+            "hash": "edd28877bc1975fddfc127b5bf9ac20b4f8e0df3",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-03T17:44:12+08:00",
+            "subject": "[VPlan] Simplify (x && y) | !x -> !x || y (#220801)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -235667,16 +235673,22 @@
     ],
     "fhahn\/perf\/cache-tti": [
         {
-            "hash": "11bc6ce46e227718c3b54aa6889d7458656e8ab4",
-            "author_name": "Steven Wu",
-            "commit_date": "2026-09-02T12:07:51-07:00",
-            "subject": "[Support] Don't create unbuffered stream in MirroringOutputBackend (#220648)"
+            "hash": "f4ad12c3e4371874aaf40078785fb3d00a664aa0",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-03T09:42:17+02:00",
+            "subject": "[mlir][LLVMIR] Validate profile format metadata (#220582)"
         },
         {
-            "hash": "38db35f21d6219adde7414a7cf9decad7196569c",
+            "hash": "0c4ae9884d82afaefee57d9ee24032d83d357a2e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-02T20:10:40+01:00",
+            "commit_date": "2026-09-03T09:50:58+01:00",
             "subject": "[TTI] Cache type legalization costs (NFC)."
+        },
+        {
+            "hash": "78c3e992401b56cda14ad7d0e34285e3033fac02",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-03T10:43:40+01:00",
+            "subject": "!fixup use try_emplace"
         }
     ],
     "tbaederr\/perf\/opaque-decl": [
@@ -235737,6 +235749,26 @@
             "author_name": "Alexis Engelke",
             "commit_date": "2026-09-03T07:02:20+00:00",
             "subject": "try clangir"
+        }
+    ],
+    "fhahn\/perf\/cache-tli": [
+        {
+            "hash": "f4ad12c3e4371874aaf40078785fb3d00a664aa0",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-03T09:42:17+02:00",
+            "subject": "[mlir][LLVMIR] Validate profile format metadata (#220582)"
+        },
+        {
+            "hash": "b244a78f325d57404eed6eb61347944c7e2da64c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-03T10:51:58+01:00",
+            "subject": "[TTI] Cache type legalization costs (NFC)."
+        },
+        {
+            "hash": "3ea639359b744749b4769376ee70f253f6420c15",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-03T10:51:59+01:00",
+            "subject": "[TLI] Move type legalization caching from TTI to TLI."
         }
     ]
 }
