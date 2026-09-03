@@ -220275,6 +220275,12 @@
             "author_name": "Joshua Rodriguez",
             "commit_date": "2026-09-03T13:17:41+01:00",
             "subject": "[AArch64][GlobalISel] Create uzp in shuffle(v, undefined) situations (#220535)"
+        },
+        {
+            "hash": "1ce15b097423a79f06a0f6777fbb8254db89d2e1",
+            "author_name": "Tulio Magno Quites Machado Filho",
+            "commit_date": "2026-09-03T09:18:05-03:00",
+            "subject": "[mlir] Disable some tests when the execution engine is disabled (#220741)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -235839,27 +235845,33 @@
     ],
     "fhahn\/perf\/ce-ncd-flags": [
         {
-            "hash": "11bc6ce46e227718c3b54aa6889d7458656e8ab4",
-            "author_name": "Steven Wu",
-            "commit_date": "2026-09-02T12:07:51-07:00",
-            "subject": "[Support] Don't create unbuffered stream in MirroringOutputBackend (#220648)"
+            "hash": "1d3ecdca6144f75ba30ee2a07fabead1ae486772",
+            "author_name": "Matt Turner",
+            "commit_date": "2026-09-03T07:56:13-04:00",
+            "subject": "[clang] Make the _BitInt literal suffix a pedantic-only extension (#217815)"
         },
         {
-            "hash": "6f67fdcdb62a5fe56060cb266448db8b763e13d7",
+            "hash": "cb1a5565a99d9e6d80360202ab123bcdeaa24444",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-02T20:13:44+01:00",
+            "commit_date": "2026-09-03T12:58:32+01:00",
+            "subject": "Add test"
+        },
+        {
+            "hash": "591986e13f875835aab29833202ce6f0a8ad0ca4",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-03T13:18:46+01:00",
             "subject": "[ConstraintElim] Strengthen flags at the closest dominator of all uses."
         },
         {
-            "hash": "d86508fc36a132657f87ad8e89da43670da34f21",
+            "hash": "8c53e43514261c79ff4c79df6cfe3f91dea296f8",
             "author_name": "Frederik Harwath",
-            "commit_date": "2026-09-02T20:13:45+01:00",
+            "commit_date": "2026-09-03T13:18:53+01:00",
             "subject": "Add tests"
         },
         {
-            "hash": "a79960c84e9783eb75d9ed9d4694ab398bf2bf23",
+            "hash": "093c3654c2d917d9143f9bb090d051bc45601f0e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-02T20:13:45+01:00",
+            "commit_date": "2026-09-03T13:20:15+01:00",
             "subject": "[ConstraintElim] Add nsw to adds of a non-negative and a non-positive operand."
         }
     ],
