@@ -220323,6 +220323,24 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-03T13:00:53+00:00",
             "subject": "X86: Handle undef push operands in call frame optimization (#220368)"
+        },
+        {
+            "hash": "5f410f8aae6a2bc85959f548c3d8728f7e21b318",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-09-03T06:02:53-07:00",
+            "subject": "[SimplifyCFG] Use UTC for test"
+        },
+        {
+            "hash": "73d2d31b999059a86175a4b3d646f3e89b03106d",
+            "author_name": "David Green",
+            "commit_date": "2026-09-03T14:07:39+01:00",
+            "subject": "[AArch64] Correct FDIV\/FSQRT throughput for Neoverse V3ae. (#219113)"
+        },
+        {
+            "hash": "887181244f3e22918f6a7c0da8c79d86fdb67a71",
+            "author_name": "Marco Milanese",
+            "commit_date": "2026-09-03T15:11:16+02:00",
+            "subject": "[analyzer][NFC] Fix typo in `exploredAllPaths` variable & predicate"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -235469,45 +235487,33 @@
     ],
     "fhahn\/perf\/ce-disjoint-or": [
         {
-            "hash": "e4e18dba3d77f4a3eea58bcc9ccae5a5498ede7c",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-02T09:00:20+00:00",
-            "subject": "[ConstraintElim] Derive IV bound from an relation predicate in latch. (#220107)"
+            "hash": "d23b9dbc4e8b25fc673970b27fad53a2e7a7fe60",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-03T12:46:58+00:00",
+            "subject": "[mlir][tblgen] Avoid copies when iterating symbols (NFC) (#220910)"
         },
         {
-            "hash": "311ca084b5d786110c9e49fc478334efa148df1c",
+            "hash": "c968e08d341112dbf9c1e3741b423e254d1057ab",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-02T10:02:05+01:00",
-            "subject": "[CodeGenTypes] Use lookup table for MVT::getVectorVT (NFC)"
-        },
-        {
-            "hash": "12cc892efddc5342f8ce5962b36e9b384f50f1bf",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-02T10:02:11+01:00",
+            "commit_date": "2026-09-03T14:09:00+01:00",
             "subject": "Avoid queries"
         },
         {
-            "hash": "4c2cf3aa04f3ecd012f7fbd67799d8a2ccbe832e",
+            "hash": "ae685c265ee4d4599419a25042483b3046f42d35",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-02T10:02:11+01:00",
+            "commit_date": "2026-09-03T14:09:01+01:00",
             "subject": "[SLP] Do not re-run buildTreeRec on an already rejected gather slice."
         },
         {
-            "hash": "bad9ff0c05ee5e5b2e0f09277338985987e87a6e",
+            "hash": "2cbca2a51725f592ac98f7b00c599831a715a2f7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-02T10:02:11+01:00",
-            "subject": "TTI cache"
-        },
-        {
-            "hash": "481492fa85ba2c2117331263205d0f13cc8f8b90",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-02T10:02:11+01:00",
+            "commit_date": "2026-09-03T14:09:05+01:00",
             "subject": "[SLP] Memoize getPointersDiff() for the duration of a BoUpSLP."
         },
         {
-            "hash": "33cd992b1fb53b05e4c2e196389e272459ab14af",
+            "hash": "e715e852bcbff04cef4e7d6c5da2463993643012",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-02T10:02:12+01:00",
+            "commit_date": "2026-09-03T14:09:05+01:00",
             "subject": "[ConstraintElim] Decompose `or disjoint` in the signed system."
         }
     ],
