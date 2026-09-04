@@ -221619,6 +221619,12 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-09-04T08:00:17-04:00",
             "subject": "[SLP][NFC]Add extra test for flattened fneg\/fadd chains, NFC"
+        },
+        {
+            "hash": "57807585a6aee7869ccf90a0d777e5fde61da10b",
+            "author_name": "Hung-Kuan Tseng",
+            "commit_date": "2026-09-04T14:01:09+02:00",
+            "subject": "[mlir][arith] Fold scaling_extf and scaling_truncf with constant operands (#215123)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -237429,6 +237435,20 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-09-04T11:55:50+02:00",
             "subject": "[ReachingDefAnalysis] Use SmallVector for MBB reaching defs"
+        }
+    ],
+    "clemenswasser\/perf\/dbg-history-densemap": [
+        {
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
+        },
+        {
+            "hash": "75609261b6a2052f7d04697710dfaf5da448a018",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-04T14:04:39+02:00",
+            "subject": "[AsmPrinter] Use DenseMap in DbgEntityHistoryCalculator"
         }
     ]
 }
