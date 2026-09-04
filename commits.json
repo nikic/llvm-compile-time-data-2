@@ -222039,6 +222039,30 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-04T19:51:54+00:00",
             "subject": "[VPlan] Preserve nneg when expanding SCEVZeroExtendExpr. (#221322)"
+        },
+        {
+            "hash": "a65128ed4da92fdd2088226a77b598f8294038eb",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-09-04T20:02:43+00:00",
+            "subject": "[DAG] SplitVecRes_VECTOR_COMPRESS - rename MaskVT -> LoMaskVT. NFC. (#221285)"
+        },
+        {
+            "hash": "f1e6b2e281809a3c69922fcaf9e18b14bb5052d2",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-04T20:04:05+00:00",
+            "subject": "[VPlan] Extend induction cost test coverage (NFC). (#221323)"
+        },
+        {
+            "hash": "d69cde185b87f6296bcde097354b2400d777491e",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-04T16:05:26-04:00",
+            "subject": "[SLP][NFC]Add a test with incorrect comparison after vectorization, NFC"
+        },
+        {
+            "hash": "f94b3d1fd66dd262a149a98199c7d158ddd8f0bd",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-09-04T20:09:13+00:00",
+            "subject": "[X86] combineX86ShuffleChain - only fold to truncate(concat(v1,v2)) if the concat is free (#221280)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
