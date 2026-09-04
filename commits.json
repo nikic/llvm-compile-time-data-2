@@ -237089,40 +237089,100 @@
     ],
     "c-rhodes\/perf\/compile-time-small-wins": [
         {
-            "hash": "d1d20ad8ab25bee526a89b5d4414e9e659909101",
-            "author_name": "Cullen Rhodes",
-            "commit_date": "2026-08-24T15:04:22+01:00",
-            "subject": "[GlobalISel] Avoid redundant copies of GEPs results (#218352)"
+            "hash": "97cbc1e404b980edc58bfbcabb6f1c61793b624b",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-09-04T11:42:20+02:00",
+            "subject": "[CIR] Give the cleanup kind a proper standalone attribute spelling (#220878)"
         },
         {
-            "hash": "7045e4945ffd73580bb5de6b1e45e5c3053571b5",
+            "hash": "cf0c520b14a7bcffe81df097ebc1281b05f0a467",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-09-03T15:47:59+00:00",
+            "commit_date": "2026-09-04T09:48:16+00:00",
             "subject": "[GlobalISel] Use setMemRefs directly for single-MMO builders (NFC)"
         },
         {
-            "hash": "0f32a44cc363117be0a9daac40aad6a82dffbcd7",
+            "hash": "75a47742bf9367a943e1cf2f470328c47baded8c",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-09-03T15:48:00+00:00",
+            "commit_date": "2026-09-04T09:48:16+00:00",
             "subject": "[CodeGen] Increase CCState::UsedRegs inline capacity (NFC)"
         },
         {
-            "hash": "0c63ff45f2f17174c39b80c6f705e98fb05e738f",
+            "hash": "3f98f89671c9fa86f399950abbfcb72a0f3ea08b",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-09-03T15:48:00+00:00",
+            "commit_date": "2026-09-04T09:48:16+00:00",
             "subject": "[GlobalISel] Avoid redundant offset lists for scalar vregs (NFC)"
         },
         {
-            "hash": "b12cb3d0ecf6e4c9fc3f20340c50d4c086690d29",
+            "hash": "789775736e9065c9247c8e5aa77ba32209afde0b",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-09-03T15:48:00+00:00",
-            "subject": "[GlobalISel] Do not finalize lowering in InstructionSelect"
+            "commit_date": "2026-09-04T09:58:11+00:00",
+            "subject": "[AArch64][GlobalISel] Inline getRegClassesForCopy into selectCopy (NFC)"
         },
         {
-            "hash": "a6bcd2df3e393dbcace0fdcd87816047f0846456",
+            "hash": "f04858d9a1adefc653fbb987d48f0e96a193a0b6",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-09-03T15:48:01+00:00",
-            "subject": "[AArch64][GlobalISel] Inline getRegClassesForCopy into selectCopy (NFC)"
+            "commit_date": "2026-09-04T09:58:11+00:00",
+            "subject": "[GlobalISel] Avoid copying complex pattern renderers (NFC)"
+        },
+        {
+            "hash": "c844f92f46e0b858844e0a5bfcc7b583410ff5f5",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-04T09:58:12+00:00",
+            "subject": "[GlobalISel] Avoid redundant ValueToVRegInfo map lookups (NFC)"
+        },
+        {
+            "hash": "24d3e8c268296af03b66725550083c0ed28c16c6",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-04T09:58:12+00:00",
+            "subject": "[IR] Avoid visited set for simple isScalableTy queries (NFC)"
+        },
+        {
+            "hash": "751be4f28e09eb4e9b8234664d641d321ca9b742",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-04T09:58:36+00:00",
+            "subject": "[GlobalISel] Avoid unnecessary call setup work (NFC)"
+        },
+        {
+            "hash": "1acc8d86fde39acee292715a4a2266fb7bf98f64",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-04T09:58:37+00:00",
+            "subject": "[GlobalISel] Lazily reserve worklist maps (NFC)"
+        },
+        {
+            "hash": "c03b58471bcbbeeaab369e33a16f70735f008668",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-04T09:58:37+00:00",
+            "subject": "[AArch64] Add a fast-path for AArch64InstrInfo::getInstSizeInBytes (NFC)"
+        },
+        {
+            "hash": "7b66440c61c1abe444325d07e758e3831b836a92",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-04T09:58:37+00:00",
+            "subject": "[GlobalISel] Avoid std::function for delayed register args (NFC)"
+        },
+        {
+            "hash": "15703ba92dcc735c6ba673df3648e9148cbb6de8",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-04T09:58:37+00:00",
+            "subject": "[GlobalISel] Skip no-op register class constraints (NFC)"
+        },
+        {
+            "hash": "3b2edb39d37c9e8b27ab858deb4572134493842b",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-04T09:58:38+00:00",
+            "subject": "[CodeGen] Avoid allocating machine remark emitters (NFC)"
+        },
+        {
+            "hash": "012076e9897c9d63be7a314276314dbce88e474a",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-04T10:23:39+00:00",
+            "subject": "[GlobalISel] Avoid duplicate finalizeLowering calls (NFC)"
+        },
+        {
+            "hash": "30bc193b2dcdfa3f2ef0ea58a2a5f132694d1d46",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-04T10:23:44+00:00",
+            "subject": "[GlobalISel] Avoid temporary worklist in RegBankSelect (NFC)"
         }
     ],
     "fhahn\/perf\/vt-with-overflow-nowrap": [
