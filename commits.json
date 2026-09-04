@@ -222003,6 +222003,18 @@
             "author_name": "Dave MacLachlan",
             "commit_date": "2026-09-04T11:59:52-07:00",
             "subject": "[include-cleaner] Support Objective-C toll-free bridged casts (#216158)"
+        },
+        {
+            "hash": "9377616866e43201bdc3c0a0b6c8008d83cff5de",
+            "author_name": "Vedran Mileti\u0107",
+            "commit_date": "2026-09-04T22:20:30+03:00",
+            "subject": "[cmake] Fix ninja clean failure for cross-compilation native build dir (#200641)"
+        },
+        {
+            "hash": "d4aa8a934cc81a9ceab6cedfdc92eeefa936c0f1",
+            "author_name": "Abid Qadeer",
+            "commit_date": "2026-09-04T20:22:33+01:00",
+            "subject": "[OMPIRBuilder] Keep the target construct's location for the deinit call (#221303)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -237909,6 +237921,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-09-04T16:49:12+00:00",
             "subject": "[GlobalISel] Avoid copying complex pattern renderers (NFC)"
+        }
+    ],
+    "arsenm\/perf\/mir-block-args-v6": [
+        {
+            "hash": "e2ce7a69d368641022faa93c2c6590e1ccfeef40",
+            "author_name": "Lukacma",
+            "commit_date": "2026-09-04T13:20:57+01:00",
+            "subject": "[AArch64] Lower rmw sub to FNEG+LDFADD when LSFE present (#220568)"
+        },
+        {
+            "hash": "4c05a7502c1a1808c7ecab5a42144fe10e654525",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-04T21:21:20+02:00",
+            "subject": "MIR block args mega patch"
         }
     ]
 }
