@@ -221769,6 +221769,24 @@
             "author_name": "Kirby Chin",
             "commit_date": "2026-09-04T10:46:20-04:00",
             "subject": "[XRay] Enable XRay for SystemZ (#213577)"
+        },
+        {
+            "hash": "9853cb54d9d2684b27f0d0db89c00c2da7e31b88",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-04T15:51:33+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::min_element() based on parallel reduce (#219876)"
+        },
+        {
+            "hash": "54f7d98d52413399a14111bfede1c9e388ac62c7",
+            "author_name": "Alexey Samsonov",
+            "commit_date": "2026-09-04T07:54:21-07:00",
+            "subject": "[libc][netdb] Implement gai_strerror POSIX function. (#221138)"
+        },
+        {
+            "hash": "117e53c28efd4944b6860e62fb4517c0d603ec87",
+            "author_name": "Andrew Gaul",
+            "commit_date": "2026-09-04T14:55:09+00:00",
+            "subject": "[X86] Remove TEST after SHL by 1..3 when the shifted operand dies (#220744)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -237329,6 +237347,12 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-09-04T16:42:34+02:00",
             "subject": "Field bools"
+        },
+        {
+            "hash": "2fbc4c689cd4e6b682fbaad95ffd64bf1368a862",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-09-04T16:53:48+02:00",
+            "subject": "Remove field::Decl"
         }
     ],
     "fhahn\/perf\/ce-ncd-flags": [
