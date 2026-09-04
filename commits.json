@@ -221517,6 +221517,24 @@
             "author_name": "Mahmoud Ahmed",
             "commit_date": "2026-09-04T13:06:23+02:00",
             "subject": "[clang][Parse] Fix DeclContext reentry to use the template's lexical TU, not the current fragment's TU (#218571)"
+        },
+        {
+            "hash": "4746e698304bf95b7e4c55d6e798e422732ae514",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-09-04T13:11:47+02:00",
+            "subject": "[libc++] Avoid including <string_view> in <vector> (#220862)"
+        },
+        {
+            "hash": "0abb55638843428fccd7a923e6126fcb74a69a51",
+            "author_name": "Peiqi Li",
+            "commit_date": "2026-09-04T19:13:12+08:00",
+            "subject": "[clang-tidy] Fix false positive in readability-trailing-comma (#220548)"
+        },
+        {
+            "hash": "e65fd7755ae3d60168b603c405d08381a2637d2f",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-09-04T13:15:43+02:00",
+            "subject": "[libc++] Assert that the alignment for memory_resource::allocate is a power of two (#219174)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -237061,9 +237079,9 @@
             "subject": "opaque decl"
         },
         {
-            "hash": "3fdfd6bd2b2e8961478557c65ac286324d97c548",
+            "hash": "1c360bfe51dda822ee412b352bdbab503ebd0219",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-04T13:07:35+02:00",
+            "commit_date": "2026-09-04T13:10:05+02:00",
             "subject": "opaque Expr"
         }
     ],
