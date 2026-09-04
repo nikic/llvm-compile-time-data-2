@@ -221655,6 +221655,18 @@
             "author_name": "lianjinfeng2003",
             "commit_date": "2026-09-04T12:27:58+00:00",
             "subject": "[X86] Select i8 ANDN via i32 promotion (#205050)"
+        },
+        {
+            "hash": "598d9d1369d385582d2a90d71335073d1b2e0950",
+            "author_name": "Ilia Kuklin",
+            "commit_date": "2026-09-04T17:35:12+05:00",
+            "subject": "[lldb] Add composite assignments to existing operators in DIL (#208853)"
+        },
+        {
+            "hash": "f706cea82e79294950289d50ceb0b14f1797c997",
+            "author_name": "Akash Manna",
+            "commit_date": "2026-09-04T12:36:13+00:00",
+            "subject": "[CodeGen] Don't misinterpret a UINT64_MAX-sized stack object as dead (#220172)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -237493,6 +237505,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-09-04T12:14:08+00:00",
             "subject": "[CodeGen] Avoid temporary SmallVector for single memops (NFC)"
+        }
+    ],
+    "artagnon\/perf\/sq-cxtf": [
+        {
+            "hash": "46dabd2f3a822a161b8b12191f8ba32b913a6de0",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-04T08:35:18+01:00",
+            "subject": "[AArch64][GlobalISel] Fast-path simple common calls (NFC) (#217615)"
+        },
+        {
+            "hash": "2fff5a18bba0566d5fa3966529f4aef130355673",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-04T13:30:37+01:00",
+            "subject": "[SimplifyQuery] To bench addition of CxtF"
         }
     ]
 }
