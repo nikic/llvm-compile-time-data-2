@@ -221637,6 +221637,24 @@
             "author_name": "Henrich Lauko",
             "commit_date": "2026-09-04T14:18:08+02:00",
             "subject": "[CIR] Drop lang_address_space's custom parenthesized attribute format (#220880)"
+        },
+        {
+            "hash": "e2ce7a69d368641022faa93c2c6590e1ccfeef40",
+            "author_name": "Lukacma",
+            "commit_date": "2026-09-04T13:20:57+01:00",
+            "subject": "[AArch64] Lower rmw sub to FNEG+LDFADD when LSFE present (#220568)"
+        },
+        {
+            "hash": "43a9ad721ddd795f8004572844f56bfdae671f9c",
+            "author_name": "Ashutosh Nema",
+            "commit_date": "2026-09-04T13:27:35+01:00",
+            "subject": "[VPlan] Extend cse to eliminate redundant widened loads (#212543)"
+        },
+        {
+            "hash": "e9803af577ec20ddf2d789da36235da4a436525d",
+            "author_name": "lianjinfeng2003",
+            "commit_date": "2026-09-04T12:27:58+00:00",
+            "subject": "[X86] Select i8 ANDN via i32 promotion (#205050)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -237461,6 +237479,20 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-09-04T14:04:39+02:00",
             "subject": "[AsmPrinter] Use DenseMap in DbgEntityHistoryCalculator"
+        }
+    ],
+    "c-rhodes\/perf\/mi-empty-memrefs-fast-path": [
+        {
+            "hash": "97cbc1e404b980edc58bfbcabb6f1c61793b624b",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-09-04T11:42:20+02:00",
+            "subject": "[CIR] Give the cleanup kind a proper standalone attribute spelling (#220878)"
+        },
+        {
+            "hash": "8631fca325e3496b9aa40dc5ebce486a933bc1b5",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-04T12:14:08+00:00",
+            "subject": "[CodeGen] Avoid temporary SmallVector for single memops (NFC)"
         }
     ]
 }
