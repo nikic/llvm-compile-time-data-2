@@ -221271,6 +221271,18 @@
             "author_name": "Kazu Hirata",
             "commit_date": "2026-09-04T00:24:11-07:00",
             "subject": "[Transforms][Utils] Strip unnamed_addr on indirect call promotion (#221121)"
+        },
+        {
+            "hash": "46dabd2f3a822a161b8b12191f8ba32b913a6de0",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-04T08:35:18+01:00",
+            "subject": "[AArch64][GlobalISel] Fast-path simple common calls (NFC) (#217615)"
+        },
+        {
+            "hash": "230ba1212a9b3383f2eefe7c8730a9eb69ee7f22",
+            "author_name": "Peter Hawkins",
+            "commit_date": "2026-09-04T08:37:29+01:00",
+            "subject": "[mlir][complex] Avoid cancellation in tanh denominator (#221014)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -236979,6 +236991,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-09-03T22:39:32-07:00",
             "subject": "[ADT] Remove the TempID parameter from FoldingSetTrait::Equals. NFC"
+        }
+    ],
+    "MaskRay\/perf\/densemap-shared-rehash": [
+        {
+            "hash": "3dc8f05c99acf7be7ffc123743ee866dc8b6a0fc",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-09-03T21:37:02-07:00",
+            "subject": "[ADT] Use isComparableWith in SmallPtrSet (#221020)"
+        },
+        {
+            "hash": "59ae13e11aac838ceac6686932fe13d44bb87dc1",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-09-04T00:30:36-07:00",
+            "subject": "[ADT] Share the rehash loop across DenseMap instantiations. NFC"
         }
     ]
 }
