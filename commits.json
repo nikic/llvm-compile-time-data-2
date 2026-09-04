@@ -221667,6 +221667,18 @@
             "author_name": "Akash Manna",
             "commit_date": "2026-09-04T12:36:13+00:00",
             "subject": "[CodeGen] Don't misinterpret a UINT64_MAX-sized stack object as dead (#220172)"
+        },
+        {
+            "hash": "740df3a3ebe0fcba110a640a0bd3696ab7451334",
+            "author_name": "Vachan",
+            "commit_date": "2026-09-04T12:44:30+00:00",
+            "subject": "[X86][AVX-512] Fold `zext(and(bitcast(mask), C))` --> `and(anyext(bitcast(mask)), zext(C))` (#220251)"
+        },
+        {
+            "hash": "0d4ed3cdbe004e07d441e7e2d62d1b9a13bcf07f",
+            "author_name": "John Brawn",
+            "commit_date": "2026-09-04T13:47:10+01:00",
+            "subject": "[InstCombine] Evaluate zext nneg as sext where possible (#212230)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -237211,9 +237223,9 @@
             "subject": "opaque decl"
         },
         {
-            "hash": "1c360bfe51dda822ee412b352bdbab503ebd0219",
+            "hash": "ce72bd6d0da9e1e34f29f47393aa1de91789a485",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-04T13:10:05+02:00",
+            "commit_date": "2026-09-04T14:45:08+02:00",
             "subject": "opaque Expr"
         }
     ],
