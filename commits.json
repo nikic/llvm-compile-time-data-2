@@ -236617,16 +236617,22 @@
     ],
     "artagnon\/perf\/scev-knownmultiple-comm": [
         {
-            "hash": "8f5e92852e50c9e3e11cc663aac66a0f156a3984",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-31T13:22:15+01:00",
-            "subject": "[SCEV] Make predicates optional in isKnownMultipleOf (NFC) (#219935)"
+            "hash": "46dabd2f3a822a161b8b12191f8ba32b913a6de0",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-04T08:35:18+01:00",
+            "subject": "[AArch64][GlobalISel] Fast-path simple common calls (NFC) (#217615)"
         },
         {
-            "hash": "a091f4f92ce28eb83e7ef2d44531293e3adcf630",
+            "hash": "bc2359937f61726745943849f664db5f98b36d44",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-31T13:23:51+01:00",
+            "commit_date": "2026-09-04T10:29:44+01:00",
             "subject": "[SCEV] Look thru commutative in isKnownMultipleOf"
+        },
+        {
+            "hash": "c974a057c0603c098375f7e7dfa0b38e6a4488cc",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-04T10:56:41+01:00",
+            "subject": "[SCEV] Fix underlying bug, redo extension logic"
         }
     ],
     "MaskRay\/perf\/sdag-register": [
@@ -237181,6 +237187,20 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-09-04T11:32:22+02:00",
             "subject": "[LiveRangeCalc] Skip WorkList sort for unique reaching defs"
+        }
+    ],
+    "clemenswasser\/perf\/reaching-defs-inline-storage": [
+        {
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
+        },
+        {
+            "hash": "d9875397becdd2f66f64488e2e623ef84210324b",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-04T11:55:50+02:00",
+            "subject": "[ReachingDefAnalysis] Use SmallVector for MBB reaching defs"
         }
     ]
 }
