@@ -221409,6 +221409,24 @@
             "author_name": "Jim Lin",
             "commit_date": "2026-09-04T17:23:45+08:00",
             "subject": "Revert \"[RISCV] Andes: model fast unaligned accesses (#220756)\" (#221178)"
+        },
+        {
+            "hash": "eac210e8d174f97c305d234ed0260348619d0e4a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-04T09:25:47+00:00",
+            "subject": "[VPlan] Use VPlan-based costs for all integer IVs. (#217766)"
+        },
+        {
+            "hash": "4763eb1118682fc5542a3d87b31e5ed738ef3ab8",
+            "author_name": "Adam Siemieniuk",
+            "commit_date": "2026-09-04T11:27:30+02:00",
+            "subject": "[mlir][linalg] Scaled contraction op (#203958)"
+        },
+        {
+            "hash": "9be5dd730e28b21ee1c4d8e27cfb7ea7f92801d8",
+            "author_name": "Kamlesh Kumar",
+            "commit_date": "2026-09-04T10:29:20+01:00",
+            "subject": "[CodeGen] Add Action types for vector_(de)interleave ops (#220859)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -237125,6 +237143,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-09-04T01:27:59-07:00",
             "subject": "[ADT] Share the rehash loop across DenseMap instantiations. NFC"
+        }
+    ],
+    "clemenswasser\/perf\/liverangecalc-skip-unique-sort": [
+        {
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
+        },
+        {
+            "hash": "e5c5979d98aa7a49834b8ffd3c56a2f6ba413fb1",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-04T11:32:22+02:00",
+            "subject": "[LiveRangeCalc] Skip WorkList sort for unique reaching defs"
         }
     ]
 }
