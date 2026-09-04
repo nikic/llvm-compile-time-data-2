@@ -236906,5 +236906,19 @@
             "commit_date": "2026-09-03T19:03:46+00:00",
             "subject": "[ConstraintElimination] Elide redundant bounds checks in canonical loops"
         }
+    ],
+    "MaskRay\/perf\/foldingset-equals": [
+        {
+            "hash": "3dc8f05c99acf7be7ffc123743ee866dc8b6a0fc",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-09-03T21:37:02-07:00",
+            "subject": "[ADT] Use isComparableWith in SmallPtrSet (#221020)"
+        },
+        {
+            "hash": "b6b368d1a9962cf0f131ce13a832e572450ae022",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-09-03T22:39:32-07:00",
+            "subject": "[ADT] Remove the TempID parameter from FoldingSetTrait::Equals. NFC"
+        }
     ]
 }
