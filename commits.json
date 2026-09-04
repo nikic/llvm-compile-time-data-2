@@ -236725,70 +236725,64 @@
     ],
     "fhahn\/perf\/ce-improvements": [
         {
-            "hash": "a11ea419a1f919ee5fdbb34fd1ad38d383c82e0a",
-            "author_name": "Kazu Hirata",
-            "commit_date": "2026-08-30T08:40:23-07:00",
-            "subject": "[llvm] Remove unused includes (NFC) (#219782)"
+            "hash": "d58de5d4825ab186213edc8ad4d190bea5f90d6f",
+            "author_name": "Alexandre Ganea",
+            "commit_date": "2026-09-04T14:43:55-04:00",
+            "subject": "[lit] Apply --filter-out to GoogleTest shard results (#220410)"
         },
         {
-            "hash": "d143112efcdfcd2d95f2386d039a2039ec67b63b",
+            "hash": "85dc02acd7668d2c10d3c7aba5d84b584880dc70",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-30T17:02:34+01:00",
+            "commit_date": "2026-09-04T20:06:36+01:00",
+            "subject": "Add tests"
+        },
+        {
+            "hash": "1ebdf68d3409bf087673bd5320ead7b05e0bb18b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-04T20:06:47+01:00",
+            "subject": "[ConstraintElim] Add nsw to adds with non-negative and non-positive operand."
+        },
+        {
+            "hash": "a03e5b83f712204ed8cd1bc9c1d57fba0221ddf3",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-04T20:11:34+01:00",
             "subject": "[SLP] Do not re-run buildTreeRec on an already rejected gather slice."
         },
         {
-            "hash": "955f2beedea61b1a5494d0b0df684f0efde12bbe",
+            "hash": "0e9bb208b26771b5fb7c4e9b775d560d606fc7f2",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-30T17:02:34+01:00",
-            "subject": "[ConstraintElim] Decompose `or disjoint` in the signed system."
-        },
-        {
-            "hash": "b5eb118e0426552dfddf1fa65e002842326b0a8a",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-30T17:02:35+01:00",
-            "subject": "[ConstraintElim] Derive induction bound facts from an inequality latch."
-        },
-        {
-            "hash": "660f01002fd5f767cade3ba245201558a65d0db0",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-30T17:02:35+01:00",
-            "subject": "[ConstraintElim] Allow a non-constant induction start value."
-        },
-        {
-            "hash": "6031786cd7742bac96f2bccbd0d6d6857b03a0d5",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-30T17:02:35+01:00",
+            "commit_date": "2026-09-04T20:11:34+01:00",
             "subject": "[ConstraintElim] Fold an icmp against a signed extreme via a strict witness."
         },
         {
-            "hash": "9866e261d440a3c46fbfca6f1e5a06474527ebe9",
+            "hash": "c4abe208fda45285c26241d3c23e7e270ac5ac4a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-30T17:02:53+01:00",
+            "commit_date": "2026-09-04T20:11:35+01:00",
             "subject": "[InstCombine] Rewrite a use-dominated with.overflow value to a plain binop."
         },
         {
-            "hash": "49535b5417dfb2d4fda3c132597ee7c3a57ea073",
+            "hash": "fcda01ecfc82f68e348c673633bd4d8add2751ee",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-30T17:02:58+01:00",
+            "commit_date": "2026-09-04T20:11:35+01:00",
             "subject": "[ConstraintElim] Add absolute upper bounds for lshr and udiv."
         },
         {
-            "hash": "c7180a9dbd580df38f754fccca9edc45627c79c7",
+            "hash": "5de2986994a6181a7fdff12e8bf4605788df031f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-30T17:02:58+01:00",
+            "commit_date": "2026-09-04T20:11:35+01:00",
             "subject": "[ConstraintElim] Add `sdiv x, C` facts for a positive constant divisor."
         },
         {
-            "hash": "bfc598f52c4ea960451b4f410202542414c334b0",
+            "hash": "1b9387a357f22d005e577c663e148def6054a62c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-30T17:02:58+01:00",
-            "subject": "Step"
+            "commit_date": "2026-09-04T20:11:35+01:00",
+            "subject": "[ConstraintElim] Add absolute upper bound for and with constant operand."
         },
         {
-            "hash": "7cc50e243e6d1e7c1e7c1608edff8b019f821eb5",
+            "hash": "53824ec00df94cd77a07b4805a609cafb9f89be2",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-30T17:02:58+01:00",
-            "subject": "[ConstraintElim] Add absolute upper bound for and with constant operand."
+            "commit_date": "2026-09-04T20:11:36+01:00",
+            "subject": "Step"
         }
     ],
     "MaskRay\/perf\/scev-uniquing-denseset": [
