@@ -222513,6 +222513,12 @@
             "author_name": "Vito Kortbeek",
             "commit_date": "2026-09-05T22:06:37+02:00",
             "subject": "[TypePromotion] Support trunc-to-i1 conditions (#216311)"
+        },
+        {
+            "hash": "f42c87ba2c70219b1f4ad1f031a5b6a1ea6603fb",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-09-05T22:19:14+02:00",
+            "subject": "[AMDGPU] Fix legacy fmin\/fmax combines to preserve NaN and zero ties (#220519)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -238577,6 +238583,20 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-05T18:00:41+02:00",
             "subject": "Mir block args mega patch"
+        }
+    ],
+    "fhahn\/perf\/vplan-branch-weights1": [
+        {
+            "hash": "f98cf8e0255eb497b7e4a5852a2e36f6b42c1a53",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-09-05T21:46:28+02:00",
+            "subject": "[AMDGPU] Freeze select condition before splitting into two halves (#219942)"
+        },
+        {
+            "hash": "7eb6747fa41d52ca45b17ab463900ce186c5de48",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-05T20:53:16+01:00",
+            "subject": "[VPlan] Preserve branch weights from VPlan0 through to codegen."
         }
     ]
 }
