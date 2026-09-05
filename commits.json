@@ -231885,6 +231885,78 @@
             "author_name": "Daniel Cederman",
             "commit_date": "2026-09-02T11:13:32+02:00",
             "subject": "[SPARC] Preserve inline asm relocation modifiers (#219971)"
+        },
+        {
+            "hash": "2244faf2c16cdd8da51b452f55308a5b4b23a210",
+            "author_name": "Heejin Ahn",
+            "commit_date": "2026-09-05T09:11:47+02:00",
+            "subject": "[WebAssembly] Add funclet bundle to thread local wrapper calls (#213826)"
+        },
+        {
+            "hash": "4a09f2722a56ee1ba01edb13c17339957f8c1edf",
+            "author_name": "AZero13",
+            "commit_date": "2026-09-05T09:11:49+02:00",
+            "subject": "[SCCP] Fix missing worklist push for recursive calls that update lattice values (#219826)"
+        },
+        {
+            "hash": "6b358fb914eefe2193c708dd6eebb17c25443f9e",
+            "author_name": "bernhardu",
+            "commit_date": "2026-09-05T09:11:52+02:00",
+            "subject": "[win\/asan] GetInstructionSize: Add some more instructions. (#214707)"
+        },
+        {
+            "hash": "1943eaf4faa33a5eace0900f5aa1e6b92ef80624",
+            "author_name": "vangthao95",
+            "commit_date": "2026-09-05T09:11:54+02:00",
+            "subject": "[clang][Sema] Check exported default constructors in nested classes (#214275)"
+        },
+        {
+            "hash": "bf9e7e8d773b7207b18e1709fa50c2922131335a",
+            "author_name": "windsunil",
+            "commit_date": "2026-09-05T09:11:56+02:00",
+            "subject": "[clang][Driver] Link libssp_nonshared.a on musl with stack protector (#219828)"
+        },
+        {
+            "hash": "5089f145193dd45f25634e2cb531aff9399e64fe",
+            "author_name": "Daniel Cederman",
+            "commit_date": "2026-09-05T09:11:59+02:00",
+            "subject": "[SPARC] Parse unary complement immediates (#219970)"
+        },
+        {
+            "hash": "ce68f28703200d5cf0f80521a09b23c880efdbde",
+            "author_name": "Yuta Mukai",
+            "commit_date": "2026-09-05T09:12:01+02:00",
+            "subject": "[OpenMP][libomp] Fix dist barrier arrival synchronization (#213845)"
+        },
+        {
+            "hash": "7d23f0d618e1c967c552ae57faa00a13f4feba26",
+            "author_name": "Jeaye Wilkerson",
+            "commit_date": "2026-09-05T09:12:04+02:00",
+            "subject": "[ORC] Fix malformed Mach-O `__unwind_info` tables (#217781)"
+        },
+        {
+            "hash": "8820e75cdd428222df7104fb0efa5c6e63e53bb5",
+            "author_name": "Jeaye Wilkerson",
+            "commit_date": "2026-09-05T09:12:04+02:00",
+            "subject": "[clang-repl] Stop interpreter init on action failure (#217147)"
+        },
+        {
+            "hash": "99b7b38c1b9864da1d66720eb864cf8e6508fd80",
+            "author_name": "Yuta Nakamura",
+            "commit_date": "2026-09-05T09:12:06+02:00",
+            "subject": "[clang-tidy] Fix false positives in readability-trailing-comma for designated initializers (#215934)"
+        },
+        {
+            "hash": "9beff35f67c1aa2a57a6d9a220f47c35d21bdb79",
+            "author_name": "David Green",
+            "commit_date": "2026-09-05T09:12:09+02:00",
+            "subject": "[AArch64] Use NoSchedPred for SME instructions in C1 scheduling models."
+        },
+        {
+            "hash": "f603629d9ec7e00e980813e72c33d7609af622cb",
+            "author_name": "Ebuka Ezike",
+            "commit_date": "2026-09-05T09:12:11+02:00",
+            "subject": "[lldb] Fix SBAPI breakage in SBFrame::GetValueForVariablePath (#218565)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
@@ -238063,10 +238135,10 @@
             "subject": "[ADT] Use isComparableWith in SmallPtrSet (#221020)"
         },
         {
-            "hash": "5a34455385e4e23c5da3c3ff39d8a661f9d991c2",
+            "hash": "4a08965e2e45d2b25bb2fb52feb9813a1c6c913b",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-09-04T01:27:59-07:00",
-            "subject": "[ADT] Share the rehash loop across DenseMap instantiations. NFC"
+            "commit_date": "2026-09-04T22:17:15-07:00",
+            "subject": "[ADT] Share the rehash loop across pointer-keyed DenseMaps. NFC"
         }
     ],
     "clemenswasser\/perf\/liverangecalc-skip-unique-sort": [
