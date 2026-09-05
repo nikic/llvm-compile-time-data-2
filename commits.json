@@ -222177,6 +222177,18 @@
             "author_name": "Chris Apple",
             "commit_date": "2026-09-04T17:05:04-07:00",
             "subject": "[clang-tidy] Normalize windows line filter paths (#217038)"
+        },
+        {
+            "hash": "158e0f34bafdd4fd39e1fb4129e64244eea6904d",
+            "author_name": "David Rivera",
+            "commit_date": "2026-09-04T20:31:28-04:00",
+            "subject": "[CIR][NVPTX] Lower __nvvm_atom_cas_gen_* builtins (#221261)"
+        },
+        {
+            "hash": "b5fe885e5d2d96c353887671184560d12c90cb03",
+            "author_name": "David Rivera",
+            "commit_date": "2026-09-04T20:31:50-04:00",
+            "subject": "[CIR][NVPTX] Lower __nvvm_bar0_{and,or,popc} builtins (#221255)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -238097,6 +238109,26 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-04T21:21:20+02:00",
             "subject": "MIR block args mega patch"
+        }
+    ],
+    "AnonMiraj\/perf\/reland-ignore-comments": [
+        {
+            "hash": "5d063386f51b7d9925df7db5f05ec2f0a33f63c4",
+            "author_name": "Jiaxun Yang",
+            "commit_date": "2026-09-03T00:12:30-04:00",
+            "subject": "[Mips] Support reserving GPRs with -ffixed-N (#217013)"
+        },
+        {
+            "hash": "fb786eda3d6b7276a822899f8612587349dc9bcc",
+            "author_name": "Anonmiraj",
+            "commit_date": "2026-09-03T07:29:27+03:00",
+            "subject": "Reland \"[clang] Don't add documentation comments to the AST if not requested (#206363)\""
+        },
+        {
+            "hash": "9558508cc213d792749b0a4188692dd0bd6eac5d",
+            "author_name": "Anonmiraj",
+            "commit_date": "2026-09-04T12:03:14+03:00",
+            "subject": "[clang] Cache whether the documentation warnings are enabled"
         }
     ]
 }
