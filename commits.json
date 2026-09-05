@@ -238598,5 +238598,67 @@
             "commit_date": "2026-09-05T20:53:16+01:00",
             "subject": "[VPlan] Preserve branch weights from VPlan0 through to codegen."
         }
+    ],
+    "fhahn\/perf\/swl": [
+        {
+            "hash": "2fb12bca76c52d8e0bbb838017820ee58a395293",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-09-05T11:31:07-07:00",
+            "subject": "[mlir][tblgen] Prune unused filterForDialect template [-Wunused-template] (#221422)"
+        },
+        {
+            "hash": "11ad2972f886f9415bd9c7d29022498f9afe8638",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-09-05T20:11:12+01:00",
+            "subject": "[ScalarEvolution] howManyLessThans infer stride isPositive from guard"
+        },
+        {
+            "hash": "9c502360decc451300649cc7de0fde7c7a7be2a3",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-09-05T20:11:13+01:00",
+            "subject": "[ScalarEvolution] Dont substitute GuardedStride over Stride"
+        },
+        {
+            "hash": "ba579080da877a54c1e211f1c19d0d9234d3c770",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-09-05T20:11:13+01:00",
+            "subject": "[test] Update test"
+        },
+        {
+            "hash": "8d3b02fda79feb455ff654b5fcb696a4cc9a5344",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-09-05T20:11:13+01:00",
+            "subject": "[SCEV] review updates"
+        },
+        {
+            "hash": "0473344b8bc8fe3c4647749a17ecaafc2ab9c494",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-05T21:27:59+01:00",
+            "subject": "[VPlan] Process simplifyRecipes in a worklist"
+        },
+        {
+            "hash": "34817835197588d1189eb739ccbdec5e8326d047",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-05T22:04:47+01:00",
+            "subject": "[VPlan] Reduce simplifyRecipes worklist inline capacity to 16"
+        },
+        {
+            "hash": "6e4acaf52928408ec142ee7068179ba114bfbc8b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-05T22:06:05+01:00",
+            "subject": "Worklist 32"
+        },
+        {
+            "hash": "af8372f673cc44d59a4b306bf62a456ea054cc39",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-05T22:06:24+01:00",
+            "subject": "Worklist 64"
+        },
+        {
+            "hash": "7a9671bc40a199a725a0c74703bfc7ba9b290ee5",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-05T22:06:26+01:00",
+            "subject": "Worklist 128"
+        }
     ]
 }
