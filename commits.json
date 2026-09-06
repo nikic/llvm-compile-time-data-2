@@ -222765,6 +222765,18 @@
             "author_name": "forking-google-bazel-bot[bot]",
             "commit_date": "2026-09-06T12:35:00-07:00",
             "subject": "[Bazel] Fixes 64171f0 (#221585)"
+        },
+        {
+            "hash": "cc4b3c91c6d3b557d175622c2c326e98ced61fbe",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-06T22:03:20+02:00",
+            "subject": "DAGCombiner: Drop AllowFPOpFusion from visitFSUBForFMACombine (#221439)"
+        },
+        {
+            "hash": "c2dd24dc601f9e7f66ec813ab33baab34585d506",
+            "author_name": "AZero13",
+            "commit_date": "2026-09-07T04:04:01+08:00",
+            "subject": "[InstCombine] Canonicalize zext+overflow check to overflow check if zext's only purpose is to check overflow (#220658)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -238981,6 +238993,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-06T20:31:12+01:00",
             "subject": "[VPlan] Record estimated branch probabilities on VPlan0 for cost modeling"
+        }
+    ],
+    "arsenm\/perf\/mir-block-args-v9": [
+        {
+            "hash": "5735d17306b8c8aca559ef6c35136c44a12221d7",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-06T18:57:44+02:00",
+            "subject": "MC: Move DisableIntegratedAS from TargetOptions to MCTargetOptions (#221547)"
+        },
+        {
+            "hash": "d2e2a3160a9d31150a554547f98d69f4a7356eef",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-06T21:55:28+02:00",
+            "subject": "MIR block args mega patch"
         }
     ]
 }
