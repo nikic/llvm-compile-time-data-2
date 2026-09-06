@@ -222567,6 +222567,18 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-09-05T20:43:10-07:00",
             "subject": "[Xtensa] Depend on CodeGenTypes to fix BUILD_SHARED_LIBS=on build (#221511)"
+        },
+        {
+            "hash": "03ff69fd5f82a7607113b83e45bd3828842669e3",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-09-06T07:23:40+02:00",
+            "subject": "[clang][bytecode] Do pointer-to-bool convesions without classify() (#221516)"
+        },
+        {
+            "hash": "e16901ce359a3162aa1c1d071a73392077e22744",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-09-06T07:27:08+02:00",
+            "subject": "[clang][bytecode] Use IsNonNull opcode in CXXNewExpr (#221515)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -238725,22 +238737,16 @@
     ],
     "MaskRay\/perf\/densemap-shared-grow": [
         {
-            "hash": "3dc8f05c99acf7be7ffc123743ee866dc8b6a0fc",
-            "author_name": "Kazu Hirata",
-            "commit_date": "2026-09-03T21:37:02-07:00",
-            "subject": "[ADT] Use isComparableWith in SmallPtrSet (#221020)"
+            "hash": "72417eb739e5d66fd345c3cc9e2265b8a7949fe1",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-09-05T20:43:10-07:00",
+            "subject": "[Xtensa] Depend on CodeGenTypes to fix BUILD_SHARED_LIBS=on build (#221511)"
         },
         {
-            "hash": "faf4a0fc1b21e133e7e9d92a08aaec22eba65d2e",
+            "hash": "6bd2b4b6a9a216123c03bd09efeb7854a650a129",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-09-05T01:41:46-07:00",
-            "subject": "[ADT] Share the rehash loop across pointer-keyed DenseMaps. NFC"
-        },
-        {
-            "hash": "6d361361a4c74887d887f0f1a42371d8b8c45d75",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-09-05T18:40:39-07:00",
-            "subject": "[ADT] Share grow across pointer-keyed DenseMaps. NFC"
+            "commit_date": "2026-09-05T22:24:38-07:00",
+            "subject": "[ADT] Share the rehash and grow loops across pointer-keyed DenseMaps. NFC"
         }
     ]
 }
