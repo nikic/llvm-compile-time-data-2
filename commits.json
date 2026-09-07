@@ -222939,6 +222939,12 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-09-07T09:52:09+02:00",
             "subject": "[Sparc] Fix instruction size for delay slot with UNIMP (#220955)"
+        },
+        {
+            "hash": "90bc5b106b5f36fd6c6fffd7eb914946ce75b4a3",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-09-07T09:54:40+02:00",
+            "subject": "[gold] Switch section-ordering-file tests to use ld.bfd (#219150)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -239237,6 +239243,20 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-07T09:38:16+02:00",
             "subject": "MIR block args mega patch"
+        }
+    ],
+    "c-rhodes\/perf\/irtranslator-avoid-double-densemap-lookup": [
+        {
+            "hash": "97cbc1e404b980edc58bfbcabb6f1c61793b624b",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-09-04T11:42:20+02:00",
+            "subject": "[CIR] Give the cleanup kind a proper standalone attribute spelling (#220878)"
+        },
+        {
+            "hash": "fbf62152c51f2327cb2f4a382df90b3f345a8866",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-07T07:53:13+00:00",
+            "subject": "[GlobalISel] Avoid double DenseMap lookups in ValueToVRegInfo (NFC)"
         }
     ]
 }
