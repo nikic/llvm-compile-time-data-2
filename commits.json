@@ -222957,6 +222957,24 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-07T08:27:46+00:00",
             "subject": "[ConstraintElim] Handle single And\/Or as exit condition in loop. (#221228)"
+        },
+        {
+            "hash": "ccfc54aa053e1e0614660cc5f3ff0122eff02ab9",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-09-07T01:40:56-07:00",
+            "subject": "[IR] Split the attribute pool by kind. NFC (#221620)"
+        },
+        {
+            "hash": "c5a85b9c6996b2459c169ef6a410c501980c9ea0",
+            "author_name": "Mariya Podchishchaeva",
+            "commit_date": "2026-09-07T10:42:59+02:00",
+            "subject": "[CIR] Fix address space issues related to SPIR\/SPIR-V targets (#220982)"
+        },
+        {
+            "hash": "fc3ad3f8c655e0f74bb763a2d320e2792a96f0b5",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-09-07T10:49:03+02:00",
+            "subject": "[CIR] Migrate the FPClassTest bit enum and unquote its flags (#220888)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -239217,16 +239235,22 @@
     ],
     "fhahn\/perf\/vpbwc": [
         {
-            "hash": "6c978c67dfdd3514f8d1ddbcaba8814cacc17bf7",
-            "author_name": "Alexey Bataev",
-            "commit_date": "2026-09-06T15:11:13-04:00",
-            "subject": "[SLP][NFC]Add some more tests for loop accumulated reductions, NFC"
+            "hash": "9707960f6f229118dc4500e5c3f1be239fd7efb2",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-07T08:27:46+00:00",
+            "subject": "[ConstraintElim] Handle single And\/Or as exit condition in loop. (#221228)"
         },
         {
-            "hash": "03b1cf08a7655fef98952dcb14850f7e821091c0",
+            "hash": "22fcde16680ef9255922a411c744fa13c5e26569",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-06T20:31:12+01:00",
+            "commit_date": "2026-09-07T09:35:00+01:00",
             "subject": "[VPlan] Record estimated branch probabilities on VPlan0 for cost modeling"
+        },
+        {
+            "hash": "17c4a4e35765d8967ac8979041abb9bc44114d78",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-07T09:48:28+01:00",
+            "subject": "Lazy"
         }
     ],
     "arsenm\/perf\/mir-block-args-v9": [
