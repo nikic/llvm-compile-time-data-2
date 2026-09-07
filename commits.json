@@ -223077,6 +223077,12 @@
             "author_name": "Romanov Vlad",
             "commit_date": "2026-09-07T12:31:48+02:00",
             "subject": "[AMDGPU] Add AGPR pressure tracking (#214745)"
+        },
+        {
+            "hash": "11a9127fbe072d84571712bb5e2aa9ebd964a802",
+            "author_name": "David Spickett",
+            "commit_date": "2026-09-07T10:48:05+00:00",
+            "subject": "[llvm][llvm-readobj] Print COFF RawDataSize as hex (#221224)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -239443,6 +239449,20 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-09-07T11:17:46+01:00",
             "subject": "[VPlan] Factor first-lane-scalar logic in VPI::execute (NFC)"
+        }
+    ],
+    "clemenswasser\/perf\/ra-huge-func-region-split-skip": [
+        {
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
+        },
+        {
+            "hash": "8808adc31335fbab1085fc76b65b2088f7d68e2c",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-07T12:44:59+02:00",
+            "subject": "[RegAlloc] Skip region splitting in huge functions"
         }
     ]
 }
