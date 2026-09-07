@@ -239782,5 +239782,19 @@
             "commit_date": "2026-09-07T15:20:11+01:00",
             "subject": "[SCEVExp] Try harder to re-use existting add sub-expression"
         }
+    ],
+    "c-rhodes\/perf\/gisel-fix-duplicate-finalize-lowering": [
+        {
+            "hash": "97cbc1e404b980edc58bfbcabb6f1c61793b624b",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-09-04T11:42:20+02:00",
+            "subject": "[CIR] Give the cleanup kind a proper standalone attribute spelling (#220878)"
+        },
+        {
+            "hash": "d8b1a78ba013d5e687acc0e8bf00d3d77749f3db",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-07T15:02:50+00:00",
+            "subject": "[GlobalISel] Fix duplicate finalizeLowering calls (NFC)"
+        }
     ]
 }
