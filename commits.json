@@ -223071,6 +223071,12 @@
             "author_name": "Michael Kruse",
             "commit_date": "2026-09-07T12:28:07+02:00",
             "subject": "[Flang][NFCI] Use abstraction for binary scalar data (#212956)"
+        },
+        {
+            "hash": "d9bcffd284812c3e29805af27d32fdedd82c5acc",
+            "author_name": "Romanov Vlad",
+            "commit_date": "2026-09-07T12:31:48+02:00",
+            "subject": "[AMDGPU] Add AGPR pressure tracking (#214745)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -239423,6 +239429,20 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-09-07T12:21:09+02:00",
             "subject": "[GVN] Skip non-local load handling in huge functions"
+        }
+    ],
+    "artagnon\/perf\/vplan-vpi-exec-first-lane-nfc": [
+        {
+            "hash": "2fd8d41d7b8824637be32d569c1e1482128b057b",
+            "author_name": "Akash Manna",
+            "commit_date": "2026-09-07T09:44:02+00:00",
+            "subject": "[X86] Don't fold loads from non-fixed stack objects into tail calls (#221243)"
+        },
+        {
+            "hash": "d51511b27c1ad9d49017aadb9c6adc41426c026b",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-07T11:17:46+01:00",
+            "subject": "[VPlan] Factor first-lane-scalar logic in VPI::execute (NFC)"
         }
     ]
 }
