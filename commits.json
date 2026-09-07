@@ -223149,6 +223149,24 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-07T11:56:32+00:00",
             "subject": "[ConstraintElim] Support loops where header is also latch. (#221494)"
+        },
+        {
+            "hash": "34dff487dd711a6a6d6a22f474ce475bce757b47",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-07T08:05:39-04:00",
+            "subject": "[SLP]Flatten fsub\/fneg chains into fadd reductions with per-operand signs"
+        },
+        {
+            "hash": "0fc0c614130666dbf626db6650285f83340b7c17",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-07T12:11:15+00:00",
+            "subject": "CodeGen: Drop inert -fp-contract flags from tests (#221710)"
+        },
+        {
+            "hash": "bbed4e22becfb7f271ad11d9e408e43b2500e459",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-09-07T12:11:30+00:00",
+            "subject": "[X86] LowerCLMUL - improve CLMULH vXi32 codegen (#221668)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -239561,6 +239579,34 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-07T12:48:52+01:00",
             "subject": "[ConstraintElim] Add nsw to adds with non-negative and non-positive operand."
+        }
+    ],
+    "c-rhodes\/perf\/gisel-avoid-unnecessary-call-setup": [
+        {
+            "hash": "97cbc1e404b980edc58bfbcabb6f1c61793b624b",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-09-04T11:42:20+02:00",
+            "subject": "[CIR] Give the cleanup kind a proper standalone attribute spelling (#220878)"
+        },
+        {
+            "hash": "d2dfca2db156c259a66cfe2c749f786fec2946f0",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-07T12:01:03+00:00",
+            "subject": "[GlobalISel] Avoid unnecessary call setup work (NFC)"
+        }
+    ],
+    "fhahn\/perf\/lg-trunc": [
+        {
+            "hash": "34dff487dd711a6a6d6a22f474ce475bce757b47",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-07T08:05:39-04:00",
+            "subject": "[SLP]Flatten fsub\/fneg chains into fadd reductions with per-operand signs"
+        },
+        {
+            "hash": "3b8e9cf9d1829132fe38348047a7fbaa6ee8844a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-07T13:07:28+01:00",
+            "subject": "[SCEV] LG guard through trun"
         }
     ]
 }
