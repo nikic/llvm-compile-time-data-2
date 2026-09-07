@@ -239912,5 +239912,53 @@
             "commit_date": "2026-09-07T16:59:50+01:00",
             "subject": "[InstCombine] Simplify if compare folds away."
         }
+    ],
+    "clemenswasser\/perf\/dbg-label-cache": [
+        {
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
+        },
+        {
+            "hash": "9b1b7dc33344b9ca2710ebfa8ff1fd55ac7c9eca",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-07T18:11:21+02:00",
+            "subject": "[AsmPrinter] Cache getLabelBeforeInsn result"
+        }
+    ],
+    "clemenswasser\/perf\/diexpr-smallvector": [
+        {
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
+        },
+        {
+            "hash": "6ef6948dc773f24cf663c804b35d7d0e4be0c825",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-07T18:04:17+02:00",
+            "subject": "[DebugInfo] Use SmallVector for DIExpression equality"
+        },
+        {
+            "hash": "9ed71e9ced7424b4443d7781e29568a86b0f2eb2",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-07T18:22:31+02:00",
+            "subject": "[DebugInfo] Fast-path identical DIExpressions"
+        }
+    ],
+    "clemenswasser\/perf\/jt-skip-single-ret": [
+        {
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
+        },
+        {
+            "hash": "317f0d31d9aa732902bde6d8c90b84e9e5c38d8d",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-07T17:46:06+02:00",
+            "subject": "[JumpThreading] Skip single-block ret\/unreachable functions"
+        }
     ]
 }
