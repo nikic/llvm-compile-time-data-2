@@ -223041,6 +223041,24 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-07T11:59:37+02:00",
             "subject": "AArch64: Drop AllowFPOpFusion from isProfitableToHoist (#221402)"
+        },
+        {
+            "hash": "abbc159932f12e00ae4ee834ab662951811be772",
+            "author_name": "David Spickett",
+            "commit_date": "2026-09-07T11:07:06+01:00",
+            "subject": "[llvm][llvm-readobj][NFC] Add formatting commit to ignore revs (#221693)"
+        },
+        {
+            "hash": "8727da4880d069d0feb0c4346b902dc917500083",
+            "author_name": "Zeyi Xu",
+            "commit_date": "2026-09-07T18:09:15+08:00",
+            "subject": "[clang-tidy][docs] Rename readability check docs to Markdown [1\/5] (#221446)"
+        },
+        {
+            "hash": "76a090dfd9d81761087453de3ada2eb7ff2528f7",
+            "author_name": "Zeyi Xu",
+            "commit_date": "2026-09-07T18:09:15+08:00",
+            "subject": "[clang-tidy][docs] Rewrite readability check docs to Markdown [1\/5] (#221447)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -239379,6 +239397,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-09-07T08:24:10+00:00",
             "subject": "[IR] Avoid visited set for simple isScalableTy queries (NFC)"
+        }
+    ],
+    "clemenswasser\/perf\/gvn-huge-func-nonlocal-skip": [
+        {
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
+        },
+        {
+            "hash": "7baf7baa4e59f08a3e38c522cef9d3122f1c4e1e",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-07T12:03:06+02:00",
+            "subject": "[GVN] Skip non-local load handling in huge functions"
         }
     ]
 }
