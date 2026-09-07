@@ -223305,6 +223305,12 @@
             "author_name": "Craig Topper",
             "commit_date": "2026-09-07T08:26:46-07:00",
             "subject": "[RISCV] Add VPatBinaryVL_R_VX to share between VRSUB.VX and VDOT4AUS.VX. NFC (#221284)"
+        },
+        {
+            "hash": "1ce91bb26f31a773979c813cd8c2904f9076295c",
+            "author_name": "Timur Baidusenov",
+            "commit_date": "2026-09-07T17:38:21+02:00",
+            "subject": "[SimplifyCFG] Preserve !unpredictable when forming a switch (#221580)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -238133,15 +238139,15 @@
     ],
     "artagnon\/perf\/scev-cache-ar": [
         {
-            "hash": "3638e00f5a7e6b57ff62ced62388a60011d1a8db",
-            "author_name": "Jeffrey Byrnes",
-            "commit_date": "2026-08-25T23:53:20-07:00",
-            "subject": "[AMDGPU] Add stalls for DS FIFO buffer (#192323)"
+            "hash": "42b846980eeacd8052d7a463e1aea8bb91aff248",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-07T08:52:57-04:00",
+            "subject": "[SLP]Fix crash in canBuildSplitNode on struct-typed scalars"
         },
         {
-            "hash": "ac7c640db15bebf3e5826e51b15aeaa55ac03263",
+            "hash": "6590dbf46ffe948000eed0c86fdd72b2c4a3ca29",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-26T13:50:49+01:00",
+            "commit_date": "2026-09-07T16:24:04+01:00",
             "subject": "[SCEV] Find existing AR in cache in getAR (NFC)"
         }
     ],
@@ -239815,6 +239821,68 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-09-07T15:27:58+00:00",
             "subject": "[GlobalISel] Avoid temporary worklist in RegBankSelect (NFC)"
+        }
+    ],
+    "c-rhodes\/perf\/compile-time-small-wins-landed": [
+        {
+            "hash": "97cbc1e404b980edc58bfbcabb6f1c61793b624b",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-09-04T11:42:20+02:00",
+            "subject": "[CIR] Give the cleanup kind a proper standalone attribute spelling (#220878)"
+        },
+        {
+            "hash": "e9a94e2eacef29559bd399c3862bfafeced2f6e9",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-07T15:37:37+00:00",
+            "subject": "[CodeGen] Increase CCState::UsedRegs inline capacity (NFC) (#221259)"
+        },
+        {
+            "hash": "8ce75f193ffdd5f7b5d97e3f06c383c9ad300971",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-07T15:37:41+00:00",
+            "subject": "[CodeGen] Avoid temporary SmallVector for single memops (NFC) (#221254)"
+        }
+    ],
+    "clemenswasser\/perf\/assignment-tracking-densemap": [
+        {
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
+        },
+        {
+            "hash": "188146759ac7cf2b3b4002968d748dea5d476a0a",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-07T16:58:48+02:00",
+            "subject": "[AssignmentTracking] Use DenseMap in FunctionVarLocsBuilder"
+        }
+    ],
+    "clemenswasser\/perf\/dwarf-args-smallvector": [
+        {
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
+        },
+        {
+            "hash": "81e82851c270ba4ca7b0c637c91059a052f485ee",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-07T17:25:54+02:00",
+            "subject": "[AsmPrinter] Use SmallVector for ScopeVars Args"
+        }
+    ],
+    "clemenswasser\/perf\/sroa-skip-no-allocas": [
+        {
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
+        },
+        {
+            "hash": "ad34842fe3f117224f83daa03e243c99d3e127a0",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-07T17:39:59+02:00",
+            "subject": "[SROA] Skip analysis fetch when no entry allocas"
         }
     ]
 }
