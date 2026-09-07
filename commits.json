@@ -223089,6 +223089,18 @@
             "author_name": "Tapiwa Gonga",
             "commit_date": "2026-09-07T12:07:08+01:00",
             "subject": "[libc] Enable code coverage using continuous instrumentation profiling (#213271)"
+        },
+        {
+            "hash": "bb577f620571ce3bb97f2e717b53500574a9cf27",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-07T12:08:47+01:00",
+            "subject": "[AArch64][GlobalISel] Select i16\/f16 cross-bank bitcasts (#220612)"
+        },
+        {
+            "hash": "bf7aaf77d0916adaa3cd043fc0966a33c1364e2c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-07T12:15:40+01:00",
+            "subject": "[ValueTracking] Handle idx widths > 64 bit in GetPointerBaseWithConst. (#221692)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -239041,9 +239053,9 @@
             "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
         },
         {
-            "hash": "75609261b6a2052f7d04697710dfaf5da448a018",
+            "hash": "566227160fa3736d9886c61387623d2ced5099f7",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-09-04T14:04:39+02:00",
+            "commit_date": "2026-09-07T13:13:54+02:00",
             "subject": "[AsmPrinter] Use DenseMap in DbgEntityHistoryCalculator"
         }
     ],
@@ -239443,15 +239455,15 @@
             "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
         },
         {
-            "hash": "83703dce614b9ca94dcd1876540e1c48eea94e33",
+            "hash": "d606e92b4a47ea2386a7ddcf37ad0e0074b08944",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-09-07T12:21:09+02:00",
+            "commit_date": "2026-09-07T13:13:51+02:00",
             "subject": "[GVN] Skip non-local load handling in huge functions"
         },
         {
-            "hash": "f20294d432125f3bce02d7382d00549a5ab3a2f8",
+            "hash": "763d1c1ad60429303da3b9761e2410e67fe3c0fb",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-09-07T13:05:10+02:00",
+            "commit_date": "2026-09-07T13:13:52+02:00",
             "subject": "[GVN] Lower huge-function limit to 250"
         }
     ],
@@ -239483,9 +239495,9 @@
             "subject": "[RegAlloc] Skip region splitting in huge functions"
         },
         {
-            "hash": "05d8cefb665ee3aacad11ffa7aeb06b45e0e0713",
+            "hash": "6bc240d51b45c77109db3f51af4af462874e42ef",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-09-07T13:05:12+02:00",
+            "commit_date": "2026-09-07T13:13:53+02:00",
             "subject": "[RegAlloc] Lower huge-function limit to 250"
         }
     ]
