@@ -223485,6 +223485,18 @@
             "author_name": "Mehdi Amini",
             "commit_date": "2026-09-08T00:50:09+02:00",
             "subject": "[mlir][Tosa] Handle empty block-scaled reshape shapes (#220872)"
+        },
+        {
+            "hash": "cc9a7010afd7126e8ec45fb6a967d39849613f35",
+            "author_name": "Thurston Dang",
+            "commit_date": "2026-09-07T16:14:36-07:00",
+            "subject": "[LifetimeSafety][test] Fix UUM of fields added in #221610 and #205764 (#221843)"
+        },
+        {
+            "hash": "08b4a7559af99165fcbc1855d923e0e482a42079",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-09-07T16:14:48-07:00",
+            "subject": "[Bazel] Fixes 89fe023 (#221823)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -240131,6 +240143,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-09-07T15:58:59-07:00",
             "subject": "[ADT] Give DenseMapPair its own members instead of a std::pair base. NFC"
+        }
+    ],
+    "MaskRay\/perf\/clang-type-uniquing": [
+        {
+            "hash": "45930cef5214e430aa7424cacb07e374a07ead12",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-07T21:22:06+00:00",
+            "subject": "[mlir][PDLL] Reject overflowing unregistered result indices (#221834)"
+        },
+        {
+            "hash": "a019abb9c135b3a6255adbd7d93fdd9119c5b3f0",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-09-07T15:48:50-07:00",
+            "subject": "[clang] Unique the QualType-keyed type pools in a UniquingSet. NFC"
         }
     ]
 }
