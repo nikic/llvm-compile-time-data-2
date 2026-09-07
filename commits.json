@@ -239712,5 +239712,33 @@
             "commit_date": "2026-09-07T13:48:46+00:00",
             "subject": "[GlobalISel] Lazily reserve worklist maps (NFC)"
         }
+    ],
+    "c-rhodes\/perf\/aarch64-inst-size-fast-path": [
+        {
+            "hash": "97cbc1e404b980edc58bfbcabb6f1c61793b624b",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-09-04T11:42:20+02:00",
+            "subject": "[CIR] Give the cleanup kind a proper standalone attribute spelling (#220878)"
+        },
+        {
+            "hash": "be1403a1f2db85c9443fa8300fa8522561bea90a",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-07T14:15:11+00:00",
+            "subject": "[AArch64] Add a fast-path for AArch64InstrInfo::getInstSizeInBytes (NFC)"
+        }
+    ],
+    "fhahn\/perf\/reuse-sub-expressions": [
+        {
+            "hash": "137d8e684984df207576c8f24bd8743ddb71c5c9",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-07T09:58:14-04:00",
+            "subject": "[X86] Fix eliminateFrameIndex dropping existing index register for huge frame offsets"
+        },
+        {
+            "hash": "b213f2ab1cddb109c278a405e0602dd2a73bde02",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-07T15:20:11+01:00",
+            "subject": "[SCEVExp] Try harder to re-use existting add sub-expression"
+        }
     ]
 }
