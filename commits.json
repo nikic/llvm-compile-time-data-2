@@ -223317,6 +223317,12 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-09-07T15:50:42+00:00",
             "subject": "[SCEV] Add test coverage for ext-nusw\/nsuw inference (#218943)"
+        },
+        {
+            "hash": "1afead77810533576bc2bc2c0c900afba82cb6af",
+            "author_name": "theRonShark",
+            "commit_date": "2026-09-07T12:02:01-04:00",
+            "subject": "Revert \"[CodeGen] Use RegisterClassInfo for remaining allocation-order users\" (#221749)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -237071,27 +237077,21 @@
     ],
     "artagnon\/perf\/scev-extaddrec-wrap": [
         {
-            "hash": "fa4c1ba1bd4be33232af93c5b2de6cbf589f102f",
-            "author_name": "Tim Besard",
-            "commit_date": "2026-08-28T12:36:01-07:00",
-            "subject": "[SROA] Reject illegal vector memset promotion (#216772)"
+            "hash": "ce27ca449c564f8b38a60ea8db28e10a76cfb4ef",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-07T15:50:42+00:00",
+            "subject": "[SCEV] Add test coverage for ext-nusw\/nsuw inference (#218943)"
         },
         {
-            "hash": "a13c2b4e3a3191206c1796ddaf887124ec4b5799",
+            "hash": "4bd257f94d51e30257a07a48d0f894746252e7b0",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-28T21:00:51+01:00",
-            "subject": "[SCEV] Add test coverage for ext-nusw\/nsuw inference"
-        },
-        {
-            "hash": "0ca067561f003a01bd24bd61c191f0b7b673902a",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-28T21:00:51+01:00",
+            "commit_date": "2026-09-07T16:57:46+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence for sext-addrec"
         },
         {
-            "hash": "af8791e95f46bbc362ecdde7ffd1919705ca9550",
+            "hash": "d4caf9d22ee5a28f635f46f108ad68de8cc5667e",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-08-28T21:01:29+01:00",
+            "commit_date": "2026-09-07T16:57:46+01:00",
             "subject": "[SCEV] Restore an improved version of nsuw logic"
         }
     ],
@@ -239903,6 +239903,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-09-07T17:47:15+02:00",
             "subject": "can constant fold call tli"
+        }
+    ],
+    "fhahn\/perf\/ic-simp-add": [
+        {
+            "hash": "137d8e684984df207576c8f24bd8743ddb71c5c9",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-07T09:58:14-04:00",
+            "subject": "[X86] Fix eliminateFrameIndex dropping existing index register for huge frame offsets"
+        },
+        {
+            "hash": "e64d5c8c50319528366707dd27f701c4a07ac741",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-07T16:59:50+01:00",
+            "subject": "[InstCombine] Simplify if compare folds away."
         }
     ]
 }
