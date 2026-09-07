@@ -223227,6 +223227,18 @@
             "author_name": "Baranov Victor",
             "commit_date": "2026-09-07T16:43:16+03:00",
             "subject": "[clang-tidy][NFC] Convert check list to yaml format (#221411)"
+        },
+        {
+            "hash": "71036f99e0dcc24b12cbcbcc2088b8d715465e0f",
+            "author_name": "Abid Qadeer",
+            "commit_date": "2026-09-07T14:52:31+01:00",
+            "subject": "[NFC] Stop relying on the LocationDescription conversion in unit tests. (#221004)"
+        },
+        {
+            "hash": "137d8e684984df207576c8f24bd8743ddb71c5c9",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-07T09:58:14-04:00",
+            "subject": "[X86] Fix eliminateFrameIndex dropping existing index register for huge frame offsets"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -239667,6 +239679,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-07T13:07:28+01:00",
             "subject": "[SCEV] LG guard through trun"
+        }
+    ],
+    "c-rhodes\/perf\/gisel-lazy-worklist-map-reserve": [
+        {
+            "hash": "97cbc1e404b980edc58bfbcabb6f1c61793b624b",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-09-04T11:42:20+02:00",
+            "subject": "[CIR] Give the cleanup kind a proper standalone attribute spelling (#220878)"
+        },
+        {
+            "hash": "1729db67721b79fcb72469111d543e6df28c1185",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-07T13:48:46+00:00",
+            "subject": "[GlobalISel] Lazily reserve worklist maps (NFC)"
         }
     ]
 }
