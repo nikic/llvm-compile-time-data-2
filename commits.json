@@ -223311,6 +223311,12 @@
             "author_name": "Timur Baidusenov",
             "commit_date": "2026-09-07T17:38:21+02:00",
             "subject": "[SimplifyCFG] Preserve !unpredictable when forming a switch (#221580)"
+        },
+        {
+            "hash": "ce27ca449c564f8b38a60ea8db28e10a76cfb4ef",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-07T15:50:42+00:00",
+            "subject": "[SCEV] Add test coverage for ext-nusw\/nsuw inference (#218943)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -239883,6 +239889,20 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-09-07T17:39:59+02:00",
             "subject": "[SROA] Skip analysis fetch when no entry allocas"
+        }
+    ],
+    "nikic\/perf\/can-constant-fold": [
+        {
+            "hash": "7a67a1ab6f3f6d716462872114a5e12f28cdb42a",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-09-07T10:17:03+02:00",
+            "subject": "[InstSimplify] Don't fold ptrtoint of ptradd of sub (#221188)"
+        },
+        {
+            "hash": "7865551a55129bf315ca1ab6872f703740a6c1dc",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-09-07T17:47:15+02:00",
+            "subject": "can constant fold call tli"
         }
     ]
 }
