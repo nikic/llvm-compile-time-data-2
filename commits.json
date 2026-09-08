@@ -224703,6 +224703,12 @@
             "author_name": "jiel-nv",
             "commit_date": "2026-09-08T15:56:41-07:00",
             "subject": "[flang][cuda] Create predefined variable reads at the location of use (#222058)"
+        },
+        {
+            "hash": "1462d6f99a0cdf8c99108cb32eb020efe6ba5f89",
+            "author_name": "A. Jiang",
+            "commit_date": "2026-09-09T07:18:14+08:00",
+            "subject": "[libc++][NFC] Remove `optional::__get` (#217218)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -241653,6 +241659,20 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-09-08T20:37:12+02:00",
             "subject": "[AsmPrinter] Memoize DIExpression conversion in location lists"
+        }
+    ],
+    "dfukalov\/perf\/defer-local-reassignment": [
+        {
+            "hash": "19a128ca460284d1274581dd6fedbc6e5f0f1a7d",
+            "author_name": "vporpo",
+            "commit_date": "2026-09-08T15:11:38-07:00",
+            "subject": "[SandboxVec][Scheduler] Reinsert deferred ready nodes to the ready list (#222054)"
+        },
+        {
+            "hash": "0e399ac0a72da1b47e7e60cdb8cd814908009960",
+            "author_name": "Daniil Fukalov",
+            "commit_date": "2026-09-08T18:29:35-04:00",
+            "subject": "[RegAlloc] Defer local reassignment checks (NFC)"
         }
     ]
 }
