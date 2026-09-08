@@ -223809,6 +223809,12 @@
             "author_name": "Arda Serdar Pektezol",
             "commit_date": "2026-09-08T09:42:59+00:00",
             "subject": "[LoopFlatten] Invalidate SCEV on each widening (#211819)"
+        },
+        {
+            "hash": "803252a70e326051a340e1a80b79cd10ed633e7f",
+            "author_name": "Paul Walker",
+            "commit_date": "2026-09-08T10:49:45+01:00",
+            "subject": "[NFC][LLVM] Remove TypeSize::multiplyCoefficientBy(). (#221215)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -239227,40 +239233,64 @@
     ],
     "lukel97\/perf\/users\/lukel97\/loop-vectorize\/simplifyRecipes-worklist": [
         {
-            "hash": "5eaa5ca54df58913f467a4d7318d91958d903345",
-            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
-            "commit_date": "2026-08-27T19:28:05-07:00",
-            "subject": "[flang] Speed up large CHARACTER DATA initializers (#218813)"
+            "hash": "a9cbac7d954efa6ac591fa099ea299a5add14188",
+            "author_name": "David Green",
+            "commit_date": "2026-09-08T08:22:35+01:00",
+            "subject": "[ARM] Handle debug instructions in LowOverheadLoop (#221699)"
         },
         {
-            "hash": "b8bd74923962c8cca56993c346c8c6504e49fe04",
+            "hash": "7f291c23a33102c899b2f958e59bb225cfdcc144",
             "author_name": "Luke Lau",
-            "commit_date": "2026-08-28T10:52:19+08:00",
+            "commit_date": "2026-09-08T16:44:40+08:00",
+            "subject": "[VPlan] Split simplifyRecipes into simplifyRecipes and combineRecipes"
+        },
+        {
+            "hash": "44100af5d623ed12b9cbb24d85a1b4e70f735b77",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-08T16:45:02+08:00",
             "subject": "Precommit test"
         },
         {
-            "hash": "fe1edc73ade8ee7a923ec883056efb5cf0db3cbd",
+            "hash": "456318b18b9dd812639cab5a6eced47474d82bae",
             "author_name": "Luke Lau",
-            "commit_date": "2026-08-28T10:52:19+08:00",
+            "commit_date": "2026-09-08T16:48:20+08:00",
             "subject": "[VPlan] Process simplifyRecipes in a worklist"
         },
         {
-            "hash": "ce4f49038a5e70883902857e785accec48da53dd",
+            "hash": "87190a38c4bbc76ae77fffe0de6b7999f839d998",
             "author_name": "Luke Lau",
-            "commit_date": "2026-08-28T10:53:03+08:00",
+            "commit_date": "2026-09-08T16:48:21+08:00",
             "subject": "Use make_pointer_range"
         },
         {
-            "hash": "3c18a4d2fb12e1024c24171c79b0fb7ffbe6a16a",
+            "hash": "1f91dff0992aaaf154aaa3f005be621cee197ab9",
             "author_name": "Luke Lau",
-            "commit_date": "2026-09-01T21:25:13+08:00",
+            "commit_date": "2026-09-08T16:50:02+08:00",
             "subject": "Address review comments"
         },
         {
-            "hash": "f757d4e871e9960f8c60391553e7e3cd0b6f4b4d",
+            "hash": "2e0d2c24fea7c567022375ba1dcfd27aa05e91fa",
             "author_name": "Luke Lau",
-            "commit_date": "2026-09-01T21:40:10+08:00",
+            "commit_date": "2026-09-08T16:50:42+08:00",
             "subject": "Switch to SmallVector with space on stack"
+        },
+        {
+            "hash": "3e9725ff6764b353593988ae464ee770a2dabd52",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-08T16:50:43+08:00",
+            "subject": "Make then branch non-dead"
+        },
+        {
+            "hash": "754662e386ea18bdbceb7842b6fa84b0de94447f",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-08T16:51:44+08:00",
+            "subject": "Unindent loop"
+        },
+        {
+            "hash": "2459a586fe3aac262c1debe103a58f94213bb554",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-08T16:58:23+08:00",
+            "subject": "No need to dyn_cast to singledef recipe anymore"
         }
     ],
     "john-brawn-arm\/perf\/sroa_overlap": [
