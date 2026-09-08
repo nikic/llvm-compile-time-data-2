@@ -224655,6 +224655,18 @@
             "author_name": "vporpo",
             "commit_date": "2026-09-08T15:11:38-07:00",
             "subject": "[SandboxVec][Scheduler] Reinsert deferred ready nodes to the ready list (#222054)"
+        },
+        {
+            "hash": "644f006fba2b52f0cc0fd58917f2a3ad7d67e6c6",
+            "author_name": "Jackson Stogel",
+            "commit_date": "2026-09-08T15:23:14-07:00",
+            "subject": "[libc][bazel] Add a repo with linux kernel UAPI headers (#216867)"
+        },
+        {
+            "hash": "b586da6cd57c3e8f4abfc46bc08af52e2f68f25a",
+            "author_name": "Jackson Stogel",
+            "commit_date": "2026-09-08T15:23:14-07:00",
+            "subject": "[libc][bazel] Allow building with -DLIBC_FULL_BUILD (#218992)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -237439,82 +237451,70 @@
     ],
     "fhahn\/perf\/scev-iter-phi": [
         {
-            "hash": "a6d40b40c42d95963f915234851855f456a55b53",
-            "author_name": "Robert Imschweiler",
-            "commit_date": "2026-08-17T09:22:49+02:00",
-            "subject": "[libomp] Fix hang when a fatal error is raised before library registration (#215988)"
+            "hash": "b290e9efa6b991bb61887de29924a3c979de0376",
+            "author_name": "Larry Meadows",
+            "commit_date": "2026-09-08T17:52:41+00:00",
+            "subject": "[OpenMPOpt] Look inside the callbacks the loop runtime functions are handed (#221449)"
         },
         {
-            "hash": "99665cdf84de9904f022ea1497167b1df9adf8dc",
+            "hash": "6af1d928baefff7a473441208653d1d7a1af4305",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T09:32:58+01:00",
-            "subject": "[SCEV] Look up uniqued nodes without building a FoldingSetNodeID"
-        },
-        {
-            "hash": "99110419399ca73f7640a05575f00dc99b68bad2",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T09:32:58+01:00",
-            "subject": "[SCEV] Use the direct uniquing lookup for the remaining node kinds"
-        },
-        {
-            "hash": "ad3b84dced134a8fa82b38bca68128cdaf9f7e08",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T09:32:58+01:00",
+            "commit_date": "2026-09-08T23:24:07+01:00",
             "subject": "[SCEV] Reuse the sign-hint-independent range of an affine add recurrence"
         },
         {
-            "hash": "994b35d4812c972ed01a7c95005c67489a9036f0",
+            "hash": "e96f3460a7a6e854428daf783f554e190637ba6c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T09:32:58+01:00",
-            "subject": "[SCEV] Compare against the whole operand use when computing the canonical"
+            "commit_date": "2026-09-08T23:24:07+01:00",
+            "subject": "[SCEV] Only materialize the canonical operand list if it differs (NFC)"
         },
         {
-            "hash": "3caf006f11175e13d62a1ab0b6239caac55a545a",
+            "hash": "62b220d8dd55fa4c3173668218c9e5bfd7d3b865",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T09:32:59+01:00",
+            "commit_date": "2026-09-08T23:24:07+01:00",
             "subject": "[SCEV] Form add recurrences for pointer IVs without a symbolic name"
         },
         {
-            "hash": "fa285dee92a58a3e563f9f78b6d94204341d1288",
+            "hash": "e0f09149f5cf1f40cc4a76d3d392f2a30b2540dd",
             "author_name": "Eli Friedman",
-            "commit_date": "2026-08-17T09:32:59+01:00",
+            "commit_date": "2026-09-08T23:24:08+01:00",
             "subject": "[SCEV] Avoid recursion in PHI handling in more cases."
         },
         {
-            "hash": "a67fdecccef8462cbdb683c8915e44d4fa999d7d",
+            "hash": "294bcbd5805bab0867968f58c75ed9e8ab164e37",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T09:32:59+01:00",
+            "commit_date": "2026-09-08T23:24:08+01:00",
             "subject": "[SCEV] Also queue icmp operands for selects in getOperandsToCreate (NFC)"
         },
         {
-            "hash": "3cfe004c9094a7d891581a5c15a2cf0ebbd584e1",
+            "hash": "83f34a420ecf8049456ba2f577c84846e87bf67a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T09:32:59+01:00",
+            "commit_date": "2026-09-08T23:24:08+01:00",
             "subject": "[SCEV] Queue the invariant step of a simple affine addrec (NFC)"
         },
         {
-            "hash": "f71304afe558ce904198caba73b8435d87e6cf61",
+            "hash": "cad94e076743169b52d2779284dccb7efcd2b0e2",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T09:32:59+01:00",
+            "commit_date": "2026-09-08T23:24:08+01:00",
             "subject": "[SCEV] Split createAddRecFromPHI and createNodeForPHI (NFC)"
         },
         {
-            "hash": "40615dcf2e2eb55b30525ed699a2315eef8e30e7",
+            "hash": "f1a98892a6444051af25d66ca23cea6d9a75725c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T09:33:00+01:00",
+            "commit_date": "2026-09-08T23:24:09+01:00",
             "subject": "[SCEV] Handle createAddRecFromPHI's backedge value iteratively"
         },
         {
-            "hash": "e780250d4b90e39eaa6d0fd583b8f25d023edc6a",
+            "hash": "d6b84d497d7494b8eed3f26c5915d83349b1b1a4",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T09:33:00+01:00",
+            "commit_date": "2026-09-08T23:24:09+01:00",
             "subject": "[SCEV] Stop collecting operands for PHI cases that cannot be reached"
         },
         {
-            "hash": "46091579295812a8cbc765a19416ab452c07357f",
+            "hash": "1a19830df4edc9008f1c4b1d26cfac1ea018d8e9",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-17T09:33:00+01:00",
-            "subject": "[SCEV] Queue the invariant index of a pointer IV's step (NFC)"
+            "commit_date": "2026-09-08T23:24:09+01:00",
+            "subject": "[SCEV] Share the GEP-increment nowrap derivation (NFC)"
         }
     ],
     "clemenswasser\/perf\/lower-dbg-declare-defuse": [
