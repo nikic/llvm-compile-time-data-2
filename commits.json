@@ -224037,6 +224037,30 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-08T15:49:41+02:00",
             "subject": "Hexagon: Fix constant propagation crash on a use with no reaching definition (#220297)"
+        },
+        {
+            "hash": "a76045040a1297217256d917bec9e02f9723804c",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-08T13:50:59+00:00",
+            "subject": "[MLIR][ROCDL] Shard generated operation definitions (NFC) (#221729)"
+        },
+        {
+            "hash": "8c8aa74533a841a7f61dac5e80c8241799458dd6",
+            "author_name": "Letu Ren",
+            "commit_date": "2026-09-08T15:52:56+02:00",
+            "subject": "[mlir][LLVM] Add pdep and pext intrinsics (#220768)"
+        },
+        {
+            "hash": "35fe7e14ecb4e50182fe93123e1876824d14bb94",
+            "author_name": "Alex Strelnikov",
+            "commit_date": "2026-09-08T09:57:09-04:00",
+            "subject": "[libc] Update printf_core::Writer to template on character type. (#220669)"
+        },
+        {
+            "hash": "cb180d50a81674b467887eab836f563607ae89e8",
+            "author_name": "Ryan VanderMeulen",
+            "commit_date": "2026-09-08T15:59:03+02:00",
+            "subject": "[cmake] FindLibXml2: keep user-provided LIBXML2_DEFINITIONS (#221294)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -236155,9 +236179,9 @@
             "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
         },
         {
-            "hash": "4fc43802817cf8daddbebadb0b7fbfaa6286e7fe",
+            "hash": "f7bbebe84575b1226266c919113f77ae5d668392",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-09-08T15:00:56+02:00",
+            "commit_date": "2026-09-08T15:58:54+02:00",
             "subject": "[PassManager] Store analysis results in contiguous storage"
         }
     ],
@@ -240399,6 +240423,12 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-09-08T13:17:57+00:00",
             "subject": "address comments"
+        },
+        {
+            "hash": "45c1423e7e38b6950ae760fc159ecb69cafdd691",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-08T13:50:17+00:00",
+            "subject": "fix build"
         }
     ],
     "clemenswasser\/perf\/gvn-huge-func-nonlocal-skip": [
