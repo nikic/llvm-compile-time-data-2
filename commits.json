@@ -223755,6 +223755,18 @@
             "author_name": "Manuel Carrasco",
             "commit_date": "2026-09-08T09:46:36+01:00",
             "subject": "[SPIRV] Preserve DebugGlobalVariable emission order. (#221759)"
+        },
+        {
+            "hash": "478f9da04672855854811d5bca7f1fd05c52ed90",
+            "author_name": "Matt\u00e9o Rizza Murgier",
+            "commit_date": "2026-09-08T10:56:38+02:00",
+            "subject": "[SelectionDAG] Widen vector math libcalls when no routine is available (#218948)"
+        },
+        {
+            "hash": "fc884a467025ef3ed81cf62aacc1f97bc0ca9f1b",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-08T08:59:49+00:00",
+            "subject": "AMDGPU: Rename stale CONTRACT check prefixes in fp-contract tests (#221709)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -240441,6 +240453,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-09-07T23:27:26-07:00",
             "subject": "[clang] Unique more ASTContext type pools in a UniquingSet. NFC"
+        }
+    ],
+    "fhahn\/perf\/ce-strengthen-flags-common-use-dom": [
+        {
+            "hash": "9f5548da33ffdb282225bc03e17c0702c4c31884",
+            "author_name": "Manuel Carrasco",
+            "commit_date": "2026-09-08T09:46:36+01:00",
+            "subject": "[SPIRV] Preserve DebugGlobalVariable emission order. (#221759)"
+        },
+        {
+            "hash": "3bb2cdfb060079d516942d4cf0aae55547383878",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-08T10:00:02+01:00",
+            "subject": "[ConstraintElim] Strengthen flags at the closest dominator of all uses."
         }
     ]
 }
