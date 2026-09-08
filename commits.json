@@ -224355,6 +224355,24 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-09-08T09:37:19-07:00",
             "subject": "[libcxx] Move premerge jobs to k8s mode runner set (#221395)"
+        },
+        {
+            "hash": "00d831fd85c0fca31a72dec32ebcd417f007b66c",
+            "author_name": "Amr Hesham",
+            "commit_date": "2026-09-08T16:42:25+00:00",
+            "subject": "[CIR][NFC] Fix build issue after Inlineasm convergent attr (#222041)"
+        },
+        {
+            "hash": "97195b284954aac357b9732df2a7a6ed6ca446c9",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-09-08T17:44:00+01:00",
+            "subject": "[mlir][vector] Extend `ShapeCastCreateMaskFolderTrailingOneDim` (#219494)"
+        },
+        {
+            "hash": "14e941a0566ae06e982c5d8ddd085697c48fd413",
+            "author_name": "Amit Tiwari",
+            "commit_date": "2026-09-08T22:19:01+05:30",
+            "subject": "[OpenMP][OMPD] Add symbol lookup helper for GDB plugin (#221956)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -241275,6 +241293,34 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-09-08T15:51:45+00:00",
             "subject": "[Instrumentation] Skip alloc-token pass when modules have no work"
+        }
+    ],
+    "clemenswasser\/perf\/instcombine-complexity-fastpath": [
+        {
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
+        },
+        {
+            "hash": "f713b2073f64d5243599b29b6a4ffe135c8ccae0",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-07T19:17:27+02:00",
+            "subject": "[InstCombine] Narrow complexity matching by opcode"
+        }
+    ],
+    "clemenswasser\/perf\/instcombine-smalldensemap": [
+        {
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
+        },
+        {
+            "hash": "817b1ef048a84315ba1aeda286ce3f0eafbe0dab",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-07T18:44:18+02:00",
+            "subject": "[InstCombine] Use SmallDenseMap for folded constants"
         }
     ]
 }
