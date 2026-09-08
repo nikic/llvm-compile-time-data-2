@@ -224199,6 +224199,24 @@
             "author_name": "Laxman Gupta",
             "commit_date": "2026-09-08T17:18:37+02:00",
             "subject": "[AggressiveInstCombine] Add shufflevector support to TruncInstCombine (#220218)"
+        },
+        {
+            "hash": "1dac88b2aad1af472a4f4d5b7d87930e6e557d1f",
+            "author_name": "Akash Dutta",
+            "commit_date": "2026-09-08T10:27:06-05:00",
+            "subject": "[AMDGPU] Do not treat LDSDMA as VALU in several passes (#212866)"
+        },
+        {
+            "hash": "3199f80203b3981f87a915bc045cc6d43b850cea",
+            "author_name": "Abid Qadeer",
+            "commit_date": "2026-09-08T16:30:21+01:00",
+            "subject": "[flang][debug] Don't build signature types for minimal debug levels. (#221967)"
+        },
+        {
+            "hash": "af35312797b0be96be7b2f155542911df3693a2b",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-08T15:32:05+00:00",
+            "subject": "MachinePipeliner: Fix using getUniqueVRegDef on a physical register (#216793)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -241071,6 +241089,20 @@
             "author_name": "Luke Lau",
             "commit_date": "2026-09-08T20:40:34+08:00",
             "subject": "[VPlan] Early exit for canCreateNewRecipe. NFCI"
+        }
+    ],
+    "c-rhodes\/perf\/gisel-reserve-irtranslator-storage": [
+        {
+            "hash": "cec101b15dd27fb1c51b6c87cb6e9d78517d2b09",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-09-08T09:28:21-05:00",
+            "subject": "[Bazel] Fixes 52d922a (#222005)"
+        },
+        {
+            "hash": "996caa798ca6e27dfc657296db4b8ae6519701b0",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-08T15:17:06+00:00",
+            "subject": "[GlobalISel] Reserve IRTranslator value map and virtual register storage"
         }
     ]
 }
