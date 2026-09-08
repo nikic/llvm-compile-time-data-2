@@ -224265,6 +224265,42 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-09-08T08:58:58-07:00",
             "subject": "[CodeGen] Add const MBB overload to analyzeBranch (#221847)"
+        },
+        {
+            "hash": "91ee3ddf53d996153f80193b350df013eb068803",
+            "author_name": "vporpo",
+            "commit_date": "2026-09-08T09:03:36-07:00",
+            "subject": "[SandboxVec][Scheduler][NFC] Rename ScheduleTopItOpt to ScheduleFrontier (#220409)"
+        },
+        {
+            "hash": "f0bcda36c9f50c3bac7fb1b1dd06686166da155b",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-08T18:04:33+02:00",
+            "subject": "[MLIR][linalg] Handle invalid elementwise kind safely (#221835)"
+        },
+        {
+            "hash": "86a649acfded74042e2cec07df4fc2e70a02a74d",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-08T18:05:07+02:00",
+            "subject": "[MLIR][linalg] Share external interface implementations to reduce build time (NFC) (#221814)"
+        },
+        {
+            "hash": "4f22c50a5bebe5b76c3d3d45c5db2a5a769727f6",
+            "author_name": "Aaron Ballman",
+            "commit_date": "2026-09-08T12:05:57-04:00",
+            "subject": "Add a regression test; NFC (#221981)"
+        },
+        {
+            "hash": "6dd22919138af830711ed4fb5b792482139b8eb0",
+            "author_name": "Domenic Nutile",
+            "commit_date": "2026-09-08T12:07:09-04:00",
+            "subject": "[AMDGPU] Restrict DPP combine from performing bad transformations when handling certain REV insts that use Src1 as the DPP operand (#216835)"
+        },
+        {
+            "hash": "67b8998d404ad633c9ec377598c8c1077b312365",
+            "author_name": "carlobertolli",
+            "commit_date": "2026-09-08T11:13:21-05:00",
+            "subject": "[AMDGPU] Avoid dangling SSAUpdater reference in PromoteAlloca full-vector store (#215686)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -240909,16 +240945,22 @@
     ],
     "fhahn\/perf\/ic-simp-add": [
         {
-            "hash": "188842344ace5e1cc0cc84eec02d4a746213277a",
+            "hash": "9bc8df6b880ef04a90e5b9ff05afd07f6fbdf562",
             "author_name": "Charles Zablit",
-            "commit_date": "2026-09-08T13:55:56+02:00",
-            "subject": "[lldb][Windows] Mark unwind plan as valid at all instructions (#215514)"
+            "commit_date": "2026-09-08T14:10:46+02:00",
+            "subject": "[lldb][windows] print an error if Python fails to initialize (#181160)"
         },
         {
-            "hash": "78aa9f12931dbd3dddf9c0cb7cf882b1f193b20c",
+            "hash": "4fd0f22aa96086f7785dce36be33928d52c456be",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-08T13:02:33+01:00",
+            "commit_date": "2026-09-08T17:01:08+01:00",
             "subject": "[InstCombine] Simplify if compare folds away."
+        },
+        {
+            "hash": "fa4dba94c2527874986a2e07ad534087dcad98de",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-08T17:02:48+01:00",
+            "subject": "Limit simplifications"
         }
     ],
     "clemenswasser\/perf\/dbg-label-cache": [
