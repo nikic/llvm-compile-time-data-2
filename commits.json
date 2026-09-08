@@ -224607,6 +224607,18 @@
             "author_name": "\u7b80",
             "commit_date": "2026-09-08T23:11:52+02:00",
             "subject": "[CodeGen] Avoid quadratic operand removal in MachineInstr::insert (#220165)"
+        },
+        {
+            "hash": "1936b4a95dadcdeddefce26facb208413a9b3b86",
+            "author_name": "Valery Pykhtin",
+            "commit_date": "2026-09-08T23:14:40+02:00",
+            "subject": "[AMDGPU] Factor the AsmParser match-specificity comparison into a helper, NFC (#221987)"
+        },
+        {
+            "hash": "15034a76b21551f0e62c7c40f0878e8eeb0deebc",
+            "author_name": "Raghu Maddhipatla",
+            "commit_date": "2026-09-08T16:21:08-05:00",
+            "subject": "[OpenMP] [MLIR] [Flang] Replace all uses of variables in ALLOCATE directive to use new value which is created. (#212361)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -241251,22 +241263,22 @@
     ],
     "fhahn\/perf\/ic-simp-add": [
         {
-            "hash": "9bc8df6b880ef04a90e5b9ff05afd07f6fbdf562",
-            "author_name": "Charles Zablit",
-            "commit_date": "2026-09-08T14:10:46+02:00",
-            "subject": "[lldb][windows] print an error if Python fails to initialize (#181160)"
+            "hash": "e85a62955715c5ff38b685303379313ac81a0bbf",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-09-08T17:47:41+00:00",
+            "subject": "[NFCI][CIR] Add in 2 missing returns- (#222061)"
         },
         {
-            "hash": "4fd0f22aa96086f7785dce36be33928d52c456be",
+            "hash": "580f7c76831c63dbbf6b4f69709b903dbf2abd5d",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-08T17:01:08+01:00",
-            "subject": "[InstCombine] Simplify if compare folds away."
+            "commit_date": "2026-09-08T20:33:57+01:00",
+            "subject": "[InstCombine] Precommit test"
         },
         {
-            "hash": "fa4dba94c2527874986a2e07ad534087dcad98de",
+            "hash": "f4ba863d902d14577e03ddec5748787a2ee26b09",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-08T17:02:48+01:00",
-            "subject": "Limit simplifications"
+            "commit_date": "2026-09-08T22:21:36+01:00",
+            "subject": "[InstCombine] Rewrite (A + C2) == C -> A == (C - C2) if cmp folds."
         }
     ],
     "clemenswasser\/perf\/dbg-label-cache": [
