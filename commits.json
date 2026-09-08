@@ -77029,16 +77029,22 @@
     ],
     "tbaederr\/perf\/ce-test": [
         {
-            "hash": "faf31b04449c2592100d9693acf882c751de6519",
-            "author_name": "Timm Baeder",
-            "commit_date": "2026-09-04T05:36:38+02:00",
-            "subject": "[clang][bytecode] Allocate EvalEmitter locals using InterpState allocator (#220922)"
+            "hash": "b182b415d9b2447cf1fd7231ebe28a96cfd1f9af",
+            "author_name": "Lucas Ramirez",
+            "commit_date": "2026-09-08T11:17:49+02:00",
+            "subject": "[CodeGen] Correctly classify\/mark dead defs when adjusting lane liveness (#215595)"
         },
         {
-            "hash": "c54513821921f726097936227332cbe68f77aba2",
+            "hash": "eb9c09573492c33116b01d81fed6ff71029c289b",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-04T05:36:53+02:00",
+            "commit_date": "2026-09-08T11:24:22+02:00",
             "subject": "Test"
+        },
+        {
+            "hash": "8cf00dcb71842392de6f86e66192ce8dec2ed8cc",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-09-08T11:24:29+02:00",
+            "subject": "[clang][bytecode] Save Record::Field PrimType"
         }
     ],
     "dtcxzyw\/perf\/nonnull-at-callsite": [
@@ -233523,6 +233529,12 @@
             "author_name": "Jiaxun Yang",
             "commit_date": "2026-09-07T08:07:35+02:00",
             "subject": "[Mips] Use ELF binding when expanding PIC la (#217566)"
+        },
+        {
+            "hash": "6dfe1677ab8dffbc6ec13d53a1e0215d75147689",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-07T13:01:29+00:00",
+            "subject": "[SLP]Fix crash in canBuildSplitNode on struct-typed scalars"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
