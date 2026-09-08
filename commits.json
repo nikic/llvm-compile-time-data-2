@@ -224241,6 +224241,30 @@
             "author_name": "Akash Manna",
             "commit_date": "2026-09-08T15:51:11+00:00",
             "subject": "[Clang] Fix assertion when a Unicode character is splatted to a vector of its own type (#219987)"
+        },
+        {
+            "hash": "00a81e0a19da74292a84c0b5fcdae85f0646cc02",
+            "author_name": "Zhen Wang",
+            "commit_date": "2026-09-08T08:53:16-07:00",
+            "subject": "[flang][cuda] Inline scalar-to-array assignments in CUDA Fortran device code at -O0 (#221333)"
+        },
+        {
+            "hash": "443d419e798b37a3733b12db7859c5155407c6d8",
+            "author_name": "David Spickett",
+            "commit_date": "2026-09-08T15:53:45+00:00",
+            "subject": "[lldb] Fix switch case for i386 in COFF GetModuleSpecifications (#222030)"
+        },
+        {
+            "hash": "b674d2c82401631326305ce0d8e624b448daf8a5",
+            "author_name": "Sean Perry",
+            "commit_date": "2026-09-08T11:55:35-04:00",
+            "subject": "[Driver][Clang] Add -nodefaultrtlibs (#219496)"
+        },
+        {
+            "hash": "d34b9a8dbb9e3fe3a894af0ecd381683dd95e693",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-09-08T08:58:58-07:00",
+            "subject": "[CodeGen] Add const MBB overload to analyzeBranch (#221847)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -235901,16 +235925,16 @@
     ],
     "fhahn\/perf\/slpv": [
         {
-            "hash": "5371bcaa368e59a99a03f6a726949ee52e07fb65",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-08-09T01:06:51-07:00",
-            "subject": "[DomTree] Remove the DomTreeNodeBase overload of isReachableFromEntry. NFC (#215068)"
+            "hash": "9bc8df6b880ef04a90e5b9ff05afd07f6fbdf562",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-09-08T14:10:46+02:00",
+            "subject": "[lldb][windows] print an error if Python fails to initialize (#181160)"
         },
         {
-            "hash": "2f8c81b2d7269f45a3245ffafde04a2a080d8808",
+            "hash": "205559fdd46cbf4fe437f841b47b58b88641ddc7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-09T09:17:08+01:00",
-            "subject": "[SLP] Add -slp-use-vplan-codegen to emit vector code via VPlan"
+            "commit_date": "2026-09-08T16:59:40+01:00",
+            "subject": "[VPlan] Don't populate the scalar header in the BasicBlock constructor"
         }
     ],
     "fhahn\/perf\/ce-check-signed": [
@@ -241141,6 +241165,20 @@
             "author_name": "Antonio Frighetto",
             "commit_date": "2026-09-08T17:49:23+02:00",
             "subject": "[BasicAA] Extend two-variable MinAbsVarIndex heuristic to different scales"
+        }
+    ],
+    "c-rhodes\/perf\/alloc-token-early-exit": [
+        {
+            "hash": "cec101b15dd27fb1c51b6c87cb6e9d78517d2b09",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-09-08T09:28:21-05:00",
+            "subject": "[Bazel] Fixes 52d922a (#222005)"
+        },
+        {
+            "hash": "a59a6841a79689e069aaaa782a0354e112a874aa",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-08T15:51:45+00:00",
+            "subject": "[Instrumentation] Skip alloc-token pass when modules have no work"
         }
     ]
 }
