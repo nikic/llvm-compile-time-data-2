@@ -224103,6 +224103,12 @@
             "author_name": "forking-google-bazel-bot[bot]",
             "commit_date": "2026-09-08T09:28:21-05:00",
             "subject": "[Bazel] Fixes 52d922a (#222005)"
+        },
+        {
+            "hash": "8a3d6f8ca2970c31c21a90f90eb7fe0de0fb0f99",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-09-08T15:43:07+01:00",
+            "subject": "[lldb] Add requireClang decorator (#222007)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -240663,6 +240669,30 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-09-07T15:37:41+00:00",
             "subject": "[CodeGen] Avoid temporary SmallVector for single memops (NFC) (#221254)"
+        },
+        {
+            "hash": "84d4df532ef9618be0bfa7634517c92042af3ebe",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-08T14:35:23+00:00",
+            "subject": "[GlobalISel] Avoid copying complex pattern renderers (NFC) (#221657)"
+        },
+        {
+            "hash": "b90e986382ced49d12665978d160f8c62b820d71",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-08T14:35:29+00:00",
+            "subject": "[AArch64][GlobalISel] Avoid duplicate register-bank queries in selectCopy (NFC) (#221655)"
+        },
+        {
+            "hash": "cd634fc0143799b74188d5686e8dc49030cedf6a",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-08T14:35:48+00:00",
+            "subject": "[AArch64] Add a fast-path for AArch64InstrInfo::getInstSizeInBytes (NFC) (#221894)"
+        },
+        {
+            "hash": "c4221f35028d15d10edd58c6a39f277f9eab5c4a",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-08T14:35:58+00:00",
+            "subject": "[GlobalISel] Avoid double DenseMap lookups in ValueToVRegInfo (NFC) (#221741)"
         }
     ],
     "clemenswasser\/perf\/assignment-tracking-densemap": [
