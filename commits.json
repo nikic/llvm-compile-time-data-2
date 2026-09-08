@@ -223941,6 +223941,12 @@
             "author_name": "Paul Walker",
             "commit_date": "2026-09-08T13:29:17+01:00",
             "subject": "[LLVM][SelectionDAG] Fix incorrect splitting of VECTOR_COMPRESS when passthrough operand is not undef. (#215772)"
+        },
+        {
+            "hash": "6c8467d3f917e84ebc1bd7c10fb8bd69ded6040e",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-09-08T14:37:27+02:00",
+            "subject": "[CIR] Use the modern enum case classes (#220935)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -240691,6 +240697,92 @@
             "author_name": "Luke Lau",
             "commit_date": "2026-09-08T18:21:54+08:00",
             "subject": "[VPlan] Remove VPInstruction::Not. NFC"
+        }
+    ],
+    "lukel97\/perf\/loop-vectorize\/remove-cancreatenewrecipe": [
+        {
+            "hash": "a9cbac7d954efa6ac591fa099ea299a5add14188",
+            "author_name": "David Green",
+            "commit_date": "2026-09-08T08:22:35+01:00",
+            "subject": "[ARM] Handle debug instructions in LowOverheadLoop (#221699)"
+        },
+        {
+            "hash": "7f291c23a33102c899b2f958e59bb225cfdcc144",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-08T16:44:40+08:00",
+            "subject": "[VPlan] Split simplifyRecipes into simplifyRecipes and combineRecipes"
+        },
+        {
+            "hash": "44100af5d623ed12b9cbb24d85a1b4e70f735b77",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-08T16:45:02+08:00",
+            "subject": "Precommit test"
+        },
+        {
+            "hash": "456318b18b9dd812639cab5a6eced47474d82bae",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-08T16:48:20+08:00",
+            "subject": "[VPlan] Process simplifyRecipes in a worklist"
+        },
+        {
+            "hash": "87190a38c4bbc76ae77fffe0de6b7999f839d998",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-08T16:48:21+08:00",
+            "subject": "Use make_pointer_range"
+        },
+        {
+            "hash": "1f91dff0992aaaf154aaa3f005be621cee197ab9",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-08T16:50:02+08:00",
+            "subject": "Address review comments"
+        },
+        {
+            "hash": "2e0d2c24fea7c567022375ba1dcfd27aa05e91fa",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-08T16:50:42+08:00",
+            "subject": "Switch to SmallVector with space on stack"
+        },
+        {
+            "hash": "3e9725ff6764b353593988ae464ee770a2dabd52",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-08T16:50:43+08:00",
+            "subject": "Make then branch non-dead"
+        },
+        {
+            "hash": "754662e386ea18bdbceb7842b6fa84b0de94447f",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-08T16:51:44+08:00",
+            "subject": "Unindent loop"
+        },
+        {
+            "hash": "2459a586fe3aac262c1debe103a58f94213bb554",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-08T16:58:23+08:00",
+            "subject": "No need to dyn_cast to singledef recipe anymore"
+        },
+        {
+            "hash": "b90353cb14c9713878a596dc84936e6c68084943",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-08T16:58:55+08:00",
+            "subject": "Precommit test"
+        },
+        {
+            "hash": "010c395a2e4c0628a53682f89f618e55eef4906d",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-08T17:19:14+08:00",
+            "subject": "[VPlan] Append recipes created via builder to worklist"
+        },
+        {
+            "hash": "3165606bdb26c7716b0a12f2d5ca9e5ef4e14477",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-08T17:30:25+08:00",
+            "subject": "[VPlan] Remove (X && Y) | (X && !Y) -> X combine. NFC"
+        },
+        {
+            "hash": "f7fb3f35f2c01878775a49cb6c7da8c110d37b7c",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-08T20:40:34+08:00",
+            "subject": "[VPlan] Early exit for canCreateNewRecipe. NFCI"
         }
     ]
 }
