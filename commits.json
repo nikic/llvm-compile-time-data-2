@@ -225195,6 +225195,24 @@
             "author_name": "Oscar Priego",
             "commit_date": "2026-09-09T10:34:08+00:00",
             "subject": "[X86] Compress masked VPBLENDM using VBLENDV (#221838)"
+        },
+        {
+            "hash": "79230407a26e8d7de47e4c8e7b7f7b0d63bee00c",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-09-09T12:34:59+02:00",
+            "subject": "[clang][AST][NFC] Make ASTContext::isPFPField() static (#220265)"
+        },
+        {
+            "hash": "09520670fec80a117bb34307ef684cf8bafbe71b",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-09-09T11:41:59+01:00",
+            "subject": "[lldb] Match frame recognizers by function when the frame has no symbol (#222060)"
+        },
+        {
+            "hash": "48ae4d3b158042b4ad77a6b23aa412aedac7105a",
+            "author_name": "William Tran-Viet",
+            "commit_date": "2026-09-09T18:43:51+08:00",
+            "subject": "[libc++] Fix `optional<T>::transform` into `optional<T&>` (#221506)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -241635,16 +241653,16 @@
     ],
     "c-rhodes\/perf\/gisel-avoid-unnecessary-call-setup": [
         {
-            "hash": "97cbc1e404b980edc58bfbcabb6f1c61793b624b",
-            "author_name": "Henrich Lauko",
-            "commit_date": "2026-09-04T11:42:20+02:00",
-            "subject": "[CIR] Give the cleanup kind a proper standalone attribute spelling (#220878)"
-        },
-        {
             "hash": "d2dfca2db156c259a66cfe2c749f786fec2946f0",
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-09-07T12:01:03+00:00",
             "subject": "[GlobalISel] Avoid unnecessary call setup work (NFC)"
+        },
+        {
+            "hash": "563bd0b1cc32a0f109b41d0054a0ce9ecd893b42",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-09T10:39:55+00:00",
+            "subject": "Merge branch 'main' into perf\/gisel-avoid-unnecessary-call-setup"
         }
     ],
     "fhahn\/perf\/lg-trunc": [
