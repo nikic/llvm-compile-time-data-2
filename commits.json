@@ -225093,6 +225093,18 @@
             "author_name": "Robert Imschweiler",
             "commit_date": "2026-09-09T11:15:00+02:00",
             "subject": "[libomp] Parse OMP_DEFAULT_DEVICE with new device trait parser (#176166)"
+        },
+        {
+            "hash": "9a14832f08551e15620440391910bc6919904775",
+            "author_name": "Valery Pykhtin",
+            "commit_date": "2026-09-09T11:15:49+02:00",
+            "subject": "[AMDGPU] Check a wide copy dst reg against the dst operand's regclass (#221789)"
+        },
+        {
+            "hash": "cd2f66534d425b3db62fea6df9703ffb87c6c3c5",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-09T10:22:21+01:00",
+            "subject": "[GlobalISel] Lazily reserve worklist maps (NFC) (#221900)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -242097,6 +242109,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-09-09T10:36:32+02:00",
             "subject": "Enable call site info"
+        }
+    ],
+    "zyn0217\/perf\/recovery-expr": [
+        {
+            "hash": "678058af7da6a20593d8bb23076dc4773f9e55f1",
+            "author_name": "Matthias Wippich",
+            "commit_date": "2026-09-01T07:51:51+02:00",
+            "subject": "[libc++] Implement P2830R10: Standardized Constexpr Type Ordering (#216616)"
+        },
+        {
+            "hash": "d5c04428be4b47526390e4bbcbb49e92bd9005dd",
+            "author_name": "Younan Zhang",
+            "commit_date": "2026-09-09T15:19:40+08:00",
+            "subject": "[Clang] Avoid unnecessary overload resolution when building RecoveryExpr"
         }
     ]
 }
