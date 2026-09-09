@@ -225051,6 +225051,18 @@
             "author_name": "Pierre van Houtryve",
             "commit_date": "2026-09-09T10:31:09+02:00",
             "subject": "[RFC][AMDGPU] Add BARRIER address space (#209746)"
+        },
+        {
+            "hash": "59c5d5efb7343424d243e4a3972f7b24a07b115d",
+            "author_name": "Hans Wennborg",
+            "commit_date": "2026-09-09T10:35:10+02:00",
+            "subject": "[X86] Enable preferZeroCompareBranch() (#219919)"
+        },
+        {
+            "hash": "cdab5d7b28a38112cf91784ea7d404d2d4c6a68e",
+            "author_name": "Pierre van Houtryve",
+            "commit_date": "2026-09-09T10:41:12+02:00",
+            "subject": "[AMDGPU] Add synthetic apertures and use them for barriers (#209748)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -242035,6 +242047,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-09-08T20:28:39-07:00",
             "subject": "[IR] Pack NumUnresolved into the MDNode header bitfield. NFC"
+        }
+    ],
+    "nikic\/perf\/call-site-info": [
+        {
+            "hash": "cdd1900816f625eb1f38a6e755c49ccadec56209",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-09-09T10:02:21+02:00",
+            "subject": "[IR] Do not inherit ABI attributes from the callee (#207173)"
+        },
+        {
+            "hash": "313783ca510a364250398e266f2faad22093a8db",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-09-09T10:36:32+02:00",
+            "subject": "Enable call site info"
         }
     ]
 }
