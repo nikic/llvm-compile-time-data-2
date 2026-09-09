@@ -225369,6 +225369,30 @@
             "author_name": "Linisha",
             "commit_date": "2026-09-09T21:54:44+08:00",
             "subject": "[X86] Avoid invalid ret for EH_RETURN with SHSTK (#219322)"
+        },
+        {
+            "hash": "6694be0f79c28f1b62556e3ea82ae074af1e27ba",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-09T14:11:06+00:00",
+            "subject": "[MLIR] Fix and classify generated-header dependencies (#222329)"
+        },
+        {
+            "hash": "660a54c87b3940c7eb1e51a5af523b9a24fc2b99",
+            "author_name": "Tobias Gysi",
+            "commit_date": "2026-09-09T16:14:03+02:00",
+            "subject": "[mlir][llvm] Fix metadata and alignment on masked memory intrinsics (#221879)"
+        },
+        {
+            "hash": "da224d66042451154a83001456ea7d4e09819454",
+            "author_name": "Tobias Gysi",
+            "commit_date": "2026-09-09T16:15:30+02:00",
+            "subject": "[mlir][llvm] Gate unhandled function metadata warning (#221895)"
+        },
+        {
+            "hash": "31fb1d84516bb48b6f6d1e34b50d069458a64f09",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-09-09T16:16:50+02:00",
+            "subject": "[AMDGPU] Fix pow with a negative base (#222248)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -242459,6 +242483,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-09-09T13:14:15+00:00",
             "subject": "[GlobalISel] Fast path exact LLT equality (NFC)"
+        }
+    ],
+    "c-rhodes\/perf\/ir-avoid-disabled-pass-timing-init": [
+        {
+            "hash": "87d9c3c24ff5941ac08799850a6549b561c98a81",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-09-09T22:45:46+10:00",
+            "subject": "[orc-rt] Add Mangling.h with platform symbol name mangling (#222315)"
+        },
+        {
+            "hash": "cd505a22a1ba83502247274ad6a36c6075ec35ca",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-09T13:28:27+00:00",
+            "subject": "[PassTimingInfo] Return early from getPassTimer when timing is disabled (NFC)"
         }
     ]
 }
