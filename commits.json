@@ -225693,6 +225693,24 @@
             "author_name": "Alex Langford",
             "commit_date": "2026-09-09T10:28:16-07:00",
             "subject": "[lldb] Replace string type in ELFSectionHeaderInfo (#218490)"
+        },
+        {
+            "hash": "f72d8ff6d3f6dc481a72a63f9fb18aa92353e04c",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-09-09T17:32:53+00:00",
+            "subject": "Revert [IR] Do not inherit ABI attributes from the callee (#222384)"
+        },
+        {
+            "hash": "91665e7aa17c4d829be459db92856eb0dbb32620",
+            "author_name": "Alex MacLean",
+            "commit_date": "2026-09-09T10:35:19-07:00",
+            "subject": "[CodeGen] Don't derive MODereferenceable from !dereferenceable metadata (#222069)"
+        },
+        {
+            "hash": "31157bbadddf2dafbfffbc23518988fa83dd4884",
+            "author_name": "Andrei Elovikov",
+            "commit_date": "2026-09-09T17:35:22+00:00",
+            "subject": "[NFC][VPlan] Move `m_RemoveMask` to `VPlanPatternMatch.h` (#219059)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -242841,6 +242859,26 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-09T18:04:27+01:00",
             "subject": "Move to instsimplfiy"
+        }
+    ],
+    "fhahn\/perf\/vps2": [
+        {
+            "hash": "1849da9fffcc4a817f83d1c7422e1d98003cfed1",
+            "author_name": "Adam Smith",
+            "commit_date": "2026-09-09T10:36:51-05:00",
+            "subject": "[CIR] Honor the Direct coercion offset in x86_64 callconv lowering (#220724)"
+        },
+        {
+            "hash": "b8c5e16617708203b4fd8adba8f58f7acc5e7a4a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-09T16:38:23+01:00",
+            "subject": "[VPlan] Overwrite CSE map entry when cached recipe does not dominate"
+        },
+        {
+            "hash": "83bd032fd12ed60ca1dce1dd26f57c84f7e6b7f8",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-09T18:37:12+01:00",
+            "subject": "VPlan simp switch"
         }
     ]
 }
