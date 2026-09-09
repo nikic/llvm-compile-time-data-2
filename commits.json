@@ -225063,6 +225063,18 @@
             "author_name": "Pierre van Houtryve",
             "commit_date": "2026-09-09T10:41:12+02:00",
             "subject": "[AMDGPU] Add synthetic apertures and use them for barriers (#209748)"
+        },
+        {
+            "hash": "1770693262b32d2216d7224fd412d78ab07e1bfa",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-09T09:58:14+01:00",
+            "subject": "[VPlan] Add scalar-type-infer assert for casts (NFC) (#222258)"
+        },
+        {
+            "hash": "39ffb93f2cc8b24d0b8a588dc042a4d931273ada",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-09T11:01:28+02:00",
+            "subject": "llvm: Remove phantom fp-contract-model attributes from tests (#221925)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -237853,69 +237865,75 @@
     ],
     "fhahn\/perf\/scev-iter-phi": [
         {
-            "hash": "b290e9efa6b991bb61887de29924a3c979de0376",
-            "author_name": "Larry Meadows",
-            "commit_date": "2026-09-08T17:52:41+00:00",
-            "subject": "[OpenMPOpt] Look inside the callbacks the loop runtime functions are handed (#221449)"
+            "hash": "cdab5d7b28a38112cf91784ea7d404d2d4c6a68e",
+            "author_name": "Pierre van Houtryve",
+            "commit_date": "2026-09-09T10:41:12+02:00",
+            "subject": "[AMDGPU] Add synthetic apertures and use them for barriers (#209748)"
         },
         {
-            "hash": "6af1d928baefff7a473441208653d1d7a1af4305",
+            "hash": "1961ffd3ca42178ace7fc6a90ff28e81a45c714d",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-08T23:24:07+01:00",
+            "commit_date": "2026-09-09T09:50:00+01:00",
             "subject": "[SCEV] Reuse the sign-hint-independent range of an affine add recurrence"
         },
         {
-            "hash": "e96f3460a7a6e854428daf783f554e190637ba6c",
+            "hash": "afb0cb1c5edbc00e925379a312a121f9ae683cea",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-08T23:24:07+01:00",
+            "commit_date": "2026-09-09T09:50:00+01:00",
             "subject": "[SCEV] Only materialize the canonical operand list if it differs (NFC)"
         },
         {
-            "hash": "62b220d8dd55fa4c3173668218c9e5bfd7d3b865",
+            "hash": "1baba5037f689746f8bbbadf28a505fc19806461",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-08T23:24:07+01:00",
+            "commit_date": "2026-09-09T09:50:01+01:00",
             "subject": "[SCEV] Form add recurrences for pointer IVs without a symbolic name"
         },
         {
-            "hash": "e0f09149f5cf1f40cc4a76d3d392f2a30b2540dd",
+            "hash": "b8253148aef81d21c7b2d388985730af6cbe522e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-09T09:50:01+01:00",
+            "subject": "Try simp"
+        },
+        {
+            "hash": "9e5d30901f77468a1655e05860ab57280456cd6e",
             "author_name": "Eli Friedman",
-            "commit_date": "2026-09-08T23:24:08+01:00",
+            "commit_date": "2026-09-09T09:50:02+01:00",
             "subject": "[SCEV] Avoid recursion in PHI handling in more cases."
         },
         {
-            "hash": "294bcbd5805bab0867968f58c75ed9e8ab164e37",
+            "hash": "b550959adc3855b44bc351f41c3a81e367d582e2",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-08T23:24:08+01:00",
+            "commit_date": "2026-09-09T09:50:02+01:00",
             "subject": "[SCEV] Also queue icmp operands for selects in getOperandsToCreate (NFC)"
         },
         {
-            "hash": "83f34a420ecf8049456ba2f577c84846e87bf67a",
+            "hash": "a8a255d41d496e889ea61dd0caefa27704d6a113",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-08T23:24:08+01:00",
+            "commit_date": "2026-09-09T09:50:03+01:00",
             "subject": "[SCEV] Queue the invariant step of a simple affine addrec (NFC)"
         },
         {
-            "hash": "cad94e076743169b52d2779284dccb7efcd2b0e2",
+            "hash": "05cb973389ddc9c1fd37167e9259a364a079af5c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-08T23:24:08+01:00",
+            "commit_date": "2026-09-09T09:50:03+01:00",
             "subject": "[SCEV] Split createAddRecFromPHI and createNodeForPHI (NFC)"
         },
         {
-            "hash": "f1a98892a6444051af25d66ca23cea6d9a75725c",
+            "hash": "9dc992c4f6ecfefb11ef1961f92d622bd76d7364",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-08T23:24:09+01:00",
+            "commit_date": "2026-09-09T09:50:03+01:00",
             "subject": "[SCEV] Handle createAddRecFromPHI's backedge value iteratively"
         },
         {
-            "hash": "d6b84d497d7494b8eed3f26c5915d83349b1b1a4",
+            "hash": "05a603c0318402265c4bd70ca8244c94e6f4188b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-08T23:24:09+01:00",
+            "commit_date": "2026-09-09T09:50:04+01:00",
             "subject": "[SCEV] Stop collecting operands for PHI cases that cannot be reached"
         },
         {
-            "hash": "1a19830df4edc9008f1c4b1d26cfac1ea018d8e9",
+            "hash": "29ca57bfa99a2828ceda98f05bb77313db9a23f0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-08T23:24:09+01:00",
+            "commit_date": "2026-09-09T09:50:05+01:00",
             "subject": "[SCEV] Share the GEP-increment nowrap derivation (NFC)"
         }
     ],
