@@ -225309,6 +225309,12 @@
             "author_name": "Lang Hames",
             "commit_date": "2026-09-09T22:45:46+10:00",
             "subject": "[orc-rt] Add Mangling.h with platform symbol name mangling (#222315)"
+        },
+        {
+            "hash": "e5d8a1573950731a7e8c2163e4b9946d0556768f",
+            "author_name": "A. Jiang",
+            "commit_date": "2026-09-09T20:54:14+08:00",
+            "subject": "[libc++] Backport resolution of LWG2187 to C++11 (#222006)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -241893,6 +241899,30 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-09-08T14:35:58+00:00",
             "subject": "[GlobalISel] Avoid double DenseMap lookups in ValueToVRegInfo (NFC) (#221741)"
+        },
+        {
+            "hash": "e8e895e39746a48ad7a122caf2a099026997328c",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-09T12:54:04+00:00",
+            "subject": "[GlobalISel] Fix duplicate finalizeLowering calls (NFC) (#221902)"
+        },
+        {
+            "hash": "44fefa30b81a9a56c0ea47bc2033e3e0815c5ed2",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-09T12:54:04+00:00",
+            "subject": "[IR] Remove obsolete visited sets from type queries (NFC) (#221743)"
+        },
+        {
+            "hash": "8bf19211b772fb10e394fab313c060f2b63aaa7e",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-09T12:54:04+00:00",
+            "subject": "[GlobalISel] Lazily reserve worklist maps (NFC) (#221900)"
+        },
+        {
+            "hash": "543b56778077fe32c07f50f9cebe319c6a40b344",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-09T12:54:04+00:00",
+            "subject": "[GlobalISel] Restrict value offset tracking to aggregates (NFC) (#221287)"
         }
     ],
     "clemenswasser\/perf\/assignment-tracking-densemap": [
