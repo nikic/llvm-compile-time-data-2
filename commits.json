@@ -225633,6 +225633,12 @@
             "author_name": "Stan Ulbrych",
             "commit_date": "2026-09-09T10:02:36-07:00",
             "subject": "[docs][libFuzzer] Fix `-timeout_exitcode` and `-error_exitcode` descriptions (#221776)"
+        },
+        {
+            "hash": "4f057d974babd7782c175b4f13274346ab44aa21",
+            "author_name": "Akash Manna",
+            "commit_date": "2026-09-09T19:08:04+02:00",
+            "subject": "[Clang][Sema] Error message refers to `__begin1` with `constexpr` variable in range-based for loop (#218145)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -242755,6 +242761,32 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-09-09T13:28:27+00:00",
             "subject": "[PassTimingInfo] Return early from getPassTimer when timing is disabled (NFC)"
+        }
+    ],
+    "fhahn\/perf\/ic-simp-add2": [
+        {
+            "hash": "57edf2997431add187956bd6637f8e83075db957",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-09-09T17:33:50+02:00",
+            "subject": "[Clang] Avoid calling hasBody() when calling getBody() directly after (#221845)"
+        },
+        {
+            "hash": "477b995b115a3923b14ae94b7773e3907fc8142b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-09T16:42:55+01:00",
+            "subject": "[InstCombine] Precommit test"
+        },
+        {
+            "hash": "62310516798430cd943445f5940509e967fe3449",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-09T16:42:55+01:00",
+            "subject": "[InstCombine] Rewrite (A + C2) == C -> A == (C - C2) if cmp folds."
+        },
+        {
+            "hash": "8379dae04edcaf74006cc9e21b0b48a97f652806",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-09T18:04:27+01:00",
+            "subject": "Move to instsimplfiy"
         }
     ]
 }
