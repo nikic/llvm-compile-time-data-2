@@ -225867,6 +225867,12 @@
             "author_name": "Tim Kientzle",
             "commit_date": "2026-09-09T19:21:36+00:00",
             "subject": "[LIT] Fix quadratic behavior collecting process output (#222419)"
+        },
+        {
+            "hash": "cd10182794b76adacc6a1c94953cdb2891d5735b",
+            "author_name": "Andrei Elovikov",
+            "commit_date": "2026-09-09T19:28:43+00:00",
+            "subject": "[NFC][VPlan] Add extra tests for VPlan-based stride speculation (#218795)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -243011,10 +243017,16 @@
             "subject": "[InstCombine] Rewrite (A + C2) == C -> A == (C - C2) if cmp folds."
         },
         {
-            "hash": "8379dae04edcaf74006cc9e21b0b48a97f652806",
+            "hash": "c8367bca5bacc9ea3172c9d2dd67a8e5eb47ea8b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-09T18:04:27+01:00",
+            "commit_date": "2026-09-09T20:29:06+01:00",
             "subject": "Move to instsimplfiy"
+        },
+        {
+            "hash": "cbb37b894757315e48d9faf6329ed8f5803824d8",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-09T20:29:15+01:00",
+            "subject": "Remove from InstCombine"
         }
     ],
     "fhahn\/perf\/vps2": [
