@@ -225225,6 +225225,18 @@
             "author_name": "Mariya Podchishchaeva",
             "commit_date": "2026-09-09T12:55:41+02:00",
             "subject": "[clang][CUDA\/HIP] Fix parsing of `operator<<<...>` (#218384)"
+        },
+        {
+            "hash": "be7f0c897238a2d4ae742d1b6db50283069bdeef",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-09T10:57:56+00:00",
+            "subject": "llvm: Remove phantom relocation-model attributes from tests (#221931)"
+        },
+        {
+            "hash": "a86b58566a2581160938db41fa258ff84457b80c",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-09T12:59:29+02:00",
+            "subject": "AMDGPU: Remove xnack and sramecc subtarget features (#212792)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -242243,6 +242255,20 @@
             "author_name": "Younan Zhang",
             "commit_date": "2026-09-09T15:19:40+08:00",
             "subject": "[Clang] Avoid unnecessary overload resolution when building RecoveryExpr"
+        }
+    ],
+    "nikic\/perf\/byval-mismatch-2": [
+        {
+            "hash": "cdd1900816f625eb1f38a6e755c49ccadec56209",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-09-09T10:02:21+02:00",
+            "subject": "[IR] Do not inherit ABI attributes from the callee (#207173)"
+        },
+        {
+            "hash": "4b5dc6394fe2a94a579ca1a5d64d97bf48a83216",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-09-09T13:01:17+02:00",
+            "subject": "wip"
         }
     ]
 }
