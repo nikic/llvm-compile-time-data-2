@@ -225321,6 +225321,30 @@
             "author_name": "Alex",
             "commit_date": "2026-09-09T09:06:21-04:00",
             "subject": "[cpack][NSIS Installer] Make installer DPI-Aware (#128470)"
+        },
+        {
+            "hash": "10d4bdf93a82fb290b8c55da6ed19ff54da67296",
+            "author_name": "George Burgess IV",
+            "commit_date": "2026-09-09T07:19:43-06:00",
+            "subject": "[libc++] Opt `std::*set` out of map key extraction optimization (#220452)"
+        },
+        {
+            "hash": "4f1d2ab0a9e57909a30b9fdce73afb00d7e7d686",
+            "author_name": "Adam Smith",
+            "commit_date": "2026-09-09T08:24:04-05:00",
+            "subject": "[mlir][ABI] Add the nofreeobj param attr to the LLVM dialect (#222137)"
+        },
+        {
+            "hash": "908172d3d701ff198749418e89f3f9917fa773e1",
+            "author_name": "Schrodinger ZHU Yifan",
+            "commit_date": "2026-09-09T09:25:19-04:00",
+            "subject": "[libc][baremetal] default NUM_TABLE_ENTRIES to a fixed value of 3 in TLSF (#221807)"
+        },
+        {
+            "hash": "ff6ab759dbfd69a7b8138ed782f09dc979bad72e",
+            "author_name": "Francesco Petrogalli",
+            "commit_date": "2026-09-09T06:26:14-07:00",
+            "subject": "[llvm-c][lto] Add lto_runtime_lib_symbols_list_for_triple (#221217)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -242397,6 +242421,20 @@
             "author_name": "daemonpilot",
             "commit_date": "2026-09-09T20:10:38+08:00",
             "subject": "[GlobalISel] Add iterative known-bits evaluation to GISelValueTracking"
+        }
+    ],
+    "c-rhodes\/perf\/gisel-fast-path-exact-llt-equality": [
+        {
+            "hash": "87d9c3c24ff5941ac08799850a6549b561c98a81",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-09-09T22:45:46+10:00",
+            "subject": "[orc-rt] Add Mangling.h with platform symbol name mangling (#222315)"
+        },
+        {
+            "hash": "a5391cd5be815299b2cddcabf62a86369b247f72",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-09T13:14:15+00:00",
+            "subject": "[GlobalISel] Fast path exact LLT equality (NFC)"
         }
     ]
 }
