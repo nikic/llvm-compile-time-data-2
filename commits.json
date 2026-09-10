@@ -226815,6 +226815,18 @@
             "author_name": "Renato Golin",
             "commit_date": "2026-09-10T09:20:59-07:00",
             "subject": "[MLIR][Linalg] Change the syntax of elementwise kind attribute (#222569)"
+        },
+        {
+            "hash": "e8c833b96ccd6a9e950e9a67fb59d451668532d1",
+            "author_name": "Sang Ik Lee",
+            "commit_date": "2026-09-10T09:28:04-07:00",
+            "subject": "[MLIR][XeGPU] Lower arith.truncf wider than one xevm.truncf group (#217130)"
+        },
+        {
+            "hash": "9d4a7d05d2ef4774f08a0f95faef510c0be469a9",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-10T18:30:30+02:00",
+            "subject": "CodeGen: Remove AllowFPOpFusion from TargetOptions (#222683)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -244121,15 +244133,15 @@
     ],
     "antoniofrighetto\/perf\/scev-gep-bound-offset-scope": [
         {
-            "hash": "3c3c3d8141fe7582baab9c15ffd0bbfbba4ac8eb",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-10T15:37:35+00:00",
-            "subject": "[LV] Strip unnecessary cl::opts from headers (NFC) (#221891)"
+            "hash": "f7dd24bbe0e94ba94e3c6feda1703544e631a485",
+            "author_name": "Renato Golin",
+            "commit_date": "2026-09-10T09:20:59-07:00",
+            "subject": "[MLIR][Linalg] Change the syntax of elementwise kind attribute (#222569)"
         },
         {
-            "hash": "e0428a9813bee5a6739b6d94a62d2b8eb1add25a",
+            "hash": "8eb05a1fa7ccf8fd3f9e61a05da2e0f215bdc295",
             "author_name": "Antonio Frighetto",
-            "commit_date": "2026-09-10T17:38:13+02:00",
+            "commit_date": "2026-09-10T18:27:54+02:00",
             "subject": "[SCEV] Do not consider base ptr defining scope for offset flags in `getGEPExpr`"
         }
     ],
@@ -244145,6 +244157,20 @@
             "author_name": "Benjamin Maxwell",
             "commit_date": "2026-09-10T16:03:07+00:00",
             "subject": "Test"
+        }
+    ],
+    "MacDue\/perf\/aarch64-use-string-set": [
+        {
+            "hash": "1e6f0cbabe1bce674eadb77814d98e2263823384",
+            "author_name": "Finn Plummer",
+            "commit_date": "2026-09-10T09:00:53-07:00",
+            "subject": "[NFC][SemaHLSL][CGHLSL] Move semantic classification to common `HLSL\/SemanticSignatures` (#218058)"
+        },
+        {
+            "hash": "295603dc722ce3282f95f23f7b3bded8ca7afee8",
+            "author_name": "Benjamin Maxwell",
+            "commit_date": "2026-09-10T16:25:53+00:00",
+            "subject": "Try string set"
         }
     ]
 }
