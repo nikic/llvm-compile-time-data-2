@@ -226071,6 +226071,18 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-09-09T18:56:15-07:00",
             "subject": "[InstCombine] Fix profile propagation for wcslen folding (#222475)"
+        },
+        {
+            "hash": "92c1693b574850644535dcb8e18a70fdd115dc94",
+            "author_name": "Changpeng Fang",
+            "commit_date": "2026-09-09T19:10:42-07:00",
+            "subject": "[NFC][AMDGPU] Remove unused MC insts in isPackedSingleSGPR64BitInst (#222463)"
+        },
+        {
+            "hash": "18a61f5a44dda16720754584aee95cac652e3646",
+            "author_name": "Chinmay Deshpande",
+            "commit_date": "2026-09-09T19:17:34-07:00",
+            "subject": "[AMDGPU] Move feature LDSBankCount64 to specific subtargets. NFC (#222469)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -243259,6 +243271,20 @@
             "author_name": "Daniil Fukalov",
             "commit_date": "2026-09-09T18:27:22-04:00",
             "subject": "[RegAlloc] Reuse blocking segments within eviction searches"
+        }
+    ],
+    "dfukalov\/perf\/amdgpu-early-loop-fusion": [
+        {
+            "hash": "19a128ca460284d1274581dd6fedbc6e5f0f1a7d",
+            "author_name": "vporpo",
+            "commit_date": "2026-09-08T15:11:38-07:00",
+            "subject": "[SandboxVec][Scheduler] Reinsert deferred ready nodes to the ready list (#222054)"
+        },
+        {
+            "hash": "ba410f7829a19af3155bb59a78eef9db4b4d110d",
+            "author_name": "Daniil Fukalov",
+            "commit_date": "2026-09-09T22:12:38-04:00",
+            "subject": "[AMDGPU] Experiment with early loop fusion by default"
         }
     ]
 }
