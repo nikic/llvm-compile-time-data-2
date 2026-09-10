@@ -226593,6 +226593,18 @@
             "author_name": "Marcos Maronas",
             "commit_date": "2026-09-10T14:17:54+01:00",
             "subject": "[clang][CodeGen] Stop overriding GlobalVariable's default address space (#222367)"
+        },
+        {
+            "hash": "41fc4d5609d5f2414a2bbf9cf7e1ecd09fe5a01a",
+            "author_name": "Venkatesh Srinivasan",
+            "commit_date": "2026-09-10T15:26:28+02:00",
+            "subject": "[Clang][Sema] Add fortify warnings for strlcpy (#221325)"
+        },
+        {
+            "hash": "da15729d2108024fc2e65fdcb17143393823d6a3",
+            "author_name": "Kieran B",
+            "commit_date": "2026-09-10T14:29:30+01:00",
+            "subject": "[AArch64] Reorder ZPR stack spills to maximize ld1b\/st1b pairings (#218950)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -243867,6 +243879,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-09-10T09:53:46+00:00",
             "subject": "[AArch64] Cache repeated subtarget queries (NFC)"
+        }
+    ],
+    "tomershafir\/perf\/regalloc-hint-dedup": [
+        {
+            "hash": "dcf6f15b3de26f96216a2666460069d7e7253cbc",
+            "author_name": "Akun",
+            "commit_date": "2026-09-02T07:49:20+00:00",
+            "subject": "[mlir][SCF] Handle dropped operands in structural type conversion (#220473)"
+        },
+        {
+            "hash": "8ef9f33bd7a500eaaa783c2dfe4237e44cc5c7d7",
+            "author_name": "tomershafir",
+            "commit_date": "2026-09-10T16:24:37+03:00",
+            "subject": "test reaglloc hint dedup compile time"
         }
     ]
 }
