@@ -226365,6 +226365,18 @@
             "author_name": "Lang Hames",
             "commit_date": "2026-09-10T19:38:57+10:00",
             "subject": "[orc-rt] Express CI symbols as C-level names (#222564)"
+        },
+        {
+            "hash": "c9e07d91eb9338f1922adbc120f68cf071bd9c2c",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-10T09:51:33+00:00",
+            "subject": "[MLIR][NVVM] Shard generated operation definitions (NFC) (#221812)"
+        },
+        {
+            "hash": "9679fbfea993cb2e815fe0fa5eefde310f917349",
+            "author_name": "Paul Walker",
+            "commit_date": "2026-09-10T10:57:26+01:00",
+            "subject": "[LLVM][CodeGen][SME] Don't use non-streaming zeroing instruction when in streaming mode. (#222353)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -243625,6 +243637,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-09-10T09:30:02+00:00",
             "subject": "[AArch64] Avoid out-of-line lowerOperand calls for common MC operands"
+        }
+    ],
+    "c-rhodes\/perf\/aarch64-cache-repeated-subtarget-queries": [
+        {
+            "hash": "87d9c3c24ff5941ac08799850a6549b561c98a81",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-09-09T22:45:46+10:00",
+            "subject": "[orc-rt] Add Mangling.h with platform symbol name mangling (#222315)"
+        },
+        {
+            "hash": "544bb3d9ac28bc1a28248f6b03bcd95fa85b20e0",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-09-10T09:53:46+00:00",
+            "subject": "[AArch64] Cache repeated subtarget queries (NFC)"
         }
     ]
 }
