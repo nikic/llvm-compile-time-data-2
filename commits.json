@@ -227013,6 +227013,24 @@
             "author_name": "Erich Keane",
             "commit_date": "2026-09-10T12:43:04-07:00",
             "subject": "[CIR][NFC] Reduce the dialects referenced by cir-lsp-server to minimum (#222131)"
+        },
+        {
+            "hash": "db5421adfa1d8984bf0015ded33d12f9bbfbe80f",
+            "author_name": "ThePo1es",
+            "commit_date": "2026-09-10T12:51:51-07:00",
+            "subject": "[libc] Implement umask (#222499)"
+        },
+        {
+            "hash": "78d1301c0ffda9d2a1ebcbc90ed60ed3f0a4f04d",
+            "author_name": "Oliver Old",
+            "commit_date": "2026-09-10T15:52:00-04:00",
+            "subject": "[llvm][release] Update package versions in the Windows release script (#215749)"
+        },
+        {
+            "hash": "8ed9cadeb6224ca3818f4277935aca31a6c73609",
+            "author_name": "Jeong Jihyeon",
+            "commit_date": "2026-09-10T12:52:14-07:00",
+            "subject": "[libc] Implement fmemopen (#221748)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -244169,34 +244187,22 @@
     ],
     "fhahn\/perf\/ic-simp-add2": [
         {
-            "hash": "57edf2997431add187956bd6637f8e83075db957",
-            "author_name": "Nikolas Klauser",
-            "commit_date": "2026-09-09T17:33:50+02:00",
-            "subject": "[Clang] Avoid calling hasBody() when calling getBody() directly after (#221845)"
+            "hash": "1db5b9c26f5c153244e7617ad95ef140a1bdd2a0",
+            "author_name": "SharonXSharon",
+            "commit_date": "2026-09-10T12:00:59-07:00",
+            "subject": "[sanitizer] Address opendir interceptor test review comments (#222732)"
         },
         {
-            "hash": "477b995b115a3923b14ae94b7773e3907fc8142b",
+            "hash": "757ef1a236f401e4e61a9d32f33b9cc0fe50357c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-09T16:42:55+01:00",
+            "commit_date": "2026-09-10T20:58:32+01:00",
             "subject": "[InstCombine] Precommit test"
         },
         {
-            "hash": "62310516798430cd943445f5940509e967fe3449",
+            "hash": "15b5ca60602a62fcddc23e8e9a5f0b1a756dd66d",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-09T16:42:55+01:00",
-            "subject": "[InstCombine] Rewrite (A + C2) == C -> A == (C - C2) if cmp folds."
-        },
-        {
-            "hash": "c8367bca5bacc9ea3172c9d2dd67a8e5eb47ea8b",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-09T20:29:06+01:00",
-            "subject": "Move to instsimplfiy"
-        },
-        {
-            "hash": "cbb37b894757315e48d9faf6329ed8f5803824d8",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-09T20:29:15+01:00",
-            "subject": "Remove from InstCombine"
+            "commit_date": "2026-09-10T20:58:47+01:00",
+            "subject": "[InstSimplify] Rewrite (A + C2) == C -> A == (C - C2) if cmp folds."
         }
     ],
     "fhahn\/perf\/vps2": [
@@ -244367,9 +244373,15 @@
             "subject": "[sanitizer] Address opendir interceptor test review comments (#222732)"
         },
         {
-            "hash": "064180af2082f8fa198ae07ed6d2775f05e2574e",
+            "hash": "67eff6a3f55a05b5e300ff4467efecdb3c2750f5",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-10T20:19:39+01:00",
+            "commit_date": "2026-09-10T20:54:09+01:00",
+            "subject": "[SLP] Precommit tests"
+        },
+        {
+            "hash": "86a395c036dbc8f8e46719bbd2a4169377564943",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-10T20:54:38+01:00",
             "subject": "[SLP] Limit second pass to register VF in vectorizeNonVectorizableInsts."
         }
     ]
