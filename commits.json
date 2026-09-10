@@ -226857,6 +226857,18 @@
             "author_name": "Bar Soloveychik",
             "commit_date": "2026-09-10T10:06:02-07:00",
             "subject": "[lldb] Expose vector registers through SBValue (#220707)"
+        },
+        {
+            "hash": "d23678bd45b149107e43eed3d56a02571bafef7f",
+            "author_name": "Ran Regev",
+            "commit_date": "2026-09-10T17:10:54+00:00",
+            "subject": "[clang] Support DecompositionDecl in -ast-print (#221711)"
+        },
+        {
+            "hash": "bdf81254f94e1449ee10e50593df1211f43ba2e1",
+            "author_name": "oltolm",
+            "commit_date": "2026-09-10T10:16:05-07:00",
+            "subject": "[compiler-rt] Handle weak interfaces with MinGW GCC (#222706)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -244201,6 +244213,20 @@
             "author_name": "Benjamin Maxwell",
             "commit_date": "2026-09-10T16:25:53+00:00",
             "subject": "Try string set"
+        }
+    ],
+    "fhahn\/perf\/slp-maxvfonly": [
+        {
+            "hash": "0afee5c04021a2c8218beb6a64f3afd5f2578c02",
+            "author_name": "Dan Blackwell",
+            "commit_date": "2026-09-10T13:23:57+01:00",
+            "subject": "[Darwin][TSan] Use deadlock detector aware calls for Darwin-specific lock interceptors (#216040)"
+        },
+        {
+            "hash": "5b8c6bea77f34d347edee0100d4635f135b31241",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-10T18:14:20+01:00",
+            "subject": "[SLP] Limit second pass to register VF in vectorizeNonVectorizableInsts"
         }
     ]
 }
