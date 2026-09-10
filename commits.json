@@ -226617,6 +226617,36 @@
             "author_name": "Vy Nguyen",
             "commit_date": "2026-09-10T09:38:52-04:00",
             "subject": "[bazel]Add missing utils\/extract_symbols.py (#222653)"
+        },
+        {
+            "hash": "a774efbad6f74d695e37841c72b2a0175e4724e9",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-09-10T15:40:37+02:00",
+            "subject": "[libc++] Add [[gnu::warn_unused]] to a bunch of threading utilities (#213963)"
+        },
+        {
+            "hash": "fb69e1dcea0e527647525240af45a87420a3a593",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-10T15:42:22+02:00",
+            "subject": "AMDGPU: Query waves-per-EU and flat-wg range from subarch in attributor (#222596)"
+        },
+        {
+            "hash": "3c478e1597c11abbdafef9c08d7e11655ba1cdd5",
+            "author_name": "Kai Nacke",
+            "commit_date": "2026-09-10T09:46:16-04:00",
+            "subject": "[SystemZ][z\/OS] Relax check for additional symbols in PR section (#222435)"
+        },
+        {
+            "hash": "28d39b47e98af5a6fd8dc676f9ef576fe4b30724",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-10T15:47:14+02:00",
+            "subject": "CodeGen: Remove dead LiveVariables plumbing from MachineSink (#222563)"
+        },
+        {
+            "hash": "659faef7717be80c12e47604e61c01f2d7fc4975",
+            "author_name": "Sergei Druzhkov",
+            "commit_date": "2026-09-10T16:51:51+03:00",
+            "subject": "[lldb-dap] Add paging into modules request (#222122)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -243905,6 +243935,20 @@
             "author_name": "tomershafir",
             "commit_date": "2026-09-10T16:24:37+03:00",
             "subject": "test reaglloc hint dedup compile time"
+        }
+    ],
+    "nikic\/perf\/capture-limit-150": [
+        {
+            "hash": "eb3aad0e4c85c8ce083648297950aa11c46b27e4",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-09-10T12:28:06+02:00",
+            "subject": "[BrainF] Remove use of getSizeOf() (#222590)"
+        },
+        {
+            "hash": "24d46117b0a8d334581d03dc2f88aebe31edfa1c",
+            "author_name": "Michael Selehov",
+            "commit_date": "2026-09-10T15:51:45+02:00",
+            "subject": "Raise the default use budget from 100 to 150"
         }
     ]
 }
