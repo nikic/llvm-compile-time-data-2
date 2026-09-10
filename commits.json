@@ -226767,6 +226767,24 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-09-10T15:37:35+00:00",
             "subject": "[LV] Strip unnecessary cl::opts from headers (NFC) (#221891)"
+        },
+        {
+            "hash": "c47af0575fcfd5c3713ee009595500eb1ec0104b",
+            "author_name": "Mariusz Sikora",
+            "commit_date": "2026-09-10T17:45:54+02:00",
+            "subject": "[AMDGPU] Change physical VGPRs to 1024 for gfx13 (#222615)"
+        },
+        {
+            "hash": "fff83ec21990ed0bfee300f175b03317b1f709d6",
+            "author_name": "Mariusz Sikora",
+            "commit_date": "2026-09-10T17:46:24+02:00",
+            "subject": "[AMDGPU] Add gfx13 MC support for v_cvt_scale_pk32_* instructions (#222616)"
+        },
+        {
+            "hash": "d5c0de99769824a032ef2f602f9939e28d259f06",
+            "author_name": "Anirudh Mathur",
+            "commit_date": "2026-09-10T15:47:12+00:00",
+            "subject": "[libc] Implement futimens (#222251)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -244069,6 +244087,20 @@
             "author_name": "Michael Selehov",
             "commit_date": "2026-09-10T15:51:45+02:00",
             "subject": "Raise the default use budget from 100 to 150"
+        }
+    ],
+    "antoniofrighetto\/perf\/scev-gep-bound-offset-scope": [
+        {
+            "hash": "3c3c3d8141fe7582baab9c15ffd0bbfbba4ac8eb",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-10T15:37:35+00:00",
+            "subject": "[LV] Strip unnecessary cl::opts from headers (NFC) (#221891)"
+        },
+        {
+            "hash": "e0428a9813bee5a6739b6d94a62d2b8eb1add25a",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-09-10T17:38:13+02:00",
+            "subject": "[SCEV] Do not consider base ptr defining scope for offset flags in `getGEPExpr`"
         }
     ]
 }
