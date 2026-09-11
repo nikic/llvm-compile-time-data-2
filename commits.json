@@ -228039,6 +228039,12 @@
             "author_name": "Yao Qi",
             "commit_date": "2026-09-11T17:12:28+01:00",
             "subject": "[lldb][debugserver][NFC] Share the expedited-memory type and emitters (#222911)"
+        },
+        {
+            "hash": "cc511140cf7437110de89e779e8328ad565aa2f1",
+            "author_name": "Andy Kaylor",
+            "commit_date": "2026-09-11T09:19:20-07:00",
+            "subject": "[LLVMABI] Handle Atomic types in the LLVM ABI library (#221367)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -245439,16 +245445,22 @@
             "subject": "[llvm-ar][GOFF] Implement symbol attributes for GOFF archives (#214528)"
         },
         {
-            "hash": "c28ea6509dd1610520e6197d73736f743e989b16",
+            "hash": "70df1940fd14ce7604a30c0d675fa3e8340aef9f",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-11T09:07:32+01:00",
-            "subject": "[SCEV] Strip dead code in proving RHS > Start in howManyLT (NFC)"
+            "commit_date": "2026-09-11T17:15:18+01:00",
+            "subject": "[SCEV] Pre-commit implied-cond-ge-via-gt test"
         },
         {
-            "hash": "d8b02133184f2930c155f37feb47f652bc22ed89",
+            "hash": "d09d9c2834a1692561b26e427a0186f185e66587",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-11T15:06:27+01:00",
-            "subject": "[SCEV] Use equiv of X >= Y and X > Y - 1 to sharpen known-pred"
+            "commit_date": "2026-09-11T17:21:15+01:00",
+            "subject": "[SCEV] Use equiv of X >= Y and X > Y - 1 to sharpen implication"
+        },
+        {
+            "hash": "bab322c5174d79f42787be0aff03e7ee2db9e173",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-11T17:22:37+01:00",
+            "subject": "[SCEV] Strip dead code in proving RHS > Start in howManyLT (NFC)"
         }
     ],
     "fhahn\/perf\/scev-ptr-iv-addrec-direct": [
@@ -245493,10 +245505,16 @@
             "subject": "[llvm-ar][GOFF] Implement symbol attributes for GOFF archives (#214528)"
         },
         {
-            "hash": "110a2dacf559cf614ac483491dd3dd0899f7171f",
+            "hash": "70df1940fd14ce7604a30c0d675fa3e8340aef9f",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-11T15:41:38+01:00",
-            "subject": "[SCEV] Use equiv of X >= Y and X > Y - 1 to sharpen known-pred"
+            "commit_date": "2026-09-11T17:15:18+01:00",
+            "subject": "[SCEV] Pre-commit implied-cond-ge-via-gt test"
+        },
+        {
+            "hash": "d09d9c2834a1692561b26e427a0186f185e66587",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-11T17:21:15+01:00",
+            "subject": "[SCEV] Use equiv of X >= Y and X > Y - 1 to sharpen implication"
         }
     ],
     "fhahn\/perf\/scev-dominating-guards": [
