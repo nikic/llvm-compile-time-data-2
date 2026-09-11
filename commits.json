@@ -227565,6 +227565,42 @@
             "author_name": "David Green",
             "commit_date": "2026-09-11T09:46:54+01:00",
             "subject": "[AArch64] Guard against large types in performOrXorChainCombine (#222146)"
+        },
+        {
+            "hash": "1821d5d4fcabdd878e8c0278b59105802fe47d51",
+            "author_name": "Zeyi Xu",
+            "commit_date": "2026-09-11T16:51:58+08:00",
+            "subject": "[clang-tidy][docs] Rename readability check docs to Markdown [3\/5] (#221533)"
+        },
+        {
+            "hash": "e885b0d31b1e9d5dd83620d09ee76a92c8c38c39",
+            "author_name": "Zeyi Xu",
+            "commit_date": "2026-09-11T16:51:59+08:00",
+            "subject": "[clang-tidy][docs] Rewrite readability check docs to Markdown [3\/5] (#221534)"
+        },
+        {
+            "hash": "bc9886e720f178e0d35db1c2e11f17739b5106ce",
+            "author_name": "Kareem Ergawy",
+            "commit_date": "2026-09-11T10:54:05+02:00",
+            "subject": "[flang][OpenACC] Don't emit unstructured-loop TODO for wrappable loops (#222260)"
+        },
+        {
+            "hash": "6e25eaedeee9ee4845565514dce823988ac7f23c",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-09-11T10:54:48+02:00",
+            "subject": "[libc] Implement pthread_attr_[gs]etschedpolicy (#222682)"
+        },
+        {
+            "hash": "eb6fe5a664bfa6813223d4a71b088d53900404d4",
+            "author_name": "Ricardo Jesus",
+            "commit_date": "2026-09-11T09:55:25+01:00",
+            "subject": "[AArch64] Reassociate adds\/subs of extends for [SU](ADD|SUB)L. (#222561)"
+        },
+        {
+            "hash": "dc6825047c42442c5e18dd09d260bee983bc5712",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-11T09:58:00+01:00",
+            "subject": "[SLP] Limit second pass to register VF in vectorizeNonVectorizableInsts. (#222755)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -244969,6 +245005,20 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-09-11T09:07:32+01:00",
             "subject": "[SCEV] Strip dead code in proving RHS > Start in howManyLT (NFC)"
+        }
+    ],
+    "fhahn\/perf\/scev-ptr-iv-addrec-direct": [
+        {
+            "hash": "c1b661fde124399f0484c4b39501b37613cc4757",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-09-11T07:36:08+01:00",
+            "subject": "[clang][SVE][nfc] Remove spurious compare instruction (#222652)"
+        },
+        {
+            "hash": "5cd19e23596c86eae9607286efe86b7a3e885a86",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-11T08:08:52+01:00",
+            "subject": "[SCEV] Form add recurrences for pointer IVs without a symbolic name"
         }
     ]
 }
