@@ -227787,6 +227787,12 @@
             "author_name": "Krzysztof Parzyszek",
             "commit_date": "2026-09-11T07:30:45-05:00",
             "subject": "[OpenMP] Rename ClauseSet to Clauses and DirectiveSet to Directives, NFC (#222440)"
+        },
+        {
+            "hash": "9d3f81dadfcd509eadd16213a7f428e081214147",
+            "author_name": "Marc Auberer",
+            "commit_date": "2026-09-11T14:43:48+02:00",
+            "subject": "[RISCV] Remove deprecated hasStdExtCOrZcd\/hasStdExtCOrZcfOrZce (#222925)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -245191,6 +245197,12 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-09-11T09:07:32+01:00",
             "subject": "[SCEV] Strip dead code in proving RHS > Start in howManyLT (NFC)"
+        },
+        {
+            "hash": "76073bcf36d42038b7985e429ec42eb950208909",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-11T13:39:09+01:00",
+            "subject": "[SCEV] Sharpen BTC computations with minus-one overflow trick"
         }
     ],
     "fhahn\/perf\/scev-ptr-iv-addrec-direct": [
@@ -245225,6 +245237,20 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-09-11T10:32:23+01:00",
             "subject": "[SCEV] Fall thru in null-BE loop-variant case in howManyLT (NFC)"
+        }
+    ],
+    "artagnon\/perf\/scev-sharpen-btc-one-ov": [
+        {
+            "hash": "847fb5cfde68fdea490171bc24087ebb0cd90738",
+            "author_name": "Amy Kwan",
+            "commit_date": "2026-09-10T10:38:30-04:00",
+            "subject": "[llvm-ar][GOFF] Implement symbol attributes for GOFF archives (#214528)"
+        },
+        {
+            "hash": "023fa64a7f0cc13f9ab4e02ed92d9837e090d536",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-11T13:33:01+01:00",
+            "subject": "[SCEV] Sharpen BTC computations with minus-one overflow trick"
         }
     ]
 }
