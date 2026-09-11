@@ -227631,6 +227631,12 @@
             "author_name": "Nikolas Klauser",
             "commit_date": "2026-09-11T11:25:03+02:00",
             "subject": "[libc++] Make _LIBCPP_PROVIDES_DEFAULT_RUNE_TABLE part of the locale base API (#219196)"
+        },
+        {
+            "hash": "f276d8f00313f593ab9d8f3a1d242b6754f0a436",
+            "author_name": "Abid Qadeer",
+            "commit_date": "2026-09-11T10:36:37+01:00",
+            "subject": "[OMPIRBuilder] Don't leak a foreign debug loc into the taskwait call (#222586)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -245049,6 +245055,26 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-11T08:08:52+01:00",
             "subject": "[SCEV] Form add recurrences for pointer IVs without a symbolic name"
+        }
+    ],
+    "artagnon\/perf\/scev-howmanylt-nullbe-fallthru-nfc": [
+        {
+            "hash": "847fb5cfde68fdea490171bc24087ebb0cd90738",
+            "author_name": "Amy Kwan",
+            "commit_date": "2026-09-10T10:38:30-04:00",
+            "subject": "[llvm-ar][GOFF] Implement symbol attributes for GOFF archives (#214528)"
+        },
+        {
+            "hash": "cc2f6f89aaf4eb567f903c663708175242e57c0c",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-11T10:07:30+01:00",
+            "subject": "[SCEV] Init BE vars to CouldNotCompute in howManyLT (NFC)"
+        },
+        {
+            "hash": "c034c498660697625749b6ebf982cc8ea1f1c38f",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-11T10:32:23+01:00",
+            "subject": "[SCEV] Fall thru in null-BE loop-variant case in howManyLT (NFC)"
         }
     ]
 }
