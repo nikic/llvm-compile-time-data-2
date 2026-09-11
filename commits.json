@@ -228375,6 +228375,18 @@
             "author_name": "Deric C.",
             "commit_date": "2026-09-11T13:45:50-07:00",
             "subject": "[DirectX] Add texture support to atomicrmw lowering (#221369)"
+        },
+        {
+            "hash": "364bed30971df7fb50d7aadfc21f3996a97bf3a4",
+            "author_name": "Tomohiro Kashiwada",
+            "commit_date": "2026-09-12T00:01:48+03:00",
+            "subject": "(NFC)[Clang][Driver] Add ToolChain::GetFilePathIfExists and use it (#221063)"
+        },
+        {
+            "hash": "393710bbf74c4e7b92226603a18ead0bba70a8a0",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-09-11T14:07:28-07:00",
+            "subject": "Reland \"[llvm][AArch64] Ensure stack alignment in non-sibcall tail calls with FPDiff\" (#220406)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -241899,6 +241911,12 @@
             "author_name": "Eli Friedman",
             "commit_date": "2026-09-11T11:07:48-07:00",
             "subject": "Don't analyze load backedge."
+        },
+        {
+            "hash": "c2b31ba6097fdb185b38c1c1a62cb09f305ac71a",
+            "author_name": "Eli Friedman",
+            "commit_date": "2026-09-11T14:10:01-07:00",
+            "subject": "Don't analyze call backedge."
         }
     ],
     "artagnon\/perf\/scev-udiv-wrap-infer": [
