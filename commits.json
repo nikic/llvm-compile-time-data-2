@@ -228183,6 +228183,18 @@
             "author_name": "Helena Kotas",
             "commit_date": "2026-09-11T10:59:46-07:00",
             "subject": "[SPIRV] Refactor implicit binding legalization (#222848)"
+        },
+        {
+            "hash": "8ad4ac7d28c618d8a35229c480fc8ea912dea1ec",
+            "author_name": "Jackson Stogel",
+            "commit_date": "2026-09-11T11:07:47-07:00",
+            "subject": "[bazel][libc] Add targets for startup objects on linux (#218995)"
+        },
+        {
+            "hash": "800e7f8f308196b27cec5880789a1519e0bee70a",
+            "author_name": "Christian Kandeler",
+            "commit_date": "2026-09-11T20:12:25+02:00",
+            "subject": "[clangd] Offer Extract to Function for single expression-statements (#219945)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -241691,34 +241703,22 @@
     ],
     "efriedma-quic\/perf\/scev-partially-iterative-addrecfromphi-earlyreturn": [
         {
-            "hash": "13034ef965533cdc9d215a8d506ee8250ead972b",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-08-18T20:02:49+00:00",
-            "subject": "[ObjcARCContract] Do not replace llvm.lifetime argument. (#216991)"
+            "hash": "05da143c63d333420b99eab198e1a89c97480929",
+            "author_name": "windsunil",
+            "commit_date": "2026-08-29T12:08:00-04:00",
+            "subject": "[libc] Disable float16 on 32-bit x86 without SSE2 (#219675)"
         },
         {
-            "hash": "b33ce912063cf8c2da9a47922fe9d25aef26a37f",
+            "hash": "5078983f301b8ce307d2afdc02fb16e67c7a6184",
             "author_name": "Eli Friedman",
-            "commit_date": "2026-08-18T13:08:08-07:00",
+            "commit_date": "2026-09-11T11:05:59-07:00",
             "subject": "[SCEV] Avoid recursion in PHI handling in more cases."
         },
         {
-            "hash": "b57a0bfd9cf583601c9a8df26b340afab3deae72",
+            "hash": "bf5579bb857793f1bf296fadfc470d441f66a558",
             "author_name": "Eli Friedman",
-            "commit_date": "2026-08-18T13:08:08-07:00",
-            "subject": "Update comment."
-        },
-        {
-            "hash": "7c44c957c05755d0693eb286aadd1441ad1f9acf",
-            "author_name": "Eli Friedman",
-            "commit_date": "2026-08-18T13:08:08-07:00",
-            "subject": "Add back early returns to check for perf issue."
-        },
-        {
-            "hash": "24fd6c69ebe61eba0ae97ff80c4ce7ddac933653",
-            "author_name": "Eli Friedman",
-            "commit_date": "2026-08-18T16:11:59-07:00",
-            "subject": "valuesForAddRecFromPHI special case"
+            "commit_date": "2026-09-11T11:07:48-07:00",
+            "subject": "Don't analyze load backedge."
         }
     ],
     "artagnon\/perf\/scev-udiv-wrap-infer": [
