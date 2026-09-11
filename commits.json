@@ -227877,6 +227877,18 @@
             "author_name": "Robert",
             "commit_date": "2026-09-11T15:54:55+02:00",
             "subject": "[libsycl] Add constructors for context (#214538)"
+        },
+        {
+            "hash": "853a7fc14e85659be5b5ac6cfd3481712e3795d1",
+            "author_name": "Chris Copeland",
+            "commit_date": "2026-09-11T15:01:46+01:00",
+            "subject": "[ARM] Prevent use of the VFP calling convention when +soft-float is enabled (#221434)"
+        },
+        {
+            "hash": "cfa4135a9d324b3c539d9f874509ba03a8b0106f",
+            "author_name": "Larry Meadows",
+            "commit_date": "2026-09-11T14:05:06+00:00",
+            "subject": "[OpenMP] Don't reserve the generic mode warp on SPIR-V (#222763)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -245331,10 +245343,10 @@
             "subject": "[llvm-ar][GOFF] Implement symbol attributes for GOFF archives (#214528)"
         },
         {
-            "hash": "023fa64a7f0cc13f9ab4e02ed92d9837e090d536",
+            "hash": "770f6d8c91943a0fe54ec9269d891ebfb5ec3055",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-11T13:33:01+01:00",
-            "subject": "[SCEV] Sharpen BTC computations with minus-one overflow trick"
+            "commit_date": "2026-09-11T14:55:13+01:00",
+            "subject": "[SCEV] Use equiv of X >= Y and X > Y - 1 to sharpen known-pred"
         }
     ]
 }
