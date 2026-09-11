@@ -228477,6 +228477,24 @@
             "author_name": "Lang Hames",
             "commit_date": "2026-09-12T08:35:44+10:00",
             "subject": "[orc-rt] Refactor RTTI for cross-library support, add C API (#222946)"
+        },
+        {
+            "hash": "80bc02604c4ecec507c906552db3e03e5efdaee3",
+            "author_name": "Slava Zakharin",
+            "commit_date": "2026-09-11T15:36:24-07:00",
+            "subject": "[flang][OpenACC] Allocate bufferized recipe descriptors in device memory (#223028)"
+        },
+        {
+            "hash": "a8e989fe377385906abdda1f965622fe83941fd4",
+            "author_name": "Slava Zakharin",
+            "commit_date": "2026-09-11T15:36:38-07:00",
+            "subject": "[mlir][OpenACC] Preserve reduction mappings during materialization. (#222189)"
+        },
+        {
+            "hash": "4d10444e7d4c8fcb6533522f39cd0ffb88497253",
+            "author_name": "Slava Zakharin",
+            "commit_date": "2026-09-11T15:36:50-07:00",
+            "subject": "[mlir][OpenACC] Restrict implicit data to compute constructs (#222759)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -242007,6 +242025,12 @@
             "author_name": "Eli Friedman",
             "commit_date": "2026-09-11T14:10:01-07:00",
             "subject": "Don't analyze call backedge."
+        },
+        {
+            "hash": "c9f368381e4ae884e6b5d7e780714bd345fd5aba",
+            "author_name": "Eli Friedman",
+            "commit_date": "2026-09-11T15:38:17-07:00",
+            "subject": "More exclusions: dominates the loop, misc. insts."
         }
     ],
     "artagnon\/perf\/scev-udiv-wrap-infer": [
