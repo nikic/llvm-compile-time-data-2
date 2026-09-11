@@ -227511,6 +227511,30 @@
             "author_name": "yamash-fj",
             "commit_date": "2026-09-11T08:59:45+01:00",
             "subject": "[AArch64]  Parameterize repeated FP divisor combine threshold by subtarget (#216930)"
+        },
+        {
+            "hash": "478b91b6f8a2b08dce9673555e3f6da8e6e69051",
+            "author_name": "Matt\u00e9o Rizza Murgier",
+            "commit_date": "2026-09-11T10:02:53+02:00",
+            "subject": "[mlir][ComplexToStandard] Fix Conj and Neg ops fmf propagation (#222622)"
+        },
+        {
+            "hash": "7bb74b19b7f0bbe491898de2289e72d09e4a6b26",
+            "author_name": "Matt\u00e9o Rizza Murgier",
+            "commit_date": "2026-09-11T10:03:13+02:00",
+            "subject": "[mlir][ComplexToLLVM] Fix abs op fmf propagation (#222621)"
+        },
+        {
+            "hash": "12f00f9cd311a910a84f3e8a05b5b0c96e2bdf78",
+            "author_name": "Nikhil Ludder",
+            "commit_date": "2026-09-11T10:08:27+02:00",
+            "subject": "[GVN] Skip instructions without value numbers in `processNonLocalLoad` (#219851)"
+        },
+        {
+            "hash": "6700445cfe301eb079e13ed1079fb86d1f7b1402",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-11T10:12:41+02:00",
+            "subject": "RISCV: Maintain VL\/VTYPE liveness when clearing dead flags in InsertVSETVLI (#222862)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -244895,6 +244919,20 @@
             "author_name": "Zach Goldthorpe",
             "commit_date": "2026-09-10T15:56:06-05:00",
             "subject": "Check AA metadata before testing if guaranteed to execute"
+        }
+    ],
+    "artagnon\/perf\/scev-howmanylt-deadcode": [
+        {
+            "hash": "847fb5cfde68fdea490171bc24087ebb0cd90738",
+            "author_name": "Amy Kwan",
+            "commit_date": "2026-09-10T10:38:30-04:00",
+            "subject": "[llvm-ar][GOFF] Implement symbol attributes for GOFF archives (#214528)"
+        },
+        {
+            "hash": "c28ea6509dd1610520e6197d73736f743e989b16",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-11T09:07:32+01:00",
+            "subject": "[SCEV] Strip dead code in proving RHS > Start in howManyLT (NFC)"
         }
     ]
 }
