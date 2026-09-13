@@ -229077,6 +229077,12 @@
             "author_name": "Minsoo Choo",
             "commit_date": "2026-09-13T17:02:43-04:00",
             "subject": "[lldb][Process\/FreeBSD-Kernel-Core] Dereference stoppcbs based on target kernel version (#222977)"
+        },
+        {
+            "hash": "4b08871f7ffe6ad818147145f8b6103e6c9b2c95",
+            "author_name": "Ziqing Luo",
+            "commit_date": "2026-09-13T14:08:56-07:00",
+            "subject": "[SSAF][SourceEdit] Wire in 'clang-ssaf-src-edit-merge' and add multi-TU tests (#220372)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -246299,39 +246305,39 @@
     ],
     "fhahn\/perf\/ic-simp-add2": [
         {
-            "hash": "979b374a7ca7adc936d9339c1db79b0d6cda06db",
-            "author_name": "\u00d6mer Sinan A\u011facan",
-            "commit_date": "2026-09-13T18:17:05+02:00",
-            "subject": "[AggressiveInstCombine] Fix terminology in a few comments (NFC) (#222327)"
+            "hash": "82a18cf0c030a1c82ad32f74f1cb8bf67adf1649",
+            "author_name": "Tomohiro Kashiwada",
+            "commit_date": "2026-09-13T23:53:58+03:00",
+            "subject": "[Clang][MinGW] Link default-manifest.o if exists (#223084)"
         },
         {
-            "hash": "91eceaa9e0f107fcbd44774609b1fb3a97f5734d",
+            "hash": "58f48990b20df606008915b881edd3a0fcfa9ca7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T17:43:46+01:00",
+            "commit_date": "2026-09-13T22:08:50+01:00",
             "subject": "[InstCombine] Precommit test"
         },
         {
-            "hash": "21e7383c5d6353e4331222eec9a4feb297032675",
+            "hash": "3954cb1439a4e24b6fbccc7a231c69a875f197b5",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T17:43:46+01:00",
+            "commit_date": "2026-09-13T22:08:50+01:00",
             "subject": "[ValueTracking] Compare known bits of X against (C2 - C1) for (X + C1)."
         },
         {
-            "hash": "b18d362238aa32adc434285d270a762e03525fc6",
+            "hash": "7d3ab90f927ebd659f65ad06ade2ec33b1508afc",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T17:43:47+01:00",
+            "commit_date": "2026-09-13T22:08:50+01:00",
             "subject": "[ValueTracking] Cancel a constant offset in isImpliedCondICmps."
         },
         {
-            "hash": "c6a58c48184af018fab12e1f5eb6e708f1830af8",
+            "hash": "ab63484bbba8d05428271fe29e3154b12e287b14",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T17:43:47+01:00",
+            "commit_date": "2026-09-13T22:08:50+01:00",
             "subject": "[InstSimplify] Rewrite (A + C2) == C -> A == (C - C2) if cmp folds."
         },
         {
-            "hash": "fe4a598ff25466d2ce39a3536e4fb88b08054d8b",
+            "hash": "7872704533f3323cc79a660b1be2bd1b3cb2b19c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T17:43:47+01:00",
+            "commit_date": "2026-09-13T22:08:51+01:00",
             "subject": "[InstSimplify] Don't re-thread over phis for (A + C2) == C."
         }
     ],
