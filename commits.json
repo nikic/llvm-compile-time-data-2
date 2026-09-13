@@ -228981,6 +228981,12 @@
             "author_name": "Dhairyashil R G",
             "commit_date": "2026-09-13T19:01:59+01:00",
             "subject": "[mlir][vector] Don't fold in_bounds for negative constant indices (#219681)"
+        },
+        {
+            "hash": "b7877e01cb1087d81fd72eb320c3c7d3f8e03500",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-13T19:09:37+01:00",
+            "subject": "[ConstraintElim] Derive an unsigned IV bound from a signed relational latch. (#222762)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -246595,6 +246601,26 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-09-13T18:16:10+02:00",
             "subject": "offset path entry"
+        }
+    ],
+    "fhahn\/perf\/vpsp": [
+        {
+            "hash": "240670d0d5dcd649bd3728871087c938b5e097f2",
+            "author_name": "MaoJiaping",
+            "commit_date": "2026-09-13T16:40:06+02:00",
+            "subject": "[NFC][ModuleUtils] Move externalize() from module splitting utilities (#221181)"
+        },
+        {
+            "hash": "65c3c60d58bf8377efe6a235b40b966959f61963",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-13T19:02:43+01:00",
+            "subject": "[VPlan] Don't require single-pred blocks on path to loop region (NFC)."
+        },
+        {
+            "hash": "68999dfa137d7bc145d465fc46c326dd7d9f98d9",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-13T19:02:43+01:00",
+            "subject": "[VPlan] Set the containing plan when creating blocks (NFC)."
         }
     ]
 }
