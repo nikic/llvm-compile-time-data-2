@@ -229059,6 +229059,24 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-13T21:53:46+01:00",
             "subject": "[VPlan] Don't create no-op casts in truncateToMinimalBitwidths. (#223271)"
+        },
+        {
+            "hash": "82a18cf0c030a1c82ad32f74f1cb8bf67adf1649",
+            "author_name": "Tomohiro Kashiwada",
+            "commit_date": "2026-09-13T23:53:58+03:00",
+            "subject": "[Clang][MinGW] Link default-manifest.o if exists (#223084)"
+        },
+        {
+            "hash": "9bf40ce33523745e19328924593134e4510bfa5f",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-09-13T22:57:50+02:00",
+            "subject": "[AMDGPU] Fix s_buffer_load crash for illegal result types (#215483)"
+        },
+        {
+            "hash": "cf530065be1fccbd9ac1d5ccc7d55d80681de41d",
+            "author_name": "Minsoo Choo",
+            "commit_date": "2026-09-13T17:02:43-04:00",
+            "subject": "[lldb][Process\/FreeBSD-Kernel-Core] Dereference stoppcbs based on target kernel version (#222977)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -246611,57 +246629,57 @@
     ],
     "fhahn\/perf\/scev-dominating-guards": [
         {
-            "hash": "db65ace07649b2beb8cdbdfd6af4901809df9966",
-            "author_name": "Younan Zhang",
-            "commit_date": "2026-09-13T12:09:55+00:00",
-            "subject": "Revert \"[Clang] Refactor instantiation of declarations within concepts\" (#223235)"
+            "hash": "82a18cf0c030a1c82ad32f74f1cb8bf67adf1649",
+            "author_name": "Tomohiro Kashiwada",
+            "commit_date": "2026-09-13T23:53:58+03:00",
+            "subject": "[Clang][MinGW] Link default-manifest.o if exists (#223084)"
         },
         {
-            "hash": "5137bea45abccb74a049af6c9ab0c695bd6ded21",
+            "hash": "4909b1695af56eb18c0200ae8a0f9c4616f07abb",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T17:06:59+01:00",
+            "commit_date": "2026-09-13T21:59:45+01:00",
             "subject": "[ConstantRange] Compute constant-operand no-wrap regions directly"
         },
         {
-            "hash": "74621ed12711d87af4b4370a0d8ea0d3390f1fbd",
+            "hash": "53cc5dc16361cf7dde7b95b7d6c23856dc1d0e8b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T17:06:59+01:00",
+            "commit_date": "2026-09-13T21:59:45+01:00",
             "subject": "[SCEV] Use exact no-wrap regions for constant operands"
         },
         {
-            "hash": "31b33481eef24784c4ac12bbc5ba3ee48fe39c88",
+            "hash": "ae8e76d846354442185d78c8618d8a7c6ef83cb9",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T17:19:21+01:00",
+            "commit_date": "2026-09-13T21:59:45+01:00",
             "subject": "[SCEV] Test loop guard collection past an unrelated branch"
         },
         {
-            "hash": "29286c42f428908de257739ef880539642000db9",
+            "hash": "229edde5ab451f06a71352248d3b0a1214249fe3",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T17:26:16+01:00",
+            "commit_date": "2026-09-13T21:59:46+01:00",
             "subject": "[SCEV] Look for guarding conditions through merge blocks."
         },
         {
-            "hash": "9aaf5252c0a96d1a0729b0b69e4a0495eff58d50",
+            "hash": "ab925f390f6d885a754eb1a05cdd44a1e86bf3b1",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T17:32:56+01:00",
+            "commit_date": "2026-09-13T21:59:46+01:00",
             "subject": "[SCEV] Bound additional dominating-guard implication queries"
         },
         {
-            "hash": "6fa01b77ddbcebfde056056c46562a2d1e7b103b",
+            "hash": "bdb1fdace986682f2a766228d191f4c72a891b21",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T17:33:06+01:00",
+            "commit_date": "2026-09-13T21:59:46+01:00",
             "subject": "[SCEV] Only charge usable conditions against the guard-proof budget"
         },
         {
-            "hash": "786786420a48417a46da9fe926c42d3d926e3c7f",
+            "hash": "10ea124d3ff708655e082b0bffed7f5630fb3163",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T17:33:07+01:00",
+            "commit_date": "2026-09-13T21:59:46+01:00",
             "subject": "[SCEV] Skip dominating branches no fact can be derived from"
         },
         {
-            "hash": "0a5985c768bcf5eb6a5d28f7324ac11db1fa406a",
+            "hash": "9f78e2a8057f42a53f2a09257f05d91e05e5f8ae",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T17:39:01+01:00",
+            "commit_date": "2026-09-13T21:59:46+01:00",
             "subject": "isBasicBlockentryGuardedBy"
         }
     ],
