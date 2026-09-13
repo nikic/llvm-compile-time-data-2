@@ -246095,22 +246095,40 @@
     ],
     "fhahn\/perf\/ic-simp-add2": [
         {
-            "hash": "1db5b9c26f5c153244e7617ad95ef140a1bdd2a0",
-            "author_name": "SharonXSharon",
-            "commit_date": "2026-09-10T12:00:59-07:00",
-            "subject": "[sanitizer] Address opendir interceptor test review comments (#222732)"
+            "hash": "979b374a7ca7adc936d9339c1db79b0d6cda06db",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-09-13T18:17:05+02:00",
+            "subject": "[AggressiveInstCombine] Fix terminology in a few comments (NFC) (#222327)"
         },
         {
-            "hash": "757ef1a236f401e4e61a9d32f33b9cc0fe50357c",
+            "hash": "91eceaa9e0f107fcbd44774609b1fb3a97f5734d",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-10T20:58:32+01:00",
+            "commit_date": "2026-09-13T17:43:46+01:00",
             "subject": "[InstCombine] Precommit test"
         },
         {
-            "hash": "15b5ca60602a62fcddc23e8e9a5f0b1a756dd66d",
+            "hash": "21e7383c5d6353e4331222eec9a4feb297032675",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-10T20:58:47+01:00",
+            "commit_date": "2026-09-13T17:43:46+01:00",
+            "subject": "[ValueTracking] Compare known bits of X against (C2 - C1) for (X + C1)."
+        },
+        {
+            "hash": "b18d362238aa32adc434285d270a762e03525fc6",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-13T17:43:47+01:00",
+            "subject": "[ValueTracking] Cancel a constant offset in isImpliedCondICmps."
+        },
+        {
+            "hash": "c6a58c48184af018fab12e1f5eb6e708f1830af8",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-13T17:43:47+01:00",
             "subject": "[InstSimplify] Rewrite (A + C2) == C -> A == (C - C2) if cmp folds."
+        },
+        {
+            "hash": "fe4a598ff25466d2ce39a3536e4fb88b08054d8b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-13T17:43:47+01:00",
+            "subject": "[InstSimplify] Don't re-thread over phis for (A + C2) == C."
         }
     ],
     "fhahn\/perf\/vps2": [
