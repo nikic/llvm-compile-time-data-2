@@ -246311,16 +246311,40 @@
     ],
     "fhahn\/perf\/scev-dominating-guards": [
         {
-            "hash": "ab7245d75cc97db490d73037b5f021a561381d0d",
-            "author_name": "Matt Arsenault",
-            "commit_date": "2026-09-10T09:56:16+02:00",
-            "subject": "libclc: Update fmod implementations (#222369)"
+            "hash": "db65ace07649b2beb8cdbdfd6af4901809df9966",
+            "author_name": "Younan Zhang",
+            "commit_date": "2026-09-13T12:09:55+00:00",
+            "subject": "Revert \"[Clang] Refactor instantiation of declarations within concepts\" (#223235)"
         },
         {
-            "hash": "c115c48fcb1e0f626d10b64fc4c56638ce81e43c",
+            "hash": "de58555ad2e22461eff93543909f692b333dd8c4",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-11T15:19:42+01:00",
+            "commit_date": "2026-09-13T12:13:58+00:00",
+            "subject": "[SCEV] Test loop guard collection past an unrelated branch"
+        },
+        {
+            "hash": "5c22b8138a012af30fe792cae24ee8969bd1ece1",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-13T12:14:38+00:00",
             "subject": "[SCEV] Look for guarding conditions through merge blocks."
+        },
+        {
+            "hash": "7f94e75b9e4363256dfcb49447ca896ee1f9d22b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-13T12:14:40+00:00",
+            "subject": "[SCEV] Bound additional dominating-guard implication queries"
+        },
+        {
+            "hash": "7c4f47e5d6bbae493d83bdeb661c397ab0fdd084",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-13T12:14:40+00:00",
+            "subject": "[ConstantRange] Compute constant-operand no-wrap regions directly"
+        },
+        {
+            "hash": "bf04667047cf48d8b121f2a4ff3be61b818fd008",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-13T12:14:40+00:00",
+            "subject": "[SCEV] Use exact no-wrap regions for constant operands"
         }
     ],
     "dtcxzyw\/perf\/infer-nsw-from-sub-nuw": [
