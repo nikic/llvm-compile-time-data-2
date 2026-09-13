@@ -246413,34 +246413,52 @@
             "subject": "Revert \"[Clang] Refactor instantiation of declarations within concepts\" (#223235)"
         },
         {
-            "hash": "de58555ad2e22461eff93543909f692b333dd8c4",
+            "hash": "5137bea45abccb74a049af6c9ab0c695bd6ded21",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T12:13:58+00:00",
-            "subject": "[SCEV] Test loop guard collection past an unrelated branch"
-        },
-        {
-            "hash": "5c22b8138a012af30fe792cae24ee8969bd1ece1",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T12:14:38+00:00",
-            "subject": "[SCEV] Look for guarding conditions through merge blocks."
-        },
-        {
-            "hash": "7f94e75b9e4363256dfcb49447ca896ee1f9d22b",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T12:14:40+00:00",
-            "subject": "[SCEV] Bound additional dominating-guard implication queries"
-        },
-        {
-            "hash": "7c4f47e5d6bbae493d83bdeb661c397ab0fdd084",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T12:14:40+00:00",
+            "commit_date": "2026-09-13T17:06:59+01:00",
             "subject": "[ConstantRange] Compute constant-operand no-wrap regions directly"
         },
         {
-            "hash": "bf04667047cf48d8b121f2a4ff3be61b818fd008",
+            "hash": "74621ed12711d87af4b4370a0d8ea0d3390f1fbd",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T12:14:40+00:00",
+            "commit_date": "2026-09-13T17:06:59+01:00",
             "subject": "[SCEV] Use exact no-wrap regions for constant operands"
+        },
+        {
+            "hash": "31b33481eef24784c4ac12bbc5ba3ee48fe39c88",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-13T17:19:21+01:00",
+            "subject": "[SCEV] Test loop guard collection past an unrelated branch"
+        },
+        {
+            "hash": "29286c42f428908de257739ef880539642000db9",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-13T17:26:16+01:00",
+            "subject": "[SCEV] Look for guarding conditions through merge blocks."
+        },
+        {
+            "hash": "9aaf5252c0a96d1a0729b0b69e4a0495eff58d50",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-13T17:32:56+01:00",
+            "subject": "[SCEV] Bound additional dominating-guard implication queries"
+        },
+        {
+            "hash": "6fa01b77ddbcebfde056056c46562a2d1e7b103b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-13T17:33:06+01:00",
+            "subject": "[SCEV] Only charge usable conditions against the guard-proof budget"
+        },
+        {
+            "hash": "786786420a48417a46da9fe926c42d3d926e3c7f",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-13T17:33:07+01:00",
+            "subject": "[SCEV] Skip dominating branches no fact can be derived from"
+        },
+        {
+            "hash": "0a5985c768bcf5eb6a5d28f7324ac11db1fa406a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-13T17:39:01+01:00",
+            "subject": "isBasicBlockentryGuardedBy"
         }
     ],
     "dtcxzyw\/perf\/infer-nsw-from-sub-nuw": [
