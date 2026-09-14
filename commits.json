@@ -229323,6 +229323,12 @@
             "author_name": "Sergio Afonso",
             "commit_date": "2026-09-14T11:00:25+01:00",
             "subject": "[MLIR][OpenMP] DeclareTargetInterface and DeclareTargetAttr cleanup (#217295)"
+        },
+        {
+            "hash": "37fe7024f2944f71d58b8608d209bda3254fa43a",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-09-14T12:07:49+02:00",
+            "subject": "[SPIR-V] Add missing read_imageh builtin mapping (#222549)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -247071,6 +247077,38 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-09-14T00:23:49-07:00",
             "subject": "[IR] Store the links of a DIAssignID in the node"
+        }
+    ],
+    "fhahn\/perf\/cr-nowrap": [
+        {
+            "hash": "5fa83314adddbd13e4347ec8fc22e235d5710978",
+            "author_name": "Daniel Cederman",
+            "commit_date": "2026-09-14T07:50:56+02:00",
+            "subject": "[SPARC] Add LEON5 processor (#222912)"
+        },
+        {
+            "hash": "51a59f2c654769634069ac9ba2f2e635c57f506d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-14T11:05:53+01:00",
+            "subject": "[ConstantRange] Compute exact no-wrap regions without materializing a range"
+        },
+        {
+            "hash": "16913cdda8a8b8c4dd3078f41456b531e3f21052",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-14T11:05:59+01:00",
+            "subject": "[SCEV] Use makeExactNoWrapRegion for constant operands"
+        },
+        {
+            "hash": "3baf8e6b981ad6d72938242f28c18aef7999c844",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-14T11:05:59+01:00",
+            "subject": "[ConstraintElimination] Use makeExactNoWrapRegion for constant operands"
+        },
+        {
+            "hash": "3ea2818a6f81d112a50cca82d6ab354526df5316",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-14T11:06:00+01:00",
+            "subject": "[ConstantRange] Drop a no-op division in makeExactMulNUWRegion"
         }
     ]
 }
