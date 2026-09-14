@@ -229983,6 +229983,12 @@
             "author_name": "Joseph Huber",
             "commit_date": "2026-09-14T14:30:16-05:00",
             "subject": "[Offload] Link against specific HSA library and then fallback (#223454)"
+        },
+        {
+            "hash": "aa261b730fe1dd212160de5ba64ed2a71a20b72c",
+            "author_name": "Dmitry Sidorov",
+            "commit_date": "2026-09-14T21:31:36+02:00",
+            "subject": "[NFC][AMDGPU] Move i64 int to fp narrowing tests into their own file (#223463)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -247829,6 +247835,20 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-09-14T19:49:44+02:00",
             "subject": "[AsmPrinter] Memoize isEntryValue and cut container growth in DbgEntityHistory"
+        }
+    ],
+    "clemenswasser\/perf\/ldv-scope-blocks-cache": [
+        {
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
+        },
+        {
+            "hash": "52471c48e8e40f91b07afe6a9533dff0a66289bf",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-14T21:36:42+02:00",
+            "subject": "[LiveDebugValues] Cache scope blocks per run in getBlocksForScope"
         }
     ]
 }
