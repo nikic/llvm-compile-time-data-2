@@ -229773,6 +229773,24 @@
             "author_name": "Amit Tiwari",
             "commit_date": "2026-09-14T21:48:00+05:30",
             "subject": "[OpenMP][OMPD] Load `libompd` with LLVM dynamic lib (#222455)"
+        },
+        {
+            "hash": "797d62d47c361d2658c57523f8a2de4d42906ff4",
+            "author_name": "Miguel A. Arroyo",
+            "commit_date": "2026-09-14T09:31:11-07:00",
+            "subject": "[llvm][test] Extend -print-on-crash testing granularity (#222725)"
+        },
+        {
+            "hash": "d86120d1b83e8ff36ced6c2379f07efeacfa040c",
+            "author_name": "Kunal Pathak",
+            "commit_date": "2026-09-14T09:34:56-07:00",
+            "subject": "Add reference of llvm.pseudoprobe in LangRef.md (#223065)"
+        },
+        {
+            "hash": "9bb24f0654921737fd07b3ac4b2efc03eac8f359",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-09-14T09:35:26-07:00",
+            "subject": "[ELF] Remove tryCreateFile probe for -o\/-Map\/--why-extract (#222831)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -247573,6 +247591,32 @@
             "author_name": "Enna1",
             "commit_date": "2026-09-14T20:27:26+08:00",
             "subject": "wip"
+        }
+    ],
+    "fhahn\/perf\/cr-nowrap1": [
+        {
+            "hash": "5fa83314adddbd13e4347ec8fc22e235d5710978",
+            "author_name": "Daniel Cederman",
+            "commit_date": "2026-09-14T07:50:56+02:00",
+            "subject": "[SPARC] Add LEON5 processor (#222912)"
+        },
+        {
+            "hash": "b7c5efaffa52ac025979f87ebcbeb50d23b3b5bb",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-14T17:11:30+01:00",
+            "subject": "[ConstantRange] Compute exact no-wrap regions without materializing a range"
+        },
+        {
+            "hash": "1ce4e2cf052d34e8e0a7f324d53fcaeeff820c93",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-14T17:32:56+01:00",
+            "subject": "Unify"
+        },
+        {
+            "hash": "f4e1fa646c1c399666198667ec41354cf5798a60",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-14T17:33:00+01:00",
+            "subject": "[SCEV] Use makeExactNoWrapRegion for constant operands"
         }
     ]
 }
