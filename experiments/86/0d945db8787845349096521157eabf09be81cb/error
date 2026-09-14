@@ -1,0 +1,236 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[1517/3396] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/InstrEmitter.cpp.o
+[1518/3396] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/LegalizeDAG.cpp.o
+[1519/3396] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/LegalizeIntegerTypes.cpp.o
+[1520/3396] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/FastISel.cpp.o
+[1521/3396] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/DAGCombiner.cpp.o
+[1522/3396] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/FunctionLoweringInfo.cpp.o
+[1523/3396] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/LegalizeTypesGeneric.cpp.o
+[1524/3396] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/LegalizeVectorOps.cpp.o
+[1525/3396] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/LegalizeVectorTypes.cpp.o
+[1526/3396] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/ResourcePriorityQueue.cpp.o
+[1527/3396] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/SDNodeInfo.cpp.o
+[1528/3396] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/ScheduleDAGFast.cpp.o
+[1529/3396] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/ScheduleDAGRRList.cpp.o
+[1530/3396] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/ScheduleDAGSDNodes.cpp.o
+[1531/3396] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/ScheduleDAGVLIW.cpp.o
+[1532/3396] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandReductions.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandReductions.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandReductions.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandReductions.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandReductions.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/ExpandReductions.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetTransformInfo.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/ExpandReductions.cpp:16:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:545:19: error: declaration of ‘llvm::SCEVNoWrapFlags llvm::MonotonicDescriptor::SCEVNoWrapFlags’ changes meaning of ‘SCEVNoWrapFlags’ [-fpermissive]
+  545 |   SCEVNoWrapFlags SCEVNoWrapFlags{};
+      |                   ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:33:12: note: ‘SCEVNoWrapFlags’ declared here as ‘enum class llvm::SCEVNoWrapFlags’
+   33 | enum class SCEVNoWrapFlags;
+      |            ^~~~~~~~~~~~~~~
+[1533/3396] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandVectorPredication.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandVectorPredication.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandVectorPredication.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandVectorPredication.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandVectorPredication.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/ExpandVectorPredication.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetTransformInfo.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/ExpandVectorPredication.cpp:16:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:545:19: error: declaration of ‘llvm::SCEVNoWrapFlags llvm::MonotonicDescriptor::SCEVNoWrapFlags’ changes meaning of ‘SCEVNoWrapFlags’ [-fpermissive]
+  545 |   SCEVNoWrapFlags SCEVNoWrapFlags{};
+      |                   ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:33:12: note: ‘SCEVNoWrapFlags’ declared here as ‘enum class llvm::SCEVNoWrapFlags’
+   33 | enum class SCEVNoWrapFlags;
+      |            ^~~~~~~~~~~~~~~
+[1534/3396] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/HardwareLoops.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/HardwareLoops.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/HardwareLoops.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/HardwareLoops.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/HardwareLoops.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/HardwareLoops.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetTransformInfo.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/HardwareLoops.cpp:26:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:545:19: error: declaration of ‘llvm::SCEVNoWrapFlags llvm::MonotonicDescriptor::SCEVNoWrapFlags’ changes meaning of ‘SCEVNoWrapFlags’ [-fpermissive]
+  545 |   SCEVNoWrapFlags SCEVNoWrapFlags{};
+      |                   ^~~~~~~~~~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/HardwareLoops.cpp:24:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/ScalarEvolution.h:110:12: note: ‘SCEVNoWrapFlags’ declared here as ‘enum class llvm::SCEVNoWrapFlags’
+  110 | enum class SCEVNoWrapFlags {
+      |            ^~~~~~~~~~~~~~~
+[1535/3396] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/MachineUniformityAnalysis.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/MachineUniformityAnalysis.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/MachineUniformityAnalysis.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/MachineUniformityAnalysis.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/MachineUniformityAnalysis.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/MachineUniformityAnalysis.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetTransformInfo.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/MachineUniformityAnalysis.cpp:11:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:545:19: error: declaration of ‘llvm::SCEVNoWrapFlags llvm::MonotonicDescriptor::SCEVNoWrapFlags’ changes meaning of ‘SCEVNoWrapFlags’ [-fpermissive]
+  545 |   SCEVNoWrapFlags SCEVNoWrapFlags{};
+      |                   ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:33:12: note: ‘SCEVNoWrapFlags’ declared here as ‘enum class llvm::SCEVNoWrapFlags’
+   33 | enum class SCEVNoWrapFlags;
+      |            ^~~~~~~~~~~~~~~
+[1536/3396] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DwarfEHPrepare.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DwarfEHPrepare.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DwarfEHPrepare.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DwarfEHPrepare.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DwarfEHPrepare.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/DwarfEHPrepare.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetTransformInfo.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/DwarfEHPrepare.cpp:20:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:545:19: error: declaration of ‘llvm::SCEVNoWrapFlags llvm::MonotonicDescriptor::SCEVNoWrapFlags’ changes meaning of ‘SCEVNoWrapFlags’ [-fpermissive]
+  545 |   SCEVNoWrapFlags SCEVNoWrapFlags{};
+      |                   ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:33:12: note: ‘SCEVNoWrapFlags’ declared here as ‘enum class llvm::SCEVNoWrapFlags’
+   33 | enum class SCEVNoWrapFlags;
+      |            ^~~~~~~~~~~~~~~
+[1537/3396] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/TargetPassConfig.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/TargetPassConfig.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/TargetPassConfig.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/TargetPassConfig.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/TargetPassConfig.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/TargetPassConfig.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetTransformInfo.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/TargetPassConfig.cpp:21:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:545:19: error: declaration of ‘llvm::SCEVNoWrapFlags llvm::MonotonicDescriptor::SCEVNoWrapFlags’ changes meaning of ‘SCEVNoWrapFlags’ [-fpermissive]
+  545 |   SCEVNoWrapFlags SCEVNoWrapFlags{};
+      |                   ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:33:12: note: ‘SCEVNoWrapFlags’ declared here as ‘enum class llvm::SCEVNoWrapFlags’
+   33 | enum class SCEVNoWrapFlags;
+      |            ^~~~~~~~~~~~~~~
+[1538/3396] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/InterleavedLoadCombinePass.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/InterleavedLoadCombinePass.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/InterleavedLoadCombinePass.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/InterleavedLoadCombinePass.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/InterleavedLoadCombinePass.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/InterleavedLoadCombinePass.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetTransformInfo.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/InterleavedLoadCombinePass.cpp:29:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:545:19: error: declaration of ‘llvm::SCEVNoWrapFlags llvm::MonotonicDescriptor::SCEVNoWrapFlags’ changes meaning of ‘SCEVNoWrapFlags’ [-fpermissive]
+  545 |   SCEVNoWrapFlags SCEVNoWrapFlags{};
+      |                   ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:33:12: note: ‘SCEVNoWrapFlags’ declared here as ‘enum class llvm::SCEVNoWrapFlags’
+   33 | enum class SCEVNoWrapFlags;
+      |            ^~~~~~~~~~~~~~~
+[1539/3396] Building AArch64GenInstrInfo.inc...
+[1540/3396] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ComplexDeinterleavingPass.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ComplexDeinterleavingPass.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ComplexDeinterleavingPass.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ComplexDeinterleavingPass.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ComplexDeinterleavingPass.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/ComplexDeinterleavingPass.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetTransformInfo.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/ComplexDeinterleavingPass.cpp:67:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:545:19: error: declaration of ‘llvm::SCEVNoWrapFlags llvm::MonotonicDescriptor::SCEVNoWrapFlags’ changes meaning of ‘SCEVNoWrapFlags’ [-fpermissive]
+  545 |   SCEVNoWrapFlags SCEVNoWrapFlags{};
+      |                   ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:33:12: note: ‘SCEVNoWrapFlags’ declared here as ‘enum class llvm::SCEVNoWrapFlags’
+   33 | enum class SCEVNoWrapFlags;
+      |            ^~~~~~~~~~~~~~~
+[1541/3396] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/PreISelIntrinsicLowering.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/PreISelIntrinsicLowering.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/PreISelIntrinsicLowering.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/PreISelIntrinsicLowering.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/PreISelIntrinsicLowering.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/PreISelIntrinsicLowering.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetTransformInfo.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/PreISelIntrinsicLowering.cpp:19:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:545:19: error: declaration of ‘llvm::SCEVNoWrapFlags llvm::MonotonicDescriptor::SCEVNoWrapFlags’ changes meaning of ‘SCEVNoWrapFlags’ [-fpermissive]
+  545 |   SCEVNoWrapFlags SCEVNoWrapFlags{};
+      |                   ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:33:12: note: ‘SCEVNoWrapFlags’ declared here as ‘enum class llvm::SCEVNoWrapFlags’
+   33 | enum class SCEVNoWrapFlags;
+      |            ^~~~~~~~~~~~~~~
+[1542/3396] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/SelectOptimize.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/SelectOptimize.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/SelectOptimize.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/SelectOptimize.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/SelectOptimize.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/SelectOptimize.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetTransformInfo.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/SelectOptimize.cpp:22:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:545:19: error: declaration of ‘llvm::SCEVNoWrapFlags llvm::MonotonicDescriptor::SCEVNoWrapFlags’ changes meaning of ‘SCEVNoWrapFlags’ [-fpermissive]
+  545 |   SCEVNoWrapFlags SCEVNoWrapFlags{};
+      |                   ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:33:12: note: ‘SCEVNoWrapFlags’ declared here as ‘enum class llvm::SCEVNoWrapFlags’
+   33 | enum class SCEVNoWrapFlags;
+      |            ^~~~~~~~~~~~~~~
+[1543/3396] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/TargetLoweringBase.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/TargetLoweringBase.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/TargetLoweringBase.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/TargetLoweringBase.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/TargetLoweringBase.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/TargetLoweringBase.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetTransformInfo.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/TargetLoweringBase.cpp:20:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:545:19: error: declaration of ‘llvm::SCEVNoWrapFlags llvm::MonotonicDescriptor::SCEVNoWrapFlags’ changes meaning of ‘SCEVNoWrapFlags’ [-fpermissive]
+  545 |   SCEVNoWrapFlags SCEVNoWrapFlags{};
+      |                   ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:33:12: note: ‘SCEVNoWrapFlags’ declared here as ‘enum class llvm::SCEVNoWrapFlags’
+   33 | enum class SCEVNoWrapFlags;
+      |            ^~~~~~~~~~~~~~~
+[1544/3396] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/TypePromotion.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/TypePromotion.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/TypePromotion.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/TypePromotion.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/TypePromotion.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/TypePromotion.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetTransformInfo.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/TypePromotion.cpp:22:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:545:19: error: declaration of ‘llvm::SCEVNoWrapFlags llvm::MonotonicDescriptor::SCEVNoWrapFlags’ changes meaning of ‘SCEVNoWrapFlags’ [-fpermissive]
+  545 |   SCEVNoWrapFlags SCEVNoWrapFlags{};
+      |                   ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:33:12: note: ‘SCEVNoWrapFlags’ declared here as ‘enum class llvm::SCEVNoWrapFlags’
+   33 | enum class SCEVNoWrapFlags;
+      |            ^~~~~~~~~~~~~~~
+[1545/3396] Building AArch64GenSubtargetInfo.inc...
+[1546/3396] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BasicTargetTransformInfo.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BasicTargetTransformInfo.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BasicTargetTransformInfo.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BasicTargetTransformInfo.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BasicTargetTransformInfo.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/BasicTargetTransformInfo.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetTransformInfo.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/BasicTTIImpl.h:27,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/BasicTargetTransformInfo.cpp:17:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:545:19: error: declaration of ‘llvm::SCEVNoWrapFlags llvm::MonotonicDescriptor::SCEVNoWrapFlags’ changes meaning of ‘SCEVNoWrapFlags’ [-fpermissive]
+  545 |   SCEVNoWrapFlags SCEVNoWrapFlags{};
+      |                   ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:33:12: note: ‘SCEVNoWrapFlags’ declared here as ‘enum class llvm::SCEVNoWrapFlags’
+   33 | enum class SCEVNoWrapFlags;
+      |            ^~~~~~~~~~~~~~~
+[1547/3396] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenTargetMachineImpl.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenTargetMachineImpl.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenTargetMachineImpl.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenTargetMachineImpl.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenTargetMachineImpl.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenTargetMachineImpl.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetTransformInfo.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/CodeGen/BasicTTIImpl.h:27,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenTargetMachineImpl.cpp:17:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:545:19: error: declaration of ‘llvm::SCEVNoWrapFlags llvm::MonotonicDescriptor::SCEVNoWrapFlags’ changes meaning of ‘SCEVNoWrapFlags’ [-fpermissive]
+  545 |   SCEVNoWrapFlags SCEVNoWrapFlags{};
+      |                   ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:33:12: note: ‘SCEVNoWrapFlags’ declared here as ‘enum class llvm::SCEVNoWrapFlags’
+   33 | enum class SCEVNoWrapFlags;
+      |            ^~~~~~~~~~~~~~~
+[1548/3396] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenPrepare.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenPrepare.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenPrepare.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenPrepare.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenPrepare.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetTransformInfo.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:34:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:545:19: error: declaration of ‘llvm::SCEVNoWrapFlags llvm::MonotonicDescriptor::SCEVNoWrapFlags’ changes meaning of ‘SCEVNoWrapFlags’ [-fpermissive]
+  545 |   SCEVNoWrapFlags SCEVNoWrapFlags{};
+      |                   ^~~~~~~~~~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/ScalarEvolutionExpressions.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:32:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/ScalarEvolution.h:110:12: note: ‘SCEVNoWrapFlags’ declared here as ‘enum class llvm::SCEVNoWrapFlags’
+  110 | enum class SCEVNoWrapFlags {
+      |            ^~~~~~~~~~~~~~~
+[1549/3396] Building CXX object lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/SelectionDAGBuilder.cpp.o
+FAILED: lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/SelectionDAGBuilder.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen/SelectionDAG -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/SelectionDAG -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -fno-exceptions -funwind-tables -fno-rtti -std=c++17 -MD -MT lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/SelectionDAGBuilder.cpp.o -MF lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/SelectionDAGBuilder.cpp.o.d -o lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/SelectionDAGBuilder.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/SelectionDAG/SelectionDAGBuilder.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/TargetTransformInfo.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/SelectionDAG/SelectionDAGBuilder.cpp:29:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:545:19: error: declaration of ‘llvm::SCEVNoWrapFlags llvm::MonotonicDescriptor::SCEVNoWrapFlags’ changes meaning of ‘SCEVNoWrapFlags’ [-fpermissive]
+  545 |   SCEVNoWrapFlags SCEVNoWrapFlags{};
+      |                   ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/IVDescriptors.h:33:12: note: ‘SCEVNoWrapFlags’ declared here as ‘enum class llvm::SCEVNoWrapFlags’
+   33 | enum class SCEVNoWrapFlags;
+      |            ^~~~~~~~~~~~~~~
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning at CMakeLists.txt:4 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/lld/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:3 (message):
+  Your CMake version is 3.22.1.  Starting with LLVM 24, the minimum version
+  of CMake required to build LLVM will become 3.31.0, and using an older
+  CMake will become an error.  Please upgrade your CMake to at least 3.31.0
+  now to avoid issues in the future.
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+173.59user 13.37system 0:16.13elapsed 1158%CPU (0avgtext+0avgdata 876432maxresident)k
+0inputs+908984outputs (3036major+8294669minor)pagefaults 0swaps
