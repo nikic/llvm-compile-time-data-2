@@ -229575,6 +229575,24 @@
             "author_name": "robertvirany",
             "commit_date": "2026-09-14T07:43:53-06:00",
             "subject": "[NVPTX] Add clmad instruction selection (#216412)"
+        },
+        {
+            "hash": "41a620da5a34d3e6256dc25e0c7c51c4afa8576d",
+            "author_name": "Yao Qi",
+            "commit_date": "2026-09-14T13:52:04+00:00",
+            "subject": "[lldb] Fix 32-bit narrowing conversions in the memory cache (#223402)"
+        },
+        {
+            "hash": "6fd0ee2150ab3297ae89cbc64e98f588886906c9",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-14T13:57:04+00:00",
+            "subject": "[SCEV] Return a SCEVUse from getAddExpr and propagate use flags. (#220007)"
+        },
+        {
+            "hash": "16884524477d711aabd67b9d4417667463f62603",
+            "author_name": "Kai Nacke",
+            "commit_date": "2026-09-14T09:58:26-04:00",
+            "subject": "[SystemZ][z\/OS] Align constant pool (#222980)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -247251,33 +247269,21 @@
     ],
     "tbaederr\/perf\/opaque4": [
         {
-            "hash": "a67c8f208e8710ad8b6b6e2ca4de57e4e0db7178",
-            "author_name": "Kaviya Rajendiran",
-            "commit_date": "2026-09-12T10:20:36+05:30",
-            "subject": "[Flang][Driver]Implemented support for option -momit-leaf-frame-pointer\/-mno-omit-leaf-frame-pointer in flang (#216700)"
+            "hash": "9008f496e3dd414cb25aedd47168bc83bf52f470",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-14T13:17:41+00:00",
+            "subject": "AMDGPU: Use subarch triples in new tests added since all were converted (#223385)"
         },
         {
-            "hash": "3608cb3d7cb3db600987197584762d7adf2bd0fd",
+            "hash": "2f7be5780bb2e551de1734950d2577434ca33c32",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-13T16:36:43+02:00",
+            "commit_date": "2026-09-14T15:19:22+02:00",
             "subject": "test"
         },
         {
-            "hash": "0dd83d1149d2fba5623afa8f2cc6d214690e7e8c",
+            "hash": "41131431d5b451628c1466149187dfea21dc93d8",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-13T16:36:43+02:00",
-            "subject": "zmog"
-        },
-        {
-            "hash": "4756bef57a313465a5bb09324b82c5d4e4610274",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-13T18:16:10+02:00",
-            "subject": "offset path entry"
-        },
-        {
-            "hash": "37e7b53f7229035b0b2a0eba0f05032c9e647038",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-14T14:58:21+02:00",
+            "commit_date": "2026-09-14T15:53:49+02:00",
             "subject": "record alloc"
         }
     ],
