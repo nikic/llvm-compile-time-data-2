@@ -246876,5 +246876,19 @@
             "commit_date": "2026-09-13T12:51:51-07:00",
             "subject": "[IR] Do not track metadata uses of ConstantData"
         }
+    ],
+    "MaskRay\/perf\/md-handle-rauw": [
+        {
+            "hash": "6d7e7fbafd8d010a3a4146b24e8cca2c8b7dc831",
+            "author_name": "Harrison Hao",
+            "commit_date": "2026-09-14T08:58:49+08:00",
+            "subject": "[InstCombine] Fold uitofp of masked truncations (#222592)"
+        },
+        {
+            "hash": "7775949acb2e2c21c60f8d1435aedff4a5f9e5e7",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-09-13T19:34:16-07:00",
+            "subject": "[IR] Move ValueAsMetadata uses on RAUW instead of retargeting the node"
+        }
     ]
 }
