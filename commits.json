@@ -230061,6 +230061,18 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-14T20:40:24+00:00",
             "subject": "[VPlan] Use VPlan-based costs for pointer inductions. (#223394)"
+        },
+        {
+            "hash": "081a3f0ca08e60747bf90620c0644af44321b9a4",
+            "author_name": "Avi Kivity",
+            "commit_date": "2026-09-14T22:55:59+02:00",
+            "subject": "Revert \"[clang][NFC] Refactor flag enum caching (#210632)\" (#223244)"
+        },
+        {
+            "hash": "44ebda796ec9b6a43d5bef01efe58c0c67b8c971",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-14T17:02:23-04:00",
+            "subject": "[SLP][NFC]Add a test with the overoptimistic vectorization, NFC"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -247941,6 +247953,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-14T21:50:53+01:00",
             "subject": "Unify queriest show"
+        }
+    ],
+    "clemenswasser\/perf\/loop-idiom-skip-storeless": [
+        {
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
+        },
+        {
+            "hash": "a0b451c6dd3eacecfe474342eeb199f4fd01075a",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-14T22:53:40+02:00",
+            "subject": "[LoopIdiom] Skip SCEV backedge analysis for loops without writes"
         }
     ]
 }
