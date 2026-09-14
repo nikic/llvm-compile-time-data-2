@@ -229521,6 +229521,30 @@
             "author_name": "Lang Hames",
             "commit_date": "2026-09-14T23:12:29+10:00",
             "subject": "[ORC] Use lookupAndApply for EPCGenericRTDyldMemoryManager (#223377)"
+        },
+        {
+            "hash": "9008f496e3dd414cb25aedd47168bc83bf52f470",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-14T13:17:41+00:00",
+            "subject": "AMDGPU: Use subarch triples in new tests added since all were converted (#223385)"
+        },
+        {
+            "hash": "004d5960e8e187b1e2b4a55e6221399aa076c258",
+            "author_name": "Zihao Wang",
+            "commit_date": "2026-09-14T14:19:34+01:00",
+            "subject": "[X86][CodeGen] Support partial-reduce dot products (#205373)"
+        },
+        {
+            "hash": "a55e86582aeac1d4af64fa315ed49764c3981fad",
+            "author_name": "Ayokunle Amodu",
+            "commit_date": "2026-09-14T09:21:00-04:00",
+            "subject": "[CIR][AMDGPU] Add support for AMDGCN permlane builtins (#223161)"
+        },
+        {
+            "hash": "1af17ef01973f915ccbd168c01da1718097fd7f8",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-09-14T23:22:00+10:00",
+            "subject": "[ORC] Carry out-of-band errors in SimpleRemoteEPC results (#223378)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -240221,22 +240245,22 @@
             "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
         },
         {
-            "hash": "197fe78e36511b9d9f19b6465337274d4bc0c553",
+            "hash": "095b709cbd4cf3beea3ad47c995a6e840e018adb",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-09-14T15:01:04+02:00",
-            "subject": "[GlobalsAA] Remove dead FunctionToSCCMap and CollectSCCMembership"
+            "commit_date": "2026-09-14T15:14:50+02:00",
+            "subject": "[GlobalsAA] Remove dead SCC membership tracking"
         },
         {
-            "hash": "1b0786414790f6bff97d7cdfa14b23bdee736a1b",
+            "hash": "7f4b6148db62e507c851e039a66d3e55185a5986",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-09-14T15:03:19+02:00",
-            "subject": "[GlobalsAA] Extract shared attribute and body-scan helpers"
+            "commit_date": "2026-09-14T15:14:52+02:00",
+            "subject": "[GlobalsAA] Extract shared helpers"
         },
         {
-            "hash": "791ca5215bb4cc833d006d09a51754e7ebda4266",
+            "hash": "114c1022c95848ab19887feee5c4a0b4858eea3c",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-09-14T15:03:57+02:00",
-            "subject": "[GlobalsAA] Switch to LazyCallGraph"
+            "commit_date": "2026-09-14T15:14:53+02:00",
+            "subject": "[GlobalsAA] Port to LazyCallGraph"
         }
     ],
     "rj-jesus\/perf\/rjj\/aarch64-sve-skip-non-pseudo-hints": [
@@ -247079,58 +247103,64 @@
     ],
     "fhahn\/perf\/scev-dominating-guards": [
         {
-            "hash": "82a18cf0c030a1c82ad32f74f1cb8bf67adf1649",
-            "author_name": "Tomohiro Kashiwada",
-            "commit_date": "2026-09-13T23:53:58+03:00",
-            "subject": "[Clang][MinGW] Link default-manifest.o if exists (#223084)"
+            "hash": "7421fba54dea2d03ea7b756cc4f0ba248c4e30b3",
+            "author_name": "Thrrreeee",
+            "commit_date": "2026-09-14T20:21:06+08:00",
+            "subject": "[BOLT][RISCV] Support reading RV64 RELR relocations (#222265)"
         },
         {
-            "hash": "4909b1695af56eb18c0200ae8a0f9c4616f07abb",
+            "hash": "1a5abcbe1a93d534a0a4f319443c7e5393b370a0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T21:59:45+01:00",
-            "subject": "[ConstantRange] Compute constant-operand no-wrap regions directly"
-        },
-        {
-            "hash": "53cc5dc16361cf7dde7b95b7d6c23856dc1d0e8b",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T21:59:45+01:00",
-            "subject": "[SCEV] Use exact no-wrap regions for constant operands"
-        },
-        {
-            "hash": "ae8e76d846354442185d78c8618d8a7c6ef83cb9",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T21:59:45+01:00",
+            "commit_date": "2026-09-14T13:25:29+01:00",
             "subject": "[SCEV] Test loop guard collection past an unrelated branch"
         },
         {
-            "hash": "229edde5ab451f06a71352248d3b0a1214249fe3",
+            "hash": "f2a94ebd521b964c9edf78457db0d3fc0cba23d0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T21:59:46+01:00",
+            "commit_date": "2026-09-14T13:55:03+01:00",
+            "subject": "[SCEV] Skip the guard-intrinsic lookup when the module has no guards"
+        },
+        {
+            "hash": "818c75528e22262fd108e38e1c17afcfa7d11128",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-14T14:02:27+01:00",
+            "subject": "[SCEV] Stop computing loop-guard ranges once no wrap flag can be preserved"
+        },
+        {
+            "hash": "f46f16f211a379f4905510e7755c643a8a08081d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-14T14:07:40+01:00",
             "subject": "[SCEV] Look for guarding conditions through merge blocks."
         },
         {
-            "hash": "ab925f390f6d885a754eb1a05cdd44a1e86bf3b1",
+            "hash": "cb9ca5d8de6618989b3fb984fb6df2b916f9407d",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T21:59:46+01:00",
+            "commit_date": "2026-09-14T14:08:01+01:00",
             "subject": "[SCEV] Bound additional dominating-guard implication queries"
         },
         {
-            "hash": "bdb1fdace986682f2a766228d191f4c72a891b21",
+            "hash": "4c61884e119236d7814be10ec0cb1c3b4c3118e8",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T21:59:46+01:00",
+            "commit_date": "2026-09-14T14:09:47+01:00",
             "subject": "[SCEV] Only charge usable conditions against the guard-proof budget"
         },
         {
-            "hash": "10ea124d3ff708655e082b0bffed7f5630fb3163",
+            "hash": "d17502e4f99d43a80d25d76b20452ba6d15b2367",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T21:59:46+01:00",
+            "commit_date": "2026-09-14T14:09:51+01:00",
             "subject": "[SCEV] Skip dominating branches no fact can be derived from"
         },
         {
-            "hash": "9f78e2a8057f42a53f2a09257f05d91e05e5f8ae",
+            "hash": "105112fefcb185c160f886439fb1790d0b1756d0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T21:59:46+01:00",
-            "subject": "isBasicBlockentryGuardedBy"
+            "commit_date": "2026-09-14T14:10:18+01:00",
+            "subject": "[SCEV] Decide dominating-guard edge dominance without scanning predecessors"
+        },
+        {
+            "hash": "f230ae3ec75f5154e4f1b6121d7bfb182a895775",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-14T14:10:50+01:00",
+            "subject": "[SCEV] Bound the dominating-branch walk to a single condition"
         }
     ],
     "dtcxzyw\/perf\/infer-nsw-from-sub-nuw": [
