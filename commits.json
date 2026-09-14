@@ -229905,6 +229905,12 @@
             "author_name": "vporpo",
             "commit_date": "2026-09-14T11:07:22-07:00",
             "subject": "[SandboxVec][VecUtils][NFC] BndlRef helper class (#223074)"
+        },
+        {
+            "hash": "7b8bb9d1f379da437eacfa7f4de96957e41956c6",
+            "author_name": "Alexander Richardson",
+            "commit_date": "2026-09-14T11:12:05-07:00",
+            "subject": "[TableGen] Expose remapRegClassByHwMode() helper in AsmMatcher"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -247731,6 +247737,26 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-14T17:33:00+01:00",
             "subject": "[SCEV] Use makeExactNoWrapRegion for constant operands"
+        }
+    ],
+    "clemenswasser\/perf\/dbg-entity-history-containers": [
+        {
+            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-09-03T19:42:05+01:00",
+            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
+        },
+        {
+            "hash": "566227160fa3736d9886c61387623d2ced5099f7",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-07T13:13:54+02:00",
+            "subject": "[AsmPrinter] Use DenseMap in DbgEntityHistoryCalculator"
+        },
+        {
+            "hash": "8adf58f7ca6edc73c6d1f8e7b4f12bb3380a2f17",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-14T19:49:44+02:00",
+            "subject": "[AsmPrinter] Memoize isEntryValue and cut container growth in DbgEntityHistory"
         }
     ]
 }
