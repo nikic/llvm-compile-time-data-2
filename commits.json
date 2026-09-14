@@ -229503,6 +229503,24 @@
             "author_name": "Matteo Di Iorio",
             "commit_date": "2026-09-14T08:59:44-04:00",
             "subject": "[libc][Bazel] Add missing F16 math targets (#222937)"
+        },
+        {
+            "hash": "b8c7806bd5e3a40ce3fabd8743d73d77e7a417ab",
+            "author_name": "Akash Banerjee",
+            "commit_date": "2026-09-14T14:06:22+01:00",
+            "subject": "[Flang][OpenMP] Fix use_device_addr descriptor types (#222961)"
+        },
+        {
+            "hash": "26462ac6c2b0a5932a4354957e6e0ba8f4824383",
+            "author_name": "Thrrreeee",
+            "commit_date": "2026-09-14T21:10:01+08:00",
+            "subject": "[BOLT][RISCV] Add basic RISC-V initialization support for unit tests (#222883)"
+        },
+        {
+            "hash": "67397010eb5541f08fcdbb8be86b8b799ca88142",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-09-14T23:12:29+10:00",
+            "subject": "[ORC] Use lookupAndApply for EPCGenericRTDyldMemoryManager (#223377)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -240203,15 +240221,21 @@
             "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
         },
         {
-            "hash": "2f7aad89161bf3b1e0ccaefafda94a0b25ddce59",
+            "hash": "197fe78e36511b9d9f19b6465337274d4bc0c553",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-09-03T20:45:07+02:00",
-            "subject": "[CallGraph] Replace slow dyn_cast with fast check"
+            "commit_date": "2026-09-14T15:01:04+02:00",
+            "subject": "[GlobalsAA] Remove dead FunctionToSCCMap and CollectSCCMembership"
         },
         {
-            "hash": "9823dd1cf2e8e83f873f9144836c3a277cc7a05f",
+            "hash": "1b0786414790f6bff97d7cdfa14b23bdee736a1b",
             "author_name": "Clemens Wasser",
-            "commit_date": "2026-09-03T20:45:07+02:00",
+            "commit_date": "2026-09-14T15:03:19+02:00",
+            "subject": "[GlobalsAA] Extract shared attribute and body-scan helpers"
+        },
+        {
+            "hash": "791ca5215bb4cc833d006d09a51754e7ebda4266",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-14T15:03:57+02:00",
             "subject": "[GlobalsAA] Switch to LazyCallGraph"
         }
     ],
