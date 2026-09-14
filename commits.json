@@ -229989,6 +229989,24 @@
             "author_name": "Dmitry Sidorov",
             "commit_date": "2026-09-14T21:31:36+02:00",
             "subject": "[NFC][AMDGPU] Move i64 int to fp narrowing tests into their own file (#223463)"
+        },
+        {
+            "hash": "e219016c1903fe0f4877ef0f6f2f9ce1f4351d5c",
+            "author_name": "Joseph Huber",
+            "commit_date": "2026-09-14T14:50:07-05:00",
+            "subject": "[compiler-rt] Fix host-only AMDGPU tests being added to GPU build (#223505)"
+        },
+        {
+            "hash": "9fad63f308b5a6e1cf0b1599e606732915201cac",
+            "author_name": "Domenic Nutile",
+            "commit_date": "2026-09-14T15:54:49-04:00",
+            "subject": "[AMDGPU][True16][GlobalISel] Update True16 handling for FMA_MIX instructions in GlobalISel (#205431)"
+        },
+        {
+            "hash": "54ce74d9a41991b2a00eb4d373aa3b8d45b34851",
+            "author_name": "Arthur Eubanks",
+            "commit_date": "2026-09-14T12:57:59-07:00",
+            "subject": "[gn build] Port b3000bf6 (#223509)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -247799,21 +247817,21 @@
             "subject": "[SPARC] Add LEON5 processor (#222912)"
         },
         {
-            "hash": "b7c5efaffa52ac025979f87ebcbeb50d23b3b5bb",
+            "hash": "e52ee6aeb6d59f5cacf155ed0361456859de8e5a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-14T17:11:30+01:00",
+            "commit_date": "2026-09-14T17:51:28+01:00",
             "subject": "[ConstantRange] Compute exact no-wrap regions without materializing a range"
         },
         {
-            "hash": "1ce4e2cf052d34e8e0a7f324d53fcaeeff820c93",
+            "hash": "df762dba7a7b9845efc033202125037c2749015b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-14T17:32:56+01:00",
-            "subject": "Unify"
+            "commit_date": "2026-09-14T20:53:15+01:00",
+            "subject": "Try soften impact"
         },
         {
-            "hash": "f4e1fa646c1c399666198667ec41354cf5798a60",
+            "hash": "891866ce94bba047f1dae5c12d7b248cbddfa0a7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-14T17:33:00+01:00",
+            "commit_date": "2026-09-14T20:53:40+01:00",
             "subject": "[SCEV] Use makeExactNoWrapRegion for constant operands"
         }
     ],
