@@ -230703,6 +230703,12 @@
             "author_name": "Dmitry Sidorov",
             "commit_date": "2026-09-15T14:53:36+02:00",
             "subject": "[NFC][AMDGPU] Add cost tests for integer to\/from floating point casts (#223571)"
+        },
+        {
+            "hash": "be1ca5fcce2b2c91342b691b79fb5c30ba28688e",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-09-15T15:02:21+02:00",
+            "subject": "[ARM] Fix Int_eh_sjlj_longjmp instruction size (#223639)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -247473,22 +247479,28 @@
     ],
     "fhahn\/perf\/ic-simp-add": [
         {
-            "hash": "e85a62955715c5ff38b685303379313ac81a0bbf",
-            "author_name": "Erich Keane",
-            "commit_date": "2026-09-08T17:47:41+00:00",
-            "subject": "[NFCI][CIR] Add in 2 missing returns- (#222061)"
+            "hash": "e78970f80f1041de8948cb0b665a9aaae682f6c6",
+            "author_name": "Mariusz Sikora",
+            "commit_date": "2026-09-15T13:06:30+02:00",
+            "subject": "[AMDGPU] MC support for v_wave_match_b32 on gfx13 (#223360)"
         },
         {
-            "hash": "580f7c76831c63dbbf6b4f69709b903dbf2abd5d",
+            "hash": "7c277101d31128aa80e555fded994c7949789980",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-08T20:33:57+01:00",
+            "commit_date": "2026-09-15T13:22:43+01:00",
             "subject": "[InstCombine] Precommit test"
         },
         {
-            "hash": "f4ba863d902d14577e03ddec5748787a2ee26b09",
+            "hash": "fac2613533d951eaad340b17899dbbc8ed8ec360",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-08T22:21:36+01:00",
+            "commit_date": "2026-09-15T13:22:43+01:00",
             "subject": "[InstCombine] Rewrite (A + C2) == C -> A == (C - C2) if cmp folds."
+        },
+        {
+            "hash": "33ddcbb9df7bb600f8cb420d08d94dbb59ad20c3",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-15T13:53:00+01:00",
+            "subject": "!fixup sink NewRHS"
         }
     ],
     "clemenswasser\/perf\/dbg-label-cache": [
