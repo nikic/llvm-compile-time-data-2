@@ -230931,6 +230931,18 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-15T17:39:42+02:00",
             "subject": "clang: Emit \"exception-model\" module flag (#220053)"
+        },
+        {
+            "hash": "9dffc7a230c3623284cc2a4184abe5beeca99681",
+            "author_name": "Domenic Nutile",
+            "commit_date": "2026-09-15T11:46:56-04:00",
+            "subject": "[AMDGPU][GlobalISel] Strip bitcasts in unmerge half-extraction matching (#223534)"
+        },
+        {
+            "hash": "81353cba9f68d1beb5fe220b693f9dc3646d990c",
+            "author_name": "nudt_yixiao",
+            "commit_date": "2026-09-15T11:49:52-04:00",
+            "subject": "[Flang] Avoid crash resolving restricted specific intrinsics (#217852)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -248795,12 +248807,6 @@
     ],
     "fhahn\/perf\/ce-unify-flag-queries1": [
         {
-            "hash": "3d2514f8e7f322bb520f904857268a27c086ca2e",
-            "author_name": "Paul Walker",
-            "commit_date": "2026-09-15T11:59:54+01:00",
-            "subject": "[NFC][LLVM][AArch64TTI] Remove redundant type checking of convert_to_svbool operand. (#222945)"
-        },
-        {
             "hash": "2c3d62106ff5a1909aa581eb02a477be6e18512c",
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-15T13:42:56+01:00",
@@ -248811,6 +248817,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-15T13:42:59+01:00",
             "subject": "[ConstraintElim] Unify no-wrap queries."
+        },
+        {
+            "hash": "41069551a6fd61bceb1f3663f59b02b46cc8cf8b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-15T16:46:44+01:00",
+            "subject": "Merge branch 'main' into perf\/ce-unify-flag-queries1"
         }
     ],
     "clemenswasser\/perf\/loop-idiom-skip-storeless": [
