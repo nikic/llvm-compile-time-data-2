@@ -230781,6 +230781,30 @@
             "author_name": "Alex Duran",
             "commit_date": "2026-09-15T15:38:15+02:00",
             "subject": "[offload][amd] Fix inconsistent DynBlock MemSize usage (#223452)"
+        },
+        {
+            "hash": "449bc5ac6348c72c48fdccd3fad9d2dc2968af2b",
+            "author_name": "Sachin \ud83d\uddf2",
+            "commit_date": "2026-09-15T19:23:49+05:30",
+            "subject": "[libc][bazel] Adds missing bf16 MPFR test targets for bazel (#223342)"
+        },
+        {
+            "hash": "36ce6fd0da77365f4e36baacc79f744f6eb589fb",
+            "author_name": "Shilei Tian",
+            "commit_date": "2026-09-15T09:55:30-04:00",
+            "subject": "[NFC][AMDGPU] Fix two code quality issues in AMDGPUSwLowerLDS (#223685)"
+        },
+        {
+            "hash": "b4c81d59773bd4f13b26b861d3ba5e173a2d11ee",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-09-15T13:55:57+00:00",
+            "subject": "[X86] LowerFP_TO_INT_SAT - use MVT src\/dst types directly. NFC. (#223689)"
+        },
+        {
+            "hash": "bde5e74309f6d66253a8a1360df575daa19e5b55",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-15T13:56:11+00:00",
+            "subject": "RegisterPressure: Remove dead defs correctly (#222627)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -248591,33 +248615,21 @@
     ],
     "fhahn\/perf\/cr-nowrap1": [
         {
-            "hash": "b2ef8caec3c2add664cbe88978793f44ed662ae3",
-            "author_name": "Jesse Huang",
-            "commit_date": "2026-09-15T15:04:00+08:00",
-            "subject": "[Clang] Make Unlabeled the default control flow branch label scheme (#223297)"
+            "hash": "e78970f80f1041de8948cb0b665a9aaae682f6c6",
+            "author_name": "Mariusz Sikora",
+            "commit_date": "2026-09-15T13:06:30+02:00",
+            "subject": "[AMDGPU] MC support for v_wave_match_b32 on gfx13 (#223360)"
         },
         {
-            "hash": "204b42e0641ed7f39972db310a61103166999873",
+            "hash": "96d22896a6f30ef746ea43fad726abb6c8c88111",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-15T08:23:55+01:00",
-            "subject": "[ConstantRange] Compute exact no-wrap regions without materializing a range"
+            "commit_date": "2026-09-15T14:55:16+01:00",
+            "subject": "[ConstantRange] Compute exact no-wrap regions without materializing a range."
         },
         {
-            "hash": "a79e05a15eb17235cee16f8a88bf3159e819e9ba",
+            "hash": "6dac9e3a8a7cd5e9025a3a94326a71179a055e19",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-15T08:23:55+01:00",
-            "subject": "Try soften impact"
-        },
-        {
-            "hash": "e5727f6935a4e0e47126aa049e647fe41328ef2f",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-15T09:16:26+01:00",
-            "subject": "Unify again"
-        },
-        {
-            "hash": "60cddc6e96f913507d2eebc789e07ff877f35a7f",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-15T09:16:37+01:00",
+            "commit_date": "2026-09-15T14:56:09+01:00",
             "subject": "[SCEV] Use makeExactNoWrapRegion for constant operands"
         }
     ],
@@ -248755,6 +248767,26 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-15T14:04:16+02:00",
             "subject": "De-virtualize getRegClass"
+        }
+    ],
+    "fhahn\/perf\/cr-nowrap2": [
+        {
+            "hash": "e78970f80f1041de8948cb0b665a9aaae682f6c6",
+            "author_name": "Mariusz Sikora",
+            "commit_date": "2026-09-15T13:06:30+02:00",
+            "subject": "[AMDGPU] MC support for v_wave_match_b32 on gfx13 (#223360)"
+        },
+        {
+            "hash": "66d728a16ceb50ee65fa5a830d4a73530d358ec3",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-15T14:56:58+01:00",
+            "subject": "[SCEV] Use makeExactNoWrapRegion for constant operands"
+        },
+        {
+            "hash": "eeb18333a66b5df7fa3702d6f996260785d96a94",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-15T14:56:59+01:00",
+            "subject": "[ConstantRange] Compute exact no-wrap regions without materializing a range."
         }
     ]
 }
