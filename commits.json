@@ -230835,6 +230835,30 @@
             "author_name": "Sachin \ud83d\uddf2",
             "commit_date": "2026-09-15T19:41:07+05:30",
             "subject": "[libc][bazel] Adds missing targets for bf16 smoke tests (#223343)"
+        },
+        {
+            "hash": "73e97a620892c9d5df8bafbc3af9a084be35ac98",
+            "author_name": "Razvan Lupusoru",
+            "commit_date": "2026-09-15T07:22:41-07:00",
+            "subject": "[flang][acc] Ensure private recipe optional yields expected type (#223542)"
+        },
+        {
+            "hash": "83290d61f6ead40a5c38297a0442b63291ce7a48",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-09-15T07:23:13-07:00",
+            "subject": "[libc++] Don't assume a valid range in find_if for empty inputs (#213752)"
+        },
+        {
+            "hash": "78cff11b235dac5dfd0e98f457a338d6d0fbd8b8",
+            "author_name": "Micha\u0142 G\u00f3rny",
+            "commit_date": "2026-09-15T14:23:30+00:00",
+            "subject": "[mlir] Fix linking `MLIRTestAliasAnalysis` to libMLIR (#223711)"
+        },
+        {
+            "hash": "0e91ec7b66a14838361f5746273626320317d159",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-09-15T16:24:27+02:00",
+            "subject": "[BasicAA] Remove obsolete TODOs (NFC) (#223715)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -245357,15 +245381,15 @@
     ],
     "fhahn\/perf\/scev-exp-reuse-consts": [
         {
-            "hash": "6c978c67dfdd3514f8d1ddbcaba8814cacc17bf7",
-            "author_name": "Alexey Bataev",
-            "commit_date": "2026-09-06T15:11:13-04:00",
-            "subject": "[SLP][NFC]Add some more tests for loop accumulated reductions, NFC"
+            "hash": "b15f58cd8bcbd29156ff2cc8c6c89effba12c293",
+            "author_name": "ahmed mohamed kamel",
+            "commit_date": "2026-09-15T21:15:54+08:00",
+            "subject": "[clang][Sema] Fix false-positive -Wshadow for friend functions (#221249)"
         },
         {
-            "hash": "e2c0a8826a0059b814f731c32bd659615cbeffa6",
+            "hash": "bc810e0123388ee1703968d570983bd0e3e722ba",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-06T20:22:47+01:00",
+            "commit_date": "2026-09-15T15:20:14+01:00",
             "subject": "[SCEVExpander] Reuse unscaled recurrence when expanding scaled one."
         }
     ],
