@@ -231327,6 +231327,24 @@
             "author_name": "Andy Kaylor",
             "commit_date": "2026-09-15T14:09:19-07:00",
             "subject": "[CIR][EH] Implement flattening for dynamic exception specification (#223780)"
+        },
+        {
+            "hash": "6c334efd9df6cacb2c5b5ca7fc3533db95e5fff7",
+            "author_name": "PiJoules",
+            "commit_date": "2026-09-15T14:20:00-07:00",
+            "subject": "[RelLookupTableConverter][NFC] Hoist loop invariants in createRelLookupTable (#223557)"
+        },
+        {
+            "hash": "576e56a6ac966699ce857bf34309bdf1c6d636d1",
+            "author_name": "PiJoules",
+            "commit_date": "2026-09-15T14:20:24-07:00",
+            "subject": "[RelLookupTableConverter][NFC] Remove unused Func parameter from createRelLookupTable (#223556)"
+        },
+        {
+            "hash": "3018c32171d439dec1b76ef961cc60c0d8db2c6c",
+            "author_name": "agozillon",
+            "commit_date": "2026-09-15T23:21:46+02:00",
+            "subject": "[Flang][OpenMP] Remove close map type member removal code from MapInfoFinalization (#219438)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -245849,15 +245867,21 @@
     ],
     "fhahn\/perf\/scev-exp-reuse-consts": [
         {
-            "hash": "b15f58cd8bcbd29156ff2cc8c6c89effba12c293",
-            "author_name": "ahmed mohamed kamel",
-            "commit_date": "2026-09-15T21:15:54+08:00",
-            "subject": "[clang][Sema] Fix false-positive -Wshadow for friend functions (#221249)"
+            "hash": "247db2420326c288690592088596db9435098261",
+            "author_name": "Justin Stitt",
+            "commit_date": "2026-09-15T12:24:49-07:00",
+            "subject": "[Clang] Reject overflow behavior types on _Atomic (#222179)"
         },
         {
-            "hash": "bc810e0123388ee1703968d570983bd0e3e722ba",
+            "hash": "0b14bc1f1fb4f2a5a8095f5767e4ba7c1d52620b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-15T15:20:14+01:00",
+            "commit_date": "2026-09-15T22:27:12+01:00",
+            "subject": "Precommit test"
+        },
+        {
+            "hash": "672ff0941575d64324169418f0e620b91c478a47",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-15T22:28:22+01:00",
             "subject": "[SCEVExpander] Reuse unscaled recurrence when expanding scaled one."
         }
     ],
