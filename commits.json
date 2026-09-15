@@ -230643,6 +230643,24 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-09-15T11:52:22+00:00",
             "subject": "[SCEV] Simplify getElementSz using getLoadStore-helpers (NFC) (#222908)"
+        },
+        {
+            "hash": "4510d555b04130df9fee7af75c34955d1b0d156a",
+            "author_name": "Ricardo Jesus",
+            "commit_date": "2026-09-15T11:58:22+00:00",
+            "subject": "[LLVM] Add llvm.[su]mulh intrinsics. (#220293)"
+        },
+        {
+            "hash": "aef91d6bcd7a7524ddc0f20b892381b5a3f3ebaf",
+            "author_name": "Igor Kirillov",
+            "commit_date": "2026-09-15T13:03:11+01:00",
+            "subject": "[AArch64] Reuse SUBS results for conditional subtraction (#223391)"
+        },
+        {
+            "hash": "8397594236fb24502944a02c9662f4120f347843",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-09-15T12:06:38+00:00",
+            "subject": "[X86] Move ISD::FP_TO_*INT_SAT actions to be with a Subtarget's other ops. (#223657)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -248597,6 +248615,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-09-15T02:21:28-07:00",
             "subject": "[IR] Store metadata uses in a vector instead of a map. NFC"
+        }
+    ],
+    "arsenm\/perf\/devirtualize-TII-getRegClass": [
+        {
+            "hash": "2eb384fccbf866b34a84f86c0e1355a6caed0f0e",
+            "author_name": "Renato Golin",
+            "commit_date": "2026-09-15T12:23:27+01:00",
+            "subject": "[MLIR][Linalg] Improve morphism semantics (#222959)"
+        },
+        {
+            "hash": "e2091feaf3d03f7cc2020c17654188361837ae2f",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-15T14:04:16+02:00",
+            "subject": "De-virtualize getRegClass"
         }
     ]
 }
