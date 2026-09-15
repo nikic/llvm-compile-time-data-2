@@ -231237,6 +231237,24 @@
             "author_name": "cui fliter",
             "commit_date": "2026-09-15T21:09:29+01:00",
             "subject": "[lldb-dap] Fix runInTerminal error message serialization (#221504)"
+        },
+        {
+            "hash": "919f058fe8d4edfe9806b1f2a2cf553f93f60182",
+            "author_name": "Adrian Kuegel",
+            "commit_date": "2026-09-15T22:15:14+02:00",
+            "subject": "[clang][python] Make .git_archival.txt deterministic. (#223362)"
+        },
+        {
+            "hash": "1d84c1b18df8c49484e5bbfa267a63e350e573de",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-15T16:20:20-04:00",
+            "subject": "[SLP][NFC]Add extra tests with missed vectorization, NFC"
+        },
+        {
+            "hash": "7800bec8a155c3f88518b25fa4241320721911b0",
+            "author_name": "vporpo",
+            "commit_date": "2026-09-15T13:23:21-07:00",
+            "subject": "[SandboxVec][SchedulerTest][NFC] Fix unused variable warning (#223751)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -249225,6 +249243,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-15T14:56:59+01:00",
             "subject": "[ConstantRange] Compute exact no-wrap regions without materializing a range."
+        }
+    ],
+    "efriedma-quic\/perf\/fix-alias-analysis-setjmp": [
+        {
+            "hash": "87afb37e3f032af3107dbda6bc0da53460f0407f",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-09-14T16:30:47-07:00",
+            "subject": "[ScalarEvolution] howManyLessThans infer stride isPositive from guard (#214014)"
+        },
+        {
+            "hash": "76a19046cad4055a5033e604673e91547eedf5bb",
+            "author_name": "Eli Friedman",
+            "commit_date": "2026-09-15T13:19:28-07:00",
+            "subject": "[BasicAA] Fix miscompilation with setjmp\/longjmp due to missing longjmp re-entry paths in alias analysis - #212297"
         }
     ]
 }
