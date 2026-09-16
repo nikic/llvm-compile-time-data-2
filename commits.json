@@ -232509,6 +232509,18 @@
             "author_name": "Michael G. Kazakov",
             "commit_date": "2026-09-16T20:14:00+01:00",
             "subject": "[libc++][pstl] Benchmark for parallel std::for_each (#222153)"
+        },
+        {
+            "hash": "617bbcec530238ddc3bc79f57d9da97ed0840552",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-16T19:22:27+00:00",
+            "subject": "[MLIR] Use make_isa_range instead of dyn_cast\/continue (NFC). (#223974)"
+        },
+        {
+            "hash": "7060e05dedeafec4f6e9f3fd429065da4944a32e",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-09-16T12:23:35-07:00",
+            "subject": "Revert \"[Github] Bump AArch64 premerge to Ubuntu 26.04\" (#224118)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -248675,93 +248687,87 @@
     ],
     "fhahn\/perf\/ce-unify-flag-queries": [
         {
-            "hash": "709ef4b96668471c7be0bd67abece4ebfce62a22",
-            "author_name": "Matt Arsenault",
-            "commit_date": "2026-09-13T10:15:59+00:00",
-            "subject": "ARM: Avoid relying on kill flags for determining CPSR liveness (#222873)"
+            "hash": "c9c1ed7e41b245d15ee339b51696c546d5dc6d18",
+            "author_name": "Anutosh Bhat",
+            "commit_date": "2026-09-17T00:21:41+05:30",
+            "subject": "[lldb] Add an option to build liblldb statically (#223210)"
         },
         {
-            "hash": "b72aa9dc8ad06be099911eefda16a2519096b605",
+            "hash": "6daa045392f0420c660eefe8de102069b87eb27a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T11:28:11+01:00",
-            "subject": "Unify queries"
-        },
-        {
-            "hash": "9599478d213c37c848be3d35baba05a9681d0abf",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T11:28:11+01:00",
-            "subject": "Try reduce"
-        },
-        {
-            "hash": "30bbfcc38ad1174404c714ad7344441cf9ff0ba5",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T11:28:12+01:00",
-            "subject": "[ConstraintElimination] Regenerate add-nsw.ll check lines."
-        },
-        {
-            "hash": "5d5ca94e1b03f3cb59932bcf63b487bf1cc791ba",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T11:32:57+01:00",
+            "commit_date": "2026-09-16T19:59:29+01:00",
             "subject": "[ConstraintElimination] Use ConstraintInfo::isKnownNonNegative for srem facts (NFC)."
         },
         {
-            "hash": "8c3de0451f02a705fa39265cbf4b6e3e540267cb",
+            "hash": "0401d338f425ab4d85738d48e9f5432685bf70fb",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T13:38:15+01:00",
-            "subject": "[ConstraintElimination] Decide the add decomposition with a single query (NFC)."
+            "commit_date": "2026-09-16T19:59:30+01:00",
+            "subject": "add srem test"
         },
         {
-            "hash": "5263119baedde7e622d5a8e6333947ffe4dd4cde",
+            "hash": "5f9d1cae5fe4222b9ddaf59605e12420df09808e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T13:38:22+01:00",
-            "subject": "[ConstraintElimination] Share the GEP no-unsigned-wrap check."
+            "commit_date": "2026-09-16T19:59:31+01:00",
+            "subject": "[ConstraintElim] Add signed no-wrap rule for sub to isKnownNoWrap."
         },
         {
-            "hash": "82491610c7a37c37c381c0002f1717b2ae584a89",
+            "hash": "7a02bcc9189b467efbb071ab25d99273fefc54da",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T13:38:22+01:00",
-            "subject": "[ConstraintElimination] Decompose mul\/shl for unsigned predicates using isKnownNoWrap."
+            "commit_date": "2026-09-16T19:59:31+01:00",
+            "subject": "[ConstraintElim] Take the operation to check as opcode and operands (NFC)."
         },
         {
-            "hash": "deceac215adcd48f06d1a9fb2275681cc6b84f38",
+            "hash": "9a224fd59f971aa94b0e3509dcceae3bffb7ec81",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T13:38:23+01:00",
-            "subject": "[ConstraintElimination] Check unsigned queries against the signed system."
+            "commit_date": "2026-09-16T19:59:32+01:00",
+            "subject": "[ConstraintElim] Simplify all overflow intrinsics using isKnownNoWrap."
         },
         {
-            "hash": "8cc43c48cb664129ce0fab63f346ebeb46e7e363",
+            "hash": "a26a780519adf834b5a6e01ca485f67881b22dcb",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T13:38:24+01:00",
-            "subject": "[ConstraintElimination] Only retry in the signed system for known variables."
+            "commit_date": "2026-09-16T19:59:32+01:00",
+            "subject": "[ConstraintElim] Extend the signed no-wrap rule for sub to non-positive Op1."
         },
         {
-            "hash": "82e2d04fc9aa1fbd04a3eef4e53b63f59e0b10bd",
+            "hash": "d54645322890c68dc0c456dc2b50c9e6632d36f1",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T13:38:24+01:00",
-            "subject": "[ConstraintElimination] Decompose expressions for signed predicates using isKnownNoWrap."
-        },
-        {
-            "hash": "51c571b5ec4980e4c14eb8885235a12dffbc1df7",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T13:38:25+01:00",
-            "subject": "[ConstraintElimination] Simplify all overflow intrinsics using isKnownNoWrap."
-        },
-        {
-            "hash": "dd76f40df8cc63d621192b5775095d04f34986e6",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T13:38:25+01:00",
+            "commit_date": "2026-09-16T19:59:33+01:00",
             "subject": "[ConstraintElimination] Simplify all saturating intrinsics using isKnownNoWrap."
         },
         {
-            "hash": "dcc7ee672554b92305a61d705cbdaf8f62419465",
+            "hash": "631b68b84b3ed832c12e702ab83eb28281264819",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T13:38:26+01:00",
+            "commit_date": "2026-09-16T19:59:33+01:00",
             "subject": "[ConstraintElimination] Only query the flags that can be strengthened."
         },
         {
-            "hash": "2d62691204e4256929eb1197ff7befe73e025fe1",
+            "hash": "28f49a6f46e665aa02ca8f6de9f484688ebaa0f2",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-13T13:41:38+01:00",
+            "commit_date": "2026-09-16T19:59:34+01:00",
+            "subject": "[ConstraintElimination] Decide the add decomposition with a single query (NFC)."
+        },
+        {
+            "hash": "57ac88aa7270cfa4c87c857249a36f8b387dfb3b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-16T19:59:34+01:00",
+            "subject": "[ConstraintElimination] Share the GEP no-unsigned-wrap check."
+        },
+        {
+            "hash": "464da3c57c8adc61b5c33881e8a86d158fa1f9d8",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-16T19:59:35+01:00",
+            "subject": "[ConstraintElimination] Check unsigned queries against the signed system."
+        },
+        {
+            "hash": "be39a6f8a5c3afff6837d22594ad149cad7b0e0b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-16T19:59:36+01:00",
+            "subject": "[ConstraintElimination] Only retry in the signed system for known variables."
+        },
+        {
+            "hash": "4c2c608347d19383ea49bb004035d923a6c6f9d4",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-16T19:59:37+01:00",
             "subject": "[ConstraintElimination] Dispatch decompose on the opcode (NFC)."
         }
     ],
