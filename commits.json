@@ -232647,6 +232647,12 @@
             "author_name": "Craig Topper",
             "commit_date": "2026-09-16T13:59:01-07:00",
             "subject": "[RISCV] Use template PredicateMethod for ImmAsmOperand when suffix is empty. NFC (#224098)"
+        },
+        {
+            "hash": "0447d7932f2717904877a157738fef5057765a3d",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-09-16T14:11:45-07:00",
+            "subject": "[RISCV] Don't construct a subtarget for function declarations in RISCVPromoteConstant. (#224115)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -250743,6 +250749,20 @@
             "author_name": "Akira Hatanaka",
             "commit_date": "2026-09-16T18:02:01+02:00",
             "subject": "Mix bits in FileID::getHashValue()"
+        }
+    ],
+    "bababuck\/perf\/AnalyzedMinBWVals": [
+        {
+            "hash": "e0d48310ce627ffb85c708c9c3c93d135f14de9e",
+            "author_name": "Adam Smith",
+            "commit_date": "2026-09-11T19:54:31+00:00",
+            "subject": "[CIR] Remove the NYI test case for a pointer-element vector (#223019)"
+        },
+        {
+            "hash": "39fc552c4829ff8f449fea80a62a4de61edf7912",
+            "author_name": "bababuck",
+            "commit_date": "2026-09-16T14:13:02-07:00",
+            "subject": "[SLP] Better track MinBWs between vectorization attempts"
         }
     ]
 }
