@@ -232725,6 +232725,30 @@
             "author_name": "Kevin McAfee",
             "commit_date": "2026-09-16T16:13:50-07:00",
             "subject": "[SeparateConstOffsetFromGEP] Rebuild GEP indices at their definition point (#223546)"
+        },
+        {
+            "hash": "bffd2427a9309321fe2d9fc31a2d5a217c1aea12",
+            "author_name": "Jackson Stogel",
+            "commit_date": "2026-09-16T16:32:30-07:00",
+            "subject": "[bazel][libc] Do not depend on system `getenv` in BazelFilePath.cpp (#223873)"
+        },
+        {
+            "hash": "a0b33b0f1a88939ba8708777432d77118f014b0c",
+            "author_name": "Jackson Stogel",
+            "commit_date": "2026-09-16T16:32:32-07:00",
+            "subject": "[bazel][libc][test] Allow LLVM-libc tests to be run in full-build mode (#219262)"
+        },
+        {
+            "hash": "d587093d648bd6bc305763eb9e3f20682e69b3eb",
+            "author_name": "Jackson Stogel",
+            "commit_date": "2026-09-16T16:32:34-07:00",
+            "subject": "[test][bazel][libc] Fix dependencies for some tests under full-build (#223498)"
+        },
+        {
+            "hash": "1a9ff38b0765598add24cfed6a9e8760fef2ca69",
+            "author_name": "Jackson Stogel",
+            "commit_date": "2026-09-16T16:32:36-07:00",
+            "subject": "[bazel][test][libc] Use LLVM-libc's clock entrypoint in overlay tests (#224131)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
