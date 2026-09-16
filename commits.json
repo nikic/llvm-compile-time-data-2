@@ -232671,6 +232671,12 @@
             "author_name": "Jackson Stogel",
             "commit_date": "2026-09-16T14:27:45-07:00",
             "subject": "[bazel][libc] Allow libc:types_char8_t to compile in full-build mode (#223872)"
+        },
+        {
+            "hash": "3936f33806ab3133df2387ab87b49d74b75711f0",
+            "author_name": "Deric C.",
+            "commit_date": "2026-09-16T14:30:10-07:00",
+            "subject": "[DirectX] Make DXILOpLowering split vector coordinates, offsets, and gradient operands (#223091)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -242463,6 +242469,24 @@
             "author_name": "Paul Walker",
             "commit_date": "2026-09-16T08:02:37+00:00",
             "subject": "[LLVM][CodeGen][SME] Don't use non-streaming zeroing instruction when in streaming mode. (#222353)"
+        },
+        {
+            "hash": "2eabe80bc7ab59cb93723b8a76437254bc88e071",
+            "author_name": "George Burgess IV",
+            "commit_date": "2026-09-16T21:32:05+00:00",
+            "subject": "[libc++] Opt `std::*set` out of map key extraction optimization (#220452)"
+        },
+        {
+            "hash": "82fc843747e0926f26e5d248b91cce1f67d7ea23",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-09-16T21:33:12+00:00",
+            "subject": "[libc++] Don't assume a valid range in find_if for empty inputs (#213752)"
+        },
+        {
+            "hash": "ba019b7aafce09a013cf7e9139fa0c229f09b188",
+            "author_name": "Bart Van Assche",
+            "commit_date": "2026-09-16T21:34:12+00:00",
+            "subject": "[SPARC] Fix SelectForceADDRrr for global addresses and non-reg operands (#220013)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
