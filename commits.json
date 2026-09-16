@@ -231759,6 +231759,30 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-16T09:51:51+02:00",
             "subject": "AMDGPU: Maintain LiveIntervals when removing blocks in SILowerControlFlow (#223642)"
+        },
+        {
+            "hash": "5a0c86a17b467e867bf1c0cd8fd6b5bacb82f1d1",
+            "author_name": "Keshav Vinayak Jha",
+            "commit_date": "2026-09-16T13:29:36+05:30",
+            "subject": "[AMDGPU] Fix GlobalISel VGPR-to-VCC lowering types (#220987)"
+        },
+        {
+            "hash": "4beeff3c2bf125de9dda8b374ffc9ec052d02810",
+            "author_name": "Mintsuki",
+            "commit_date": "2026-09-16T10:04:20+02:00",
+            "subject": "[clang][LoongArch] Emit \"target-abi\" module flag (#223647)"
+        },
+        {
+            "hash": "39732305282242041dad8c8edad6a6b5804f1d3a",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-09-16T13:35:07+05:30",
+            "subject": "[InterleavedLoadCombine] Do not combine loads across basic blocks (#223915)"
+        },
+        {
+            "hash": "e94698b83a74e6ee40438898b17bc49cbd47fcf5",
+            "author_name": "Vikram Hegde",
+            "commit_date": "2026-09-16T13:44:00+05:30",
+            "subject": "[AMDGPU][GISel][NPM] Complete Global ISel pipeline (#222552)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -241539,6 +241563,18 @@
             "author_name": "Richard Smith",
             "commit_date": "2026-09-10T03:51:39+00:00",
             "subject": "Add release note for #184718."
+        },
+        {
+            "hash": "3c3c37ea117a78ac82abc570447c3aacec2d4528",
+            "author_name": "Bernhard \u00dcbelacker",
+            "commit_date": "2026-09-16T08:01:53+00:00",
+            "subject": "[win\/asan] GetInstructionSize: Add some more instructions. (#219038)"
+        },
+        {
+            "hash": "21a77e7bb6bf4971cfa0428b785798a61e23b3c4",
+            "author_name": "Paul Walker",
+            "commit_date": "2026-09-16T08:02:37+00:00",
+            "subject": "[LLVM][CodeGen][SME] Don't use non-streaming zeroing instruction when in streaming mode. (#222353)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
@@ -249775,6 +249811,34 @@
             "author_name": "Hao Ren",
             "commit_date": "2026-09-16T09:28:46+02:00",
             "subject": "Use signed form of samesign compares when it tightens exit limits"
+        }
+    ],
+    "nikic\/perf\/licm-sink-from-preheader": [
+        {
+            "hash": "54e36c83bc42b2a15d75eee3fc7a61eaf44a4e3a",
+            "author_name": "renndong",
+            "commit_date": "2026-09-16T14:56:14+08:00",
+            "subject": "[RISCV] Update Zvzip support to v0.3 (#210603)"
+        },
+        {
+            "hash": "cf2bf86f44c533a483642742e3e47ba050a567c0",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-09-16T10:09:37+02:00",
+            "subject": "test"
+        }
+    ],
+    "nikic\/perf\/scev-complexity-cache": [
+        {
+            "hash": "54e36c83bc42b2a15d75eee3fc7a61eaf44a4e3a",
+            "author_name": "renndong",
+            "commit_date": "2026-09-16T14:56:14+08:00",
+            "subject": "[RISCV] Update Zvzip support to v0.3 (#210603)"
+        },
+        {
+            "hash": "06e4aca934a23d19a1495e89ba98e9a258baedf0",
+            "author_name": "Erik Hogeman",
+            "commit_date": "2026-09-16T10:05:18+02:00",
+            "subject": "Cache recursive complexity comparisons"
         }
     ]
 }
