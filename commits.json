@@ -231711,6 +231711,12 @@
             "author_name": "Anutosh Bhat",
             "commit_date": "2026-09-16T07:17:07+00:00",
             "subject": "[lldb] Support building lldbHost under Emscripten (#223206)"
+        },
+        {
+            "hash": "3b8ee89006f5a228fce75528f8dd80b4229abcc1",
+            "author_name": "Timur Baidusenov",
+            "commit_date": "2026-09-16T09:25:39+02:00",
+            "subject": "[MustExecute] Use the loop predecessor instead of the preheader (#222096)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -249719,6 +249725,20 @@
             "author_name": "Eli Friedman",
             "commit_date": "2026-09-15T13:19:28-07:00",
             "subject": "[BasicAA] Fix miscompilation with setjmp\/longjmp due to missing longjmp re-entry paths in alias analysis - #212297"
+        }
+    ],
+    "nikic\/perf\/scev-exit-limit-samesign": [
+        {
+            "hash": "54e36c83bc42b2a15d75eee3fc7a61eaf44a4e3a",
+            "author_name": "renndong",
+            "commit_date": "2026-09-16T14:56:14+08:00",
+            "subject": "[RISCV] Update Zvzip support to v0.3 (#210603)"
+        },
+        {
+            "hash": "c031e972651c89d6ac43bff1053f0d3a80aa6bbd",
+            "author_name": "Hao Ren",
+            "commit_date": "2026-09-16T09:28:46+02:00",
+            "subject": "Use signed form of samesign compares when it tightens exit limits"
         }
     ]
 }
