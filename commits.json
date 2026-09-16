@@ -231813,6 +231813,18 @@
             "author_name": "Luke Lau",
             "commit_date": "2026-09-16T08:40:07+00:00",
             "subject": "[IR][InstSimplify] Clarify poison elements in cttz.elts results in poison (#223935)"
+        },
+        {
+            "hash": "353ab070f8b122df06c5aa40a5833e9639d4c9ca",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-09-16T08:44:28+00:00",
+            "subject": "[test][AggressiveInstCombine] Test type legality handling in `TruncInstCombine` (NFC) (#222930)"
+        },
+        {
+            "hash": "c53000a7282bedb125ffaab8cb072df85596d095",
+            "author_name": "Aman Maurya",
+            "commit_date": "2026-09-16T10:47:17+02:00",
+            "subject": "[libc] Reject unsupported flags in fchmodat with ENOTSUP (#223165)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -249869,6 +249881,32 @@
             "author_name": "Erik Hogeman",
             "commit_date": "2026-09-16T10:05:18+02:00",
             "subject": "Cache recursive complexity comparisons"
+        }
+    ],
+    "lukel97\/perf\/loop-vectorize\/simplifyRecipes-worklist-inserter": [
+        {
+            "hash": "39732305282242041dad8c8edad6a6b5804f1d3a",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-09-16T13:35:07+05:30",
+            "subject": "[InterleavedLoadCombine] Do not combine loads across basic blocks (#223915)"
+        },
+        {
+            "hash": "d67f8e1054444afb12ad3b2ba69d045458c663ae",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-16T16:05:55+08:00",
+            "subject": "Precommit test"
+        },
+        {
+            "hash": "47a3ff3b5a31577ced85facb189dd6507454eaed",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-16T16:05:55+08:00",
+            "subject": "[VPlan] Append recipes created via builder to worklist"
+        },
+        {
+            "hash": "f90d933c90f53bc426e9376047a2d41cec9934e5",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-16T16:43:53+08:00",
+            "subject": "Remove reundant virtual + const keyword"
         }
     ]
 }
