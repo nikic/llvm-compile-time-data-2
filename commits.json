@@ -233253,6 +233253,18 @@
             "author_name": "Andrzej Warzy\u0144ski",
             "commit_date": "2026-09-17T14:03:22+01:00",
             "subject": "[clang][cir] Add missing tests for SVE DUP intrinsics (#223932)"
+        },
+        {
+            "hash": "bbd61cb2e932bb7734cbf034dc50a6f5835e7d77",
+            "author_name": "MrEven132",
+            "commit_date": "2026-09-17T14:10:36+01:00",
+            "subject": "Fix llvm bdce debug salvage (#220900)"
+        },
+        {
+            "hash": "c5c167c7436f035152289cb9489548ccf5328bb3",
+            "author_name": "Anutosh Bhat",
+            "commit_date": "2026-09-17T18:44:24+05:30",
+            "subject": "[Support] Add ToolSession for in-process tool invocation (#221996)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -251427,6 +251439,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-09-17T01:20:25-07:00",
             "subject": "[IR] Add Instruction::getNumber() and use it in LoopLoadElimination"
+        }
+    ],
+    "artagnon\/perf\/scev-implied-eq-fast": [
+        {
+            "hash": "104cbaf619754c04dccc3df617b6190702ad92ba",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-09-17T06:30:41+00:00",
+            "subject": "[ELF,test] Extend nobits-offset.s to cover sections following .bss (#224201)"
+        },
+        {
+            "hash": "b96b99e5460ad4d5668206142f62475011e4cf3d",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-17T14:07:02+01:00",
+            "subject": "[SCEV] Use fast-check for equality implication (NFC)"
         }
     ]
 }
