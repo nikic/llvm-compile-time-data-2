@@ -233073,6 +233073,12 @@
             "author_name": "Chennes",
             "commit_date": "2026-09-17T10:10:45+00:00",
             "subject": "[InstCombine] Drop poison-generating annotations when rewriting rotate operands (#224228)"
+        },
+        {
+            "hash": "1b9d5d9270525bd2dc26efdd201f493bb830f7a3",
+            "author_name": "Micha\u0142 G\u00f3rny",
+            "commit_date": "2026-09-17T12:21:58+02:00",
+            "subject": "[flang] Skip `fakeflang` tests on standalone build (#224241)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -250659,28 +250665,22 @@
     ],
     "artagnon\/perf\/scev-sharpen-btc-one-ov": [
         {
-            "hash": "847fb5cfde68fdea490171bc24087ebb0cd90738",
-            "author_name": "Amy Kwan",
-            "commit_date": "2026-09-10T10:38:30-04:00",
-            "subject": "[llvm-ar][GOFF] Implement symbol attributes for GOFF archives (#214528)"
+            "hash": "104cbaf619754c04dccc3df617b6190702ad92ba",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-09-17T06:30:41+00:00",
+            "subject": "[ELF,test] Extend nobits-offset.s to cover sections following .bss (#224201)"
         },
         {
-            "hash": "70df1940fd14ce7604a30c0d675fa3e8340aef9f",
+            "hash": "679669de2ce89a3c73479d28ce2e602564dae069",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-11T17:15:18+01:00",
+            "commit_date": "2026-09-17T09:32:29+01:00",
             "subject": "[SCEV] Pre-commit implied-cond-ge-via-gt test"
         },
         {
-            "hash": "d09d9c2834a1692561b26e427a0186f185e66587",
+            "hash": "4d1975a0309dd9d2b8151dc187d770bd2de231e3",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-11T17:21:15+01:00",
-            "subject": "[SCEV] Use equiv of X >= Y and X > Y - 1 to sharpen implication"
-        },
-        {
-            "hash": "82c697b0fe83f1775d489ddcaa939c55ec9d3a90",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-11T18:44:20+01:00",
-            "subject": "[SCEV] Attempt to cut compile-time"
+            "commit_date": "2026-09-17T11:18:07+01:00",
+            "subject": "[SCEV] Use X > Y - 1 => X >= Y to sharpen implication"
         }
     ],
     "fhahn\/perf\/scev-dominating-guards": [
