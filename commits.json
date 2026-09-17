@@ -77051,6 +77051,12 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-09-17T15:30:55+02:00",
             "subject": "Reduce stack chunk size"
+        },
+        {
+            "hash": "dd5b9de9b866d0751b7ea437182edd8ba35d9c93",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-09-17T15:39:07+02:00",
+            "subject": "Remove cleanup()"
         }
     ],
     "dtcxzyw\/perf\/nonnull-at-callsite": [
@@ -233295,6 +233301,24 @@
             "author_name": "Luke Lau",
             "commit_date": "2026-09-17T13:28:39+00:00",
             "subject": "[RISCV] Account for VL toggle cost when splitting VP memory intrinsics (#223992)"
+        },
+        {
+            "hash": "46ff6b5f0eaef577b03ac6aae8f9e8ffbcf632ab",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-17T09:36:10-04:00",
+            "subject": "[SLP]Model or-reduction of masked shifted lanes as a bitfield pack"
+        },
+        {
+            "hash": "c7816d6462677e69f52e59caf638db2c1669f940",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-17T13:37:37+00:00",
+            "subject": "clang-linker-wrapper: Set the host DataLayout on the offload wrapper module (#224280)"
+        },
+        {
+            "hash": "4da3844b083e9615134fc49efceaf6d2ddfffc84",
+            "author_name": "Aman Maurya",
+            "commit_date": "2026-09-17T15:41:57+02:00",
+            "subject": "[libc] Add support for SYS_fchmodat2 in fchmodat (#223997)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -251511,6 +251535,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-17T14:18:05+01:00",
             "subject": "[ConstraintElim] Link a variable to its decomposition when querying."
+        }
+    ],
+    "MacDue\/perf\/extra-target-vector-passes": [
+        {
+            "hash": "9e0686cca51613229ef85788ee5d1deee0595b92",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-09-17T11:41:19+02:00",
+            "subject": "[libc++] Move _LIBCPP_GET_C_LOCALE to the locale base API (#222924)"
+        },
+        {
+            "hash": "a5d4d13951f4e041ff84ce56b903eb22248a1f64",
+            "author_name": "Benjamin Maxwell",
+            "commit_date": "2026-09-17T13:29:42+00:00",
+            "subject": "[PM] Add callback to add post-vectorization function passes"
         }
     ]
 }
