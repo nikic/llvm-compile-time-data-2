@@ -1,0 +1,240 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC - Success
+-- Looking for pthread_getname_np
+-- Looking for pthread_getname_np - found
+-- Looking for pthread_setname_np
+-- Looking for pthread_setname_np - found
+-- Looking for pthread_get_name_np
+-- Looking for pthread_get_name_np - not found
+-- Looking for pthread_set_name_np
+-- Looking for pthread_set_name_np - not found
+-- Looking for dlopen
+-- Looking for dlopen - found
+-- Looking for proc_pid_rusage
+-- Looking for proc_pid_rusage - not found
+-- Performing Test HAVE_CXX_ATOMICS_WITHOUT_LIB
+-- Performing Test HAVE_CXX_ATOMICS_WITHOUT_LIB - Success
+-- Performing Test HAVE_CXX_ATOMICS64_WITHOUT_LIB
+-- Performing Test HAVE_CXX_ATOMICS64_WITHOUT_LIB - Success
+-- Performing Test LLVM_HAS_ATOMICS
+-- Performing Test LLVM_HAS_ATOMICS - Success
+-- LLVM host triple: x86_64-unknown-linux-gnu
+-- Native target architecture is X86
+-- Threads enabled.
+-- Ninja version: 1.10.1
+-- Could NOT find OCaml (missing: OCAMLFIND OCAML_VERSION OCAML_STDLIB_PATH) 
+-- Could NOT find OCaml (missing: OCAMLFIND OCAML_VERSION OCAML_STDLIB_PATH) 
+-- OCaml bindings disabled.
+-- Could NOT find Python module pygments
+-- Could NOT find Python module pygments.lexers.c_cpp
+-- Found Python module yaml
+-- LLVM default target triple: x86_64-unknown-linux-gnu
+-- Performing Test LLVM_USES_LIBSTDCXX
+-- Performing Test LLVM_USES_LIBSTDCXX - Success
+-- Performing Test LLVM_DEFAULT_TO_GLIBCXX_USE_CXX11_ABI
+-- Performing Test LLVM_DEFAULT_TO_GLIBCXX_USE_CXX11_ABI - Success
+-- Performing Test _CAN_LINK_EXECUTABLE
+-- Performing Test _CAN_LINK_EXECUTABLE - Success
+-- Performing Test CXX_SUPPORTS_CUSTOM_LINKER
+-- Performing Test CXX_SUPPORTS_CUSTOM_LINKER - Success
+-- Performing Test C_SUPPORTS_FPIC
+-- Performing Test C_SUPPORTS_FPIC - Success
+-- Performing Test CXX_SUPPORTS_FPIC
+-- Performing Test CXX_SUPPORTS_FPIC - Success
+-- Building with -fPIC
+-- Performing Test C_SUPPORTS_FNO_SEMANTIC_INTERPOSITION
+-- Performing Test C_SUPPORTS_FNO_SEMANTIC_INTERPOSITION - Success
+-- Performing Test CXX_SUPPORTS_FNO_SEMANTIC_INTERPOSITION
+-- Performing Test CXX_SUPPORTS_FNO_SEMANTIC_INTERPOSITION - Success
+-- Performing Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG
+-- Performing Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG - Success
+-- Performing Test C_SUPPORTS_CXX98_COMPAT_EXTRA_SEMI_FLAG
+-- Performing Test C_SUPPORTS_CXX98_COMPAT_EXTRA_SEMI_FLAG - Failed
+-- Performing Test CXX_SUPPORTS_CXX98_COMPAT_EXTRA_SEMI_FLAG
+-- Performing Test CXX_SUPPORTS_CXX98_COMPAT_EXTRA_SEMI_FLAG - Failed
+-- Performing Test CXX_SUPPORTS_SUGGEST_OVERRIDE_FLAG
+-- Performing Test CXX_SUPPORTS_SUGGEST_OVERRIDE_FLAG - Success
+-- Performing Test CXX_WSUGGEST_OVERRIDE_ALLOWS_ONLY_FINAL
+-- Performing Test CXX_WSUGGEST_OVERRIDE_ALLOWS_ONLY_FINAL - Success
+-- Performing Test C_WCOMMENT_ALLOWS_LINE_WRAP
+-- Performing Test C_WCOMMENT_ALLOWS_LINE_WRAP - Failed
+-- Performing Test C_SUPPORTS_CTAD_MAYBE_UNSUPPORTED_FLAG
+-- Performing Test C_SUPPORTS_CTAD_MAYBE_UNSUPPORTED_FLAG - Failed
+-- Performing Test CXX_SUPPORTS_CTAD_MAYBE_UNSUPPORTED_FLAG
+-- Performing Test CXX_SUPPORTS_CTAD_MAYBE_UNSUPPORTED_FLAG - Success
+-- Performing Test GLIBC_2_36_OR_NEWER
+-- Performing Test GLIBC_2_36_OR_NEWER - Failed
+-- Performing Test LINKER_SUPPORTS_COLOR_DIAGNOSTICS
+-- Performing Test LINKER_SUPPORTS_COLOR_DIAGNOSTICS - Failed
+-- Precompiled headers disabled.
+-- Looking for os_signpost_interval_begin
+-- Looking for os_signpost_interval_begin - not found
+-- Looking for flock
+-- Looking for flock - found
+-- Linker detection: GNU Gold
+-- Performing Test LLVM_LINKER_SUPPORTS_B_SYMBOLIC_FUNCTIONS
+-- Performing Test LLVM_LINKER_SUPPORTS_B_SYMBOLIC_FUNCTIONS - Success
+-- Performing Test HAS_WERROR_GLOBAL_CTORS
+-- Performing Test HAS_WERROR_GLOBAL_CTORS - Failed
+-- Looking for __x86_64__
+-- Looking for __x86_64__ - found
+-- Found Git: /usr/bin/git (found version "2.34.1")
+-- Looking for logf128
+-- Looking for logf128 - found
+-- Targeting X86
+-- Targeting AArch64
+-- LLD version: 24.0.0
+-- Looking for sys/resource.h
+-- Looking for sys/resource.h - found
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - found
+-- Looking for dladdr
+-- Looking for dladdr - found
+-- Clang version: 24.0.0git
+-- Looking for include file sys/inotify.h
+-- Looking for include file sys/inotify.h - found
+-- Performing Test HAVE_LINKER_FLAG_LONG_PLT
+-- Performing Test HAVE_LINKER_FLAG_LONG_PLT - Success
+-- Not building llvm-mt because libxml2 is not available
+-- Registering ExampleIRTransforms as a pass plugin (static build: OFF)
+-- Registering Bye as a pass plugin (static build: OFF)
+-- Configuring done (2.9s)
+-- Generating done (0.7s)
+-- Build files have been written to: /tmp/llvm-project-build-stage1
+ninja: Entering directory `/tmp/llvm-project-build-stage1'
+[1/3396] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/Demangle.cpp.o
+[2/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ABIBreak.cpp.o
+[3/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/DeltaAlgorithm.cpp.o
+[4/3396] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/DLangDemangle.cpp.o
+[5/3396] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangle.cpp.o
+[6/3396] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/MicrosoftDemangleNodes.cpp.o
+[7/3396] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/ItaniumDemangle.cpp.o
+[8/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/AutoConvert.cpp.o
+[9/3396] Building CXX object lib/Demangle/CMakeFiles/LLVMDemangle.dir/RustDemangle.cpp.o
+[10/3396] Linking CXX static library lib/libLLVMDemangle.a
+[11/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ARMBuildAttributes.cpp.o
+[12/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/AllocToken.cpp.o
+[13/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ARMWinEH.cpp.o
+[14/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/BuryPointer.cpp.o
+[15/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/AArch64BuildAttributes.cpp.o
+[16/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Allocator.cpp.o
+[17/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/BinaryStreamError.cpp.o
+[18/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/AArch64AttributeParser.cpp.o
+[19/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/APSInt.cpp.o
+[20/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/COM.cpp.o
+[21/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Base64.cpp.o
+[22/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/AMDGPUMetadata.cpp.o
+FAILED: lib/Support/CMakeFiles/LLVMSupport.dir/AMDGPUMetadata.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Support -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/../third-party/siphash/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/../libc -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Support/CMakeFiles/LLVMSupport.dir/AMDGPUMetadata.cpp.o -MF lib/Support/CMakeFiles/LLVMSupport.dir/AMDGPUMetadata.cpp.o.d -o lib/Support/CMakeFiles/LLVMSupport.dir/AMDGPUMetadata.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/AMDGPUMetadata.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/YAMLTraits.h:14,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/AMDGPUMetadata.cpp:16:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:200:23: error: redefinition of ‘template<class BucketT> constexpr const bool llvm::densemap::detail::isRelocatableBucket’
+  200 | inline constexpr bool isRelocatableBucket =
+      |                       ^~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:94:23: note: ‘template<class BucketT> constexpr const bool llvm::densemap::detail::isRelocatableBucket<BucketT>’ previously declared here
+   94 | inline constexpr bool isRelocatableBucket =
+      |                       ^~~~~~~~~~~~~~~~~~~
+[23/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/BinaryStreamRef.cpp.o
+[24/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/BinaryStreamWriter.cpp.o
+[25/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/CHERICapabilityFormat.cpp.o
+[26/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/BlockFrequency.cpp.o
+[27/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/ARMAttributeParser.cpp.o
+FAILED: lib/Support/CMakeFiles/LLVMSupport.dir/ARMAttributeParser.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Support -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/../third-party/siphash/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/../libc -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Support/CMakeFiles/LLVMSupport.dir/ARMAttributeParser.cpp.o -MF lib/Support/CMakeFiles/LLVMSupport.dir/ARMAttributeParser.cpp.o.d -o lib/Support/CMakeFiles/LLVMSupport.dir/ARMAttributeParser.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/ARMAttributeParser.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/ELFAttrParserCompact.h:13,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/ARMAttributeParser.h:15,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/ARMAttributeParser.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:200:23: error: redefinition of ‘template<class BucketT> constexpr const bool llvm::densemap::detail::isRelocatableBucket’
+  200 | inline constexpr bool isRelocatableBucket =
+      |                       ^~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:94:23: note: ‘template<class BucketT> constexpr const bool llvm::densemap::detail::isRelocatableBucket<BucketT>’ previously declared here
+   94 | inline constexpr bool isRelocatableBucket =
+      |                       ^~~~~~~~~~~~~~~~~~~
+[28/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/circular_raw_ostream.cpp.o
+[29/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/BalancedPartitioning.cpp.o
+FAILED: lib/Support/CMakeFiles/LLVMSupport.dir/BalancedPartitioning.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Support -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/../third-party/siphash/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/../libc -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Support/CMakeFiles/LLVMSupport.dir/BalancedPartitioning.cpp.o -MF lib/Support/CMakeFiles/LLVMSupport.dir/BalancedPartitioning.cpp.o.d -o lib/Support/CMakeFiles/LLVMSupport.dir/BalancedPartitioning.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/BalancedPartitioning.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/ThreadPool.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/BalancedPartitioning.cpp:19:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:200:23: error: redefinition of ‘template<class BucketT> constexpr const bool llvm::densemap::detail::isRelocatableBucket’
+  200 | inline constexpr bool isRelocatableBucket =
+      |                       ^~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:94:23: note: ‘template<class BucketT> constexpr const bool llvm::densemap::detail::isRelocatableBucket<BucketT>’ previously declared here
+   94 | inline constexpr bool isRelocatableBucket =
+      |                       ^~~~~~~~~~~~~~~~~~~
+[30/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/BranchProbability.cpp.o
+[31/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/BinaryStreamReader.cpp.o
+[32/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/APFixedPoint.cpp.o
+[33/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Chrono.cpp.o
+[34/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/CachePruning.cpp.o
+[35/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Caching.cpp.o
+[36/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/CodeGenCoverage.cpp.o
+FAILED: lib/Support/CMakeFiles/LLVMSupport.dir/CodeGenCoverage.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Support -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/../third-party/siphash/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/../libc -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Support/CMakeFiles/LLVMSupport.dir/CodeGenCoverage.cpp.o -MF lib/Support/CMakeFiles/LLVMSupport.dir/CodeGenCoverage.cpp.o.d -o lib/Support/CMakeFiles/LLVMSupport.dir/CodeGenCoverage.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/CodeGenCoverage.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/JSON.h:49,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/ScopedPrinter.h:22,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/CodeGenCoverage.cpp:19:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:200:23: error: redefinition of ‘template<class BucketT> constexpr const bool llvm::densemap::detail::isRelocatableBucket’
+  200 | inline constexpr bool isRelocatableBucket =
+      |                       ^~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:94:23: note: ‘template<class BucketT> constexpr const bool llvm::densemap::detail::isRelocatableBucket<BucketT>’ previously declared here
+   94 | inline constexpr bool isRelocatableBucket =
+      |                       ^~~~~~~~~~~~~~~~~~~
+[37/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/CommandLine.cpp.o
+FAILED: lib/Support/CMakeFiles/LLVMSupport.dir/CommandLine.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Support -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/../third-party/siphash/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/../libc -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Support/CMakeFiles/LLVMSupport.dir/CommandLine.cpp.o -MF lib/Support/CMakeFiles/LLVMSupport.dir/CommandLine.cpp.o.d -o lib/Support/CMakeFiles/LLVMSupport.dir/CommandLine.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/CommandLine.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseSet.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/StringSaver.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/CommandLine.h:31,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/CommandLine.cpp:18:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:200:23: error: redefinition of ‘template<class BucketT> constexpr const bool llvm::densemap::detail::isRelocatableBucket’
+  200 | inline constexpr bool isRelocatableBucket =
+      |                       ^~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:94:23: note: ‘template<class BucketT> constexpr const bool llvm::densemap::detail::isRelocatableBucket<BucketT>’ previously declared here
+   94 | inline constexpr bool isRelocatableBucket =
+      |                       ^~~~~~~~~~~~~~~~~~~
+[38/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/APInt.cpp.o
+[39/3396] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/APFloat.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Warning (policy) at cmake/modules/HandleLLVMOptions.cmake:959 (CHECK_C_SOURCE_COMPILES):
+  Policy CMP0219 is not set: Macro invocations preserve backslashes in
+  arguments.  Run "cmake --help-policy CMP0219" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  Command "CHECK_C_SOURCE_COMPILES" called with arguments containing
+  backslashes.
+
+  Since the policy is not set, backslashes in the arguments:
+
+   "// \\\n//\nint main(void) {return 0;}"
+
+  will be interpreted as escape sequences for compatibility.
+
+  Set the policy to NEW to instead pass
+
+   "// \\\\\\n//\\nint main(void) {return 0;}"
+
+  so that argument parsing will preserve the original values.
+Call Stack (most recent call first):
+  CMakeLists.txt:1166 (include)
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+CMake Warning (deprecated) at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+to suppress it.
+
+Command exited with non-zero status 1
+20.13user 1.90system 0:03.66elapsed 601%CPU (0avgtext+0avgdata 310376maxresident)k
+0inputs+127968outputs (1major+1012956minor)pagefaults 0swaps
