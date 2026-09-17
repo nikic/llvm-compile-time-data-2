@@ -232971,6 +232971,24 @@
             "author_name": "zhouguangyuan0718",
             "commit_date": "2026-09-17T10:10:35+02:00",
             "subject": "[SROA] Avoid unnecessary stack realignment when rewriting allocas (#222967)"
+        },
+        {
+            "hash": "15cff9069ae805e4f5decb4965d33fb4ebd274b5",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-09-17T10:14:13+02:00",
+            "subject": "[libc] Make it possible to join the main thread (#221177)"
+        },
+        {
+            "hash": "de199ddad27f332fd6235fa7b5fc059c798811ff",
+            "author_name": "geoffreygaren",
+            "commit_date": "2026-09-17T01:14:50-07:00",
+            "subject": "[WebKit Checkers] Honor using declarations when looking up protocol conformance (#223902)"
+        },
+        {
+            "hash": "28f36e6d3912e3f9c50fbf57113f84cd336b7862",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-17T10:15:49+02:00",
+            "subject": "WebAssembly: Drive Emscripten EH from the exception model, drop the cl::opt (#223972)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -251125,6 +251143,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-09-17T09:08:19+02:00",
             "subject": "enable"
+        }
+    ],
+    "MaskRay\/perf\/inst-getnumber": [
+        {
+            "hash": "28f36e6d3912e3f9c50fbf57113f84cd336b7862",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-17T10:15:49+02:00",
+            "subject": "WebAssembly: Drive Emscripten EH from the exception model, drop the cl::opt (#223972)"
+        },
+        {
+            "hash": "4eb07cb438b25fed1e8646236493e28daba3375e",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-09-17T01:20:25-07:00",
+            "subject": "[IR] Add Instruction::getNumber() and use it in LoopLoadElimination"
         }
     ]
 }
