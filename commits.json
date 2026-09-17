@@ -77029,34 +77029,28 @@
     ],
     "tbaederr\/perf\/ce-test": [
         {
-            "hash": "4ee94b0be17f04ea8f84b86dc7c9a964979efbbb",
-            "author_name": "Benjamin Maxwell",
-            "commit_date": "2026-09-17T09:31:26+01:00",
-            "subject": " [AArch64] Allow SME peephole opts without +sme in streaming compat functions (#222728)"
+            "hash": "a47fe60be7facad0f3db9090bb41f94872ee2fa0",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-17T13:28:39+00:00",
+            "subject": "[RISCV] Account for VL toggle cost when splitting VP memory intrinsics (#223992)"
         },
         {
-            "hash": "8815f367ddc3e7d8d6bed2bdebc1585c16ca5807",
+            "hash": "e772bc6830e628fc9884bf4f28a16a259efbeb73",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-17T10:33:02+02:00",
+            "commit_date": "2026-09-17T15:30:55+02:00",
             "subject": "Test"
         },
         {
-            "hash": "664056d0928560034ff4efbc2e8e8a5d34d6a882",
+            "hash": "a2861ccf95954fcc2af41619ffa7aa48671a9543",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-17T10:33:02+02:00",
+            "commit_date": "2026-09-17T15:30:55+02:00",
             "subject": "I"
         },
         {
-            "hash": "853a7da77eb2e23b132ea51dc745c8e2ce713ce9",
+            "hash": "a694531e11fd2586ec601857554d355cbed3d388",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-17T10:33:24+02:00",
+            "commit_date": "2026-09-17T15:30:55+02:00",
             "subject": "Reduce stack chunk size"
-        },
-        {
-            "hash": "6add18c2cac558271a0423546868d1c8ead78904",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-17T10:33:31+02:00",
-            "subject": "FrameAlloc"
         }
     ],
     "dtcxzyw\/perf\/nonnull-at-callsite": [
@@ -233283,6 +233277,24 @@
             "author_name": "Timm Baeder",
             "commit_date": "2026-09-17T15:22:59+02:00",
             "subject": "[clang][bytecode] Add a function frame allocator (#220229)"
+        },
+        {
+            "hash": "03a5dba50f9f4dc7aafff941bd72dada7fe6f499",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-09-17T08:27:14-05:00",
+            "subject": "[Bazel] Fixes 4837d8d (#224283)"
+        },
+        {
+            "hash": "2794e411ff8b76546cb39c5ef94c725f119eb61f",
+            "author_name": "Shimin Cui",
+            "commit_date": "2026-09-17T09:27:41-04:00",
+            "subject": "[Object][GOFF] Support RLD records (#216780)"
+        },
+        {
+            "hash": "a47fe60be7facad0f3db9090bb41f94872ee2fa0",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-17T13:28:39+00:00",
+            "subject": "[RISCV] Account for VL toggle cost when splitting VP memory intrinsics (#223992)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -251485,6 +251497,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-17T14:17:11+01:00",
             "subject": "[ConstraintElim] Retry queries with system variables kept opaque."
+        }
+    ],
+    "fhahn\/perf\/ce-relink-decomposition": [
+        {
+            "hash": "c5c167c7436f035152289cb9489548ccf5328bb3",
+            "author_name": "Anutosh Bhat",
+            "commit_date": "2026-09-17T18:44:24+05:30",
+            "subject": "[Support] Add ToolSession for in-process tool invocation (#221996)"
+        },
+        {
+            "hash": "e4be2920133168a85d0cfbf9390b1bc752abcc0f",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-17T14:18:05+01:00",
+            "subject": "[ConstraintElim] Link a variable to its decomposition when querying."
         }
     ]
 }
