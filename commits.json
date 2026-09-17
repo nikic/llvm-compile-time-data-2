@@ -233643,6 +233643,48 @@
             "author_name": "DylanFleming-arm",
             "commit_date": "2026-09-17T18:35:09+01:00",
             "subject": "[libc][mathvec] Fix sinf unit test failures (#224339)"
+        },
+        {
+            "hash": "903cf7272faf4cf2de44a4a8c33c38a1c15fb50d",
+            "author_name": "Amr Hesham",
+            "commit_date": "2026-09-17T19:38:00+02:00",
+            "subject": "[Clang][Sema] Improve diagnostic when using imag with non complex as lvalue (#223510)"
+        },
+        {
+            "hash": "4313ead351f403e3469c417338c4101df23a6fa9",
+            "author_name": "Twice",
+            "commit_date": "2026-09-18T01:40:20+08:00",
+            "subject": "[MLIR][Python] Support bare Operand and Result annotations (#220216)"
+        },
+        {
+            "hash": "fa406bab51ae60520238e555eaee51dc71fb5a76",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-17T17:47:05+00:00",
+            "subject": "[VPlan] Use make_isa_range instead of dyn_cast\/continue (NFC) (#222770)"
+        },
+        {
+            "hash": "6d1d34cfb6dba451912371f6ba41d759d77bdf7c",
+            "author_name": "Don\u00e1t Nagy",
+            "commit_date": "2026-09-17T13:52:22-04:00",
+            "subject": "[SSAF] Mark two failing tests as unsupported (#223976)"
+        },
+        {
+            "hash": "4569873831550f6d66088ce036336323527397f6",
+            "author_name": "Andy Kaylor",
+            "commit_date": "2026-09-17T10:52:29-07:00",
+            "subject": "[CIR][EH] Implement EH ABI lowering for dynamic exception specification (#223862)"
+        },
+        {
+            "hash": "e863ca8c67b6ff40c342245738ed5c9eb7687b53",
+            "author_name": "hidekisaito",
+            "commit_date": "2026-09-17T10:52:58-07:00",
+            "subject": "[AMDGPU] Model GFX1250 VALU blocking cycles (#222483)"
+        },
+        {
+            "hash": "a3d4579b451804383c49789f963b51631d4b38c7",
+            "author_name": "Yihan Wang",
+            "commit_date": "2026-09-18T01:57:02+08:00",
+            "subject": "[clang][Sema] Separate aggregate default member initializer evaluation (#219288)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -251383,15 +251425,15 @@
     ],
     "MaskRay\/perf\/densemap-shared-hasher": [
         {
-            "hash": "1ebf89d8c5e61f9184431eb4e5c9a6966b5c0748",
-            "author_name": "sstipano",
-            "commit_date": "2026-09-17T10:55:28+02:00",
-            "subject": "[AMDGPU][GFX13] MC support for indexed VIMAGE\/VSAMPLE resources (#223429)"
+            "hash": "63225d3616be90ab15b97919ac12ae0ab052ac82",
+            "author_name": "Michael Jones",
+            "commit_date": "2026-09-17T09:58:25-07:00",
+            "subject": "[libcxx][libc] Update LLVM-libc\/compiler-rt config (#224160)"
         },
         {
-            "hash": "c6e7987192035812ce7769a2db99f50ae522565c",
+            "hash": "1d25beedb8610f37b20ae71d95f209455fb97bae",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-09-17T09:46:10-07:00",
+            "commit_date": "2026-09-17T10:26:06-07:00",
             "subject": "[ADT] Share the rehash and grow loops across DenseMaps. NFC"
         }
     ],
