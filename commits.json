@@ -232947,6 +232947,12 @@
             "author_name": "purnima shrivastava",
             "commit_date": "2026-09-17T16:53:50+09:00",
             "subject": "[mlir][affine] Avoid folding out-of-bounds constant loads (#224076)"
+        },
+        {
+            "hash": "39ee115195645d9d4c80852250cea98ef61acc56",
+            "author_name": "Ties Stuij",
+            "commit_date": "2026-09-17T09:02:17+01:00",
+            "subject": "[compiler-rt][ARM] Make ARMv4T assembly builtins interwork (#221725)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -248311,10 +248317,22 @@
             "subject": "[SCEV] Look thru commutative in isKnownMultipleOf"
         },
         {
-            "hash": "9e0dd33566ca478f58a053daf08ccb71b51d3e31",
+            "hash": "f46dcefd919868386fa2e69b554df68fc57b4bb6",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-17T08:50:42+01:00",
+            "commit_date": "2026-09-17T08:55:08+01:00",
             "subject": "[SCEV] Fix underlying bug, redo extension logic"
+        },
+        {
+            "hash": "cae98515705557a71cfc67c6fcf7ad7b0ed50100",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-17T08:58:59+01:00",
+            "subject": "[SCEV] NFC simplification"
+        },
+        {
+            "hash": "ac2ee5ec46aff28754e71dd3eec3983047623aa6",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-17T09:02:59+01:00",
+            "subject": "[SCEV] Extend to SMinMax -- suprisingly holds"
         }
     ],
     "MaskRay\/perf\/sdag-register": [
