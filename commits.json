@@ -233367,6 +233367,12 @@
             "author_name": "Timur Golubovich",
             "commit_date": "2026-09-17T16:07:55+02:00",
             "subject": "[X86] Fix out-of-range extractBits in combineAVX512SetCCToKMOV (#224268)"
+        },
+        {
+            "hash": "38b9756321b058cdf882db131139afe8261f90a7",
+            "author_name": "Akash Manna",
+            "commit_date": "2026-09-17T14:16:15+00:00",
+            "subject": "[clang] Fix surrogate call through a using-declared conversion function (#221723)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -251597,6 +251603,20 @@
             "author_name": "Benjamin Maxwell",
             "commit_date": "2026-09-17T13:29:42+00:00",
             "subject": "[PM] Add callback to add post-vectorization function passes"
+        }
+    ],
+    "fhahn\/perf\/scev-lt-maxbe-correlated-end": [
+        {
+            "hash": "28f36e6d3912e3f9c50fbf57113f84cd336b7862",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-17T10:15:49+02:00",
+            "subject": "WebAssembly: Drive Emscripten EH from the exception model, drop the cl::opt (#223972)"
+        },
+        {
+            "hash": "dfbe4dec46620effd87fe913b26b2f656f4b2750",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-17T15:20:56+01:00",
+            "subject": "[SCEV] Bound the max BE count by the range of End - Start."
         }
     ]
 }
