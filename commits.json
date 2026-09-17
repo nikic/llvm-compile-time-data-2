@@ -233373,6 +233373,24 @@
             "author_name": "Akash Manna",
             "commit_date": "2026-09-17T14:16:15+00:00",
             "subject": "[clang] Fix surrogate call through a using-declared conversion function (#221723)"
+        },
+        {
+            "hash": "db82496a43e6552928d3f109bfe32df812053657",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-09-17T16:32:51+02:00",
+            "subject": "[SPIR-V] Keep structs packed when nested type deduction rebuilds them (#222968)"
+        },
+        {
+            "hash": "fcd548f971ab4feb2529b61d531e9627338bae70",
+            "author_name": "Ron Green [NVIDIA]",
+            "commit_date": "2026-09-17T07:33:33-07:00",
+            "subject": "[flang][OpenACC] Skip non-loop evaluations when descending a collapsed\/tiled DO nest (#223579)"
+        },
+        {
+            "hash": "d9eacde3fa9ba53cb89fcf18cb0b3bd6d1c0ac53",
+            "author_name": "Alessandro Potenza",
+            "commit_date": "2026-09-17T15:37:28+01:00",
+            "subject": "[mlir][vector] Reject a 0-d operand in the outerproduct parser (#219917)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -250977,10 +250995,16 @@
             "subject": "[SCEV] Pre-commit implied-cond-ge-via-gt test"
         },
         {
-            "hash": "333c1bad689fb6fca4665d2851f3ec9b28805b1b",
+            "hash": "3344afd7a907e35b333ac7e07b74cc7bca7f8532",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-17T15:08:19+01:00",
+            "commit_date": "2026-09-17T15:31:58+01:00",
             "subject": "[SCEV] Make cheap use of fact X > Y - 1 => X >= Y"
+        },
+        {
+            "hash": "768a6545225e6a09743dc763135cbc45ca9010bb",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-17T15:37:28+01:00",
+            "subject": "[SCEV] Early return"
         }
     ],
     "fhahn\/perf\/scev-dominating-guards": [
