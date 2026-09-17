@@ -248435,16 +248435,22 @@
     ],
     "artagnon\/perf\/scev-cache-ar": [
         {
-            "hash": "42b846980eeacd8052d7a463e1aea8bb91aff248",
-            "author_name": "Alexey Bataev",
-            "commit_date": "2026-09-07T08:52:57-04:00",
-            "subject": "[SLP]Fix crash in canBuildSplitNode on struct-typed scalars"
+            "hash": "4081877baec460d025db656d8057b0a4f5687fbe",
+            "author_name": "Andreas Jonson",
+            "commit_date": "2026-09-17T17:15:55+02:00",
+            "subject": "[InstCombine] Support trunc nuw condition in foldAndOrOfICmps (#222407)"
         },
         {
-            "hash": "6590dbf46ffe948000eed0c86fdd72b2c4a3ca29",
+            "hash": "c93d1a332fc693497b670795ab60825a1e12d4fe",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-07T16:24:04+01:00",
-            "subject": "[SCEV] Find existing AR in cache in getAR (NFC)"
+            "commit_date": "2026-09-17T17:26:09+01:00",
+            "subject": "[SCEV] Add test from Florian, thanks!"
+        },
+        {
+            "hash": "624e122cb07f4317a0d67cfa6ece26cb69a915f2",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-17T17:32:50+01:00",
+            "subject": "[SCEV] Extend cache-lookup for AR (NFC)"
         }
     ],
     "fhahn\/perf\/ce-improvements": [
