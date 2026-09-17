@@ -233463,6 +233463,18 @@
             "author_name": "Timm Baeder",
             "commit_date": "2026-09-17T17:46:34+02:00",
             "subject": "[clang][bytecode] Remove unnecessary stack operations in builtin_expect (#224288)"
+        },
+        {
+            "hash": "36763294ef639d8a6a4379d81da653dda1c20686",
+            "author_name": "Yassine Missoum",
+            "commit_date": "2026-09-17T08:52:12-07:00",
+            "subject": "[Clang][Parser] Accept contextual _except in MS compatibility mode (#223551)"
+        },
+        {
+            "hash": "fd0ecaccdc131ae3e541be4d1eb83d85758bf104",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-09-17T16:57:10+01:00",
+            "subject": "[lldb] Surface GetIndexOfChildWithName errors instead of dropping them (#224059)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -250813,6 +250825,12 @@
             "author_name": "Daniil Fukalov",
             "commit_date": "2026-09-17T06:44:31-04:00",
             "subject": "[RegAlloc] Use sparse storage for reassignment blockers"
+        },
+        {
+            "hash": "8bfa5fad4fc03529ebd90bb8a616a54cb11ba0ce",
+            "author_name": "Daniil Fukalov",
+            "commit_date": "2026-09-17T11:56:05-04:00",
+            "subject": "[RegAlloc] Name the cached blocker iterator explicitly (NFC)"
         }
     ],
     "dfukalov\/perf\/amdgpu-early-loop-fusion": [
