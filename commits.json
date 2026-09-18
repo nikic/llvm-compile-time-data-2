@@ -77029,46 +77029,46 @@
     ],
     "tbaederr\/perf\/ce-test": [
         {
-            "hash": "a543cc18874c79a25948022eeb2299e6dc6fda73",
-            "author_name": "jeanPerier",
-            "commit_date": "2026-09-18T10:04:55+02:00",
-            "subject": "[flang][HLFIR] make copyin\/copyout allocation inline (#224063)"
+            "hash": "8c013a1947a8c9fbe22fed19fdb2da1b2513aa5e",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-18T07:28:55-04:00",
+            "subject": "[SLP]Do not stop the seed scan when a dependent seed is skipped"
         },
         {
-            "hash": "cf7a8efe23fbbfcb6c88375e961b8f477f067306",
+            "hash": "70971539075f6f3be32afdda296859d709f02576",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-18T10:08:58+02:00",
+            "commit_date": "2026-09-18T13:31:39+02:00",
             "subject": "Test"
         },
         {
-            "hash": "348ac42d578276882fe1d4fbf438a78f35748748",
+            "hash": "c668d72b75949dfd50368c17abb1461d4f1897c4",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-18T10:08:58+02:00",
+            "commit_date": "2026-09-18T13:31:39+02:00",
             "subject": "I"
         },
         {
-            "hash": "193c9f4671a8747d77be44988223f132629867b5",
+            "hash": "00f66ba04fb5d2ea876b44d4a8ee7ac28c316ac9",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-18T10:08:58+02:00",
+            "commit_date": "2026-09-18T13:31:40+02:00",
             "subject": "Reduce stack chunk size"
         },
         {
-            "hash": "baef773fedb5cfce75e4feaca37d074b2164799d",
+            "hash": "083157e52a6db8fdd6cd40505b506cb69b8f611d",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-18T10:08:58+02:00",
+            "commit_date": "2026-09-18T13:31:40+02:00",
             "subject": "Remove cleanup()"
         },
         {
-            "hash": "b35fa6dc9490abc638684ef67cf4b7c21215e5e1",
+            "hash": "1ff16b197e1f2d5fc966d3d17e7eb0034e20d377",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-18T12:10:58+02:00",
-            "subject": "State!"
+            "commit_date": "2026-09-18T13:31:58+02:00",
+            "subject": "[clang][import] Evaluate constexpr variable initialzers"
         },
         {
-            "hash": "a30eff762befc7d0178f719e410f56c9971a8316",
+            "hash": "ec59e5b8199bfeee49815a68bd6c29262de67efa",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-18T12:51:24+02:00",
-            "subject": "[clang][import] Evaluate constexpr variable initialzers"
+            "commit_date": "2026-09-18T13:32:08+02:00",
+            "subject": "LocSource stuff"
         }
     ],
     "dtcxzyw\/perf\/nonnull-at-callsite": [
@@ -234357,6 +234357,18 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-09-18T07:28:55-04:00",
             "subject": "[SLP]Do not stop the seed scan when a dependent seed is skipped"
+        },
+        {
+            "hash": "032bea5e405e11122758d8d815d50e41cd3d243b",
+            "author_name": "\u0141ukasz Plewa",
+            "commit_date": "2026-09-18T13:33:45+02:00",
+            "subject": "[offload] add context to olMemAlloc* (#222677)"
+        },
+        {
+            "hash": "70ba7b64200af3af7f9d26d66f3b08c8cbb2d357",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-18T11:36:43+00:00",
+            "subject": "[VPlan] Implement VPBlockUtils::blocksOnly using make_isa_range (NFC) (#224596)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -252639,6 +252651,20 @@
             "author_name": "Antonio Frighetto",
             "commit_date": "2026-09-17T20:15:34+02:00",
             "subject": "[SCEV] Do not consider base pointer defining scope for offset flags in `getGEPExpr`"
+        }
+    ],
+    "tbaederr\/perf\/state2": [
+        {
+            "hash": "8c013a1947a8c9fbe22fed19fdb2da1b2513aa5e",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-18T07:28:55-04:00",
+            "subject": "[SLP]Do not stop the seed scan when a dependent seed is skipped"
+        },
+        {
+            "hash": "19c8145bcc1122190312a04ed30591c33fca215f",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-09-18T13:32:29+02:00",
+            "subject": "LocSource stuff"
         }
     ]
 }
