@@ -234039,6 +234039,18 @@
             "author_name": "Daniel Chen",
             "commit_date": "2026-09-17T21:57:49-04:00",
             "subject": "[flang] Fix RecordType sizes, TRANSFER lowering, and BIND(C) ABI on SystemZ\/PPC64le (#220377)"
+        },
+        {
+            "hash": "1b1e9d1ea1755187d87bb060b960f8fe1c5e3b95",
+            "author_name": "Shimin Cui",
+            "commit_date": "2026-09-17T22:07:34-04:00",
+            "subject": "Recommit [GOFFObjectFile] replace snprintf with formatv (#224435) (#224489)"
+        },
+        {
+            "hash": "09046d9715378c777ff28bb6c2e1e0b20c7bd1c8",
+            "author_name": "Kewen Meng",
+            "commit_date": "2026-09-18T02:07:45+00:00",
+            "subject": "[libc] Fix sinf unit test failures (#224475)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -252227,16 +252239,16 @@
     ],
     "MaskRay\/perf\/inst-getnumber": [
         {
-            "hash": "28f36e6d3912e3f9c50fbf57113f84cd336b7862",
-            "author_name": "Matt Arsenault",
-            "commit_date": "2026-09-17T10:15:49+02:00",
-            "subject": "WebAssembly: Drive Emscripten EH from the exception model, drop the cl::opt (#223972)"
+            "hash": "09046d9715378c777ff28bb6c2e1e0b20c7bd1c8",
+            "author_name": "Kewen Meng",
+            "commit_date": "2026-09-18T02:07:45+00:00",
+            "subject": "[libc] Fix sinf unit test failures (#224475)"
         },
         {
-            "hash": "4eb07cb438b25fed1e8646236493e28daba3375e",
+            "hash": "386863846a2ec5304f78f4c87df2b7efab7cd1d9",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-09-17T01:20:25-07:00",
-            "subject": "[IR] Add Instruction::getNumber() and use it in LoopLoadElimination"
+            "commit_date": "2026-09-17T19:12:36-07:00",
+            "subject": "[IR] Add Instruction::getNumber() and use it in two analyses"
         }
     ],
     "artagnon\/perf\/scev-implied-eq-fast": [
