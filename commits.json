@@ -234489,6 +234489,24 @@
             "author_name": "Arseniy Obolenskiy",
             "commit_date": "2026-09-18T15:20:57+02:00",
             "subject": "[AMDGPU] Strip all incompatible return attrs in RewriteOutArgument (#224608)"
+        },
+        {
+            "hash": "9c6a62c49ea9d344cb891db1c1a157fe807c0e26",
+            "author_name": "\u0141ukasz Plewa",
+            "commit_date": "2026-09-18T15:33:41+02:00",
+            "subject": "[offload] plumb HostPtr through PluginContextTy::allocate (#224622)"
+        },
+        {
+            "hash": "6d3f949e16618163ee5d74f580c5273af501b54e",
+            "author_name": "Marcos Maronas",
+            "commit_date": "2026-09-18T14:34:35+01:00",
+            "subject": "[SPIRV] Translate {uinc\/udec}_wrap as opaque intrinsics for AMD (#215507)"
+        },
+        {
+            "hash": "540ee7cc012dad0bbfcef0352f6f63a60d27554a",
+            "author_name": "Yao Qi",
+            "commit_date": "2026-09-18T14:37:49+01:00",
+            "subject": "[lldb] Fix AddCacheData comments (#224383)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -252781,9 +252799,9 @@
             "subject": "[SLP]Do not stop the seed scan when a dependent seed is skipped"
         },
         {
-            "hash": "380a0683515c200bd80f00174f548cbeb3a52eff",
+            "hash": "ec7685e8aafe3262cc4a7272d994e2abb86f8d9d",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-18T15:22:06+02:00",
+            "commit_date": "2026-09-18T15:32:17+02:00",
             "subject": "LocSource stuff"
         }
     ]
