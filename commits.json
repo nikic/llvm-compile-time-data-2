@@ -235335,6 +235335,18 @@
             "author_name": "Timm Baeder",
             "commit_date": "2026-09-19T16:23:18+02:00",
             "subject": "[clang][bytecode] Lazily evaluate static variables (#208794)"
+        },
+        {
+            "hash": "3830f77512eaebae7a24aa04f75ad37a9facea5d",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-09-19T07:59:16-07:00",
+            "subject": "[LLVM][docs] Rename remaining reST docs to Markdown (batch 11) (#223098)"
+        },
+        {
+            "hash": "7c55ad084c8b1503cafa42c60d88bff65919c9fa",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-09-19T07:59:19-07:00",
+            "subject": "[LLVM][docs] Finish MyST migration for remaining docs (batch 11) (#223100)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -253687,6 +253699,68 @@
             "author_name": "Mehdi Amini",
             "commit_date": "2026-09-16T16:31:00-07:00",
             "subject": "[Clang] Cache AST context lookup for declarations"
+        }
+    ],
+    "fhahn\/perf\/scev-merge-block-guards": [
+        {
+            "hash": "a986c0984aa7ec77636fdc085f4228fec5a4a600",
+            "author_name": "Ivan Butygin",
+            "commit_date": "2026-09-19T12:38:48+03:00",
+            "subject": "[MLIR] Preserve operand segment sizes when removing dead inputs (#223154)"
+        },
+        {
+            "hash": "9ae25be298e54e4af699f6f8ab0bf84f259880d0",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-19T11:28:05+01:00",
+            "subject": "[SCEV] Test loop guard collection past an unrelated branch"
+        },
+        {
+            "hash": "f71dba8725c11d6ed848b1869a747d51a99f3e89",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-19T11:28:05+01:00",
+            "subject": "[SCEV] Skip the guard-intrinsic lookup when the module has no guards"
+        },
+        {
+            "hash": "bd555e5a1336ced4081161e527ec96601b5b5b46",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-19T11:28:06+01:00",
+            "subject": "[SCEV] Stop computing loop-guard ranges once no wrap flag can be preserved"
+        },
+        {
+            "hash": "334392a62dd7b3e5a1d12c3dfe588061b726ef4d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-19T15:03:11+01:00",
+            "subject": "[SCEV][NFC] Avoid heap traffic in SCEVRewriteVisitor"
+        },
+        {
+            "hash": "d8f7f0b26767b916ed11490500008ac1c75c7d15",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-19T15:03:34+01:00",
+            "subject": "[SCEV][NFC] Use a SmallDenseMap for LoopGuards::RewriteMap"
+        },
+        {
+            "hash": "acd594e6a63048a4d2d913a35663835f79f5dd2d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-19T15:03:36+01:00",
+            "subject": "[SCEV][NFC] Drop the LoopGuards IncomingGuards cache, which can never hit"
+        },
+        {
+            "hash": "7e0739cef73291a9c2ddf1b2caedc668e791e492",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-19T15:03:38+01:00",
+            "subject": "[SCEV][NFC] Give collectFromBlock's per-call containers inline capacity"
+        },
+        {
+            "hash": "f13e1af0aed5b012cde02b06b26072adb8083f67",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-19T15:03:40+01:00",
+            "subject": "[SCEV][NFC] Avoid redundant work in the loop-guard matchers and rewrite loops"
+        },
+        {
+            "hash": "1bca938497322b5dab107f304832c09cb3ec0aee",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-19T15:03:47+01:00",
+            "subject": "[SCEV] Look for guarding conditions through merge blocks."
         }
     ]
 }
