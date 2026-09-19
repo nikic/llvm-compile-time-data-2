@@ -235365,6 +235365,12 @@
             "author_name": "Kazu Hirata",
             "commit_date": "2026-09-19T09:33:09-07:00",
             "subject": "[AsmPrinter] Remove dead functions, types, and member variables (NFC) (#224819)"
+        },
+        {
+            "hash": "1c0fc1d0d8ae0d7e3cbce522466ec1b136c056a8",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-19T18:58:46+01:00",
+            "subject": "[ConstraintElim] Use SubOverflow instead of MulOverflow + AddOverflow. (#224840)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -253777,10 +253783,10 @@
     ],
     "fhahn\/perf\/sct": [
         {
-            "hash": "4d96960025eb319f57ec37327527aaf4d34b5e3e",
-            "author_name": "Mohammed Ashraf",
-            "commit_date": "2026-09-17T21:49:08-07:00",
-            "subject": "unify ParseLexedAttributeTokens (#14170)"
+            "hash": "d9540f5755113077180ffcc03c8a3a7ede13669e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-19T19:02:22+01:00",
+            "subject": "[SCEV][LoopUnroll] Invalidate ancestor exit counts at block deletion"
         }
     ]
 }
