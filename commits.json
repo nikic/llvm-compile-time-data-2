@@ -251591,87 +251591,81 @@
     ],
     "fhahn\/perf\/ce-unify-flag-queries": [
         {
-            "hash": "c9c1ed7e41b245d15ee339b51696c546d5dc6d18",
-            "author_name": "Anutosh Bhat",
-            "commit_date": "2026-09-17T00:21:41+05:30",
-            "subject": "[lldb] Add an option to build liblldb statically (#223210)"
+            "hash": "02e6ae3a2812d6dd3707f8818cbf124d0a3ee0df",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-09-19T16:23:18+02:00",
+            "subject": "[clang][bytecode] Lazily evaluate static variables (#208794)"
         },
         {
-            "hash": "6daa045392f0420c660eefe8de102069b87eb27a",
+            "hash": "93f9dcc8525693f5e5d3a6c71fa38888ee029dcc",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-16T19:59:29+01:00",
-            "subject": "[ConstraintElimination] Use ConstraintInfo::isKnownNonNegative for srem facts (NFC)."
+            "commit_date": "2026-09-19T15:45:42+01:00",
+            "subject": "[ConstraintElim] Add tests for uadd\/umul\/smul with.overflow (NFC)."
         },
         {
-            "hash": "0401d338f425ab4d85738d48e9f5432685bf70fb",
+            "hash": "6f7c471e9fa84d8163efbe6f993f37d6b9f4b09f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-16T19:59:30+01:00",
-            "subject": "add srem test"
-        },
-        {
-            "hash": "5f9d1cae5fe4222b9ddaf59605e12420df09808e",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-16T19:59:31+01:00",
-            "subject": "[ConstraintElim] Add signed no-wrap rule for sub to isKnownNoWrap."
-        },
-        {
-            "hash": "7a02bcc9189b467efbb071ab25d99273fefc54da",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-16T19:59:31+01:00",
-            "subject": "[ConstraintElim] Take the operation to check as opcode and operands (NFC)."
-        },
-        {
-            "hash": "9a224fd59f971aa94b0e3509dcceae3bffb7ec81",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-16T19:59:32+01:00",
+            "commit_date": "2026-09-19T15:50:25+01:00",
             "subject": "[ConstraintElim] Simplify all overflow intrinsics using isKnownNoWrap."
         },
         {
-            "hash": "a26a780519adf834b5a6e01ca485f67881b22dcb",
+            "hash": "9ca97e1705c0b5848efe260044a175d83e9beeaf",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-16T19:59:32+01:00",
+            "commit_date": "2026-09-19T16:03:05+01:00",
+            "subject": "[ConstraintElimination] Use ConstraintInfo::isKnownNonNegative for srem facts (NFC)."
+        },
+        {
+            "hash": "805e94123aa2a07ead76f3abdce570c4b7500e25",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-19T16:03:05+01:00",
+            "subject": "add srem test"
+        },
+        {
+            "hash": "505fd59ba348118de516eaa8465f64d06239ebbc",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-19T16:08:07+01:00",
             "subject": "[ConstraintElim] Extend the signed no-wrap rule for sub to non-positive Op1."
         },
         {
-            "hash": "d54645322890c68dc0c456dc2b50c9e6632d36f1",
+            "hash": "45151e076e0663ab07436c2b52c77f6acafc83b7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-16T19:59:33+01:00",
+            "commit_date": "2026-09-19T16:08:08+01:00",
             "subject": "[ConstraintElimination] Simplify all saturating intrinsics using isKnownNoWrap."
         },
         {
-            "hash": "631b68b84b3ed832c12e702ab83eb28281264819",
+            "hash": "382e8d8beca1932065d87a68b88d67aab34c2f6a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-16T19:59:33+01:00",
+            "commit_date": "2026-09-19T16:25:56+01:00",
             "subject": "[ConstraintElimination] Only query the flags that can be strengthened."
         },
         {
-            "hash": "28f49a6f46e665aa02ca8f6de9f484688ebaa0f2",
+            "hash": "1614ecdbd4f4ae119c05e76a7890939e2a0570b8",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-16T19:59:34+01:00",
+            "commit_date": "2026-09-19T16:25:57+01:00",
             "subject": "[ConstraintElimination] Decide the add decomposition with a single query (NFC)."
         },
         {
-            "hash": "57ac88aa7270cfa4c87c857249a36f8b387dfb3b",
+            "hash": "b98eb25532c8fb259ebbeccfc53cb462bd99abb9",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-16T19:59:34+01:00",
+            "commit_date": "2026-09-19T16:25:58+01:00",
             "subject": "[ConstraintElimination] Share the GEP no-unsigned-wrap check."
         },
         {
-            "hash": "464da3c57c8adc61b5c33881e8a86d158fa1f9d8",
+            "hash": "b8dc8dc1bec6c06f5a4860437da8c8e57a7a1cbc",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-16T19:59:35+01:00",
+            "commit_date": "2026-09-19T16:25:58+01:00",
             "subject": "[ConstraintElimination] Check unsigned queries against the signed system."
         },
         {
-            "hash": "be39a6f8a5c3afff6837d22594ad149cad7b0e0b",
+            "hash": "895721122ea2008ce0b3efe640c923e782524fd3",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-16T19:59:36+01:00",
+            "commit_date": "2026-09-19T16:25:59+01:00",
             "subject": "[ConstraintElimination] Only retry in the signed system for known variables."
         },
         {
-            "hash": "4c2c608347d19383ea49bb004035d923a6c6f9d4",
+            "hash": "24259ce35832d50f10dd4966f67039e3e1a5834a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-16T19:59:37+01:00",
+            "commit_date": "2026-09-19T16:25:59+01:00",
             "subject": "[ConstraintElimination] Dispatch decompose on the opcode (NFC)."
         }
     ],
