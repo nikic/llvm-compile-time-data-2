@@ -235605,6 +235605,24 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-20T15:49:38+00:00",
             "subject": "[ConstraintElim] Simplify all overflow intrinsics using isKnownNoWrap. (#224848)"
+        },
+        {
+            "hash": "66155d8a7409128e8c427cf5642847e01e40cb37",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-09-20T10:12:31-07:00",
+            "subject": "[SelectionDAG] Document that ISD::ADDE\/SUBE\/ADDC\/SUBC use glue. NFC (#224765)"
+        },
+        {
+            "hash": "51d290508d4dd980c3ba03bcc873926c41c6e591",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-09-20T10:13:49-07:00",
+            "subject": "[DAGCombiner] Restrict combineOrOfSetCCToUSUBOCarry to ZeroOrOneBooleanContent. (#224759)"
+        },
+        {
+            "hash": "ffe46933084f1340211b1e4078d2920996b8e038",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-09-20T10:14:16-07:00",
+            "subject": "[SelectionDAG] Document that UADDO\/USUBO_CARRRY follow getBooleanContents. NFC (#224764)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
