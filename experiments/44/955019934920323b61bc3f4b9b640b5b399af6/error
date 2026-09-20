@@ -1,0 +1,240 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+      |           ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:1340:21: warning:   ‘clang::interp::FunctionPointer clang::interp::Pointer::<unnamed union>::Fn’ [-Wreorder]
+ 1340 |     FunctionPointer Fn;
+      |                     ^~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:547:3: warning:   when initialized here [-Wreorder]
+  547 |   Pointer(const Function *F, uint64_t Offset = 0)
+      |   ^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In constructor ‘clang::interp::Pointer::Pointer(const clang::Expr*, unsigned int)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:1345:11: warning: ‘clang::interp::Pointer::StorageKind’ will be initialized after [-Wreorder]
+ 1345 |   Storage StorageKind = Storage::Int;
+      |           ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:1342:19: warning:   ‘clang::interp::StringPointer clang::interp::Pointer::<unnamed union>::Str’ [-Wreorder]
+ 1342 |     StringPointer Str;
+      |                   ^~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:554:3: warning:   when initialized here [-Wreorder]
+  554 |   Pointer(const Expr *Base, unsigned Id)
+      |   ^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In constructor ‘clang::interp::Pointer::Pointer(clang::interp::StringPointer, uint64_t)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:1345:11: warning: ‘clang::interp::Pointer::StorageKind’ will be initialized after [-Wreorder]
+ 1345 |   Storage StorageKind = Storage::Int;
+      |           ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:1342:19: warning:   ‘clang::interp::StringPointer clang::interp::Pointer::<unnamed union>::Str’ [-Wreorder]
+ 1342 |     StringPointer Str;
+      |                   ^~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:556:3: warning:   when initialized here [-Wreorder]
+  556 |   Pointer(StringPointer Str, uint64_t Offset = 0)
+      |   ^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In constructor ‘clang::interp::Pointer::Pointer(clang::interp::OpaquePointer, uint64_t)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:1345:11: warning: ‘clang::interp::Pointer::StorageKind’ will be initialized after [-Wreorder]
+ 1345 |   Storage StorageKind = Storage::Int;
+      |           ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:1343:19: warning:   ‘clang::interp::OpaquePointer clang::interp::Pointer::<unnamed union>::Opaque’ [-Wreorder]
+ 1343 |     OpaquePointer Opaque;
+      |                   ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:566:3: warning:   when initialized here [-Wreorder]
+  566 |   Pointer(OpaquePointer OP, uint64_t Offset = 0)
+      |   ^~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpState.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpHelpers.h:13,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.h:26,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h: At global scope:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:45:13: error: explicit specialization in non-namespace scope ‘class clang::interp::InterpStack’
+   45 |   template <> struct Padding<0> {};
+      |             ^
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:45:22: error: too few template-parameter-lists
+   45 |   template <> struct Padding<0> {};
+      |                      ^~~~~~~~~~
+In file included from /usr/include/strings.h:23,
+                 from /usr/include/string.h:462,
+                 from /usr/include/c++/11/cstring:42,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallVector.h:25,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/BitcastBuffer.h:11,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h: In instantiation of ‘constexpr const size_t clang::interp::datasizeof_v<clang::interp::FixedPoint>’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:58:39:   required from ‘static constexpr size_t clang::interp::InterpStack::StackFrame<T>::getPaddingSize() [with T = clang::interp::FixedPoint; size_t = long unsigned int]’
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:65:50:   required from ‘struct clang::interp::InterpStack::StackFrame<clang::interp::FixedPoint>’
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:80:12:   required from ‘T clang::interp::InterpStack::pop() [with T = clang::interp::FixedPoint]’
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.h:2931:45:   required from here
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:31:42: warning: ‘offsetof’ within non-standard-layout type ‘clang::interp::datasizeof_impl<clang::interp::FixedPoint>’ is conditionally-supported [-Winvalid-offsetof]
+   31 | constexpr size_t datasizeof_v = offsetof(datasizeof_impl<T>, first_padding_byte);
+      |                                          ^
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Boolean.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Integral.h: In instantiation of ‘clang::interp::Integral<Bits, Signed>::Integral(clang::interp::Integral<SrcBits, SrcSign>) [with unsigned int SrcBits = 16; bool SrcSign = true; unsigned int Bits = 16; bool Signed = false]’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Integral.h:240:12:   required from ‘clang::interp::Integral<Bits, false> clang::interp::Integral<Bits, Signed>::toUnsigned() const [with unsigned int Bits = 16; bool Signed = true]’
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.h:194:32:   required from ‘bool clang::interp::CheckShift(clang::interp::InterpState&, clang::interp::CodePtr, const LT&, const RT&, unsigned int) [with clang::interp::ShiftDir Dir = clang::interp::ShiftDir::Left; LT = clang::interp::Integral<16, true>; RT = clang::interp::Char<true>]’
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.h:3287:23:   required from ‘bool clang::interp::DoShift(clang::interp::InterpState&, clang::interp::CodePtr, LT&, RT&, LT*) [with LT = clang::interp::Integral<16, true>; RT = clang::interp::Char<true>; clang::interp::ShiftDir Dir = clang::interp::ShiftDir::Left]’
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.h:3421:43:   required from ‘bool clang::interp::Shl(clang::interp::InterpState&, clang::interp::CodePtr) [with clang::interp::PrimType NameL = clang::interp::PT_Sint16; clang::interp::PrimType NameR = clang::interp::PT_Sint8]’
+/tmp/llvm-project-build-stage1/tools/clang/lib/AST/Opcodes.inc:45692:32:   required from here
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Integral.h:92:16: warning: ‘clang::interp::Integral<16, false>::Kind’ will be initialized after [-Wreorder]
+   92 |   IntegralKind Kind = IntegralKind::Number;
+      |                ^~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Integral.h:82:11: warning:   ‘clang::interp::Integral<16, false>::ReprT clang::interp::Integral<16, false>::<unnamed union>::V’ [-Wreorder]
+   82 |     ReprT V;
+      |           ^
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Integral.h:111:12: warning:   when initialized here [-Wreorder]
+  111 |   explicit Integral(Integral<SrcBits, SrcSign> V) : Kind(V.Kind), V(V) {}
+      |            ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Integral.h: In instantiation of ‘clang::interp::Integral<Bits, Signed>::Integral(clang::interp::Integral<SrcBits, SrcSign>) [with unsigned int SrcBits = 32; bool SrcSign = true; unsigned int Bits = 32; bool Signed = false]’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Integral.h:240:12:   required from ‘clang::interp::Integral<Bits, false> clang::interp::Integral<Bits, Signed>::toUnsigned() const [with unsigned int Bits = 32; bool Signed = true]’
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.h:194:32:   required from ‘bool clang::interp::CheckShift(clang::interp::InterpState&, clang::interp::CodePtr, const LT&, const RT&, unsigned int) [with clang::interp::ShiftDir Dir = clang::interp::ShiftDir::Left; LT = clang::interp::Integral<32, true>; RT = clang::interp::Char<true>]’
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.h:3287:23:   required from ‘bool clang::interp::DoShift(clang::interp::InterpState&, clang::interp::CodePtr, LT&, RT&, LT*) [with LT = clang::interp::Integral<32, true>; RT = clang::interp::Char<true>; clang::interp::ShiftDir Dir = clang::interp::ShiftDir::Left]’
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.h:3421:43:   required from ‘bool clang::interp::Shl(clang::interp::InterpState&, clang::interp::CodePtr) [with clang::interp::PrimType NameL = clang::interp::PT_Sint32; clang::interp::PrimType NameR = clang::interp::PT_Sint8]’
+/tmp/llvm-project-build-stage1/tools/clang/lib/AST/Opcodes.inc:45872:32:   required from here
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Integral.h:92:16: warning: ‘clang::interp::Integral<32, false>::Kind’ will be initialized after [-Wreorder]
+   92 |   IntegralKind Kind = IntegralKind::Number;
+      |                ^~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Integral.h:82:11: warning:   ‘clang::interp::Integral<32, false>::ReprT clang::interp::Integral<32, false>::<unnamed union>::V’ [-Wreorder]
+   82 |     ReprT V;
+      |           ^
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Integral.h:111:12: warning:   when initialized here [-Wreorder]
+  111 |   explicit Integral(Integral<SrcBits, SrcSign> V) : Kind(V.Kind), V(V) {}
+      |            ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Integral.h: In instantiation of ‘clang::interp::Integral<Bits, Signed>::Integral(clang::interp::Integral<SrcBits, SrcSign>) [with unsigned int SrcBits = 64; bool SrcSign = true; unsigned int Bits = 64; bool Signed = false]’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Integral.h:240:12:   required from ‘clang::interp::Integral<Bits, false> clang::interp::Integral<Bits, Signed>::toUnsigned() const [with unsigned int Bits = 64; bool Signed = true]’
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.h:194:32:   required from ‘bool clang::interp::CheckShift(clang::interp::InterpState&, clang::interp::CodePtr, const LT&, const RT&, unsigned int) [with clang::interp::ShiftDir Dir = clang::interp::ShiftDir::Left; LT = clang::interp::Integral<64, true>; RT = clang::interp::Char<true>]’
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.h:3287:23:   required from ‘bool clang::interp::DoShift(clang::interp::InterpState&, clang::interp::CodePtr, LT&, RT&, LT*) [with LT = clang::interp::Integral<64, true>; RT = clang::interp::Char<true>; clang::interp::ShiftDir Dir = clang::interp::ShiftDir::Left]’
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Interp.h:3421:43:   required from ‘bool clang::interp::Shl(clang::interp::InterpState&, clang::interp::CodePtr) [with clang::interp::PrimType NameL = clang::interp::PT_Sint64; clang::interp::PrimType NameR = clang::interp::PT_Sint8]’
+/tmp/llvm-project-build-stage1/tools/clang/lib/AST/Opcodes.inc:46052:32:   required from here
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Integral.h:92:16: warning: ‘clang::interp::Integral<64, false>::Kind’ will be initialized after [-Wreorder]
+   92 |   IntegralKind Kind = IntegralKind::Number;
+      |                ^~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Integral.h:82:11: warning:   ‘clang::interp::Integral<64, false>::ReprT clang::interp::Integral<64, false>::<unnamed union>::V’ [-Wreorder]
+   82 |     ReprT V;
+      |           ^
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Integral.h:111:12: warning:   when initialized here [-Wreorder]
+  111 |   explicit Integral(Integral<SrcBits, SrcSign> V) : Kind(V.Kind), V(V) {}
+      |            ^~~~~~~~
+[2778/3396] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTContext.cpp.o
+FAILED: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTContext.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTContext.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTContext.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTContext.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/MemberPointer.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:14:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In constructor ‘clang::interp::Pointer::Pointer()’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:1345:11: warning: ‘clang::interp::Pointer::StorageKind’ will be initialized after [-Wreorder]
+ 1345 |   Storage StorageKind = Storage::Int;
+      |           ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:1338:16: warning:   ‘clang::interp::IntPointer clang::interp::Pointer::<unnamed union>::Int’ [-Wreorder]
+ 1338 |     IntPointer Int;
+      |                ^~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:538:3: warning:   when initialized here [-Wreorder]
+  538 |   Pointer() : StorageKind(Storage::Int), Int{nullptr, 0} {}
+      |   ^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In constructor ‘clang::interp::Pointer::Pointer(clang::interp::IntPointer&&)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:1345:11: warning: ‘clang::interp::Pointer::StorageKind’ will be initialized after [-Wreorder]
+ 1345 |   Storage StorageKind = Storage::Int;
+      |           ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:1338:16: warning:   ‘clang::interp::IntPointer clang::interp::Pointer::<unnamed union>::Int’ [-Wreorder]
+ 1338 |     IntPointer Int;
+      |                ^~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:539:3: warning:   when initialized here [-Wreorder]
+  539 |   Pointer(IntPointer &&IntPtr)
+      |   ^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In constructor ‘clang::interp::Pointer::Pointer(uint64_t, const clang::Type*, uint64_t)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:1345:11: warning: ‘clang::interp::Pointer::StorageKind’ will be initialized after [-Wreorder]
+ 1345 |   Storage StorageKind = Storage::Int;
+      |           ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:1338:16: warning:   ‘clang::interp::IntPointer clang::interp::Pointer::<unnamed union>::Int’ [-Wreorder]
+ 1338 |     IntPointer Int;
+      |                ^~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:545:3: warning:   when initialized here [-Wreorder]
+  545 |   Pointer(uint64_t Address, const Type *Ty, uint64_t Offset = 0)
+      |   ^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In constructor ‘clang::interp::Pointer::Pointer(const clang::interp::Function*, uint64_t)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:1345:11: warning: ‘clang::interp::Pointer::StorageKind’ will be initialized after [-Wreorder]
+ 1345 |   Storage StorageKind = Storage::Int;
+      |           ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:1340:21: warning:   ‘clang::interp::FunctionPointer clang::interp::Pointer::<unnamed union>::Fn’ [-Wreorder]
+ 1340 |     FunctionPointer Fn;
+      |                     ^~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:547:3: warning:   when initialized here [-Wreorder]
+  547 |   Pointer(const Function *F, uint64_t Offset = 0)
+      |   ^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In constructor ‘clang::interp::Pointer::Pointer(const clang::Expr*, unsigned int)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:1345:11: warning: ‘clang::interp::Pointer::StorageKind’ will be initialized after [-Wreorder]
+ 1345 |   Storage StorageKind = Storage::Int;
+      |           ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:1342:19: warning:   ‘clang::interp::StringPointer clang::interp::Pointer::<unnamed union>::Str’ [-Wreorder]
+ 1342 |     StringPointer Str;
+      |                   ^~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:554:3: warning:   when initialized here [-Wreorder]
+  554 |   Pointer(const Expr *Base, unsigned Id)
+      |   ^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In constructor ‘clang::interp::Pointer::Pointer(clang::interp::StringPointer, uint64_t)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:1345:11: warning: ‘clang::interp::Pointer::StorageKind’ will be initialized after [-Wreorder]
+ 1345 |   Storage StorageKind = Storage::Int;
+      |           ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:1342:19: warning:   ‘clang::interp::StringPointer clang::interp::Pointer::<unnamed union>::Str’ [-Wreorder]
+ 1342 |     StringPointer Str;
+      |                   ^~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:556:3: warning:   when initialized here [-Wreorder]
+  556 |   Pointer(StringPointer Str, uint64_t Offset = 0)
+      |   ^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h: In constructor ‘clang::interp::Pointer::Pointer(clang::interp::OpaquePointer, uint64_t)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:1345:11: warning: ‘clang::interp::Pointer::StorageKind’ will be initialized after [-Wreorder]
+ 1345 |   Storage StorageKind = Storage::Int;
+      |           ^~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:1343:19: warning:   ‘clang::interp::OpaquePointer clang::interp::Pointer::<unnamed union>::Opaque’ [-Wreorder]
+ 1343 |     OpaquePointer Opaque;
+      |                   ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Pointer.h:566:3: warning:   when initialized here [-Wreorder]
+  566 |   Pointer(OpaquePointer OP, uint64_t Offset = 0)
+      |   ^~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/Context.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ASTContext.cpp:14:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h: At global scope:
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:45:13: error: explicit specialization in non-namespace scope ‘class clang::interp::InterpStack’
+   45 |   template <> struct Padding<0> {};
+      |             ^
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/AST/ByteCode/InterpStack.h:45:22: error: too few template-parameter-lists
+   45 |   template <> struct Padding<0> {};
+      |                      ^~~~~~~~~~
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Warning (policy) at cmake/modules/HandleLLVMOptions.cmake:959 (CHECK_C_SOURCE_COMPILES):
+  Policy CMP0219 is not set: Macro invocations preserve backslashes in
+  arguments.  Run "cmake --help-policy CMP0219" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  Command "CHECK_C_SOURCE_COMPILES" called with arguments containing
+  backslashes.
+
+  Since the policy is not set, backslashes in the arguments:
+
+   "// \\\n//\nint main(void) {return 0;}"
+
+  will be interpreted as escape sequences for compatibility.
+
+  Set the policy to NEW to instead pass
+
+   "// \\\\\\n//\\nint main(void) {return 0;}"
+
+  so that argument parsing will preserve the original values.
+Call Stack (most recent call first):
+  CMakeLists.txt:1166 (include)
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+CMake Warning (deprecated) at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+to suppress it.
+
+Command exited with non-zero status 1
+192.21user 18.67system 0:17.62elapsed 1196%CPU (0avgtext+0avgdata 1094892maxresident)k
+0inputs+1538064outputs (3788major+10252118minor)pagefaults 0swaps
