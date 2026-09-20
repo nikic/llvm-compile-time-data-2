@@ -253939,9 +253939,21 @@
     ],
     "fhahn\/perf\/sct": [
         {
-            "hash": "d9540f5755113077180ffcc03c8a3a7ede13669e",
+            "hash": "2ef90337355eee4384d4ac61bf038175a24583ab",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-09-20T12:16:55+02:00",
+            "subject": "[clang][bytecode] Use InterpState's allocator in DynamicAllocator (#224893)"
+        },
+        {
+            "hash": "e25b7403b9c40cf1caa320e5fea330edd2fe6b74",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-19T19:02:22+01:00",
+            "commit_date": "2026-09-20T11:59:58+01:00",
+            "subject": "[SCEV] Skip cache lookups during invalidation via per-SCEV cache bits (NFC)"
+        },
+        {
+            "hash": "b987bda3bde9928604cc06f3de1dd018433d4342",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-20T11:59:58+01:00",
             "subject": "[SCEV][LoopUnroll] Invalidate ancestor exit counts at block deletion"
         }
     ],
