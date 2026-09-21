@@ -235845,6 +235845,18 @@
             "author_name": "Timur Baidusenov",
             "commit_date": "2026-09-21T09:16:02+02:00",
             "subject": "[IR] Mark llvm.pseudoprobe arguments as immarg (#224669)"
+        },
+        {
+            "hash": "2ef17d9c2d8090771aecac3e2e0738eeedd38768",
+            "author_name": "David Green",
+            "commit_date": "2026-09-21T08:22:21+01:00",
+            "subject": "[DAG] Optimize masked store of constant lane mask to standard store (#224255)"
+        },
+        {
+            "hash": "42b886e3f1b8c0f90f69ec16d2945dde8bfeae06",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-09-21T00:31:07-07:00",
+            "subject": "[Support] Accept only true, false, 1 and 0 for cl::opt<bool> (#224975)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -249731,21 +249743,21 @@
     ],
     "artagnon\/perf\/scev-extaddrec-wrap": [
         {
-            "hash": "ce27ca449c564f8b38a60ea8db28e10a76cfb4ef",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-07T15:50:42+00:00",
-            "subject": "[SCEV] Add test coverage for ext-nusw\/nsuw inference (#218943)"
+            "hash": "3eaddb5735f63ac1bfe5e27400f457fc38435fb4",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-09-21T08:45:15+02:00",
+            "subject": "[SystemZ] Try to align globals to at least 2 bytes (#224586)"
         },
         {
-            "hash": "4bd257f94d51e30257a07a48d0f894746252e7b0",
+            "hash": "95ab46921361dfefe84221690b350681c6f3e34b",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-07T16:57:46+01:00",
+            "commit_date": "2026-09-21T08:21:46+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence for sext-addrec"
         },
         {
-            "hash": "d4caf9d22ee5a28f635f46f108ad68de8cc5667e",
+            "hash": "75b413ed5fadc4d92aa7a7923e99979604e17a70",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-07T16:57:46+01:00",
+            "commit_date": "2026-09-21T08:31:06+01:00",
             "subject": "[SCEV] Restore an improved version of nsuw logic"
         }
     ],
@@ -249803,21 +249815,21 @@
     ],
     "artagnon\/perf\/scev-zextaddrec-wrap": [
         {
-            "hash": "ce27ca449c564f8b38a60ea8db28e10a76cfb4ef",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-07T15:50:42+00:00",
-            "subject": "[SCEV] Add test coverage for ext-nusw\/nsuw inference (#218943)"
+            "hash": "3eaddb5735f63ac1bfe5e27400f457fc38435fb4",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-09-21T08:45:15+02:00",
+            "subject": "[SystemZ] Try to align globals to at least 2 bytes (#224586)"
         },
         {
-            "hash": "bcab1d34ce6ac7234de3946d01557ad3290965fe",
+            "hash": "0cb8b41076dc222da26e10c72bc4421674ac6ca3",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-07T16:57:38+01:00",
+            "commit_date": "2026-09-21T08:32:14+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence in zext-addrec"
         },
         {
-            "hash": "e4dc21fbecfeb9c3191388783f2f1c1af1347daa",
+            "hash": "0948c45c169395965953a9b7320e6b3b6e82099d",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-07T17:09:55+01:00",
+            "commit_date": "2026-09-21T08:32:14+01:00",
             "subject": "[SCEV] Restore improved version of nusw logic"
         }
     ],
