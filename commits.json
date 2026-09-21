@@ -235977,6 +235977,12 @@
             "author_name": "Henrich Lauko",
             "commit_date": "2026-09-21T13:16:02+02:00",
             "subject": "[MLIR][NFC] Drop sentinel leftovers from DenseMapInfo<Remark> (#224612)"
+        },
+        {
+            "hash": "cdae908ca061cc4bbf0d43a428107770102d460f",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-21T07:40:39-04:00",
+            "subject": "[SLP]Pass operand info and context to TTI cost queries"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -254493,6 +254499,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-21T11:28:25+01:00",
             "subject": "Skip"
+        },
+        {
+            "hash": "127425e3be4d3c94372ef0a84f25b7f2f2926543",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-21T12:33:26+01:00",
+            "subject": "PtrToInt"
         }
     ],
     "MacDue\/perf\/extra-target-vector-passes-v2": [
@@ -254513,6 +254525,20 @@
             "author_name": "Benjamin Maxwell",
             "commit_date": "2026-09-21T10:43:55+00:00",
             "subject": "Try add end vectorization"
+        }
+    ],
+    "artagnon\/perf\/scev-exact-flags": [
+        {
+            "hash": "3eaddb5735f63ac1bfe5e27400f457fc38435fb4",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-09-21T08:45:15+02:00",
+            "subject": "[SystemZ] Try to align globals to at least 2 bytes (#224586)"
+        },
+        {
+            "hash": "86223009093a9cc845b0d476f7d1f6866d80b06d",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-21T12:36:37+01:00",
+            "subject": "[SCEV] Introduce SCEVExactFlags for UDiv"
         }
     ]
 }
