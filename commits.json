@@ -236031,6 +236031,12 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-21T14:17:04+02:00",
             "subject": "PowerPC: Remove LiveVariables dependency from PPCMIPeephole (#222416)"
+        },
+        {
+            "hash": "61978757eca575e2743471ddf7bcfb7e3a3979e4",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-09-21T14:30:04+02:00",
+            "subject": "[SPIR-V] Add storage class bits to fence and generic atomic semantics (#223023)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -247823,16 +247829,16 @@
     ],
     "fhahn\/perf\/slpv": [
         {
-            "hash": "9bc8df6b880ef04a90e5b9ff05afd07f6fbdf562",
-            "author_name": "Charles Zablit",
-            "commit_date": "2026-09-08T14:10:46+02:00",
-            "subject": "[lldb][windows] print an error if Python fails to initialize (#181160)"
+            "hash": "7818c91f7151a50df614fae9211eedfbfd32e938",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-21T14:17:04+02:00",
+            "subject": "PowerPC: Remove LiveVariables dependency from PPCMIPeephole (#222416)"
         },
         {
-            "hash": "205559fdd46cbf4fe437f841b47b58b88641ddc7",
+            "hash": "b32179405252014f09c9d256ac0773849045a453",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-08T16:59:40+01:00",
-            "subject": "[VPlan] Don't populate the scalar header in the BasicBlock constructor"
+            "commit_date": "2026-09-21T13:25:38+01:00",
+            "subject": "[SLP] Add -slp-use-vplan-codegen to emit vector code via VPlan"
         }
     ],
     "fhahn\/perf\/ce-check-signed": [
@@ -254583,9 +254589,15 @@
             "subject": "[SystemZ] Try to align globals to at least 2 bytes (#224586)"
         },
         {
-            "hash": "2563c5a3a36188afeb988d3d7e97c960cd6eabb2",
+            "hash": "ddb75ebcd5e97803fb32e85018ce990f140d5d0a",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-21T13:10:50+01:00",
+            "commit_date": "2026-09-21T13:20:02+01:00",
+            "subject": "[LoopUnroll] Pre-commit udiv-exact tests"
+        },
+        {
+            "hash": "7795ffb835da9cc0a882344e957e2eec9f67c43b",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-21T13:30:21+01:00",
             "subject": "[SCEV] Introduce SCEVExactFlags for UDiv"
         }
     ],
