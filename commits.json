@@ -235905,6 +235905,18 @@
             "author_name": "Victor Campos",
             "commit_date": "2026-09-21T09:55:54+01:00",
             "subject": "[Clang] Fix padding clearing logic for packed boolean vectors in big endian (#224033)"
+        },
+        {
+            "hash": "622e816cb4bf94ea99e2f1763c5c16b061ec80e2",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-21T10:22:05+01:00",
+            "subject": "[VPlan] Fix VPInstruction::AnyOf combine undoing freeze (#223640)"
+        },
+        {
+            "hash": "3c8ed91159b2144284672cf490cedd7befaba3fa",
+            "author_name": "Marton Moro",
+            "commit_date": "2026-09-21T09:25:21+00:00",
+            "subject": "[RISCV] Fold vmnot.m of an integer compare into the compare (#222553)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -254401,6 +254413,20 @@
             "author_name": "Vy Nguyen",
             "commit_date": "2026-09-21T08:42:57+02:00",
             "subject": "[ValueTracking] Support multiple predecessors in willNotFreeBetween"
+        }
+    ],
+    "fhahn\/perf\/ce-cache-decomp": [
+        {
+            "hash": "462f83ce4fff5d7fef0e6beb6b8bb2e568a5d13f",
+            "author_name": "Victor Campos",
+            "commit_date": "2026-09-21T09:55:54+01:00",
+            "subject": "[Clang] Fix padding clearing logic for packed boolean vectors in big endian (#224033)"
+        },
+        {
+            "hash": "e67a9afe99589867d9108ce9c666785a5ee98e16",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-21T10:19:17+01:00",
+            "subject": "[ConstraintElim] Cache decompositions."
         }
     ]
 }
