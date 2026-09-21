@@ -236163,6 +236163,12 @@
             "author_name": "Arseniy Obolenskiy",
             "commit_date": "2026-09-21T14:34:28+00:00",
             "subject": "[AMDGPU] Do not fold clamp when only one max source has modifiers (#224517)"
+        },
+        {
+            "hash": "b569f8d694e9cec6fef18dfde2f2a76bc9f84983",
+            "author_name": "agozillon",
+            "commit_date": "2026-09-21T16:44:57+02:00",
+            "subject": "[Flang][FIR] Handle SequenceTypes in isRecordWithAllocatableMember (#224048)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -254581,21 +254587,39 @@
     ],
     "fhahn\/perf\/sct": [
         {
-            "hash": "2ef90337355eee4384d4ac61bf038175a24583ab",
-            "author_name": "Timm Baeder",
-            "commit_date": "2026-09-20T12:16:55+02:00",
-            "subject": "[clang][bytecode] Use InterpState's allocator in DynamicAllocator (#224893)"
+            "hash": "fd4bcc57cd7f2aabc409768097a976edc40ff05b",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-09-21T14:34:28+00:00",
+            "subject": "[AMDGPU] Do not fold clamp when only one max source has modifiers (#224517)"
         },
         {
-            "hash": "e25b7403b9c40cf1caa320e5fea330edd2fe6b74",
+            "hash": "bd3c9520565d87fd52f9d2943df5ca83a92653dc",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-20T11:59:58+01:00",
-            "subject": "[SCEV] Skip cache lookups during invalidation via per-SCEV cache bits (NFC)"
+            "commit_date": "2026-09-21T15:49:20+01:00",
+            "subject": "[SCEV] Skip cache flushing for expressions memoized nowhere (NFC)"
         },
         {
-            "hash": "b987bda3bde9928604cc06f3de1dd018433d4342",
+            "hash": "8bcd2b39acca81d85f9d7a540c191973f0717500",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-20T11:59:58+01:00",
+            "commit_date": "2026-09-21T15:49:20+01:00",
+            "subject": "[SCEV] Split the memoized bit into 3 SCEV cache groups (NFC)"
+        },
+        {
+            "hash": "f7356eac5ae963f6e6f310bdaa402266376b6edf",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-21T15:49:21+01:00",
+            "subject": "[SCEV] Split the general SCEV cache group into 3 (NFC)"
+        },
+        {
+            "hash": "24671feacf8bfc8d07d82ee9c8ea492f78610e79",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-21T15:49:21+01:00",
+            "subject": "[SCEV] Give each SCEV cache its own CacheFlags bit (NFC)"
+        },
+        {
+            "hash": "1668a7174b26950409d66fdb8d3d448f3b9262b2",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-21T15:49:22+01:00",
             "subject": "[SCEV][LoopUnroll] Invalidate ancestor exit counts at block deletion"
         }
     ],
