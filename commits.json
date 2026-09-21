@@ -236595,6 +236595,12 @@
             "author_name": "Dmitry Sidorov",
             "commit_date": "2026-09-21T23:58:18+02:00",
             "subject": "[AMDGPU] Do not match an f16 extension as a bf16 mix source (#224912)"
+        },
+        {
+            "hash": "32636ffa83325ca3b3c1ae3342d66abe053ddf87",
+            "author_name": "Adam Smith",
+            "commit_date": "2026-09-21T22:05:37+00:00",
+            "subject": "[CIR] Drop the stale callconv opt-out from two CIR tests (#225180)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -255263,10 +255269,16 @@
             "subject": "[AMDGPU][NFC] Introduce TDMInsts feature for tensor load\/store (#225123)"
         },
         {
-            "hash": "5f64294359fb513d62e257e95988779b2d5b8d77",
+            "hash": "e34284c408f52027705ed437edd957b5fff5c9fd",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-21T20:05:26+01:00",
-            "subject": "[ConstraintElim] Cache decompositions."
+            "commit_date": "2026-09-21T22:53:37+01:00",
+            "subject": "[ConstraintElim] Add test exposing exponential compile-time"
+        },
+        {
+            "hash": "a6763e25931df5c5cd1a5c8f36c31bad070f698b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-21T23:01:20+01:00",
+            "subject": "[ConstraintElim] Cache decompositions to avoid compile-time blow-up."
         }
     ],
     "UsmanNadeem\/perf\/ExtractSubVectorPromote": [
