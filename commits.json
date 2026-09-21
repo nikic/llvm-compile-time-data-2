@@ -236349,6 +236349,36 @@
             "author_name": "Andy Kaylor",
             "commit_date": "2026-09-21T10:19:48-07:00",
             "subject": "[CIR] Implement exception-related musttail diagnostics (#224778)"
+        },
+        {
+            "hash": "f12afd1dcfdaddc197aeb950c0d7eead6d7d96f6",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-21T19:28:23+02:00",
+            "subject": "AArch64: Don't duplicate the branch's implicit defs in call pseudo expansion (#225064)"
+        },
+        {
+            "hash": "f0159c871942b821eb54f057a7739b4269f72b46",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-09-21T10:29:19-07:00",
+            "subject": "[clang] Migrate away from PointerUnion::dyn_cast (NFC) (#225022)"
+        },
+        {
+            "hash": "8c5c2ccf47434b4c948e5b875c977bef4d15c84e",
+            "author_name": "Nick Desaulniers",
+            "commit_date": "2026-09-21T10:30:02-07:00",
+            "subject": "[clang][CodeGen] Exempt lifetime marker cleanups in musttail check (#224731)"
+        },
+        {
+            "hash": "2c429b568e1ffa1ee7e88444fac6375d46c5d979",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-21T19:30:27+02:00",
+            "subject": "WebAssembly: Don't duplicate implicit CALL operands in LowerCallResults (#225069)"
+        },
+        {
+            "hash": "6460a5605d9b73640b25bd5987dea597cd648f47",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-21T19:31:47+02:00",
+            "subject": "AArch64: Fix duplicating VG def operands in isel pseudo expansion (#225113)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
