@@ -236073,6 +236073,18 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-21T15:08:09+02:00",
             "subject": "[clang][Interpreter] Do not overwrite the module's DataLayout (#224027)"
+        },
+        {
+            "hash": "d3d2960ebb9d98850662a6ce53864b10c4f94586",
+            "author_name": "Alex Duran",
+            "commit_date": "2026-09-21T15:19:35+02:00",
+            "subject": "[offload][omp] link libomptarget against liboffload (#221730)"
+        },
+        {
+            "hash": "f5dd45d427bee1a958cfcd35b1155da9391cc4e1",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-21T14:23:44+01:00",
+            "subject": "[SCEV] Use computeMaxBECountForLT for howManyGreaterThans. (#224863)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -254585,15 +254597,27 @@
             "subject": "[ConstraintElim] Cache decompositions."
         },
         {
-            "hash": "c483c6d81946346a85ec1c789497ae6e29994438",
+            "hash": "40ee78419e690cac26aa66051dc0818ebe541ea5",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-21T11:28:25+01:00",
+            "commit_date": "2026-09-21T14:00:16+01:00",
+            "subject": "[ConstraintElim] Use PointerIntPair as decompose cache key (NFC)."
+        },
+        {
+            "hash": "5169ac57424c8ab530d244250655b7de827619f5",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-21T14:02:08+01:00",
+            "subject": "[ConstraintElim] Use separate decompose caches per signedness (NFC)."
+        },
+        {
+            "hash": "d4e3ac99ba0400aabbd8a764f2f56402297bc539",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-21T14:02:49+01:00",
             "subject": "Skip"
         },
         {
-            "hash": "127425e3be4d3c94372ef0a84f25b7f2f2926543",
+            "hash": "aaf6153b4815a36fb44d725e2da6bda20687219a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-21T12:33:26+01:00",
+            "commit_date": "2026-09-21T14:04:07+01:00",
             "subject": "PtrToInt"
         }
     ],
