@@ -236439,6 +236439,18 @@
             "author_name": "Yonah Goldberg",
             "commit_date": "2026-09-21T19:08:16+00:00",
             "subject": "[SROA] Enable alloca promotion for stores through pointer PHIs (#222893)"
+        },
+        {
+            "hash": "eaab73d4bbaafa471f2216d58172126d2fd7c2b6",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-09-21T19:10:56+00:00",
+            "subject": "[CIR] Correct the behavior of 'shouldEmitFunction' with always\/noinline (#224378)"
+        },
+        {
+            "hash": "5dfe8605911e3f0f43fe2b5c08b4ffc23f2af37a",
+            "author_name": "Pranav Kant",
+            "commit_date": "2026-09-21T19:17:53+00:00",
+            "subject": "[clang-repl] Add CLANG_ENABLE_EMUTLS_GET_ADDRESS cmake option (#217700)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -255097,6 +255109,20 @@
             "author_name": "Nikolas Klauser",
             "commit_date": "2026-09-21T14:19:35+02:00",
             "subject": "[Clang] Devirtualize Decl::isOutOfLine"
+        }
+    ],
+    "fhahn\/perf\/ce-cache-decomp2": [
+        {
+            "hash": "150f8999285d07bdebc6a73dfdeae520dbdf1468",
+            "author_name": "Changpeng Fang",
+            "commit_date": "2026-09-21T10:46:53-07:00",
+            "subject": "[AMDGPU][NFC] Introduce TDMInsts feature for tensor load\/store (#225123)"
+        },
+        {
+            "hash": "5f64294359fb513d62e257e95988779b2d5b8d77",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-21T20:05:26+01:00",
+            "subject": "[ConstraintElim] Cache decompositions."
         }
     ]
 }
