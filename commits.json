@@ -235785,6 +235785,18 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-09-20T23:07:11-07:00",
             "subject": "[Support] Remove cl::Sink (#224953)"
+        },
+        {
+            "hash": "32150a848d65af432361296bd4a2d7b7de6f01e1",
+            "author_name": "Amit Tiwari",
+            "commit_date": "2026-09-21T12:03:47+05:30",
+            "subject": "[Clang][OpenMP] NFC: Eliminate `Create\/CreateEmpty` for scalar clause (#224935)"
+        },
+        {
+            "hash": "c64686f1f0cce966ac00480dc4d1a91702536145",
+            "author_name": "Amit Tiwari",
+            "commit_date": "2026-09-21T12:04:23+05:30",
+            "subject": "[Clang][OpenMP][NFC] Use `getLimitedValue` for loop transform counts  (#224940)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -253573,15 +253585,15 @@
     ],
     "MaskRay\/perf\/densemap-shared-hasher": [
         {
-            "hash": "63225d3616be90ab15b97919ac12ae0ab052ac82",
-            "author_name": "Michael Jones",
-            "commit_date": "2026-09-17T09:58:25-07:00",
-            "subject": "[libcxx][libc] Update LLVM-libc\/compiler-rt config (#224160)"
+            "hash": "0bd330675f9eb08126e467505a0800f167084473",
+            "author_name": "Mintsuki",
+            "commit_date": "2026-09-21T07:35:52+08:00",
+            "subject": "[clang][Driver] Use the bare-metal toolchain for LoongArch (#223703)"
         },
         {
-            "hash": "1d25beedb8610f37b20ae71d95f209455fb97bae",
+            "hash": "a7812fbde50d35690a861ecdeb6c3ba9a27a4376",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-09-17T10:26:06-07:00",
+            "commit_date": "2026-09-20T22:54:00-07:00",
             "subject": "[ADT] Share the rehash and grow loops across DenseMaps. NFC"
         }
     ],
