@@ -236325,6 +236325,12 @@
             "author_name": "Leandro Lupori",
             "commit_date": "2026-09-21T14:04:55-03:00",
             "subject": "[flang] Accept C-style comments in label fields (#207012)"
+        },
+        {
+            "hash": "854a9b8d7036ef52490edfb644f30ba043a0f238",
+            "author_name": "Janet Yang",
+            "commit_date": "2026-09-21T10:09:49-07:00",
+            "subject": "[Support][lldb] Port xz (lzma) decompression from LLDB into LLVM (#220092)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -254927,22 +254933,28 @@
     ],
     "fhahn\/perf\/ce-strict-witness": [
         {
-            "hash": "72e9d33d2945504159c8d316d12c187fc706b156",
-            "author_name": "Valeriy Savchenko",
-            "commit_date": "2026-09-21T12:42:37+01:00",
-            "subject": "Reapply \"[SelectionDAG] Recurse through mask expression trees in WidenVSELECTMask\" (#217307)"
+            "hash": "b569f8d694e9cec6fef18dfde2f2a76bc9f84983",
+            "author_name": "agozillon",
+            "commit_date": "2026-09-21T16:44:57+02:00",
+            "subject": "[Flang][FIR] Handle SequenceTypes in isRecordWithAllocatableMember (#224048)"
         },
         {
-            "hash": "ad573296a525f5714e6e47e9ebf31af123a474e0",
+            "hash": "6b0076091dd248ccc775bdc735b76be3454c005b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-21T15:37:16+01:00",
+            "commit_date": "2026-09-21T16:20:30+01:00",
             "subject": "[ConstraintElim] Bump limit."
         },
         {
-            "hash": "e9174c896dd8f884dfccf17c4b9c32ca0670f813",
+            "hash": "b08eb6cdd1f489271a7a2d7a1de0771b998cb58a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-21T15:37:28+01:00",
+            "commit_date": "2026-09-21T16:20:30+01:00",
             "subject": "[CE] Strict witness"
+        },
+        {
+            "hash": "ae25937c827f656592424e8b16d8872b4529a4bf",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-21T17:08:32+01:00",
+            "subject": "[CE] Use witness scan instead of persistent type-limit rows"
         }
     ],
     "philnik777\/perf\/remove_decl_virtuals\/getBody": [
