@@ -237831,6 +237831,24 @@
             "author_name": "Nico Weber",
             "commit_date": "2026-09-22T16:36:56-04:00",
             "subject": "[gn build] Port 4acbf9b61c3f (#225421)"
+        },
+        {
+            "hash": "eaf501b5f70fa622b9707b7a33b38452e45e8034",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-09-22T16:39:14-04:00",
+            "subject": "[gn build] Port aa7a0c3c318b (#225517)"
+        },
+        {
+            "hash": "365851e9fe1b8723a0282e3849470cd7cbbe38d6",
+            "author_name": "Andy Kaylor",
+            "commit_date": "2026-09-22T13:46:06-07:00",
+            "subject": "[CIR] Fix a problem with cleanup active flag initialization (#225507)"
+        },
+        {
+            "hash": "755e4d429f11a17ba386cdf4d4ff7883294368dd",
+            "author_name": "Chinmay Deshpande",
+            "commit_date": "2026-09-22T13:46:40-07:00",
+            "subject": "[SelectionDAG] Fix FP8 conversions to half for subnormals and overflow (#224984)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -253073,15 +253091,15 @@
     ],
     "artagnon\/perf\/scev-nsuw": [
         {
-            "hash": "9073b4d71e9d66c495df5f6ec42ab0279326f762",
-            "author_name": "Marcin Radomski",
-            "commit_date": "2026-09-22T10:48:35+02:00",
-            "subject": "[PromoteMemToReg] Hoist removeIntrinsicUsers into a pre-pass before promotion (#224617)"
+            "hash": "2bb58d1595ac9a00c2b33336b65672ff7a81a752",
+            "author_name": "Domenic Nutile",
+            "commit_date": "2026-09-22T15:53:34-04:00",
+            "subject": "[NFC][AMDGPU] Refactor isDPALU_DPP to only check if the instruction requires the feature (#224373)"
         },
         {
-            "hash": "cd0e506f14375c2ba557758f13f6a39cfe8e2657",
+            "hash": "88aedb636888036bad4f75c978ce83335d08bbd0",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-22T13:43:53+01:00",
+            "commit_date": "2026-09-22T21:24:01+01:00",
             "subject": "[SCEV] Rework IncrementWrapFlags"
         }
     ],
@@ -256505,28 +256523,34 @@
     ],
     "fhahn\/perf\/ce-cache-decomp2": [
         {
-            "hash": "f05f4f34e5cb107e17672ad806f18d031ab74caf",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-22T19:18:02+01:00",
-            "subject": "[VPlan] Model epilogue skeleton in VPlan by wrapping in VPIRBBs (NFCI). (#222312)"
+            "hash": "134c06c276da7411f1e1d95fa39f23b305ca4832",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-22T16:30:20-04:00",
+            "subject": "[SLP][NFC]Add a test with splat reverse vectorization, NFC"
         },
         {
-            "hash": "6c76163dc3c2f12efb68d173089d48c044827e01",
+            "hash": "97879972e846238803723ac0d548a3688c1ec425",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-22T20:15:38+01:00",
+            "commit_date": "2026-09-22T21:32:58+01:00",
             "subject": "[ConstraintElim] Add test exposing exponential compile-time"
         },
         {
-            "hash": "4c2f4b378fa3a1ec3a265cb3bc01db684c60f20c",
+            "hash": "4dcfca64af58349a2524a3c098c602fb8f1997fc",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-22T20:15:38+01:00",
+            "commit_date": "2026-09-22T21:32:58+01:00",
             "subject": "[ConstraintElim] Cache decompositions to avoid compile-time blow-up."
         },
         {
-            "hash": "eabe2556a37a04e0b20938e7d6ff3fce19dc146d",
+            "hash": "44800f0cbbecad20f5b8a147d13ae70b26790bff",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-22T20:30:26+01:00",
+            "commit_date": "2026-09-22T21:32:58+01:00",
             "subject": "!fixup remove in removeEntry"
+        },
+        {
+            "hash": "68b000f419b5621c5e78268b36d1c0bdf2694b6e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-22T21:42:21+01:00",
+            "subject": "!fixup fix build failure"
         }
     ],
     "UsmanNadeem\/perf\/ExtractSubVectorPromote": [
