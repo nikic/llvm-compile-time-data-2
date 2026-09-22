@@ -237183,6 +237183,12 @@
             "author_name": "Abhina Sree",
             "commit_date": "2026-09-22T08:52:51-04:00",
             "subject": "[lit] Use text mode when opening text files on z\/OS (#217434)"
+        },
+        {
+            "hash": "c4045dbc18c6637ebc218fe1a82ee62288613c2c",
+            "author_name": "Aaron Ballman",
+            "commit_date": "2026-09-22T09:02:48-04:00",
+            "subject": "Revert \"[Clang] Fix assertion \"unsigned range includes negative?\" in AnalyzeComparison during Sema of vector comparison with mismatched signed\/unsigned types and __builtin_convertvector \" (#225389)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -252425,22 +252431,16 @@
     ],
     "artagnon\/perf\/scev-nsuw": [
         {
-            "hash": "cf763bc43d36e2078568db83e5c513046cd00abb",
-            "author_name": "Yuvaraj Venkatesh",
-            "commit_date": "2026-09-03T15:32:00+01:00",
-            "subject": "[mlir][tosa] Add support for mxfp IDENTITY (#220624)"
+            "hash": "9073b4d71e9d66c495df5f6ec42ab0279326f762",
+            "author_name": "Marcin Radomski",
+            "commit_date": "2026-09-22T10:48:35+02:00",
+            "subject": "[PromoteMemToReg] Hoist removeIntrinsicUsers into a pre-pass before promotion (#224617)"
         },
         {
-            "hash": "4c42d2684e325f5fc3197606fd078fec4597d75e",
+            "hash": "cd0e506f14375c2ba557758f13f6a39cfe8e2657",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-03T18:03:41+01:00",
-            "subject": "[SCEV] Introduce IncrementNSUW, replacing NSSW"
-        },
-        {
-            "hash": "aa93b46ab92faa9b35db519d4242787689578e04",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-03T18:34:28+01:00",
-            "subject": "[SCEV] Draft fix for nsuw with known-negative step"
+            "commit_date": "2026-09-22T13:43:53+01:00",
+            "subject": "[SCEV] Rework IncrementWrapFlags"
         }
     ],
     "artagnon\/perf\/scev-udiv-ar-nuw-bw": [
