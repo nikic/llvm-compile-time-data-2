@@ -237729,6 +237729,18 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-22T19:16:53+00:00",
             "subject": "DAG: Fix cross-block gc.relocate of constants and allocas (#222894)"
+        },
+        {
+            "hash": "adaa302ea3f8e95e800342ae5b8cb9f9556bdd54",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-22T19:27:21+00:00",
+            "subject": "[SCEV] Use SCEVUse to access MulOpLists. (#225450)"
+        },
+        {
+            "hash": "5c90e201e55a52b52413370f667d4d57523a08f6",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-09-22T12:28:14-07:00",
+            "subject": "[libc] Bump containter to ubuntu 26.04 (#225298)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -256403,22 +256415,28 @@
     ],
     "fhahn\/perf\/ce-cache-decomp2": [
         {
-            "hash": "150f8999285d07bdebc6a73dfdeae520dbdf1468",
-            "author_name": "Changpeng Fang",
-            "commit_date": "2026-09-21T10:46:53-07:00",
-            "subject": "[AMDGPU][NFC] Introduce TDMInsts feature for tensor load\/store (#225123)"
+            "hash": "f05f4f34e5cb107e17672ad806f18d031ab74caf",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-22T19:18:02+01:00",
+            "subject": "[VPlan] Model epilogue skeleton in VPlan by wrapping in VPIRBBs (NFCI). (#222312)"
         },
         {
-            "hash": "e34284c408f52027705ed437edd957b5fff5c9fd",
+            "hash": "6c76163dc3c2f12efb68d173089d48c044827e01",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-21T22:53:37+01:00",
+            "commit_date": "2026-09-22T20:15:38+01:00",
             "subject": "[ConstraintElim] Add test exposing exponential compile-time"
         },
         {
-            "hash": "a6763e25931df5c5cd1a5c8f36c31bad070f698b",
+            "hash": "4c2f4b378fa3a1ec3a265cb3bc01db684c60f20c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-21T23:01:20+01:00",
+            "commit_date": "2026-09-22T20:15:38+01:00",
             "subject": "[ConstraintElim] Cache decompositions to avoid compile-time blow-up."
+        },
+        {
+            "hash": "eabe2556a37a04e0b20938e7d6ff3fce19dc146d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-22T20:30:26+01:00",
+            "subject": "!fixup remove in removeEntry"
         }
     ],
     "UsmanNadeem\/perf\/ExtractSubVectorPromote": [
