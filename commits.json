@@ -237033,6 +237033,12 @@
             "author_name": "oltolm",
             "commit_date": "2026-09-22T11:17:39+02:00",
             "subject": "[llvm-pdbutil] Avoid reading EC names from non-EC modules (#223253)"
+        },
+        {
+            "hash": "3bbfa7173bbfb0a231674822efb84a3e0b9f8c23",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-22T09:28:06+00:00",
+            "subject": "[SCEVExpander] Mark selects with unknown profile. (#224362)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -251639,21 +251645,21 @@
     ],
     "fhahn\/perf\/scev-exp-reuse-consts": [
         {
-            "hash": "247db2420326c288690592088596db9435098261",
-            "author_name": "Justin Stitt",
-            "commit_date": "2026-09-15T12:24:49-07:00",
-            "subject": "[Clang] Reject overflow behavior types on _Atomic (#222179)"
+            "hash": "2ccc678a64ecd52eace68e363f4d47935a56fb57",
+            "author_name": "David Green",
+            "commit_date": "2026-09-22T08:42:33+01:00",
+            "subject": "[AArch64] Fix position of nop inserted for +fix-cortex-a53-835769 under debug. (#224830)"
         },
         {
-            "hash": "0b14bc1f1fb4f2a5a8095f5767e4ba7c1d52620b",
+            "hash": "12187b99acf258a61d5dafc4022c1071da7d19ac",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-15T22:27:12+01:00",
+            "commit_date": "2026-09-22T10:05:11+01:00",
             "subject": "Precommit test"
         },
         {
-            "hash": "672ff0941575d64324169418f0e620b91c478a47",
+            "hash": "5ba772b37715b93e1713cf70f6cd1d589dde1b06",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-15T22:28:22+01:00",
+            "commit_date": "2026-09-22T10:05:12+01:00",
             "subject": "[SCEVExpander] Reuse unscaled recurrence when expanding scaled one."
         }
     ],
@@ -255793,6 +255799,26 @@
             "author_name": "Daniel Petrovic",
             "commit_date": "2026-09-19T17:56:02+02:00",
             "subject": "[clang] Fix stack exhaustion if parsing deeply nested template arguments"
+        }
+    ],
+    "yafet-a\/perf\/fusion-cost-model": [
+        {
+            "hash": "abdd057f56f38a469fc13597a5c7f1d43792e56b",
+            "author_name": "Anshul Nigham",
+            "commit_date": "2026-09-09T16:29:22+00:00",
+            "subject": "Fixes Bazel BUILD error in #411a8eea0c269fff79700da1b3a9e71914718d4b (#222371)"
+        },
+        {
+            "hash": "303f5c172b63cb3d5a59d8efb89d57b97a8f6c0c",
+            "author_name": "Yafet Beyene",
+            "commit_date": "2026-09-22T01:21:59-07:00",
+            "subject": "feat: enable LoopFusion by default at O3"
+        },
+        {
+            "hash": "68b79c8149c688b10c759a2c830d2ef285572ca9",
+            "author_name": "Yafet Beyene",
+            "commit_date": "2026-09-22T01:21:59-07:00",
+            "subject": "feat: add LoopFusion profitability cost model"
         }
     ]
 }
