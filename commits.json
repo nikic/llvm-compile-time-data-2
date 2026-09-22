@@ -237027,6 +237027,12 @@
             "author_name": "Milin Bhade",
             "commit_date": "2026-09-22T09:05:54+00:00",
             "subject": "[X86] Correct folded insert costs for partial vector loads (#220174)"
+        },
+        {
+            "hash": "977f915470ae98b3e7ee0fcb5555b773b31785a0",
+            "author_name": "oltolm",
+            "commit_date": "2026-09-22T11:17:39+02:00",
+            "subject": "[llvm-pdbutil] Avoid reading EC names from non-EC modules (#223253)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -255773,6 +255779,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-09-21T22:43:23-07:00",
             "subject": "[X86] Let the fast register allocator lower tied operands"
+        }
+    ],
+    "zyn0217\/perf\/GH224393": [
+        {
+            "hash": "82b9a76acb072b5ee6dc5dd123d30b883fcc4222",
+            "author_name": "Zorojuro",
+            "commit_date": "2026-09-19T21:04:49+05:30",
+            "subject": "[libc] Enables MPFR for float80 and adds tests for it (#223800)"
+        },
+        {
+            "hash": "90119a8e8bec2f685d5cc044ad94b78a755d417b",
+            "author_name": "Daniel Petrovic",
+            "commit_date": "2026-09-19T17:56:02+02:00",
+            "subject": "[clang] Fix stack exhaustion if parsing deeply nested template arguments"
         }
     ]
 }
