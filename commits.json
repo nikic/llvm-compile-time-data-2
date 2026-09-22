@@ -237381,6 +237381,18 @@
             "author_name": "Erich Keane",
             "commit_date": "2026-09-22T08:14:15-07:00",
             "subject": "[CIR] Don't delete 'sub' op during 'convertToIndexTy' (#225231)"
+        },
+        {
+            "hash": "fd016b7d24d3a2ddabef9e1ebfc702885e9bb7c1",
+            "author_name": "Amit Tiwari",
+            "commit_date": "2026-09-22T20:47:31+05:30",
+            "subject": "[Clang][OpenMP] Add `#pragma omp flatten` loop directive + `depth` clause (#206977)"
+        },
+        {
+            "hash": "8306f7777172718453729ee941734bab9217c9fa",
+            "author_name": "lorenzo chelini",
+            "commit_date": "2026-09-22T17:23:21+02:00",
+            "subject": "[mlir][arith] Add minimumnumf and maximumnumf operations (#221658)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -256187,6 +256199,20 @@
             "author_name": "Nikolas Klauser",
             "commit_date": "2026-09-22T14:31:32+02:00",
             "subject": "[InstCombine] Move assumes on values up the call chain"
+        }
+    ],
+    "artagnon\/perf\/vt-withcache": [
+        {
+            "hash": "52ccbddfd304d16f87a2749b4546b1727b1aadc3",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-09-23T00:22:35+10:00",
+            "subject": "[orc-rt] Connect ogre to a controller via a ConnectionSpec (#225400)"
+        },
+        {
+            "hash": "e0e4b85654fae8f3daa984d926cadc4b636e8a57",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-22T16:18:20+01:00",
+            "subject": "[ValueTracking] Use WithCache in more routines"
         }
     ]
 }
