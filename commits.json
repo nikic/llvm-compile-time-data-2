@@ -236961,6 +236961,12 @@
             "author_name": "Simon Pilgrim",
             "commit_date": "2026-09-22T07:50:07+00:00",
             "subject": "[X86] Move PSHUF(SHIFT(X,C0),C1) -> SHIFT(PSHUF(X,C1),C0) to canonicalizeShuffleWithOp (#225313)"
+        },
+        {
+            "hash": "80310178c079fc4ec712ace6d72a97bb5c619a12",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-09-22T10:13:48+02:00",
+            "subject": "[clang][bytecode] Mark fields as being initialized, even without running a ctor for them (#225295)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
