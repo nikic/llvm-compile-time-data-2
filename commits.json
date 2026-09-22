@@ -237327,6 +237327,30 @@
             "author_name": "Arseniy Obolenskiy",
             "commit_date": "2026-09-22T16:30:35+02:00",
             "subject": "[SPIR-V][NewPM] Do not require RegBankSelect in instruction selection (#225023)"
+        },
+        {
+            "hash": "63b5d1388f6ca68954ad22bc36fb73613507ceb1",
+            "author_name": "Christian Kandeler",
+            "commit_date": "2026-09-22T16:48:57+02:00",
+            "subject": "[clangd] Don't offer Extract to Function for control-flow conditions (#223409)"
+        },
+        {
+            "hash": "0df26b857065991b50725ca85f7a8728c60ceea9",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-09-22T16:52:38+02:00",
+            "subject": "[CMake] Enable ccache depend mode when PCH is enabled (#225118)"
+        },
+        {
+            "hash": "684e2024376f0fdcba7496faa3dddc97cc0b764c",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-09-22T10:54:19-04:00",
+            "subject": "[gn] add dep required by #224284 (#225419)"
+        },
+        {
+            "hash": "c109662a4cc336000f85032a8b183b206b9b1196",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-09-22T10:54:43-04:00",
+            "subject": "[gn build] Port 3eaddb5735f6 (#225420)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -253469,22 +253493,28 @@
     ],
     "artagnon\/perf\/sq-cxtf": [
         {
-            "hash": "9073b4d71e9d66c495df5f6ec42ab0279326f762",
-            "author_name": "Marcin Radomski",
-            "commit_date": "2026-09-22T10:48:35+02:00",
-            "subject": "[PromoteMemToReg] Hoist removeIntrinsicUsers into a pre-pass before promotion (#224617)"
+            "hash": "52ccbddfd304d16f87a2749b4546b1727b1aadc3",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-09-23T00:22:35+10:00",
+            "subject": "[orc-rt] Connect ogre to a controller via a ConnectionSpec (#225400)"
         },
         {
-            "hash": "239a5fdbe1910eaacd8c89923ebd8ae8256f1609",
+            "hash": "405fdeb6b3a441c80988d3b4596847cc260dfb95",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-22T12:17:50+01:00",
+            "commit_date": "2026-09-22T15:41:21+01:00",
             "subject": "[SimplifyQuery] Include a context-function (NFC)"
         },
         {
-            "hash": "0d589670fc088b5927dd4952af9fb41a9679f9af",
+            "hash": "44fb3a8d21d97c7c7fa0ce430581b82e38c65761",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-22T14:14:54+01:00",
+            "commit_date": "2026-09-22T15:41:21+01:00",
             "subject": "[SimplifyQuery] Introduce SQ::getFunction"
+        },
+        {
+            "hash": "889daf389965ffed06ff7a54b79df3fff415420a",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-22T15:51:30+01:00",
+            "subject": "[InstSimplify] Minor nit (NFC)"
         }
     ],
     "clemenswasser\/perf\/livedebug-placemlocphis-defblocks": [
