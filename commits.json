@@ -238713,6 +238713,36 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-09-23T16:19:31+02:00",
             "subject": "[WPD] Use getGetElementPtr() overload accepting DataLayout (#225754)"
+        },
+        {
+            "hash": "a88189669034268827befe9bb65880a31e91778d",
+            "author_name": "ahradwan2-public",
+            "commit_date": "2026-09-23T15:30:34+01:00",
+            "subject": "[AMDGPU][NFC] Compute prologue frame size\/alignment in 64-bit (#224734)"
+        },
+        {
+            "hash": "de734ce70b5e9c3c4eeca4306394c1bec1c30f84",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-23T16:43:33+02:00",
+            "subject": "AMDGPU: Preserve carry-out dead flag in V_ADD_CO_U32 custom inserter (#225736)"
+        },
+        {
+            "hash": "68d3c25ee618d057ef16cea97b34dc2b85d46118",
+            "author_name": "Adam Smith",
+            "commit_date": "2026-09-23T09:44:14-05:00",
+            "subject": "[CIR] Widen memory effects for ABI argument memory (#221067)"
+        },
+        {
+            "hash": "0601a126c256e09faea980045ac0b787b49dfe39",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-09-23T16:47:54+02:00",
+            "subject": "[clang][bytecode] Short-circuit inelegible functions when compiling (#225618)"
+        },
+        {
+            "hash": "0e718a81c3a564de6c4c7193c1bd748f7f96eb29",
+            "author_name": "Jeffrey Byrnes",
+            "commit_date": "2026-09-23T07:50:53-07:00",
+            "subject": "[AMDGPU] Add BarrierLatency mutations to CoexecSched (#200954)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -257599,9 +257629,9 @@
             "subject": "[LV][NFC] Emit remarks when failing to vectorise early exit loops (#225078)"
         },
         {
-            "hash": "caeacf1cabb08be3608bd02a9b0e683111ab2c6a",
+            "hash": "ef53cf399dd52a6bffc4b55401bfe142fb60592f",
             "author_name": "Luke Lau",
-            "commit_date": "2026-09-23T14:56:13+01:00",
+            "commit_date": "2026-09-23T15:44:20+01:00",
             "subject": "[VPlan] Run cannotHoistOrSinkRecipe after cheap checks. NFC"
         }
     ]
