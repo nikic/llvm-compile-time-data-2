@@ -239079,6 +239079,12 @@
             "author_name": "Chris Kennelly",
             "commit_date": "2026-09-23T18:17:57+00:00",
             "subject": "[X86] Remove combineAndLoadToBZHI (#221025)"
+        },
+        {
+            "hash": "fa939745e0aceb6cd92debec4badd42a4e571a71",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-23T14:33:54-04:00",
+            "subject": "[SLP]Pair small sign-aware reduction groups only if both signs have one"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -249915,6 +249921,18 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-09-14T15:14:53+02:00",
             "subject": "[GlobalsAA] Port to LazyCallGraph"
+        },
+        {
+            "hash": "7b6d0d9a8eb69354085b217b9a7fbf35b1154ec6",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-23T19:54:56+02:00",
+            "subject": "[GlobalsAA] Recompute decl\/indirect effects from IR instead of caching in LCG"
+        },
+        {
+            "hash": "31b7283d9a4e42e70583d41c1b0dc5f7814900f3",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-09-23T20:21:40+02:00",
+            "subject": "[GlobalsAA] Model callback targets in LazyCallGraph port"
         }
     ],
     "rj-jesus\/perf\/rjj\/aarch64-sve-skip-non-pseudo-hints": [
