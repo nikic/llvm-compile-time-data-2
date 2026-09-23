@@ -238665,6 +238665,12 @@
             "author_name": "Lang Hames",
             "commit_date": "2026-09-23T23:15:41+10:00",
             "subject": "[orc-rt] Move test utils into orc_rt::test, drop qualification (#225733)"
+        },
+        {
+            "hash": "9120c13792128a993c90e4046717b3c801f787f2",
+            "author_name": "Sergey Semenov",
+            "commit_date": "2026-09-23T15:33:34+02:00",
+            "subject": "[libsycl][NFC] Suppress shadow warnings from LLVM headers (#225089)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -257527,6 +257533,20 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-09-22T16:18:20+01:00",
             "subject": "[ValueTracking] Use WithCache in more routines"
+        }
+    ],
+    "lukel97\/perf\/df_iterator-smallvector": [
+        {
+            "hash": "5bb2e21c30de31871dd01279c13abcfa2c06e75f",
+            "author_name": "David Sherwood",
+            "commit_date": "2026-09-23T12:03:53+01:00",
+            "subject": "[LV][NFC] Emit remarks when failing to vectorise early exit loops (#225078)"
+        },
+        {
+            "hash": "3f3c5680cae30aa33f6988ee8b326b71f5195577",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-23T14:28:23+01:00",
+            "subject": "[ADT] Use SmallVector in df_iterator. NFC"
         }
     ]
 }
