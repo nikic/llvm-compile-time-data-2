@@ -239433,6 +239433,30 @@
             "author_name": "Eli Friedman",
             "commit_date": "2026-09-23T16:30:47-07:00",
             "subject": "[GlobalOpt] Fix constructor folding on global with explicit section. (#220729)"
+        },
+        {
+            "hash": "bc9119b4259a08bbc58787303a829214f95d079c",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-09-23T23:32:03+00:00",
+            "subject": "[flang][cuda] Lower device is active as an operation (#225583)"
+        },
+        {
+            "hash": "76d164c48a5076c160285765df23749b9bab1ebc",
+            "author_name": "Andy Kaylor",
+            "commit_date": "2026-09-23T16:32:41-07:00",
+            "subject": "[CIR] Fix the order of temporary object cleanup (#225560)"
+        },
+        {
+            "hash": "7e4b8ae111298941e0c31052a7124ab36f5365b5",
+            "author_name": "Rafael Auler",
+            "commit_date": "2026-09-23T16:36:43-07:00",
+            "subject": "[BOLT] Make .debug_names emission reproducible (#225218)"
+        },
+        {
+            "hash": "620a9e9afaae2d51f186fd0f41988e3b326a127c",
+            "author_name": "Min-Yih Hsu",
+            "commit_date": "2026-09-23T16:47:13-07:00",
+            "subject": "[RISCV] Combine two consecutive VSLIDEDOWN_VL nodes into one (#225232)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -258361,6 +258385,20 @@
             "author_name": "Stephen Tozer",
             "commit_date": "2026-09-23T18:31:40+01:00",
             "subject": "Add 32-bytes to DebugLoc"
+        }
+    ],
+    "bababuck\/perf\/CacheNumParts": [
+        {
+            "hash": "45bc3fbacaed869924160d9c3addc2364d2d4cc0",
+            "author_name": "Daniel Chen",
+            "commit_date": "2026-09-23T17:39:16-04:00",
+            "subject": "[flang] Add -finit-local= to initialize automatic variables (#216164)"
+        },
+        {
+            "hash": "d968247ae7046845b37d28002bb116a845fa61a4",
+            "author_name": "bababuck",
+            "commit_date": "2026-09-23T15:12:58-07:00",
+            "subject": "[SLP][NFC] Use BoUpSLP::getNumberOfParts() where appropriate"
         }
     ]
 }
