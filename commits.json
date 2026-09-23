@@ -77059,10 +77059,16 @@
             "subject": "hmm?"
         },
         {
-            "hash": "36dcac396fb874bbe3978ef4c7079ea105b1eef5",
+            "hash": "1c35ff3b4c8653b0c1d6b3f5037e79002af91a00",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-23T14:52:27+02:00",
+            "commit_date": "2026-09-23T15:15:35+02:00",
             "subject": "shink()\/peekData easier inlinable"
+        },
+        {
+            "hash": "54d2a81eb90d3a791a6c8ba407a09f271e07fce7",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-09-23T15:59:08+02:00",
+            "subject": "diagnoseDUmmy"
         }
     ],
     "dtcxzyw\/perf\/nonnull-at-callsite": [
@@ -238683,6 +238689,24 @@
             "author_name": "Sergey Semenov",
             "commit_date": "2026-09-23T15:52:22+02:00",
             "subject": "[llvm][NFC] Fix extra semicolon warnings (#224317)"
+        },
+        {
+            "hash": "a5bc26f7d2f4d9fbe299288788e1e0377fb406c3",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-09-23T16:11:06+02:00",
+            "subject": "[mlir][SPIR-V] Support atomic_rmw xori in MemRefToSPIRV (#213204)"
+        },
+        {
+            "hash": "3c63fcb246f3bf5c2717ec6bd567a46cd65a4c25",
+            "author_name": "aokblast",
+            "commit_date": "2026-09-23T14:11:56+00:00",
+            "subject": "[libcxx] Speed up xsgetn for always_noconv (#212010)"
+        },
+        {
+            "hash": "decb0ee138505e73d0eced11a36ec4fee6c0a1ce",
+            "author_name": "Igor Wodiany",
+            "commit_date": "2026-09-23T15:15:15+01:00",
+            "subject": "[TableGen] Handle the non-`CoveredBySubRegs` case in `computeRegUnitLaneMasks` (#223653)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -257555,10 +257579,24 @@
             "subject": "[LV][NFC] Emit remarks when failing to vectorise early exit loops (#225078)"
         },
         {
-            "hash": "3f3c5680cae30aa33f6988ee8b326b71f5195577",
+            "hash": "70aac0f1d6fc71079d87737d85a7b6e75b6763fe",
             "author_name": "Luke Lau",
-            "commit_date": "2026-09-23T14:28:23+01:00",
+            "commit_date": "2026-09-23T15:06:13+01:00",
             "subject": "[ADT] Use SmallVector in df_iterator. NFC"
+        }
+    ],
+    "lukel97\/perf\/loop-vectorize\/licm-check-sinkhoist-later": [
+        {
+            "hash": "5bb2e21c30de31871dd01279c13abcfa2c06e75f",
+            "author_name": "David Sherwood",
+            "commit_date": "2026-09-23T12:03:53+01:00",
+            "subject": "[LV][NFC] Emit remarks when failing to vectorise early exit loops (#225078)"
+        },
+        {
+            "hash": "caeacf1cabb08be3608bd02a9b0e683111ab2c6a",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-23T14:56:13+01:00",
+            "subject": "[VPlan] Run cannotHoistOrSinkRecipe after cheap checks. NFC"
         }
     ]
 }
