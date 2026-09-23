@@ -238833,6 +238833,48 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-23T16:03:27+00:00",
             "subject": "[SCEV] Fix sign bits of pointers wider than their index type. (#225786)"
+        },
+        {
+            "hash": "f22fe777f37bd5b901f92fb7c7ab654711e87da5",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-09-23T16:04:24+00:00",
+            "subject": "[CostModel][X86] Add masked memory test coverage for VBMI2 capable CPUs (#225790)"
+        },
+        {
+            "hash": "0f58d0420f36f3f374e3ae35f679874e0b4ff4de",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-09-23T09:05:28-07:00",
+            "subject": "[clang] Migrate away from PointerUnion::dyn_cast (NFC) (#225614)"
+        },
+        {
+            "hash": "53e9da7812f3fa8fa79ae5e000552e1110da8da7",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-09-23T09:05:46-07:00",
+            "subject": "[Target] Remove declarations without definitions (NFC) (#225615)"
+        },
+        {
+            "hash": "20c7e959ac021728f493a1d9aca6883b607313ee",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-09-23T16:07:15+00:00",
+            "subject": "[AMDGPU] Fix assert on empty inline asm register constraint (#225743)"
+        },
+        {
+            "hash": "d8ec5c857fded543e1daa439aae17af4cf807e8f",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-23T18:07:48+02:00",
+            "subject": "AMDGPU: Mark dead carry-out when rewriting scalar carry op to VALU (#225738)"
+        },
+        {
+            "hash": "8a67df6af89be4fcfcd6d6d36cae0a0362868949",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-09-23T09:08:05-07:00",
+            "subject": "[Target] Remove declarations without definitions (NFC) (#225615)"
+        },
+        {
+            "hash": "748e21a693d24bdd9168fa718a1a5146d414e8b2",
+            "author_name": "Razvan Lupusoru",
+            "commit_date": "2026-09-23T09:09:57-07:00",
+            "subject": "[mlir][acc] Add acc declare codegen to ACCToLLVM (#225557)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
