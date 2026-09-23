@@ -77029,28 +77029,28 @@
     ],
     "tbaederr\/perf\/ce-test": [
         {
-            "hash": "335793850c499195d9af75715bbbe84ce272666b",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-20T11:42:37+00:00",
-            "subject": "[SCEV] Increase RewriteMap default size (NFC). (#224864)"
+            "hash": "7fdffde1a3a932069d1aeb38c8c949166838476c",
+            "author_name": "Akash Manna",
+            "commit_date": "2026-09-23T10:11:56+02:00",
+            "subject": "[clang][bytecode] Add test for variadic inherited constructor calls (#225611)"
         },
         {
-            "hash": "c3e3775da0f51e0f089eba89de31e895080bd8e9",
+            "hash": "bbbdf3c20be3f9079c2ad9f1a459018895d32b54",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-22T06:17:17+02:00",
+            "commit_date": "2026-09-23T10:12:40+02:00",
             "subject": "Test"
         },
         {
-            "hash": "17bfc2fa6b925bde54bfecf3b87c3f56ce7a521f",
+            "hash": "23c9ff9ac50bcf438aeb79a59b55e396d3c9f2f5",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-22T06:17:17+02:00",
+            "commit_date": "2026-09-23T10:12:40+02:00",
             "subject": "func compile switch"
         },
         {
-            "hash": "337a5e11d362e43f3f049573d3f8e5ace9e3fa1f",
-            "author_name": "Nikolas Klauser",
-            "commit_date": "2026-09-22T06:17:51+02:00",
-            "subject": "Store type information inside the custom stack"
+            "hash": "6a0b39f2421ace1c7f512a4c6f644ac186ae17cc",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-09-23T10:12:54+02:00",
+            "subject": "LoadPop PtrView"
         }
     ],
     "dtcxzyw\/perf\/nonnull-at-callsite": [
@@ -238329,6 +238329,30 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-23T08:57:42+01:00",
             "subject": "[LV] Add tests for missed scalarization opportunities. (#225508)"
+        },
+        {
+            "hash": "c0590ce37393e481402bd566aa69b1ad57905e50",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-23T09:07:30+01:00",
+            "subject": "[VPlan] Inline VPInsertPoint::insert. NFC (#225468)"
+        },
+        {
+            "hash": "a91921eda070d6903896432802845222e49e9713",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-09-23T10:10:57+02:00",
+            "subject": "[libc] Remove cross-entrypoint dependencies from pthread_create (#225383)"
+        },
+        {
+            "hash": "7fdffde1a3a932069d1aeb38c8c949166838476c",
+            "author_name": "Akash Manna",
+            "commit_date": "2026-09-23T10:11:56+02:00",
+            "subject": "[clang][bytecode] Add test for variadic inherited constructor calls (#225611)"
+        },
+        {
+            "hash": "62ea87e542c3fea716875953b9427896f345f7d1",
+            "author_name": "Haowei",
+            "commit_date": "2026-09-23T01:14:51-07:00",
+            "subject": "Revert \"[libc++] Build GoogleBenchmark directly from Lit\" (#225620)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
