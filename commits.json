@@ -239139,6 +239139,18 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-09-23T12:15:58-07:00",
             "subject": "[SPIRV] Fix -Wunused-variable in #224488 (#225897)"
+        },
+        {
+            "hash": "a26ba32319c157f5b8d6f59528ec001db9ff4055",
+            "author_name": "Daniel Chen",
+            "commit_date": "2026-09-23T15:21:34-04:00",
+            "subject": "[flang] Fix TRANSFER into derived type with tail padding (#223814)"
+        },
+        {
+            "hash": "b8d50145149b07fab3c7d1fb867fd781f927da8c",
+            "author_name": "Adam Smith",
+            "commit_date": "2026-09-23T19:28:39+00:00",
+            "subject": "[CIR] Read a non-byval parameter back out of its spill slot (#225010)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -258041,6 +258053,32 @@
             "author_name": "Luke Lau",
             "commit_date": "2026-09-23T15:44:20+01:00",
             "subject": "[VPlan] Run cannotHoistOrSinkRecipe after cheap checks. NFC"
+        }
+    ],
+    "Melamoto\/perf\/enlarge-instruction": [
+        {
+            "hash": "9e36e5a44bb5ade74202b01246cab4231d202972",
+            "author_name": "Chuanqi Xu",
+            "commit_date": "2026-09-21T09:41:31+00:00",
+            "subject": "[C++20] [Modules] Don't check redeclaration for TagUseKind::Referencekind declaration (#194546)"
+        },
+        {
+            "hash": "3dca8a6ba6764b4f19c80d39a92b8ff0af469580",
+            "author_name": "unexpectedlydefined",
+            "commit_date": "2026-09-21T11:05:33+01:00",
+            "subject": "Add --variable-coverage-maybe-undefined option"
+        },
+        {
+            "hash": "b08c6eccaf6481e0c9f055993cd122b431128219",
+            "author_name": "unexpectedlydefined",
+            "commit_date": "2026-09-21T11:05:33+01:00",
+            "subject": "fixup! Add --variable-coverage-maybe-undefined option"
+        },
+        {
+            "hash": "da9e6352778858201a49b41e56a034664768a48b",
+            "author_name": "Stephen Tozer",
+            "commit_date": "2026-09-23T18:31:40+01:00",
+            "subject": "Add 32-bytes to DebugLoc"
         }
     ]
 }
