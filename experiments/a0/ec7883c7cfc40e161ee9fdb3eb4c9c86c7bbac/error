@@ -1,0 +1,248 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[2983/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/TargetBuiltins/ARM.cpp.o
+[2984/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/TargetBuiltins/DirectX.cpp.o
+[2985/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/TargetBuiltins/Hexagon.cpp.o
+[2986/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/TargetBuiltins/NVPTX.cpp.o
+[2987/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/TargetBuiltins/PPC.cpp.o
+[2988/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/TargetBuiltins/RISCV.cpp.o
+[2989/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/TargetBuiltins/SystemZ.cpp.o
+[2990/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/TargetBuiltins/WebAssembly.cpp.o
+[2991/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/TargetBuiltins/AVR.cpp.o
+[2992/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/TargetBuiltins/AMDGPU.cpp.o
+[2993/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/TargetBuiltins/X86.cpp.o
+[2994/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/TargetInfo.cpp.o
+[2995/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/TargetBuiltins/SPIR.cpp.o
+[2996/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/AMDGPU.cpp.o
+[2997/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/ARC.cpp.o
+[2998/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/AArch64.cpp.o
+[2999/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/ARM.cpp.o
+[3000/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/AVR.cpp.o
+[3001/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/BPF.cpp.o
+[3002/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/DirectX.cpp.o
+[3003/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/CSKY.cpp.o
+[3004/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/Hexagon.cpp.o
+[3005/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/LoongArch.cpp.o
+[3006/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/M68k.cpp.o
+[3007/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/Mips.cpp.o
+[3008/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/PPC.cpp.o
+[3009/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/Sparc.cpp.o
+[3010/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/Lanai.cpp.o
+[3011/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/MSP430.cpp.o
+[3012/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/SPIR.cpp.o
+[3013/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/TCE.cpp.o
+[3014/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/VE.cpp.o
+[3015/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/TrapReasonBuilder.cpp.o
+[3016/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/NVPTX.cpp.o
+[3017/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/RISCV.cpp.o
+[3018/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/WebAssembly.cpp.o
+[3019/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/Action.cpp.o
+[3020/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/SystemZ.cpp.o
+[3021/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/X86.cpp.o
+[3022/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/Targets/XCore.cpp.o
+[3023/3404] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/VarBypassDetector.cpp.o
+[3024/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/Job.cpp.o
+[3025/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/Distro.cpp.o
+[3026/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/Driver.cpp.o
+[3027/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/CreateInvocationFromArgs.cpp.o
+[3028/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/Compilation.cpp.o
+[3029/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/OffloadBundler.cpp.o
+[3030/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/Phases.cpp.o
+[3031/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/SanitizerArgs.cpp.o
+[3032/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/Tool.cpp.o
+[3033/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/AArch64.cpp.o
+[3034/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/AMDGPU.cpp.o
+[3035/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ModulesDriver.cpp.o
+[3036/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChain.cpp.o
+[3037/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/LoongArch.cpp.o
+[3038/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/ARM.cpp.o
+[3039/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/CSKY.cpp.o
+[3040/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/M68k.cpp.o
+[3041/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/Mips.cpp.o
+[3042/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/PPC.cpp.o
+[3043/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/Sparc.cpp.o
+[3044/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/SystemZ.cpp.o
+[3045/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/VE.cpp.o
+[3046/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/RISCV.cpp.o
+[3047/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/AVR.cpp.o
+[3048/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Arch/X86.cpp.o
+[3049/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/AMDGPU.cpp.o
+[3050/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/AIX.cpp.o
+[3051/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/BareMetal.cpp.o
+[3052/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/CommonArgs.cpp.o
+[3053/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/CrossWindows.cpp.o
+[3054/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Cygwin.cpp.o
+[3055/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/CSKYToolChain.cpp.o
+[3056/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Cuda.cpp.o
+[3057/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/DragonFly.cpp.o
+[3058/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Clang.cpp.o
+[3059/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/FreeBSD.cpp.o
+[3060/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Flang.cpp.o
+[3061/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Fuchsia.cpp.o
+[3062/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Darwin.cpp.o
+[3063/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Haiku.cpp.o
+[3064/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/HIPAMD.cpp.o
+[3065/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Gnu.cpp.o
+[3066/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/HIPUtility.cpp.o
+[3067/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/HIPSPV.cpp.o
+[3068/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/LFILinux.cpp.o
+[3069/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Hexagon.cpp.o
+[3070/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Hurd.cpp.o
+[3071/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Managarm.cpp.o
+[3072/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/HLSL.cpp.o
+[3073/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Linux.cpp.o
+[3074/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/MipsLinux.cpp.o
+[3075/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/MinGW.cpp.o
+[3076/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/MSP430.cpp.o
+[3077/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/MSVC.cpp.o
+[3078/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/NetBSD.cpp.o
+[3079/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Serenity.cpp.o
+[3080/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/OpenBSD.cpp.o
+[3081/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Solaris.cpp.o
+[3082/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/SPIRV.cpp.o
+[3083/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/SPIRVOpenMP.cpp.o
+[3084/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/SYCL.cpp.o
+[3085/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/TCE.cpp.o
+[3086/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/OHOS.cpp.o
+[3087/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/PS4CPU.cpp.o
+[3088/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/UEFI.cpp.o
+[3089/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/VEToolchain.cpp.o
+[3090/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/PPCFreeBSD.cpp.o
+[3091/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/Types.cpp.o
+[3092/3404] Building CXX object tools/clang/lib/Options/CMakeFiles/obj.clangOptions.dir/OptionUtils.cpp.o
+[3093/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/WebAssembly.cpp.o
+[3094/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/XCore.cpp.o
+[3095/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/PPCLinux.cpp.o
+[3096/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/InterfaceStubs.cpp.o
+[3097/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/ZOS.cpp.o
+[3098/3404] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/XRayArgs.cpp.o
+[3099/3404] Building CXX object tools/clang/lib/Options/CMakeFiles/obj.clangOptions.dir/DriverOptions.cpp.o
+[3100/3404] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/KnownBitsAnalysis.cpp.o
+FAILED: lib/Analysis/CMakeFiles/LLVMAnalysis.dir/KnownBitsAnalysis.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DHAS_LOGF128 -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Analysis -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Analysis/CMakeFiles/LLVMAnalysis.dir/KnownBitsAnalysis.cpp.o -MF lib/Analysis/CMakeFiles/LLVMAnalysis.dir/KnownBitsAnalysis.cpp.o.d -o lib/Analysis/CMakeFiles/LLVMAnalysis.dir/KnownBitsAnalysis.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsAnalysis.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsAnalysis.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsAnalysis.h:30:54: error: expected class-name before ‘{’ token
+   30 | class LLVM_ABI KnownBitsVH final : public CallbackVH {
+      |                                                      ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsAnalysis.h:33:8: error: ‘void llvm::KnownBitsVH::deleted()’ marked ‘override’, but does not override
+   33 |   void deleted() override;
+      |        ^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsAnalysis.h:34:8: error: ‘void llvm::KnownBitsVH::allUsesReplacedWith(llvm::Value*)’ marked ‘override’, but does not override
+   34 |   void allUsesReplacedWith(Value *New) override;
+      |        ^~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsAnalysis.h: In constructor ‘llvm::KnownBitsVH::KnownBitsVH(const llvm::KnownBitsDataflow&, const llvm::Value*)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsAnalysis.h:38:9: error: class ‘llvm::KnownBitsVH’ does not have any field named ‘CallbackVH’
+   38 |       : CallbackVH(V), KBD(const_cast<KnownBitsDataflow &>(KBD)) {}
+      |         ^~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsAnalysis.h: In member function ‘llvm::Value* llvm::KnownBitsVH::getValue() const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsAnalysis.h:39:36: error: ‘getValPtr’ was not declared in this scope; did you mean ‘getValue’?
+   39 |   Value *getValue() const { return getValPtr(); }
+      |                                    ^~~~~~~~~
+      |                                    getValue
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsAnalysis.h: In static member function ‘static unsigned int llvm::DenseMapInfo<llvm::KnownBitsVH>::getHashValue(const llvm::KnownBitsVH&)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsAnalysis.h:45:48: error: cannot convert ‘const llvm::KnownBitsVH’ to ‘const llvm::Value*’
+   45 |     return DenseMapInfo<Value *>::getHashValue(Val);
+      |                                                ^~~
+      |                                                |
+      |                                                const llvm::KnownBitsVH
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:25,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsAnalysis.h:15,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsAnalysis.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMapInfo.h:59:41: note:   initializing argument 1 of ‘static unsigned int llvm::DenseMapInfo<T*>::getHashValue(const T*) [with T = llvm::Value]’
+   59 |   static unsigned getHashValue(const T *PtrVal) {
+      |                                ~~~~~~~~~^~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsAnalysis.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsAnalysis.h: In static member function ‘static bool llvm::DenseMapInfo<llvm::KnownBitsVH>::isEqual(const llvm::KnownBitsVH&, const llvm::KnownBitsVH&)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsAnalysis.h:49:43: error: cannot convert ‘const llvm::KnownBitsVH’ to ‘const llvm::Value*’
+   49 |     return DenseMapInfo<Value *>::isEqual(LHS, RHS);
+      |                                           ^~~
+      |                                           |
+      |                                           const llvm::KnownBitsVH
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:25,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsAnalysis.h:15,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsAnalysis.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMapInfo.h:63:32: note:   initializing argument 1 of ‘static bool llvm::DenseMapInfo<T*>::isEqual(const T*, const T*) [with T = llvm::Value]’
+   63 |   static bool isEqual(const T *LHS, const T *RHS) { return LHS == RHS; }
+      |                       ~~~~~~~~~^~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsAnalysis.cpp: At global scope:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsAnalysis.cpp:33:8: error: explicit specialization of ‘template<class GraphType> struct llvm::GraphTraits’ outside its namespace must use a nested-name-specifier [-fpermissive]
+   33 | struct GraphTraits<Value *>
+      |        ^~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsAnalysis.cpp:40:8: error: explicit specialization of ‘template<class GraphType> struct llvm::GraphTraits’ outside its namespace must use a nested-name-specifier [-fpermissive]
+   40 | struct GraphTraits<const Value *>
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsAnalysis.cpp: In member function ‘void llvm::KnownBitsVH::deleted()’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsAnalysis.cpp:58:3: error: ‘setValPtr’ was not declared in this scope
+   58 |   setValPtr(nullptr);
+      |   ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsAnalysis.cpp: In member function ‘void llvm::KnownBitsVH::allUsesReplacedWith(llvm::Value*)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsAnalysis.cpp:63:3: error: ‘setValPtr’ was not declared in this scope
+   63 |   setValPtr(New);
+      |   ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsAnalysis.cpp: In member function ‘void llvm::KnownBitsDataflow::emplace_all_conflict(const llvm::KnownBitsVH&)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsAnalysis.cpp:91:61: error: base operand of ‘->’ has non-pointer type ‘const llvm::KnownBitsVH’
+   91 |   emplace_or_assign(V, getAllConflict(DL.getTypeSizeInBits(V->getType())));
+      |                                                             ^~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsAnalysis.cpp: In member function ‘void llvm::KnownBitsDataflow::recurseInsertChildren(llvm::ArrayRef<llvm::KnownBitsVH>)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsAnalysis.cpp:106:10: error: base operand of ‘->’ has non-pointer type ‘const llvm::KnownBitsVH’
+  106 |         V->users(), [this](User *U) { return KnownBitsVH(*this, U); })));
+      |          ^~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsAnalysis.cpp: In member function ‘void llvm::KnownBitsDataflow::print(llvm::raw_ostream&) const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsAnalysis.cpp:145:6: error: base operand of ‘->’ has non-pointer type ‘const llvm::KnownBitsVH’
+  145 |     R->print(OS);
+      |      ^~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsAnalysis.cpp: At global scope:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsAnalysis.cpp:84:18: warning: ‘llvm::KnownBits getAllConflict(unsigned int)’ defined but not used [-Wunused-function]
+   84 | static KnownBits getAllConflict(unsigned BitWidth) {
+      |                  ^~~~~~~~~~~~~~
+[3101/3404] Building AArch64GenInstrInfo.inc...
+[3102/3404] Building AArch64GenSubtargetInfo.inc...
+[3103/3404] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning (policy) at cmake/modules/HandleLLVMOptions.cmake:959 (CHECK_C_SOURCE_COMPILES):
+  Policy CMP0219 is not set: Macro invocations preserve backslashes in
+  arguments.  Run "cmake --help-policy CMP0219" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  Command "CHECK_C_SOURCE_COMPILES" called with arguments containing
+  backslashes.
+
+  Since the policy is not set, backslashes in the arguments:
+
+   "// \\\n//\nint main(void) {return 0;}"
+
+  will be interpreted as escape sequences for compatibility.
+
+  Set the policy to NEW to instead pass
+
+   "// \\\\\\n//\\nint main(void) {return 0;}"
+
+  so that argument parsing will preserve the original values.
+Call Stack (most recent call first):
+  CMakeLists.txt:1144 (include)
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+Precompiled headers are disabled by default with GCC. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override.
+CMake Warning at cmake/modules/HandleLLVMOptions.cmake:1440 (message):
+  Using ccache with precompiled headers with non-Clang compilers is not
+  supported and may lead to false positives.  Set
+  CMAKE_DISABLE_PRECOMPILE_HEADERS to ON/OFF to silence this warning.
+Call Stack (most recent call first):
+  CMakeLists.txt:1144 (include)
+
+
+CMake Warning (deprecated) at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:518 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+to suppress it.
+
+Command exited with non-zero status 1
+117.06user 15.35system 0:13.64elapsed 970%CPU (0avgtext+0avgdata 928152maxresident)k
+0inputs+1524080outputs (3703major+7405089minor)pagefaults 0swaps
