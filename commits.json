@@ -239961,6 +239961,24 @@
             "author_name": "CHANDRA GHALE",
             "commit_date": "2026-09-24T14:38:23+05:30",
             "subject": "[flang][OpenMP] Fix crash in defaultmap(none) on structure constructors (#220994)"
+        },
+        {
+            "hash": "43a0a957553dd2cb5258e5d814675a8b54f5099c",
+            "author_name": "Heejin Ahn",
+            "commit_date": "2026-09-24T02:10:56-07:00",
+            "subject": "[WebAssembly] Remove per-invoke EH_LABEL handling (#226053)"
+        },
+        {
+            "hash": "303cf70bb64bebbe4549b52a59e3dbe1d4d5979a",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-09-24T09:17:28+00:00",
+            "subject": "[TargetFolder] Use getGetElementPtr() overload accepting DataLayout (#226068)"
+        },
+        {
+            "hash": "c12a0d255928c9376a6e1a6df36d4338b6cfedf8",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-24T09:17:50+00:00",
+            "subject": "[mlir][ODS] Share optional operand and type parser logic (NFC) (#226066)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -258937,6 +258955,20 @@
             "author_name": "Marek Sedl\u00e1\u010dek",
             "commit_date": "2026-09-24T08:51:55+00:00",
             "subject": "[LoopUnroll] Allow unrolling of multi-exit loops with small trip count Currently small linear scan loops don't get unrolled because of the 1\/100 threshold we have for unrolling. Loops with trip count < 100 will always have probability bigger than 1\/100 threshold. This patch adds a trip count check to allow unrolling of such cases."
+        }
+    ],
+    "fhahn\/perf\/scev-max-or-zero-range-bound": [
+        {
+            "hash": "022fdfa1e5a0b85dc785d30b17be3880768b22dc",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-24T10:37:43+02:00",
+            "subject": "AMDGPU: Mark the carry-out of the scalar abs expansion dead (#226046)"
+        },
+        {
+            "hash": "475eeff40ba520620a406a3f615d660ed7c3eec0",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-24T10:14:52+01:00",
+            "subject": "[SCEV] Set BTC to zero, if constant max BTC < BECountIfTaken."
         }
     ]
 }
