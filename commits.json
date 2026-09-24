@@ -240813,6 +240813,18 @@
             "author_name": "Charles Zablit",
             "commit_date": "2026-09-24T20:47:09+01:00",
             "subject": "[lldb][Windows] Cap the loader helper's one-thread timeout at 5s (#226171)"
+        },
+        {
+            "hash": "b0dac3939e1fee6db11876257f2870fd5a26585a",
+            "author_name": "Thomas K\u00f6ppe",
+            "commit_date": "2026-09-24T13:01:52-07:00",
+            "subject": "[clang] [OpenMP] Memory leaks in OpenMP when affinity is disabled (#225441)"
+        },
+        {
+            "hash": "4a6eb1417cafc6361cf49870cf9f0df716e3709a",
+            "author_name": "Ryan Buchner",
+            "commit_date": "2026-09-24T13:04:18-07:00",
+            "subject": "[SLP] Add new test for usage of getRegUsageForType() (#226276)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -259835,6 +259847,92 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-24T17:56:54+01:00",
             "subject": "Simplifu"
+        }
+    ],
+    "artagnon\/perf\/kbd": [
+        {
+            "hash": "34d1f71c636d9ea6169b54b10992599030b7496a",
+            "author_name": "Petr Hosek",
+            "commit_date": "2026-09-23T00:04:42-07:00",
+            "subject": "[libc] Extract FileIOResult into its own header (#225464)"
+        },
+        {
+            "hash": "9e8ae2c5d5fbb09d5c326a196b2bec49f43b4616",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-23T10:37:50+01:00",
+            "subject": "[KnownBitsAnalysis] Introduce KnownBitsDataflow"
+        },
+        {
+            "hash": "a0ec7883c7cfc40e161ee9fdb3eb4c9c86c7bbac",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-23T13:22:59+01:00",
+            "subject": "[KnownBitsDataflow] CallbackVH"
+        },
+        {
+            "hash": "56e8475a7e02a21d8457130ad01d05fe1948ea96",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-23T18:33:02+01:00",
+            "subject": "[KnownBitsDataflow] Lots of improvements"
+        },
+        {
+            "hash": "ddfe1d1e4f03c11efbe095c930575bac0d79a72e",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-24T11:35:15+01:00",
+            "subject": "[KnownBitsDataflow] IR manipulation"
+        },
+        {
+            "hash": "dce6cb0e62229e0c239a20d14392a501008005d5",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-24T12:00:04+01:00",
+            "subject": "[KnownBitsDataflow] getvh helper"
+        },
+        {
+            "hash": "10da9d6b2de9a8bbf00a1cd732b12a335c4d3fab",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-24T12:17:53+01:00",
+            "subject": "[KnownBitsDataflow] collectRoots!"
+        },
+        {
+            "hash": "8d4f503e1bd2a9346b3ab84e8da244cd9dcd3c74",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-24T13:31:46+01:00",
+            "subject": "[KnownBitsDataflow] API cleanup; lookup"
+        },
+        {
+            "hash": "82bb27700fa4e1fa6f0a6b6d539f76968b39699d",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-24T13:57:20+01:00",
+            "subject": "[KBD] API cleanup"
+        },
+        {
+            "hash": "013c0174599dd05248905f94430088f33f069d3c",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-24T15:22:39+01:00",
+            "subject": "[KBD] DenseMapForVH!"
+        },
+        {
+            "hash": "9900bad6c9d11694769ed332d90c5e5b1712d679",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-24T16:12:28+01:00",
+            "subject": "[KBD] Moar comments"
+        },
+        {
+            "hash": "e38e1dec542d8fbd4df665076296608ce1e140ed",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-24T17:15:49+01:00",
+            "subject": "[KBD] SetVectorForVH!"
+        },
+        {
+            "hash": "96b4d29db70e7be727aa36c39b51b206a2635f4c",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-24T20:00:38+01:00",
+            "subject": "[KBD\/KB\/IC] Start migration; NFC"
+        },
+        {
+            "hash": "3982be8f9b998fc8940f8a7dc692ecb4269c642f",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-24T21:01:20+01:00",
+            "subject": "[KBD] Dataflow improvements, extend a bit"
         }
     ]
 }
