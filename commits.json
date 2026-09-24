@@ -239913,6 +239913,36 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-24T10:43:50+02:00",
             "subject": "CodeGen: Respect the exception-model module flag in SjLjEHPrepare (#225726)"
+        },
+        {
+            "hash": "7942551c1a93e7418be9c168bb0e674efbd68a29",
+            "author_name": "Ivan R. Ivanov",
+            "commit_date": "2026-09-24T10:45:42+02:00",
+            "subject": "[offload][nfc] Move AsyncInfoTy's definitions to libompaccsupport (#220991)"
+        },
+        {
+            "hash": "07fbbac878025ecf8f3b25f28ec38c826e6f4891",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-24T08:46:25+00:00",
+            "subject": "[mlir] Reduce Diagnostic storage across standard library debug modes (NFC) (#226070)"
+        },
+        {
+            "hash": "e26fb78a9767cf0a9b0995286cd393c8f6f8c017",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-24T08:51:13+00:00",
+            "subject": "[mlir][ODS] Reuse collective builders for zero-result ops (NFC) (#226059)"
+        },
+        {
+            "hash": "27cddfe63e88792d80b9eddf14ad4e580c9a2c7e",
+            "author_name": "Anand Mistry (MSFT)",
+            "commit_date": "2026-09-24T09:53:33+01:00",
+            "subject": "[Mips] Add sync instruction aliases (#225866)"
+        },
+        {
+            "hash": "84afb5ad1ffd52e62889b3a86d9754b1e15f6ba6",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-24T08:54:16+00:00",
+            "subject": "[flang] Stop using Operation::getAttrs (NFC) (#223049)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -258869,6 +258899,12 @@
             "author_name": "Stephen Tozer",
             "commit_date": "2026-09-24T08:56:42+01:00",
             "subject": "Implement Function-Local Metadata, enable by default"
+        },
+        {
+            "hash": "06ddb8bf922698b7e36be5ec8bee47f759cea619",
+            "author_name": "Stephen Tozer",
+            "commit_date": "2026-09-24T09:52:23+01:00",
+            "subject": "Fixup constexpr decl"
         }
     ]
 }
