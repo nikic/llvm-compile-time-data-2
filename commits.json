@@ -239949,6 +239949,18 @@
             "author_name": "A. Jiang",
             "commit_date": "2026-09-24T16:58:44+08:00",
             "subject": "[libc++][docs] Mark LWG2727 Complete in LLVM 24 (#225606)"
+        },
+        {
+            "hash": "65d651bc8fd6d83ae4989d93dc89cb287231afd2",
+            "author_name": "Vikash Gupta",
+            "commit_date": "2026-09-24T14:33:34+05:30",
+            "subject": "[AMDGPU] Look through readfirstlane\/readlane in computeKnownBitsForTargetInstr. (#224275)"
+        },
+        {
+            "hash": "108770859571a22679b9f5e871ac6ffc311b0f4e",
+            "author_name": "CHANDRA GHALE",
+            "commit_date": "2026-09-24T14:38:23+05:30",
+            "subject": "[flang][OpenMP] Fix crash in defaultmap(none) on structure constructors (#220994)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -258911,6 +258923,20 @@
             "author_name": "Stephen Tozer",
             "commit_date": "2026-09-24T09:52:23+01:00",
             "subject": "Fixup constexpr decl"
+        }
+    ],
+    "mark-sed\/perf\/multi-exit-unroll-small-trip-count": [
+        {
+            "hash": "07fbbac878025ecf8f3b25f28ec38c826e6f4891",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-24T08:46:25+00:00",
+            "subject": "[mlir] Reduce Diagnostic storage across standard library debug modes (NFC) (#226070)"
+        },
+        {
+            "hash": "50e3a03cd67f6b4ff194f54faa07241ca4e04c49",
+            "author_name": "Marek Sedl\u00e1\u010dek",
+            "commit_date": "2026-09-24T08:51:55+00:00",
+            "subject": "[LoopUnroll] Allow unrolling of multi-exit loops with small trip count Currently small linear scan loops don't get unrolled because of the 1\/100 threshold we have for unrolling. Loops with trip count < 100 will always have probability bigger than 1\/100 threshold. This patch adds a trip count check to allow unrolling of such cases."
         }
     ]
 }
