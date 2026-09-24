@@ -77029,33 +77029,27 @@
     ],
     "tbaederr\/perf\/ce-test": [
         {
-            "hash": "6d617b831f5b9f354753106f6ffe5fc482209756",
-            "author_name": "Jason Van Beusekom",
-            "commit_date": "2026-09-23T10:17:03-05:00",
-            "subject": "[Flang] add support for collapsed io calls for implicit do loops (#212646)"
+            "hash": "60bafedef85aecc6d3dba62436a838ec3f4040a7",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-09-24T06:32:36+02:00",
+            "subject": "[clang][bytecode] Split `InterpFrame::shrink()`\/`peekData()` into slow and fast paths (#225761)"
         },
         {
-            "hash": "64f57513d87b4dff8c01c71a723db687df954c3b",
+            "hash": "f8ef51475717e669763abe96d409cdeddf1412a4",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-23T17:20:29+02:00",
+            "commit_date": "2026-09-24T06:40:29+02:00",
             "subject": "Test"
         },
         {
-            "hash": "4f4ca82baf497b613398e73253de21c089ccba7b",
+            "hash": "5d750e2ac5073b0660f24eab498c9b0f9e5f3519",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-23T17:20:33+02:00",
+            "commit_date": "2026-09-24T06:40:29+02:00",
             "subject": "hmm?"
         },
         {
-            "hash": "429801e847cc6518573fc4f8d0c9897b08aac160",
+            "hash": "a31922948e2328a3ae34ef76e0a183da0a1b1ee7",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-23T17:20:33+02:00",
-            "subject": "shink()\/peekData easier inlinable"
-        },
-        {
-            "hash": "0ac81845394182cb24d3a98e526e62c5f3669fbe",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-23T17:20:33+02:00",
+            "commit_date": "2026-09-24T06:40:36+02:00",
             "subject": "diagnoseDUmmy"
         }
     ],
@@ -239721,6 +239715,18 @@
             "author_name": "Timm Baeder",
             "commit_date": "2026-09-24T06:32:36+02:00",
             "subject": "[clang][bytecode] Split `InterpFrame::shrink()`\/`peekData()` into slow and fast paths (#225761)"
+        },
+        {
+            "hash": "18c1aa83bf243f0aa6b7dfe08ecdb5600c612769",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-09-24T04:40:31+00:00",
+            "subject": "[flang][cuda] Apply implicit managed attribute to scalar pointers (#225934)"
+        },
+        {
+            "hash": "01f3fe9a021f1b6933e033da89adbedbecd9600d",
+            "author_name": "Aditya Sinha",
+            "commit_date": "2026-09-24T10:11:09+05:30",
+            "subject": "[clang] Move normalizeForBundler to TargetID for reuse (#225049)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
