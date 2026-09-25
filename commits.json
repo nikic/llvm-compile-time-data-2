@@ -77029,52 +77029,40 @@
     ],
     "tbaederr\/perf\/ce-test": [
         {
-            "hash": "e34e31190233a5733d6b7751160a29e50cd8b41c",
-            "author_name": "Akash Manna",
-            "commit_date": "2026-09-25T06:46:28-04:00",
-            "subject": "[clang][OpenMP] Cast by-reference captures to the address space of the captured field (#226229)"
+            "hash": "c6c8f3006f378079cf2c89e4e4bddc0adb15f8ea",
+            "author_name": "Walter Lee",
+            "commit_date": "2026-09-25T05:54:59-05:00",
+            "subject": "Fix Bazel build for aa6b03e (#226426)"
         },
         {
-            "hash": "8c75a6f487e8a6a3c12a17c24b13c4260d074378",
+            "hash": "4cb48c281d44b249de1d640104f6d389370f8294",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-25T12:51:50+02:00",
+            "commit_date": "2026-09-25T14:55:08+02:00",
             "subject": "Test"
         },
         {
-            "hash": "00b2d742652edcec1ca2109f7ae0b8164046abce",
+            "hash": "1b666893474e45984ac18bdb83cef7e16187cd41",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-25T12:51:50+02:00",
-            "subject": "hmm?"
-        },
-        {
-            "hash": "0fb8b1c4e0dc46612b1de2c045bdb02bf89337aa",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-25T12:51:50+02:00",
-            "subject": "Copy CharUnits parameters"
-        },
-        {
-            "hash": "b8134cd69ccd3391b485cc70bbccde4cfa2fd325",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-25T12:51:54+02:00",
+            "commit_date": "2026-09-25T14:55:08+02:00",
             "subject": "[clang][bytecode] Use EvalSettings struct"
         },
         {
-            "hash": "fb8a223d483a4dd417467976b1f8689910ac32f5",
+            "hash": "eb5292b3c2a2b99e9a472b4466707018dc71295f",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-25T12:51:54+02:00",
+            "commit_date": "2026-09-25T14:55:08+02:00",
             "subject": "Direct eval in accessor"
         },
         {
-            "hash": "c1de75e124bb4e75047d83df314d4423c043bec2",
+            "hash": "f3f9bc4ee33e54df5378e881f3e98dbbbd22128c",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-25T13:17:36+02:00",
+            "commit_date": "2026-09-25T14:55:08+02:00",
             "subject": "Enum sizes"
         },
         {
-            "hash": "14a6048b6e0eca1d49f9facde6683840fc7af44d",
+            "hash": "5fd4640c13fda549266ed5f499a3502373fa9db9",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-25T13:51:46+02:00",
-            "subject": "SHort enums"
+            "commit_date": "2026-09-25T15:06:08+02:00",
+            "subject": "settings by value"
         }
     ],
     "dtcxzyw\/perf\/nonnull-at-callsite": [
@@ -241623,6 +241611,18 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-25T12:26:22+00:00",
             "subject": "ARM: Use divmod type signatures from RuntimeLibcallsInfo (#217869)"
+        },
+        {
+            "hash": "dcdeeebef2ef008326211b661cfb81d1d35b4086",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-09-25T13:02:10+00:00",
+            "subject": "[DAG] SimplifySetCC - adjust setcc result type when peeking through truncates (#226422)"
+        },
+        {
+            "hash": "a509a4e98a50a2acc172a5f6eba77b8df020e3cd",
+            "author_name": "Benedek Kaibas",
+            "commit_date": "2026-09-25T15:06:54+02:00",
+            "subject": "[LifetimeSafety] Enable C support by default under -Wlifetime-safety (#224028)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -260697,9 +260697,9 @@
             "subject": "[libc] Extract FileIOResult into its own header (#225464)"
         },
         {
-            "hash": "329c942b43d403a145f7c26b382d4aa1939c2c88",
+            "hash": "336115fa60bcdca07d0efe1e82424cd0822833eb",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-25T13:11:22+01:00",
+            "commit_date": "2026-09-25T13:57:37+01:00",
             "subject": "[KnownBitsDataflow] Introduce new analysis"
         }
     ]
