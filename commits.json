@@ -241419,6 +241419,36 @@
             "author_name": "Mehdi Amini",
             "commit_date": "2026-09-25T09:48:33+00:00",
             "subject": "[mlir][Tensor] Stop using `getAttrs()` and only copy discardable call attributes explicitly (#226412)"
+        },
+        {
+            "hash": "728813099e29e7255e2c4ab7098297ba0eb9b320",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-25T09:54:08+00:00",
+            "subject": "[mlir][OpenACC] Stop using getAttrs() and copy function properties separately (NFC) (#226414)"
+        },
+        {
+            "hash": "0e232314ca9eda04abe27bc8c7cf7c10666c54c1",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-25T09:55:03+00:00",
+            "subject": "[mlir][Quant] Stop using Operation::getAttrs (NFC) (#226413)"
+        },
+        {
+            "hash": "e6115bc07692e0e9e632c88b2b4da99728d2951d",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-09-25T09:58:18+00:00",
+            "subject": "[AMDGPU] Make setImpSCCDefDead default to true. NFC. (#226406)"
+        },
+        {
+            "hash": "afa81ffa95ca08a20c28d9e9487404ea06a89c55",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-09-25T09:58:36+00:00",
+            "subject": "[mlir][LLVM] Stop using Operation::getAttrs in custom printers (NCF) (#226418)"
+        },
+        {
+            "hash": "51b1c275718891743493f3ed5d9e54d91a027e2d",
+            "author_name": "John Brawn",
+            "commit_date": "2026-09-25T10:58:53+01:00",
+            "subject": "[SROA] Pre-split overlapping move slices within a partition (#210061)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
