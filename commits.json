@@ -241767,6 +241767,12 @@
             "author_name": "Derek Schuff",
             "commit_date": "2026-09-25T08:48:31-07:00",
             "subject": "[clang][WeAssembly] Do not override thread model when building without atomics (#225981)"
+        },
+        {
+            "hash": "73fc71b19905b15e6ff14ae3149c6fabce961c1b",
+            "author_name": "Jan Svoboda",
+            "commit_date": "2026-09-25T08:57:45-07:00",
+            "subject": "[clang][test] Fix lifetimes of HS\/PP options (#225885)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -260899,27 +260905,39 @@
             "subject": "[ConstraintElim] Skip rows implied by a single existing row."
         },
         {
-            "hash": "799974f1988804f01489524dc1b9dc5378fb70e3",
+            "hash": "716f905ae9948c9368070637dbac05073717293f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-25T14:53:12+01:00",
+            "commit_date": "2026-09-25T16:35:59+01:00",
+            "subject": "[ConstraintElim] Check cheap requirements first for memory access facts (NFC)."
+        },
+        {
+            "hash": "71a3a7d06dd1f8f5f32aaeeeca3d3c3faa84229a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-25T16:39:26+01:00",
+            "subject": "[ConstraintElim] Don't transfer facts already implied by a single row."
+        },
+        {
+            "hash": "b261cce800507936bafb0a242798ae082a16223a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-25T16:39:29+01:00",
             "subject": "[ConstraintElim] Add tests for bounds from compares of induction phis (NFC)."
         },
         {
-            "hash": "d464f68e1c4e390b89cd39dac67d56253ab17cdc",
+            "hash": "3ad52e6721513a44cfeb0b3efe84c2417f6ca75e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-25T14:53:12+01:00",
+            "commit_date": "2026-09-25T16:39:29+01:00",
             "subject": "[ConstraintElim] Bound IVs by compares of the phi in header\/latch."
         },
         {
-            "hash": "befe66379aa1b3f9c5351c34a040cd7a020e9c65",
+            "hash": "078cfa0bfea69ee7b273b370f1db2f6bfb8cda9c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-25T15:11:38+01:00",
+            "commit_date": "2026-09-25T16:45:00+01:00",
             "subject": "[ConstraintElim] Don't transfer header bounds of inductions to other system."
         },
         {
-            "hash": "8b3d7d5a9f6b92d027f61ad8a6965f71b4726301",
+            "hash": "133781c228e3afeb2f897a1654001fcc5a6c12ab",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-25T15:14:11+01:00",
+            "commit_date": "2026-09-25T16:45:03+01:00",
             "subject": "[ConstraintElim] Only add header bounds of inductions where they may be used."
         }
     ]
