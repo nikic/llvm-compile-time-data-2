@@ -241995,6 +241995,18 @@
             "author_name": "Kerry McLaughlin",
             "commit_date": "2026-09-25T21:03:59+01:00",
             "subject": "[AArch64] Rename memory hints to avoid clash with arm_acle.h macros (#226432)"
+        },
+        {
+            "hash": "e76dd51398a8ceac33e9e5bf3253dd6b03b965dd",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-25T16:24:36-04:00",
+            "subject": "[SLP][NFC]ADd a test with the missed vectorization, NFC"
+        },
+        {
+            "hash": "d506ee743cdaef27448964890f813bd3b7da7953",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-25T16:32:06-04:00",
+            "subject": "[SLP]Reuse the trimmed nodes in the perfectly matched gathers of the same user"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -261087,10 +261099,16 @@
             "subject": "[Offload][OpenMP] remove SourceInfo::removePath (#226283)"
         },
         {
-            "hash": "c586af08d740516e226868e4a1af08773b9c3428",
+            "hash": "2942e69a2c6fcabe1c807808dc82d0663a64948a",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-25T16:59:29+01:00",
+            "commit_date": "2026-09-25T21:28:36+01:00",
             "subject": "[KnownBitsDataflow] Introduce new analysis"
+        },
+        {
+            "hash": "bd2706005184f8814ad4356aff2aa856b2057132",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-25T21:28:36+01:00",
+            "subject": "[IC] Are the VH-fixes bad?"
         }
     ],
     "fhahn\/perf\/cr-add-template-for-single-bound": [
