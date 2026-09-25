@@ -241959,6 +241959,12 @@
             "author_name": "Jiaxun Yang",
             "commit_date": "2026-09-25T20:12:35+01:00",
             "subject": "[Mips] Enable generic bitfield extract preparation (#226491)"
+        },
+        {
+            "hash": "5bc083e278a59853fcfcf3649ba7a20457ead1e5",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-09-25T12:24:10-07:00",
+            "subject": "[gn] port b3ed324d42c04 more (#226574)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -260987,6 +260993,12 @@
             "author_name": "Stephen Tozer",
             "commit_date": "2026-09-25T14:38:45+01:00",
             "subject": "Move FLContext into Function"
+        },
+        {
+            "hash": "c65111e85fbb8a6dfce8e54546207d11c7e33c23",
+            "author_name": "Stephen Tozer",
+            "commit_date": "2026-09-25T20:26:42+01:00",
+            "subject": "Use FLMDBuilder in frontend to reduce uniquing time"
         }
     ],
     "mark-sed\/perf\/multi-exit-unroll-small-trip-count": [
@@ -261119,6 +261131,32 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-25T16:45:03+01:00",
             "subject": "[ConstraintElim] Only add header bounds of inductions where they may be used."
+        }
+    ],
+    "fhahn\/perf\/sct2": [
+        {
+            "hash": "bbd2e0f7ce13d2a1ff8336018d3b034eb3c698a0",
+            "author_name": "Jiaxun Yang",
+            "commit_date": "2026-09-25T20:12:35+01:00",
+            "subject": "[Mips] Enable generic bitfield extract preparation (#226491)"
+        },
+        {
+            "hash": "d9c704bcb1c5b347bd2ab2c5e9903947960b6769",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-25T20:21:54+01:00",
+            "subject": "Remve invert"
+        },
+        {
+            "hash": "ce1e726f89861f3879c8d6e3d0ab1fcda01788c3",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-25T20:22:40+01:00",
+            "subject": "[SCEV] Only compute the constant multiple of a guard's LHS for constant bounds"
+        },
+        {
+            "hash": "f65b4e6304cc38564bff1de491fbe9728366726a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-25T20:22:57+01:00",
+            "subject": "[SCEV] Compute the small constant trip multiple in the exit count's type"
         }
     ]
 }
