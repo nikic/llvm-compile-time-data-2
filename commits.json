@@ -242031,6 +242031,24 @@
             "author_name": "agozillon",
             "commit_date": "2026-09-25T22:55:02+02:00",
             "subject": "[Flang][OpenMP] Fix broken offload test caused by MapInfoFinalization code movement (#226384)"
+        },
+        {
+            "hash": "ae614a9564425ab206940f2b91607b1d77826068",
+            "author_name": "Aaron",
+            "commit_date": "2026-09-25T22:57:30+02:00",
+            "subject": "[clang-format] Preserve enum initializer continuation indentation (#223435)"
+        },
+        {
+            "hash": "4db3dceb8d7bffa4b69042fe043652d616396237",
+            "author_name": "Jeremy Kun",
+            "commit_date": "2026-09-25T14:05:28-07:00",
+            "subject": "[llvm] produce a more consistent estimates of bit width needed when parsing an integer (#205947)"
+        },
+        {
+            "hash": "1b4e7f41268eb3db5300e79256764140e509e3f5",
+            "author_name": "Akash Manna",
+            "commit_date": "2026-09-25T14:06:42-07:00",
+            "subject": "[Clang] Enforce the same size limits for `vector_size` and `ext_vector_type` (#226375)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -261235,6 +261253,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-25T20:22:57+01:00",
             "subject": "[SCEV] Compute the small constant trip multiple in the exit count's type"
+        }
+    ],
+    "artagnon\/perf\/ic-replaceop": [
+        {
+            "hash": "5b8e65685b4fe99191a217bfa0527c51cf36925c",
+            "author_name": "Jason Van Beusekom",
+            "commit_date": "2026-09-25T10:38:54-05:00",
+            "subject": "[Offload][OpenMP] remove SourceInfo::removePath (#226283)"
+        },
+        {
+            "hash": "dda00272f34df7f9a5ca02ab71a8d3696a9aa46e",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-25T20:50:19+01:00",
+            "subject": "[InstCombine] Use replaceOperand in more places"
         }
     ]
 }
