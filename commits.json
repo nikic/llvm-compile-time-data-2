@@ -241623,6 +241623,18 @@
             "author_name": "Benedek Kaibas",
             "commit_date": "2026-09-25T15:06:54+02:00",
             "subject": "[LifetimeSafety] Enable C support by default under -Wlifetime-safety (#224028)"
+        },
+        {
+            "hash": "b60afea0d31f4da34b9d867a00817a0e53dbdb05",
+            "author_name": "Akash Manna",
+            "commit_date": "2026-09-25T14:09:44+01:00",
+            "subject": "[SimplifyCFG] Keep a debug location on calls cloned by `FoldBranchToCommonDest` (#224247)"
+        },
+        {
+            "hash": "eae3e9e64de82ae5a162783808c89521cfea7742",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-09-25T23:12:27+10:00",
+            "subject": "[orc-rt] Fix move_only_function storing references to lvalue callables. (#226474)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -260701,6 +260713,26 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-09-25T13:57:37+01:00",
             "subject": "[KnownBitsDataflow] Introduce new analysis"
+        }
+    ],
+    "fhahn\/perf\/cr-add-template-for-single-bound": [
+        {
+            "hash": "df26d549b9115ff7c32b6fb9031250994d0f3515",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-25T12:26:22+00:00",
+            "subject": "ARM: Use divmod type signatures from RuntimeLibcallsInfo (#217869)"
+        },
+        {
+            "hash": "fc6ba5444704afcaecb945f61879d96033e67441",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-25T14:09:20+01:00",
+            "subject": "[ConstantRange] Compute exact no-wrap regions without materializing a range."
+        },
+        {
+            "hash": "33d804b60463a1c1fdf2563ad2a2c96be9226f90",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-25T14:18:26+01:00",
+            "subject": "Just inline"
         }
     ]
 }
