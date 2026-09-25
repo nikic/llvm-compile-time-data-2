@@ -260788,5 +260788,43 @@
             "commit_date": "2026-09-25T14:24:53+01:00",
             "subject": "Always inline2"
         }
+    ],
+    "fhahn\/perf\/ce-header-bounds": [
+        {
+            "hash": "84d75c8ab6eb610cde0048458f96085f923fc392",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-09-25T13:47:02+00:00",
+            "subject": "[AArch64] Make compiling arm_neon.h faster (#226378)"
+        },
+        {
+            "hash": "ec5e008b07f725e0f4097615842bc9d8e9120c54",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-25T14:52:26+01:00",
+            "subject": "[ConstraintElim] Skip rows implied by a single existing row."
+        },
+        {
+            "hash": "799974f1988804f01489524dc1b9dc5378fb70e3",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-25T14:53:12+01:00",
+            "subject": "[ConstraintElim] Add tests for bounds from compares of induction phis (NFC)."
+        },
+        {
+            "hash": "d464f68e1c4e390b89cd39dac67d56253ab17cdc",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-25T14:53:12+01:00",
+            "subject": "[ConstraintElim] Bound IVs by compares of the phi in header\/latch."
+        },
+        {
+            "hash": "befe66379aa1b3f9c5351c34a040cd7a020e9c65",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-25T15:11:38+01:00",
+            "subject": "[ConstraintElim] Don't transfer header bounds of inductions to other system."
+        },
+        {
+            "hash": "8b3d7d5a9f6b92d027f61ad8a6965f71b4726301",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-25T15:14:11+01:00",
+            "subject": "[ConstraintElim] Only add header bounds of inductions where they may be used."
+        }
     ]
 }
