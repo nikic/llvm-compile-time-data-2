@@ -241701,6 +241701,30 @@
             "author_name": "Nico Weber",
             "commit_date": "2026-09-25T08:06:19-07:00",
             "subject": "[gn] Add clang_static_plugin_sources to link out-of-tree plugins into clang (#226381)"
+        },
+        {
+            "hash": "1978a469493fec319cd61e2eac42abade837fafc",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-09-25T08:10:47-07:00",
+            "subject": "[clang] Migrate away from PointerUnion::dyn_cast (NFC) (#226390)"
+        },
+        {
+            "hash": "76d4a51fe990d5915c8b30587b09d57e45d533a2",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-09-25T08:11:21-07:00",
+            "subject": "[Vectorize] Remove unused functions (NFC) (#226392)"
+        },
+        {
+            "hash": "58e81dc9a3e25cc41ad26f7cf222dea2c4aa391b",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-25T16:19:15+01:00",
+            "subject": "[VPlan] Use frozen combined condition in early exit first-active-lane (#223643)"
+        },
+        {
+            "hash": "7af28a7e7b3073593d5f394d02b10f382d6cbab1",
+            "author_name": "Kai Nacke",
+            "commit_date": "2026-09-25T11:23:46-04:00",
+            "subject": "[SystemZ][z\/OS] Use section ordinal for temporary symbols (#226306)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -260787,10 +260811,10 @@
             "subject": "[KnownBitsDataflow] Introduce new analysis"
         },
         {
-            "hash": "d5ee6f20e5106873be9abea9dd690a95b3db5dcc",
+            "hash": "32e370ad91a28040107fdfe2d704f964defedefa",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-25T14:56:24+01:00",
-            "subject": "[IC] VH-fix"
+            "commit_date": "2026-09-25T16:10:33+01:00",
+            "subject": "[IC] KBD threading fixes"
         }
     ],
     "fhahn\/perf\/cr-add-template-for-single-bound": [
