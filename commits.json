@@ -241965,6 +241965,24 @@
             "author_name": "Nico Weber",
             "commit_date": "2026-09-25T12:24:10-07:00",
             "subject": "[gn] port b3ed324d42c04 more (#226574)"
+        },
+        {
+            "hash": "0a21a0712b800a3cc1af87e1d0ceb1a84f2b24bd",
+            "author_name": "Patrick Rachford",
+            "commit_date": "2026-09-25T19:32:39+00:00",
+            "subject": "[WebAssembly] Emit i64 GOT import globals on wasm64 (#226326)"
+        },
+        {
+            "hash": "229e7000493f118d49d23073d3bfa613b3798d85",
+            "author_name": "Marcos Ramirez Joos",
+            "commit_date": "2026-09-25T15:33:37-04:00",
+            "subject": "[libc] Avoid system fenv.h in FEnvImpl.h when LIBC_MATH_HAS_NO_EXCEPT is set (#224384)"
+        },
+        {
+            "hash": "7ca0ce59bb82557a3052666562cc8f0d6d03ec41",
+            "author_name": "Finn Plummer",
+            "commit_date": "2026-09-25T19:49:29+00:00",
+            "subject": "[DirectX] Preserve all shader-stage bits during DXIL op lowering (#225874)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -260999,6 +261017,12 @@
             "author_name": "Stephen Tozer",
             "commit_date": "2026-09-25T20:26:42+01:00",
             "subject": "Use FLMDBuilder in frontend to reduce uniquing time"
+        },
+        {
+            "hash": "327ace327d19dbc3f70e405fbe91a63ad23adf11",
+            "author_name": "Stephen Tozer",
+            "commit_date": "2026-09-25T20:36:56+01:00",
+            "subject": "Remove unnecessary\/excessive verifier checks"
         }
     ],
     "mark-sed\/perf\/multi-exit-unroll-small-trip-count": [
