@@ -241773,6 +241773,30 @@
             "author_name": "Jan Svoboda",
             "commit_date": "2026-09-25T08:57:45-07:00",
             "subject": "[clang][test] Fix lifetimes of HS\/PP options (#225885)"
+        },
+        {
+            "hash": "9068aede6fcbd3e47602fce96fbb077e3e4d8cc4",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-09-25T17:00:59+01:00",
+            "subject": "[LV] Fix early exit tests after #223643. NFC (#226521)"
+        },
+        {
+            "hash": "44f262eb67778e6bcb7675599384e010062cae10",
+            "author_name": "Alison Zhang",
+            "commit_date": "2026-09-25T12:02:39-04:00",
+            "subject": "[test][ssaf][AIX] Fix sed -i portability for AIX (#226293)"
+        },
+        {
+            "hash": "f1129f338806da062347a8ce019b88b51452917f",
+            "author_name": "Ellis Hoag",
+            "commit_date": "2026-09-25T09:07:15-07:00",
+            "subject": "[NFC][PGOProfile] Inline icall annotation proftext test (#226324)"
+        },
+        {
+            "hash": "378ceb307bbc729bb918601a28c468df419b4d34",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-09-25T09:08:54-07:00",
+            "subject": "[RISCV][P-Ext] Add builtins and IR intrinsics for packed shifts. (#225968)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -260847,22 +260871,16 @@
     ],
     "artagnon\/perf\/kbd": [
         {
-            "hash": "34d1f71c636d9ea6169b54b10992599030b7496a",
-            "author_name": "Petr Hosek",
-            "commit_date": "2026-09-23T00:04:42-07:00",
-            "subject": "[libc] Extract FileIOResult into its own header (#225464)"
+            "hash": "5b8e65685b4fe99191a217bfa0527c51cf36925c",
+            "author_name": "Jason Van Beusekom",
+            "commit_date": "2026-09-25T10:38:54-05:00",
+            "subject": "[Offload][OpenMP] remove SourceInfo::removePath (#226283)"
         },
         {
-            "hash": "b9f0608229f868a8b0b1eecd054069e432c5e539",
+            "hash": "c586af08d740516e226868e4a1af08773b9c3428",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-25T14:42:02+01:00",
+            "commit_date": "2026-09-25T16:59:29+01:00",
             "subject": "[KnownBitsDataflow] Introduce new analysis"
-        },
-        {
-            "hash": "32e370ad91a28040107fdfe2d704f964defedefa",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-25T16:10:33+01:00",
-            "subject": "[IC] KBD threading fixes"
         }
     ],
     "fhahn\/perf\/cr-add-template-for-single-bound": [
