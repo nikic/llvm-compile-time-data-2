@@ -241281,6 +241281,12 @@
             "author_name": "David Sherwood",
             "commit_date": "2026-09-25T09:14:27+01:00",
             "subject": "[Analysis][NFC] Address review comments from PR #213013 (#225800)"
+        },
+        {
+            "hash": "cf8ce56a1f39f9a771d03aeedd9d89475e72a659",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-25T10:21:00+02:00",
+            "subject": "RegAllocFast: Mark unspilled implicit_def physreg defs dead (#226295)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -251181,6 +251187,60 @@
             "author_name": "Eli Friedman",
             "commit_date": "2026-09-23T13:54:15+02:00",
             "subject": "[AArch64][GISel][FastISel] Fix Windows \"sret inreg\". (#225190)"
+        },
+        {
+            "hash": "5d31c0334b0378d560f6a15705ec65ff8772e5b4",
+            "author_name": "David Spickett",
+            "commit_date": "2026-09-25T10:23:13+02:00",
+            "subject": "[lldb] Fix switch case for i386 in COFF GetModuleSpecifications (#222030)"
+        },
+        {
+            "hash": "ff3d38593e6de5e0fd909bdcc52e9a5584f49215",
+            "author_name": "yingopq",
+            "commit_date": "2026-09-25T10:23:16+02:00",
+            "subject": "[Mips] Strip \\x01 no-mangle prefix from R_MIPS_JALR symbol name (#219427)"
+        },
+        {
+            "hash": "e24fcb6944108ec6013eaf466101b1bcb45304d5",
+            "author_name": "David Green",
+            "commit_date": "2026-09-25T10:23:19+02:00",
+            "subject": "[AArch64] Guard against large types in performOrXorChainCombine (#222146)"
+        },
+        {
+            "hash": "28a01b03e11ffeb3012677f12a8e18d55ba1847d",
+            "author_name": "Nerixyz",
+            "commit_date": "2026-09-25T10:23:22+02:00",
+            "subject": "[lldb][Windows] Translate file descriptors between CRT instances (#217126)"
+        },
+        {
+            "hash": "5f2881edaf60c7f793ea87d5ad0305791af50831",
+            "author_name": "Nerixyz",
+            "commit_date": "2026-09-25T10:23:22+02:00",
+            "subject": "[lldb][Windows] Remove use of unstable ABI and fix SB API visibility (#222665)"
+        },
+        {
+            "hash": "3273cdaa5ea1188a6dc630039f0be90d8d8084b6",
+            "author_name": "David Green",
+            "commit_date": "2026-09-25T10:23:25+02:00",
+            "subject": "[GlobalISel][AArch64] Do not remove dst type predicates from pattern children nodes. (#221576)"
+        },
+        {
+            "hash": "6b34061eb9d4c19441a1444ba5c7207d7703ad1d",
+            "author_name": "David Tellenbach",
+            "commit_date": "2026-09-25T10:23:29+02:00",
+            "subject": "[AArch64] Don't emit stack restore for SME ZA non-sibling tail calls (#224721)"
+        },
+        {
+            "hash": "4db63eeac73fe88f2f6f0deba04b1a84d5e9f63d",
+            "author_name": "Nemanja Ivanovic",
+            "commit_date": "2026-09-25T10:23:32+02:00",
+            "subject": "[RISC-V] Do not emit cm.popret[z] with zicfiss (#196267)"
+        },
+        {
+            "hash": "c9376624635f07153a643be1178a66d6c25ca8e7",
+            "author_name": "Nemanja Ivanovic",
+            "commit_date": "2026-09-25T10:23:32+02:00",
+            "subject": "[RISC-V] Fix assert after 255162a (#212791)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
@@ -260317,6 +260377,18 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-09-25T08:59:11+01:00",
             "subject": "[KBD] Fixes"
+        },
+        {
+            "hash": "13f7914867a96550db704e3e5ff694282fb7999e",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-25T09:20:28+01:00",
+            "subject": "[VT] Wire up cache"
+        },
+        {
+            "hash": "8160f041456e672871cb89e00d47d8e899980730",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-25T09:28:26+01:00",
+            "subject": "[KBD] Include statistic"
         }
     ]
 }
