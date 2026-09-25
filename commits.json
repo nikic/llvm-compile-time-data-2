@@ -241371,6 +241371,30 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-25T09:12:29+00:00",
             "subject": "[VPlan] Only retain NSW when possible in getFlagsFromIndDesc. (#226315)"
+        },
+        {
+            "hash": "a465ac2be931ec1f21c9807434d59cb3b92d4b06",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-09-25T11:15:53+02:00",
+            "subject": "[clang][NFC] Use llvm::ListSeparator in APValue::printPretty (#226125)"
+        },
+        {
+            "hash": "81e2e4474b3eb6a06e4269b97c7d33c561a3f14f",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-25T09:17:12+00:00",
+            "subject": "[SCEV] Set BTC to zero, if constant max BTC < BECountIfTaken. (#226098)"
+        },
+        {
+            "hash": "99b454814e243b4d5f206d9605d3ab5b6e73f4b4",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-09-25T11:19:04+02:00",
+            "subject": "[InstrProfiling] Generate test checks (NFC) (#226409)"
+        },
+        {
+            "hash": "41165fd5d503b4297cb1033fdeb1688ce0863b68",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-09-25T09:21:16+00:00",
+            "subject": "[DAG] SimplifyMultipleUseDemandedBits - simplify ISD::SCALAR_TO_VECTOR to ISD::POISON if we don't demand 0th element (#225530)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -260445,34 +260469,10 @@
             "subject": "[libc] Extract FileIOResult into its own header (#225464)"
         },
         {
-            "hash": "9e8ae2c5d5fbb09d5c326a196b2bec49f43b4616",
+            "hash": "6746daaf1f23c9eae83a4c46e207ee53a17420d6",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-23T10:37:50+01:00",
-            "subject": "[KnownBitsAnalysis] Introduce KnownBitsDataflow"
-        },
-        {
-            "hash": "88da811384b041fb7e37a8bb5ac8c8adf1bee02f",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-24T23:22:46+01:00",
-            "subject": "[KnownBitsDataflow] CallbackVH"
-        },
-        {
-            "hash": "e054d0eb2bda29937ece1025252aaab7b59aab0b",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-25T08:59:11+01:00",
-            "subject": "[KBD] Fixes"
-        },
-        {
-            "hash": "13f7914867a96550db704e3e5ff694282fb7999e",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-25T09:20:28+01:00",
-            "subject": "[VT] Wire up cache"
-        },
-        {
-            "hash": "8160f041456e672871cb89e00d47d8e899980730",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-25T09:28:26+01:00",
-            "subject": "[KBD] Include statistic"
+            "commit_date": "2026-09-25T10:17:41+01:00",
+            "subject": "[KnownBitsDataflow] Introduce new analysis"
         }
     ]
 }
