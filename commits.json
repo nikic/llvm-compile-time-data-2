@@ -242277,6 +242277,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-26T10:15:36+01:00",
             "subject": "[BPI] Add getEdgeProbabilitiesFromWeights (NFC). (#226560)"
+        },
+        {
+            "hash": "97e9558844822e1ff8f986319ef354fda42b8215",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-26T09:50:00+00:00",
+            "subject": "Revert \"[CodeGen] Fix DetectDeadLanes for same-class copies with mismatched widths\" (#226665)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -261369,28 +261375,28 @@
             "subject": "[Offload][OpenMP] remove SourceInfo::removePath (#226283)"
         },
         {
-            "hash": "2942e69a2c6fcabe1c807808dc82d0663a64948a",
+            "hash": "505f64901752df2072e3d58c8312bb2d67f58f2f",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-25T21:28:36+01:00",
+            "commit_date": "2026-09-26T09:47:35+01:00",
             "subject": "[KnownBitsDataflow] Introduce new analysis"
         },
         {
-            "hash": "bd2706005184f8814ad4356aff2aa856b2057132",
+            "hash": "ab440907909ce68d924e101d746ec369d0e03695",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-25T21:28:36+01:00",
-            "subject": "[IC] Are the VH-fixes bad?"
-        },
-        {
-            "hash": "2266777536535b121aa691b5a32d631a3ac08f64",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-26T02:50:31+01:00",
+            "commit_date": "2026-09-26T09:47:35+01:00",
             "subject": "[KBD] depth_first optz, cleanup"
         },
         {
-            "hash": "83a78af055810bbc063f9ca75b563b136ed9a075",
+            "hash": "2a074cdf264683ae6d22e67289fbb16cfe3b5009",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-26T02:55:20+01:00",
-            "subject": "[KBD] KB-invalid optz"
+            "commit_date": "2026-09-26T09:47:35+01:00",
+            "subject": "[KDB] df-walk optz #2"
+        },
+        {
+            "hash": "772cbc0d64dcd7d0f7ce505434cc894fdbd6e399",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-26T10:29:03+01:00",
+            "subject": "SQ optz, fixes"
         }
     ],
     "fhahn\/perf\/cr-add-template-for-single-bound": [
