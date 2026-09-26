@@ -261738,5 +261738,19 @@
             "commit_date": "2026-09-26T22:38:01+01:00",
             "subject": "[ConstraintElim] Don't request SCEV if there are no loops. (NFC)"
         }
+    ],
+    "fhahn\/perf\/scev-skip-empty-forget": [
+        {
+            "hash": "899d817c7950c997402cd229935cd822acf45b08",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-26T20:13:37+00:00",
+            "subject": "[LV] Skip low-trip count logic there is no scalar tail. (#225633)"
+        },
+        {
+            "hash": "c43f92b9840b62f75ab8a45b7379188d78d81135",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-26T23:18:08+01:00",
+            "subject": "[SCEV] Skip invalidation with empty ValueExprMap (NFC)."
+        }
     ]
 }
