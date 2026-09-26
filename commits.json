@@ -261742,5 +261742,19 @@
             "commit_date": "2026-09-25T20:50:19+01:00",
             "subject": "[InstCombine] Use replaceOperand in more places"
         }
+    ],
+    "fhahn\/perf\/ce-scev-optional": [
+        {
+            "hash": "899d817c7950c997402cd229935cd822acf45b08",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-26T20:13:37+00:00",
+            "subject": "[LV] Skip low-trip count logic there is no scalar tail. (#225633)"
+        },
+        {
+            "hash": "c4453240417d8705b0752c3feda8d02365f8175c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-26T22:38:01+01:00",
+            "subject": "[ConstraintElim] Don't request SCEV if there are no loops. (NFC)"
+        }
     ]
 }
