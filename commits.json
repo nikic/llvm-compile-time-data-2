@@ -261583,51 +261583,63 @@
     ],
     "fhahn\/perf\/ce-header-bounds": [
         {
-            "hash": "84d75c8ab6eb610cde0048458f96085f923fc392",
-            "author_name": "Nico Weber",
-            "commit_date": "2026-09-25T13:47:02+00:00",
-            "subject": "[AArch64] Make compiling arm_neon.h faster (#226378)"
+            "hash": "fc99ddb168769dd732f40b74c09f9d800c30e7e3",
+            "author_name": "Alan Zhao",
+            "commit_date": "2026-09-26T11:10:31-07:00",
+            "subject": "[cmake][Windows] Do not strip library prefixes on Windows (#226635)"
         },
         {
-            "hash": "ec5e008b07f725e0f4097615842bc9d8e9120c54",
+            "hash": "ae411b54060a9bc786012a10aedad555295e1356",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-25T14:52:26+01:00",
+            "commit_date": "2026-09-26T20:11:06+01:00",
+            "subject": "Prune facts"
+        },
+        {
+            "hash": "06cfa4bbca02a73c471962148b46b6c940c42b9f",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-26T20:11:54+01:00",
+            "subject": "GEP step withotu SCEV"
+        },
+        {
+            "hash": "4a6cbce202dbd05fbc2cbecfd0c91e3ce4f2f4d9",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-26T20:12:04+01:00",
             "subject": "[ConstraintElim] Skip rows implied by a single existing row."
         },
         {
-            "hash": "716f905ae9948c9368070637dbac05073717293f",
+            "hash": "f980fdd60f4f63e4960300bd0a9961c57dc66f91",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-25T16:35:59+01:00",
+            "commit_date": "2026-09-26T20:12:05+01:00",
             "subject": "[ConstraintElim] Check cheap requirements first for memory access facts (NFC)."
         },
         {
-            "hash": "71a3a7d06dd1f8f5f32aaeeeca3d3c3faa84229a",
+            "hash": "a1ee70bf9eec40780e241edf45f42273108449cc",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-25T16:39:26+01:00",
+            "commit_date": "2026-09-26T20:12:05+01:00",
             "subject": "[ConstraintElim] Don't transfer facts already implied by a single row."
         },
         {
-            "hash": "b261cce800507936bafb0a242798ae082a16223a",
+            "hash": "57523d9d7490e94dcef24bea80f6d57508a34d08",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-25T16:39:29+01:00",
+            "commit_date": "2026-09-26T20:12:05+01:00",
             "subject": "[ConstraintElim] Add tests for bounds from compares of induction phis (NFC)."
         },
         {
-            "hash": "3ad52e6721513a44cfeb0b3efe84c2417f6ca75e",
+            "hash": "b1dd5340732befea7cb728acea7bd720ed49dbdf",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-25T16:39:29+01:00",
+            "commit_date": "2026-09-26T20:12:05+01:00",
             "subject": "[ConstraintElim] Bound IVs by compares of the phi in header\/latch."
         },
         {
-            "hash": "078cfa0bfea69ee7b273b370f1db2f6bfb8cda9c",
+            "hash": "014a59e65d7328b53e6bfc7165644e8dc4fc0d5c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-25T16:45:00+01:00",
+            "commit_date": "2026-09-26T20:12:05+01:00",
             "subject": "[ConstraintElim] Don't transfer header bounds of inductions to other system."
         },
         {
-            "hash": "133781c228e3afeb2f897a1654001fcc5a6c12ab",
+            "hash": "18f64417a9eedfac9d8499bf91ec296247539210",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-25T16:45:03+01:00",
+            "commit_date": "2026-09-26T20:12:06+01:00",
             "subject": "[ConstraintElim] Only add header bounds of inductions where they may be used."
         }
     ],
@@ -261667,6 +261679,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-26T16:17:22+01:00",
             "subject": "[SCEV] Skip the def-use walk when forgetting values if no value has a SCEV"
+        },
+        {
+            "hash": "d40abbe917e53864cb18ba6b364ee5e2b8f7a9fc",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-26T20:16:05+01:00",
+            "subject": "[CE] Don't request SCEV if there are no loops."
         }
     ],
     "artagnon\/perf\/ic-replaceop": [
