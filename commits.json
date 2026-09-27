@@ -242565,6 +242565,12 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-27T08:55:46+00:00",
             "subject": "CodeGen: Remove shadowing TargetMachine members from COFF and M68k TLOFs (#226769)"
+        },
+        {
+            "hash": "9bf0c497dceba0c7eb882c0f2a96c8151ce74ae3",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-09-27T19:27:44+10:00",
+            "subject": "[orc-rt] Simplify ConnectorRegistry::connect and ogre setup. (#226772)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -261835,16 +261841,16 @@
     ],
     "fhahn\/perf\/ce-scev-optional": [
         {
-            "hash": "899d817c7950c997402cd229935cd822acf45b08",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-26T20:13:37+00:00",
-            "subject": "[LV] Skip low-trip count logic there is no scalar tail. (#225633)"
-        },
-        {
             "hash": "c4453240417d8705b0752c3feda8d02365f8175c",
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-26T22:38:01+01:00",
             "subject": "[ConstraintElim] Don't request SCEV if there are no loops. (NFC)"
+        },
+        {
+            "hash": "013be0cedaac8eee7c3d13581f6096da6dcd64a9",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-27T10:23:56+01:00",
+            "subject": "Merge branch 'main' into perf\/ce-scev-optional"
         }
     ],
     "fhahn\/perf\/scev-skip-empty-forget": [
