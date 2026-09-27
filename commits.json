@@ -261745,63 +261745,69 @@
     ],
     "fhahn\/perf\/ce-header-bounds": [
         {
-            "hash": "fc99ddb168769dd732f40b74c09f9d800c30e7e3",
-            "author_name": "Alan Zhao",
-            "commit_date": "2026-09-26T11:10:31-07:00",
-            "subject": "[cmake][Windows] Do not strip library prefixes on Windows (#226635)"
+            "hash": "57721b7c631b3dacc8f59b2467992e3ff4866cc6",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-09-27T17:04:11+10:00",
+            "subject": "[orc-rt] Move ORC_RT_LOG_ENABLED out of config.h; catch typos. (#226751)"
         },
         {
-            "hash": "ae411b54060a9bc786012a10aedad555295e1356",
+            "hash": "0d42f9c0cb1e48da8152b3c90a6da70e7c4d985c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-26T20:11:06+01:00",
+            "commit_date": "2026-09-27T09:29:01+01:00",
             "subject": "Prune facts"
         },
         {
-            "hash": "06cfa4bbca02a73c471962148b46b6c940c42b9f",
+            "hash": "fb0a8ada9c71705b058281ac65b46ddf8e0c9534",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-26T20:11:54+01:00",
+            "commit_date": "2026-09-27T12:17:37+01:00",
+            "subject": "[ConstraintElim] Bail out after collecting facts if there are no checks."
+        },
+        {
+            "hash": "8f316bb6a91d82c2d69ee893db27cb701b5d95e6",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-27T12:17:37+01:00",
             "subject": "GEP step withotu SCEV"
         },
         {
-            "hash": "4a6cbce202dbd05fbc2cbecfd0c91e3ce4f2f4d9",
+            "hash": "c01fc94f4920f3d0925e19dd2df975dc019f47f1",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-26T20:12:04+01:00",
+            "commit_date": "2026-09-27T12:17:38+01:00",
             "subject": "[ConstraintElim] Skip rows implied by a single existing row."
         },
         {
-            "hash": "f980fdd60f4f63e4960300bd0a9961c57dc66f91",
+            "hash": "e3ac5220c98ae1539ba709139ebc5153e477d47a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-26T20:12:05+01:00",
+            "commit_date": "2026-09-27T12:17:38+01:00",
             "subject": "[ConstraintElim] Check cheap requirements first for memory access facts (NFC)."
         },
         {
-            "hash": "a1ee70bf9eec40780e241edf45f42273108449cc",
+            "hash": "d695e6180bc18c3f6e2590852b9dcda3e34ca0f4",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-26T20:12:05+01:00",
+            "commit_date": "2026-09-27T12:17:38+01:00",
             "subject": "[ConstraintElim] Don't transfer facts already implied by a single row."
         },
         {
-            "hash": "57523d9d7490e94dcef24bea80f6d57508a34d08",
+            "hash": "079ab1859a6cc9a415949357f9b1b4b014105b3c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-26T20:12:05+01:00",
+            "commit_date": "2026-09-27T12:17:38+01:00",
             "subject": "[ConstraintElim] Add tests for bounds from compares of induction phis (NFC)."
         },
         {
-            "hash": "b1dd5340732befea7cb728acea7bd720ed49dbdf",
+            "hash": "c26b26cacc030fa35c669eade0340dbeec146d86",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-26T20:12:05+01:00",
+            "commit_date": "2026-09-27T12:17:39+01:00",
             "subject": "[ConstraintElim] Bound IVs by compares of the phi in header\/latch."
         },
         {
-            "hash": "014a59e65d7328b53e6bfc7165644e8dc4fc0d5c",
+            "hash": "8e2e9d956d08e75802d78920f3c464d458738554",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-26T20:12:05+01:00",
+            "commit_date": "2026-09-27T12:17:39+01:00",
             "subject": "[ConstraintElim] Don't transfer header bounds of inductions to other system."
         },
         {
-            "hash": "18f64417a9eedfac9d8499bf91ec296247539210",
+            "hash": "de64639d7f3a8c7a2109a5b2a849a04e5ac5fb84",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-26T20:12:06+01:00",
+            "commit_date": "2026-09-27T12:17:39+01:00",
             "subject": "[ConstraintElim] Only add header bounds of inductions where they may be used."
         }
     ],
