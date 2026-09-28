@@ -242961,6 +242961,30 @@
             "author_name": "Mariusz Sikora",
             "commit_date": "2026-09-28T12:00:15+02:00",
             "subject": "[AMDGPU] Add gfx13 MC support for exclusive scan instructions (#226077)"
+        },
+        {
+            "hash": "f1de563a490b486738e65a6fef040e0e40d1bb21",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-28T06:26:27-04:00",
+            "subject": "[SLP][NFC]Add a test with the missing runtime checks for vectorization, NFC"
+        },
+        {
+            "hash": "4c31d2c7641e180c2c9098e466b2247bb470fc25",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-28T12:32:47+02:00",
+            "subject": "AMDGPU: Make rewrite-vgpr-mfma-to-agpr-spill-multi-store.ll less allocator sensitive (#226913)"
+        },
+        {
+            "hash": "c44450f30d17c64005fc74c506a01c373ddf702c",
+            "author_name": "Weiwen He",
+            "commit_date": "2026-09-28T10:33:18+00:00",
+            "subject": "[X86] Shrink i32 unsigned compares to i8\/i16 when high bits are zero (#197801)"
+        },
+        {
+            "hash": "a945adae2eb9236392fbbfe1ab5181f8c073d6f8",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-28T10:33:35+00:00",
+            "subject": "[SCEV] Use makeExactNoWrapRegion for constant operands. (NFC) (#223973)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -262293,16 +262317,28 @@
     ],
     "davidbolvansky\/perf\/basicaa-lazy-minimal-extent": [
         {
-            "hash": "7cb518a5a1acf0c2c1df7b5ed207518c45046916",
-            "author_name": "Matt Arsenault",
-            "commit_date": "2026-09-28T09:12:28+02:00",
-            "subject": "TargetMachine: Remove pointer-size query methods (#226404)"
-        },
-        {
             "hash": "deac9d6085608c50e44c8a4a0a99318407eb54ba",
             "author_name": "David Bolvansky",
             "commit_date": "2026-09-28T12:05:21+02:00",
             "subject": "BasicAA: Compute minimal access extents lazily"
+        },
+        {
+            "hash": "dffef68d71bfd89377807e0774e1de8078781e8d",
+            "author_name": "David Bolvansky",
+            "commit_date": "2026-09-28T12:20:40+02:00",
+            "subject": "Merge remote-tracking branch 'origin\/main' into perf\/basicaa-lazy-minimal-extent"
+        },
+        {
+            "hash": "54a4ba3c06bb85cc8fb5430f9af53e38fb6ab025",
+            "author_name": "David Bolvansky",
+            "commit_date": "2026-09-28T12:28:38+02:00",
+            "subject": "BasicAA: Defer minimal extent until object size is known"
+        },
+        {
+            "hash": "2cac180400dc2172623a0c9526a1bc1faa1dab8b",
+            "author_name": "David Bolvansky",
+            "commit_date": "2026-09-28T12:31:30+02:00",
+            "subject": "BasicAA: Clarify isObjectSmallerThan documentation"
         }
     ],
     "jmorse\/perf\/pr-224467": [
