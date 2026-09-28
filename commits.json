@@ -243843,6 +243843,12 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-09-28T17:48:18-04:00",
             "subject": "[SLP][NFC]Fix build for MSVC compiler, NFC"
+        },
+        {
+            "hash": "64907b6d3201f1755a149d029b3a65c4e0ee663f",
+            "author_name": "Joel Dice",
+            "commit_date": "2026-09-28T22:12:57+00:00",
+            "subject": "fix Wasm exceptions + coop threading + shared libraries (#222747)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -263289,6 +263295,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-28T22:31:11+01:00",
             "subject": "[ConstraintElim] Check top-level GEP flags, object size first (NFC)"
+        }
+    ],
+    "efriedma-quic\/perf\/scev-iterative-addrecfromphi": [
+        {
+            "hash": "87afb37e3f032af3107dbda6bc0da53460f0407f",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-09-14T16:30:47-07:00",
+            "subject": "[ScalarEvolution] howManyLessThans infer stride isPositive from guard (#214014)"
+        },
+        {
+            "hash": "ab960897c3ff811ee5e392e5bfde53ce31cf27f8",
+            "author_name": "Eli Friedman",
+            "commit_date": "2026-09-28T15:01:07-07:00",
+            "subject": "[SCEV] Make PHI handling fully iterative."
         }
     ]
 }
