@@ -1,0 +1,248 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[2198/3410] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/COFFMasmParser.cpp.o
+[2199/3410] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/GOFFAsmParser.cpp.o
+[2200/3410] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/DarwinAsmParser.cpp.o
+[2201/3410] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/ELFAsmParser.cpp.o
+[2202/3410] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/LFIAsmParser.cpp.o
+[2203/3410] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/MCAsmParser.cpp.o
+[2204/3410] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/MCAsmParserExtension.cpp.o
+[2205/3410] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/MCTargetAsmParser.cpp.o
+[2206/3410] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/MasmParser.cpp.o
+[2207/3410] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/WasmAsmParser.cpp.o
+[2208/3410] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/XCOFFAsmParser.cpp.o
+[2209/3410] Building CXX object lib/MC/MCDisassembler/CMakeFiles/LLVMMCDisassembler.dir/Disassembler.cpp.o
+[2210/3410] Building CXX object lib/MC/MCDisassembler/CMakeFiles/LLVMMCDisassembler.dir/MCDisassembler.cpp.o
+[2211/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineShifts.cpp.o
+[2212/3410] Building CXX object lib/MC/MCDisassembler/CMakeFiles/LLVMMCDisassembler.dir/MCExternalSymbolizer.cpp.o
+[2213/3410] Building CXX object lib/MC/MCDisassembler/CMakeFiles/LLVMMCDisassembler.dir/MCRelocationInfo.cpp.o
+[2214/3410] Building CXX object lib/MC/MCDisassembler/CMakeFiles/LLVMMCDisassembler.dir/MCSymbolizer.cpp.o
+[2215/3410] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Archive.cpp.o
+[2216/3410] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/ArchiveWriter.cpp.o
+[2217/3410] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/BBAddrMap.cpp.o
+[2218/3410] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Binary.cpp.o
+[2219/3410] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/BuildID.cpp.o
+[2220/3410] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/COFFImportFile.cpp.o
+[2221/3410] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/COFFModuleDefinition.cpp.o
+[2222/3410] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/COFFObjectFile.cpp.o
+[2223/3410] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Decompressor.cpp.o
+[2224/3410] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/DXContainer.cpp.o
+[2225/3410] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/ELF.cpp.o
+[2226/3410] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/ELFObjectFile.cpp.o
+[2227/3410] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/KnownBitsDataflow.cpp.o
+FAILED: lib/Analysis/CMakeFiles/LLVMAnalysis.dir/KnownBitsDataflow.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DHAS_LOGF128 -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Analysis -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Analysis/CMakeFiles/LLVMAnalysis.dir/KnownBitsDataflow.cpp.o -MF lib/Analysis/CMakeFiles/LLVMAnalysis.dir/KnownBitsDataflow.cpp.o.d -o lib/Analysis/CMakeFiles/LLVMAnalysis.dir/KnownBitsDataflow.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsDataflow.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsDataflow.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h: In constructor ‘llvm::AugmentedKnownBits::AugmentedKnownBits(const llvm::KnownBits&, const llvm::Instruction*)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:84:14: error: invalid ‘static_cast’ from type ‘llvm::Instruction*’ to type ‘llvm::Value*’
+   84 |         CtxI(static_cast<Value *>(const_cast<Instruction *>(CtxI))) {}
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/ValueHandle.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:15,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsDataflow.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Value.h:46:7: note: class type ‘llvm::Instruction’ is incomplete
+   46 | class Instruction;
+      |       ^~~~~~~~~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsDataflow.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h: In member function ‘bool llvm::AugmentedKnownBits::canUseWith(const llvm::Instruction*) const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:86:28: error: no match for ‘operator==’ (operand types are ‘const llvm::Instruction*’ and ‘const llvm::WeakVH’)
+   86 |     return !Other || Other == CtxI;
+      |                      ~~~~~ ^~ ~~~~
+      |                      |        |
+      |                      |        const llvm::WeakVH
+      |                      const llvm::Instruction*
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:86:28: note: candidate: ‘operator==(llvm::Value*, llvm::Value*)’ (built-in)
+   86 |     return !Other || Other == CtxI;
+      |                      ~~~~~~^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:86:28: note:   no known conversion for argument 1 from ‘const llvm::Instruction*’ to ‘llvm::Value*’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:86:28: note: candidate: ‘operator==(const llvm::Instruction*, const llvm::Instruction*)’ (built-in)
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:86:28: note:   no known conversion for argument 2 from ‘const llvm::WeakVH’ to ‘const llvm::Instruction*’
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsDataflow.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:994:1: note: candidate: ‘template<class DerivedT, class KeyT, class ValueT, class KeyInfoT, class BucketT> bool llvm::operator==(const llvm::DenseMapBase<DerivedT, KeyT, ValueT, KeyInfoT, BucketT>&, const llvm::DenseMapBase<DerivedT, KeyT, ValueT, KeyInfoT, BucketT>&)’
+  994 | operator==(const DenseMapBase<DerivedT, KeyT, ValueT, KeyInfoT, BucketT> &LHS,
+      | ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:994:1: note:   template argument deduction/substitution failed:
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsDataflow.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:86:31: note:   mismatched types ‘const llvm::DenseMapBase<DerivedT, KeyT, ValueT, KeyInfoT, BucketT>’ and ‘const llvm::Instruction*’
+   86 |     return !Other || Other == CtxI;
+      |                               ^~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/StringExtras.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:43,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:14,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsDataflow.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ArrayRef.h:512:35: note: candidate: ‘template<class T> bool llvm::operator==(llvm::ArrayRef<T>, llvm::ArrayRef<T>)’
+  512 | template <typename T> inline bool operator==(ArrayRef<T> LHS, ArrayRef<T> RHS) {
+      |                                   ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ArrayRef.h:512:35: note:   template argument deduction/substitution failed:
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsDataflow.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:86:31: note:   mismatched types ‘llvm::ArrayRef<T>’ and ‘const llvm::Instruction*’
+   86 |     return !Other || Other == CtxI;
+      |                               ^~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/StringExtras.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:43,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:14,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsDataflow.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ArrayRef.h:517:27: note: candidate: ‘template<class T> bool llvm::operator==(const llvm::SmallVectorImpl<T>&, llvm::ArrayRef<T>)’
+  517 | [[nodiscard]] inline bool operator==(const SmallVectorImpl<T> &LHS,
+      |                           ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ArrayRef.h:517:27: note:   template argument deduction/substitution failed:
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsDataflow.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:86:31: note:   mismatched types ‘const llvm::SmallVectorImpl<T>’ and ‘const llvm::Instruction*’
+   86 |     return !Other || Other == CtxI;
+      |                               ^~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Analysis.h:15,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:46,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:14,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsDataflow.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallPtrSet.h:493:20: note: candidate: ‘template<class PtrType> bool llvm::operator==(const llvm::SmallPtrSetImpl<PtrType>&, const llvm::SmallPtrSetImpl<PtrType>&)’
+  493 | [[nodiscard]] bool operator==(const SmallPtrSetImpl<PtrType> &LHS,
+      |                    ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallPtrSet.h:493:20: note:   template argument deduction/substitution failed:
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsDataflow.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:86:31: note:   mismatched types ‘const llvm::SmallPtrSetImpl<PtrType>’ and ‘const llvm::Instruction*’
+   86 |     return !Other || Other == CtxI;
+      |                               ^~~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/StringExtras.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:43,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:14,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsDataflow.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:2137:13: note: candidate: ‘bool llvm::operator==(uint64_t, const llvm::APInt&)’
+ 2137 | inline bool operator==(uint64_t V1, const APInt &V2) { return V2 == V1; }
+      |             ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APInt.h:2137:50: note:   no known conversion for argument 2 from ‘const llvm::WeakVH’ to ‘const llvm::APInt&’
+ 2137 | inline bool operator==(uint64_t V1, const APInt &V2) { return V2 == V1; }
+      |                                     ~~~~~~~~~~~~~^~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/StringExtras.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:43,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:14,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsDataflow.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:356:13: note: candidate: ‘bool llvm::operator==(int64_t, const llvm::APSInt&)’
+  356 | inline bool operator==(int64_t V1, const APSInt &V2) { return V2 == V1; }
+      |             ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/APSInt.h:356:50: note:   no known conversion for argument 2 from ‘const llvm::WeakVH’ to ‘const llvm::APSInt&’
+  356 | inline bool operator==(int64_t V1, const APSInt &V2) { return V2 == V1; }
+      |                                    ~~~~~~~~~~~~~~^~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SmallString.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/StringExtras.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:43,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:14,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsDataflow.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/StringRef.h:915:13: note: candidate: ‘bool llvm::operator==(llvm::StringRef, llvm::StringRef)’
+  915 | inline bool operator==(StringRef LHS, StringRef RHS) {
+      |             ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/StringRef.h:915:34: note:   no known conversion for argument 1 from ‘const llvm::Instruction*’ to ‘llvm::StringRef’
+  915 | inline bool operator==(StringRef LHS, StringRef RHS) {
+      |                        ~~~~~~~~~~^~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/Value.h:22,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/ValueHandle.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:15,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/KnownBitsDataflow.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Alignment.h:222:13: note: candidate: ‘bool llvm::operator==(llvm::Align, uint64_t)’
+  222 | inline bool operator==(Align Lhs, uint64_t Rhs) {
+      |             ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Alignment.h:222:30: note:   no known conversion for argument 1 from ‘const llvm::Instruction*’ to ‘llvm::Align’
+  222 | inline bool operator==(Align Lhs, uint64_t Rhs) {
+      |                        ~~~~~~^~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Alignment.h:248:13: note: candidate: ‘bool llvm::operator==(llvm::Align, llvm::Align)’
+  248 | inline bool operator==(Align Lhs, Align Rhs) {
+      |             ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Alignment.h:248:30: note:   no known conversion for argument 1 from ‘const llvm::Instruction*’ to ‘llvm::Align’
+  248 | inline bool operator==(Align Lhs, Align Rhs) {
+      |                        ~~~~~~^~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Alignment.h:284:13: note: candidate: ‘bool llvm::operator==(llvm::MaybeAlign, llvm::Align)’
+  284 | inline bool operator==(MaybeAlign Lhs, Align Rhs) { return Lhs && *Lhs == Rhs; }
+      |             ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Alignment.h:284:35: note:   no known conversion for argument 1 from ‘const llvm::Instruction*’ to ‘llvm::MaybeAlign’
+  284 | inline bool operator==(MaybeAlign Lhs, Align Rhs) { return Lhs && *Lhs == Rhs; }
+      |                        ~~~~~~~~~~~^~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Alignment.h:286:13: note: candidate: ‘bool llvm::operator==(llvm::Align, llvm::MaybeAlign)’
+  286 | inline bool operator==(Align Lhs, MaybeAlign Rhs) { return Rhs == Lhs; }
+      |             ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Alignment.h:286:30: note:   no known conversion for argument 1 from ‘const llvm::Instruction*’ to ‘llvm::Align’
+  286 | inline bool operator==(Align Lhs, MaybeAlign Rhs) { return Rhs == Lhs; }
+      |                        ~~~~~~^~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Alignment.h:289:13: note: candidate: ‘bool llvm::operator==(llvm::MaybeAlign, llvm::MaybeAlign)’
+  289 | inline bool operator==(MaybeAlign Lhs, MaybeAlign Rhs) {
+      |             ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Alignment.h:289:35: note:   no known conversion for argument 1 from ‘const llvm::Instruction*’ to ‘llvm::MaybeAlign’
+  289 | inline bool operator==(MaybeAlign Lhs, MaybeAlign Rhs) {
+      |                        ~~~~~~~~~~~^~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Alignment.h:294:13: note: candidate: ‘bool llvm::operator==(llvm::MaybeAlign, std::nullopt_t)’
+  294 | inline bool operator==(MaybeAlign Lhs, std::nullopt_t) { return !bool(Lhs); }
+      |             ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Alignment.h:294:35: note:   no known conversion for argument 1 from ‘const llvm::Instruction*’ to ‘llvm::MaybeAlign’
+  294 | inline bool operator==(MaybeAlign Lhs, std::nullopt_t) { return !bool(Lhs); }
+      |                        ~~~~~~~~~~~^~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Alignment.h:296:13: note: candidate: ‘bool llvm::operator==(std::nullopt_t, llvm::MaybeAlign)’
+  296 | inline bool operator==(std::nullopt_t, MaybeAlign Rhs) { return !bool(Rhs); }
+      |             ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Alignment.h:296:24: note:   no known conversion for argument 1 from ‘const llvm::Instruction*’ to ‘std::nullopt_t’
+  296 | inline bool operator==(std::nullopt_t, MaybeAlign Rhs) { return !bool(Rhs); }
+      |                        ^~~~~~~~~~~~~~
+[2228/3410] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/Error.cpp.o
+[2229/3410] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/GOFFObjectFile.cpp.o
+[2230/3410] Building CXX object lib/Object/CMakeFiles/LLVMObject.dir/FaultMapParser.cpp.o
+[2231/3410] Building AArch64GenSubtargetInfo.inc...
+[2232/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombinePHI.cpp.o
+[2233/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineLoadStoreAlloca.cpp.o
+[2234/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineMulDivRem.cpp.o
+[2235/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAddSub.cpp.o
+[2236/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineSimplifyDemanded.cpp.o
+[2237/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCasts.cpp.o
+[2238/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineVectorOps.cpp.o
+[2239/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineSelect.cpp.o
+[2240/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAndOrXor.cpp.o
+[2241/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCalls.cpp.o
+[2242/3410] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+[2243/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstructionCombining.cpp.o
+[2244/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCompares.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning (policy) at cmake/modules/HandleLLVMOptions.cmake:959 (CHECK_C_SOURCE_COMPILES):
+  Policy CMP0219 is not set: Macro invocations preserve backslashes in
+  arguments.  Run "cmake --help-policy CMP0219" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  Command "CHECK_C_SOURCE_COMPILES" called with arguments containing
+  backslashes.
+
+  Since the policy is not set, backslashes in the arguments:
+
+   "// \\\n//\nint main(void) {return 0;}"
+
+  will be interpreted as escape sequences for compatibility.
+
+  Set the policy to NEW to instead pass
+
+   "// \\\\\\n//\\nint main(void) {return 0;}"
+
+  so that argument parsing will preserve the original values.
+Call Stack (most recent call first):
+  CMakeLists.txt:1144 (include)
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+Precompiled headers are disabled by default with GCC. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override.
+CMake Warning at cmake/modules/HandleLLVMOptions.cmake:1440 (message):
+  Using ccache with precompiled headers with non-Clang compilers is not
+  supported and may lead to false positives.  Set
+  CMAKE_DISABLE_PRECOMPILE_HEADERS to ON/OFF to silence this warning.
+Call Stack (most recent call first):
+  CMakeLists.txt:1144 (include)
+
+
+CMake Warning (deprecated) at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:518 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+to suppress it.
+
+Command exited with non-zero status 1
+203.07user 15.29system 0:18.84elapsed 1159%CPU (0avgtext+0avgdata 928056maxresident)k
+24inputs+1196952outputs (3185major+8595910minor)pagefaults 0swaps

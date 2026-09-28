@@ -243465,6 +243465,54 @@
             "author_name": "Arseniy Obolenskiy",
             "commit_date": "2026-09-28T19:22:53+02:00",
             "subject": "[SPIR-V] Fix ldexp exponent splat for vectors wider than four elements (#225617)"
+        },
+        {
+            "hash": "d306fc59fcffc2779d1710c7dea8bc7699b5950a",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-28T19:27:41+02:00",
+            "subject": "AMDGPU: Mark SCC defs dead in the indirect addressing expansion (#227012)"
+        },
+        {
+            "hash": "2ad73e6250f656aca147f024c0fe00d411f1c5c0",
+            "author_name": "Jeremy Kun",
+            "commit_date": "2026-09-28T17:28:05+00:00",
+            "subject": "Give emitc.member_call_opaque operator precedence (#226349)"
+        },
+        {
+            "hash": "5abc636bed3f5b8938cbbf626e881c194a284267",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-28T17:29:42+00:00",
+            "subject": "DAG: Use poison for some vector element folds (#225406)"
+        },
+        {
+            "hash": "f2eddce184a57aff4265d0f3ee3a7d4b0f1f6162",
+            "author_name": "Amr Hesham",
+            "commit_date": "2026-09-28T19:30:00+02:00",
+            "subject": "[CIR] Support load & store for builtin matrix type (#226259)"
+        },
+        {
+            "hash": "2190e84833b8f8ae1fa235dc2868bd13112d0c05",
+            "author_name": "Zeyi Xu",
+            "commit_date": "2026-09-29T01:31:57+08:00",
+            "subject": "[clang-tidy][docs] Rename readability check docs to Markdown [4\/5] (#221640)"
+        },
+        {
+            "hash": "0d59780b887782c21274868dbc8eb6d5c83e8e12",
+            "author_name": "Zeyi Xu",
+            "commit_date": "2026-09-29T01:32:08+08:00",
+            "subject": "[clang-tidy][docs] Rewrite readability check docs to Markdown [4\/5] (#221641)"
+        },
+        {
+            "hash": "5d23afa97db69773dc705ffda8a44a380e04ef57",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-28T19:33:32+02:00",
+            "subject": "AMDGPU: Mark SCC defs dead in SIWholeQuadMode state transitions (#227015)"
+        },
+        {
+            "hash": "03cb1db40787ab170cd2e4588840fe8b5ecf8fcf",
+            "author_name": "Ivan Butygin",
+            "commit_date": "2026-09-28T20:34:46+03:00",
+            "subject": "[mlir] `remove-dead-values`: properly handle symbol users outside of a pass root. (#225355)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -262551,46 +262599,46 @@
     ],
     "artagnon\/perf\/kbd": [
         {
-            "hash": "5b8e65685b4fe99191a217bfa0527c51cf36925c",
-            "author_name": "Jason Van Beusekom",
-            "commit_date": "2026-09-25T10:38:54-05:00",
-            "subject": "[Offload][OpenMP] remove SourceInfo::removePath (#226283)"
+            "hash": "20913cfb73ee109c0ad4e9cb298e2c1a0595fb0b",
+            "author_name": "Igor Wodiany",
+            "commit_date": "2026-09-28T14:24:22+01:00",
+            "subject": "[PDB] Prevent potential overflow when calculating `Base` in `formatMsfStreamData` (#224662)"
         },
         {
-            "hash": "505f64901752df2072e3d58c8312bb2d67f58f2f",
+            "hash": "395c4730f2e26b39adef76116a7e999b50705554",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-26T09:47:35+01:00",
+            "commit_date": "2026-09-28T16:03:59+01:00",
             "subject": "[KnownBitsDataflow] Introduce new analysis"
         },
         {
-            "hash": "ab440907909ce68d924e101d746ec369d0e03695",
+            "hash": "81e3afac731756deac52052a5ff651be9121fe2f",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-26T09:47:35+01:00",
+            "commit_date": "2026-09-28T16:04:00+01:00",
             "subject": "[KBD] depth_first optz, cleanup"
         },
         {
-            "hash": "2a074cdf264683ae6d22e67289fbb16cfe3b5009",
+            "hash": "c6ec5b24f07d764e4c85dbd88c5238a8d626ad82",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-26T09:47:35+01:00",
+            "commit_date": "2026-09-28T16:04:00+01:00",
             "subject": "[KDB] df-walk optz #2"
         },
         {
-            "hash": "772cbc0d64dcd7d0f7ce505434cc894fdbd6e399",
+            "hash": "023ee463c01c877b0d13b61e017f60be06fb6294",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-26T10:29:03+01:00",
+            "commit_date": "2026-09-28T16:04:00+01:00",
             "subject": "SQ optz, fixes"
         },
         {
-            "hash": "d12d5d45bbf658868b80f27ad4e2e07ff083e0ff",
+            "hash": "3345951b9401a90a01d8ca1848bd1f805e825abd",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-27T17:50:20+01:00",
-            "subject": "[KBD] Make it a PM pass, rewire"
+            "commit_date": "2026-09-28T17:30:34+01:00",
+            "subject": "[KBD] Make it a PM pass, fix all crashes"
         },
         {
-            "hash": "0fe6b141057f817b29fb52d5648f76e0254465e2",
+            "hash": "563137401491d777daf08fcb4e181cade64e72c1",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-27T19:00:15+01:00",
-            "subject": "[KBD] Asserting VH constructor, careful in emplace_as"
+            "commit_date": "2026-09-28T18:24:59+01:00",
+            "subject": "[KBD] Fix usability concerns, unit"
         }
     ],
     "fhahn\/perf\/cr-add-template-for-single-bound": [
@@ -262895,6 +262943,20 @@
             "author_name": "bababuck",
             "commit_date": "2026-09-28T09:27:07-07:00",
             "subject": "tmp"
+        }
+    ],
+    "bababuck\/perf\/GetRegUsageTTIAtt2": [
+        {
+            "hash": "2428c10786f12f8e4e7bffa63b0393c137b031bb",
+            "author_name": "Greg Clayton",
+            "commit_date": "2026-09-24T16:54:23-07:00",
+            "subject": "Improve llvm-gsymutil to set the end address correctly. (#225593)"
+        },
+        {
+            "hash": "e973b424f0086eb055aae367973af18118d86161",
+            "author_name": "bababuck",
+            "commit_date": "2026-09-28T10:38:10-07:00",
+            "subject": "[SLP] Check getRegUsageForType() of larger non-power-of-2-vector when current attempt scalarizes"
         }
     ]
 }
