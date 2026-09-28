@@ -242991,6 +242991,12 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-09-28T10:36:14+00:00",
             "subject": "[AsmParser] Remove TBAA auto-upgrade in IR parser (#226914)"
+        },
+        {
+            "hash": "82aa78850bb1c90df3d747062555b2f34b0466c5",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-28T10:51:14+00:00",
+            "subject": "[SCEV] Rename SCEVFlags -> SCEVFlagsPair (NFC) (#226935)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -262365,6 +262371,20 @@
             "author_name": "Petar Jovanovic",
             "commit_date": "2026-09-28T02:46:09+02:00",
             "subject": "[LiveDebugVariables] Repair stale SlotIndexes"
+        }
+    ],
+    "davidbolvansky\/perf\/aaresults-smallvector": [
+        {
+            "hash": "be2eb0a91356ae3a1910d8226137b54db480166d",
+            "author_name": "Mariusz Sikora",
+            "commit_date": "2026-09-28T12:00:15+02:00",
+            "subject": "[AMDGPU] Add gfx13 MC support for exclusive scan instructions (#226077)"
+        },
+        {
+            "hash": "6e14cb1c56a0e8834049dcf6abcacae49be7a9e8",
+            "author_name": "David Bolvansky",
+            "commit_date": "2026-09-28T12:44:34+02:00",
+            "subject": "AA: Store the default analysis stack inline"
         }
     ]
 }
