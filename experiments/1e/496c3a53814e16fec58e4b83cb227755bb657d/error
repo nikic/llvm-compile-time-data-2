@@ -1,0 +1,248 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/InstCombine/InstCombiner.h:24,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineInternal.h:31,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineCasts.cpp:13:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:189:75: error: expected class-name before ‘{’ token
+  189 | class LLVM_ABI KnownBitsDataflowAnalysisWrapperPass : public FunctionPass {
+      |                                                                           ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:25: error: ‘AnalysisUsage’ has not been declared
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |                         ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:8: error: ‘void llvm::KnownBitsDataflowAnalysisWrapperPass::getAnalysisUsage(int&) const’ marked ‘override’, but does not override
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |        ^~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:198:8: error: ‘bool llvm::KnownBitsDataflowAnalysisWrapperPass::runOnFunction(llvm::Function&)’ marked ‘override’, but does not override
+  198 |   bool runOnFunction(Function &F) override;
+      |        ^~~~~~~~~~~~~
+[1801/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAddSub.cpp.o
+FAILED: lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAddSub.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Transforms/InstCombine -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAddSub.cpp.o -MF lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAddSub.cpp.o.d -o lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAddSub.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineAddSub.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/InstCombine/InstCombiner.h:24,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineInternal.h:31,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineAddSub.cpp:13:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:189:75: error: expected class-name before ‘{’ token
+  189 | class LLVM_ABI KnownBitsDataflowAnalysisWrapperPass : public FunctionPass {
+      |                                                                           ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:25: error: ‘AnalysisUsage’ has not been declared
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |                         ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:8: error: ‘void llvm::KnownBitsDataflowAnalysisWrapperPass::getAnalysisUsage(int&) const’ marked ‘override’, but does not override
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |        ^~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:198:8: error: ‘bool llvm::KnownBitsDataflowAnalysisWrapperPass::runOnFunction(llvm::Function&)’ marked ‘override’, but does not override
+  198 |   bool runOnFunction(Function &F) override;
+      |        ^~~~~~~~~~~~~
+[1802/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAndOrXor.cpp.o
+FAILED: lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAndOrXor.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Transforms/InstCombine -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAndOrXor.cpp.o -MF lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAndOrXor.cpp.o.d -o lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineAndOrXor.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineAndOrXor.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/InstCombine/InstCombiner.h:24,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineInternal.h:31,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineAndOrXor.cpp:13:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:189:75: error: expected class-name before ‘{’ token
+  189 | class LLVM_ABI KnownBitsDataflowAnalysisWrapperPass : public FunctionPass {
+      |                                                                           ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:25: error: ‘AnalysisUsage’ has not been declared
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |                         ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:8: error: ‘void llvm::KnownBitsDataflowAnalysisWrapperPass::getAnalysisUsage(int&) const’ marked ‘override’, but does not override
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |        ^~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:198:8: error: ‘bool llvm::KnownBitsDataflowAnalysisWrapperPass::runOnFunction(llvm::Function&)’ marked ‘override’, but does not override
+  198 |   bool runOnFunction(Function &F) override;
+      |        ^~~~~~~~~~~~~
+[1803/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineMulDivRem.cpp.o
+FAILED: lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineMulDivRem.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Transforms/InstCombine -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineMulDivRem.cpp.o -MF lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineMulDivRem.cpp.o.d -o lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineMulDivRem.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineMulDivRem.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/InstCombine/InstCombiner.h:24,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineInternal.h:31,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineMulDivRem.cpp:14:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:189:75: error: expected class-name before ‘{’ token
+  189 | class LLVM_ABI KnownBitsDataflowAnalysisWrapperPass : public FunctionPass {
+      |                                                                           ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:25: error: ‘AnalysisUsage’ has not been declared
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |                         ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:8: error: ‘void llvm::KnownBitsDataflowAnalysisWrapperPass::getAnalysisUsage(int&) const’ marked ‘override’, but does not override
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |        ^~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:198:8: error: ‘bool llvm::KnownBitsDataflowAnalysisWrapperPass::runOnFunction(llvm::Function&)’ marked ‘override’, but does not override
+  198 |   bool runOnFunction(Function &F) override;
+      |        ^~~~~~~~~~~~~
+[1804/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineLoadStoreAlloca.cpp.o
+FAILED: lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineLoadStoreAlloca.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Transforms/InstCombine -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineLoadStoreAlloca.cpp.o -MF lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineLoadStoreAlloca.cpp.o.d -o lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineLoadStoreAlloca.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineLoadStoreAlloca.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/InstCombine/InstCombiner.h:24,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineInternal.h:31,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineLoadStoreAlloca.cpp:13:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:189:75: error: expected class-name before ‘{’ token
+  189 | class LLVM_ABI KnownBitsDataflowAnalysisWrapperPass : public FunctionPass {
+      |                                                                           ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:25: error: ‘AnalysisUsage’ has not been declared
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |                         ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:8: error: ‘void llvm::KnownBitsDataflowAnalysisWrapperPass::getAnalysisUsage(int&) const’ marked ‘override’, but does not override
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |        ^~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:198:8: error: ‘bool llvm::KnownBitsDataflowAnalysisWrapperPass::runOnFunction(llvm::Function&)’ marked ‘override’, but does not override
+  198 |   bool runOnFunction(Function &F) override;
+      |        ^~~~~~~~~~~~~
+[1805/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombinePHI.cpp.o
+FAILED: lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombinePHI.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Transforms/InstCombine -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombinePHI.cpp.o -MF lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombinePHI.cpp.o.d -o lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombinePHI.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombinePHI.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/InstCombine/InstCombiner.h:24,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineInternal.h:31,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombinePHI.cpp:13:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:189:75: error: expected class-name before ‘{’ token
+  189 | class LLVM_ABI KnownBitsDataflowAnalysisWrapperPass : public FunctionPass {
+      |                                                                           ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:25: error: ‘AnalysisUsage’ has not been declared
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |                         ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:8: error: ‘void llvm::KnownBitsDataflowAnalysisWrapperPass::getAnalysisUsage(int&) const’ marked ‘override’, but does not override
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |        ^~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:198:8: error: ‘bool llvm::KnownBitsDataflowAnalysisWrapperPass::runOnFunction(llvm::Function&)’ marked ‘override’, but does not override
+  198 |   bool runOnFunction(Function &F) override;
+      |        ^~~~~~~~~~~~~
+[1806/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineVectorOps.cpp.o
+FAILED: lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineVectorOps.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Transforms/InstCombine -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineVectorOps.cpp.o -MF lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineVectorOps.cpp.o.d -o lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineVectorOps.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineVectorOps.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/InstCombine/InstCombiner.h:24,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineInternal.h:31,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineVectorOps.cpp:14:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:189:75: error: expected class-name before ‘{’ token
+  189 | class LLVM_ABI KnownBitsDataflowAnalysisWrapperPass : public FunctionPass {
+      |                                                                           ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:25: error: ‘AnalysisUsage’ has not been declared
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |                         ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:8: error: ‘void llvm::KnownBitsDataflowAnalysisWrapperPass::getAnalysisUsage(int&) const’ marked ‘override’, but does not override
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |        ^~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:198:8: error: ‘bool llvm::KnownBitsDataflowAnalysisWrapperPass::runOnFunction(llvm::Function&)’ marked ‘override’, but does not override
+  198 |   bool runOnFunction(Function &F) override;
+      |        ^~~~~~~~~~~~~
+[1807/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCompares.cpp.o
+FAILED: lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCompares.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Transforms/InstCombine -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCompares.cpp.o -MF lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCompares.cpp.o.d -o lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCompares.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineCompares.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/InstCombine/InstCombiner.h:24,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineInternal.h:31,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineCompares.cpp:13:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:189:75: error: expected class-name before ‘{’ token
+  189 | class LLVM_ABI KnownBitsDataflowAnalysisWrapperPass : public FunctionPass {
+      |                                                                           ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:25: error: ‘AnalysisUsage’ has not been declared
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |                         ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:8: error: ‘void llvm::KnownBitsDataflowAnalysisWrapperPass::getAnalysisUsage(int&) const’ marked ‘override’, but does not override
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |        ^~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:198:8: error: ‘bool llvm::KnownBitsDataflowAnalysisWrapperPass::runOnFunction(llvm::Function&)’ marked ‘override’, but does not override
+  198 |   bool runOnFunction(Function &F) override;
+      |        ^~~~~~~~~~~~~
+[1808/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineSelect.cpp.o
+FAILED: lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineSelect.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Transforms/InstCombine -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineSelect.cpp.o -MF lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineSelect.cpp.o.d -o lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineSelect.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineSelect.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/InstCombine/InstCombiner.h:24,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineInternal.h:31,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineSelect.cpp:13:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:189:75: error: expected class-name before ‘{’ token
+  189 | class LLVM_ABI KnownBitsDataflowAnalysisWrapperPass : public FunctionPass {
+      |                                                                           ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:25: error: ‘AnalysisUsage’ has not been declared
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |                         ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:8: error: ‘void llvm::KnownBitsDataflowAnalysisWrapperPass::getAnalysisUsage(int&) const’ marked ‘override’, but does not override
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |        ^~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:198:8: error: ‘bool llvm::KnownBitsDataflowAnalysisWrapperPass::runOnFunction(llvm::Function&)’ marked ‘override’, but does not override
+  198 |   bool runOnFunction(Function &F) override;
+      |        ^~~~~~~~~~~~~
+[1809/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCalls.cpp.o
+FAILED: lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCalls.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Transforms/InstCombine -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCalls.cpp.o -MF lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCalls.cpp.o.d -o lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstCombineCalls.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineCalls.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/InstCombine/InstCombiner.h:24,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineInternal.h:31,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineCalls.cpp:13:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:189:75: error: expected class-name before ‘{’ token
+  189 | class LLVM_ABI KnownBitsDataflowAnalysisWrapperPass : public FunctionPass {
+      |                                                                           ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:25: error: ‘AnalysisUsage’ has not been declared
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |                         ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:8: error: ‘void llvm::KnownBitsDataflowAnalysisWrapperPass::getAnalysisUsage(int&) const’ marked ‘override’, but does not override
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |        ^~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:198:8: error: ‘bool llvm::KnownBitsDataflowAnalysisWrapperPass::runOnFunction(llvm::Function&)’ marked ‘override’, but does not override
+  198 |   bool runOnFunction(Function &F) override;
+      |        ^~~~~~~~~~~~~
+[1810/3410] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/ConstantHoisting.cpp.o
+[1811/3410] Building CXX object lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstructionCombining.cpp.o
+FAILED: lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstructionCombining.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Transforms/InstCombine -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstructionCombining.cpp.o -MF lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstructionCombining.cpp.o.d -o lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/InstructionCombining.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstructionCombining.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/InstCombine/InstCombiner.h:24,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstCombineInternal.h:31,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/InstCombine/InstructionCombining.cpp:35:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:189:75: error: expected class-name before ‘{’ token
+  189 | class LLVM_ABI KnownBitsDataflowAnalysisWrapperPass : public FunctionPass {
+      |                                                                           ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:25: error: ‘AnalysisUsage’ has not been declared
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |                         ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:197:8: error: ‘void llvm::KnownBitsDataflowAnalysisWrapperPass::getAnalysisUsage(int&) const’ marked ‘override’, but does not override
+  197 |   void getAnalysisUsage(AnalysisUsage &AU) const override;
+      |        ^~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/KnownBitsDataflow.h:198:8: error: ‘bool llvm::KnownBitsDataflowAnalysisWrapperPass::runOnFunction(llvm::Function&)’ marked ‘override’, but does not override
+  198 |   bool runOnFunction(Function &F) override;
+      |        ^~~~~~~~~~~~~
+[1812/3410] Building CXX object lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DCE.cpp.o
+[1813/3410] Building AArch64GenSubtargetInfo.inc...
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning (policy) at cmake/modules/HandleLLVMOptions.cmake:959 (CHECK_C_SOURCE_COMPILES):
+  Policy CMP0219 is not set: Macro invocations preserve backslashes in
+  arguments.  Run "cmake --help-policy CMP0219" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  Command "CHECK_C_SOURCE_COMPILES" called with arguments containing
+  backslashes.
+
+  Since the policy is not set, backslashes in the arguments:
+
+   "// \\\n//\nint main(void) {return 0;}"
+
+  will be interpreted as escape sequences for compatibility.
+
+  Set the policy to NEW to instead pass
+
+   "// \\\\\\n//\\nint main(void) {return 0;}"
+
+  so that argument parsing will preserve the original values.
+Call Stack (most recent call first):
+  CMakeLists.txt:1144 (include)
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+Precompiled headers are disabled by default with GCC. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override.
+CMake Warning at cmake/modules/HandleLLVMOptions.cmake:1440 (message):
+  Using ccache with precompiled headers with non-Clang compilers is not
+  supported and may lead to false positives.  Set
+  CMAKE_DISABLE_PRECOMPILE_HEADERS to ON/OFF to silence this warning.
+Call Stack (most recent call first):
+  CMakeLists.txt:1144 (include)
+
+
+CMake Warning (deprecated) at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:518 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+to suppress it.
+
+Command exited with non-zero status 1
+160.36user 12.62system 0:14.34elapsed 1205%CPU (0avgtext+0avgdata 928108maxresident)k
+0inputs+967480outputs (3580major+8017997minor)pagefaults 0swaps

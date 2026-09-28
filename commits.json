@@ -262849,6 +262849,12 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-09-28T20:33:58+01:00",
             "subject": "[KBD] Add legacy PM support in attempt to clip ct"
+        },
+        {
+            "hash": "1e496c3a53814e16fec58e4b83cb227755bb657d",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-09-28T21:08:09+01:00",
+            "subject": "[IC] Add KBD preservation"
         }
     ],
     "fhahn\/perf\/cr-add-template-for-single-bound": [
@@ -263167,6 +263173,20 @@
             "author_name": "bababuck",
             "commit_date": "2026-09-28T11:51:17-07:00",
             "subject": "[SLP] Check getRegUsageForType() of larger non-power-of-2-vector when current attempt scalarizes"
+        }
+    ],
+    "fhahn\/perf\/ce-cheaper-mem-check": [
+        {
+            "hash": "194c292ff93cf82be3064c94d405b9171d776164",
+            "author_name": "nvptm",
+            "commit_date": "2026-09-28T12:14:11-07:00",
+            "subject": "[mlir][OpenACC] Materialize routine bind targets before parallel call rewriting. (#227035)"
+        },
+        {
+            "hash": "423cf820d0c2f1f828d14a7838c9f86af8b9044a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-28T21:11:36+01:00",
+            "subject": "[ConstraintElim] Check top-level GEP flags, object size first (NFC)"
         }
     ]
 }
