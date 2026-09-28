@@ -243603,6 +243603,42 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-28T18:19:19+00:00",
             "subject": "X86: Mark the unused defs of FastISel selected div\/rem dead (#227053)"
+        },
+        {
+            "hash": "c069c0e16445cd954146807451f1067f75a61f6c",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-09-28T18:20:54+00:00",
+            "subject": "[HLSL] Fix -Wunused-variable in #225519 (#227059)"
+        },
+        {
+            "hash": "15d2ca3ced8c18dcbc0b666f4de5067d4586e857",
+            "author_name": "Ilia Kuklin",
+            "commit_date": "2026-09-28T23:22:07+05:00",
+            "subject": "[lldb] Speed up evaluating breakpoint conditions by using DIL (#224740)"
+        },
+        {
+            "hash": "aecdab8027a023de337992d47c4e9a8bb768beba",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-28T18:25:24+00:00",
+            "subject": "X86: Mark EFLAGS dead on the NEG8r for sext from i1 in fast isel (#227058)"
+        },
+        {
+            "hash": "8959ec064109a202c05cf0e1751cc953a7634f63",
+            "author_name": "Sam Clegg",
+            "commit_date": "2026-09-28T18:25:51+00:00",
+            "subject": "[WebAssembly] Add target architecture to object file format (#225979)"
+        },
+        {
+            "hash": "156ba8d3015afb36aa16831dfcac1ea229db85aa",
+            "author_name": "Akash Manna",
+            "commit_date": "2026-09-28T23:58:33+05:30",
+            "subject": "[SelectionDAG] Fix crash scalarizing `FLDEXP` with a legal `<1 x i1>` exponent (#224809)"
+        },
+        {
+            "hash": "374c5e71b89783a84693140f9e69536e748b1f3f",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-28T14:29:02-04:00",
+            "subject": "[SLP][NFC]Add a test with the regression after disabling scheduling of instructions, NFC"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -262695,40 +262731,10 @@
             "subject": "[PDB] Prevent potential overflow when calculating `Base` in `formatMsfStreamData` (#224662)"
         },
         {
-            "hash": "395c4730f2e26b39adef76116a7e999b50705554",
+            "hash": "8e6442854c617cee2a11c3c24643f86517069066",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-28T16:03:59+01:00",
+            "commit_date": "2026-09-28T19:22:26+01:00",
             "subject": "[KnownBitsDataflow] Introduce new analysis"
-        },
-        {
-            "hash": "81e3afac731756deac52052a5ff651be9121fe2f",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-28T16:04:00+01:00",
-            "subject": "[KBD] depth_first optz, cleanup"
-        },
-        {
-            "hash": "c6ec5b24f07d764e4c85dbd88c5238a8d626ad82",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-28T16:04:00+01:00",
-            "subject": "[KDB] df-walk optz #2"
-        },
-        {
-            "hash": "023ee463c01c877b0d13b61e017f60be06fb6294",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-28T16:04:00+01:00",
-            "subject": "SQ optz, fixes"
-        },
-        {
-            "hash": "3345951b9401a90a01d8ca1848bd1f805e825abd",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-28T17:30:34+01:00",
-            "subject": "[KBD] Make it a PM pass, fix all crashes"
-        },
-        {
-            "hash": "563137401491d777daf08fcb4e181cade64e72c1",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-28T18:24:59+01:00",
-            "subject": "[KBD] Fix usability concerns, unit"
         }
     ],
     "fhahn\/perf\/cr-add-template-for-single-bound": [
