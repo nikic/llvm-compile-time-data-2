@@ -242925,6 +242925,24 @@
             "author_name": "Luke Lau",
             "commit_date": "2026-09-28T09:44:32+01:00",
             "subject": "[VPlan] Remove (X && Y) | (X && !Y) -> X combine. NFC (#219368)"
+        },
+        {
+            "hash": "6ee306ddac89f9cbfc8815e8956240f0bf832dcb",
+            "author_name": "Chris Kennelly",
+            "commit_date": "2026-09-28T09:19:09+00:00",
+            "subject": "[X86] Select standalone ~(-1 << n) masks as BZHI (#226158)"
+        },
+        {
+            "hash": "3804292c4c3adcd4b8505dc78aed73e211b44752",
+            "author_name": "David Spickett",
+            "commit_date": "2026-09-28T09:20:49+00:00",
+            "subject": "[lldb] Fix offload bundle unit tests on 32-bit systems (#226922)"
+        },
+        {
+            "hash": "2a96d5737524012839e786699a0b327f22d1cfee",
+            "author_name": "ioana ghiban",
+            "commit_date": "2026-09-28T11:25:47+02:00",
+            "subject": "[mlir][memref] Enforce consistent reinterpret_cast metadata (#217338)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -262267,6 +262285,26 @@
             "author_name": "David Bolvansky",
             "commit_date": "2026-09-28T10:15:24+02:00",
             "subject": "BasicAA: Compute minimal access extents lazily"
+        }
+    ],
+    "jmorse\/perf\/pr-224467": [
+        {
+            "hash": "a432c764f54c72f60bb1c2df0c050e5cc29db2dd",
+            "author_name": "Ben Shi",
+            "commit_date": "2026-09-28T08:27:09+08:00",
+            "subject": "[X86][NFC] Simplify definition of TMM registers (#226779)"
+        },
+        {
+            "hash": "dc01d7f237050c73eb3f8b9e6f2ef1a0a9dc0d07",
+            "author_name": "Petar Jovanovic",
+            "commit_date": "2026-09-28T02:46:09+02:00",
+            "subject": "[SlotIndexes] Add queries for stale indexes"
+        },
+        {
+            "hash": "355a730bf4a0d37f68c91f67278ea839ad51726e",
+            "author_name": "Petar Jovanovic",
+            "commit_date": "2026-09-28T02:46:09+02:00",
+            "subject": "[LiveDebugVariables] Repair stale SlotIndexes"
         }
     ]
 }
