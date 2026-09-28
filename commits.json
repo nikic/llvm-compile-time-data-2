@@ -243195,6 +243195,18 @@
             "author_name": "aokblast",
             "commit_date": "2026-09-28T14:15:01+00:00",
             "subject": "[llvm-strings] Use small buffer instead of reading whole file (#163073)"
+        },
+        {
+            "hash": "5961b1283fab21a6836be87cbc693c8c81089b83",
+            "author_name": "Alex MacLean",
+            "commit_date": "2026-09-28T07:22:35-07:00",
+            "subject": "[NVPTX] Auto-upgrade NVVM mulhi intrinsics to generic mulh (#226578)"
+        },
+        {
+            "hash": "e721bde41d23ee1bc8c6f0413c1f7da8af388171",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-28T16:26:19+02:00",
+            "subject": "AArch64: Mark the LR def of GlobalISel calls dead (#226256)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -262485,16 +262497,16 @@
     ],
     "fhahn\/perf\/scev-skip-empty-forget": [
         {
-            "hash": "d0ea8a8e46091f71684091f48412ce500165d76f",
-            "author_name": "Martin Storsj\u00f6",
-            "commit_date": "2026-09-27T23:38:21+03:00",
-            "subject": "[unittests] Fix a recent test on Windows with LLVM_WINDOWS_PREFER_FORWARD_SLASH (#224963)"
-        },
-        {
             "hash": "d1c1ebe5c4b15d193462bad37ba777db15cecf37",
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-27T23:22:03+01:00",
             "subject": "[SCEV] Skip invalidation with empty ValueExprMap (NFC)."
+        },
+        {
+            "hash": "5f5232c8203ad28d2a0b654834c3749b8fe80342",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-28T15:20:48+01:00",
+            "subject": "Merge branch 'main' into perf\/scev-skip-empty-forget"
         }
     ],
     "nikic\/perf\/scev-phi-iterative": [
