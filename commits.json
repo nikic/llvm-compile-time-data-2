@@ -77029,40 +77029,28 @@
     ],
     "tbaederr\/perf\/ce-test": [
         {
-            "hash": "c6c8f3006f378079cf2c89e4e4bddc0adb15f8ea",
-            "author_name": "Walter Lee",
-            "commit_date": "2026-09-25T05:54:59-05:00",
-            "subject": "Fix Bazel build for aa6b03e (#226426)"
+            "hash": "2fa97ac9671c00e8ddff5cc85a82ff84cebaf392",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-09-28T14:58:30+02:00",
+            "subject": "Reapply \"[clang][bytecode] Stop relying on `CheckEvaluationResult()` \u2026 (#226879)"
         },
         {
-            "hash": "4cb48c281d44b249de1d640104f6d389370f8294",
+            "hash": "4e1c507bb9db78bc234f123a2ff870e30c84edf4",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-25T14:55:08+02:00",
+            "commit_date": "2026-09-28T14:59:49+02:00",
             "subject": "Test"
         },
         {
-            "hash": "1b666893474e45984ac18bdb83cef7e16187cd41",
+            "hash": "4bf2b8ca7a11ab0f6868ac0cdfa503d3004fd273",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-25T14:55:08+02:00",
+            "commit_date": "2026-09-28T14:59:50+02:00",
             "subject": "[clang][bytecode] Use EvalSettings struct"
         },
         {
-            "hash": "eb5292b3c2a2b99e9a472b4466707018dc71295f",
+            "hash": "2c3dbe3f0b22f4332da126d3340db48d319a2cb8",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-25T14:55:08+02:00",
+            "commit_date": "2026-09-28T14:59:50+02:00",
             "subject": "Direct eval in accessor"
-        },
-        {
-            "hash": "f3f9bc4ee33e54df5378e881f3e98dbbbd22128c",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-25T14:55:08+02:00",
-            "subject": "Enum sizes"
-        },
-        {
-            "hash": "5fd4640c13fda549266ed5f499a3502373fa9db9",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-25T15:06:08+02:00",
-            "subject": "settings by value"
         }
     ],
     "dtcxzyw\/perf\/nonnull-at-callsite": [
@@ -243099,6 +243087,24 @@
             "author_name": "Mehdi Amini",
             "commit_date": "2026-09-28T12:48:26+00:00",
             "subject": "Make CIR assembly formats strict properties compatible (#226600)"
+        },
+        {
+            "hash": "2fa97ac9671c00e8ddff5cc85a82ff84cebaf392",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-09-28T14:58:30+02:00",
+            "subject": "Reapply \"[clang][bytecode] Stop relying on `CheckEvaluationResult()` \u2026 (#226879)"
+        },
+        {
+            "hash": "b5cae89e8463dd397960f8a37bb877a06306c0f4",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-28T09:01:40-04:00",
+            "subject": "[SLP]Fix fmul\/fadd fusion costs and retry FMA seeds after all blocks"
+        },
+        {
+            "hash": "74f859b9d46e480fe43d7b904b1e80efb8a331a2",
+            "author_name": "Aayush Mainali",
+            "commit_date": "2026-09-28T13:02:08+00:00",
+            "subject": "[clang-tidy] Fix readability-trailing-comma false positive on #endif (#219634)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -262501,6 +262507,20 @@
             "author_name": "David Bolvansky",
             "commit_date": "2026-09-28T13:42:45+02:00",
             "subject": "[AsmParser] Dispatch LLVM IR keywords by characters"
+        }
+    ],
+    "davidbolvansky\/perf\/basicaa-integer-bitwidth": [
+        {
+            "hash": "be2eb0a91356ae3a1910d8226137b54db480166d",
+            "author_name": "Mariusz Sikora",
+            "commit_date": "2026-09-28T12:00:15+02:00",
+            "subject": "[AMDGPU] Add gfx13 MC support for exclusive scan instructions (#226077)"
+        },
+        {
+            "hash": "ad2537f832178dfd508462650d36c811190d754d",
+            "author_name": "David Bolvansky",
+            "commit_date": "2026-09-28T14:54:08+02:00",
+            "subject": "[BasicAA] Use integer bit widths for GEP expressions"
         }
     ]
 }
