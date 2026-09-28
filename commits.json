@@ -243651,6 +243651,24 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-28T18:32:07+00:00",
             "subject": "X86: Mark the EFLAGS def of FastISel selected shifts dead (#227060)"
+        },
+        {
+            "hash": "3f10d989c803cc2bbc4e0a1a741eb9408979b19b",
+            "author_name": "ahradwan2-public",
+            "commit_date": "2026-09-29T02:45:39+08:00",
+            "subject": "[InstCombine][NFC] Use uint64_t for ExtractIdx in vector_extract fold (#225156)"
+        },
+        {
+            "hash": "c8ae6e04d629ee08b74248155143698e0e31e6d5",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-28T14:51:18-04:00",
+            "subject": "[SLP]Schedule instructions with calculated deps after trimming"
+        },
+        {
+            "hash": "f2b0119d0bb724ab31124ed84a51d36eb5fe1857",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-28T20:53:03+02:00",
+            "subject": "AMDGPU: Mark the return address def of SI_CALL dead (#227062)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -263061,9 +263079,9 @@
             "subject": "Improve llvm-gsymutil to set the end address correctly. (#225593)"
         },
         {
-            "hash": "e973b424f0086eb055aae367973af18118d86161",
+            "hash": "3a153fc05893da6eaf7d3aaed0ce60a5fb35f344",
             "author_name": "bababuck",
-            "commit_date": "2026-09-28T10:38:10-07:00",
+            "commit_date": "2026-09-28T11:51:17-07:00",
             "subject": "[SLP] Check getRegUsageForType() of larger non-power-of-2-vector when current attempt scalarizes"
         }
     ]
