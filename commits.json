@@ -244605,6 +244605,54 @@
             "author_name": "Louis Dionne",
             "commit_date": "2026-09-29T15:01:27+00:00",
             "subject": "[libc++] Fix out-of-bounds read in the associative container query benchmarks (#227070)"
+        },
+        {
+            "hash": "3b8bb27206645009167c62fc422c33be7246bc5a",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-09-29T15:11:07+00:00",
+            "subject": "[libc++] Use a union for uninitialized storage in associative container benchmarks (#227068)"
+        },
+        {
+            "hash": "7dadbf7cda25adeeac6b513226105b9ea432ab8a",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-09-29T15:14:09+00:00",
+            "subject": "[libc++] Fix use-after-free in the monotonic_buffer benchmark (#227072)"
+        },
+        {
+            "hash": "a2b6f776837db7b88059abe4c22741cca47fe901",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-29T11:18:26-04:00",
+            "subject": "[SLP]Fix alloca handling in runtime alias check versioning (#227341)"
+        },
+        {
+            "hash": "b690595c4005015840065bcf1006ef46ba05d6b7",
+            "author_name": "Q",
+            "commit_date": "2026-09-29T08:19:19-07:00",
+            "subject": "[RISCV][P-ext] Add packed multiply high parts accumulate intrinsics (#224261)"
+        },
+        {
+            "hash": "b0fb9358d471a0436b72b0f117bf9d1a1ca3216e",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-09-29T15:23:17+00:00",
+            "subject": "[X86] LowerStore - peek through oneuse bitcasts to see if vector is freely splittable. (#227282)"
+        },
+        {
+            "hash": "2c9a8d473b7b9bfe1e070e2456a7d57a55790201",
+            "author_name": "MMS IT GmbH",
+            "commit_date": "2026-09-29T11:26:24-04:00",
+            "subject": "[SystemZ][z\/OS] Use a function descriptor for external functions in initializers (#226682)"
+        },
+        {
+            "hash": "36422efb8f9d62924dbd43a2cacd1e44c68cb9a8",
+            "author_name": "David Spickett",
+            "commit_date": "2026-09-29T16:26:31+01:00",
+            "subject": "[llvm] Upgrade ARM data layouts that are missing Fi8 (#224639)"
+        },
+        {
+            "hash": "bbc6e8fb045cad3cb7291ffa9320a1c1b5810c82",
+            "author_name": "David Spickett",
+            "commit_date": "2026-09-29T16:27:26+01:00",
+            "subject": "[lldb][AArch64][Linux] Add llvm_unreachable after some RegisterSetType switches (#223375)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
