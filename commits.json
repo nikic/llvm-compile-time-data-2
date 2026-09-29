@@ -77029,22 +77029,16 @@
     ],
     "tbaederr\/perf\/ce-test": [
         {
-            "hash": "fddfd6f01e3f203df3fc1d7fc7769bcb9745d0fa",
+            "hash": "bb9dd27ae02c6b4fb49757085aa13af92cc1ccda",
             "author_name": "Timm Baeder",
-            "commit_date": "2026-09-29T05:34:10+02:00",
-            "subject": "[clang][bytecode] Add `EvalSettings` struct and replace parent `State` (#226175)"
+            "commit_date": "2026-09-29T09:53:50+02:00",
+            "subject": "[clang][bytecode] Use bytecode interpreter in toplevel `Expr::Evaluate*` functions (#226217)"
         },
         {
-            "hash": "cbd9aab7a5b14f5f214e20ebe8baedb8a67b5276",
+            "hash": "cef3eb473fd6c1304bcc6652301c53bf34495b31",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-29T05:37:32+02:00",
+            "commit_date": "2026-09-29T09:54:57+02:00",
             "subject": "Test"
-        },
-        {
-            "hash": "fb577784b8b1406f7032bfeb60d7adcb2c018262",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-29T05:38:03+02:00",
-            "subject": "Direct eval in accessor"
         }
     ],
     "dtcxzyw\/perf\/nonnull-at-callsite": [
@@ -244101,6 +244095,18 @@
             "author_name": "David Spickett",
             "commit_date": "2026-09-29T08:45:26+01:00",
             "subject": "[llvm][llvm-profgen] Fix printing bogus trace info on 32-bit (#226965)"
+        },
+        {
+            "hash": "b20896c96deab703d7f0e99301b553a8ef4abad7",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-09-29T09:52:44+02:00",
+            "subject": "[DirectX] Don't use IRBuilder to create GEPs (#227000)"
+        },
+        {
+            "hash": "bb9dd27ae02c6b4fb49757085aa13af92cc1ccda",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-09-29T09:53:50+02:00",
+            "subject": "[clang][bytecode] Use bytecode interpreter in toplevel `Expr::Evaluate*` functions (#226217)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
