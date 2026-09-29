@@ -244941,6 +244941,30 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-09-29T11:06:27-07:00",
             "subject": "[clang-linker-wrapper] Remove -load-pass-plugin (#227410)"
+        },
+        {
+            "hash": "73c7c3579c9fb31d7bb2f318dacd98180df0b9da",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-09-29T18:14:33+00:00",
+            "subject": "[MemoryBuiltins] Preserve profiles when optimizing llvm.objectsize (#227397)"
+        },
+        {
+            "hash": "c0a3f49f1ca7a3d2dd56970a7b5aa5b817f8f48b",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-29T14:16:35-04:00",
+            "subject": "[SLP]Fix stale candidate lookup for externally used reduced values"
+        },
+        {
+            "hash": "98386130ab0009ffea4b24ef1b3502747a7b8699",
+            "author_name": "Steven Wu",
+            "commit_date": "2026-09-29T11:20:14-07:00",
+            "subject": "[CAS] Split on-disk CAS validate-if-needed into validation and recovery (#226291)"
+        },
+        {
+            "hash": "841433da7862a29bc1688ce7960c7ee349fa2973",
+            "author_name": "Steven Wu",
+            "commit_date": "2026-09-29T11:20:27-07:00",
+            "subject": "[CAS] Support validation and recovery for plugin CAS in llvm-cas (#227056)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -264493,6 +264517,26 @@
             "author_name": "Nikolas Klauser",
             "commit_date": "2026-09-29T12:00:02+02:00",
             "subject": "Reduce the InterpStack chunk size"
+        }
+    ],
+    "cofibrant\/perf\/cofibrant\/unanalyzablefrontier": [
+        {
+            "hash": "91b08a503f4f712ea8ce83dc3887f8be7738e95a",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-09-29T15:41:32+00:00",
+            "subject": "[MISched](NFC) Factor control dependency construction state and logic out of `buildSchedGraph` (#226533)"
+        },
+        {
+            "hash": "d44eb4c7fea8a287cc2021070c7b96ec443bff60",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-09-29T17:19:30+01:00",
+            "subject": "[MISched] Implement `UnanalyzableFrontier`-based DAG construction algorithm"
+        },
+        {
+            "hash": "385c7a62eea6d24f8caf322cbbea787fefad46eb",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-09-29T17:26:11+01:00",
+            "subject": "[MISched] Enable `UnanalyzableFrontier`-based DAG construction algorithm"
         }
     ]
 }
