@@ -244299,6 +244299,30 @@
             "author_name": "David Green",
             "commit_date": "2026-09-29T11:34:08+00:00",
             "subject": "[AArch64][GlobalISel] Reorganise shuffle combines. NFC (#227268)"
+        },
+        {
+            "hash": "09c59107ab65919fd2c186e57c183819eb42a5df",
+            "author_name": "Valery Pykhtin",
+            "commit_date": "2026-09-29T13:39:47+02:00",
+            "subject": "[AMDGPU] Route no-modifier reg-or-inline AsmParser operands through HwMode predicate (#221989)"
+        },
+        {
+            "hash": "51258c8a1fafac2b274cfe05a92f31c40fab1f93",
+            "author_name": "Valery Pykhtin",
+            "commit_date": "2026-09-29T13:43:10+02:00",
+            "subject": "[AMDGPU] Route no-modifier reg-or-inline AsmParser operands through HwMode predicate (#221989)"
+        },
+        {
+            "hash": "940e03584de8bfbcd86fc25de9a738d067d3a342",
+            "author_name": "Ga\u00ebtan Bossu",
+            "commit_date": "2026-09-29T12:52:48+01:00",
+            "subject": "[clang] Also disable scalable vectorisation for vectorize(disable) (#227254)"
+        },
+        {
+            "hash": "c6a561d18f5d0e5af25200d18a2653b9f18c8e87",
+            "author_name": "Corentin Jabot",
+            "commit_date": "2026-09-29T13:53:46+02:00",
+            "subject": "[Clang] Fix a regression introduced by #223645. (#227085)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -263485,69 +263509,75 @@
     ],
     "fhahn\/perf\/ce-header-bounds": [
         {
-            "hash": "57721b7c631b3dacc8f59b2467992e3ff4866cc6",
-            "author_name": "Lang Hames",
-            "commit_date": "2026-09-27T17:04:11+10:00",
-            "subject": "[orc-rt] Move ORC_RT_LOG_ENABLED out of config.h; catch typos. (#226751)"
+            "hash": "5da194580292bc90f6577f3959dda3a9bb6d5366",
+            "author_name": "Anand Mistry (MSFT)",
+            "commit_date": "2026-09-29T11:50:53+01:00",
+            "subject": "[Mips] Add set directive support for EVA instructions (#225888)"
         },
         {
-            "hash": "0d42f9c0cb1e48da8152b3c90a6da70e7c4d985c",
+            "hash": "67f7d35c131b156663342cfae20d55e7a4187196",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-27T09:29:01+01:00",
-            "subject": "Prune facts"
-        },
-        {
-            "hash": "fb0a8ada9c71705b058281ac65b46ddf8e0c9534",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-27T12:17:37+01:00",
-            "subject": "[ConstraintElim] Bail out after collecting facts if there are no checks."
-        },
-        {
-            "hash": "8f316bb6a91d82c2d69ee893db27cb701b5d95e6",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-27T12:17:37+01:00",
-            "subject": "GEP step withotu SCEV"
-        },
-        {
-            "hash": "c01fc94f4920f3d0925e19dd2df975dc019f47f1",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-27T12:17:38+01:00",
+            "commit_date": "2026-09-29T12:55:03+01:00",
             "subject": "[ConstraintElim] Skip rows implied by a single existing row."
         },
         {
-            "hash": "e3ac5220c98ae1539ba709139ebc5153e477d47a",
+            "hash": "60cc13cf0c58278b6ad5ab0ac13d9105039b8cda",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-27T12:17:38+01:00",
+            "commit_date": "2026-09-29T12:55:03+01:00",
+            "subject": "[ConstraintElim] Use single-row witnesses to prove no-wrap near type limits."
+        },
+        {
+            "hash": "9b26a32e22b5a3b410a9ed8ba9744595b2b1de23",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-29T12:55:03+01:00",
+            "subject": "Prune facts"
+        },
+        {
+            "hash": "cc6a0b1f19b27c64642049135a966ce9c0b49f7e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-29T12:55:04+01:00",
+            "subject": "[ConstraintElim] Bail out after collecting facts if there are no checks."
+        },
+        {
+            "hash": "3ccc7c3ed4857bf0bf683bffc34e312951553a0d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-29T12:55:04+01:00",
+            "subject": "GEP step withotu SCEV"
+        },
+        {
+            "hash": "26622f16ea58abaf715a1bf7f6b06c01eaad5f18",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-29T12:55:04+01:00",
             "subject": "[ConstraintElim] Check cheap requirements first for memory access facts (NFC)."
         },
         {
-            "hash": "d695e6180bc18c3f6e2590852b9dcda3e34ca0f4",
+            "hash": "44c96a09a6e8333913a368d7f96a181265b521a8",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-27T12:17:38+01:00",
+            "commit_date": "2026-09-29T12:55:04+01:00",
             "subject": "[ConstraintElim] Don't transfer facts already implied by a single row."
         },
         {
-            "hash": "079ab1859a6cc9a415949357f9b1b4b014105b3c",
+            "hash": "75ed73fb8316f32f41e335325ed5380ceb7e5663",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-27T12:17:38+01:00",
+            "commit_date": "2026-09-29T12:55:04+01:00",
             "subject": "[ConstraintElim] Add tests for bounds from compares of induction phis (NFC)."
         },
         {
-            "hash": "c26b26cacc030fa35c669eade0340dbeec146d86",
+            "hash": "cc89d8b88d3b8c9b73baba585d8d3b09679a333e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-27T12:17:39+01:00",
+            "commit_date": "2026-09-29T12:55:05+01:00",
             "subject": "[ConstraintElim] Bound IVs by compares of the phi in header\/latch."
         },
         {
-            "hash": "8e2e9d956d08e75802d78920f3c464d458738554",
+            "hash": "eaf42463995ba57f8992be61f2008f229bcffa6a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-27T12:17:39+01:00",
+            "commit_date": "2026-09-29T12:55:05+01:00",
             "subject": "[ConstraintElim] Don't transfer header bounds of inductions to other system."
         },
         {
-            "hash": "de64639d7f3a8c7a2109a5b2a849a04e5ac5fb84",
+            "hash": "849ff5356eb303d66ced18a5ebc70d69c8d895ae",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-27T12:17:39+01:00",
+            "commit_date": "2026-09-29T12:55:05+01:00",
             "subject": "[ConstraintElim] Only add header bounds of inductions where they may be used."
         }
     ],
