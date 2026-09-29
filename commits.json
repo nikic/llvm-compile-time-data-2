@@ -244179,6 +244179,24 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-29T09:45:35+00:00",
             "subject": "[VPlan] Use BlockFrequencyInfo's full mass for execution frequencies. (#227006)"
+        },
+        {
+            "hash": "f69661de1c6fd034afabc2acf79a888cf7b58c5c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-29T09:48:18+00:00",
+            "subject": "[BFI] Use MapVector in combineWeightsByHashing. (#227027)"
+        },
+        {
+            "hash": "724557a9bd1389446ba52d270ad31d78a6071497",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-29T09:50:40+00:00",
+            "subject": "X86: Fix missing ... separator between functions in mir test (#227228)"
+        },
+        {
+            "hash": "fa3d17075284bf746f4030ad3371fe5c05b06653",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-29T09:53:35+00:00",
+            "subject": "[FunctionAttrs] Infer noalias through a null check. (#226956)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -263313,34 +263331,34 @@
     ],
     "artagnon\/perf\/kbd": [
         {
-            "hash": "20913cfb73ee109c0ad4e9cb298e2c1a0595fb0b",
-            "author_name": "Igor Wodiany",
-            "commit_date": "2026-09-28T14:24:22+01:00",
-            "subject": "[PDB] Prevent potential overflow when calculating `Base` in `formatMsfStreamData` (#224662)"
+            "hash": "58b102609a9d08fbadb9c3fa1dd88bba2cf7f711",
+            "author_name": "Pawan Nirpal",
+            "commit_date": "2026-09-29T13:45:11+05:30",
+            "subject": "[SCEV] -  Add positive-stride predicate for backedge-taken count. (#222261)"
         },
         {
-            "hash": "8e6442854c617cee2a11c3c24643f86517069066",
+            "hash": "713e2f18e834e13b39b759e6564cd936a88512e2",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-28T19:22:26+01:00",
+            "commit_date": "2026-09-29T09:26:46+01:00",
             "subject": "[KnownBitsDataflow] Introduce new analysis"
         },
         {
-            "hash": "91d273b485d74da865c0151f36d94dd62555a757",
+            "hash": "5250884435244bf7340762e8a0b7f054193f82bc",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-28T20:33:58+01:00",
+            "commit_date": "2026-09-29T09:27:09+01:00",
             "subject": "[KBD] Add legacy PM support in attempt to clip ct"
         },
         {
-            "hash": "1e496c3a53814e16fec58e4b83cb227755bb657d",
+            "hash": "846f86acc9d123582b3f00a6b07220d281e72957",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-28T21:08:09+01:00",
+            "commit_date": "2026-09-29T09:27:09+01:00",
             "subject": "[IC] Add KBD preservation"
         },
         {
-            "hash": "78950568c2a8fce52745581d67915a7c973d5760",
+            "hash": "9bbd998d4239055cd7078950c03eb68aae5e24f7",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-28T21:31:18+01:00",
-            "subject": "[KBD] Add missing include"
+            "commit_date": "2026-09-29T10:41:11+01:00",
+            "subject": "[KBD] Inline, skip constants, strip Depth guard"
         }
     ],
     "fhahn\/perf\/cr-add-template-for-single-bound": [
