@@ -77029,27 +77029,21 @@
     ],
     "tbaederr\/perf\/ce-test": [
         {
-            "hash": "2fa97ac9671c00e8ddff5cc85a82ff84cebaf392",
+            "hash": "fddfd6f01e3f203df3fc1d7fc7769bcb9745d0fa",
             "author_name": "Timm Baeder",
-            "commit_date": "2026-09-28T14:58:30+02:00",
-            "subject": "Reapply \"[clang][bytecode] Stop relying on `CheckEvaluationResult()` \u2026 (#226879)"
+            "commit_date": "2026-09-29T05:34:10+02:00",
+            "subject": "[clang][bytecode] Add `EvalSettings` struct and replace parent `State` (#226175)"
         },
         {
-            "hash": "4e1c507bb9db78bc234f123a2ff870e30c84edf4",
+            "hash": "cbd9aab7a5b14f5f214e20ebe8baedb8a67b5276",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-28T14:59:49+02:00",
+            "commit_date": "2026-09-29T05:37:32+02:00",
             "subject": "Test"
         },
         {
-            "hash": "4bf2b8ca7a11ab0f6868ac0cdfa503d3004fd273",
+            "hash": "fb577784b8b1406f7032bfeb60d7adcb2c018262",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-28T14:59:50+02:00",
-            "subject": "[clang][bytecode] Use EvalSettings struct"
-        },
-        {
-            "hash": "2c3dbe3f0b22f4332da126d3340db48d319a2cb8",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-09-28T14:59:50+02:00",
+            "commit_date": "2026-09-29T05:38:03+02:00",
             "subject": "Direct eval in accessor"
         }
     ],
@@ -244017,6 +244011,12 @@
             "author_name": "Prajit Rahul",
             "commit_date": "2026-09-29T03:16:51+00:00",
             "subject": "[mlir][cf] Fix cf.switch round-trip for case values wider than 64 bits (#221490)"
+        },
+        {
+            "hash": "fddfd6f01e3f203df3fc1d7fc7769bcb9745d0fa",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-09-29T05:34:10+02:00",
+            "subject": "[clang][bytecode] Add `EvalSettings` struct and replace parent `State` (#226175)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
