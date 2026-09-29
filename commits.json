@@ -244653,6 +244653,30 @@
             "author_name": "David Spickett",
             "commit_date": "2026-09-29T16:27:26+01:00",
             "subject": "[lldb][AArch64][Linux] Add llvm_unreachable after some RegisterSetType switches (#223375)"
+        },
+        {
+            "hash": "046e55ba043775c28db139395303fcc467d18a1b",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-09-29T15:28:25+00:00",
+            "subject": "[libc++] Add coverage for push_range on stack\/queue with non-default underlying containers (#210730)"
+        },
+        {
+            "hash": "e90c043329524ac718a3d04189ffe960936e8719",
+            "author_name": "Joseph Huber",
+            "commit_date": "2026-09-29T10:29:10-05:00",
+            "subject": "[compiler-rt] Remove dlsym interceptor for HSA UBSan (#227022)"
+        },
+        {
+            "hash": "8ce1ee44b2f777797df77b5421c66efbe986d3d1",
+            "author_name": "Jack Frankland",
+            "commit_date": "2026-09-29T16:29:26+01:00",
+            "subject": "[mlir][arith] Support equal-width float conversions (#225346)"
+        },
+        {
+            "hash": "e3c719620d5e827d5b81851c1714e0abd2b88dfc",
+            "author_name": "Akash Dutta",
+            "commit_date": "2026-09-29T11:30:25-04:00",
+            "subject": "[AMDGPU] Don't apply gfx950 fetch-window loop align to the wrong block (#221821)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -263769,28 +263793,28 @@
     ],
     "artagnon\/perf\/kbd": [
         {
-            "hash": "58b102609a9d08fbadb9c3fa1dd88bba2cf7f711",
-            "author_name": "Pawan Nirpal",
-            "commit_date": "2026-09-29T13:45:11+05:30",
-            "subject": "[SCEV] -  Add positive-stride predicate for backedge-taken count. (#222261)"
+            "hash": "907a8095efa25c68ee6c3354830f9c632518dd69",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-09-29T15:01:27+00:00",
+            "subject": "[libc++] Fix out-of-bounds read in the associative container query benchmarks (#227070)"
         },
         {
-            "hash": "713e2f18e834e13b39b759e6564cd936a88512e2",
+            "hash": "93d9840458d0dea834528b663d8187239b13bad0",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-29T09:26:46+01:00",
+            "commit_date": "2026-09-29T16:04:35+01:00",
             "subject": "[KnownBitsDataflow] Introduce new analysis"
         },
         {
-            "hash": "5250884435244bf7340762e8a0b7f054193f82bc",
+            "hash": "073224cd4cef111e84cfbe9166ced7e47f2b53e4",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-29T09:27:09+01:00",
-            "subject": "[KBD] Add legacy PM support in attempt to clip ct"
+            "commit_date": "2026-09-29T16:04:35+01:00",
+            "subject": "[KBD] Inline, skip constants, strip Depth guard"
         },
         {
-            "hash": "1da0879d93d61846896cf9c71faa72127f2c8373",
+            "hash": "0a93ca8462297957cf12bad816ace876efd73533",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-29T13:01:48+01:00",
-            "subject": "[KBD] Inline, skip constants, strip Depth guard"
+            "commit_date": "2026-09-29T16:32:04+01:00",
+            "subject": "[KBD] Use AllocHint = InstCount \/ 2"
         }
     ],
     "fhahn\/perf\/cr-add-template-for-single-bound": [
