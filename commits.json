@@ -245055,6 +245055,30 @@
             "author_name": "Alex Duran",
             "commit_date": "2026-09-29T21:28:32+02:00",
             "subject": "[offload][omp] Load plugins through liboffload (#226440)"
+        },
+        {
+            "hash": "3f4b3caf8bd7a7d0b2e12ed87518af76f7b58fdf",
+            "author_name": "Dmitry Sidorov",
+            "commit_date": "2026-09-29T21:31:52+02:00",
+            "subject": "[NFC][AMDGPU] Add cost tests for narrow integer to fp casts (#225341)"
+        },
+        {
+            "hash": "f5e74feac05ec1182c77874e8704728688a9174d",
+            "author_name": "RobinTF",
+            "commit_date": "2026-09-29T12:36:18-07:00",
+            "subject": "[clang][WebAssembly] Don't register this-returning destructors of reference temporaries directly with `__cxa_atexit` (#226619)"
+        },
+        {
+            "hash": "46d53887a4e5815ae5ff3567c6dc31b6c68190ef",
+            "author_name": "Joshua Batista",
+            "commit_date": "2026-09-29T12:36:58-07:00",
+            "subject": "[HLSL] Add `InterlockedCompareStore` function and resource methods (#222164)"
+        },
+        {
+            "hash": "7bb059d7c6fd5ab1c7873abe132c6d92c7744ab2",
+            "author_name": "Akash Banerjee",
+            "commit_date": "2026-09-29T20:38:24+01:00",
+            "subject": "[OpenMP] Fix descriptor allocation for absent optional arrays (#227082)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -264183,10 +264207,10 @@
             "subject": "[KBD] Inline, skip constants, strip Depth guard"
         },
         {
-            "hash": "65f600f1674b60d2b3234fbf0958343ece13cfb7",
+            "hash": "c7b66a5a1c70d949c8d01d41e093951f150867b8",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-29T16:55:42+01:00",
-            "subject": "[KBD] Use AllocHint = InstCount \/ 2"
+            "commit_date": "2026-09-29T20:31:43+01:00",
+            "subject": "[KBD] Use AllocHint = 256"
         }
     ],
     "fhahn\/perf\/cr-add-template-for-single-bound": [
