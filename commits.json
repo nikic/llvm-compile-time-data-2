@@ -244455,6 +244455,12 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-09-29T13:09:22+00:00",
             "subject": "[SCEV] Rename SCEVNoWrapFlags to SCEVFlags (NFC) (#225179)"
+        },
+        {
+            "hash": "96983af41ec1408064d7101c4d49d8f6e5fba1d6",
+            "author_name": "Kseniya Tikhomirova",
+            "commit_date": "2026-09-29T15:20:31+02:00",
+            "subject": "[libsycl] Remove libsycl declarations of spirv builtins (#227031)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -262979,45 +262985,27 @@
     ],
     "fhahn\/perf\/scev-merge-block-guards": [
         {
-            "hash": "0b44c51c08dcc096f1f1a48532c3da31ceccb036",
-            "author_name": "Matt\u00e9o Rizza Murgier",
-            "commit_date": "2026-09-20T16:21:06+02:00",
-            "subject": "[SDAG] Handle widened operands for scalable PromoteIntRes_CONCAT_VECTORS (#224274)"
+            "hash": "fa10e634e2be9c16a7fdf01aefe0ed45ab6d1b47",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-29T07:05:42-04:00",
+            "subject": "[SLP]Support runtime alias checks versioning for blocks in loops"
         },
         {
-            "hash": "3e1fa81baa63a0a70b7efdcdefd340f0c6e605af",
+            "hash": "1be2f0f25e4475dbf343c045983cff565d27b8e8",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-20T15:50:47+01:00",
+            "commit_date": "2026-09-29T14:12:56+01:00",
             "subject": "[SCEV] Test loop guard collection past an unrelated branch"
         },
         {
-            "hash": "82245a8f3ba8a4b7541a35445db154b57dcb9de9",
+            "hash": "c3b81d4d0beff0403a765743c0165ebb8d3cc0a8",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-20T15:50:51+01:00",
-            "subject": "[SCEV] Skip the guard-intrinsic lookup when the module has no guards"
-        },
-        {
-            "hash": "1491b2fc1345c18b02090b1d7b0f83ab4d95e65b",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-20T15:50:52+01:00",
-            "subject": "[SCEV] Stop computing loop-guard ranges once no wrap flag can be preserved"
-        },
-        {
-            "hash": "1b16f05728bce03f3ddcbdc3de1619a3e3e7d0d2",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-20T15:50:52+01:00",
-            "subject": "[SCEV][NFC] Remove the LoopGuards IncomingGuards cache, which can never hit"
-        },
-        {
-            "hash": "21f06171f658239c0626751f2f5e5ed5aff752a8",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-20T15:50:53+01:00",
+            "commit_date": "2026-09-29T14:12:56+01:00",
             "subject": "[SCEV] Look for guarding conditions through merge blocks."
         },
         {
-            "hash": "68dbd246ac4ac2a9ca1eb333b888e89e2317104c",
+            "hash": "922069503ef8b55ad62547ddb698d0197eca2977",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-20T15:50:53+01:00",
+            "commit_date": "2026-09-29T14:12:57+01:00",
             "subject": "[SCEV] Only look for dominating guards for the top-level collection"
         }
     ],
