@@ -244197,6 +244197,48 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-29T09:53:35+00:00",
             "subject": "[FunctionAttrs] Infer noalias through a null check. (#226956)"
+        },
+        {
+            "hash": "6ccc4917217c650428fd36360690dad4a3f69d20",
+            "author_name": "Utkarsh Saxena",
+            "commit_date": "2026-09-29T11:58:07+02:00",
+            "subject": "[LifetimeSafety] Fix off-by-one crash in `lifetime_capture_by` argument indexing (#227231)"
+        },
+        {
+            "hash": "74c86a79968b3f23eb3b292d318429364709f6b2",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-09-29T09:59:22+00:00",
+            "subject": "[AMDGPU] Use S_CMP to lower a copy of a lane mask to SCC (#221445)"
+        },
+        {
+            "hash": "7cf8ecb2ef8acc2bca15f2223a3635f5863a81a7",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-29T10:00:38+00:00",
+            "subject": "Mips: Mark MUL's existing HI0\/LO0 defs dead in FastISel (#227230)"
+        },
+        {
+            "hash": "5a245737377fec09c871c802cc730189a61df459",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-29T10:01:14+00:00",
+            "subject": "Mips\/GlobalISel: Mark call's implicit RA def dead (#227233)"
+        },
+        {
+            "hash": "a4b0944bde4640586dd902d3ad401a6270c8a1fe",
+            "author_name": "Ga\u00ebtan Bossu",
+            "commit_date": "2026-09-29T11:01:42+01:00",
+            "subject": "[AArch64] ISel support for nxv1i1 vector_reverse (#226939)"
+        },
+        {
+            "hash": "d5f6c302fff1aeed8fb6a247c21a694b156778bc",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-09-29T06:02:41-04:00",
+            "subject": "[libc++] Encode the standard version in the ABI tag (#218527)"
+        },
+        {
+            "hash": "5c170b01350198b7f1f830fb53253652015077b3",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-29T12:03:43+02:00",
+            "subject": "Mips: Mark the $gp setup copy dead when erasing the call's $gp use (#227216)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -263747,6 +263789,26 @@
             "author_name": "Steffen Holst Larsen",
             "commit_date": "2026-09-29T03:10:19-05:00",
             "subject": "Switch to OptTable"
+        }
+    ],
+    "philnik777\/perf\/interp_reduce_chunk_size": [
+        {
+            "hash": "fa3d17075284bf746f4030ad3371fe5c05b06653",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-29T09:53:35+00:00",
+            "subject": "[FunctionAttrs] Infer noalias through a null check. (#226956)"
+        },
+        {
+            "hash": "017dca772cdf6e8ea0104d212b1c01e4a0afe556",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-09-29T11:59:26+02:00",
+            "subject": "Switch to the constant interpreter"
+        },
+        {
+            "hash": "6569098cb307fe4b5124108062ff5ea904653fcc",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-09-29T12:00:02+02:00",
+            "subject": "Reduce the InterpStack chunk size"
         }
     ]
 }
