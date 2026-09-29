@@ -1,0 +1,240 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[1304/3483] Building CXX object lib/Transforms/HipStdPar/CMakeFiles/LLVMHipStdPar.dir/HipStdPar.cpp.o
+[1305/3483] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VectorCombine.cpp.o
+[1306/3483] Building CXX object lib/Linker/CMakeFiles/LLVMLinker.dir/LinkModules.cpp.o
+[1307/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/Analysis.cpp.o
+[1308/3483] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroElide.cpp.o
+[1309/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AliasAnalysisEvaluator.cpp.o
+[1310/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AliasAnalysis.cpp.o
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/AliasAnalysis.cpp:63:13: warning: ‘DisableBasicAA’ defined but not used [-Wunused-variable]
+   63 | static bool DisableBasicAA = false;
+      |             ^~~~~~~~~~~~~~
+[1311/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AliasSetTracker.cpp.o
+[1312/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/BlockFrequencyInfoImpl.cpp.o
+[1313/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AssumeBundleQueries.cpp.o
+[1314/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CFGSCCPrinter.cpp.o
+[1315/3483] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroFrame.cpp.o
+[1316/3483] Building CXX object lib/Linker/CMakeFiles/LLVMLinker.dir/IRMover.cpp.o
+[1317/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AssumptionCache.cpp.o
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/AssumptionCache.cpp:41:13: warning: ‘VerifyAssumptionCache’ defined but not used [-Wunused-variable]
+   41 | static bool VerifyAssumptionCache = false;
+      |             ^~~~~~~~~~~~~~~~~~~~~
+[1318/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CFG.cpp.o
+[1319/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AnalysisOptions.cpp.o
+[1320/3483] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroSplit.cpp.o
+[1321/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/BranchProbabilityInfo.cpp.o
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/BranchProbabilityInfo.cpp:52:13: warning: ‘PrintBranchProb’ defined but not used [-Wunused-variable]
+   52 | static bool PrintBranchProb = false;
+      |             ^~~~~~~~~~~~~~~
+[1322/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/BlockFrequencyInfo.cpp.o
+[1323/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CFGPrinter.cpp.o
+[1324/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CallGraph.cpp.o
+[1325/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CycleAnalysis.cpp.o
+[1326/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CmpInstAnalysis.cpp.o
+[1327/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ConstraintSystem.cpp.o
+[1328/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CaptureTracking.cpp.o
+[1329/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CostModel.cpp.o
+[1330/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CallPrinter.cpp.o
+[1331/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CallGraphSCCPass.cpp.o
+[1332/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/BasicAliasAnalysis.cpp.o
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/BasicAliasAnalysis.cpp:77:13: warning: ‘EnableSeparateStorageAnalysis’ defined but not used [-Wunused-variable]
+   77 | static bool EnableSeparateStorageAnalysis = true;
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/BasicAliasAnalysis.cpp:71:13: warning: ‘EnableRecPhiAnalysis’ defined but not used [-Wunused-variable]
+   71 | static bool EnableRecPhiAnalysis = true;
+      |             ^~~~~~~~~~~~~~~~~~~~
+[1333/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DevelopmentModeInlineAdvisor.cpp.o
+[1334/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CodeMetrics.cpp.o
+[1335/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CGSCCPassManager.cpp.o
+[1336/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DDGPrinter.cpp.o
+[1337/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DomConditionCache.cpp.o
+[1338/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/EphemeralValuesCache.cpp.o
+[1339/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/Delinearization.cpp.o
+[1340/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DDG.cpp.o
+[1341/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DominanceFrontier.cpp.o
+[1342/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CtxProfAnalysis.cpp.o
+[1343/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DomTreeUpdater.cpp.o
+[1344/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DemandedBits.cpp.o
+[1345/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DXILMetadataAnalysis.cpp.o
+[1346/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DomPrinter.cpp.o
+[1347/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/FloatingPointPredicateUtils.cpp.o
+[1348/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/HeatUtils.cpp.o
+[1349/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ConstantFolding.cpp.o
+[1350/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DependenceGraphBuilder.cpp.o
+[1351/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DependenceAnalysis.cpp.o
+[1352/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/GuardUtils.cpp.o
+[1353/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DXILResource.cpp.o
+[1354/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ImportedFunctionsInliningStatistics.cpp.o
+[1355/3483] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanTransforms.cpp.o
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanTransforms.cpp:2169:13: warning: ‘bool tryToReplaceALMWithWideALM(llvm::VPlan&, llvm::ElementCount, unsigned int)’ defined but not used [-Wunused-function]
+ 2169 | static bool tryToReplaceALMWithWideALM(VPlan &Plan, ElementCount VF,
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~
+[1356/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/FunctionPropertiesAnalysis.cpp.o
+[1357/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/IndirectCallPromotionAnalysis.cpp.o
+[1358/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/HashRecognize.cpp.o
+[1359/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/IVUsers.cpp.o
+[1360/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/IR2Vec.cpp.o
+[1361/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/InteractiveModelRunner.cpp.o
+[1362/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/InstCount.cpp.o
+[1363/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/InstructionPrecedenceTracking.cpp.o
+[1364/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LastRunTrackingAnalysis.cpp.o
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/LastRunTrackingAnalysis.cpp:28:13: warning: ‘DisableLastRunTracking’ defined but not used [-Wunused-variable]
+   28 | static bool DisableLastRunTracking = false;
+      |             ^~~~~~~~~~~~~~~~~~~~~~
+[1365/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LazyBlockFrequencyInfo.cpp.o
+[1366/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/IVDescriptors.cpp.o
+[1367/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LazyBranchProbabilityInfo.cpp.o
+[1368/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/GlobalsModRef.cpp.o
+[1369/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LibcallLoweringInfo.cpp.o
+[1370/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/InlineOrder.cpp.o
+[1371/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/Local.cpp.o
+[1372/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/KernelInfo.cpp.o
+[1373/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/InlineAdvisor.cpp.o
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/InlineAdvisor.cpp:92:20: warning: ‘std::string getIR2VecVocabFile(const llvm::Function&)’ defined but not used [-Wunused-function]
+   92 | static std::string getIR2VecVocabFile(const Function &F) {
+      |                    ^~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/InlineAdvisor.cpp:77:13: warning: ‘bool getAnnotateInlinePhase(const llvm::Function&)’ defined but not used [-Wunused-function]
+   77 | static bool getAnnotateInlinePhase(const Function &F) {
+      |             ^~~~~~~~~~~~~~~~~~~~~~
+[1374/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LoopNestAnalysis.cpp.o
+[1375/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LoopPass.cpp.o
+[1376/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemDerefPrinter.cpp.o
+[1377/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/Lint.cpp.o
+[1378/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LoopAnalysisManager.cpp.o
+[1379/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ModelUnderTrainingRunner.cpp.o
+[1380/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LazyCallGraph.cpp.o
+[1381/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/InlineCost.cpp.o
+[1382/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LoopUnrollAnalyzer.cpp.o
+[1383/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/Loads.cpp.o
+[1384/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LoopCacheAnalysis.cpp.o
+[1385/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/NoInferenceModelRunner.cpp.o
+[1386/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LazyValueInfo.cpp.o
+[1387/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemoryLocation.cpp.o
+[1388/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ModuleDebugInfoPrinter.cpp.o
+[1389/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ObjCARCAliasAnalysis.cpp.o
+[1390/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/InstructionSimplify.cpp.o
+[1391/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemoryProfileInfo.cpp.o
+[1392/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemoryBuiltins.cpp.o
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/MemoryBuiltins.cpp:53:17: warning: ‘ObjectSizeOffsetVisitorMaxVisitInstructions’ defined but not used [-Wunused-variable]
+   53 | static unsigned ObjectSizeOffsetVisitorMaxVisitInstructions = 100;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1393/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ObjCARCInstKind.cpp.o
+[1394/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ObjCARCAnalysisUtils.cpp.o
+[1395/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MustExecute.cpp.o
+[1396/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LoopInfo.cpp.o
+[1397/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MLInlineAdvisor.cpp.o
+[1398/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemoryDependenceAnalysis.cpp.o
+[1399/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/OptimizationRemarkEmitter.cpp.o
+[1400/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/OverflowInstAnalysis.cpp.o
+[1401/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/PostDominators.cpp.o
+[1402/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/PHITransAddr.cpp.o
+[1403/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemorySSAUpdater.cpp.o
+[1404/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LoopAccessAnalysis.cpp.o
+[1405/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/RegionPass.cpp.o
+[1406/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/RuntimeLibcallInfo.cpp.o
+[1407/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/PhiValues.cpp.o
+[1408/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TFLiteUtils.cpp.o
+[1409/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemorySSA.cpp.o
+[1410/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/PtrUseVisitor.cpp.o
+[1411/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ProfileSummaryInfo.cpp.o
+[1412/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ReplayInlineAdvisor.cpp.o
+[1413/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/RegionPrinter.cpp.o
+[1414/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolutionAliasAnalysis.cpp.o
+[1415/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/RegionInfo.cpp.o
+[1416/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/StructuralHash.cpp.o
+[1417/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/Trace.cpp.o
+[1418/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolutionNormalization.cpp.o
+[1419/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TrainingLogger.cpp.o
+[1420/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TensorSpec.cpp.o
+[1421/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolutionDivision.cpp.o
+[1422/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ModuleSummaryAnalysis.cpp.o
+[1423/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/StaticDataProfileInfo.cpp.o
+[1424/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TargetLibraryInfo.cpp.o
+[1425/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ValueLatticeUtils.cpp.o
+[1426/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScopedNoAliasAA.cpp.o
+[1427/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ValueLattice.cpp.o
+[1428/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/StackLifetime.cpp.o
+[1429/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/SyntheticCountsUtils.cpp.o
+[1430/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TypeBasedAliasAnalysis.cpp.o
+[1431/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TypeMetadataUtils.cpp.o
+[1432/3483] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/LTOBackend.cpp.o
+FAILED: lib/LTO/CMakeFiles/LLVMLTO.dir/LTOBackend.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/LTO -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/LTO -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/LTO/CMakeFiles/LLVMLTO.dir/LTOBackend.cpp.o -MF lib/LTO/CMakeFiles/LLVMLTO.dir/LTOBackend.cpp.o.d -o lib/LTO/CMakeFiles/LLVMLTO.dir/LTOBackend.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/LTO/LTOBackend.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/LTO/LTOBackend.cpp:35:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Passes/PassesOptions.h:40:10: fatal error: llvm/Passes/PassesOptions.inc: No such file or directory
+   40 | #include "llvm/Passes/PassesOptions.inc"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+[1433/3483] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/LTOOptions.cpp.o
+[1434/3483] Building CXX object lib/MC/CMakeFiles/LLVMMC.dir/MCOptions.cpp.o
+[1435/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/UniformityAnalysis.cpp.o
+[1436/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/TargetTransformInfo.cpp.o
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/TargetTransformInfo.cpp:1620:13: warning: ‘EnableReduxCost’ defined but not used [-Wunused-variable]
+ 1620 | static bool EnableReduxCost = false;
+      |             ^~~~~~~~~~~~~~~
+[1437/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/StackSafetyAnalysis.cpp.o
+[1438/3483] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/UpdateCompilerUsed.cpp.o
+[1439/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/VectorUtils.cpp.o
+[1440/3483] Building CXX object lib/DTLTO/CMakeFiles/LLVMDTLTO.dir/DTLTO.cpp.o
+[1441/3483] Building CXX object lib/DTLTO/CMakeFiles/LLVMDTLTO.dir/DTLTOInputFiles.cpp.o
+[1442/3483] Building CXX object lib/DTLTO/CMakeFiles/LLVMDTLTO.dir/DTLTODistributionDriver.cpp.o
+[1443/3483] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/LTOModule.cpp.o
+[1444/3483] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/LTOCodeGenerator.cpp.o
+[1445/3483] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/ThinLTOCodeGenerator.cpp.o
+[1446/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ValueTracking.cpp.o
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ValueTracking.cpp:92:17: warning: ‘DomConditionsMaxUses’ defined but not used [-Wunused-variable]
+   92 | static unsigned DomConditionsMaxUses = 20;
+      |                 ^~~~~~~~~~~~~~~~~~~~
+[1447/3483] Building CXX object lib/LTO/CMakeFiles/LLVMLTO.dir/LTO.cpp.o
+[1448/3483] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ScalarEvolution.cpp.o
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:16587:13: warning: ‘ClassifyExpressions’ defined but not used [-Wunused-variable]
+16587 | static bool ClassifyExpressions = true;
+      |             ^~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/ScalarEvolution.cpp:229:17: warning: ‘unsigned int getMaxPhiSCCAnalysisSize(const llvm::AnalysisOptions&)’ defined but not used [-Wunused-function]
+  229 | static unsigned getMaxPhiSCCAnalysisSize(const AnalysisOptions &Opts) {
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~
+[1449/3483] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:267:13: warning: ‘bool getViewSLPTree(const llvm::Function&)’ defined but not used [-Wunused-function]
+  267 | static bool getViewSLPTree(const Function &F) {
+      |             ^~~~~~~~~~~~~~
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+Using ccache with precompiled headers with non-Clang compilers is not supported. CMAKE_DISABLE_PRECOMPILE_HEADERS will be set to ON. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override this.
+CMake Warning (policy) at cmake/modules/HandleLLVMOptions.cmake:959 (CHECK_C_SOURCE_COMPILES):
+  Policy CMP0219 is not set: Macro invocations preserve backslashes in
+  arguments.  Run "cmake --help-policy CMP0219" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  Command "CHECK_C_SOURCE_COMPILES" called with arguments containing
+  backslashes.
+
+  Since the policy is not set, backslashes in the arguments:
+
+   "// \\\n//\nint main(void) {return 0;}"
+
+  will be interpreted as escape sequences for compatibility.
+
+  Set the policy to NEW to instead pass
+
+   "// \\\\\\n//\\nint main(void) {return 0;}"
+
+  so that argument parsing will preserve the original values.
+Call Stack (most recent call first):
+  CMakeLists.txt:1166 (include)
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+CMake Warning (deprecated) at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:508 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+to suppress it.
+
+Command exited with non-zero status 1
+3964.28user 192.93system 4:34.74elapsed 1513%CPU (0avgtext+0avgdata 2254588maxresident)k
+2136inputs+9420088outputs (2349major+115182303minor)pagefaults 0swaps
