@@ -246219,6 +246219,30 @@
             "author_name": "Henrich Lauko",
             "commit_date": "2026-09-30T17:23:57+02:00",
             "subject": "[MLIR] Emit final-policy remarks in deterministic order (#224616)"
+        },
+        {
+            "hash": "9060d938ad7bd10111d9a84c3bf8ea7955b2904e",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-09-30T10:26:48-05:00",
+            "subject": "[OpenMP] Remove redundant namespace qualifications, NFC (#227465)"
+        },
+        {
+            "hash": "622b141186fd215904f2ac86fe9821ac87e40508",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-30T11:30:18-04:00",
+            "subject": "[SLP][NFC]Add a test with the non-profitable vectorization in vectorized loops, NFC"
+        },
+        {
+            "hash": "66768776d38088cc1d7871fb45ce2ca7494399ee",
+            "author_name": "Utkarsh Saxena",
+            "commit_date": "2026-09-30T15:30:35+00:00",
+            "subject": "[LifetimeSafety] Use a member instead of global function for a use (#227713)"
+        },
+        {
+            "hash": "fa7903e9e206004a9613662eca539d3342807231",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-09-30T10:31:08-05:00",
+            "subject": "[OpenMP] Allow overriding clause-allowed-on-directive in decomposition (#227418)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -265883,6 +265907,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-30T14:57:13+01:00",
             "subject": "[LoopUnrollAnalyzer] Evaluate affine AddRecs with constant step directly (NFC)."
+        }
+    ],
+    "tbaederr\/perf\/quoted-name": [
+        {
+            "hash": "b96b66160ace30c2b5eef1f4afdb14c95ecc26cd",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-30T13:48:55+00:00",
+            "subject": "[SCEV] Use howManyLessThans to implement howManyGreaterThans. (#226846)"
+        },
+        {
+            "hash": "cf9e2ae4fe5fa0bcda77a1ae6edf98a69986af39",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-09-30T17:34:48+02:00",
+            "subject": "quoted name"
         }
     ]
 }
