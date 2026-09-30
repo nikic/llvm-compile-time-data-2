@@ -245601,6 +245601,18 @@
             "author_name": "Vitaly Buka",
             "commit_date": "2026-09-30T00:10:10-07:00",
             "subject": "[TwoAddressInstruction] Drop physreg ranges after unfolding a load (#227538)"
+        },
+        {
+            "hash": "e3bae380eb23076b081ad7db1e8f6a36c5261eb3",
+            "author_name": "Matt\u00e9o Rizza Murgier",
+            "commit_date": "2026-09-30T09:33:51+02:00",
+            "subject": "[mlir][affine] Fix crash when rolling back vectorization of reduction loops (#226912)"
+        },
+        {
+            "hash": "cf28b9f7fa4c4dec8f209b7059586df6234c7a25",
+            "author_name": "Szymon Sobieszek",
+            "commit_date": "2026-09-30T09:35:06+02:00",
+            "subject": "[LoopIdiom] Fix 64-to-32-bit stride truncation in strlen idiom recognition (#227406)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -259631,22 +259643,16 @@
     ],
     "artagnon\/perf\/scev-extaddrec-wrap": [
         {
-            "hash": "3eaddb5735f63ac1bfe5e27400f457fc38435fb4",
-            "author_name": "Nikita Popov",
-            "commit_date": "2026-09-21T08:45:15+02:00",
-            "subject": "[SystemZ] Try to align globals to at least 2 bytes (#224586)"
+            "hash": "e0f3c0a384c05cdb0685a5dad437a423e399cfb9",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-09-30T08:46:32+02:00",
+            "subject": "[clang][bytecode][NFC] Simplify Descriptor::getLocation() (#227266)"
         },
         {
-            "hash": "95ab46921361dfefe84221690b350681c6f3e34b",
+            "hash": "e8611dbce702ea74747792ebd977f33974229ca7",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-21T08:21:46+01:00",
+            "commit_date": "2026-09-30T08:23:03+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence for sext-addrec"
-        },
-        {
-            "hash": "45d1c037910c2eba229355d08deb270341a133f8",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-21T08:55:09+01:00",
-            "subject": "[SCEV] Restore an improved version of nsuw logic"
         }
     ],
     "fhahn\/perf\/scev-expander-reuse": [
