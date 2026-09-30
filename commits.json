@@ -245715,6 +245715,36 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-09-30T08:58:10+00:00",
             "subject": "[VPlan] Demarcate VPIs that gen scalars (NFC) (#196207)"
+        },
+        {
+            "hash": "b5d50687b1f2991200b9985a78e5841717f8f108",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-09-30T09:08:48+00:00",
+            "subject": "[obj2yaml] Return from main on error instead of calling exit (#227594)"
+        },
+        {
+            "hash": "4039ff22ef1894220e6f3f04100c695e0b9d9a1e",
+            "author_name": "Chaitanya",
+            "commit_date": "2026-09-30T14:41:54+05:30",
+            "subject": "[AMDGPU][NFC] Use CHECK-NEXT for hidden_dynamic_lds_size in hsa-metadata-hidden-args-v5.ll (#227556)"
+        },
+        {
+            "hash": "d6048f5ff3bdd934508a585a92ba010834981b7c",
+            "author_name": "Ziliang Zhang",
+            "commit_date": "2026-09-30T09:12:34+00:00",
+            "subject": "[mlir][bufferization] Skip parallel analysis without parallel regions (#227202)"
+        },
+        {
+            "hash": "a187057dfe16b215dc44c4be7937ceccebe9882a",
+            "author_name": "Julien Villette",
+            "commit_date": "2026-09-30T10:13:22+01:00",
+            "subject": "[AArch64][NeoverseV1\/V2] Fix ASIMD FP convert and round scheduling (#224046)"
+        },
+        {
+            "hash": "420f6d1b1f277b8861ef7454164b5a940d1bcf24",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-09-30T11:13:57+02:00",
+            "subject": "[libc++] Optimize basic_string::operator= (#224535)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -255717,6 +255747,30 @@
             "author_name": "Chuanqi Xu",
             "commit_date": "2026-09-29T11:47:33+02:00",
             "subject": "[C++20] [Modules] Load friends for classes in ADL (#219094)"
+        },
+        {
+            "hash": "d3b23d8b0c191783734c7bf1d5f0f77464412760",
+            "author_name": "lntue",
+            "commit_date": "2026-09-30T11:07:29+02:00",
+            "subject": "[libc][math] Fix fast path with small inputs for double precision sin\/cos. (#221012)"
+        },
+        {
+            "hash": "9669f0a31161aee76676076f71ba1b1c40d9f3bf",
+            "author_name": "Ying Huang",
+            "commit_date": "2026-09-30T11:07:32+02:00",
+            "subject": "[Mips] Restrict rdhwr+synci to Linux on MIPS R6 (#222566)"
+        },
+        {
+            "hash": "1f2d65a9e7d7830ab68139cd52a149b4825b7ed4",
+            "author_name": "Jonathan Cohen",
+            "commit_date": "2026-09-30T11:07:34+02:00",
+            "subject": "[AArch64] Fix accumulator chain opcode for SABAv2i32 (#226062)"
+        },
+        {
+            "hash": "21ef2ddb806006eba611b8a769ae72e5f86f9418",
+            "author_name": "ZERICO2005",
+            "commit_date": "2026-09-30T11:07:37+02:00",
+            "subject": "[KnownFPClass] Do not propagate non-NaN through `asin` and `acos` (#213812)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
