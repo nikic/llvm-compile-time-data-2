@@ -246201,6 +246201,24 @@
             "author_name": "Andreas Jonson",
             "commit_date": "2026-09-30T17:16:42+02:00",
             "subject": "[GVN] Replace cmp with not instruction if inv cmp is found (#223171)"
+        },
+        {
+            "hash": "088f62a2d1c0cd124326d358a66421d837d728e0",
+            "author_name": "Alex Strelnikov",
+            "commit_date": "2026-09-30T11:18:56-04:00",
+            "subject": "[libc] Fix str_to_float.h clinger_fast_math for negative exponents. (#227391)"
+        },
+        {
+            "hash": "233a25d068a9323211dd1f32c7a83e72751826ef",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-09-30T17:22:57+02:00",
+            "subject": "[MLIR][LLVMIR] Restore constant folding for global initializer GEPs (#227651)"
+        },
+        {
+            "hash": "995b10a038ee4ae3451fb50c3514763dfa09f6ac",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-09-30T17:23:57+02:00",
+            "subject": "[MLIR] Emit final-policy remarks in deterministic order (#224616)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -265785,6 +265803,12 @@
             "author_name": "Nathan Corbyn",
             "commit_date": "2026-09-29T17:26:11+01:00",
             "subject": "[MISched] Enable `UnanalyzableFrontier`-based DAG construction algorithm"
+        },
+        {
+            "hash": "b76e15fefe7d10065d64d6c07f03ed488d291a2e",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-09-30T16:23:32+01:00",
+            "subject": "[MISched] Bump `--dag-maps-huge-region` default"
         }
     ],
     "topperc\/perf\/effectiveoperands": [
