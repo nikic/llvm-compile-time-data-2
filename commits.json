@@ -246405,6 +246405,72 @@
             "author_name": "Alex MacLean",
             "commit_date": "2026-09-30T17:06:35+00:00",
             "subject": "[SeparateConstOffsetFromGEP] Fix offsets across trunc and ext (#225195)"
+        },
+        {
+            "hash": "91d88a48f449d54b5004c83399dc2281cb549734",
+            "author_name": "Adam Smith",
+            "commit_date": "2026-09-30T12:27:19-05:00",
+            "subject": "[CIR] Preserve padding bytes across a byval argument (#224672)"
+        },
+        {
+            "hash": "521f9e58a7e2389ccbf7893627857fe19da43c8a",
+            "author_name": "Emilio Cota",
+            "commit_date": "2026-09-30T17:28:01+00:00",
+            "subject": "[msan] handle llvm.masked.{udiv,sdiv,urem,srem} intrinsics (#225363)"
+        },
+        {
+            "hash": "8be6a5f1a1881a3e75800a6648f728a33594bfb8",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-09-30T10:30:11-07:00",
+            "subject": "[flang][cuda] Lower on_device() declared by an interface to cuf.on_device (#227498)"
+        },
+        {
+            "hash": "6bd33ddfc3cc0cb2278b7f30d349b38475a3e607",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-09-30T10:30:59-07:00",
+            "subject": "[Option] Shrink Info from 24 to 16 bytes (#227582)"
+        },
+        {
+            "hash": "cb23668ed2c1a876db0eb0284b7aa15e0b1258d4",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-09-30T17:31:34+00:00",
+            "subject": "[libc++] Inline the build-at-commit composite action into the benchmark workflows (#227750)"
+        },
+        {
+            "hash": "bc7009760b8c4f6e4f603542cb5c24be46e87a81",
+            "author_name": "Adam Smith",
+            "commit_date": "2026-09-30T12:32:19-05:00",
+            "subject": "[CIR] Lower variadic arguments through an indirect call (#227477)"
+        },
+        {
+            "hash": "ebfc0d74c387a924e0f87e80e71468bbb2d506f3",
+            "author_name": "Eli Friedman",
+            "commit_date": "2026-09-30T17:33:08+00:00",
+            "subject": "[InstCombine] Fix select combine with null_pointer_is_valid. (#227168)"
+        },
+        {
+            "hash": "268e5ba1d99152e5f00e1d8432969a6ba11245fd",
+            "author_name": "Addmisol",
+            "commit_date": "2026-09-30T23:04:23+05:30",
+            "subject": "[InstCombine] Fold icmp eq\/ne X, select(icmp pred X, P, C1, C2) to set membership (#226756)"
+        },
+        {
+            "hash": "ec86f8228e33176474d8f167037a0a028f137eb2",
+            "author_name": "Kaitlin Peng",
+            "commit_date": "2026-09-30T17:35:27+00:00",
+            "subject": "[Matrix] Implement matrix support for the `abs` intrinsic (#227131)"
+        },
+        {
+            "hash": "a135d2f1a576f2fbf55e1b40796dbd8c652e52a2",
+            "author_name": "Anshul Nigham",
+            "commit_date": "2026-09-30T17:36:46+00:00",
+            "subject": "[Bazel] Add Analysis dependency to LLVMToLLVMIRTranslation (#227785)"
+        },
+        {
+            "hash": "adc6bbf0f3e433e4f5681180fb9aa79724eae6af",
+            "author_name": "Amr Hesham",
+            "commit_date": "2026-09-30T17:38:35+00:00",
+            "subject": "[CIR][NFC] Add missing enum elements to TypeInfoIsInStandardLibrary (#227781)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
