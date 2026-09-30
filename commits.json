@@ -245613,6 +245613,24 @@
             "author_name": "Szymon Sobieszek",
             "commit_date": "2026-09-30T09:35:06+02:00",
             "subject": "[LoopIdiom] Fix 64-to-32-bit stride truncation in strlen idiom recognition (#227406)"
+        },
+        {
+            "hash": "7778bb2082b8e64528b691f1b7a7016e8bd64860",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-09-30T00:37:20-07:00",
+            "subject": "[IR][ADT] Update ValueHandle PrevPtr via move constructor (NFC) (#227484)"
+        },
+        {
+            "hash": "7c9ae52cfdce9b7fc6f06b1a5f3a54f9a2f2d0ec",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-30T09:42:10+02:00",
+            "subject": "TwoAddressInstructions: Use the per-operand early clobber flag for tied copies (#227581)"
+        },
+        {
+            "hash": "a5a1b5834ad33167aa119091a96931d526c9c962",
+            "author_name": "Santanu Das",
+            "commit_date": "2026-09-30T13:12:41+05:30",
+            "subject": "[Hexagon] Fix hwloop trip count for post-increment load induction (#225411)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -259709,22 +259727,16 @@
     ],
     "artagnon\/perf\/scev-zextaddrec-wrap": [
         {
-            "hash": "3eaddb5735f63ac1bfe5e27400f457fc38435fb4",
-            "author_name": "Nikita Popov",
-            "commit_date": "2026-09-21T08:45:15+02:00",
-            "subject": "[SystemZ] Try to align globals to at least 2 bytes (#224586)"
+            "hash": "e0f3c0a384c05cdb0685a5dad437a423e399cfb9",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-09-30T08:46:32+02:00",
+            "subject": "[clang][bytecode][NFC] Simplify Descriptor::getLocation() (#227266)"
         },
         {
-            "hash": "0cb8b41076dc222da26e10c72bc4421674ac6ca3",
+            "hash": "d01133a9c9958cf8102d8192bb576bef3e6e55ca",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-21T08:32:14+01:00",
+            "commit_date": "2026-09-30T08:25:54+01:00",
             "subject": "[SCEV] Rework wrap-flag-inferrence in zext-addrec"
-        },
-        {
-            "hash": "0948c45c169395965953a9b7320e6b3b6e82099d",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-21T08:32:14+01:00",
-            "subject": "[SCEV] Restore improved version of nusw logic"
         }
     ],
     "artagnon\/perf\/scev-fold-sext-addrec": [
