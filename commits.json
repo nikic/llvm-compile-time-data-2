@@ -246657,6 +246657,24 @@
             "author_name": "Chibuoyim (Wilson) Ogbonna",
             "commit_date": "2026-09-30T20:29:41+00:00",
             "subject": "[CIR][CodeGen] Fix wrong destructor placement for label and attributed statements (#226194)"
+        },
+        {
+            "hash": "e1bcf98233962c26e3a82ae326fb2f8922e0635a",
+            "author_name": "Alexander Richardson",
+            "commit_date": "2026-09-30T13:39:19-07:00",
+            "subject": "[RISC-V][MC] Reject x0 as the address\/temporary register for load\/store pseudos (#227512)"
+        },
+        {
+            "hash": "dd741af4ab7808634e071a8be78909ca22d40861",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-09-30T16:42:01-04:00",
+            "subject": "[SLP][NFC]Add a test with the missed vectorization, NFC"
+        },
+        {
+            "hash": "f01fdbb2991a10ec7f02fecb3d30fcf4fc639db8",
+            "author_name": "Dmitry Sidorov",
+            "commit_date": "2026-09-30T22:43:10+02:00",
+            "subject": "[AMDGPU] Price narrow integer to bfloat vector casts (#225342)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -266369,6 +266387,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-09-30T20:40:59+01:00",
             "subject": "[SCEV] Use loop guards to rule out IV overflow in LT\/GT exit counts."
+        }
+    ],
+    "weiguozhi\/perf\/csr": [
+        {
+            "hash": "71122e716c7f507cb98df69961dbce21a187aa91",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-09-22T18:10:28-07:00",
+            "subject": "[SelectionDAG] Add ISD::ARITH_FENCE to SelectionDAGDumper. (#225485)"
+        },
+        {
+            "hash": "317f89708ed2cb781aca0d3163b040a79b325873",
+            "author_name": "weiguozhi",
+            "commit_date": "2026-09-30T12:06:57-07:00",
+            "subject": "[RegAlloc] [X86] Enable callee saved register optimization for x86 (#220090)"
         }
     ]
 }
