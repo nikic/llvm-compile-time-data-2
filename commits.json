@@ -84675,10 +84675,16 @@
             "subject": "Revert \"workflows\/release-binaries: Disable flang on Darwin (#164667)\" (#216667)"
         },
         {
-            "hash": "1b8ab0c426edf89de665ce86481742f39f086054",
+            "hash": "77a20344345afa050109fc377d4e4c931a34da5b",
             "author_name": "Orlando Cazalet-Hyams",
-            "commit_date": "2026-09-08T16:34:44+01:00",
-            "subject": "fix method fwd-decl-for-callsite"
+            "commit_date": "2026-09-30T21:05:00+01:00",
+            "subject": "Disentangle DISubprogram ODR type method uniquing from metadata uniquing"
+        },
+        {
+            "hash": "cc0d04538acb07e1d1c42b5a1d6f5542fa824a06",
+            "author_name": "Orlando Cazalet-Hyams",
+            "commit_date": "2026-09-30T21:05:05+01:00",
+            "subject": "fixes"
         }
     ],
     "tobias-stadler\/perf\/inline-simplify-callerinst": [
@@ -246615,6 +246621,24 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-30T21:55:18+02:00",
             "subject": "FastISel: Mark implicit physreg defs dead when emitting instructions (#227598)"
+        },
+        {
+            "hash": "5f1a54781d8f984b5434060e9cd02775b0ec241a",
+            "author_name": "Joseph Huber",
+            "commit_date": "2026-09-30T14:56:27-05:00",
+            "subject": "[CMake] Give LLVM_EXTERNAL_PROJECTS installs a default component (#227799)"
+        },
+        {
+            "hash": "1074dbabfe77d3a4422436afba8ed6fceaa8a4f4",
+            "author_name": "Amr Hesham",
+            "commit_date": "2026-09-30T19:58:25+00:00",
+            "subject": "[CIR] Add Matrix transpose operation (#227372)"
+        },
+        {
+            "hash": "d4ab2ae81d5dd369d554873189e92b95de53ffef",
+            "author_name": "Joseph Huber",
+            "commit_date": "2026-09-30T15:05:04-05:00",
+            "subject": "[CMake] Give LLVM_EXTERNAL_PROJECTS installs a default component (#227799)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
