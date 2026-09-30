@@ -246339,6 +246339,30 @@
             "author_name": "Domenic Nutile",
             "commit_date": "2026-09-30T12:30:14-04:00",
             "subject": "Reland \"[AMDGPU] PromoteAlloca: flatten homogeneous structs to vectors\" (#221058) (#223790)"
+        },
+        {
+            "hash": "552ea17e0a93262e78813994c0abc6cea23bfb55",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-09-30T16:35:20+00:00",
+            "subject": "[ValueTracking] Handle zext\/sext in computeConstantRange (#227726)"
+        },
+        {
+            "hash": "24df73cb7311d9a66d132c7fcd20feac2fbae36d",
+            "author_name": "Anshul Nigham",
+            "commit_date": "2026-09-30T16:40:50+00:00",
+            "subject": "[Bazel] Fixes commit 4f9feb85267c08ec29ea8bb2f80a3d0cd7ab925f (#227767)"
+        },
+        {
+            "hash": "0a5b663d6474a958ef953cd6615de550957b8525",
+            "author_name": "Farzon Lotfi",
+            "commit_date": "2026-09-30T12:43:11-04:00",
+            "subject": "[Clang][HLSL] Keep matrix SSA values in column-major order (#227087)"
+        },
+        {
+            "hash": "7e89fb5d646ef2d4b18520a8300818b5b94ef587",
+            "author_name": "Dave Lee",
+            "commit_date": "2026-09-30T09:46:33-07:00",
+            "subject": "[lldb] Fix logic bugs in BytecodeSyntheticChildren (#227483)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -266017,6 +266041,20 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-09-30T17:34:48+02:00",
             "subject": "quoted name"
+        }
+    ],
+    "jmorse\/perf\/dzhidzhoev-scan-locations": [
+        {
+            "hash": "755e4d429f11a17ba386cdf4d4ff7883294368dd",
+            "author_name": "Chinmay Deshpande",
+            "commit_date": "2026-09-22T13:46:40-07:00",
+            "subject": "[SelectionDAG] Fix FP8 conversions to half for subnormals and overflow (#224984)"
+        },
+        {
+            "hash": "e7e6bcb18927cc0e1024085730343a000ea3b19e",
+            "author_name": "Vladislav Dzhidzhoev",
+            "commit_date": "2026-09-25T17:52:56+02:00",
+            "subject": "[DebugInfo][DwarfDebug] Scan for inlined subprograms in LexicalScopes::initialize()"
         }
     ]
 }
