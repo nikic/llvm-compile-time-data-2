@@ -246651,6 +246651,12 @@
             "author_name": "Arkadiusz Bokowy",
             "commit_date": "2026-09-30T20:26:49+00:00",
             "subject": "[clang-format] Add KeepEmptyLines.AtEndOfBlock option (#224223)"
+        },
+        {
+            "hash": "7fcd9732be7d03f2ae338a73953b3423afefc57c",
+            "author_name": "Chibuoyim (Wilson) Ogbonna",
+            "commit_date": "2026-09-30T20:29:41+00:00",
+            "subject": "[CIR][CodeGen] Fix wrong destructor placement for label and attributed statements (#226194)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -266343,6 +266349,26 @@
             "author_name": "Vladislav Dzhidzhoev",
             "commit_date": "2026-09-25T17:52:56+02:00",
             "subject": "[DebugInfo][DwarfDebug] Scan for inlined subprograms in LexicalScopes::initialize()"
+        }
+    ],
+    "fhahn\/perf\/scev-lt-loop-guards": [
+        {
+            "hash": "087e566be567c44a7e6ef68b3c986bd1f7b0b27f",
+            "author_name": "Andy Kaylor",
+            "commit_date": "2026-09-30T19:03:08+00:00",
+            "subject": "Revert \"[CIR] Fix failing tests after #226904\" (#227817)"
+        },
+        {
+            "hash": "1b54395b7f4462588417c5a0db63dfc36e1446c0",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-30T20:18:39+01:00",
+            "subject": "[SCEV] Add tests for LT\/GT overflow checks with loop guards (NFC)"
+        },
+        {
+            "hash": "fca74aeaa069432e747b3dda2e93a4f3da436052",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-30T20:40:59+01:00",
+            "subject": "[SCEV] Use loop guards to rule out IV overflow in LT\/GT exit counts."
         }
     ]
 }
