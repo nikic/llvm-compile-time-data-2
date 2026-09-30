@@ -245553,6 +245553,18 @@
             "author_name": "Alexander Richardson",
             "commit_date": "2026-09-29T22:10:01-07:00",
             "subject": "[llvm-objdump][RISC-V] Do not leak file-level features into $x<ISA> regions (#227513)"
+        },
+        {
+            "hash": "4f5877ff5b6e947123142f7e17ffd04850fd416a",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-09-29T22:19:06-07:00",
+            "subject": "[IR] Reduce memory usage in metadata use tracking (NFC) (#221866)"
+        },
+        {
+            "hash": "3bf8c1ae4bcf1feea80ba9461a361b66817a0dce",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-09-29T22:20:15-07:00",
+            "subject": "[IR] Remove ValueMap::{is,get}PointerIntoBucketsArray (NFC) (#227496)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
