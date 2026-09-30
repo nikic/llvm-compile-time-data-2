@@ -245643,6 +245643,30 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-09-30T09:49:37+02:00",
             "subject": "docs: Remove Johannes' office hours (#227350)"
+        },
+        {
+            "hash": "ed327377a67f812a13ca783ffab67efff11a80fb",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-09-30T09:56:31+02:00",
+            "subject": "[clang][bytecode] Move past-end check into CheckFinalLoad (#227181)"
+        },
+        {
+            "hash": "d80ae72a1cb9858eed5b01cd12d7707a2e2b6670",
+            "author_name": "Mariya Podchishchaeva",
+            "commit_date": "2026-09-30T09:57:22+02:00",
+            "subject": "[CIR][NFC][AMDGPU] Use new triple in CIR tests (#226972)"
+        },
+        {
+            "hash": "73a0b12b8ee34b9d2858cf6ca60a6154145a52ca",
+            "author_name": "\u029f\u1d1c\u0274\u1d07x",
+            "commit_date": "2026-09-30T07:58:34+00:00",
+            "subject": "[CodeGenPrepare] don't promote sdiv\/srem by -1 (#218737)"
+        },
+        {
+            "hash": "87e5a59ebde0a2517cbf8f816582779be6194fe1",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-30T10:00:26+02:00",
+            "subject": "TwoAddressInstructions: Use a range loop to move the copy chain (#227296)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -265211,6 +265235,20 @@
             "author_name": "Craig Topper",
             "commit_date": "2026-09-29T21:53:34-07:00",
             "subject": "foo"
+        }
+    ],
+    "antoniofrighetto\/perf\/ic-addsub-select": [
+        {
+            "hash": "87e5a59ebde0a2517cbf8f816582779be6194fe1",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-30T10:00:26+02:00",
+            "subject": "TwoAddressInstructions: Use a range loop to move the copy chain (#227296)"
+        },
+        {
+            "hash": "d3daa6cc4cc3e74b092dddd82519f7974974e24e",
+            "author_name": "Tejas Joshi",
+            "commit_date": "2026-09-30T10:01:31+02:00",
+            "subject": "[InstCombine] Optimize addition of selects"
         }
     ]
 }
