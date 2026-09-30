@@ -245997,6 +245997,18 @@
             "author_name": "Charles Zablit",
             "commit_date": "2026-09-30T13:33:12+01:00",
             "subject": "[lldb][Windows] Report module paths the way the loader spelled them (#226492)"
+        },
+        {
+            "hash": "2a6247359ee523096aaf28297bd2ac09c721ce66",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-09-30T12:45:06+00:00",
+            "subject": "[IR] Deprecate ConstantExpr::getGetElementPtr() (#227601)"
+        },
+        {
+            "hash": "07130d0c375045e5bb369bb4d174d489c8103363",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-30T12:53:05+00:00",
+            "subject": "Sparc: Mark GETPCX scratch %o7 def dead (#227676)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -265609,6 +265621,26 @@
             "author_name": "Tejas Joshi",
             "commit_date": "2026-09-30T10:01:31+02:00",
             "subject": "[InstCombine] Optimize addition of selects"
+        }
+    ],
+    "fhahn\/perf\/ce-early-check": [
+        {
+            "hash": "06a09420732f5b4aecbedbee97c5d14888cf3bf0",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-09-30T13:33:12+01:00",
+            "subject": "[lldb][Windows] Report module paths the way the loader spelled them (#226492)"
+        },
+        {
+            "hash": "ce66e05ac7f1abd714d246b389c2c33080d1e3c5",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-30T13:48:35+01:00",
+            "subject": "[ConstraintElim] Check if a single row implies a condition before FM."
+        },
+        {
+            "hash": "0845d535aedb66dbb6c130e35c4b195e5758a1d0",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-30T13:48:36+01:00",
+            "subject": "[ConstraintElim] Divide rows by the GCD of their coefficients."
         }
     ]
 }
