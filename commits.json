@@ -246165,6 +246165,42 @@
             "author_name": "Harrison Hao",
             "commit_date": "2026-09-30T22:54:20+08:00",
             "subject": "[AMDGPU] Fold sudot intrinsics with a zero multiplicand (#226479)"
+        },
+        {
+            "hash": "bbf884bc157a588b8d1f7115c1f3cb8a954aa796",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-30T17:07:59+02:00",
+            "subject": "CodeGen: Move SupportsDefaultOutlining from TargetOptions to TargetMachine (#227691)"
+        },
+        {
+            "hash": "6bb86c2af2bad73178451aa3c8cb68eb4b837f96",
+            "author_name": "DeanSturtevant1",
+            "commit_date": "2026-09-30T11:10:32-04:00",
+            "subject": "[SelectionDAG] Clear Known.One sign bit for ISD::FABS in computeKnownBits (#227457)"
+        },
+        {
+            "hash": "7ad649c95921a4ea1a4cf4d960fa946632b43a57",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-09-30T11:13:03-04:00",
+            "subject": "[Bazel] Fixes a4aea75 (#227724)"
+        },
+        {
+            "hash": "4103c42711877449d20e10766b1976f753a719d7",
+            "author_name": "Haram Jeong",
+            "commit_date": "2026-09-30T17:14:51+02:00",
+            "subject": "[InstCombine] Fold comparisons of llvm.usub.sat result with its LHS (#214108)"
+        },
+        {
+            "hash": "362a60ebc50e399983914a51b939dfbe11df15de",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-09-30T15:15:34+00:00",
+            "subject": "[LV] Reject non-simple outer-loop memory accesses. (#226212)"
+        },
+        {
+            "hash": "4b91c605bfe5872e7175b887c043549e34d2901d",
+            "author_name": "Andreas Jonson",
+            "commit_date": "2026-09-30T17:16:42+02:00",
+            "subject": "[GVN] Replace cmp with not instruction if inv cmp is found (#223171)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
