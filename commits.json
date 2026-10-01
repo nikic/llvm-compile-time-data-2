@@ -247227,6 +247227,36 @@
             "author_name": "Simon Pilgrim",
             "commit_date": "2026-10-01T11:35:37+00:00",
             "subject": "[InstCombine] SimplifyDemandedVectorElts - add smulh\/umulh handling (#228027)"
+        },
+        {
+            "hash": "fec418c78fe1e10016f893f3293a276093ebdfc1",
+            "author_name": "Graham Hunter",
+            "commit_date": "2026-10-01T11:41:11+00:00",
+            "subject": "[LV] Vectorize uncountable early exit store loops with combined conditions (#205109)"
+        },
+        {
+            "hash": "0704576db68c95ec1835771965824ba4ed4924cb",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-01T13:42:09+02:00",
+            "subject": "[AMDGPU] Reject 64-bit VOP1 DPP on gfx8\/gfx9 (#220834)"
+        },
+        {
+            "hash": "ec1f5ecb04250392ed48388621050d7cdcc5f3f3",
+            "author_name": "Caroline Newcombe",
+            "commit_date": "2026-10-01T07:43:02-04:00",
+            "subject": "[flang][OpenMP] Sink intervening code unguarded into collapsed loop body (#225159)"
+        },
+        {
+            "hash": "a9c5e57c03413e31a9293a4d938402e6204ff888",
+            "author_name": "Aaron Ballman",
+            "commit_date": "2026-10-01T07:43:50-04:00",
+            "subject": "[clang] Fix crash with follow-on diagnostics w\/invalid logical operator (#227837)"
+        },
+        {
+            "hash": "e996ce0d9ad6443a7ea3f88ccb0a8e114b0e840e",
+            "author_name": "David Sherwood",
+            "commit_date": "2026-10-01T12:44:27+01:00",
+            "subject": "[LV][NFC] Print more debug to account for mismatch in final costs (#227757)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -265781,9 +265811,9 @@
             "subject": "[SCEV] Look for guarding conditions through merge blocks."
         },
         {
-            "hash": "462c3d4134ac89504b6870920f454007fef9ee0a",
+            "hash": "b6a3c933e98791f6b7cfe38fb5db2032947b5256",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-01T10:53:14+01:00",
+            "commit_date": "2026-10-01T12:08:53+01:00",
             "subject": "Keep going"
         }
     ],
