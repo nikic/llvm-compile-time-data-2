@@ -267906,5 +267906,31 @@
             "commit_date": "2026-10-01T21:54:45+01:00",
             "subject": "[SCEV] Preserve nuw on scaled recurrence start values."
         }
+    ],
+    "JiachenYuan\/perf\/jiacheny\/lanebitmask_v3": [
+        {
+            "hash": "4e84a22ffb59732a2e6ea266a2449df227aeb327",
+            "author_name": "Jiachen Yuan",
+            "commit_date": "2026-04-21T17:33:35+00:00",
+            "subject": "[ADT] Refactor LaneBitmask to be a Bitset"
+        },
+        {
+            "hash": "e8af769dac381d1b20e5297cac4f1f4e00b9a365",
+            "author_name": "Jiachen Yuan",
+            "commit_date": "2026-04-21T17:38:33+00:00",
+            "subject": "refactor to use composition instead of inheritance"
+        },
+        {
+            "hash": "a2154852f0d330d787ef518f1b68d5f652d42a97",
+            "author_name": "Jiachen Yuan",
+            "commit_date": "2026-10-01T23:04:01+00:00",
+            "subject": "Merge remote-tracking branch 'upstream\/main' into perf\/jiacheny\/lanebitmask_v3"
+        },
+        {
+            "hash": "6f8ed4415f17a16616707810d5c0d340254e4695",
+            "author_name": "Jiachen Yuan",
+            "commit_date": "2026-10-01T23:04:01+00:00",
+            "subject": "Adapt to updated Bitset; remove magic number; drop unnecessary includes"
+        }
     ]
 }
