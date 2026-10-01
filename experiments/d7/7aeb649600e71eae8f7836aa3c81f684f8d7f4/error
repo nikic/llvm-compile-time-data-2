@@ -1,0 +1,248 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[2604/3415] Copying clang's cuda_wrappers/algorithm...
+[2605/3415] Copying clang's cuda_wrappers/cmath...
+[2606/3415] Copying clang's cuda_wrappers/complex...
+[2607/3415] Copying clang's intrin.h...
+[2608/3415] Copying clang's cuda_wrappers/new...
+[2609/3415] Copying clang's cuda_wrappers/bits/shared_ptr_base.h...
+[2610/3415] Copying clang's cuda_wrappers/bits/c++config.h...
+[2611/3415] Copying clang's cuda_wrappers/__utility/declval.h...
+[2612/3415] Copying clang's cuda_wrappers/bits/basic_string.h...
+[2613/3415] Copying clang's ppc_wrappers/bmi2intrin.h...
+[2614/3415] Copying clang's ppc_wrappers/mmintrin.h...
+[2615/3415] Copying clang's cuda_wrappers/bits/basic_string.tcc...
+[2616/3415] Copying clang's ppc_wrappers/immintrin.h...
+[2617/3415] Copying clang's ppc_wrappers/x86intrin.h...
+[2618/3415] Copying clang's ppc_wrappers/x86gprintrin.h...
+[2619/3415] Copying clang's openmp_wrappers/math.h...
+[2620/3415] Copying clang's openmp_wrappers/cmath...
+[2621/3415] Copying clang's openmp_wrappers/complex...
+[2622/3415] Copying clang's openmp_wrappers/complex.h...
+[2623/3415] Copying clang's openmp_wrappers/__clang_openmp_device_functions.h...
+[2624/3415] Copying clang's openmp_wrappers/new...
+[2625/3415] Copying clang's zos_wrappers/grp.h...
+[2626/3415] Copying clang's zos_wrappers/locale.h...
+[2627/3415] Copying clang's zos_wrappers/math.h...
+[2628/3415] Copying clang's zos_wrappers/poll.h...
+[2629/3415] Copying clang's zos_wrappers/stdlib.h...
+[2630/3415] Copying clang's openmp_wrappers/complex_cmath.h...
+[2631/3415] Copying clang's zos_wrappers/builtins.h...
+[2632/3415] Copying clang's zos_wrappers/time.h...
+[2633/3415] Copying clang's zos_wrappers/string.h...
+[2634/3415] Copying clang's zos_wrappers/variant.h...
+[2635/3415] Copying clang's hlsl/hlsl_basic_types.h...
+[2636/3415] Copying clang's hlsl.h...
+[2637/3415] Copying clang's hlsl/hlsl_compat_overloads.h...
+[2638/3415] Copying clang's hlsl/hlsl_alias_intrinsics.h...
+[2639/3415] Copying clang's hlsl/hlsl_intrinsic_helpers.h...
+[2640/3415] Copying clang's hlsl/hlsl_intrinsics.h...
+[2641/3415] Copying clang's hlsl/hlsl_detail.h...
+[2642/3415] Copying clang's hlsl/hlsl_spirv.h...
+[2643/3415] Copying clang's hlsl/hlsl_resources.h...
+[2644/3415] Copying clang's llvm_libc_wrappers/stdio.h...
+[2645/3415] Copying clang's llvm_libc_wrappers/stdlib.h...
+[2646/3415] Copying clang's llvm_libc_wrappers/ctype.h...
+[2647/3415] Copying clang's llvm_libc_wrappers/inttypes.h...
+[2648/3415] Copying clang's llvm_libc_wrappers/assert.h...
+[2649/3415] Copying clang's llvm_libc_wrappers/time.h...
+[2650/3415] Copying clang's llvm_offload_wrappers/__llvm_offload.h...
+[2651/3415] Copying clang's llvm_libc_wrappers/string.h...
+[2652/3415] Copying clang's llvm_offload_wrappers/__llvm_offload_host.h...
+[2653/3415] Copying clang's llvm_offload_wrappers/__llvm_offload_device.h...
+[2654/3415] Copying clang's hip_wrappers/hip/device_functions.h...
+[2655/3415] Copying clang's arm_sve.h...
+[2656/3415] Copying clang's arm_neon.h...
+[2657/3415] Copying clang's arm_fp16.h...
+[2658/3415] Copying clang's hip_wrappers/hip/hip_runtime.h...
+[2659/3415] Copying clang's arm_sme.h...
+[2660/3415] Copying clang's arm_bf16.h...
+[2661/3415] Copying clang's arm_cde.h...
+[2662/3415] Copying clang's arm_vector_types.h...
+[2663/3415] Copying clang's arm_mve.h...
+[2664/3415] Copying clang's hlsl/hlsl_alias_intrinsics_gen.inc...
+[2665/3415] Copying clang's hlsl/hlsl_inline_intrinsics_gen.inc...
+[2666/3415] Building CXX object tools/clang/lib/APINotes/CMakeFiles/obj.clangAPINotes.dir/APINotesTypes.cpp.o
+[2667/3415] Generating VCSVersion.inc
+[2668/3415] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/Symbols.cpp.o
+[2669/3415] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/SymbolTable.cpp.o
+[2670/3415] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/ASTSourceDescriptor.cpp.o
+[2671/3415] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/AtomicLineLogger.cpp.o
+[2672/3415] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/BuiltinTraits.cpp.o
+[2673/3415] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/CLWarnings.cpp.o
+[2674/3415] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/CharInfo.cpp.o
+[2675/3415] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/CodeGenOptions.cpp.o
+[2676/3415] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Cuda.cpp.o
+[2677/3415] Building CXX object tools/clang/lib/APINotes/CMakeFiles/obj.clangAPINotes.dir/APINotesYAMLCompiler.cpp.o
+[2678/3415] Building CXX object tools/clang/lib/Analysis/LifetimeSafety/CMakeFiles/obj.clangAnalysisLifetimeSafety.dir/Facts.cpp.o
+FAILED: tools/clang/lib/Analysis/LifetimeSafety/CMakeFiles/obj.clangAnalysisLifetimeSafety.dir/Facts.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/Analysis/LifetimeSafety -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/Analysis/LifetimeSafety -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT tools/clang/lib/Analysis/LifetimeSafety/CMakeFiles/obj.clangAnalysisLifetimeSafety.dir/Facts.cpp.o -MF tools/clang/lib/Analysis/LifetimeSafety/CMakeFiles/obj.clangAnalysisLifetimeSafety.dir/Facts.cpp.o.d -o tools/clang/lib/Analysis/LifetimeSafety/CMakeFiles/obj.clangAnalysisLifetimeSafety.dir/Facts.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/Analysis/LifetimeSafety/Facts.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclCXX.h:22,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/Analysis/Analyses/LifetimeSafety/Loans.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/Analysis/Analyses/LifetimeSafety/Facts.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/Analysis/LifetimeSafety/Facts.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h: In member function ‘void clang::ConstantExpr::SetResult(const clang::APValue&, const clang::ASTContext&)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h:1164:20: error: binding reference of type ‘clang::APValue&’ to ‘const clang::APValue’ discards qualifiers
+ 1164 |     MoveIntoResult(Value, Context);
+      |                    ^~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h:1166:32: note:   initializing argument 1 of ‘void clang::ConstantExpr::MoveIntoResult(clang::APValue&, const clang::ASTContext&)’
+ 1166 |   void MoveIntoResult(APValue &Value, const ASTContext &Context);
+      |                       ~~~~~~~~~^~~~~
+[2679/3415] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/SyntheticSections.cpp.o
+[2680/3415] Building CXX object tools/clang/lib/ExtractAPI/CMakeFiles/obj.clangExtractAPI.dir/API.cpp.o
+FAILED: tools/clang/lib/ExtractAPI/CMakeFiles/obj.clangExtractAPI.dir/API.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/ExtractAPI -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/ExtractAPI -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT tools/clang/lib/ExtractAPI/CMakeFiles/obj.clangExtractAPI.dir/API.cpp.o -MF tools/clang/lib/ExtractAPI/CMakeFiles/obj.clangExtractAPI.dir/API.cpp.o.d -o tools/clang/lib/ExtractAPI/CMakeFiles/obj.clangExtractAPI.dir/API.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/ExtractAPI/API.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclCXX.h:22,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Type.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/CanonicalType.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ExtractAPI/DeclarationFragments.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ExtractAPI/API.h:25,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/ExtractAPI/API.cpp:15:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h: In member function ‘void clang::ConstantExpr::SetResult(const clang::APValue&, const clang::ASTContext&)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h:1164:20: error: binding reference of type ‘clang::APValue&’ to ‘const clang::APValue’ discards qualifiers
+ 1164 |     MoveIntoResult(Value, Context);
+      |                    ^~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h:1166:32: note:   initializing argument 1 of ‘void clang::ConstantExpr::MoveIntoResult(clang::APValue&, const clang::ASTContext&)’
+ 1166 |   void MoveIntoResult(APValue &Value, const ASTContext &Context);
+      |                       ~~~~~~~~~^~~~~
+[2681/3415] Building CXX object tools/clang/lib/APINotes/CMakeFiles/obj.clangAPINotes.dir/APINotesManager.cpp.o
+[2682/3415] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/InitHeaderSearch.cpp.o
+[2683/3415] Building CXX object tools/clang/lib/ExtractAPI/CMakeFiles/obj.clangExtractAPI.dir/Serialization/SymbolGraphSerializer.cpp.o
+FAILED: tools/clang/lib/ExtractAPI/CMakeFiles/obj.clangExtractAPI.dir/Serialization/SymbolGraphSerializer.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/ExtractAPI -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/ExtractAPI -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT tools/clang/lib/ExtractAPI/CMakeFiles/obj.clangExtractAPI.dir/Serialization/SymbolGraphSerializer.cpp.o -MF tools/clang/lib/ExtractAPI/CMakeFiles/obj.clangExtractAPI.dir/Serialization/SymbolGraphSerializer.cpp.o.d -o tools/clang/lib/ExtractAPI/CMakeFiles/obj.clangExtractAPI.dir/Serialization/SymbolGraphSerializer.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/ExtractAPI/Serialization/SymbolGraphSerializer.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclCXX.h:22,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Type.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/CanonicalType.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ExtractAPI/DeclarationFragments.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ExtractAPI/API.h:25,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ExtractAPI/Serialization/SymbolGraphSerializer.h:20,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/ExtractAPI/Serialization/SymbolGraphSerializer.cpp:14:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h: In member function ‘void clang::ConstantExpr::SetResult(const clang::APValue&, const clang::ASTContext&)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h:1164:20: error: binding reference of type ‘clang::APValue&’ to ‘const clang::APValue’ discards qualifiers
+ 1164 |     MoveIntoResult(Value, Context);
+      |                    ^~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h:1166:32: note:   initializing argument 1 of ‘void clang::ConstantExpr::MoveIntoResult(clang::APValue&, const clang::ASTContext&)’
+ 1166 |   void MoveIntoResult(APValue &Value, const ASTContext &Context);
+      |                       ~~~~~~~~~^~~~~
+[2684/3415] Building CXX object tools/clang/lib/ExtractAPI/CMakeFiles/obj.clangExtractAPI.dir/TypedefUnderlyingTypeResolver.cpp.o
+FAILED: tools/clang/lib/ExtractAPI/CMakeFiles/obj.clangExtractAPI.dir/TypedefUnderlyingTypeResolver.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/ExtractAPI -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/ExtractAPI -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT tools/clang/lib/ExtractAPI/CMakeFiles/obj.clangExtractAPI.dir/TypedefUnderlyingTypeResolver.cpp.o -MF tools/clang/lib/ExtractAPI/CMakeFiles/obj.clangExtractAPI.dir/TypedefUnderlyingTypeResolver.cpp.o.d -o tools/clang/lib/ExtractAPI/CMakeFiles/obj.clangExtractAPI.dir/TypedefUnderlyingTypeResolver.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/ExtractAPI/TypedefUnderlyingTypeResolver.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclCXX.h:22,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Type.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/CanonicalType.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ExtractAPI/TypedefUnderlyingTypeResolver.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/ExtractAPI/TypedefUnderlyingTypeResolver.cpp:14:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h: In member function ‘void clang::ConstantExpr::SetResult(const clang::APValue&, const clang::ASTContext&)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h:1164:20: error: binding reference of type ‘clang::APValue&’ to ‘const clang::APValue’ discards qualifiers
+ 1164 |     MoveIntoResult(Value, Context);
+      |                    ^~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h:1166:32: note:   initializing argument 1 of ‘void clang::ConstantExpr::MoveIntoResult(clang::APValue&, const clang::ASTContext&)’
+ 1166 |   void MoveIntoResult(APValue &Value, const ASTContext &Context);
+      |                       ~~~~~~~~~^~~~~
+[2685/3415] Building CXX object tools/clang/lib/Lex/CMakeFiles/obj.clangLex.dir/HeaderSearch.cpp.o
+[2686/3415] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Builtins.cpp.o
+[2687/3415] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/DarwinSDKInfo.cpp.o
+[2688/3415] Building CXX object tools/clang/lib/APINotes/CMakeFiles/obj.clangAPINotes.dir/APINotesReader.cpp.o
+[2689/3415] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Diagnostic.cpp.o
+[2690/3415] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/Writer.cpp.o
+[2691/3415] Building CXX object tools/clang/lib/APINotes/CMakeFiles/obj.clangAPINotes.dir/APINotesWriter.cpp.o
+[2692/3415] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseCXXInlineMethods.cpp.o
+FAILED: tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseCXXInlineMethods.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/Parse -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/Parse -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseCXXInlineMethods.cpp.o -MF tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseCXXInlineMethods.cpp.o.d -o tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseCXXInlineMethods.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseCXXInlineMethods.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclCXX.h:22,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Type.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/CanonicalType.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclTemplate.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/Parse/ParseCXXInlineMethods.cpp:13:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h: In member function ‘void clang::ConstantExpr::SetResult(const clang::APValue&, const clang::ASTContext&)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h:1164:20: error: binding reference of type ‘clang::APValue&’ to ‘const clang::APValue’ discards qualifiers
+ 1164 |     MoveIntoResult(Value, Context);
+      |                    ^~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h:1166:32: note:   initializing argument 1 of ‘void clang::ConstantExpr::MoveIntoResult(clang::APValue&, const clang::ASTContext&)’
+ 1166 |   void MoveIntoResult(APValue &Value, const ASTContext &Context);
+      |                       ~~~~~~~~~^~~~~
+[2693/3415] Building CXX object tools/clang/lib/ASTMatchers/CMakeFiles/obj.clangASTMatchers.dir/ASTMatchFinder.cpp.o
+FAILED: tools/clang/lib/ASTMatchers/CMakeFiles/obj.clangASTMatchers.dir/ASTMatchFinder.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/ASTMatchers -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/ASTMatchers -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT tools/clang/lib/ASTMatchers/CMakeFiles/obj.clangASTMatchers.dir/ASTMatchFinder.cpp.o -MF tools/clang/lib/ASTMatchers/CMakeFiles/obj.clangASTMatchers.dir/ASTMatchFinder.cpp.o.d -o tools/clang/lib/ASTMatchers/CMakeFiles/obj.clangASTMatchers.dir/ASTMatchFinder.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/ASTMatchers/ASTMatchFinder.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclCXX.h:22,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Type.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/CanonicalType.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ASTMatchers/ASTMatchers.h:47,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/ASTMatchers/ASTMatchFinder.h:43,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/ASTMatchers/ASTMatchFinder.cpp:18:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h: In member function ‘void clang::ConstantExpr::SetResult(const clang::APValue&, const clang::ASTContext&)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h:1164:20: error: binding reference of type ‘clang::APValue&’ to ‘const clang::APValue’ discards qualifiers
+ 1164 |     MoveIntoResult(Value, Context);
+      |                    ^~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h:1166:32: note:   initializing argument 1 of ‘void clang::ConstantExpr::MoveIntoResult(clang::APValue&, const clang::ASTContext&)’
+ 1166 |   void MoveIntoResult(APValue &Value, const ASTContext &Context);
+      |                       ~~~~~~~~~^~~~~
+[2694/3415] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Attributes.cpp.o
+[2695/3415] Building CXX object tools/clang/lib/ExtractAPI/CMakeFiles/obj.clangExtractAPI.dir/ExtractAPIConsumer.cpp.o
+FAILED: tools/clang/lib/ExtractAPI/CMakeFiles/obj.clangExtractAPI.dir/ExtractAPIConsumer.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DCLANG_EXPORTS -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/clang/lib/ExtractAPI -I/var/llvm-compile-time-tracker/llvm-project/clang/lib/ExtractAPI -I/var/llvm-compile-time-tracker/llvm-project/clang/include -I/tmp/llvm-project-build-stage1/tools/clang/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT tools/clang/lib/ExtractAPI/CMakeFiles/obj.clangExtractAPI.dir/ExtractAPIConsumer.cpp.o -MF tools/clang/lib/ExtractAPI/CMakeFiles/obj.clangExtractAPI.dir/ExtractAPIConsumer.cpp.o.d -o tools/clang/lib/ExtractAPI/CMakeFiles/obj.clangExtractAPI.dir/ExtractAPIConsumer.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/clang/lib/ExtractAPI/ExtractAPIConsumer.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/DeclCXX.h:22,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Type.h:21,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/CanonicalType.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/ASTContext.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/ExtractAPI/ExtractAPIConsumer.cpp:17:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h: In member function ‘void clang::ConstantExpr::SetResult(const clang::APValue&, const clang::ASTContext&)’:
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h:1164:20: error: binding reference of type ‘clang::APValue&’ to ‘const clang::APValue’ discards qualifiers
+ 1164 |     MoveIntoResult(Value, Context);
+      |                    ^~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/include/clang/AST/Expr.h:1166:32: note:   initializing argument 1 of ‘void clang::ConstantExpr::MoveIntoResult(clang::APValue&, const clang::ASTContext&)’
+ 1166 |   void MoveIntoResult(APValue &Value, const ASTContext &Context);
+      |                       ~~~~~~~~~^~~~~
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning (policy) at cmake/modules/HandleLLVMOptions.cmake:960 (CHECK_C_SOURCE_COMPILES):
+  Policy CMP0219 is not set: Macro invocations preserve backslashes in
+  arguments.  Run "cmake --help-policy CMP0219" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  Command "CHECK_C_SOURCE_COMPILES" called with arguments containing
+  backslashes.
+
+  Since the policy is not set, backslashes in the arguments:
+
+   "// \\\n//\nint main(void) {return 0;}"
+
+  will be interpreted as escape sequences for compatibility.
+
+  Set the policy to NEW to instead pass
+
+   "// \\\\\\n//\\nint main(void) {return 0;}"
+
+  so that argument parsing will preserve the original values.
+Call Stack (most recent call first):
+  CMakeLists.txt:1144 (include)
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+Precompiled headers are disabled by default with GCC. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override.
+CMake Warning at cmake/modules/HandleLLVMOptions.cmake:1441 (message):
+  Using ccache with precompiled headers with non-Clang compilers is not
+  supported and may lead to false positives.  Set
+  CMAKE_DISABLE_PRECOMPILE_HEADERS to ON/OFF to silence this warning.
+Call Stack (most recent call first):
+  CMakeLists.txt:1144 (include)
+
+
+CMake Warning (deprecated) at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:518 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+to suppress it.
+
+Command exited with non-zero status 1
+6857.25user 353.80system 7:34.94elapsed 1585%CPU (0avgtext+0avgdata 2666968maxresident)k
+0inputs+17186112outputs (25842major+221444615minor)pagefaults 0swaps
