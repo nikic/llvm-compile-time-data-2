@@ -247743,6 +247743,18 @@
             "author_name": "Amir Livneh",
             "commit_date": "2026-10-01T20:05:29+01:00",
             "subject": "[libFuzzer] Fix typos and punctuation in flag descriptions (#122619)"
+        },
+        {
+            "hash": "7320cc1b77fbe36061f93625216893a42c715d0a",
+            "author_name": "Yusra Syeda",
+            "commit_date": "2026-10-01T15:15:42-04:00",
+            "subject": "[SystemZ][z\/OS] Fix GOFF exception table (LSDA) section generation (#228097)"
+        },
+        {
+            "hash": "ceca7fd338afee8d6c058c48a4c22b06a468d56a",
+            "author_name": "Vassil Vassilev",
+            "commit_date": "2026-10-01T22:16:31+03:00",
+            "subject": "Add Vassil's responsibilities to the CODEOWNERS file. (#228167)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -267563,6 +267575,26 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-01T18:12:10+01:00",
             "subject": "[VPlan] Canonicalize inner loop headers and latches in plain CFG."
+        }
+    ],
+    "fhahn\/perf\/scev-usecancel-fix": [
+        {
+            "hash": "733ddaba167f59a0d3e568f26ef13a96b9e9ecff",
+            "author_name": "Nikhita Hegde",
+            "commit_date": "2026-10-01T10:39:15-07:00",
+            "subject": "[SPIRV] Fix crash when two functions share an alias scope (#225017)"
+        },
+        {
+            "hash": "5943e3003228a6c8653d56e4f7d90f7c17e88749",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-01T20:19:23+01:00",
+            "subject": "[SCEV] Add tests for like terms differing only in use flags (NFC)"
+        },
+        {
+            "hash": "2c467f5feb5708e635581b7ba531f04cf83f8403",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-01T20:19:29+01:00",
+            "subject": "[SCEV] Compare canonical SCEVs when grouping and folding like terms."
         }
     ]
 }
