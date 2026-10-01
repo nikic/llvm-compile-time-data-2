@@ -247059,6 +247059,18 @@
             "author_name": "Julien Villette",
             "commit_date": "2026-10-01T08:40:55+00:00",
             "subject": "[AArch64][NeoverseV1] Load\/Store Register Half with scaling (#222282)"
+        },
+        {
+            "hash": "150f9dcdb4f06219f36031ab6d5b56fdc8499e88",
+            "author_name": "Felipe de Azevedo Piovezan",
+            "commit_date": "2026-10-01T08:54:56+00:00",
+            "subject": "[lldb] Reject thread until targets outside of an inline frame's function (#227800)"
+        },
+        {
+            "hash": "8995a358fa77a669679594aa9857ba0e0b224ab1",
+            "author_name": "Kewen Meng",
+            "commit_date": "2026-10-01T10:55:53+02:00",
+            "subject": "[LLVM] Skip non-overlapping subranges (#227852)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -266811,6 +266823,26 @@
             "author_name": "Marek Sedl\u00e1\u010dek",
             "commit_date": "2026-10-01T07:47:24+00:00",
             "subject": "Find dominating guards past non-header joins"
+        }
+    ],
+    "fhahn\/perf\/idf-bitvector": [
+        {
+            "hash": "c4e40dc23d9166005960f7e1430c1b473982e13a",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-01T08:24:38+01:00",
+            "subject": "[CODEOWNERS] Request notifications (#227742)"
+        },
+        {
+            "hash": "5a3402066a344f178125ff3364e11e92749d3539",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-01T09:39:00+01:00",
+            "subject": "[IDF] Use BitVectors indexed by DFS number for visited sets (NFC)."
+        },
+        {
+            "hash": "9c29e1132ffd4ef692676fcb286d535565d5979a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-01T09:54:03+01:00",
+            "subject": "Use SmallVector<bool>"
         }
     ]
 }
