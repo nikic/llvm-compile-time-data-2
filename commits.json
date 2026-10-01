@@ -247587,6 +247587,12 @@
             "author_name": "Daniil Dudkin",
             "commit_date": "2026-10-01T16:24:30+00:00",
             "subject": "Revert \"[clang] Avoid stack exhaustion in recursive `constexpr` calls\" (#228110)"
+        },
+        {
+            "hash": "a90d9d26f746d913da12adf3bbb95a6735741e05",
+            "author_name": "Dhairyashil R G",
+            "commit_date": "2026-10-01T18:28:35+02:00",
+            "subject": "[mlir][vector] Add an eliminate-vector-masks pass (#226517)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -266123,28 +266129,22 @@
     ],
     "fhahn\/perf\/scev-merge-block-guards": [
         {
-            "hash": "8995a358fa77a669679594aa9857ba0e0b224ab1",
-            "author_name": "Kewen Meng",
-            "commit_date": "2026-10-01T10:55:53+02:00",
-            "subject": "[LLVM] Skip non-overlapping subranges (#227852)"
+            "hash": "f81414dbe2ba478fa489730079263dbd546d18c0",
+            "author_name": "Rumo",
+            "commit_date": "2026-10-01T18:03:19+04:00",
+            "subject": "Add retrieval of unary operator spelling and python bindings (#219983)"
         },
         {
-            "hash": "e538f4ad8e1cd04fdb315dddc1358ad6448d0316",
+            "hash": "b1a6469897086ec24727d31ba9569d1555cd247a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-01T10:51:20+01:00",
-            "subject": "[SCEV] Test loop guard collection past an unrelated branch"
+            "commit_date": "2026-10-01T17:13:16+01:00",
+            "subject": "[SCEV] Add tests with loop guards behind merge blocks."
         },
         {
-            "hash": "0e834ca60f03eecc198ced35ee1c78f61c37ec99",
+            "hash": "b489d6dca1fa58b352faa81db7d254aa3be9cfea",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-01T10:51:20+01:00",
-            "subject": "[SCEV] Look for guarding conditions through merge blocks."
-        },
-        {
-            "hash": "b6a3c933e98791f6b7cfe38fb5db2032947b5256",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-01T12:08:53+01:00",
-            "subject": "Keep going"
+            "commit_date": "2026-10-01T17:28:27+01:00",
+            "subject": "[SCEV] Look for guard conditions through merge blocks."
         }
     ],
     "fhahn\/perf\/sct": [
