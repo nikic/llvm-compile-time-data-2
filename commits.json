@@ -247617,6 +247617,30 @@
             "author_name": "Kareem Ergawy",
             "commit_date": "2026-10-01T18:59:12+02:00",
             "subject": "[flang][codegen] Report a shape or slice cg-rewrite cannot read (#227625)"
+        },
+        {
+            "hash": "023cc756f984221a05af62f610b99e904292c750",
+            "author_name": "wenhu1024",
+            "commit_date": "2026-10-01T17:06:10+00:00",
+            "subject": "[NVPTX][TTI] Fix v4i8 scalarization cost (#226071)"
+        },
+        {
+            "hash": "1862526e581dd330f2b6a919b9d79ea1070b2133",
+            "author_name": "Zhen Wang",
+            "commit_date": "2026-10-01T17:07:56+00:00",
+            "subject": "[flang] Do not honor -fstack-arrays inside offload regions (#227537)"
+        },
+        {
+            "hash": "faca09a8ad559bf31f80a9bbae4ccfe2e1ed8f07",
+            "author_name": "Radovan Bo\u017ei\u0107",
+            "commit_date": "2026-10-01T10:08:14-07:00",
+            "subject": "[Clang][Sema] Add fortify warnings for fread, fwrite, and fgets (#204337)"
+        },
+        {
+            "hash": "4ceea6569a6137ce4072dc89176c11ea29b85938",
+            "author_name": "Susan Tan (\u30b9-\u30b6\u30f3\u3000\u30bf\u30f3)",
+            "commit_date": "2026-10-01T13:08:42-04:00",
+            "subject": "[flang][aa] Use Fortran dummy intent in FIR call modref (#227432)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -267423,6 +267447,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-01T17:58:37+01:00",
             "subject": "[LAA] Use EarliestEscapeAnalysis for alias queries."
+        }
+    ],
+    "fhahn\/perf\/vcane": [
+        {
+            "hash": "a938559a914538ef3ee82aaa323820e26cd62cf5",
+            "author_name": "Alok Kumar Sharma",
+            "commit_date": "2026-10-01T12:18:26+00:00",
+            "subject": "[InstCombine] Keep branch weights when folding a shift through a select (#227987)"
+        },
+        {
+            "hash": "f047e30876a133567d44c013d29e48939a2660fa",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-01T18:12:10+01:00",
+            "subject": "[VPlan] Canonicalize inner loop headers and latches in plain CFG."
         }
     ]
 }
