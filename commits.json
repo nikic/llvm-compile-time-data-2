@@ -248889,6 +248889,30 @@
             "author_name": "Miko\u0142aj Pir\u00f3g",
             "commit_date": "2026-10-02T14:59:49+00:00",
             "subject": "Sync pass name between newPM and legacy for irtranslator (#227425)"
+        },
+        {
+            "hash": "e37801d959a029800caa3459bab795bc6584fbe0",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-10-02T15:06:04+00:00",
+            "subject": "[AMDGPU] Remove redundant S_AND handling from optimizeVccBranch (#228417)"
+        },
+        {
+            "hash": "3ade3984f41cbe5094e4333020e15203a93b1cb4",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-10-02T17:07:57+02:00",
+            "subject": "[lldb] Move debug-info SDK parsing from PlatformDarwin into Platform (#144396)"
+        },
+        {
+            "hash": "5ea3e148786da2af5ed2594c88b9156f49d6f77f",
+            "author_name": "sstwcw",
+            "commit_date": "2026-10-02T15:10:36+00:00",
+            "subject": "[clang-format] Handle Verilog dist (#224794)"
+        },
+        {
+            "hash": "eb37e16f2de1d55106f5928e63eb92d4d40e2a66",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-10-02T08:12:19-07:00",
+            "subject": "[NFC][msan][test] Increase allocation size in release_origin.c (#228333)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -268791,6 +268815,20 @@
             "author_name": "Nick Desaulniers",
             "commit_date": "2026-09-30T16:59:59-07:00",
             "subject": "[CodeGen] Use SmallSetVector for getRegAllocationHints"
+        }
+    ],
+    "fhahn\/perf\/lle-prefilter": [
+        {
+            "hash": "82db5839b2261760b084c039956d83210a9f8434",
+            "author_name": "Akash Banerjee",
+            "commit_date": "2026-10-02T15:46:47+01:00",
+            "subject": "[Flang][OpenMP] Preserve absent OPTIONAL arguments in target mappings (#227343)"
+        },
+        {
+            "hash": "e799e955feff97beaebdf462dff055fd922be4fa",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-02T16:11:46+01:00",
+            "subject": "[LLE] Skip loops without potential forwarding candidates before LAA (NFC)."
         }
     ]
 }
