@@ -248823,6 +248823,12 @@
             "author_name": "Simon Pilgrim",
             "commit_date": "2026-10-02T13:45:43+00:00",
             "subject": "[X86] Replace SSE pmulhw\/pmulhuw target intrinsics with generic smulh\/umulh (#227663)"
+        },
+        {
+            "hash": "b05bc1f7066a5298bbae9b438bbf6942015536df",
+            "author_name": "Tim Gymnich",
+            "commit_date": "2026-10-02T13:56:39+00:00",
+            "subject": "[CodeGen][NFC] Replace std::function with llvm::function_ref (#228431)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -268445,21 +268451,15 @@
     ],
     "fhahn\/perf\/ce-early-check": [
         {
-            "hash": "a90d9d26f746d913da12adf3bbb95a6735741e05",
-            "author_name": "Dhairyashil R G",
-            "commit_date": "2026-10-01T18:28:35+02:00",
-            "subject": "[mlir][vector] Add an eliminate-vector-masks pass (#226517)"
+            "hash": "0dde058eb61f81213ce4ff5381c64fc0fcb4c068",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-10-02T13:45:43+00:00",
+            "subject": "[X86] Replace SSE pmulhw\/pmulhuw target intrinsics with generic smulh\/umulh (#227663)"
         },
         {
-            "hash": "5f771faeedd4e65f180d288700f00b55ff00e6e3",
+            "hash": "d98ae3a876204e99e60abb8727a25331bd43a6b2",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-01T18:14:04+01:00",
-            "subject": "[ConstraintElim] Check if a single row implies a condition before FM."
-        },
-        {
-            "hash": "c8be3eb5c05c86e487486f52df9262cea2371ba5",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-01T18:15:07+01:00",
+            "commit_date": "2026-10-02T14:53:51+01:00",
             "subject": "[ConstraintElim] Divide rows by the GCD of their coefficients."
         }
     ],
