@@ -249513,6 +249513,42 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-10-02T21:11:25+00:00",
             "subject": "[libcxx] Ensure CLANG_VERSION_MAJOR is defined in clang-tidy checks (#228127)"
+        },
+        {
+            "hash": "09a061222344326184524d731a076eb6067ae433",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-10-02T21:20:12+00:00",
+            "subject": "[libcxx] Bump clang in CI container to v24 (#227930)"
+        },
+        {
+            "hash": "a20cff91b5a8e6db2207fdaede17b82d16ce1c42",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-10-02T21:20:55+00:00",
+            "subject": "Revert \"[llvm-objcopy] Handle SHF_ALLOC relocation sections in relocatable files\" (#228572)"
+        },
+        {
+            "hash": "65d6d9c8a189c3e6623fe974df5fe623bdde9f7a",
+            "author_name": "Alex Langford",
+            "commit_date": "2026-10-02T21:22:24+00:00",
+            "subject": "[lldb] Add extra logic to find llvm-nm in standalone builds (#227487)"
+        },
+        {
+            "hash": "143eb3cae4f0bcf8c0aea6cbaf04a9edf89fcfd7",
+            "author_name": "Dave Lee",
+            "commit_date": "2026-10-02T21:23:16+00:00",
+            "subject": "[lldb] Add dictionary data type to formatter bytecode (#225955)"
+        },
+        {
+            "hash": "6fb8776580a4a21a676cd7a424346c09aed81216",
+            "author_name": "Stanislav Mekhanoshin",
+            "commit_date": "2026-10-02T21:24:20+00:00",
+            "subject": "[AMDGPU] Disable V_WMMA_F{16|32}_16X16X128_[BF]P8_[BF]P8 on gfx1250-strict (#228564)"
+        },
+        {
+            "hash": "0767d2351b27b5774ef205ea8143445231476026",
+            "author_name": "Dave Lee",
+            "commit_date": "2026-10-02T21:25:39+00:00",
+            "subject": "[lldb] Emit TypeOption flags correctly as ULEB (#227399)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -249549,12 +249585,6 @@
     ],
     "JiachenYuan\/perf\/jiachen\/lanebitmask_refactor_v2": [
         {
-            "hash": "981a9e5acb49b484230ef82819851f3a2fce5860",
-            "author_name": "vangthao95",
-            "commit_date": "2026-04-21T10:25:32-07:00",
-            "subject": "AMDGPU\/GlobalISel: RegBankLegalize rules for amdgcn_ballot (#193105)"
-        },
-        {
             "hash": "4e84a22ffb59732a2e6ea266a2449df227aeb327",
             "author_name": "Jiachen Yuan",
             "commit_date": "2026-04-21T17:33:35+00:00",
@@ -249565,6 +249595,18 @@
             "author_name": "Jiachen Yuan",
             "commit_date": "2026-04-21T17:38:33+00:00",
             "subject": "refactor to use composition instead of inheritance"
+        },
+        {
+            "hash": "8fd476b843863b4947a05b1076e8abc2ea208b26",
+            "author_name": "Jiachen Yuan",
+            "commit_date": "2026-10-02T17:53:31+00:00",
+            "subject": "Merge remote-tracking branch 'upstream\/main' into perf\/jiachen\/lanebitmask_refactor_v2"
+        },
+        {
+            "hash": "58b341dfd6eddcc768f5b4800f94973f48d1f805",
+            "author_name": "Jiachen Yuan",
+            "commit_date": "2026-10-02T20:49:27+00:00",
+            "subject": "Adapt to updated Bitset and address review feedback"
         }
     ],
     "4vtomat\/perf\/vsetvli_defer_shrink": [
