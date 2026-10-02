@@ -248037,6 +248037,30 @@
             "author_name": "forking-google-bazel-bot[bot]",
             "commit_date": "2026-10-01T23:24:54+00:00",
             "subject": "[Bazel] Fixes 1524cec (#228273)"
+        },
+        {
+            "hash": "42040049299b99c01fd841d0f123ffc7e5c13ac1",
+            "author_name": "Aaron Jomy",
+            "commit_date": "2026-10-01T16:38:13-07:00",
+            "subject": "[clang-repl] Fix TargetMachine leak in CUDA device PTX generation (#228208)"
+        },
+        {
+            "hash": "21912d49dffb43588035dcb5b99558f93139ec60",
+            "author_name": "Aaron Jomy",
+            "commit_date": "2026-10-01T16:40:25-07:00",
+            "subject": "[clang-repl] Fix TargetMachine leak in CUDA device PTX generation (#228208)"
+        },
+        {
+            "hash": "d4f6f06041126b3a343ddc21e6bacc19358cc022",
+            "author_name": "Aaron Jomy",
+            "commit_date": "2026-10-01T16:42:06-07:00",
+            "subject": "[clang-repl] Fix TargetMachine leak in CUDA device PTX generation (#228208)"
+        },
+        {
+            "hash": "0791157af02871142368d001fd8c2c1fd2b3a2a6",
+            "author_name": "A. Jiang",
+            "commit_date": "2026-10-01T23:50:09+00:00",
+            "subject": "[libc++][test] Remove some `XFAIL` for LLVM libc in multi-threaded tests (#228036)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -267931,6 +267955,20 @@
             "author_name": "Jiachen Yuan",
             "commit_date": "2026-10-01T23:04:01+00:00",
             "subject": "Adapt to updated Bitset; remove magic number; drop unnecessary includes"
+        }
+    ],
+    "nickdesaulniers\/perf\/regalloc_hints_codegen": [
+        {
+            "hash": "cdbca60c7d5f41ec7f332341f97f16e4e2e221cb",
+            "author_name": "Alex MacLean",
+            "commit_date": "2026-09-28T13:45:27-07:00",
+            "subject": "[InferAddressSpaces] Check volatile support in the destination AS (#224702)"
+        },
+        {
+            "hash": "58df225acc35c256448fcfc8b183305363f99611",
+            "author_name": "Nick Desaulniers",
+            "commit_date": "2026-09-30T16:59:59-07:00",
+            "subject": "[CodeGen] Use SmallSetVector for getRegAllocationHints"
         }
     ]
 }
