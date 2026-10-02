@@ -249459,6 +249459,30 @@
             "author_name": "Nick Riasanovsky",
             "commit_date": "2026-10-02T20:06:03+00:00",
             "subject": "[NFC] Fix whitespace in NVPTXIntrinsics.td (#228553)"
+        },
+        {
+            "hash": "66b01663b5842909892e71d6a43a2ab87791e7d1",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-02T20:19:38+00:00",
+            "subject": "[CIR][OpenCL] Emit opencl.spir.version metadata for SPIR targets (#228400)"
+        },
+        {
+            "hash": "839f8621d7256651de4aeae2c65993b87d62c29d",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-10-02T13:21:18-07:00",
+            "subject": "[lldb] Track the target's executable instead of guessing (#228131)"
+        },
+        {
+            "hash": "77f982cc4c29f7ca20690dd169c849d8a3cd0324",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-02T20:28:06+00:00",
+            "subject": "[CIR][AMDGPU][SPIR-V] Emit max_work_group_size for HIP kernels (#227715)"
+        },
+        {
+            "hash": "1dafadd18f0f30a52831d59fe13648092d626584",
+            "author_name": "Thurston Dang",
+            "commit_date": "2026-10-02T13:29:27-07:00",
+            "subject": "[msan] Handle Arm NEON FP8 FDOT2\/FDOT4 (#227850)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -269209,6 +269233,12 @@
             "author_name": "Guozhi Wei",
             "commit_date": "2026-10-02T10:25:34-07:00",
             "subject": "[RegAlloc] Experiment CSR opt with MaxVRegForCSROpt=30"
+        },
+        {
+            "hash": "cae482d17167cc83173603d12c3aed7e952aed5b",
+            "author_name": "Guozhi Wei",
+            "commit_date": "2026-10-02T13:27:23-07:00",
+            "subject": "[RegAlloc] Experiment CSR opt with MaxVRegForCSROpt=25"
         }
     ],
     "mark-sed\/perf\/scev-dominating-guard": [
