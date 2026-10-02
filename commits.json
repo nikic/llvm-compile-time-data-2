@@ -248985,6 +248985,54 @@
             "author_name": "Alex Duran",
             "commit_date": "2026-10-02T17:51:31+02:00",
             "subject": "[OFFLOAD] Add olIterateCompatibleDevices API (#226441)"
+        },
+        {
+            "hash": "e3ba0841a01eef468062f736e59ca7d014a4f11f",
+            "author_name": "Jianhui Li",
+            "commit_date": "2026-10-02T09:03:16-07:00",
+            "subject": "[mlir][xegpu] Fix high-D nd base_height for non-packed plane strides (#225556)"
+        },
+        {
+            "hash": "48b67fee8cdc30afbb77e7e4629e2ba5704631c7",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-02T16:03:58+00:00",
+            "subject": "[OpenMPToLLVMIRTranslation] Save allocaIP after splitting (#228495)"
+        },
+        {
+            "hash": "2b066829678436c9c82966c280466adfa82ba1aa",
+            "author_name": "UebelAndre",
+            "commit_date": "2026-10-02T09:04:24-07:00",
+            "subject": "[bazel] Keep lit tests on the platform-default runfiles mode (#228446)"
+        },
+        {
+            "hash": "9df479b8d1fe53c38527caa1936dbda1ce9ec5c9",
+            "author_name": "UebelAndre",
+            "commit_date": "2026-10-02T09:05:33-07:00",
+            "subject": "[bazel] Stop forcing PIC on Windows (#228454)"
+        },
+        {
+            "hash": "ce7e1864de80d5695ddc064fb0a785125898af22",
+            "author_name": "UebelAndre",
+            "commit_date": "2026-10-02T09:06:49-07:00",
+            "subject": "[bazel] Shard clang's analysis_flow_sensitive_tests (#228487)"
+        },
+        {
+            "hash": "9f27e0165ddbd78385e2e3bc56fb747f2de18324",
+            "author_name": "miyan",
+            "commit_date": "2026-10-02T09:08:18-07:00",
+            "subject": "[mlir][python] Avoid versioned Python DLL with stable ABI on Windows (#225794)"
+        },
+        {
+            "hash": "e7e609e69ec43ce370f5e411ffb25076137955b7",
+            "author_name": "David Spickett",
+            "commit_date": "2026-10-02T17:09:38+01:00",
+            "subject": "[compiler-rt][hwasan][test] Temporarily disable hwasan_symbolize_stack_overflow.cpp (#228496)"
+        },
+        {
+            "hash": "d9d72d603296da6188c8c8c1f56e6c515a4818a6",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-02T16:09:58+00:00",
+            "subject": "RegisterCoalescer: Don't mark a remat def dead when the copy destination covers it (#226037)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -268717,6 +268765,12 @@
             "author_name": "Guozhi Wei",
             "commit_date": "2026-09-30T15:31:55-07:00",
             "subject": "[RegAlloc] Limit CSR optimization for large functions"
+        },
+        {
+            "hash": "f316ae25d5ac2c6b5ffed41d7028e89c5772fa37",
+            "author_name": "Guozhi Wei",
+            "commit_date": "2026-10-02T09:05:41-07:00",
+            "subject": "[RegAlloc] Experiment CSR opt with MaxVRegForCSROpt=10"
         }
     ],
     "mark-sed\/perf\/scev-dominating-guard": [
