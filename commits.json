@@ -270381,6 +270381,18 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-03T23:10:39+02:00",
             "subject": "[BasicAA] Delay offset ranges until the GCD check fails"
+        },
+        {
+            "hash": "30dae5543a94c190575dc151704430409df15037",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-03T23:22:01+02:00",
+            "subject": "[BasicAA] Check offset preconditions before proving nonzero"
+        },
+        {
+            "hash": "ed0a6a1071d400a81b19de6176315ea63fad89ad",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-03T23:22:01+02:00",
+            "subject": "[BasicAA] Reuse known bits before proving indices unequal"
         }
     ],
     "davidbolvansky\/perf\/basicaa-delay-offset-ranges": [
@@ -270395,6 +270407,34 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-03T23:10:20+02:00",
             "subject": "[BasicAA] Delay offset ranges until the GCD check fails"
+        }
+    ],
+    "davidbolvansky\/perf\/basicaa-reuse-nonequal-knownbits": [
+        {
+            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-03T22:22:02+02:00",
+            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
+        },
+        {
+            "hash": "588e2e74dc723071b4c905329cd807e1bdc8ebdb",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-03T23:21:26+02:00",
+            "subject": "[BasicAA] Reuse known bits before proving indices unequal"
+        }
+    ],
+    "davidbolvansky\/perf\/basicaa-reuse-nonzero-knownbits": [
+        {
+            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-03T22:22:02+02:00",
+            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
+        },
+        {
+            "hash": "9fdf7cd2ececf240f8358764141324450f1bd979",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-03T23:18:42+02:00",
+            "subject": "[BasicAA] Check offset preconditions before proving nonzero"
         }
     ]
 }
