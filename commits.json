@@ -270373,6 +270373,12 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-04T00:32:07+02:00",
             "subject": "[BasicAA] Exercise extended select offsets with a residual byte offset"
+        },
+        {
+            "hash": "de0f01200e0c661c337e570d37f63d1ef734aa24",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-04T00:40:05+02:00",
+            "subject": "[BasicAA] Preserve select offset differences through index truncation"
         }
     ],
     "davidbolvansky\/perf\/basicaa-combined": [
@@ -270541,6 +270547,20 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-04T00:11:16+02:00",
             "subject": "[ValueTracking] Evaluate bounded dominating branch ranges"
+        }
+    ],
+    "davidbolvansky\/perf\/basicaa-gep-correlations": [
+        {
+            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-03T22:22:02+02:00",
+            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
+        },
+        {
+            "hash": "332571d609c6909917cb6fe9b289c048dcc6666d",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-04T00:42:39+02:00",
+            "subject": "[BasicAA] Decompose explicit truncation in GEP indices"
         }
     ]
 }
