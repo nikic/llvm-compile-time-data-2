@@ -269947,28 +269947,28 @@
     ],
     "fhahn\/perf\/o3-ct": [
         {
-            "hash": "b96b66160ace30c2b5eef1f4afdb14c95ecc26cd",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-30T13:48:55+00:00",
-            "subject": "[SCEV] Use howManyLessThans to implement howManyGreaterThans. (#226846)"
+            "hash": "a9b0b3d9971e1a469553d3c35b12ccf00407c847",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-03T08:09:03-07:00",
+            "subject": "[Analysis] Remove unused functions (NFC) (#228674)"
         },
         {
-            "hash": "5ffb13d6d1f87195bba8af13366a152a7de2bfe0",
+            "hash": "79ad4d524214787bf35106efd1589ce50a65f013",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-30T14:57:09+01:00",
-            "subject": "[IDF] Use BitVectors indexed by DFS number for visited sets (NFC)."
-        },
-        {
-            "hash": "18f3cab804f98653c6b3a56b6ac02c9f6960b672",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-30T14:57:12+01:00",
-            "subject": "[AArch64] Stop computing loop cost once force-unroll threshold is reached (NFC)."
-        },
-        {
-            "hash": "48707810b5daf1fd88d3bdc118da447081aa32d5",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-30T14:57:13+01:00",
+            "commit_date": "2026-10-03T20:53:32+00:00",
             "subject": "[LoopUnrollAnalyzer] Evaluate affine AddRecs with constant step directly (NFC)."
+        },
+        {
+            "hash": "f38227613915ac0a06abda642459fd4dab17f364",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-03T20:53:59+00:00",
+            "subject": "[TypeBasedAA] Avoid constructing two ancestor paths (NFC)"
+        },
+        {
+            "hash": "9890f004924611c97b9da1d031397135e88a06f0",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-03T20:54:21+00:00",
+            "subject": "[NewPM] Skip result cleanup when no analyses were invalidated (NFC)"
         }
     ],
     "tbaederr\/perf\/quoted-name": [
@@ -270309,6 +270309,40 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-10-03T15:09:41+02:00",
             "subject": "reserve"
+        }
+    ],
+    "davidbolvansky\/perf\/basicaa-phi-common-object": [
+        {
+            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-03T22:22:02+02:00",
+            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
+        },
+        {
+            "hash": "6cd098bed7347d98a7820b2f67a8a2e322d77ef3",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-03T23:01:55+02:00",
+            "subject": "[BasicAA] Resolve common objects at complex PHI bailouts"
+        },
+        {
+            "hash": "d0b6c4116c8dc5a620060442bc34835633445390",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-03T23:07:49+02:00",
+            "subject": "[BasicAA] Use a shared complex PHI bailout block"
+        }
+    ],
+    "davidbolvansky\/perf\/basicaa-select-offsets": [
+        {
+            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-03T22:22:02+02:00",
+            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
+        },
+        {
+            "hash": "9fcc3f729efe6dbe6183bf24d2d6c9c1c3d9eb48",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-03T23:06:24+02:00",
+            "subject": "[BasicAA] Check constant offsets in select index alternatives"
         }
     ]
 }
