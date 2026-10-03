@@ -270456,5 +270456,67 @@
             "commit_date": "2026-10-03T23:48:58+02:00",
             "subject": "[ValueTracking] Use immediate branch conditions in constant ranges"
         }
+    ],
+    "davidbolvansky\/perf\/basicaa-early-definitive-cache": [
+        {
+            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-03T22:22:02+02:00",
+            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
+        },
+        {
+            "hash": "46438c38cc3a91790bf03a177a9fbc6c18228e38",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-04T00:05:14+02:00",
+            "subject": "[BasicAA] Experiment with early definitive cache lookups"
+        }
+    ],
+    "davidbolvansky\/perf\/basicaa-range-before-minabs": [
+        {
+            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-03T22:22:02+02:00",
+            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
+        }
+    ],
+    "davidbolvansky\/perf\/basicaa-select-offset-casts": [
+        {
+            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-03T22:22:02+02:00",
+            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
+        },
+        {
+            "hash": "2d2ca4bae1ad65cc67580abdd249400b3fbdec85",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-04T00:05:18+02:00",
+            "subject": "[BasicAA] Check constant offsets in select index alternatives"
+        },
+        {
+            "hash": "803cd5535ea18f07332c305cc7910d154d747961",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-04T00:07:17+02:00",
+            "subject": "[BasicAA] Extend select offset proofs through integer extensions"
+        }
+    ],
+    "davidbolvansky\/perf\/valuetracking-dominating-ranges": [
+        {
+            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-03T22:22:02+02:00",
+            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
+        },
+        {
+            "hash": "c35e9e41ab1c119b1853d5d40b5c8e0f80d72bbe",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-04T00:07:24+02:00",
+            "subject": "[ValueTracking] Use immediate branch conditions in constant ranges"
+        },
+        {
+            "hash": "a22c1e3a28a0bef8876ca6fd3d7256fac9ffe194",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-04T00:11:16+02:00",
+            "subject": "[ValueTracking] Evaluate bounded dominating branch ranges"
+        }
     ]
 }
