@@ -250299,6 +250299,12 @@
             "author_name": "Aman Maurya",
             "commit_date": "2026-10-03T20:53:10+00:00",
             "subject": "[libc] Implement fchownat in unistd (#227974)"
+        },
+        {
+            "hash": "89e73043002530e7df3da13e423258f6766f23bf",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-10-04T08:17:02+11:00",
+            "subject": "[llvm-jitlink] Add -platform for explicit platform selection (#228703)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -270343,6 +270349,52 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-03T23:06:24+02:00",
             "subject": "[BasicAA] Check constant offsets in select index alternatives"
+        }
+    ],
+    "davidbolvansky\/perf\/basicaa-combined": [
+        {
+            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-03T22:22:02+02:00",
+            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
+        },
+        {
+            "hash": "b09959cd708b2b2c06e68ec04bb0822bb2cf80d0",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-03T23:10:38+02:00",
+            "subject": "[BasicAA] Resolve common objects at complex PHI bailouts"
+        },
+        {
+            "hash": "9e7cf6a67ddf50f4e2a34949e8049e6a52b2888a",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-03T23:10:38+02:00",
+            "subject": "[BasicAA] Use a shared complex PHI bailout block"
+        },
+        {
+            "hash": "0b108095bd676d4c6d954170be4b2bb81d316b56",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-03T23:10:39+02:00",
+            "subject": "[BasicAA] Check constant offsets in select index alternatives"
+        },
+        {
+            "hash": "ab112204038c35b532198391aa2059edefe60948",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-03T23:10:39+02:00",
+            "subject": "[BasicAA] Delay offset ranges until the GCD check fails"
+        }
+    ],
+    "davidbolvansky\/perf\/basicaa-delay-offset-ranges": [
+        {
+            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-03T22:22:02+02:00",
+            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
+        },
+        {
+            "hash": "297d945e37217d7ed2fc1d2713c531601993622b",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-03T23:10:20+02:00",
+            "subject": "[BasicAA] Delay offset ranges until the GCD check fails"
         }
     ]
 }
