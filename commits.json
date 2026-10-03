@@ -250101,6 +250101,18 @@
             "author_name": "Folkert de Vries",
             "commit_date": "2026-10-03T12:31:42+00:00",
             "subject": "[PowerPC][SDAG] fix bitcast on ppc_f128 swapping the two halves (#208969)"
+        },
+        {
+            "hash": "284afa9de7eddc1fdd8798800e573d190dba7dff",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-10-03T08:09:03-05:00",
+            "subject": "[flang][OpenMP] Move leftover functions from structure to loop, NFC (#228705)"
+        },
+        {
+            "hash": "cd8d3f00c51c2b5a0ebaad76d1a148ed0208953f",
+            "author_name": "n0ma",
+            "commit_date": "2026-10-03T13:13:54+00:00",
+            "subject": "[clang-format] Allow one indent level before explicit access labels (#227704)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -270059,6 +270071,52 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-02T16:11:46+01:00",
             "subject": "[LLE] Skip loops without potential forwarding candidates before LAA (NFC)."
+        }
+    ],
+    "fhahn\/perf\/ce-phi-cmp-header-bound2": [
+        {
+            "hash": "7516fa2ca8a47c15f5f31265f05c1157b56bb735",
+            "author_name": "Ryosuke Niwa",
+            "commit_date": "2026-10-03T00:27:16-07:00",
+            "subject": "[webkit.UncountedLambdaCapturesChecker] Treat call_once arguments as noescape (#224492)"
+        },
+        {
+            "hash": "676dafb301441602df62fe3fa9f59b56fee21a9f",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-03T11:48:40+01:00",
+            "subject": "[ConstraintElim] Add tests for bounds from compares of induction phis (NFC)."
+        },
+        {
+            "hash": "588c9a31e9ba68497482863816397acdaafe4a9a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-03T11:48:41+01:00",
+            "subject": "[ConstraintElim] Bound IVs by compares of the phi in header\/latch."
+        },
+        {
+            "hash": "72ec7a0df786a4211a6ead36cc997863675ea6ab",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-03T14:06:20+01:00",
+            "subject": "!fixup skip adding"
+        }
+    ],
+    "tbaederr\/perf\/quoted-name2": [
+        {
+            "hash": "1e60b852a9d7f73ffed3540e9ea84aefde1b80ab",
+            "author_name": "Folkert de Vries",
+            "commit_date": "2026-10-03T12:31:42+00:00",
+            "subject": "[PowerPC][SDAG] fix bitcast on ppc_f128 swapping the two halves (#208969)"
+        },
+        {
+            "hash": "911f63c8ac9486fe5b65f80f4cadd0db4abe7cf3",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-10-03T14:37:09+02:00",
+            "subject": "quoted name"
+        },
+        {
+            "hash": "87da13500f7540200213b1900fdd17f926e1159b",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-10-03T15:09:41+02:00",
+            "subject": "reserve"
         }
     ]
 }
