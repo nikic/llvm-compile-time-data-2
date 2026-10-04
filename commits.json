@@ -250371,6 +250371,18 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-10-03T21:50:54-04:00",
             "subject": "[SLP]Fix crash on deleted main op of copyable state in reductions"
+        },
+        {
+            "hash": "e94b7487cf8ebe71744cd4137c9a0968affa0ec2",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-10-04T01:52:00+00:00",
+            "subject": "[NFC][TSan] Merge ScopedReportBase into ScopedReport (#228640)"
+        },
+        {
+            "hash": "4bbc53c674e769269437c8d803bfca12cb1bd3de",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-10-04T01:58:46+00:00",
+            "subject": "[orc-rt] Make noErrors report errors as test failures (#228807)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -270661,6 +270673,12 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-04T02:22:14+02:00",
             "subject": "[InstCombine] Fold comparisons of normalized integer conversions"
+        },
+        {
+            "hash": "b7bffe59f07e0088f85a4ed9dedb44e0bc95841e",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-04T03:58:10+02:00",
+            "subject": "[InstCombine] Make normalized min\/max checks order-independent"
         }
     ],
     "davidbolvansky\/perf\/simplify-libcalls-sincos": [
