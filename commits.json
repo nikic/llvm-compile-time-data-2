@@ -270626,5 +270626,25 @@
             "commit_date": "2026-10-04T02:22:14+02:00",
             "subject": "[InstCombine] Fold comparisons of normalized integer conversions"
         }
+    ],
+    "davidbolvansky\/perf\/simplify-libcalls-sincos": [
+        {
+            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-03T22:22:02+02:00",
+            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
+        },
+        {
+            "hash": "1513df309f148b217a40f4a9b46e530d7a71ff1f",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-04T02:32:31+02:00",
+            "subject": "[InstCombine] Add tests for effectful sin and cos pairs"
+        },
+        {
+            "hash": "8ae7550b465d5c3b1d12d76af7247c527dcb27f6",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-04T02:37:44+02:00",
+            "subject": "[SimplifyLibCalls] Combine effectful sin and cos pairs on GNU Linux"
+        }
     ]
 }
