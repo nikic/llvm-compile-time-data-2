@@ -250593,6 +250593,12 @@
             "author_name": "Folkert de Vries",
             "commit_date": "2026-10-04T15:43:37+00:00",
             "subject": "[Loongarch] fix int to float conversion on non-MVT vector types (#228896)"
+        },
+        {
+            "hash": "1f50f094b9e5acd52e6ba7270e238d79e440dc1e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-04T15:48:03+00:00",
+            "subject": "[VPlan] Support pointer min\/max bounds in VPlan memory runtime checks. (#225828)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -270499,21 +270505,27 @@
     ],
     "fhahn\/perf\/scevuse-mul-add-rec-start": [
         {
-            "hash": "32d1053b64b5f26f06960e65da313879ec968086",
-            "author_name": "Kazu Hirata",
-            "commit_date": "2026-10-04T08:20:48+00:00",
-            "subject": "[CodeGen] Remove unused functions (NFC) (#228844)"
+            "hash": "9870703eb8e7fe5799abe68d0b8fee29e5bf504d",
+            "author_name": "Folkert de Vries",
+            "commit_date": "2026-10-04T15:43:37+00:00",
+            "subject": "[Loongarch] fix int to float conversion on non-MVT vector types (#228896)"
         },
         {
-            "hash": "1c46118e5ade8431e1a5583abab1e592df6de48f",
+            "hash": "2212fd76ccc9d33df8cdf201a605d42a3895a23d",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-04T10:14:50+01:00",
+            "commit_date": "2026-10-04T16:44:51+01:00",
+            "subject": "Only build for changed"
+        },
+        {
+            "hash": "7105783fa53b4893dd998f85fbc3d93ce6335fbb",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-04T16:44:52+01:00",
             "subject": "[SCEV] Preserve nuw on scaled recurrence start values."
         },
         {
-            "hash": "81ac08246dcc50ca4c7cf431a17572d12b7a4c2e",
+            "hash": "c90a7fb2579e92128d1e5f82023b89f6f4622773",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-04T12:19:31+01:00",
+            "commit_date": "2026-10-04T16:44:52+01:00",
             "subject": "Simp"
         }
     ],
