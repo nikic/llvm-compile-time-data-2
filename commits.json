@@ -250335,6 +250335,24 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-10-03T20:25:41-04:00",
             "subject": "[SLP][NFC]Add extra tests with missing vectorization, NFC"
+        },
+        {
+            "hash": "d42998a2c314be90cedd8c0c0f35e6e04dc19909",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-04T01:10:57+00:00",
+            "subject": "[SelectionDAG] Remove vector_extract_subvec\/vector_insert_subvec from TargetSelectionDAG.td. NFC (#228662)"
+        },
+        {
+            "hash": "340c69d7db052a43b6ed266dd7c4bb1a9c91c2ec",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-10-03T18:11:39-07:00",
+            "subject": "[CodeGen] Stop exporting cl::opts. NFC (#228728)"
+        },
+        {
+            "hash": "1969746ace37f9b0ead79cf63515940895a1f050",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-10-04T01:14:19+00:00",
+            "subject": "[orc-rt] Use the Error matchers in SimpleNativeMemoryMapSPSCITest (#228796)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -270651,6 +270669,32 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-04T02:38:27+02:00",
             "subject": "[InstCombine] Exercise strict FP call attributes in sincos test"
+        }
+    ],
+    "davidbolvansky\/perf\/lv-identical-gep-safe-loads": [
+        {
+            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-03T22:22:02+02:00",
+            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
+        },
+        {
+            "hash": "9378c08cae51e55c7aebc1ebcd1c61126b49b421",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-04T02:55:08+02:00",
+            "subject": "[LV] Add tests for predicated loads through equivalent pointers"
+        },
+        {
+            "hash": "2dc397ff65f5ccf6abfeb4d3300d1cfa02e17331",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-04T03:03:40+02:00",
+            "subject": "[LV] Cover unknown pointer poison and equivalent poisoned offsets"
+        },
+        {
+            "hash": "2a4d3a7087a3ff17e509b93a4c6f23215c0fed16",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-04T03:10:07+02:00",
+            "subject": "[LV] Recognize safe loads through equivalent pointers"
         }
     ]
 }
