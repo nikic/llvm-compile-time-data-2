@@ -250359,6 +250359,18 @@
             "author_name": "Lang Hames",
             "commit_date": "2026-10-04T01:24:08+00:00",
             "subject": "[orc-rt] Use the Error matchers in ProxyTest (#228799)"
+        },
+        {
+            "hash": "0579ef5283d0afee8deab1da67c49968301984ca",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-10-04T01:49:04+00:00",
+            "subject": "[orc-rt] Use the Error matchers in SPSWrapperFunctionTest (#228804)"
+        },
+        {
+            "hash": "f3a1a8cc52c69fdcaea6733db8b45160c5189f11",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-03T21:50:54-04:00",
+            "subject": "[SLP]Fix crash on deleted main op of copyable state in reductions"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -270715,6 +270727,26 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-04T03:32:08+02:00",
             "subject": "[VPlan] Cost replicated scalar addresses without vector overhead"
+        }
+    ],
+    "davidbolvansky\/perf\/instcombine-shrink-log-intrinsics": [
+        {
+            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-03T22:22:02+02:00",
+            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
+        },
+        {
+            "hash": "44d29b7e245ad676175aaa27878e61a1b27b7a16",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-04T03:35:03+02:00",
+            "subject": "[InstCombine] Cover shrinking logarithm intrinsics to float"
+        },
+        {
+            "hash": "78abcd945879dccc473b1343ac1c2793dedcc82f",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-04T03:42:33+02:00",
+            "subject": "[InstCombine] Shrink fast logarithm intrinsics to float"
         }
     ]
 }
