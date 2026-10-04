@@ -250329,6 +250329,12 @@
             "author_name": "Brad Smith",
             "commit_date": "2026-10-04T00:01:18+00:00",
             "subject": "[cmake] Sync Haiku cases in config.guess with downstream (#228784)"
+        },
+        {
+            "hash": "4d05decfb375614061071af4a499af0722dd573a",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-03T20:25:41-04:00",
+            "subject": "[SLP][NFC]Add extra tests with missing vectorization, NFC"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -270599,6 +270605,26 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-04T01:29:05+02:00",
             "subject": "[InstCombine] Fold comparisons of exact integer-to-FP casts"
+        }
+    ],
+    "davidbolvansky\/perf\/instcombine-normalized-int-fcmp": [
+        {
+            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-03T22:22:02+02:00",
+            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
+        },
+        {
+            "hash": "daf25cf1c3f6709e442ac13e891864244b9fbbc4",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-04T02:20:36+02:00",
+            "subject": "[InstCombine] Add tests for comparisons of normalized integers"
+        },
+        {
+            "hash": "7f2ba971490e8c4eb89f6493259b8db0b457a1e3",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-04T02:22:14+02:00",
+            "subject": "[InstCombine] Fold comparisons of normalized integer conversions"
         }
     ]
 }
