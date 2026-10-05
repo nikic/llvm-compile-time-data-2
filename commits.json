@@ -250875,6 +250875,24 @@
             "author_name": "Matt Turner",
             "commit_date": "2026-10-05T07:34:32+00:00",
             "subject": "[TailCallElim] Do not mark a call tail when it is handed the frame (#218797)"
+        },
+        {
+            "hash": "933a9a8369cddcc9c293f0c4002612d10070484e",
+            "author_name": "jeanPerier",
+            "commit_date": "2026-10-05T09:41:28+02:00",
+            "subject": "[mlir][scf] Keep scf.yield locations when lowering scf.execute_region (#228575)"
+        },
+        {
+            "hash": "0098b5c2887cd44f63364ea48f813dff36767f77",
+            "author_name": "jeanPerier",
+            "commit_date": "2026-10-05T09:41:36+02:00",
+            "subject": "[flang] Fix locations of wrapped unstructured constructs and DO loop ends (#228577)"
+        },
+        {
+            "hash": "c30b45e936405939b9da7e2f503577f47264bf6d",
+            "author_name": "Ben Wu",
+            "commit_date": "2026-10-05T07:43:28+00:00",
+            "subject": "[NFC][IR] Use getDataLayout member function for Function and GlobalValue (#228964)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
