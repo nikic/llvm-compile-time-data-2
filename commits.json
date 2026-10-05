@@ -251415,6 +251415,24 @@
             "author_name": "Harrison Hao",
             "commit_date": "2026-10-05T22:22:41+08:00",
             "subject": "[AMDGPU] Fold mul24 with an operand whose low 24 bits are zero (#224537)"
+        },
+        {
+            "hash": "af37a65a8381c32375894ee3c4d28f80b20b149d",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-05T14:25:57+00:00",
+            "subject": "[SPIR-V] Lower OpenCL get_kernel_* queries to OpGetKernel* instructions (#227455)"
+        },
+        {
+            "hash": "9a998ee82299ae2cb35ae66e41484f1ed0945b68",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-10-05T14:27:28+00:00",
+            "subject": "[clang] Add a one-entry cache to DiagStateMap::getFile() (#228956)"
+        },
+        {
+            "hash": "ee0ff209c3aa270d99b7f1ea0548c6aa5f4267b2",
+            "author_name": "David Zbarsky",
+            "commit_date": "2026-10-05T14:28:18+00:00",
+            "subject": "[clang] Deduplicate builtin diagnostic descriptions (#202624)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -271677,6 +271695,12 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-05T16:11:54+02:00",
             "subject": "[BasicAA] Preserve inequality proofs across explicit truncations"
+        },
+        {
+            "hash": "06bca6a4900b72a734661d60ea7d00176a2f905f",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-05T16:24:30+02:00",
+            "subject": "[BasicAA] Separate truncated offset analysis from GEP decomposition"
         }
     ],
     "davidbolvansky\/perf\/instcombine-fcmp-int-to-fp": [
