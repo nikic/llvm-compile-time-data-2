@@ -251931,6 +251931,48 @@
             "author_name": "David Blaikie",
             "commit_date": "2026-10-05T19:43:57+00:00",
             "subject": "[Verifier] Don't treat noipa callees as non-inlinable in the !dbg check (#228241)"
+        },
+        {
+            "hash": "639e8db90b6ffbfe9937b7e1e10c8a066d736916",
+            "author_name": "David Blaikie",
+            "commit_date": "2026-10-05T19:48:10+00:00",
+            "subject": "[ConstantFold] Don't let noipa block global address equality folding (#228186)"
+        },
+        {
+            "hash": "c29426f07918afbd9ab786b09404e8a5e5923efe",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-05T19:48:57+00:00",
+            "subject": "[RISCV][Disassembler] Reject GPR pairs with x16-x31 under RVE (#229166)"
+        },
+        {
+            "hash": "5e88676891fc9623d524f3f78e39f374d3bbe24f",
+            "author_name": "Cyndy Ishida",
+            "commit_date": "2026-10-05T12:50:05-07:00",
+            "subject": "[clang][deps][test] Filter modules-in-stable-dirs output with scan-deps-filter, NFC (#229155)"
+        },
+        {
+            "hash": "08b3dd3501d344f4c12e15f100b61ead56be13ff",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-05T19:51:18+00:00",
+            "subject": "SystemZ: Don't convert AND to RISBG if CC is live (#229063)"
+        },
+        {
+            "hash": "a3ebd6acd605ea72db538726963c407b99ce69f9",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-05T19:54:51+00:00",
+            "subject": "[SPIR-V] Lower get_fence builtin to OpGenericPtrMemSemantics (#229023)"
+        },
+        {
+            "hash": "2e52adbdea53c107480134b1c683dbf2c4f523f0",
+            "author_name": "hidekisaito",
+            "commit_date": "2026-10-05T19:55:12+00:00",
+            "subject": "[SLP][AMDGPU][NFC] Precommit test for alternate node fmul cost (#229185)"
+        },
+        {
+            "hash": "b50151ea8ea9ca57c97da9f816dbfb964e2e4279",
+            "author_name": "Andre Kuhlenschmidt",
+            "commit_date": "2026-10-05T12:56:33-07:00",
+            "subject": "[flang][test] Narrow dead SELECT CASE check (#229164)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
