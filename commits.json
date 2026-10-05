@@ -251505,6 +251505,18 @@
             "author_name": "Aochang Liu",
             "commit_date": "2026-10-05T15:28:36+00:00",
             "subject": "[X86] Swap CMP operands for COND_A in ADC\/SBB fold (#228710)"
+        },
+        {
+            "hash": "c0a16344f599f172e78ba733d15f72b5ccdffee5",
+            "author_name": "Samarth Narang",
+            "commit_date": "2026-10-05T11:50:35-04:00",
+            "subject": "[mlir][sparse] Order the inferred lvlToDim results by dimension (#227674)"
+        },
+        {
+            "hash": "decb108c516fe4dcefb4ef06de208bfb96baf3d3",
+            "author_name": "Sander de Smalen",
+            "commit_date": "2026-10-05T15:56:40+00:00",
+            "subject": "[LV] NFC: Move PHI\/result update out of transformToPartialReduction. (#228436)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -272039,6 +272051,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-05T12:52:27+01:00",
             "subject": "[ConstraintElim] Use single-row witnesses to prove no-wrap near type limits."
+        }
+    ],
+    "artagnon\/perf\/vplan-first-lane-ct": [
+        {
+            "hash": "86f29a10fa88f6a6a8ed3d5a82207b14251fa222",
+            "author_name": "\u029f\u1d1c\u0274\u1d07x",
+            "commit_date": "2026-10-05T13:59:56+00:00",
+            "subject": "[LV] Fix double-application of FindIV reduction expression in epilogue (#219362)"
+        },
+        {
+            "hash": "07884e57a7319ccf15698711d645b83163d74d1d",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-05T16:51:03+01:00",
+            "subject": "[VPlan] Avoid recursive-fan-out of usesFirstLaneOnly"
         }
     ]
 }
