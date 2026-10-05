@@ -251529,6 +251529,24 @@
             "author_name": "Mirko Brku\u0161anin",
             "commit_date": "2026-10-05T16:02:18+00:00",
             "subject": "[AMDGPU] Turn tablegen tables with single bool into filtered lists. NFC (#227746)"
+        },
+        {
+            "hash": "669dd4b63df05a7f88a12230f6ec520ebca96671",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-05T12:12:50-04:00",
+            "subject": "[SLP][NFC]Add a test for big endian target per review, NFC"
+        },
+        {
+            "hash": "446c2010451e5c15004e8673955b5d12c80ee0fc",
+            "author_name": "Doha Nam",
+            "commit_date": "2026-10-05T16:13:30+00:00",
+            "subject": "[DAGCombiner] Don't fold GET_FPENV_MEM into a store whose address depends on it (#228839)"
+        },
+        {
+            "hash": "26d6e158262c3e37ac5428a9aaa5dfc5e657a665",
+            "author_name": "Alexander Shaposhnikov",
+            "commit_date": "2026-10-05T09:16:01-07:00",
+            "subject": "[SPIRV] Preserve Workgroup execution scope for OpenCL barriers (#228961)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -270677,6 +270695,12 @@
             "author_name": "Stephen Tozer",
             "commit_date": "2026-09-25T20:36:56+01:00",
             "subject": "Remove unnecessary\/excessive verifier checks"
+        },
+        {
+            "hash": "6e47439b25d10dcfece6163c7135f897591183d5",
+            "author_name": "Stephen Tozer",
+            "commit_date": "2026-10-05T17:14:43+01:00",
+            "subject": "Use DbgLocStorage instead of DebugLoc in many places"
         }
     ],
     "mark-sed\/perf\/multi-exit-unroll-small-trip-count": [
