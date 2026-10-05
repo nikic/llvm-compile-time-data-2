@@ -251733,6 +251733,30 @@
             "author_name": "Dhruva Chakrabarti",
             "commit_date": "2026-10-05T17:13:11+00:00",
             "subject": "[AMDGPU][NFC] Harden scheduler tests balanced on pressure boundaries (#228293)"
+        },
+        {
+            "hash": "9d514d9a7fcdc3551bb229d42b043cf9054e6b98",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-10-05T17:13:58+00:00",
+            "subject": "[Bazel] Fixes 38d295d (#229142)"
+        },
+        {
+            "hash": "0c783490e7eef4985eb1b0e0b4c20d25030d333e",
+            "author_name": "Alan Li",
+            "commit_date": "2026-10-05T13:18:36-04:00",
+            "subject": "[AMDGPU] Do not treat VOP3P `op_sel_hi` as a `dst_sel` forwarding hazard (#228486)"
+        },
+        {
+            "hash": "fd904780719f38afd615cd2d9a7bbb45d09ff1bc",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-05T17:20:55+00:00",
+            "subject": "[Analysis][ADT] Remove unused llvm::LoopBodyTraits (NFC) (#228993)"
+        },
+        {
+            "hash": "11f533111575e9ccefea35a7090592375e24543b",
+            "author_name": "eleviant",
+            "commit_date": "2026-10-05T19:22:43+02:00",
+            "subject": "[MemDep] Stop traversal if invariant.group load operand is a constant (#223456)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -272283,16 +272307,22 @@
     ],
     "artagnon\/perf\/vplan-first-lane-ct": [
         {
-            "hash": "86f29a10fa88f6a6a8ed3d5a82207b14251fa222",
-            "author_name": "\u029f\u1d1c\u0274\u1d07x",
-            "commit_date": "2026-10-05T13:59:56+00:00",
-            "subject": "[LV] Fix double-application of FindIV reduction expression in epilogue (#219362)"
+            "hash": "d505972fe455d05d77ec696fbab7afdce31f0e1c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-05T16:23:49+00:00",
+            "subject": "[LAA] Prove monotonicity of add\/mul expressions. (#220715)"
         },
         {
-            "hash": "07884e57a7319ccf15698711d645b83163d74d1d",
+            "hash": "9c8fa8a3be664d12843dcc7937a103b85b67b2fd",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-05T16:51:03+01:00",
+            "commit_date": "2026-10-05T17:44:06+01:00",
             "subject": "[VPlan] Avoid recursive-fan-out of usesFirstLaneOnly"
+        },
+        {
+            "hash": "f87de391d91330ea7ac9dd0a028fee26d3550501",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-05T18:13:33+01:00",
+            "subject": "[VPlan] Introduce VPRecurseResult"
         }
     ]
 }
