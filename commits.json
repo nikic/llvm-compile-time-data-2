@@ -251325,6 +251325,18 @@
             "author_name": "theRonShark",
             "commit_date": "2026-10-05T13:17:03+00:00",
             "subject": "Revert \"[AMDGPU] Legalize uniform 16-bit loads to match subword load instructions\" (#229071)"
+        },
+        {
+            "hash": "e89c6bf20311deeac98980e1ed37527a3a28cc47",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-05T13:19:26+00:00",
+            "subject": "[AMDGPU][GlobalISel] Avoid 64-bit width V_BFE (#220653)"
+        },
+        {
+            "hash": "0e7e59dcf4ac70f055195782cf88e637655f6fa3",
+            "author_name": "Dominik Steenken",
+            "commit_date": "2026-10-05T15:20:32+02:00",
+            "subject": "[SystemZ] Expand and automate .insn directive coverage (#222031)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -271345,12 +271357,6 @@
     ],
     "davidbolvansky\/perf\/basicaa-phi-common-object": [
         {
-            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
-            "author_name": "\u00d6mer Sinan A\u011facan",
-            "commit_date": "2026-10-03T22:22:02+02:00",
-            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
-        },
-        {
             "hash": "6cd098bed7347d98a7820b2f67a8a2e322d77ef3",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-03T23:01:55+02:00",
@@ -271361,6 +271367,12 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-03T23:07:49+02:00",
             "subject": "[BasicAA] Use a shared complex PHI bailout block"
+        },
+        {
+            "hash": "e036adec38f9df08818bfd5a592c040287bcad0a",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-05T15:22:01+02:00",
+            "subject": "Merge remote-tracking branch 'origin\/main' into HEAD"
         }
     ],
     "davidbolvansky\/perf\/basicaa-select-offsets": [
@@ -271497,12 +271509,6 @@
     ],
     "davidbolvansky\/perf\/basicaa-early-definitive-cache": [
         {
-            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
-            "author_name": "\u00d6mer Sinan A\u011facan",
-            "commit_date": "2026-10-03T22:22:02+02:00",
-            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
-        },
-        {
             "hash": "46438c38cc3a91790bf03a177a9fbc6c18228e38",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-04T00:05:14+02:00",
@@ -271513,6 +271519,12 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-04T02:03:31+02:00",
             "subject": "[BasicAA] Share the alias recursion limit with early cache lookup"
+        },
+        {
+            "hash": "a206bf312283793095f7046a8a18fb1912e7ecca",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-05T15:15:30+02:00",
+            "subject": "Merge remote-tracking branch 'origin\/main' into HEAD"
         }
     ],
     "davidbolvansky\/perf\/basicaa-range-before-minabs": [
@@ -271571,25 +271583,19 @@
     ],
     "davidbolvansky\/perf\/basicaa-gep-correlations": [
         {
-            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
-            "author_name": "\u00d6mer Sinan A\u011facan",
-            "commit_date": "2026-10-03T22:22:02+02:00",
-            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
-        },
-        {
             "hash": "332571d609c6909917cb6fe9b289c048dcc6666d",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-04T00:42:39+02:00",
             "subject": "[BasicAA] Decompose explicit truncation in GEP indices"
+        },
+        {
+            "hash": "cf81548230e9f8f948d4899718897e5bc362ff18",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-05T15:19:51+02:00",
+            "subject": "Merge remote-tracking branch 'origin\/main' into HEAD"
         }
     ],
     "davidbolvansky\/perf\/instcombine-fcmp-int-to-fp": [
-        {
-            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
-            "author_name": "\u00d6mer Sinan A\u011facan",
-            "commit_date": "2026-10-03T22:22:02+02:00",
-            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
-        },
         {
             "hash": "c359c4ada80e647908fd53fba9a3c311f941a201",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
@@ -271601,15 +271607,15 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-04T01:29:05+02:00",
             "subject": "[InstCombine] Fold comparisons of exact integer-to-FP casts"
+        },
+        {
+            "hash": "11ed349ac801b3baa3da0b524f28c51e2ed60513",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-05T15:19:47+02:00",
+            "subject": "Merge remote-tracking branch 'origin\/main' into HEAD"
         }
     ],
     "davidbolvansky\/perf\/instcombine-normalized-int-fcmp": [
-        {
-            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
-            "author_name": "\u00d6mer Sinan A\u011facan",
-            "commit_date": "2026-10-03T22:22:02+02:00",
-            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
-        },
         {
             "hash": "daf25cf1c3f6709e442ac13e891864244b9fbbc4",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
@@ -271633,15 +271639,15 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-04T04:01:20+02:00",
             "subject": "[InstCombine] Sequence normalized operand construction explicitly"
+        },
+        {
+            "hash": "2bffcdd441fa4bb17dd62c249909d1614c5aa88b",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-05T15:15:27+02:00",
+            "subject": "Merge remote-tracking branch 'origin\/main' into HEAD"
         }
     ],
     "davidbolvansky\/perf\/simplify-libcalls-sincos": [
-        {
-            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
-            "author_name": "\u00d6mer Sinan A\u011facan",
-            "commit_date": "2026-10-03T22:22:02+02:00",
-            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
-        },
         {
             "hash": "1513df309f148b217a40f4a9b46e530d7a71ff1f",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
@@ -271659,6 +271665,12 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-04T02:38:27+02:00",
             "subject": "[InstCombine] Exercise strict FP call attributes in sincos test"
+        },
+        {
+            "hash": "9b374a6c7b4d7739b2eab0d0f1377f1f17b1e461",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-05T15:15:24+02:00",
+            "subject": "Merge remote-tracking branch 'origin\/main' into HEAD"
         }
     ],
     "davidbolvansky\/perf\/lv-identical-gep-safe-loads": [
@@ -271689,25 +271701,19 @@
     ],
     "davidbolvansky\/perf\/lv-scalar-replicated-address-cost": [
         {
-            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
-            "author_name": "\u00d6mer Sinan A\u011facan",
-            "commit_date": "2026-10-03T22:22:02+02:00",
-            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
-        },
-        {
             "hash": "661243a55b20b32a655e69400fa82ca7c1a64951",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-04T03:32:08+02:00",
             "subject": "[VPlan] Cost replicated scalar addresses without vector overhead"
+        },
+        {
+            "hash": "0e957e4497c288a33c71c026bfda2d642cbbfa4d",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-05T15:15:20+02:00",
+            "subject": "Merge remote-tracking branch 'origin\/main' into HEAD"
         }
     ],
     "davidbolvansky\/perf\/instcombine-shrink-log-intrinsics": [
-        {
-            "hash": "88dd82f800f46c3ec4c16932a705091434e17ae0",
-            "author_name": "\u00d6mer Sinan A\u011facan",
-            "commit_date": "2026-10-03T22:22:02+02:00",
-            "subject": "[opt-viewer] Fix demangler usage with multiprocessing (#228388)"
-        },
         {
             "hash": "44d29b7e245ad676175aaa27878e61a1b27b7a16",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
@@ -271719,6 +271725,12 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-04T03:42:33+02:00",
             "subject": "[InstCombine] Shrink fast logarithm intrinsics to float"
+        },
+        {
+            "hash": "50f4feb0100afffc09af955e29a92896e8c1aa8b",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-05T15:19:12+02:00",
+            "subject": "Merge remote-tracking branch 'origin\/main' into HEAD"
         }
     ],
     "AnonMiraj\/perf\/concept-cache-canonical-key": [
