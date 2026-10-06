@@ -253347,6 +253347,24 @@
             "author_name": "forking-google-bazel-bot[bot]",
             "commit_date": "2026-10-06T13:24:52-07:00",
             "subject": "[Bazel] Fixes f5dcdfd (#229539)"
+        },
+        {
+            "hash": "f156865f68e8f169120d192bb7400522f04e606e",
+            "author_name": "Joshua Batista",
+            "commit_date": "2026-10-06T20:40:05+00:00",
+            "subject": "[DirectX] Cast the pointer for atomics whose value type differs (#226563)"
+        },
+        {
+            "hash": "53a26d02824352725c5132b33a6f9360cf72cf6d",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-06T20:47:33+00:00",
+            "subject": "AMDGPU\/GlobalISel: Split 4-byte aligned 64-bit LDS accesses on SI (#229531)"
+        },
+        {
+            "hash": "8a502dd8176ad434379806d3c431d4a37883db6d",
+            "author_name": "Ambrose Leeb",
+            "commit_date": "2026-10-06T20:53:38+00:00",
+            "subject": "[Clang] [NFC] Introduce factory functions for `Token` (#229254)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -274101,11 +274119,19 @@
             "author_name": "Anonmiraj",
             "commit_date": "2026-10-06T22:59:51+03:00",
             "subject": "[clang] Compute only the filename for presumed-file checks"
+        }
+    ],
+    "AnonMiraj\/perf\/presumed-check-cheap-first": [
+        {
+            "hash": "018a46162a84070109760677031bcd636ed6026e",
+            "author_name": "Sachin \ud83d\uddf2",
+            "commit_date": "2026-10-03T16:09:52+00:00",
+            "subject": "[libc][bazel] Adds missing targets for double smoke tests (#226823)"
         },
         {
-            "hash": "423ed6d7385f52516828b2b8b6bea3dd040a4255",
+            "hash": "4380a0103a91fbee4566ab198c427a9d2baf467e",
             "author_name": "Anonmiraj",
-            "commit_date": "2026-10-06T23:00:20+03:00",
+            "commit_date": "2026-10-06T23:07:24+03:00",
             "subject": "[clang] Check the cheap condition before the presumed file"
         }
     ]
