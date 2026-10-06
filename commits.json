@@ -253485,6 +253485,18 @@
             "author_name": "Bruno Cardoso Lopes",
             "commit_date": "2026-10-06T15:13:37-07:00",
             "subject": "[CIR] Fix use-after-free in BrOp::canonicalize (#229191)"
+        },
+        {
+            "hash": "b82f26bb71b8354ba0a42f3093927e70c70753dc",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-06T22:38:36+00:00",
+            "subject": "[LV] Use frozen start values from the main plan directly (NFC). (#229571)"
+        },
+        {
+            "hash": "db34882c45d460a1f37030ff0230aa5a8f2677a8",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-06T22:43:58+00:00",
+            "subject": " [RISCV] Fold (sub 0, (srl (and X, (1 << ShAmt)), ShAmt)) -> (sra (shl X, ShAmt2), bits-1) (#229509)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
