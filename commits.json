@@ -271503,27 +271503,27 @@
     ],
     "artagnon\/perf\/scev-exact-flags": [
         {
-            "hash": "e0f3c0a384c05cdb0685a5dad437a423e399cfb9",
-            "author_name": "Timm Baeder",
-            "commit_date": "2026-09-30T08:46:32+02:00",
-            "subject": "[clang][bytecode][NFC] Simplify Descriptor::getLocation() (#227266)"
+            "hash": "0c53d0f836f58d43a0d305e36de00ace9600e608",
+            "author_name": "Rohan Shenoy",
+            "commit_date": "2026-10-06T10:49:12+00:00",
+            "subject": "[X86] Require contract on FMUL while folding FMADDSUB to VFMULC (#229309)"
         },
         {
-            "hash": "cc25c36577006e361f94cbb1748ec4aedb50f1b1",
+            "hash": "a639e566397f5900374fd7fa4e1e09a4f2771e7a",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-30T09:29:21+01:00",
+            "commit_date": "2026-10-06T13:17:32+01:00",
             "subject": "[LoopUnroll] Pre-commit udiv-exact tests"
         },
         {
-            "hash": "c57ea523161cac62b942681cab15e87bba18ef45",
+            "hash": "e8a23aa84060705f0ffc3b5cf1a17d1b9ed41485",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-30T09:29:21+01:00",
+            "commit_date": "2026-10-06T13:17:32+01:00",
             "subject": "[SCEV] Introduce exact flag for UDiv"
         },
         {
-            "hash": "4a18dd009c14e45073989a3c07e45f279598dd24",
+            "hash": "f18d54d88a98b61a99c29abd011a2e66a9553535",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-30T09:35:15+01:00",
+            "commit_date": "2026-10-06T13:17:32+01:00",
             "subject": "[SCEV] Fix nits, strengthen with asserts"
         }
     ],
@@ -273401,6 +273401,20 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-06T13:42:51+02:00",
             "subject": "[LV] Clarify safe access names and lambda capture"
+        }
+    ],
+    "AnonMiraj\/perf\/debuginfo-setlocation-presumed-once": [
+        {
+            "hash": "018a46162a84070109760677031bcd636ed6026e",
+            "author_name": "Sachin \ud83d\uddf2",
+            "commit_date": "2026-10-03T16:09:52+00:00",
+            "subject": "[libc][bazel] Adds missing targets for double smoke tests (#226823)"
+        },
+        {
+            "hash": "a8e612de635e58322015a27282bc49036f3cdd41",
+            "author_name": "Anonmiraj",
+            "commit_date": "2026-10-06T15:25:56+03:00",
+            "subject": "[clang] Reuse the PresumedLoc setLocation already computed"
         }
     ]
 }
