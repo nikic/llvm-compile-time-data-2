@@ -252891,6 +252891,48 @@
             "author_name": "Eric Ross",
             "commit_date": "2026-10-06T15:40:20+00:00",
             "subject": "[KnownFPClass] Fix KnownFPClass::frem subnormal handling and improve deductions. (#219303)"
+        },
+        {
+            "hash": "5731f58221e7617d02a1e4b72d990bd76e7eaa5e",
+            "author_name": "Alex MacLean",
+            "commit_date": "2026-10-06T15:45:44+00:00",
+            "subject": "[SeparateConstOffsetFromGEP] Simplify zero operands when rebuilding indices (#229209)"
+        },
+        {
+            "hash": "a63780f65f92e2d3796547fd84bce06f70e911c7",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-10-06T15:46:45+00:00",
+            "subject": "[NFC][TSan] Use ScopedReport::AddThread(Tid) in ReportRace (#228813)"
+        },
+        {
+            "hash": "b4280d6b668ad2e1392f8cd677e140ff7508be1c",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-10-06T15:48:45+00:00",
+            "subject": "[mlir][docs] Clarify operation parser generation context (NFC) (#229460)"
+        },
+        {
+            "hash": "52281efd81ec2da401c4d0c0d071cad1583d752b",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-06T15:49:11+00:00",
+            "subject": "[VPlan] Run CSE in VPlanTransforms::optimize (#203370)"
+        },
+        {
+            "hash": "c9e13e0607d5d05e73c944cc001d86a88b5a1271",
+            "author_name": "MMS IT GmbH",
+            "commit_date": "2026-10-06T17:50:22+02:00",
+            "subject": "[SystemZ][z\/OS] Keep read-only data in the code section only if local and without relocations (#226683)"
+        },
+        {
+            "hash": "dc17218634e94310f8ce806cfaddc2107d422737",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-06T15:53:09+00:00",
+            "subject": "AMDGPU: Use HasUsableDSOffset for LDS read2\/write2 patterns (#229446)"
+        },
+        {
+            "hash": "cf131447a0a2f0c16afe4aeb9deecafe2b747942",
+            "author_name": "Jason Van Beusekom",
+            "commit_date": "2026-10-06T10:54:53-05:00",
+            "subject": "[flang][mlir][OpenMP] Report Fortran names for privatized target maps (#228195)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
