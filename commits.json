@@ -253197,6 +253197,24 @@
             "author_name": "Cheng-Chieh Liu",
             "commit_date": "2026-10-06T21:06:19+02:00",
             "subject": "[mlir][Vector] Guard scalable reduction dim in matmul lowering (#226024)"
+        },
+        {
+            "hash": "7a64e5f945917f2c1fcfbc4d7c113e1844902bdc",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-06T19:10:27+00:00",
+            "subject": "Revert \"[VPlan] Run CSE in VPlanTransforms::optimize\" (#229507)"
+        },
+        {
+            "hash": "696f94b600e3b67d095f092fb548bebb2f2f7e7d",
+            "author_name": "Ryan Buchner",
+            "commit_date": "2026-10-06T12:12:17-07:00",
+            "subject": "[RISCV] Account for the size of the constant pool in getConstantPoolLoadCost() with CostKind == CodeSize (#228134)"
+        },
+        {
+            "hash": "866529b1bf15b4199c7a5cb0c2d37b555e23ee6b",
+            "author_name": "Andreas Jonson",
+            "commit_date": "2026-10-06T21:15:04+02:00",
+            "subject": "[GVN] Refactor code into `replaceWithEquivalentCmp` function (NFC) (#228579)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -272387,6 +272405,12 @@
             "author_name": "Stephen Tozer",
             "commit_date": "2026-10-06T15:48:25+01:00",
             "subject": "Apply a small set of misc fixes:"
+        },
+        {
+            "hash": "20fe41c68548c70c1c075266c5bb193bc2140fbe",
+            "author_name": "Stephen Tozer",
+            "commit_date": "2026-10-06T20:11:16+01:00",
+            "subject": "Replace DebugLoc->DbgLocStorage in SelectionDAG"
         }
     ],
     "mark-sed\/perf\/multi-exit-unroll-small-trip-count": [
