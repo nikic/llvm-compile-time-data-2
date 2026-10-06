@@ -84021,15 +84021,15 @@
     ],
     "s-barannikov\/perf\/sdag-delete-node-notify-listeners": [
         {
-            "hash": "bb1765179e1fe7d671edf92eba22da2ed4173848",
-            "author_name": "Sergei Barannikov",
-            "commit_date": "2025-04-26T15:25:40+03:00",
-            "subject": "[TTI] Simplify implementation (NFCI) (#136674)"
+            "hash": "696f94b600e3b67d095f092fb548bebb2f2f7e7d",
+            "author_name": "Ryan Buchner",
+            "commit_date": "2026-10-06T12:12:17-07:00",
+            "subject": "[RISCV] Account for the size of the constant pool in getConstantPoolLoadCost() with CostKind == CodeSize (#228134)"
         },
         {
-            "hash": "688212560cf5e76de53fe2078899d1ccb3b52bc9",
+            "hash": "d239e6aa3a89d4fb860ad5feb12fda1e64feb5c8",
             "author_name": "Sergei Barannikov",
-            "commit_date": "2025-04-26T16:23:38+03:00",
+            "commit_date": "2026-10-06T22:49:57+03:00",
             "subject": "[SDag] Notify listeners when deleting a node"
         }
     ],
@@ -253371,6 +253371,12 @@
             "author_name": "Henrich Lauko",
             "commit_date": "2026-10-06T23:02:33+02:00",
             "subject": "[CIR][CodeGen][NFC] Share the bit-field and vbase layout ABI predicates (#227258)"
+        },
+        {
+            "hash": "304f41a0e0cf037600a86ba5899d08dd8bbb1713",
+            "author_name": "Domenic Nutile",
+            "commit_date": "2026-10-06T21:04:45+00:00",
+            "subject": "[AMDGPU][SROA] Expand cast chain handling to floating point types (#228113)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
