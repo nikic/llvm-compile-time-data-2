@@ -252939,6 +252939,24 @@
             "author_name": "Riyaz Ahmad",
             "commit_date": "2026-10-06T21:30:43+05:30",
             "subject": "[compiler-rt][ubsan] Link -ldl in hsa-missing.cpp (#229343)"
+        },
+        {
+            "hash": "02f857fd64ffd081a5afc6087c19fa77eb2f240f",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-10-06T09:11:07-07:00",
+            "subject": "[NFC][TSan] Lock ThreadRegistryLock inside ScopedReport::AddThread and AddLocation (#228814)"
+        },
+        {
+            "hash": "c28606d755b3b574bec9f722379fa1103e54860f",
+            "author_name": "Jack Frankland",
+            "commit_date": "2026-10-06T17:13:04+01:00",
+            "subject": "[mlir][tosa] Reapply \"Lower ROW_GATHER to Linalg (#225417)\" (#229412)"
+        },
+        {
+            "hash": "ed686e3e2128888f7ec0e9a882527dc069b7e5cf",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-10-06T16:14:10+00:00",
+            "subject": "[gn build] Port 681e59fb1d3a (#229467)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -273601,34 +273619,16 @@
             "subject": "[CodeGen] Ignore debug instructions in EarlyIfConversion scan budget (#224495)"
         },
         {
-            "hash": "a5a75c1d9799b65b077d8c2051bbdb3b08248b5b",
+            "hash": "66a97380a6ba484f4aefbb827145bdb6aa39f7bd",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-06T15:07:21+02:00",
-            "subject": "[LV] Track type and alignment of safe predicated accesses"
+            "commit_date": "2026-10-06T18:09:28+02:00",
+            "subject": "[LV] Add tests for predicated load access safety"
         },
         {
-            "hash": "0637a6197d05618f8aa0de55a58ff0c7a9b29803",
+            "hash": "3d7c5b0996101949b3658ba5218054a82eee4f47",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-06T15:07:22+02:00",
-            "subject": "[LV] Share safe access recording and simplify regression tests"
-        },
-        {
-            "hash": "28d913f484bdaf92ebd98c17417232be1e7a3a40",
-            "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-06T15:07:22+02:00",
-            "subject": "[LV] Limit access safety checks to vectorized code"
-        },
-        {
-            "hash": "0c59e1d79084792f02847bcd1a1141107c46f8c3",
-            "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-06T15:07:22+02:00",
-            "subject": "[LV] Clarify safe access names and lambda capture"
-        },
-        {
-            "hash": "42341e980a22b5928bb40643cc9e27dd42c76018",
-            "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-06T15:07:22+02:00",
-            "subject": "[LV] Update comments describing safe accesses"
+            "commit_date": "2026-10-06T18:10:19+02:00",
+            "subject": "[LV] Respect access type and alignment when speculating loads"
         }
     ],
     "AnonMiraj\/perf\/debuginfo-setlocation-presumed-once": [
