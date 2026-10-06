@@ -273097,34 +273097,28 @@
     ],
     "davidbolvansky\/perf\/lv-identical-gep-safe-loads": [
         {
-            "hash": "9378c08cae51e55c7aebc1ebcd1c61126b49b421",
-            "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-04T02:55:08+02:00",
-            "subject": "[LV] Add tests for predicated loads through equivalent pointers"
+            "hash": "d0b14769483b211c8efeb4750129729204f8e8d0",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-06T10:37:58+02:00",
+            "subject": "clang: Set the exception model module flag for IR inputs (#228372)"
         },
         {
-            "hash": "2dc397ff65f5ccf6abfeb4d3300d1cfa02e17331",
+            "hash": "86437400ddc04435d84552ca63840af96219ecba",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-04T03:03:40+02:00",
-            "subject": "[LV] Cover unknown pointer poison and equivalent poisoned offsets"
+            "commit_date": "2026-10-06T13:00:42+02:00",
+            "subject": "[LV] Track type and alignment of safe predicated accesses"
         },
         {
-            "hash": "2a4d3a7087a3ff17e509b93a4c6f23215c0fed16",
+            "hash": "85f2371968fc095f7a72e07ccb21d29a4345c7aa",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-04T03:10:07+02:00",
-            "subject": "[LV] Recognize safe loads through equivalent pointers"
+            "commit_date": "2026-10-06T13:03:45+02:00",
+            "subject": "[LV] Recognize identical GEP accesses on top of speculation safety fix"
         },
         {
-            "hash": "ab9275ef7886f236a9fd7f4c60f82aa1b89c4334",
+            "hash": "8f9ad6b108fef943b952d044a57406c32111261b",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-05T15:17:20+02:00",
-            "subject": "Merge remote-tracking branch 'origin\/main' into HEAD"
-        },
-        {
-            "hash": "55e5e9d840a92e7d93ab2e2bd6c395eabb25891a",
-            "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-05T15:33:57+02:00",
-            "subject": "Use identical GEPs to recognize safe predicated loads"
+            "commit_date": "2026-10-06T13:04:09+02:00",
+            "subject": "Merge previous GEP optimization branch, keeping split safety fix"
         }
     ],
     "davidbolvansky\/perf\/lv-scalar-replicated-address-cost": [
@@ -273259,6 +273253,18 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-10-06T10:54:23+01:00",
             "subject": "[VPlan] Fix an include, strip some bad comments"
+        },
+        {
+            "hash": "4a71bead632a809f18f552c0dac69b9e11088ab1",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-06T11:56:14+01:00",
+            "subject": "[VPlan] Put methods back into cpp files"
+        },
+        {
+            "hash": "4462d832c2ab5310eeb05bb17750f4754e94630f",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-06T11:58:55+01:00",
+            "subject": "[VPlan] Put usesFirstLaneOnly back into cpp"
         }
     ],
     "MaskRay\/perf\/fastra-tied-aarch64": [
@@ -273273,6 +273279,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-10-05T21:33:15-07:00",
             "subject": "[AArch64] Let RegAllocFast lower tied operands"
+        }
+    ],
+    "davidbolvansky\/perf\/lv-predicated-load-access-safety": [
+        {
+            "hash": "d0b14769483b211c8efeb4750129729204f8e8d0",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-06T10:37:58+02:00",
+            "subject": "clang: Set the exception model module flag for IR inputs (#228372)"
+        },
+        {
+            "hash": "86437400ddc04435d84552ca63840af96219ecba",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-06T13:00:42+02:00",
+            "subject": "[LV] Track type and alignment of safe predicated accesses"
         }
     ]
 }
