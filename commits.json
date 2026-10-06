@@ -253287,6 +253287,42 @@
             "author_name": "Alexander Shaposhnikov",
             "commit_date": "2026-10-06T19:54:37+00:00",
             "subject": "[SPIRV] Splat scalar condition for vector OpSelect prior to SPIR-V 1.4 (#229267)"
+        },
+        {
+            "hash": "2c10250e85242b85040d7b8592dd47de429717ad",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-10-06T19:55:38+00:00",
+            "subject": "[lldb] Add StringPool and per-debugger and system pool handles (NFC) (#228611)"
+        },
+        {
+            "hash": "6f6cf1ae76c45b8e080bd94d3cc9bd95a870fd1c",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-10-06T19:56:27+00:00",
+            "subject": "[clang] Don't add built-in operator candidates that can't be viable (#227584)"
+        },
+        {
+            "hash": "b94190719887a7297a4b50966492fc8511b0a7ac",
+            "author_name": "Vineet Kumar",
+            "commit_date": "2026-10-06T20:07:12+00:00",
+            "subject": "[flang][Semantics] Enforce F2023 C1545 only for generic references (#219581)"
+        },
+        {
+            "hash": "e8add39d7cd205884e7d3f93fd9caef70f89f427",
+            "author_name": "Aaron Ballman",
+            "commit_date": "2026-10-06T20:09:32+00:00",
+            "subject": "Fix a typo in the release notes; NFC (#229552)"
+        },
+        {
+            "hash": "e03123a6316288a69ab94ebe82871e683970456b",
+            "author_name": "Florian Mayer",
+            "commit_date": "2026-10-06T13:14:09-07:00",
+            "subject": "[FlowSensitive] add handling for AssertionResultExpectation (#229273)"
+        },
+        {
+            "hash": "f0d6540d530734a196626bf47a4b18828f222857",
+            "author_name": "Florian Mayer",
+            "commit_date": "2026-10-06T13:14:19-07:00",
+            "subject": "[FlowSensitive] [Optional] [StatusOr] handle AssertionResultExpectation (#229274)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -274027,6 +274063,26 @@
             "author_name": "Momchil Velikov",
             "commit_date": "2026-10-06T16:57:43+00:00",
             "subject": "[GVN] Do not create\/destroy a local copy of GVNPassImpl in the run method"
+        }
+    ],
+    "AnonMiraj\/perf\/presumed-filename-only": [
+        {
+            "hash": "018a46162a84070109760677031bcd636ed6026e",
+            "author_name": "Sachin \ud83d\uddf2",
+            "commit_date": "2026-10-03T16:09:52+00:00",
+            "subject": "[libc][bazel] Adds missing targets for double smoke tests (#226823)"
+        },
+        {
+            "hash": "6b1adff13f67fba765167dd204727afd90d560f6",
+            "author_name": "Anonmiraj",
+            "commit_date": "2026-10-06T22:59:51+03:00",
+            "subject": "[clang] Compute only the filename for presumed-file checks"
+        },
+        {
+            "hash": "423ed6d7385f52516828b2b8b6bea3dd040a4255",
+            "author_name": "Anonmiraj",
+            "commit_date": "2026-10-06T23:00:20+03:00",
+            "subject": "[clang] Check the cheap condition before the presumed file"
         }
     ]
 }
