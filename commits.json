@@ -252507,6 +252507,24 @@
             "author_name": "nudt_yixiao",
             "commit_date": "2026-10-06T08:24:15+00:00",
             "subject": "[Clang] Avoid assertion failure for initialized extern aliases (#223124)"
+        },
+        {
+            "hash": "e5893c19c984235f124126a81ffce85cb8f7b085",
+            "author_name": "Teja Alaghari",
+            "commit_date": "2026-10-06T13:59:13+05:30",
+            "subject": "[AMDGPU] Fix amdgcn.mbcnt known bits conflicting with the range attribute (#227725)"
+        },
+        {
+            "hash": "b9057571ff0d5d901145ccbacc60396236c91e59",
+            "author_name": "Alex Voicu",
+            "commit_date": "2026-10-06T08:34:13+00:00",
+            "subject": "[SPIRV] Handle loads from indirect args in the presence of `SPV_KHR_untyped_pointers` (#229184)"
+        },
+        {
+            "hash": "d0b14769483b211c8efeb4750129729204f8e8d0",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-06T10:37:58+02:00",
+            "subject": "clang: Set the exception model module flag for IR inputs (#228372)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -272251,28 +272269,34 @@
     ],
     "fhahn\/perf\/o3-ct": [
         {
-            "hash": "a9b0b3d9971e1a469553d3c35b12ccf00407c847",
-            "author_name": "Kazu Hirata",
-            "commit_date": "2026-10-03T08:09:03-07:00",
-            "subject": "[Analysis] Remove unused functions (NFC) (#228674)"
+            "hash": "0e5770c27da349711e5c97b692ebbfcf978a8dbe",
+            "author_name": "Eric Ross",
+            "commit_date": "2026-10-06T05:58:49+00:00",
+            "subject": "[KnownFPClass] Improve known class deductions for exp\/exp2\/exp10 (#217526)"
         },
         {
-            "hash": "79ad4d524214787bf35106efd1589ce50a65f013",
+            "hash": "fe37bca93253747167d38a9052bedd86fc7344e0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-03T20:53:32+00:00",
-            "subject": "[LoopUnrollAnalyzer] Evaluate affine AddRecs with constant step directly (NFC)."
-        },
-        {
-            "hash": "f38227613915ac0a06abda642459fd4dab17f364",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-03T20:53:59+00:00",
+            "commit_date": "2026-10-06T08:25:21+00:00",
             "subject": "[TypeBasedAA] Avoid constructing two ancestor paths (NFC)"
         },
         {
-            "hash": "9890f004924611c97b9da1d031397135e88a06f0",
+            "hash": "b70245b23080db51cbf391bf10a42fd446fc35dc",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-03T20:54:21+00:00",
+            "commit_date": "2026-10-06T08:25:21+00:00",
             "subject": "[NewPM] Skip result cleanup when no analyses were invalidated (NFC)"
+        },
+        {
+            "hash": "a24b2144f35725b515333106d91dcc50cf175f93",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-06T08:25:49+00:00",
+            "subject": "[NewPM] Increase inline size of IsResultInvalidated map (NFC)"
+        },
+        {
+            "hash": "52c88ac8d36e9a31099a7f952b83c0a8cc953ae1",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-06T08:26:43+00:00",
+            "subject": "[MemDep] Drop AA tags when checking loads against a load query (NFC)"
         }
     ],
     "tbaederr\/perf\/quoted-name": [
