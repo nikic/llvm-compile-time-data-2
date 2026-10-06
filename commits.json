@@ -253497,6 +253497,18 @@
             "author_name": "Craig Topper",
             "commit_date": "2026-10-06T22:43:58+00:00",
             "subject": " [RISCV] Fold (sub 0, (srl (and X, (1 << ShAmt)), ShAmt)) -> (sra (shl X, ShAmt2), bits-1) (#229509)"
+        },
+        {
+            "hash": "f970b5d6c33f2497cd614e910dc40165f7d15344",
+            "author_name": "Anshul Nigham",
+            "commit_date": "2026-10-06T22:59:59+00:00",
+            "subject": "[Bazel][libc] Update platform_file to depend on dup3 (#229595)"
+        },
+        {
+            "hash": "372d1eef4c83d8f82fe7ed6eac94a609e823cac0",
+            "author_name": "Anshul Nigham",
+            "commit_date": "2026-10-06T23:02:05+00:00",
+            "subject": "[Bazel] Add Support dependency to amdgpu_tests (#229597)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
