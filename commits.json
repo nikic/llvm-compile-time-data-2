@@ -252603,6 +252603,36 @@
             "author_name": "Rohan Shenoy",
             "commit_date": "2026-10-06T10:49:12+00:00",
             "subject": "[X86] Require contract on FMUL while folding FMADDSUB to VFMULC (#229309)"
+        },
+        {
+            "hash": "f30e75330cce1a781a4e260556cd5f796d0af6eb",
+            "author_name": "AJMullen",
+            "commit_date": "2026-10-06T11:05:39+00:00",
+            "subject": "[BOLT][AArch64] Port X86 --custom-allocation-vma test to AArch64 (#229104)"
+        },
+        {
+            "hash": "9a39608d47c888917f5f39b2c1e059db82571e5c",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-06T07:08:29-04:00",
+            "subject": "[SLP][NFC]Add an extra test with the reodering of the aggregate bitpacks, NFC"
+        },
+        {
+            "hash": "57f2572b545ae1083c663b6636bae61191ba8c02",
+            "author_name": "Jack Frankland",
+            "commit_date": "2026-10-06T12:09:15+01:00",
+            "subject": "[mlir][tosa] Lower ROW_GATHER to Linalg (#225417)"
+        },
+        {
+            "hash": "c4c287a631cef4728bde6615c55a4ae1b7e091da",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-06T07:12:09-04:00",
+            "subject": "[SLP][NFC]Add an extra test with the reodering of the aggregate bitpacks, NFC"
+        },
+        {
+            "hash": "2037f0ee9d55e32f059035fb6690f5447dbfee5e",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-06T07:13:54-04:00",
+            "subject": "[SLP][NFC]Add an extra test with the reodering of the aggregate bitpacks, NFC"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -273293,6 +273323,18 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-06T13:00:42+02:00",
             "subject": "[LV] Track type and alignment of safe predicated accesses"
+        },
+        {
+            "hash": "624202f2f8b8fc8d7480c9b6b8dfc23c027b4a16",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-06T13:11:33+02:00",
+            "subject": "[LV] Share safe access recording and simplify regression tests"
+        },
+        {
+            "hash": "3fb1878a223d64d50cfdf5a0f6e0c85e6f20d1b9",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-06T13:12:37+02:00",
+            "subject": "[LV] Limit access safety checks to vectorized code"
         }
     ]
 }
