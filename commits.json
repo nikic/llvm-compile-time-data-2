@@ -252693,6 +252693,18 @@
             "author_name": "Prasad Deshpande",
             "commit_date": "2026-10-06T13:00:24+00:00",
             "subject": "[BitcodeReader] Avoid integer overflow in strtab bounds check (#228786)"
+        },
+        {
+            "hash": "6828df87ab95ba71af1e570e19f72a37d9706b59",
+            "author_name": "Yongqiang Tian",
+            "commit_date": "2026-10-06T14:05:07+01:00",
+            "subject": "[CodeGen] Ignore debug instructions in EarlyIfConversion scan budget (#224495)"
+        },
+        {
+            "hash": "6c1ee20f84f318db23afb4258eb9dd72bd749d3f",
+            "author_name": "William Moses",
+            "commit_date": "2026-10-06T13:14:28+00:00",
+            "subject": "[MLIR][LLVM] Import GEP inrange at the index width of its base pointer (#229253)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -271337,21 +271349,21 @@
     ],
     "fhahn\/perf\/scev-merge-block-guards": [
         {
-            "hash": "f81414dbe2ba478fa489730079263dbd546d18c0",
-            "author_name": "Rumo",
-            "commit_date": "2026-10-01T18:03:19+04:00",
-            "subject": "Add retrieval of unary operator spelling and python bindings (#219983)"
+            "hash": "27862ae3ef3117fd121af48529c11aea9347ec36",
+            "author_name": "Anup Kumar",
+            "commit_date": "2026-10-06T11:41:31+00:00",
+            "subject": "[GVN] Use willNotFreeBetween in loop-load PRE (#228033)"
         },
         {
-            "hash": "b1a6469897086ec24727d31ba9569d1555cd247a",
+            "hash": "be468c1d53bfe71c88937ca4140cade6c9d47264",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-01T17:13:16+01:00",
+            "commit_date": "2026-10-06T14:08:10+01:00",
             "subject": "[SCEV] Add tests with loop guards behind merge blocks."
         },
         {
-            "hash": "b489d6dca1fa58b352faa81db7d254aa3be9cfea",
+            "hash": "10658c2dc42f6f4a14c14f203207f1e86b7403ad",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-01T17:28:27+01:00",
+            "commit_date": "2026-10-06T14:08:10+01:00",
             "subject": "[SCEV] Look for guard conditions through merge blocks."
         }
     ],
@@ -273385,34 +273397,40 @@
     ],
     "davidbolvansky\/perf\/lv-predicated-load-access-safety": [
         {
-            "hash": "27862ae3ef3117fd121af48529c11aea9347ec36",
-            "author_name": "Anup Kumar",
-            "commit_date": "2026-10-06T11:41:31+00:00",
-            "subject": "[GVN] Use willNotFreeBetween in loop-load PRE (#228033)"
+            "hash": "6828df87ab95ba71af1e570e19f72a37d9706b59",
+            "author_name": "Yongqiang Tian",
+            "commit_date": "2026-10-06T14:05:07+01:00",
+            "subject": "[CodeGen] Ignore debug instructions in EarlyIfConversion scan budget (#224495)"
         },
         {
-            "hash": "f6dceee21aa152d2bafe3d78bc5822d1e1f621ec",
+            "hash": "a5a75c1d9799b65b077d8c2051bbdb3b08248b5b",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-06T13:42:51+02:00",
+            "commit_date": "2026-10-06T15:07:21+02:00",
             "subject": "[LV] Track type and alignment of safe predicated accesses"
         },
         {
-            "hash": "e3adcd9bf1d780fc77d85fd018c98b538b810a95",
+            "hash": "0637a6197d05618f8aa0de55a58ff0c7a9b29803",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-06T13:42:51+02:00",
+            "commit_date": "2026-10-06T15:07:22+02:00",
             "subject": "[LV] Share safe access recording and simplify regression tests"
         },
         {
-            "hash": "15ad27c98589070af61bb2c1fa302ddab8876480",
+            "hash": "28d913f484bdaf92ebd98c17417232be1e7a3a40",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-06T13:42:51+02:00",
+            "commit_date": "2026-10-06T15:07:22+02:00",
             "subject": "[LV] Limit access safety checks to vectorized code"
         },
         {
-            "hash": "0054d8c7a14148de7dc4052972d8254175c02c2b",
+            "hash": "0c59e1d79084792f02847bcd1a1141107c46f8c3",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-06T13:42:51+02:00",
+            "commit_date": "2026-10-06T15:07:22+02:00",
             "subject": "[LV] Clarify safe access names and lambda capture"
+        },
+        {
+            "hash": "42341e980a22b5928bb40643cc9e27dd42c76018",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-06T15:07:22+02:00",
+            "subject": "[LV] Update comments describing safe accesses"
         }
     ],
     "AnonMiraj\/perf\/debuginfo-setlocation-presumed-once": [
