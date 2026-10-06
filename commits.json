@@ -253011,6 +253011,24 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-10-06T16:55:44+00:00",
             "subject": "clang: Fix nostdlib.c test with CLANG_USE_XCSELECT (#229418)"
+        },
+        {
+            "hash": "4e3d7297c9586b0c7891c41a30b9b2ab33b0ef4d",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-10-06T16:58:27+00:00",
+            "subject": "Revert [VectorCombine] Combine adjacent loads feeding as shuffle operands #213007 (#229449)"
+        },
+        {
+            "hash": "0f967eb43c563b05e8010c5033175e237090c887",
+            "author_name": "Aochang Liu",
+            "commit_date": "2026-10-06T16:59:09+00:00",
+            "subject": "[FastISel] Ignore debug uses when folding a load (#228719)"
+        },
+        {
+            "hash": "6b705cb1a32bae0eb86ec0b32865fb1b99675e95",
+            "author_name": "Ryosuke Niwa",
+            "commit_date": "2026-10-06T10:02:01-07:00",
+            "subject": "[alpha.webkit.NoDeleteChecker] Blame the code that is actually unsafe (#224728)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -273731,6 +273749,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-10-06T18:20:03+02:00",
             "subject": "avoid out of line virtual dtors"
+        }
+    ],
+    "momchil-velikov\/perf\/gvn-pimpl": [
+        {
+            "hash": "92d7d318ea52ec40cd637bb12db34dbd234e5d00",
+            "author_name": "Vikash Gupta",
+            "commit_date": "2026-10-06T09:43:43+00:00",
+            "subject": "[AArch64][SPIRV][GlobalISel] Migrate target-specific wip_match_opcode combines to MIR-pattern (#222903)"
+        },
+        {
+            "hash": "5387b49a03449ffd98cea8f0b2eac4f0b48a8a6b",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-10-06T16:57:43+00:00",
+            "subject": "[GVN] Do not create\/destroy a local copy of GVNPassImpl in the run method"
         }
     ]
 }
