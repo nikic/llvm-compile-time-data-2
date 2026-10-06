@@ -252795,6 +252795,42 @@
             "author_name": "Charles Zablit",
             "commit_date": "2026-10-06T15:10:08+01:00",
             "subject": "[lldb][test][Windows] Test attaching to a process past MAX_PATH (#229396)"
+        },
+        {
+            "hash": "16cddd977dc7a78262e7ffd80900fb1e7663be38",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-10-06T14:12:41+00:00",
+            "subject": "[lldb][Windows] Keep the process info when the parent pid lookup fails (#228455)"
+        },
+        {
+            "hash": "e7df36ba077e2dd10ca0adea199dfb6bf7f3c74d",
+            "author_name": "David Spickett",
+            "commit_date": "2026-10-06T14:13:50+00:00",
+            "subject": "[lldb][test] Skip TestExitDuringStep.py on Arm 32-bit Linux (#229425)"
+        },
+        {
+            "hash": "f16ce645cfe29b855bc0234f0b4150a3849315bf",
+            "author_name": "Konstantinos Parasyris",
+            "commit_date": "2026-10-06T14:17:41+00:00",
+            "subject": "[CIR] Align kernel calling conventions (#229295)"
+        },
+        {
+            "hash": "165b2a410b9100f8e8d6c90260890bcc0ee0837a",
+            "author_name": "Cyndy Ishida",
+            "commit_date": "2026-10-06T07:18:10-07:00",
+            "subject": "[clang][deps][test] Avoid cat in modules-incomplete-umbrella.c, NFC (#229286)"
+        },
+        {
+            "hash": "f6fb2be5a47ea501f797cce98b69bd704b9dd084",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-10-06T14:19:22+00:00",
+            "subject": "[lldb][test] Check the sp lookup in register sets that have no rsp (#229401)"
+        },
+        {
+            "hash": "8f76cebeb8cc5b8d373d5aeac15c67ec60852397",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-10-06T14:20:02+00:00",
+            "subject": "[lldb][NativePDB] Reuse the method decl added while completing the class (#227010)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
