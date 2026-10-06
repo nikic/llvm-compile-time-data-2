@@ -252663,6 +252663,24 @@
             "author_name": "Krzysztof Parzyszek",
             "commit_date": "2026-10-06T11:50:49+00:00",
             "subject": "[flang][OpenMP] Perform checks on features from different versions (#229116)"
+        },
+        {
+            "hash": "c68c1767aa5f19eedff3024e922f71976669ee25",
+            "author_name": "Anatoly Trosinenko",
+            "commit_date": "2026-10-06T11:51:15+00:00",
+            "subject": "[AArch64][PAC] Reset `killed` operand flags in outlined functions (#221041)"
+        },
+        {
+            "hash": "37ecc8c1b63e55cfcaea5dde492c2fec2653d6c4",
+            "author_name": "Konstantin Bogdanov",
+            "commit_date": "2026-10-06T12:52:58+01:00",
+            "subject": "[ValueTracking] Compute known bits of and\/or recurrences from start and step (#226164)"
+        },
+        {
+            "hash": "28f349c30963e5ab71c9325e032ddfa6464c3f0e",
+            "author_name": "Ingo M\u00fcller",
+            "commit_date": "2026-10-06T11:58:52+00:00",
+            "subject": "Revert \"[mlir][tosa] Lower ROW_GATHER to Linalg\" (#229388)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -272441,6 +272459,18 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-06T09:44:01+00:00",
             "subject": "[Local] Construct IRBuilder in ConstantFoldTerminator only when folding (NFC)"
+        },
+        {
+            "hash": "4de2a5088f3c7bfd8de6b67239513c0c00c6f22d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-06T11:50:57+00:00",
+            "subject": "[BasicAA] Reuse object size when both pointers share an object (NFC)"
+        },
+        {
+            "hash": "2ea989f9ebb6daf6f7f2e3b8415ec53a7433cb80",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-06T11:50:58+00:00",
+            "subject": "[BasicAA] Classify underlying objects once and guard capture queries (NFC)"
         }
     ],
     "tbaederr\/perf\/quoted-name": [
