@@ -252861,6 +252861,18 @@
             "author_name": "Ellis Hoag",
             "commit_date": "2026-10-06T08:02:45-07:00",
             "subject": "[InstrProf] Inline ir-basic.proftext into test (#219329)"
+        },
+        {
+            "hash": "6ae227d609f6b69727fd3ea72339db4344fa3ef2",
+            "author_name": "Vlad Serebrennikov",
+            "commit_date": "2026-10-06T15:10:47+00:00",
+            "subject": "[clang][python] Rename ClangObject to OpaqueClangObject and update its description (#229374)"
+        },
+        {
+            "hash": "681e59fb1d3a0f91127c75969e725f78c56afd6c",
+            "author_name": "Petar Jovanovic",
+            "commit_date": "2026-10-06T15:12:01+00:00",
+            "subject": "[LiveDebugVariables] Repair stale SlotIndexes (#224467)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -273489,58 +273501,16 @@
     ],
     "artagnon\/perf\/vplan-first-lane-ct": [
         {
-            "hash": "d505972fe455d05d77ec696fbab7afdce31f0e1c",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-05T16:23:49+00:00",
-            "subject": "[LAA] Prove monotonicity of add\/mul expressions. (#220715)"
+            "hash": "574f69c9f7dc039122e675d11259d39a2a5bc07b",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-06T16:43:43+02:00",
+            "subject": "clang: Fix tests when built with DEFAULT_SYSROOT (#229417)"
         },
         {
-            "hash": "9c8fa8a3be664d12843dcc7937a103b85b67b2fd",
+            "hash": "7744b782470f550753c893c84e3da84db7abdfc6",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-05T17:44:06+01:00",
+            "commit_date": "2026-10-06T16:04:25+01:00",
             "subject": "[VPlan] Avoid recursive-fan-out of usesFirstLaneOnly"
-        },
-        {
-            "hash": "f87de391d91330ea7ac9dd0a028fee26d3550501",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-05T18:13:33+01:00",
-            "subject": "[VPlan] Introduce VPRecurseResult"
-        },
-        {
-            "hash": "ac1042019274e7d23579b9441ec0495c6b02fbda",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-05T20:03:58+01:00",
-            "subject": "[VPlan] Optz for CT"
-        },
-        {
-            "hash": "8b1e4ab2862a9d92dfa2a75c8c54c510b95b4517",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-05T22:03:48+01:00",
-            "subject": "[VPlan] More aggressive CT"
-        },
-        {
-            "hash": "9bb296bac218682fb05fb685f594f5cbd31be9e4",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-06T10:40:15+01:00",
-            "subject": "[VPlan] Drop unnecessary Users vector"
-        },
-        {
-            "hash": "2ec8389359c14ff9a81305b8e5e79cc784d9f1ec",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-06T10:54:23+01:00",
-            "subject": "[VPlan] Fix an include, strip some bad comments"
-        },
-        {
-            "hash": "4a71bead632a809f18f552c0dac69b9e11088ab1",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-06T11:56:14+01:00",
-            "subject": "[VPlan] Put methods back into cpp files"
-        },
-        {
-            "hash": "4462d832c2ab5310eeb05bb17750f4754e94630f",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-06T11:58:55+01:00",
-            "subject": "[VPlan] Put usesFirstLaneOnly back into cpp"
         }
     ],
     "MaskRay\/perf\/fastra-tied-aarch64": [
