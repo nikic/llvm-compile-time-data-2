@@ -254847,6 +254847,30 @@
             "author_name": "Chen Miao",
             "commit_date": "2026-10-07T20:57:02+00:00",
             "subject": "[Clang] Diagnose incompatible `weak` and `ifunc` attributes (#229393)"
+        },
+        {
+            "hash": "2e63ae69defe1bcc29f32dc9d134ec86217adefd",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-10-07T21:03:49+00:00",
+            "subject": "[CIR] Fix 'vague' linkage globals. (#228586)"
+        },
+        {
+            "hash": "91dd66078a9321096e9de21ba035dedffe0a6c8a",
+            "author_name": "Adam Smith",
+            "commit_date": "2026-10-07T21:07:08+00:00",
+            "subject": "[LLVMABI] Classify types at their ABI size (#227889)"
+        },
+        {
+            "hash": "b40da1ade3766aa5f1fdcea73df9eb92ef389bdd",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-07T21:08:00+00:00",
+            "subject": "AMDGPU: Use functions instead of kernels in f16 operation tests (#229899)"
+        },
+        {
+            "hash": "c291548538b639387c122a6ddf0e10277e0d0fb6",
+            "author_name": "Yingwei Zheng",
+            "commit_date": "2026-10-08T05:09:19+08:00",
+            "subject": "[Verifier] Strengthen type constraint (#229880)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -275797,22 +275821,10 @@
             "subject": "[clang][python] Inherit Diagnostic from OpaqueClangObject (#229510)"
         },
         {
-            "hash": "79887c80d637e6a1607c451ed955b7e73ecb75d5",
+            "hash": "f9e52d8574b8d4ac38f6cf28a6fd4e679d06dd8a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-07T16:42:37+01:00",
-            "subject": "[DSE] Precommit tests for wrapping constant offsets (NFC)"
-        },
-        {
-            "hash": "7519aefef9683a92fbe60ae1886ab56d6ede3b22",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-07T16:42:41+01:00",
+            "commit_date": "2026-10-07T22:06:04+01:00",
             "subject": "[DSE] Bail out if Size + Offset wraps index width."
-        },
-        {
-            "hash": "6c44017455095eb37257c0ab0b8f476d7baff38d",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-07T16:42:42+01:00",
-            "subject": "Fix"
         }
     ],
     "nikic\/perf\/local-builder": [
