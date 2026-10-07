@@ -254973,6 +254973,12 @@
             "author_name": "Lang Hames",
             "commit_date": "2026-10-08T09:17:16+11:00",
             "subject": "[lldb] Drop unused IRExecutionUnit methods: WriteNow, FreeNow (#229667)"
+        },
+        {
+            "hash": "63d485c3ddee18e2838ba7235a4c519eb8fe08b9",
+            "author_name": "Konstantinos Parasyris",
+            "commit_date": "2026-10-07T22:42:46+00:00",
+            "subject": "[CIR][SYCL] Local Generic Addrspace (#229281)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -275975,6 +275981,48 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-10-07T21:50:06+02:00",
             "subject": "inline getStableDebugLoc()"
+        }
+    ],
+    "davidbolvansky\/perf\/equivalence-erase-class": [
+        {
+            "hash": "32e6b5082d000a0da4a5af148d63f30d29e95a18",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-10-08T09:17:16+11:00",
+            "subject": "[lldb] Drop unused IRExecutionUnit methods: WriteNow, FreeNow (#229667)"
+        },
+        {
+            "hash": "e02b50b92be413fc409ba42f155ce7f01f8f8a97",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-08T00:40:06+02:00",
+            "subject": "[ADT] Compact members once when erasing an equivalence class"
+        }
+    ],
+    "davidbolvansky\/perf\/equivalence-path-halving": [
+        {
+            "hash": "32e6b5082d000a0da4a5af148d63f30d29e95a18",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-10-08T09:17:16+11:00",
+            "subject": "[lldb] Drop unused IRExecutionUnit methods: WriteNow, FreeNow (#229667)"
+        },
+        {
+            "hash": "ef8086cfdf0585d75e09902626cde357145f8ecc",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-08T00:40:12+02:00",
+            "subject": "[ADT] Use iterative path halving to find equivalence-class leaders"
+        }
+    ],
+    "davidbolvansky\/perf\/phivalues-local-depth": [
+        {
+            "hash": "32e6b5082d000a0da4a5af148d63f30d29e95a18",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-10-08T09:17:16+11:00",
+            "subject": "[lldb] Drop unused IRExecutionUnit methods: WriteNow, FreeNow (#229667)"
+        },
+        {
+            "hash": "3c01398ddc5d24eb12c6fc9e946a26739e5832ea",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-08T00:40:17+02:00",
+            "subject": "[PhiValues] Avoid redundant depth and component lookups during DFS"
         }
     ]
 }
