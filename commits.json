@@ -253785,6 +253785,36 @@
             "author_name": "David Green",
             "commit_date": "2026-10-07T08:06:05+00:00",
             "subject": "[GlobalISel] Ensure integer trunc and anyext in call lowering. (#229346)"
+        },
+        {
+            "hash": "ee22ca56d6dec9d820ec006aac805a0d2691fc4f",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-07T08:09:12+00:00",
+            "subject": "AMDGPU\/GlobalISel: Fix buffer stores of bf16 (#229673)"
+        },
+        {
+            "hash": "2cc7a05005b9ac07ab8a6d99d1750954b4e7a84e",
+            "author_name": "Mikael Holmen",
+            "commit_date": "2026-10-07T08:12:57+00:00",
+            "subject": "[MachineCombiner] Don't count debug instructions in block size (#225765)"
+        },
+        {
+            "hash": "f2e7e3f1b81c57bdeddbe890f088b2e829b0956e",
+            "author_name": "algol83",
+            "commit_date": "2026-10-07T08:15:52+00:00",
+            "subject": "[clang-tidy] Make range source classes configurable (#226193)"
+        },
+        {
+            "hash": "f4b6e8cb75a06814cb8647c8177a4257f772c3cd",
+            "author_name": "Alexander Shaposhnikov",
+            "commit_date": "2026-10-07T08:20:04+00:00",
+            "subject": "[SPIRV] Re-sort basic blocks after LoopSimplify for non-shader targets (#229678)"
+        },
+        {
+            "hash": "ecc201f1d0d5372d0a3a77a516c0530e880170fb",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-07T08:20:33+00:00",
+            "subject": "[IRBuilder] Accept Module instead of LLVMContext in ctor (#229430)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -274591,10 +274621,38 @@
             "subject": "[flang][OpenACC] Preserve compute bindings for CUDA DEVICE arguments (#229420)"
         },
         {
-            "hash": "0d194b45575a4d71f426ff1fe0a3b03970addd56",
+            "hash": "77e4813bc9d46607d3643543b5016ca4a54ca907",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-10-07T01:02:44-07:00",
+            "commit_date": "2026-10-07T01:15:51-07:00",
             "subject": "[IR] Use AssertingVH keys in ValueToValueMapTy"
+        }
+    ],
+    "MaskRay\/perf\/dm-reserve": [
+        {
+            "hash": "69fa41f715fddf7028c0399e4a54e89911d095c9",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-10-07T02:18:32+00:00",
+            "subject": "[CodeGen] Let RegAllocFast lower tied operands by default (#229310)"
+        },
+        {
+            "hash": "317e1ac22e8656470e140ccfe7bcc5de1c8c3262",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-10-07T01:18:49-07:00",
+            "subject": "[CodeGen] Avoid per-function DenseMap growth in LexicalScopes and InstructionOrdering. NFC"
+        }
+    ],
+    "nikic\/perf\/irbuilder-inserter-no-virtual": [
+        {
+            "hash": "bd1c9e3efed65cfcc137a183450e56dac3eb9ff4",
+            "author_name": "jeanPerier",
+            "commit_date": "2026-10-07T07:24:45+00:00",
+            "subject": "[flang][OpenACC] Preserve compute bindings for CUDA DEVICE arguments (#229420)"
+        },
+        {
+            "hash": "781b5b5e65df02281fceb1d1c3540197159602ea",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-07T10:12:12+02:00",
+            "subject": "[IRBuilder] Make IRBuilder inserter non-virtual"
         }
     ]
 }
