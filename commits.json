@@ -254133,6 +254133,18 @@
             "author_name": "Zeyi Xu",
             "commit_date": "2026-10-07T13:29:57+00:00",
             "subject": "[clang-tidy] Fix empty notes in bugprone-easily-swappable-parameters (#229753)"
+        },
+        {
+            "hash": "8a34b53505f203288af25ed580bf63fb149a12a5",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-07T13:37:09+00:00",
+            "subject": "PPC: Fix unnecessary host requirement in test (#229749)"
+        },
+        {
+            "hash": "d66ab4bbe967fbea65c5d8f9f40b81505ebdafca",
+            "author_name": "Jinsong Ji",
+            "commit_date": "2026-10-07T13:43:03+00:00",
+            "subject": "[SPIR-V] Fix DebugScope resolving DILexicalBlockFile to DebugCompilationUnit (#228259)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -275065,6 +275077,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-07T13:53:45+01:00",
             "subject": "[Local] Construct IRBuilder in ConstantFoldTerm only when folding (NFC)"
+        }
+    ],
+    "cofibrant\/perf\/cofibrant\/drop-pred-overlaps-check": [
+        {
+            "hash": "a1dd1ea32381fad95c112fd561c0e364275ba65b",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-10-07T06:13:41-07:00",
+            "subject": "[CIR] Correct globals-with-ctor\/dtor init ordering (#229608)"
+        },
+        {
+            "hash": "c4c4c3169d6a0d7413550ea2e3293a0156d69c72",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-10-07T14:34:23+01:00",
+            "subject": "[ScheduleDAG] Allow redundant edges"
         }
     ]
 }
