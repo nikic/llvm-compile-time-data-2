@@ -254631,6 +254631,24 @@
             "author_name": "Chibuoyim (Wilson) Ogbonna",
             "commit_date": "2026-10-07T18:47:43+00:00",
             "subject": "[clang][CIR] Add tests for SVE ANDV intrinsics (#227657)"
+        },
+        {
+            "hash": "ee29c890f04750561f5ca5ce2e6a63a9941ff41d",
+            "author_name": "Morris Hafner",
+            "commit_date": "2026-10-07T18:54:13+00:00",
+            "subject": "[CIR][NFC] Generalize loop condition cleanup capturing (#229773)"
+        },
+        {
+            "hash": "a3b249ce3c1c9d661e9681ce32d2247a2409a681",
+            "author_name": "Vicky Nguyen",
+            "commit_date": "2026-10-07T18:55:34+00:00",
+            "subject": "[clang][CIR] Lower SVE svpfalse_b and add tests (#228789)"
+        },
+        {
+            "hash": "c3d5c8e72579a944a2dc45085b11c689a27b6f9f",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-10-07T19:00:02+00:00",
+            "subject": "[flang][openacc] Keep the source of END DO turned into CONTINUE for ACC loops (#229850)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -275623,6 +275641,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-07T20:39:33+02:00",
             "subject": "Construct IRBuilder in ConstantFoldTerm only when folding (NFC)"
+        }
+    ],
+    "fhahn\/perf\/scev-total-order": [
+        {
+            "hash": "525d0d693d44346f38a11245c37e57f874e5dc8a",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-10-07T19:32:49+01:00",
+            "subject": "[lldb] Register 'target modules dump pcm-info' from TypeSystemClang (#229816)"
+        },
+        {
+            "hash": "ae4c86f143d1d98785ede2476a4daa93e614d6c0",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-07T19:56:57+01:00",
+            "subject": "[SCEV] Make operand complexity order total."
         }
     ]
 }
