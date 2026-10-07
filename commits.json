@@ -254025,6 +254025,24 @@
             "author_name": "Vedran Mileti\u0107",
             "commit_date": "2026-10-07T06:42:49-05:00",
             "subject": "[Offload] Avoid global mutex destructors (#221471)"
+        },
+        {
+            "hash": "63e27cb75bb594cdb9ed8605165f062e6e3bd084",
+            "author_name": "Daniel Petrovic",
+            "commit_date": "2026-10-07T12:00:02+00:00",
+            "subject": "[clang-tidy] Report virtual-class-destructor at the destructor location (#227198)"
+        },
+        {
+            "hash": "05559260278ec9d911ab9396f3258a313d229cbd",
+            "author_name": "Zahira Ammarguellat",
+            "commit_date": "2026-10-07T12:02:17+00:00",
+            "subject": "[OpenMP] Tile\/stripe followed by reverse (#222401)"
+        },
+        {
+            "hash": "921638a44b85a2401a560c8625d227da3753b1ec",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-10-07T14:03:47+02:00",
+            "subject": "[CIR][CodeGen][NFC] Share the Itanium __vmi_class_type_info flags computation (#227256)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -274897,6 +274915,12 @@
             "author_name": "Yingwei Zheng",
             "commit_date": "2026-10-07T18:06:28+08:00",
             "subject": "[Verifier] Check intrinsic signuature validity before hand written code"
+        },
+        {
+            "hash": "70de0a0dec1d304fb5d71120228b78a6a9c46cf3",
+            "author_name": "Yingwei Zheng",
+            "commit_date": "2026-10-07T20:03:12+08:00",
+            "subject": "Update llvm\/lib\/IR\/Verifier.cpp"
         }
     ],
     "bojle\/perf\/aarch64_csr": [
