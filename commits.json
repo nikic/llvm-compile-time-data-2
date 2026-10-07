@@ -274868,5 +274868,39 @@
             "commit_date": "2026-10-07T18:06:28+08:00",
             "subject": "[Verifier] Check intrinsic signuature validity before hand written code"
         }
+    ],
+    "bojle\/perf\/aarch64_csr": [
+        {
+            "hash": "20d5962141fd3f340840b86666f58c7f230f717c",
+            "author_name": "Chris Copeland",
+            "commit_date": "2026-08-05T09:27:49+01:00",
+            "subject": "[ARM][NFC] Fix invalid target triples in tests (#213588)"
+        },
+        {
+            "hash": "f2d4d0e2fc023db3b984331cbddb8c4425076dc3",
+            "author_name": "Shreeyash Pandey",
+            "commit_date": "2026-08-07T15:18:28+00:00",
+            "subject": "[AArch64][RegAlloc] Enable callee-saved register optimization for AArch64"
+        },
+        {
+            "hash": "82a33b3d2500b310669ff2f814d08bd1eb738cb6",
+            "author_name": "Shreeyash Pandey",
+            "commit_date": "2026-10-07T10:22:24+00:00",
+            "subject": "csr opt guard"
+        }
+    ],
+    "tbaederr\/perf\/constant-expr": [
+        {
+            "hash": "804efba8a498197855111bd290728aac4cfdbc21",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-07T10:05:38+00:00",
+            "subject": "PowerPC: Promote 32-bit ops to 64-bit in place for EXTSW elimination (#229054)"
+        },
+        {
+            "hash": "1fb290b41a281345d95271bbd97175a367f73419",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-10-07T13:21:24+02:00",
+            "subject": "ConstantExpr"
+        }
     ]
 }
