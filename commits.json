@@ -253893,6 +253893,36 @@
             "author_name": "Vikram Hegde",
             "commit_date": "2026-10-07T09:56:31+00:00",
             "subject": "[AMDGPU][GIsel] Properly handle unsupported intrinsic translation (#228040)"
+        },
+        {
+            "hash": "869dd2d1903da070326f62ef571005688117bc1b",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-10-07T09:57:53+00:00",
+            "subject": "[lldb][Windows] Honor the last stdio file action when launching a process (#229435)"
+        },
+        {
+            "hash": "c198ce3123dda9510f303c9badcf13f55bd04abd",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-07T10:01:41+00:00",
+            "subject": "Targets: Remove redundant TRI arguments from InstrInfo helpers (#228165)"
+        },
+        {
+            "hash": "0865fa8f7778b08bac640b3718835293ac8979e1",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-10-07T10:03:11+00:00",
+            "subject": "[lldb][test] Check cryptography.x509 in the strict test requirements (#229409)"
+        },
+        {
+            "hash": "804efba8a498197855111bd290728aac4cfdbc21",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-07T10:05:38+00:00",
+            "subject": "PowerPC: Promote 32-bit ops to 64-bit in place for EXTSW elimination (#229054)"
+        },
+        {
+            "hash": "1ebfb7a71d0f11cbe3c240d875ef2c1690be3491",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-07T10:11:57+00:00",
+            "subject": "[RISCV] Add Tenstorrent Ascalon XG (#229030)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -274751,6 +274781,20 @@
             "author_name": "Eli Friedman",
             "commit_date": "2026-10-07T10:47:42+02:00",
             "subject": "Don't use isConstantInitializer in CodeGen."
+        }
+    ],
+    "dtcxzyw\/perf\/verify-intrinsic-sig": [
+        {
+            "hash": "8f76cebeb8cc5b8d373d5aeac15c67ec60852397",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-10-06T14:20:02+00:00",
+            "subject": "[lldb][NativePDB] Reuse the method decl added while completing the class (#227010)"
+        },
+        {
+            "hash": "311d1907f6b958fe19afd8a1aa8b3d725496907a",
+            "author_name": "Yingwei Zheng",
+            "commit_date": "2026-10-07T18:06:28+08:00",
+            "subject": "[Verifier] Check intrinsic signuature validity before hand written code"
         }
     ]
 }
