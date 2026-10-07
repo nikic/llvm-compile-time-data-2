@@ -253755,6 +253755,24 @@
             "author_name": "jeanPerier",
             "commit_date": "2026-10-07T07:24:45+00:00",
             "subject": "[flang][OpenACC] Preserve compute bindings for CUDA DEVICE arguments (#229420)"
+        },
+        {
+            "hash": "8e28512cb132ef9905eb149351fb1d46d33d8c83",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-07T07:44:22+00:00",
+            "subject": "MachineLICM: Stop checking kill flags in register pressure estimate (#229201)"
+        },
+        {
+            "hash": "35546a4476250c1f309cbf8bdb5f5c20044beb6d",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-07T07:44:37+00:00",
+            "subject": "AMDGPU\/GlobalISel: Use integer types when narrowing loads and stores (#229547)"
+        },
+        {
+            "hash": "7016730d795c610d5e62b2662f292e2ffecdd60d",
+            "author_name": "Abid Qadeer",
+            "commit_date": "2026-10-07T08:47:30+01:00",
+            "subject": "[flang] Take the debug record's location from the declaration. (#229484)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -274537,6 +274555,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-10-07T09:27:35+02:00",
             "subject": "[IRBuilder] Avoid out-of-line dtor for IRBuilderFolder (NFC)"
+        }
+    ],
+    "MaskRay\/perf\/fastra-tied-ppc": [
+        {
+            "hash": "906e3ec0647aef01363973edf3cb0104a812589a",
+            "author_name": "Himadhith",
+            "commit_date": "2026-10-07T02:53:13+00:00",
+            "subject": "[AIX][libc++] Forward-declare locale functions in aix.h when _XOPEN_SOURCE < 700 (#220508)"
+        },
+        {
+            "hash": "b905d97a4fc46b9e6f8454cb41c6ba9c9416c141",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-10-06T23:57:37-07:00",
+            "subject": "[RegAllocFast] Allocate tied uses first and enable for PowerPC"
         }
     ]
 }
