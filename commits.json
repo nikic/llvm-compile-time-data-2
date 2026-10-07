@@ -254727,6 +254727,48 @@
             "author_name": "Craig Topper",
             "commit_date": "2026-10-07T19:38:57+00:00",
             "subject": "[RISCV] Replace hasStdExtC() with hasStdExtZcf() && hasStdExtZcd(). (#229870)"
+        },
+        {
+            "hash": "a329d695e9f5c65f695c00a13e6ecfb98d6abe44",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-07T21:41:22+02:00",
+            "subject": "AMDGPU: Un-XFAIL vgpr-spill-emergency-stack-slot-compute.ll (#229859)"
+        },
+        {
+            "hash": "64e0b842f10bf36a6c4b9266f60de64d274ccb1a",
+            "author_name": "Scott Manley",
+            "commit_date": "2026-10-07T19:42:54+00:00",
+            "subject": "[mlir][arith] Preserve IEEE signed zeros when folding constant mulf (#226205)"
+        },
+        {
+            "hash": "226c70ef83c06706fdcc4a13ae9b36b2412e41d5",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-07T19:44:33+00:00",
+            "subject": "[IRBuilder] Add getModule() method (#229832)"
+        },
+        {
+            "hash": "70f06c967d7aa78b9c4784174104d0ee506d537c",
+            "author_name": "Anutosh Bhat",
+            "commit_date": "2026-10-07T19:48:22+00:00",
+            "subject": "[CMake] Honor symbol export lists for Emscripten (#229715)"
+        },
+        {
+            "hash": "bc3e317b47956185249d19bd8ea8ca54f9cf42e0",
+            "author_name": "Alex Langford",
+            "commit_date": "2026-10-07T12:50:04-07:00",
+            "subject": "[lldb] Adjust install_name of ScriptInterpreterPython dylib (#229234)"
+        },
+        {
+            "hash": "de374c6b0887ebaa6881be38ab8c76e2a921c68b",
+            "author_name": "Min-Yih Hsu",
+            "commit_date": "2026-10-07T19:50:43+00:00",
+            "subject": "[RISCV] Add mask version of vunzipe\/o.v (#228597)"
+        },
+        {
+            "hash": "aff82f10a7e0a230b1b6adf7fecb3a89e25170b4",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-07T19:51:58+00:00",
+            "subject": "[LV] Don't vectorize loops using swifterror values. (#229875)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -275721,6 +275763,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-07T19:56:57+01:00",
             "subject": "[SCEV] Make operand complexity order total."
+        }
+    ],
+    "nikic\/perf\/stable-debug-loc": [
+        {
+            "hash": "0077da73195920de482a776b04b18ec2b9290494",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-10-07T18:38:16+00:00",
+            "subject": "[ProfCheck] Remove already fixed tests (#229819)"
+        },
+        {
+            "hash": "7990b222dc10d5e7b19a6f479cdfc716cdc1e333",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-07T21:50:06+02:00",
+            "subject": "inline getStableDebugLoc()"
         }
     ]
 }
