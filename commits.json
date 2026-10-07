@@ -254649,6 +254649,18 @@
             "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
             "commit_date": "2026-10-07T19:00:02+00:00",
             "subject": "[flang][openacc] Keep the source of END DO turned into CONTINUE for ACC loops (#229850)"
+        },
+        {
+            "hash": "4a9e550f295b1c3327d8e073a94540a0623fe45f",
+            "author_name": "Tim Gymnich",
+            "commit_date": "2026-10-07T19:01:47+00:00",
+            "subject": "[AArch64][GlobalISel] Fix LLT types in test (#229866)"
+        },
+        {
+            "hash": "a99159aa758c0f5161db2a3f66f4428093fd94bc",
+            "author_name": "Yao Qi",
+            "commit_date": "2026-10-07T20:03:32+01:00",
+            "subject": "[lldb] Recognize flag forms in DWARFFormValue's constant accessors (#229738)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -274411,51 +274423,45 @@
     ],
     "fhahn\/perf\/o3-ct": [
         {
-            "hash": "0e5770c27da349711e5c97b692ebbfcf978a8dbe",
-            "author_name": "Eric Ross",
-            "commit_date": "2026-10-06T05:58:49+00:00",
-            "subject": "[KnownFPClass] Improve known class deductions for exp\/exp2\/exp10 (#217526)"
+            "hash": "99130f4391d9f232b303d5fe6b4aa5c6d37e1319",
+            "author_name": "Chibuoyim (Wilson) Ogbonna",
+            "commit_date": "2026-10-07T18:47:43+00:00",
+            "subject": "[clang][CIR] Add tests for SVE ANDV intrinsics (#227657)"
         },
         {
-            "hash": "fe37bca93253747167d38a9052bedd86fc7344e0",
+            "hash": "3f215a675693fa0b3dba8ac6b77e58305f05312e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-06T08:25:21+00:00",
+            "commit_date": "2026-10-07T20:03:14+01:00",
+            "subject": "[CodeGen] Only visit live units in LiveRegUnits::removeRegsNotPreserved (NFC)"
+        },
+        {
+            "hash": "56ab94fb751de3e2a4f205c2c41168390eb13eb7",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-07T20:03:15+01:00",
+            "subject": "[IR] Handle branches inline in Instruction::successors (NFC)"
+        },
+        {
+            "hash": "9412f7285ea9a1bfa8b734c900f6f9eef167f9d2",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-07T20:03:15+01:00",
             "subject": "[TypeBasedAA] Avoid constructing two ancestor paths (NFC)"
         },
         {
-            "hash": "b70245b23080db51cbf391bf10a42fd446fc35dc",
+            "hash": "dbcd845fd032351dab1ddf02b796cd12c00274e0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-06T08:25:21+00:00",
-            "subject": "[NewPM] Skip result cleanup when no analyses were invalidated (NFC)"
-        },
-        {
-            "hash": "a24b2144f35725b515333106d91dcc50cf175f93",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-06T08:25:49+00:00",
-            "subject": "[NewPM] Increase inline size of IsResultInvalidated map (NFC)"
-        },
-        {
-            "hash": "52c88ac8d36e9a31099a7f952b83c0a8cc953ae1",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-06T08:26:43+00:00",
+            "commit_date": "2026-10-07T20:03:15+01:00",
             "subject": "[MemDep] Drop AA tags when checking loads against a load query (NFC)"
         },
         {
-            "hash": "6f6d126fb1544ea3527c1ae59f4a0a7b3b52da41",
+            "hash": "79de4c9cdd0b7f37393d0ed535db1a21320897af",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-06T09:44:01+00:00",
-            "subject": "[Local] Construct IRBuilder in ConstantFoldTerminator only when folding (NFC)"
-        },
-        {
-            "hash": "4de2a5088f3c7bfd8de6b67239513c0c00c6f22d",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-06T11:50:57+00:00",
+            "commit_date": "2026-10-07T20:03:15+01:00",
             "subject": "[BasicAA] Reuse object size when both pointers share an object (NFC)"
         },
         {
-            "hash": "2ea989f9ebb6daf6f7f2e3b8415ec53a7433cb80",
+            "hash": "12727e6c5f3e8d54e1104eaaf35a68018591fbff",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-06T11:50:58+00:00",
+            "commit_date": "2026-10-07T20:03:15+01:00",
             "subject": "[BasicAA] Classify underlying objects once and guard capture queries (NFC)"
         }
     ],
@@ -275571,21 +275577,15 @@
     ],
     "fhahn\/perf\/local-builder": [
         {
-            "hash": "445981d83ba02fecc7fa68dd0ed5b2cc6b9b91ba",
-            "author_name": "Matt Arsenault",
-            "commit_date": "2026-10-07T09:51:56+00:00",
-            "subject": "RegisterCoalescer: Restore subrange PHI inputs of pruned undef values (#229551)"
+            "hash": "99130f4391d9f232b303d5fe6b4aa5c6d37e1319",
+            "author_name": "Chibuoyim (Wilson) Ogbonna",
+            "commit_date": "2026-10-07T18:47:43+00:00",
+            "subject": "[clang][CIR] Add tests for SVE ANDV intrinsics (#227657)"
         },
         {
-            "hash": "e1f65e526d06bf75cef5b9d0324c9cc8db90d1f4",
-            "author_name": "Nikita Popov",
-            "commit_date": "2026-10-07T13:53:23+01:00",
-            "subject": "[IRBuilder] Make IRBuilder inserter non-virtual"
-        },
-        {
-            "hash": "1bf92278343aecd8f7be4fb653cf2f95f08bc9d1",
+            "hash": "796a28d2898ac45ef70f421951115c089012885f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-07T13:53:45+01:00",
+            "commit_date": "2026-10-07T20:02:09+01:00",
             "subject": "[Local] Construct IRBuilder in ConstantFoldTerm only when folding (NFC)"
         }
     ],
