@@ -254979,6 +254979,36 @@
             "author_name": "Konstantinos Parasyris",
             "commit_date": "2026-10-07T22:42:46+00:00",
             "subject": "[CIR][SYCL] Local Generic Addrspace (#229281)"
+        },
+        {
+            "hash": "4e1336fdd6c238ffc58483eb5fa38410ee6aaa6d",
+            "author_name": "Jan Patrick Lehr",
+            "commit_date": "2026-10-08T00:50:43+02:00",
+            "subject": "[Offload] Add GenericProfilerTy abstraction and APITypes extensions (#225639)"
+        },
+        {
+            "hash": "33ec29c4fb23fd2667607470f7b349985f18b7e6",
+            "author_name": "Bhavesh M",
+            "commit_date": "2026-10-08T04:25:43+05:30",
+            "subject": "[MLGO][Docs] Document MLIR based model embedding (#227536)"
+        },
+        {
+            "hash": "07536a41b188a80bf66545cafe1323b912efd370",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-10-07T23:56:13+01:00",
+            "subject": "[InstCombine] Generalize sext (trunc (lshr Y, C)) -> sext\/trunc (ashr Y, C) to other shift amounts (#227320)"
+        },
+        {
+            "hash": "9594c0d77e42ceeeeb1d75c87ed76f9954067b22",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-10-07T23:56:14+01:00",
+            "subject": "[InstCombine] Move sext(trunc(...)) combines before EvaluateInDifferentType (#227321)"
+        },
+        {
+            "hash": "52c114355ae7cd4e125bbb4cb98751e1635d6bb6",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-10-07T23:56:15+01:00",
+            "subject": "[InstCombine] Move sext(trunc(lshr(...))) combine before same type combine (#227322)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
