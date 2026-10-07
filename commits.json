@@ -254283,6 +254283,18 @@
             "author_name": "Nikolas Klauser",
             "commit_date": "2026-10-07T15:23:11+00:00",
             "subject": "[libc++abi] Split catch_info from __dynamic_cast_info (#223744)"
+        },
+        {
+            "hash": "349d2ebd7ab09402e897695f231b464c37a7bc19",
+            "author_name": "lntue",
+            "commit_date": "2026-10-07T15:33:00+00:00",
+            "subject": "[libc][NFC] Temporarily disable powf smoke test for GPU. (#229793)"
+        },
+        {
+            "hash": "427cd6f834e448b2f805561dda948d1be85c970d",
+            "author_name": "Konstantinos Parasyris",
+            "commit_date": "2026-10-07T08:35:31-07:00",
+            "subject": "[CIR][SYCL] Emit SYCL device globals in the global address space (#229293)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -275229,6 +275241,38 @@
             "author_name": "Nathan Corbyn",
             "commit_date": "2026-10-07T15:51:13+01:00",
             "subject": "[ScheduleDAG] Allow redundant edges"
+        },
+        {
+            "hash": "b9f913c17d9bb9e6e857834d8a0fc2cde9bc12f2",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-10-07T16:38:47+01:00",
+            "subject": "Try ignoring redundant chains"
+        }
+    ],
+    "fhahn\/perf\/cse-isoverwrite-wrap1": [
+        {
+            "hash": "bb4b866582e9b44e7f2be679b9afdf932214391d",
+            "author_name": "Vlad Serebrennikov",
+            "commit_date": "2026-10-07T05:49:57+00:00",
+            "subject": "[clang][python] Inherit Diagnostic from OpaqueClangObject (#229510)"
+        },
+        {
+            "hash": "79887c80d637e6a1607c451ed955b7e73ecb75d5",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-07T16:42:37+01:00",
+            "subject": "[DSE] Precommit tests for wrapping constant offsets (NFC)"
+        },
+        {
+            "hash": "7519aefef9683a92fbe60ae1886ab56d6ede3b22",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-07T16:42:41+01:00",
+            "subject": "[DSE] Bail out if Size + Offset wraps index width."
+        },
+        {
+            "hash": "6c44017455095eb37257c0ab0b8f476d7baff38d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-07T16:42:42+01:00",
+            "subject": "Fix"
         }
     ]
 }
