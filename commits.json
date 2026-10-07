@@ -77029,63 +77029,57 @@
     ],
     "tbaederr\/perf\/ce-test": [
         {
-            "hash": "33891afe2ebb48678b15ec9ce2223e3010a6c776",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-10-05T03:43:38+00:00",
-            "subject": "[MC] Avoid arithmetic between different enumeration types. NFC (#228966)"
+            "hash": "f549451f9dd79fd68388d988858c2d99d73d5f8a",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-07T09:25:28+00:00",
+            "subject": "RuntimeLibcallsEmitter: Add isolated LibcallLibrary variant (#223764)"
         },
         {
-            "hash": "ddf502a3307e16ed1ed0035a16de6b46936b1167",
+            "hash": "ea8aff904047fba7ffd5b4d4cb6b09ddeee80245",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-05T06:08:49+02:00",
+            "commit_date": "2026-10-07T11:31:15+02:00",
             "subject": "Test"
         },
         {
-            "hash": "bc43aa1e3bd40b2607832ecab90410e01b03a0bc",
+            "hash": "9b297fd7194e13dc0f197c1c366b2534cc8b882f",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-05T06:08:49+02:00",
-            "subject": "quoted name"
-        },
-        {
-            "hash": "5196da17b26e90897a0bda84b32259110c74322b",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-05T06:08:49+02:00",
+            "commit_date": "2026-10-07T11:31:15+02:00",
             "subject": "HasTrivialDtor"
         },
         {
-            "hash": "64792cdb03460c470a5daf9f52d3eb49adead9ca",
+            "hash": "ac57107168c292d07c36d20d020469017427743f",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-05T06:08:50+02:00",
+            "commit_date": "2026-10-07T11:31:15+02:00",
             "subject": "zeroinitarray"
         },
         {
-            "hash": "49781e82c1c53218f5d3f202659807473f83c2fc",
+            "hash": "c6c5156ae2a4054d1022d52add97d5ff9945f331",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-05T06:22:05+02:00",
+            "commit_date": "2026-10-07T11:31:15+02:00",
             "subject": "fillers"
         },
         {
-            "hash": "a9e2349cbd6f68bef4bf7f6b89dfad6c6642405c",
+            "hash": "4312985811d1aca9de6bb49ca96875749d8152bc",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-06T08:52:55+02:00",
+            "commit_date": "2026-10-07T11:31:15+02:00",
             "subject": "codgen filler"
         },
         {
-            "hash": "943d159adde1f4d456eba2abe40abf5b6fa33904",
+            "hash": "54f317e2f17f8f75ff7f86941d0537b985f86df9",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-06T09:12:04+02:00",
+            "commit_date": "2026-10-07T11:31:15+02:00",
             "subject": "smallvector"
         },
         {
-            "hash": "ac2d623eb926cae1605c8b58243a4e426a565429",
+            "hash": "070ca177b537c4b153080140414933ca5c757798",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-06T09:12:57+02:00",
+            "commit_date": "2026-10-07T11:31:16+02:00",
             "subject": "cgdebuginfo"
         },
         {
-            "hash": "d1f369493a6ad29ddc62ecbf02b951647a874399",
+            "hash": "7f36f4434190d76b99689d01cb7795af97d33ad2",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-06T10:46:03+02:00",
+            "commit_date": "2026-10-07T11:31:16+02:00",
             "subject": "expr result"
         }
     ],
@@ -253875,6 +253869,18 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-10-07T09:25:28+00:00",
             "subject": "RuntimeLibcallsEmitter: Add isolated LibcallLibrary variant (#223764)"
+        },
+        {
+            "hash": "708fee365beae021be8378300a4fbe6e2d9508d4",
+            "author_name": "Sander de Smalen",
+            "commit_date": "2026-10-07T09:32:48+00:00",
+            "subject": "[AArch64][SME] Allow more inlining when SME attributes are incompatible. (#223393)"
+        },
+        {
+            "hash": "8ea9a49c19cfc6ace2f830521915aa0548ee0377",
+            "author_name": "Matthew Nagy",
+            "commit_date": "2026-10-07T09:35:53+00:00",
+            "subject": "[TySan] Make TySan compatible with sanitizer common interceptors (par\u2026 (#197688)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
