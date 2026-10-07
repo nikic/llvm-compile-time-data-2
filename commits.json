@@ -254307,6 +254307,30 @@
             "author_name": "Expertcoderz",
             "commit_date": "2026-10-07T17:56:34+02:00",
             "subject": "[Clang][Sema] Add -Wredundant-defer to diagnose redundant `_Defer`s (#225748)"
+        },
+        {
+            "hash": "29ebb0260093ab642f2322b70a02d7ad088d244f",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-07T15:59:02+00:00",
+            "subject": "AMDGPU: Apply xnack\/sramecc settings before constructing TargetLowering (#229705)"
+        },
+        {
+            "hash": "7755203d2e8b153fb736341d24edcac82680800e",
+            "author_name": "Tom Eccles",
+            "commit_date": "2026-10-07T17:00:37+01:00",
+            "subject": "[mlir][OpenMP] Avoid privatization barriers in partial-team regions (#229413)"
+        },
+        {
+            "hash": "e685c1bb1e7827648b169863b3add80b082c46d1",
+            "author_name": "Janek van Oirschot",
+            "commit_date": "2026-10-07T16:01:26+00:00",
+            "subject": "[AMDGPU][NFC] Precommit tests for WMMA new hazard CFG walk (#229790)"
+        },
+        {
+            "hash": "3a5aaa42280e94e428c297290d46f91dd2ef36fe",
+            "author_name": "Chen Miao",
+            "commit_date": "2026-10-07T16:05:40+00:00",
+            "subject": "[clang] Restrict parenthesized direct initialization to C++ (#229034)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -275253,12 +275277,6 @@
             "author_name": "Nathan Corbyn",
             "commit_date": "2026-10-07T15:51:13+01:00",
             "subject": "[ScheduleDAG] Allow redundant edges"
-        },
-        {
-            "hash": "b9f913c17d9bb9e6e857834d8a0fc2cde9bc12f2",
-            "author_name": "Nathan Corbyn",
-            "commit_date": "2026-10-07T16:38:47+01:00",
-            "subject": "Try ignoring redundant chains"
         }
     ],
     "fhahn\/perf\/cse-isoverwrite-wrap1": [
