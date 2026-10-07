@@ -254085,6 +254085,24 @@
             "author_name": "Benjamin Maxwell",
             "commit_date": "2026-10-07T13:51:17+01:00",
             "subject": "[AArch64] Avoid materializing full masks for extractelement users of predicate-as-counter (#220961)"
+        },
+        {
+            "hash": "7ca0478faebcb418978559465454582af5db26ff",
+            "author_name": "Yingwei Zheng",
+            "commit_date": "2026-10-07T12:53:31+00:00",
+            "subject": "[Verifier] Check intrinsic signature validity before handwritten code (#229716)"
+        },
+        {
+            "hash": "62c1f75b6cfa2de26d8552b16fc448392b1bd622",
+            "author_name": "Jan Trusi\u0142\u0142o",
+            "commit_date": "2026-10-07T12:55:46+00:00",
+            "subject": "[Offload][L0] Include context allocations in kernel indirect access flags (#229384)"
+        },
+        {
+            "hash": "8db65ef8d932c736ad1516f2a29facc895b48a17",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-07T12:56:40+00:00",
+            "subject": "Mips: Mark the assembler temporary def dead in inserted branches (#229690)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -274997,6 +275015,26 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-10-07T13:21:24+02:00",
             "subject": "ConstantExpr"
+        }
+    ],
+    "fhahn\/perf\/local-builder": [
+        {
+            "hash": "445981d83ba02fecc7fa68dd0ed5b2cc6b9b91ba",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-07T09:51:56+00:00",
+            "subject": "RegisterCoalescer: Restore subrange PHI inputs of pruned undef values (#229551)"
+        },
+        {
+            "hash": "e1f65e526d06bf75cef5b9d0324c9cc8db90d1f4",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-07T13:53:23+01:00",
+            "subject": "[IRBuilder] Make IRBuilder inserter non-virtual"
+        },
+        {
+            "hash": "1bf92278343aecd8f7be4fb653cf2f95f08bc9d1",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-07T13:53:45+01:00",
+            "subject": "[Local] Construct IRBuilder in ConstantFoldTerm only when folding (NFC)"
         }
     ]
 }
