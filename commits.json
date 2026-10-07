@@ -254367,6 +254367,12 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-10-07T16:22:19+00:00",
             "subject": "RuntimeLibcalls: Add baseline DeclareRuntimeLibcalls tests (#229811)"
+        },
+        {
+            "hash": "e65c4e339af01d22432188b02e5f4ab9b5e2e47d",
+            "author_name": "Hristo Hristov",
+            "commit_date": "2026-10-07T16:32:53+00:00",
+            "subject": "[libc++] Implement `<debugging>` (#81447)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -275103,9 +275109,9 @@
             "subject": "[AArch64][SPIRV][GlobalISel] Migrate target-specific wip_match_opcode combines to MIR-pattern (#222903)"
         },
         {
-            "hash": "5387b49a03449ffd98cea8f0b2eac4f0b48a8a6b",
+            "hash": "8041932bf661ec3e6f54de645da0f2aa2de5c3bd",
             "author_name": "Momchil Velikov",
-            "commit_date": "2026-10-06T16:57:43+00:00",
+            "commit_date": "2026-10-07T16:29:23+00:00",
             "subject": "[GVN] Do not create\/destroy a local copy of GVNPassImpl in the run method"
         }
     ],
@@ -275165,10 +275171,10 @@
             "subject": "[RegAllocFast] Allocate tied uses first and enable for PowerPC"
         },
         {
-            "hash": "75cf50d000901867bb3186001093e5e8050d4027",
+            "hash": "fe408b686d1b52e775da2052f63af5eb4de57acf",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-10-07T01:12:52-07:00",
-            "subject": "[RegAllocFast] Only allocate tied uses first when an untied use precedes them"
+            "commit_date": "2026-10-07T01:33:45-07:00",
+            "subject": "[RegAllocFast] Allocate late tied uses in a separate guarded loop"
         }
     ],
     "MaskRay\/perf\/inline-vmap-avh2": [
