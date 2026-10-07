@@ -254595,6 +254595,36 @@
             "author_name": "Alex Langford",
             "commit_date": "2026-10-07T18:29:23+00:00",
             "subject": "[lldb] Remove ConstString from UnwindLLDB (#229614)"
+        },
+        {
+            "hash": "525d0d693d44346f38a11245c37e57f874e5dc8a",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-10-07T19:32:49+01:00",
+            "subject": "[lldb] Register 'target modules dump pcm-info' from TypeSystemClang (#229816)"
+        },
+        {
+            "hash": "44c54fc0f6486281281ba92c012b8156be56a1be",
+            "author_name": "Eli Friedman",
+            "commit_date": "2026-10-07T18:37:15+00:00",
+            "subject": "[clang] Don't use isConstantInitializer in CodeGen. (#224781)"
+        },
+        {
+            "hash": "0077da73195920de482a776b04b18ec2b9290494",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-10-07T18:38:16+00:00",
+            "subject": "[ProfCheck] Remove already fixed tests (#229819)"
+        },
+        {
+            "hash": "58d6f1c080e540d43f1ac9e25ff6a10447b5bb94",
+            "author_name": "guyfischman",
+            "commit_date": "2026-10-07T14:39:19-04:00",
+            "subject": "[docs] Drop stale \"experimental\" note for preserve_most (#214205)"
+        },
+        {
+            "hash": "4923368c37523fadd8d71020943e8bfb649470e4",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-10-07T18:39:57+00:00",
+            "subject": "[RegAllocFast] Allocate tied uses first and enable for PowerPC (#229672)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -264723,6 +264753,12 @@
             "author_name": "AZero13",
             "commit_date": "2026-10-06T09:38:51+02:00",
             "subject": "[NFC][clang][Serialization] Fix std::set_difference sorting mismatch in ASTReader (#219053)"
+        },
+        {
+            "hash": "d657d8d8c0fd9601d68dfbabb28cd6fe33115a75",
+            "author_name": "Douglas Yung",
+            "commit_date": "2026-10-07T18:36:31+00:00",
+            "subject": "Bump version to 23.1.4"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
@@ -275567,6 +275603,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-07T16:42:42+01:00",
             "subject": "Fix"
+        }
+    ],
+    "nikic\/perf\/local-builder": [
+        {
+            "hash": "0077da73195920de482a776b04b18ec2b9290494",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-10-07T18:38:16+00:00",
+            "subject": "[ProfCheck] Remove already fixed tests (#229819)"
+        },
+        {
+            "hash": "c64a50feb279e376241bcd1937039b7baacf7f4f",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-07T20:39:33+02:00",
+            "subject": "Construct IRBuilder in ConstantFoldTerm only when folding (NFC)"
         }
     ]
 }
