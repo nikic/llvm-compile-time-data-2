@@ -253815,6 +253815,30 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-10-07T08:20:33+00:00",
             "subject": "[IRBuilder] Accept Module instead of LLVMContext in ctor (#229430)"
+        },
+        {
+            "hash": "16792e00e652c4eba68ed02cc3b69ec5b8a9f311",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-07T08:25:56+00:00",
+            "subject": "[OCaml] Remove unused open Llvm_target in test (NFC) (#229680)"
+        },
+        {
+            "hash": "389a69b468631086349b03ff3abc1cff9df71db0",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-07T08:28:09+00:00",
+            "subject": "[Analysis] Remove unused CallGraphSCC methods (NFC) (#229683)"
+        },
+        {
+            "hash": "e128a79c81bd4e0274eaf0cae3a318f715882746",
+            "author_name": "Benjamin Maxwell",
+            "commit_date": "2026-10-07T09:29:01+01:00",
+            "subject": "[AArch64] Add predicate-as-counter loop rewrite pass (#220960)"
+        },
+        {
+            "hash": "cc67eac964112fe043aa3527c2d63d2dd55f56ee",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-07T08:29:48+00:00",
+            "subject": "[clang] Replace PointerUnion::dyn_cast with llvm::dyn_cast (NFC) (#229682)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -274601,16 +274625,22 @@
     ],
     "MaskRay\/perf\/fastra-tied-ppc": [
         {
-            "hash": "906e3ec0647aef01363973edf3cb0104a812589a",
-            "author_name": "Himadhith",
-            "commit_date": "2026-10-07T02:53:13+00:00",
-            "subject": "[AIX][libc++] Forward-declare locale functions in aix.h when _XOPEN_SOURCE < 700 (#220508)"
+            "hash": "b0ba49d8c5433320684dede908bfabe3f2caf633",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-10-07T07:58:29+00:00",
+            "subject": "[clang] Honor -discard-value-names for LLVM IR input (#229674)"
         },
         {
-            "hash": "b905d97a4fc46b9e6f8454cb41c6ba9c9416c141",
+            "hash": "4b2c836287195b33c8c34d3b269db414e09a7d24",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-10-06T23:57:37-07:00",
+            "commit_date": "2026-10-07T01:01:06-07:00",
             "subject": "[RegAllocFast] Allocate tied uses first and enable for PowerPC"
+        },
+        {
+            "hash": "75cf50d000901867bb3186001093e5e8050d4027",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-10-07T01:12:52-07:00",
+            "subject": "[RegAllocFast] Only allocate tied uses first when an untied use precedes them"
         }
     ],
     "MaskRay\/perf\/inline-vmap-avh2": [
