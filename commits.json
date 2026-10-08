@@ -256401,6 +256401,24 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-10-08T18:26:07+00:00",
             "subject": "[RISCV] Modernize tests for tt-ascalon-x (NFC) (#229718)"
+        },
+        {
+            "hash": "8f30c727400c4257716386a9bc40fe988bef61c2",
+            "author_name": "Chinmay Deshpande",
+            "commit_date": "2026-10-08T18:38:52+00:00",
+            "subject": "Revert \"[AMDGPU] Reserve ENABLE_WAVEFRONT_SIZE32 on gfx125x\" (#230228)"
+        },
+        {
+            "hash": "ef7a2c577d334ff72bc3914927b1ac1765b6b3f9",
+            "author_name": "Slava Zakharin",
+            "commit_date": "2026-10-08T11:41:37-07:00",
+            "subject": "[mlir][affine] Fix unroll cleanup loop bound for negative trip counts (#227135)"
+        },
+        {
+            "hash": "9ff4976897e8ffcadc15555a3caf3529c97186d8",
+            "author_name": "cmtice",
+            "commit_date": "2026-10-08T11:43:31-07:00",
+            "subject": "[LLDB] [lldb-dap] Update to try DIL before expression evaluator. (#228185)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -277553,6 +277571,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-08T13:59:18+01:00",
             "subject": "[SCEV] Scale canReuseInstruction's walk budget with the expression size."
+        }
+    ],
+    "kmclaughlin-arm\/perf\/ct-atomic-sthint": [
+        {
+            "hash": "5c31fc696c2dca47458b0da7a05d0b487386242b",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-10-07T12:44:52+00:00",
+            "subject": "[gn build] Port 2c10250e85242 (#229744)"
+        },
+        {
+            "hash": "671900e9ad62a3221d5de0ff05fa9099aa5f7a0b",
+            "author_name": "Kerry McLaughlin",
+            "commit_date": "2026-10-08T14:17:06+00:00",
+            "subject": "[AArch64] Reduce AddedComplexity value on atomic hint patterns"
         }
     ]
 }
