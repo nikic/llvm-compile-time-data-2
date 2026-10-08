@@ -255795,6 +255795,18 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-10-08T14:35:00+02:00",
             "subject": "RegisterCoalescer: Keep remat def dead if it's a copy destination superregister (#230036)"
+        },
+        {
+            "hash": "195de6997e477f25d1288fdee3fcf2a1bd39ce4c",
+            "author_name": "Maddy Dunn",
+            "commit_date": "2026-10-08T12:51:35+00:00",
+            "subject": "[mlir][tosa] Fix extra type in GATHER compliance data (#230045)"
+        },
+        {
+            "hash": "b4badb65df4ea15fc6ecabd8f9366a96df11dcb5",
+            "author_name": "dobri01",
+            "commit_date": "2026-10-08T13:51:53+01:00",
+            "subject": "[AArch64] Add support for C2 CPUs (#229055)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -276767,15 +276779,15 @@
     ],
     "fhahn\/perf\/scev-total-order": [
         {
-            "hash": "c6648ca041f9b55a41c56bed1b98287056349afa",
-            "author_name": "Joshua Batista",
-            "commit_date": "2026-10-07T22:42:14-07:00",
-            "subject": "[HLSL] Add Barrier builtin (#228277)"
+            "hash": "d424cf2a666554a3cc5581b3eadccf0d7b44d34b",
+            "author_name": "Hung-Kuan Tseng",
+            "commit_date": "2026-10-08T14:19:27+02:00",
+            "subject": "[mlir][complex] Require fastmath for the add\/sub and exp\/log folds (#221384)"
         },
         {
-            "hash": "da0a066ef798db0782326fdbed614c5605bdcdab",
+            "hash": "2ff69ff1dc2cb8d7a88458899f9868db347d6ad3",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-08T08:55:41+01:00",
+            "commit_date": "2026-10-08T13:50:16+01:00",
             "subject": "[SCEV] Make operand complexity order total."
         }
     ],
