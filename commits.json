@@ -256215,6 +256215,24 @@
             "author_name": "Nico Weber",
             "commit_date": "2026-10-08T16:12:14+00:00",
             "subject": "[gn build] Port c4d9267a31897 (#230177)"
+        },
+        {
+            "hash": "3a8f29331811e28e89011304701963f02fe53578",
+            "author_name": "Morris Hafner",
+            "commit_date": "2026-10-08T18:16:11+02:00",
+            "subject": "[CIR] Put try_throw's normal destination in the throw's region (#229915)"
+        },
+        {
+            "hash": "2d4b1790b2873b6d0eb83adc3bc0df3653b2d848",
+            "author_name": "Drew Kersnar",
+            "commit_date": "2026-10-08T11:18:32-05:00",
+            "subject": "[LoopUnroll] Snapshot loop blocks after runtime remainder generation (#229779)"
+        },
+        {
+            "hash": "8c691cf15042116d9a863321e029d3e869a9a9fe",
+            "author_name": "Alexandre Ganea",
+            "commit_date": "2026-10-08T12:19:00-04:00",
+            "subject": "[CodeView] Set the S_COMPILE3 hotpatch flag from a module flag (#229868)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -277199,16 +277217,22 @@
     ],
     "fhahn\/perf\/scev-total-order": [
         {
-            "hash": "d424cf2a666554a3cc5581b3eadccf0d7b44d34b",
-            "author_name": "Hung-Kuan Tseng",
-            "commit_date": "2026-10-08T14:19:27+02:00",
-            "subject": "[mlir][complex] Require fastmath for the add\/sub and exp\/log folds (#221384)"
+            "hash": "b0765aac87daa7c5d373679e6c3e79f136f06c87",
+            "author_name": "Kim-J-Smith",
+            "commit_date": "2026-10-08T10:07:49-04:00",
+            "subject": "[libc++] Fix ill-formed return in function_ref's static-call path (#228868)"
         },
         {
-            "hash": "2ff69ff1dc2cb8d7a88458899f9868db347d6ad3",
+            "hash": "b88d8f895aebad50f7c2b051d392a8261c0463cf",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-08T13:50:16+01:00",
+            "commit_date": "2026-10-08T16:09:35+01:00",
             "subject": "[SCEV] Make operand complexity order total."
+        },
+        {
+            "hash": "24cf1b325701a6dbbd4a33c007699791d74ceddc",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-08T17:17:45+01:00",
+            "subject": "Also sort by canonical"
         }
     ],
     "nikic\/perf\/stable-debug-loc": [
