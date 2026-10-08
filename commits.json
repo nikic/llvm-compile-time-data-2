@@ -255663,6 +255663,18 @@
             "author_name": "Kirill Vedernikov",
             "commit_date": "2026-10-08T12:24:22+02:00",
             "subject": "[NVVM][NVPTX] Support spcompress and spdecompress intrinsics (#221751)"
+        },
+        {
+            "hash": "e2a6fc57b2aeefaf86c3c2a59607148335fc58e4",
+            "author_name": "Midhunesh",
+            "commit_date": "2026-10-08T16:06:29+05:30",
+            "subject": "[BasicAA] Fix miscompilation with setjmp\/longjmp due to missing longjmp re-entry paths in alias analysis (#212297)"
+        },
+        {
+            "hash": "715e7f56791e66708ed98f2b76871f96dc3c73b4",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-10-08T11:40:12+01:00",
+            "subject": "[lldb][Windows] End the debug session before destroying an lldb-server process (#229433)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -276571,9 +276583,9 @@
             "subject": "PowerPC: Promote 32-bit ops to 64-bit in place for EXTSW elimination (#229054)"
         },
         {
-            "hash": "906d4023e301137554f71275c19ac09a2ab556ac",
+            "hash": "6859a50490c0776fc403cb8001d2b1b09391d026",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-07T15:18:52+02:00",
+            "commit_date": "2026-10-08T12:16:57+02:00",
             "subject": "ConstantExpr"
         }
     ],
@@ -276763,6 +276775,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-08T10:14:08+01:00",
             "subject": "[IR] Handle branches inline in Instruction::successors (NFC)"
+        }
+    ],
+    "tbaederr\/perf\/constant-expr2": [
+        {
+            "hash": "804efba8a498197855111bd290728aac4cfdbc21",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-07T10:05:38+00:00",
+            "subject": "PowerPC: Promote 32-bit ops to 64-bit in place for EXTSW elimination (#229054)"
+        },
+        {
+            "hash": "6859a50490c0776fc403cb8001d2b1b09391d026",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-10-08T12:16:57+02:00",
+            "subject": "ConstantExpr"
         }
     ]
 }
