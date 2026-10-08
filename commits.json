@@ -255831,6 +255831,24 @@
             "author_name": "Hassnaa Hamdi",
             "commit_date": "2026-10-08T13:02:47+00:00",
             "subject": "[LV] Don't tail-fold the epilogue with EVL-based tail-folding (#228452)"
+        },
+        {
+            "hash": "95ea23b7d5b06c60c513c575577d5b7d0ed15721",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-08T13:06:47+00:00",
+            "subject": "[VPlan] Don't merge allocas across lanes, parts or recipes. (#229929)"
+        },
+        {
+            "hash": "e4a80593e7a737612ca325d83b0214b895799b70",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-10-08T13:08:37+00:00",
+            "subject": "[X86] combineSelect - don't check SimpleValueTypes through bitcast (#230040)"
+        },
+        {
+            "hash": "9e6ceca1dd61936f9d3c40f144c65ec5784dc27e",
+            "author_name": "Joseph Huber",
+            "commit_date": "2026-10-08T08:09:26-05:00",
+            "subject": "[AMDGPU][GISel] Honor the nomerge attribute on calls (#229152)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -274659,28 +274677,34 @@
     ],
     "artagnon\/perf\/scev-exact-flags": [
         {
-            "hash": "0c53d0f836f58d43a0d305e36de00ace9600e608",
-            "author_name": "Rohan Shenoy",
-            "commit_date": "2026-10-06T10:49:12+00:00",
-            "subject": "[X86] Require contract on FMUL while folding FMADDSUB to VFMULC (#229309)"
+            "hash": "b4badb65df4ea15fc6ecabd8f9366a96df11dcb5",
+            "author_name": "dobri01",
+            "commit_date": "2026-10-08T13:51:53+01:00",
+            "subject": "[AArch64] Add support for C2 CPUs (#229055)"
         },
         {
-            "hash": "a639e566397f5900374fd7fa4e1e09a4f2771e7a",
+            "hash": "53d1e09eca0e0e02e7cc50321cd6662a187a4fcc",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-06T13:17:32+01:00",
+            "commit_date": "2026-10-08T14:08:26+01:00",
             "subject": "[LoopUnroll] Pre-commit udiv-exact tests"
         },
         {
-            "hash": "e8a23aa84060705f0ffc3b5cf1a17d1b9ed41485",
+            "hash": "d61bfb721525ce711fac2acf7f4d1a0e9d4f0707",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-06T13:17:32+01:00",
+            "commit_date": "2026-10-08T14:08:26+01:00",
             "subject": "[SCEV] Introduce exact flag for UDiv"
         },
         {
-            "hash": "f18d54d88a98b61a99c29abd011a2e66a9553535",
+            "hash": "26ee00876917804cf85a636c077d0a826189aa7a",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-06T13:17:32+01:00",
+            "commit_date": "2026-10-08T14:08:26+01:00",
             "subject": "[SCEV] Fix nits, strengthen with asserts"
+        },
+        {
+            "hash": "e3dbd4764f56364b055cbd4f71dc67cefe64733a",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-08T14:11:47+01:00",
+            "subject": "[SCEV] Fix NFC nits"
         }
     ],
     "fhahn\/perf\/ce-strict-witness": [
