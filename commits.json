@@ -255885,6 +255885,24 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-10-08T06:32:30-07:00",
             "subject": "[InstCombine] Fix profile propagation in ldexp-ext.ll (#229893)"
+        },
+        {
+            "hash": "6503564eae974aa1054c76c4eea0a903f0a368ed",
+            "author_name": "Yongqiang Tian",
+            "commit_date": "2026-10-08T14:40:10+01:00",
+            "subject": "[AArch64] Ignore debug instructions in MachineOutliner range partitioning (#229993)"
+        },
+        {
+            "hash": "0fea2213c2b1e109ee7df0966f39caa4fdf01053",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-08T13:42:54+00:00",
+            "subject": "[VPlan] Strip unnecessary WidenInd constructor (NFC) (#230100)"
+        },
+        {
+            "hash": "8726e6b1e1e00c8bbcb64e6cc830eed508f223dd",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-08T15:43:37+02:00",
+            "subject": "AMDGPU: Migrate more tests off of -amdgpu-scalarize-global-loads=false (#230008)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -276471,6 +276489,12 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-08T15:27:58+02:00",
             "subject": "[InstCombine] Restore logarithm shrink test coverage"
+        },
+        {
+            "hash": "75908514b148704d4f93810a21c90b92d1ef7c0e",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-08T15:35:34+02:00",
+            "subject": "[InstCombine] Keep stdin input in logarithm shrink tests"
         }
     ],
     "AnonMiraj\/perf\/concept-cache-canonical-key": [
@@ -276575,6 +276599,18 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-08T15:30:30+02:00",
             "subject": "[LV] Simplify recording safe access alignment"
+        },
+        {
+            "hash": "21c0458eced4232f93e40b7c4e5d1eb5b23daf0d",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-08T15:35:58+02:00",
+            "subject": "[LV] Use zero for missing safe access alignment"
+        },
+        {
+            "hash": "c2fed337bffdae37063a09cb8e53e843b83a30d4",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-08T15:43:56+02:00",
+            "subject": "[LV] Make missing safe access alignment explicit"
         }
     ],
     "AnonMiraj\/perf\/debuginfo-setlocation-presumed-once": [
@@ -277005,6 +277041,32 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-10-08T12:16:57+02:00",
             "subject": "ConstantExpr"
+        }
+    ],
+    "fhahn\/perf\/scev-reuse-budget": [
+        {
+            "hash": "d424cf2a666554a3cc5581b3eadccf0d7b44d34b",
+            "author_name": "Hung-Kuan Tseng",
+            "commit_date": "2026-10-08T14:19:27+02:00",
+            "subject": "[mlir][complex] Require fastmath for the add\/sub and exp\/log folds (#221384)"
+        },
+        {
+            "hash": "10d4b33fe57fecd864b7f9dbdfa558ae2f1329ad",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-08T13:42:41+01:00",
+            "subject": "[IndVars] Add test for LFTR failing to reuse a long exit-count chain (NFC)"
+        },
+        {
+            "hash": "0a29e64eaf5e64e683a81529323428d9b111751d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-08T13:46:51+01:00",
+            "subject": "[SCEV] Don't count non-poison values against canReuseInstruction's budget."
+        },
+        {
+            "hash": "9858a9a34fc057223590c1cc69c9b9cf7bbe3867",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-08T13:59:18+01:00",
+            "subject": "[SCEV] Scale canReuseInstruction's walk budget with the expression size."
         }
     ]
 }
