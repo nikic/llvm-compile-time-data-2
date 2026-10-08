@@ -255447,6 +255447,30 @@
             "author_name": "Andrew Savonichev",
             "commit_date": "2026-10-08T16:56:36+09:00",
             "subject": "[NFC][AutoUpgrade] Add logging for module flags upgrade (#226165)"
+        },
+        {
+            "hash": "19467451ea7e57f6784a663a0d6d24949646ac65",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-08T07:59:45+00:00",
+            "subject": "[CodeGen] Remove unused IntrinsicLowering::LowerToByteSwap (NFC) (#230010)"
+        },
+        {
+            "hash": "7b53bbb042666a8066272553700e434fdfdb146c",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-08T08:03:34+00:00",
+            "subject": "[clang] Replace PointerUnion::dyn_cast with llvm::dyn_cast (NFC) (#230009)"
+        },
+        {
+            "hash": "89c826d463837b811f5751a959d3484716c94537",
+            "author_name": "Anutosh Bhat",
+            "commit_date": "2026-10-08T08:04:41+00:00",
+            "subject": "[clang-repl] Drop orc jit dependency from clangInterpreter's wasm build (#175910)"
+        },
+        {
+            "hash": "48102564a14886db6ba759325446907e2e1cfe71",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-08T08:05:47+00:00",
+            "subject": "[PGO] Fix PGO instrumentation for selects with poison condition (#229002)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -276425,15 +276449,15 @@
     ],
     "fhahn\/perf\/scev-total-order": [
         {
-            "hash": "b55d494e17333aece0c52f1653db246dede9b2be",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-07T21:29:53+00:00",
-            "subject": "[VPlan] Simplify (icmp ne X, false) -> X. (#229904)"
+            "hash": "c6648ca041f9b55a41c56bed1b98287056349afa",
+            "author_name": "Joshua Batista",
+            "commit_date": "2026-10-07T22:42:14-07:00",
+            "subject": "[HLSL] Add Barrier builtin (#228277)"
         },
         {
-            "hash": "a0ac7536db45050a56d7e34c05a34cc3aa1914a4",
+            "hash": "da0a066ef798db0782326fdbed614c5605bdcdab",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-07T22:44:05+01:00",
+            "commit_date": "2026-10-08T08:55:41+01:00",
             "subject": "[SCEV] Make operand complexity order total."
         }
     ],
