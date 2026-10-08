@@ -255621,6 +255621,30 @@
             "author_name": "Charles Zablit",
             "commit_date": "2026-10-08T10:52:09+01:00",
             "subject": "[lldb][Windows] Support paths longer than MAX_PATH in FileSystem (#229727)"
+        },
+        {
+            "hash": "b8c6f411414dbdf03b2cb2ab643da34b6c66398c",
+            "author_name": "jeanPerier",
+            "commit_date": "2026-10-08T11:57:24+02:00",
+            "subject": "[flang][OpenMP] Do not set nuw on canonical loop trip count span (#229776)"
+        },
+        {
+            "hash": "eb2fadeb2c43feaf6dfe8fbeebd2ca1c92d37445",
+            "author_name": "Fabrice de Gans",
+            "commit_date": "2026-10-08T03:00:49-07:00",
+            "subject": "[cmake] Properly link against LLVM components (#224624)"
+        },
+        {
+            "hash": "a8914554d475b84ee2e14c63c3f4d002731ea116",
+            "author_name": "Chris Kennelly",
+            "commit_date": "2026-10-08T10:01:06+00:00",
+            "subject": "[DAGCombiner] Add tests for zero-extended low-bits masks (NFC) (#229981)"
+        },
+        {
+            "hash": "dcb4cd76edd16e12711ad0e868673575e8d10b31",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-08T10:03:07+00:00",
+            "subject": "[LV] Add baseline tests for predicated load access safety (#229468)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -274271,21 +274295,21 @@
     ],
     "fhahn\/perf\/scev-merge-block-guards": [
         {
-            "hash": "27862ae3ef3117fd121af48529c11aea9347ec36",
-            "author_name": "Anup Kumar",
-            "commit_date": "2026-10-06T11:41:31+00:00",
-            "subject": "[GVN] Use willNotFreeBetween in loop-load PRE (#228033)"
+            "hash": "66cc20a0b4356d2b5d2278e68bfe5b16ad4e87dd",
+            "author_name": "Peiqi Li",
+            "commit_date": "2026-10-08T15:33:03+08:00",
+            "subject": "[clang-tidy] Fix invalid fix-it for macro expansions (#227984)"
         },
         {
-            "hash": "be468c1d53bfe71c88937ca4140cade6c9d47264",
+            "hash": "757108e75738b84e5eb1df214680ac09675d58a8",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-06T14:08:10+01:00",
+            "commit_date": "2026-10-08T11:01:16+01:00",
             "subject": "[SCEV] Add tests with loop guards behind merge blocks."
         },
         {
-            "hash": "10658c2dc42f6f4a14c14f203207f1e86b7403ad",
+            "hash": "cdd9eb9d3255f08c9e67cc2b6c6b3e70061fa524",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-06T14:08:10+01:00",
+            "commit_date": "2026-10-08T11:01:16+01:00",
             "subject": "[SCEV] Look for guard conditions through merge blocks."
         }
     ],
