@@ -255867,6 +255867,24 @@
             "author_name": "Ivy Xu",
             "commit_date": "2026-10-08T21:21:31+08:00",
             "subject": "[clang][www] Replace mailing list reference with Discourse forum link (#228676)"
+        },
+        {
+            "hash": "9f3af63e886d8742fc123650a879ff25253ed1ce",
+            "author_name": "Aleksandr Platonov",
+            "commit_date": "2026-10-08T13:28:00+00:00",
+            "subject": "[clangd] Add dynamic plugins support (#226995)"
+        },
+        {
+            "hash": "c21c20c9d877cfaffa7a61ace325137334b2e2eb",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-10-08T06:32:03-07:00",
+            "subject": "[InstCombine] Mark profiles unknown when folding lshr shifts (#229965)"
+        },
+        {
+            "hash": "6d4901643a490630a1a67c26be13ed731389dbc5",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-10-08T06:32:30-07:00",
+            "subject": "[InstCombine] Fix profile propagation in ldexp-ext.ll (#229893)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -276431,27 +276449,27 @@
     ],
     "davidbolvansky\/perf\/instcombine-shrink-log-intrinsics": [
         {
-            "hash": "44d29b7e245ad676175aaa27878e61a1b27b7a16",
+            "hash": "2f3fa32ed25a3d44184c53980aab44bc2001bee9",
+            "author_name": "Ivy Xu",
+            "commit_date": "2026-10-08T21:21:31+08:00",
+            "subject": "[clang][www] Replace mailing list reference with Discourse forum link (#228676)"
+        },
+        {
+            "hash": "33b236f1879281eb33eb5b78adf3cb79b570710a",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-04T03:35:03+02:00",
+            "commit_date": "2026-10-08T15:27:57+02:00",
             "subject": "[InstCombine] Cover shrinking logarithm intrinsics to float"
         },
         {
-            "hash": "78abcd945879dccc473b1343ac1c2793dedcc82f",
+            "hash": "aeb356af43e00750ffec7767a382842e669652f8",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-04T03:42:33+02:00",
+            "commit_date": "2026-10-08T15:27:58+02:00",
             "subject": "[InstCombine] Shrink fast logarithm intrinsics to float"
         },
         {
-            "hash": "50f4feb0100afffc09af955e29a92896e8c1aa8b",
+            "hash": "dcbd05cb9bcd0ff808321835e167af9978e77ba0",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-05T15:19:12+02:00",
-            "subject": "Merge remote-tracking branch 'origin\/main' into HEAD"
-        },
-        {
-            "hash": "b73117c7afed9055a67a47bd3df78d01ea6d3b95",
-            "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-08T13:44:11+02:00",
+            "commit_date": "2026-10-08T15:27:58+02:00",
             "subject": "[InstCombine] Restore logarithm shrink test coverage"
         }
     ],
@@ -276551,6 +276569,12 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-08T13:32:23+02:00",
             "subject": "[LV] Respect access type and alignment when speculating loads"
+        },
+        {
+            "hash": "04dd746078594ecf5ff9fcd28cf1e8cbbee18ee8",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-08T15:30:30+02:00",
+            "subject": "[LV] Simplify recording safe access alignment"
         }
     ],
     "AnonMiraj\/perf\/debuginfo-setlocation-presumed-once": [
