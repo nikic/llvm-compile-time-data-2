@@ -255561,6 +255561,12 @@
             "author_name": "Jim Lin",
             "commit_date": "2026-10-08T17:10:16+08:00",
             "subject": "[RISCV] Use ReadJmp for XAndesPerf branch instructions (#230000)"
+        },
+        {
+            "hash": "91096d9dbef68c1f020f3aa92d5167bb04aaccba",
+            "author_name": "David Green",
+            "commit_date": "2026-10-08T09:21:53+00:00",
+            "subject": "[AArch64][GlobalISel] Ensure narrowed loads are given integer types. (#229857)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -276647,6 +276653,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-10-08T00:05:24-07:00",
             "subject": "[RegAllocFast] Add implicit super-register operands after operand loops. NFC"
+        }
+    ],
+    "fhahn\/perf\/if-successors-fast-path": [
+        {
+            "hash": "66cc20a0b4356d2b5d2278e68bfe5b16ad4e87dd",
+            "author_name": "Peiqi Li",
+            "commit_date": "2026-10-08T15:33:03+08:00",
+            "subject": "[clang-tidy] Fix invalid fix-it for macro expansions (#227984)"
+        },
+        {
+            "hash": "b773084a6f2fac7889b61b9f148274606b0b419d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-08T10:14:08+01:00",
+            "subject": "[IR] Handle branches inline in Instruction::successors (NFC)"
         }
     ]
 }
