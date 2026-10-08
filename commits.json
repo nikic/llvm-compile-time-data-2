@@ -255363,6 +255363,30 @@
             "author_name": "Yongqiang Tian",
             "commit_date": "2026-10-08T01:17:31-05:00",
             "subject": "[AMDGPU] Ignore debug instructions in invertSCCUse scan budget (#229961)"
+        },
+        {
+            "hash": "3eb867f9b63ae2881bbe3c25d3c12842f2bdc55e",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-08T08:35:40+02:00",
+            "subject": "AMDGPU: Use normal load\/store pattern type lists for atomics (#229688)"
+        },
+        {
+            "hash": "4e7a9a380ca5ec52b3ed4b80e52e1203744c4491",
+            "author_name": "Aman Maurya",
+            "commit_date": "2026-10-08T06:36:18+00:00",
+            "subject": "[CIR] Support __builtin_coro_align (#228821)"
+        },
+        {
+            "hash": "29164f464b6964e143974fef05350187c0b295a6",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-08T08:39:55+02:00",
+            "subject": "LoongArch: Stop setting kill flags on virtual registers before FinalizeISel (#229019)"
+        },
+        {
+            "hash": "645c5b1e7664034e292f56e68c72d6075b0d2907",
+            "author_name": "Victor Campos",
+            "commit_date": "2026-10-08T07:42:28+01:00",
+            "subject": "[AArch64] Codegen for AArch64 Return Address Authentication Hardening (#176187)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -276435,6 +276459,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-10-07T20:10:34-07:00",
             "subject": "[RegAllocFast] Informed forward scan, ported onto main (experiment)"
+        }
+    ],
+    "MaskRay\/perf\/fastra-implicit-ops": [
+        {
+            "hash": "34654fc6a7aeb742121b2f8e49793edac9512739",
+            "author_name": "Yongqiang Tian",
+            "commit_date": "2026-10-08T01:17:31-05:00",
+            "subject": "[AMDGPU] Ignore debug instructions in invertSCCUse scan budget (#229961)"
+        },
+        {
+            "hash": "f3cbda1ccbfe5fbf4790abc25ba2c3d5566faf94",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-10-07T23:36:46-07:00",
+            "subject": "[RegAllocFast] Add implicit super-register operands after operand loops. NFC"
         }
     ]
 }
