@@ -257169,6 +257169,24 @@
             "author_name": "Momchil Velikov",
             "commit_date": "2026-10-09T10:21:56+01:00",
             "subject": "[GVN] Do not create\/destroy a local copy of GVNPassImpl in the run method (#229833)"
+        },
+        {
+            "hash": "c258a69c8c3cca6fb20f960453380025b1f8ff9a",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-09T09:31:54+00:00",
+            "subject": "[MLGO] Switch regalloc log context once per function (#229453)"
+        },
+        {
+            "hash": "4bad635155fae1a5dfefc2ab97e52cba7a8cb2a0",
+            "author_name": "Morris Hafner",
+            "commit_date": "2026-10-09T11:35:41+02:00",
+            "subject": "[CIR] Fix -fopenacc crash on functions without a declaration (#230338)"
+        },
+        {
+            "hash": "4bdfa6ea0c35db8c208af334c749c9fafcc84a28",
+            "author_name": "Srinivasa Ravi",
+            "commit_date": "2026-10-09T15:07:05+05:30",
+            "subject": "[clang][NVPTX] Add overloaded fmul intrinsics (#224546)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -278369,6 +278387,20 @@
             "author_name": "Younan Zhang",
             "commit_date": "2026-10-09T14:26:43+08:00",
             "subject": "[Clang] Improve ConstraintSatisfaction"
+        }
+    ],
+    "c-rhodes\/perf\/codegen-skip-empty-debug-history-clobber-scans": [
+        {
+            "hash": "fc90bd3cfb0bab14a2bf7cbd33f5f1e904c7e133",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-10-06T08:46:31+00:00",
+            "subject": "[mlir][MemRef] Move the implementation of Mem2Reg interface from Vector to MemRef (nfc) (#228459)"
+        },
+        {
+            "hash": "46ed6c07b21098bf8299e05bfeb4ccf433d5d807",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-10-09T09:32:05+00:00",
+            "subject": "[CodeGen] Skip debug history clobber scans without register locations"
         }
     ]
 }
