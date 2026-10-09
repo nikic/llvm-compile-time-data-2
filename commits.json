@@ -257523,6 +257523,24 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-10-09T07:37:28-07:00",
             "subject": "[InstCombine] Mark profiles unknown in foldClampRangeOfTwo (#230297)"
+        },
+        {
+            "hash": "04fc855d5dff266b5744ce4f69af477bd4cc39ba",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-09T10:44:03-04:00",
+            "subject": "[SLP]Fix miscompile with mixed sext\/zext in disjoint or reduction"
+        },
+        {
+            "hash": "1fcf35c0d183097a734e51d378038432aa68850a",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-10-09T15:46:08+01:00",
+            "subject": "[lldb][test] Use a fake dsymForUUID in tests (#201547)"
+        },
+        {
+            "hash": "e0a8d72359ac9bd74c44ec8659c90e1e2d2648be",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-10-09T14:47:08+00:00",
+            "subject": "[PhaseOrdering][X86] vector-reduction-known-first-value.ll - add x86-64\/x86-64-v2\/x86-64-v3\/x86-64-v4 test coverage (#230506)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -278771,6 +278789,20 @@
             "author_name": "\u00d6mer Sinan A\u011facan",
             "commit_date": "2026-10-09T11:23:56+01:00",
             "subject": "[SimplifyCFG] Optimize switches on constant globals loads"
+        }
+    ],
+    "cofibrant\/perf\/cofibrant\/new-huge-region-handling": [
+        {
+            "hash": "df2b8087adbcb2248cbf1b34f95ad0f80e3d5ff9",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-10-09T07:37:28-07:00",
+            "subject": "[InstCombine] Mark profiles unknown in foldClampRangeOfTwo (#230297)"
+        },
+        {
+            "hash": "3d18119d5302cbd93ce0d4c10c4ddf46599b1c2c",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-10-09T15:45:18+01:00",
+            "subject": "[MISched] Prototype new huge region handling"
         }
     ]
 }
