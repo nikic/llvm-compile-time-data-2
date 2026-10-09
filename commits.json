@@ -258081,6 +258081,30 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-09T19:59:36+00:00",
             "subject": "[SCEV] Scale canReuseInstruction's walk budget with the expression size. (#230508)"
+        },
+        {
+            "hash": "76cfafe3f8812a9abe1f477844f313ae16d83f61",
+            "author_name": "Ilia Kuklin",
+            "commit_date": "2026-10-09T13:06:57-07:00",
+            "subject": "[lldb] Refactor DIL to take and store the context in `ExecutionContext` (#225849)"
+        },
+        {
+            "hash": "3500528e5b7f4bb177c0defd5c7709a00ac304d2",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-09T16:08:42-04:00",
+            "subject": "[SLP][NFC]Add a test with incorrect blended loads alignment, NFC"
+        },
+        {
+            "hash": "1396561f10bc39b182f43de64bba7173148cdeb6",
+            "author_name": "Jeffrey Byrnes",
+            "commit_date": "2026-10-09T13:10:49-07:00",
+            "subject": "[AMDGPU] Use instrLatency for memory HWUI cycle accounting (#205418)"
+        },
+        {
+            "hash": "f179e037761f815e3bf3877c2d88dd5dd251696b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-09T20:13:57+00:00",
+            "subject": "[ConstraintElim] Divide rows by the GCD of their coefficients. (#228765)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -277861,46 +277885,58 @@
     ],
     "fhahn\/perf\/o3-ct": [
         {
-            "hash": "99130f4391d9f232b303d5fe6b4aa5c6d37e1319",
-            "author_name": "Chibuoyim (Wilson) Ogbonna",
-            "commit_date": "2026-10-07T18:47:43+00:00",
-            "subject": "[clang][CIR] Add tests for SVE ANDV intrinsics (#227657)"
+            "hash": "ecce9962b4f8facbc3c71a5ce334ed104c0f69e5",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-09T19:05:42+00:00",
+            "subject": "[RISCV] Correct violations of SDTCisSameNumEltsAs. (#230612)"
         },
         {
-            "hash": "3f215a675693fa0b3dba8ac6b77e58305f05312e",
+            "hash": "6b61195ab906e8bac752086fe62dbfb23de25213",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-07T20:03:14+01:00",
-            "subject": "[CodeGen] Only visit live units in LiveRegUnits::removeRegsNotPreserved (NFC)"
-        },
-        {
-            "hash": "56ab94fb751de3e2a4f205c2c41168390eb13eb7",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-07T20:03:15+01:00",
-            "subject": "[IR] Handle branches inline in Instruction::successors (NFC)"
-        },
-        {
-            "hash": "9412f7285ea9a1bfa8b734c900f6f9eef167f9d2",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-07T20:03:15+01:00",
+            "commit_date": "2026-10-09T21:09:12+01:00",
             "subject": "[TypeBasedAA] Avoid constructing two ancestor paths (NFC)"
         },
         {
-            "hash": "dbcd845fd032351dab1ddf02b796cd12c00274e0",
+            "hash": "ad81cfa8cc83c7be0271906cca6db6ac7a42b3cc",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-07T20:03:15+01:00",
+            "commit_date": "2026-10-09T21:09:13+01:00",
             "subject": "[MemDep] Drop AA tags when checking loads against a load query (NFC)"
         },
         {
-            "hash": "79de4c9cdd0b7f37393d0ed535db1a21320897af",
+            "hash": "66287fe9a974c6345b0f8ba10b8c4d71820853ab",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-07T20:03:15+01:00",
+            "commit_date": "2026-10-09T21:09:13+01:00",
             "subject": "[BasicAA] Reuse object size when both pointers share an object (NFC)"
         },
         {
-            "hash": "12727e6c5f3e8d54e1104eaaf35a68018591fbff",
+            "hash": "883f5e58c038785a8eadeac8c8c4704ccada0b94",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-07T20:03:15+01:00",
+            "commit_date": "2026-10-09T21:09:14+01:00",
             "subject": "[BasicAA] Classify underlying objects once and guard capture queries (NFC)"
+        },
+        {
+            "hash": "1a3c6cec77217be3ad14269014da764876ddfa7a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-09T21:09:46+01:00",
+            "subject": "[InstSimplify] Match the GEP index before stripping the base (NFC)"
+        },
+        {
+            "hash": "c73c89463496f66ef765e012881e9e0121598d19",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-09T21:10:17+01:00",
+            "subject": "[IR] Compute CFG successor ranges with one successors() call (NFC)"
+        },
+        {
+            "hash": "56a08a93a62d4d5c6202811e8bc13d63cadaee44",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-09T21:11:04+01:00",
+            "subject": "[IR] Inline presence check in AttributeSetNode::findEnumAttribute (NFC)"
+        },
+        {
+            "hash": "fb8658481b1c56a6521c294d8fd033a6251d324f",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-09T21:12:01+01:00",
+            "subject": "[BFI] Scale block frequencies with native 128-bit integers (NFC)"
         }
     ],
     "tbaederr\/perf\/quoted-name": [
