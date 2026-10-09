@@ -257295,6 +257295,12 @@
             "author_name": "Eugene Epshteyn",
             "commit_date": "2026-10-09T11:06:44+00:00",
             "subject": "[flang][openacc] Diagnose a construct name on the END DO of an ACC labeled DO (#230308)"
+        },
+        {
+            "hash": "538cec9b2970b4946eba74930bc2701a00f54eb1",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-09T07:35:16-04:00",
+            "subject": "[SLP][NFC]Add a test with incorrect optimization, NFC"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -278515,6 +278521,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-10-09T09:32:05+00:00",
             "subject": "[CodeGen] Skip debug history clobber scans without register locations"
+        }
+    ],
+    "artagnon\/perf\/vplan-mergeblk-preds-rework": [
+        {
+            "hash": "001b1abc28a7f22345b8b326d0ec4aca88743292",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-10-09T10:32:39+00:00",
+            "subject": "[DAG] Expand mask_beforefirst during promotion (#230163)"
+        },
+        {
+            "hash": "cf2d309859231f4b06e33a3066a35bb848b4c18f",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-09T12:30:07+01:00",
+            "subject": "[VPlan] Rework mergeBlocksIntoPredecessors (NFC)"
         }
     ]
 }
