@@ -257325,6 +257325,18 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-09T11:46:42+00:00",
             "subject": "[AArch64] Use VectorInstrContext in getScalarizationOverhead. (#177201)"
+        },
+        {
+            "hash": "7a005aac5508d70a0c1911ff9b2267020a9e10a7",
+            "author_name": "raaller",
+            "commit_date": "2026-10-09T13:09:50+01:00",
+            "subject": "[ARM][Disassembler] Add missing predicates when decoding Thumb barriers (#223540)"
+        },
+        {
+            "hash": "fefeef248c48630953ae68b21a035008897a9f88",
+            "author_name": "Yaxun (Sam) Liu",
+            "commit_date": "2026-10-09T08:13:38-04:00",
+            "subject": "[IR] Name unnamed values after each pass (#221519)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -278559,6 +278571,20 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-10-09T12:30:07+01:00",
             "subject": "[VPlan] Rework mergeBlocksIntoPredecessors (NFC)"
+        }
+    ],
+    "osa1\/perf\/simplifycfg_prototype": [
+        {
+            "hash": "ed4aed21f36b4afc0bfbbd04d1e0b7177edbd33a",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-10-09T12:21:54+02:00",
+            "subject": "[clang][bytecode] Fix a crash in InvalidCast op (#230420)"
+        },
+        {
+            "hash": "f17a6127ddd811129e56e6b03a7eedc3f69ace56",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-09T11:23:56+01:00",
+            "subject": "[SimplifyCFG] Optimize switches on constant globals loads"
         }
     ]
 }
