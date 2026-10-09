@@ -257643,6 +257643,36 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-10-09T11:58:44-04:00",
             "subject": "[SLP]Fix deps for stores ahead of may-throw calls"
+        },
+        {
+            "hash": "ac7853d37abc652c0a65f7ce853dd6fa0a6b7cac",
+            "author_name": "Alex MacLean",
+            "commit_date": "2026-10-09T16:03:25+00:00",
+            "subject": "[NVPTX] Generalize flexible operands to floating-point instructions (#230258)"
+        },
+        {
+            "hash": "2dff69fe5252bba8906bb9b2a8ffef56e3a76c9e",
+            "author_name": "Leandro Lupori",
+            "commit_date": "2026-10-09T13:04:55-03:00",
+            "subject": "[flang][OpenMP] Fix the detection of static storage duration variables (#227871)"
+        },
+        {
+            "hash": "7010d0468e88b17143acc203a896a16c0c5b9671",
+            "author_name": "Mircea Trofin",
+            "commit_date": "2026-10-09T09:06:28-07:00",
+            "subject": "[mlgo] flush bot cmake caches after #227941 (#230568)"
+        },
+        {
+            "hash": "6d2b27332d3f97d29ab7733cf8bb02fbab69aeba",
+            "author_name": "Dhruva Chakrabarti",
+            "commit_date": "2026-10-09T09:08:05-07:00",
+            "subject": "[AMDGPU][NFC] Fix bogus register names in AGPR rewrite debug output (#230376)"
+        },
+        {
+            "hash": "16ea8524c2f3b2164b6dd206cd10e06989f4e279",
+            "author_name": "James Y Knight",
+            "commit_date": "2026-10-09T12:08:30-04:00",
+            "subject": "[IR] Instruction::maySynchronize should be false for monotonic atomics. (#230299)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -276857,6 +276887,12 @@
             "author_name": "Stephen Tozer",
             "commit_date": "2026-10-09T09:51:14+01:00",
             "subject": "Allow getFullDebugLoc to be inlined, enabling the fast-path"
+        },
+        {
+            "hash": "f09c3b5e8867b3c06a71bc0ebfbc68ab36227c4b",
+            "author_name": "Stephen Tozer",
+            "commit_date": "2026-10-09T17:05:12+01:00",
+            "subject": "Clear DIBuilder maps when finished; fix unrelated bug in DAE"
         }
     ],
     "mark-sed\/perf\/multi-exit-unroll-small-trip-count": [
