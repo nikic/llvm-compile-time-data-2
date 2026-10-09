@@ -277295,21 +277295,21 @@
     ],
     "fhahn\/perf\/laa-eea": [
         {
-            "hash": "733ddaba167f59a0d3e568f26ef13a96b9e9ecff",
-            "author_name": "Nikhita Hegde",
-            "commit_date": "2026-10-01T10:39:15-07:00",
-            "subject": "[SPIRV] Fix crash when two functions share an alias scope (#225017)"
+            "hash": "3756ef84838e3cfdc7f077566de0db6595faff71",
+            "author_name": "Fabrice de Gans",
+            "commit_date": "2026-10-09T10:03:07+00:00",
+            "subject": "[Sandbox] Explicitly delete copy for Context (#230394)"
         },
         {
-            "hash": "d2367efb183a5cf6346fbc67f9478ed3a9526159",
+            "hash": "6acfaf1dbc6dc2bb1bbb564e199902661658a577",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-01T18:54:49+01:00",
+            "commit_date": "2026-10-09T12:14:25+01:00",
             "subject": "[LAA] Add tests for aliasing with objects captured after the loop (NFC)"
         },
         {
-            "hash": "4ff4636bab840c67728f6323c0edac6063c3c251",
+            "hash": "9ac69d1d7e02788e2a2290c7fdab1a355753882a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-01T18:57:56+01:00",
+            "commit_date": "2026-10-09T12:14:26+01:00",
             "subject": "[LAA] Use EarliestEscapeAnalysis for alias queries."
         }
     ],
@@ -278495,6 +278495,12 @@
             "author_name": "Younan Zhang",
             "commit_date": "2026-10-09T14:26:43+08:00",
             "subject": "[Clang] Improve ConstraintSatisfaction"
+        },
+        {
+            "hash": "7b7d1999ee3b800a980aa86cd42ef6976d35a232",
+            "author_name": "Younan Zhang",
+            "commit_date": "2026-10-09T19:12:44+08:00",
+            "subject": "Remove duplicate cache lookup"
         }
     ],
     "c-rhodes\/perf\/codegen-skip-empty-debug-history-clobber-scans": [
