@@ -257619,6 +257619,18 @@
             "author_name": "sriramshastry",
             "commit_date": "2026-10-09T11:25:32-04:00",
             "subject": "[libc][math] Optimize exp2f and exp10f hot paths (#224178)"
+        },
+        {
+            "hash": "1c5ce01cfc2d3a0866dd68effb656dfde09cc092",
+            "author_name": "NeKon69",
+            "commit_date": "2026-10-09T18:38:25+03:00",
+            "subject": "[docs] Fix good\/bad table rendering when the theme is auto-selected to be dark (#230545)"
+        },
+        {
+            "hash": "3b5a9f16a9b35dda5829a75b9357c00b4cdae652",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-09T11:42:40-04:00",
+            "subject": "[SLP][NFC]Add a test with incorrect store vectorization between throwing insts, NFC"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -278887,6 +278899,20 @@
             "author_name": "Nathan Corbyn",
             "commit_date": "2026-10-09T15:45:18+01:00",
             "subject": "[MISched] Prototype new huge region handling"
+        }
+    ],
+    "nikic\/perf\/lto-expand-memcmp": [
+        {
+            "hash": "8ab880963e115d68d4e319e11ee7b2c3d60faf63",
+            "author_name": "Sebastian Kreutzer",
+            "commit_date": "2026-10-09T08:26:53+02:00",
+            "subject": "[XRay] Fix wrong entry sled placement after TRE (#230146)"
+        },
+        {
+            "hash": "66fc37176ca3f4453a21b4f33712775a9ed290d4",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-09T17:43:44+02:00",
+            "subject": "Add LTO pipelines to test"
         }
     ]
 }
