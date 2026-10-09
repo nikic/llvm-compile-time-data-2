@@ -257025,6 +257025,48 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-10-09T08:56:35+02:00",
             "subject": "X86: Only drop EFLAGS def in convertToThreeAddress if MI defines EFLAGS (#230293)"
+        },
+        {
+            "hash": "145af0deae54b95c5e70cb158f060fdc5a39c94f",
+            "author_name": "Federico Bruzzone",
+            "commit_date": "2026-10-09T09:08:51+02:00",
+            "subject": "[mlir][ArmSME] Make tile allocation order deterministic (#229096)"
+        },
+        {
+            "hash": "39944cc35862b73447409b79f91206247c6431bf",
+            "author_name": "Steffen Larsen",
+            "commit_date": "2026-10-09T07:14:10+00:00",
+            "subject": "[HIP] Compute kernel handle dso_local as for a variable (#229060)"
+        },
+        {
+            "hash": "d86e39a0def0d82f4e76a77e9919458e99015193",
+            "author_name": "Jeff Bailey",
+            "commit_date": "2026-10-09T08:16:58+01:00",
+            "subject": "[libc] Fix sigaltstack with SS_DISABLE (#230053)"
+        },
+        {
+            "hash": "1b7346cc1ed2925cd6827c74362e37d240c0d71c",
+            "author_name": "Steffen Larsen",
+            "commit_date": "2026-10-09T07:17:43+00:00",
+            "subject": "[CIR][NFC] Remove MissingFeatures::hip (#229001)"
+        },
+        {
+            "hash": "a43f660bf6a1431b1bbf43c5366e4843c1a37e9c",
+            "author_name": "Federico Bruzzone",
+            "commit_date": "2026-10-09T09:18:32+02:00",
+            "subject": "[mlir][ArmNeon] Add pack\/mmt4d path to f32 linalg.matmul integration test (#225063)"
+        },
+        {
+            "hash": "4ef09f6f04ba7b09a6e329b12aac2684f0fcd30d",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-09T07:19:42+00:00",
+            "subject": "CodeGen: Avoid re-sorting idx2MBBMap when inserting a block into SlotIndexes (#230374)"
+        },
+        {
+            "hash": "f72b2a332cdc62c87a90cf4d578872f445d2bab0",
+            "author_name": "Jeff Bailey",
+            "commit_date": "2026-10-09T08:19:57+01:00",
+            "subject": "[libc][CI] Add CMake format check to code-format-helper (#228526)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
