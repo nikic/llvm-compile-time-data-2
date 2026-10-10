@@ -279870,5 +279870,49 @@
             "commit_date": "2026-10-10T13:01:47+01:00",
             "subject": "# This is a combination of 17 commits. # This is the 1st commit message:"
         }
+    ],
+    "fhahn\/perf\/lazy-guards": [
+        {
+            "hash": "b2228ad40373d2fd3a7b7cd15311cb55d4433009",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-10T09:48:16+00:00",
+            "subject": "AMDGPU: Restore kernel tests in early-if-convert-cost.ll (#230764)"
+        },
+        {
+            "hash": "ee574383b3e7f294e140858467098dea82a90a3e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-10T14:16:16+01:00",
+            "subject": "[SCEV] Add tests for constant max BTC of less-than\/greater-than exits with guards (NFC)"
+        },
+        {
+            "hash": "a816171f2d2eac85be5089258f74d8594a0cf890",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-10T14:39:37+01:00",
+            "subject": "[SCEV] Collect loop guards once per backedge-taken count computation (NFC)."
+        },
+        {
+            "hash": "30931fb4a3337efefbc9e25c44d71a357c7ba208",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-10T14:53:36+01:00",
+            "subject": "[SCEV] Use constant max of sub-conditions if both must be true to exit."
+        },
+        {
+            "hash": "44c0acfedcb6fe50b680a806fad79648fda5ac38",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-10T15:09:45+01:00",
+            "subject": "[SCEV] Use loop guards for Start, Stride and End in computeMaxBECountForLT."
+        },
+        {
+            "hash": "6f866d443d5084eac9c9bafb99243bbda138992e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-10T15:14:31+01:00",
+            "subject": "[SCEV] Limit the constant max BTC of less-than exits by the exact count."
+        },
+        {
+            "hash": "0d0c9d84948afba756787be1becc47726b88bb7d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-10T15:20:10+01:00",
+            "subject": "[SCEV] Limit the constant max BTC of less-than exits by the guarded exact count."
+        }
     ]
 }
