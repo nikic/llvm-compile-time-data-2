@@ -278317,57 +278317,57 @@
     ],
     "fhahn\/perf\/o3-ct": [
         {
-            "hash": "ecce9962b4f8facbc3c71a5ce334ed104c0f69e5",
-            "author_name": "Craig Topper",
-            "commit_date": "2026-10-09T19:05:42+00:00",
-            "subject": "[RISCV] Correct violations of SDTCisSameNumEltsAs. (#230612)"
+            "hash": "b16fe314f35492a27e2f14c4a6fd2abf7f6f595c",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-10T08:22:21+00:00",
+            "subject": "[Analysis][CodeGen] Remove unused haveFastClmul (NFC) (#230748)"
         },
         {
-            "hash": "6b61195ab906e8bac752086fe62dbfb23de25213",
+            "hash": "cf927002c1e21499d509f173b406268fa4789070",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-09T21:09:12+01:00",
-            "subject": "[TypeBasedAA] Avoid constructing two ancestor paths (NFC)"
-        },
-        {
-            "hash": "ad81cfa8cc83c7be0271906cca6db6ac7a42b3cc",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-09T21:09:13+01:00",
-            "subject": "[MemDep] Drop AA tags when checking loads against a load query (NFC)"
-        },
-        {
-            "hash": "66287fe9a974c6345b0f8ba10b8c4d71820853ab",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-09T21:09:13+01:00",
+            "commit_date": "2026-10-10T11:32:13+01:00",
             "subject": "[BasicAA] Reuse object size when both pointers share an object (NFC)"
         },
         {
-            "hash": "883f5e58c038785a8eadeac8c8c4704ccada0b94",
+            "hash": "59189d32a6459fbfc42cc6b6954da49a6a2f8e75",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-09T21:09:14+01:00",
-            "subject": "[BasicAA] Classify underlying objects once and guard capture queries (NFC)"
+            "commit_date": "2026-10-10T11:32:47+01:00",
+            "subject": "[BasicAA] Skip escape-source capture queries for non-local objects (NFC)"
         },
         {
-            "hash": "1a3c6cec77217be3ad14269014da764876ddfa7a",
+            "hash": "6e724d2cb5aa2925d3bfce79ef348bf3f87c0a08",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-09T21:09:46+01:00",
+            "commit_date": "2026-10-10T13:57:50+01:00",
+            "subject": "[TypeBasedAA] Avoid constructing two ancestor paths (NFC)"
+        },
+        {
+            "hash": "37e917da3927296dd9483fbab4ca1f349d8df2f7",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-10T13:57:51+01:00",
+            "subject": "[MemDep] Drop AA tags when checking loads against a load query (NFC)"
+        },
+        {
+            "hash": "2fb54c1725a01ec53c783efec1346e9c8b5e1651",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-10T13:58:02+01:00",
             "subject": "[InstSimplify] Match the GEP index before stripping the base (NFC)"
         },
         {
-            "hash": "c73c89463496f66ef765e012881e9e0121598d19",
+            "hash": "c651af645dd386a07bd2ac01406f5301b97c8efc",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-09T21:10:17+01:00",
+            "commit_date": "2026-10-10T13:58:02+01:00",
             "subject": "[IR] Compute CFG successor ranges with one successors() call (NFC)"
         },
         {
-            "hash": "56a08a93a62d4d5c6202811e8bc13d63cadaee44",
+            "hash": "d3b3979c319cd6899b695a1e5e7fae963c6d3130",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-09T21:11:04+01:00",
+            "commit_date": "2026-10-10T13:58:02+01:00",
             "subject": "[IR] Inline presence check in AttributeSetNode::findEnumAttribute (NFC)"
         },
         {
-            "hash": "fb8658481b1c56a6521c294d8fd033a6251d324f",
+            "hash": "4598c8a4a930a68271747cdd6bdd9f42b3e12dcd",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-09T21:12:01+01:00",
+            "commit_date": "2026-10-10T13:58:02+01:00",
             "subject": "[BFI] Scale block frequencies with native 128-bit integers (NFC)"
         }
     ],
