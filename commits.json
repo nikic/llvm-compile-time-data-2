@@ -258555,6 +258555,12 @@
             "author_name": "Yaxun (Sam) Liu",
             "commit_date": "2026-10-10T10:43:00-04:00",
             "subject": "[compiler-rt][ROCm] Collect Linux profiles from resident images (#229518)"
+        },
+        {
+            "hash": "f621e76b80d908f393934999f6835235c383bca5",
+            "author_name": "Yingwei Zheng",
+            "commit_date": "2026-10-11T00:32:25+08:00",
+            "subject": "[llubi] Make sure the allocated address can be represented (#230656)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -278335,58 +278341,52 @@
     ],
     "fhahn\/perf\/o3-ct": [
         {
-            "hash": "b16fe314f35492a27e2f14c4a6fd2abf7f6f595c",
-            "author_name": "Kazu Hirata",
-            "commit_date": "2026-10-10T08:22:21+00:00",
-            "subject": "[Analysis][CodeGen] Remove unused haveFastClmul (NFC) (#230748)"
+            "hash": "0e5770c27da349711e5c97b692ebbfcf978a8dbe",
+            "author_name": "Eric Ross",
+            "commit_date": "2026-10-06T05:58:49+00:00",
+            "subject": "[KnownFPClass] Improve known class deductions for exp\/exp2\/exp10 (#217526)"
         },
         {
-            "hash": "cf927002c1e21499d509f173b406268fa4789070",
+            "hash": "fe37bca93253747167d38a9052bedd86fc7344e0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-10T11:32:13+01:00",
-            "subject": "[BasicAA] Reuse object size when both pointers share an object (NFC)"
-        },
-        {
-            "hash": "59189d32a6459fbfc42cc6b6954da49a6a2f8e75",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-10T11:32:47+01:00",
-            "subject": "[BasicAA] Skip escape-source capture queries for non-local objects (NFC)"
-        },
-        {
-            "hash": "6e724d2cb5aa2925d3bfce79ef348bf3f87c0a08",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-10T13:57:50+01:00",
+            "commit_date": "2026-10-06T08:25:21+00:00",
             "subject": "[TypeBasedAA] Avoid constructing two ancestor paths (NFC)"
         },
         {
-            "hash": "37e917da3927296dd9483fbab4ca1f349d8df2f7",
+            "hash": "b70245b23080db51cbf391bf10a42fd446fc35dc",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-10T13:57:51+01:00",
+            "commit_date": "2026-10-06T08:25:21+00:00",
+            "subject": "[NewPM] Skip result cleanup when no analyses were invalidated (NFC)"
+        },
+        {
+            "hash": "a24b2144f35725b515333106d91dcc50cf175f93",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-06T08:25:49+00:00",
+            "subject": "[NewPM] Increase inline size of IsResultInvalidated map (NFC)"
+        },
+        {
+            "hash": "52c88ac8d36e9a31099a7f952b83c0a8cc953ae1",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-06T08:26:43+00:00",
             "subject": "[MemDep] Drop AA tags when checking loads against a load query (NFC)"
         },
         {
-            "hash": "2fb54c1725a01ec53c783efec1346e9c8b5e1651",
+            "hash": "6f6d126fb1544ea3527c1ae59f4a0a7b3b52da41",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-10T13:58:02+01:00",
-            "subject": "[InstSimplify] Match the GEP index before stripping the base (NFC)"
+            "commit_date": "2026-10-06T09:44:01+00:00",
+            "subject": "[Local] Construct IRBuilder in ConstantFoldTerminator only when folding (NFC)"
         },
         {
-            "hash": "c651af645dd386a07bd2ac01406f5301b97c8efc",
+            "hash": "4de2a5088f3c7bfd8de6b67239513c0c00c6f22d",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-10T13:58:02+01:00",
-            "subject": "[IR] Compute CFG successor ranges with one successors() call (NFC)"
+            "commit_date": "2026-10-06T11:50:57+00:00",
+            "subject": "[BasicAA] Reuse object size when both pointers share an object (NFC)"
         },
         {
-            "hash": "d3b3979c319cd6899b695a1e5e7fae963c6d3130",
+            "hash": "2ea989f9ebb6daf6f7f2e3b8415ec53a7433cb80",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-10T13:58:02+01:00",
-            "subject": "[IR] Inline presence check in AttributeSetNode::findEnumAttribute (NFC)"
-        },
-        {
-            "hash": "4598c8a4a930a68271747cdd6bdd9f42b3e12dcd",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-10T13:58:02+01:00",
-            "subject": "[BFI] Scale block frequencies with native 128-bit integers (NFC)"
+            "commit_date": "2026-10-06T11:50:58+00:00",
+            "subject": "[BasicAA] Classify underlying objects once and guard capture queries (NFC)"
         }
     ],
     "tbaederr\/perf\/quoted-name": [
