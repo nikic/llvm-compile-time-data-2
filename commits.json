@@ -258327,6 +258327,18 @@
             "author_name": "Petar Jovanovic",
             "commit_date": "2026-10-10T01:30:47+02:00",
             "subject": "[AMDGPU] Fix missed WMMA C-operand co-exec hazard (#226503)"
+        },
+        {
+            "hash": "5afa2c0cadba2b310860200ff58147dc34223840",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-10-09T23:46:47+00:00",
+            "subject": "[RISCV] Reassociate add (add X, (ext Y)), (ext Z) -> add (add (ext Y), (ext Z)), X (#230657)"
+        },
+        {
+            "hash": "765392a6b4498f1dc57233f03a31b87462fdef01",
+            "author_name": "Adam Smith",
+            "commit_date": "2026-10-09T23:48:03+00:00",
+            "subject": "[CIR] Pass x87 long double vectors on x86_64 (#230302)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
