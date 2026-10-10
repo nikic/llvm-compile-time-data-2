@@ -1,0 +1,248 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+ 2078 | extern template class LLVM_TEMPLATE_ABI SwitchInst::CaseHandleImpl<
+      |                                                     ^~~~~~~~~~~~~~~
+ 2079 |     llvm::SwitchInst::ConstCaseIt, const BasicBlock, const ConstantInt>;
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1984/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/Scheduler.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/SandboxVectorizer/Scheduler.h:25,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SandboxVectorizer/Scheduler.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/SandboxIR/Instruction.h:2076:53: warning: type attributes ignored after type is already defined [-Wattributes]
+ 2076 | extern template class LLVM_TEMPLATE_ABI SwitchInst::CaseHandleImpl<
+      |                                                     ^~~~~~~~~~~~~~~
+ 2077 |     llvm::SwitchInst::CaseIt, BasicBlock, ConstantInt>;
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/SandboxIR/Instruction.h:2078:53: warning: type attributes ignored after type is already defined [-Wattributes]
+ 2078 | extern template class LLVM_TEMPLATE_ABI SwitchInst::CaseHandleImpl<
+      |                                                     ^~~~~~~~~~~~~~~
+ 2079 |     llvm::SwitchInst::ConstCaseIt, const BasicBlock, const ConstantInt>;
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1985/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/VecUtils.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/SandboxIR/Utils.h:23,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/SandboxVectorizer/VecUtils.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SandboxVectorizer/VecUtils.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/SandboxIR/Instruction.h:2076:53: warning: type attributes ignored after type is already defined [-Wattributes]
+ 2076 | extern template class LLVM_TEMPLATE_ABI SwitchInst::CaseHandleImpl<
+      |                                                     ^~~~~~~~~~~~~~~
+ 2077 |     llvm::SwitchInst::CaseIt, BasicBlock, ConstantInt>;
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/SandboxIR/Instruction.h:2078:53: warning: type attributes ignored after type is already defined [-Wattributes]
+ 2078 | extern template class LLVM_TEMPLATE_ABI SwitchInst::CaseHandleImpl<
+      |                                                     ^~~~~~~~~~~~~~~
+ 2079 |     llvm::SwitchInst::ConstCaseIt, const BasicBlock, const ConstantInt>;
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1986/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer/SLPCompatibilityAnalysis.cpp.o
+[1987/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer/SLPMemoryUtils.cpp.o
+[1988/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/SandboxVectorizerPassBuilder.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/SandboxVectorizer/InstrMaps.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/SandboxVectorizer/Passes/BundleVec.h:22,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SandboxVectorizer/SandboxVectorizerPassBuilder.cpp:3:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/SandboxIR/Instruction.h:2076:53: warning: type attributes ignored after type is already defined [-Wattributes]
+ 2076 | extern template class LLVM_TEMPLATE_ABI SwitchInst::CaseHandleImpl<
+      |                                                     ^~~~~~~~~~~~~~~
+ 2077 |     llvm::SwitchInst::CaseIt, BasicBlock, ConstantInt>;
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/SandboxIR/Instruction.h:2078:53: warning: type attributes ignored after type is already defined [-Wattributes]
+ 2078 | extern template class LLVM_TEMPLATE_ABI SwitchInst::CaseHandleImpl<
+      |                                                     ^~~~~~~~~~~~~~~
+ 2079 |     llvm::SwitchInst::ConstCaseIt, const BasicBlock, const ConstantInt>;
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1989/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/Vectorize.cpp.o
+[1990/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer/SLPCostAnalysis.cpp.o
+[1991/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer/SLPReductionUtils.cpp.o
+[1992/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer/SLPTypeUtils.cpp.o
+[1993/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer/SLPUtils.cpp.o
+[1994/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o
+[1995/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VectorCombine.cpp.o
+[1996/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlan.cpp.o
+[1997/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanAnalysis.cpp.o
+[1998/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanConstruction.cpp.o
+[1999/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanDominatorTree.cpp.o
+[2000/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanEVLTailFolding.cpp.o
+[2001/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanLowering.cpp.o
+[2002/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanPredicator.cpp.o
+[2003/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanRecipes.cpp.o
+[2004/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanUnroll.cpp.o
+[2005/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanVerifier.cpp.o
+[2006/3440] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ObjCARC.cpp.o
+[2007/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanTransforms.cpp.o
+[2008/3440] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanUtils.cpp.o
+[2009/3440] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ObjCARCOpts.cpp.o
+[2010/3440] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ObjCARCExpand.cpp.o
+[2011/3440] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ObjCARCContract.cpp.o
+[2012/3440] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/DependencyAnalysis.cpp.o
+[2013/3440] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ProvenanceAnalysis.cpp.o
+[2014/3440] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ProvenanceAnalysisEvaluator.cpp.o
+[2015/3440] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/PtrState.cpp.o
+[2016/3440] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroAnnotationElide.cpp.o
+[2017/3440] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/Coroutines.cpp.o
+[2018/3440] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroCleanup.cpp.o
+[2019/3440] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroEarly.cpp.o
+[2020/3440] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroFrame.cpp.o
+[2021/3440] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroConditionalWrapper.cpp.o
+[2022/3440] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/SuspendCrossingInfo.cpp.o
+[2023/3440] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroElide.cpp.o
+[2024/3440] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/SpillUtils.cpp.o
+[2025/3440] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/MaterializationUtils.cpp.o
+[2026/3440] Building CXX object lib/Transforms/HipStdPar/CMakeFiles/LLVMHipStdPar.dir/HipStdPar.cpp.o
+[2027/3440] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroSplit.cpp.o
+[2028/3440] Building CXX object lib/Transforms/CFGuard/CMakeFiles/LLVMCFGuard.dir/CFGuard.cpp.o
+[2029/3440] Building CXX object lib/Linker/CMakeFiles/LLVMLinker.dir/IRMover.cpp.o
+[2030/3440] Building CXX object lib/Linker/CMakeFiles/LLVMLinker.dir/LinkModules.cpp.o
+[2031/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AliasAnalysis.cpp.o
+[2032/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AliasAnalysisEvaluator.cpp.o
+[2033/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AliasSetTracker.cpp.o
+[2034/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/Analysis.cpp.o
+[2035/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AssumeBundleQueries.cpp.o
+[2036/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AssumptionCache.cpp.o
+[2037/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/BlockFrequencyInfo.cpp.o
+[2038/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/BlockFrequencyInfoImpl.cpp.o
+[2039/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CFG.cpp.o
+[2040/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CFGSCCPrinter.cpp.o
+[2041/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/BranchProbabilityInfo.cpp.o
+[2042/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CFGPrinter.cpp.o
+[2043/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CGSCCPassManager.cpp.o
+[2044/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CallGraphSCCPass.cpp.o
+[2045/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CallGraph.cpp.o
+[2046/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CallPrinter.cpp.o
+[2047/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CmpInstAnalysis.cpp.o
+[2048/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CostModel.cpp.o
+[2049/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CaptureTracking.cpp.o
+[2050/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CodeMetrics.cpp.o
+[2051/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ConstantFolding.cpp.o
+[2052/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CtxProfAnalysis.cpp.o
+[2053/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CycleAnalysis.cpp.o
+[2054/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DDGPrinter.cpp.o
+[2055/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DDG.cpp.o
+[2056/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ConstraintSystem.cpp.o
+[2057/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DevelopmentModeInlineAdvisor.cpp.o
+[2058/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/Delinearization.cpp.o
+[2059/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DemandedBits.cpp.o
+[2060/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DependenceGraphBuilder.cpp.o
+[2061/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DependenceAnalysis.cpp.o
+[2062/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DomConditionCache.cpp.o
+[2063/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DomTreeUpdater.cpp.o
+[2064/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DomPrinter.cpp.o
+[2065/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DXILMetadataAnalysis.cpp.o
+[2066/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DominanceFrontier.cpp.o
+[2067/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DXILResource.cpp.o
+[2068/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/EphemeralValuesCache.cpp.o
+[2069/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/FloatingPointPredicateUtils.cpp.o
+[2070/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/FunctionPropertiesAnalysis.cpp.o
+[2071/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/GlobalsModRef.cpp.o
+[2072/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/HashRecognize.cpp.o
+[2073/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/HeatUtils.cpp.o
+[2074/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/GuardUtils.cpp.o
+[2075/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/IR2Vec.cpp.o
+[2076/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/IVDescriptors.cpp.o
+[2077/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/IVUsers.cpp.o
+[2078/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/IndirectCallPromotionAnalysis.cpp.o
+[2079/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ImportedFunctionsInliningStatistics.cpp.o
+[2080/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/InlineCost.cpp.o
+[2081/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/InlineOrder.cpp.o
+[2082/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/InstCount.cpp.o
+[2083/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/InlineAdvisor.cpp.o
+[2084/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/InstructionSimplify.cpp.o
+[2085/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/InstructionPrecedenceTracking.cpp.o
+[2086/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/InteractiveModelRunner.cpp.o
+[2087/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LastRunTrackingAnalysis.cpp.o
+[2088/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/KernelInfo.cpp.o
+[2089/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LazyBlockFrequencyInfo.cpp.o
+[2090/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LazyCallGraph.cpp.o
+[2091/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LazyValueInfo.cpp.o
+[2092/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LibcallLoweringInfo.cpp.o
+[2093/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/Lint.cpp.o
+[2094/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/Loads.cpp.o
+[2095/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/Local.cpp.o
+[2096/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LazyBranchProbabilityInfo.cpp.o
+[2097/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LoopAccessAnalysis.cpp.o
+[2098/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LoopAnalysisManager.cpp.o
+[2099/3440] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DIBuilder.cpp.o
+[2100/3440] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Attributes.cpp.o
+[2101/3440] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DebugInfo.cpp.o
+[2102/3440] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Instructions.cpp.o
+[2103/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemoryProfileInfo.cpp.o
+[2104/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemDerefPrinter.cpp.o
+[2105/3440] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Constants.cpp.o
+[2106/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ModelUnderTrainingRunner.cpp.o
+[2107/3440] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/LLVMContextImpl.cpp.o
+[2108/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LoopPass.cpp.o
+[2109/3440] Building AArch64GenInstrInfo.inc...
+[2110/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/NoInferenceModelRunner.cpp.o
+[2111/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LoopNestAnalysis.cpp.o
+[2112/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LoopUnrollAnalyzer.cpp.o
+[2113/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/BasicAliasAnalysis.cpp.o
+FAILED: lib/Analysis/CMakeFiles/LLVMAnalysis.dir/BasicAliasAnalysis.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -DHAS_LOGF128 -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Analysis -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Analysis/CMakeFiles/LLVMAnalysis.dir/BasicAliasAnalysis.cpp.o -MF lib/Analysis/CMakeFiles/LLVMAnalysis.dir/BasicAliasAnalysis.cpp.o.d -o lib/Analysis/CMakeFiles/LLVMAnalysis.dir/BasicAliasAnalysis.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/BasicAliasAnalysis.cpp
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/BasicAliasAnalysis.cpp: In member function ‘llvm::AliasResult llvm::BasicAAResult::aliasCheck(const llvm::Value*, llvm::LocationSize, const llvm::Value*, llvm::LocationSize, llvm::AAQueryInfo&, const llvm::Instruction*)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/BasicAliasAnalysis.cpp:1625:9: error: ‘O2IsFunctionLocal’ was not declared in this scope
+ 1625 |     if (O2IsFunctionLocal && isEscapeSource(O1) &&
+      |         ^~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Analysis/BasicAliasAnalysis.cpp:1630:9: error: ‘O1IsFunctionLocal’ was not declared in this scope
+ 1630 |     if (O1IsFunctionLocal && isEscapeSource(O2) &&
+      |         ^~~~~~~~~~~~~~~~~
+[2114/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemoryLocation.cpp.o
+[2115/3440] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DebugInfoMetadata.cpp.o
+[2116/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LoopCacheAnalysis.cpp.o
+[2117/3440] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/AsmWriter.cpp.o
+[2118/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ObjCARCAliasAnalysis.cpp.o
+[2119/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ObjCARCAnalysisUtils.cpp.o
+[2120/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ObjCARCInstKind.cpp.o
+[2121/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MustExecute.cpp.o
+[2122/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemoryBuiltins.cpp.o
+[2123/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ModuleDebugInfoPrinter.cpp.o
+[2124/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/LoopInfo.cpp.o
+[2125/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MLInlineAdvisor.cpp.o
+[2126/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemoryDependenceAnalysis.cpp.o
+[2127/3440] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Metadata.cpp.o
+[2128/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemorySSAUpdater.cpp.o
+[2129/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/MemorySSA.cpp.o
+[2130/3440] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/ModuleSummaryAnalysis.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning (policy) at cmake/modules/HandleLLVMOptions.cmake:960 (CHECK_C_SOURCE_COMPILES):
+  Policy CMP0219 is not set: Macro invocations preserve backslashes in
+  arguments.  Run "cmake --help-policy CMP0219" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  Command "CHECK_C_SOURCE_COMPILES" called with arguments containing
+  backslashes.
+
+  Since the policy is not set, backslashes in the arguments:
+
+   "// \\\n//\nint main(void) {return 0;}"
+
+  will be interpreted as escape sequences for compatibility.
+
+  Set the policy to NEW to instead pass
+
+   "// \\\\\\n//\\nint main(void) {return 0;}"
+
+  so that argument parsing will preserve the original values.
+Call Stack (most recent call first):
+  CMakeLists.txt:1144 (include)
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+Precompiled headers are disabled by default with GCC. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override.
+CMake Warning at cmake/modules/HandleLLVMOptions.cmake:1441 (message):
+  Using ccache with precompiled headers with non-Clang compilers is not
+  supported and may lead to false positives.  Set
+  CMAKE_DISABLE_PRECOMPILE_HEADERS to ON/OFF to silence this warning.
+Call Stack (most recent call first):
+  CMakeLists.txt:1144 (include)
+
+
+CMake Warning (deprecated) at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:518 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+to suppress it.
+
+Command exited with non-zero status 1
+249.77user 18.08system 0:21.41elapsed 1250%CPU (0avgtext+0avgdata 930656maxresident)k
+0inputs+1226520outputs (3601major+10276781minor)pagefaults 0swaps
