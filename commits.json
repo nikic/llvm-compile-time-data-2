@@ -259167,6 +259167,18 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-10-11T22:17:11+02:00",
             "subject": "AMDGPU: Use minimal tablegen inputs for TargetParser (#231017)"
+        },
+        {
+            "hash": "42c2dfb7cb5c67de98c9b540f3409f6fbecc751d",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-11T20:18:51+00:00",
+            "subject": "[SelectionDAG] Verify SDTCisSameNumEltsAs in SDNodeInfo::verifyNode (#230616)"
+        },
+        {
+            "hash": "36263cf46f86a2a06a2d65051c4e632c4086fcf3",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-11T20:19:50+00:00",
+            "subject": "[RISCV][P-ext] Change RISCVISD::SATI to use [1,bitwidth] for the immediate. (#230377)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -280595,6 +280607,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-10-10T22:02:19-07:00",
             "subject": "[Vectorize] Declare command line options in TableGen"
+        }
+    ],
+    "nikic\/perf\/module-local": [
+        {
+            "hash": "b2228ad40373d2fd3a7b7cd15311cb55d4433009",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-10T09:48:16+00:00",
+            "subject": "AMDGPU: Restore kernel tests in early-if-convert-cost.ll (#230764)"
+        },
+        {
+            "hash": "0d9fafe44cadd1d3344fc21bf5306c155de0cc6d",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-11T22:24:27+02:00",
+            "subject": "wip"
         }
     ]
 }
