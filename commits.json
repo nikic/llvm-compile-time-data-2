@@ -259785,6 +259785,24 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-12T13:21:56+00:00",
             "subject": "[LV] Only fold outer extend into narrow mul if it cannot wrap. (#229230)"
+        },
+        {
+            "hash": "ea4d814a136bbc30c09c631cb00cdddcd4a58326",
+            "author_name": "Joseph Huber",
+            "commit_date": "2026-10-12T08:25:42-05:00",
+            "subject": "[AMDGPU] Allow the AS identifying builtins to take flat pointers (#230677)"
+        },
+        {
+            "hash": "8f4f7d519609a33be54fb50974eccf6f4dd538c1",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-12T13:26:57+00:00",
+            "subject": "AMDGPU: Legalize SGPR tied src2 for V_FMAC_F16 in moveToVALU (#231146)"
+        },
+        {
+            "hash": "1ff1fd5c5c6454cac5a78136d895af42f2ae35f1",
+            "author_name": "Adam Siemieniuk",
+            "commit_date": "2026-10-12T15:30:00+02:00",
+            "subject": "[mlir][x86] Bail out on AMX accumulation without result write (#231144)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -281217,51 +281235,21 @@
     ],
     "fhahn\/perf\/basic-aa-fixed-object-size": [
         {
-            "hash": "0e5770c27da349711e5c97b692ebbfcf978a8dbe",
-            "author_name": "Eric Ross",
-            "commit_date": "2026-10-06T05:58:49+00:00",
-            "subject": "[KnownFPClass] Improve known class deductions for exp\/exp2\/exp10 (#217526)"
+            "hash": "7159d397636c65bc4a4494f83c90c4d89bb2592c",
+            "author_name": "jeanPerier",
+            "commit_date": "2026-10-12T15:19:36+02:00",
+            "subject": "[flang][docs] add design doc for inline runtime checks (#228502)"
         },
         {
-            "hash": "fe37bca93253747167d38a9052bedd86fc7344e0",
+            "hash": "2dc10971ec61d57ef7203692f037ca5ea90167a7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-06T08:25:21+00:00",
-            "subject": "[TypeBasedAA] Avoid constructing two ancestor paths (NFC)"
-        },
-        {
-            "hash": "b70245b23080db51cbf391bf10a42fd446fc35dc",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-06T08:25:21+00:00",
-            "subject": "[NewPM] Skip result cleanup when no analyses were invalidated (NFC)"
-        },
-        {
-            "hash": "a24b2144f35725b515333106d91dcc50cf175f93",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-06T08:25:49+00:00",
-            "subject": "[NewPM] Increase inline size of IsResultInvalidated map (NFC)"
-        },
-        {
-            "hash": "52c88ac8d36e9a31099a7f952b83c0a8cc953ae1",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-06T08:26:43+00:00",
-            "subject": "[MemDep] Drop AA tags when checking loads against a load query (NFC)"
-        },
-        {
-            "hash": "6f6d126fb1544ea3527c1ae59f4a0a7b3b52da41",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-06T09:44:01+00:00",
-            "subject": "[Local] Construct IRBuilder in ConstantFoldTerminator only when folding (NFC)"
-        },
-        {
-            "hash": "4de2a5088f3c7bfd8de6b67239513c0c00c6f22d",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-06T11:50:57+00:00",
+            "commit_date": "2026-10-12T14:22:24+01:00",
             "subject": "[BasicAA] Reuse object size when both pointers share an object (NFC)"
         },
         {
-            "hash": "e4c0dd39647f2cac72d9a5ddfcfa94e093599189",
+            "hash": "257e592e4acef8476721db25fa6f78b9a7bedb98",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-12T13:00:44+00:00",
+            "commit_date": "2026-10-12T14:26:16+01:00",
             "subject": "!fixup remove isObjectSmallerThan scaffolding"
         }
     ]
