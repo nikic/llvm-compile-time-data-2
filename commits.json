@@ -259593,6 +259593,24 @@
             "author_name": "Zahira Ammarguellat",
             "commit_date": "2026-10-12T11:00:22+00:00",
             "subject": "[Clang][Windows] Preserve natural alignment for vector and x86_fp80 arrays under #pragma pack. (#208256)"
+        },
+        {
+            "hash": "86155f95df3696fc9b993c093c8db0acc68d884b",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-10-12T11:03:10+00:00",
+            "subject": "[orc-rt] Add some extra verbose-mode logging to ogre (#231123)"
+        },
+        {
+            "hash": "e90defb0e085676294a192afe2639858695d699a",
+            "author_name": "Pan Tao",
+            "commit_date": "2026-10-12T11:07:22+00:00",
+            "subject": "[InstCombine] Keep an alloca's metadata when folding its element count (#231073)"
+        },
+        {
+            "hash": "7d4ca8ad61298c67ad45fa8abb2ce8c4b1eda6d2",
+            "author_name": "Yongqiang Tian",
+            "commit_date": "2026-10-12T13:13:07+02:00",
+            "subject": "[X86] Fix LDTILECFG insertion at block starts (#229239)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -280981,6 +280999,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-10-12T11:23:34+02:00",
             "subject": "Enable"
+        }
+    ],
+    "arsenm\/perf\/split-critical-edge-live-in-sets": [
+        {
+            "hash": "e90defb0e085676294a192afe2639858695d699a",
+            "author_name": "Pan Tao",
+            "commit_date": "2026-10-12T11:07:22+00:00",
+            "subject": "[InstCombine] Keep an alloca's metadata when folding its element count (#231073)"
+        },
+        {
+            "hash": "c6901f5c383ba47f9b626c06be75a60121d7b2c6",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-12T13:12:37+02:00",
+            "subject": "CodeGen: Use live-in sets when splitting critical edges with LiveIntervals"
         }
     ]
 }
