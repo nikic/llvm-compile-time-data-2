@@ -259959,6 +259959,12 @@
             "author_name": "mleair",
             "commit_date": "2026-10-12T09:43:27-07:00",
             "subject": "[flang][Semantics] Preserve ambiguous USE-error through whole-module USE (#229707)"
+        },
+        {
+            "hash": "b3fe8bb231fb43ae186c9ad38766bffb1e7f8e9a",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-12T18:46:54+02:00",
+            "subject": "[SimplifyLibCalls] Fix ConstantInt construction based on char (#231159)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -281267,27 +281273,27 @@
     ],
     "artagnon\/perf\/vplan-mergeblk-preds-rework": [
         {
-            "hash": "c3af28d4360b1ed42b2bd70a9c8d3addfb6d8593",
-            "author_name": "Ricardo Jesus",
-            "commit_date": "2026-10-12T09:28:45+01:00",
-            "subject": "[SDAG] Don't expand forceExpandWideMUL to libcall with unsuitable types. (#230522)"
+            "hash": "7559ab1fdc726e7559500012cef714b9f186be83",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-10-12T15:25:11+01:00",
+            "subject": "[libc++][pstl] Corrected the return types of some parallel algorithms that were returning \"void\" (#230586)"
         },
         {
-            "hash": "8645901c478395f44fc1b5888297e5811bfc5a23",
+            "hash": "a70983471aa15a9e40390b4f81ee90d1dbbef6e5",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-12T10:50:34+01:00",
+            "commit_date": "2026-10-12T17:44:40+01:00",
             "subject": "[LV] Add pre-commit outer-loop-merge-predecessors test"
         },
         {
-            "hash": "7847c5ca7b4754867d3cb41f29ef3d441193cca6",
+            "hash": "8bc125c89cab0e5c359f6bb55eca5cad2f491680",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-12T10:50:34+01:00",
+            "commit_date": "2026-10-12T17:44:40+01:00",
             "subject": "[VPlan] Rework mergeBlocksIntoPredecessors"
         },
         {
-            "hash": "f05b8c24ca5685f8ab0c7494bceb0e8264471856",
+            "hash": "1ccd038f3510a3ef8fd3114cf29e3b707a81da04",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-12T11:01:30+01:00",
+            "commit_date": "2026-10-12T17:44:40+01:00",
             "subject": "[VPlan] Align with NFC desire"
         }
     ],
