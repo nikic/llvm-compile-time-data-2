@@ -259821,6 +259821,12 @@
             "author_name": "Tim Besard",
             "commit_date": "2026-10-12T13:58:37+00:00",
             "subject": "[SPIR-V] Lower llvm.minimum\/maximum instead of selecting fmin\/fmax (#225667)"
+        },
+        {
+            "hash": "862cce149c8a894155a84397b83542aa6a719350",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-10-12T14:08:10+00:00",
+            "subject": "[DAG] Implement scalarization for mask_beforefirst (#230556)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -281145,28 +281151,40 @@
     ],
     "fhahn\/perf\/lazy-guards": [
         {
-            "hash": "ceae108847553f924985c9747b542a30068a6704",
-            "author_name": "Deepak Shirke",
-            "commit_date": "2026-10-11T10:26:01+01:00",
-            "subject": "[GlobalISel] [AArch64] Support ROTR shift amount masking in SelectShiftMask  (#226579)"
+            "hash": "291784e0e2104b0c5f5801fd69f2a68a0575983a",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-10-12T13:37:44+00:00",
+            "subject": "[X86] Add SSE2 32-bit smulh\/umulh test coverage (#231151)"
         },
         {
-            "hash": "0b4df45025e1a7232cb80aaff8aba1ae10dd824c",
+            "hash": "fe856b24276d945c61febde329e67f6678b8d04a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-12T08:40:47+00:00",
+            "commit_date": "2026-10-12T14:04:56+00:00",
             "subject": "[SCEV] Collect loop guards once per backedge-taken count computation"
         },
         {
-            "hash": "7e0e8609fd67996bcd21c5cdddd293badc71a152",
+            "hash": "a7b1c3660f42105b5749541483f4d1616acef20e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-12T08:41:09+00:00",
+            "commit_date": "2026-10-12T14:04:56+00:00",
             "subject": "[SCEV] Use loop guards for Start, Stride and End in computeMaxBECountForLT."
         },
         {
-            "hash": "b0feab21b499120d5344db5d7da35e513bb2abe4",
+            "hash": "f804a3f456c1f48f948359a757d4daad4c8fda16",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-12T08:41:09+00:00",
+            "commit_date": "2026-10-12T14:04:56+00:00",
             "subject": "[SCEV] Filter loop guard collection for maximum backedge counts"
+        },
+        {
+            "hash": "ba913ee8f345147d6022d9d3b2588c36217f38bc",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-12T14:05:42+00:00",
+            "subject": "[SCEV] Remove unused incoming-guard cache (NFC)"
+        },
+        {
+            "hash": "cf802bd7ed2608f8ac48a5d24b37d31a0ee2f9eb",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-12T14:06:21+00:00",
+            "subject": "[SCEV] Preserve loop guard refinements through transitive users and PHIs"
         }
     ],
     "MaskRay\/perf\/instr-correlate-kind": [
