@@ -269979,6 +269979,72 @@
             "author_name": "Douglas Yung",
             "commit_date": "2026-10-07T18:36:31+00:00",
             "subject": "Bump version to 23.1.4"
+        },
+        {
+            "hash": "8e044a8f3ada588d258f10c46a04b61feb53ff2b",
+            "author_name": "Artem Belevich",
+            "commit_date": "2026-10-12T16:54:43+02:00",
+            "subject": "[NVPTX] Set default value of nvptx-allow-ftz-atomics to true (#206154)"
+        },
+        {
+            "hash": "affff9cc58ab608d89fc5ec3e33da2517c5f643d",
+            "author_name": "Vladimir Shiryaev",
+            "commit_date": "2026-10-12T16:54:47+02:00",
+            "subject": "[llvm][Support] Use ::closesocket for native sockets on Windows (#226613)"
+        },
+        {
+            "hash": "13d7a167327c85dcead88593c59d6ec5028d0204",
+            "author_name": "Vladimir Shiryaev",
+            "commit_date": "2026-10-12T16:54:52+02:00",
+            "subject": "[CAS] Close the stderr temp file of the out-of-process validator (#226844)"
+        },
+        {
+            "hash": "d7cdb9b2435128dcf34f128cf72504f1477197fc",
+            "author_name": "HelloWorldU",
+            "commit_date": "2026-10-12T16:54:56+02:00",
+            "subject": "[SelectionDAG] Do not flag undef bitcast lanes as known zero"
+        },
+        {
+            "hash": "370eb8ddac247231554bb863e7c067c619d48b16",
+            "author_name": "Alex R\u00f8nne Petersen",
+            "commit_date": "2026-10-12T16:55:01+02:00",
+            "subject": "[Mips][FastISel] Also add low part when materializing private functions (#229717)"
+        },
+        {
+            "hash": "3dadaf417121a56c1ece73afdb20fdc7062af098",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-12T16:55:06+02:00",
+            "subject": "[PGO] Fix PGO instrumentation for selects with poison condition (#229002)"
+        },
+        {
+            "hash": "195209c5c1053430e586d27c829a6dca4372a921",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-10-12T16:55:11+02:00",
+            "subject": "[SanitizerCoverage] Don't create comdat for unnamed functions (#228959)"
+        },
+        {
+            "hash": "bbbf266c78bf1e1e498c1b1227fcc9848a643d58",
+            "author_name": "Sander de Smalen",
+            "commit_date": "2026-10-12T16:55:15+02:00",
+            "subject": "pre-commit test"
+        },
+        {
+            "hash": "705f593fb506a9eef82d530a5a54c9b8ac6b1099",
+            "author_name": "Sander de Smalen",
+            "commit_date": "2026-10-12T16:55:15+02:00",
+            "subject": "[AArch64] Restore always-inline behaviour for incompatible SME attributes."
+        },
+        {
+            "hash": "15d373104a6e8669bd1ed230ba4eb3fee92c74f2",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-10-12T16:55:20+02:00",
+            "subject": "[GlobalsAA] Handle self-referencing stores in `AnalyzeUsesOfPointer` (#213631)"
+        },
+        {
+            "hash": "bb46d66418b91a6f17312ad3ff8d3713d66b89ae",
+            "author_name": "Timur Golubovich",
+            "commit_date": "2026-10-12T16:55:24+02:00",
+            "subject": "[X86] Don't double count the interrupt stack alignment push in StackSize (#224029)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
