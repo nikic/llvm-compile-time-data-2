@@ -259491,6 +259491,36 @@
             "author_name": "Pavel Labath",
             "commit_date": "2026-10-12T11:43:30+02:00",
             "subject": "[libc] Add linux syscall wrappers for exit and exit_group (#230528)"
+        },
+        {
+            "hash": "4e8e856301a5a5506eb50568b4a180000d8f4ed3",
+            "author_name": "Luke Hutton",
+            "commit_date": "2026-10-12T11:00:34+01:00",
+            "subject": "[mlir][tosa] Fix no op clamp canonicalization when nan_mode = ignore (#229887)"
+        },
+        {
+            "hash": "71e68dd7b851b1f5e05f9614d7d26002fb7d1dc7",
+            "author_name": "Ayokunle Amodu",
+            "commit_date": "2026-10-12T06:01:55-04:00",
+            "subject": "[CIR][AMDGPU] Add support for raw ptr buffer atomic builtins (#223137)"
+        },
+        {
+            "hash": "533bab2e8a43c69c39b911e0fa3f37addaaf45f5",
+            "author_name": "Ayokunle Amodu",
+            "commit_date": "2026-10-12T06:02:29-04:00",
+            "subject": "[CIR][AMDGPU] Add support for AMDGCN raw buffer store format builtins (#223112)"
+        },
+        {
+            "hash": "e400d7417ad09c9b8cd1fad465025cf6472d9aa0",
+            "author_name": "Aochang Liu",
+            "commit_date": "2026-10-12T12:13:09+02:00",
+            "subject": "[X86][AMX] Fix use iteration when reloading tiles in FastPreTileConfig (#228724)"
+        },
+        {
+            "hash": "ff97c6f1f5cd3bb4332c751f02e28ebfb9300a71",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-10-12T11:14:09+01:00",
+            "subject": "[LangRef] Clarify poison input elements give poison in llvm.mask.beforefirst (#230551)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -280727,22 +280757,28 @@
     ],
     "artagnon\/perf\/vplan-mergeblk-preds-rework": [
         {
-            "hash": "001b1abc28a7f22345b8b326d0ec4aca88743292",
-            "author_name": "Luke Lau",
-            "commit_date": "2026-10-09T10:32:39+00:00",
-            "subject": "[DAG] Expand mask_beforefirst during promotion (#230163)"
+            "hash": "c3af28d4360b1ed42b2bd70a9c8d3addfb6d8593",
+            "author_name": "Ricardo Jesus",
+            "commit_date": "2026-10-12T09:28:45+01:00",
+            "subject": "[SDAG] Don't expand forceExpandWideMUL to libcall with unsuitable types. (#230522)"
         },
         {
-            "hash": "d76dfe3963482513dda605455c6a959d12133462",
+            "hash": "8645901c478395f44fc1b5888297e5811bfc5a23",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-09T16:29:32+01:00",
+            "commit_date": "2026-10-12T10:50:34+01:00",
             "subject": "[LV] Add pre-commit outer-loop-merge-predecessors test"
         },
         {
-            "hash": "bae1c84c4200a817877df8b282625af4c546602b",
+            "hash": "7847c5ca7b4754867d3cb41f29ef3d441193cca6",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-09T16:29:34+01:00",
+            "commit_date": "2026-10-12T10:50:34+01:00",
             "subject": "[VPlan] Rework mergeBlocksIntoPredecessors"
+        },
+        {
+            "hash": "f05b8c24ca5685f8ab0c7494bceb0e8264471856",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-12T11:01:30+01:00",
+            "subject": "[VPlan] Align with NFC desire"
         }
     ],
     "osa1\/perf\/simplifycfg_prototype": [
