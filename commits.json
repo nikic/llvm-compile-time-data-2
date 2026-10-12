@@ -259611,6 +259611,18 @@
             "author_name": "Yongqiang Tian",
             "commit_date": "2026-10-12T13:13:07+02:00",
             "subject": "[X86] Fix LDTILECFG insertion at block starts (#229239)"
+        },
+        {
+            "hash": "a70bfc481afdcb789a46927d11e7de73420cbb83",
+            "author_name": "Vikash Gupta",
+            "commit_date": "2026-10-12T11:22:26+00:00",
+            "subject": "[GlobalISel] Migrate remaining generic wip_match_opcode combines to MIR-pattern. (#222851)"
+        },
+        {
+            "hash": "2d4154866927604ba92301d9190d429d18fc837e",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-10-12T11:24:49+00:00",
+            "subject": "[X86] Custom lower v4i64 ISD::MULHS on 32-bit targets (#231102)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -280319,6 +280331,12 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-08T15:50:39+02:00",
             "subject": "[LV] Respect access type and alignment when speculating loads"
+        },
+        {
+            "hash": "a2e86b65752b6fbafd94fee53be111e6ba93af5c",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-12T13:15:06+02:00",
+            "subject": "[LV] Track safe access size independently of IR type"
         }
     ],
     "AnonMiraj\/perf\/debuginfo-setlocation-presumed-once": [
