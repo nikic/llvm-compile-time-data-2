@@ -259413,6 +259413,18 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-10-12T08:44:16+00:00",
             "subject": "SystemZ: Move getPreferredVectorAction out of line (NFC) (#231093)"
+        },
+        {
+            "hash": "3261d9d99a49032a0103c44a30e5f626ade36e3c",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-12T10:47:03+02:00",
+            "subject": "[CIR][HIP][SPIR-V] Emit constant globals in addrspace(1) (#230813)"
+        },
+        {
+            "hash": "368f3f8960a4a896e6fb1dc1f11c58ac1fc12267",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-10-12T09:47:40+01:00",
+            "subject": "[DebugInfo] Skip debug history clobber scans without register locations (NFC) (#230590)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -280731,88 +280743,22 @@
             "subject": "[GlobalISel] [AArch64] Support ROTR shift amount masking in SelectShiftMask  (#226579)"
         },
         {
-            "hash": "adb33fb0eddb2be253fb385add7ee89b4c4b631b",
+            "hash": "0b4df45025e1a7232cb80aaff8aba1ae10dd824c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-11T09:42:01+00:00",
-            "subject": "[SCEV] Add tests for constant max BTC of less-than\/greater-than exits with guards (NFC)"
+            "commit_date": "2026-10-12T08:40:47+00:00",
+            "subject": "[SCEV] Collect loop guards once per backedge-taken count computation"
         },
         {
-            "hash": "e8d9540e50b46ccf2f7165a0e718ea32e15e87e1",
+            "hash": "7e0e8609fd67996bcd21c5cdddd293badc71a152",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-11T09:42:02+00:00",
-            "subject": "[SCEV] Collect loop guards once per backedge-taken count computation (NFC)."
-        },
-        {
-            "hash": "09d360bd7fad4385febc35849b37cec779e9bfe0",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-11T15:48:48+00:00",
-            "subject": "[SCEV] Remove redundant divisibility guard matching (NFC)"
-        },
-        {
-            "hash": "98f02b326ba1ad27853cb5a8063e99f982230ffa",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-11T15:48:48+00:00",
-            "subject": "[SCEV] Compute guard divisibility only for useful alignments (NFC)"
-        },
-        {
-            "hash": "cc68a50ab8d10c9a830965be4759e95633a26a20",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-11T15:48:48+00:00",
-            "subject": "[SCEV] Avoid no-op guard visitors and duplicate range queries (NFC)"
-        },
-        {
-            "hash": "b8bd7db0d07df96c882367af030e133f1920f227",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-11T15:48:48+00:00",
-            "subject": "[SCEV] Stop computing trailing zeros once the minimum is zero (NFC)"
-        },
-        {
-            "hash": "1748b32f8b212abad70ea5f0bc72a39fc041e701",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-11T15:48:48+00:00",
-            "subject": "[SCEV] Skip guard queries that cannot change their result (NFC)"
-        },
-        {
-            "hash": "2ec01ea2b99f07f90fd03cdddc0e6c1a00ef4afe",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-11T15:48:49+00:00",
-            "subject": "[SCEV] Look up simple guard offsets without constructing adds (NFC)"
-        },
-        {
-            "hash": "d0c53fe28356a65e8f035d4a99cea2c449d0a9be",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-11T15:48:49+00:00",
-            "subject": "[SCEV] Skip loop guard collection for unchanged roots (NFC)"
-        },
-        {
-            "hash": "1fe9124afb15e85cb240c98f105625a764c3a097",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-11T15:48:49+00:00",
-            "subject": "[SCEV] Use constant max of sub-conditions if both must be true to exit."
-        },
-        {
-            "hash": "f6944da093a399965a3cc448d719d751280ba3e8",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-11T15:48:49+00:00",
+            "commit_date": "2026-10-12T08:41:09+00:00",
             "subject": "[SCEV] Use loop guards for Start, Stride and End in computeMaxBECountForLT."
         },
         {
-            "hash": "356d51b49b63ecabbba9e4a9aec26ecd4b264cff",
+            "hash": "b0feab21b499120d5344db5d7da35e513bb2abe4",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-11T15:48:49+00:00",
-            "subject": "[SCEV] Limit the constant max BTC of less-than exits by the exact count."
-        },
-        {
-            "hash": "14c783c6fc8fc6fa424fa88a6b0e250bb869be67",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-11T15:48:49+00:00",
-            "subject": "[SCEV] Limit the constant max BTC of less-than exits by the guarded exact count."
-        },
-        {
-            "hash": "e6ae0dbdace1845ad19543f1c3c7a82e73a4f0dd",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-11T15:48:50+00:00",
-            "subject": "[SCEV] Only collect loop guards for the constant max BTC if they may help."
+            "commit_date": "2026-10-12T08:41:09+00:00",
+            "subject": "[SCEV] Filter loop guard collection for maximum backedge counts"
         }
     ],
     "MaskRay\/perf\/instr-correlate-kind": [
