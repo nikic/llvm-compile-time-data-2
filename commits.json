@@ -281032,5 +281032,25 @@
             "commit_date": "2026-10-12T13:12:37+02:00",
             "subject": "CodeGen: Use live-in sets when splitting critical edges with LiveIntervals"
         }
+    ],
+    "fhahn\/perf\/extra-pipeline-passes": [
+        {
+            "hash": "2d4154866927604ba92301d9190d429d18fc837e",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-10-12T11:24:49+00:00",
+            "subject": "[X86] Custom lower v4i64 ISD::MULHS on 32-bit targets (#231102)"
+        },
+        {
+            "hash": "cf1e38ad452cad85e3db2da5adca564efd5d7947",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-10-12T12:27:28+01:00",
+            "subject": "[DIS-PRE-LTO-VEC] Add extra EarlySCE to late passes"
+        },
+        {
+            "hash": "108bfd16fb4adfbf7c6f6a28f0bf36949c504ec9",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-10-12T12:28:04+01:00",
+            "subject": "[PassBuilder] Disable pre-LTO vectorization and loop unroll"
+        }
     ]
 }
