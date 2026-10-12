@@ -260061,6 +260061,30 @@
             "author_name": "Robert Imschweiler",
             "commit_date": "2026-10-12T17:58:19+00:00",
             "subject": "[AMDGPU] CallInst -> CallBase for divergence analysis (#228744)"
+        },
+        {
+            "hash": "c0bbd6fe4f1a2d0413d12b0ad4a16c8982ca154b",
+            "author_name": "lntue",
+            "commit_date": "2026-10-12T14:06:01-04:00",
+            "subject": "[libc] Improve nearest_integer for non-AVX x86 targets. (#230529)"
+        },
+        {
+            "hash": "8286d20f891e789f19f3fdeaf627f4248c1e2d9d",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-10-12T11:08:41-07:00",
+            "subject": "[Mips] Declare command line options in TableGen (#230738)"
+        },
+        {
+            "hash": "4b5a39741371b9cae0f6770671f0151e528086c3",
+            "author_name": "Rafael Auler",
+            "commit_date": "2026-10-12T11:10:58-07:00",
+            "subject": "[BOLT] Restore -relax-plt as a deprecated no-op option (#230729)"
+        },
+        {
+            "hash": "a0957bb89e3660ad034e42f05831c184e166adc5",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-12T20:16:50+02:00",
+            "subject": "[MLIR][LLVM] Add noundef metadata to llvm.load (#228517)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -281485,6 +281509,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-12T14:06:21+00:00",
             "subject": "[SCEV] Preserve loop guard refinements through transitive users and PHIs"
+        },
+        {
+            "hash": "7dfaf67decc4e08f6c55e9300f6860505df92b9c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-12T18:49:07+01:00",
+            "subject": "[SCEV] Simplify loop guard relevance filter and clean up tests (NFC)"
         }
     ],
     "MaskRay\/perf\/instr-correlate-kind": [
