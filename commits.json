@@ -260757,6 +260757,18 @@
             "author_name": "Daniel Paoliello",
             "commit_date": "2026-10-13T10:49:06+01:00",
             "subject": "[GlobalISel] Take into account the address space when calculating memcpy offsets (#230216)"
+        },
+        {
+            "hash": "27afb0a9b2d67d37c8fd3aabc2e565cbd2ceea91",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-10-13T09:58:11+00:00",
+            "subject": "[orc-rt] Split connection support out of bedrock. NFC. (#231431)"
+        },
+        {
+            "hash": "fc5b9e05843cd46f9c45b41f66c04c5239cb7606",
+            "author_name": "Kamlesh Kumar",
+            "commit_date": "2026-10-13T10:01:55+00:00",
+            "subject": "[CodeGen] Expand unsupported vector (de)interleave operations into shuffles (#210494)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -282445,6 +282457,44 @@
             "author_name": "mbhade",
             "commit_date": "2026-10-13T14:54:36+05:30",
             "subject": "[SLP] Model store-to-load forwarding hazards as a cost penalty"
+        }
+    ],
+    "fhahn\/perf\/scev-exp-canonical-reuse2": [
+        {
+            "hash": "0017f470be88b7c011ec500f61edcfb20eae3de2",
+            "author_name": "Robert Imschweiler",
+            "commit_date": "2026-10-12T17:58:19+00:00",
+            "subject": "[AMDGPU] CallInst -> CallBase for divergence analysis (#228744)"
+        },
+        {
+            "hash": "06b1a81717e0e5340e159b4e2dec72ab57a5925b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-12T22:01:45+00:00",
+            "subject": "Precommit test"
+        },
+        {
+            "hash": "059d4db5c7a5815d6fc359525d2a008439e69b9e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-13T07:58:13+00:00",
+            "subject": "[LV] Add more runtime check tests with outer IVs in nested loops."
+        },
+        {
+            "hash": "9b1ae06bda2b51620a7d00df4b10646c3c77bb80",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-13T07:58:13+00:00",
+            "subject": "[SCEVExpander] Reuse existing IVs in canonical mode."
+        },
+        {
+            "hash": "f2069a1c7c21355d515168e702499c77e1c55133",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-13T09:11:25+00:00",
+            "subject": "[SCEVExpander] Fix poison and cost issues when reusing IVs."
+        },
+        {
+            "hash": "b1a1d7e6650fbb84438ef67b90321517907e579e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-13T09:11:44+00:00",
+            "subject": "[SCEVExpander] Reuse existing LCSSA phis for IVs in canonical mode."
         }
     ]
 }
