@@ -260829,6 +260829,18 @@
             "author_name": "renndong",
             "commit_date": "2026-10-13T18:54:09+08:00",
             "subject": "[RISCV] Model Zvzip costs for fixed-length shuffles (#227677)"
+        },
+        {
+            "hash": "0b96173e7a41f50dda6ecc416715ceced30509ac",
+            "author_name": "David Spickett",
+            "commit_date": "2026-10-13T11:58:18+01:00",
+            "subject": "[lldb][minidump][test] Enable more minidump tests on AArch64 (#231448)"
+        },
+        {
+            "hash": "914707dc9e367edc2eaf273b8dda0679abbd0ffc",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-13T13:01:12+02:00",
+            "subject": "llc: Disable test from #228248 for EXPENSIVE_CHECKS builds (#231455)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -281637,15 +281649,15 @@
     ],
     "artagnon\/perf\/vplan-first-lane-ct": [
         {
-            "hash": "574f69c9f7dc039122e675d11259d39a2a5bc07b",
-            "author_name": "Matt Arsenault",
-            "commit_date": "2026-10-06T16:43:43+02:00",
-            "subject": "clang: Fix tests when built with DEFAULT_SYSROOT (#229417)"
+            "hash": "ccdec282537d0034dcf9100a52568f64164914b7",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-13T11:23:48+01:00",
+            "subject": "[VPlan] Switch fn in replaceUsesWithIf to User ptr (NFC) (#229144)"
         },
         {
-            "hash": "7744b782470f550753c893c84e3da84db7abdfc6",
+            "hash": "448207951bd212fd0a65c5db4f24569b76cfd2f3",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-06T16:04:25+01:00",
+            "commit_date": "2026-10-13T11:54:24+01:00",
             "subject": "[VPlan] Avoid recursive-fan-out of usesFirstLaneOnly"
         }
     ],
