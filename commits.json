@@ -261495,6 +261495,12 @@
             "author_name": "Adam Cmiel",
             "commit_date": "2026-10-13T11:07:48-07:00",
             "subject": "[ObjC] Sort constant NSDictionary keys by UTF-16 code unit (#209927)"
+        },
+        {
+            "hash": "6dd293acdb5be8c201424ee5fa725a5693d8761e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-13T18:11:21+00:00",
+            "subject": "[SCEV] Move support for collecting guards lazily to LoopGuards (NFC) (#231504)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -282957,39 +282963,33 @@
     ],
     "fhahn\/perf\/lazy-guards": [
         {
-            "hash": "f038a4eb1c1c772d96a325c7bcc4283a519912fc",
-            "author_name": "Ingo M\u00fcller",
-            "commit_date": "2026-10-13T09:46:08+02:00",
-            "subject": "[clangd][test] Add `clang` to `CLANGD_TEST_DEPS`. (#230061)"
+            "hash": "6dd293acdb5be8c201424ee5fa725a5693d8761e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-13T18:11:21+00:00",
+            "subject": "[SCEV] Move support for collecting guards lazily to LoopGuards (NFC) (#231504)"
         },
         {
-            "hash": "cc8630586c0a84190743d64251afb450c477548a",
+            "hash": "f59780685d8bf421912c77eb28a4f1602b6d6ece",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T11:54:53+01:00",
-            "subject": "[SCEV] Move support for collectin guards lazily to LoopGuards (NFC)."
-        },
-        {
-            "hash": "cebe7db5403214a5ee4df56a4fe3476ec9ffabff",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T11:55:08+01:00",
+            "commit_date": "2026-10-13T19:14:26+01:00",
             "subject": "[SCEV] Add tests for constant max BTC of less-than\/greater-than exits with guards (NFC)"
         },
         {
-            "hash": "87fa2e00a9a490da714c086dadae6a2cab976ed5",
+            "hash": "e067df5bc97a28ae5b50eff65153a822fe2bb93d",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T13:20:37+01:00",
+            "commit_date": "2026-10-13T19:14:26+01:00",
             "subject": "[SCEV] Use loop guards for Start, Stride and End in computeMaxBECountForLT."
         },
         {
-            "hash": "b9c9924a2ee22b494bdac8d5a7f15f6941075c67",
+            "hash": "f8121e62bf14191fb17f5a269cc27b77daf3d85b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T13:20:51+01:00",
+            "commit_date": "2026-10-13T19:14:26+01:00",
             "subject": "[SCEV] Filter loop guard collection for maximum backedge counts"
         },
         {
-            "hash": "8a1e682843c29ae768bf92092febda91cbd329d1",
+            "hash": "08bef5f23a918e8ab4e0a7ff2d1de3a235c1519b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T13:20:52+01:00",
+            "commit_date": "2026-10-13T19:14:26+01:00",
             "subject": "[SCEV] Remove unused incoming-guard cache (NFC)"
         }
     ],
