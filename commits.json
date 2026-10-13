@@ -260931,6 +260931,12 @@
             "author_name": "Nico Weber",
             "commit_date": "2026-10-13T08:35:01-04:00",
             "subject": "Revert \"X86: Mark the dead EFLAGS clobbers in the SjLj expansions (#227271)\" (#231476)"
+        },
+        {
+            "hash": "ce0e0f047deca346096925a02eefe87e938ed586",
+            "author_name": "David Spickett",
+            "commit_date": "2026-10-13T12:47:10+00:00",
+            "subject": "Reland \"[lldb][minidump][test] Enable more minidump tests on AArch64 (#231467)\" (#231474)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -282411,21 +282417,21 @@
             "subject": "[SCEV] Add tests for constant max BTC of less-than\/greater-than exits with guards (NFC)"
         },
         {
-            "hash": "8fde427f20916e6b04ce7bbf01ebf7845ba6d391",
+            "hash": "87fa2e00a9a490da714c086dadae6a2cab976ed5",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T11:55:09+01:00",
+            "commit_date": "2026-10-13T13:20:37+01:00",
             "subject": "[SCEV] Use loop guards for Start, Stride and End in computeMaxBECountForLT."
         },
         {
-            "hash": "b6830e90f299b7631f13149fdfddbfd0d359574c",
+            "hash": "b9c9924a2ee22b494bdac8d5a7f15f6941075c67",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T11:55:10+01:00",
+            "commit_date": "2026-10-13T13:20:51+01:00",
             "subject": "[SCEV] Filter loop guard collection for maximum backedge counts"
         },
         {
-            "hash": "ee0c8803258ccdd3e053ddbb878feb845a9c1625",
+            "hash": "8a1e682843c29ae768bf92092febda91cbd329d1",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T11:55:10+01:00",
+            "commit_date": "2026-10-13T13:20:52+01:00",
             "subject": "[SCEV] Remove unused incoming-guard cache (NFC)"
         }
     ],
@@ -282669,6 +282675,44 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-13T09:11:44+00:00",
             "subject": "[SCEVExpander] Reuse existing LCSSA phis for IVs in canonical mode."
+        }
+    ],
+    "fhahn\/perf\/ct-scev": [
+        {
+            "hash": "ce0e0f047deca346096925a02eefe87e938ed586",
+            "author_name": "David Spickett",
+            "commit_date": "2026-10-13T12:47:10+00:00",
+            "subject": "Reland \"[lldb][minidump][test] Enable more minidump tests on AArch64 (#231467)\" (#231474)"
+        },
+        {
+            "hash": "1db91f2e52eeacf0430f80b334e50299412e8323",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-13T12:48:10+00:00",
+            "subject": "[SCEV] Don't create a zero SCEV in isKnownPredicateViaNoOverflow (NFC)"
+        },
+        {
+            "hash": "3e403ac8cdadcfd478fe4eaa1630a69fd77c408b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-13T12:48:10+00:00",
+            "subject": "[SCEV] Don't cache dispositions and at-scope values of constants (NFC)"
+        },
+        {
+            "hash": "c8b7b9cc88036d3f40b4b226d903800a4f5408f9",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-13T12:48:10+00:00",
+            "subject": "[SCEV] Compute known bits of a SCEVUnknown once for both range hints (NFC)"
+        },
+        {
+            "hash": "60d847e7e7c1cbd6e185ce7f7802dad2f9504523",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-13T12:48:11+00:00",
+            "subject": "[SCEV] Use TinyPtrVector for ExprValueMap and insert values with one lookup (NFC)"
+        },
+        {
+            "hash": "38b7c1fb51a8fe804f585c11233178f815dcda6d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-13T12:48:11+00:00",
+            "subject": "[SCEV] Don't re-check already pruned predicates of a SCEVUnionPredicate (NFC)"
         }
     ]
 }
