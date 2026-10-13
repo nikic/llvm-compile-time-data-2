@@ -260805,6 +260805,30 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-10-13T12:43:48+02:00",
             "subject": "X86: Fix stale dead flag checks in sjlj-shadow-stack-dead-eflags.ll (#231451)"
+        },
+        {
+            "hash": "45509be288684d4738147d0855af8a8de8d5cca7",
+            "author_name": "Jonathan Cohen",
+            "commit_date": "2026-10-13T13:48:51+03:00",
+            "subject": "[CodeGen] Let canInsertSelect() describe the select expansion (NFC) (#230027)"
+        },
+        {
+            "hash": "330e8ee9ea581f0d0337286c2dfe729799cc76ee",
+            "author_name": "rdong8",
+            "commit_date": "2026-10-13T10:50:11+00:00",
+            "subject": "[mlir][toy] Add missing spacing to tensor literal closing bracket (#223275)"
+        },
+        {
+            "hash": "8d4e0bdfbb2efbe23dc24d104ae84afd11740304",
+            "author_name": "Garvit Gupta",
+            "commit_date": "2026-10-13T16:20:51+05:30",
+            "subject": "[Machine Outliner][RISCV] Input section aware machine outlining (#226126)"
+        },
+        {
+            "hash": "14c1ea93ccaeac9a82c2b50edafc02c43b510ec9",
+            "author_name": "renndong",
+            "commit_date": "2026-10-13T18:54:09+08:00",
+            "subject": "[RISCV] Model Zvzip costs for fixed-length shuffles (#227677)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -282273,33 +282297,33 @@
             "subject": "[clangd][test] Add `clang` to `CLANGD_TEST_DEPS`. (#230061)"
         },
         {
-            "hash": "7072d6e94d4b49afa470860427c825b847922f2e",
+            "hash": "cc8630586c0a84190743d64251afb450c477548a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T11:44:10+01:00",
+            "commit_date": "2026-10-13T11:54:53+01:00",
             "subject": "[SCEV] Move support for collectin guards lazily to LoopGuards (NFC)."
         },
         {
-            "hash": "02f422fb3f0c65ac83d3ebccf7ef02271a763fe7",
+            "hash": "cebe7db5403214a5ee4df56a4fe3476ec9ffabff",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T11:44:17+01:00",
+            "commit_date": "2026-10-13T11:55:08+01:00",
             "subject": "[SCEV] Add tests for constant max BTC of less-than\/greater-than exits with guards (NFC)"
         },
         {
-            "hash": "1219a7525f77aaa6c1d1ae19eaa7c8d75e1b95f0",
+            "hash": "8fde427f20916e6b04ce7bbf01ebf7845ba6d391",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T11:44:17+01:00",
+            "commit_date": "2026-10-13T11:55:09+01:00",
             "subject": "[SCEV] Use loop guards for Start, Stride and End in computeMaxBECountForLT."
         },
         {
-            "hash": "d2d0a6917a24f35be9f5c1f6efdb075d8fdff828",
+            "hash": "b6830e90f299b7631f13149fdfddbfd0d359574c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T11:44:18+01:00",
+            "commit_date": "2026-10-13T11:55:10+01:00",
             "subject": "[SCEV] Filter loop guard collection for maximum backedge counts"
         },
         {
-            "hash": "d9a4030d84789f9006c887052fefcb5324252d34",
+            "hash": "ee0c8803258ccdd3e053ddbb878feb845a9c1625",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T11:44:18+01:00",
+            "commit_date": "2026-10-13T11:55:10+01:00",
             "subject": "[SCEV] Remove unused incoming-guard cache (NFC)"
         }
     ],
