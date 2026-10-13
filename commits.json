@@ -261567,6 +261567,12 @@
             "author_name": "Yonah Goldberg",
             "commit_date": "2026-10-13T12:05:24-07:00",
             "subject": "[SelectionDAG] Preserve cache hint metadata through DAGCombiner (#225954)"
+        },
+        {
+            "hash": "b781eea3e6336cbef8a4f610ce1622138deae746",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-13T20:24:21+01:00",
+            "subject": "[SCEV] Don't cache dispositions and at-scope values of constants (NFC) (#231588)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -283029,33 +283035,33 @@
     ],
     "fhahn\/perf\/lazy-guards": [
         {
-            "hash": "6dd293acdb5be8c201424ee5fa725a5693d8761e",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T18:11:21+00:00",
-            "subject": "[SCEV] Move support for collecting guards lazily to LoopGuards (NFC) (#231504)"
+            "hash": "ed6440a2691979a18c486b0814fa7e3a9f0c44c6",
+            "author_name": "Yonah Goldberg",
+            "commit_date": "2026-10-13T12:05:24-07:00",
+            "subject": "[SelectionDAG] Preserve cache hint metadata through DAGCombiner (#225954)"
         },
         {
-            "hash": "f59780685d8bf421912c77eb28a4f1602b6d6ece",
+            "hash": "445d5e0ce192b722f985ee29779ceb1cefced3e6",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T19:14:26+01:00",
+            "commit_date": "2026-10-13T20:28:23+01:00",
             "subject": "[SCEV] Add tests for constant max BTC of less-than\/greater-than exits with guards (NFC)"
         },
         {
-            "hash": "e067df5bc97a28ae5b50eff65153a822fe2bb93d",
+            "hash": "758743baa10e783963bef868ccd407b68e0eb6c4",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T19:14:26+01:00",
+            "commit_date": "2026-10-13T20:28:24+01:00",
             "subject": "[SCEV] Use loop guards for Start, Stride and End in computeMaxBECountForLT."
         },
         {
-            "hash": "f8121e62bf14191fb17f5a269cc27b77daf3d85b",
+            "hash": "8c807b70a756d8563f8ee7892a32bcf39e6d4942",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T19:14:26+01:00",
+            "commit_date": "2026-10-13T20:28:24+01:00",
             "subject": "[SCEV] Filter loop guard collection for maximum backedge counts"
         },
         {
-            "hash": "08bef5f23a918e8ab4e0a7ff2d1de3a235c1519b",
+            "hash": "f344364abc5bddd32c67dd2641d1964a19656ef1",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T19:14:26+01:00",
+            "commit_date": "2026-10-13T20:28:24+01:00",
             "subject": "[SCEV] Remove unused incoming-guard cache (NFC)"
         }
     ],
