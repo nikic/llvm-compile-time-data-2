@@ -261615,6 +261615,18 @@
             "author_name": "David Rivera",
             "commit_date": "2026-10-13T16:18:58-04:00",
             "subject": "[CIR] Add noalias on malloc-like function returns (#221817)"
+        },
+        {
+            "hash": "26090c48f570c35af43119db260623ffcb87eac7",
+            "author_name": "Shilei Tian",
+            "commit_date": "2026-10-13T16:35:12-04:00",
+            "subject": "[NFC][AMDGPU] Add a test showing unreachable call cycles in module splitting (#230983)"
+        },
+        {
+            "hash": "3036a4f16c6bffefe7e4ab75b06cef197a91f323",
+            "author_name": "Michael Jones",
+            "commit_date": "2026-10-13T13:38:00-07:00",
+            "subject": "[libc] Implement fgetpos\/fsetpos (#221349)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -283077,33 +283089,33 @@
     ],
     "fhahn\/perf\/lazy-guards": [
         {
-            "hash": "ed6440a2691979a18c486b0814fa7e3a9f0c44c6",
-            "author_name": "Yonah Goldberg",
-            "commit_date": "2026-10-13T12:05:24-07:00",
-            "subject": "[SelectionDAG] Preserve cache hint metadata through DAGCombiner (#225954)"
+            "hash": "787c4f7726ffea1eea580be1787dfe5a5941924a",
+            "author_name": "Vincent Arcila",
+            "commit_date": "2026-10-13T13:09:41-07:00",
+            "subject": "[Instrumentor] Support multiple runtime bitcodes (#216333)"
         },
         {
-            "hash": "ca93fc2e3c1688c456aef7c74c74eacd42327583",
+            "hash": "8380c3e04cac63ba75f130a162466c788f10c17b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T20:47:55+01:00",
+            "commit_date": "2026-10-13T21:19:42+01:00",
             "subject": "[SCEV] Add tests for constant max BTC of less-than\/greater-than exits with guards (NFC)"
         },
         {
-            "hash": "030898199d93092d99832bd04c211942c1bd6eab",
+            "hash": "93b3b04dcaa0b67e975b9459eac3892590988ed5",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T20:47:56+01:00",
+            "commit_date": "2026-10-13T21:19:43+01:00",
             "subject": "[SCEV] Use loop guards for Start, Stride and End in computeMaxBECountForLT."
         },
         {
-            "hash": "d77a1f1ab44e3b9c7877c5ba2653f11e9369debe",
+            "hash": "db2a8f56e3300c814bad25e09d3262c8a3fd5b80",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T20:47:56+01:00",
+            "commit_date": "2026-10-13T21:19:43+01:00",
             "subject": "[SCEV] Filter loop guard collection for maximum backedge counts"
         },
         {
-            "hash": "0c010fbdfb6b334d52af930d96c53c3bfda4e5ae",
+            "hash": "6dd26f047e5c41ea28269c82d981e74b13a5f9e9",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T20:47:57+01:00",
+            "commit_date": "2026-10-13T21:19:43+01:00",
             "subject": "[SCEV] Remove unused incoming-guard cache (NFC)"
         }
     ],
