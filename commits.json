@@ -260625,6 +260625,12 @@
             "author_name": "Fabrice de Gans",
             "commit_date": "2026-10-13T07:52:41+00:00",
             "subject": "[Instrumentation] Define default value as float (#231383)"
+        },
+        {
+            "hash": "d723ad9b4f45be448cd4d55ede39573bef3a279d",
+            "author_name": "Kuan-Wei Chiu",
+            "commit_date": "2026-10-13T08:56:18+01:00",
+            "subject": "[libc][stdlib] Optimize bsearch() by reordering comparison branches (#230823)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -282223,15 +282229,15 @@
     ],
     "c-rhodes\/perf\/aarch64-disable-gisel-localizer-o0": [
         {
-            "hash": "fc90bd3cfb0bab14a2bf7cbd33f5f1e904c7e133",
-            "author_name": "Andrzej Warzy\u0144ski",
-            "commit_date": "2026-10-06T08:46:31+00:00",
-            "subject": "[mlir][MemRef] Move the implementation of Mem2Reg interface from Vector to MemRef (nfc) (#228459)"
+            "hash": "860259ca3c72d0c62f3c21248d29d81cf96ea5fc",
+            "author_name": "Matteo Di Iorio",
+            "commit_date": "2026-10-13T09:51:44+02:00",
+            "subject": "[mlir][bufferization] handle exit aliases in buffer-loop-hoisting (#226951)"
         },
         {
-            "hash": "071f3542ccb3b3c65032397550e862d7090f425f",
+            "hash": "692fd15b1e9b4b237e377c3b86aef75c7bb22350",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-10-12T15:29:43+00:00",
+            "commit_date": "2026-10-13T07:53:23+00:00",
             "subject": "[AArch64][GlobalISel] Do not run the Localizer at -O0"
         }
     ],
