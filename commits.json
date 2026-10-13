@@ -260631,6 +260631,18 @@
             "author_name": "Kuan-Wei Chiu",
             "commit_date": "2026-10-13T08:56:18+01:00",
             "subject": "[libc][stdlib] Optimize bsearch() by reordering comparison branches (#230823)"
+        },
+        {
+            "hash": "9249fc9220bb6b22ed5174729bc35348a08c448c",
+            "author_name": "Zeyi Xu",
+            "commit_date": "2026-10-13T16:08:42+08:00",
+            "subject": "[RISCV] Support copies between GPR and FPR16 (#231382)"
+        },
+        {
+            "hash": "55aa5fa529b9271bf469528d6fc45a6293297740",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-10-13T08:12:34+00:00",
+            "subject": "[AMDGPU] Removed unneeded entries from isRenamedInGFX9. NFC. (#231396)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -275949,16 +275961,40 @@
     ],
     "steffenlarsen\/perf\/steffen\/move_attrs_ownership": [
         {
-            "hash": "7380050ae1a8261400350dd08a952ad3f00db1b3",
-            "author_name": "Christian Ulmann",
-            "commit_date": "2026-08-26T09:50:38+02:00",
-            "subject": "[mlir][VectorToLLVM] Use the converted index type in vector.type_cast (#218742)"
-        },
-        {
             "hash": "a0af2dabaf4a5a63a8b4d04a5711b42ac0d39420",
             "author_name": "Steffen Holst Larsen",
             "commit_date": "2026-08-26T03:17:29-05:00",
             "subject": "[Clang][AST] Make Decl reference attributes directly"
+        },
+        {
+            "hash": "581d69935b7d85616883f728fa2b4ca162e028fe",
+            "author_name": "Steffen Larsen",
+            "commit_date": "2026-08-28T11:25:31+02:00",
+            "subject": "Merge branch 'main' into steffen\/move_attrs_ownership"
+        },
+        {
+            "hash": "29af8b40aa86b6f0e0119b177731c3ccc7dee372",
+            "author_name": "Steffen Larsen",
+            "commit_date": "2026-08-31T07:37:28+02:00",
+            "subject": "Merge branch 'main' into steffen\/move_attrs_ownership"
+        },
+        {
+            "hash": "552991ed920a992617be3b2c3efb2da3191e67a9",
+            "author_name": "Steffen Larsen",
+            "commit_date": "2026-09-03T05:57:47+02:00",
+            "subject": "Merge branch 'main' into steffen\/move_attrs_ownership"
+        },
+        {
+            "hash": "a1f2bb57cbe1da36016fcbf4089bb51033500676",
+            "author_name": "Steffen Larsen",
+            "commit_date": "2026-09-03T08:55:34+02:00",
+            "subject": "Merge branch 'main' into steffen\/move_attrs_ownership"
+        },
+        {
+            "hash": "8cae6b3d2b17820840f5d8302d910e3e548bae16",
+            "author_name": "Steffen Holst Larsen",
+            "commit_date": "2026-10-13T03:10:00-05:00",
+            "subject": "Merge remote-tracking branch 'upstream\/main' into steffen\/move_attrs_ownership"
         }
     ],
     "artagnon\/perf\/scev-cache-ar": [
