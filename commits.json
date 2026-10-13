@@ -260685,6 +260685,42 @@
             "author_name": "Kerry McLaughlin",
             "commit_date": "2026-10-13T09:52:45+01:00",
             "subject": "[VPlan] Do not clear the NUW flag on the IV increment during lowering (#230550)"
+        },
+        {
+            "hash": "c545141b33eed1b253fbb0246bd5bdfd0c26ab58",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-10-13T10:56:10+02:00",
+            "subject": "[libc++] Don't explicitly rethrow in flat container function try blocks (#230988)"
+        },
+        {
+            "hash": "d553ccade5fc51e6a9109fb1d1823f23352cdbe0",
+            "author_name": "David Green",
+            "commit_date": "2026-10-13T09:57:49+01:00",
+            "subject": "[AArch64][SDAG] Generate TBL for shuffles in single block loops. (#227593)"
+        },
+        {
+            "hash": "e377790bd393b05f222950fbc19e97a8c9bf1956",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-13T11:00:13+02:00",
+            "subject": "X86: Mark the dead EFLAGS clobbers in the SjLj expansions (#227271)"
+        },
+        {
+            "hash": "280834aca2711c043c1486fa92c43463091f97d1",
+            "author_name": "Tomer Shafir",
+            "commit_date": "2026-10-13T09:05:25+00:00",
+            "subject": " [MISched] Pretty print ExitSU treewide (#231291)"
+        },
+        {
+            "hash": "877d12353203410f80fe4c482e3aac5b454a8bd2",
+            "author_name": "Hussam Alhassan",
+            "commit_date": "2026-10-13T10:07:46+01:00",
+            "subject": "[clang] Set _GNU_SOURCE for AArch64 bare-metal targets (#225071)"
+        },
+        {
+            "hash": "ca1dbb8ee2aafb86983c9e7b90c21a6250cd803e",
+            "author_name": "Evan Brown",
+            "commit_date": "2026-10-13T10:10:18+01:00",
+            "subject": "[lld][llvm-objcopy] Fix iterator invalidation when mutating vectors during iteration (#228183)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -282147,46 +282183,40 @@
     ],
     "fhahn\/perf\/lazy-guards": [
         {
-            "hash": "291784e0e2104b0c5f5801fd69f2a68a0575983a",
-            "author_name": "Simon Pilgrim",
-            "commit_date": "2026-10-12T13:37:44+00:00",
-            "subject": "[X86] Add SSE2 32-bit smulh\/umulh test coverage (#231151)"
+            "hash": "7911ff646565d455869fa0db3c68ce58a609c710",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-12T13:18:50-07:00",
+            "subject": "[RISCV][GISel] Add CFProtectionBranch support to legalizeBRJT. (#229311)"
         },
         {
-            "hash": "fe856b24276d945c61febde329e67f6678b8d04a",
+            "hash": "9248763bb4918daf4c53dbca72f27519aab8635a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-12T14:04:56+00:00",
-            "subject": "[SCEV] Collect loop guards once per backedge-taken count computation"
+            "commit_date": "2026-10-12T21:27:59+00:00",
+            "subject": "[SCEV] Add LoopGuards::collectLazily and use it for all users."
         },
         {
-            "hash": "a7b1c3660f42105b5749541483f4d1616acef20e",
+            "hash": "596fbecc5367757c9389178f0b280c822b1f68fa",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-12T14:04:56+00:00",
+            "commit_date": "2026-10-13T08:48:10+00:00",
+            "subject": "[SCEV] Add tests for constant max BTC of less-than\/greater-than exits with guards (NFC)"
+        },
+        {
+            "hash": "c4e25e7f5e98eff7e0de9feb079c7d5aba34ab65",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-13T08:50:56+00:00",
             "subject": "[SCEV] Use loop guards for Start, Stride and End in computeMaxBECountForLT."
         },
         {
-            "hash": "f804a3f456c1f48f948359a757d4daad4c8fda16",
+            "hash": "2ae4ec03dfff896139062e30dc8d222652c2b5db",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-12T14:04:56+00:00",
+            "commit_date": "2026-10-13T08:51:40+00:00",
             "subject": "[SCEV] Filter loop guard collection for maximum backedge counts"
         },
         {
-            "hash": "ba913ee8f345147d6022d9d3b2588c36217f38bc",
+            "hash": "584db9325e0141183016424f0064edf95e8c6c50",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-12T14:05:42+00:00",
+            "commit_date": "2026-10-13T08:51:46+00:00",
             "subject": "[SCEV] Remove unused incoming-guard cache (NFC)"
-        },
-        {
-            "hash": "cf802bd7ed2608f8ac48a5d24b37d31a0ee2f9eb",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-12T14:06:21+00:00",
-            "subject": "[SCEV] Preserve loop guard refinements through transitive users and PHIs"
-        },
-        {
-            "hash": "7dfaf67decc4e08f6c55e9300f6860505df92b9c",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-12T18:49:07+01:00",
-            "subject": "[SCEV] Simplify loop guard relevance filter and clean up tests (NFC)"
         }
     ],
     "MaskRay\/perf\/instr-correlate-kind": [
