@@ -260601,6 +260601,30 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-10-13T08:44:36+01:00",
             "subject": "[libunwind][AArch64] Avoid assuming 16-byte frame in RA_SIGN_STATE test (#230518)"
+        },
+        {
+            "hash": "f038a4eb1c1c772d96a325c7bcc4283a519912fc",
+            "author_name": "Ingo M\u00fcller",
+            "commit_date": "2026-10-13T09:46:08+02:00",
+            "subject": "[clangd][test] Add `clang` to `CLANGD_TEST_DEPS`. (#230061)"
+        },
+        {
+            "hash": "8f939019f59d995d6536288245cb1d4b4fd27c35",
+            "author_name": "M\u00e9sz\u00e1ros Gergely",
+            "commit_date": "2026-10-13T09:50:18+02:00",
+            "subject": "[libcxx][CMake] Rework LLVM_ENABLE_ASSERTIONS interaction w. libcxx hardening (#229359)"
+        },
+        {
+            "hash": "860259ca3c72d0c62f3c21248d29d81cf96ea5fc",
+            "author_name": "Matteo Di Iorio",
+            "commit_date": "2026-10-13T09:51:44+02:00",
+            "subject": "[mlir][bufferization] handle exit aliases in buffer-loop-hoisting (#226951)"
+        },
+        {
+            "hash": "1ce3f22ff55653109dfd0d40e90fa01e8c01e6f8",
+            "author_name": "Fabrice de Gans",
+            "commit_date": "2026-10-13T07:52:41+00:00",
+            "subject": "[Instrumentation] Define default value as float (#231383)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -270801,6 +270825,54 @@
             "author_name": "Timur Golubovich",
             "commit_date": "2026-10-12T16:55:24+02:00",
             "subject": "[X86] Don't double count the interrupt stack alignment push in StackSize (#224029)"
+        },
+        {
+            "hash": "5177329b802af2c774e45fc85d8a689ced9a8d9b",
+            "author_name": "Ryan VanderMeulen",
+            "commit_date": "2026-10-13T09:53:38+02:00",
+            "subject": "[Windows] Export Registry<T> members and accessors for plugins again (#221296)"
+        },
+        {
+            "hash": "ca0b6a823a5bcbe032a7e7d6e722009a3c85e277",
+            "author_name": "Alexandre Ganea",
+            "commit_date": "2026-10-13T09:53:43+02:00",
+            "subject": "workflows\/release-binaries: Improve Windows installer (#220414)"
+        },
+        {
+            "hash": "1b843902f5b49f467f4283198dddff3ee42049bf",
+            "author_name": "Alexandre Ganea",
+            "commit_date": "2026-10-13T09:53:43+02:00",
+            "subject": "Change release notes wording"
+        },
+        {
+            "hash": "8451016186f2b6a2ebd41a312ce1477fd04de3cc",
+            "author_name": "Amy Kwan",
+            "commit_date": "2026-10-13T09:53:48+02:00",
+            "subject": "release\/23.x: [llvm-ar][GOFF] Implement symbol attributes for GOFF archives (#214528)"
+        },
+        {
+            "hash": "1be9d5eb62e0adbc6b9459a531ef2301a97fcae8",
+            "author_name": "BtbN",
+            "commit_date": "2026-10-13T09:53:52+02:00",
+            "subject": "[llvm-objcopy][COFF] Keep COMDAT section definition symbols when stripping (#228783)"
+        },
+        {
+            "hash": "7909311aa6f3333ffff7b1d43ce057a89071d27c",
+            "author_name": "Brad Smith",
+            "commit_date": "2026-10-13T09:53:57+02:00",
+            "subject": "[Mips] Remove experimental warning bits in a few places (#223230)"
+        },
+        {
+            "hash": "94ae4f86b8f317328d3fea74f1a305fba54e1a68",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-13T09:54:01+02:00",
+            "subject": "[Passes] Run MergeICmps\/ExpandMemCmps in LTO post-link pipeline (#230562)"
+        },
+        {
+            "hash": "d66309da4d8d2a7590e3f0071aba868b7300d8d0",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-13T09:54:05+02:00",
+            "subject": "[SCEV] Add missing scPtrToAddr to getCastExpr. (#211899)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
@@ -282175,6 +282247,26 @@
             "author_name": "mbhade",
             "commit_date": "2026-10-13T12:26:38+05:30",
             "subject": "[SLP] Model store-to-load forwarding hazards as a cost penalty"
+        }
+    ],
+    "nikic\/perf\/dylib": [
+        {
+            "hash": "d8219b47422f7322db252ad29ca8ea87993fb433",
+            "author_name": "Steffen Larsen",
+            "commit_date": "2026-10-13T07:07:45+00:00",
+            "subject": "[CIR][AMDGPU] Implement the clang::atomic statement attribute (#225364)"
+        },
+        {
+            "hash": "798856a172f89ffdab47b14089cc34bab7bcc767",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-13T09:45:53+02:00",
+            "subject": "enable dylib"
+        },
+        {
+            "hash": "a71992d122787191e8debdcdbb400fb109392e5c",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-13T09:46:30+02:00",
+            "subject": "enable clangir"
         }
     ]
 }

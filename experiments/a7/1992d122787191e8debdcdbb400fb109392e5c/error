@@ -1,0 +1,76 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage2.sh" failed
+
+STDOUT:
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- The ASM compiler identification is Clang with GNU-like command-line
+-- Found assembler: /tmp/llvm-project-build-stage1/bin/clang
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: /tmp/llvm-project-build-stage1/bin/clang
+-- Check for working C compiler: /tmp/llvm-project-build-stage1/bin/clang - broken
+-- Configuring incomplete, errors occurred!
+
+
+STDERR:
+CMake Error at /usr/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:65 (message):
+  The C compiler
+
+    "/tmp/llvm-project-build-stage1/bin/clang"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: '/tmp/llvm-project-build-stage2/CMakeFiles/CMakeScratch/TryCompile-2d0sKv'
+    
+    Run Build Command(s): /usr/bin/ninja -v cmTC_f3a4a
+    [1/2] /tmp/llvm-project-build-stage1/bin/clang    -o CMakeFiles/cmTC_f3a4a.dir/testCCompiler.c.o -c /tmp/llvm-project-build-stage2/CMakeFiles/CMakeScratch/TryCompile-2d0sKv/testCCompiler.c
+    FAILED: CMakeFiles/cmTC_f3a4a.dir/testCCompiler.c.o 
+    /tmp/llvm-project-build-stage1/bin/clang    -o CMakeFiles/cmTC_f3a4a.dir/testCCompiler.c.o -c /tmp/llvm-project-build-stage2/CMakeFiles/CMakeScratch/TryCompile-2d0sKv/testCCompiler.c
+    Pass 'Pre-ISel Intrinsic Lowering' is not initialized.
+    Verify if there is a pass dependency cycle.
+    Required Passes:
+    	Target Transform Information
+    	Target Library Information
+    clang: error: clang frontend command failed due to signal (use -v to see invocation)
+    clang version 24.0.0git
+    Target: x86_64-unknown-linux-gnu
+    Thread model: posix
+    InstalledDir: /tmp/llvm-project-build-stage1/bin
+    clang: note: diagnostic msg: 
+    ********************
+    
+    PLEASE ATTACH THE FOLLOWING CRASH REPRODUCER FILES TO THE BUG REPORT:
+    clang: note: diagnostic msg: /tmp/testCCompiler-e15e81.c
+    clang: note: diagnostic msg: /tmp/testCCompiler-e15e81.sh
+    clang: note: diagnostic msg: 
+    
+    ********************
+    PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace and instructions to reproduce the bug.
+    Stack dump:
+    0.	Program arguments: /tmp/llvm-project-build-stage1/bin/clang -o CMakeFiles/cmTC_f3a4a.dir/testCCompiler.c.o -c /tmp/llvm-project-build-stage2/CMakeFiles/CMakeScratch/TryCompile-2d0sKv/testCCompiler.c
+    Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+    0  libLLVM.so.24.0git 0x00007f9b05a112e9 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) + 121
+    1  libLLVM.so.24.0git 0x00007f9b05a0e184
+    2  libLLVM.so.24.0git 0x00007f9b05a0e27c
+    3  libc.so.6          0x00007f9b04dc8520
+    4  libc.so.6          0x00007f9b04e1c9bc pthread_kill + 300
+    5  libc.so.6          0x00007f9b04dc8476 raise + 22
+    6  clang              0x000055c534e8fd0b clang_main(int, char**, llvm::ToolContext const&) + 7995
+    7  clang              0x000055c534e8a87a main + 122
+    8  libc.so.6          0x00007f9b04dafd90
+    9  libc.so.6          0x00007f9b04dafe40 __libc_start_main + 128
+    10 clang              0x000055c534e8a8d5 _start + 37
+    Segmentation fault (core dumped)
+    ninja: build stopped: subcommand failed.
+    
+    
+
+
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:77 (project)
+
+
