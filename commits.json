@@ -282781,22 +282781,40 @@
     ],
     "fhahn\/perf\/cse-isoverwrite-wrap1": [
         {
-            "hash": "d66ab4bbe967fbea65c5d8f9f40b81505ebdafca",
-            "author_name": "Jinsong Ji",
-            "commit_date": "2026-10-07T13:43:03+00:00",
-            "subject": "[SPIR-V] Fix DebugScope resolving DILexicalBlockFile to DebugCompilationUnit (#228259)"
+            "hash": "ce0e0f047deca346096925a02eefe87e938ed586",
+            "author_name": "David Spickett",
+            "commit_date": "2026-10-13T12:47:10+00:00",
+            "subject": "Reland \"[lldb][minidump][test] Enable more minidump tests on AArch64 (#231467)\" (#231474)"
         },
         {
-            "hash": "2052b5bb2f474e02d8e3d49f0d1d7fa92b8ab5a8",
+            "hash": "20783fb400b29d9da8aaace4e9f5f55e58803800",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-07T22:26:24+01:00",
-            "subject": "[DSE] Bail out if Size + Offset wraps index width."
+            "commit_date": "2026-10-13T21:23:42+00:00",
+            "subject": "[DSE] Precommit tests for wrapping constant offsets (NFC)"
         },
         {
-            "hash": "fea1a8bc096c28985b9cd927462f95969f558e77",
+            "hash": "9794a7c3d75ce5efef97b6607ee4b68db7300a19",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-07T23:06:29+01:00",
-            "subject": "Step"
+            "commit_date": "2026-10-13T21:23:42+00:00",
+            "subject": "[DSE] Bail out if Offset + Size wraps the index width."
+        },
+        {
+            "hash": "e1569bd83e930427125796c6ea5af9bf5a34c552",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-13T21:23:42+00:00",
+            "subject": "!fixup add test for integer overflow"
+        },
+        {
+            "hash": "0dcf0ee6504011b5e63d8d8ce3af9097d8e32618",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-13T21:23:42+00:00",
+            "subject": "!fixup fix integer overflows"
+        },
+        {
+            "hash": "8347084cebaf8150c99ae22d27ec7e091d8866d1",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-13T21:45:08+00:00",
+            "subject": "!fixup compute offsets modulo the index width using APInt"
         }
     ],
     "nikic\/perf\/local-builder": [
