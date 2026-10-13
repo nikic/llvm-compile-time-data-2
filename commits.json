@@ -261087,6 +261087,48 @@
             "author_name": "Akash Manna",
             "commit_date": "2026-10-13T14:26:20+00:00",
             "subject": "[SelectionDAG] Don't unfold a load in the pre-RA schedulers if the unfolded load already exists (#226652)"
+        },
+        {
+            "hash": "80ac744d23524792209464a27a2b36825b0dc5cf",
+            "author_name": "lntue",
+            "commit_date": "2026-10-13T10:30:57-04:00",
+            "subject": "[libc][cmake] Cache compile options from config and arch to speed up configuration. (#225438)"
+        },
+        {
+            "hash": "f4c7eb77cfd73ea58dd1776baea16b6400dc8141",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-13T14:31:35+00:00",
+            "subject": "[SimplifyLibCalls] Fold more FP libcalls to intrinsics. (#227697)"
+        },
+        {
+            "hash": "b7c17969f4a055c232a3f43fdf3ce211c46e4110",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-10-13T14:32:40+00:00",
+            "subject": "[X86] combineX86ShufflesRecursively - bail on any illegal type or if the type is larger than the root (#231505)"
+        },
+        {
+            "hash": "0ffa235075465ef9f8ed473673d6b120a7d360f6",
+            "author_name": "Vachan",
+            "commit_date": "2026-10-13T14:33:19+00:00",
+            "subject": "[DAGCombiner] `visitANY_EXTEND` - fold `(aext (freeze (load x)))` -> `(aext (truncate (freeze (extload x))))` (#218454)"
+        },
+        {
+            "hash": "d231352f0694a75eacfc52f1fdbef2f44dcd0208",
+            "author_name": "Jeff Bailey",
+            "commit_date": "2026-10-13T15:36:28+01:00",
+            "subject": "[libc] Make entrypoint object linting incremental (#231311)"
+        },
+        {
+            "hash": "d0a5603cfafc377ae64362a5ce174dc6dc6e7333",
+            "author_name": "Eric Ross",
+            "commit_date": "2026-10-13T14:36:48+00:00",
+            "subject": "[KnownFPClass] Remove propagateDenormal and propagateCanonicalizingSrc (#229898)"
+        },
+        {
+            "hash": "02f9f41f1a7bd6736d8b7f9a6a7b2aa83375aa44",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-13T10:37:41-04:00",
+            "subject": "[SLP][NFC]Add test with incorrect flags propagations, NFC"
         }
     ],
     "aengelke\/perf\/ooldestr": [
