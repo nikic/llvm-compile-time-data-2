@@ -260787,6 +260787,24 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-10-13T11:23:48+01:00",
             "subject": "[VPlan] Switch fn in replaceUsesWithIf to User ptr (NFC) (#229144)"
+        },
+        {
+            "hash": "f4095d22e380fab11f7406d720171e5732a6a066",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-13T12:37:32+02:00",
+            "subject": "TableGen: Move value reference locations into Record (#231411)"
+        },
+        {
+            "hash": "1588e804b302b3136960f66789752e0a070ee588",
+            "author_name": "Tim Besard",
+            "commit_date": "2026-10-13T12:39:23+02:00",
+            "subject": "[SPIRV] Don't cache SyncScope IDs across LLVMContexts in getMemScope (#229444)"
+        },
+        {
+            "hash": "68c8099747bd4f2675897c984c2555a12ad580b9",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-13T12:43:48+02:00",
+            "subject": "X86: Fix stale dead flag checks in sjlj-shadow-stack-dead-eflags.ll (#231451)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -282249,39 +282267,39 @@
     ],
     "fhahn\/perf\/lazy-guards": [
         {
-            "hash": "7911ff646565d455869fa0db3c68ce58a609c710",
-            "author_name": "Craig Topper",
-            "commit_date": "2026-10-12T13:18:50-07:00",
-            "subject": "[RISCV][GISel] Add CFProtectionBranch support to legalizeBRJT. (#229311)"
+            "hash": "f038a4eb1c1c772d96a325c7bcc4283a519912fc",
+            "author_name": "Ingo M\u00fcller",
+            "commit_date": "2026-10-13T09:46:08+02:00",
+            "subject": "[clangd][test] Add `clang` to `CLANGD_TEST_DEPS`. (#230061)"
         },
         {
-            "hash": "9248763bb4918daf4c53dbca72f27519aab8635a",
+            "hash": "7072d6e94d4b49afa470860427c825b847922f2e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-12T21:27:59+00:00",
-            "subject": "[SCEV] Add LoopGuards::collectLazily and use it for all users."
+            "commit_date": "2026-10-13T11:44:10+01:00",
+            "subject": "[SCEV] Move support for collectin guards lazily to LoopGuards (NFC)."
         },
         {
-            "hash": "596fbecc5367757c9389178f0b280c822b1f68fa",
+            "hash": "02f422fb3f0c65ac83d3ebccf7ef02271a763fe7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T08:48:10+00:00",
+            "commit_date": "2026-10-13T11:44:17+01:00",
             "subject": "[SCEV] Add tests for constant max BTC of less-than\/greater-than exits with guards (NFC)"
         },
         {
-            "hash": "c4e25e7f5e98eff7e0de9feb079c7d5aba34ab65",
+            "hash": "1219a7525f77aaa6c1d1ae19eaa7c8d75e1b95f0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T08:50:56+00:00",
+            "commit_date": "2026-10-13T11:44:17+01:00",
             "subject": "[SCEV] Use loop guards for Start, Stride and End in computeMaxBECountForLT."
         },
         {
-            "hash": "2ae4ec03dfff896139062e30dc8d222652c2b5db",
+            "hash": "d2d0a6917a24f35be9f5c1f6efdb075d8fdff828",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T08:51:40+00:00",
+            "commit_date": "2026-10-13T11:44:18+01:00",
             "subject": "[SCEV] Filter loop guard collection for maximum backedge counts"
         },
         {
-            "hash": "584db9325e0141183016424f0064edf95e8c6c50",
+            "hash": "d9a4030d84789f9006c887052fefcb5324252d34",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T08:51:46+00:00",
+            "commit_date": "2026-10-13T11:44:18+01:00",
             "subject": "[SCEV] Remove unused incoming-guard cache (NFC)"
         }
     ],
