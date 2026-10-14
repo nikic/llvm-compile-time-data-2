@@ -262701,6 +262701,48 @@
             "author_name": "M. Usman Nadeem",
             "commit_date": "2026-10-14T10:21:00-07:00",
             "subject": "[DAGCombiner] Fold `or (not x), (and x, y) --> or (not x), y` (#231699)"
+        },
+        {
+            "hash": "6b58e144bee8dde4a9ea2fa067f61e12068b9c9a",
+            "author_name": "Jun Wang",
+            "commit_date": "2026-10-14T10:29:07-07:00",
+            "subject": "[AMDGPU] Support the RF and m inline asm constraints (#195123)"
+        },
+        {
+            "hash": "2d747cb94a0cd4636f1fb3acee265b9e3c3655ab",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-10-14T17:29:58+00:00",
+            "subject": "[libc++] Add LNT v5 schemas for the libcxx and libstdcxx test suites (#231998)"
+        },
+        {
+            "hash": "134894aebe260acc362ccf4fa981ce2c5399123c",
+            "author_name": "JRP-arm",
+            "commit_date": "2026-10-14T17:31:20+00:00",
+            "subject": "[mlir][OpenMP] Model recursive memory effects of omp.masked (#230493)"
+        },
+        {
+            "hash": "ea41e0e021161e5ca8c9a7b401f4e3555fbe61c4",
+            "author_name": "Alex Langford",
+            "commit_date": "2026-10-14T10:32:40-07:00",
+            "subject": "[lldb] Replace const char * with StringRef in ValueObject::GetSyntheticExpressionPathChild (#231711)"
+        },
+        {
+            "hash": "79469d2410788396fd85bb9de5e1d639a65af68d",
+            "author_name": "Min-Yih Hsu",
+            "commit_date": "2026-10-14T17:35:43+00:00",
+            "subject": "[VectorCombine] Add instructions created by IRBuilder into Worklist automatically (#230618)"
+        },
+        {
+            "hash": "257acb9a39877e9b1618760bc779d6315aa35cc4",
+            "author_name": "David Young",
+            "commit_date": "2026-10-14T12:36:00-05:00",
+            "subject": "[bazel][lldb] Add ArchitectureRISCV and ArchitectureWasm plugins (#231987)"
+        },
+        {
+            "hash": "15f33a60a870aa432d95a9cb4d849ba06ff12a7f",
+            "author_name": "Zaky Hermawan",
+            "commit_date": "2026-10-14T17:45:17+00:00",
+            "subject": "[NVPTX] Use default legalizer for truncating store that have memory VT == i1 (#231592)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -282805,6 +282847,12 @@
             "author_name": "Guozhi Wei",
             "commit_date": "2026-10-05T11:43:42-07:00",
             "subject": "[RegAlloc] Experiment CSR opt with MaxVRegForCSROpt=21"
+        },
+        {
+            "hash": "1e49529fcd1f7e46a1c1881efc8720cc3dc18112",
+            "author_name": "Guozhi Wei",
+            "commit_date": "2026-10-14T10:45:46-07:00",
+            "subject": "[RegAlloc] Experiment CSR opt with MaxVRegForCSROpt=22"
         }
     ],
     "mark-sed\/perf\/scev-dominating-guard": [
