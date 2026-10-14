@@ -262641,6 +262641,30 @@
             "author_name": "Kazu Hirata",
             "commit_date": "2026-10-14T09:35:26-07:00",
             "subject": "[IR] Remove Instruction::isDebugOrPseudoInst (NFC) (#231766)"
+        },
+        {
+            "hash": "a87510aa418e6d876280d2bc37b009e8fa5d0999",
+            "author_name": "Akimasa Watanuki",
+            "commit_date": "2026-10-14T18:51:39+02:00",
+            "subject": "[CIR][SPIR-V] Update HIP atomic scope checks (#231970)"
+        },
+        {
+            "hash": "e70624bda90a8e5f3c3c69f1ff600a7b2e8f4073",
+            "author_name": "Thurston Dang",
+            "commit_date": "2026-10-14T09:53:41-07:00",
+            "subject": "[msan] Handle vector.partial.reduce.{add,fadd} (#229649)"
+        },
+        {
+            "hash": "93b33f7d4b16619dca5daa823d9e477d03278e2f",
+            "author_name": "Michael Jones",
+            "commit_date": "2026-10-14T16:57:48+00:00",
+            "subject": "[libc] Fix mbstate proxy header dep (#231984)"
+        },
+        {
+            "hash": "8ed9dd99e7a8dd2fd6b953e5ddae80566e3b49af",
+            "author_name": "Daniel Moody",
+            "commit_date": "2026-10-14T12:58:48-04:00",
+            "subject": "[PowerPC] Don't let optimizeCompareInstr define CR0 while it is still live (#220999)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -283367,33 +283391,33 @@
     ],
     "davidbolvansky\/perf\/instcombine-shrink-log-intrinsics": [
         {
-            "hash": "2f3fa32ed25a3d44184c53980aab44bc2001bee9",
-            "author_name": "Ivy Xu",
-            "commit_date": "2026-10-08T21:21:31+08:00",
-            "subject": "[clang][www] Replace mailing list reference with Discourse forum link (#228676)"
+            "hash": "e70624bda90a8e5f3c3c69f1ff600a7b2e8f4073",
+            "author_name": "Thurston Dang",
+            "commit_date": "2026-10-14T09:53:41-07:00",
+            "subject": "[msan] Handle vector.partial.reduce.{add,fadd} (#229649)"
         },
         {
-            "hash": "33b236f1879281eb33eb5b78adf3cb79b570710a",
+            "hash": "c90e063956dcb1bc5c1db6950af1c2dc994e5151",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-08T15:27:57+02:00",
+            "commit_date": "2026-10-14T18:57:44+02:00",
             "subject": "[InstCombine] Cover shrinking logarithm intrinsics to float"
         },
         {
-            "hash": "aeb356af43e00750ffec7767a382842e669652f8",
+            "hash": "5aa762f4c7722cce729003d63055b0dccb902cad",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-08T15:27:58+02:00",
+            "commit_date": "2026-10-14T18:57:44+02:00",
             "subject": "[InstCombine] Shrink fast logarithm intrinsics to float"
         },
         {
-            "hash": "dcbd05cb9bcd0ff808321835e167af9978e77ba0",
+            "hash": "b1e03368d3810e534b8617614513e1687c8b6b4e",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-08T15:27:58+02:00",
+            "commit_date": "2026-10-14T18:57:45+02:00",
             "subject": "[InstCombine] Restore logarithm shrink test coverage"
         },
         {
-            "hash": "75908514b148704d4f93810a21c90b92d1ef7c0e",
+            "hash": "1c70bde2cf50ba105528cb69e9862f064214f29a",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-08T15:35:34+02:00",
+            "commit_date": "2026-10-14T18:57:45+02:00",
             "subject": "[InstCombine] Keep stdin input in logarithm shrink tests"
         }
     ],
@@ -284475,10 +284499,16 @@
             "subject": "[ADT] Tweak SmallSetVector to use SmallPtrSet"
         },
         {
-            "hash": "0db2e695ca07edf14aec83d9c4332b1cfba237db",
+            "hash": "bdf34952770852afd5d505e804ed120b0d112002",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-14T17:39:57+01:00",
-            "subject": "[clang] Switch to SetVector in non-small cases (NFC)"
+            "commit_date": "2026-10-14T17:52:07+01:00",
+            "subject": "[SetVector] Introduce ConditionalSmallSet"
+        },
+        {
+            "hash": "1a8c57f44f660a9ef57bf9b05c6a986b5313dae3",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-14T17:54:29+01:00",
+            "subject": "[SetVector] Tweak threshold to 16"
         }
     ],
     "artagnon\/perf\/vplan-setvector-small-nfc": [
