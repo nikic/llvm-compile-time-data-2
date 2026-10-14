@@ -262611,6 +262611,30 @@
             "author_name": "Jan Korous",
             "commit_date": "2026-10-14T16:06:00+00:00",
             "subject": "[clang][ssaf][orchestrator] Merge transformation reports per link unit (#231957)"
+        },
+        {
+            "hash": "bb12c270d71f20c87930b91690a7e5e74973f376",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-14T16:11:08+00:00",
+            "subject": "[VPlan] Strip IR trunc around IntOrFp inductions (NFC) (#231837)"
+        },
+        {
+            "hash": "64aee3fc8e3c0bcd158ca19d906e89ac091eb9f6",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-14T09:17:50-07:00",
+            "subject": "[SelectionDAG] Remove isOnesOrOnesSplat in favor of isOneOrOneSplat (#231742)"
+        },
+        {
+            "hash": "a31ff5095de276369ca8e98e61a15af048269c13",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-14T09:19:57-07:00",
+            "subject": "[RISCV] Add more vaadd test coverage to match vaaddu. NFC (#231627)"
+        },
+        {
+            "hash": "560cd8fd256bf6654c0f06dfd7a72fdc891959b0",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-14T18:23:38+02:00",
+            "subject": "Reapply \"clang: Use TargetID parsing from AMDGPUTargetParser\" (#213824) (#231420)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -284529,6 +284553,34 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-10-14T16:50:22+01:00",
             "subject": "[clang] Switch to SetVector in non-small cases (NFC)"
+        }
+    ],
+    "artagnon\/perf\/dagcombine-setvector-large": [
+        {
+            "hash": "7e2d1797af58e26e9e4c92a49c6ba9b7d2f11151",
+            "author_name": "Aman Maurya",
+            "commit_date": "2026-10-14T09:31:25+00:00",
+            "subject": "[libc] Implement lockf in unistd (#230856) (#231145)"
+        },
+        {
+            "hash": "06469a9613aa05b5d1bde46105e967eda0653042",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-14T17:12:14+01:00",
+            "subject": "[DAGCombine] Switch PruningList to non-small SetVector (NFC)"
+        }
+    ],
+    "artagnon\/perf\/tablegen-setvector-large": [
+        {
+            "hash": "7e2d1797af58e26e9e4c92a49c6ba9b7d2f11151",
+            "author_name": "Aman Maurya",
+            "commit_date": "2026-10-14T09:31:25+00:00",
+            "subject": "[libc] Implement lockf in unistd (#230856) (#231145)"
+        },
+        {
+            "hash": "9b16045492c5ee2050200b7b5677e8588b1df7c5",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-14T17:09:58+01:00",
+            "subject": "[TableGen] Switch to SetVector in non-small cases (NFC)"
         }
     ]
 }
