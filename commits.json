@@ -263025,6 +263025,36 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-10-14T22:47:17+00:00",
             "subject": "RuntimeLibcalls: Define vector math libcall signatures in tablegen (#232005)"
+        },
+        {
+            "hash": "7ecce4b4518fbce264a9ce1e2635339056e0f865",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-10-14T19:00:10-04:00",
+            "subject": "[gn] port ee7d9f3f4a13 (#232111)"
+        },
+        {
+            "hash": "490e646f165c87a06c9683985e290e91fbbf3f6b",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-10-14T19:00:45-04:00",
+            "subject": "[gn] port f2c709843242 (#232112)"
+        },
+        {
+            "hash": "73109fa8894a058f2687389df6356a9e062d66eb",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-10-14T19:01:37-04:00",
+            "subject": "[gn] port dbde204202ad (clang-ssaf-orchestrator-make) (#232113)"
+        },
+        {
+            "hash": "8a96bd50657089675820ae1e3d32a5d4a48f3eaa",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-10-14T19:02:32-04:00",
+            "subject": "[gn] port 07195e29cdba (clang-ssaf-merge-transformation-report) (#232114)"
+        },
+        {
+            "hash": "1c563eafd44e93dd222ca45d010c54ddb331c44e",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-10-14T19:03:16-04:00",
+            "subject": "[gn] port f32ac72b4f1e (clang-ssaf-merge-conflict-report) (#232115)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -283673,6 +283703,12 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-15T00:44:04+02:00",
             "subject": "[InstCombine] Simplify exact int-to-FP comparison fold and tests"
+        },
+        {
+            "hash": "7da844fad11f74e1db20c076309d8fe4b5acb9a8",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-15T00:50:51+02:00",
+            "subject": "[InstCombine] Use known bits for exact int-to-FP comparisons"
         }
     ],
     "davidbolvansky\/perf\/instcombine-normalized-int-fcmp": [
