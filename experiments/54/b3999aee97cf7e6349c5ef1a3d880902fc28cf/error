@@ -1,0 +1,248 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[2714/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/AArch64.cpp.o
+[2715/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/AVR.cpp.o
+[2716/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/ARM.cpp.o
+[2717/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/Hexagon.cpp.o
+[2718/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/LoongArch.cpp.o
+[2719/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/Mips.cpp.o
+[2720/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/MipsArchTree.cpp.o
+[2721/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/MSP430.cpp.o
+[2722/3442] Linking CXX static library lib/libLLVMAArch64Disassembler.a
+[2723/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/PPC64.cpp.o
+[2724/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/PPC.cpp.o
+[2725/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/RISCV.cpp.o
+[2726/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/SPARCV9.cpp.o
+[2727/3442] Linking CXX static library lib/libLLVMAArch64AsmParser.a
+[2728/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/SystemZ.cpp.o
+[2729/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/X86.cpp.o
+[2730/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Arch/X86_64.cpp.o
+[2731/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/ARMErrataFix.cpp.o
+[2732/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/BPSectionOrderer.cpp.o
+[2733/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/CallGraphSort.cpp.o
+[2734/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/DWARF.cpp.o
+[2735/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/DriverUtils.cpp.o
+[2736/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/EhFrame.cpp.o
+[2737/3442] Linking CXX static library lib/libLLVMAArch64CodeGen.a
+[2738/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/ICF.cpp.o
+[2739/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/InputFiles.cpp.o
+[2740/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/InputSection.cpp.o
+[2741/3442] Linking CXX static library lib/liblldCOFF.a
+[2742/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/LTO.cpp.o
+[2743/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/LinkerScript.cpp.o
+[2744/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/MapFile.cpp.o
+[2745/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/MarkLive.cpp.o
+[2746/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/OutputSections.cpp.o
+[2747/3442] Linking CXX executable bin/llvm-ar
+[2748/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Relocations.cpp.o
+[2749/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/ScriptLexer.cpp.o
+[2750/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/ScriptParser.cpp.o
+[2751/3442] Generating ../../bin/llvm-ranlib
+[2752/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/SymbolTable.cpp.o
+/var/llvm-compile-time-tracker/llvm-project/lld/ELF/SymbolTable.cpp: In member function ‘void lld::elf::SymbolTable::scanVersionScript()’:
+/var/llvm-compile-time-tracker/llvm-project/lld/ELF/SymbolTable.cpp:246:29: warning: enumerated and non-enumerated type in conditional expression [-Wextra]
+  246 |       uint16_t id = isLocal ? VER_NDX_LOCAL : v.id;
+      |                     ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+[2753/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Symbols.cpp.o
+[2754/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Target.cpp.o
+[2755/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Thunks.cpp.o
+[2756/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/SyntheticSections.cpp.o
+[2757/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Writer.cpp.o
+[2758/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Arch/ARM64.cpp.o
+[2759/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Arch/ARM64Common.cpp.o
+[2760/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Arch/ARM64_32.cpp.o
+[2761/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Arch/X86_64.cpp.o
+[2762/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/ConcatOutputSection.cpp.o
+[2763/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Driver.cpp.o
+[2764/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/DriverUtils.cpp.o
+[2765/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Dwarf.cpp.o
+[2766/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/EhFrame.cpp.o
+[2767/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/ExportTrie.cpp.o
+[2768/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/ICF.cpp.o
+[2769/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/InputFiles.cpp.o
+[2770/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/LinkerOptimizationHints.cpp.o
+[2771/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/InputSection.cpp.o
+[2772/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/LTO.cpp.o
+[2773/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/MapFile.cpp.o
+[2774/3442] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDeclCXX.cpp.o
+[2775/3442] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseExprCXX.cpp.o
+[2776/3442] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseObjc.cpp.o
+[2777/3442] Linking CXX shared module lib/LLVMgold.so
+[2778/3442] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseTentative.cpp.o
+[2779/3442] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDecl.cpp.o
+[2780/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/OutputSection.cpp.o
+[2781/3442] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseStmt.cpp.o
+[2782/3442] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseTemplate.cpp.o
+[2783/3442] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseStmtAsm.cpp.o
+[2784/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Target.cpp.o
+[2785/3442] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParsePragma.cpp.o
+[2786/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/MarkLive.cpp.o
+[2787/3442] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/Parser.cpp.o
+[2788/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Sections.cpp.o
+[2789/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Relocations.cpp.o
+[2790/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/StripSwiftForceLoad.cpp.o
+[2791/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/OutputSegment.cpp.o
+[2792/3442] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseOpenMP.cpp.o
+[2793/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/ObjC.cpp.o
+/var/llvm-compile-time-tracker/llvm-project/lld/MachO/ObjC.cpp:729:1: warning: ‘{anonymous}::ObjcCategoryMerger::PointerListInfo {anonymous}::ObjcCategoryMerger::parseProtocolListInfo(const lld::macho::ConcatInputSection*, uint32_t)’ defined but not used [-Wunused-function]
+  729 | ObjcCategoryMerger::parseProtocolListInfo(const ConcatInputSection *isec,
+      | ^~~~~~~~~~~~~~~~~~
+[2794/3442] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseReflect.cpp.o
+[2795/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Symbols.cpp.o
+[2796/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/SectionPriorities.cpp.o
+[2797/3442] Building CXX object tools/lld/MinGW/CMakeFiles/lldMinGW.dir/Driver.cpp.o
+[2798/3442] Linking CXX static library lib/liblldMinGW.a
+[2799/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/SymbolTable.cpp.o
+[2800/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/UnwindInfoSection.cpp.o
+[2801/3442] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/WriterUtils.cpp.o
+[2802/3442] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseOpenACC.cpp.o
+[2803/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/Writer.cpp.o
+[2804/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/BPSectionOrderer.cpp.o
+[2805/3442] Building Opcodes.inc...
+[2806/3442] Building AttrDocTable.inc...
+[2807/3442] Building CXX object tools/lld/MachO/CMakeFiles/lldMachO.dir/SyntheticSections.cpp.o
+[2808/3442] Linking CXX static library lib/liblldMachO.a
+[2809/3442] Building CXX object tools/lld/ELF/CMakeFiles/lldELF.dir/Driver.cpp.o
+FAILED: tools/lld/ELF/CMakeFiles/lldELF.dir/Driver.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/tools/lld/ELF -I/var/llvm-compile-time-tracker/llvm-project/lld/ELF -I/var/llvm-compile-time-tracker/llvm-project/lld/include -I/tmp/llvm-project-build-stage1/tools/lld/include -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT tools/lld/ELF/CMakeFiles/lldELF.dir/Driver.cpp.o -MF tools/lld/ELF/CMakeFiles/lldELF.dir/Driver.cpp.o.d -o tools/lld/ELF/CMakeFiles/lldELF.dir/Driver.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/lld/ELF/Driver.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Option/ArgList.h:13,
+                 from /var/llvm-compile-time-tracker/llvm-project/lld/ELF/Driver.h:14,
+                 from /var/llvm-compile-time-tracker/llvm-project/lld/ELF/Driver.cpp:25:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h: In instantiation of ‘class llvm::densemap::detail::SmallDenseMapStorage<llvm::detail::DenseSetPair<llvm::StringRef>, 0>’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1040:12:   required from ‘class llvm::DenseMapBase<llvm::densemap::detail::SmallDenseMapStorage<llvm::detail::DenseSetPair<llvm::StringRef>, 0>, llvm::StringRef, llvm::detail::DenseSetEmpty, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseSetPair<llvm::StringRef> >’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1383:7:   required from ‘class llvm::SmallDenseMap<llvm::StringRef, llvm::detail::DenseSetEmpty, 0, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseSetPair<llvm::StringRef> >’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseSet.h:54:17:   required from ‘class llvm::detail::DenseSetImpl<llvm::StringRef, llvm::SmallDenseMap<llvm::StringRef, llvm::detail::DenseSetEmpty, 0, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseSetPair<llvm::StringRef> > >’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseSet.h:292:7:   required from ‘class llvm::SmallDenseSet<llvm::StringRef, 0, llvm::DenseMapInfo<llvm::StringRef, void> >’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SetVector.h:63:9:   required from ‘class llvm::SetVector<llvm::StringRef, llvm::SmallVector<llvm::StringRef, 0>, llvm::SmallDenseSet<llvm::StringRef, 0, llvm::DenseMapInfo<llvm::StringRef, void> >, 0>’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SetVector.h:346:7:   required from ‘class llvm::SmallSetVector<llvm::StringRef, 0>’
+/var/llvm-compile-time-tracker/llvm-project/lld/ELF/Driver.cpp:1129:20:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:296:30: error: static assertion failed: InlineBuckets must be a power of 2.
+  296 |   static_assert(isPowerOf2_64(InlineBuckets),
+      |                 ~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:296:30: note: ‘llvm::isPowerOf2_64(0)’ evaluates to false
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h: In instantiation of ‘struct llvm::densemap::detail::SmallDenseMapStorage<llvm::detail::DenseSetPair<llvm::StringRef>, 0>::InlineRep’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:318:15:   required from ‘union llvm::densemap::detail::SmallDenseMapStorage<llvm::detail::DenseSetPair<llvm::StringRef>, 0>::<unnamed>’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:320:5:   required from ‘class llvm::densemap::detail::SmallDenseMapStorage<llvm::detail::DenseSetPair<llvm::StringRef>, 0>’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1040:12:   required from ‘class llvm::DenseMapBase<llvm::densemap::detail::SmallDenseMapStorage<llvm::detail::DenseSetPair<llvm::StringRef>, 0>, llvm::StringRef, llvm::detail::DenseSetEmpty, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseSetPair<llvm::StringRef> >’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1383:7:   required from ‘class llvm::SmallDenseMap<llvm::StringRef, llvm::detail::DenseSetEmpty, 0, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseSetPair<llvm::StringRef> >’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseSet.h:54:17:   required from ‘class llvm::detail::DenseSetImpl<llvm::StringRef, llvm::SmallDenseMap<llvm::StringRef, llvm::detail::DenseSetEmpty, 0, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseSetPair<llvm::StringRef> > >’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseSet.h:292:7:   required from ‘class llvm::SmallDenseSet<llvm::StringRef, 0, llvm::DenseMapInfo<llvm::StringRef, void> >’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SetVector.h:63:9:   required from ‘class llvm::SetVector<llvm::StringRef, llvm::SmallVector<llvm::StringRef, 0>, llvm::SmallDenseSet<llvm::StringRef, 0, llvm::DenseMapInfo<llvm::StringRef, void> >, 0>’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SetVector.h:346:7:   required from ‘class llvm::SmallSetVector<llvm::StringRef, 0>’
+/var/llvm-compile-time-tracker/llvm-project/lld/ELF/Driver.cpp:1129:20:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:307:51: warning: ISO C++ forbids zero-size array [-Wpedantic]
+  307 |     alignas(BucketT) char Buckets[sizeof(BucketT) * InlineBuckets];
+      |                                   ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:308:16: warning: ISO C++ forbids zero-size array [-Wpedantic]
+  308 |     UsedT Used[InlineUsedWords];
+      |                ^~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:307:27: warning: zero-size array member ‘llvm::densemap::detail::SmallDenseMapStorage<llvm::detail::DenseSetPair<llvm::StringRef>, 0>::InlineRep::Buckets’ not at end of ‘struct llvm::densemap::detail::SmallDenseMapStorage<llvm::detail::DenseSetPair<llvm::StringRef>, 0>::InlineRep’ [-Wpedantic]
+  307 |     alignas(BucketT) char Buckets[sizeof(BucketT) * InlineBuckets];
+      |                           ^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:306:10: note: in the definition of ‘struct llvm::densemap::detail::SmallDenseMapStorage<llvm::detail::DenseSetPair<llvm::StringRef>, 0>::InlineRep’
+  306 |   struct InlineRep {
+      |          ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h: In instantiation of ‘class llvm::densemap::detail::SmallDenseMapStorage<llvm::detail::DenseSetPair<llvm::StringRef>, 0>’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1040:12:   required from ‘class llvm::DenseMapBase<llvm::densemap::detail::SmallDenseMapStorage<llvm::detail::DenseSetPair<llvm::StringRef>, 0>, llvm::StringRef, llvm::detail::DenseSetEmpty, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseSetPair<llvm::StringRef> >’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1383:7:   required from ‘class llvm::SmallDenseMap<llvm::StringRef, llvm::detail::DenseSetEmpty, 0, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseSetPair<llvm::StringRef> >’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseSet.h:54:17:   required from ‘class llvm::detail::DenseSetImpl<llvm::StringRef, llvm::SmallDenseMap<llvm::StringRef, llvm::detail::DenseSetEmpty, 0, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseSetPair<llvm::StringRef> > >’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseSet.h:292:7:   required from ‘class llvm::SmallDenseSet<llvm::StringRef, 0, llvm::DenseMapInfo<llvm::StringRef, void> >’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SetVector.h:63:9:   required from ‘class llvm::SetVector<llvm::StringRef, llvm::SmallVector<llvm::StringRef, 0>, llvm::SmallDenseSet<llvm::StringRef, 0, llvm::DenseMapInfo<llvm::StringRef, void> >, 0>’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SetVector.h:346:7:   required from ‘class llvm::SmallSetVector<llvm::StringRef, 0>’
+/var/llvm-compile-time-tracker/llvm-project/lld/ELF/Driver.cpp:1129:20:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:320:5: warning: invalid use of ‘struct llvm::densemap::detail::SmallDenseMapStorage<llvm::detail::DenseSetPair<llvm::StringRef>, 0>::InlineRep’ with a zero-size array in ‘class llvm::densemap::detail::SmallDenseMapStorage<llvm::detail::DenseSetPair<llvm::StringRef>, 0>’ [-Wpedantic]
+  320 |   } storage;
+      |     ^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:307:27: note: array member ‘char llvm::densemap::detail::SmallDenseMapStorage<llvm::detail::DenseSetPair<llvm::StringRef>, 0>::InlineRep::Buckets [0]’ declared here
+  307 |     alignas(BucketT) char Buckets[sizeof(BucketT) * InlineBuckets];
+      |                           ^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h: In instantiation of ‘class llvm::DenseMapBase<llvm::densemap::detail::SmallDenseMapStorage<llvm::detail::DenseSetPair<llvm::StringRef>, 0>, llvm::StringRef, llvm::detail::DenseSetEmpty, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseSetPair<llvm::StringRef> >’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1383:7:   required from ‘class llvm::SmallDenseMap<llvm::StringRef, llvm::detail::DenseSetEmpty, 0, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseSetPair<llvm::StringRef> >’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseSet.h:54:17:   required from ‘class llvm::detail::DenseSetImpl<llvm::StringRef, llvm::SmallDenseMap<llvm::StringRef, llvm::detail::DenseSetEmpty, 0, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseSetPair<llvm::StringRef> > >’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseSet.h:292:7:   required from ‘class llvm::SmallDenseSet<llvm::StringRef, 0, llvm::DenseMapInfo<llvm::StringRef, void> >’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SetVector.h:63:9:   required from ‘class llvm::SetVector<llvm::StringRef, llvm::SmallVector<llvm::StringRef, 0>, llvm::SmallDenseSet<llvm::StringRef, 0, llvm::DenseMapInfo<llvm::StringRef, void> >, 0>’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SetVector.h:346:7:   required from ‘class llvm::SmallSetVector<llvm::StringRef, 0>’
+/var/llvm-compile-time-tracker/llvm-project/lld/ELF/Driver.cpp:1129:20:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1040:12: warning: invalid use of ‘struct llvm::densemap::detail::SmallDenseMapStorage<llvm::detail::DenseSetPair<llvm::StringRef>, 0>::InlineRep’ with a zero-size array in ‘class llvm::DenseMapBase<llvm::densemap::detail::SmallDenseMapStorage<llvm::detail::DenseSetPair<llvm::StringRef>, 0>, llvm::StringRef, llvm::detail::DenseSetEmpty, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseSetPair<llvm::StringRef> >’ [-Wpedantic]
+ 1040 |   StorageT Storage;
+      |            ^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:307:27: note: array member ‘char llvm::densemap::detail::SmallDenseMapStorage<llvm::detail::DenseSetPair<llvm::StringRef>, 0>::InlineRep::Buckets [0]’ declared here
+  307 |     alignas(BucketT) char Buckets[sizeof(BucketT) * InlineBuckets];
+      |                           ^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h: In instantiation of ‘class llvm::SmallDenseMap<llvm::StringRef, llvm::detail::DenseSetEmpty, 0, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseSetPair<llvm::StringRef> >’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseSet.h:54:17:   required from ‘class llvm::detail::DenseSetImpl<llvm::StringRef, llvm::SmallDenseMap<llvm::StringRef, llvm::detail::DenseSetEmpty, 0, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseSetPair<llvm::StringRef> > >’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseSet.h:292:7:   required from ‘class llvm::SmallDenseSet<llvm::StringRef, 0, llvm::DenseMapInfo<llvm::StringRef, void> >’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SetVector.h:63:9:   required from ‘class llvm::SetVector<llvm::StringRef, llvm::SmallVector<llvm::StringRef, 0>, llvm::SmallDenseSet<llvm::StringRef, 0, llvm::DenseMapInfo<llvm::StringRef, void> >, 0>’
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/SetVector.h:346:7:   required from ‘class llvm::SmallSetVector<llvm::StringRef, 0>’
+/var/llvm-compile-time-tracker/llvm-project/lld/ELF/Driver.cpp:1129:20:   required from here
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:1040:12: warning: invalid use of ‘struct llvm::densemap::detail::SmallDenseMapStorage<llvm::detail::DenseSetPair<llvm::StringRef>, 0>::InlineRep’ with a zero-size array in ‘class llvm::DenseMapBase<llvm::densemap::detail::SmallDenseMapStorage<llvm::detail::DenseSetPair<llvm::StringRef>, 0>, llvm::StringRef, llvm::detail::DenseSetEmpty, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseSetPair<llvm::StringRef> >’ [-Wpedantic]
+ 1040 |   StorageT Storage;
+      |            ^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:307:27: note: array member ‘char llvm::densemap::detail::SmallDenseMapStorage<llvm::detail::DenseSetPair<llvm::StringRef>, 0>::InlineRep::Buckets [0]’ declared here
+  307 |     alignas(BucketT) char Buckets[sizeof(BucketT) * InlineBuckets];
+      |                           ^~~~~~~
+[2810/3442] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/OutputSections.cpp.o
+[2811/3442] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/MarkLive.cpp.o
+[2812/3442] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/MapFile.cpp.o
+[2813/3442] Building CXX object tools/clang/lib/ASTMatchers/CMakeFiles/obj.clangASTMatchers.dir/LowLevelHelpers.cpp.o
+[2814/3442] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/OutputSegment.cpp.o
+[2815/3442] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/Relocations.cpp.o
+[2816/3442] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/LTO.cpp.o
+[2817/3442] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/InputFiles.cpp.o
+[2818/3442] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/APValue.cpp.o
+[2819/3442] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/Driver.cpp.o
+[2820/3442] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/SymbolTable.cpp.o
+[2821/3442] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/Symbols.cpp.o
+[2822/3442] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/SyntheticSections.cpp.o
+[2823/3442] Building CXX object tools/lld/wasm/CMakeFiles/lldWasm.dir/Writer.cpp.o
+[2824/3442] Building CXX object tools/clang/lib/ASTMatchers/CMakeFiles/obj.clangASTMatchers.dir/ASTMatchersInternal.cpp.o
+[2825/3442] Building CXX object tools/clang/lib/ASTMatchers/CMakeFiles/obj.clangASTMatchers.dir/ASTMatchFinder.cpp.o
+[2826/3442] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTContext.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning (policy) at cmake/modules/HandleLLVMOptions.cmake:960 (CHECK_C_SOURCE_COMPILES):
+  Policy CMP0219 is not set: Macro invocations preserve backslashes in
+  arguments.  Run "cmake --help-policy CMP0219" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  Command "CHECK_C_SOURCE_COMPILES" called with arguments containing
+  backslashes.
+
+  Since the policy is not set, backslashes in the arguments:
+
+   "// \\\n//\nint main(void) {return 0;}"
+
+  will be interpreted as escape sequences for compatibility.
+
+  Set the policy to NEW to instead pass
+
+   "// \\\\\\n//\\nint main(void) {return 0;}"
+
+  so that argument parsing will preserve the original values.
+Call Stack (most recent call first):
+  CMakeLists.txt:1144 (include)
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+Precompiled headers are disabled by default with GCC. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override.
+CMake Warning at cmake/modules/HandleLLVMOptions.cmake:1441 (message):
+  Using ccache with precompiled headers with non-Clang compilers is not
+  supported and may lead to false positives.  Set
+  CMAKE_DISABLE_PRECOMPILE_HEADERS to ON/OFF to silence this warning.
+Call Stack (most recent call first):
+  CMakeLists.txt:1144 (include)
+
+
+CMake Warning (deprecated) at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:518 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+to suppress it.
+
+Command exited with non-zero status 1
+727.93user 41.48system 1:01.82elapsed 1244%CPU (0avgtext+0avgdata 1326120maxresident)k
+0inputs+4122376outputs (26314major+24472789minor)pagefaults 0swaps
