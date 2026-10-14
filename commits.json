@@ -262539,6 +262539,36 @@
             "author_name": "Chi-Chun, Chen",
             "commit_date": "2026-10-14T10:02:52-05:00",
             "subject": "[mlir][flang][OpenMP] Select iterators per locator and allow multi-block regions (#227454)"
+        },
+        {
+            "hash": "f32ac72b4f1ec390a42f91e084da61854b5fac0e",
+            "author_name": "Jan Korous",
+            "commit_date": "2026-10-14T08:06:38-07:00",
+            "subject": "[clang][ssaf] Add clang-ssaf-merge-conflict-report (#231731)"
+        },
+        {
+            "hash": "3e93f25d161f7d503fa7c3fca2afae609ce183bb",
+            "author_name": "Simon Tatham",
+            "commit_date": "2026-10-14T08:09:14-07:00",
+            "subject": "[clang][ssaf] Put clang-ssaf-orchestrator-make in LLVM_BINARY_DIR (#231930)"
+        },
+        {
+            "hash": "8719e1932a81499996fcdaf5bce5a364c2e46074",
+            "author_name": "Adam Smith",
+            "commit_date": "2026-10-14T10:09:43-05:00",
+            "subject": "[mlir][DataLayout] Add getTypeAllocSize (#231262)"
+        },
+        {
+            "hash": "8fadf6b5c793cb9234755c6d7b5f776f4e4f24eb",
+            "author_name": "Christian Kandeler",
+            "commit_date": "2026-10-14T17:17:17+02:00",
+            "subject": "[clangd] Extract to function: Fix parameter declarator printing"
+        },
+        {
+            "hash": "b9253b904b7f42d6ecdfdb551dfd67b5e10f476c",
+            "author_name": "Deepak Shirke",
+            "commit_date": "2026-10-14T16:17:41+01:00",
+            "subject": "[AArch64] Remove tryShiftAmountMod in favor of SelectShiftMask (#228753)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -284377,6 +284407,12 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-10-14T15:54:48+01:00",
             "subject": "[SetVector] Switch to DenseSet"
+        },
+        {
+            "hash": "d06357bedde8208b443087fc7e0717f931afffff",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-14T16:14:38+01:00",
+            "subject": "[SetVector] Refine size-hint invariant to pow-of-2"
         }
     ],
     "artagnon\/perf\/vplan-setvector-small-nfc": [
@@ -284393,9 +284429,21 @@
             "subject": "[ADT] Tweak SmallSetVector to use SmallPtrSet"
         },
         {
-            "hash": "e7d934b7a8d3876ab50154d28b5cb8947d21a4d1",
+            "hash": "6c3a90b5c64fcdb6cc82741cb14f755e2e361bb2",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-14T14:07:41+01:00",
+            "commit_date": "2026-10-14T15:54:48+01:00",
+            "subject": "[SetVector] Switch to DenseSet"
+        },
+        {
+            "hash": "d06357bedde8208b443087fc7e0717f931afffff",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-14T16:14:38+01:00",
+            "subject": "[SetVector] Refine size-hint invariant to pow-of-2"
+        },
+        {
+            "hash": "29e4184c1c894f9e564a5259d0cf57087a689c12",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-14T16:15:16+01:00",
             "subject": "[VPlan] Migrate SetVector to SmallSetVector (NFC)"
         }
     ],
