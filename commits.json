@@ -262995,6 +262995,18 @@
             "author_name": "David Young",
             "commit_date": "2026-10-14T17:06:58-05:00",
             "subject": "[bazel][lldb] Add FortranLanguage plugin (#232082)"
+        },
+        {
+            "hash": "159b2ff244f41bd2f554850761dd3887e9bd6c90",
+            "author_name": "Alex MacLean",
+            "commit_date": "2026-10-14T22:15:54+00:00",
+            "subject": "[SeparateConstOffsetFromGEP] Check for signed wrap when removing offsets (#231605)"
+        },
+        {
+            "hash": "c25a312b1e2ad4ed06431521bbbdcb2fc0e0a263",
+            "author_name": "Daniil Dudkin",
+            "commit_date": "2026-10-15T01:18:38+03:00",
+            "subject": "[clang-tidy] Add `modernize-use-if-consteval` check (#189743)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -284967,6 +284979,26 @@
             "author_name": "Alexander Shaposhnikov",
             "commit_date": "2026-10-14T13:35:54-07:00",
             "subject": "[LV] Avoid lane-zero addresses derived from predicated div\/rem"
+        }
+    ],
+    "bababuck\/perf\/mr232083": [
+        {
+            "hash": "dce216791436fe6ca8f7b9799e0821ef8f0125a9",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-14T13:01:12+00:00",
+            "subject": "Revert \"[AMDGPU] Handle gfx950 v_pk_{add,mul,fma}_f32 invalid op_sel\" (#231885)"
+        },
+        {
+            "hash": "6ef9381e316c1bb7d435541a8f13bb7e871131ed",
+            "author_name": "npanchen",
+            "commit_date": "2026-10-14T16:49:13-04:00",
+            "subject": "[SLP] Cache getPointersDiff results"
+        },
+        {
+            "hash": "312386757564fec9894ec2b3e3bf818f7200f6f4",
+            "author_name": "npanchen",
+            "commit_date": "2026-10-14T17:40:01-04:00",
+            "subject": "addressed comments"
         }
     ]
 }
