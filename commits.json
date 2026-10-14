@@ -262305,6 +262305,18 @@
             "author_name": "Charles Zablit",
             "commit_date": "2026-10-14T12:39:21+01:00",
             "subject": "[NFC][lldb] Remove remaining TEST_WITH_PDB_DEBUG_INFO (#231579)"
+        },
+        {
+            "hash": "19bda85a1c923a14ef784978d04c88f3a787c2ed",
+            "author_name": "Kelvin Li",
+            "commit_date": "2026-10-14T07:55:04-04:00",
+            "subject": "[flang] simplify ieee_logb.f90 (NFC) (#229644)"
+        },
+        {
+            "hash": "a4c93844daf0278020e636d6c7854fb0c9d0479f",
+            "author_name": "Adam Siemieniuk",
+            "commit_date": "2026-10-14T14:04:03+02:00",
+            "subject": "[mlir][vector] Expose vector linearize as transforms (#231412)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -283423,39 +283435,21 @@
     ],
     "fhahn\/perf\/cse-isoverwrite-wrap1": [
         {
-            "hash": "ce0e0f047deca346096925a02eefe87e938ed586",
-            "author_name": "David Spickett",
-            "commit_date": "2026-10-13T12:47:10+00:00",
-            "subject": "Reland \"[lldb][minidump][test] Enable more minidump tests on AArch64 (#231467)\" (#231474)"
+            "hash": "a9472e2e0cbbc0cd652e546207a7731efbc2afae",
+            "author_name": "Benjamin Maxwell",
+            "commit_date": "2026-10-14T11:00:29+01:00",
+            "subject": "[AArch64] Merge TTI::isLegalAddressingMode() into TLI (NFC) (#231568)"
         },
         {
-            "hash": "20783fb400b29d9da8aaace4e9f5f55e58803800",
+            "hash": "4da893d309f726f639bbd33ed26e6e90c34542b5",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T21:23:42+00:00",
-            "subject": "[DSE] Precommit tests for wrapping constant offsets (NFC)"
-        },
-        {
-            "hash": "9794a7c3d75ce5efef97b6607ee4b68db7300a19",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T21:23:42+00:00",
+            "commit_date": "2026-10-14T13:02:29+01:00",
             "subject": "[DSE] Bail out if Offset + Size wraps the index width."
         },
         {
-            "hash": "e1569bd83e930427125796c6ea5af9bf5a34c552",
+            "hash": "5e30c1ef17f6a63ed8269679d9abe9844511c3e3",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T21:23:42+00:00",
-            "subject": "!fixup add test for integer overflow"
-        },
-        {
-            "hash": "0dcf0ee6504011b5e63d8d8ce3af9097d8e32618",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T21:23:42+00:00",
-            "subject": "!fixup fix integer overflows"
-        },
-        {
-            "hash": "8347084cebaf8150c99ae22d27ec7e091d8866d1",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T21:45:08+00:00",
+            "commit_date": "2026-10-14T13:02:41+01:00",
             "subject": "!fixup compute offsets modulo the index width using APInt"
         }
     ],
@@ -284141,6 +284135,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-10-14T10:03:05+00:00",
             "subject": "[DebugInfo] Skip instruction ordering without debug values (NFC)"
+        }
+    ],
+    "artagnon\/perf\/adt-setvector-ptrset": [
+        {
+            "hash": "7e2d1797af58e26e9e4c92a49c6ba9b7d2f11151",
+            "author_name": "Aman Maurya",
+            "commit_date": "2026-10-14T09:31:25+00:00",
+            "subject": "[libc] Implement lockf in unistd (#230856) (#231145)"
+        },
+        {
+            "hash": "edb9bcc38d9083498fbbfa587af9979baabfe826",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-14T13:00:17+01:00",
+            "subject": "[ADT] Tweak SmallSetVector to use SmallPtrSet"
         }
     ]
 }
