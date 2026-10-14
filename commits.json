@@ -262107,6 +262107,30 @@
             "author_name": "ZhaoQi",
             "commit_date": "2026-10-14T17:00:13+08:00",
             "subject": "[LoongArch] Legalize broadcasting the first element of 256-bit vector using `xvreplve0` (#169271)"
+        },
+        {
+            "hash": "a244d7762eecc19c327ce1e65a995e466962ab05",
+            "author_name": "YafetBeyene",
+            "commit_date": "2026-10-14T10:02:49+01:00",
+            "subject": "[LoopFusion] Initial Cost Model (#224626)"
+        },
+        {
+            "hash": "afe497d2d937fd9ada4df6be6c7545baaf3f6247",
+            "author_name": "David Spickett",
+            "commit_date": "2026-10-14T10:03:37+01:00",
+            "subject": "[lldb][test] Fix cleanup in test_save_linux_minidump_one_region (#231809)"
+        },
+        {
+            "hash": "3afa38c6b8eac95660a4677b1353745c720212e5",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-10-14T11:05:32+02:00",
+            "subject": "[clang][bytecode] Reject invalid opaque pointer base conversions (#231366)"
+        },
+        {
+            "hash": "6248bfbe99eb1409f2dfdbcb791df3a2c64b97e6",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-14T11:11:37+02:00",
+            "subject": "[mlir][SPIR-V] Derive Aligned memory operand for PhysicalStorageBuffer in vector.load\/store (#214200)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -283915,6 +283939,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-14T09:47:26+01:00",
             "subject": "[VPlan] Diff checks to VPInstructions"
+        }
+    ],
+    "antoniofrighetto\/perf\/sroa-select": [
+        {
+            "hash": "3afa38c6b8eac95660a4677b1353745c720212e5",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-10-14T11:05:32+02:00",
+            "subject": "[clang][bytecode] Reject invalid opaque pointer base conversions (#231366)"
+        },
+        {
+            "hash": "67b08a598c6c2429e46e129214315b521925e56b",
+            "author_name": "Daniel Donenfeld",
+            "commit_date": "2026-10-14T11:11:01+02:00",
+            "subject": "[SROA] Add tests for select folding"
         }
     ]
 }
