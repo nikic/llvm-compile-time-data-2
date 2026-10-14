@@ -262389,6 +262389,24 @@
             "author_name": "David Green",
             "commit_date": "2026-10-14T13:13:38+00:00",
             "subject": "[AArch64][GlobalISel] Remove G_DUP, replacing it with G_SPLAT_VECTOR (#230475)"
+        },
+        {
+            "hash": "91fb63e87c4e2bdd1df5a029121557eef53d95e1",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-14T13:16:26+00:00",
+            "subject": "[EarlyCSE] Drop select min\/max handling (#231838)"
+        },
+        {
+            "hash": "a3c61da4e7d40f73529df38722e172432b8b1127",
+            "author_name": "Tim Besard",
+            "commit_date": "2026-10-14T15:18:07+02:00",
+            "subject": "[SPIR-V] Fix type lookups for calls and post-isel registers in module analysis (#231173)"
+        },
+        {
+            "hash": "00b02cbe7261ac48544a93abed77e05957a105a5",
+            "author_name": "Kunal Dubey",
+            "commit_date": "2026-10-14T18:52:25+05:30",
+            "subject": "[Clang] Fix default initializer crash (#230520)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -283519,9 +283537,9 @@
             "subject": "[DSE] Bail out if Offset + Size wraps the index width."
         },
         {
-            "hash": "5e30c1ef17f6a63ed8269679d9abe9844511c3e3",
+            "hash": "98d78f20ab128937d555464a6cbcb6ae2282c845",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-14T13:02:41+01:00",
+            "commit_date": "2026-10-14T14:22:25+01:00",
             "subject": "!fixup compute offsets modulo the index width using APInt"
         }
     ],
