@@ -262425,6 +262425,18 @@
             "author_name": "Akash Manna",
             "commit_date": "2026-10-14T13:34:02+00:00",
             "subject": "[X86] Custom split `STRICT_CVTPS2PH` with wide types (#231365)"
+        },
+        {
+            "hash": "111065f3dffb3a23c9ef4b88dec98206cac118e1",
+            "author_name": "KRM7",
+            "commit_date": "2026-10-14T14:51:21+01:00",
+            "subject": "[AArch64] Prefer tst + bcc over lsr + cbz\/cbnz (#228005)"
+        },
+        {
+            "hash": "96eb412ac53c6e9edd43cf9bce490fc4d8791be2",
+            "author_name": "Jonathan Thackray",
+            "commit_date": "2026-10-14T14:51:54+01:00",
+            "subject": "[AArch64][llvm] Improve diagnostics for invalid operands (#230436)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -283501,15 +283513,15 @@
     ],
     "tbaederr\/perf\/constant-expr": [
         {
-            "hash": "804efba8a498197855111bd290728aac4cfdbc21",
-            "author_name": "Matt Arsenault",
-            "commit_date": "2026-10-07T10:05:38+00:00",
-            "subject": "PowerPC: Promote 32-bit ops to 64-bit in place for EXTSW elimination (#229054)"
+            "hash": "9cdbd0fcfe974b054eaab5a07ef41a75ab9026a2",
+            "author_name": "Alex Bradbury",
+            "commit_date": "2026-10-14T14:33:19+01:00",
+            "subject": "[CMake][test] Mark tests as unsupported if the configuring cmake isn't available (#231827)"
         },
         {
-            "hash": "71ea12e8f5423995470dfd9eaa2b7c7ea01406a9",
+            "hash": "dc96feac88d3c08ff59c08bdf24d9879c632a32b",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-08T16:37:55+02:00",
+            "commit_date": "2026-10-14T15:48:10+02:00",
             "subject": "ConstantExpr"
         }
     ],
