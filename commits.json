@@ -262911,6 +262911,30 @@
             "author_name": "Michael E. Rowan",
             "commit_date": "2026-10-14T20:46:53+00:00",
             "subject": "[AMDGPU] Tighten mbcnt result range in InstCombine (#232066)"
+        },
+        {
+            "hash": "27b04f936cb8b9afae0f263a8ca91584a1b3f3a3",
+            "author_name": "Milica Kovacevic",
+            "commit_date": "2026-10-14T22:51:40+02:00",
+            "subject": "[GlobalISel] Add nomerge attribute support (#224332)"
+        },
+        {
+            "hash": "6086e0a4254d7624726f9c16a39889cee14a8dfe",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-14T17:03:18-04:00",
+            "subject": "[X86][TTI]Make rem paired with same-operand div free (#231661)"
+        },
+        {
+            "hash": "f3c60c3e50d0d09e915eaf9ec25b9924de250275",
+            "author_name": "Adam Smith",
+            "commit_date": "2026-10-14T16:04:43-05:00",
+            "subject": "[CIR] Fix layout and attributes for non-power-of-two vectors (#230584)"
+        },
+        {
+            "hash": "b6b54b579228a6fd2fd7ab2972e5302fc13ff89d",
+            "author_name": "Konstantinos Parasyris",
+            "commit_date": "2026-10-14T21:05:20+00:00",
+            "subject": "[CIR] Factor CIR module output emission out of CIRGenConsumer (#229441)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -283027,6 +283051,12 @@
             "author_name": "Guozhi Wei",
             "commit_date": "2026-10-14T13:23:36-07:00",
             "subject": "[RegAlloc] Experiment CSR opt with MaxVRegForCSROpt=23"
+        },
+        {
+            "hash": "5f57af71c73a740eaad185e997f3381473bac9c8",
+            "author_name": "Guozhi Wei",
+            "commit_date": "2026-10-14T13:57:27-07:00",
+            "subject": "[RegAlloc] Experiment CSR opt with MaxVRegForCSROpt=24"
         }
     ],
     "mark-sed\/perf\/scev-dominating-guard": [
