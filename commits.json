@@ -262749,6 +262749,36 @@
             "author_name": "Ambrose Leeb",
             "commit_date": "2026-10-14T17:53:10+00:00",
             "subject": "[Clang] [CUDA] Fix calling convention for forward-declared kernels (#231628)"
+        },
+        {
+            "hash": "d7316136bc3e467390b5234eb69ad49de60a22ae",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-10-14T10:56:10-07:00",
+            "subject": "[Support][IR] Set library options per LLVMContext (#231407)"
+        },
+        {
+            "hash": "9d55474bc6340221f619547b9e7c3f4f6bd1ef8d",
+            "author_name": "Ryan Buchner",
+            "commit_date": "2026-10-14T17:56:28+00:00",
+            "subject": " [SLP][TTI][RISCV] Update BuildVectorUseOp to support intrinsics (#231400)"
+        },
+        {
+            "hash": "ed1cc5b6583155512baf116ab45542de1fc23770",
+            "author_name": "Bal\u00e1zs Benics",
+            "commit_date": "2026-10-14T19:00:36+01:00",
+            "subject": "[LifetimeSafety] Propagate origins through BaseToDerived casts (#231896)"
+        },
+        {
+            "hash": "6efd62d3b09c0fd1445cb7c4e75ec41a6081b80a",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-10-14T20:02:44+02:00",
+            "subject": "[libc++] Remove redundant `_LIBCPP_HIDE_FROM_ABI` from detail headers a-c (#201722)"
+        },
+        {
+            "hash": "a8797d63e97f4eba871c986a2c487da5db78d358",
+            "author_name": "Jan Korous",
+            "commit_date": "2026-10-14T18:08:44+00:00",
+            "subject": "Clang ssaf driver 4 (#231999)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -284583,22 +284613,10 @@
             "subject": "[libc] Implement lockf in unistd (#230856) (#231145)"
         },
         {
-            "hash": "bd16011c7826168a8aadc77a0867a8854b17545b",
+            "hash": "408106576159d499dd0c850d073d13b7e722537c",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-14T17:38:23+01:00",
+            "commit_date": "2026-10-14T18:56:13+01:00",
             "subject": "[ADT] Tweak SmallSetVector to use SmallPtrSet"
-        },
-        {
-            "hash": "bdf34952770852afd5d505e804ed120b0d112002",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-14T17:52:07+01:00",
-            "subject": "[SetVector] Introduce ConditionalSmallSet"
-        },
-        {
-            "hash": "1a8c57f44f660a9ef57bf9b05c6a986b5313dae3",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-14T17:54:29+01:00",
-            "subject": "[SetVector] Tweak threshold to 16"
         }
     ],
     "artagnon\/perf\/vplan-setvector-small-nfc": [
@@ -284609,27 +284627,15 @@
             "subject": "[libc] Implement lockf in unistd (#230856) (#231145)"
         },
         {
-            "hash": "4bb5c27cea17770a00a6fa28f1f735e372225873",
+            "hash": "408106576159d499dd0c850d073d13b7e722537c",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-14T14:06:29+01:00",
+            "commit_date": "2026-10-14T18:56:13+01:00",
             "subject": "[ADT] Tweak SmallSetVector to use SmallPtrSet"
         },
         {
-            "hash": "6c3a90b5c64fcdb6cc82741cb14f755e2e361bb2",
+            "hash": "47cf0e2eb43bf144a4600e6bfff2e37a7a0c65ef",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-14T15:54:48+01:00",
-            "subject": "[SetVector] Switch to DenseSet"
-        },
-        {
-            "hash": "d06357bedde8208b443087fc7e0717f931afffff",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-14T16:14:38+01:00",
-            "subject": "[SetVector] Refine size-hint invariant to pow-of-2"
-        },
-        {
-            "hash": "29e4184c1c894f9e564a5259d0cf57087a689c12",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-14T16:15:16+01:00",
+            "commit_date": "2026-10-14T19:00:55+01:00",
             "subject": "[VPlan] Migrate SetVector to SmallSetVector (NFC)"
         }
     ],
