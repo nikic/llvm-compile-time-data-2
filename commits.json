@@ -262569,6 +262569,24 @@
             "author_name": "Deepak Shirke",
             "commit_date": "2026-10-14T16:17:41+01:00",
             "subject": "[AArch64] Remove tryShiftAmountMod in favor of SelectShiftMask (#228753)"
+        },
+        {
+            "hash": "e1354f31346666c78d758cee13692ea3b1fe3ec2",
+            "author_name": "Vicky Nguyen",
+            "commit_date": "2026-10-14T15:34:46+00:00",
+            "subject": "[clang][CIR] Add tests for SVE RSQRTE intrinsics (#230892)"
+        },
+        {
+            "hash": "9cfec5ed08f9879acb5553dfaf1a83f2c3a79e3d",
+            "author_name": "Vicky Nguyen",
+            "commit_date": "2026-10-14T08:34:58-07:00",
+            "subject": "[clang][CIR] Add tests for SVE RSQRTS intrinsics (#230894)"
+        },
+        {
+            "hash": "fb2596089e9d509a371c624a3e4af255c4347498",
+            "author_name": "Alan Li",
+            "commit_date": "2026-10-14T11:47:38-04:00",
+            "subject": "[SelectionDAG] Make `AND`\/`OR` demanded-bit simplification symmetric (#230700)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -284403,16 +284421,16 @@
             "subject": "[ADT] Tweak SmallSetVector to use SmallPtrSet"
         },
         {
-            "hash": "6c3a90b5c64fcdb6cc82741cb14f755e2e361bb2",
+            "hash": "7c28e64d1fea3c316938bcc7fa7a451b3d3ae01f",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-14T15:54:48+01:00",
-            "subject": "[SetVector] Switch to DenseSet"
+            "commit_date": "2026-10-14T16:35:04+01:00",
+            "subject": "[SetVector] Refine size-hint invariant to pow-of-2"
         },
         {
-            "hash": "d06357bedde8208b443087fc7e0717f931afffff",
+            "hash": "ccff28b75257e07db41474c2d0f99df9990a12e7",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-14T16:14:38+01:00",
-            "subject": "[SetVector] Refine size-hint invariant to pow-of-2"
+            "commit_date": "2026-10-14T16:40:41+01:00",
+            "subject": "[clang] Switch to SetVector in non-small cases (NFC)"
         }
     ],
     "artagnon\/perf\/vplan-setvector-small-nfc": [
@@ -284473,6 +284491,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-10-14T15:20:14+00:00",
             "subject": "[AArch64] Skip local stack slot allocation at -O0"
+        }
+    ],
+    "artagnon\/perf\/clang-setvector-large-nfc": [
+        {
+            "hash": "7e2d1797af58e26e9e4c92a49c6ba9b7d2f11151",
+            "author_name": "Aman Maurya",
+            "commit_date": "2026-10-14T09:31:25+00:00",
+            "subject": "[libc] Implement lockf in unistd (#230856) (#231145)"
+        },
+        {
+            "hash": "12e563f1ed9cde4366df2f5f3964f2692d9f5242",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-14T16:50:22+01:00",
+            "subject": "[clang] Switch to SetVector in non-small cases (NFC)"
         }
     ]
 }
