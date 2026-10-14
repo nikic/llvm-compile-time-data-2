@@ -262371,6 +262371,24 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-10-14T13:01:12+00:00",
             "subject": "Revert \"[AMDGPU] Handle gfx950 v_pk_{add,mul,fma}_f32 invalid op_sel\" (#231885)"
+        },
+        {
+            "hash": "2c1650555b1005a6bbe7cf3cb0648bea0fa7416d",
+            "author_name": "Robert Imschweiler",
+            "commit_date": "2026-10-14T13:12:48+00:00",
+            "subject": "[OpenMP][offload] Fix single-thread SPMD cross-team reductions (#231843)"
+        },
+        {
+            "hash": "19fce9766b51dbec0c4464b2fe5a1c8b26b11753",
+            "author_name": "Eric Ross",
+            "commit_date": "2026-10-14T07:12:54-06:00",
+            "subject": "[libcxx] Fix `long double` literals in <numbers> (#222830)"
+        },
+        {
+            "hash": "a6a3689b766fc4cb189539c69ca87ad433a4a0d5",
+            "author_name": "David Green",
+            "commit_date": "2026-10-14T13:13:38+00:00",
+            "subject": "[AArch64][GlobalISel] Remove G_DUP, replacing it with G_SPLAT_VECTOR (#230475)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -284199,9 +284217,9 @@
             "subject": "[libc] Implement lockf in unistd (#230856) (#231145)"
         },
         {
-            "hash": "a68590899e3ffbe6764b4bc47d24b78e9494820f",
+            "hash": "4bb5c27cea17770a00a6fa28f1f735e372225873",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-14T14:01:15+01:00",
+            "commit_date": "2026-10-14T14:06:29+01:00",
             "subject": "[ADT] Tweak SmallSetVector to use SmallPtrSet"
         }
     ],
@@ -284213,16 +284231,30 @@
             "subject": "[libc] Implement lockf in unistd (#230856) (#231145)"
         },
         {
-            "hash": "f50620d9b2f78364c33b98c1ab8903237e1e55b5",
+            "hash": "4bb5c27cea17770a00a6fa28f1f735e372225873",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-14T13:28:03+01:00",
+            "commit_date": "2026-10-14T14:06:29+01:00",
             "subject": "[ADT] Tweak SmallSetVector to use SmallPtrSet"
         },
         {
-            "hash": "54b3999aee97cf7e6349c5ef1a3d880902fc28cf",
+            "hash": "e7d934b7a8d3876ab50154d28b5cb8947d21a4d1",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-14T13:29:43+01:00",
+            "commit_date": "2026-10-14T14:07:41+01:00",
             "subject": "[VPlan] Migrate SetVector to SmallSetVector (NFC)"
+        }
+    ],
+    "c-rhodes\/perf\/aarch64-frame-index-compile-time": [
+        {
+            "hash": "3afa38c6b8eac95660a4677b1353745c720212e5",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-10-14T11:05:32+02:00",
+            "subject": "[clang][bytecode] Reject invalid opaque pointer base conversions (#231366)"
+        },
+        {
+            "hash": "0b1bc5ce6045489d2c91d881c40cda2ac5dabc06",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-10-14T11:10:15+00:00",
+            "subject": "[AArch64] Check SP frame offsets before FP in needsFrameBaseReg (NFC)"
         }
     ]
 }
