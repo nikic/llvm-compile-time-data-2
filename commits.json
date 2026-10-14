@@ -262323,6 +262323,18 @@
             "author_name": "Connector Switch",
             "commit_date": "2026-10-14T20:13:33+08:00",
             "subject": "[libc] Use a syscall wrapper for `sched_setscheduler` (#231865)"
+        },
+        {
+            "hash": "faf60e71655fb39133a24d89c12c55b75b2021d7",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-14T14:20:42+02:00",
+            "subject": "[CIR][HIP] Support managed variables (#230910)"
+        },
+        {
+            "hash": "0223b87de6dd35a12844bc9f92575e3217626dd5",
+            "author_name": "Robert Imschweiler",
+            "commit_date": "2026-10-14T14:22:57+02:00",
+            "subject": "[offload][AMDGPU] Add dynamic HSA version and symbol checks (#228569)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -284155,6 +284167,26 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-10-14T13:00:17+01:00",
             "subject": "[ADT] Tweak SmallSetVector to use SmallPtrSet"
+        }
+    ],
+    "artagnon\/perf\/vplan-setvector-small-nfc": [
+        {
+            "hash": "7e2d1797af58e26e9e4c92a49c6ba9b7d2f11151",
+            "author_name": "Aman Maurya",
+            "commit_date": "2026-10-14T09:31:25+00:00",
+            "subject": "[libc] Implement lockf in unistd (#230856) (#231145)"
+        },
+        {
+            "hash": "edb9bcc38d9083498fbbfa587af9979baabfe826",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-14T13:00:17+01:00",
+            "subject": "[ADT] Tweak SmallSetVector to use SmallPtrSet"
+        },
+        {
+            "hash": "71ba83c4cb8a8f3465ef5e9bd3edddf162fbff2a",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-14T13:12:22+01:00",
+            "subject": "[VPlan] Migrate SetVector to SmallSetVector (NFC)"
         }
     ]
 }

@@ -1,0 +1,248 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[563/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/SpillPlacement.cpp.o
+[564/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/SplitKit.cpp.o
+[565/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/AbstractCallSite.cpp.o
+[566/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/AsmWriter.cpp.o
+[567/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Assumptions.cpp.o
+[568/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Attributes.cpp.o
+[569/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/AutoUpgrade.cpp.o
+[570/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/BasicBlock.cpp.o
+[571/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/BuiltinGCs.cpp.o
+[572/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/BundleAttributes.cpp.o
+[573/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Comdat.cpp.o
+[574/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ConstantFold.cpp.o
+[575/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ConstantFPRange.cpp.o
+[576/3442] Building X86GenRegisterInfo.inc...
+[577/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ConstantRangeList.cpp.o
+[578/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ConstantRange.cpp.o
+[579/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ConvergenceVerifier.cpp.o
+[580/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Constants.cpp.o
+[581/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Core.cpp.o
+[582/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/CycleInfo.cpp.o
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/IR/CycleInfo.cpp:15:40: warning: type attributes ignored after type is already defined [-Wattributes]
+   15 | template class LLVM_ABI_FOR_TEST llvm::GenericCycleInfo<SSAContext>;
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[583/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DataLayout.cpp.o
+[584/3442] Building X86GenPostLegalizeGICombiner.inc...
+[585/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DIBuilder.cpp.o
+[586/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DebugInfo.cpp.o
+[587/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DebugInfoMetadata.cpp.o
+[588/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DIExpressionOptimizer.cpp.o
+[589/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DebugLoc.cpp.o
+[590/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DebugProgramInstruction.cpp.o
+[591/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DiagnosticHandler.cpp.o
+[592/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DiagnosticInfo.cpp.o
+[593/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DiagnosticPrinter.cpp.o
+[594/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Dominators.cpp.o
+[595/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DroppedVariableStatsIR.cpp.o
+[596/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/DroppedVariableStats.cpp.o
+[597/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/GVMaterializer.cpp.o
+[598/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/GCStrategy.cpp.o
+[599/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/FPEnv.cpp.o
+[600/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Function.cpp.o
+[601/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/NVVMIntrinsicUtils.cpp.o
+[602/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/EHPersonalities.cpp.o
+[603/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Globals.cpp.o
+[604/3442] Building X86GenFoldTables.inc...
+[605/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Intrinsics.cpp.o
+[606/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/IRBuilder.cpp.o
+[607/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/IRPrintingPasses.cpp.o
+[608/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/SSAContext.cpp.o
+[609/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/InlineAsm.cpp.o
+[610/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Instruction.cpp.o
+[611/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/IntrinsicInst.cpp.o
+[612/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Instructions.cpp.o
+[613/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/LLVMContext.cpp.o
+[614/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/LLVMRemarkStreamer.cpp.o
+[615/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/LLVMContextImpl.cpp.o
+[616/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/MDBuilder.cpp.o
+[617/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/MemoryModelRelaxationAnnotations.cpp.o
+[618/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/LegacyPassManager.cpp.o
+[619/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Mangler.cpp.o
+[620/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Metadata.cpp.o
+[621/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ModuleSummaryIndex.cpp.o
+[622/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/OptBisect.cpp.o
+[623/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Module.cpp.o
+[624/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Pass.cpp.o
+[625/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/PassInstrumentation.cpp.o
+[626/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/PatternMatch.cpp.o
+[627/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Operator.cpp.o
+[628/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/PassRegistry.cpp.o
+[629/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/PassManager.cpp.o
+[630/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/PassTimingInfo.cpp.o
+[631/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/PrintPasses.cpp.o
+[632/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ProfDataUtils.cpp.o
+[633/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/SafepointIRVerifier.cpp.o
+[634/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ProfileSummary.cpp.o
+[635/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ReplaceConstant.cpp.o
+[636/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Statepoint.cpp.o
+[637/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/PseudoProbe.cpp.o
+[638/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/StructuralHash.cpp.o
+[639/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Type.cpp.o
+[640/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/TypeFinder.cpp.o
+[641/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/VectorTypeUtils.cpp.o
+[642/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/User.cpp.o
+[643/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/TypedPointerType.cpp.o
+[644/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/ValueSymbolTable.cpp.o
+[645/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Use.cpp.o
+[646/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Value.cpp.o
+[647/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/VerifierNVVM.cpp.o
+[648/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/Verifier.cpp.o
+[649/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/VFABIDemangler.cpp.o
+[650/3442] Building CXX object lib/ABI/CMakeFiles/LLVMABI.dir/FunctionInfo.cpp.o
+[651/3442] Building CXX object lib/ABI/CMakeFiles/LLVMABI.dir/Types.cpp.o
+[652/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/VerifierAMDGPU.cpp.o
+[653/3442] Building CXX object lib/IR/CMakeFiles/LLVMCore.dir/RuntimeLibcalls.cpp.o
+[654/3442] Building CXX object lib/ABI/CMakeFiles/LLVMABI.dir/TargetInfo.cpp.o
+[655/3442] Building CXX object lib/ABI/CMakeFiles/LLVMABI.dir/DefaultTargetInfo.cpp.o
+[656/3442] Building CXX object lib/ABI/CMakeFiles/LLVMABI.dir/IRTypeMapper.cpp.o
+[657/3442] Building CXX object lib/ABI/CMakeFiles/LLVMABI.dir/Targets/AArch64.cpp.o
+[658/3442] Building CXX object lib/ABI/CMakeFiles/LLVMABI.dir/Targets/AMDGPU.cpp.o
+[659/3442] Building CXX object lib/ABI/CMakeFiles/LLVMABI.dir/Targets/BPF.cpp.o
+[660/3442] Building CXX object lib/ABI/CMakeFiles/LLVMABI.dir/Targets/X86.cpp.o
+[661/3442] Building CXX object lib/IRPrinter/CMakeFiles/LLVMIRPrinter.dir/IRPrintingPasses.cpp.o
+[662/3442] Building CXX object lib/CGData/CMakeFiles/LLVMCGData.dir/CGDataOptions.cpp.o
+[663/3442] Building CXX object lib/IRReader/CMakeFiles/LLVMIRReader.dir/IRReader.cpp.o
+[664/3442] Building CXX object lib/CGData/CMakeFiles/LLVMCGData.dir/CodeGenData.cpp.o
+[665/3442] Building CXX object lib/CGData/CMakeFiles/LLVMCGData.dir/CodeGenDataReader.cpp.o
+[666/3442] Building CXX object lib/CGData/CMakeFiles/LLVMCGData.dir/OutlinedHashTree.cpp.o
+[667/3442] Building CXX object lib/CGData/CMakeFiles/LLVMCGData.dir/OutlinedHashTreeRecord.cpp.o
+[668/3442] Building CXX object lib/CGData/CMakeFiles/LLVMCGData.dir/CodeGenDataWriter.cpp.o
+[669/3442] Building CXX object lib/CGData/CMakeFiles/LLVMCGData.dir/StableFunctionMap.cpp.o
+[670/3442] Building CXX object lib/CGData/CMakeFiles/LLVMCGData.dir/StableFunctionMapRecord.cpp.o
+[671/3442] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/BoundsChecking.cpp.o
+[672/3442] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/CGProfile.cpp.o
+[673/3442] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/ControlHeightReduction.cpp.o
+[674/3442] Building CXX object lib/Transforms/Instrumentation/CMakeFiles/LLVMInstrumentation.dir/CopyProf.cpp.o
+[675/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/AggressiveAntiDepBreaker.cpp.o
+[676/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/AllocationOrder.cpp.o
+[677/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/AssignmentTrackingAnalysis.cpp.o
+[678/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/Analysis.cpp.o
+[679/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BranchFolding.cpp.o
+[680/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BasicTargetTransformInfo.cpp.o
+[681/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BreakFalseDeps.cpp.o
+[682/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BasicBlockPathCloning.cpp.o
+[683/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BasicBlockSectionsProfileReader.cpp.o
+[684/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BasicBlockSections.cpp.o
+[685/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BranchRelaxation.cpp.o
+[686/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CalcSpillWeights.cpp.o
+[687/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CallingConvLower.cpp.o
+[688/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CFIFixup.cpp.o
+[689/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CFIInstrInserter.cpp.o
+[690/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/BasicBlockMatchingAndInference.cpp.o
+[691/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CFGuardLongjmp.cpp.o
+[692/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGen.cpp.o
+[693/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenCommonISel.cpp.o
+[694/3442] Building X86GenRegisterBank.inc...
+[695/3442] Building X86GenSDNodeInfo.inc...
+[696/3442] Building AArch64GenCallingConv.inc...
+[697/3442] Building AArch64GenAsmWriter.inc...
+[698/3442] Building AArch64GenAsmWriter1.inc...
+[699/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenOptions.cpp.o
+[700/3442] Building AArch64GenAsmMatcher.inc...
+[701/3442] Building X86GenFastISel.inc...
+[702/3442] Building X86GenGlobalISel.inc...
+[703/3442] Building X86GenDAGISel.inc...
+[704/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DeadMachineInstructionElim.cpp.o
+[705/3442] Building AArch64GenDAGISel.inc...
+[706/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DetectDeadLanes.cpp.o
+[707/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/EdgeBundles.cpp.o
+[708/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DroppedVariableStatsMIR.cpp.o
+[709/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CommandFlags.cpp.o
+[710/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExecutionDomainFix.cpp.o
+[711/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/EHContGuardTargets.cpp.o
+[712/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/AtomicExpandPass.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/AtomicExpandPass.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/AtomicExpandPass.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/AtomicExpandPass.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/AtomicExpandPass.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/AtomicExpandPass.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/InstSimplifyFolder.h:23,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/AtomicExpandPass.cpp:21:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/InstructionSimplify.h:299:36: error: wrong number of template arguments (2, should be 4)
+  299 |     SmallSetVector<Instruction *, 8> *UnsimplifiedUsers = nullptr);
+      |                                    ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/InstructionSimplify.h:52:62: note: provided for ‘template<class T, unsigned int N, class V, class S> class llvm::SmallSetVector’
+   52 | template <class T, unsigned N, typename V, typename S> class SmallSetVector;
+      |                                                              ^~~~~~~~~~~~~~
+[713/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CriticalAntiDepBreaker.cpp.o
+[714/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DFAPacketizer.cpp.o
+[715/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandPostRAPseudos.cpp.o
+[716/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/EarlyIfConversion.cpp.o
+[717/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandReductions.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandReductions.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandReductions.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandReductions.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandReductions.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/ExpandReductions.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/ExpandReductions.cpp:25:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Utils/LoopUtils.h:225:36: error: wrong number of template arguments (2, should be 4)
+  225 |     const SmallSetVector<Value *, 8> &, SmallVectorImpl<BasicBlock *> &,
+      |                                    ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Utils/LoopUtils.h:51:65: note: provided for ‘template<class T, unsigned int N, class V, class S> class llvm::SmallSetVector’
+   51 | template <typename T, unsigned N, typename V, typename S> class SmallSetVector;
+      |                                                                 ^~~~~~~~~~~~~~
+[718/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DwarfEHPrepare.cpp.o
+[719/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/FEntryInserter.cpp.o
+[720/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/FuncletLayout.cpp.o
+[721/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandVectorPredication.cpp.o
+[722/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/FaultMaps.cpp.o
+[723/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ComplexDeinterleavingPass.cpp.o
+[724/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenPrepare.cpp.o
+FAILED: lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenPrepare.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/CodeGen -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenPrepare.cpp.o -MF lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenPrepare.cpp.o.d -o lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/CodeGenPrepare.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/CodeGen/CodeGenPrepare.cpp:30:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/InstructionSimplify.h:299:36: error: wrong number of template arguments (2, should be 4)
+  299 |     SmallSetVector<Instruction *, 8> *UnsimplifiedUsers = nullptr);
+      |                                    ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Analysis/InstructionSimplify.h:52:62: note: provided for ‘template<class T, unsigned int N, class V, class S> class llvm::SmallSetVector’
+   52 | template <class T, unsigned N, typename V, typename S> class SmallSetVector;
+      |                                                              ^~~~~~~~~~~~~~
+[725/3442] Building X86GenSubtargetInfo.inc...
+[726/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/FinalizeISel.cpp.o
+[727/3442] Building X86GenInstrInfo.inc...
+[728/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/FixupStatepointCallerSaved.cpp.o
+[729/3442] Building CXX object lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/ExpandIRInsts.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning (policy) at cmake/modules/HandleLLVMOptions.cmake:960 (CHECK_C_SOURCE_COMPILES):
+  Policy CMP0219 is not set: Macro invocations preserve backslashes in
+  arguments.  Run "cmake --help-policy CMP0219" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  Command "CHECK_C_SOURCE_COMPILES" called with arguments containing
+  backslashes.
+
+  Since the policy is not set, backslashes in the arguments:
+
+   "// \\\n//\nint main(void) {return 0;}"
+
+  will be interpreted as escape sequences for compatibility.
+
+  Set the policy to NEW to instead pass
+
+   "// \\\\\\n//\\nint main(void) {return 0;}"
+
+  so that argument parsing will preserve the original values.
+Call Stack (most recent call first):
+  CMakeLists.txt:1144 (include)
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+Precompiled headers are disabled by default with GCC. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override.
+CMake Warning at cmake/modules/HandleLLVMOptions.cmake:1441 (message):
+  Using ccache with precompiled headers with non-Clang compilers is not
+  supported and may lead to false positives.  Set
+  CMAKE_DISABLE_PRECOMPILE_HEADERS to ON/OFF to silence this warning.
+Call Stack (most recent call first):
+  CMakeLists.txt:1144 (include)
+
+
+CMake Warning (deprecated) at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:518 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+to suppress it.
+
+Command exited with non-zero status 1
+145.11user 9.51system 0:11.45elapsed 1350%CPU (0avgtext+0avgdata 777020maxresident)k
+0inputs+643416outputs (3228major+6166318minor)pagefaults 0swaps
