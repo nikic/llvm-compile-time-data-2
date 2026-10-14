@@ -262179,6 +262179,12 @@
             "author_name": "Abid Qadeer",
             "commit_date": "2026-10-14T10:57:44+01:00",
             "subject": "[flang][debug] Keep the bounds of variables in stack slots at -O0. (#229876)"
+        },
+        {
+            "hash": "a9472e2e0cbbc0cd652e546207a7731efbc2afae",
+            "author_name": "Benjamin Maxwell",
+            "commit_date": "2026-10-14T11:00:29+01:00",
+            "subject": "[AArch64] Merge TTI::isLegalAddressingMode() into TLI (NFC) (#231568)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -284001,6 +284007,20 @@
             "author_name": "Daniel Donenfeld",
             "commit_date": "2026-10-14T11:11:01+02:00",
             "subject": "[SROA] Add tests for select folding"
+        }
+    ],
+    "c-rhodes\/perf\/codegen-skip-unused-debuginfo-ordering": [
+        {
+            "hash": "3afa38c6b8eac95660a4677b1353745c720212e5",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-10-14T11:05:32+02:00",
+            "subject": "[clang][bytecode] Reject invalid opaque pointer base conversions (#231366)"
+        },
+        {
+            "hash": "0c2de29596c88460b29c67161cc74118ba10facc",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-10-14T10:03:05+00:00",
+            "subject": "[DebugInfo] Skip instruction ordering without debug values (NFC)"
         }
     ]
 }
