@@ -262905,6 +262905,12 @@
             "author_name": "Qwinci",
             "commit_date": "2026-10-14T13:35:13-07:00",
             "subject": "[lldb][RISCV] Add float registers stubs (#214034)"
+        },
+        {
+            "hash": "c9355b8eb0e27299853f17d9ea823bf37fd01d9f",
+            "author_name": "Michael E. Rowan",
+            "commit_date": "2026-10-14T20:46:53+00:00",
+            "subject": "[AMDGPU] Tighten mbcnt result range in InstCombine (#232066)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -284851,6 +284857,26 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-10-14T17:09:58+01:00",
             "subject": "[TableGen] Switch to SetVector in non-small cases (NFC)"
+        }
+    ],
+    "alexander-shaposhnikov\/perf\/lv-predicated-uniform-divrem": [
+        {
+            "hash": "6b804fdec943ceb27d48f9153cb0bf8bd5ab8914",
+            "author_name": "Jun Wang",
+            "commit_date": "2026-10-14T12:11:33-07:00",
+            "subject": "Revert \"[AMDGPU] Support the RF inline asm constraint\" (#232024)"
+        },
+        {
+            "hash": "3d1308e89b4f0cde98405ac50dbb8d92d1c6c60b",
+            "author_name": "Alexander Shaposhnikov",
+            "commit_date": "2026-10-14T13:35:49-07:00",
+            "subject": "[LV] Add coverage for predicated div\/rem addresses (NFC)"
+        },
+        {
+            "hash": "a67b35a059a9724f0fdc344d92bf3867a6f429e9",
+            "author_name": "Alexander Shaposhnikov",
+            "commit_date": "2026-10-14T13:35:54-07:00",
+            "subject": "[LV] Avoid lane-zero addresses derived from predicated div\/rem"
         }
     ]
 }
