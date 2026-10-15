@@ -77029,231 +77029,225 @@
     ],
     "tbaederr\/perf\/ce-test": [
         {
-            "hash": "1ee8805f01a663b7f2b09215a8eab5ab2d15ce35",
-            "author_name": "Chaitanya",
-            "commit_date": "2026-10-15T10:48:37+05:30",
-            "subject": "[flang][OpenMP] Lower array-section workdistribute assign to element loop (#225595)"
+            "hash": "c590d289cfca3313d0b4c2b6eb4f730ea1dd500c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-15T09:30:12+00:00",
+            "subject": "[IR] Verify oracle functions are only used by llvm.speculative.load. (#226669)"
         },
         {
-            "hash": "5ea8abe293862bf78b0389932fd761835f5d9495",
-            "author_name": "Matt Arsenault",
-            "commit_date": "2026-10-15T08:08:09+02:00",
-            "subject": "TableGen: Avoid linear search for register class names (#232108)"
+            "hash": "93e018a5ffef86ed239f11ee4cff055f190e42e0",
+            "author_name": "JRP-arm",
+            "commit_date": "2026-10-15T09:43:55+00:00",
+            "subject": "[mlir][OpenMP] Model recursive memory effects of omp.master (#230190)"
         },
         {
-            "hash": "ebff4900a0f740e81e1a4ded0241d6d2cb5b9f5f",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-10-14T23:10:09-07:00",
-            "subject": "[Option] Add AliasOf for library options (#232174)"
+            "hash": "fb687bf62936b9be845f69b64f2fa8d1f033cbe2",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-15T10:48:18+01:00",
+            "subject": "[VPlan] Model diff checks checks as VPlan recipes. (#229028)"
         },
         {
-            "hash": "16b2fbe109b0cb8822c931167aa43fb441e79c04",
-            "author_name": "Henrich Lauko",
-            "commit_date": "2026-10-15T08:19:03+02:00",
-            "subject": "[CIR] Fix cir.cleanup.scope successor regions (#221222)"
+            "hash": "9df29523000356879ec679e984458f36f7a35965",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-10-15T11:49:12+02:00",
+            "subject": "[clang][bytecode][NFC] Simplify bytecode emission (#232215)"
         },
         {
-            "hash": "9abbf8e28c8a7196987615c31671b099832445ad",
-            "author_name": "Henrich Lauko",
-            "commit_date": "2026-10-15T08:22:16+02:00",
-            "subject": "[CIR][NFC] Use CleanupKindAttr predicates in FlattenCFG (#221234)"
-        },
-        {
-            "hash": "53575edd83f245bbd021f844914797ac3e9f9d27",
-            "author_name": "Matt Arsenault",
-            "commit_date": "2026-10-15T08:35:12+02:00",
-            "subject": "TableGen: Add none_of for negating features in AssemblerPredicate (#232021)"
-        },
-        {
-            "hash": "fc8ebf44c4e8ae36f9895b75bfb31aa05a8868ef",
-            "author_name": "Matt Arsenault",
-            "commit_date": "2026-10-15T08:35:13+02:00",
-            "subject": "Targets: Use none_of instead of not in AssemblerPredicate conditions (#232033)"
-        },
-        {
-            "hash": "5f24abfb0da8ebc3b33655052bd0c21ad4b933d2",
-            "author_name": "Arseniy Obolenskiy",
-            "commit_date": "2026-10-15T08:36:28+02:00",
-            "subject": "[CIR] Lower undef and poison initializers of any type in CXXABILowering (#230901)"
-        },
-        {
-            "hash": "b4effb258020e5a9d91994699d91f8a1bf3b8e1f",
-            "author_name": "Matt Arsenault",
-            "commit_date": "2026-10-15T08:41:44+02:00",
-            "subject": "TableGen: Cache resolved class instantiations (#231091)"
-        },
-        {
-            "hash": "f905f79ea61839cdb8e446b6ca43dd5ffadd2487",
-            "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-15T09:46:20+03:00",
-            "subject": "[EarlyIfConversion] Limit critical-path growth for strongly biased branches (#228709)"
-        },
-        {
-            "hash": "bc8218b282ea64c08087dfc5e1c5955349afc9ee",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-10-14T23:54:02-07:00",
-            "subject": "[Option] Make OptionsStruct per-context by default (#232170)"
-        },
-        {
-            "hash": "44254ded6d0bea179cbe74ab157cd72381431302",
-            "author_name": "Barbara Mitic",
-            "commit_date": "2026-10-15T09:03:54+02:00",
-            "subject": "[AMDGPU] Don't apply the memory cluster budget to hard clause formation (#229445)"
-        },
-        {
-            "hash": "9682824cc06476eea34368b06ab43da7f1a80b9f",
-            "author_name": "Yuma Kakei \/ DyTect",
-            "commit_date": "2026-10-15T07:06:30+00:00",
-            "subject": "[SanitizerCoverage][NFC] Add funclet-bundle.ll and regenerate wineh.ll (#231751)"
-        },
-        {
-            "hash": "80ef20addc82619c07b6deaec5f9995000b5dd16",
-            "author_name": "Nikita Popov",
-            "commit_date": "2026-10-15T09:13:33+02:00",
-            "subject": "[bolt] Don't compile installed binary with --emit-relocs (#231819)"
-        },
-        {
-            "hash": "6bae9422e7bc64df5be5e590329161be91016d4f",
-            "author_name": "Arseniy Obolenskiy",
-            "commit_date": "2026-10-15T09:30:21+02:00",
-            "subject": "[SPIR-V] Do not emit a declaration for an unused personality (#232200)"
-        },
-        {
-            "hash": "d3ad7fe9f82ea7aa48755320c03233acd7db7938",
-            "author_name": "Steffen Larsen",
-            "commit_date": "2026-10-15T07:32:22+00:00",
-            "subject": "[clang][CIR][CUDA][HIP] Unify CUDA decl emission check (NFC) (#231153)"
-        },
-        {
-            "hash": "b03581ba0ca66a153ba591b2a1dbf9d2df3507b2",
+            "hash": "a2361578d4a2f13e531e3ac35466f76e48566eb4",
             "author_name": "David Green",
-            "commit_date": "2026-10-15T07:43:16+00:00",
-            "subject": "[AArch64][GlobalISel] Improve MOVI constant splat lower (#229241)"
+            "commit_date": "2026-10-15T10:51:28+01:00",
+            "subject": "[ARM] Protect against scalar geps in MVE gather lowering (#231939)"
         },
         {
-            "hash": "02f16a1e3ade5a3ea045bba7b18ccccd91986d66",
-            "author_name": "Alexander Shaposhnikov",
-            "commit_date": "2026-10-15T00:48:49-07:00",
-            "subject": "[mlir][SPIR-V] Support CPacked decorations in binary round trips (#232192)"
+            "hash": "46b003ba918d26a11a493111776cb469ab46a272",
+            "author_name": "ErikHogeman",
+            "commit_date": "2026-10-15T11:55:56+02:00",
+            "subject": "[SCEV] Add compile-time regression test for CompareSCEVComplexity (#223723)"
         },
         {
-            "hash": "a3996ca113a50c0f20e89c82c310d2cd3292e14f",
-            "author_name": "Alex Duran",
-            "commit_date": "2026-10-15T09:50:06+02:00",
-            "subject": "[Offload][L0] Adjust incorrectly reported limits for Level Zero (#231913)"
+            "hash": "274d89af93480a42565f74a54498c188cf7a900e",
+            "author_name": "Ayush Sahay",
+            "commit_date": "2026-10-15T15:30:17+05:30",
+            "subject": "[lldb][RISCV] Update CSRI patch set for 'Xqci' (#229165)"
         },
         {
-            "hash": "0173f46b7d9ddf1aba1394f5f6d04571a29c5d57",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-10-15T00:50:49-07:00",
-            "subject": "[CIR][CMake] Add PCH for clangCIR. NFC (#231068)"
+            "hash": "f052b8d1b51bf26c22674fc4d1ba8620ee7e7f93",
+            "author_name": "Ai Nozaki",
+            "commit_date": "2026-10-15T12:16:05+02:00",
+            "subject": "[AllocToken] Cover MSVC replaceable global operator new (#232165)"
         },
         {
-            "hash": "cb6902729b96665543a40906f2f19eba312cd7eb",
-            "author_name": "Vaisman",
-            "commit_date": "2026-10-15T18:51:09+11:00",
-            "subject": "[mlir][nvgpu] Preserve unsigned types in MMA lowering to NVVM (#224837)"
+            "hash": "39bb05c94038b85d8bc0ea23ff705d20ad3c890e",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-10-15T06:20:22-04:00",
+            "subject": "[Bazel] Fixes fee0804 (#232225)"
         },
         {
-            "hash": "ce59d913e0f2c0ab31e48f3d3edbccd895b04428",
-            "author_name": "Cullen Rhodes",
-            "commit_date": "2026-10-15T08:52:26+01:00",
-            "subject": "[DebugInfo] Skip instruction ordering without debug values (NFC) (#231943)"
+            "hash": "c4a7814f8bc3a1d4cbe61d4da9700be655307db2",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-10-15T11:32:35+01:00",
+            "subject": "[AMDGPU] Remove unneeded check after SSA update in SILowerI1Copies. NFC. (#232219)"
         },
         {
-            "hash": "d1ed1de8a741841da1769c21af7856d8b864d1f0",
-            "author_name": "Kazu Hirata",
-            "commit_date": "2026-10-15T00:59:27-07:00",
-            "subject": "[clang] Migrate away from PointerUnion::dyn_cast (NFC) (#232179)"
+            "hash": "19cd457604bc0444b132da341b87c64c0ec5ba5b",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-10-15T12:48:30+02:00",
+            "subject": "[GVN] Add support for MSSA-path in masked store-to-load forwarding (#229757)"
         },
         {
-            "hash": "79005f6c5612dcf31c99a2cbeeae19f29856ecab",
-            "author_name": "Kazu Hirata",
-            "commit_date": "2026-10-15T00:59:40-07:00",
-            "subject": "[DebugInfo] Remove more dead debug intrinsic handling (NFC) (#232180)"
+            "hash": "79230836b9cd397b50337dc28314ed2f87c760a3",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-10-15T11:57:06+01:00",
+            "subject": "[lldb][test] Bump packet-timeout to 10 mins (#232000)"
         },
         {
-            "hash": "c4fad29292a616ffa97a0085837a21f6cbca2457",
+            "hash": "09fa829c48bc5bede870c653c2f2c1f791d0751d",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-15T13:00:26+02:00",
+            "subject": "[CIR][SPIR-V] Use the program address space for function global views (#232173)"
+        },
+        {
+            "hash": "da7efb30f3121fa9dba401803c1d9a6f4fb9341e",
+            "author_name": "JRP-arm",
+            "commit_date": "2026-10-15T12:01:20+01:00",
+            "subject": "[mlir][OpenMP] Model memory effects of omp.critical (#230455)"
+        },
+        {
+            "hash": "2ee8123379daa65147b067e94f8436bfc8ad789c",
+            "author_name": "Lukas Sommer",
+            "commit_date": "2026-10-15T13:05:08+02:00",
+            "subject": "[RegAlloc] Consider rematerialization over CSR use (#206756)"
+        },
+        {
+            "hash": "6eb5f915e34f6cd66cff1160938b6b5e3fe5c86b",
+            "author_name": "Tomas Matheson",
+            "commit_date": "2026-10-15T12:18:55+01:00",
+            "subject": "[AArch64] add patterns for SQABS (#229812)"
+        },
+        {
+            "hash": "516457489fee0763fc5e2f9baa1f55098547d2d4",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-10-15T13:25:02+02:00",
+            "subject": "[MLIR][Remark] Report why the LLVM remark streamer could not be created (#230130)"
+        },
+        {
+            "hash": "293d340b1539fbc9b32772ec4594554892ef4c30",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-10-15T11:26:50+00:00",
+            "subject": "[lldb] Fix typo in tsan-suppressions.txt (#232275)"
+        },
+        {
+            "hash": "2e86ef621956780f9ad8be6887a2330f872117ef",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-10-15T04:28:20-07:00",
+            "subject": "[llvm-readobj][ELF] Print call graph callees in section order (#230649)"
+        },
+        {
+            "hash": "4fcf793b7c06705c7d6a2ae779cdab78fd913ad5",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-10-15T04:28:22-07:00",
+            "subject": "[llvm-readobj][NFC] Match call graph relocations to address fields in one pass (#230650)"
+        },
+        {
+            "hash": "96af35cf560826518cdec29a8362470c0ac2def1",
+            "author_name": "tangaac",
+            "commit_date": "2026-10-15T19:31:32+08:00",
+            "subject": "[LoongArch] Add arithmetic instruction costs (#232230)"
+        },
+        {
+            "hash": "9bb2d59e056307aa77358aa930ce7d5d38b7c4b3",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-15T12:45:58+01:00",
+            "subject": "[LoopIdiom] Don't generate `wcslen` when the pointer passed is not known to be aligned (#229074)"
+        },
+        {
+            "hash": "a581fa320a4f6e87149f498b2dd06da1aa8d8232",
+            "author_name": "awayzjj",
+            "commit_date": "2026-10-15T11:47:56+00:00",
+            "subject": "[clang] Add regression test for GH53049 (#232266)"
+        },
+        {
+            "hash": "cb1c58d4dd522178bb945815508d473ba0a65a9e",
+            "author_name": "David Young",
+            "commit_date": "2026-10-15T04:56:33-07:00",
+            "subject": "[bazel][lldb] Add ObjectContainerClangOffloadBundle plugin (#232278)"
+        },
+        {
+            "hash": "187d6ddf58430f6e78d65907af22791727ae30e3",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-15T14:02:56+02:00",
+            "subject": "[CIR][CUDA][HIP] Skip global init for device variables (#231971)"
+        },
+        {
+            "hash": "daf1383673177089c83bb19cb5fb77dfb29c3fb6",
             "author_name": "Matt Arsenault",
-            "commit_date": "2026-10-15T08:02:36+00:00",
-            "subject": "IR: Speed up AttrBuilder merge (#232204)"
+            "commit_date": "2026-10-15T14:05:48+02:00",
+            "subject": "RegAllocFast: Only clear dead flag for live defs of the same or super reg (#232264)"
         },
         {
-            "hash": "23c5322b0bc38a6bcd22f26d06e230b2845e68a0",
-            "author_name": "Sander de Smalen",
-            "commit_date": "2026-10-15T09:04:40+01:00",
-            "subject": "[AArch64][SME] NFC: Add inline test for gather. (#231897)"
+            "hash": "8cc4dbe7298d44fad9d76b7df7446a9abe30a445",
+            "author_name": "Igor Wodiany",
+            "commit_date": "2026-10-15T13:10:41+01:00",
+            "subject": "[TableGen] Declare `MCRegisterClassStorageType` as `constexpr` (NFC) (#232010)"
         },
         {
-            "hash": "fee08048551c6b9232a27411bc38b15eac4250b7",
-            "author_name": "Adam Siemieniuk",
-            "commit_date": "2026-10-15T10:07:19+02:00",
-            "subject": "[mlir][math] Expose math patterns as transforms (#230042)"
-        },
-        {
-            "hash": "75a92c26ffc74070cfae6319e6c28e40602dfc8d",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-10-15T01:14:32-07:00",
-            "subject": "[Mips,RISCV,Sparc] Make options per-context (#232210)"
-        },
-        {
-            "hash": "80f143a6ad43f7f17c07e0d2e8f6e3a474b8a874",
+            "hash": "7c1e1a7428eb0e190bae9b0a8b6308b83c819b4e",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-15T10:17:21+02:00",
+            "commit_date": "2026-10-15T14:19:28+02:00",
             "subject": "Test"
         },
         {
-            "hash": "4c277cec3d3dbe13a3da4d6e29cc955e1e2f2d9e",
+            "hash": "3829840ac9ed6b0299f404041c05a2e16a0c85d6",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-15T10:17:21+02:00",
+            "commit_date": "2026-10-15T14:19:28+02:00",
             "subject": "HasTrivialDtor"
         },
         {
-            "hash": "3d752b96e132b10a75d473903e684feef9fbaa79",
+            "hash": "1fa5641745da6784f4fa7336bd03e28b8aa2d56f",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-15T10:17:21+02:00",
+            "commit_date": "2026-10-15T14:19:28+02:00",
             "subject": "zeroinitarray"
         },
         {
-            "hash": "2e1c45d1f292bb535337a021681e19d88ba9d75a",
+            "hash": "f123c2b93d5dcb76e653c8073831f40d2bdc001b",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-15T10:17:21+02:00",
+            "commit_date": "2026-10-15T14:19:28+02:00",
             "subject": "fillers"
         },
         {
-            "hash": "c314fe1ddf3b93d12544bb6e6e63c7ee1057f169",
+            "hash": "63fcf96e1db7c18f3fab0127feb0993528124c5e",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-15T10:17:22+02:00",
+            "commit_date": "2026-10-15T14:19:28+02:00",
             "subject": "codgen filler"
         },
         {
-            "hash": "07efcbaa9007c29c61ae550afb0c3821d0b30683",
+            "hash": "79d1c835355fdc5e5adf37e7c03c5733bc01e370",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-15T10:17:22+02:00",
+            "commit_date": "2026-10-15T14:19:28+02:00",
             "subject": "smallvector"
         },
         {
-            "hash": "51c349c24f54d31e0047ba9143ce1222399d086b",
+            "hash": "6954dab791634b9fe59e6c7f8e000ece53319d3c",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-15T10:17:22+02:00",
+            "commit_date": "2026-10-15T14:19:28+02:00",
             "subject": "cgdebuginfo"
         },
         {
-            "hash": "24d95b942544a4fcf69afbb050b8ae999b1b519f",
+            "hash": "40157ed7918540f4ed70ce270a305f7ead3b0c6e",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-15T10:17:22+02:00",
+            "commit_date": "2026-10-15T14:19:29+02:00",
             "subject": "expr result"
         },
         {
-            "hash": "9089f56e6833c83f4338a6266cacca854859e293",
+            "hash": "fcb0fee715158237122b0c8b3d5081394f88d8b0",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-15T10:17:22+02:00",
+            "commit_date": "2026-10-15T14:19:29+02:00",
             "subject": "buffer"
         },
         {
-            "hash": "b74352c754a7784099932f63a0918539117da891",
+            "hash": "0030942a000fdbb796c8ff4899344fd72cf46478",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-15T10:20:58+02:00",
+            "commit_date": "2026-10-15T14:19:29+02:00",
             "subject": "heh"
         }
     ],
