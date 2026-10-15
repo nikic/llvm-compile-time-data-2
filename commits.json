@@ -264567,6 +264567,24 @@
             "author_name": "Ambrose Leeb",
             "commit_date": "2026-10-15T19:23:47+00:00",
             "subject": "[Clang] [CUDA] Follow ctor\/member initializers in DeferredDiagnosticsEmitter (#232044)"
+        },
+        {
+            "hash": "e80745b3a83cf4ad104788df9d0b1e48312b3f63",
+            "author_name": "Chen Miao",
+            "commit_date": "2026-10-15T15:33:06-04:00",
+            "subject": "[libc][math] Use float-only evaluation in asinbf16 and acosbf16 (#228734)"
+        },
+        {
+            "hash": "0de93f30409d245efa221d41d161f01d476cc15a",
+            "author_name": "ddelgadovargas-cyber",
+            "commit_date": "2026-10-15T12:34:11-07:00",
+            "subject": "[NVPTX] Mark SMUL_LOHI and UMUL_LOHI as Expand for v2i16 (#225808)"
+        },
+        {
+            "hash": "05e432a8597fde38ea36d5885215415d879dc959",
+            "author_name": "Stanislav Mekhanoshin",
+            "commit_date": "2026-10-15T12:44:22-07:00",
+            "subject": "[AMDGPU] Support xnack on\/off on gfx125x (#232080)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -279551,22 +279569,28 @@
     ],
     "fhahn\/perf\/scev-exp-reuse-consts": [
         {
-            "hash": "2ccc678a64ecd52eace68e363f4d47935a56fb57",
-            "author_name": "David Green",
-            "commit_date": "2026-09-22T08:42:33+01:00",
-            "subject": "[AArch64] Fix position of nop inserted for +fix-cortex-a53-835769 under debug. (#224830)"
+            "hash": "0f80d762352ef6135c75e893d885d6aee7997286",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-15T11:38:36-04:00",
+            "subject": "[SLP][NFC]Remove unused headers, NFC"
         },
         {
-            "hash": "12187b99acf258a61d5dafc4022c1071da7d19ac",
+            "hash": "d04e98bdba1941e298204b559acba9bd88a7d74e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-22T10:05:11+01:00",
+            "commit_date": "2026-10-15T18:36:27+01:00",
             "subject": "Precommit test"
         },
         {
-            "hash": "5ba772b37715b93e1713cf70f6cd1d589dde1b06",
+            "hash": "b5174c6a24072ca8814cf88dfb8f6560c3f9891e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-22T10:05:12+01:00",
+            "commit_date": "2026-10-15T18:53:53+01:00",
             "subject": "[SCEVExpander] Reuse unscaled recurrence when expanding scaled one."
+        },
+        {
+            "hash": "9ed7495be8363d1102b241cf9b6c9977a2551063",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-15T20:46:40+01:00",
+            "subject": "!fixup addres latest comments, thanks"
         }
     ],
     "MaskRay\/perf\/foldingset-algr2": [

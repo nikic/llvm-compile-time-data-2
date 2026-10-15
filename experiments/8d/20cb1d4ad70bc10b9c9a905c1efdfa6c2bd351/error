@@ -1,0 +1,248 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SandboxVectorizer/Passes/SeedCollection.cpp:13:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/SandboxIR/Instruction.h:2076:53: warning: type attributes ignored after type is already defined [-Wattributes]
+ 2076 | extern template class LLVM_TEMPLATE_ABI SwitchInst::CaseHandleImpl<
+      |                                                     ^~~~~~~~~~~~~~~
+ 2077 |     llvm::SwitchInst::CaseIt, BasicBlock, ConstantInt>;
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/SandboxIR/Instruction.h:2078:53: warning: type attributes ignored after type is already defined [-Wattributes]
+ 2078 | extern template class LLVM_TEMPLATE_ABI SwitchInst::CaseHandleImpl<
+      |                                                     ^~~~~~~~~~~~~~~
+ 2079 |     llvm::SwitchInst::ConstCaseIt, const BasicBlock, const ConstantInt>;
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1184/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/SandboxVectorizer.cpp.o
+[1185/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer/SLPCostAnalysis.cpp.o
+[1186/3441] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/WholeProgramDevirt.cpp.o
+[1187/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer/SLPTypeUtils.cpp.o
+[1188/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/SeedCollector.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/SandboxVectorizer/SeedCollector.h:18,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SandboxVectorizer/SeedCollector.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/SandboxIR/Instruction.h:2076:53: warning: type attributes ignored after type is already defined [-Wattributes]
+ 2076 | extern template class LLVM_TEMPLATE_ABI SwitchInst::CaseHandleImpl<
+      |                                                     ^~~~~~~~~~~~~~~
+ 2077 |     llvm::SwitchInst::CaseIt, BasicBlock, ConstantInt>;
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/SandboxIR/Instruction.h:2078:53: warning: type attributes ignored after type is already defined [-Wattributes]
+ 2078 | extern template class LLVM_TEMPLATE_ABI SwitchInst::CaseHandleImpl<
+      |                                                     ^~~~~~~~~~~~~~~
+ 2079 |     llvm::SwitchInst::ConstCaseIt, const BasicBlock, const ConstantInt>;
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1189/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/SandboxVectorizerPassBuilder.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/SandboxVectorizer/InstrMaps.h:17,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/SandboxVectorizer/Passes/BundleVec.h:22,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SandboxVectorizer/SandboxVectorizerPassBuilder.cpp:3:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/SandboxIR/Instruction.h:2076:53: warning: type attributes ignored after type is already defined [-Wattributes]
+ 2076 | extern template class LLVM_TEMPLATE_ABI SwitchInst::CaseHandleImpl<
+      |                                                     ^~~~~~~~~~~~~~~
+ 2077 |     llvm::SwitchInst::CaseIt, BasicBlock, ConstantInt>;
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/SandboxIR/Instruction.h:2078:53: warning: type attributes ignored after type is already defined [-Wattributes]
+ 2078 | extern template class LLVM_TEMPLATE_ABI SwitchInst::CaseHandleImpl<
+      |                                                     ^~~~~~~~~~~~~~~
+ 2079 |     llvm::SwitchInst::ConstCaseIt, const BasicBlock, const ConstantInt>;
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1190/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/Scheduler.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/SandboxVectorizer/Scheduler.h:25,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SandboxVectorizer/Scheduler.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/SandboxIR/Instruction.h:2076:53: warning: type attributes ignored after type is already defined [-Wattributes]
+ 2076 | extern template class LLVM_TEMPLATE_ABI SwitchInst::CaseHandleImpl<
+      |                                                     ^~~~~~~~~~~~~~~
+ 2077 |     llvm::SwitchInst::CaseIt, BasicBlock, ConstantInt>;
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/SandboxIR/Instruction.h:2078:53: warning: type attributes ignored after type is already defined [-Wattributes]
+ 2078 | extern template class LLVM_TEMPLATE_ABI SwitchInst::CaseHandleImpl<
+      |                                                     ^~~~~~~~~~~~~~~
+ 2079 |     llvm::SwitchInst::ConstCaseIt, const BasicBlock, const ConstantInt>;
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1191/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SandboxVectorizer/VecUtils.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/SandboxIR/Utils.h:23,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/SandboxVectorizer/VecUtils.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SandboxVectorizer/VecUtils.cpp:9:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/SandboxIR/Instruction.h:2076:53: warning: type attributes ignored after type is already defined [-Wattributes]
+ 2076 | extern template class LLVM_TEMPLATE_ABI SwitchInst::CaseHandleImpl<
+      |                                                     ^~~~~~~~~~~~~~~
+ 2077 |     llvm::SwitchInst::CaseIt, BasicBlock, ConstantInt>;
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/SandboxIR/Instruction.h:2078:53: warning: type attributes ignored after type is already defined [-Wattributes]
+ 2078 | extern template class LLVM_TEMPLATE_ABI SwitchInst::CaseHandleImpl<
+      |                                                     ^~~~~~~~~~~~~~~
+ 2079 |     llvm::SwitchInst::ConstCaseIt, const BasicBlock, const ConstantInt>;
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1192/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer/SLPReductionUtils.cpp.o
+[1193/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer/SLPCompatibilityAnalysis.cpp.o
+[1194/3441] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/AttributorAttributes.cpp.o
+[1195/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer/SLPMemoryUtils.cpp.o
+[1196/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VectorizeOptions.cpp.o
+[1197/3441] Building CXX object lib/Transforms/IPO/CMakeFiles/LLVMipo.dir/MemProfContextDisambiguation.cpp.o
+[1198/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer/SLPUtils.cpp.o
+[1199/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/LoopVectorize.cpp.o
+[1200/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanDominatorTree.cpp.o
+[1201/3441] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ObjCARC.cpp.o
+[1202/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanAnalysis.cpp.o
+[1203/3441] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ObjCARCExpand.cpp.o
+[1204/3441] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ProvenanceAnalysisEvaluator.cpp.o
+[1205/3441] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ObjCARCContract.cpp.o
+[1206/3441] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/DependencyAnalysis.cpp.o
+[1207/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanEVLTailFolding.cpp.o
+[1208/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlan.cpp.o
+[1209/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanVerifier.cpp.o
+[1210/3441] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ProvenanceAnalysis.cpp.o
+[1211/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanLowering.cpp.o
+[1212/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanPredicator.cpp.o
+[1213/3441] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/ObjCARCOpts.cpp.o
+[1214/3441] Building X86GenPreLegalizeGICombiner.inc...
+[1215/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanUnroll.cpp.o
+[1216/3441] Building CXX object lib/Transforms/ObjCARC/CMakeFiles/LLVMObjCARCOpts.dir/PtrState.cpp.o
+[1217/3441] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/Coroutines.cpp.o
+[1218/3441] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroConditionalWrapper.cpp.o
+[1219/3441] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroAnnotationElide.cpp.o
+[1220/3441] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroCleanup.cpp.o
+[1221/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanConstruction.cpp.o
+[1222/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VectorCombine.cpp.o
+[1223/3441] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroEarly.cpp.o
+[1224/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanRecipes.cpp.o
+[1225/3441] Building CXX object lib/Transforms/CFGuard/CMakeFiles/LLVMCFGuard.dir/CFGuard.cpp.o
+[1226/3441] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/SuspendCrossingInfo.cpp.o
+[1227/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanUtils.cpp.o
+[1228/3441] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/Analysis.cpp.o
+[1229/3441] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/MaterializationUtils.cpp.o
+[1230/3441] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroElide.cpp.o
+[1231/3441] Building CXX object lib/Linker/CMakeFiles/LLVMLinker.dir/LinkModules.cpp.o
+[1232/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o
+FAILED: lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Transforms/Vectorize -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o -MF lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o.d -o lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30360:30: error: ‘map’ in namespace ‘std’ does not name a template type
+30360 |   using DistToInstMap = std::map<int64_t, unsigned>;
+      |                              ^~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:107:1: note: ‘std::map’ is defined in header ‘<map>’; did you forget to ‘#include <map>’?
+  106 | #include <cassert>
+  +++ |+#include <map>
+  107 | #include <cstdint>
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30361:9: error: ‘DistToInstMap’ does not name a type
+30361 |   const DistToInstMap &getStores() const { return Instrs; }
+      |         ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30395:3: error: ‘DistToInstMap’ does not name a type
+30395 |   DistToInstMap Instrs;
+      |   ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: In member function ‘void {anonymous}::RelatedStoreInsts::reset(unsigned int)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30347:5: error: ‘Instrs’ was not declared in this scope
+30347 |     Instrs.clear();
+      |     ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: In member function ‘std::optional<unsigned int> {anonymous}::RelatedStoreInsts::insertOrLookup(unsigned int, int64_t)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30356:27: error: ‘Instrs’ was not declared in this scope; did you mean ‘InstrIdx’?
+30356 |     auto [It, Inserted] = Instrs.emplace(PtrDist, InstrIdx);
+      |                           ^~~~~~
+      |                           InstrIdx
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: In member function ‘void {anonymous}::RelatedStoreInsts::rebase(unsigned int, unsigned int, int64_t)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30378:5: error: ‘DistToInstMap’ was not declared in this scope
+30378 |     DistToInstMap PrevSet = std::move(Instrs);
+      |     ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30384:33: error: ‘PrevSet’ was not declared in this scope; did you mean ‘reset’?
+30384 |     for (auto [Dist, InstIdx] : PrevSet) {
+      |                                 ^~~~~~~
+      |                                 reset
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: In member function ‘bool llvm::SLPVectorizerPass::vectorizeStores(llvm::ArrayRef<llvm::StoreInst*>, llvm::slpvectorizer::BoUpSLP&, llvm::DenseSet<std::tuple<llvm::Value*, llvm::Value*, llvm::Value*, llvm::Value*, unsigned int> >&, bool)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30414:54: error: ‘DistToInstMap’ in ‘class {anonymous}::RelatedStoreInsts’ does not name a type
+30414 |   auto ExtendContexts = [&](const RelatedStoreInsts::DistToInstMap &StoreSeq) {
+      |                                                      ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30490:4: error: expected ‘)’ before ‘;’ token
+30490 |   };
+      |    ^
+      |    )
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30414:28: note: to match this ‘(’
+30414 |   auto ExtendContexts = [&](const RelatedStoreInsts::DistToInstMap &StoreSeq) {
+      |                            ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: In lambda function:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30490:4: error: expected ‘{’ before ‘;’ token
+30490 |   };
+      |    ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: In lambda function:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30584:37: error: ‘class {anonymous}::RelatedStoreInsts’ has no member named ‘getStores’; did you mean ‘llvm::ArrayRef<llvm::StoreInst*> {anonymous}::RelatedStoreInsts::AllStores’? (not accessible from this context)
+30584 |       ExtendContexts(RelatedStores->getStores());
+      |                                     ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30398:25: note: declared private here
+30398 |   ArrayRef<StoreInst *> AllStores;
+      |                         ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: In member function ‘bool llvm::SLPVectorizerPass::vectorizeStores(llvm::ArrayRef<llvm::StoreInst*>, llvm::slpvectorizer::BoUpSLP&, llvm::DenseSet<std::tuple<llvm::Value*, llvm::Value*, llvm::Value*, llvm::Value*, unsigned int> >&, bool)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30599:33: error: ‘class {anonymous}::RelatedStoreInsts’ has no member named ‘getStores’; did you mean ‘llvm::ArrayRef<llvm::StoreInst*> {anonymous}::RelatedStoreInsts::AllStores’? (not accessible from this context)
+30599 |         ExtendContexts(StoreSeq.getStores());
+      |                                 ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30398:25: note: declared private here
+30398 |   ArrayRef<StoreInst *> AllStores;
+      |                         ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30608:29: error: ‘class {anonymous}::RelatedStoreInsts’ has no member named ‘getStores’; did you mean ‘llvm::ArrayRef<llvm::StoreInst*> {anonymous}::RelatedStoreInsts::AllStores’? (not accessible from this context)
+30608 |     ExtendContexts(StoreSeq.getStores());
+      |                             ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30398:25: note: declared private here
+30398 |   ArrayRef<StoreInst *> AllStores;
+      |                         ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: At global scope:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:29959:6: warning: ‘void {anonymous}::StoreChainContext::addOperand(llvm::Value*, unsigned int)’ defined but not used [-Wunused-function]
+29959 | void StoreChainContext::addOperand(Value *Store, unsigned Idx) {
+      |      ^~~~~~~~~~~~~~~~~
+[1233/3441] Building CXX object lib/Transforms/HipStdPar/CMakeFiles/LLVMHipStdPar.dir/HipStdPar.cpp.o
+[1234/3441] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/SpillUtils.cpp.o
+[1235/3441] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AliasAnalysisEvaluator.cpp.o
+[1236/3441] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AliasAnalysis.cpp.o
+[1237/3441] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AssumeBundleQueries.cpp.o
+[1238/3441] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroFrame.cpp.o
+[1239/3441] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AliasSetTracker.cpp.o
+[1240/3441] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/AssumptionCache.cpp.o
+[1241/3441] Building CXX object lib/Transforms/Coroutines/CMakeFiles/LLVMCoroutines.dir/CoroSplit.cpp.o
+[1242/3441] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/BlockFrequencyInfoImpl.cpp.o
+[1243/3441] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CFG.cpp.o
+[1244/3441] Building CXX object lib/Linker/CMakeFiles/LLVMLinker.dir/IRMover.cpp.o
+[1245/3441] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/BranchProbabilityInfo.cpp.o
+[1246/3441] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/CFGPrinter.cpp.o
+[1247/3441] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/BlockFrequencyInfo.cpp.o
+[1248/3441] Building CXX object lib/Analysis/CMakeFiles/LLVMAnalysis.dir/BasicAliasAnalysis.cpp.o
+[1249/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanTransforms.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning (policy) at cmake/modules/HandleLLVMOptions.cmake:960 (CHECK_C_SOURCE_COMPILES):
+  Policy CMP0219 is not set: Macro invocations preserve backslashes in
+  arguments.  Run "cmake --help-policy CMP0219" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  Command "CHECK_C_SOURCE_COMPILES" called with arguments containing
+  backslashes.
+
+  Since the policy is not set, backslashes in the arguments:
+
+   "// \\\n//\nint main(void) {return 0;}"
+
+  will be interpreted as escape sequences for compatibility.
+
+  Set the policy to NEW to instead pass
+
+   "// \\\\\\n//\\nint main(void) {return 0;}"
+
+  so that argument parsing will preserve the original values.
+Call Stack (most recent call first):
+  CMakeLists.txt:1144 (include)
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+Precompiled headers are disabled by default with GCC. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override.
+CMake Warning at cmake/modules/HandleLLVMOptions.cmake:1441 (message):
+  Using ccache with precompiled headers with non-Clang compilers is not
+  supported and may lead to false positives.  Set
+  CMAKE_DISABLE_PRECOMPILE_HEADERS to ON/OFF to silence this warning.
+Call Stack (most recent call first):
+  CMakeLists.txt:1144 (include)
+
+
+CMake Warning (deprecated) at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:518 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+to suppress it.
+
+Command exited with non-zero status 1
+3594.61user 173.95system 3:59.36elapsed 1574%CPU (0avgtext+0avgdata 1565656maxresident)k
+24inputs+8511168outputs (2045major+104363950minor)pagefaults 0swaps
