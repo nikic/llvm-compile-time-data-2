@@ -264219,6 +264219,18 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-10-15T11:38:36-04:00",
             "subject": "[SLP][NFC]Remove unused headers, NFC"
+        },
+        {
+            "hash": "d913f1826582310efc896a81ff9ec0409e9599f6",
+            "author_name": "Sam Parker",
+            "commit_date": "2026-10-15T15:52:14+00:00",
+            "subject": "[NFC][WebAssembly] Vectorizer tests (#232359)"
+        },
+        {
+            "hash": "28999cd08f23dd7baeb63b7ca4addef4214999e3",
+            "author_name": "Nick Desaulniers",
+            "commit_date": "2026-10-15T08:52:53-07:00",
+            "subject": "[ARM] Fix miscompile in MAC for 64b values (#231702)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -286289,27 +286301,21 @@
     ],
     "fhahn\/perf\/scev-merge-block-guards2": [
         {
-            "hash": "c331608169e17d2a88c299c7189f1dd0572a56ca",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-15T12:48:07+00:00",
-            "subject": "[SCEV] Use loop guards to rule out IV overflow in LT\/GT exit counts. (#228691)"
+            "hash": "0f80d762352ef6135c75e893d885d6aee7997286",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-15T11:38:36-04:00",
+            "subject": "[SLP][NFC]Remove unused headers, NFC"
         },
         {
-            "hash": "b9c238b89f72cbf66862120097b51f3ce1b599d7",
+            "hash": "27d1631ba1f5365cb0e94c9ab8124834a8743ce7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-15T14:16:34+01:00",
-            "subject": "[SCEV] Add tests with loop guards behind merge blocks."
-        },
-        {
-            "hash": "3b6fd01ffd6b087bf449c2eb5fe8c9f4a003fbbc",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-15T14:16:34+01:00",
+            "commit_date": "2026-10-15T16:49:55+01:00",
             "subject": "[SCEV] Look for guard conditions through merge blocks."
         },
         {
-            "hash": "ee3f030308f8833f400394f7fe879dcd87d6b00a",
+            "hash": "8d20cb1d4ad70bc10b9c9a905c1efdfa6c2bd351",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-15T14:16:34+01:00",
+            "commit_date": "2026-10-15T16:49:55+01:00",
             "subject": "[SCEV] Use a single walk to collect guards through merge blocks."
         }
     ]
