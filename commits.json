@@ -264537,6 +264537,30 @@
             "author_name": "Krzysztof Parzyszek",
             "commit_date": "2026-10-15T14:08:51-05:00",
             "subject": "[LiveDebugValues] Fix broken test, NFC (#232465)"
+        },
+        {
+            "hash": "66eaa71597b172df557de017bd7d01ac47ba2b2f",
+            "author_name": "Emmanuel Antonio",
+            "commit_date": "2026-10-15T15:12:01-04:00",
+            "subject": "[bazel][libc] Add __support_math_expf_float_utils target (#232450)"
+        },
+        {
+            "hash": "0bafe11accabf16aab818af35a290b560b1aec09",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-15T15:14:03-04:00",
+            "subject": "[SLP][NFC]Add some more test with bitpack vectorization, NFC"
+        },
+        {
+            "hash": "cd9664259689a96e00e5258ad6185dbdc95b7249",
+            "author_name": "Usman Nadeem",
+            "commit_date": "2026-10-15T12:16:00-07:00",
+            "subject": "[DAGCombiner] Narrow truncating stores of extended values (#231338)"
+        },
+        {
+            "hash": "034f10d58a0f8aaac164842380b00205cf069f9d",
+            "author_name": "Mingming Liu",
+            "commit_date": "2026-10-15T12:17:19-07:00",
+            "subject": "[SampleProf][test] Precommit test to demonstrate the duplicated vtable error upon repeated profile read. (#232461)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -286623,6 +286647,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-15T16:49:55+01:00",
             "subject": "[SCEV] Use a single walk to collect guards through merge blocks."
+        }
+    ],
+    "davidbolvansky\/perf\/knownbits-empty-assumes": [
+        {
+            "hash": "034f10d58a0f8aaac164842380b00205cf069f9d",
+            "author_name": "Mingming Liu",
+            "commit_date": "2026-10-15T12:17:19-07:00",
+            "subject": "[SampleProf][test] Precommit test to demonstrate the duplicated vtable error upon repeated profile read. (#232461)"
+        },
+        {
+            "hash": "f893150ba620175091970f0a68cb8522b9a25064",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-15T21:18:38+02:00",
+            "subject": "[ValueTracking] Skip assumption lookup when function has none"
         }
     ]
 }
