@@ -263721,6 +263721,216 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-15T09:30:12+00:00",
             "subject": "[IR] Verify oracle functions are only used by llvm.speculative.load. (#226669)"
+        },
+        {
+            "hash": "93e018a5ffef86ed239f11ee4cff055f190e42e0",
+            "author_name": "JRP-arm",
+            "commit_date": "2026-10-15T09:43:55+00:00",
+            "subject": "[mlir][OpenMP] Model recursive memory effects of omp.master (#230190)"
+        },
+        {
+            "hash": "fb687bf62936b9be845f69b64f2fa8d1f033cbe2",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-15T10:48:18+01:00",
+            "subject": "[VPlan] Model diff checks checks as VPlan recipes. (#229028)"
+        },
+        {
+            "hash": "9df29523000356879ec679e984458f36f7a35965",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-10-15T11:49:12+02:00",
+            "subject": "[clang][bytecode][NFC] Simplify bytecode emission (#232215)"
+        },
+        {
+            "hash": "a2361578d4a2f13e531e3ac35466f76e48566eb4",
+            "author_name": "David Green",
+            "commit_date": "2026-10-15T10:51:28+01:00",
+            "subject": "[ARM] Protect against scalar geps in MVE gather lowering (#231939)"
+        },
+        {
+            "hash": "46b003ba918d26a11a493111776cb469ab46a272",
+            "author_name": "ErikHogeman",
+            "commit_date": "2026-10-15T11:55:56+02:00",
+            "subject": "[SCEV] Add compile-time regression test for CompareSCEVComplexity (#223723)"
+        },
+        {
+            "hash": "274d89af93480a42565f74a54498c188cf7a900e",
+            "author_name": "Ayush Sahay",
+            "commit_date": "2026-10-15T15:30:17+05:30",
+            "subject": "[lldb][RISCV] Update CSRI patch set for 'Xqci' (#229165)"
+        },
+        {
+            "hash": "f052b8d1b51bf26c22674fc4d1ba8620ee7e7f93",
+            "author_name": "Ai Nozaki",
+            "commit_date": "2026-10-15T12:16:05+02:00",
+            "subject": "[AllocToken] Cover MSVC replaceable global operator new (#232165)"
+        },
+        {
+            "hash": "39bb05c94038b85d8bc0ea23ff705d20ad3c890e",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-10-15T06:20:22-04:00",
+            "subject": "[Bazel] Fixes fee0804 (#232225)"
+        },
+        {
+            "hash": "c4a7814f8bc3a1d4cbe61d4da9700be655307db2",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-10-15T11:32:35+01:00",
+            "subject": "[AMDGPU] Remove unneeded check after SSA update in SILowerI1Copies. NFC. (#232219)"
+        },
+        {
+            "hash": "19cd457604bc0444b132da341b87c64c0ec5ba5b",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-10-15T12:48:30+02:00",
+            "subject": "[GVN] Add support for MSSA-path in masked store-to-load forwarding (#229757)"
+        },
+        {
+            "hash": "79230836b9cd397b50337dc28314ed2f87c760a3",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-10-15T11:57:06+01:00",
+            "subject": "[lldb][test] Bump packet-timeout to 10 mins (#232000)"
+        },
+        {
+            "hash": "09fa829c48bc5bede870c653c2f2c1f791d0751d",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-15T13:00:26+02:00",
+            "subject": "[CIR][SPIR-V] Use the program address space for function global views (#232173)"
+        },
+        {
+            "hash": "da7efb30f3121fa9dba401803c1d9a6f4fb9341e",
+            "author_name": "JRP-arm",
+            "commit_date": "2026-10-15T12:01:20+01:00",
+            "subject": "[mlir][OpenMP] Model memory effects of omp.critical (#230455)"
+        },
+        {
+            "hash": "2ee8123379daa65147b067e94f8436bfc8ad789c",
+            "author_name": "Lukas Sommer",
+            "commit_date": "2026-10-15T13:05:08+02:00",
+            "subject": "[RegAlloc] Consider rematerialization over CSR use (#206756)"
+        },
+        {
+            "hash": "6eb5f915e34f6cd66cff1160938b6b5e3fe5c86b",
+            "author_name": "Tomas Matheson",
+            "commit_date": "2026-10-15T12:18:55+01:00",
+            "subject": "[AArch64] add patterns for SQABS (#229812)"
+        },
+        {
+            "hash": "516457489fee0763fc5e2f9baa1f55098547d2d4",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-10-15T13:25:02+02:00",
+            "subject": "[MLIR][Remark] Report why the LLVM remark streamer could not be created (#230130)"
+        },
+        {
+            "hash": "293d340b1539fbc9b32772ec4594554892ef4c30",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-10-15T11:26:50+00:00",
+            "subject": "[lldb] Fix typo in tsan-suppressions.txt (#232275)"
+        },
+        {
+            "hash": "2e86ef621956780f9ad8be6887a2330f872117ef",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-10-15T04:28:20-07:00",
+            "subject": "[llvm-readobj][ELF] Print call graph callees in section order (#230649)"
+        },
+        {
+            "hash": "4fcf793b7c06705c7d6a2ae779cdab78fd913ad5",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-10-15T04:28:22-07:00",
+            "subject": "[llvm-readobj][NFC] Match call graph relocations to address fields in one pass (#230650)"
+        },
+        {
+            "hash": "96af35cf560826518cdec29a8362470c0ac2def1",
+            "author_name": "tangaac",
+            "commit_date": "2026-10-15T19:31:32+08:00",
+            "subject": "[LoongArch] Add arithmetic instruction costs (#232230)"
+        },
+        {
+            "hash": "9bb2d59e056307aa77358aa930ce7d5d38b7c4b3",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-15T12:45:58+01:00",
+            "subject": "[LoopIdiom] Don't generate `wcslen` when the pointer passed is not known to be aligned (#229074)"
+        },
+        {
+            "hash": "a581fa320a4f6e87149f498b2dd06da1aa8d8232",
+            "author_name": "awayzjj",
+            "commit_date": "2026-10-15T11:47:56+00:00",
+            "subject": "[clang] Add regression test for GH53049 (#232266)"
+        },
+        {
+            "hash": "cb1c58d4dd522178bb945815508d473ba0a65a9e",
+            "author_name": "David Young",
+            "commit_date": "2026-10-15T04:56:33-07:00",
+            "subject": "[bazel][lldb] Add ObjectContainerClangOffloadBundle plugin (#232278)"
+        },
+        {
+            "hash": "187d6ddf58430f6e78d65907af22791727ae30e3",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-15T14:02:56+02:00",
+            "subject": "[CIR][CUDA][HIP] Skip global init for device variables (#231971)"
+        },
+        {
+            "hash": "daf1383673177089c83bb19cb5fb77dfb29c3fb6",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-15T14:05:48+02:00",
+            "subject": "RegAllocFast: Only clear dead flag for live defs of the same or super reg (#232264)"
+        },
+        {
+            "hash": "8cc4dbe7298d44fad9d76b7df7446a9abe30a445",
+            "author_name": "Igor Wodiany",
+            "commit_date": "2026-10-15T13:10:41+01:00",
+            "subject": "[TableGen] Declare `MCRegisterClassStorageType` as `constexpr` (NFC) (#232010)"
+        },
+        {
+            "hash": "87117c92e6da49050458f8b7d1cbab09d8b1760d",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-15T12:22:47+00:00",
+            "subject": "[SPIR-V] Drop the service function trap placeholder (#232197)"
+        },
+        {
+            "hash": "782610a701b4edbee7ed89021631d203f4b03ac6",
+            "author_name": "Bal\u00e1zs Benics",
+            "commit_date": "2026-10-15T13:32:55+01:00",
+            "subject": "Revert the clang SSAF orchestrator\/driver stack (#232274)"
+        },
+        {
+            "hash": "a7be9f2038cd6ec221ad378c69a9a875ebfaa456",
+            "author_name": "Connector Switch",
+            "commit_date": "2026-10-15T20:39:55+08:00",
+            "subject": "[libc] Use a syscall wrapper for `sched_setaffinity` (#232277)"
+        },
+        {
+            "hash": "f1bfb3cc379ad44e422b4d1c66fd49dc510a7599",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-10-15T14:40:33+02:00",
+            "subject": "[clang][bytecode] Diagnose non-block pointers in __builtin_is_within_lifetime (#228337)"
+        },
+        {
+            "hash": "11a1e8f9cc5b6a86b4d2cab81755a31b79f40164",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-15T12:44:05+00:00",
+            "subject": "[SCEV] Compare canonical SCEVs when grouping and folding operands. (#228224)"
+        },
+        {
+            "hash": "2bcbafb73f884a457f952cbbd6551098e79a4b3b",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-10-15T12:44:11+00:00",
+            "subject": "[LoopIdiom](NFC) Re-generate `popcnt.ll` tests and pre-commit broken test (#232286)"
+        },
+        {
+            "hash": "ee608e144dc6b8472b44205de5d19fad5c993e08",
+            "author_name": "QIU Chaofan",
+            "commit_date": "2026-10-15T20:46:35+08:00",
+            "subject": "[mailmap] Update email map for Qiu Chaofan (#232302)"
+        },
+        {
+            "hash": "c331608169e17d2a88c299c7189f1dd0572a56ca",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-15T12:48:07+00:00",
+            "subject": "[SCEV] Use loop guards to rule out IV overflow in LT\/GT exit counts. (#228691)"
+        },
+        {
+            "hash": "43682454813637d8036b65a4fa8c74805a46b3bc",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-10-15T09:17:42-04:00",
+            "subject": "[libc++] Produce output when running benchmark jobs (#232306)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
