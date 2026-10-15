@@ -1,0 +1,248 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+ 1701 |                               LangOpts, diag_compat::mathematical_notation)
+      |                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1702 |                         : diag::ext_mathematical_notation;
+      |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2334/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/BuiltinTraits.cpp.o
+[2335/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/CLWarnings.cpp.o
+[2336/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/CharInfo.cpp.o
+[2337/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/CodeGenOptions.cpp.o
+[2338/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Cuda.cpp.o
+[2339/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/DarwinSDKInfo.cpp.o
+[2340/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/DiagnosticOptions.cpp.o
+[2341/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/FileEntry.cpp.o
+[2342/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/FileManager.cpp.o
+[2343/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Diagnostic.cpp.o
+[2344/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/LangOptions.cpp.o
+[2345/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/LangStandards.cpp.o
+[2346/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/MakeSupport.cpp.o
+[2347/3441] Building AArch64GenGlobalISel.inc...
+[2348/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/ObjCRuntime.cpp.o
+[2349/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/OffloadArch.cpp.o
+[2350/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/IdentifierTable.cpp.o
+[2351/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/OpenMPKinds.cpp.o
+[2352/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/OperatorPrecedence.cpp.o
+[2353/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/ParsedAttrInfo.cpp.o
+In file included from /var/llvm-compile-time-tracker/llvm-project/clang/include/clang/Basic/ParsedAttrInfo.h:22,
+                 from /var/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/ParsedAttrInfo.cpp:14:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Support/Registry.h:315:29: warning: type attributes ignored after type is already defined [-Wattributes]
+  315 |   template class EXPORT_ABI Registry<REGISTRY_CLASS::type>;                    \
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/clang/lib/Basic/ParsedAttrInfo.cpp:22:1: note: in expansion of macro ‘LLVM_INSTANTIATE_REGISTRY_EX’
+   22 | LLVM_INSTANTIATE_REGISTRY_EX(CLANG_ABI_EXPORT, ParsedAttrInfoRegistry)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2354/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/ProfileList.cpp.o
+[2355/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/NoSanitizeList.cpp.o
+[2356/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SanitizerSpecialCaseList.cpp.o
+[2357/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Sanitizers.cpp.o
+[2358/3441] Building AArch64GenDAGISel.inc...
+[2359/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SimpleTypoCorrection.cpp.o
+[2360/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Sarif.cpp.o
+[2361/3441] Building CXX object lib/TextAPI/BinaryReader/CMakeFiles/LLVMTextAPIBinaryReader.dir/DylibReader.cpp.o
+[2362/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SourceLocation.cpp.o
+[2363/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SourceManager.cpp.o
+[2364/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Stack.cpp.o
+[2365/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/TargetID.cpp.o
+[2366/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/SourceMgrAdapter.cpp.o
+[2367/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/StackExhaustionHandler.cpp.o
+[2368/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Builtins.cpp.o
+[2369/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/OpenCLOptions.cpp.o
+[2370/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Module.cpp.o
+[2371/3441] Building CXX object lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.o
+[2372/3441] Linking CXX static library lib/libLLVMMCParser.a
+[2373/3441] Linking CXX static library lib/libLLVMObject.a
+[2374/3441] Linking CXX static library lib/libLLVMObjectYAML.a
+[2375/3441] Linking CXX static library lib/libLLVMDebugInfoDWARF.a
+[2376/3441] Linking CXX static library lib/libLLVMDebugInfoGSYM.a
+[2377/3441] Linking CXX static library lib/libLLVMDebugInfoPDB.a
+[2378/3441] Linking CXX static library lib/libLLVMSymbolize.a
+[2379/3441] Linking CXX static library lib/libLLVMProfileData.a
+[2380/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/ARC.cpp.o
+[2381/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/TargetInfo.cpp.o
+[2382/3441] Linking CXX static library lib/libLLVMCoverage.a
+[2383/3441] Linking CXX static library lib/libLLVMDlltoolDriver.a
+[2384/3441] Linking CXX static library lib/libLLVMTextAPIBinaryReader.a
+[2385/3441] Linking CXX static library lib/libLLVMLibDriver.a
+[2386/3441] Linking CXX static library lib/libLLVMAnalysis.a
+[2387/3441] Linking CXX static library lib/libLLVMIRPrinter.a
+[2388/3441] Linking CXX static library lib/libLLVMBitWriter.a
+[2389/3441] Linking CXX static library lib/libLLVMCGData.a
+[2390/3441] Linking CXX static library lib/libLLVMFrontendAtomic.a
+[2391/3441] Linking CXX static library lib/libLLVMTransformUtils.a
+[2392/3441] Linking CXX static library lib/libLLVMFrontendOffloading.a
+[2393/3441] Linking CXX static library lib/libLLVMInstrumentation.a
+[2394/3441] Linking CXX static library lib/libLLVMFrontendDriver.a
+[2395/3441] Linking CXX static library lib/libLLVMAggressiveInstCombine.a
+[2396/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/AMDGPU.cpp.o
+[2397/3441] Linking CXX static library lib/libLLVMInstCombine.a
+[2398/3441] Linking CXX static library lib/libLLVMObjCARCOpts.a
+[2399/3441] Linking CXX static library lib/libLLVMHipStdPar.a
+[2400/3441] Linking CXX static library lib/libLLVMLinker.a
+[2401/3441] Linking CXX static library lib/libLLVMScalarOpts.a
+[2402/3441] Linking CXX static library lib/libLLVMTarget.a
+[2403/3441] Linking CXX static library lib/libLLVMFrontendOpenMP.a
+[2404/3441] Linking CXX static library lib/libLLVMSandboxIR.a
+[2405/3441] Linking CXX static library lib/libLLVMCodeGen.a
+[2406/3441] Building X86GenSubtargetInfo.inc...
+[2407/3441] Linking CXX static library lib/libLLVMSelectionDAG.a
+[2408/3441] Linking CXX static library lib/libLLVMAsmPrinter.a
+[2409/3441] Generating VCSVersion.inc
+[2410/3441] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/DriverDispatcher.cpp.o
+[2411/3441] Linking CXX static library lib/libLLVMGlobalISel.a
+[2412/3441] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Args.cpp.o
+[2413/3441] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/CommonLinkerContext.cpp.o
+[2414/3441] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/ErrorHandler.cpp.o
+[2415/3441] Building X86GenInstrInfo.inc...
+[2416/3441] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Filesystem.cpp.o
+[2417/3441] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/RunCodeGen.cpp.o
+[2418/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/BPF.cpp.o
+[2419/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/AArch64.cpp.o
+[2420/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/ARM.cpp.o
+[2421/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/AVR.cpp.o
+[2422/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets/CSKY.cpp.o
+[2423/3441] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/DWARF.cpp.o
+[2424/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/DiagnosticIDs.cpp.o
+[2425/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MachineFunctionInfo.cpp.o
+[2426/3441] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseCXXInlineMethods.cpp.o
+[2427/3441] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/StandardInstrumentations.cpp.o
+[2428/3441] Building CXX object lib/Passes/CMakeFiles/LLVMPasses.dir/PassBuilderPipelines.cpp.o
+[2429/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Targets.cpp.o
+[2430/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MacroFusion.cpp.o
+[2431/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o
+FAILED: lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Transforms/Vectorize -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o -MF lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o.d -o lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30360:30: error: ‘map’ in namespace ‘std’ does not name a template type
+30360 |   using DistToInstMap = std::map<int64_t, unsigned>;
+      |                              ^~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:107:1: note: ‘std::map’ is defined in header ‘<map>’; did you forget to ‘#include <map>’?
+  106 | #include <cassert>
+  +++ |+#include <map>
+  107 | #include <cstdint>
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30361:9: error: ‘DistToInstMap’ does not name a type
+30361 |   const DistToInstMap &getStores() const { return Instrs; }
+      |         ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30395:3: error: ‘DistToInstMap’ does not name a type
+30395 |   DistToInstMap Instrs;
+      |   ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: In member function ‘void {anonymous}::RelatedStoreInsts::reset(unsigned int)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30347:5: error: ‘Instrs’ was not declared in this scope
+30347 |     Instrs.clear();
+      |     ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: In member function ‘std::optional<unsigned int> {anonymous}::RelatedStoreInsts::insertOrLookup(unsigned int, int64_t)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30356:27: error: ‘Instrs’ was not declared in this scope; did you mean ‘InstrIdx’?
+30356 |     auto [It, Inserted] = Instrs.emplace(PtrDist, InstrIdx);
+      |                           ^~~~~~
+      |                           InstrIdx
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: In member function ‘void {anonymous}::RelatedStoreInsts::rebase(unsigned int, unsigned int, int64_t)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30378:5: error: ‘DistToInstMap’ was not declared in this scope
+30378 |     DistToInstMap PrevSet = std::move(Instrs);
+      |     ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30384:33: error: ‘PrevSet’ was not declared in this scope; did you mean ‘reset’?
+30384 |     for (auto [Dist, InstIdx] : PrevSet) {
+      |                                 ^~~~~~~
+      |                                 reset
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: In member function ‘bool llvm::SLPVectorizerPass::vectorizeStores(llvm::ArrayRef<llvm::StoreInst*>, llvm::slpvectorizer::BoUpSLP&, llvm::DenseSet<std::tuple<llvm::Value*, llvm::Value*, llvm::Value*, llvm::Value*, unsigned int> >&, bool)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30414:54: error: ‘DistToInstMap’ in ‘class {anonymous}::RelatedStoreInsts’ does not name a type
+30414 |   auto ExtendContexts = [&](const RelatedStoreInsts::DistToInstMap &StoreSeq) {
+      |                                                      ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30490:4: error: expected ‘)’ before ‘;’ token
+30490 |   };
+      |    ^
+      |    )
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30414:28: note: to match this ‘(’
+30414 |   auto ExtendContexts = [&](const RelatedStoreInsts::DistToInstMap &StoreSeq) {
+      |                            ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: In lambda function:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30490:4: error: expected ‘{’ before ‘;’ token
+30490 |   };
+      |    ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: In lambda function:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30584:37: error: ‘class {anonymous}::RelatedStoreInsts’ has no member named ‘getStores’; did you mean ‘llvm::ArrayRef<llvm::StoreInst*> {anonymous}::RelatedStoreInsts::AllStores’? (not accessible from this context)
+30584 |       ExtendContexts(RelatedStores->getStores());
+      |                                     ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30398:25: note: declared private here
+30398 |   ArrayRef<StoreInst *> AllStores;
+      |                         ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: In member function ‘bool llvm::SLPVectorizerPass::vectorizeStores(llvm::ArrayRef<llvm::StoreInst*>, llvm::slpvectorizer::BoUpSLP&, llvm::DenseSet<std::tuple<llvm::Value*, llvm::Value*, llvm::Value*, llvm::Value*, unsigned int> >&, bool)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30599:33: error: ‘class {anonymous}::RelatedStoreInsts’ has no member named ‘getStores’; did you mean ‘llvm::ArrayRef<llvm::StoreInst*> {anonymous}::RelatedStoreInsts::AllStores’? (not accessible from this context)
+30599 |         ExtendContexts(StoreSeq.getStores());
+      |                                 ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30398:25: note: declared private here
+30398 |   ArrayRef<StoreInst *> AllStores;
+      |                         ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30608:29: error: ‘class {anonymous}::RelatedStoreInsts’ has no member named ‘getStores’; did you mean ‘llvm::ArrayRef<llvm::StoreInst*> {anonymous}::RelatedStoreInsts::AllStores’? (not accessible from this context)
+30608 |     ExtendContexts(StoreSeq.getStores());
+      |                             ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30398:25: note: declared private here
+30398 |   ArrayRef<StoreInst *> AllStores;
+      |                         ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: At global scope:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:29959:6: warning: ‘void {anonymous}::StoreChainContext::addOperand(llvm::Value*, unsigned int)’ defined but not used [-Wunused-function]
+29959 | void StoreChainContext::addOperand(Value *Store, unsigned Idx) {
+      |      ^~~~~~~~~~~~~~~~~
+[2432/3441] Building CXX object tools/clang/lib/Basic/CMakeFiles/obj.clangBasic.dir/Attributes.cpp.o
+[2433/3441] Building AArch64GenInstrInfo.inc...
+[2434/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SelectionDAGInfo.cpp.o
+[2435/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86OptimizeLEAs.cpp.o
+[2436/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86PadShortFunction.cpp.o
+[2437/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ReturnThunks.cpp.o
+[2438/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86PartialReduction.cpp.o
+[2439/3441] Building AArch64GenSubtargetInfo.inc...
+[2440/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ArgumentStackSlotRebase.cpp.o
+[2441/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86MCInstLower.cpp.o
+[2442/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86RegisterInfo.cpp.o
+[2443/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AvoidTrailingCall.cpp.o
+[2444/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86AsmPrinter.cpp.o
+[2445/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CleanupLocalDynamicTLS.cpp.o
+[2446/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CallFrameOptimization.cpp.o
+[2447/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CmovConversion.cpp.o
+[2448/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CallingConv.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning (policy) at cmake/modules/HandleLLVMOptions.cmake:960 (CHECK_C_SOURCE_COMPILES):
+  Policy CMP0219 is not set: Macro invocations preserve backslashes in
+  arguments.  Run "cmake --help-policy CMP0219" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  Command "CHECK_C_SOURCE_COMPILES" called with arguments containing
+  backslashes.
+
+  Since the policy is not set, backslashes in the arguments:
+
+   "// \\\n//\nint main(void) {return 0;}"
+
+  will be interpreted as escape sequences for compatibility.
+
+  Set the policy to NEW to instead pass
+
+   "// \\\\\\n//\\nint main(void) {return 0;}"
+
+  so that argument parsing will preserve the original values.
+Call Stack (most recent call first):
+  CMakeLists.txt:1144 (include)
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+Precompiled headers are disabled by default with GCC. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override.
+CMake Warning at cmake/modules/HandleLLVMOptions.cmake:1441 (message):
+  Using ccache with precompiled headers with non-Clang compilers is not
+  supported and may lead to false positives.  Set
+  CMAKE_DISABLE_PRECOMPILE_HEADERS to ON/OFF to silence this warning.
+Call Stack (most recent call first):
+  CMakeLists.txt:1144 (include)
+
+
+CMake Warning (deprecated) at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:518 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+to suppress it.
+
+Command exited with non-zero status 1
+323.26user 22.45system 0:24.48elapsed 1412%CPU (0avgtext+0avgdata 1565724maxresident)k
+0inputs+2367520outputs (3781major+13603557minor)pagefaults 0swaps
