@@ -263931,6 +263931,84 @@
             "author_name": "Louis Dionne",
             "commit_date": "2026-10-15T09:17:42-04:00",
             "subject": "[libc++] Produce output when running benchmark jobs (#232306)"
+        },
+        {
+            "hash": "0b8a284eb77e8be4df99100920d72b0f9af11938",
+            "author_name": "dong jianqiang",
+            "commit_date": "2026-10-15T21:24:11+08:00",
+            "subject": "[AArch64] Use NVCAST instead of BITCAST in LowerZERO_EXTEND_VECTOR_INREG (#232160)"
+        },
+        {
+            "hash": "ba09a4925b6ae89266d81a531fddfe1ad7d0b7f8",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-10-15T15:25:21+02:00",
+            "subject": "[libc] Make struct ifreq compatible with linux\/if.h (#225793)"
+        },
+        {
+            "hash": "6ae56eaedb60d55c5a06c8b7eb01487b281eeebf",
+            "author_name": "Aman Maurya",
+            "commit_date": "2026-10-15T19:02:01+05:30",
+            "subject": "[libc] Implement fexecve in unistd (#231230)"
+        },
+        {
+            "hash": "47c7786c12291fdfe4e5f8c7638c68befd2c4179",
+            "author_name": "Tony Guillot",
+            "commit_date": "2026-10-15T15:32:27+02:00",
+            "subject": "[lld][docs] Corrected deprecated usage of `fuse-ld` (#231507)"
+        },
+        {
+            "hash": "abcc2e62bc96fbd98b31af6dd549e8f83ed37d08",
+            "author_name": "Luke Hutton",
+            "commit_date": "2026-10-15T14:33:10+01:00",
+            "subject": "[mlir][tosa] Remove unnecessary conv verifier checks (#231825)"
+        },
+        {
+            "hash": "41e9cdb98feaceba75230ed9f35b4d5703649110",
+            "author_name": "Igor Wodiany",
+            "commit_date": "2026-10-15T13:34:18+00:00",
+            "subject": "Revert \"[TableGen] Declare `MCRegisterClassStorageType` as `constexpr` (NFC)\" (#232303)"
+        },
+        {
+            "hash": "e63699974e2e1f68f8e0e17e846437852fc8c703",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-10-15T06:35:33-07:00",
+            "subject": "[llvm-readobj][ELF] Print a Relocation object instead of Name in --call-graph-info (#230651)"
+        },
+        {
+            "hash": "7ca891677070a43261c6dcf7fa4eb3859ffae7a2",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-10-15T06:35:36-07:00",
+            "subject": "[llvm-readobj][ELF] Print implicit addends of call graph relocations (#230652)"
+        },
+        {
+            "hash": "f23308b4b44682b65d47bdad88a28b5e6810e079",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-10-15T06:35:38-07:00",
+            "subject": "[llvm-readobj][ELF] Fall back to Address when no single relocation applies (#230653)"
+        },
+        {
+            "hash": "478116ca996906a8cb93aa3df3b6c5ea87610941",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-10-15T06:35:41-07:00",
+            "subject": "[llvm-readobj][ELF] Print Names for call graph relocations (#230654)"
+        },
+        {
+            "hash": "07bfb2038f8757c6dd0b34815b8fe184190d06d4",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-15T13:36:09+00:00",
+            "subject": "AMDGPU: Keep argument live in vgpr-large-tuple-alloc-error.ll (#232308)"
+        },
+        {
+            "hash": "b621a34f0c966a71b434b58d8e4c084ef24a2fc0",
+            "author_name": "Alex Duran",
+            "commit_date": "2026-10-15T15:36:30+02:00",
+            "subject": "[Offload][omp] Move is_accessible_ptr to liboffload (#231801)"
+        },
+        {
+            "hash": "74b1c811ba7e49cb829e80cbc6b9aa2e9f778360",
+            "author_name": "David Sherwood",
+            "commit_date": "2026-10-15T14:39:47+01:00",
+            "subject": "[LV][NFC] Add SVE tests for uniform scatters with tail-folding (#232290)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -282725,21 +282803,21 @@
     ],
     "fhahn\/perf\/scev-merge-block-guards": [
         {
-            "hash": "66cc20a0b4356d2b5d2278e68bfe5b16ad4e87dd",
-            "author_name": "Peiqi Li",
-            "commit_date": "2026-10-08T15:33:03+08:00",
-            "subject": "[clang-tidy] Fix invalid fix-it for macro expansions (#227984)"
+            "hash": "f052b8d1b51bf26c22674fc4d1ba8620ee7e7f93",
+            "author_name": "Ai Nozaki",
+            "commit_date": "2026-10-15T12:16:05+02:00",
+            "subject": "[AllocToken] Cover MSVC replaceable global operator new (#232165)"
         },
         {
-            "hash": "757108e75738b84e5eb1df214680ac09675d58a8",
+            "hash": "bfdfd612392a50d3b0851ec61626d7d2826a139c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-08T11:01:16+01:00",
+            "commit_date": "2026-10-15T11:21:05+01:00",
             "subject": "[SCEV] Add tests with loop guards behind merge blocks."
         },
         {
-            "hash": "cdd9eb9d3255f08c9e67cc2b6c6b3e70061fa524",
+            "hash": "53bb9e753b879043ac1ef9b7b92e9311953e25e0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-08T11:01:16+01:00",
+            "commit_date": "2026-10-15T11:29:31+01:00",
             "subject": "[SCEV] Look for guard conditions through merge blocks."
         }
     ],
@@ -285955,6 +286033,80 @@
             "author_name": "Alexander Shaposhnikov",
             "commit_date": "2026-10-14T16:50:39-07:00",
             "subject": "[LV] Avoid lane-zero uses of predicated div\/rem"
+        }
+    ],
+    "antoniofrighetto\/perf\/gvn-enable-mssa-2": [
+        {
+            "hash": "a39eb142e6505a781a14bb7828e49cb8ec6660b6",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-10-15T11:06:29+02:00",
+            "subject": "[clang][bytecode][NFC] Refactor `alignOfType` (#232193)"
+        },
+        {
+            "hash": "527dbf7b815b688f26df65cf51f02865ac229041",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-10-15T11:09:34+02:00",
+            "subject": "[GVN] MemorySSA for GVN: switch to using MemorySSA by default"
+        }
+    ],
+    "artagnon\/perf\/adt-setvector-insert-it": [
+        {
+            "hash": "d3ad7fe9f82ea7aa48755320c03233acd7db7938",
+            "author_name": "Steffen Larsen",
+            "commit_date": "2026-10-15T07:32:22+00:00",
+            "subject": "[clang][CIR][CUDA][HIP] Unify CUDA decl emission check (NFC) (#231153)"
+        },
+        {
+            "hash": "05b11e98513289ed4fa841a622bda57a1853785e",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-15T10:59:56+01:00",
+            "subject": "[SetVector] Make SetVector::insert consistent (NFC)"
+        }
+    ],
+    "artagnon\/perf\/ptrset-inline-hdr": [
+        {
+            "hash": "d3ad7fe9f82ea7aa48755320c03233acd7db7938",
+            "author_name": "Steffen Larsen",
+            "commit_date": "2026-10-15T07:32:22+00:00",
+            "subject": "[clang][CIR][CUDA][HIP] Unify CUDA decl emission check (NFC) (#231153)"
+        },
+        {
+            "hash": "7fd3b8d20c25341f48a0a9c23149d499ecad55c1",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-15T11:14:52+01:00",
+            "subject": "[SmallPtrSet] Inline non-mem functions in hdr (NFC)"
+        },
+        {
+            "hash": "c0e19ea50d7caed776791f3e7f7bf46c6bcadab5",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-15T13:23:16+01:00",
+            "subject": "[SmallPtrSet] Inline only doFind and eraseFromBucket"
+        }
+    ],
+    "fhahn\/perf\/scev-merge-block-guards2": [
+        {
+            "hash": "c331608169e17d2a88c299c7189f1dd0572a56ca",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-15T12:48:07+00:00",
+            "subject": "[SCEV] Use loop guards to rule out IV overflow in LT\/GT exit counts. (#228691)"
+        },
+        {
+            "hash": "b9c238b89f72cbf66862120097b51f3ce1b599d7",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-15T14:16:34+01:00",
+            "subject": "[SCEV] Add tests with loop guards behind merge blocks."
+        },
+        {
+            "hash": "3b6fd01ffd6b087bf449c2eb5fe8c9f4a003fbbc",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-15T14:16:34+01:00",
+            "subject": "[SCEV] Look for guard conditions through merge blocks."
+        },
+        {
+            "hash": "ee3f030308f8833f400394f7fe879dcd87d6b00a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-15T14:16:34+01:00",
+            "subject": "[SCEV] Use a single walk to collect guards through merge blocks."
         }
     ]
 }
