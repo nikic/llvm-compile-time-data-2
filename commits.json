@@ -263097,6 +263097,18 @@
             "author_name": "David Anderson",
             "commit_date": "2026-10-14T16:44:00-07:00",
             "subject": "[scudo] Re-check freelist before populating blocks in popBlocksWithCV (#231750)"
+        },
+        {
+            "hash": "fd9bc2e181b7bb10baffb64662c924bbf52f3734",
+            "author_name": "Ben Silver",
+            "commit_date": "2026-10-14T23:47:16+00:00",
+            "subject": "[WebAssembly] Preserve tail-call pseudos during stack-protector splitting (#230073)"
+        },
+        {
+            "hash": "46a1c4b6d57981a4a284ccde484afa7807153bf8",
+            "author_name": "Amaan Qureshi",
+            "commit_date": "2026-10-14T16:49:43-07:00",
+            "subject": "[Clang][counted_by] Load the count through unions by byte offset (#228309)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -285101,6 +285113,26 @@
             "author_name": "npanchen",
             "commit_date": "2026-10-14T17:40:01-04:00",
             "subject": "addressed comments"
+        }
+    ],
+    "alexander-shaposhnikov\/perf\/lv-predicated-divrem-v2": [
+        {
+            "hash": "6b804fdec943ceb27d48f9153cb0bf8bd5ab8914",
+            "author_name": "Jun Wang",
+            "commit_date": "2026-10-14T12:11:33-07:00",
+            "subject": "Revert \"[AMDGPU] Support the RF inline asm constraint\" (#232024)"
+        },
+        {
+            "hash": "8be33565146da0417ea6894250ebf566dc74a0d3",
+            "author_name": "Alexander Shaposhnikov",
+            "commit_date": "2026-10-14T16:50:38-07:00",
+            "subject": "[LV] Add coverage for lane-zero uses of predicated div\/rem (NFC)"
+        },
+        {
+            "hash": "71c78dd0e9521ad4e1634b8348554d876ba2496b",
+            "author_name": "Alexander Shaposhnikov",
+            "commit_date": "2026-10-14T16:50:39-07:00",
+            "subject": "[LV] Avoid lane-zero uses of predicated div\/rem"
         }
     ]
 }
