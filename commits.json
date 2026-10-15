@@ -263469,6 +263469,264 @@
             "author_name": "Chaitanya",
             "commit_date": "2026-10-15T10:48:37+05:30",
             "subject": "[flang][OpenMP] Lower array-section workdistribute assign to element loop (#225595)"
+        },
+        {
+            "hash": "5ea8abe293862bf78b0389932fd761835f5d9495",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-15T08:08:09+02:00",
+            "subject": "TableGen: Avoid linear search for register class names (#232108)"
+        },
+        {
+            "hash": "ebff4900a0f740e81e1a4ded0241d6d2cb5b9f5f",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-10-14T23:10:09-07:00",
+            "subject": "[Option] Add AliasOf for library options (#232174)"
+        },
+        {
+            "hash": "16b2fbe109b0cb8822c931167aa43fb441e79c04",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-10-15T08:19:03+02:00",
+            "subject": "[CIR] Fix cir.cleanup.scope successor regions (#221222)"
+        },
+        {
+            "hash": "9abbf8e28c8a7196987615c31671b099832445ad",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-10-15T08:22:16+02:00",
+            "subject": "[CIR][NFC] Use CleanupKindAttr predicates in FlattenCFG (#221234)"
+        },
+        {
+            "hash": "53575edd83f245bbd021f844914797ac3e9f9d27",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-15T08:35:12+02:00",
+            "subject": "TableGen: Add none_of for negating features in AssemblerPredicate (#232021)"
+        },
+        {
+            "hash": "fc8ebf44c4e8ae36f9895b75bfb31aa05a8868ef",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-15T08:35:13+02:00",
+            "subject": "Targets: Use none_of instead of not in AssemblerPredicate conditions (#232033)"
+        },
+        {
+            "hash": "5f24abfb0da8ebc3b33655052bd0c21ad4b933d2",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-15T08:36:28+02:00",
+            "subject": "[CIR] Lower undef and poison initializers of any type in CXXABILowering (#230901)"
+        },
+        {
+            "hash": "b4effb258020e5a9d91994699d91f8a1bf3b8e1f",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-15T08:41:44+02:00",
+            "subject": "TableGen: Cache resolved class instantiations (#231091)"
+        },
+        {
+            "hash": "f905f79ea61839cdb8e446b6ca43dd5ffadd2487",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-15T09:46:20+03:00",
+            "subject": "[EarlyIfConversion] Limit critical-path growth for strongly biased branches (#228709)"
+        },
+        {
+            "hash": "bc8218b282ea64c08087dfc5e1c5955349afc9ee",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-10-14T23:54:02-07:00",
+            "subject": "[Option] Make OptionsStruct per-context by default (#232170)"
+        },
+        {
+            "hash": "44254ded6d0bea179cbe74ab157cd72381431302",
+            "author_name": "Barbara Mitic",
+            "commit_date": "2026-10-15T09:03:54+02:00",
+            "subject": "[AMDGPU] Don't apply the memory cluster budget to hard clause formation (#229445)"
+        },
+        {
+            "hash": "9682824cc06476eea34368b06ab43da7f1a80b9f",
+            "author_name": "Yuma Kakei \/ DyTect",
+            "commit_date": "2026-10-15T07:06:30+00:00",
+            "subject": "[SanitizerCoverage][NFC] Add funclet-bundle.ll and regenerate wineh.ll (#231751)"
+        },
+        {
+            "hash": "80ef20addc82619c07b6deaec5f9995000b5dd16",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-15T09:13:33+02:00",
+            "subject": "[bolt] Don't compile installed binary with --emit-relocs (#231819)"
+        },
+        {
+            "hash": "6bae9422e7bc64df5be5e590329161be91016d4f",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-15T09:30:21+02:00",
+            "subject": "[SPIR-V] Do not emit a declaration for an unused personality (#232200)"
+        },
+        {
+            "hash": "d3ad7fe9f82ea7aa48755320c03233acd7db7938",
+            "author_name": "Steffen Larsen",
+            "commit_date": "2026-10-15T07:32:22+00:00",
+            "subject": "[clang][CIR][CUDA][HIP] Unify CUDA decl emission check (NFC) (#231153)"
+        },
+        {
+            "hash": "b03581ba0ca66a153ba591b2a1dbf9d2df3507b2",
+            "author_name": "David Green",
+            "commit_date": "2026-10-15T07:43:16+00:00",
+            "subject": "[AArch64][GlobalISel] Improve MOVI constant splat lower (#229241)"
+        },
+        {
+            "hash": "02f16a1e3ade5a3ea045bba7b18ccccd91986d66",
+            "author_name": "Alexander Shaposhnikov",
+            "commit_date": "2026-10-15T00:48:49-07:00",
+            "subject": "[mlir][SPIR-V] Support CPacked decorations in binary round trips (#232192)"
+        },
+        {
+            "hash": "a3996ca113a50c0f20e89c82c310d2cd3292e14f",
+            "author_name": "Alex Duran",
+            "commit_date": "2026-10-15T09:50:06+02:00",
+            "subject": "[Offload][L0] Adjust incorrectly reported limits for Level Zero (#231913)"
+        },
+        {
+            "hash": "0173f46b7d9ddf1aba1394f5f6d04571a29c5d57",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-10-15T00:50:49-07:00",
+            "subject": "[CIR][CMake] Add PCH for clangCIR. NFC (#231068)"
+        },
+        {
+            "hash": "cb6902729b96665543a40906f2f19eba312cd7eb",
+            "author_name": "Vaisman",
+            "commit_date": "2026-10-15T18:51:09+11:00",
+            "subject": "[mlir][nvgpu] Preserve unsigned types in MMA lowering to NVVM (#224837)"
+        },
+        {
+            "hash": "ce59d913e0f2c0ab31e48f3d3edbccd895b04428",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-10-15T08:52:26+01:00",
+            "subject": "[DebugInfo] Skip instruction ordering without debug values (NFC) (#231943)"
+        },
+        {
+            "hash": "d1ed1de8a741841da1769c21af7856d8b864d1f0",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-15T00:59:27-07:00",
+            "subject": "[clang] Migrate away from PointerUnion::dyn_cast (NFC) (#232179)"
+        },
+        {
+            "hash": "79005f6c5612dcf31c99a2cbeeae19f29856ecab",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-15T00:59:40-07:00",
+            "subject": "[DebugInfo] Remove more dead debug intrinsic handling (NFC) (#232180)"
+        },
+        {
+            "hash": "c4fad29292a616ffa97a0085837a21f6cbca2457",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-15T08:02:36+00:00",
+            "subject": "IR: Speed up AttrBuilder merge (#232204)"
+        },
+        {
+            "hash": "23c5322b0bc38a6bcd22f26d06e230b2845e68a0",
+            "author_name": "Sander de Smalen",
+            "commit_date": "2026-10-15T09:04:40+01:00",
+            "subject": "[AArch64][SME] NFC: Add inline test for gather. (#231897)"
+        },
+        {
+            "hash": "fee08048551c6b9232a27411bc38b15eac4250b7",
+            "author_name": "Adam Siemieniuk",
+            "commit_date": "2026-10-15T10:07:19+02:00",
+            "subject": "[mlir][math] Expose math patterns as transforms (#230042)"
+        },
+        {
+            "hash": "75a92c26ffc74070cfae6319e6c28e40602dfc8d",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-10-15T01:14:32-07:00",
+            "subject": "[Mips,RISCV,Sparc] Make options per-context (#232210)"
+        },
+        {
+            "hash": "e915504aa2d52a25f1c5383c5dde469880cd5ad3",
+            "author_name": "Vladi Krapp",
+            "commit_date": "2026-10-15T09:24:33+01:00",
+            "subject": "[libcxx] Include <ctime> directly in header that uses struct tm (#231158)"
+        },
+        {
+            "hash": "80017ba18d8c8866713586fa19245f0878b4f8a2",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-15T10:32:39+02:00",
+            "subject": "TableGen: Store classes and defs in a StringMap (#231573)"
+        },
+        {
+            "hash": "056ff3498aa01efc664aebccb9599402d6df6bc0",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-15T08:38:19+00:00",
+            "subject": "[VPlan] Add missed maybe_unused to createSIVSteps (NFC) (#232216)"
+        },
+        {
+            "hash": "5811bed9aa934ea4b6a80db81a3971f8448cc7de",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-10-15T09:45:58+01:00",
+            "subject": "[lldb] Disable flaky TestConcurrentTwoWatchpointsOneSignal (#231566)"
+        },
+        {
+            "hash": "884fb100cf85bf7e02e0c8f6aaa89b14e7b3786b",
+            "author_name": "Fabrice de Gans",
+            "commit_date": "2026-10-15T08:47:41+00:00",
+            "subject": "[Analysis] Remove virtual functions in RegionInfoBase (#231958)"
+        },
+        {
+            "hash": "604173d075b0b51c5b7b4b417dc92127149cab36",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-15T10:49:13+02:00",
+            "subject": "[SPIR-V] Avoid duplicate untyped pointer types per storage class (#232184)"
+        },
+        {
+            "hash": "003b96e3b67cb9f4fe51d63e8fa964a05cdf5e96",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-10-15T08:51:23+00:00",
+            "subject": "[lldb] Add TSan supression for tests (#231565)"
+        },
+        {
+            "hash": "a95de3678c471175336eacda36a1a595a0c04b0b",
+            "author_name": "Popie",
+            "commit_date": "2026-10-15T09:55:01+01:00",
+            "subject": "[flang] Reject oversized -ffixed-line-length values (#229972)"
+        },
+        {
+            "hash": "493c91d3e25cda8809a18041aa44d57c3ddd499e",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-10-15T10:55:51+02:00",
+            "subject": "[clang][bytecode] Use `ConstantExpr` result for non-primitive APValues (#231886)"
+        },
+        {
+            "hash": "24b1279fad0c5b1174ea7f85ddd632776a2bb4dc",
+            "author_name": "Younan Zhang",
+            "commit_date": "2026-10-15T08:59:39+00:00",
+            "subject": "[Clang] Fix build of PackIndexingTypeLocs (#232194)"
+        },
+        {
+            "hash": "714e62b6d430dbbfe6e2b372c07b27d07ce2f46d",
+            "author_name": "Dharuni R Acharya",
+            "commit_date": "2026-10-15T14:34:12+05:30",
+            "subject": "[MLIR][NVVM] Add support for pzo in FP8\/FP6\/FP4 convert Ops (#229660)"
+        },
+        {
+            "hash": "a39eb142e6505a781a14bb7828e49cb8ec6660b6",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-10-15T11:06:29+02:00",
+            "subject": "[clang][bytecode][NFC] Refactor `alignOfType` (#232193)"
+        },
+        {
+            "hash": "1ac96b020a4ee54f36b4fcfc3ee3482e3ee72728",
+            "author_name": "Chaitanya",
+            "commit_date": "2026-10-15T14:51:36+05:30",
+            "subject": "[flang][OpenMP] Recompute descriptor across workdistribute target fission (#225607)"
+        },
+        {
+            "hash": "81a8d38739fb3e705ff046648bb15dee5095676e",
+            "author_name": "Chibuoyim (Wilson) Ogbonna",
+            "commit_date": "2026-10-15T17:27:58+08:00",
+            "subject": "[MLIR][Linalg] Add support for folding reduce_or and reduce_and of a broadcast (#227013)"
+        },
+        {
+            "hash": "f869d0ba403123753502f993c3153d363ca30dbd",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-10-15T11:29:25+02:00",
+            "subject": "[clang][bytecode] Fix `Pointer::getType()` for ObjC blocks (#232186)"
+        },
+        {
+            "hash": "c590d289cfca3313d0b4c2b6eb4f730ea1dd500c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-15T09:30:12+00:00",
+            "subject": "[IR] Verify oracle functions are only used by llvm.speculative.load. (#226669)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
