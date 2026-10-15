@@ -1,0 +1,236 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage2.sh" failed
+
+STDOUT:
+2  clang++   0x0000564af0ef4ad8
+3  libc.so.6 0x00007fa471f4b520
+4  libc.so.6 0x00007fa4720af88d
+5  clang++   0x0000564af15bc757 clang::CodeGen::CodeGenFunction::ConstantFoldsToSimpleInteger(clang::Expr const*, bool&, bool) + 503
+6  clang++   0x0000564af15c0e52 clang::CodeGen::CodeGenFunction::EmitBranchOnBoolExpr(clang::Expr const*, llvm::BasicBlock*, llvm::BasicBlock*, unsigned long, clang::Stmt::Likelihood, clang::Expr const*, clang::VarDecl const*) + 2802
+7  clang++   0x0000564af15c0cf6 clang::CodeGen::CodeGenFunction::EmitBranchOnBoolExpr(clang::Expr const*, llvm::BasicBlock*, llvm::BasicBlock*, unsigned long, clang::Stmt::Likelihood, clang::Expr const*, clang::VarDecl const*) + 2454
+8  clang++   0x0000564af15c0c6f clang::CodeGen::CodeGenFunction::EmitBranchOnBoolExpr(clang::Expr const*, llvm::BasicBlock*, llvm::BasicBlock*, unsigned long, clang::Stmt::Likelihood, clang::Expr const*, clang::VarDecl const*) + 2319
+9  clang++   0x0000564af15c0cf6 clang::CodeGen::CodeGenFunction::EmitBranchOnBoolExpr(clang::Expr const*, llvm::BasicBlock*, llvm::BasicBlock*, unsigned long, clang::Stmt::Likelihood, clang::Expr const*, clang::VarDecl const*) + 2454
+10 clang++   0x0000564af15c0f0b clang::CodeGen::CodeGenFunction::EmitBranchOnBoolExpr(clang::Expr const*, llvm::BasicBlock*, llvm::BasicBlock*, unsigned long, clang::Stmt::Likelihood, clang::Expr const*, clang::VarDecl const*) + 2987
+11 clang++   0x0000564af15c0f0b clang::CodeGen::CodeGenFunction::EmitBranchOnBoolExpr(clang::Expr const*, llvm::BasicBlock*, llvm::BasicBlock*, unsigned long, clang::Stmt::Likelihood, clang::Expr const*, clang::VarDecl const*) + 2987
+12 clang++   0x0000564af15c0f0b clang::CodeGen::CodeGenFunction::EmitBranchOnBoolExpr(clang::Expr const*, llvm::BasicBlock*, llvm::BasicBlock*, unsigned long, clang::Stmt::Likelihood, clang::Expr const*, clang::VarDecl const*) + 2987
+13 clang++   0x0000564af155aea4 clang::CodeGen::CodeGenFunction::EmitIfStmt(clang::IfStmt const&) + 1300
+14 clang++   0x0000564af155b8fb clang::CodeGen::CodeGenFunction::EmitCompoundStmtWithoutScope(clang::CompoundStmt const&, bool, clang::CodeGen::AggValueSlot) + 91
+15 clang++   0x0000564af155bf81 clang::CodeGen::CodeGenFunction::EmitSimpleStmt(clang::Stmt const*, llvm::ArrayRef<clang::Attr const*>) + 689
+16 clang++   0x0000564af1552e43 clang::CodeGen::CodeGenFunction::EmitStmt(clang::Stmt const*, llvm::ArrayRef<clang::Attr const*>) + 147
+17 clang++   0x0000564af155af5c clang::CodeGen::CodeGenFunction::EmitIfStmt(clang::IfStmt const&) + 1484
+18 clang++   0x0000564af155b028 clang::CodeGen::CodeGenFunction::EmitIfStmt(clang::IfStmt const&) + 1688
+19 clang++   0x0000564af155b8fb clang::CodeGen::CodeGenFunction::EmitCompoundStmtWithoutScope(clang::CompoundStmt const&, bool, clang::CodeGen::AggValueSlot) + 91
+20 clang++   0x0000564af15bbe9c clang::CodeGen::CodeGenFunction::EmitFunctionBody(clang::Stmt const*) + 172
+21 clang++   0x0000564af15cd8f3 clang::CodeGen::CodeGenFunction::GenerateCode(clang::GlobalDecl, llvm::Function*, clang::CodeGen::CGFunctionInfo const&) + 1059
+22 clang++   0x0000564af1622292 clang::CodeGen::CodeGenModule::EmitGlobalFunctionDefinition(clang::GlobalDecl, llvm::GlobalValue*) + 2210
+23 clang++   0x0000564af161bc2c clang::CodeGen::CodeGenModule::EmitGlobalDefinition(clang::GlobalDecl, llvm::GlobalValue*) + 492
+24 clang++   0x0000564af161c6f3 clang::CodeGen::CodeGenModule::EmitGlobal(clang::GlobalDecl) + 2611
+25 clang++   0x0000564af1626a5d
+26 clang++   0x0000564af19729e9
+27 clang++   0x0000564af1967947 clang::BackendConsumer::HandleTopLevelDecl(clang::DeclGroupRef) + 151
+28 clang++   0x0000564af2e96bcc clang::ParseAST(clang::Sema&, bool, bool) + 508
+29 clang++   0x0000564af1cd2132 clang::FrontendAction::Execute() + 50
+30 clang++   0x0000564af1c514c2 clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) + 722
+31 clang++   0x0000564af1d9aa58 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) + 248
+32 clang++   0x0000564aef7d49e8 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) + 4584
+33 clang++   0x0000564aef7cca7b
+34 clang++   0x0000564aef7ccb33
+35 clang++   0x0000564af19ee62d
+36 clang++   0x0000564af0ef4e47 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) + 39
+37 clang++   0x0000564af19ef94c
+38 clang++   0x0000564af19ac2c7 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const + 167
+39 clang++   0x0000564af19b06d7 clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const + 295
+40 clang++   0x0000564af19c292c clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) + 364
+41 clang++   0x0000564aef7d185f clang_main(int, char**, llvm::ToolContext const&) + 7791
+42 clang++   0x0000564aef77281a main + 122
+43 libc.so.6 0x00007fa471f32d90
+44 libc.so.6 0x00007fa471f32e40 __libc_start_main + 128
+45 clang++   0x0000564aef7cc4f5 _start + 37
+clang++: error: clang frontend command failed due to signal (use -v to see invocation)
+clang version 24.0.0git
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /tmp/llvm-project-build-stage1/bin
+clang++: note: diagnostic msg: 
+********************
+
+PLEASE ATTACH THE FOLLOWING CRASH REPRODUCER FILES TO THE BUG REPORT:
+clang++: note: diagnostic msg: /tmp/ASTContext-3c6eaa.cpp
+clang++: note: diagnostic msg: /tmp/ASTContext-3c6eaa.sh
+clang++: note: diagnostic msg: 
+
+********************
+/tmp/llvm-project-build-stage1/bin/clang++: Segmentation fault
+[2624/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclObjC.cpp.o
+[2625/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclTemplate.cpp.o
+[2626/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConcepts.cpp.o
+[2627/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclBase.cpp.o
+[2628/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTDumper.cpp.o
+[2629/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprClassification.cpp.o
+[2630/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprObjC.cpp.o
+[2631/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclPrinter.cpp.o
+[2632/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclCXX.cpp.o
+[2633/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/GlobalDecl.cpp.o
+[2634/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExternalASTSource.cpp.o
+[2635/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTImporterLookupTable.cpp.o
+[2636/3164] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ToolChains/Clang.cpp.o
+[2637/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprCXX.cpp.o
+[2638/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/BitcastBuffer.cpp.o
+[2639/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExternalASTMerger.cpp.o
+[2640/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/FormatString.cpp.o
+[2641/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/InferAlloc.cpp.o
+[2642/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/InheritViz.cpp.o
+[2643/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Decl.cpp.o
+[2644/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Function.cpp.o
+[2645/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Descriptor.cpp.o
+[2646/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltinObjectSize.cpp.o
+[2647/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Floating.cpp.o
+[2648/3164] Building CXX object tools/clang/lib/CodeGen/CMakeFiles/obj.clangCodeGen.dir/cmake_pch.hxx.pch
+[2649/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Context.cpp.o
+[2650/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/ByteCodeEmitter.cpp.o
+[2651/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InitMap.cpp.o
+[2652/3164] Building CXX object tools/clang/lib/Driver/CMakeFiles/obj.clangDriver.dir/ModulesDriver.cpp.o
+[2653/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/DynamicAllocator.cpp.o
+[2654/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBlock.cpp.o
+[2655/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/EvaluationResult.cpp.o
+[2656/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltinBitCast.cpp.o
+[2657/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Disasm.cpp.o
+[2658/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Expr.cpp.o
+[2659/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpStack.cpp.o
+[2660/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpFrame.cpp.o
+[2661/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Source.cpp.o
+[2662/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/PrimType.cpp.o
+[2663/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Record.cpp.o
+[2664/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpState.cpp.o
+[2665/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpShared.cpp.o
+[2666/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/State.cpp.o
+[2667/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ParentMapContext.cpp.o
+[2668/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/HLSLResource.cpp.o
+[2669/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTImporter.cpp.o
+[2670/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/MemberPointer.cpp.o
+[2671/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Program.cpp.o
+[2672/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ItaniumCXXABI.cpp.o
+[2673/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/NestedNameSpecifier.cpp.o
+[2674/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Pointer.cpp.o
+[2675/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/NSAPI.cpp.o
+[2676/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/MicrosoftCXXABI.cpp.o
+[2677/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/OSLog.cpp.o
+[2678/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/OpenACCClause.cpp.o
+[2679/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o
+[2680/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Mangle.cpp.o
+[2681/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ODRHash.cpp.o
+[2682/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ParentMap.cpp.o
+[2683/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/QualTypeNames.cpp.o
+[2684/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/PrintfFormatString.cpp.o
+[2685/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Randstruct.cpp.o
+[2686/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/RecordLayout.cpp.o
+[2687/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/SelectorLocationsKind.cpp.o
+[2688/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ODRDiagsEmitter.cpp.o
+[2689/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltin.cpp.o
+[2690/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtCXX.cpp.o
+[2691/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtIterator.cpp.o
+[2692/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/RawCommentList.cpp.o
+[2693/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtObjC.cpp.o
+[2694/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ScanfFormatString.cpp.o
+[2695/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtViz.cpp.o
+[2696/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtOpenACC.cpp.o
+[2697/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/OpenMPClause.cpp.o
+[2698/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/JSONNodeDumper.cpp.o
+[2699/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/TemplateName.cpp.o
+[2700/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/TemplateBase.cpp.o
+[2701/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtOpenMP.cpp.o
+[2702/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtProfile.cpp.o
+[2703/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ItaniumMangle.cpp.o
+[2704/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/VTTBuilder.cpp.o
+[2705/3164] Building CXX object tools/clang/lib/ASTMatchers/CMakeFiles/obj.clangASTMatchers.dir/LowLevelHelpers.cpp.o
+[2706/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Stmt.cpp.o
+[2707/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/RecordLayoutBuilder.cpp.o
+[2708/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/MicrosoftMangle.cpp.o
+[2709/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/AttrImpl.cpp.o
+[2710/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/TypeLoc.cpp.o
+[2711/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtPrinter.cpp.o
+[2712/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/TypePrinter.cpp.o
+[2713/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DynamicRecursiveASTVisitor.cpp.o
+[2714/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/HeuristicResolver.cpp.o
+[2715/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/DelayedDiagnostic.cpp.o
+[2716/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Type.cpp.o
+[2717/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/IdentifierResolver.cpp.o
+[2718/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/Scope.cpp.o
+[2719/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/DeclSpec.cpp.o
+[2720/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/ScopeInfo.cpp.o
+[2721/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/HLSLBuiltinTypeDeclBuilder.cpp.o
+[2722/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/CodeCompleteConsumer.cpp.o
+[2723/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/JumpDiagnostics.cpp.o
+[2724/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/MultiplexExternalSemaSource.cpp.o
+[2725/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/VTableBuilder.cpp.o
+[2726/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConstant.cpp.o
+[2727/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/HLSLExternalSemaSource.cpp.o
+[2728/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/TextNodeDumper.cpp.o
+[2729/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/EvalEmitter.cpp.o
+[2730/3164] Building CXX object tools/clang/lib/ASTMatchers/CMakeFiles/obj.clangASTMatchers.dir/ASTMatchersInternal.cpp.o
+[2731/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaAVR.cpp.o
+[2732/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaBPF.cpp.o
+[2733/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaAMDGPU.cpp.o
+[2734/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaBase.cpp.o
+[2735/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaAccess.cpp.o
+[2736/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/AnalysisBasedWarnings.cpp.o
+[2737/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaConsumer.cpp.o
+[2738/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaBoundsSafety.cpp.o
+[2739/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaCXXScopeSpec.cpp.o
+[2740/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaAvailability.cpp.o
+[2741/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaAttr.cpp.o
+[2742/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/ParsedAttr.cpp.o
+[2743/3164] Building CXX object tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Interp.cpp.o
+[2744/3164] Linking CXX static library lib/libclangAST.a
+FAILED: lib/libclangAST.a 
+: && /usr/bin/cmake -E rm -f lib/libclangAST.a && /tmp/llvm-project-build-stage1/bin/llvm-ar Dqc lib/libclangAST.a  tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/APValue.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTConcept.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTConsumer.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTContext.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTDiagnostic.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTDumper.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTImporter.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTImporterLookupTable.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTStructuralEquivalence.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTTypeTraits.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/AttrDocTable.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/AttrImpl.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Availability.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Comment.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentBriefParser.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentCommandTraits.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentLexer.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentParser.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CommentSema.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ComparisonCategories.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ComputeDependence.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/CXXInheritance.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DataCollection.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Decl.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclarationName.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclBase.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclCXX.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclFriend.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclGroup.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclObjC.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclOpenACC.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclOpenMP.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclPrinter.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DeclTemplate.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/DynamicRecursiveASTVisitor.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ParentMapContext.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Expr.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprClassification.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConcepts.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprConstant.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprCXX.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExprObjC.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExternalASTMerger.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ExternalASTSource.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/FormatString.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/GlobalDecl.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/InferAlloc.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/InheritViz.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/BitcastBuffer.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/ByteCodeEmitter.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Compiler.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Context.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Descriptor.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Disasm.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/EvalEmitter.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Function.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltin.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltinBitCast.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBuiltinObjectSize.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Floating.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/EvaluationResult.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/DynamicAllocator.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InitMap.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Interp.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpBlock.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpFrame.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpStack.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpState.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Pointer.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/PrimType.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Program.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Record.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/Source.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/State.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/MemberPointer.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ByteCode/InterpShared.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/HLSLResource.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ItaniumCXXABI.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ItaniumMangle.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/JSONNodeDumper.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Mangle.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/MicrosoftCXXABI.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/MicrosoftMangle.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/NestedNameSpecifier.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/NSAPI.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ODRDiagsEmitter.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ODRHash.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/OpenACCClause.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/OpenMPClause.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/OSLog.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ParentMap.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/PrintfFormatString.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/QualTypeNames.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Randstruct.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/RawCommentList.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/RecordLayout.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/RecordLayoutBuilder.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ScanfFormatString.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/SelectorLocationsKind.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Stmt.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtCXX.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtIterator.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtObjC.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtOpenACC.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtOpenMP.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtPrinter.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtProfile.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/StmtViz.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/TemplateBase.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/TemplateName.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/TextNodeDumper.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/Type.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/TypeLoc.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/TypePrinter.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/VTableBuilder.cpp.o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/VTTBuilder.cpp.o && /tmp/llvm-project-build-stage1/bin/llvm-ranlib -D lib/libclangAST.a && :
+/tmp/llvm-project-build-stage1/bin/llvm-ar: error: tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ASTContext.cpp.o: No such file or directory
+[2745/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaAPINotes.cpp.o
+[2746/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaDirectX.cpp.o
+[2747/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaCast.cpp.o
+[2748/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/Sema.cpp.o
+[2749/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaCUDA.cpp.o
+[2750/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaARM.cpp.o
+[2751/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaCoroutine.cpp.o
+[2752/3164] Building CXX object tools/clang/lib/ASTMatchers/CMakeFiles/obj.clangASTMatchers.dir/ASTMatchFinder.cpp.o
+[2753/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaCodeComplete.cpp.o
+[2754/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaDeclObjC.cpp.o
+[2755/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaChecking.cpp.o
+[2756/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaDeclAttr.cpp.o
+[2757/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaDeclCXX.cpp.o
+[2758/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaConcept.cpp.o
+[2759/3164] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaDecl.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning (policy) at cmake/modules/HandleLLVMOptions.cmake:960 (CHECK_C_SOURCE_COMPILES):
+  Policy CMP0219 is not set: Macro invocations preserve backslashes in
+  arguments.  Run "cmake --help-policy CMP0219" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  Command "CHECK_C_SOURCE_COMPILES" called with arguments containing
+  backslashes.
+
+  Since the policy is not set, backslashes in the arguments:
+
+   "// \\\n//\nint main(void) {return 0;}"
+
+  will be interpreted as escape sequences for compatibility.
+
+  Set the policy to NEW to instead pass
+
+   "// \\\\\\n//\\nint main(void) {return 0;}"
+
+  so that argument parsing will preserve the original values.
+Call Stack (most recent call first):
+  CMakeLists.txt:1144 (include)
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+CMake Warning (deprecated) at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:518 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+to suppress it.
+
