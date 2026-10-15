@@ -1,0 +1,248 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+[2697/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InsertX87Wait.cpp.o
+[2698/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstCombineIntrinsic.cpp.o
+[2699/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstrFMA3Info.cpp.o
+[2700/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstrFoldTables.cpp.o
+[2701/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86InstrInfo.cpp.o
+[2702/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LFIRewritePass.cpp.o
+[2703/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LoadValueInjectionLoadHardening.cpp.o
+[2704/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86ShuffleDecodeConstantPool.cpp.o
+[2705/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86CompressEVEX.cpp.o
+[2706/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SpeculativeLoadHardening.cpp.o
+[2707/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86LoadValueInjectionRetHardening.cpp.o
+[2708/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SpeculativeExecutionSideEffectSuppression.cpp.o
+[2709/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86Subtarget.cpp.o
+[2710/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/HLSLBuiltinTypeDeclBuilder.cpp.o
+[2711/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86SuppressAPXForReloc.cpp.o
+[2712/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetObjectFile.cpp.o
+[2713/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetMachine.cpp.o
+[2714/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86WinEHState.cpp.o
+[2715/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86TargetTransformInfo.cpp.o
+[2716/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86WinEHUnwindV3.cpp.o
+[2717/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/GISel/X86CallLowering.cpp.o
+[2718/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/X86WinEHUnwindV2.cpp.o
+[2719/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/GISel/X86InstructionSelector.cpp.o
+[2720/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/GISel/X86LegalizerInfo.cpp.o
+[2721/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/GISel/X86PostLegalizerCombiner.cpp.o
+[2722/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/GISel/X86RegisterBankInfo.cpp.o
+[2723/3441] Building CXX object lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/GISel/X86PreLegalizerCombiner.cpp.o
+[2724/3441] Building CXX object lib/Target/X86/AsmParser/CMakeFiles/LLVMX86AsmParser.dir/X86AsmParser.cpp.o
+[2725/3441] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ATTInstPrinter.cpp.o
+[2726/3441] Building CXX object lib/Target/X86/Disassembler/CMakeFiles/LLVMX86Disassembler.dir/X86Disassembler.cpp.o
+[2727/3441] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86IntelInstPrinter.cpp.o
+[2728/3441] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86InstComments.cpp.o
+[2729/3441] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86InstPrinterCommon.cpp.o
+[2730/3441] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ShuffleDecode.cpp.o
+[2731/3441] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86EncodingOptimization.cpp.o
+[2732/3441] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86AsmBackend.cpp.o
+[2733/3441] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCTargetDesc.cpp.o
+[2734/3441] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCAsmInfo.cpp.o
+[2735/3441] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCCodeEmitter.cpp.o
+[2736/3441] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MCLFIRewriter.cpp.o
+[2737/3441] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MachObjectWriter.cpp.o
+[2738/3441] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86MnemonicTables.cpp.o
+[2739/3441] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86ELFObjectWriter.cpp.o
+[2740/3441] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFObjectWriter.cpp.o
+[2741/3441] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFStreamer.cpp.o
+[2742/3441] Building CXX object lib/Target/X86/TargetInfo/CMakeFiles/LLVMX86Info.dir/X86TargetInfo.cpp.o
+[2743/3441] Building CXX object lib/Target/X86/MCTargetDesc/CMakeFiles/LLVMX86Desc.dir/X86WinCOFFTargetStreamer.cpp.o
+[2744/3441] Linking CXX static library lib/libLLVMSandboxIR.a
+[2745/3441] Linking CXX static library lib/libLLVMTextAPIBinaryReader.a
+[2746/3441] Linking CXX static library lib/libLLVMX86Info.a
+[2747/3441] Linking CXX static library lib/libLLVMDlltoolDriver.a
+[2748/3441] Generating VCSVersion.inc
+[2749/3441] Linking CXX static library lib/libLLVMLibDriver.a
+[2750/3441] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/DriverDispatcher.cpp.o
+[2751/3441] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Args.cpp.o
+[2752/3441] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/CommonLinkerContext.cpp.o
+[2753/3441] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/DWARF.cpp.o
+[2754/3441] Linking CXX static library lib/libLLVMX86Disassembler.a
+[2755/3441] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/ErrorHandler.cpp.o
+[2756/3441] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Memory.cpp.o
+[2757/3441] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Reproduce.cpp.o
+[2758/3441] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Filesystem.cpp.o
+[2759/3441] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Strings.cpp.o
+[2760/3441] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/TargetOptionsCommandFlags.cpp.o
+[2761/3441] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Timer.cpp.o
+[2762/3441] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Utils.cpp.o
+[2763/3441] Building CXX object tools/lld/Common/CMakeFiles/lldCommon.dir/Version.cpp.o
+[2764/3441] Linking CXX static library lib/libLLVMX86Desc.a
+[2765/3441] Linking CXX static library lib/liblldCommon.a
+[2766/3441] Linking CXX static library lib/libLLVMX86AsmParser.a
+[2767/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaExprObjC.cpp.o
+[2768/3441] Linking CXX static library lib/libclangBasic.a
+[2769/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaFixItUtils.cpp.o
+[2770/3441] Linking CXX static library lib/libclangAPINotes.a
+[2771/3441] Linking CXX static library lib/libclangLex.a
+[2772/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaFunctionEffects.cpp.o
+[2773/3441] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseHLSL.cpp.o
+[2774/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaHexagon.cpp.o
+[2775/3441] Linking CXX static library lib/libclangAST.a
+[2776/3441] Linking CXX static library lib/libclangASTMatchers.a
+[2777/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaLambda.cpp.o
+[2778/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaLookup.cpp.o
+[2779/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaLoongArch.cpp.o
+[2780/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaM68k.cpp.o
+[2781/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaMIPS.cpp.o
+[2782/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaMSP430.cpp.o
+[2783/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaModule.cpp.o
+[2784/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/HLSLExternalSemaSource.cpp.o
+[2785/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaNVPTX.cpp.o
+[2786/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaObjC.cpp.o
+[2787/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaObjCProperty.cpp.o
+[2788/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaOpenACC.cpp.o
+[2789/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaOpenACCAtomic.cpp.o
+[2790/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaOpenACCClause.cpp.o
+[2791/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaOpenACCClauseAppertainment.cpp.o
+[2792/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaOpenCL.cpp.o
+[2793/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaOverload.cpp.o
+[2794/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaPPC.cpp.o
+[2795/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaPseudoObject.cpp.o
+[2796/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaRISCV.cpp.o
+[2797/3441] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseHLSLRootSignature.cpp.o
+[2798/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaStmtAsm.cpp.o
+[2799/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaStmtAttr.cpp.o
+[2800/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaSPIRV.cpp.o
+[2801/3441] Building CXX object tools/clang/lib/Parse/CMakeFiles/obj.clangParse.dir/ParseDeclCXX.cpp.o
+[2802/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaSwift.cpp.o
+[2803/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaSystemZ.cpp.o
+[2804/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaCast.cpp.o
+[2805/3441] Building AArch64GenInstrInfo.inc...
+[2806/3441] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o
+FAILED: lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Transforms/Vectorize -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-unused-but-set-parameter -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o -MF lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o.d -o lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/SLPVectorizer.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30360:30: error: ‘map’ in namespace ‘std’ does not name a template type
+30360 |   using DistToInstMap = std::map<int64_t, unsigned>;
+      |                              ^~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:107:1: note: ‘std::map’ is defined in header ‘<map>’; did you forget to ‘#include <map>’?
+  106 | #include <cassert>
+  +++ |+#include <map>
+  107 | #include <cstdint>
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30361:9: error: ‘DistToInstMap’ does not name a type
+30361 |   const DistToInstMap &getStores() const { return Instrs; }
+      |         ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30395:3: error: ‘DistToInstMap’ does not name a type
+30395 |   DistToInstMap Instrs;
+      |   ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: In member function ‘void {anonymous}::RelatedStoreInsts::reset(unsigned int)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30347:5: error: ‘Instrs’ was not declared in this scope
+30347 |     Instrs.clear();
+      |     ^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: In member function ‘std::optional<unsigned int> {anonymous}::RelatedStoreInsts::insertOrLookup(unsigned int, int64_t)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30356:27: error: ‘Instrs’ was not declared in this scope; did you mean ‘InstrIdx’?
+30356 |     auto [It, Inserted] = Instrs.emplace(PtrDist, InstrIdx);
+      |                           ^~~~~~
+      |                           InstrIdx
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: In member function ‘void {anonymous}::RelatedStoreInsts::rebase(unsigned int, unsigned int, int64_t)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30378:5: error: ‘DistToInstMap’ was not declared in this scope
+30378 |     DistToInstMap PrevSet = std::move(Instrs);
+      |     ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30384:33: error: ‘PrevSet’ was not declared in this scope; did you mean ‘reset’?
+30384 |     for (auto [Dist, InstIdx] : PrevSet) {
+      |                                 ^~~~~~~
+      |                                 reset
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: In member function ‘bool llvm::SLPVectorizerPass::vectorizeStores(llvm::ArrayRef<llvm::StoreInst*>, llvm::slpvectorizer::BoUpSLP&, llvm::DenseSet<std::tuple<llvm::Value*, llvm::Value*, llvm::Value*, llvm::Value*, unsigned int> >&, bool)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30414:54: error: ‘DistToInstMap’ in ‘class {anonymous}::RelatedStoreInsts’ does not name a type
+30414 |   auto ExtendContexts = [&](const RelatedStoreInsts::DistToInstMap &StoreSeq) {
+      |                                                      ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30490:4: error: expected ‘)’ before ‘;’ token
+30490 |   };
+      |    ^
+      |    )
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30414:28: note: to match this ‘(’
+30414 |   auto ExtendContexts = [&](const RelatedStoreInsts::DistToInstMap &StoreSeq) {
+      |                            ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: In lambda function:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30490:4: error: expected ‘{’ before ‘;’ token
+30490 |   };
+      |    ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: In lambda function:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30584:37: error: ‘class {anonymous}::RelatedStoreInsts’ has no member named ‘getStores’; did you mean ‘llvm::ArrayRef<llvm::StoreInst*> {anonymous}::RelatedStoreInsts::AllStores’? (not accessible from this context)
+30584 |       ExtendContexts(RelatedStores->getStores());
+      |                                     ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30398:25: note: declared private here
+30398 |   ArrayRef<StoreInst *> AllStores;
+      |                         ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: In member function ‘bool llvm::SLPVectorizerPass::vectorizeStores(llvm::ArrayRef<llvm::StoreInst*>, llvm::slpvectorizer::BoUpSLP&, llvm::DenseSet<std::tuple<llvm::Value*, llvm::Value*, llvm::Value*, llvm::Value*, unsigned int> >&, bool)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30599:33: error: ‘class {anonymous}::RelatedStoreInsts’ has no member named ‘getStores’; did you mean ‘llvm::ArrayRef<llvm::StoreInst*> {anonymous}::RelatedStoreInsts::AllStores’? (not accessible from this context)
+30599 |         ExtendContexts(StoreSeq.getStores());
+      |                                 ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30398:25: note: declared private here
+30398 |   ArrayRef<StoreInst *> AllStores;
+      |                         ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30608:29: error: ‘class {anonymous}::RelatedStoreInsts’ has no member named ‘getStores’; did you mean ‘llvm::ArrayRef<llvm::StoreInst*> {anonymous}::RelatedStoreInsts::AllStores’? (not accessible from this context)
+30608 |     ExtendContexts(StoreSeq.getStores());
+      |                             ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:30398:25: note: declared private here
+30398 |   ArrayRef<StoreInst *> AllStores;
+      |                         ^~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp: At global scope:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/SLPVectorizer.cpp:29959:6: warning: ‘void {anonymous}::StoreChainContext::addOperand(llvm::Value*, unsigned int)’ defined but not used [-Wunused-function]
+29959 | void StoreChainContext::addOperand(Value *Store, unsigned Idx) {
+      |      ^~~~~~~~~~~~~~~~~
+[2807/3441] Building AArch64GenSubtargetInfo.inc...
+[2808/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/Sema.cpp.o
+[2809/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaExprMember.cpp.o
+[2810/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaDeclAttr.cpp.o
+[2811/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaInit.cpp.o
+[2812/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaHLSL.cpp.o
+[2813/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaChecking.cpp.o
+[2814/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaStmt.cpp.o
+[2815/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaExprCXX.cpp.o
+[2816/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaConcept.cpp.o
+[2817/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaDecl.cpp.o
+[2818/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaSYCL.cpp.o
+[2819/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaTemplateDeductionGuide.cpp.o
+[2820/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaTemplateDeduction.cpp.o
+[2821/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaTemplate.cpp.o
+[2822/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaExpr.cpp.o
+[2823/3441] Building CXX object tools/clang/lib/Sema/CMakeFiles/obj.clangSema.dir/SemaOpenMP.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Warning (policy) at cmake/modules/HandleLLVMOptions.cmake:960 (CHECK_C_SOURCE_COMPILES):
+  Policy CMP0219 is not set: Macro invocations preserve backslashes in
+  arguments.  Run "cmake --help-policy CMP0219" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  Command "CHECK_C_SOURCE_COMPILES" called with arguments containing
+  backslashes.
+
+  Since the policy is not set, backslashes in the arguments:
+
+   "// \\\n//\nint main(void) {return 0;}"
+
+  will be interpreted as escape sequences for compatibility.
+
+  Set the policy to NEW to instead pass
+
+   "// \\\\\\n//\\nint main(void) {return 0;}"
+
+  so that argument parsing will preserve the original values.
+Call Stack (most recent call first):
+  CMakeLists.txt:1144 (include)
+This warning is for project developers.  Use -Wno-author or -Wno-policy to
+suppress it.
+
+Precompiled headers are disabled by default with GCC. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override.
+CMake Warning at cmake/modules/HandleLLVMOptions.cmake:1441 (message):
+  Using ccache with precompiled headers with non-Clang compilers is not
+  supported and may lead to false positives.  Set
+  CMAKE_DISABLE_PRECOMPILE_HEADERS to ON/OFF to silence this warning.
+Call Stack (most recent call first):
+  CMakeLists.txt:1144 (include)
+
+
+CMake Warning (deprecated) at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:518 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+to suppress it.
+
+Command exited with non-zero status 1
+500.33user 24.23system 0:50.82elapsed 1032%CPU (0avgtext+0avgdata 2011572maxresident)k
+0inputs+3082488outputs (3776major+14842323minor)pagefaults 0swaps
