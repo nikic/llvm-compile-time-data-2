@@ -264633,6 +264633,12 @@
             "author_name": "Alex Langford",
             "commit_date": "2026-10-15T13:50:16-07:00",
             "subject": "Revert \"[LLDB] Remove fallthrough (#216398)\" (#232476)"
+        },
+        {
+            "hash": "ad3bde367f51c28e8cd42cf0beec187f8020c02f",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-15T22:12:47+01:00",
+            "subject": "[VPlan] Mark VPVectorEndPointerRecipe as not accessing memory. (#232482)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -286709,21 +286715,21 @@
     ],
     "fhahn\/perf\/scev-merge-block-guards2": [
         {
-            "hash": "0f80d762352ef6135c75e893d885d6aee7997286",
-            "author_name": "Alexey Bataev",
-            "commit_date": "2026-10-15T11:38:36-04:00",
-            "subject": "[SLP][NFC]Remove unused headers, NFC"
+            "hash": "05e432a8597fde38ea36d5885215415d879dc959",
+            "author_name": "Stanislav Mekhanoshin",
+            "commit_date": "2026-10-15T12:44:22-07:00",
+            "subject": "[AMDGPU] Support xnack on\/off on gfx125x (#232080)"
         },
         {
-            "hash": "27d1631ba1f5365cb0e94c9ab8124834a8743ce7",
+            "hash": "b337c562dd1943bae9750137a8964360ed946cd1",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-15T16:49:55+01:00",
+            "commit_date": "2026-10-15T22:10:02+01:00",
             "subject": "[SCEV] Look for guard conditions through merge blocks."
         },
         {
-            "hash": "8d20cb1d4ad70bc10b9c9a905c1efdfa6c2bd351",
+            "hash": "c0c19edbe12fc1cc397deeda4e4fbb15f1b5aaa2",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-15T16:49:55+01:00",
+            "commit_date": "2026-10-15T22:10:02+01:00",
             "subject": "[SCEV] Use a single walk to collect guards through merge blocks."
         }
     ],
