@@ -264723,6 +264723,30 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-15T22:54:40+00:00",
             "subject": "[LAA] Add baseline tests and regenerate checks for RMW diff checks (#229774)"
+        },
+        {
+            "hash": "de1a66d7dbe10b246443c027b62a166744bdf6d4",
+            "author_name": "Krzysztof Drewniak",
+            "commit_date": "2026-10-15T15:56:20-07:00",
+            "subject": "[Inliner] Use a disjoint scope domain for noalias arguments (#218769)"
+        },
+        {
+            "hash": "b389fb79d89397520569d669ed0b308a4b5209b3",
+            "author_name": "Dan Blackwell",
+            "commit_date": "2026-10-15T15:57:44-07:00",
+            "subject": "[TSan] skip memcpy of ctx when NULL in sighandler (#217935)"
+        },
+        {
+            "hash": "3b90e2db161842ed88847b9e0c259d35a916298c",
+            "author_name": "Konstantinos Parasyris",
+            "commit_date": "2026-10-15T15:58:19-07:00",
+            "subject": "[CIR] Lower .cir cc1 input to LLVM IR, assembly and objects (#232506)"
+        },
+        {
+            "hash": "002b15cab7621ad5b48d7ce1cb9c24279af0464c",
+            "author_name": "Yongqiang Tian",
+            "commit_date": "2026-10-15T16:02:50-07:00",
+            "subject": "[AMDGPU] Ignore debug instructions in VINTERP wait merging (#229971)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -286829,6 +286853,20 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-15T21:18:38+02:00",
             "subject": "[ValueTracking] Skip assumption lookup when function has none"
+        }
+    ],
+    "davidbolvansky\/perf\/knownbits-select-shortcircuit": [
+        {
+            "hash": "cb1c58d4dd522178bb945815508d473ba0a65a9e",
+            "author_name": "David Young",
+            "commit_date": "2026-10-15T04:56:33-07:00",
+            "subject": "[bazel][lldb] Add ObjectContainerClangOffloadBundle plugin (#232278)"
+        },
+        {
+            "hash": "d7640e5e2f2f106b9d933b8d446f5c8c1c42aa90",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-16T00:59:52+02:00",
+            "subject": "[ValueTracking] Stop analyzing select arms once known bits are unknown"
         }
     ]
 }
