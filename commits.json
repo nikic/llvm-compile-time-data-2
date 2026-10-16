@@ -265917,6 +265917,18 @@
             "author_name": "Craig Topper",
             "commit_date": "2026-10-16T14:16:16-07:00",
             "subject": "[DAGCombiner] Allow (sub 0, (max X, (sub 0, X))) --> (min X, (sub 0, X)) when neither min\/max are legal\/custom. (#232486)"
+        },
+        {
+            "hash": "9895fee4afa5ccc3c2bc6d283f66f9b2ae5cc846",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-10-16T21:20:44+00:00",
+            "subject": "[X86] LowerFunnelShift - handle fsh*(x,y,0) case (#232923)"
+        },
+        {
+            "hash": "3f38810694ad36f3aa8282b412f580f07fdd0d2f",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-10-16T23:22:52+02:00",
+            "subject": "[mlir][DLTI] Introduce an operation interface for scoped DLTI queries (#232733)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
