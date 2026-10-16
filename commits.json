@@ -265677,6 +265677,36 @@
             "author_name": "Jan Leyonberg",
             "commit_date": "2026-10-16T13:42:51-04:00",
             "subject": "[CIR][OpenMP] Fix test broken by #218453 for preserving host capture lifetimes (#232840)"
+        },
+        {
+            "hash": "4e9e7feadf2eaf4664b1bd8af7fcb55f6fe36bdc",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-10-16T17:45:54+00:00",
+            "subject": "[InstCombine] Remove target specific sext(trunc(...)) combine tests. NFC (#230049)"
+        },
+        {
+            "hash": "3c877309aaebded27091bdd2b024d525fd814994",
+            "author_name": "Alan Li",
+            "commit_date": "2026-10-16T10:46:58-07:00",
+            "subject": "[AMDGPU] Fix downward register-pressure queries after bundles (#232398)"
+        },
+        {
+            "hash": "45023976c942f2caf01681ff1f0389d430706231",
+            "author_name": "Adrian Prantl",
+            "commit_date": "2026-10-16T17:48:51+00:00",
+            "subject": "[GlobalISel] Preserve more constant DBG_VALUEs by using vregs (#232110)"
+        },
+        {
+            "hash": "64eb69b652ea2de49bb7d924673d53f98c25bf87",
+            "author_name": "Alex MacLean",
+            "commit_date": "2026-10-16T10:49:52-07:00",
+            "subject": "[NVPTX] Infer address spaces for mbarrier intrinsics (#229272)"
+        },
+        {
+            "hash": "f74aa8fe8c06102c95f9fe4cae6f695fe513e111",
+            "author_name": "Mel Chen",
+            "commit_date": "2026-10-16T17:51:24+00:00",
+            "subject": "[LV] Add tests for partial reduction whose operands come from an interleaved group. nfc (#232417)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
