@@ -265551,6 +265551,30 @@
             "author_name": "Vineet Kumar",
             "commit_date": "2026-10-16T16:33:56+00:00",
             "subject": "[flang][Evaluate] Fold type-only inquiries of conditional arguments (#227466)"
+        },
+        {
+            "hash": "778762d1b0118e1eab5ea9ba06636ff6c730ec1e",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-10-16T17:41:16+01:00",
+            "subject": "[AMDGPU] Fix assembler predicates for GFX13 DS barrier arrive atomics. NFCI. (#231977)"
+        },
+        {
+            "hash": "aa845d04f5c1ef15b9bb24e3f2e64833085acde2",
+            "author_name": "lntue",
+            "commit_date": "2026-10-16T12:41:51-04:00",
+            "subject": "[libc][math] Optimize exp2 and refactor shared double-precision exp utilities. (#231041)"
+        },
+        {
+            "hash": "8decc32fd15a07e95f30c2e7229bc1e549cf0977",
+            "author_name": "Joseph Huber",
+            "commit_date": "2026-10-16T11:43:08-05:00",
+            "subject": "[OpenMP] Fix SPMDszaton pass reordering strict fences (#232481)"
+        },
+        {
+            "hash": "337446dacd2a713010f1c9856c21eb8d899b5613",
+            "author_name": "Jin Huang",
+            "commit_date": "2026-10-16T09:49:56-07:00",
+            "subject": "[profcheck][CrossDSOCFI] Label synthesized __cfi_check profile as explicitly unknown (#232634)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -287889,6 +287913,20 @@
             "author_name": "Anilava Kundu",
             "commit_date": "2026-10-16T17:53:23+02:00",
             "subject": "Infer alignment from dominating branch conditions"
+        }
+    ],
+    "cofibrant\/perf\/cofibrant\/shrink-wrap-phi": [
+        {
+            "hash": "2bcbafb73f884a457f952cbbd6551098e79a4b3b",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-10-15T12:44:11+00:00",
+            "subject": "[LoopIdiom](NFC) Re-generate `popcnt.ll` tests and pre-commit broken test (#232286)"
+        },
+        {
+            "hash": "be882bd448362fa87d1d0f524015047d466f73db",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-10-16T17:46:46+01:00",
+            "subject": "[ShrinkWrap] Teach shrink-wrapper to look through PHIs"
         }
     ]
 }
