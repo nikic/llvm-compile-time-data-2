@@ -264849,6 +264849,18 @@
             "author_name": "Jean-Didier PAILLEUX",
             "commit_date": "2026-10-16T09:20:05+02:00",
             "subject": "[flang] Add check for definability for Image-selector STAT= specifier #224058 (#230031)"
+        },
+        {
+            "hash": "533c70ff9aaac1d380c05156a8b2f7696d3296c6",
+            "author_name": "Michael Kruse",
+            "commit_date": "2026-10-16T09:42:26+02:00",
+            "subject": "[Flang] Introduce common::numeric_limits (#228108)"
+        },
+        {
+            "hash": "1201d9d72a1619080d15cda4f4b251defda7d877",
+            "author_name": "Julian Oppermann",
+            "commit_date": "2026-10-16T09:42:38+02:00",
+            "subject": "[mlir][x86] Add pattern to tile and unroll vector.contract for AMX nanokernel (#229076)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -286563,6 +286575,12 @@
             "author_name": "erichkeane",
             "commit_date": "2026-10-14T20:26:41+02:00",
             "subject": "Fix dyn-lib build. The cir-opt build fixes the linker error, and the Dialect\/Transform\/CMakeLists.txt fixes the linking\/picking up of module attributes'"
+        },
+        {
+            "hash": "4875ec1f002e03ee79b58d712ea439d6a7326a48",
+            "author_name": "erichkeane",
+            "commit_date": "2026-10-16T09:42:12+02:00",
+            "subject": "Make CIR\/MLIR related symbols hidden in libclang-cpp.so."
         }
     ],
     "steffenlarsen\/perf\/steffen\/rebase_attr_decl": [
