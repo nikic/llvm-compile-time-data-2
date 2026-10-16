@@ -265065,6 +265065,12 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-10-16T07:15:38-04:00",
             "subject": "[SLP]Model or-reduction of uniform field extracts as a bit pack"
+        },
+        {
+            "hash": "31a68bdb5babe8f885ff3cbd9a5d4f27dd0c39ae",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-10-16T13:17:38+02:00",
+            "subject": "[lldb][Windows] Enable 61 tests (#231483)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -285915,15 +285921,15 @@
     ],
     "artagnon\/perf\/vplan-first-lane-ct": [
         {
-            "hash": "ccdec282537d0034dcf9100a52568f64164914b7",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-13T11:23:48+01:00",
-            "subject": "[VPlan] Switch fn in replaceUsesWithIf to User ptr (NFC) (#229144)"
+            "hash": "fd8fbbc1ac94d7f710683f153e769c84cc8788f2",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-10-16T09:13:07+00:00",
+            "subject": "[StructurizeCFG] Remove hidden option -structurizecfg-relaxed-uniform-regions (#232645)"
         },
         {
-            "hash": "448207951bd212fd0a65c5db4f24569b76cfd2f3",
+            "hash": "e16a8f34e36d7d0bb955e9c82ecac42bb1ab60fd",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-13T11:54:24+01:00",
+            "commit_date": "2026-10-16T10:37:59+01:00",
             "subject": "[VPlan] Avoid recursive-fan-out of usesFirstLaneOnly"
         }
     ],
@@ -287147,22 +287153,28 @@
     ],
     "fhahn\/perf\/scev-merge-block-guards2": [
         {
-            "hash": "05e432a8597fde38ea36d5885215415d879dc959",
-            "author_name": "Stanislav Mekhanoshin",
-            "commit_date": "2026-10-15T12:44:22-07:00",
-            "subject": "[AMDGPU] Support xnack on\/off on gfx125x (#232080)"
+            "hash": "de17e85a217b726da54e7336fac55c8ca7540001",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-10-16T08:09:30+00:00",
+            "subject": "[ORC] Add InstanceSymbolGenerator for runtime instance symbols (#232575)"
         },
         {
-            "hash": "b337c562dd1943bae9750137a8964360ed946cd1",
+            "hash": "3f91cec3c9e66db42257b6feb2fa6caf8af61126",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-15T22:10:02+01:00",
+            "commit_date": "2026-10-16T09:40:57+01:00",
             "subject": "[SCEV] Look for guard conditions through merge blocks."
         },
         {
-            "hash": "c0c19edbe12fc1cc397deeda4e4fbb15f1b5aaa2",
+            "hash": "f95ddebd1e1231dda5527666503fa0eadaa4a2ea",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-15T22:10:02+01:00",
+            "commit_date": "2026-10-16T09:40:58+01:00",
             "subject": "[SCEV] Use a single walk to collect guards through merge blocks."
+        },
+        {
+            "hash": "0e5adb46fab6baf7fb5ae34f4602fba44d3802b7",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-16T12:12:37+01:00",
+            "subject": "[SCEV] Only collect guards for phis at the first merge block."
         }
     ],
     "davidbolvansky\/perf\/knownbits-empty-assumes": [
