@@ -104283,21 +104283,15 @@
     ],
     "fhahn\/perf\/delete-oracle-functions2": [
         {
-            "hash": "688a1498b3ce9011ee58c214086e3cd408e86f5e",
-            "author_name": "Amit Tiwari",
-            "commit_date": "2026-09-26T19:52:24+05:30",
-            "subject": "[Clang][OpenMP] Optimize `collapse` IV bit-width precision expression (#225612)"
+            "hash": "5d85b8770a6d322645b982948a10ba99f79d759d",
+            "author_name": "Tomas Matheson",
+            "commit_date": "2026-10-16T10:27:29+01:00",
+            "subject": "[OpenMP] Preserve host capture lifetimes in frontend lowering (#218453)"
         },
         {
-            "hash": "b3ec39dc4a1183418aa11469a093e4d6f6a2a757",
+            "hash": "663a322c4138ec03862671ddea9da350891401a3",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-09-26T16:28:35+01:00",
-            "subject": "[IR] Verify oracle functions are only used by llvm.speculative.load."
-        },
-        {
-            "hash": "32ce3faff8770786fde5c1396f06ca7c07cff66a",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-09-26T16:29:02+01:00",
+            "commit_date": "2026-10-16T11:28:16+01:00",
             "subject": "[CodeGen] Discard oracle functions during ISel translation."
         }
     ],
@@ -265029,6 +265023,12 @@
             "author_name": "sstipano",
             "commit_date": "2026-10-16T12:34:51+02:00",
             "subject": "[AMDGPU] Codegen for indexed image\/sampler resources (#231457)"
+        },
+        {
+            "hash": "7c7cdf2dc88396ddb1a78a55d06a640c69e2d47e",
+            "author_name": "Graham Hunter",
+            "commit_date": "2026-10-16T10:41:41+00:00",
+            "subject": "[LV] Remove single use restriction on ee-with-stores condition recipes. (#231137)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
