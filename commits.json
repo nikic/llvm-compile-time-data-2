@@ -265335,6 +265335,30 @@
             "author_name": "Markus B\u00f6ck",
             "commit_date": "2026-10-16T16:26:42+02:00",
             "subject": "[mlir][NVVM][NFC] Predeclare `ModuleTranslation` to improve build times (#232727)"
+        },
+        {
+            "hash": "8014cff797cbae3b923b4d6887cd3d4631244e2b",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-10-16T14:27:45+00:00",
+            "subject": "[CodeGen] Do not check result of getTerminator. NFC. (#232749)"
+        },
+        {
+            "hash": "13ce52583f92dcbb356af5bce5199d2b37d26446",
+            "author_name": "Fateme Hosseini",
+            "commit_date": "2026-10-16T09:29:19-05:00",
+            "subject": "[Hexagon] Optimize vcvt(v0.uh) and vcvt(v0.ub) to hf (#232460)"
+        },
+        {
+            "hash": "6cbfe12a1781f232c2eb06421896665208248f16",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-16T07:33:06-07:00",
+            "subject": "[clang] Replace PointerUnion::dyn_cast with llvm::dyn_cast (NFC) (#232603)"
+        },
+        {
+            "hash": "06d62fc244617b7b3e70c93ec9b28a40c1280261",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-16T07:33:22-07:00",
+            "subject": "[IR] Rename BasicBlock::getFirstNonPHIOrDbg* (NFC) (#232604)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -284135,21 +284159,27 @@
     ],
     "fhahn\/perf\/scev-merge-block-guards": [
         {
-            "hash": "f052b8d1b51bf26c22674fc4d1ba8620ee7e7f93",
-            "author_name": "Ai Nozaki",
-            "commit_date": "2026-10-15T12:16:05+02:00",
-            "subject": "[AllocToken] Cover MSVC replaceable global operator new (#232165)"
+            "hash": "f02c39c13d82f57e63a6b292a5fccb8293988eae",
+            "author_name": "Hung-Kuan Tseng",
+            "commit_date": "2026-10-16T15:00:46+01:00",
+            "subject": "[mlir][linalg] Reject non-unit strides when vectorizing insert_slice (#221293)"
         },
         {
-            "hash": "bfdfd612392a50d3b0851ec61626d7d2826a139c",
+            "hash": "9d77cae9373a372e831d002e1af8fadb3ac6fa41",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-15T11:21:05+01:00",
+            "commit_date": "2026-10-16T15:34:57+01:00",
             "subject": "[SCEV] Add tests with loop guards behind merge blocks."
         },
         {
-            "hash": "53bb9e753b879043ac1ef9b7b92e9311953e25e0",
+            "hash": "3e64f3eb0702e4605c7c7841232c69a245db00bd",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-15T11:29:31+01:00",
+            "commit_date": "2026-10-16T15:36:14+01:00",
+            "subject": "[SCEV] Look for guard conditions through merge blocks."
+        },
+        {
+            "hash": "ff6cca442273ac2d69b56a9c2b22916274bfc545",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-16T15:36:59+01:00",
             "subject": "[SCEV] Look for guard conditions through merge blocks."
         }
     ],
