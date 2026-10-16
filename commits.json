@@ -265977,6 +265977,18 @@
             "author_name": "Minsoo Choo",
             "commit_date": "2026-10-16T18:02:33-04:00",
             "subject": "[lldb] Rename common register metadata providers (#232566)"
+        },
+        {
+            "hash": "9180d9912a97556471c9f3eebf949ff2e013d29a",
+            "author_name": "Mohammed Ashraf",
+            "commit_date": "2026-10-16T15:21:03-07:00",
+            "subject": "[BoundsSafety][NFC] Add counted_by type-shape validation helper (#227774)"
+        },
+        {
+            "hash": "fc06a02474c8884da2da0777c23628c297ff816c",
+            "author_name": "Bill Wendling",
+            "commit_date": "2026-10-16T15:21:25-07:00",
+            "subject": "[clang][OpenMP][NFC] Anchor \"bar\" CHECK-LABELs on the function definition (#232628)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -288355,6 +288367,20 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-16T22:00:45+02:00",
             "subject": "Share directional reachability traversal in DFS"
+        }
+    ],
+    "arsenm\/perf\/ir-use-queries-readonly": [
+        {
+            "hash": "f02c39c13d82f57e63a6b292a5fccb8293988eae",
+            "author_name": "Hung-Kuan Tseng",
+            "commit_date": "2026-10-16T15:00:46+01:00",
+            "subject": "[mlir][linalg] Reject non-unit strides when vectorizing insert_slice (#221293)"
+        },
+        {
+            "hash": "86c0a22e29d4b3f47204558a756119055c15fad9",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-16T15:07:24-07:00",
+            "subject": "IR: Mark use list queries LLVM_READONLY"
         }
     ]
 }
