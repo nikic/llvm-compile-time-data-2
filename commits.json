@@ -265473,6 +265473,24 @@
             "author_name": "lntue",
             "commit_date": "2026-10-16T11:49:32-04:00",
             "subject": "[libc][math] Fix code size issues for powf_float_eval. (#232601)"
+        },
+        {
+            "hash": "de36f27e577925835dd8e52b2725d2aad43ea65a",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-16T11:50:21-04:00",
+            "subject": "[SLP]Limit rejected tree size for PHI seed lists"
+        },
+        {
+            "hash": "91faea9f52a1a5a5ca23d5d22136ea7b6b7754ee",
+            "author_name": "Minsoo Choo",
+            "commit_date": "2026-10-16T11:52:40-04:00",
+            "subject": "[lldb] Normalize renamed register file headers (#232804)"
+        },
+        {
+            "hash": "87141574f4ad37236410f7534f17f358009e5f1b",
+            "author_name": "Daniel Paoliello",
+            "commit_date": "2026-10-16T08:56:11-07:00",
+            "subject": "[aarch64][win] Support .seh_end_c in assembly (#232054)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -287797,6 +287815,20 @@
             "author_name": "D\u00e1vid Bolvansk\u00fd",
             "commit_date": "2026-10-16T15:34:21+02:00",
             "subject": "[MemoryDependence] Avoid discarded query pointer alignment"
+        }
+    ],
+    "nikic\/perf\/infer-align-dc": [
+        {
+            "hash": "1201d9d72a1619080d15cda4f4b251defda7d877",
+            "author_name": "Julian Oppermann",
+            "commit_date": "2026-10-16T09:42:38+02:00",
+            "subject": "[mlir][x86] Add pattern to tile and unroll vector.contract for AMX nanokernel (#229076)"
+        },
+        {
+            "hash": "ce79bd89838630f8fbb92fdea2b5e611123801c9",
+            "author_name": "Anilava Kundu",
+            "commit_date": "2026-10-16T17:53:23+02:00",
+            "subject": "Infer alignment from dominating branch conditions"
         }
     ]
 }
