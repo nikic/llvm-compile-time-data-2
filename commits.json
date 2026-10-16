@@ -265293,6 +265293,18 @@
             "author_name": "Emilio Cota",
             "commit_date": "2026-10-16T13:57:45+00:00",
             "subject": "[X86] keep upper-16-bit f32 extractions in XMM for f16\/v8i16 (#230698)"
+        },
+        {
+            "hash": "f238fd1b9b22df13cd83395d92e4eb9bc3b8858f",
+            "author_name": "LU-JOHN",
+            "commit_date": "2026-10-16T09:00:04-05:00",
+            "subject": "[AMDGPU] Narrow 64-bit setcc to only test lower 32 bits (#232433)"
+        },
+        {
+            "hash": "f02c39c13d82f57e63a6b292a5fccb8293988eae",
+            "author_name": "Hung-Kuan Tseng",
+            "commit_date": "2026-10-16T15:00:46+01:00",
+            "subject": "[mlir][linalg] Reject non-unit strides when vectorizing insert_slice (#221293)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -287397,6 +287409,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-16T12:12:37+01:00",
             "subject": "[SCEV] Only collect guards for phis at the first merge block."
+        },
+        {
+            "hash": "d01be7b0ea35ede2a249c6d2f034c4ac79c5237d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-16T14:17:59+01:00",
+            "subject": "[SCEV] Simplify guard walk through merge blocks (NFC)."
         }
     ],
     "davidbolvansky\/perf\/knownbits-empty-assumes": [
@@ -287579,6 +287597,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-10-16T13:06:52+00:00",
             "subject": "[LiveDebugValues] Skip register sorting for empty location sets (NFC)"
+        }
+    ],
+    "davidbolvansky\/perf\/memdep-query-alignment": [
+        {
+            "hash": "cb1c58d4dd522178bb945815508d473ba0a65a9e",
+            "author_name": "David Young",
+            "commit_date": "2026-10-15T04:56:33-07:00",
+            "subject": "[bazel][lldb] Add ObjectContainerClangOffloadBundle plugin (#232278)"
+        },
+        {
+            "hash": "9e7ba38ccae709347bf4fdb4d336cacd56481e98",
+            "author_name": "D\u00e1vid Bolvansk\u00fd",
+            "commit_date": "2026-10-16T15:34:21+02:00",
+            "subject": "[MemoryDependence] Avoid discarded query pointer alignment"
         }
     ]
 }
