@@ -288802,5 +288802,43 @@
             "commit_date": "2026-10-16T15:17:26+01:00",
             "subject": "[CodeGen][AArch64] Scalarize non-power-of-2 vector phis built from scalars"
         }
+    ],
+    "fhahn\/perf\/ct-non-scev": [
+        {
+            "hash": "451136ae27c39086c3433e14fa8862b57c36e075",
+            "author_name": "Divyansh Yadav",
+            "commit_date": "2026-10-16T13:50:30+00:00",
+            "subject": "[LoopUnroll] Combine metadata when CSE'ing loads after unrolling (#232267)"
+        },
+        {
+            "hash": "ef39cadcb98b7c2ae282bad155db79c7f4767a75",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-17T21:41:24+00:00",
+            "subject": "[LoopNest] Collect loops with a worklist instead of breadth_first (NFC)."
+        },
+        {
+            "hash": "31b04cd1a21d23f8080e94952ec67ebeaf7168d4",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-17T21:41:25+00:00",
+            "subject": "[LoopPeel] Check compare shape before evaluatePredicate (NFCI)."
+        },
+        {
+            "hash": "74697d7ed20c38700285a3b27f57282aeae1ab99",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-17T21:41:25+00:00",
+            "subject": "[Reassociate] Skip copying RedoInsts when it is empty (NFC)"
+        },
+        {
+            "hash": "058bf07d906145a602eae9fd34d1400881ecca22",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-17T21:41:26+00:00",
+            "subject": "[MemorySSA] Reserve an incoming value per predecessor for MemoryPhis (NFC)"
+        },
+        {
+            "hash": "24bdfdf3770985a9617a49a332b8f44191113fbd",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-17T21:41:27+00:00",
+            "subject": "[AA] Reserve space for all registered AAs in AAManager::run (NFC)."
+        }
     ]
 }
