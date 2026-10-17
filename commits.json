@@ -266271,6 +266271,24 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-10-17T10:34:09-07:00",
             "subject": "[flang,unittest] Initialize targets before creating a CompilerInstance. NFC (#233117)"
+        },
+        {
+            "hash": "26e8f2567677433f208fe3b85c7cf247e0b2da0d",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-17T10:46:49-07:00",
+            "subject": "[RISCV][P-ext] Create zero vector rather than bitcasting from i32 0 in lowerINSERT_SUBVECTOR. (#232852)"
+        },
+        {
+            "hash": "05d5e1fa996fc6e081be856853f6faa94b0b2020",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-17T10:46:49-07:00",
+            "subject": "[RISCV][P-ext] Call tryWidenMaskForShuffle at the end of P extension shuffle lowering. (#232892)"
+        },
+        {
+            "hash": "e90fde1770c5c35ecea103eb4eb4f3f0360e8238",
+            "author_name": "Teja Alaghari",
+            "commit_date": "2026-10-17T17:47:08+00:00",
+            "subject": "[DAGCombiner] Fold umin(fp_to_uint(x), 0) to 0 (#232231)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
