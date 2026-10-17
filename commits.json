@@ -266205,6 +266205,12 @@
             "author_name": "Simon Pilgrim",
             "commit_date": "2026-10-17T13:44:20+00:00",
             "subject": "[X86] splitVectorOp - add BUILD_VECTOR handling (#233077)"
+        },
+        {
+            "hash": "018b722b2d48cf42dccded46e1226f1d9c29f339",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-17T16:02:15+01:00",
+            "subject": "[SCEV] Don't create a zero SCEV in isKnownPredicateViaNoOverflow (NFC) (#232965)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -287377,21 +287383,33 @@
     ],
     "fhahn\/perf\/cse-isoverwrite-wrap1": [
         {
-            "hash": "69ea540ba5d90d569cc7f53213b8bf0fcb7469d6",
-            "author_name": "jeanPerier",
-            "commit_date": "2026-10-16T10:26:34+02:00",
-            "subject": "[flang] Add fir.assert and its LLVM code generation (#231245)"
+            "hash": "1614ccf5e6297a4a771fef134796b407be2e858c",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-10-17T13:44:20+00:00",
+            "subject": "[X86] splitVectorOp - add BUILD_VECTOR handling (#233077)"
         },
         {
-            "hash": "36d40b98d57590fadd571ee76973256ae2f5a254",
+            "hash": "bb3098f8241cace064eda8e938c3b720423eb87c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-16T09:34:07+01:00",
+            "commit_date": "2026-10-17T15:58:31+01:00",
+            "subject": "[DSE] Precommit tests for wrapping constant offsets (NFC)"
+        },
+        {
+            "hash": "7c4d6573ee161e67204ccb89d3ef704bb322bb72",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-17T15:58:31+01:00",
             "subject": "[DSE] Bail out if Offset + Size wraps the index width."
         },
         {
-            "hash": "ead0f3f31a9dc6c0ab5f1f1aca07b3d497ddf5d9",
+            "hash": "c0c3e57655ee3b79fa4730321aec3874b1cc1fd5",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-16T12:08:09+01:00",
+            "commit_date": "2026-10-17T15:58:31+01:00",
+            "subject": "!fixup fix integer overflows"
+        },
+        {
+            "hash": "50a3d35cf040a19b4d38eab18add408f41fd7cef",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-17T15:58:46+01:00",
             "subject": "!fixup compute offsets modulo the index width using APInt"
         }
     ],
