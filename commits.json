@@ -288187,40 +288187,94 @@
     ],
     "fhahn\/perf\/ct-scev": [
         {
-            "hash": "ce0e0f047deca346096925a02eefe87e938ed586",
-            "author_name": "David Spickett",
-            "commit_date": "2026-10-13T12:47:10+00:00",
-            "subject": "Reland \"[lldb][minidump][test] Enable more minidump tests on AArch64 (#231467)\" (#231474)"
+            "hash": "eb5c3a2dde4ea6d51a36e3df25bfc1b6503fd61c",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-10-17T13:29:31-07:00",
+            "subject": "[Support] Remove the T::Global fallback in LibraryOptionsContext::get<T>() (#233044)"
         },
         {
-            "hash": "1db91f2e52eeacf0430f80b334e50299412e8323",
+            "hash": "5caa52fad708318fcee136a244555315a4f410e9",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T12:48:10+00:00",
-            "subject": "[SCEV] Don't create a zero SCEV in isKnownPredicateViaNoOverflow (NFC)"
-        },
-        {
-            "hash": "3e403ac8cdadcfd478fe4eaa1630a69fd77c408b",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T12:48:10+00:00",
-            "subject": "[SCEV] Don't cache dispositions and at-scope values of constants (NFC)"
-        },
-        {
-            "hash": "c8b7b9cc88036d3f40b4b226d903800a4f5408f9",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T12:48:10+00:00",
+            "commit_date": "2026-10-17T23:20:08+01:00",
             "subject": "[SCEV] Compute known bits of a SCEVUnknown once for both range hints (NFC)"
         },
         {
-            "hash": "60d847e7e7c1cbd6e185ce7f7802dad2f9504523",
+            "hash": "05b233e106be8abad5eb6e1ebdf4dcc2f3e713ae",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T12:48:11+00:00",
+            "commit_date": "2026-10-17T23:20:08+01:00",
             "subject": "[SCEV] Use TinyPtrVector for ExprValueMap and insert values with one lookup (NFC)"
         },
         {
-            "hash": "38b7c1fb51a8fe804f585c11233178f815dcda6d",
+            "hash": "7e80b7dc5a9d4e6896cec0edeef382a7797f6223",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-13T12:48:11+00:00",
-            "subject": "[SCEV] Don't re-check already pruned predicates of a SCEVUnionPredicate (NFC)"
+            "commit_date": "2026-10-17T23:20:22+01:00",
+            "subject": "[SCEV] Reuse the sign-hint-independent range of an affine add recurrence"
+        },
+        {
+            "hash": "d2b3563cdfe19ee7337013d3ed5282ee3c2527d9",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-17T23:20:22+01:00",
+            "subject": "[SCEV] Skip cache flushing for expressions memoized nowhere (NFC)"
+        },
+        {
+            "hash": "575d8eafc5a7b4bf6917e6e0e80c2e4912a371e7",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-17T23:20:22+01:00",
+            "subject": "[SCEV] Give each SCEV cache its own CacheFlags bit (NFC)"
+        },
+        {
+            "hash": "a51ec9dc72ff1eec47809bdf4dbea3adad8fa12d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-17T23:20:22+01:00",
+            "subject": "[SCEV] Also queue icmp operands for selects in getOperandsToCreate (NFC)"
+        },
+        {
+            "hash": "29572d1e7152d857b9c83041229d1a88d4234468",
+            "author_name": "Eli Friedman",
+            "commit_date": "2026-10-17T23:20:23+01:00",
+            "subject": "[SCEV] Avoid recursion in PHI handling in more cases."
+        },
+        {
+            "hash": "d379f86a6cba02006c4c9541fe453074f72e7424",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-17T23:20:23+01:00",
+            "subject": "[SCEV] Add pointer IV tests for zero-sized elements and nusw symbolic steps (NFC)"
+        },
+        {
+            "hash": "240f6f02754e7d99a7da4c9d5b9953712f5c5a97",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-17T23:20:23+01:00",
+            "subject": "[SCEV] Factor matchSimpleAffineStep out of createSimpleAffineAddRec (NFC)"
+        },
+        {
+            "hash": "14b75d54e242b44a953355f5f2d0a71a67a412f7",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-17T23:20:23+01:00",
+            "subject": "[SCEV] Queue the invariant step of a simple affine addrec (NFC)"
+        },
+        {
+            "hash": "7f826cf11cb5ed88ad7e6f3813382d8f2fe76306",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-17T23:20:23+01:00",
+            "subject": "[SCEV] Split createAddRecFromPHI and createNodeForPHI (NFC)"
+        },
+        {
+            "hash": "9b198cd84690f3dbeb1ff7691c23499af874fc6e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-17T23:20:23+01:00",
+            "subject": "[SCEV] Handle createAddRecFromPHI's backedge value iteratively"
+        },
+        {
+            "hash": "8834333ef30010d42216e4614a05b3bb795f1a46",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-17T23:20:24+01:00",
+            "subject": "[SCEV] Stop collecting operands for PHI cases that cannot be reached"
+        },
+        {
+            "hash": "c15543e358372bc400a7ad2964635210c58cc05d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-17T23:20:24+01:00",
+            "subject": "[SCEV][LoopUnroll] Invalidate ancestor exit counts at block deletion"
         }
     ],
     "fhahn\/perf\/vpdiff": [
