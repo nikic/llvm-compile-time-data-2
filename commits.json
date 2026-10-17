@@ -266307,6 +266307,12 @@
             "author_name": "henrimarconni",
             "commit_date": "2026-10-17T19:07:51+00:00",
             "subject": "[clang][CodeGen] Fix assertion failure for new T[SIZE_MAX] with array cookie (#232570)"
+        },
+        {
+            "hash": "29d4cfe87c01e220233da89f4dc72eda679b7759",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-10-17T19:41:37+00:00",
+            "subject": "[DAG] SimplifyDemandedVectorElts - only assume KnownZero if the shift\/rotate amount is not undef\/poison (#233115)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
