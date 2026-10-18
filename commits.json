@@ -266547,6 +266547,12 @@
             "author_name": "Nikolai Fedotenko",
             "commit_date": "2026-10-18T12:02:41Z",
             "subject": "[clang] Treat pack-index-specifiers as non-deduced contexts (#232883)"
+        },
+        {
+            "hash": "9a0f815169377748c2bb65b7fc395e3591058ecb",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-10-18T17:39:30+05:30",
+            "subject": "[SLP][modularisation][NFC] Move loop trip-count helpers to SLPUtils (#222614)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -274273,385 +274279,385 @@
         {
             "hash": "f0777c1f997c0a95897dbaba2919bb96236849b2",
             "author_name": "Douglas Yung",
-            "commit_date": "2026-07-14T13:24:57+00:00",
+            "commit_date": "2026-07-14T13:24:57Z",
             "subject": "Bump version to 23.1.0git"
         },
         {
             "hash": "a589eb4f8e64689afe2b0844a63879b7b4865ff3",
             "author_name": "Felipe de Azevedo Piovezan",
-            "commit_date": "2026-07-15T04:43:43+00:00",
+            "commit_date": "2026-07-15T04:43:43Z",
             "subject": "Revert \"[libc++][NFC] Inline std::function members into the class body\" (#209555)"
         },
         {
             "hash": "38e1487f6b61e326330aa0467ec37b1287deaf69",
             "author_name": "Douglas Yung",
-            "commit_date": "2026-07-15T08:22:52+00:00",
+            "commit_date": "2026-07-15T08:22:52Z",
             "subject": "Fix test that had a check embedded which depended on the current LLVM version number. (#209530)"
         },
         {
             "hash": "b9c1e158337a9f3975f868c493cf902406d13954",
             "author_name": "Jordan Rupprecht",
-            "commit_date": "2026-07-15T09:13:27+00:00",
+            "commit_date": "2026-07-15T09:13:27Z",
             "subject": "[clang][test] Avoid relying on `-fuse-ld=ld` default value for marm64x test (#209597)"
         },
         {
             "hash": "5100381e4719316bb4f00419bb52e260dc32f2e6",
             "author_name": "Garvit Gupta",
-            "commit_date": "2026-07-15T10:01:58+00:00",
+            "commit_date": "2026-07-15T10:01:58Z",
             "subject": "[RISCV] Fold 26-bit frame-index offsets into Xqcilo\/Xqcilia load\/store\/addi (#209315)"
         },
         {
             "hash": "6e708e7d66bb2c8daee1334068190c3138ca20ee",
             "author_name": "Hans Wennborg",
-            "commit_date": "2026-07-15T10:07:19+00:00",
+            "commit_date": "2026-07-15T10:07:19Z",
             "subject": "Revert \"[Clang] Allow devirtualization involving array subscripts with constant indices when the pointee type is known [CWG1504] (#207540) (#209596)"
         },
         {
             "hash": "8cc33c0fec099662f6e9ecb9e0a0c792b3643967",
             "author_name": "Aiden Grossman",
-            "commit_date": "2026-07-15T18:02:56+00:00",
+            "commit_date": "2026-07-15T18:02:56Z",
             "subject": "[Clang] Require x86 target for some tests (#209532)"
         },
         {
             "hash": "a431e974f000a55eef4936a92965034eb1f5acaf",
             "author_name": "Krisitan Erik Olsen",
-            "commit_date": "2026-07-15T18:03:35+00:00",
+            "commit_date": "2026-07-15T18:03:35Z",
             "subject": "[X86] Skip debug instructions in tile copy lowering (#209640)"
         },
         {
             "hash": "ed334243b371778ed994f6bec07b49bb33379d4a",
             "author_name": "Lukacma",
-            "commit_date": "2026-07-15T18:04:13+00:00",
+            "commit_date": "2026-07-15T18:04:13Z",
             "subject": "[AArch64] Remove HCX feature flag from backend (#209477)"
         },
         {
             "hash": "fc48c7e574f87f478ed17cee143afae350f7be88",
             "author_name": "Mel Chen",
-            "commit_date": "2026-07-15T18:04:50+00:00",
+            "commit_date": "2026-07-15T18:04:50Z",
             "subject": "[VPlan] Fix nowrap flags for strided access pointers from SCEV (#209453)"
         },
         {
             "hash": "ce6af707aac85db6e176ad0faa3bfe608e1a68f5",
             "author_name": "Erich Keane",
-            "commit_date": "2026-07-15T18:05:27+00:00",
+            "commit_date": "2026-07-15T18:05:27Z",
             "subject": "Create a Template member to be the MemberSpec of a failed TemplVarDecl (#209604)"
         },
         {
             "hash": "f54355e08d91e1f4c87337505936e9299a9ffb99",
             "author_name": "\u9648\u5b50\u6602",
-            "commit_date": "2026-07-16T08:00:41+00:00",
+            "commit_date": "2026-07-16T08:00:41Z",
             "subject": "[LoopUnroll] Invalidate SCEV after full unrolling (#208874)"
         },
         {
             "hash": "a2520c9f136c302b05b501c05222e0f605897b32",
             "author_name": "Karthika Devi C",
-            "commit_date": "2026-07-16T16:26:34+00:00",
+            "commit_date": "2026-07-16T16:26:34Z",
             "subject": "[Polly] Skip vectorize.enable for FP loops with dist=1 dependences (#205756)"
         },
         {
             "hash": "23780df286c2e5914014d002206f1bfde7d0f1b9",
             "author_name": "Karthika Devi C",
-            "commit_date": "2026-07-16T16:27:11+00:00",
+            "commit_date": "2026-07-16T16:27:11Z",
             "subject": "[Polly] Fix codegen assertions to account for DefinedBehaviorContext (#209188)"
         },
         {
             "hash": "88c69e55f3da48bcebdb425f54431f80ce457c8d",
             "author_name": "Amy Kwan",
-            "commit_date": "2026-07-16T16:27:50+00:00",
+            "commit_date": "2026-07-16T16:27:50Z",
             "subject": "[Object][GOFF] Recognize RLD and LEN records (#207118)"
         },
         {
             "hash": "c7280675cd04a97c958bcf46db8042e33ab35fc9",
             "author_name": "Erich Keane",
-            "commit_date": "2026-07-16T16:28:26+00:00",
+            "commit_date": "2026-07-16T16:28:26Z",
             "subject": "Fix references to complete types in attribute references (#209537)"
         },
         {
             "hash": "a885d62292d8f02cac5eeeb739305dc58cf23abf",
             "author_name": "Tom Stellard",
-            "commit_date": "2026-07-16T16:43:56+00:00",
+            "commit_date": "2026-07-16T16:43:56Z",
             "subject": "workflows\/llvm-abi-tests: Fix typo (#209917)"
         },
         {
             "hash": "5aa15abead01fef21fee4706aa01f39e8ac18829",
             "author_name": "Pawan Nirpal",
-            "commit_date": "2026-07-16T18:08:12+00:00",
+            "commit_date": "2026-07-16T18:08:12Z",
             "subject": "[ARM] - Fix Thumb1InstrInfo::copyPhysReg crash on debug instructions during liveness walk. (#209478)"
         },
         {
             "hash": "66ba3bdaa25418fed2e74cd39576f236498bf289",
             "author_name": "hev",
-            "commit_date": "2026-07-17T02:34:20+00:00",
+            "commit_date": "2026-07-17T02:34:20Z",
             "subject": "[LoongArch] Fix invalid VEXTH combines for unsupported type extensions (#209725)"
         },
         {
             "hash": "47e2df730a099583f16fc6fe64f0d2ffc5b7a16a",
             "author_name": "Daniel Kiss",
-            "commit_date": "2026-07-17T07:48:53+00:00",
+            "commit_date": "2026-07-17T07:48:53Z",
             "subject": "[AArch64][COFF] Branch-protection=standard\/pac-ret means \"b-key\" on Windows (#203989)"
         },
         {
             "hash": "033aa122e399ba23d216fa3e469ee62721b1b8e7",
             "author_name": "Ikhlas Ajbar",
-            "commit_date": "2026-07-17T17:33:13+00:00",
+            "commit_date": "2026-07-17T17:33:13Z",
             "subject": "[Hexagon] Fix HexagonRDFOpt hang during live-in recomputation (#209986)"
         },
         {
             "hash": "52cbf59a5085bff2083a03a71bfbd82b882b024a",
             "author_name": "maflcko",
-            "commit_date": "2026-07-17T17:34:08+00:00",
+            "commit_date": "2026-07-17T17:34:08Z",
             "subject": "[compiler-rt][ubsan] Fix suppressions for inlined functions (#206735)"
         },
         {
             "hash": "44addbd4e1fbf754092185cd74c08a1e283df80f",
             "author_name": "Nikita Popov",
-            "commit_date": "2026-07-17T17:35:03+00:00",
+            "commit_date": "2026-07-17T17:35:03Z",
             "subject": "[LTO] Sort DefinedGlobals in LTO cache key (#210025)"
         },
         {
             "hash": "28af770db4db6f04d047f52e7e135386fe7a6824",
             "author_name": "cqwrteur",
-            "commit_date": "2026-07-17T17:36:02+00:00",
+            "commit_date": "2026-07-17T17:36:02Z",
             "subject": "[libcxx] avoid include Uppercase windows headers (#208903)"
         },
         {
             "hash": "44727f2bc6e66afccfc0e3e3f0d2e5f241924593",
             "author_name": "Jacek Caban",
-            "commit_date": "2026-07-17T17:36:45+00:00",
+            "commit_date": "2026-07-17T17:36:45Z",
             "subject": "[clang][mingw] Try both native and ARM64EC triples when looking for a sysroot on the ARM64EC target (#210017)"
         },
         {
             "hash": "f83ba9d97b34021e3d2ff2faf7b04a3001b2c7ca",
             "author_name": "Nikita Popov",
-            "commit_date": "2026-07-17T17:37:23+00:00",
+            "commit_date": "2026-07-17T17:37:23Z",
             "subject": "[X86] Fix assertion failure for tail call on i686+pic (#210302)"
         },
         {
             "hash": "278c31bfb8ceb7ea17dbfd11a4fb21e6634af957",
             "author_name": "Tom Stellard",
-            "commit_date": "2026-07-17T17:38:11+00:00",
+            "commit_date": "2026-07-17T17:38:11Z",
             "subject": "workflows: Fixes for release-binaries and upload-release-artifact (#209246)"
         },
         {
             "hash": "03c1f18aeee0150dc0243cd32b09b5050c9b6224",
             "author_name": "Douglas Yung",
-            "commit_date": "2026-07-18T02:34:37+00:00",
+            "commit_date": "2026-07-18T02:34:37Z",
             "subject": "Bump version to 23.1.0-rc1"
         },
         {
             "hash": "acdf320b78fcf075ddcf660b51cf18d5c0af755b",
             "author_name": "Douglas Yung",
-            "commit_date": "2026-07-18T07:35:12+00:00",
+            "commit_date": "2026-07-18T07:35:12Z",
             "subject": "Fix bumping of version to 23.1.0-rc1."
         },
         {
             "hash": "4285c201f92ae76a6db1db99fa9c40f5283b1cfa",
             "author_name": "Tom Stellard",
-            "commit_date": "2026-07-20T16:01:12+00:00",
+            "commit_date": "2026-07-20T16:01:12Z",
             "subject": "workflows\/release-documentation: Add missing secrets (#210421)"
         },
         {
             "hash": "db494ccad869323687b23af33e4226479a54d8f2",
             "author_name": "Tom Stellard",
-            "commit_date": "2026-07-21T16:43:52+00:00",
+            "commit_date": "2026-07-21T16:43:52Z",
             "subject": "workflows: Add missing checkouts when using validate-release-version (#210471)"
         },
         {
             "hash": "fd8d9d53043e84807bda631d21d9742eb595e30a",
             "author_name": "Louis Dionne",
-            "commit_date": "2026-07-21T16:44:58+00:00",
+            "commit_date": "2026-07-21T16:44:58Z",
             "subject": "[libc++] Target the release runners set from the LLVM 23 release branch"
         },
         {
             "hash": "83cbf70cb201f58cb174039d7c3792bba6d3f95a",
             "author_name": "Tom Stellard",
-            "commit_date": "2026-07-21T17:20:46+00:00",
+            "commit_date": "2026-07-21T17:20:46Z",
             "subject": "workflows\/release-documentation: Fix typo (#210815)"
         },
         {
             "hash": "a36edf659ef8e168a3e1196cfb7df77522a12b36",
             "author_name": "aokblast",
-            "commit_date": "2026-07-22T13:42:45+00:00",
+            "commit_date": "2026-07-22T13:42:45Z",
             "subject": "[Clang][Interpreter] Don't pass -fPIC on MSVC (#210507)"
         },
         {
             "hash": "2cff4ff7a21c91b3493eb0fd8a7f072aee77fe7d",
             "author_name": "Eli Friedman",
-            "commit_date": "2026-07-22T13:43:38+00:00",
+            "commit_date": "2026-07-22T13:43:38Z",
             "subject": "Make ios_base::xalloc non-atomic with LIBCXX_ENABLE_THREADS=OFF. (#208356)"
         },
         {
             "hash": "5deccad3415aacaec099795cd1d57dfd84b767e0",
             "author_name": "Younan Zhang",
-            "commit_date": "2026-07-22T13:44:41+00:00",
+            "commit_date": "2026-07-22T13:44:41Z",
             "subject": "[Clang] Ensure correct template parameter depth for abbreviated templates (#209693)"
         },
         {
             "hash": "71ee1456b23270f768571db9a4b060fc4f4b8569",
             "author_name": "Daniel Paoliello",
-            "commit_date": "2026-07-22T13:45:45+00:00",
+            "commit_date": "2026-07-22T13:45:45Z",
             "subject": "[clang][win] Fix __global_delete wrappers for Arm64EC and cross-TU ::delete (#209585)"
         },
         {
             "hash": "9e6077709b2cb1ccc7dfde33112246b591920c6a",
             "author_name": "David Green",
-            "commit_date": "2026-07-22T13:46:34+00:00",
+            "commit_date": "2026-07-22T13:46:34Z",
             "subject": "[AArch64] Lower fixed width bf16 fpround (#209411)"
         },
         {
             "hash": "feb77ff81325db33229a17633e440af1adae5bb5",
             "author_name": "Jacek Caban",
-            "commit_date": "2026-07-22T13:47:16+00:00",
+            "commit_date": "2026-07-22T13:47:16Z",
             "subject": "[CodeGen][ARM64EC] Copy first four arguments to FP registers in vararg exit thunks (#209581)"
         },
         {
             "hash": "521b0ff9a6a85409f55264d92d838044c4e3b814",
             "author_name": "Petr Hosek",
-            "commit_date": "2026-07-22T13:48:33+00:00",
+            "commit_date": "2026-07-22T13:48:33Z",
             "subject": "[libc++] Partially revert #208330 (#209928)"
         },
         {
             "hash": "201044ab8851f22a15d1654b7d3a7d738c118e27",
             "author_name": "Jacek Caban",
-            "commit_date": "2026-07-22T13:49:12+00:00",
+            "commit_date": "2026-07-22T13:49:12Z",
             "subject": "[LLD] [COFF] Fix linking directly against an ARM64X DLL without import library (#210311)"
         },
         {
             "hash": "9a93aaef36ded17830dd27905f2e61dbe322d33c",
             "author_name": "Tony Guillot",
-            "commit_date": "2026-07-22T13:51:11+00:00",
+            "commit_date": "2026-07-22T13:51:11Z",
             "subject": "[Clang] Fixed auto parsing regression with brace initialization (#210347)"
         },
         {
             "hash": "a82f94b8f46766504a4f7ee0e9ddb65ebb6cf472",
             "author_name": "Patryk Stefanski",
-            "commit_date": "2026-07-22T13:51:49+00:00",
+            "commit_date": "2026-07-22T13:51:49Z",
             "subject": "[clang][sema] Fix crash on decomposition decl missing initializer (#210151)"
         },
         {
             "hash": "2ca1deea15528c1213c8a534b1a21053c33b8371",
             "author_name": "Logan",
-            "commit_date": "2026-07-22T13:52:29+00:00",
+            "commit_date": "2026-07-22T13:52:29Z",
             "subject": "X86: Add pattern for optimized BLSIC IR form (#209814)"
         },
         {
             "hash": "7bd74c15be686b76aa34f8c322d33b9f0e9c76ea",
             "author_name": "Jacob Crawley",
-            "commit_date": "2026-07-22T13:53:14+00:00",
+            "commit_date": "2026-07-22T13:53:14Z",
             "subject": "[AArch64][LV] Adjust costs for low-VF interleaved access (#209441)"
         },
         {
             "hash": "c22ddf0f405f9e21e9f0c51b85caf7b3d7147313",
             "author_name": "Antonio Frighetto",
-            "commit_date": "2026-07-22T13:53:52+00:00",
+            "commit_date": "2026-07-22T13:53:52Z",
             "subject": "[MemCpyOpt] Ensure call slot optz does not lower destination alloca alignment"
         },
         {
             "hash": "2cb2b2979ca4ad0c8d2b836e687d82fbb75723db",
             "author_name": "Simon Pilgrim",
-            "commit_date": "2026-07-22T13:54:32+00:00",
+            "commit_date": "2026-07-22T13:54:32Z",
             "subject": "[X86] combineShiftRightLogical - fold srl(vecreduce_umax(x),bw-1) as MOVMSK signbit reduction (#210281)"
         },
         {
             "hash": "2d5e67002c4281632cce3d12b9bfc16863d2f8f1",
             "author_name": "Miko\u0142aj Pir\u00f3g",
-            "commit_date": "2026-07-22T13:55:19+00:00",
+            "commit_date": "2026-07-22T13:55:19Z",
             "subject": "[X86] Support apxf in attribute target (#184078)"
         },
         {
             "hash": "881e1cb71911cdce060845310a4c5aaa46b48324",
             "author_name": "Petr Hosek",
-            "commit_date": "2026-07-22T13:56:05+00:00",
+            "commit_date": "2026-07-22T13:56:05Z",
             "subject": "[libcxx][NFC] Address -Wmicrosoft-cast in MSVC's exception_ptr (#210570)"
         },
         {
             "hash": "e241e1868b010e36813b4ba26da5f10a6ee096f7",
             "author_name": "Jonas Devlieghere",
-            "commit_date": "2026-07-22T13:56:45+00:00",
+            "commit_date": "2026-07-22T13:56:45Z",
             "subject": "[DWARFLinker] Fix data race on the per-unit file-name cache (#208967)"
         },
         {
             "hash": "2462eac065b11a3283d2247af841f33c4c4be477",
             "author_name": "Jonas Devlieghere",
-            "commit_date": "2026-07-22T13:57:20+00:00",
+            "commit_date": "2026-07-22T13:57:20Z",
             "subject": "[DWARFLinker] Make synthetic type names deterministic under threading (#209553)"
         },
         {
             "hash": "a94ef183551cb95b9ca59e6ea016451f17d7f553",
             "author_name": "Brian Cain",
-            "commit_date": "2026-07-22T13:58:05+00:00",
+            "commit_date": "2026-07-22T13:58:05Z",
             "subject": "[docs][Hexagon] Add 23.x release notes for Hexagon changes (NFC)"
         },
         {
             "hash": "2f8eaf6ef04cb81fc98c30c1a8dd7fa1a0f4c43e",
             "author_name": "Yanzuo Liu",
-            "commit_date": "2026-07-22T13:58:49+00:00",
+            "commit_date": "2026-07-22T13:58:49Z",
             "subject": "[clang][Parser] Warn when the body of expansion statement is not a compound statement (#209229)"
         },
         {
             "hash": "37532c319a905e75c6a9b028989da2d1b6073692",
             "author_name": "David Green",
-            "commit_date": "2026-07-22T13:59:33+00:00",
+            "commit_date": "2026-07-22T13:59:33Z",
             "subject": "[SDAG] Use DAG.getTokenFactor in more places (#210949)"
         },
         {
             "hash": "69873d3d1985f34fd16a3c5af89a00f9fc4df1fc",
             "author_name": "Med Ismail Bennani",
-            "commit_date": "2026-07-22T14:00:22+00:00",
+            "commit_date": "2026-07-22T14:00:22Z",
             "subject": "[lldb] Gate `PolicyStack::Current()` log behind verbose (#209527)"
         },
         {
             "hash": "b82e355d1b5ffe8e9ef16df751ad5151856c0a0d",
             "author_name": "Andy Ames",
-            "commit_date": "2026-07-22T14:01:06+00:00",
+            "commit_date": "2026-07-22T14:01:06Z",
             "subject": "[analyzer] Fix crash in RegionStoreManager::bindArray from constructor array-to-pointer decay (#210649)"
         },
         {
             "hash": "e23de9497b1f3b44a7a6b8e9dc1002496485e242",
             "author_name": "John Paul Jepko",
-            "commit_date": "2026-07-22T14:01:46+00:00",
+            "commit_date": "2026-07-22T14:01:46Z",
             "subject": "[analyzer] Fix StdVariantChecker crash on std::get with a non-ptr arg (#210167)"
         },
         {
             "hash": "6f033fece5f5ae501698b9f49f3bca3f1fa19b38",
             "author_name": "Prabhu Rajasekaran",
-            "commit_date": "2026-07-22T14:03:18+00:00",
+            "commit_date": "2026-07-22T14:03:18Z",
             "subject": "[llvm-readobj] Print all callgraph sections (#198929)"
         },
         {
             "hash": "6c8106221abb8ecf67527ec2707157d4fb1c1f8b",
             "author_name": "Sudharsan Veeravalli",
-            "commit_date": "2026-07-22T14:04:03+00:00",
+            "commit_date": "2026-07-22T14:04:03Z",
             "subject": "[RISCV] Support uimm5 operands for Xqcicm cmovs in RISCVExpandPseudoInsts (#210955)"
         },
         {
             "hash": "ed059dae037e650b3f7670acc36b897283fe858f",
             "author_name": "Sudharsan Veeravalli",
-            "commit_date": "2026-07-22T14:04:40+00:00",
+            "commit_date": "2026-07-22T14:04:40Z",
             "subject": "[RISCV] Avoid forming Zilsd pairs with x0 for non-x0 register classes (#211019)"
         },
         {
             "hash": "b2628f061ea76a2beb09228701719916f5e355bf",
             "author_name": "jay0x",
-            "commit_date": "2026-07-22T14:05:29+00:00",
+            "commit_date": "2026-07-22T14:05:29Z",
             "subject": "[flang][Lower][OpenMP] Fix reduction on array sections aborting in lowering (#209701)"
         },
         {
             "hash": "165c472d65cd62eb332246eb39901603e4b1e4ce",
             "author_name": "Louis Dionne",
-            "commit_date": "2026-07-22T14:06:58+00:00",
+            "commit_date": "2026-07-22T14:06:58Z",
             "subject": "[libc++] Don't require complete types in vector<T>::empty() (#210754)"
         },
         {
             "hash": "0d82a7df33aa89c818fdb9b07730c6ea97fcffe0",
             "author_name": "Tom Stellard",
-            "commit_date": "2026-07-22T20:33:44+00:00",
+            "commit_date": "2026-07-22T20:33:44Z",
             "subject": "workflows\/release-documentation: Add missing checkout (#211082)"
         },
         {
             "hash": "63b5d9c3115261d3de097baed4c951ac6a302d9e",
             "author_name": "Tom Stellard",
-            "commit_date": "2026-07-23T03:28:06+00:00",
+            "commit_date": "2026-07-23T03:28:06Z",
             "subject": "workflows\/release-sources: Add missing checkout for composite action (#211079)"
         },
         {
@@ -274927,7 +274933,7 @@
         {
             "hash": "af4e527f138bbdf7dd298b5177006e82a3c47591",
             "author_name": "Trung Nguyen",
-            "commit_date": "2026-07-25T22:07:58+00:00",
+            "commit_date": "2026-07-25T22:07:58Z",
             "subject": "[ARM] Fix chkstk definition (#210940)"
         },
         {
@@ -275047,7 +275053,7 @@
         {
             "hash": "0a20806cf2356fd3404fc150eea680865fd131e5",
             "author_name": "Tom Stellard",
-            "commit_date": "2026-07-29T00:27:31+00:00",
+            "commit_date": "2026-07-29T00:27:31Z",
             "subject": "workflows\/release-sources: Make sure to checkout all the composite actions (#212544)"
         },
         {
@@ -275131,7 +275137,7 @@
         {
             "hash": "d82b356e26bf6fc175b01b949fd3982084b1c572",
             "author_name": "Ryan Buchner",
-            "commit_date": "2026-07-29T18:02:38+00:00",
+            "commit_date": "2026-07-29T18:02:38Z",
             "subject": "[CodeGen] Ensure `undef` propagation when an undef copy is eliminated if used as a subregister def (#204039)"
         },
         {
@@ -275275,163 +275281,163 @@
         {
             "hash": "f99b28997f10676e769edf912947f494f5ddef20",
             "author_name": "Ebuka Ezike",
-            "commit_date": "2026-08-04T12:28:51+00:00",
+            "commit_date": "2026-08-04T12:28:51Z",
             "subject": "[lldb] Fix crash on creating string error (#212503)"
         },
         {
             "hash": "b913248f32a99d16cc7542b54a804bd0b9eb33e1",
             "author_name": "Ryotaro Kasuga",
-            "commit_date": "2026-08-04T12:29:50+00:00",
+            "commit_date": "2026-08-04T12:29:50Z",
             "subject": "[LoopInterchange] Prevent the transformation stage from stopping partway (#205564)"
         },
         {
             "hash": "0f2432581d34b31672bb6b9a659a73acd368fff5",
             "author_name": "Jacek Caban",
-            "commit_date": "2026-08-04T12:30:33+00:00",
+            "commit_date": "2026-08-04T12:30:33Z",
             "subject": "[LLD][COFF] Replace ARM64EC TLS directory chunks with native chunks when available (#212845)"
         },
         {
             "hash": "c4ace926153ecd1c93f598e7b908b8b3b3975530",
             "author_name": "Rainer Orth",
-            "commit_date": "2026-08-04T12:31:12+00:00",
+            "commit_date": "2026-08-04T12:31:12Z",
             "subject": "[clang][Driver] Fix libc++ include path on NetBSD (#212716)"
         },
         {
             "hash": "1e94aa5548bdb4528e23904baaa6a1d08d703885",
             "author_name": "Nikolas Klauser",
-            "commit_date": "2026-08-04T12:31:57+00:00",
+            "commit_date": "2026-08-04T12:31:57Z",
             "subject": "release\/23.x: [libc++] Fix ungetc failing after xsgetn (#210951)"
         },
         {
             "hash": "8ae884c1285b17f0145f084303dbb937c9a37209",
             "author_name": "Ties Stuij",
-            "commit_date": "2026-08-04T12:32:41+00:00",
+            "commit_date": "2026-08-04T12:32:41Z",
             "subject": "[ARM][MVE] Match canonical saturating negation patterns (#213085)"
         },
         {
             "hash": "2629bf96a7c92c9708baba5c09ce5e82fad581a5",
             "author_name": "Feng Zou",
-            "commit_date": "2026-08-04T12:33:20+00:00",
+            "commit_date": "2026-08-04T12:33:20Z",
             "subject": "[X86][APX] Fix per-function V3 unwind for EGPR functions on Windows x64 (#212924)"
         },
         {
             "hash": "fa0232af8b06ea5247a2abf49c11bbd558dd12e1",
             "author_name": "Garvit Gupta",
-            "commit_date": "2026-08-04T12:34:04+00:00",
+            "commit_date": "2026-08-04T12:34:04Z",
             "subject": "[RISCV] Reduce spill\/reload pairs when Xqcilo extension is enabled (#212807)"
         },
         {
             "hash": "fa70bdd819bbb0e2b22f20ad7e79edfcbfd4a0cd",
             "author_name": "Tom Stellard",
-            "commit_date": "2026-08-04T14:01:19+00:00",
+            "commit_date": "2026-08-04T14:01:19Z",
             "subject": "workflows\/require-team-membership: Fix typo (#212686)"
         },
         {
             "hash": "1fee366f08583eb003345461cbdd8a09bc5d144f",
             "author_name": "Haowei",
-            "commit_date": "2026-08-05T03:12:47+00:00",
+            "commit_date": "2026-08-05T03:12:47Z",
             "subject": "Reapply \"Skipping host target exports during cross-compilation\" (#210\u2026 (#210496)"
         },
         {
             "hash": "6a58ab22a4d41277277f50e16d3b235c9d9010a6",
             "author_name": "Paulius Velesko",
-            "commit_date": "2026-08-05T03:13:33+00:00",
+            "commit_date": "2026-08-05T03:13:33Z",
             "subject": "[ExpandVariadics] Don't lower unmangled C printf on SPIR-V (#206998)"
         },
         {
             "hash": "45a9d73790257968607978479cbc1d1956047522",
             "author_name": "Tom Stellard",
-            "commit_date": "2026-08-05T03:14:19+00:00",
+            "commit_date": "2026-08-05T03:14:19Z",
             "subject": "workflows\/upload-release-artifact: Use new self-repository reference (#213366)"
         },
         {
             "hash": "81fba7a0d0c31033db8eff71b7ad91a1660661e5",
             "author_name": "George Burgess IV",
-            "commit_date": "2026-08-06T00:45:19+00:00",
+            "commit_date": "2026-08-06T00:45:19Z",
             "subject": "[mlir] fix builders by moving var into assert (#209494)"
         },
         {
             "hash": "7db2e3307ce6a8bcc0f20caa16e1fd031013281f",
             "author_name": "Zeyi Xu",
-            "commit_date": "2026-08-06T00:46:27+00:00",
+            "commit_date": "2026-08-06T00:46:27Z",
             "subject": "[Clang] Define `__SIG_ATOMIC_TYPE__` macro (#213934)"
         },
         {
             "hash": "fd71684ea064bfbf79ffed9b437d978eb15414bf",
             "author_name": "Tom Stellard",
-            "commit_date": "2026-08-06T00:47:09+00:00",
+            "commit_date": "2026-08-06T00:47:09Z",
             "subject": "workflows\/zizmor: Update to latest version (#213922)"
         },
         {
             "hash": "121d539a6e83609c943f054dcc5b2c5ed48c5281",
             "author_name": "S\u00e9bastien Marchand",
-            "commit_date": "2026-08-06T00:48:00+00:00",
+            "commit_date": "2026-08-06T00:48:00Z",
             "subject": "[AArch64][Windows] Fix swift async context slot placement (#212922)"
         },
         {
             "hash": "fdf8b84c79164e6f8bcbabcf7f6f79cbe4e20b1f",
             "author_name": "Tom Stellard",
-            "commit_date": "2026-08-06T00:48:36+00:00",
+            "commit_date": "2026-08-06T00:48:36Z",
             "subject": "workflows\/upload-release-artifact: Make this action self-contained (#213828)"
         },
         {
             "hash": "26555971ce6a203b7ea75f1526bcdfa17f34a037",
             "author_name": "Tom Stellard",
-            "commit_date": "2026-08-07T08:22:34+00:00",
+            "commit_date": "2026-08-07T08:22:34Z",
             "subject": "workflows\/llvm-abi-tests: Cache the baseline abi (#211968)"
         },
         {
             "hash": "92664717c4d55f6bbf6a464c8591247debfde852",
             "author_name": "Jean-Didier PAILLEUX",
-            "commit_date": "2026-08-07T08:23:17+00:00",
+            "commit_date": "2026-08-07T08:23:17Z",
             "subject": "[flang][MIF] Fix undef reference to a coarray_handle in mif.dealloc_coarray #193157 (#213890)"
         },
         {
             "hash": "b7cde8f7301aea6b14ae8c71fb81344a87531402",
             "author_name": "Trevor Gross",
-            "commit_date": "2026-08-07T08:24:01+00:00",
+            "commit_date": "2026-08-07T08:24:01Z",
             "subject": "[compiler-rt] Disable executable stack on `aeabi_u{read,write}*.S` (#214465)"
         },
         {
             "hash": "e134dc02945a512d905b8e55ca875252a1dc02b6",
             "author_name": "Jacek Caban",
-            "commit_date": "2026-08-07T08:24:41+00:00",
+            "commit_date": "2026-08-07T08:24:41Z",
             "subject": "[LLD][COFF] Emit ARM64X relocations for TLS directory (#213529)"
         },
         {
             "hash": "22149f3448a6fc9163e46fecfa01c1c26f66da9b",
             "author_name": "Jean-Didier PAILLEUX",
-            "commit_date": "2026-08-07T08:25:18+00:00",
+            "commit_date": "2026-08-07T08:25:18Z",
             "subject": "[flang][MIF] Fix team_type usage in all MIF operations #205953 (#214207)"
         },
         {
             "hash": "6278eba367e2f0eebfdc31ab8b29a02ca27e6f15",
             "author_name": "Mingjie Xu",
-            "commit_date": "2026-08-07T09:00:15+00:00",
+            "commit_date": "2026-08-07T09:00:15Z",
             "subject": "Revert \"[SCEV] Speed up forgetLoop by avoiding def-use walk for loop-header PHIs\" (#212485)"
         },
         {
             "hash": "35c1f3acdaad8c77106368cc555aadf77322dae9",
             "author_name": "Tom Stellard",
-            "commit_date": "2026-08-09T05:53:33+00:00",
+            "commit_date": "2026-08-09T05:53:33Z",
             "subject": "workflows: Remove unnecessary checkouts before uses of upload-release-artifact (#213830)"
         },
         {
             "hash": "6f8827b99366c57b16332c86b1b0bb6cb90e84c4",
             "author_name": "Tom Stellard",
-            "commit_date": "2026-08-09T05:54:12+00:00",
+            "commit_date": "2026-08-09T05:54:12Z",
             "subject": "workflows\/release-binaries: Always dump Wix log on Windows (#212056)"
         },
         {
             "hash": "4e814b8af6d8c7bb7e29e871613faf4aec065925",
             "author_name": "Nerixyz",
-            "commit_date": "2026-08-09T05:54:49+00:00",
+            "commit_date": "2026-08-09T05:54:49Z",
             "subject": "[lldb] Fix typo in SBUnixSignals.get_unix_signals_list (#213527)"
         },
         {
             "hash": "d8145e71418fb1e0a936adfb07dc5317113fc3b6",
             "author_name": "Jean-Didier PAILLEUX",
-            "commit_date": "2026-08-09T05:55:26+00:00",
+            "commit_date": "2026-08-09T05:55:26Z",
             "subject": "[Flang] Coarray allocation, update error for pointer component #193829 (#194651)"
         },
         {
@@ -275521,7 +275527,7 @@
         {
             "hash": "1de42f4fcc07cb4163732f5bfc112c47b01b4044",
             "author_name": "Tom Stellard",
-            "commit_date": "2026-08-11T13:37:04+00:00",
+            "commit_date": "2026-08-11T13:37:04Z",
             "subject": "workflows\/release-binaries: Fixup Windows version string for release candidates (#215030)"
         },
         {
@@ -275533,445 +275539,445 @@
         {
             "hash": "e113a459e0e98a920fb14bf3efcf2560b4cfabdf",
             "author_name": "David Spickett",
-            "commit_date": "2026-08-13T14:09:35+00:00",
+            "commit_date": "2026-08-13T14:09:35Z",
             "subject": "[llvm][utils] Correct release package links for Windows (#215770)"
         },
         {
             "hash": "de7b2d25a5c7a8fd7b22489903511b1834c121cb",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-15T15:36:30+00:00",
+            "commit_date": "2026-08-15T15:36:30Z",
             "subject": "[Matrix] De-duplicate reshaped matrixes used as incoming values for phi. (#211210)"
         },
         {
             "hash": "ca31b6cade94f9592f25fcf4c33634f7a27364ca",
             "author_name": "Alexey Gerenkov",
-            "commit_date": "2026-08-15T15:37:07+00:00",
+            "commit_date": "2026-08-15T15:37:07Z",
             "subject": "[Xtensa] Add fp16 conversion support (#208206)"
         },
         {
             "hash": "9e445a61719eab7d4e778f67cd0426cf90bd644e",
             "author_name": "Hubert Tong",
-            "commit_date": "2026-08-15T15:38:01+00:00",
+            "commit_date": "2026-08-15T15:38:01Z",
             "subject": "[Release Notes] Clang UBSan changes to aggregate copy\/move operand checks"
         },
         {
             "hash": "5aeb89c435bc192faf8ba2f8d5582cfab8bda0fc",
             "author_name": "Brian Cain",
-            "commit_date": "2026-08-15T15:40:21+00:00",
+            "commit_date": "2026-08-15T15:40:21Z",
             "subject": "[Hexagon] Fix unusable SCS reg, make it selectable (#213820)"
         },
         {
             "hash": "cf723481e1629d35db5c8f8a8a7afff0823ac889",
             "author_name": "Ebuka Ezike",
-            "commit_date": "2026-08-15T15:41:00+00:00",
+            "commit_date": "2026-08-15T15:41:00Z",
             "subject": "[lldb] Fix incorrect Python property bindings in SBExtensions. (#215283)"
         },
         {
             "hash": "0fc9903bd5511f6c1e42d8aba42bfeb42965d392",
             "author_name": "Tony Guillot",
-            "commit_date": "2026-08-15T15:41:45+00:00",
+            "commit_date": "2026-08-15T15:41:45Z",
             "subject": "[Clang] Revert \"Reject auto combined with type specifiers in C++ (#208552)\" and follow-ups commits (#215320)"
         },
         {
             "hash": "d43346200ddafbb8237f0d0bafbd16af9b0d0e98",
             "author_name": "Jonas Devlieghere",
-            "commit_date": "2026-08-15T15:42:23+00:00",
+            "commit_date": "2026-08-15T15:42:23Z",
             "subject": "[DWARFLinker] Keep module type definitions in the parallel linker (#215435)"
         },
         {
             "hash": "4a94b37026f5b50bcdc7f4711f65a61816514e1d",
             "author_name": "Sudharsan Veeravalli",
-            "commit_date": "2026-08-15T15:43:02+00:00",
+            "commit_date": "2026-08-15T15:43:02Z",
             "subject": "[RISCV] Avoid pre-RA Zilsd pairs with same src\/dst registers (#215575)"
         },
         {
             "hash": "8c94eaedf6e9cb0d22c291454e3b77a1f2aec6f7",
             "author_name": "Jonas Devlieghere",
-            "commit_date": "2026-08-15T15:44:04+00:00",
+            "commit_date": "2026-08-15T15:44:04Z",
             "subject": "[DWARFLinker] Consider module units when creating the type unit (#215731)"
         },
         {
             "hash": "c3bbd061100b85e076a74067d9414841de68c186",
             "author_name": "Kane Wang",
-            "commit_date": "2026-08-15T15:44:58+00:00",
+            "commit_date": "2026-08-15T15:44:58Z",
             "subject": "[RISCV] Fix prefetch ADDI-adjustment range upper bound (#215985)"
         },
         {
             "hash": "cb42065d334aca14f63bbf16caa44b5b3e6522c2",
             "author_name": "Daniel Chen",
-            "commit_date": "2026-08-15T15:45:34+00:00",
+            "commit_date": "2026-08-15T15:45:34Z",
             "subject": "[flang] To fix LIT test that AIX does not emit comdat. (#214950)"
         },
         {
             "hash": "ee9bfe9b77e6b4a45c006e9b06dd616c73fcf7d8",
             "author_name": "Ebuka Ezike",
-            "commit_date": "2026-08-15T15:46:13+00:00",
+            "commit_date": "2026-08-15T15:46:13Z",
             "subject": "[lldb] Fix crash when adding a python ParsedCommand (#215807)"
         },
         {
             "hash": "0380caa08342afc85226053e686571739ec570ef",
             "author_name": "Eli Friedman",
-            "commit_date": "2026-08-15T15:46:59+00:00",
+            "commit_date": "2026-08-15T15:46:59Z",
             "subject": "[DAGCombine] Fix alignment of store in replaceStoreOfInsertLoad. (#215895)"
         },
         {
             "hash": "4e60bd7a63b0d1a8407efb1702b53faec44e2980",
             "author_name": "Brian Cain",
-            "commit_date": "2026-08-15T15:50:27+00:00",
+            "commit_date": "2026-08-15T15:50:27Z",
             "subject": "[Hexagon] Fix KCFI check truncating type id (#211854)"
         },
         {
             "hash": "211d021e1f7d2f71448e26776e283790808139e0",
             "author_name": "Adam Scott",
-            "commit_date": "2026-08-18T08:00:50+00:00",
+            "commit_date": "2026-08-18T08:00:50Z",
             "subject": "[DAGCombiner][AArch64] Fix the multiplier when folding a partial reduction of a mask (#215187)"
         },
         {
             "hash": "7e107983c5f365de463e24e9cb84cfb7b12f6a43",
             "author_name": "Hassnaa Hamdi",
-            "commit_date": "2026-08-18T08:08:51+00:00",
+            "commit_date": "2026-08-18T08:08:51Z",
             "subject": "[AArch64] Fix cost of vector shifts with non-uniform constant amounts (#214206)"
         },
         {
             "hash": "53c64aa519aac1fda507720ce902851dde97d3d7",
             "author_name": "David Tenty",
-            "commit_date": "2026-08-18T08:09:52+00:00",
+            "commit_date": "2026-08-18T08:09:52Z",
             "subject": "[llvm][object][GOFF] refine Global flag conditions (#211632)"
         },
         {
             "hash": "c2347d5252378b1092a6330797d02bcf58556b6a",
             "author_name": "hev",
-            "commit_date": "2026-08-18T08:10:44+00:00",
+            "commit_date": "2026-08-18T08:10:44Z",
             "subject": "[clang][LoongArch] Match GCC ABI handling of integer complex types (#215222)"
         },
         {
             "hash": "3cc48bac4b7392d1d4d70b21ee554eef5ae4aca2",
             "author_name": "Jan Svoboda",
-            "commit_date": "2026-08-18T08:11:29+00:00",
+            "commit_date": "2026-08-18T08:11:29Z",
             "subject": "[clang][lex] Cache stat failures in `-Wshadow-header` (#215962)"
         },
         {
             "hash": "bbb622ba935324697403cc4b6785ba25b71c47ac",
             "author_name": "Yao Qi",
-            "commit_date": "2026-08-18T08:12:19+00:00",
+            "commit_date": "2026-08-18T08:12:19Z",
             "subject": "[lldb] Fix stale L1 memory cache read after memory write (#208347)"
         },
         {
             "hash": "d353d7b3a4f81fe82981fa34685c37cdd859220c",
             "author_name": "Matt Arsenault",
-            "commit_date": "2026-08-18T08:13:03+00:00",
+            "commit_date": "2026-08-18T08:13:03Z",
             "subject": "RISCV: Fix optimizeCondBranch crash on an undef register (#216633)"
         },
         {
             "hash": "81f7f19a1faa84693289c8737686e0b0f8174266",
             "author_name": "Gauarv Chaudhary",
-            "commit_date": "2026-08-18T08:18:04+00:00",
+            "commit_date": "2026-08-18T08:18:04Z",
             "subject": "[clang-format] Fix short functions with nested braced-init (#213550)"
         },
         {
             "hash": "fc5861d308aafa22d2c35d82734503e98b1332ab",
             "author_name": "Rainer Orth",
-            "commit_date": "2026-08-18T08:22:06+00:00",
+            "commit_date": "2026-08-18T08:22:06Z",
             "subject": "[sanitizer] Skip hanging tests on NetBSD (#216712)"
         },
         {
             "hash": "55feb0a3b6b776af9bf375ce931dcbeac0ab8e17",
             "author_name": "Nuri Amari",
-            "commit_date": "2026-08-18T08:24:23+00:00",
+            "commit_date": "2026-08-18T08:24:23Z",
             "subject": "[Clang][Frontend] Fix fix-it size overflow in emitted .dia (#216075)"
         },
         {
             "hash": "2162da3e360fe0df54e96e992f2e0045369dca40",
             "author_name": "Tom Eccles",
-            "commit_date": "2026-08-20T20:43:18+00:00",
+            "commit_date": "2026-08-20T20:43:18Z",
             "subject": "[flang][OpenMP] Revert array element reduction lowering"
         },
         {
             "hash": "75415b1b18022c56f31262c7538660101e6830e1",
             "author_name": "Tom Eccles",
-            "commit_date": "2026-08-20T20:43:21+00:00",
+            "commit_date": "2026-08-20T20:43:21Z",
             "subject": "Diagnose privatized array element reductions"
         },
         {
             "hash": "dd615938518e037d8e052cddb4f2b5e410275e2b",
             "author_name": "Yao Qi",
-            "commit_date": "2026-08-20T20:47:13+00:00",
+            "commit_date": "2026-08-20T20:47:13Z",
             "subject": "[lldb][debugserver] Expedite the stopped frame's stack memory in jThreadsInfo (#212706)"
         },
         {
             "hash": "baf1cb68d5a01c0c76fcd63b0e1a43d2a90f0b39",
             "author_name": "Brian Cain",
-            "commit_date": "2026-08-20T20:48:03+00:00",
+            "commit_date": "2026-08-20T20:48:03Z",
             "subject": "[clang][KCFI] Skip the KCFIPass on Hexagon (#211716)"
         },
         {
             "hash": "508bc71b64b29c4818532dca6687fa0e0fde59da",
             "author_name": "Nikita Kornev",
-            "commit_date": "2026-08-20T20:48:51+00:00",
+            "commit_date": "2026-08-20T20:48:51Z",
             "subject": "[SSAF] Fix Expected return type in TypeConstrainedPointers deserialization (gcc 7.5.0) (#211331)"
         },
         {
             "hash": "a1b7c09ca1d024e5416d383cd01ceb7a1e100675",
             "author_name": "Ebuka Ezike",
-            "commit_date": "2026-08-20T20:49:38+00:00",
+            "commit_date": "2026-08-20T20:49:38Z",
             "subject": "[lldb] Fix SBValue.format property (#216802)"
         },
         {
             "hash": "907f6abbd8011635913900eb76c5fb757dbed825",
             "author_name": "Chennes",
-            "commit_date": "2026-08-20T20:50:18+00:00",
+            "commit_date": "2026-08-20T20:50:18Z",
             "subject": "[InstCombine] Fix miscompile when folding a select into a masked load (#216730)"
         },
         {
             "hash": "80e68c79c60d41cbfb8765efaeccac7fbdd46442",
             "author_name": "Yao Qi",
-            "commit_date": "2026-08-20T20:57:18+00:00",
+            "commit_date": "2026-08-20T20:57:18Z",
             "subject": "[lldb] Serve MemoryCache::ReadRanges from the L2 cache as well as L1 (#216318)"
         },
         {
             "hash": "e47fcdd63792d323a32194b09cf4961716af2489",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-08-20T21:00:13+00:00",
+            "commit_date": "2026-08-20T21:00:13Z",
             "subject": "[ObjcARCContract] Do not replace llvm.lifetime argument. (#216991)"
         },
         {
             "hash": "34319ed2579f19f4268b0744b802e0a0d237855b",
             "author_name": "Alex Crichton",
-            "commit_date": "2026-08-20T21:01:48+00:00",
+            "commit_date": "2026-08-20T21:01:48Z",
             "subject": "[WebAssembly] Default export tables with `--cooperative-threading` (#208263)"
         },
         {
             "hash": "2c70d35e9b3fedc2e1e69cf44efc4fc4752feb31",
             "author_name": "Bailey Hayes",
-            "commit_date": "2026-08-20T21:01:48+00:00",
+            "commit_date": "2026-08-20T21:01:48Z",
             "subject": "[lld][WebAssembly] Follow relocations of TLS-base accessors during GC (#206831)"
         },
         {
             "hash": "6c24753d2c4feb3c2dc1cfbbf210ee2b40cf2b75",
             "author_name": "Alex Crichton",
-            "commit_date": "2026-08-20T21:01:49+00:00",
+            "commit_date": "2026-08-20T21:01:49Z",
             "subject": "[WebAssembly] Fix issues combining coop threads and PIC (#208332)"
         },
         {
             "hash": "13bd2f0ea203789dbb403a7e4b2b9f7a8ce2a5e4",
             "author_name": "Alex Crichton",
-            "commit_date": "2026-08-20T21:01:49+00:00",
+            "commit_date": "2026-08-20T21:01:49Z",
             "subject": "[WebAssembly] Fix __init_tls_base global in coop threading  (#208597)"
         },
         {
             "hash": "fb14f7f142d935884e0ba2e5d3b228e7a611c740",
             "author_name": "Benji Smith",
-            "commit_date": "2026-08-20T21:05:52+00:00",
+            "commit_date": "2026-08-20T21:05:52Z",
             "subject": "[SDAG] Fix invalid sign bit condition for abs(sub) -> abdu fold (#215548)"
         },
         {
             "hash": "4f138bfdcd2e0fcfe4f7d3488f748f0b14f30db2",
             "author_name": "Guy David",
-            "commit_date": "2026-08-20T21:09:04+00:00",
+            "commit_date": "2026-08-20T21:09:04Z",
             "subject": "[ARM] Allow tTAILJMPd on v8-M Baseline (#216747)"
         },
         {
             "hash": "7a1499f14ea036b4a4312084c48dd65ea7abfc85",
             "author_name": "Jacob Young",
-            "commit_date": "2026-08-20T21:09:43+00:00",
+            "commit_date": "2026-08-20T21:09:43Z",
             "subject": "[SystemZ] Fix assertion failures during DAG combine (#215027)"
         },
         {
             "hash": "f2dc211627b287cb99e02a84cdafe151ac3266fc",
             "author_name": "Maryam Moghadas",
-            "commit_date": "2026-08-20T21:10:33+00:00",
+            "commit_date": "2026-08-20T21:10:33Z",
             "subject": "[LegalizeTypes] Allow v1i128 as a valid SETCC result type during vector operand scalarization (#216136)"
         },
         {
             "hash": "60db88762f0bdbb5f658e99154fc156ce0d15281",
             "author_name": "Sam Clegg",
-            "commit_date": "2026-08-20T21:11:13+00:00",
+            "commit_date": "2026-08-20T21:11:13Z",
             "subject": "[lld][WebAssembly] Update incorrect assertion in global relocation code (#215929)"
         },
         {
             "hash": "1013bc46cfa55d60afea0ff996a6de7658d9851b",
             "author_name": "Simon Pilgrim",
-            "commit_date": "2026-08-20T21:12:46+00:00",
+            "commit_date": "2026-08-20T21:12:46Z",
             "subject": "[X86] Add regression test coverage for #217355 (#217387)"
         },
         {
             "hash": "28fc8c4245434daa9957e8bab60e21c6186d288d",
             "author_name": "Simon Pilgrim",
-            "commit_date": "2026-08-20T21:12:47+00:00",
+            "commit_date": "2026-08-20T21:12:47Z",
             "subject": "[X86] lowerFPToIntToFP - handle signedness for fp->int and int->fp independently (#217404)"
         },
         {
             "hash": "895aa2c896ada719451be2e3673c83da8ddf1141",
             "author_name": "yingopq",
-            "commit_date": "2026-08-20T21:13:32+00:00",
+            "commit_date": "2026-08-20T21:13:32Z",
             "subject": "[Mips] Fix getInstSizeInBytes for instructions with delay slots (#216665)"
         },
         {
             "hash": "fa4a3a18db4ce07f2d5c561c419b14c769b90df2",
             "author_name": "Igor Kudrin",
-            "commit_date": "2026-08-20T23:48:51+00:00",
+            "commit_date": "2026-08-20T23:48:51Z",
             "subject": "[lldb] Avoid returning a stale AddressOf (#212915)"
         },
         {
             "hash": "5bf6f4cd28bbde8c09b295404a4aaf9fe28b89a2",
             "author_name": "Jonas Devlieghere",
-            "commit_date": "2026-08-20T23:49:32+00:00",
+            "commit_date": "2026-08-20T23:49:32Z",
             "subject": "[DWARFLinker] Keep address-independent block attributes in the type unit (#215932)"
         },
         {
             "hash": "6f2969e4f199206a4f7beeb3ca429468d2d336e6",
             "author_name": "Amy Kwan",
-            "commit_date": "2026-08-20T23:50:54+00:00",
+            "commit_date": "2026-08-20T23:50:54Z",
             "subject": "Add PowerPC-related release notes for LLVM 23.1.0"
         },
         {
             "hash": "18daae2e3af1a4794a4c6c4abfe9546f8ed8c151",
             "author_name": "Daniel Chen",
-            "commit_date": "2026-08-21T22:21:05+00:00",
+            "commit_date": "2026-08-21T22:21:05Z",
             "subject": "[Support][test] Fix OpenDirectoryAsFileForRead test on AIX and z\/OS (#216241)"
         },
         {
             "hash": "5048f1ae9cbb60a448a4b24769e1a30fde8e9b53",
             "author_name": "Simon Pilgrim",
-            "commit_date": "2026-08-21T22:21:45+00:00",
+            "commit_date": "2026-08-21T22:21:45Z",
             "subject": "[X86] isTargetShuffleEquivalent - only use \"known zero\" element if its known never poison\/undef as well (#217030)"
         },
         {
             "hash": "443af67afb8b37822ef9968088286369f7b99593",
             "author_name": "Daniel Lehmann",
-            "commit_date": "2026-08-21T22:22:20+00:00",
+            "commit_date": "2026-08-21T22:22:20Z",
             "subject": "[MIPS] Don't mark SLL64_64 as isMoveReg (#214060)"
         },
         {
             "hash": "4d842cceec7ba2547bc8421a081cfdf45a8f2b59",
             "author_name": "Nikita Popov",
-            "commit_date": "2026-08-21T22:22:53+00:00",
+            "commit_date": "2026-08-21T22:22:53Z",
             "subject": "[PeepholeOpt] Erase optimized compare from LocalMIs earlier (#217848)"
         },
         {
             "hash": "692fdd97958be7e6aaf19479dea1df479de72a89",
             "author_name": "yingopq",
-            "commit_date": "2026-08-23T19:10:46+00:00",
+            "commit_date": "2026-08-23T19:10:46Z",
             "subject": "[Mips] Legalize vector UNDEF instead of expanding to zero BUILD_VECTOR (#211503)"
         },
         {
             "hash": "190c84f9d1d567a139ec1bca6b02c4fd818a57fc",
             "author_name": "Daniel Paoliello",
-            "commit_date": "2026-08-23T19:11:41+00:00",
+            "commit_date": "2026-08-23T19:11:41Z",
             "subject": "[clang][win] Fix __global_delete breaking __attribute__((used)) (#217753)"
         },
         {
             "hash": "fcfc91b9dc9520693b0f4acb86ce77be1c7ad07e",
             "author_name": "Craig Topper",
-            "commit_date": "2026-08-23T19:12:21+00:00",
+            "commit_date": "2026-08-23T19:12:21Z",
             "subject": "[RISCV] Use correct type for (u)int64_t in RVV intrinsics on OpenBSD (#217211)"
         },
         {
             "hash": "9a30d9b392edd515458a6d2bab5a07462d6ae68d",
             "author_name": "Zeyi Xu",
-            "commit_date": "2026-08-23T19:13:18+00:00",
+            "commit_date": "2026-08-23T19:13:18Z",
             "subject": "[clang-tidy] Fix crashes when analyzing unknown exceptions in bugprone-exception-escape (#218067)"
         },
         {
             "hash": "66a285ca58cb19c1cc20baa18ad6ab061e07a123",
             "author_name": "Bj\u00f6rn Sch\u00e4pers",
-            "commit_date": "2026-08-23T19:14:26+00:00",
+            "commit_date": "2026-08-23T19:14:26Z",
             "subject": "[clang-format] Honor new lines before \/\/ clang-format on (#218022)"
         },
         {
             "hash": "996c97fd9acbf8df326223e38fc06c0679a684bf",
             "author_name": "Tom Stellard",
-            "commit_date": "2026-08-23T19:15:07+00:00",
+            "commit_date": "2026-08-23T19:15:07Z",
             "subject": "workflows: Merge release-doxygen into release-documenation (#214366)"
         },
         {
             "hash": "fb7dcc270e137f7faa83ead19cca698d60465c8e",
             "author_name": "Vipul Cariappa",
-            "commit_date": "2026-08-23T19:15:42+00:00",
+            "commit_date": "2026-08-23T19:15:42Z",
             "subject": "[clang-repl] Don't double-remove extern \"C\" decls from the IdResolver (#218129)"
         },
         {
             "hash": "8b6fd979c96b5582dcbc27b7d72a53055632faa7",
             "author_name": "Tom Stellard",
-            "commit_date": "2026-08-23T19:17:06+00:00",
+            "commit_date": "2026-08-23T19:17:06Z",
             "subject": "workflows\/release-binaries: Install Wix on Windows ARM64 (#217707)"
         },
         {
             "hash": "4e7f3f4e073d16dece9a78bb53ff0dace142d1ac",
             "author_name": "Dan Liew",
-            "commit_date": "2026-08-24T12:07:12+00:00",
+            "commit_date": "2026-08-24T12:07:12Z",
             "subject": "[NFC][BoundsSafety] Give `counted_by_or_null`, `sized_by`, and `sized_by_or_null` their own documentation (#212877)"
         },
         {
             "hash": "f54c0c47aa71103da3550ebb8b515ca204b9d38e",
             "author_name": "David Green",
-            "commit_date": "2026-08-24T12:13:22+00:00",
+            "commit_date": "2026-08-24T12:13:22Z",
             "subject": "[AArch64] Do not allow anyext load in isEquivalentMaskless (#216288)"
         },
         {
             "hash": "f919c6db2ac765e1b0a915579d9be42e6a810b1e",
             "author_name": "Tom Eccles",
-            "commit_date": "2026-08-24T12:24:34+00:00",
+            "commit_date": "2026-08-24T12:24:34Z",
             "subject": "Revert \"workflows\/release-binaries: Disable flang on Darwin (#164667)\" (#216667)"
         },
         {
             "hash": "4b5c875ffe73f79ba1167a9aadf75d5d508a494a",
             "author_name": "Ahmed Bougacha",
-            "commit_date": "2026-08-24T12:25:27+00:00",
+            "commit_date": "2026-08-24T12:25:27Z",
             "subject": "[AArch64][FastISel] Avoid TBZ with SLH more thoroughly. (#217329)"
         },
         {
             "hash": "14140e8595721f22d7a2420becc4df1864a65368",
             "author_name": "Rainer Orth",
-            "commit_date": "2026-08-24T12:26:41+00:00",
+            "commit_date": "2026-08-24T12:26:41Z",
             "subject": "[clang][Driver] Fix libc++ include path on FreeBSD (#212725)"
         },
         {
             "hash": "d38b72ec51c3c528f8e1b3f65bed655eb062c845",
             "author_name": "Koakuma",
-            "commit_date": "2026-08-24T12:27:23+00:00",
+            "commit_date": "2026-08-24T12:27:23Z",
             "subject": "[SPARC][IAS] Adjust bounds check in %rX name parsing (#218301)"
         },
         {
             "hash": "b93a9d0a873ef43973e33ea4c9a66fae7281a253",
             "author_name": "Nikita Popov",
-            "commit_date": "2026-08-24T12:28:28+00:00",
+            "commit_date": "2026-08-24T12:28:28Z",
             "subject": "[MemCpyOpt] Don't perform stack-move opt for out-of-bounds copy (#217607)"
         },
         {
             "hash": "831b44235fe2b447dd5f787ee055a26b7b38e75e",
             "author_name": "Rainer Orth",
-            "commit_date": "2026-08-25T05:33:41+00:00",
+            "commit_date": "2026-08-25T05:33:41Z",
             "subject": "[flang] Fix POSIX.1\/XPG checks in intrinsics-library.cpp (#201072)"
         },
         {
             "hash": "9147c9a290cf761aa2f24be2021bcaab93f3d743",
             "author_name": "Yanzuo Liu",
-            "commit_date": "2026-08-25T05:34:49+00:00",
+            "commit_date": "2026-08-25T05:34:49Z",
             "subject": "release\/23.x: [clang] Add release notes for #212122"
         },
         {
             "hash": "ea5cc83854d6ce632393a807377957c3695f48a1",
             "author_name": "Emery Conrad",
-            "commit_date": "2026-08-25T05:36:21+00:00",
+            "commit_date": "2026-08-25T05:36:21Z",
             "subject": "[clang-repl] Unlink the withdrawn partial translation unit on Undo (#213235)"
         },
         {
             "hash": "2437c980548d116b0da6b8abe143317851397e90",
             "author_name": "Nerixyz",
-            "commit_date": "2026-08-25T05:37:53+00:00",
+            "commit_date": "2026-08-25T05:37:53Z",
             "subject": "[cmake] Fix DIA SDK detection from VSINSTALLDIR (#218499)"
         },
         {
             "hash": "6bf1091aafe7b05b5a19be49984058801eedd431",
             "author_name": "Tom Stellard",
-            "commit_date": "2026-08-25T14:40:53+00:00",
+            "commit_date": "2026-08-25T14:40:53Z",
             "subject": "workflows\/release-binaries: Fix setting Wix PATH for ARM64 Windows (#218680)"
         },
         {
             "hash": "ea7d852a70e8bdfaf601d6626a760f9771b2c4b4",
             "author_name": "Douglas Yung",
-            "commit_date": "2026-08-25T19:15:21+00:00",
+            "commit_date": "2026-08-25T19:15:21Z",
             "subject": "Bump version to 23.1.0"
         },
         {
@@ -276127,7 +276133,7 @@
         {
             "hash": "f39930bce62db6634f2098dde77c48c3885cd13e",
             "author_name": "Pavel Labath",
-            "commit_date": "2026-08-31T14:18:40+00:00",
+            "commit_date": "2026-08-31T14:18:40Z",
             "subject": "[libc] Fix sockatmark test (#210655)"
         },
         {
@@ -276295,7 +276301,7 @@
         {
             "hash": "6dfe1677ab8dffbc6ec13d53a1e0215d75147689",
             "author_name": "Alexey Bataev",
-            "commit_date": "2026-09-07T13:01:29+00:00",
+            "commit_date": "2026-09-07T13:01:29Z",
             "subject": "[SLP]Fix crash in canBuildSplitNode on struct-typed scalars"
         },
         {
@@ -276307,85 +276313,85 @@
         {
             "hash": "e5130a252e5de6a3bf28c93e3f7d8687c5c252ad",
             "author_name": "Angel J",
-            "commit_date": "2026-09-10T03:22:39+00:00",
+            "commit_date": "2026-09-10T03:22:39Z",
             "subject": "[Driver][OpenBSD] Pass -pie for static PIE links (#216907)"
         },
         {
             "hash": "24ba344c56c5d156397c09d503b6482f27e1ee6b",
             "author_name": "Keith Smiley",
-            "commit_date": "2026-09-10T03:22:42+00:00",
+            "commit_date": "2026-09-10T03:22:42Z",
             "subject": "[Driver][OpenBSD] Use -no-pie instead of -nopie (#220464)"
         },
         {
             "hash": "36ede5c3922bec1854eba069ca8cfc2a599994f2",
             "author_name": "Chris Apple",
-            "commit_date": "2026-09-10T03:39:18+00:00",
+            "commit_date": "2026-09-10T03:39:18Z",
             "subject": "[clang-tidy] Normalize windows line filter paths (#217038)"
         },
         {
             "hash": "7fe36371c71bb6bef3361c4f7ef081fd2c913f16",
             "author_name": "AZero13",
-            "commit_date": "2026-09-10T03:47:38+00:00",
+            "commit_date": "2026-09-10T03:47:38Z",
             "subject": "[RISCV] Fix infinite DAGCombine loop with SETCC and SIGN_EXTEND_INREG (#221593)"
         },
         {
             "hash": "069ef0e7cb36ee1fcf3bfdad31533fd79ab85b58",
             "author_name": "Richard Smith",
-            "commit_date": "2026-09-10T03:51:39+00:00",
+            "commit_date": "2026-09-10T03:51:39Z",
             "subject": "Add release note for #184718."
         },
         {
             "hash": "3c3c37ea117a78ac82abc570447c3aacec2d4528",
             "author_name": "Bernhard \u00dcbelacker",
-            "commit_date": "2026-09-16T08:01:53+00:00",
+            "commit_date": "2026-09-16T08:01:53Z",
             "subject": "[win\/asan] GetInstructionSize: Add some more instructions. (#219038)"
         },
         {
             "hash": "21a77e7bb6bf4971cfa0428b785798a61e23b3c4",
             "author_name": "Paul Walker",
-            "commit_date": "2026-09-16T08:02:37+00:00",
+            "commit_date": "2026-09-16T08:02:37Z",
             "subject": "[LLVM][CodeGen][SME] Don't use non-streaming zeroing instruction when in streaming mode. (#222353)"
         },
         {
             "hash": "2eabe80bc7ab59cb93723b8a76437254bc88e071",
             "author_name": "George Burgess IV",
-            "commit_date": "2026-09-16T21:32:05+00:00",
+            "commit_date": "2026-09-16T21:32:05Z",
             "subject": "[libc++] Opt `std::*set` out of map key extraction optimization (#220452)"
         },
         {
             "hash": "82fc843747e0926f26e5d248b91cce1f67d7ea23",
             "author_name": "Louis Dionne",
-            "commit_date": "2026-09-16T21:33:12+00:00",
+            "commit_date": "2026-09-16T21:33:12Z",
             "subject": "[libc++] Don't assume a valid range in find_if for empty inputs (#213752)"
         },
         {
             "hash": "ba019b7aafce09a013cf7e9139fa0c229f09b188",
             "author_name": "Bart Van Assche",
-            "commit_date": "2026-09-16T21:34:12+00:00",
+            "commit_date": "2026-09-16T21:34:12Z",
             "subject": "[SPARC] Fix SelectForceADDRrr for global addresses and non-reg operands (#220013)"
         },
         {
             "hash": "664808c09ccdcd6915b5e8f7add8873486561ebd",
             "author_name": "Louis Dionne",
-            "commit_date": "2026-09-18T23:17:47+00:00",
+            "commit_date": "2026-09-18T23:17:47Z",
             "subject": "[libc++] Reword confusing warning message about AppleClang version (#222380)"
         },
         {
             "hash": "36e7268be7c2cc2eba633baa104b49cf3b53c43a",
             "author_name": "David Spickett",
-            "commit_date": "2026-09-18T23:18:49+00:00",
+            "commit_date": "2026-09-18T23:18:49Z",
             "subject": "[lldb] Disable delayed-breakpoints by default for lldb 23"
         },
         {
             "hash": "267a9fb463893ecc6eea0ae483777af5d8216a9b",
             "author_name": "Keith Smiley",
-            "commit_date": "2026-09-18T23:19:41+00:00",
+            "commit_date": "2026-09-18T23:19:41Z",
             "subject": "[clang][modulemap] Fix crashes loading pcms (#218011)"
         },
         {
             "hash": "eab565ac4e1a7002c93eb3c31508b56dd9d37d04",
             "author_name": "Jon Roelofs",
-            "commit_date": "2026-09-18T23:28:09+00:00",
+            "commit_date": "2026-09-18T23:28:09Z",
             "subject": "Reland \"[llvm][AArch64] Ensure stack alignment in non-sibcall tail calls with FPDiff\" (#220406)"
         },
         {
@@ -276397,31 +276403,31 @@
         {
             "hash": "577cd04ea1e633ce678ee64c1979096ae98a4d51",
             "author_name": "Ryan VanderMeulen",
-            "commit_date": "2026-09-19T22:05:00+00:00",
+            "commit_date": "2026-09-19T22:05:00Z",
             "subject": "[cmake] FindLibXml2: keep user-provided LIBXML2_DEFINITIONS (#221294)"
         },
         {
             "hash": "4a9562cdbd75bfe01d78c04d562caf3c86cfe5a8",
             "author_name": "Keith Smiley",
-            "commit_date": "2026-09-19T22:05:45+00:00",
+            "commit_date": "2026-09-19T22:05:45Z",
             "subject": "workflows\/release-binaries: Fix zstd compression (#219587)"
         },
         {
             "hash": "4b19252104764e9e2ccd25c545eb6b99309a2444",
             "author_name": "beetrees",
-            "commit_date": "2026-09-19T22:07:17+00:00",
+            "commit_date": "2026-09-19T22:07:17Z",
             "subject": "Fix `fp128` reaching `llvm_unreachable` on 32-bit PowerPC (#216613)"
         },
         {
             "hash": "85ac560262434c9ccfc0c183ec22d4138ed647fb",
             "author_name": "AZero13",
-            "commit_date": "2026-09-20T03:00:07+00:00",
+            "commit_date": "2026-09-20T03:00:07Z",
             "subject": "[Clang][CodeGen] Fix crash in EmitParmDecl for bodyless destructors with -fextend-variable-liveness (#218830)"
         },
         {
             "hash": "67f4a076a0978eb34564241c3eceb886bf6246f8",
             "author_name": "Douglas Yung",
-            "commit_date": "2026-09-22T06:48:56+00:00",
+            "commit_date": "2026-09-22T06:48:56Z",
             "subject": "Bump version to 23.1.3"
         },
         {
@@ -276583,7 +276589,7 @@
         {
             "hash": "d8965120316b005fca1018eedd15a1c0f2f12d10",
             "author_name": "Daniel Paoliello",
-            "commit_date": "2026-09-30T23:28:43+00:00",
+            "commit_date": "2026-09-30T23:28:43Z",
             "subject": "[clang][AArch64] Fix range check for _Read\/_WriteStatusReg (#227052)"
         },
         {
@@ -276679,7 +276685,7 @@
         {
             "hash": "d657d8d8c0fd9601d68dfbabb28cd6fe33115a75",
             "author_name": "Douglas Yung",
-            "commit_date": "2026-10-07T18:36:31+00:00",
+            "commit_date": "2026-10-07T18:36:31Z",
             "subject": "Bump version to 23.1.4"
         },
         {
@@ -276801,6 +276807,30 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-10-14T06:40:27+02:00",
             "subject": "[SimplifyLibCalls] Fix ConstantInt construction based on char (#231159)"
+        },
+        {
+            "hash": "beb6b7dfae46ce96a30742181b1acc83b9f72639",
+            "author_name": "Doha Nam",
+            "commit_date": "2026-10-14T08:06:40Z",
+            "subject": "[X86] Don't treat vectors with elements wider than 64 bits as immediate-shiftable (#228840)"
+        },
+        {
+            "hash": "a5eac6566485bfdf7091745df5010402f5c9b670",
+            "author_name": "Amaan Qureshi",
+            "commit_date": "2026-10-18T14:08:17+02:00",
+            "subject": "[Clang][counted_by] Load the count through unions by byte offset (#228309)"
+        },
+        {
+            "hash": "d946f7b2b214f31525b5a14d88d108e16515bbb3",
+            "author_name": "Daniel Moody",
+            "commit_date": "2026-10-18T14:08:24+02:00",
+            "subject": "[PowerPC] Don't let optimizeCompareInstr define CR0 while it is still live (#220999)"
+        },
+        {
+            "hash": "71c76755a8ffda1190f58d7973d11ad5448c2ecc",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-10-18T14:08:32+02:00",
+            "subject": "[ELF] Move layout-changing transforms before address assignment (#232189)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
