@@ -77065,16 +77065,16 @@
             "subject": "[clang][bytecode] Always check for initialization in RetValue"
         },
         {
-            "hash": "ffe8dc1eb1b0050c318f4368931fdb4b4913a95c",
+            "hash": "3be0025e092c06fee99df20636cdc87f859633d7",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-18T15:26:49+02:00",
+            "commit_date": "2026-10-18T17:06:08+02:00",
             "subject": "local block lazy init"
         },
         {
-            "hash": "64038f1d36952dfec4f2f9be3b17c71469db8b5c",
+            "hash": "e10d558bd7527c906476cd65bb5cded6d9aa5280",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-18T15:26:50+02:00",
-            "subject": "Move depth to InterpState"
+            "commit_date": "2026-10-18T17:06:10+02:00",
+            "subject": "frame depth"
         }
     ],
     "dtcxzyw\/perf\/nonnull-at-callsite": [
@@ -266571,6 +266571,30 @@
             "author_name": "Vicky Nguyen",
             "commit_date": "2026-10-18T07:57:43-07:00",
             "subject": "[clang][CIR] Add tests for SVE NOR intrinsics (#233172)"
+        },
+        {
+            "hash": "6d30aa1d1a5b1048b0ada0df1bd88d8cc816c781",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-18T16:58:50+02:00",
+            "subject": "AMDGPU: Mark unread physreg defs dead in a scheduler test (#233214)"
+        },
+        {
+            "hash": "bf633866f1a95e0b09b2696e26158ba26019941c",
+            "author_name": "Steven Wu",
+            "commit_date": "2026-10-18T15:00:10Z",
+            "subject": "[Option] Allow subcommand names as positional arguments (#227077)"
+        },
+        {
+            "hash": "33f6412af80bb2d77f6d8fa8ba063089108431b2",
+            "author_name": "Vicky Nguyen",
+            "commit_date": "2026-10-18T08:01:56-07:00",
+            "subject": "[clang][CIR] Add tests for SVE ORN intrinsics (#233169)"
+        },
+        {
+            "hash": "d05c46c7c5955196eb01f16d6bf16b9047ffa6e8",
+            "author_name": "Vicky Nguyen",
+            "commit_date": "2026-10-18T08:02:19-07:00",
+            "subject": "[clang][CIR] Add tests for SVE NAND intrinsics (#233173)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
