@@ -266649,6 +266649,18 @@
             "author_name": "Simon Pilgrim",
             "commit_date": "2026-10-18T16:12:16Z",
             "subject": "[X86] combineConcatVectorOps - ensure at least one of the VSELECT\/BLENDV selection operands fully concatenates (#233245)"
+        },
+        {
+            "hash": "2bb607861a2cd30c2eb3ff83a396595c3ca7821e",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-18T09:20:23-07:00",
+            "subject": "[RISCV][P-ext] Remove custom lowering of insert_subvector for v2i16\/v4i8 on RV64. (#232899)"
+        },
+        {
+            "hash": "bd280427b25ff4262dd9ad56d0ed0ef6a2b7ecb0",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-18T09:20:24-07:00",
+            "subject": "[RISCV][P-ext] Use concat_vectors with 0 in widenPackedVectorWithZeros. (#232940)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
