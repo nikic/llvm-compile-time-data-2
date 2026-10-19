@@ -267357,6 +267357,12 @@
             "author_name": "Timm Baeder",
             "commit_date": "2026-10-19T16:14:19+02:00",
             "subject": "[clang][bytecode][NFC] Make string pointer check more explicit (#233360)"
+        },
+        {
+            "hash": "c9f4a9e8023bd915d8f42a23511441f33528e352",
+            "author_name": "Kareem Ergawy",
+            "commit_date": "2026-10-19T16:17:43+02:00",
+            "subject": "[flang][FIRToMemRef] Propagate nontemporal to the memref ops (#233420)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -290213,6 +290219,26 @@
             "author_name": "Yafet Beyene",
             "commit_date": "2026-10-19T06:48:08-07:00",
             "subject": "[IR][Analysis][Flang] Add array-bound assumptions for delinearization"
+        }
+    ],
+    "tbaederr\/perf\/local-desc": [
+        {
+            "hash": "9c6e6966189f5d5b5e461ab33c9017af48a79965",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-18T09:16:12-04:00",
+            "subject": "[SLP]Keep bitwidth if scalar users may become poison"
+        },
+        {
+            "hash": "066fba5fbc932254e81229f402629c1fbf7829b5",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-10-19T16:22:52+02:00",
+            "subject": "Test"
+        },
+        {
+            "hash": "9ea59bbb941899f35d0935e81236c0869172cf57",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-10-19T16:22:53+02:00",
+            "subject": "Save block kind instead of metadata size"
         }
     ]
 }
