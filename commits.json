@@ -267579,6 +267579,60 @@
             "author_name": "Zane Hambly",
             "commit_date": "2026-10-20T06:25:51+13:00",
             "subject": "[SystemZ][z\/OS] Escape apostrophes and ampersands in HLASM ALIAS (#233067)"
+        },
+        {
+            "hash": "a715dbca4d38fe82e569ad5ebdfe5554b2e57cce",
+            "author_name": "Federico Bruzzone",
+            "commit_date": "2026-10-19T19:30:36+02:00",
+            "subject": "[mlir][linalg] Fix memory leak in `vectorize-insert-slice-rank-reducing` test (#233435)"
+        },
+        {
+            "hash": "69ad8f26b41f36f799c19cb79fd3423f462d56af",
+            "author_name": "Krzysztof Drewniak",
+            "commit_date": "2026-10-19T10:30:55-07:00",
+            "subject": "[AMDGPU][NFC] Use ptr ops in ptr.buffer.atomic.fadd_rtn_errors.ll (#231298)"
+        },
+        {
+            "hash": "e0bb0ab72e27da63b5ac3a40a72794e7fd2b886a",
+            "author_name": "Krzysztof Drewniak",
+            "commit_date": "2026-10-19T10:30:56-07:00",
+            "subject": "[AMDGPU] Let llvm.amdgcn.raw.ptr.buffer.load.format also return any legal type (#231308)"
+        },
+        {
+            "hash": "413e320f8968c901b86086c9d0b88ee9de824dbe",
+            "author_name": "Krzysztof Drewniak",
+            "commit_date": "2026-10-19T10:30:57-07:00",
+            "subject": "[AMDGPU][NFC] Add d16 integer coverage for raw.ptr.buffer.load.format (#231300)"
+        },
+        {
+            "hash": "19425135d388c96ccdcf2358d83d538f299ec604",
+            "author_name": "Bruno Cardoso Lopes",
+            "commit_date": "2026-10-19T17:32:26Z",
+            "subject": "[LLVM][LowerTypeTests] Drop llvm.type.checked.load in drop-type-tests<all> (#232865)"
+        },
+        {
+            "hash": "cb6ac5952b2868d247281d10dcbb9a0a20839a3b",
+            "author_name": "Timur Golubovich",
+            "commit_date": "2026-10-19T19:34:51+02:00",
+            "subject": "[MergeFunctions] Compare alignment of cmpxchg and atomicrmw (#233444)"
+        },
+        {
+            "hash": "e5cd5b888bab759e503bb15b7569c25b04b9d3da",
+            "author_name": "Malavika Samak",
+            "commit_date": "2026-10-19T10:35:04-07:00",
+            "subject": "[InferAddressSpaces] Do not rewrite index operands of a constant GEP (#229491)"
+        },
+        {
+            "hash": "934c5b46b8c2404dfad3972e4e5b20ec0b6dc55b",
+            "author_name": "Ramkrishnan",
+            "commit_date": "2026-10-19T13:35:07-04:00",
+            "subject": "[IndVarSimplify] Ensure fp to int32 conversion stays in bound (#230179)"
+        },
+        {
+            "hash": "fd29cd98f8fe162c9158b2f13ac4c2b6592ffa12",
+            "author_name": "Nick Desaulniers",
+            "commit_date": "2026-10-19T10:38:11-07:00",
+            "subject": "[clang][X86] fix bit_PKU (#232394)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
