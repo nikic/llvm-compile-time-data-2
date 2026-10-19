@@ -267501,6 +267501,24 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-19T16:28:59Z",
             "subject": "[LV] Reject calls with operand bundles. (#233459)"
+        },
+        {
+            "hash": "f9897a670796e4e4bfc9d987d3480ead10351814",
+            "author_name": "Dan Brown",
+            "commit_date": "2026-10-19T10:32:18-06:00",
+            "subject": "[HLSL] Use icmp ne instead of trunc on boolean load (#221105)"
+        },
+        {
+            "hash": "da9657b241905d74ddeb8b488a0642a95ef05c4e",
+            "author_name": "Tamir Duberstein",
+            "commit_date": "2026-10-19T09:34:08-07:00",
+            "subject": "[Clang] Fix preserved C++ field indices (#226790)"
+        },
+        {
+            "hash": "926c8bc12816702223f6a5a69957b67f80d63848",
+            "author_name": "Nerixyz",
+            "commit_date": "2026-10-19T18:39:31+02:00",
+            "subject": "[lldb][SymStore] Abort cached file stream if request failed (#232848)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -290389,6 +290407,20 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-10-19T16:22:53+02:00",
             "subject": "Save block kind instead of metadata size"
+        }
+    ],
+    "c-rhodes\/perf\/livedebugvalues-skip-functions-without-debug-values": [
+        {
+            "hash": "e2439ac568c57fcf3b500c8e96c6d847c71db116",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-10-19T17:18:31+01:00",
+            "subject": "[TableGen] Reject \"field\" keyword in template argument declaration (#124924)"
+        },
+        {
+            "hash": "64d51eb7658abf9eec4c3e98bfd661d392432ae4",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-10-19T16:35:27Z",
+            "subject": "[LiveDebugValues] Skip functions without debug values (NFC)"
         }
     ]
 }
