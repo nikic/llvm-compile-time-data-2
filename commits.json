@@ -266931,6 +266931,18 @@
             "author_name": "gretay-amd",
             "commit_date": "2026-10-19T07:14:30+01:00",
             "subject": "[AMDGPU][NFC] Use MCRegister instead of MCPhysReg in SIRegisterInfo::get32BitRegister  (#232830)"
+        },
+        {
+            "hash": "0921c006608d78254fdc5758d475c4210f9628c5",
+            "author_name": "Yongqiang Tian",
+            "commit_date": "2026-10-19T06:17:58Z",
+            "subject": "[RISCV] Ignore debug uses in vector peephole folds (#230319)"
+        },
+        {
+            "hash": "2c419645e808a6667eee9dbb16c828f77e2fd2f0",
+            "author_name": "Matteo Di Iorio",
+            "commit_date": "2026-10-19T15:21:40+09:00",
+            "subject": "[mlir][bufferization] Remove memref.alloc-only check for while exit aliases (#232834)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -277221,6 +277233,18 @@
             "author_name": "Nick Desaulniers",
             "commit_date": "2026-10-18T20:36:08+02:00",
             "subject": "[ARM] Fix miscompile in MAC for 64b values (#231702)"
+        },
+        {
+            "hash": "d5ff1316673e4e71e6f7c3ff8d80e667cf00aa25",
+            "author_name": "Alex R\u00f8nne Petersen",
+            "commit_date": "2026-10-19T08:23:49+02:00",
+            "subject": "[clang][bytecode] disable tail calls on mips (#229679)"
+        },
+        {
+            "hash": "52e90e1917a4bbc450d9ac56030bab755246a269",
+            "author_name": "Alex R\u00f8nne Petersen",
+            "commit_date": "2026-10-19T08:23:54+02:00",
+            "subject": "[Mips] Lower calls to private functions the same way as internal functions (#229975)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
