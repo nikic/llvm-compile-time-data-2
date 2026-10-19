@@ -267273,6 +267273,12 @@
             "author_name": "Kerry McLaughlin",
             "commit_date": "2026-10-19T13:48:20+01:00",
             "subject": "[LV] Adjust the trip count of tail-folded loops which may overflow (#224340)"
+        },
+        {
+            "hash": "ab36cf3d5a24f19051f61f557442bfa5540c8c57",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-19T13:50:26+01:00",
+            "subject": "[VPlan] Add VPIRAttributes; use for VPWidenCallRecipe. (#207075)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -277575,6 +277581,30 @@
             "author_name": "Alex R\u00f8nne Petersen",
             "commit_date": "2026-10-19T08:23:54+02:00",
             "subject": "[Mips] Lower calls to private functions the same way as internal functions (#229975)"
+        },
+        {
+            "hash": "d5f50fc559a24887a3a57e3db4c12854f3bf2032",
+            "author_name": "Alex R\u00f8nne Petersen",
+            "commit_date": "2026-10-19T08:51:34Z",
+            "subject": "[Mips] Fix symbol names for private functions in relocation hints (#230572)"
+        },
+        {
+            "hash": "fdf44b31a63ea2b767bc95c4a4448b69c9f1b7af",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-19T14:52:25+02:00",
+            "subject": "[InstCombine] Drop poison-generating annotations forming min\/max for clamp (#231537)"
+        },
+        {
+            "hash": "524ac171cd4391ea864a627edfc3c3d7a01fd4ce",
+            "author_name": "Hongyu",
+            "commit_date": "2026-10-19T14:52:28+02:00",
+            "subject": "[GlobalISel] Drop nuw\/nsw\/disjoint when widening a result with G_ANYEXT (#218558)"
+        },
+        {
+            "hash": "4635269e3782522f0d00759f544227c93df0bcc9",
+            "author_name": "Rito Takeuchi",
+            "commit_date": "2026-10-19T14:52:32+02:00",
+            "subject": "[X86] Fix constant vector i64 signed div\/rem on 32-bit targets (#229244)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
