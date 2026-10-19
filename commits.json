@@ -267291,6 +267291,18 @@
             "author_name": "Anastasia-Artemova",
             "commit_date": "2026-10-19T13:20:52Z",
             "subject": "[flang] Avoid crash on conflicting BIND(C) declaration (#231816)"
+        },
+        {
+            "hash": "e6146a73f96e7fd4df0e50aa853f90b2f785798a",
+            "author_name": "David Spickett",
+            "commit_date": "2026-10-19T14:31:53+01:00",
+            "subject": "[lldb][test] Skip TestMultithreadedStopHook.py on all Linux (#233422)"
+        },
+        {
+            "hash": "90205f687276acf6e864d33424fec647173e05c9",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-10-19T15:32:45+02:00",
+            "subject": "[libc] Move setxid entrypoints to experimental (#233416)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -289929,6 +289941,210 @@
             "author_name": "Kristina Bessonova",
             "commit_date": "2026-10-10T23:58:58+02:00",
             "subject": "[DebugInfo][DwarfDebug] Defer parent attachment of function-local DIEs until endModule()"
+        }
+    ],
+    "madhur13490\/perf\/assume-2": [
+        {
+            "hash": "291784e0e2104b0c5f5801fd69f2a68a0575983a",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-10-12T13:37:44Z",
+            "subject": "[X86] Add SSE2 32-bit smulh\/umulh test coverage (#231151)"
+        },
+        {
+            "hash": "80aa624a4bd8b01eae98e23e96a6ab5c38d575a5",
+            "author_name": "Sjoerd Meijer",
+            "commit_date": "2026-10-13T22:32:17-07:00",
+            "subject": "[flang] Emit llvm.assume for array bounds constraints"
+        },
+        {
+            "hash": "503bec8859a7f97bf3f9956f27b9aa5736ef5b26",
+            "author_name": "Sjoerd Meijer",
+            "commit_date": "2026-10-13T22:32:17-07:00",
+            "subject": "[LangRef] Introduce MD node for array dims"
+        },
+        {
+            "hash": "5e3e10c186f92e9512b7eb46fbe05c2527fb1e48",
+            "author_name": "Sjoerd Meijer",
+            "commit_date": "2026-10-13T22:32:17-07:00",
+            "subject": "[Flang] Attach array meta-data to global array declarations"
+        },
+        {
+            "hash": "0cb134a532fcacaaef5071e48f225086f3d2050e",
+            "author_name": "Sjoerd Meijer",
+            "commit_date": "2026-10-13T22:32:17-07:00",
+            "subject": "[Delinearization] Extract outer array dimensions from meta-data"
+        },
+        {
+            "hash": "dd52b6bf1f9f8c3843fe4c8ed16ef29c9c6a8e33",
+            "author_name": "Sjoerd Meijer",
+            "commit_date": "2026-10-13T22:32:18-07:00",
+            "subject": "[LoopInterchange] Allow llvm.assume intrinsics"
+        },
+        {
+            "hash": "9997ffc5c9c1fd08bfd20fc9086df918395d3421",
+            "author_name": "Elvina Yakubova",
+            "commit_date": "2026-10-13T22:32:18-07:00",
+            "subject": "[Flang] Only emit assumes when the declared extent is a known positive constant"
+        },
+        {
+            "hash": "c2fbebdc417c390a465f26a36ebfde56c8ce3636",
+            "author_name": "Yafet Beyene",
+            "commit_date": "2026-10-13T22:32:18-07:00",
+            "subject": "[SCEV] Use dominating assumes in contextual predicate proofs"
+        },
+        {
+            "hash": "39cab4d7696b0b0d723b8f1ec4813da63b994e76",
+            "author_name": "Yafet Beyene",
+            "commit_date": "2026-10-13T22:32:18-07:00",
+            "subject": "[Delinearization] Harden metadata-guided delinearization"
+        },
+        {
+            "hash": "d27cfd20785f423ea54cac643017c1e2ad74ef00",
+            "author_name": "Yafet Beyene",
+            "commit_date": "2026-10-13T22:32:18-07:00",
+            "subject": "[DA] Prove mixed-radix self-access injectivity"
+        },
+        {
+            "hash": "e4d0d0f8a71cc0edc1a87bed8dfd1734a856ffa7",
+            "author_name": "Yafet Beyene",
+            "commit_date": "2026-10-13T22:32:18-07:00",
+            "subject": "[Delinearization] Update checks for the minimal assume stack"
+        },
+        {
+            "hash": "339ee07f4cab6a1f78f01d8a3b746549087d3eee",
+            "author_name": "Yafet Beyene",
+            "commit_date": "2026-10-13T22:32:19-07:00",
+            "subject": "[LoopInterchange] Fully allow llvm.assume intrinsics"
+        },
+        {
+            "hash": "0fe927aa5b39f03002151d06043f7258a3a3eab7",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-10-13T22:32:19-07:00",
+            "subject": "[LoopInterchange] Read direction vectors at the nest's own depth"
+        },
+        {
+            "hash": "f9e1452bc5f98dc127974c2d4f02811dad435a52",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-10-13T22:32:19-07:00",
+            "subject": "[LoopInterchange] Order parametric strides in the profitability heuristic"
+        },
+        {
+            "hash": "ee069cfe1c6bfb8b04b1fbf1dd2f3f6918456386",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-10-13T22:32:58-07:00",
+            "subject": "[LoopInterchange] Allow an inner-loop-invariant load in an almost-tightly-nested loop"
+        },
+        {
+            "hash": "3b71cb116d2e66282b3340c3091687b3b05e5861",
+            "author_name": "Sjoerd Meijer",
+            "commit_date": "2026-10-13T22:32:58-07:00",
+            "subject": "[Flang] Add pass to remove redundant array bound assumes"
+        },
+        {
+            "hash": "9f73dcf064fe8ed3b882da9104185f78defef401",
+            "author_name": "Yafet Beyene",
+            "commit_date": "2026-10-13T22:32:58-07:00",
+            "subject": "[Transforms] Deduplicate array-bound assumes safely"
+        },
+        {
+            "hash": "f5eae3a1e5fdbdaabe22046123c99b289ac3d078",
+            "author_name": "Yafet Beyene",
+            "commit_date": "2026-10-13T22:32:59-07:00",
+            "subject": "[LoopInterchange] Remove array-bound assumes after interchange"
+        },
+        {
+            "hash": "bda1fe4a612d2282eefb5ecc4dc607859ed195d0",
+            "author_name": "Yafet Beyene",
+            "commit_date": "2026-10-13T22:32:59-07:00",
+            "subject": "[IndVarSimplify] Ignore tagged bound predicates as IV users"
+        },
+        {
+            "hash": "ed96d04ba914113f00f93118eff58d87f7ece9d8",
+            "author_name": "Yafet Beyene",
+            "commit_date": "2026-10-13T22:32:59-07:00",
+            "subject": "[Delinearization] Short-circuit range proofs"
+        }
+    ],
+    "madhur13490\/perf\/chained": [
+        {
+            "hash": "87e5a59ebde0a2517cbf8f816582779be6194fe1",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-30T10:00:26+02:00",
+            "subject": "TwoAddressInstructions: Use a range loop to move the copy chain (#227296)"
+        },
+        {
+            "hash": "010406eee134de4939dad2229a001acc4df0f6bd",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-09-30T03:29:05-07:00",
+            "subject": "[IR][DA][flang] Prototype llvm.assume.chained array extents assumption"
+        },
+        {
+            "hash": "6a7fa3362ccbe57ab8d05b3ef134ba0b4c59cd6e",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-10-09T09:03:45-07:00",
+            "subject": "Add stats"
+        }
+    ],
+    "madhur13490\/perf\/metadata": [
+        {
+            "hash": "83ec9bd7181db8e5be6de82f0d74295abf48ae91",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-08-12T07:50:25+02:00",
+            "subject": "[clang][bytecode][NFC] Remove redundant setSource() call (#215716)"
+        },
+        {
+            "hash": "eaa128f2b81324859813c3012f15d059244d337a",
+            "author_name": "Sebastian Pop",
+            "commit_date": "2026-08-13T00:19:56-07:00",
+            "subject": "[flang] Emit llvm.assume for array bounds constraints"
+        },
+        {
+            "hash": "c78ec999618f582d79a1e4b5497c3153e82d31a1",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-08-13T00:19:56-07:00",
+            "subject": "[LoopInterchange] Read direction vectors at the nest's own depth"
+        },
+        {
+            "hash": "e32ad66cc5b1a86aeb621c0fb7eea9ae2f1158d8",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-08-13T00:19:56-07:00",
+            "subject": "[Delinearization] Allow subscript bounds to be established at the access"
+        },
+        {
+            "hash": "92e0a14dadbba5f5071fa5f5615ea4c5e9086779",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-08-13T00:19:57-07:00",
+            "subject": "[LoopInterchange] Do not let assumptions block a nest"
+        },
+        {
+            "hash": "10e1918ecfd05d7559d5d136b6e7dd1706c53e72",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-08-13T00:19:57-07:00",
+            "subject": "[LoopInterchange] Optionally consider each chain of a branching nest"
+        },
+        {
+            "hash": "1eb397aa5a988ddbc150aa73bff3e17f0acaa2f3",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-08-13T08:42:02-07:00",
+            "subject": "[Delinearization] Let an access state that its subscripts are in range"
+        },
+        {
+            "hash": "98c95a5c721b86897d12749baf2efb19a4f8eeba",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-08-13T08:42:02-07:00",
+            "subject": "[MLIR][LLVM] Translate the subscripts-in-range attribute to metadata"
+        },
+        {
+            "hash": "0851ea97e3784fdc1587257b1270b6b5aae9809c",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-08-13T08:42:02-07:00",
+            "subject": "[flang] Mark array accesses as having in-range subscripts"
+        },
+        {
+            "hash": "2ddfff926bd0a2cc2803788bb30c9ff942e1562e",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-08-13T09:25:37-07:00",
+            "subject": "[Delinearization] Name the extents an access stays within"
         }
     ]
 }
