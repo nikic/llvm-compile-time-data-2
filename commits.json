@@ -267459,6 +267459,42 @@
             "author_name": "Michael G. Kazakov",
             "commit_date": "2026-10-19T16:53:11+01:00",
             "subject": "[libc++][pstl] Add more tests of parallel std::for_each[_n] (#231918)"
+        },
+        {
+            "hash": "b4544bc2d8d9a0ca45798ce31cf2400dbb859687",
+            "author_name": "Jaydeep Chauhan",
+            "commit_date": "2026-10-19T21:40:11+05:30",
+            "subject": "[RISCV][GlobalISel] Enable SINCOS with libcall mapping (#232272)"
+        },
+        {
+            "hash": "cb80363d9ae5e10c7afbff12776d085f2cb9ce94",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-19T09:10:31-07:00",
+            "subject": "[RISCV][P-ext] Teach combinePExtTruncate to detect v8i8 mulhsu patterns. (#233336)"
+        },
+        {
+            "hash": "6b999e230d80416d538810a193c0de7c25438c8d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-19T16:13:12Z",
+            "subject": "[LV] Only fold extend into narrow mul if it can't wrap. (#232967)"
+        },
+        {
+            "hash": "383eb69f455c319438060fa14e5e23434e2ef1da",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-19T09:17:21-07:00",
+            "subject": "[Vectorize] Migrate away from PointerUnion::dyn_cast (NFC) (#233343)"
+        },
+        {
+            "hash": "3a410402f33547c208c1c8672e352e6f9d440bb2",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-19T09:17:32-07:00",
+            "subject": "[IR] Remove unused LibcallLoweringPredicate (NFC) (#233344)"
+        },
+        {
+            "hash": "e2439ac568c57fcf3b500c8e96c6d847c71db116",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-10-19T17:18:31+01:00",
+            "subject": "[TableGen] Reject \"field\" keyword in template argument declaration (#124924)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -289545,10 +289581,22 @@
             "subject": "[clang][bytecode] Reject invalid opaque pointer base conversions (#231366)"
         },
         {
-            "hash": "f30b92f1afd54aa7905781a86fc756ae2ea1033b",
+            "hash": "52bd60f8f3e7cfb73fc2cbb944f9ee2d79254516",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-10-14T15:20:14+00:00",
+            "commit_date": "2026-10-19T16:05:56Z",
+            "subject": "[AArch64] Add LocalStackSlotAllocation tests (NFC)"
+        },
+        {
+            "hash": "ca25e9a06e34c1d4992c90d817d28705901e0d56",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-10-19T16:07:51Z",
             "subject": "[AArch64] Skip local stack slot allocation at -O0"
+        },
+        {
+            "hash": "5bcafd32345005680e8635cfdfcba85f03a21882",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-10-19T16:08:52Z",
+            "subject": "update test"
         }
     ],
     "artagnon\/perf\/clang-setvector-large-nfc": [
