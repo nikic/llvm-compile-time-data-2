@@ -267303,6 +267303,36 @@
             "author_name": "Pavel Labath",
             "commit_date": "2026-10-19T15:32:45+02:00",
             "subject": "[libc] Move setxid entrypoints to experimental (#233416)"
+        },
+        {
+            "hash": "5b0621ae9c447a3061637330de013cfcf58c10be",
+            "author_name": "Joseph Huber",
+            "commit_date": "2026-10-19T08:38:55-05:00",
+            "subject": "[ClangLinkerWrapper] Emit extra job to generate -save-temps assembly (#224446)"
+        },
+        {
+            "hash": "3546bc68b3b37d6554e13a84540845444ff5774f",
+            "author_name": "Connector Switch",
+            "commit_date": "2026-10-19T21:40:00+08:00",
+            "subject": "[libc] Use a syscall wrapper for `sched_get_priority_min` (#233409)"
+        },
+        {
+            "hash": "2d6f180e7dbad81db52f5163a34502c1b8058012",
+            "author_name": "Konstantinos Parasyris",
+            "commit_date": "2026-10-19T06:43:01-07:00",
+            "subject": "[CIR] Lower array globals with many trailing zeros as packed structs (#232835)"
+        },
+        {
+            "hash": "87e044ca481a45c8f9b1ffcf14286b53d9ff9b16",
+            "author_name": "Harrison Hao",
+            "commit_date": "2026-10-19T21:45:18+08:00",
+            "subject": "[InstCombine] Pre-commit tests for exp2(uitofp) -> ldexp with ninf. NFC (#227377)"
+        },
+        {
+            "hash": "ddfd7d1888a296122ff6263762f102b162c5ecab",
+            "author_name": "David Spickett",
+            "commit_date": "2026-10-19T14:53:36+01:00",
+            "subject": "[lldb][test] Disable TestMultipleDebuggers.py on Windows on Arm (#233429)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -290145,6 +290175,20 @@
             "author_name": "Madhur Amilkanthwar",
             "commit_date": "2026-08-13T09:25:37-07:00",
             "subject": "[Delinearization] Name the extents an access stays within"
+        }
+    ],
+    "yafet-a\/perf\/array-bounds-assumes": [
+        {
+            "hash": "87e5a59ebde0a2517cbf8f816582779be6194fe1",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-09-30T10:00:26+02:00",
+            "subject": "TwoAddressInstructions: Use a range loop to move the copy chain (#227296)"
+        },
+        {
+            "hash": "741e0c68733e22eeac2945fd8ec29b32face7361",
+            "author_name": "Yafet Beyene",
+            "commit_date": "2026-10-19T06:48:08-07:00",
+            "subject": "[IR][Analysis][Flang] Add array-bound assumptions for delinearization"
         }
     ]
 }
