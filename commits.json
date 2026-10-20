@@ -269415,6 +269415,78 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-10-20T23:39:50Z",
             "subject": "[JumpThreading] Propagate unknown profiles (#234022)"
+        },
+        {
+            "hash": "6e000952ac2d6892277e95b91ddaf9312db9e143",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-10-20T16:43:42-07:00",
+            "subject": "[AArch64] Use the Microsoft COFF MCAsmInfo for UEFI targets (#232699)"
+        },
+        {
+            "hash": "f19efc3e3dadcd1bb4879942c006c1fe1ace1dba",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-10-20T16:43:42-07:00",
+            "subject": "[AArch64] Use the Windows callee saved registers and frame chain on UEFI (#232700)"
+        },
+        {
+            "hash": "9104094406fc91d21391bb29a436241430e294bd",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-10-20T16:43:43-07:00",
+            "subject": "[AArch64] Use the Win64 calling convention and va_list on UEFI (#233640)"
+        },
+        {
+            "hash": "d9c11d9bcbc0235dfc4561051e1be192d90fca44",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-10-20T16:43:43-07:00",
+            "subject": "[AArch64] Treat the Win64 calling convention as native on UEFI (#233641)"
+        },
+        {
+            "hash": "e61b856cfeb30586338142905a487ab12418c440",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-10-20T16:43:44-07:00",
+            "subject": "[AArch64] Reserve x18 as the platform register on UEFI (#232701)"
+        },
+        {
+            "hash": "cdb265e0fe89a370bf7f14809867cdd0fea52a4f",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-10-20T16:43:44-07:00",
+            "subject": "[AArch64] Use __chkstk for dynamic stack allocation on UEFI (#232702)"
+        },
+        {
+            "hash": "7a5c15ff7cf1cbf369cf5a58d2c8f414bfc3ab4e",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-10-20T16:43:45-07:00",
+            "subject": "[AArch64] Probe large stack frames with __chkstk on UEFI (#233642)"
+        },
+        {
+            "hash": "f05ec3c1de55e09f79327c856994c986c805e12f",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-10-20T16:43:45-07:00",
+            "subject": "[AArch64] Classify global references on UEFI like Windows COFF (#232703)"
+        },
+        {
+            "hash": "49c936c79ec7e828b527f6738df42a336afdf539",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-10-20T16:43:45-07:00",
+            "subject": "[AArch64] Apply the Windows SEH and CRT codegen constraints to UEFI (#232704)"
+        },
+        {
+            "hash": "91a641049eed435db1e63c33c5ab2296e8546a2f",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-10-20T16:43:46-07:00",
+            "subject": "[clang] Add aarch64-unknown-uefi target (#232705)"
+        },
+        {
+            "hash": "5e8ec81a7cdd12624655a561d9dafd8139eca334",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-10-20T16:43:46-07:00",
+            "subject": "[clang][Driver] Use the Windows ARM64 defaults for aarch64-unknown-uefi (#232706)"
+        },
+        {
+            "hash": "deae56302506911663b659dd1d8e211bd8d709b3",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-10-21T01:44:26+02:00",
+            "subject": "[mlir][CIR] Separate OpenMP LLVM conversion helpers from the pass (NFC) (#232766)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
