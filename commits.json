@@ -268263,6 +268263,36 @@
             "author_name": "Bar Soloveychik",
             "commit_date": "2026-10-20T10:18:54+03:00",
             "subject": "[LLDB] Expose and display GDB remote register union values (#224147)"
+        },
+        {
+            "hash": "07a97fd6b9130d77aa0faee58f1d96ac721567f8",
+            "author_name": "Stanislav Bardyuk",
+            "commit_date": "2026-10-20T08:20:52+01:00",
+            "subject": "[mlir][tosa] Fix tosa-to-linalg assertion on rescale with an output wider than 32 bits (#233508)"
+        },
+        {
+            "hash": "ca87fa5951e617c4a172ffab8c622a2e699b7e6e",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-10-20T09:23:41+02:00",
+            "subject": "[SeparateConstOffsetFromGEP] Drop poison-generating flags from cloned instruction in `applyCasts` (#233419)"
+        },
+        {
+            "hash": "8f9b383235692f568085c87dcb871f671244afff",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-10-20T00:23:44-07:00",
+            "subject": "MCAsmStreamer: Fix null dereference when current section is null (#233725)"
+        },
+        {
+            "hash": "e7e2778b06c636d444387b95de4e1aef8a946775",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-20T07:24:34Z",
+            "subject": "[SROA] Rename and document `isSafeSelectToSpeculate` (NFC) (#232681)"
+        },
+        {
+            "hash": "ce8c2a362e0440be05e7d30129663bd2bf34677f",
+            "author_name": "Yongqiang Tian",
+            "commit_date": "2026-10-20T09:26:55+02:00",
+            "subject": "[X86] Ignore debug instructions after calls in call frame optimization (#232624)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -278589,6 +278619,12 @@
             "author_name": "Rito Takeuchi",
             "commit_date": "2026-10-19T14:52:32+02:00",
             "subject": "[X86] Fix constant vector i64 signed div\/rem on 32-bit targets (#229244)"
+        },
+        {
+            "hash": "7a941dfb2877a0b8cf30323fefa85ad019e0b0f5",
+            "author_name": "Tom Stellard",
+            "commit_date": "2026-10-19T23:57:12Z",
+            "subject": "github-upload-release: Update script to work with draft releases (#229909)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
