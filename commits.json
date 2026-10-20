@@ -268569,6 +268569,18 @@
             "author_name": "Don\u00e1t Nagy",
             "commit_date": "2026-10-20T14:24:36+02:00",
             "subject": "[NFC][analyzer] Clean up CheckerContext::addTransitionImpl (#231180)"
+        },
+        {
+            "hash": "ea56a88995f413934bd7e97d2570726b247ad780",
+            "author_name": "Sohaib Iftikhar",
+            "commit_date": "2026-10-20T14:28:03+02:00",
+            "subject": "[Bazel] Fixes 64bccb9, d868984 (#233802)"
+        },
+        {
+            "hash": "6f9ccf969825bfad7be9640a6b701d35c8caaac1",
+            "author_name": "Keichi Takahashi",
+            "commit_date": "2026-10-20T07:30:24-05:00",
+            "subject": "[Offload][AMDGPU] Create a host device for each CPU agent (#233099)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -291535,15 +291547,15 @@
     ],
     "fhahn\/perf\/scev-expr-map-tinyptrvector": [
         {
-            "hash": "fdfa6c4210cb142f3652661745143a4c986080c9",
-            "author_name": "Steffen Larsen",
-            "commit_date": "2026-10-20T07:36:16Z",
-            "subject": "[Sema][CUDA][HIP] Reject RTTI operations in device code (#228469)"
+            "hash": "9a028ba55e913c7fc0c30a50dc5b6b24c82c291b",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-20T13:15:26+02:00",
+            "subject": "[CIR][SPIR-V] Use the program address space for function aliases (#233720)"
         },
         {
-            "hash": "343a404a5bb258e53f9b3b5691366bc1f19547f6",
+            "hash": "b43d0cbec6be5eac5251c6014595a4e0abe41f7e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-20T09:13:24+01:00",
+            "commit_date": "2026-10-20T13:21:21+01:00",
             "subject": "[SCEV] Use TinyPtrVector for ExprValueMap and insert values with one lookup (NFC)"
         }
     ]
