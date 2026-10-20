@@ -1,0 +1,72 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_test_suite.sh O3 stage1 aarch64" failed
+
+STDOUT:
+loading initial cache file ./llvm-test-suite/cmake/caches/O3.cmake
+-- The C compiler identification is Clang 24.0.0
+-- The CXX compiler identification is Clang 24.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /tmp/llvm-project-build-stage1/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /tmp/llvm-project-build-stage1/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Could NOT find OpenMP_C (missing: OpenMP_C_FLAGS OpenMP_C_LIB_NAMES) 
+-- Could NOT find OpenMP_CXX (missing: OpenMP_CXX_FLAGS OpenMP_CXX_LIB_NAMES) 
+-- Could NOT find OpenMP (missing: OpenMP_C_FOUND OpenMP_CXX_FOUND) 
+-- Check target operating system - Linux
+-- Check target system architecture: AArch64
+-- Adding directory CTMark
+-- Configuring incomplete, errors occurred!
+ninja: Entering directory `/tmp/llvm-test-suite-build'
+
+
+STDERR:
+CMake Error at /usr/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake:290 (message):
+  Failed to find Gettext libintl (missing: Intl_LIBRARY)
+Call Stack (most recent call first):
+  /usr/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake:654 (_FPHSA_FAILURE_MESSAGE)
+  /usr/share/cmake-4.2/Modules/FindIntl.cmake:188 (find_package_handle_standard_args)
+  CTMark/ClamAV/CMakeLists.txt:180 (find_package)
+
+
+ninja: error: loading 'build.ninja': No such file or directory
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_test_suite.sh O0-g stage1 aarch64" failed
+
+STDOUT:
+loading initial cache file ./llvm-test-suite/cmake/caches/O0-g.cmake
+-- The C compiler identification is Clang 24.0.0
+-- The CXX compiler identification is Clang 24.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /tmp/llvm-project-build-stage1/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /tmp/llvm-project-build-stage1/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Could NOT find OpenMP_C (missing: OpenMP_C_FLAGS OpenMP_C_LIB_NAMES) 
+-- Could NOT find OpenMP_CXX (missing: OpenMP_CXX_FLAGS OpenMP_CXX_LIB_NAMES) 
+-- Could NOT find OpenMP (missing: OpenMP_C_FOUND OpenMP_CXX_FOUND) 
+-- Check target operating system - Linux
+-- Check target system architecture: AArch64
+-- Adding directory CTMark
+-- Configuring incomplete, errors occurred!
+ninja: Entering directory `/tmp/llvm-test-suite-build'
+
+
+STDERR:
+CMake Error at /usr/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake:290 (message):
+  Failed to find Gettext libintl (missing: Intl_LIBRARY)
+Call Stack (most recent call first):
+  /usr/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake:654 (_FPHSA_FAILURE_MESSAGE)
+  /usr/share/cmake-4.2/Modules/FindIntl.cmake:188 (find_package_handle_standard_args)
+  CTMark/ClamAV/CMakeLists.txt:180 (find_package)
+
+
+ninja: error: loading 'build.ninja': No such file or directory
