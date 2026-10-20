@@ -269361,6 +269361,12 @@
             "author_name": "Eric Ross",
             "commit_date": "2026-10-20T16:17:48-06:00",
             "subject": "[KnownFPClass] Fix fsub input denormal handling (#225605)"
+        },
+        {
+            "hash": "d8b2a2f3135e895f7d70b624bb0d36e1a1ed6899",
+            "author_name": "Vijay Kandiah",
+            "commit_date": "2026-10-20T17:21:11-05:00",
+            "subject": "[flang][acc] Prefer the reduction mapping when remapping region symbols (#233938)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -292405,6 +292411,64 @@
             "author_name": "Antonio Frighetto",
             "commit_date": "2026-10-20T21:04:28+02:00",
             "subject": "[GVN] MemorySSA for GVN: switch to using MemorySSA by default"
+        }
+    ],
+    "bababuck\/perf\/mr233866": [
+        {
+            "hash": "b5926b5133384468df01c632e8d28d50a593fd0b",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-20T09:27:04-04:00",
+            "subject": "[SLP][NFC]Add extra test for runtime aliasing checks, NFC"
+        },
+        {
+            "hash": "9a63559a22c7251fa4c7256275372442496e6965",
+            "author_name": "bababuck",
+            "commit_date": "2026-10-20T15:19:07-07:00",
+            "subject": "May write to memory"
+        },
+        {
+            "hash": "8d7d045b08a908f887679d6c150606dc21138ecf",
+            "author_name": "bababuck",
+            "commit_date": "2026-10-20T15:21:52-07:00",
+            "subject": "Registered as dependent"
+        },
+        {
+            "hash": "e99c30c5d8edb8aa98ad9b8d0b9762a9ec64953c",
+            "author_name": "bababuck",
+            "commit_date": "2026-10-20T15:22:14-07:00",
+            "subject": "Store bundle early exti"
+        },
+        {
+            "hash": "dff91bc7c0a5f0bf41b109fa982990ad9427ca6c",
+            "author_name": "bababuck",
+            "commit_date": "2026-10-20T15:22:33-07:00",
+            "subject": "HasVersionCheck"
+        },
+        {
+            "hash": "5eb33b0df95a09ac78b03b5ec34836f7dc8a1bf5",
+            "author_name": "bababuck",
+            "commit_date": "2026-10-20T15:22:43-07:00",
+            "subject": "Increase budget"
+        }
+    ],
+    "cofibrant\/perf\/cofibrant\/dse-unreachable": [
+        {
+            "hash": "edfc0f2fafd4642f14e4837cc4ca47484f1f9489",
+            "author_name": "Aochang Liu",
+            "commit_date": "2026-10-20T09:51:44-07:00",
+            "subject": "[RISCV] Return the chain for strict FP_TO_FP16 on RV64 (#230948)"
+        },
+        {
+            "hash": "f35cb4307a580ef2ad3292a012e394b46c42f45d",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-10-20T15:10:03-07:00",
+            "subject": "[DSE](NFC) Precommit test case"
+        },
+        {
+            "hash": "1c4c8a89549262959dc3d9f2c9f6636bb8a13c98",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-10-20T15:13:15-07:00",
+            "subject": "[DSE] Avoid miscompile in cases where unreachable blocks contain reachable instructions"
         }
     ]
 }
