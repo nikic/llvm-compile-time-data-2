@@ -268353,6 +268353,36 @@
             "author_name": "gretay-amd",
             "commit_date": "2026-10-20T09:23:52+01:00",
             "subject": "[AMDGPU][NFC] Explicitly narrow conversions in libcalls, TTI and InstCombine (#215196)"
+        },
+        {
+            "hash": "75c91343a5da1f18ec7f262e623cf9ad3cf7a5f3",
+            "author_name": "Valeriy Savchenko",
+            "commit_date": "2026-10-20T09:30:28+01:00",
+            "subject": "[AArch64][TTI] Drop single-use requirement on the mask from BSL sinking (#232786)"
+        },
+        {
+            "hash": "fae3561e40bb288509820bff3ea3ae0119c8b364",
+            "author_name": "Valeriy Savchenko",
+            "commit_date": "2026-10-20T09:30:29+01:00",
+            "subject": "[AArch64][TTI] Cost the Ands of a NEON bit select as free (#232787)"
+        },
+        {
+            "hash": "43ad5e76359c0b6767001713d62a10f0493718cc",
+            "author_name": "Valeriy Savchenko",
+            "commit_date": "2026-10-20T09:30:30+01:00",
+            "subject": "[AArch64][TTI] Cost NEON Nots absorbed by And\/Or users as free (#232788)"
+        },
+        {
+            "hash": "68aa3b9000f92b3aaa38b2a0f0bf1cc85a4d0705",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-10-20T09:33:08+01:00",
+            "subject": "[mlir][vector][NFC] Rename getShapeForUnroll to getIterationShapeToUnroll (#232648)"
+        },
+        {
+            "hash": "57e9c031bb2151184e60132ae438e9ea1bb48143",
+            "author_name": "jeanPerier",
+            "commit_date": "2026-10-20T10:33:10+02:00",
+            "subject": "[flang] Decouple HLFIR array expansion from optimization level (#233478)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
