@@ -269139,6 +269139,24 @@
             "author_name": "Zach Goldthorpe",
             "commit_date": "2026-10-20T12:55:21-06:00",
             "subject": "[AMDGPU][MC] Remove SWMMAC opcodes not supported by gfx1250 (#233883)"
+        },
+        {
+            "hash": "acda042d4e40c74aa7256d47399035e7e61a32cc",
+            "author_name": "Abhina Sree",
+            "commit_date": "2026-10-20T14:59:33-04:00",
+            "subject": "[SystemZ][z\/OS] Turn on auto-conversion for captured steams in googletest (#233829)"
+        },
+        {
+            "hash": "cd148988e056a5330162e456393ec503dde15cfc",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-20T15:01:01-04:00",
+            "subject": "[SLP][NFC]Add tests for non-profitable vectorizations, NFC"
+        },
+        {
+            "hash": "a23733e6a342a1ebc727e3fee05f6168792cf2eb",
+            "author_name": "Alexander Richardson",
+            "commit_date": "2026-10-20T12:02:33-07:00",
+            "subject": "[RISC-V] Reject invalid\/unversioned extensions in parseNormalizedArchString (#233683)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -292169,6 +292187,20 @@
             "author_name": "tomershafir",
             "commit_date": "2026-10-20T18:48:33+03:00",
             "subject": "[AArch64] Support virtual registers in SME clustering"
+        }
+    ],
+    "antoniofrighetto\/perf\/gvn-enable-mssa-3-reuse-eea": [
+        {
+            "hash": "cd148988e056a5330162e456393ec503dde15cfc",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-20T15:01:01-04:00",
+            "subject": "[SLP][NFC]Add tests for non-profitable vectorizations, NFC"
+        },
+        {
+            "hash": "7c8ead71df6b179ce9019a6f72ce9db6dd4f1ded",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-10-20T21:04:28+02:00",
+            "subject": "[GVN] MemorySSA for GVN: switch to using MemorySSA by default"
         }
     ]
 }
