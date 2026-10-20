@@ -268041,6 +268041,18 @@
             "author_name": "Slava Zakharin",
             "commit_date": "2026-10-20T00:04:30Z",
             "subject": "[mlir] Added missing cmake dependency. (#233628)"
+        },
+        {
+            "hash": "02b5549555c5865534a7acae54f000cd5397b74e",
+            "author_name": "Stanislav Bardyuk",
+            "commit_date": "2026-10-20T09:12:35+09:00",
+            "subject": "[mlir][memref] Reject memref.reshape with static shape and unranked result (#223496)"
+        },
+        {
+            "hash": "7c1208a1e0d058093cb9fd516f1ebe6ec51bfd98",
+            "author_name": "Alex Langford",
+            "commit_date": "2026-10-20T00:15:47Z",
+            "subject": "[lldb] Replace ConstString in GetIndexOfChildWithName (#233577)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -290957,6 +290969,32 @@
             "author_name": "Ambrose Leeb",
             "commit_date": "2026-10-19T21:32:21Z",
             "subject": "[Clang] [CodeGen] Remove special handling for constant switch conditions"
+        }
+    ],
+    "bababuck\/perf\/SignBitsReduction": [
+        {
+            "hash": "4a0a7e3ddc3bdc4fde7c5b9b9e6890fb4dbf9153",
+            "author_name": "Emmanuel Antonio",
+            "commit_date": "2026-10-12T22:38:14Z",
+            "subject": "[llvm][test] Add -filetype=null to llc disable-mir-output-verify test (#231305)"
+        },
+        {
+            "hash": "646577adabff43b473d8985f2ea31775362bfcdd",
+            "author_name": "bababuck",
+            "commit_date": "2026-10-19T15:17:06-07:00",
+            "subject": "[DAG] Precommit unit tests"
+        },
+        {
+            "hash": "a78559c8b295aa7693d79a9335eb274d54cbd85b",
+            "author_name": "bababuck",
+            "commit_date": "2026-10-19T17:05:30-07:00",
+            "subject": "[DAG] Better handle add() reductions in SelectionDAG::ComputeNumSignBits()"
+        },
+        {
+            "hash": "eb2597253ff33cb8674dd383ebd60452b03b153b",
+            "author_name": "bababuck",
+            "commit_date": "2026-10-19T17:10:50-07:00",
+            "subject": "[DAG] In ComputeNumSignBits() treat add reduction tree as single layer of Depth"
         }
     ]
 }
