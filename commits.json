@@ -268209,6 +268209,18 @@
             "author_name": "Arseniy Obolenskiy",
             "commit_date": "2026-10-20T07:43:59+02:00",
             "subject": "[CIR][AMDGPU] Emit `!amdgpu.no.{fine.grained,remote}.memory` metadata on atomic xchg (#233440)"
+        },
+        {
+            "hash": "684236e0573cb31f5201020bf414051fc89d1603",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-10-20T05:47:48Z",
+            "subject": "[GISel] Fix -Wunused-variable in 1190b43 (#233680)"
+        },
+        {
+            "hash": "ef69409b93d30c3a92bba1431e8bffe5cd3a8c4e",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-10-20T06:48:57+01:00",
+            "subject": "[AArch64] Add LocalStackSlotAllocation tests (NFC) (#233481)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -291107,10 +291119,10 @@
             "subject": "[TableGen] Reject \"field\" keyword in template argument declaration (#124924)"
         },
         {
-            "hash": "64d51eb7658abf9eec4c3e98bfd661d392432ae4",
+            "hash": "5e04a87d1162cc72d10fc60045e33d6047aaf11a",
             "author_name": "Cullen Rhodes",
-            "commit_date": "2026-10-19T16:35:27Z",
-            "subject": "[LiveDebugValues] Skip functions without debug values (NFC)"
+            "commit_date": "2026-10-20T05:46:29Z",
+            "subject": "[LiveDebugValues] Skip functions with no DBG_VALUEs in VarLocBasedLDV::ExtendRanges (NFC)"
         }
     ],
     "Sirraide\/perf\/remove-constant-switch-codegen": [
