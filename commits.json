@@ -270129,6 +270129,24 @@
             "author_name": "hanbeom",
             "commit_date": "2026-10-21T22:13:36+09:00",
             "subject": "[DAGCombiner] Merge narrow stores after a store of another type (#233120)"
+        },
+        {
+            "hash": "bd5941fc6ae13478b755b24c004dc28f88cbc641",
+            "author_name": "satyanarayana reddy janga",
+            "commit_date": "2026-10-21T08:18:06-05:00",
+            "subject": "[lldb][test] Match main.c by basename in CompileUnitAPI test (#232952)"
+        },
+        {
+            "hash": "287f59c398508927d124e377dec7da7c965bbc4e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-21T14:21:38+01:00",
+            "subject": "[llubi] Add support for llvm.get.active.lane.mask. (#233565)"
+        },
+        {
+            "hash": "21c1bcd7059ca56dee6bc377e60a06a3b18a1d69",
+            "author_name": "Tavva Dinesh Reddy",
+            "commit_date": "2026-10-21T13:23:15Z",
+            "subject": "[TailCallElim] Drop poison-generating attributes and metadata from accumulator (#233527)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -293101,16 +293119,22 @@
     ],
     "fhahn\/perf\/scev-expr-map-tinyptrvector": [
         {
-            "hash": "9a028ba55e913c7fc0c30a50dc5b6b24c82c291b",
-            "author_name": "Arseniy Obolenskiy",
-            "commit_date": "2026-10-20T13:15:26+02:00",
-            "subject": "[CIR][SPIR-V] Use the program address space for function aliases (#233720)"
+            "hash": "21c1bcd7059ca56dee6bc377e60a06a3b18a1d69",
+            "author_name": "Tavva Dinesh Reddy",
+            "commit_date": "2026-10-21T13:23:15Z",
+            "subject": "[TailCallElim] Drop poison-generating attributes and metadata from accumulator (#233527)"
         },
         {
-            "hash": "b43d0cbec6be5eac5251c6014595a4e0abe41f7e",
+            "hash": "8a7d47578725d419ded165560fbb8c31b7b6f9c4",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-20T13:21:21+01:00",
+            "commit_date": "2026-10-21T14:24:10+01:00",
             "subject": "[SCEV] Use TinyPtrVector for ExprValueMap and insert values with one lookup (NFC)"
+        },
+        {
+            "hash": "5ebb4c728c776d4b74ed97e657957ecbfe006f4e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-21T14:25:11+01:00",
+            "subject": "!fixup remove SetVector.h"
         }
     ],
     "alexey-bataev\/perf\/SLPScheduleBudget": [
