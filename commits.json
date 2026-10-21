@@ -269775,6 +269775,18 @@
             "author_name": "Aditya Sinha",
             "commit_date": "2026-10-21T10:01:42+03:00",
             "subject": "[clang-repl] Added -hip option (#231783)"
+        },
+        {
+            "hash": "cc050ac55af3d8e72b15594c22d89e0186cfc8ff",
+            "author_name": "hitmoon",
+            "commit_date": "2026-10-21T07:11:43Z",
+            "subject": "[clang][Driver]: Skip crti.o\/crtn.o on LoongArch FreeBSD (#228689)"
+        },
+        {
+            "hash": "043acd707ce8a3143c0421490d8e665ce3d9dddc",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-10-21T07:12:32Z",
+            "subject": "[IR] Remove RegionPass and RGPassManager (#233988)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -292903,6 +292915,40 @@
             "author_name": "Alina Sbirlea",
             "commit_date": "2026-10-21T04:41:34Z",
             "subject": "[GVN] Scan per-block MemorySSA accesses in a single backward CFG walk"
+        }
+    ],
+    "antoniofrighetto\/perf\/gvn-enable-mssa-3-reuse-eea-single-walk": [
+        {
+            "hash": "cd148988e056a5330162e456393ec503dde15cfc",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-20T15:01:01-04:00",
+            "subject": "[SLP][NFC]Add tests for non-profitable vectorizations, NFC"
+        },
+        {
+            "hash": "59c052e9bd45b65e37673120e39a6fc4e2c021e0",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-10-21T09:07:20+02:00",
+            "subject": "[GVN] MemorySSA for GVN: switch to using MemorySSA by default"
+        }
+    ],
+    "jayfoad\/perf\/gep-of-select-of-constants": [
+        {
+            "hash": "c313c3e97decfd2c96d01348549bcef9a31923e1",
+            "author_name": "Pedro Lobo",
+            "commit_date": "2026-10-16T17:14:55+01:00",
+            "subject": "[llubi] Add support for `bitinsert` and `bitextract` (#230827)"
+        },
+        {
+            "hash": "672890dc06aa64513c9f277246c7f2015150ab6e",
+            "author_name": "Gang Chen",
+            "commit_date": "2026-10-16T09:17:10-07:00",
+            "subject": "[InstCombine] Restrict gep-of-select-of-constants, fold the load instead"
+        },
+        {
+            "hash": "5ac39faab450bd9b1e1819544b3e7004b50149ce",
+            "author_name": "Gang Chen",
+            "commit_date": "2026-10-19T09:39:43-07:00",
+            "subject": "Try to reduce compile-time impact. Change suggested by Gymnich, Tim"
         }
     ]
 }
