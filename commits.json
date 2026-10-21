@@ -269661,6 +269661,18 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-10-20T21:16:49-07:00",
             "subject": "[clang-tidy] Allow use of decltype(nullptr) for defining nullptr_t (#231637)"
+        },
+        {
+            "hash": "aee32b6c8197e7243784d989c968c1a0f26ae8fe",
+            "author_name": "Kewen Meng",
+            "commit_date": "2026-10-20T21:45:07-07:00",
+            "subject": "Revert \"[llvm][GlobalOpt] Preserve COMDATs for Dead GVs\" (#234072)"
+        },
+        {
+            "hash": "d50621396e3e1d692643c6a5a0d929203bbb5242",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-10-20T21:46:16-07:00",
+            "subject": "[MLGO] Update tests (#234058)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -292763,6 +292775,32 @@
             "author_name": "Nathan Corbyn",
             "commit_date": "2026-10-20T15:13:15-07:00",
             "subject": "[DSE] Avoid miscompile in cases where unreachable blocks contain reachable instructions"
+        }
+    ],
+    "alinas\/perf\/gvn-mssa": [
+        {
+            "hash": "0e7848d1a723aa659ed71f5bf2f19e047adf525b",
+            "author_name": "Andy Kaylor",
+            "commit_date": "2026-10-14T21:21:27Z",
+            "subject": "[CIR] Fix crash with atomic init in nested region (#231679)"
+        },
+        {
+            "hash": "e9695b3a9c9b7da89f291294512fd7fd3aed661b",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-10-21T04:35:04Z",
+            "subject": "[GVN] MemorySSA for GVN: switch to using MemorySSA by default"
+        },
+        {
+            "hash": "0d4e66ba8070662aa09c94c193466ecfc8ee682c",
+            "author_name": "Alina Sbirlea",
+            "commit_date": "2026-10-21T04:41:33Z",
+            "subject": "[GVN] Reuse EarliestEscapeAnalysis across loads when using MemorySSA"
+        },
+        {
+            "hash": "eb985362148c70717ee735b09f7a427b2039eaaf",
+            "author_name": "Alina Sbirlea",
+            "commit_date": "2026-10-21T04:41:34Z",
+            "subject": "[GVN] Scan per-block MemorySSA accesses in a single backward CFG walk"
         }
     ]
 }
