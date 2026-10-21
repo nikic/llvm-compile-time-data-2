@@ -270111,6 +270111,24 @@
             "author_name": "Alex Duran",
             "commit_date": "2026-10-21T15:04:52+02:00",
             "subject": "[Offload][Omp] Move getHostDeviceUid to libomptarget (#234193)"
+        },
+        {
+            "hash": "b5281bc112a6cbe5ce157c5d3561e53df7198210",
+            "author_name": "Lexi Bromfield",
+            "commit_date": "2026-10-21T09:08:08-04:00",
+            "subject": "[lldb][bazel] Support parse_headers (#232936)"
+        },
+        {
+            "hash": "499c12e7ce65cac45a0174632fab71dddf077710",
+            "author_name": "Valeriy Savchenko",
+            "commit_date": "2026-10-21T13:12:37Z",
+            "subject": "[DAE] Consolidate all musttail test files (NFC) (#234184)"
+        },
+        {
+            "hash": "b621fd9ec11b9664cade02d6d10a4133102b57bb",
+            "author_name": "hanbeom",
+            "commit_date": "2026-10-21T22:13:36+09:00",
+            "subject": "[DAGCombiner] Merge narrow stores after a store of another type (#233120)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -293337,6 +293355,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-10-21T09:47:50Z",
             "subject": "[AArch64] Use FastISel at O0"
+        }
+    ],
+    "c-rhodes\/perf\/aarch64-o0-frame-index-patterns": [
+        {
+            "hash": "93f3edf1b921407ba27002fc450edc2dcca615f1",
+            "author_name": "David Spickett",
+            "commit_date": "2026-10-21T10:33:11+01:00",
+            "subject": "[lldb][test] Disable TestLldbGdbServer.py test_Hg_fails_on_minus_one_pid (#234129)"
+        },
+        {
+            "hash": "dd553aace527644f24dfa4799a1f0980f8381b24",
+            "author_name": "Cullen Rhodes",
+            "commit_date": "2026-10-21T13:14:49Z",
+            "subject": "[AArch64] Prioritize frame-index load\/store patterns at O0"
         }
     ]
 }
