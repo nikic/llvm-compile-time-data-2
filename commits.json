@@ -270447,6 +270447,24 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-10-21T18:01:51+02:00",
             "subject": "CodeGen: Stop running LiveVariables in the optimized pipeline (#234174)"
+        },
+        {
+            "hash": "3cfa4fcffa81157d94a6e20fe058475aad093493",
+            "author_name": "Lydia Kim",
+            "commit_date": "2026-10-21T09:10:04-07:00",
+            "subject": "[LiveDebugVariables] Avoid quadratic rescans of inserted DBG_VALUEs (#233523)"
+        },
+        {
+            "hash": "bc766fd1949cdb75f33c98cd2699819e3d236383",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-21T09:10:27-07:00",
+            "subject": "[lld] Replace PointerUnion::dyn_cast with llvm::dyn_cast_if_present (NFC) (#234084)"
+        },
+        {
+            "hash": "0c001eec2e3c344876470558a9a7a2ae8a5230d9",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-21T09:10:36-07:00",
+            "subject": "[IR] Remove unused LLVMContextImpl::DiscriminatorTable (NFC) (#234096)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
