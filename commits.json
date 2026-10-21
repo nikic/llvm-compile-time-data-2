@@ -270249,6 +270249,18 @@
             "author_name": "Erich Keane",
             "commit_date": "2026-10-21T14:34:47Z",
             "subject": "[MLIR][LLVMIR] Add 'distinct' ID to the loop-annotate attribute (#233890)"
+        },
+        {
+            "hash": "294d3132d46843b53d6ad71014b38b8c980f9bf0",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-21T14:36:24Z",
+            "subject": "[IRBuilder] Deprecate ctors taking LLVMContext instead of Module (#234212)"
+        },
+        {
+            "hash": "2f4a03f99f48275cbdf8b3a6b31c08285664d8ef",
+            "author_name": "Jiahe Wang",
+            "commit_date": "2026-10-21T14:37:01Z",
+            "subject": "[Attributor] Use sorted offsets for constant vector stores (#231079)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -293495,6 +293507,32 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-10-21T13:14:49Z",
             "subject": "[AArch64] Prioritize frame-index load\/store patterns at O0"
+        }
+    ],
+    "antoniofrighetto\/perf\/gvn-enable-mssa-3-reuse-eea-and-reaching-caches": [
+        {
+            "hash": "2f4a03f99f48275cbdf8b3a6b31c08285664d8ef",
+            "author_name": "Jiahe Wang",
+            "commit_date": "2026-10-21T14:37:01Z",
+            "subject": "[Attributor] Use sorted offsets for constant vector stores (#231079)"
+        },
+        {
+            "hash": "f0d2ead2c6f4bf4e689b61875c76bec73b9e11f5",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-10-21T16:38:31+02:00",
+            "subject": "[GVN] MemorySSA for GVN: switch to using MemorySSA by default"
+        },
+        {
+            "hash": "7edfffcfd2a9651e2a9c4f90b71e0a7df7df5058",
+            "author_name": "Alina Sbirlea",
+            "commit_date": "2026-10-21T16:38:31+02:00",
+            "subject": "[GVN] Reuse EarliestEscapeAnalysis across loads when using MemorySSA"
+        },
+        {
+            "hash": "cbb53c0f3314d50fcb8566f3b7559988e36883a8",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-10-21T16:38:31+02:00",
+            "subject": "tmp"
         }
     ]
 }
