@@ -269835,6 +269835,24 @@
             "author_name": "Acim Maravic",
             "commit_date": "2026-10-21T10:55:32+02:00",
             "subject": "[AMDGPU] Fix builtins using long int for 64-bit operands (#231500)"
+        },
+        {
+            "hash": "acb162d974706998af2e3045f618a8d66abfdf09",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-10-21T11:05:59+02:00",
+            "subject": "[mlir][LLVM] Verify LLVMStructType element types in get() (#234091)"
+        },
+        {
+            "hash": "26c9bbbc922bc1614e4394e60d5f68160c823397",
+            "author_name": "David Spickett",
+            "commit_date": "2026-10-21T10:06:42+01:00",
+            "subject": "[lldb][test] Disable TestSBData.py on Windows on Arm (#234121)"
+        },
+        {
+            "hash": "0778292bd9f26e579ee3c93017108260d16e21f8",
+            "author_name": "Fraser Cormack",
+            "commit_date": "2026-10-21T09:10:47Z",
+            "subject": "[AArch64] Fix SDAG lowering of small ints on the stack (#230142)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -292835,21 +292853,21 @@
     ],
     "tbaederr\/perf\/local-desc4": [
         {
-            "hash": "175d91afcfec2cb93ab3f0c16fb7fac67d7596b2",
-            "author_name": "NagaChaitanya Vellanki",
-            "commit_date": "2026-10-20T07:38:53-04:00",
-            "subject": "[clang] Implement C2y stdc_load8_* endian-aware 8-bit load functions (#203666)"
+            "hash": "816cbba1fb9d3937a0ffbe6feffb16a5355c8a04",
+            "author_name": "Acim Maravic",
+            "commit_date": "2026-10-21T10:55:32+02:00",
+            "subject": "[AMDGPU] Fix builtins using long int for 64-bit operands (#231500)"
         },
         {
-            "hash": "0930a0ddac07cfa442448710df4020b60db06197",
+            "hash": "244bb0782215a4c4a04f02f3bc56aa23828f36d5",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-20T17:37:58+02:00",
+            "commit_date": "2026-10-21T11:06:02+02:00",
             "subject": "Test"
         },
         {
-            "hash": "f7704cc0e17008056cf12a3711df043f926828c0",
+            "hash": "613b1d7a19e6190a685540ff74fff05630c3cd6f",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-20T17:37:58+02:00",
+            "commit_date": "2026-10-21T11:06:03+02:00",
             "subject": "asdf"
         }
     ],
@@ -293003,6 +293021,50 @@
             "author_name": "Jay Foad",
             "commit_date": "2026-10-21T09:54:03+01:00",
             "subject": "micro-opt"
+        }
+    ],
+    "fhahn\/perf\/ct-o3-2": [
+        {
+            "hash": "26c9bbbc922bc1614e4394e60d5f68160c823397",
+            "author_name": "David Spickett",
+            "commit_date": "2026-10-21T10:06:42+01:00",
+            "subject": "[lldb][test] Disable TestSBData.py on Windows on Arm (#234121)"
+        },
+        {
+            "hash": "0668b6d3de48f173990d733f5a177fd88dc12b0d",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-21T09:07:23Z",
+            "subject": "[RegAlloc] Stop adding split constraints once too expensive (NFC)"
+        },
+        {
+            "hash": "035408799a27839f5341cd5a756f422b01bb15ff",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-21T09:07:51Z",
+            "subject": "[InstSimplify] Bail out early in simplifyICmpWithMinMax (NFC)"
+        },
+        {
+            "hash": "0b2fe00d9165f69f4fd790eb3fa4b767f99ef554",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-21T09:07:51Z",
+            "subject": "[FunctionAttrs] Stop scanning for memory effects once they are final (NFC)"
+        },
+        {
+            "hash": "542d0f1fe00e5739e5a518ea76657927e615d839",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-21T09:08:15Z",
+            "subject": "[SLP] Check operands and users before memory effects (NFC)"
+        },
+        {
+            "hash": "42a4109081d6bffbafb4b41c42782086e818d02c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-21T09:08:39Z",
+            "subject": "[LICM] Skip collecting promotion candidates without a store (NFC)"
+        },
+        {
+            "hash": "3eca232c59a34207bdab97998c1f598123bf34cc",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-21T09:09:19Z",
+            "subject": "[LiveVariables] Only collect partial uses if the reg is not used (NFC)"
         }
     ]
 }
