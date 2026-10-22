@@ -272115,6 +272115,18 @@
             "author_name": "Reid Kleckner",
             "commit_date": "2026-10-22T18:32:40Z",
             "subject": "[AMDGPU] Update lower-control-flow-live-variables-update.mir checks (#234705)"
+        },
+        {
+            "hash": "763ee24d95619c79e72da86b29ee8711827f031a",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-10-22T14:37:36-04:00",
+            "subject": "[libc++] Add a tool to select commits to narrow down benchmark changes (#234716)"
+        },
+        {
+            "hash": "869efece5040e0a0232a42d58c12195d78bac323",
+            "author_name": "Chris Frisz",
+            "commit_date": "2026-10-22T11:42:00-07:00",
+            "subject": "[flang-rt] Fix MOD\/MODULO for REAL operands of magnitude 2**63 (#229895)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -295517,6 +295529,52 @@
             "author_name": "Nick Desaulniers",
             "commit_date": "2026-10-21T14:52:45-07:00",
             "subject": "[DebugInfo][AT] Move enqueueSuccessors after BlockLivenessTracker and const-qualify BB"
+        }
+    ],
+    "MDevereau\/perf\/argpromo-const-prop": [
+        {
+            "hash": "6c3eec95b71c4428d511e8beb54ae27ce76d884d",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-10-14T10:47:54Z",
+            "subject": "[lldb][Windows] Add bugnumber to test failures (#231847)"
+        },
+        {
+            "hash": "218e4c94de8b4cea7aa4ad2e5964ba14cb8d7ca8",
+            "author_name": "Matthew Devereau",
+            "commit_date": "2026-10-14T12:01:23Z",
+            "subject": "[ArgumentPromotion] Propagate constant aggregate fields"
+        },
+        {
+            "hash": "48018c2efe10c9a6d2c5bcfe1316e76854d95c2a",
+            "author_name": "Matthew Devereau",
+            "commit_date": "2026-10-22T10:29:17Z",
+            "subject": "Remove conservative checks"
+        }
+    ],
+    "MDevereau\/perf\/argpromo-const-prop-AA-ct": [
+        {
+            "hash": "6c3eec95b71c4428d511e8beb54ae27ce76d884d",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-10-14T10:47:54Z",
+            "subject": "[lldb][Windows] Add bugnumber to test failures (#231847)"
+        },
+        {
+            "hash": "218e4c94de8b4cea7aa4ad2e5964ba14cb8d7ca8",
+            "author_name": "Matthew Devereau",
+            "commit_date": "2026-10-14T12:01:23Z",
+            "subject": "[ArgumentPromotion] Propagate constant aggregate fields"
+        },
+        {
+            "hash": "48018c2efe10c9a6d2c5bcfe1316e76854d95c2a",
+            "author_name": "Matthew Devereau",
+            "commit_date": "2026-10-22T10:29:17Z",
+            "subject": "Remove conservative checks"
+        },
+        {
+            "hash": "07ed22dc7cfcaba54c031347b936a470a71dba08",
+            "author_name": "Matthew Devereau",
+            "commit_date": "2026-10-22T12:53:56Z",
+            "subject": "Add AA for isIsolatedCallerStorage"
         }
     ]
 }
