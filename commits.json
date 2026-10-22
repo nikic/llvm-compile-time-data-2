@@ -271899,6 +271899,36 @@
             "author_name": "Sam Parker",
             "commit_date": "2026-10-22T15:53:13Z",
             "subject": "[NFC][WebAssembly] Precommit tests (#234647)"
+        },
+        {
+            "hash": "ed0624e4bdb16060db08159ebce3e2402c123a84",
+            "author_name": "Andre Kuhlenschmidt",
+            "commit_date": "2026-10-22T08:54:18-07:00",
+            "subject": "[flang][CUDA] Clarify host and device call diagnostics (#232850)"
+        },
+        {
+            "hash": "49eb5f9cd80af3f764ed1068a01b9ca725b896e0",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-22T15:57:22Z",
+            "subject": "[InstCombine] Generate test checks (NFC) (#234648)"
+        },
+        {
+            "hash": "bb8f8edf8a471134a0ebb160fd4a974da0918b04",
+            "author_name": "Qiongsi Wu",
+            "commit_date": "2026-10-22T08:58:41-07:00",
+            "subject": "[clang][ClangScanDeps] Match pcm file names in logging-two-threads.c (#234319)"
+        },
+        {
+            "hash": "aea0e4599b27b988a491633d867da73390859499",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-22T08:58:47-07:00",
+            "subject": "[ORC] Remove declarations without definitions (NFC) (#234496)"
+        },
+        {
+            "hash": "09ac575f937883b1d3ca1ec9d5b662e57087f847",
+            "author_name": "Andreas Jonson",
+            "commit_date": "2026-10-22T15:59:12Z",
+            "subject": "[InstCombine] support trunc to i1 cond in foldCmpLoadFromIndexedGlobal (#234284)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -290783,12 +290813,6 @@
     ],
     "fhahn\/perf\/scev-merge-block-guards": [
         {
-            "hash": "0b5e65f208f29e5b676a605b1e485d03722100d9",
-            "author_name": "Ivan Kosarev",
-            "commit_date": "2026-10-22T08:55:29+01:00",
-            "subject": "[TableGen] Share identical super-register class masks (#224633)"
-        },
-        {
             "hash": "81e1389b8556f74091c19395e9f6847aa6cf6dbe",
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-22T10:05:33+01:00",
@@ -290805,6 +290829,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-22T10:05:35+01:00",
             "subject": "[SCEV] Look for guard conditions through merge blocks."
+        },
+        {
+            "hash": "9ef92aa3fc82cffa0c037f5491e37a5553bee59a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-22T16:56:16+01:00",
+            "subject": "Merge branch 'main' into perf\/scev-merge-block-guards"
         }
     ],
     "fhahn\/perf\/sct": [
