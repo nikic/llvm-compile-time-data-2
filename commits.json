@@ -271995,6 +271995,30 @@
             "author_name": "Michael Jones",
             "commit_date": "2026-10-22T10:12:43-07:00",
             "subject": "[libc][docs] update docs before dev meeting (#234359)"
+        },
+        {
+            "hash": "f101137db0dc84e3db87ec41324e79d053cd9b9a",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-10-22T10:17:19-07:00",
+            "subject": "[libc][docs] Rename selected rst docs to md (#233687)"
+        },
+        {
+            "hash": "bc0cbb451f3547634045c444e064727090cf69fa",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-10-22T10:17:20-07:00",
+            "subject": "[libc][docs] Finish MyST migration for selected libc docs (#233690)"
+        },
+        {
+            "hash": "614b6c4fbfd3b0b03a7d09c567ebd6ba532678cc",
+            "author_name": "Matt\u00e9o Rizza Murgier",
+            "commit_date": "2026-10-22T19:18:06+02:00",
+            "subject": "[SDAG] Add MLOAD\/MSTORE mask scalarization support to LegalizeVectorTypes (#230202)"
+        },
+        {
+            "hash": "2a377c5826a83055524a710368e93ec12155a9ea",
+            "author_name": "Zibi Sarbinowski",
+            "commit_date": "2026-10-22T13:27:49-04:00",
+            "subject": "[libc++][filesystem] Fix truncation in vformat_string dynamic fallback (#203531)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -295347,6 +295371,56 @@
             "author_name": "Yingwei Zheng",
             "commit_date": "2026-10-22T23:00:56+08:00",
             "subject": "test"
+        }
+    ],
+    "jmorse\/perf\/nickds-at1": [
+        {
+            "hash": "6c0b2e7661f1669dabe5c281cbb1468c3632e293",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-10-21T09:45:25-07:00",
+            "subject": "[CIR] Fix uninitialized value which caused MSAN failure (#234274)"
+        },
+        {
+            "hash": "8c99c4d4dfca565d8d835d5a5edadd116dfc1c26",
+            "author_name": "Nick Desaulniers",
+            "commit_date": "2026-10-21T11:42:29-07:00",
+            "subject": "[DebugInfo][AT] Retire dead LiveIn\/LiveOut state and avoid redundant RPO queuing"
+        },
+        {
+            "hash": "de60caa599f2f34f0b603063738dc279455be685",
+            "author_name": "Nick Desaulniers",
+            "commit_date": "2026-10-21T12:52:04-07:00",
+            "subject": "fixup! [DebugInfo][AT] Retire dead LiveIn\/LiveOut state and avoid redundant RPO queuing"
+        },
+        {
+            "hash": "72c26053d8e5c01ba537399a9aa83c00bf015963",
+            "author_name": "Nick Desaulniers",
+            "commit_date": "2026-10-21T13:46:09-07:00",
+            "subject": "[DebugInfo][AT] Wrap RPO priority_queue and BitVector in RPOWorklist"
+        },
+        {
+            "hash": "540af31f79e35e9e9768e30c119219d43c20b682",
+            "author_name": "Nick Desaulniers",
+            "commit_date": "2026-10-21T13:48:48-07:00",
+            "subject": "[DebugInfo][AT] Move enqueueSuccessors into anonymous namespace"
+        },
+        {
+            "hash": "3f3a265f51091a6571b6bac88b741765d8430c2d",
+            "author_name": "Nick Desaulniers",
+            "commit_date": "2026-10-21T14:02:25-07:00",
+            "subject": "[DebugInfo][AT] Track Visited in BlockLivenessTracker to simplify meet\/join"
+        },
+        {
+            "hash": "6c4c3c5d93113f36299d8186d2b09f2a78569535",
+            "author_name": "Nick Desaulniers",
+            "commit_date": "2026-10-21T14:03:54-07:00",
+            "subject": "[DebugInfo][AT] Simplify updateLiveOut signatures via BlockLivenessTracker"
+        },
+        {
+            "hash": "c0f2ecd39c4c2de065dd18c06115ccad5b5c135e",
+            "author_name": "Nick Desaulniers",
+            "commit_date": "2026-10-21T14:52:45-07:00",
+            "subject": "[DebugInfo][AT] Move enqueueSuccessors after BlockLivenessTracker and const-qualify BB"
         }
     ]
 }
