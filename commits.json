@@ -271449,6 +271449,24 @@
             "author_name": "Benjamin Maxwell",
             "commit_date": "2026-10-22T10:29:28+01:00",
             "subject": "[LV] Implement legality checks for compressing patterns (#230546)"
+        },
+        {
+            "hash": "d68505e11d6753cb323a5e9176e71f9ff9cec1a4",
+            "author_name": "Luke Hutton",
+            "commit_date": "2026-10-22T10:33:54+01:00",
+            "subject": "[mlir][tosa] Add `tosa.avg_pool2d_adaptive` purity note (#233473)"
+        },
+        {
+            "hash": "559eae1ca294f6cad3a9865b7fe620c1ba8edbd9",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-10-22T10:37:46+01:00",
+            "subject": "[Thumb2] thumb2-rev.ll - regenerate test checks (#234534)"
+        },
+        {
+            "hash": "66e6482a73f1f50bd9e90cc23576e87249829001",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-10-22T10:38:26+01:00",
+            "subject": "[X86] sext-vsetcc.ll - add SSE42 test coverage (#234536)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -292389,16 +292407,16 @@
     ],
     "artagnon\/perf\/vplan-first-lane-ct": [
         {
-            "hash": "fd8fbbc1ac94d7f710683f153e769c84cc8788f2",
-            "author_name": "Jay Foad",
-            "commit_date": "2026-10-16T09:13:07+00:00",
-            "subject": "[StructurizeCFG] Remove hidden option -structurizecfg-relaxed-uniform-regions (#232645)"
+            "hash": "cab6acf498d37d2dedd6c17dcda3ad02a775dca2",
+            "author_name": "VladimirMedic",
+            "commit_date": "2026-10-22T11:08:49+02:00",
+            "subject": "[AMDGPU] Only fold 32-bit shift sources in isExtractHiElt (#215245)"
         },
         {
-            "hash": "e16a8f34e36d7d0bb955e9c82ecac42bb1ab60fd",
+            "hash": "687951382895d4b437ac2ad362c3b41f5f006103",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-16T10:37:59+01:00",
-            "subject": "[VPlan] Avoid recursive-fan-out of usesFirstLaneOnly"
+            "commit_date": "2026-10-22T10:39:18+01:00",
+            "subject": "[VPlan] Avoid recursive-fan-out of usesFirstLaneOnly (NFC)"
         }
     ],
     "MaskRay\/perf\/fastra-tied-aarch64": [
