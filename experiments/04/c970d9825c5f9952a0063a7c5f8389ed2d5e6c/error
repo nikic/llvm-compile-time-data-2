@@ -1,0 +1,223 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+FAILED: [code=1] lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/LoopVectorize.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Transforms/Vectorize -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-dangling-reference -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-dangling-pointer -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/LoopVectorize.cpp.o -MF lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/LoopVectorize.cpp.o.d -o lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/LoopVectorize.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorizationPlanner.h:27,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp:57:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:4895:35: error: field ‘VFs’ has incomplete type ‘llvm::SmallSetVector<llvm::ElementCount, 2>’
+ 4895 |   SmallSetVector<ElementCount, 2> VFs;
+      |                                   ^~~
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Scalar/LoopPassManager.h:48,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Utils/ExtraPassManager.h:19,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/LoopVectorize.h:61,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp:56:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Utils/LoopUtils.h:51:41: note: declaration of ‘class llvm::SmallSetVector<llvm::ElementCount, 2>’
+   51 | template <typename T, unsigned N> class SmallSetVector;
+      |                                         ^~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:4899:31: error: field ‘UFs’ has incomplete type ‘llvm::SmallSetVector<unsigned int, 2>’
+ 4899 |   SmallSetVector<unsigned, 2> UFs;
+      |                               ^~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Utils/LoopUtils.h:51:41: note: declaration of ‘class llvm::SmallSetVector<unsigned int, 2>’
+   51 | template <typename T, unsigned N> class SmallSetVector;
+      |                                         ^~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:5117:51: error: incomplete type ‘llvm::SmallSetVector<llvm::ElementCount, 2>’ used in nested name specifier
+ 5117 |   iterator_range<SmallSetVector<ElementCount, 2>::iterator>
+      |                                                   ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:5117:59: error: template argument 1 is invalid
+ 5117 |   iterator_range<SmallSetVector<ElementCount, 2>::iterator>
+      |                                                           ^
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorizationPlanner.h:28:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanUtils.h: In function ‘llvm::VPRecipeBase* llvm::vputils::findRecipe(llvm::VPValue*, PredT)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanUtils.h:147:3: error: ‘SetVector’ was not declared in this scope; did you mean ‘BitVector’? [-Wtemplate-body]
+  147 |   SetVector<VPValue *> Worklist;
+      |   ^~~~~~~~~
+      |   BitVector
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanUtils.h:147:21: error: expected primary-expression before ‘*’ token [-Wtemplate-body]
+  147 |   SetVector<VPValue *> Worklist;
+      |                     ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanUtils.h:147:22: error: expected primary-expression before ‘>’ token [-Wtemplate-body]
+  147 |   SetVector<VPValue *> Worklist;
+      |                      ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanUtils.h:147:24: error: ‘Worklist’ was not declared in this scope [-Wtemplate-body]
+  147 |   SetVector<VPValue *> Worklist;
+      |                        ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp: In member function ‘void llvm::LoopVectorizationPlanner::emitInvalidCostRemarks(llvm::OptimizationRemarkEmitter*)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp:2890:48: error: ‘begin’ was not declared in this scope
+ 2890 |     for (ElementCount VF : Plan->vectorFactors()) {
+      |                                                ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp:2890:48: note: suggested alternatives:
+In file included from /usr/include/c++/15/string:55,
+                 from /usr/include/c++/15/bits/locale_classes.h:42,
+                 from /usr/include/c++/15/bits/ios_base.h:43,
+                 from /usr/include/c++/15/streambuf:45,
+                 from /usr/include/c++/15/bits/streambuf_iterator.h:37,
+                 from /usr/include/c++/15/iterator:68,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h:13,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/DenseMap.h:24,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/IR/PassManager.h:40,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/Transforms/Vectorize/LoopVectorize.h:59:
+/usr/include/c++/15/bits/range_access.h:120:37: note:   ‘std::begin’
+  120 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+In file included from /usr/include/c++/15/bits/range_access.h:38:
+/usr/include/c++/15/initializer_list:90:5: note:   ‘std::begin’
+   90 |     begin(initializer_list<_Tp> __ils) noexcept
+      |     ^~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp:2890:48: error: ‘end’ was not declared in this scope
+ 2890 |     for (ElementCount VF : Plan->vectorFactors()) {
+      |                                                ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp:2890:48: note: suggested alternatives:
+/usr/include/c++/15/bits/range_access.h:122:37: note:   ‘std::end’
+  122 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+/usr/include/c++/15/initializer_list:101:5: note:   ‘std::end’
+  101 |     end(initializer_list<_Tp> __ils) noexcept
+      |     ^~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp: In member function ‘std::pair<llvm::VectorizationFactor, llvm::VPlan*> llvm::LoopVectorizationPlanner::computeBestVF()’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp:5462:51: error: request for member ‘begin’ in ‘(& P)->std::unique_ptr<llvm::VPlan>::operator->()->llvm::VPlan::vectorFactors()’, which is of non-class type ‘int’
+ 5462 |     ArrayRef<ElementCount> VFs(P->vectorFactors().begin(),
+      |                                                   ^~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorize.cpp:5463:51: error: request for member ‘end’ in ‘(& P)->std::unique_ptr<llvm::VPlan>::operator->()->llvm::VPlan::vectorFactors()’, which is of non-class type ‘int’
+ 5463 |                                P->vectorFactors().end());
+      |                                                   ^~~
+[2172/3446] Building X86GenInstrInfo.inc...
+[2173/3446] Building CXX object lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanTransforms.cpp.o
+FAILED: [code=1] lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanTransforms.cpp.o 
+CCACHE_CPP2=yes CCACHE_HASHDIR=yes CCACHE_SLOPPINESS=pch_defines,time_macros /usr/bin/ccache /usr/bin/c++ -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/llvm-project-build-stage1/lib/Transforms/Vectorize -I/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize -I/tmp/llvm-project-build-stage1/include -I/var/llvm-compile-time-tracker/llvm-project/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-dangling-reference -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-dangling-pointer -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanTransforms.cpp.o -MF lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanTransforms.cpp.o.d -o lib/Transforms/Vectorize/CMakeFiles/LLVMVectorize.dir/VPlanTransforms.cpp.o -c /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanTransforms.cpp
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanTransforms.h:16,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanTransforms.cpp:14:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:4895:3: error: ‘SmallSetVector’ does not name a type; did you mean ‘SmallVector’?
+ 4895 |   SmallSetVector<ElementCount, 2> VFs;
+      |   ^~~~~~~~~~~~~~
+      |   SmallVector
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:4899:3: error: ‘SmallSetVector’ does not name a type; did you mean ‘SmallVector’?
+ 4899 |   SmallSetVector<unsigned, 2> UFs;
+      |   ^~~~~~~~~~~~~~
+      |   SmallVector
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:5117:18: error: ‘SmallSetVector’ was not declared in this scope; did you mean ‘SmallVector’?
+ 5117 |   iterator_range<SmallSetVector<ElementCount, 2>::iterator>
+      |                  ^~~~~~~~~~~~~~
+      |                  SmallVector
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:5117:48: error: wrong number of template arguments (2, should be 1)
+ 5117 |   iterator_range<SmallSetVector<ElementCount, 2>::iterator>
+      |                                                ^
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/iterator.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:23,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanValue.h:23,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:27:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/iterator_range.h:31:7: note: provided for ‘template<class IteratorT> class llvm::iterator_range’
+   31 | class iterator_range {
+      |       ^~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:5117:51: error: expected ‘;’ at end of member declaration
+ 5117 |   iterator_range<SmallSetVector<ElementCount, 2>::iterator>
+      |                                                   ^~~~~~~~
+      |                                                           ;
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:5117:59: error: expected unqualified-id before ‘>’ token
+ 5117 |   iterator_range<SmallSetVector<ElementCount, 2>::iterator>
+      |                                                           ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h: In member function ‘void llvm::VPlan::addVF(llvm::ElementCount)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:5097:33: error: ‘VFs’ was not declared in this scope; did you mean ‘VF’?
+ 5097 |   void addVF(ElementCount VF) { VFs.insert(VF); }
+      |                                 ^~~
+      |                                 VF
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h: In member function ‘void llvm::VPlan::setVF(llvm::ElementCount)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:5101:5: error: ‘VFs’ was not declared in this scope; did you mean ‘VF’?
+ 5101 |     VFs.clear();
+      |     ^~~
+      |     VF
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h: In member function ‘void llvm::VPlan::removeVF(llvm::ElementCount)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:5108:5: error: ‘VFs’ was not declared in this scope; did you mean ‘VF’?
+ 5108 |     VFs.remove(VF);
+      |     ^~~
+      |     VF
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h: In member function ‘bool llvm::VPlan::hasVF(llvm::ElementCount) const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:5111:46: error: ‘VFs’ was not declared in this scope; did you mean ‘VF’?
+ 5111 |   bool hasVF(ElementCount VF) const { return VFs.count(VF); }
+      |                                              ^~~
+      |                                              VF
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h: In member function ‘bool llvm::VPlan::hasScalableVF() const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:5113:19: error: ‘VFs’ was not declared in this scope; did you mean ‘VF’?
+ 5113 |     return any_of(VFs, [](ElementCount VF) { return VF.isScalable(); });
+      |                   ^~~
+      |                   VF
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h: In member function ‘llvm::ElementCount llvm::VPlan::getSingleVF() const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:5126:12: error: ‘VFs’ was not declared in this scope; did you mean ‘VF’?
+ 5126 |     return VFs[0];
+      |            ^~~
+      |            VF
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h: In member function ‘bool llvm::VPlan::hasScalarVFOnly() const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:5130:28: error: ‘VFs’ was not declared in this scope; did you mean ‘VF’?
+ 5130 |     bool HasScalarVFOnly = VFs.size() == 1 && VFs[0].isScalar();
+      |                            ^~~
+      |                            VF
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h: In member function ‘bool llvm::VPlan::hasUF(unsigned int) const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:5136:42: error: ‘UFs’ was not declared in this scope; did you mean ‘UF’?
+ 5136 |   bool hasUF(unsigned UF) const { return UFs.empty() || UFs.contains(UF); }
+      |                                          ^~~
+      |                                          UF
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h: In member function ‘unsigned int llvm::VPlan::getConcreteUF() const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:5141:12: error: ‘UFs’ was not declared in this scope; did you mean ‘UF’?
+ 5141 |     return UFs[0];
+      |            ^~~
+      |            UF
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h: In member function ‘void llvm::VPlan::setUF(unsigned int)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:5146:5: error: ‘UFs’ was not declared in this scope; did you mean ‘UF’?
+ 5146 |     UFs.clear();
+      |     ^~~
+      |     UF
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h: In member function ‘bool llvm::VPlan::isUnrolled() const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlan.h:5152:36: error: ‘UFs’ was not declared in this scope; did you mean ‘UF’?
+ 5152 |   bool isUnrolled() const { return UFs.size() == 1; }
+      |                                    ^~~
+      |                                    UF
+In file included from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/LoopVectorizationPlanner.h:28,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPRecipeBuilder.h:12,
+                 from /var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanTransforms.cpp:15:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanUtils.h: In function ‘llvm::VPRecipeBase* llvm::vputils::findRecipe(llvm::VPValue*, PredT)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanUtils.h:147:3: error: ‘SetVector’ was not declared in this scope; did you mean ‘BitVector’? [-Wtemplate-body]
+  147 |   SetVector<VPValue *> Worklist;
+      |   ^~~~~~~~~
+      |   BitVector
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanUtils.h:147:21: error: expected primary-expression before ‘*’ token [-Wtemplate-body]
+  147 |   SetVector<VPValue *> Worklist;
+      |                     ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanUtils.h:147:22: error: expected primary-expression before ‘>’ token [-Wtemplate-body]
+  147 |   SetVector<VPValue *> Worklist;
+      |                      ^
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanUtils.h:147:24: error: ‘Worklist’ was not declared in this scope [-Wtemplate-body]
+  147 |   SetVector<VPValue *> Worklist;
+      |                        ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanTransforms.cpp: In member function ‘bool SinkStoreInfo::isNoAliasViaDistance(llvm::VPReplicateRecipe*, llvm::VPReplicateRecipe*) const’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanTransforms.cpp:251:43: error: ‘class llvm::VPlan’ has no member named ‘vectorFactors’
+  251 |     auto VFs = B->getParent()->getPlan()->vectorFactors();
+      |                                           ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanTransforms.cpp: In static member function ‘static std::unique_ptr<llvm::VPlan> llvm::VPlanTransforms::narrowInterleaveGroups(llvm::VPlan&, const llvm::TargetTransformInfo&)’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanTransforms.cpp:4614:39: error: ‘class llvm::VPlan’ has no member named ‘vectorFactors’
+ 4614 |                      : to_vector(Plan.vectorFactors());
+      |                                       ^~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Transforms/Vectorize/VPlanTransforms.cpp:4672:17: error: ‘class llvm::VPlan’ has no member named ‘vectorFactors’
+ 4672 |   if (size(Plan.vectorFactors()) != 1) {
+      |                 ^~~~~~~~~~~~~
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+Precompiled headers are disabled by default with GCC. Pass -DCMAKE_DISABLE_PRECOMPILE_HEADERS=OFF to override.
+CMake Warning at cmake/modules/HandleLLVMOptions.cmake:1441 (message):
+  Using ccache with precompiled headers with non-Clang compilers is not
+  supported and may lead to false positives.  Set
+  CMAKE_DISABLE_PRECOMPILE_HEADERS to ON/OFF to silence this warning.
+Call Stack (most recent call first):
+  CMakeLists.txt:1145 (include)
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:524 (message):
+  'CLANG_ENABLE_ARCMT' is deprecated as ARCMigrate has been removed from
+  Clang.  Please use 'CLANG_ENABLE_OBJC_REWRITER' instead to enable or
+  disable the Objective-C rewriter.
+
+
+Command exited with non-zero status 1
+106.84user 11.81system 0:09.99elapsed 1186%CPU (0avgtext+0avgdata 847736maxresident)k
+48inputs+180456outputs (218major+6529857minor)pagefaults 0swaps

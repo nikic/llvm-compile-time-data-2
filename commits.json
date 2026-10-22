@@ -271413,6 +271413,24 @@
             "author_name": "VladimirMedic",
             "commit_date": "2026-10-22T11:08:49+02:00",
             "subject": "[AMDGPU] Only fold 32-bit shift sources in isExtractHiElt (#215245)"
+        },
+        {
+            "hash": "1a12b033bc0e525695319bfa0d96e77b844305ad",
+            "author_name": "Benjamin Maxwell",
+            "commit_date": "2026-10-22T10:18:09+01:00",
+            "subject": "[CIR] Use `llvm::ElementCount` to hold `cir::VectorType` size (#231906)"
+        },
+        {
+            "hash": "f4da8d967b1dec2b046ed9d37ea87d5971bc6004",
+            "author_name": "hev",
+            "commit_date": "2026-10-22T17:18:20+08:00",
+            "subject": "[LoongArch][NFC] Pre-commit tests for fptosi.sat (#233759)"
+        },
+        {
+            "hash": "7a270d70971813b024106e2a7ab1f76382fd0284",
+            "author_name": "hev",
+            "commit_date": "2026-10-22T17:18:21+08:00",
+            "subject": "[LoongArch] Lower FP_TO_SINT_SAT to [X]VFTINTRZ\/FTINTRZ (#233760)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -290297,27 +290315,27 @@
     ],
     "fhahn\/perf\/scev-merge-block-guards": [
         {
-            "hash": "3d7d2e95a1af68dd41ec042ea6bf9b14de65afca",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-17T22:01:34+00:00",
-            "subject": "[VPlan] Only hoist from blocks guaranteed to execute in licm (NFC). (#232512)"
+            "hash": "0b5e65f208f29e5b676a605b1e485d03722100d9",
+            "author_name": "Ivan Kosarev",
+            "commit_date": "2026-10-22T08:55:29+01:00",
+            "subject": "[TableGen] Share identical super-register class masks (#224633)"
         },
         {
-            "hash": "42409b04af2f7f20f8b5fb4a53d8ff09947b9ace",
+            "hash": "81e1389b8556f74091c19395e9f6847aa6cf6dbe",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-17T23:41:27+01:00",
+            "commit_date": "2026-10-22T10:05:33+01:00",
             "subject": "[SCEV] Add tests with loop guards behind merge blocks."
         },
         {
-            "hash": "c0dff4bf90ece91d2e51e79786c704ad80afc4bf",
+            "hash": "7388c73a5896d9c2e6245f57351f53f3c079f2fe",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-17T23:41:27+01:00",
+            "commit_date": "2026-10-22T10:05:34+01:00",
             "subject": "[SCEV] Look for guard conditions through merge blocks."
         },
         {
-            "hash": "b164d5af390cd643296b5db89910b7cfda816305",
+            "hash": "e055b9ad3ad1091b9a35d638d2fb24afb7e71a79",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-17T23:41:27+01:00",
+            "commit_date": "2026-10-22T10:05:35+01:00",
             "subject": "[SCEV] Look for guard conditions through merge blocks."
         }
     ],
