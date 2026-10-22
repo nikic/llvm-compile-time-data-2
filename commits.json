@@ -271707,6 +271707,24 @@
             "author_name": "Simon Pilgrim",
             "commit_date": "2026-10-22T13:56:41Z",
             "subject": "[X86] Fold (sext_in_reg (logic x, y)) -> (logic x, (sext_in_reg y)) (#234611)"
+        },
+        {
+            "hash": "09520d17d6a8da6ee3324008956a838ee6ce2169",
+            "author_name": "cpp-engine",
+            "commit_date": "2026-10-22T22:02:00+08:00",
+            "subject": "[clang-tidy] Fix `performance-noexcept-move-constructor` for implicit `noexcept(false)` (#226488)"
+        },
+        {
+            "hash": "b64d92ba5d414ad57687a1a9dfe9246be37a5ecd",
+            "author_name": "Sean Perry",
+            "commit_date": "2026-10-22T10:02:49-04:00",
+            "subject": "[SystemZ] XFAIL for z\/OS until TLS support is available (#233887)"
+        },
+        {
+            "hash": "1461f657b7982c21d6dfa339a21a688fbfbbe940",
+            "author_name": "Kelvin Li",
+            "commit_date": "2026-10-22T14:05:13Z",
+            "subject": "[OMP] Disable issue-94260-2.c on AIX (#234478)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
