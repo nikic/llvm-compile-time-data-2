@@ -271863,6 +271863,42 @@
             "author_name": "David Li",
             "commit_date": "2026-10-22T08:43:51-07:00",
             "subject": "[MemProf] Honor trimmed contexts when assigning callsite clones to function clones (#230351)"
+        },
+        {
+            "hash": "7ece04ab2e0df3e3547118553c05b1925723ceb0",
+            "author_name": "Connector Switch",
+            "commit_date": "2026-10-22T23:44:22+08:00",
+            "subject": "[libc] Use a syscall wrapper for `epoll_ctl` (#234572)"
+        },
+        {
+            "hash": "a5a718d0bafb2126800b0ee0e5ea72355e3fd319",
+            "author_name": "lntue",
+            "commit_date": "2026-10-22T11:46:33-04:00",
+            "subject": "[libc][cmake] Unify test suite creation and hierarchy in add_libc_testsuite. (#234465)"
+        },
+        {
+            "hash": "9bded32fa91eaec4598279bf4da33f1bdc66864a",
+            "author_name": "Aman Maurya",
+            "commit_date": "2026-10-22T21:21:36+05:30",
+            "subject": "[libc] Deduplicate va_list to argv extraction using exec_with_arg_list (#234581)"
+        },
+        {
+            "hash": "612d9798b4cb9b45085a03d4bd5a290a14eba81b",
+            "author_name": "Michael Kruse",
+            "commit_date": "2026-10-22T15:51:43Z",
+            "subject": "[Polly][CI] Disable CIR (#234667)"
+        },
+        {
+            "hash": "02a19785c91cd7bab502f84362f18bc53ac3caea",
+            "author_name": "Aman Maurya",
+            "commit_date": "2026-10-22T21:22:55+05:30",
+            "subject": "[CIR] Support CoawaitExpr in emitLValue (#232280)"
+        },
+        {
+            "hash": "a6d825fa562974d9e0daf32b1a2d1e53f021202f",
+            "author_name": "Sam Parker",
+            "commit_date": "2026-10-22T15:53:13Z",
+            "subject": "[NFC][WebAssembly] Precommit tests (#234647)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -292813,6 +292849,12 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-10-22T10:39:18+01:00",
             "subject": "[VPlan] Avoid recursive-fan-out of usesFirstLaneOnly (NFC)"
+        },
+        {
+            "hash": "2bf50a86dd4347314d3bb9869b41c75efe5b9a38",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-22T16:49:59+01:00",
+            "subject": "[VPlan] NFC improvement, thanks!"
         }
     ],
     "MaskRay\/perf\/fastra-tied-aarch64": [
