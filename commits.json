@@ -271515,6 +271515,24 @@
             "author_name": "Aman Maurya",
             "commit_date": "2026-10-22T15:52:44+05:30",
             "subject": "[libc] Implement execlp in unistd (#232901)"
+        },
+        {
+            "hash": "4f8899e0e3ec44614fc2acb08d55b29e8547c20b",
+            "author_name": "David Spickett",
+            "commit_date": "2026-10-22T11:37:43+01:00",
+            "subject": "Revert \"[clang] Normalize clang-cl options for host and device compilation\" (#234563)"
+        },
+        {
+            "hash": "f608a51e8eac16aac642fda63ed3ca8b5f38726b",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-22T12:39:07+02:00",
+            "subject": "Revert \"[mlir] Fix false positive loops in RegionBranchOpInterface::hasLoop\" (#234573)"
+        },
+        {
+            "hash": "c3f02e7a224310d9accc33cc847e72acb7e90328",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-10-22T06:39:33-04:00",
+            "subject": "[Bazel] Fixes 3edfb37 (#234538)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -290583,34 +290601,34 @@
     ],
     "artagnon\/perf\/scev-exact-flags": [
         {
-            "hash": "b4badb65df4ea15fc6ecabd8f9366a96df11dcb5",
-            "author_name": "dobri01",
-            "commit_date": "2026-10-08T13:51:53+01:00",
-            "subject": "[AArch64] Add support for C2 CPUs (#229055)"
+            "hash": "cab6acf498d37d2dedd6c17dcda3ad02a775dca2",
+            "author_name": "VladimirMedic",
+            "commit_date": "2026-10-22T11:08:49+02:00",
+            "subject": "[AMDGPU] Only fold 32-bit shift sources in isExtractHiElt (#215245)"
         },
         {
-            "hash": "53d1e09eca0e0e02e7cc50321cd6662a187a4fcc",
+            "hash": "3a11f64f20eca13d928084b9b23fcb4eead73ddf",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-08T14:08:26+01:00",
+            "commit_date": "2026-10-22T11:35:00+01:00",
             "subject": "[LoopUnroll] Pre-commit udiv-exact tests"
         },
         {
-            "hash": "d61bfb721525ce711fac2acf7f4d1a0e9d4f0707",
+            "hash": "de10abcfe3b008e61ba7e74904c9cf9ba16a4b39",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-08T14:08:26+01:00",
+            "commit_date": "2026-10-22T11:35:00+01:00",
             "subject": "[SCEV] Introduce exact flag for UDiv"
         },
         {
-            "hash": "26ee00876917804cf85a636c077d0a826189aa7a",
+            "hash": "14c217d196522872eed5cd00d79e1d173dffc844",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-08T14:08:26+01:00",
+            "commit_date": "2026-10-22T11:35:00+01:00",
             "subject": "[SCEV] Fix nits, strengthen with asserts"
         },
         {
-            "hash": "e3dbd4764f56364b055cbd4f71dc67cefe64733a",
+            "hash": "ed66cefa460ba94677312cceec61edcad194b1b5",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-08T14:11:47+01:00",
-            "subject": "[SCEV] Fix NFC nits"
+            "commit_date": "2026-10-22T11:36:46+01:00",
+            "subject": "[SCEV] Fix NFC nits, update test"
         }
     ],
     "fhahn\/perf\/ce-strict-witness": [
