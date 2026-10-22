@@ -272307,6 +272307,12 @@
             "author_name": "Dmitry Vasilyev",
             "commit_date": "2026-10-23T00:44:30+04:00",
             "subject": "[Support] Added file_size(file_t) to improve performance on Windows (#234610)"
+        },
+        {
+            "hash": "177f616dc45d49c478914c5e49c9123e613b60f3",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-22T21:49:54+01:00",
+            "subject": "[VPlan] Expand AddRecs in VPlan, only canonical ARs in IR. (#230858)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -295509,46 +295515,58 @@
     ],
     "fhahn\/perf\/ct-o3-2": [
         {
-            "hash": "26c9bbbc922bc1614e4394e60d5f68160c823397",
-            "author_name": "David Spickett",
-            "commit_date": "2026-10-21T10:06:42+01:00",
-            "subject": "[lldb][test] Disable TestSBData.py on Windows on Arm (#234121)"
+            "hash": "177f616dc45d49c478914c5e49c9123e613b60f3",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-22T21:49:54+01:00",
+            "subject": "[VPlan] Expand AddRecs in VPlan, only canonical ARs in IR. (#230858)"
         },
         {
-            "hash": "0668b6d3de48f173990d733f5a177fd88dc12b0d",
+            "hash": "a3a45f20b14f81ccc54e3dd3fdcb05ecc7df6a71",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-21T09:07:23Z",
-            "subject": "[RegAlloc] Stop adding split constraints once too expensive (NFC)"
-        },
-        {
-            "hash": "035408799a27839f5341cd5a756f422b01bb15ff",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-21T09:07:51Z",
-            "subject": "[InstSimplify] Bail out early in simplifyICmpWithMinMax (NFC)"
-        },
-        {
-            "hash": "0b2fe00d9165f69f4fd790eb3fa4b767f99ef554",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-21T09:07:51Z",
+            "commit_date": "2026-10-22T21:51:49+01:00",
             "subject": "[FunctionAttrs] Stop scanning for memory effects once they are final (NFC)"
         },
         {
-            "hash": "542d0f1fe00e5739e5a518ea76657927e615d839",
+            "hash": "d585b121662d22044b3ca1dcbbde889ca5ac8a38",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-21T09:08:15Z",
+            "commit_date": "2026-10-22T21:51:49+01:00",
             "subject": "[SLP] Check operands and users before memory effects (NFC)"
         },
         {
-            "hash": "42a4109081d6bffbafb4b41c42782086e818d02c",
+            "hash": "c82d8b483671483719c5c67e1394ffdd14917150",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-21T09:08:39Z",
+            "commit_date": "2026-10-22T21:51:49+01:00",
             "subject": "[LICM] Skip collecting promotion candidates without a store (NFC)"
         },
         {
-            "hash": "3eca232c59a34207bdab97998c1f598123bf34cc",
+            "hash": "b0826948e9be08adfefde603e42815a06a9f8b33",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-21T09:09:19Z",
+            "commit_date": "2026-10-22T21:51:49+01:00",
             "subject": "[LiveVariables] Only collect partial uses if the reg is not used (NFC)"
+        },
+        {
+            "hash": "27bf8f08981ee5be61362fa1f03766e43e7a2d49",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-22T21:52:27+01:00",
+            "subject": "[InstSimplify] Match the GEP index before stripping the base (NFC)"
+        },
+        {
+            "hash": "8b86d25fafa5d5e7269db34059e9cb14f7a2b526",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-22T21:52:28+01:00",
+            "subject": "[ADT] Visit used buckets a word at a time in DenseMap::remove_if (NFC)"
+        },
+        {
+            "hash": "5ba1098d2c49bd63cf627f9f7b20c924a33d05d2",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-22T21:52:28+01:00",
+            "subject": "[CodeGen][LSR] Use std::sort instead of qsort for hot sorts (NFC)"
+        },
+        {
+            "hash": "10520df09a4f372a54bdb224ad38ec1a07111f76",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-22T21:52:28+01:00",
+            "subject": "[LegacyPM] Record CFG-only passes when they are registered (NFC)"
         }
     ],
     "c-rhodes\/perf\/aarch64-fastisel-o0-21-10-2026": [
