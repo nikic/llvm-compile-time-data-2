@@ -273015,6 +273015,12 @@
             "author_name": "Nerixyz",
             "commit_date": "2026-10-23T15:15:07+02:00",
             "subject": "[LLDB][NativePDB] Set IsDynamicCXXType metadata for records (#155853)"
+        },
+        {
+            "hash": "adfd81be40d889d9bf44c0bcaea61b52fc52cbd3",
+            "author_name": "kwyatt-ext",
+            "commit_date": "2026-10-23T08:20:28-05:00",
+            "subject": "[flang] Fix diagnostic order for invalid coarray dimension declarations (#219282)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -296583,6 +296589,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-10-23T14:10:46+02:00",
             "subject": "no arg strip"
+        }
+    ],
+    "antoniofrighetto\/perf\/gvn-loop-pre-inner-blocker": [
+        {
+            "hash": "9945545d44f145c7402748cec0e4016c078bf67e",
+            "author_name": "Hansang Bae",
+            "commit_date": "2026-10-23T08:14:19-05:00",
+            "subject": "[Offload] Avoid invoking liboffload functions when uninitialized (#234645)"
+        },
+        {
+            "hash": "775ec2a391cd6c07da7b9a30009c4b334c1d0c89",
+            "author_name": "Anup Kumar",
+            "commit_date": "2026-10-23T15:16:18+02:00",
+            "subject": "[GVN] Allow loop-load PRE when the blocker is in an inner loop"
         }
     ]
 }
