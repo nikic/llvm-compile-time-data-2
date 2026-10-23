@@ -273141,6 +273141,78 @@
             "author_name": "Jeff Bailey",
             "commit_date": "2026-10-23T15:29:48+01:00",
             "subject": "[libc][regex] Add bracket expressions and character ranges (#234895)"
+        },
+        {
+            "hash": "f9edbc7388a714945eb2f08bfafe31be7ea3d7ac",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-23T07:32:18-07:00",
+            "subject": "PowerPC: Move the PPC32 and PPC64 hardware modes to PPCRegisterInfo.td (#233058)"
+        },
+        {
+            "hash": "35383f80e404978b8a1fc3d3e74c57424aa630e2",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-23T07:32:19-07:00",
+            "subject": "PowerPC: Move subtarget features to PPCFeatures.td (#233059)"
+        },
+        {
+            "hash": "948a5b42199816727ca9f0b85eefcfaeffcdfbf2",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-23T07:32:20-07:00",
+            "subject": "PowerPC: Move processor definitions to PPCProcessors.td (#233060)"
+        },
+        {
+            "hash": "e8b9d2aec54eeded0659fa25d8ee41a051de5e10",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-23T07:32:20-07:00",
+            "subject": "PowerPC: Use minimal tablegen inputs for TargetParser (#233061)"
+        },
+        {
+            "hash": "e065effdf1d56b97f12a46d5b252c7e281354165",
+            "author_name": "David Rivera",
+            "commit_date": "2026-10-23T10:35:42-04:00",
+            "subject": "[CIR] Match OGCG noalias and memory effects on operator new (#221818)"
+        },
+        {
+            "hash": "e125fd1bdfbd9d6e8303e6fc802a2a8e7ef484e8",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-23T14:35:53Z",
+            "subject": "[InstSimplify] Match the GEP index before stripping the base. (NFC) (#234880)"
+        },
+        {
+            "hash": "48f56e847fca82700dd4283de183ff0584acecca",
+            "author_name": "Connector Switch",
+            "commit_date": "2026-10-23T10:36:36-04:00",
+            "subject": "[libc][math][c23] Fix signed zeros in `tanpif` and `tanpif16` (#230371)"
+        },
+        {
+            "hash": "d225dc9296c0318ea5872a97178581637213d392",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-23T16:38:40+02:00",
+            "subject": "[NFC][CIR] Fix x86_64 Linux REQUIRES in CIR tests (#234244)"
+        },
+        {
+            "hash": "a5e0876eaf5391e4f779530f2685c02a63ca9616",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-23T14:40:24Z",
+            "subject": "[VPlan] Model the connected main-loop CFG and epilogue resume values. (#229921)"
+        },
+        {
+            "hash": "4d1b6df15f8e4cdc5d8a49f4887b104461c862a8",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-23T07:41:57-07:00",
+            "subject": "CodeGen: Stop adding kill flags in MachineCombiner reassociation (#234677)"
+        },
+        {
+            "hash": "d639a16cd99e19d4285bc22d4fce7626c124d5d0",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-10-23T14:47:52Z",
+            "subject": "[CIR] Stop making CIRGen's ExprScalar be a friend of CIRGenFunction (#234951)"
+        },
+        {
+            "hash": "f6674ac264fecb4a77962312033350fbead84203",
+            "author_name": "jon-gibney",
+            "commit_date": "2026-10-23T09:51:26-05:00",
+            "subject": "[flang] Register memref-to-llvm patterns in FIRToLLVMLowering (#234305)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
