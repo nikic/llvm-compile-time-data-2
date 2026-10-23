@@ -273723,6 +273723,30 @@
             "author_name": "Anton Rapetov",
             "commit_date": "2026-10-23T21:42:28+01:00",
             "subject": "[Mips] Add JUMP_TARGET operand types for MIPS and microMIPS (#233566)"
+        },
+        {
+            "hash": "d99d197fb87231c01d3aa89ca6ed3d5da9f6f934",
+            "author_name": "Rahman Lavaee",
+            "commit_date": "2026-10-23T20:49:56Z",
+            "subject": "[Propeller] Support basic block path cloning with PropellerMatchBBID (#235080)"
+        },
+        {
+            "hash": "fe0fee2301c42e5c93a7de651bd87dd4b9f6d603",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-23T20:51:04Z",
+            "subject": "PowerPC: Stop adding kill flags when promoting instructions to 64-bit (#235082)"
+        },
+        {
+            "hash": "f16dbe0ec4b653736148c78bebdefcfe1c88198e",
+            "author_name": "DaKnig",
+            "commit_date": "2026-10-23T13:53:53-07:00",
+            "subject": "[SelectionDAG] Don't always use abs(sub) when expanding abdu (#235043)"
+        },
+        {
+            "hash": "de93044a5f303a8eb847cfc1f97c490de7809189",
+            "author_name": "Andres-Salamanca",
+            "commit_date": "2026-10-23T15:55:15-05:00",
+            "subject": "[CIR] Replace coroutine unit attrs on FuncOp with a CoroutineKind enum attr (#234817)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -297449,6 +297473,20 @@
             "author_name": "Stephen Tozer",
             "commit_date": "2026-10-23T16:21:24+01:00",
             "subject": "Atom number merging fix"
+        }
+    ],
+    "nikic\/perf\/regalloc-split-cand-dedup": [
+        {
+            "hash": "abe54402379a1212afc3f9ee040ff73a104c3c7a",
+            "author_name": "Slava Zakharin",
+            "commit_date": "2026-10-23T19:19:48Z",
+            "subject": "[SmallVector] Fixed usage in mlir\/lib\/TableGen\/Operator.cpp. (#235067)"
+        },
+        {
+            "hash": "b4bad35c6ae2e88d979d3100acdcbc10a423589b",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-23T20:52:57Z",
+            "subject": "[RegAlloc] Skip equivalent candidates in region split cost calculation (NFC)"
         }
     ]
 }
