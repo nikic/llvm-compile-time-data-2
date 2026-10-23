@@ -273213,6 +273213,12 @@
             "author_name": "jon-gibney",
             "commit_date": "2026-10-23T09:51:26-05:00",
             "subject": "[flang] Register memref-to-llvm patterns in FIRToLLVMLowering (#234305)"
+        },
+        {
+            "hash": "a7b347ec208ad35ca83ad1dd314bea9d0c6c844a",
+            "author_name": "lntue",
+            "commit_date": "2026-10-23T10:56:42-04:00",
+            "subject": "[libc][cmake] Fold add_integration_test into add_libc_test and clean up test options. (#234712)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -296553,27 +296559,21 @@
     ],
     "antoniofrighetto\/perf\/gvn-enable-mssa-3-reuse-eea-and-reaching-caches": [
         {
-            "hash": "2f4a03f99f48275cbdf8b3a6b31c08285664d8ef",
-            "author_name": "Jiahe Wang",
-            "commit_date": "2026-10-21T14:37:01Z",
-            "subject": "[Attributor] Use sorted offsets for constant vector stores (#231079)"
+            "hash": "9945545d44f145c7402748cec0e4016c078bf67e",
+            "author_name": "Hansang Bae",
+            "commit_date": "2026-10-23T08:14:19-05:00",
+            "subject": "[Offload] Avoid invoking liboffload functions when uninitialized (#234645)"
         },
         {
-            "hash": "f0d2ead2c6f4bf4e689b61875c76bec73b9e11f5",
+            "hash": "09543076581f03f46c929910bc671a77a94d885d",
             "author_name": "Antonio Frighetto",
-            "commit_date": "2026-10-21T16:38:31+02:00",
+            "commit_date": "2026-10-23T16:54:39+02:00",
             "subject": "[GVN] MemorySSA for GVN: switch to using MemorySSA by default"
         },
         {
-            "hash": "7edfffcfd2a9651e2a9c4f90b71e0a7df7df5058",
-            "author_name": "Alina Sbirlea",
-            "commit_date": "2026-10-21T16:38:31+02:00",
-            "subject": "[GVN] Reuse EarliestEscapeAnalysis across loads when using MemorySSA"
-        },
-        {
-            "hash": "cbb53c0f3314d50fcb8566f3b7559988e36883a8",
+            "hash": "0984edbd818eadae7a8274c86a08337b7e30152e",
             "author_name": "Antonio Frighetto",
-            "commit_date": "2026-10-21T16:38:31+02:00",
+            "commit_date": "2026-10-23T16:54:39+02:00",
             "subject": "tmp"
         }
     ],
@@ -296893,6 +296893,20 @@
             "author_name": "Stephen Tozer",
             "commit_date": "2026-10-23T14:26:21+01:00",
             "subject": "Atom number merging fix"
+        }
+    ],
+    "antoniofrighetto\/perf\/gvn-enable-mssa-3": [
+        {
+            "hash": "9945545d44f145c7402748cec0e4016c078bf67e",
+            "author_name": "Hansang Bae",
+            "commit_date": "2026-10-23T08:14:19-05:00",
+            "subject": "[Offload] Avoid invoking liboffload functions when uninitialized (#234645)"
+        },
+        {
+            "hash": "93d8e91260b97ddcd53d1003d5f27d01450e3828",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-10-23T16:52:18+02:00",
+            "subject": "[GVN] MemorySSA for GVN: switch to using MemorySSA by default"
         }
     ]
 }
