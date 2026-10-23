@@ -273087,6 +273087,12 @@
             "author_name": "Aaron Ballman",
             "commit_date": "2026-10-23T13:52:07Z",
             "subject": "[clang][C2y] Add the WG14 papers adopted in Ottawa (#234935)"
+        },
+        {
+            "hash": "41332490797db3ab01231058b1c774c0c26592c3",
+            "author_name": "Alex Duran",
+            "commit_date": "2026-10-23T15:54:50+02:00",
+            "subject": "[Offload][omp] Route data memory operations through liboffload (#233884)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -296343,58 +296349,58 @@
     ],
     "fhahn\/perf\/ct-o3-2": [
         {
-            "hash": "177f616dc45d49c478914c5e49c9123e613b60f3",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-22T21:49:54+01:00",
-            "subject": "[VPlan] Expand AddRecs in VPlan, only canonical ARs in IR. (#230858)"
+            "hash": "41332490797db3ab01231058b1c774c0c26592c3",
+            "author_name": "Alex Duran",
+            "commit_date": "2026-10-23T15:54:50+02:00",
+            "subject": "[Offload][omp] Route data memory operations through liboffload (#233884)"
         },
         {
-            "hash": "a3a45f20b14f81ccc54e3dd3fdcb05ecc7df6a71",
+            "hash": "0ae45cf2c8aab97c90bbc00b1ca985d7f5bb34e0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-22T21:51:49+01:00",
+            "commit_date": "2026-10-23T14:56:45+01:00",
             "subject": "[FunctionAttrs] Stop scanning for memory effects once they are final (NFC)"
         },
         {
-            "hash": "d585b121662d22044b3ca1dcbbde889ca5ac8a38",
+            "hash": "2d062abb18d9ef849fb64715f65c9a7128c5b18f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-22T21:51:49+01:00",
+            "commit_date": "2026-10-23T14:56:46+01:00",
             "subject": "[SLP] Check operands and users before memory effects (NFC)"
         },
         {
-            "hash": "c82d8b483671483719c5c67e1394ffdd14917150",
+            "hash": "d860605ab88763371aa40fe5796aa090711f3608",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-22T21:51:49+01:00",
+            "commit_date": "2026-10-23T14:56:46+01:00",
             "subject": "[LICM] Skip collecting promotion candidates without a store (NFC)"
         },
         {
-            "hash": "b0826948e9be08adfefde603e42815a06a9f8b33",
+            "hash": "ebf8c8be5da855de878865b62ca129f543c7528b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-22T21:51:49+01:00",
-            "subject": "[LiveVariables] Only collect partial uses if the reg is not used (NFC)"
-        },
-        {
-            "hash": "27bf8f08981ee5be61362fa1f03766e43e7a2d49",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-22T21:52:27+01:00",
+            "commit_date": "2026-10-23T14:57:10+01:00",
             "subject": "[InstSimplify] Match the GEP index before stripping the base (NFC)"
         },
         {
-            "hash": "8b86d25fafa5d5e7269db34059e9cb14f7a2b526",
+            "hash": "32d6f33c39f4ceb9f763feb766b52129254b2cc3",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-22T21:52:28+01:00",
+            "commit_date": "2026-10-23T14:57:11+01:00",
             "subject": "[ADT] Visit used buckets a word at a time in DenseMap::remove_if (NFC)"
         },
         {
-            "hash": "5ba1098d2c49bd63cf627f9f7b20c924a33d05d2",
+            "hash": "da057cc5880020ccff5fee17ffa145383dcef723",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-22T21:52:28+01:00",
-            "subject": "[CodeGen][LSR] Use std::sort instead of qsort for hot sorts (NFC)"
+            "commit_date": "2026-10-23T14:59:09+01:00",
+            "subject": "[LegacyPM] Record CFG-only passes when they are registered (NFC)"
         },
         {
-            "hash": "10520df09a4f372a54bdb224ad38ec1a07111f76",
+            "hash": "4cfa41b754b4f777aba17dc53f62ae89fe7bbd79",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-22T21:52:28+01:00",
-            "subject": "[LegacyPM] Record CFG-only passes when they are registered (NFC)"
+            "commit_date": "2026-10-23T14:59:09+01:00",
+            "subject": "[DSE] Check constant offsets before querying AA in isOverwrite (NFCI)"
+        },
+        {
+            "hash": "2d24590aaaae67e395de55d2c43837e39b3f20a6",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-23T14:59:13+01:00",
+            "subject": "[CodeGen][LSR] Use std::sort instead of qsort for hot sorts (NFC)"
         }
     ],
     "c-rhodes\/perf\/aarch64-fastisel-o0-21-10-2026": [
