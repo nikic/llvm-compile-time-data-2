@@ -272823,6 +272823,18 @@
             "author_name": "Martin Storsj\u00f6",
             "commit_date": "2026-10-23T12:06:55+03:00",
             "subject": "[libcxx] [test] Update XFAILs for a clang-cl bug fixed in clang 23 (#234630)"
+        },
+        {
+            "hash": "c70dfc1711bddd0aa7e3acff4224bc2a363092b9",
+            "author_name": "Aman Maurya",
+            "commit_date": "2026-10-23T14:54:26+05:30",
+            "subject": "[libc] Implement sigismember in signal (#234838)"
+        },
+        {
+            "hash": "bf0660387fd17e3765d10c3820e68be8554cd7f5",
+            "author_name": "Aman Maurya",
+            "commit_date": "2026-10-23T14:55:16+05:30",
+            "subject": "[libc] Implement setresuid and setresgid in unistd (#234837)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -293811,22 +293823,28 @@
     ],
     "artagnon\/perf\/vplan-first-lane-ct": [
         {
-            "hash": "cab6acf498d37d2dedd6c17dcda3ad02a775dca2",
-            "author_name": "VladimirMedic",
-            "commit_date": "2026-10-22T11:08:49+02:00",
-            "subject": "[AMDGPU] Only fold 32-bit shift sources in isExtractHiElt (#215245)"
+            "hash": "1efb690992f0054079a9d8e474a551af066aee0c",
+            "author_name": "Martin Storsj\u00f6",
+            "commit_date": "2026-10-23T12:06:55+03:00",
+            "subject": "[libcxx] [test] Update XFAILs for a clang-cl bug fixed in clang 23 (#234630)"
         },
         {
-            "hash": "687951382895d4b437ac2ad362c3b41f5f006103",
+            "hash": "ae1a6a6b51c589a9136aea7aea09483b2ffb824d",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-22T10:39:18+01:00",
+            "commit_date": "2026-10-23T10:08:42+01:00",
             "subject": "[VPlan] Avoid recursive-fan-out of usesFirstLaneOnly (NFC)"
         },
         {
-            "hash": "2bf50a86dd4347314d3bb9869b41c75efe5b9a38",
+            "hash": "d30fb078a72b1ecace3938e916ca8e1940fcaf91",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-22T16:49:59+01:00",
+            "commit_date": "2026-10-23T10:08:42+01:00",
             "subject": "[VPlan] NFC improvement, thanks!"
+        },
+        {
+            "hash": "129737f1aa88bd4ebd611c28766ae1277dd21c68",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-23T10:11:55+01:00",
+            "subject": "[VPlan] Fix PtrAdd thinko"
         }
     ],
     "MaskRay\/perf\/fastra-tied-aarch64": [
