@@ -297762,5 +297762,19 @@
             "commit_date": "2026-10-24T05:53:56Z",
             "subject": "[APFloat] Add a single word fast path to divideSignificand"
         }
+    ],
+    "lukel97\/perf\/float-literal-parsing-heap-alloc": [
+        {
+            "hash": "a4bd6bd2e68184b38f828ca8ec51e5cd40b4f64c",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-24T06:12:36Z",
+            "subject": "AArch64: Fix missing ... function separators in mir test (#235119)"
+        },
+        {
+            "hash": "9b3a21ed26e9708f030290006e71939ec4fe1bf1",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-10-24T06:26:01Z",
+            "subject": "[APFloat] Avoid a heap allocation when converting decimal strings (NFC)"
+        }
     ]
 }
