@@ -274005,6 +274005,18 @@
             "author_name": "Arseniy Obolenskiy",
             "commit_date": "2026-10-24T08:58:24+02:00",
             "subject": "[CIR] Fix cir.cast fold crash on a same type integral cast (#234236)"
+        },
+        {
+            "hash": "b968e745fb9552b0da3b7fdfaf70c2c31eb7bece",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-10-24T08:29:01+01:00",
+            "subject": "[libc++] Add benchmarks for std::reduce and std::transform_reduce (#233374)"
+        },
+        {
+            "hash": "c467c6b1e53dc0939ab78a644eceea6e61cf4953",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-10-24T09:30:28+02:00",
+            "subject": "[clang][ExprConst] Add missing `FastEvaluateAsRValue` in `EvaluateKnownConstInt{,CheckOverflow}` (#234552)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -297787,6 +297799,34 @@
             "author_name": "Luke Lau",
             "commit_date": "2026-10-24T06:26:01Z",
             "subject": "[APFloat] Avoid a heap allocation when converting decimal strings (NFC)"
+        }
+    ],
+    "lukel97\/perf\/constant-hoisting-lazy-bfi": [
+        {
+            "hash": "a4bd6bd2e68184b38f828ca8ec51e5cd40b4f64c",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-24T06:12:36Z",
+            "subject": "AArch64: Fix missing ... function separators in mir test (#235119)"
+        },
+        {
+            "hash": "05705c72a9ffcbe3b721819d03e6b060d5b3eeed",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-10-24T07:32:09Z",
+            "subject": "[ConstantHoisting] Only compute block frequencies when needed"
+        }
+    ],
+    "lukel97\/perf\/reaching-def-info-lazy": [
+        {
+            "hash": "a4bd6bd2e68184b38f828ca8ec51e5cd40b4f64c",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-24T06:12:36Z",
+            "subject": "AArch64: Fix missing ... function separators in mir test (#235119)"
+        },
+        {
+            "hash": "581c763fc81df7edab968e85ca143a521981caf3",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-10-24T07:28:17Z",
+            "subject": "[CodeGen] Compute ReachingDefInfo lazily"
         }
     ]
 }
