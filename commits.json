@@ -274053,6 +274053,24 @@
             "author_name": "Morris Hafner",
             "commit_date": "2026-10-24T13:40:08+02:00",
             "subject": "[CIR] Fix temporary cleanup boundaries for asm and coroutines (#234664)"
+        },
+        {
+            "hash": "07656912d297b4a6bee8340aad4d4bd616c6e1a4",
+            "author_name": "David Green",
+            "commit_date": "2026-10-24T12:42:07+01:00",
+            "subject": "[AArch64][GlobalISel] Add deinterleaved store combine. (#228514)"
+        },
+        {
+            "hash": "4b0b58f21ab623a983ab295e82d525fa5ba2ba5e",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-24T07:45:51-04:00",
+            "subject": "[SLP][NFC]Add a test with incorrect vectorization, NFC (#235277)"
+        },
+        {
+            "hash": "a58a22722053b88bf8a3af939712bdacd2f0a01d",
+            "author_name": "Petar Jovanovic",
+            "commit_date": "2026-10-24T13:47:41+02:00",
+            "subject": "[CodeGen] Drop dead SlotIndexes before allocation (#224031)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -297863,6 +297881,34 @@
             "author_name": "Luke Lau",
             "commit_date": "2026-10-24T07:28:17Z",
             "subject": "[CodeGen] Compute ReachingDefInfo lazily"
+        }
+    ],
+    "lukel97\/perf\/x86-unfold-tablegen": [
+        {
+            "hash": "2b6e769dd3add8bbd8d8be60e59f8d7e5f30ec54",
+            "author_name": "lijinpei-amd",
+            "commit_date": "2026-10-24T17:50:49+08:00",
+            "subject": "[AMDGPU] Don't copy TargetSchedModel in SIPreEmitPeephole (NFC) (#234860)"
+        },
+        {
+            "hash": "b6594131545c6de101ef37570ac6892edabad6c7",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-10-24T11:48:38Z",
+            "subject": "[X86] Generate the memory unfolding table with TableGen"
+        }
+    ],
+    "nikic\/perf\/regalloc-split-cand-dedup-2": [
+        {
+            "hash": "ee8cfbf7c22ba7da178b9bef0308fc3ff3322b5d",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-24T07:40:04Z",
+            "subject": "AMDGPU: Use S_ADD_I32 to select uniform uaddsat (#235242)"
+        },
+        {
+            "hash": "e08cd11ee7ea5883bd4ba9463fa96c5641dd938f",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-24T11:46:11Z",
+            "subject": "[RegAlloc] Skip equivalent candidates in region split cost calculation (NFC)"
         }
     ]
 }
