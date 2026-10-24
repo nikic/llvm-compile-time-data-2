@@ -273957,6 +273957,12 @@
             "author_name": "Daniel Cederman",
             "commit_date": "2026-10-24T06:20:50+02:00",
             "subject": "[SPARC] Treat %g0 as a constant in the delay slot pass (#234152)"
+        },
+        {
+            "hash": "3f550f8b4a08ff3cfa94027f5abfa5fcd5d2a0d0",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-10-24T06:27:54+02:00",
+            "subject": "[clang][bytecode][NFC] Use switch in `Pointer::isWeak()` (#234914)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -297707,16 +297713,10 @@
             "subject": "[LifetimeSafety][NFC] Mark LiveOriginsAnalysis::Impl final (#234971)"
         },
         {
-            "hash": "78cc3934a4c9e23e5a60e1f46c84dbe22b1c0bbd",
+            "hash": "1c3224fee06fdfb96133f550ea9cb8d5a738abca",
             "author_name": "Luke Lau",
-            "commit_date": "2026-10-24T10:50:32+08:00",
-            "subject": "[X86] Use llvm::sort to build the memory unfold table. NFC"
-        },
-        {
-            "hash": "c3d591029ddc49ced5971783c2e802dcd56e6b74",
-            "author_name": "Luke Lau",
-            "commit_date": "2026-10-24T10:52:04+08:00",
-            "subject": "Dont reserve"
+            "commit_date": "2026-10-24T12:27:30+08:00",
+            "subject": "[X86] Use llvm::sort when building memory unfold tables. NFC"
         }
     ]
 }
