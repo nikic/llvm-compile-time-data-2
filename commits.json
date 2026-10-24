@@ -274113,6 +274113,24 @@
             "author_name": "Federico Bruzzone",
             "commit_date": "2026-10-24T17:40:41+02:00",
             "subject": "[mlir][linalg] Handle `DropPadUnitDims` when padding value is defined inside the pad body (#223712)"
+        },
+        {
+            "hash": "a98c5c2b79b6afe17e831f4962f7f1fa27e9ad86",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-24T09:09:18-07:00",
+            "subject": "[SelectionDAG] Implement SDTCisSameAs in verifyNode. (#235157)"
+        },
+        {
+            "hash": "45e57b7dc4019258349b2bc1e28e9075ad1014ec",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-24T09:09:37-07:00",
+            "subject": "[TargetLowering] Don't call SignBitIsZero for ABDS in expandABD. (#235134)"
+        },
+        {
+            "hash": "e339ea8d26be09465cc6cff196ad7a4ddac30194",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-24T09:09:59-07:00",
+            "subject": "[DAGCombiner] Delay calls to willNotOverflow and SignBitIsZero in foldABSToABD. (#235129)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
