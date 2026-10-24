@@ -297736,5 +297736,19 @@
             "commit_date": "2026-10-24T12:27:30+08:00",
             "subject": "[X86] Use llvm::sort when building memory unfold tables. NFC"
         }
+    ],
+    "lukel97\/perf\/apfloat-single-word-fast-path": [
+        {
+            "hash": "3f550f8b4a08ff3cfa94027f5abfa5fcd5d2a0d0",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-10-24T06:27:54+02:00",
+            "subject": "[clang][bytecode][NFC] Use switch in `Pointer::isWeak()` (#234914)"
+        },
+        {
+            "hash": "c257e3a29d0027076d0f65969e9224d15d5b8a7b",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-10-24T05:53:56Z",
+            "subject": "[APFloat] Add a single word fast path to divideSignificand"
+        }
     ]
 }
