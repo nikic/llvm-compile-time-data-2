@@ -274677,6 +274677,18 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-10-25T14:49:18-07:00",
             "subject": "[ELF] Fix out-of-bounds .eh_frame relocation to not overwrite the next output section (#235530)"
+        },
+        {
+            "hash": "72679bf27a41497b43f41334b273f7f810e5c1a0",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-10-25T15:01:22-07:00",
+            "subject": "[ELF] Report invalid .eh_frame CIE references when splitting (#235531)"
+        },
+        {
+            "hash": "c56fffc0e80ccde362ceecf19226bf7700af6a52",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-10-25T15:08:57-07:00",
+            "subject": "[ELF] Reject invalid .eh_frame FDE encoding early in addCie (#235532)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
