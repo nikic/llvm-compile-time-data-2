@@ -298282,5 +298282,37 @@
             "commit_date": "2026-10-24T11:46:11Z",
             "subject": "[RegAlloc] Skip equivalent candidates in region split cost calculation (NFC)"
         }
+    ],
+    "pedroclobo\/perf\/gvn-vector-poison": [
+        {
+            "hash": "cced08fcc92db61044c0e32ef35444fa48246345",
+            "author_name": "Pedro Lobo",
+            "commit_date": "2026-10-25T10:41:50Z",
+            "subject": "[InstCombine] Fold full-width `bitinsert` and `bitextract` to `bitcast` (#229147)"
+        },
+        {
+            "hash": "fdd67fad57a83126deedc4f053c74cd827c448db",
+            "author_name": "Pedro Lobo",
+            "commit_date": "2026-10-25T11:05:47Z",
+            "subject": "[InstCombine] Pre-commit tests for `bitextract` of a vector"
+        },
+        {
+            "hash": "87e44eafed6b8fda88502694dc1997e11e7ec8a6",
+            "author_name": "Pedro Lobo",
+            "commit_date": "2026-10-25T12:15:50Z",
+            "subject": "[InstCombine] Fold `bitextract` of a vector to `extractelement` or `shufflevector`"
+        },
+        {
+            "hash": "558763dd31107353e1000c1bc013d0a3a409963f",
+            "author_name": "Pedro Lobo",
+            "commit_date": "2026-10-25T12:26:18Z",
+            "subject": "[GVN] Pre-commit tests for forwarding part of a vector"
+        },
+        {
+            "hash": "4a43ff4014d6c4643eb2b7588ed7f1dc84cea59d",
+            "author_name": "Pedro Lobo",
+            "commit_date": "2026-10-25T12:28:23Z",
+            "subject": "[GVN] Don't coerce forwarded vectors through integers"
+        }
     ]
 }
