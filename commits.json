@@ -274545,6 +274545,12 @@
             "author_name": "Tim Gymnich",
             "commit_date": "2026-10-25T18:29:48+01:00",
             "subject": "[GlobalISel] Check binary flags before matching operands (#235451)"
+        },
+        {
+            "hash": "585185e8907886e6bea40db036ecc5f840c6a6ee",
+            "author_name": "Teresa Johnson",
+            "commit_date": "2026-10-25T10:36:25-07:00",
+            "subject": "[MemProf] Use consistent trim vs prune terminology in comments (NFC) (#235336)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -298435,6 +298441,76 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-10-25T08:58:42-07:00",
             "subject": "CodeGen: Handle uses in unreachable blocks in LiveIntervals"
+        }
+    ],
+    "lukel97\/perf\/cmp-excludes-zero": [
+        {
+            "hash": "2b6e769dd3add8bbd8d8be60e59f8d7e5f30ec54",
+            "author_name": "lijinpei-amd",
+            "commit_date": "2026-10-24T17:50:49+08:00",
+            "subject": "[AMDGPU] Don't copy TargetSchedModel in SIPreEmitPeephole (NFC) (#234860)"
+        },
+        {
+            "hash": "8cd404cb1ecb6c8d42af07cf25ee789458130fd2",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-10-25T17:33:09Z",
+            "subject": "[ValueTracking] Make cmpExcludesZero cheaper (NFC)"
+        }
+    ],
+    "lukel97\/perf\/codegen-std-sort": [
+        {
+            "hash": "2b6e769dd3add8bbd8d8be60e59f8d7e5f30ec54",
+            "author_name": "lijinpei-amd",
+            "commit_date": "2026-10-24T17:50:49+08:00",
+            "subject": "[AMDGPU] Don't copy TargetSchedModel in SIPreEmitPeephole (NFC) (#234860)"
+        },
+        {
+            "hash": "8efec903e1bc8e405ab63ccfaf5de448671a9776",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-10-25T17:31:52Z",
+            "subject": "[CodeGen] Use std::sort instead of qsort for hot sorts (NFC)"
+        }
+    ],
+    "lukel97\/perf\/constant-data-array-load": [
+        {
+            "hash": "2b6e769dd3add8bbd8d8be60e59f8d7e5f30ec54",
+            "author_name": "lijinpei-amd",
+            "commit_date": "2026-10-24T17:50:49+08:00",
+            "subject": "[AMDGPU] Don't copy TargetSchedModel in SIPreEmitPeephole (NFC) (#234860)"
+        },
+        {
+            "hash": "5d414e13f749d129453819187c0bfe73c2d9b70e",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-10-25T17:33:09Z",
+            "subject": "[ConstantFolding] Add a fast path for loads from ConstantDataArrays (NFC)"
+        }
+    ],
+    "lukel97\/perf\/exact-icmp-region": [
+        {
+            "hash": "2b6e769dd3add8bbd8d8be60e59f8d7e5f30ec54",
+            "author_name": "lijinpei-amd",
+            "commit_date": "2026-10-24T17:50:49+08:00",
+            "subject": "[AMDGPU] Don't copy TargetSchedModel in SIPreEmitPeephole (NFC) (#234860)"
+        },
+        {
+            "hash": "eaffb76323defc8cbf673bb9245ef612693e275e",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-10-25T17:33:06Z",
+            "subject": "[ConstantRange] Compute makeExactICmpRegion directly (NFC)"
+        }
+    ],
+    "lukel97\/perf\/pointer-icmp-null": [
+        {
+            "hash": "2b6e769dd3add8bbd8d8be60e59f8d7e5f30ec54",
+            "author_name": "lijinpei-amd",
+            "commit_date": "2026-10-24T17:50:49+08:00",
+            "subject": "[AMDGPU] Don't copy TargetSchedModel in SIPreEmitPeephole (NFC) (#234860)"
+        },
+        {
+            "hash": "d786d9bc69ae16caeb9a988055dce17a388772a2",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-10-25T17:33:01Z",
+            "subject": "[InstSimplify] Bail out early from computePointerICmp for null (NFC)"
         }
     ]
 }
