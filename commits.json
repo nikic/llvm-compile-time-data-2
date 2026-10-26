@@ -77029,28 +77029,22 @@
     ],
     "tbaederr\/perf\/ce-test": [
         {
-            "hash": "4e28cc392c753f184e55a14f54ca1cc950bd525f",
-            "author_name": "TelGome",
-            "commit_date": "2026-10-22T18:59:25+08:00",
-            "subject": "[RISCV][P-ext] Support Packed Multiplication with Widening Horizontal Addition and Accumulate intrinsics (#234450)"
+            "hash": "fac4500420cdeed42f35537a26eea1e4e17badf0",
+            "author_name": "Lo3wer",
+            "commit_date": "2026-10-26T09:05:50Z",
+            "subject": "[ARM] Optimize code for 0 and int min (#229489)"
         },
         {
-            "hash": "f3ee603ec16e945c86ef87224634ceca3f7f8df6",
+            "hash": "ba6baac10d1c9b7174629a8cd20667ee100d5127",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-22T13:14:34+02:00",
+            "commit_date": "2026-10-26T10:06:45+01:00",
             "subject": "Test"
         },
         {
-            "hash": "b4cf9f968239b7a9b7fdd4ea04c19af3d9a2a697",
+            "hash": "dd40aed5cad60b05ad88d08ee1547bd98de439c9",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-22T13:14:34+02:00",
+            "commit_date": "2026-10-26T10:06:45+01:00",
             "subject": "HasTrivialDtor"
-        },
-        {
-            "hash": "553c60416a1e148f42030cc8dc71f98401bc90c4",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-22T13:15:13+02:00",
-            "subject": "ptrview in ptr"
         }
     ],
     "dtcxzyw\/perf\/nonnull-at-callsite": [
@@ -275169,6 +275163,30 @@
             "author_name": "Mariya Podchishchaeva",
             "commit_date": "2026-10-26T09:56:19+01:00",
             "subject": "[CIR] Add long_double_size to #cir.lowering_lang_options (#234946)"
+        },
+        {
+            "hash": "bfe364d01eb44ac4eb896583dc009bbbdb69945d",
+            "author_name": "Aman Maurya",
+            "commit_date": "2026-10-26T14:29:52+05:30",
+            "subject": "[libc] Implement thrd_sleep and thrd_yield in threads (#232919)"
+        },
+        {
+            "hash": "51fe6b08339c2485104399fc74ee82adb648f892",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-10-26T17:00:43+08:00",
+            "subject": "[RISCV] Lazily request analyses in RISCVGatherScatterLowering and RISCVVLOptimizer. NFC (#235546)"
+        },
+        {
+            "hash": "9468a060a54abc3ac4d0fa0fca1baebc976aa0de",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-10-26T09:04:06Z",
+            "subject": "[MachineLICM] Don't request BFI analysis if not needed. NFC (#235638)"
+        },
+        {
+            "hash": "fac4500420cdeed42f35537a26eea1e4e17badf0",
+            "author_name": "Lo3wer",
+            "commit_date": "2026-10-26T09:05:50Z",
+            "subject": "[ARM] Optimize code for 0 and int min (#229489)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
