@@ -275115,6 +275115,24 @@
             "author_name": "Vitaly Buka",
             "commit_date": "2026-10-26T07:59:50Z",
             "subject": "[asan][test] Disable nohugepage_test.cpp on Android (#235637)"
+        },
+        {
+            "hash": "53f215ed071a8835d8450d892141ed8226f47721",
+            "author_name": "Yongqiang Tian",
+            "commit_date": "2026-10-26T17:13:34+09:00",
+            "subject": "[AMDGPU] Ignore debug instructions in exec-mask search limits (#232560)"
+        },
+        {
+            "hash": "acf7b3bdc80d3adeb41d8c1d4ff21769808e8893",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-26T08:15:17Z",
+            "subject": "[JumpTableToSwitch] Call values JT everywhere, rename jump table type to JumpTable (NFC) (#235449)"
+        },
+        {
+            "hash": "42d4451d86c175b745d6ea1c4081787994c7259b",
+            "author_name": "Yongqiang Tian",
+            "commit_date": "2026-10-26T08:21:20Z",
+            "subject": "[AArch64] Prevent debug instructions and pseudo probes from changing post-RA scheduling (#234920)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -299211,6 +299229,12 @@
             "author_name": "Luke Lau",
             "commit_date": "2026-10-26T15:45:31+08:00",
             "subject": "[MachineLICM] Don't request BFI analysis if not needed. NFC"
+        },
+        {
+            "hash": "2170a42147ccbe6a3ece942fa32daea108044a5d",
+            "author_name": "Luke Lau",
+            "commit_date": "2026-10-26T16:13:12+08:00",
+            "subject": "Drop MBFI = nullptr"
         }
     ],
     "lukel97\/perf\/lazy-analysis\/machinelicm-preserve-mdt": [
