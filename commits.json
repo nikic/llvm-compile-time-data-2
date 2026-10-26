@@ -276213,6 +276213,18 @@
             "author_name": "James Y Knight",
             "commit_date": "2026-10-26T22:08:57Z",
             "subject": "[X86] NFC: reorder checks to improve compile-time. (#235923)"
+        },
+        {
+            "hash": "1cbfe91a50d8ce641eb7a2e023f9395901a4db7f",
+            "author_name": "Mykyta Yatsenko",
+            "commit_date": "2026-10-26T22:17:57Z",
+            "subject": "[BPF] Mark reg-reg ADD\/OR\/AND\/XOR\/MUL as commutable (#234698)"
+        },
+        {
+            "hash": "5341443d4df5a04e4552025a3f0dd49627eeda9a",
+            "author_name": "Dave Lee",
+            "commit_date": "2026-10-26T15:19:13-07:00",
+            "subject": "[lldb] Add bool operations to formatter_bytecode.Compiler (#235841)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -300503,6 +300515,32 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-10-26T21:33:09+01:00",
             "subject": "wip"
+        }
+    ],
+    "cofibrant\/perf\/cofibrant\/store-sequencing": [
+        {
+            "hash": "03e4da64be01abe576e8a5d63ed2e677ebdfd647",
+            "author_name": "Vaisman",
+            "commit_date": "2026-10-26T19:44:10+01:00",
+            "subject": "[mlir][vector] Do not flatten or scalarize region-masked transfers (#231799)"
+        },
+        {
+            "hash": "a8033bcb6b3c55069cbb997f26e9eee8cf61f37f",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-10-26T15:07:33-07:00",
+            "subject": "[MISched] Enable store-sequencing by default"
+        },
+        {
+            "hash": "a180c90d2cfc7112b089f5a81c31adfbcab6a0fe",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-10-26T15:21:17-07:00",
+            "subject": "Drop enable flags from existing tests"
+        },
+        {
+            "hash": "927cab8b076ae0d8b8367816331c29125bda01e7",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-10-26T15:21:45-07:00",
+            "subject": "Delete spurious file"
         }
     ]
 }
