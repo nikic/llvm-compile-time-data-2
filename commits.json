@@ -275985,6 +275985,18 @@
             "author_name": "Ebuka Ezike",
             "commit_date": "2026-10-26T18:57:05Z",
             "subject": "[lldb-dap][docs] Note the version that introduced an extension (#235773)"
+        },
+        {
+            "hash": "c256c4f9d60fc6438980a984d5683d5c17ee37b0",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-26T11:59:31-07:00",
+            "subject": "[SLP] Check operands and users before memory effects (NFC) (#235830)"
+        },
+        {
+            "hash": "aa79b44d613d7512f57187ffd22a9378bb44670c",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-10-26T19:06:19Z",
+            "subject": "[AMDGPU] Precommit tests for gfx942 fp atomics with AGPR results (#232059)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -299247,69 +299259,51 @@
     ],
     "fhahn\/perf\/ct-o3-2": [
         {
-            "hash": "f6e99a389674dda1ce356ecbef84a18764e24c86",
+            "hash": "c256c4f9d60fc6438980a984d5683d5c17ee37b0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-25T19:03:50-07:00",
-            "subject": "[LV] Add tests for diff checks of ptrs accessed more than once (NFC) (#235514)"
+            "commit_date": "2026-10-26T11:59:31-07:00",
+            "subject": "[SLP] Check operands and users before memory effects (NFC) (#235830)"
         },
         {
-            "hash": "93764648cb3ab91f23f37604e00f42f32d712d4a",
+            "hash": "6c1d46ea5fad344ea2798d4f93e4a465d541ba8e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-25T19:06:03-07:00",
-            "subject": "[FunctionAttrs] Stop scanning for memory effects once they are final (NFC)"
-        },
-        {
-            "hash": "d9cc8693a13d2680c71198c0c06b480cb084511d",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-25T19:06:03-07:00",
-            "subject": "[SLP] Check operands and users before memory effects (NFC)"
-        },
-        {
-            "hash": "6ae9cecacd021d3c30de0a9c8512b9f244692e5b",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-25T19:06:04-07:00",
+            "commit_date": "2026-10-26T19:00:21Z",
             "subject": "[LICM] Skip collecting promotion candidates without a store (NFC)"
         },
         {
-            "hash": "cde1e1530b65bd2d1c25c633adc8a83cb4290373",
+            "hash": "0194904bd05d34a6c04ffc8ed3ff4a9adb53ee68",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-25T19:06:04-07:00",
+            "commit_date": "2026-10-26T19:00:21Z",
             "subject": "[LegacyPM] Record CFG-only passes when they are registered (NFC)"
         },
         {
-            "hash": "f832cfeed9d1686cad878f6a971f0026bf25b20b",
+            "hash": "c40b6fc37811eb3e0e105472ab4faa72fffe34c1",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-25T19:06:05-07:00",
-            "subject": "[CodeGen][LSR] Use std::sort instead of qsort for hot sorts (NFC)"
-        },
-        {
-            "hash": "c88cbc0db38aaf28e49e164ece2c0be828222ab8",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-25T19:06:05-07:00",
+            "commit_date": "2026-10-26T19:00:24Z",
             "subject": "[SCEV] Split strict predicates lazily in isBasicBlockEntryGuardedByCond (NFCI)."
         },
         {
-            "hash": "92a14a02989e0c982b9199a54abbae04f0b73e69",
+            "hash": "a50fde41de2c3065df581cc550caf3d67f3bf0af",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-25T19:06:06-07:00",
+            "commit_date": "2026-10-26T19:00:24Z",
             "subject": "[RegAlloc] Find first interference start once in InterferenceCache (NFC)"
         },
         {
-            "hash": "e0baa466ad0c88da69bca68ff33d0b29954ead63",
+            "hash": "7a214befe7b0e845bdbffaef50dd79a5fc2168e5",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-25T19:06:06-07:00",
+            "commit_date": "2026-10-26T19:00:24Z",
             "subject": "[CodeGen] Hash MachineInstrExpressionTrait keys without hash_combine (NFC)"
         },
         {
-            "hash": "fcd0e6c5cb6e10d5664920ec9559d06f76ef8a6c",
+            "hash": "2f5ec4543af3fc109eaa5dfd76f13446cfc4f2d0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-25T19:06:07-07:00",
+            "commit_date": "2026-10-26T19:00:24Z",
             "subject": "[MemorySSA] Allocate MemoryUse and MemoryDef with a bump allocator (NFC)"
         },
         {
-            "hash": "ecb86ecb009e860632cee111e0b53a0250e35571",
+            "hash": "cd09f433befbdff8d587beb3d3f200b5b3198acd",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-25T19:06:07-07:00",
+            "commit_date": "2026-10-26T19:00:25Z",
             "subject": "[MachineCopyPropagation] Query the target for constant def regs (NFC)"
         }
     ],
@@ -300217,6 +300211,44 @@
             "author_name": "\u00d6mer Sinan A\u011facan",
             "commit_date": "2026-10-26T18:29:32Z",
             "subject": "[SROA] Unfold two-slot GEPs to allow promoting dynamically indexed allocas"
+        }
+    ],
+    "fhahn\/perf\/basicaa-phi-alloca": [
+        {
+            "hash": "b9d15ca71c729d89b54f4baa233dd850b10b1905",
+            "author_name": "Vijay Kandiah",
+            "commit_date": "2026-10-26T16:01:50Z",
+            "subject": "[mlir][acc] Decide reduction atomics by destination instead of by partitioning (#235099)"
+        },
+        {
+            "hash": "e373bae4084c4379638692a477bd69ee3314b373",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-26T17:36:30Z",
+            "subject": "[BasicAA] Add tests for phis of pointers carried through nested loops (NFC)."
+        },
+        {
+            "hash": "97f95cbc330683623836fb24f8c92c619c240a9c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-26T17:36:32Z",
+            "subject": "[BasicAA] Move rules for distinct underlying objects to helpers (NFC)."
+        },
+        {
+            "hash": "5d76c05e0281ab2ab871869be52c7f16cb232484",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-26T17:38:28Z",
+            "subject": "[BasicAA] Don't count recursive phi sources as phi sources."
+        },
+        {
+            "hash": "21fe9275454e5b17f5e1466c8d6958e32c10b805",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-26T17:38:30Z",
+            "subject": "[BasicAA] Check underlying objects of phis instead of giving up."
+        },
+        {
+            "hash": "518ca4ccb50562e5cb9edcda25ff66cd173c9beb",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-26T17:38:30Z",
+            "subject": "[BasicAA] Skip null and undef underlying objects of phis."
         }
     ]
 }
