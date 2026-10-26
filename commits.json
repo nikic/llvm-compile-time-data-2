@@ -274755,6 +274755,18 @@
             "author_name": "Luke Lau",
             "commit_date": "2026-10-26T01:54:21Z",
             "subject": "[ConstantHoisting] Compute BFI lazily. NFCI (#235482)"
+        },
+        {
+            "hash": "f6e99a389674dda1ce356ecbef84a18764e24c86",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-25T19:03:50-07:00",
+            "subject": "[LV] Add tests for diff checks of ptrs accessed more than once (NFC) (#235514)"
+        },
+        {
+            "hash": "d01bdaf2466461d609b4c3a0202480e07d1b081e",
+            "author_name": "Ying Huang",
+            "commit_date": "2026-10-26T10:07:21+08:00",
+            "subject": "[SPARC] Accept % prefix and alias register names in getRegisterByName (#234875)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -298017,58 +298029,70 @@
     ],
     "fhahn\/perf\/ct-o3-2": [
         {
-            "hash": "41332490797db3ab01231058b1c774c0c26592c3",
-            "author_name": "Alex Duran",
-            "commit_date": "2026-10-23T15:54:50+02:00",
-            "subject": "[Offload][omp] Route data memory operations through liboffload (#233884)"
+            "hash": "f6e99a389674dda1ce356ecbef84a18764e24c86",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-25T19:03:50-07:00",
+            "subject": "[LV] Add tests for diff checks of ptrs accessed more than once (NFC) (#235514)"
         },
         {
-            "hash": "0ae45cf2c8aab97c90bbc00b1ca985d7f5bb34e0",
+            "hash": "93764648cb3ab91f23f37604e00f42f32d712d4a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-23T14:56:45+01:00",
+            "commit_date": "2026-10-25T19:06:03-07:00",
             "subject": "[FunctionAttrs] Stop scanning for memory effects once they are final (NFC)"
         },
         {
-            "hash": "2d062abb18d9ef849fb64715f65c9a7128c5b18f",
+            "hash": "d9cc8693a13d2680c71198c0c06b480cb084511d",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-23T14:56:46+01:00",
+            "commit_date": "2026-10-25T19:06:03-07:00",
             "subject": "[SLP] Check operands and users before memory effects (NFC)"
         },
         {
-            "hash": "d860605ab88763371aa40fe5796aa090711f3608",
+            "hash": "6ae9cecacd021d3c30de0a9c8512b9f244692e5b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-23T14:56:46+01:00",
+            "commit_date": "2026-10-25T19:06:04-07:00",
             "subject": "[LICM] Skip collecting promotion candidates without a store (NFC)"
         },
         {
-            "hash": "ebf8c8be5da855de878865b62ca129f543c7528b",
+            "hash": "cde1e1530b65bd2d1c25c633adc8a83cb4290373",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-23T14:57:10+01:00",
-            "subject": "[InstSimplify] Match the GEP index before stripping the base (NFC)"
-        },
-        {
-            "hash": "32d6f33c39f4ceb9f763feb766b52129254b2cc3",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-23T14:57:11+01:00",
-            "subject": "[ADT] Visit used buckets a word at a time in DenseMap::remove_if (NFC)"
-        },
-        {
-            "hash": "da057cc5880020ccff5fee17ffa145383dcef723",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-23T14:59:09+01:00",
+            "commit_date": "2026-10-25T19:06:04-07:00",
             "subject": "[LegacyPM] Record CFG-only passes when they are registered (NFC)"
         },
         {
-            "hash": "4cfa41b754b4f777aba17dc53f62ae89fe7bbd79",
+            "hash": "f832cfeed9d1686cad878f6a971f0026bf25b20b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-23T14:59:09+01:00",
-            "subject": "[DSE] Check constant offsets before querying AA in isOverwrite (NFCI)"
+            "commit_date": "2026-10-25T19:06:05-07:00",
+            "subject": "[CodeGen][LSR] Use std::sort instead of qsort for hot sorts (NFC)"
         },
         {
-            "hash": "2d24590aaaae67e395de55d2c43837e39b3f20a6",
+            "hash": "c88cbc0db38aaf28e49e164ece2c0be828222ab8",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-23T14:59:13+01:00",
-            "subject": "[CodeGen][LSR] Use std::sort instead of qsort for hot sorts (NFC)"
+            "commit_date": "2026-10-25T19:06:05-07:00",
+            "subject": "[SCEV] Split strict predicates lazily in isBasicBlockEntryGuardedByCond (NFCI)."
+        },
+        {
+            "hash": "92a14a02989e0c982b9199a54abbae04f0b73e69",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-25T19:06:06-07:00",
+            "subject": "[RegAlloc] Find first interference start once in InterferenceCache (NFC)"
+        },
+        {
+            "hash": "e0baa466ad0c88da69bca68ff33d0b29954ead63",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-25T19:06:06-07:00",
+            "subject": "[CodeGen] Hash MachineInstrExpressionTrait keys without hash_combine (NFC)"
+        },
+        {
+            "hash": "fcd0e6c5cb6e10d5664920ec9559d06f76ef8a6c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-25T19:06:07-07:00",
+            "subject": "[MemorySSA] Allocate MemoryUse and MemoryDef with a bump allocator (NFC)"
+        },
+        {
+            "hash": "ecb86ecb009e860632cee111e0b53a0250e35571",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-25T19:06:07-07:00",
+            "subject": "[MachineCopyPropagation] Query the target for constant def regs (NFC)"
         }
     ],
     "c-rhodes\/perf\/aarch64-fastisel-o0-21-10-2026": [
@@ -298735,6 +298759,26 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-10-25T10:53:11-07:00",
             "subject": "Use block arguments for MIR all in one"
+        }
+    ],
+    "fhahn\/perf\/slp-check-mem-effects-first": [
+        {
+            "hash": "f6e99a389674dda1ce356ecbef84a18764e24c86",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-25T19:03:50-07:00",
+            "subject": "[LV] Add tests for diff checks of ptrs accessed more than once (NFC) (#235514)"
+        },
+        {
+            "hash": "f8892453f84a3e978a9875b86375eaa68b58d403",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-25T19:09:52-07:00",
+            "subject": "[SLP] Check operands and users before memory effects (NFC)"
+        },
+        {
+            "hash": "b5ee9561b5cdbaa4713edbe3eb54b548ea8c4e0e",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-25T19:09:52-07:00",
+            "subject": "Step2"
         }
     ]
 }
