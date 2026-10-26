@@ -275943,6 +275943,12 @@
             "author_name": "elizabethandrews",
             "commit_date": "2026-10-26T14:21:50-04:00",
             "subject": "[clang] Centralize common checks for type attributes (#227421)"
+        },
+        {
+            "hash": "238ef21c3564cec82886672089baae19882b45c7",
+            "author_name": "James Y Knight",
+            "commit_date": "2026-10-26T14:29:47-04:00",
+            "subject": "[X86] Add IR pass to insert sfence after non-temporal stores (#229240)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -300161,6 +300167,20 @@
             "author_name": "Madhur Amilkanthwar",
             "commit_date": "2026-10-26T09:17:02-07:00",
             "subject": "[Flang][LoopInterchange] Enable chained array extents by default"
+        }
+    ],
+    "osa1\/perf\/sroa_two_slot_arrays": [
+        {
+            "hash": "cec2ec0011af3e475e0845dd12cbb2051ed11a0e",
+            "author_name": "Qiongsi Wu",
+            "commit_date": "2026-10-26T11:11:31-07:00",
+            "subject": "[CMake] Disable CIR in the Apple caches (#235165)"
+        },
+        {
+            "hash": "9bf6e6fd74716cb70174814eb5715e70dc4241ea",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-26T18:29:32Z",
+            "subject": "[SROA] Unfold two-slot GEPs to allow promoting dynamically indexed allocas"
         }
     ]
 }
