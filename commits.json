@@ -275043,6 +275043,18 @@
             "author_name": "DaKnig",
             "commit_date": "2026-10-26T06:36:23Z",
             "subject": "[NFC] Grammar fix in comment (#235600)"
+        },
+        {
+            "hash": "1fd3d78da2230cef4410aad912f666b8bab5a7d9",
+            "author_name": "Aric Maji",
+            "commit_date": "2026-10-26T06:41:55Z",
+            "subject": "[Clang][Sema] Add regression test for GH138098 (#235483)"
+        },
+        {
+            "hash": "9f8202cc294e0e0c20bc1de8280d824dba540468",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-10-26T06:47:54Z",
+            "subject": "[asan][test] Inspect %shared_libasan in Linux\/check_memcpy.c when dynamic (#235605)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -299059,141 +299071,141 @@
     ],
     "lukel97\/perf\/lazy-analysis\/codegenprepare-bpi-bfi": [
         {
-            "hash": "bf70f22cca7f0c13476146d5976a777f2b9a9d77",
-            "author_name": "Jonas Paulsson",
-            "commit_date": "2026-10-22T04:31:23+02:00",
-            "subject": "[SystemZ, Clang] Enable verification of int args extensions. (#223755)"
+            "hash": "36c4d811b59c826b416fd66518f406c96829d4be",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-10-26T05:59:03Z",
+            "subject": "[hwasan][test] Check config.android when disabling aliasing tests (#235598)"
         },
         {
-            "hash": "8da7e92a80d0edd70a489657ac2f7f50bdc7c829",
+            "hash": "e07889fed9d3fd1c7d96975ca600d681b2b843a9",
             "author_name": "Claude",
-            "commit_date": "2026-10-26T06:23:04Z",
+            "commit_date": "2026-10-26T06:32:18Z",
             "subject": "[CodeGenPrepare] Only compute BPI\/BFI when they can be queried. NFCI"
         }
     ],
     "lukel97\/perf\/lazy-analysis\/earlycse-mssa": [
         {
-            "hash": "bf70f22cca7f0c13476146d5976a777f2b9a9d77",
-            "author_name": "Jonas Paulsson",
-            "commit_date": "2026-10-22T04:31:23+02:00",
-            "subject": "[SystemZ, Clang] Enable verification of int args extensions. (#223755)"
+            "hash": "36c4d811b59c826b416fd66518f406c96829d4be",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-10-26T05:59:03Z",
+            "subject": "[hwasan][test] Check config.android when disabling aliasing tests (#235598)"
         },
         {
-            "hash": "a42097fb46f5b1381c79262e971f2961cda717e9",
+            "hash": "49dc38ebbdaae63f7855be45fdba52383ff2fb58",
             "author_name": "Claude",
-            "commit_date": "2026-10-26T06:22:50Z",
+            "commit_date": "2026-10-26T06:32:44Z",
             "subject": "[EarlyCSE] Compute MemorySSA lazily"
         }
     ],
     "lukel97\/perf\/lazy-analysis\/interleaved-load-combine-mssa": [
         {
-            "hash": "bf70f22cca7f0c13476146d5976a777f2b9a9d77",
-            "author_name": "Jonas Paulsson",
-            "commit_date": "2026-10-22T04:31:23+02:00",
-            "subject": "[SystemZ, Clang] Enable verification of int args extensions. (#223755)"
+            "hash": "36c4d811b59c826b416fd66518f406c96829d4be",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-10-26T05:59:03Z",
+            "subject": "[hwasan][test] Check config.android when disabling aliasing tests (#235598)"
         },
         {
-            "hash": "ca8bb0eae5b47beaa4a0db10ad9a97fb6c2c545f",
+            "hash": "bab89beebf3c6c2ab36f9ba22beba050c811e55b",
             "author_name": "Claude",
-            "commit_date": "2026-10-26T06:21:48Z",
+            "commit_date": "2026-10-26T06:32:09Z",
             "subject": "[InterleavedLoadCombine] Compute MemorySSA lazily. NFCI"
         }
     ],
     "lukel97\/perf\/lazy-analysis\/interleaved-load-combine-preserve-cfg": [
         {
-            "hash": "bf70f22cca7f0c13476146d5976a777f2b9a9d77",
-            "author_name": "Jonas Paulsson",
-            "commit_date": "2026-10-22T04:31:23+02:00",
-            "subject": "[SystemZ, Clang] Enable verification of int args extensions. (#223755)"
+            "hash": "36c4d811b59c826b416fd66518f406c96829d4be",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-10-26T05:59:03Z",
+            "subject": "[hwasan][test] Check config.android when disabling aliasing tests (#235598)"
         },
         {
-            "hash": "4d8f037b1c4e959e94822271ded34f0f048f015a",
+            "hash": "49a75dd3dc4aaeb3a9502210d42d83e0a48ceb97",
             "author_name": "Claude",
-            "commit_date": "2026-10-26T06:22:37Z",
+            "commit_date": "2026-10-26T06:32:14Z",
             "subject": "[InterleavedLoadCombine] Preserve CFG analyses. NFC"
         }
     ],
     "lukel97\/perf\/lazy-analysis\/ldtls-cleanup-mdt": [
         {
-            "hash": "bf70f22cca7f0c13476146d5976a777f2b9a9d77",
-            "author_name": "Jonas Paulsson",
-            "commit_date": "2026-10-22T04:31:23+02:00",
-            "subject": "[SystemZ, Clang] Enable verification of int args extensions. (#223755)"
+            "hash": "36c4d811b59c826b416fd66518f406c96829d4be",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-10-26T05:59:03Z",
+            "subject": "[hwasan][test] Check config.android when disabling aliasing tests (#235598)"
         },
         {
-            "hash": "aa1e2496794f4260695187fe806096549425016c",
+            "hash": "24ce870f55e914496606240d4e7d098d6f8b28aa",
             "author_name": "Claude",
-            "commit_date": "2026-10-26T06:22:44Z",
+            "commit_date": "2026-10-26T06:32:15Z",
             "subject": "[X86][AArch64] Build the dominator tree on demand in LDTLS cleanup. NFC"
         }
     ],
     "lukel97\/perf\/lazy-analysis\/machinelicm-mbfi": [
         {
-            "hash": "bf70f22cca7f0c13476146d5976a777f2b9a9d77",
-            "author_name": "Jonas Paulsson",
-            "commit_date": "2026-10-22T04:31:23+02:00",
-            "subject": "[SystemZ, Clang] Enable verification of int args extensions. (#223755)"
+            "hash": "36c4d811b59c826b416fd66518f406c96829d4be",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-10-26T05:59:03Z",
+            "subject": "[hwasan][test] Check config.android when disabling aliasing tests (#235598)"
         },
         {
-            "hash": "776749c7845fb5aab71804f86ffa517f4502a015",
+            "hash": "c57789d7ebd8288fe063fd7b33481e88eed80527",
             "author_name": "Claude",
-            "commit_date": "2026-10-26T06:21:36Z",
+            "commit_date": "2026-10-26T06:32:07Z",
             "subject": "[MachineLICM] Only compute MBFI when it's used. NFCI"
         }
     ],
     "lukel97\/perf\/lazy-analysis\/machinelicm-preserve-mdt": [
         {
-            "hash": "bf70f22cca7f0c13476146d5976a777f2b9a9d77",
-            "author_name": "Jonas Paulsson",
-            "commit_date": "2026-10-22T04:31:23+02:00",
-            "subject": "[SystemZ, Clang] Enable verification of int args extensions. (#223755)"
+            "hash": "36c4d811b59c826b416fd66518f406c96829d4be",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-10-26T05:59:03Z",
+            "subject": "[hwasan][test] Check config.android when disabling aliasing tests (#235598)"
         },
         {
-            "hash": "9c364b4f164eff1a02443ca32bc18cf49bc3914d",
+            "hash": "cba57835896e7deee634edfb2a9053eefa0ed83b",
             "author_name": "Claude",
-            "commit_date": "2026-10-26T06:22:08Z",
+            "commit_date": "2026-10-26T06:32:13Z",
             "subject": "[MachineLICM] Preserve MachineDominatorTree. NFCI"
         }
     ],
     "lukel97\/perf\/lazy-analysis\/riscv-vl-optimizer-mdt": [
         {
-            "hash": "bf70f22cca7f0c13476146d5976a777f2b9a9d77",
-            "author_name": "Jonas Paulsson",
-            "commit_date": "2026-10-22T04:31:23+02:00",
-            "subject": "[SystemZ, Clang] Enable verification of int args extensions. (#223755)"
+            "hash": "36c4d811b59c826b416fd66518f406c96829d4be",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-10-26T05:59:03Z",
+            "subject": "[hwasan][test] Check config.android when disabling aliasing tests (#235598)"
         },
         {
-            "hash": "20cfb53627f9c87170078af9f94adb69f2afd199",
+            "hash": "cf33f82fc4d1995a9fdf60fe834001f4321c6cc1",
             "author_name": "Claude",
-            "commit_date": "2026-10-26T06:22:01Z",
+            "commit_date": "2026-10-26T06:32:11Z",
             "subject": "[RISCV] Compute the dominator tree lazily in RISCVVLOptimizer. NFC"
         }
     ],
     "lukel97\/perf\/lazy-analysis\/select-optimize-bfi": [
         {
-            "hash": "bf70f22cca7f0c13476146d5976a777f2b9a9d77",
-            "author_name": "Jonas Paulsson",
-            "commit_date": "2026-10-22T04:31:23+02:00",
-            "subject": "[SystemZ, Clang] Enable verification of int args extensions. (#223755)"
+            "hash": "36c4d811b59c826b416fd66518f406c96829d4be",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-10-26T05:59:03Z",
+            "subject": "[hwasan][test] Check config.android when disabling aliasing tests (#235598)"
         },
         {
-            "hash": "3d199c6b8ebfc017d8aca63facaa82cce1bb3bfd",
+            "hash": "f82872a53dfdf77bf78c112fe52aed9a60b1ec50",
             "author_name": "Claude",
-            "commit_date": "2026-10-26T06:21:42Z",
+            "commit_date": "2026-10-26T06:32:08Z",
             "subject": "[SelectOptimize] Compute BFI lazily. NFCI"
         }
     ],
     "lukel97\/perf\/lazy-analysis\/x86-lvi-domfrontier": [
         {
-            "hash": "bf70f22cca7f0c13476146d5976a777f2b9a9d77",
-            "author_name": "Jonas Paulsson",
-            "commit_date": "2026-10-22T04:31:23+02:00",
-            "subject": "[SystemZ, Clang] Enable verification of int args extensions. (#223755)"
+            "hash": "36c4d811b59c826b416fd66518f406c96829d4be",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-10-26T05:59:03Z",
+            "subject": "[hwasan][test] Check config.android when disabling aliasing tests (#235598)"
         },
         {
-            "hash": "c3756f790d6183c38693207d76553d7771f15fa7",
+            "hash": "776551e7def24d97fce93f4b7cdb2b10088ac630",
             "author_name": "Claude",
-            "commit_date": "2026-10-26T06:21:55Z",
+            "commit_date": "2026-10-26T06:32:11Z",
             "subject": "[X86] Don't require MachineDominanceFrontier in LVI load hardening. NFCI"
         }
     ]
