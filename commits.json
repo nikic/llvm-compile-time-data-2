@@ -275295,6 +275295,30 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-10-26T11:08:28Z",
             "subject": "[InlineFunction] Simplify lifetime intrinsic check (NFC) (#235681)"
+        },
+        {
+            "hash": "2cd4242c6b88638167c5b5da2c718d86d551503e",
+            "author_name": "Jonathan Thackray",
+            "commit_date": "2026-10-26T11:12:21Z",
+            "subject": "[AArch64][llvm] NFC: Add pre-commit tests for SVE AND-NOT combining (#232525)"
+        },
+        {
+            "hash": "145cd8a0c73440b087274401545f092179fbaed7",
+            "author_name": "Jonathan Thackray",
+            "commit_date": "2026-10-26T11:12:22Z",
+            "subject": "[AArch64][llvm] Combine SVE AND-NOT operations into BIC for _x forms (#232526)"
+        },
+        {
+            "hash": "0a6c7b28e6a5ad99b4d564908a6dd0912f944328",
+            "author_name": "Jonathan Thackray",
+            "commit_date": "2026-10-26T11:12:22Z",
+            "subject": "[AArch64][llvm] Combine SVE AND-NOT operations into BIC for _m forms (#232527)"
+        },
+        {
+            "hash": "bcd59662bd52d1bae18f38855be0de635c4bdf75",
+            "author_name": "Eugene Epshteyn",
+            "commit_date": "2026-10-26T07:17:45-04:00",
+            "subject": "[flang] Trust the lowering symbol table in the FirOpBuilder lookups (#232678)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -289703,15 +289727,15 @@
     ],
     "artagnon\/perf\/scev-extaddrec-wrap": [
         {
-            "hash": "e0f3c0a384c05cdb0685a5dad437a423e399cfb9",
-            "author_name": "Timm Baeder",
-            "commit_date": "2026-09-30T08:46:32+02:00",
-            "subject": "[clang][bytecode][NFC] Simplify Descriptor::getLocation() (#227266)"
+            "hash": "fac4500420cdeed42f35537a26eea1e4e17badf0",
+            "author_name": "Lo3wer",
+            "commit_date": "2026-10-26T09:05:50Z",
+            "subject": "[ARM] Optimize code for 0 and int min (#229489)"
         },
         {
-            "hash": "e8611dbce702ea74747792ebd977f33974229ca7",
+            "hash": "c307f3fee28f82028b3369e280bfe7d3b61d1c79",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-09-30T08:23:03+01:00",
+            "commit_date": "2026-10-26T11:18:58Z",
             "subject": "[SCEV] Rework wrap-flag-inferrence for sext-addrec"
         }
     ],
