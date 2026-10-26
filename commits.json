@@ -275997,6 +275997,30 @@
             "author_name": "Jay Foad",
             "commit_date": "2026-10-26T19:06:19Z",
             "subject": "[AMDGPU] Precommit tests for gfx942 fp atomics with AGPR results (#232059)"
+        },
+        {
+            "hash": "720b416323a40c0ce015f375b087168d92762640",
+            "author_name": "Matthew Nagy",
+            "commit_date": "2026-10-26T19:07:19Z",
+            "subject": "[DebugInfo] Salvage replaced sdiv instructions (#234602)"
+        },
+        {
+            "hash": "dfba5a3e4cb9222294c2b2d1c075bdaffec53265",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-10-26T19:09:57Z",
+            "subject": "[AMDGPU] Fold high-half extracts into op_sel for i16 mad (#231410)"
+        },
+        {
+            "hash": "5a3396bd8c2a91c16f267e2aa3ab83f4f832ce77",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-10-26T19:11:09Z",
+            "subject": "[TableGen] Use \"parent class\" terminology in TGParser. NFC. (#235106)"
+        },
+        {
+            "hash": "90c4377192136b79da6efeffe755d866e5743b62",
+            "author_name": "Michael Park",
+            "commit_date": "2026-10-26T12:15:20-07:00",
+            "subject": "[C++20][Modules] Omit imported PCM file info for explicitly mapped header units (#235597)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -299305,6 +299329,30 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-26T19:00:25Z",
             "subject": "[MachineCopyPropagation] Query the target for constant def regs (NFC)"
+        },
+        {
+            "hash": "7df9a35288a4a4103d8a67bd0d9e8eefcf6179cc",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-26T19:09:05Z",
+            "subject": "[TypeBasedAA] Avoid constructing two ancestor paths (NFC)"
+        },
+        {
+            "hash": "fdfb0ce320ac94fac11de0b126cad2953d32998c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-26T19:10:42Z",
+            "subject": "[LoopNest] Collect loops with a worklist instead of breadth_first (NFC)."
+        },
+        {
+            "hash": "447d9acc2872eaad48ef5fb6281f608e2244859f",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-26T19:10:43Z",
+            "subject": "[LoopPeel] Check compare shape before evaluatePredicate (NFCI)."
+        },
+        {
+            "hash": "9c6f38c39c7660c735e7a805488df81d41a6debb",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-26T19:10:43Z",
+            "subject": "[MemorySSA] Reserve an incoming value per predecessor for MemoryPhis (NFC)"
         }
     ],
     "c-rhodes\/perf\/aarch64-fastisel-o0-21-10-2026": [
