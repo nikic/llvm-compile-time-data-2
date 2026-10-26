@@ -275655,6 +275655,42 @@
             "author_name": "Chinmay Deshpande",
             "commit_date": "2026-10-26T08:32:45-07:00",
             "subject": "[AMDGPU] Rename 1024AddressableVGPRs to VGPRMSBs. NFC (#235331)"
+        },
+        {
+            "hash": "7b9a9aa79f77ede46b09bb63d178d6da9a8f828f",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-26T08:35:23-07:00",
+            "subject": "TableGen: Store super-register class sets as bit vectors (#234798)"
+        },
+        {
+            "hash": "7e400820b78311be8d10ba085918c5c8fe9c4ce4",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-26T08:35:23-07:00",
+            "subject": "TableGen: Index registers by sub-register index enum value when inferring sub-classes (#234799)"
+        },
+        {
+            "hash": "c535a9b45d233827600b3dc17b85b5943a75d279",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-26T08:35:24-07:00",
+            "subject": "TableGen: Skip redundant addComposite calls for secondary sub-registers (#234800)"
+        },
+        {
+            "hash": "1b88639964bd1731e86dd6acef45cbbce1dd3686",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-26T08:35:24-07:00",
+            "subject": "TableGen: Test register sub-classes with the member bit vectors (#234801)"
+        },
+        {
+            "hash": "a62076175cbafbb0f9358b0db73f4e2931b95dc6",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-26T08:35:25-07:00",
+            "subject": "TableGen: Compute register sizes once for the sub-register size check (#234802)"
+        },
+        {
+            "hash": "ff57d874f6c8736d54a953b416cd0fe0b7c7b6ef",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-26T08:35:25-07:00",
+            "subject": "TableGen: Skip disjoint register classes before intersecting them (#234803)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
