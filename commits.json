@@ -275733,6 +275733,18 @@
             "author_name": "Jonas Devlieghere",
             "commit_date": "2026-10-26T08:58:06-07:00",
             "subject": "[lldb] Fix a race in PlatformAppleSimulator::GetSDKFilepath (#235098)"
+        },
+        {
+            "hash": "b9d15ca71c729d89b54f4baa233dd850b10b1905",
+            "author_name": "Vijay Kandiah",
+            "commit_date": "2026-10-26T16:01:50Z",
+            "subject": "[mlir][acc] Decide reduction atomics by destination instead of by partitioning (#235099)"
+        },
+        {
+            "hash": "6dc8c42b94ae93c88c6df85bc50979852b26b100",
+            "author_name": "Fateme Hosseini",
+            "commit_date": "2026-10-26T11:09:31-05:00",
+            "subject": "[Hexagon] Lower 4 IEEE HVX conversions to a call (#232862)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -299927,28 +299939,30 @@
             "subject": "[flang][OpenMp] Fix LINEAR steps and ALLOCATABLE loop iteration variables (#234112)"
         },
         {
-            "hash": "fd39f437bd1a174e2ef526f11a7f2ea6686e7fcf",
+            "hash": "09b7d701aeb08463de89b2aada9ed4832eb7a834",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-26T15:33:43+01:00",
-            "subject": "[clang][codegen] Assume array fillers are zero"
+            "commit_date": "2026-10-26T17:05:10+01:00",
+            "subject": "transforms"
+        }
+    ],
+    "madhur13490\/perf\/chaint-ctt": [
+        {
+            "hash": "79b321b1238ceaf8261a5b177185a3ec5111918a",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-10-19T16:53:11+01:00",
+            "subject": "[libc++][pstl] Add more tests of parallel std::for_each[_n] (#231918)"
         },
         {
-            "hash": "baed0c1e823b001515d494372fbdfce29c93d9bc",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-26T15:33:43+01:00",
-            "subject": "program: Pass initializer along"
+            "hash": "6793dd09d203f2e15298f63bff77caa906ba87f4",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-10-22T06:24:51-07:00",
+            "subject": "[Flang][LLVM] Prototype per-array llvm.assume.chained facts"
         },
         {
-            "hash": "0331e1a6d181df0f8a84d483c15abc95329baeb5",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-26T16:07:10+01:00",
-            "subject": "ArrSize"
-        },
-        {
-            "hash": "91379196fcaf21047750f90be2d12f2008c85c1a",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-26T16:51:24+01:00",
-            "subject": "crap"
+            "hash": "97bb25d693b0dfa16798448cf34c5fd69d069d24",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-10-26T09:17:02-07:00",
+            "subject": "[Flang][LoopInterchange] Enable chained array extents by default"
         }
     ]
 }
