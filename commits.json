@@ -275385,6 +275385,24 @@
             "author_name": "Nikolai Fedotenko",
             "commit_date": "2026-10-26T13:17:37+01:00",
             "subject": "[C++26] Stop diagnosing #embed as an extension in C++26 mode (P1967R14) (#233285)"
+        },
+        {
+            "hash": "6fa5744a0bca1c267e4c2abf16d1b5baf54cbdc9",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-26T12:21:44Z",
+            "subject": "[CodeExtractor] Remove handling for lifetime marker on bitcast (NFCI) (#235718)"
+        },
+        {
+            "hash": "fd9ec736c017f7b7f948532e7efe49f518dc9d48",
+            "author_name": "John Brawn",
+            "commit_date": "2026-10-26T12:25:20Z",
+            "subject": "[SROA][NFC] Move duplicated code in presplitLoadsAndStores into class (#224653)"
+        },
+        {
+            "hash": "1b6c091ba8a73522447c645df470d0e59d5ef18f",
+            "author_name": "Prashanth",
+            "commit_date": "2026-10-26T05:30:52-07:00",
+            "subject": "[mlir][scf] support back peeling of signed integer loops (#235260)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -299543,6 +299561,32 @@
             "author_name": "Claude",
             "commit_date": "2026-10-26T06:32:11Z",
             "subject": "[X86] Don't require MachineDominanceFrontier in LVI load hardening. NFCI"
+        }
+    ],
+    "MDevereau\/perf\/argpromo-const-prop-ct": [
+        {
+            "hash": "6fa5744a0bca1c267e4c2abf16d1b5baf54cbdc9",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-26T12:21:44Z",
+            "subject": "[CodeExtractor] Remove handling for lifetime marker on bitcast (NFCI) (#235718)"
+        },
+        {
+            "hash": "3ab16e45366e6c8ab043733ff485a2e5fa37e8cb",
+            "author_name": "Matthew Devereau",
+            "commit_date": "2026-10-26T12:22:40Z",
+            "subject": "[ArgumentPromotion] Propagate constant aggregate fields"
+        },
+        {
+            "hash": "fa5291577076929d9fcc808280d301c0aa6814c8",
+            "author_name": "Matthew Devereau",
+            "commit_date": "2026-10-26T12:22:41Z",
+            "subject": "Remove conservative checks"
+        },
+        {
+            "hash": "803f83552ca639e9a53e9ad0a536b4ab442d285d",
+            "author_name": "Matthew Devereau",
+            "commit_date": "2026-10-26T12:22:41Z",
+            "subject": "Add AA for isIsolatedCallerStorage"
         }
     ]
 }
