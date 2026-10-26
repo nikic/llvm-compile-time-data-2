@@ -275715,6 +275715,24 @@
             "author_name": "Oskar Wirga",
             "commit_date": "2026-10-26T08:49:27-07:00",
             "subject": "[CGData][GMF] Don't parameterize callees in ptrauth-calls functions (#234008)"
+        },
+        {
+            "hash": "0d5253f617782be117316c994cf05b63dfda1667",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-10-26T15:57:27Z",
+            "subject": "[TableGen] Assert that RecordVal values are never null (#235077)"
+        },
+        {
+            "hash": "65884c879c24b88da11af59cceec8534b0cbe455",
+            "author_name": "Nick Riasanovsky",
+            "commit_date": "2026-10-26T15:57:51Z",
+            "subject": "[NVPTX] Avoid nonlocal MachineCSE of special register reads. (#228303)"
+        },
+        {
+            "hash": "af9c7cea1ce76c20c5767ad5ec08eabcf03000d8",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-10-26T08:58:06-07:00",
+            "subject": "[lldb] Fix a race in PlatformAppleSimulator::GetSDKFilepath (#235098)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -299899,6 +299917,38 @@
             "author_name": "Matthew Devereau",
             "commit_date": "2026-10-26T12:22:41Z",
             "subject": "Add AA for isIsolatedCallerStorage"
+        }
+    ],
+    "tbaederr\/perf\/transform": [
+        {
+            "hash": "c563d27a615244f4e60065fa151fbac53c402365",
+            "author_name": "Aditya Trivedi",
+            "commit_date": "2026-10-26T14:27:52Z",
+            "subject": "[flang][OpenMp] Fix LINEAR steps and ALLOCATABLE loop iteration variables (#234112)"
+        },
+        {
+            "hash": "fd39f437bd1a174e2ef526f11a7f2ea6686e7fcf",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-10-26T15:33:43+01:00",
+            "subject": "[clang][codegen] Assume array fillers are zero"
+        },
+        {
+            "hash": "baed0c1e823b001515d494372fbdfce29c93d9bc",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-10-26T15:33:43+01:00",
+            "subject": "program: Pass initializer along"
+        },
+        {
+            "hash": "0331e1a6d181df0f8a84d483c15abc95329baeb5",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-10-26T16:07:10+01:00",
+            "subject": "ArrSize"
+        },
+        {
+            "hash": "91379196fcaf21047750f90be2d12f2008c85c1a",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-10-26T16:51:24+01:00",
+            "subject": "crap"
         }
     ]
 }
