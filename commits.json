@@ -277023,6 +277023,30 @@
             "author_name": "Md Abdullah Shahneous Bari",
             "commit_date": "2026-10-27T10:48:22-05:00",
             "subject": "[MLIR][MathToXeVM][NFC] Remove a dead lit.local.cfg (#232911)"
+        },
+        {
+            "hash": "50934bfc5ea77bf8e3911e33dd26a1f83f8734d7",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-27T15:51:27Z",
+            "subject": "[InstCombine] Remove redundant fold for shift of add of zexts (NFCI) (#236141)"
+        },
+        {
+            "hash": "c4c133862e5ccf89f834ed64c76183af79ce4784",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-27T16:54:10+01:00",
+            "subject": "[ConstantFold] Use isImpliedByMatchingCmp() (NFC) (#236149)"
+        },
+        {
+            "hash": "d29114cacab9d7200c55c32d89af7a243e3cbdd4",
+            "author_name": "Dmitry Makogon",
+            "commit_date": "2026-10-27T16:00:38Z",
+            "subject": "[IndVarSimplify][NFC] Add tests for loop-invariant samesign compares (#236092)"
+        },
+        {
+            "hash": "a34e25b5624c644d562244c1b49b82ba893701f9",
+            "author_name": "Dmitry Makogon",
+            "commit_date": "2026-10-27T16:00:38Z",
+            "subject": "[SCEV] Drop samesign in getLoopInvariantPredicate (#236093)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -301411,6 +301435,20 @@
             "author_name": "\u00d6mer Sinan A\u011facan",
             "commit_date": "2026-10-27T10:35:50Z",
             "subject": "Value and branch profiles"
+        }
+    ],
+    "tbaederr\/perf\/pack": [
+        {
+            "hash": "0bb039df436dee7400ebfebf80a302344c075142",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-27T05:29:26-07:00",
+            "subject": "[SLP][NFC]Add tests for calls with linear pointers, NFC"
+        },
+        {
+            "hash": "ae1fa854000e9a66df6f2c40c03fd51717f1747c",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-10-27T16:51:24+01:00",
+            "subject": "packCategoriesIntoKey"
         }
     ]
 }
