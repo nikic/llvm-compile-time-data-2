@@ -276909,6 +276909,54 @@
             "author_name": "Kamlesh Kumar",
             "commit_date": "2026-10-27T15:17:26Z",
             "subject": "[ARM] Add combine for vector_interleave operation (#225818)"
+        },
+        {
+            "hash": "13f2dc5454ea31e62f6077762d656a5b2e0bd8ed",
+            "author_name": "Prajwal KP",
+            "commit_date": "2026-10-27T15:18:09Z",
+            "subject": "[X86][FP16] Widen v8f16\/v16f16 fadd\/fsub\/fmul\/fdiv\/fma to 512 bits without VLX (#234948)"
+        },
+        {
+            "hash": "282a41a38b8c1b40bbec31618f4fd224bac4a4f4",
+            "author_name": "Alex MacLean",
+            "commit_date": "2026-10-27T08:22:22-07:00",
+            "subject": "[MIR] Always print types on generic register definitions (#234846)"
+        },
+        {
+            "hash": "7b48841c304695a0ba2046013f6f489f699fc26c",
+            "author_name": "Govind Malasani",
+            "commit_date": "2026-10-27T08:23:00-07:00",
+            "subject": "[MLIR][SparseTensor] Implemented LoopUseOuter and LoopUseInner heuristics for loop ordering (#232591)"
+        },
+        {
+            "hash": "8563ddc94c68e4ca4239ca97118cf853ac6d50e2",
+            "author_name": "Oskar Wirga",
+            "commit_date": "2026-10-27T11:23:27-04:00",
+            "subject": "[lld-macho][NFC] Access relocation addends through accessors (#234000)"
+        },
+        {
+            "hash": "1c4f765dc617f5db57d64271df0768c0f7addcef",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-27T08:24:40-07:00",
+            "subject": "[clang] Replace PointerUnion::dyn_cast with llvm::dyn_cast_if_present (NFC) (#236007)"
+        },
+        {
+            "hash": "85a2e8e9d28801ce66099cf2c7f5267f122a43c3",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-27T08:24:52-07:00",
+            "subject": "[clang] Remove forward and friend declarations of non-existent types (NFC) (#236009)"
+        },
+        {
+            "hash": "32ed21c9acac1791ff573344c6992dc5d53db747",
+            "author_name": "Zorojuro",
+            "commit_date": "2026-10-27T20:55:12+05:30",
+            "subject": "[libc] Make sign functions use the emulated float80 type  (#235073)"
+        },
+        {
+            "hash": "8118be96da832addccc34ff3ce48ec0b18135aa3",
+            "author_name": "David Green",
+            "commit_date": "2026-10-27T15:27:09Z",
+            "subject": "[ARM] Check the alignment of generated vld2\/4 with MVE. (#235675)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
