@@ -276597,6 +276597,18 @@
             "author_name": "Nikolas Klauser",
             "commit_date": "2026-10-27T11:39:25+01:00",
             "subject": "[InstCombine] Fix sink-align-assume.ll after #225380 (#236062)"
+        },
+        {
+            "hash": "7d72330b5a0c13c18bf3d12be88a8122a40d650a",
+            "author_name": "Paul Walker",
+            "commit_date": "2026-10-27T10:51:16Z",
+            "subject": "[NFC] Fix \"intruction\" typos. (#234930)"
+        },
+        {
+            "hash": "e663afa59dc6cfb4a33e96ed380db00e7edf8e70",
+            "author_name": "Kerry McLaughlin",
+            "commit_date": "2026-10-27T10:55:50Z",
+            "subject": "[AArch64] Add .cfi_non_hint_pauth_frame when PAuth_LR instructions used for signing (#233885)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -300941,6 +300953,26 @@
             "author_name": "Alexis Engelke",
             "commit_date": "2026-10-27T08:56:35Z",
             "subject": "[X86][NFC] Use uint16_t for fold table keys"
+        }
+    ],
+    "osa1\/perf\/jtts_select": [
+        {
+            "hash": "b87685fc2ae3d189a8737fd96a27cd26bbda93b0",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-10-27T11:33:32+01:00",
+            "subject": "Recommit \"[libc] Remove full header dependencies from proxy header targets\" (#235752)"
+        },
+        {
+            "hash": "044af5215d03885a2fb38201857910870ddeea8d",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-27T10:35:50Z",
+            "subject": "[JumpTableToSwitch] Treat select of functions as two-element jump table"
+        },
+        {
+            "hash": "dce652299e012b84258451e00a1262f8be6f26dc",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-27T10:35:50Z",
+            "subject": "Value and branch profiles"
         }
     ]
 }
