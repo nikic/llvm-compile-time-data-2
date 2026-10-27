@@ -277263,6 +277263,30 @@
             "author_name": "QIU Chaofan",
             "commit_date": "2026-10-27T12:03:24-07:00",
             "subject": "[lld][ELF] Use size_t for getNumSymbols return type (#230760)"
+        },
+        {
+            "hash": "e0d240be27200a4652c1624291309b543c18af4a",
+            "author_name": "Aaron Ballman",
+            "commit_date": "2026-10-27T19:04:19Z",
+            "subject": "[clangd] Fix an MSVC diagnostic with fully covered switches; NFC (#236224)"
+        },
+        {
+            "hash": "4db9a5d0976b66d83a48a5a5a2940305e1ad33db",
+            "author_name": "serge-sans-paille",
+            "commit_date": "2026-10-27T19:06:43Z",
+            "subject": "[clang-tidy] Fix false positive in modernize-make-unique (#229802)"
+        },
+        {
+            "hash": "2566fe69a14ed26adfdadf9bae33d48dc1bd355c",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-10-27T14:17:04-05:00",
+            "subject": "[OpenMP] Replace cast operator with member function (#236088)"
+        },
+        {
+            "hash": "4f8df93d3d85cdc0cdf8f8ac9d30980227450e40",
+            "author_name": "Aaron Ballman",
+            "commit_date": "2026-10-27T19:20:32Z",
+            "subject": "[clang] Fix an MSVC diagnostic with fully covered switches; NFC (#236222)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -287673,6 +287697,12 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-10-27T19:03:38Z",
             "subject": "[Allocator] Cap MinAlign at alignof(max_align_t) (#235373)"
+        },
+        {
+            "hash": "5e1a49c5afafb305278c0d69e6f1e8080535cc78",
+            "author_name": "DaKnig",
+            "commit_date": "2026-10-27T19:04:28Z",
+            "subject": "[SelectionDAG] Don't always use abs(sub) when expanding abdu (#235043)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
