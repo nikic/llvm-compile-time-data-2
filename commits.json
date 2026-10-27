@@ -276969,6 +276969,60 @@
             "author_name": "Alexis Engelke",
             "commit_date": "2026-10-27T15:39:53Z",
             "subject": "[AArch64][NFC] Replace StringSwitch with EnumStrings (#236142)"
+        },
+        {
+            "hash": "0ba7764723026882df1f302765b9aa848a56960c",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-27T15:41:09Z",
+            "subject": "[ExecutionEngine] Remove handling for removed constant expressions (NFC) (#236147)"
+        },
+        {
+            "hash": "3b9677ba2c09474e308b917b967135f1086f1d5f",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-10-27T16:43:00+01:00",
+            "subject": "Reapply \"[libc] Assert non-nullness in cpp::unique_ptr dereference operators\" (#236083)"
+        },
+        {
+            "hash": "c94114f2087acd091806b0ff97c23525f9db3556",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-27T15:43:24Z",
+            "subject": "[IVDesc] Return APInt for const-step (NFC) (#236039)"
+        },
+        {
+            "hash": "a51490d9f9f3ecfba83681c2751524f33385e280",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-10-27T16:43:52+01:00",
+            "subject": "[libc] Move <net\/if.h> code and tests to net\/if subdirectories (#236126)"
+        },
+        {
+            "hash": "35dff9084635ec3871cc16e0554c57eb32ab21ea",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-10-27T16:44:08+01:00",
+            "subject": "[ELF] Move ELF machine definitions to separate file (#236143)"
+        },
+        {
+            "hash": "5110131a330f7fcbe6c58fb7663ee542fef4acc9",
+            "author_name": "Emilio Cota",
+            "commit_date": "2026-10-27T15:45:38Z",
+            "subject": "[SelectionDAG] avoid rounding exact f32->bf16 (STRICT_)FP_ROUND (#230557)"
+        },
+        {
+            "hash": "5186c65a1d7f8d6000b3d9436516f3ef930a35e0",
+            "author_name": "Ivy Xu",
+            "commit_date": "2026-10-27T11:46:58-04:00",
+            "subject": "[clang] Fix acceptance of redefinition of a struct with different bit-field width (#235265)"
+        },
+        {
+            "hash": "4122ec6416de05bf4269feb8a8466c6a82b241ea",
+            "author_name": "Nikolai Fedotenko",
+            "commit_date": "2026-10-27T11:47:11-04:00",
+            "subject": "[clang][Lex] Skip to the end of directive after diagnosing 'defined' in an #embed parameter (#235934)"
+        },
+        {
+            "hash": "5967e7175fa0bbab46284688b425798cf04dff21",
+            "author_name": "Md Abdullah Shahneous Bari",
+            "commit_date": "2026-10-27T10:48:22-05:00",
+            "subject": "[MLIR][MathToXeVM][NFC] Remove a dead lit.local.cfg (#232911)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -296079,40 +296133,52 @@
     ],
     "artagnon\/perf\/scev-exact-flags": [
         {
-            "hash": "fac4500420cdeed42f35537a26eea1e4e17badf0",
-            "author_name": "Lo3wer",
-            "commit_date": "2026-10-26T09:05:50Z",
-            "subject": "[ARM] Optimize code for 0 and int min (#229489)"
+            "hash": "d970554e2280da4876e5d8bc733583c94edc3296",
+            "author_name": "Aaron Jomy",
+            "commit_date": "2026-10-27T12:23:12Z",
+            "subject": "[clang-repl] Print the device module IR under -emit-llvm (#235803)"
         },
         {
-            "hash": "4df4edb2086297972a0f7762124dfacd6209bb8c",
+            "hash": "6b224950f02c93de45dbb61afb1a87f018df3170",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-26T10:39:18Z",
+            "commit_date": "2026-10-27T13:03:10Z",
             "subject": "[LoopUnroll] Pre-commit udiv-exact tests"
         },
         {
-            "hash": "9c8b2200c66f3fd866064acd204ee21a3c783f0c",
+            "hash": "59017df17e8a4ce98108e86205b785547ffc396f",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-26T10:39:18Z",
+            "commit_date": "2026-10-27T13:03:11Z",
             "subject": "[SCEV] Introduce exact flag for UDiv"
         },
         {
-            "hash": "b7548fa1e18c2967faf9c18dbf186d0d5d9cfb47",
+            "hash": "93d2737a2270bc14e57d8d5d69851dd930c59c6d",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-26T10:39:18Z",
+            "commit_date": "2026-10-27T13:03:11Z",
             "subject": "[SCEV] Fix nits, strengthen with asserts"
         },
         {
-            "hash": "10b55e1885ba3a86cf2635c3b9687e4894fe6c04",
+            "hash": "ac6317b102e9dc0ae5d6935bcc2f02016745c7a7",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-26T10:39:18Z",
+            "commit_date": "2026-10-27T13:03:11Z",
             "subject": "[SCEV] Fix NFC nits, update test"
         },
         {
-            "hash": "d78c22f5fdc034774b15b12f27683fdda2650dba",
+            "hash": "b949fe028444b2d2aefd0c8513b2d778cbc2539c",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-26T10:39:18Z",
+            "commit_date": "2026-10-27T13:03:11Z",
             "subject": "[SCEV] getNoWrapFlagsFromUB, thanks!"
+        },
+        {
+            "hash": "ac708b00f380e6ba599dca9680118b38e181b020",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-27T13:23:45Z",
+            "subject": "[SCEV] Pre-commit udiv-exact-folds test"
+        },
+        {
+            "hash": "64a47e98efd9d82f80888c26554af9ace3b262b1",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-27T13:24:17Z",
+            "subject": "[SCEV] Conservatively drop fwd exact, thanks Antonio!"
         }
     ],
     "fhahn\/perf\/ce-strict-witness": [
