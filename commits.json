@@ -277245,6 +277245,24 @@
             "author_name": "Andrew Haberlandt",
             "commit_date": "2026-10-27T11:43:18-07:00",
             "subject": "[asan][Darwin] Build the DriverKit C++ slice without exceptions (#234062)"
+        },
+        {
+            "hash": "0ba5c57d4ee3e8f9a8d03c1a1c854669d92039bb",
+            "author_name": "Timur Golubovich",
+            "commit_date": "2026-10-27T19:57:00+01:00",
+            "subject": "[X86] Clamp callee-saved spill slot alignment to the stack alignment (#235883)"
+        },
+        {
+            "hash": "3f65373a090709d6b5f43466735ea152c233f439",
+            "author_name": "Changpeng Fang",
+            "commit_date": "2026-10-27T12:02:16-07:00",
+            "subject": "[AMDGPU] Fix packed bf16 inline constant folding with op_sel (#233292)"
+        },
+        {
+            "hash": "5c744e15ef831e22f9efce75fcd7e12a2082c583",
+            "author_name": "QIU Chaofan",
+            "commit_date": "2026-10-27T12:03:24-07:00",
+            "subject": "[lld][ELF] Use size_t for getNumSymbols return type (#230760)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -287625,6 +287643,36 @@
             "author_name": "dyslexicsteak",
             "commit_date": "2026-10-23T06:53:53Z",
             "subject": "[CodeGenPrepare] Drop poison-generating flags on extensions in optimizeExtUses (#234134)"
+        },
+        {
+            "hash": "7ddf6cc19e82e40d76afe34264ad4d206f6117a4",
+            "author_name": "Tavva Dinesh Reddy",
+            "commit_date": "2026-10-27T18:58:14Z",
+            "subject": "[TailCallElim] Drop poison-generating attributes and metadata from accumulator (#233527)"
+        },
+        {
+            "hash": "093145f1e207c523165188fd727d58eb2a0bbf5e",
+            "author_name": "Brad Smith",
+            "commit_date": "2026-10-27T18:59:18Z",
+            "subject": "[clang][Driver] Fix libc++ include path on OpenBSD (#212979)"
+        },
+        {
+            "hash": "94467edd50bce6e697f16db66a9bc3f28c35c706",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-10-27T19:00:42Z",
+            "subject": "[flang][OpenMP] Fix verification of REF modifier on LINEAR clause (#232367)"
+        },
+        {
+            "hash": "8ceacf8097bb4ab5c5921e5c9562e2a5c777b4ea",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-27T19:01:45Z",
+            "subject": "[VPlan] Avoid recursive-fan-out of usesFirstLaneOnly (NFC) (#229130)"
+        },
+        {
+            "hash": "ecf9bb207c8d4430825aa867d3d3eb7f9422e675",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-10-27T19:03:38Z",
+            "subject": "[Allocator] Cap MinAlign at alignof(max_align_t) (#235373)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
