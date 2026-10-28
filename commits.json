@@ -277701,6 +277701,12 @@
             "author_name": "Archmushroom",
             "commit_date": "2026-10-28T11:20:17Z",
             "subject": "[InstCombine] Generalize existing pattern from \"abs(val) != 0 -> val != 0\" to \"abs(val) == 0 -> val == 0\" (#233763)"
+        },
+        {
+            "hash": "fafd000acdfee49c76f6b307d6cc41523dc734e2",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-10-28T12:27:23+01:00",
+            "subject": "[clang][bytecode] Fix assertion with string pointers in `DoBitCast` (#236337)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
