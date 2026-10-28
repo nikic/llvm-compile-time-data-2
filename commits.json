@@ -301685,40 +301685,28 @@
     ],
     "fhahn\/perf\/basicaa-phi-alloca": [
         {
-            "hash": "b9d15ca71c729d89b54f4baa233dd850b10b1905",
-            "author_name": "Vijay Kandiah",
-            "commit_date": "2026-10-26T16:01:50Z",
-            "subject": "[mlir][acc] Decide reduction atomics by destination instead of by partitioning (#235099)"
+            "hash": "679fd35aa02e1a55371f47815a9601ed8432937c",
+            "author_name": "Finn Plummer",
+            "commit_date": "2026-10-27T21:19:04Z",
+            "subject": "[HLSL] Add support for SV_StartInstanceLocation (#235851)"
         },
         {
-            "hash": "e373bae4084c4379638692a477bd69ee3314b373",
+            "hash": "569d445c4bde48d158d495742e4204117d67c03b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-26T17:36:30Z",
-            "subject": "[BasicAA] Add tests for phis of pointers carried through nested loops (NFC)."
-        },
-        {
-            "hash": "97f95cbc330683623836fb24f8c92c619c240a9c",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-26T17:36:32Z",
-            "subject": "[BasicAA] Move rules for distinct underlying objects to helpers (NFC)."
-        },
-        {
-            "hash": "5d76c05e0281ab2ab871869be52c7f16cb232484",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-26T17:38:28Z",
+            "commit_date": "2026-10-28T00:09:24Z",
             "subject": "[BasicAA] Don't count recursive phi sources as phi sources."
         },
         {
-            "hash": "21fe9275454e5b17f5e1466c8d6958e32c10b805",
+            "hash": "ad20586d729f18c2ff04ecad49ceeb4fa85de3ad",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-26T17:38:30Z",
+            "commit_date": "2026-10-28T00:09:30Z",
             "subject": "[BasicAA] Check underlying objects of phis instead of giving up."
         },
         {
-            "hash": "518ca4ccb50562e5cb9edcda25ff66cd173c9beb",
+            "hash": "0ce7ddd62bb98604e943189055d93e79ab7396fc",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-26T17:38:30Z",
-            "subject": "[BasicAA] Skip null and undef underlying objects of phis."
+            "commit_date": "2026-10-28T00:10:11Z",
+            "subject": "[BasicAA] Reduce compile-time of phi underlying object walk (NFC)."
         }
     ],
     "nikic\/perf\/instcombine-load-gep-select": [
