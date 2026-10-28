@@ -277563,6 +277563,18 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-10-28T08:28:57+01:00",
             "subject": "[Clang][ABI][X86] Don't return _BitInt as {i64, i64} (#236112)"
+        },
+        {
+            "hash": "a36723fa84e58e6a4c0972868f8422cd95642c99",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-28T00:54:10-07:00",
+            "subject": "[llvm] Remove unused type aliases in .cpp files (NFC) (#236318)"
+        },
+        {
+            "hash": "97e2e66e680682f9fe3d7ee4d26c2f1a27127b78",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-28T00:59:23-07:00",
+            "subject": "[clang] Replace PointerUnion::dyn_cast with llvm::dyn_cast (NFC) (#236317)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
