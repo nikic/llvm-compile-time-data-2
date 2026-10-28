@@ -277833,6 +277833,18 @@
             "author_name": "Susan Tan (\u30b9-\u30b6\u30f3\u3000\u30bf\u30f3)",
             "commit_date": "2026-10-28T10:58:57-04:00",
             "subject": "[acc] Make acc.compute_region an AutomaticAllocationScope (#236277)"
+        },
+        {
+            "hash": "b5543efadf8c6a0c150a2927779b04ab78223a03",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-10-28T16:17:03+01:00",
+            "subject": "[mlir][bytecode] Reject lossy legacy property serialization (#233216)"
+        },
+        {
+            "hash": "ba6c664c0e133a5f92d54316de603e6b2d9d810e",
+            "author_name": "Alexey Samsonov",
+            "commit_date": "2026-10-28T08:17:53-07:00",
+            "subject": "[libc] Always-inline syscall_impl and syscall_checked. (#236255)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -302273,6 +302285,20 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-10-28T08:04:32+01:00",
             "subject": "asdf"
+        }
+    ],
+    "nikic\/perf\/x86-small-int-abi": [
+        {
+            "hash": "9f0c2f993640bcafb3e2722f1fe68d564b537276",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-28T08:28:57+01:00",
+            "subject": "[Clang][ABI][X86] Don't return _BitInt as {i64, i64} (#236112)"
+        },
+        {
+            "hash": "ea2726c7a0b20142cf94bc691cf1001705a0228b",
+            "author_name": "Liu, Chen3",
+            "commit_date": "2026-10-28T16:15:47+01:00",
+            "subject": "[X86] Always extend the integer parameters in callee"
         }
     ]
 }
