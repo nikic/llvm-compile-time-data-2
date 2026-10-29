@@ -278487,6 +278487,24 @@
             "author_name": "Timm Baeder",
             "commit_date": "2026-10-29T09:26:45+01:00",
             "subject": "[clang][bytecode] Use first decl in Record base map (#236334)"
+        },
+        {
+            "hash": "cd6a58c853f134eda59b344b4c0b08b7f0ec38c9",
+            "author_name": "Alex Duran",
+            "commit_date": "2026-10-29T09:35:41+01:00",
+            "subject": "[Offload][Omp] Launch kernels through liboffload (#233735)"
+        },
+        {
+            "hash": "e1e027ec7628291320e722031463787b8cbed84f",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-10-29T09:36:16+01:00",
+            "subject": "[CIR] Keep cir.cleanup.scope cleanup regions reachable (#232217)"
+        },
+        {
+            "hash": "9d41755f33e46c3d43c9485f44e89a07689681b0",
+            "author_name": "Lin Han",
+            "commit_date": "2026-10-29T08:36:33Z",
+            "subject": "[GlobalOpt] Skip use analysis for saturated function unnamed_addr (#236455)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -303061,6 +303079,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-10-28T20:30:03-07:00",
             "subject": "[Analysis] Declare command line options in TableGen"
+        }
+    ],
+    "nikic\/perf\/lvi-invalidate-bbs": [
+        {
+            "hash": "9f0c2f993640bcafb3e2722f1fe68d564b537276",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-28T08:28:57+01:00",
+            "subject": "[Clang][ABI][X86] Don't return _BitInt as {i64, i64} (#236112)"
+        },
+        {
+            "hash": "2387d4d78a7bc2e45a2c2441be94f5a364b64246",
+            "author_name": "Andreas Wendleder",
+            "commit_date": "2026-10-29T09:30:34+01:00",
+            "subject": "Erase a value only from the blocks that cache it"
         }
     ]
 }
