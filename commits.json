@@ -278337,6 +278337,48 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-29T04:41:09Z",
             "subject": "[VPlan] Don't query IVDesc for pointer-induction step type (NFC) (#236640)"
+        },
+        {
+            "hash": "415ae8cf24b1ad4584e91eb875eac5bcc2a524ba",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-28T21:49:48-07:00",
+            "subject": "[clang] Replace PointerUnion::dyn_cast with llvm::dyn_cast_if_present (NFC) (#236619)"
+        },
+        {
+            "hash": "ad682356dfa56452320625f829780ee64ab79cc7",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-10-28T21:49:58-07:00",
+            "subject": "[clang] Remove declarations without definitions (NFC) (#236620)"
+        },
+        {
+            "hash": "f8a7eee1f3efce04e5d94a1d687dbd292c23f58b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-29T04:50:30Z",
+            "subject": "[VPlan] Remove redundant VPIRFlags::transferFlags (NFC) (#236641)"
+        },
+        {
+            "hash": "2836a92ca8d5121aa7e814bfe6f69c2e05dcb0fb",
+            "author_name": "Chen Miao",
+            "commit_date": "2026-10-28T21:51:06-07:00",
+            "subject": "[clang][Sema] Fix crash caused by invalid implicit format attributes (#229010)"
+        },
+        {
+            "hash": "3ce9a5bc9128cdb794a4a76f37ce8bf2fc13a1d4",
+            "author_name": "Alexander Richardson",
+            "commit_date": "2026-10-28T21:51:19-07:00",
+            "subject": "[Support][mlir] Clean up list of unmatched @unknown directives (#236282)"
+        },
+        {
+            "hash": "a9194c6b9d054d22d8b6fc81f92790ce6330ee5c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-29T04:51:31Z",
+            "subject": "[llubi] Add support for llvm.masked.gather (#235986)"
+        },
+        {
+            "hash": "189eece8e3fcb2344ec9b6a3fe4a154e691796cd",
+            "author_name": "Alexander Richardson",
+            "commit_date": "2026-10-28T21:52:16-07:00",
+            "subject": "[llvm-mc] Report more errors through the SourceMgr (#236281)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
