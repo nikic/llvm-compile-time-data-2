@@ -278553,6 +278553,18 @@
             "author_name": "Henrich Lauko",
             "commit_date": "2026-10-29T10:53:24+01:00",
             "subject": "[CIR] Fix cir.try successor regions (#231449)"
+        },
+        {
+            "hash": "1ef05d039f4853b19e28558617189d0e3749c598",
+            "author_name": "Mike Lothian",
+            "commit_date": "2026-10-29T11:06:18+01:00",
+            "subject": "[libc] Give struct sockaddr its full sa_data (#236518)"
+        },
+        {
+            "hash": "0bf0c1ffd432120c298c81e2b0653a64cd08f8d9",
+            "author_name": "Graham Hunter",
+            "commit_date": "2026-10-29T10:08:40Z",
+            "subject": "[X86][SDAG] Fix result scalarization of <1 x ty> vectors for partial reductions (#236187)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -300913,16 +300925,22 @@
     ],
     "artagnon\/perf\/adt-setvector-insert-it": [
         {
-            "hash": "d3ad7fe9f82ea7aa48755320c03233acd7db7938",
-            "author_name": "Steffen Larsen",
-            "commit_date": "2026-10-15T07:32:22+00:00",
-            "subject": "[clang][CIR][CUDA][HIP] Unify CUDA decl emission check (NFC) (#231153)"
+            "hash": "dee6af34fe3f9c815273fd02664c1823d44c50bc",
+            "author_name": "\/bin\/cat",
+            "commit_date": "2026-10-29T09:03:32Z",
+            "subject": "[clang][modules] Allow merging module-local class members across modules (#236509)"
         },
         {
-            "hash": "05b11e98513289ed4fa841a622bda57a1853785e",
+            "hash": "53c60523d9a55e2665e9d409a424084a3ea9a3e9",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-15T10:59:56+01:00",
+            "commit_date": "2026-10-29T09:48:14Z",
             "subject": "[SetVector] Make SetVector::insert consistent (NFC)"
+        },
+        {
+            "hash": "e98b8f0ddfff054d588164a8c38a8576a0d406dd",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-29T09:58:35Z",
+            "subject": "[SetVector] Avoid double-find, update more instances"
         }
     ],
     "artagnon\/perf\/ptrset-inline-hdr": [
