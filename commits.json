@@ -302738,5 +302738,45 @@
             "commit_date": "2026-10-28T22:36:40+01:00",
             "subject": "wip"
         }
+    ],
+    "fhahn\/perf\/ldv-skip-no-dbg-values": [
+        {
+            "hash": "8f6b51ca8bab1d49006ddaa042bc7e4e7306975d",
+            "author_name": "Alex Langford",
+            "commit_date": "2026-10-28T16:34:17-07:00",
+            "subject": "[lldb] Remove ConstString from Trace and TraceExporter (#236535)"
+        },
+        {
+            "hash": "91ce8df4bd4c040671b4ceea745ff287d2e78644",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-28T23:45:14Z",
+            "subject": "[LiveDebugValues] Skip VarLoc range extension without DBG_VALUEs (NFC)"
+        },
+        {
+            "hash": "538d043992206cf6f2c1c80d63240beeb140274b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-28T23:45:15Z",
+            "subject": "fixup! [LiveDebugValues] Skip VarLoc range extension without DBG_VALUEs (NFC)"
+        }
+    ],
+    "fhahn\/perf\/memssa-bumpptralloc": [
+        {
+            "hash": "8f6b51ca8bab1d49006ddaa042bc7e4e7306975d",
+            "author_name": "Alex Langford",
+            "commit_date": "2026-10-28T16:34:17-07:00",
+            "subject": "[lldb] Remove ConstString from Trace and TraceExporter (#236535)"
+        },
+        {
+            "hash": "1bbc228ecc7b103f1ede9ef926a5dfa990688fbf",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-28T23:41:02Z",
+            "subject": "[MemorySSA] Allocate MemoryUse and MemoryDef with a bump allocator (NFC)"
+        },
+        {
+            "hash": "d8519609fef1c09fbb48049eec44774577efbca3",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-28T23:41:45Z",
+            "subject": "Increase"
+        }
     ]
 }
