@@ -279525,6 +279525,36 @@
             "author_name": "Yoonseo Choi",
             "commit_date": "2026-10-29T15:15:16-07:00",
             "subject": "[InstCombine] Fold sub nuw (and X, LowMask), (zext Y) to zext (sub nuw (trunc X), Y) (#231358)"
+        },
+        {
+            "hash": "d73877d648023e5fa73cc6a0929ec80d49e8bbfb",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-10-29T22:17:17Z",
+            "subject": "[AMDGPU] Define a feature to disable s_add_pc_i64, not enable it. NFC. (#231179)"
+        },
+        {
+            "hash": "a3fdcb32c0eecb0b6de566afa26ea4ade83208b6",
+            "author_name": "Petar Jovanovic",
+            "commit_date": "2026-10-29T23:19:39+01:00",
+            "subject": "[X86] Re-enable verifier in SLH indirect test (#236882)"
+        },
+        {
+            "hash": "1d1c082fe1a2ba21c92ab7fbabb20b3f5dfa1e02",
+            "author_name": "Ian Li",
+            "commit_date": "2026-10-29T15:21:51-07:00",
+            "subject": "[TargetParser][clang] Parse Intel IGCA targets from --offload-arch into OffloadArch (#227468)"
+        },
+        {
+            "hash": "a444f948a1f4640afb28a6e1062a646476557e56",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-29T22:24:28Z",
+            "subject": "AtomicExpand: Add baseline test for msp430 atomic libcalls (#236963)"
+        },
+        {
+            "hash": "f22db09ec441d8747cdaa5a2891ba601dc9461f4",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-29T22:24:29Z",
+            "subject": "AtomicExpand: Use C int width for atomic libcall ordering argument (#236964)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
