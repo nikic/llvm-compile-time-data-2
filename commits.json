@@ -280815,6 +280815,48 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-10-30T11:52:54-07:00",
             "subject": "CodeGen: Track shrinkToUses live-out blocks by block number (#237073)"
+        },
+        {
+            "hash": "a06c0259b641650f8d15fb97c45633213bb09def",
+            "author_name": "Yingwei Zheng",
+            "commit_date": "2026-10-31T02:55:22+08:00",
+            "subject": "[llubi] Don't expose provenance of freed memory object (#230810)"
+        },
+        {
+            "hash": "894a693b58e2dc339bad9736c0db50d21cfc5579",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-10-30T11:56:22-07:00",
+            "subject": "[ci] Fix timing of the LLVM test-suite LNT runs (#237310)"
+        },
+        {
+            "hash": "0b37c10f4f88b48df7c77c4a1a3e8627aa4cb858",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-30T18:56:33Z",
+            "subject": "[DAGCombine] Fold (abdu x, y) -> (sub x, y) iff x >= y (#237314)"
+        },
+        {
+            "hash": "26d4bde4a2bff8453452ff05895d7ab3c1f304b6",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-10-30T11:57:57-07:00",
+            "subject": "[ci] Run the LLVM test-suite LNT pipeline on a schedule (#237286)"
+        },
+        {
+            "hash": "9aca1463d9c9ac128e628df750f9565f7b8c3994",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-10-30T19:03:15Z",
+            "subject": "[AMDGPU] Check whitespace in roundtripped disassembler tests (#237301)"
+        },
+        {
+            "hash": "b343571d66dc6356d2ac266b42972999e5039e92",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-10-30T12:04:12-07:00",
+            "subject": "[libc++] Link to CI jobs instead of overall runs in LNT reports (#237340)"
+        },
+        {
+            "hash": "1d07042f36352a19e4aaf26fbac57dcfa63fce57",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-10-30T12:07:02-07:00",
+            "subject": "[gn][NFC] Remove obsolete macro definition (#219000)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
