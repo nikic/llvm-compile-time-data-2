@@ -59855,15 +59855,15 @@
     ],
     "RKSimon\/perf\/topological-dag": [
         {
-            "hash": "9c51ed38f1e25a5a9c3c766ed1b2b8198021b5dd",
-            "author_name": "Alex MacLean",
-            "commit_date": "2026-07-01T23:07:05-07:00",
-            "subject": "[NVPTX] Add support for empty type params and returns (#207057)"
+            "hash": "e9996a2e210d021783d597d99ccd3199b0885d49",
+            "author_name": "Guy David",
+            "commit_date": "2026-10-30T11:04:11+02:00",
+            "subject": "[AArch64] Don't rename fixed implicit uses when forming load\/store pairs (#235446)"
         },
         {
-            "hash": "8fa5dc156be17d8ee5ed1a8d74e4f225bf9f0f17",
+            "hash": "95c3e8ef19747041c19f334c2213be24fe9b7d6a",
             "author_name": "Simon Pilgrim",
-            "commit_date": "2026-07-02T09:30:10+01:00",
+            "commit_date": "2026-10-30T11:59:45Z",
             "subject": "[DAG] Process DAG nodes in topological order"
         }
     ],
@@ -280287,6 +280287,12 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-10-30T06:15:01-07:00",
             "subject": "[SLP] Freeze undef operand of shl X, 1 expanded to add X, X"
+        },
+        {
+            "hash": "3bad5925856f89ecc934510eace22a6898a718a9",
+            "author_name": "Michael Platings",
+            "commit_date": "2026-10-30T13:16:47Z",
+            "subject": "[mlir][tosa] Add integer bitwidth conversion pass (#232853)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
