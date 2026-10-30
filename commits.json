@@ -279747,6 +279747,18 @@
             "author_name": "Raphael Isemann",
             "commit_date": "2026-10-29T20:01:20-07:00",
             "subject": "[LLDB] Use `-fastproxy` when building swig bridge without limited python API (Reland) (#236247)"
+        },
+        {
+            "hash": "1787c8b10b4f5f33bc5268b57f3be21df2e3f108",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-30T03:03:58Z",
+            "subject": "clang: Emit the \"debugger-tuning\" module flag (#235050)"
+        },
+        {
+            "hash": "fc061907e0a379003f6d6120763f53020936a19e",
+            "author_name": "\u9648\u5b50\u6602",
+            "commit_date": "2026-10-30T11:08:55+08:00",
+            "subject": "[mlir][scf] Revisit affected loops during range folding (#230961)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -304361,6 +304373,20 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-10-29T19:57:56-07:00",
             "subject": "CodeGen: Track shrinkToUses live-out blocks by block number"
+        }
+    ],
+    "fhahn\/perf\/scev-guard-rewrite-simplify": [
+        {
+            "hash": "7d23c4bde3a05469cc531d9f6042941a0e0f856a",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-10-29T20:01:20-07:00",
+            "subject": "[LLDB] Use `-fastproxy` when building swig bridge without limited python API (Reland) (#236247)"
+        },
+        {
+            "hash": "6209937a2b5edc06c5f3d359e590a2f2b374b9fb",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-10-30T03:06:02Z",
+            "subject": "[SCEV] Finalize loop guard rewrites on first use"
         }
     ]
 }
