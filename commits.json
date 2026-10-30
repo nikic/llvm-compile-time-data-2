@@ -280779,6 +280779,42 @@
             "author_name": "Aaron Jomy",
             "commit_date": "2026-10-30T20:31:59+02:00",
             "subject": "[clang-repl] Add stubs for CUDA runtime and enable tests on CI (#236206)"
+        },
+        {
+            "hash": "42adfa6f90f700458d186b8f86ca6424e65c0381",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-30T11:35:11-07:00",
+            "subject": "Sparc: Remove redundant check for +\/-0.5 immediates (#237319)"
+        },
+        {
+            "hash": "556cd4e91a121e7a63e9713b8a9c252a18626d9d",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-10-30T11:37:20-07:00",
+            "subject": "[libc++][ci] Submit the results of PR benchmarks to LNT in a single job (#237337)"
+        },
+        {
+            "hash": "803cb5994149dfb8e1c04003e994a30dc3be556f",
+            "author_name": "Cyndy Ishida",
+            "commit_date": "2026-10-30T11:45:00-07:00",
+            "subject": "[clang][Lex] Rename SearchedAllModuleMaps to LoadedAllModuleMaps, NFC (#237053)"
+        },
+        {
+            "hash": "25a35796d6fb5f49b53e60e1c19ff57c3ccf10ac",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-30T18:48:58Z",
+            "subject": "[X86] Use X86::CondCode. NFC (#237304)"
+        },
+        {
+            "hash": "7d704ef6b3f237a7e031d5d105f65a77ce94d045",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-10-30T18:51:25Z",
+            "subject": "[lldb][test] Skip TestDAP_attach test_by_name_waitFor on Windows (#237328)"
+        },
+        {
+            "hash": "1403536dc0dd2240874b660b31905ad8f7cf4654",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-30T11:52:54-07:00",
+            "subject": "CodeGen: Track shrinkToUses live-out blocks by block number (#237073)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
