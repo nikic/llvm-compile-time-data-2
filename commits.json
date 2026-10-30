@@ -280215,6 +280215,36 @@
             "author_name": "Timm Baeder",
             "commit_date": "2026-10-30T13:32:23+01:00",
             "subject": "[clang][bytecode] Reject non-readable pointer types from _load8 (#237146)"
+        },
+        {
+            "hash": "e9ad5855c178da9c3691cdf6133aebdae77db876",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-10-30T12:58:01Z",
+            "subject": "[AMDGPU] Remove a redundant \"if\". NFC. (#237193)"
+        },
+        {
+            "hash": "cd6b369d1ee264cf3518eae5ed58e73709858190",
+            "author_name": "Robert Imschweiler",
+            "commit_date": "2026-10-30T14:01:14+01:00",
+            "subject": "[offload] Add direct-write memcpys to liboffload and implement them on AMDGPU (#231922)"
+        },
+        {
+            "hash": "988026e07cc5e3256038a0205fcf8c1374525bc6",
+            "author_name": "Valery Pykhtin",
+            "commit_date": "2026-10-30T14:01:45+01:00",
+            "subject": "[AMDGPU] Add tests for misaligned packed-f64 source operands, NFC (#236872)"
+        },
+        {
+            "hash": "b2837fae88b32e39d8d02456bfcbd5aede0aff8d",
+            "author_name": "Valery Pykhtin",
+            "commit_date": "2026-10-30T14:02:48+01:00",
+            "subject": "[AMDGPU] Add tests for misaligned AGPR tuples in memory-op operands, NFC (#236205)"
+        },
+        {
+            "hash": "022e37a533ea6b3812b9fd064c99cbdd6d88f34f",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-10-30T14:04:01+01:00",
+            "subject": "[clang][bytecode][NFC] Remove reflection indirection in builtins (#237106)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -304871,6 +304901,20 @@
             "author_name": "Oleksandr Tarasiuk",
             "commit_date": "2026-10-30T11:50:12+01:00",
             "subject": "support storage-class specifiers in C23 compound literals"
+        }
+    ],
+    "mark-sed\/perf\/prove-non-negative": [
+        {
+            "hash": "cb909cac91a91c72a13e5621a537832d63351be5",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-10-30T13:32:23+01:00",
+            "subject": "[clang][bytecode] Reject non-readable pointer types from _load8 (#237146)"
+        },
+        {
+            "hash": "1cb0ffb775b81d07c89aa5aa1df735de4c023c32",
+            "author_name": "Marek Sedl\u00e1\u010dek",
+            "commit_date": "2026-10-30T13:04:36Z",
+            "subject": "Perfromance measurement of Simplify InvVar change"
         }
     ]
 }
