@@ -279969,6 +279969,24 @@
             "author_name": "Alexandros Lamprineas",
             "commit_date": "2026-10-30T08:34:33Z",
             "subject": "[NFC][BOLT][AArch64] Simplify isWithinClusterRange parameters (#236980)"
+        },
+        {
+            "hash": "b617fc5548da540710a3ebe80bcc9bf305d10733",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-30T09:56:02+01:00",
+            "subject": "[SPIR-V] Add PipeStorage capability for OpTypePipeStorage (#236907)"
+        },
+        {
+            "hash": "f016606b2b3d3146c526f874fa144a0de6152f61",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-10-30T09:57:33+01:00",
+            "subject": "[clang][CMake] Make clangCodeGen depend on analysis_gen (#236186)"
+        },
+        {
+            "hash": "4d787f35aaba8bdb234674188dce2b27f567b798",
+            "author_name": "Andrei Golubev",
+            "commit_date": "2026-10-30T09:58:44+01:00",
+            "subject": "[mlir] Mark dump() methods with LLVM_DUMP_METHOD (#233398)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -304459,6 +304477,12 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-10-29T15:59:36+01:00",
             "subject": "drop zeroext\/signext in GlobalOpt"
+        },
+        {
+            "hash": "6d79b423c09ac0d9976b18851cc249bee4d5a66e",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-30T09:59:04+01:00",
+            "subject": "Use isDefinitionExact instead of !isInterposable"
         }
     ],
     "nikic\/perf\/computerange-binop": [
