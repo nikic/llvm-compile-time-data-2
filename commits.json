@@ -280065,6 +280065,48 @@
             "author_name": "Ying Huang",
             "commit_date": "2026-10-30T18:03:44+08:00",
             "subject": "[Mips] Fix MipsJmpLink and MipsTailCall to use compact branch instructions on MIPS32\/64 R6 (#232578)"
+        },
+        {
+            "hash": "a2353a449e1f24158b3608b3c24a1dabd6b7dded",
+            "author_name": "Kseniya Tikhomirova",
+            "commit_date": "2026-10-30T11:06:47+01:00",
+            "subject": "[libsycl] Remove unsupported backends (#236754)"
+        },
+        {
+            "hash": "441fdef7fb759d835fe6dd2233f43f52f0ecd272",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-30T11:08:10+01:00",
+            "subject": "[SPIR-V] Lower float atomic_fetch_min\/max to OpAtomicFMin\/FMaxEXT (#236986)"
+        },
+        {
+            "hash": "002933c67e84ce7d0593c3fb9b84e74c8fb0eb4e",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-10-30T11:12:24+01:00",
+            "subject": "[LoopIdiom] Don't create memset of poison\/undef when the chain has undef\/poison values (#233037)"
+        },
+        {
+            "hash": "260096e486b08edccd9c5db35c550029d65620b6",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-10-30T10:16:13Z",
+            "subject": "[libc++][pstl] Introduce a \"statpart\" backend (#230540)"
+        },
+        {
+            "hash": "930f6b936a773ebe421110908b4203eea8a6786b",
+            "author_name": "Kseniya Tikhomirova",
+            "commit_date": "2026-10-30T11:16:22+01:00",
+            "subject": "[libsycl] Give the SPIR-V work-item builtins a host path (#233808)"
+        },
+        {
+            "hash": "7200a3381f84756074ac1aa8564a22fbdda2ae79",
+            "author_name": "Pranjal Srivastava",
+            "commit_date": "2026-10-30T11:17:41+01:00",
+            "subject": "[clang][test][NFC] Fix missing colons in FileCheck directives in arithmetic-fence-builtin.c (#236646)"
+        },
+        {
+            "hash": "092634f93290d162acf38c0f64269aea45404394",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-10-30T10:19:57Z",
+            "subject": "[mlir] Store registered op info only in the by name map (#236949)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -304693,6 +304735,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-10-30T03:06:02Z",
             "subject": "[SCEV] Finalize loop guard rewrites on first use"
+        }
+    ],
+    "nikic\/perf\/scev-non-strict-limit": [
+        {
+            "hash": "e9996a2e210d021783d597d99ccd3199b0885d49",
+            "author_name": "Guy David",
+            "commit_date": "2026-10-30T11:04:11+02:00",
+            "subject": "[AArch64] Don't rename fixed implicit uses when forming load\/store pairs (#235446)"
+        },
+        {
+            "hash": "f8e0438bdcf4b50d0ff10ca313d65e747131bdce",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-10-30T11:07:32+01:00",
+            "subject": "Compute non-strict exit counts without widening if RHS < MAX"
         }
     ]
 }
