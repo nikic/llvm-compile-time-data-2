@@ -280413,6 +280413,24 @@
             "author_name": "Chinmay Deshpande",
             "commit_date": "2026-10-30T08:00:06-07:00",
             "subject": "Reapply - [AMDGPU] Reserve ENABLE_WAVEFRONT_SIZE32 on gfx125x (#236533)"
+        },
+        {
+            "hash": "f4c0e84b0e7ade0f6979f6b1f85b64cea058800d",
+            "author_name": "Timur Golubovich",
+            "commit_date": "2026-10-30T16:13:51+01:00",
+            "subject": "[SelectOpt] Fix dominance violations when converting select groups (#234349)"
+        },
+        {
+            "hash": "d4b4e7645531bc02d352f3ddff043e95b56e6b82",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-10-30T15:21:36Z",
+            "subject": "[mlir][ArmNeon][ArmSVE] Restrict vector operands and results to rank 1 (#236539)"
+        },
+        {
+            "hash": "2b92cea9916083a94c174677b87f666f306bd4a9",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-10-30T15:21:45Z",
+            "subject": "[VPlan] Tighten findUserOf to singleton (NFC) (#236757)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -305097,6 +305115,44 @@
             "author_name": "Antonio Frighetto",
             "commit_date": "2026-10-30T15:15:46+01:00",
             "subject": "tmp"
+        }
+    ],
+    "d-makogon\/perf\/iv-widen-use-context": [
+        {
+            "hash": "0406c396501f95109075d66f5a3b524bd149872d",
+            "author_name": "Jan Patrick Lehr",
+            "commit_date": "2026-10-28T10:12:21+01:00",
+            "subject": "[BBot][AMDGPU] Port amdgpu-offload-build-only to in-tree (#236077)"
+        },
+        {
+            "hash": "7bd65ab7c26741bc0b096eb9b0de46c41431ee37",
+            "author_name": "Dmitrii Makogon",
+            "commit_date": "2026-10-30T11:58:31Z",
+            "subject": "[LoopVectorize][NFC] Add tests for runtime checks with a widened IV index"
+        },
+        {
+            "hash": "5e9e7b2ae738fd456c974179c1b8fdd559e92319",
+            "author_name": "Dmitrii Makogon",
+            "commit_date": "2026-10-30T11:58:32Z",
+            "subject": "[IndVarSimplify][NFC] Add a negative test for zext elimination"
+        },
+        {
+            "hash": "3e8f42d164ec6ec87e53715de97cbc0581a06198",
+            "author_name": "Dmitrii Makogon",
+            "commit_date": "2026-10-30T12:04:11Z",
+            "subject": "[IndVarSimplify][NFC] Add tests for widening non-negative IV users"
+        },
+        {
+            "hash": "6f114fabbcd17a78aa72e2f465541fa2908c8766",
+            "author_name": "Dmitrii Makogon",
+            "commit_date": "2026-10-30T12:04:12Z",
+            "subject": "[IndVarSimplify][SCEV][NFC] Add tests for LFTR losing the constant max trip count"
+        },
+        {
+            "hash": "0eeeb050969bce7a8d361bb1f5e3ca5a012f018d",
+            "author_name": "Dmitrii Makogon",
+            "commit_date": "2026-10-30T12:04:13Z",
+            "subject": "[IndVarSimplify] Use context to prove a narrow IV def non-negative"
         }
     ]
 }
