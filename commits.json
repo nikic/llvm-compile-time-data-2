@@ -279741,6 +279741,12 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-10-29T19:43:51-07:00",
             "subject": "[llvm-ir2vec] Parse library options into LLVMContext (#237056)"
+        },
+        {
+            "hash": "7d23c4bde3a05469cc531d9f6042941a0e0f856a",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-10-29T20:01:20-07:00",
+            "subject": "[LLDB] Use `-fastproxy` when building swig bridge without limited python API (Reland) (#236247)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -304341,6 +304347,20 @@
             "author_name": "Andreas Wendleder",
             "commit_date": "2026-10-29T09:30:34+01:00",
             "subject": "Erase a value only from the blocks that cache it"
+        }
+    ],
+    "arsenm\/perf\/shrinkToUses-live-outs": [
+        {
+            "hash": "5661d4fdb9c0cebe4f4a8d22867a899d710f49c7",
+            "author_name": "Eli Friedman",
+            "commit_date": "2026-10-30T02:04:42Z",
+            "subject": "[docs] Add AI policy to HowToSubmitABug (#236946)"
+        },
+        {
+            "hash": "810c01515c90868393e26f11a4bb1db7a79a4e17",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-29T19:57:56-07:00",
+            "subject": "CodeGen: Track shrinkToUses live-out blocks by block number"
         }
     ]
 }
