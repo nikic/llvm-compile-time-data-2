@@ -280767,6 +280767,18 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-10-30T11:22:48-07:00",
             "subject": "PowerPC: Remove kill flags on virtual registers from MIR tests (#236937)"
+        },
+        {
+            "hash": "60fcbb571a7209c688df88ec7bc0546e2ac49120",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-30T11:29:24-07:00",
+            "subject": "GlobalISel: Make default lower action smarter for FP constants (#237307)"
+        },
+        {
+            "hash": "f5dd2dc69d1d040c7429722090ebe16864899f4a",
+            "author_name": "Aaron Jomy",
+            "commit_date": "2026-10-30T20:31:59+02:00",
+            "subject": "[clang-repl] Add stubs for CUDA runtime and enable tests on CI (#236206)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -302411,6 +302423,12 @@
             "author_name": "Younan Zhang",
             "commit_date": "2026-10-09T19:12:44+08:00",
             "subject": "Remove duplicate cache lookup"
+        },
+        {
+            "hash": "b9c6c7c0b6157e9dac29c18ffd8f71383c73d2c0",
+            "author_name": "Younan Zhang",
+            "commit_date": "2026-10-31T02:25:23+08:00",
+            "subject": "Persist FoldingSetNodeID"
         }
     ],
     "c-rhodes\/perf\/codegen-skip-empty-debug-history-clobber-scans": [
@@ -305503,6 +305521,20 @@
             "author_name": "Dmitrii Makogon",
             "commit_date": "2026-10-30T17:41:07Z",
             "subject": "Revert \"[SCEV] Try other implications when sign-flipped ones fail\""
+        }
+    ],
+    "zyn0217\/perf\/improve-concept-rss-2": [
+        {
+            "hash": "98505e6e7322069e890d1f7b0c923ed64ad5b862",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-10-14T09:29:32+02:00",
+            "subject": "[libc++] Use a custom once_flag implementation for locale::id::__get() (#212235)"
+        },
+        {
+            "hash": "cd53fc8c32882972ca52ce6ed8e60c953ad4da81",
+            "author_name": "Younan Zhang",
+            "commit_date": "2026-10-31T02:28:30+08:00",
+            "subject": "[Clang] Improve ConstraintSatisfaction"
         }
     ]
 }
