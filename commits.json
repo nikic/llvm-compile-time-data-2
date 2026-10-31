@@ -281577,6 +281577,12 @@
             "author_name": "karthik",
             "commit_date": "2026-11-01T01:06:36+05:30",
             "subject": "[LV][RISCV] Fix crash in emitInvalidCostRemarks with EVL load\/store recipes (#237063)"
+        },
+        {
+            "hash": "630bd7b4010cfba3985e52b68a454b949ef1680f",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-10-31T19:43:59Z",
+            "subject": "[X86] LowerRotate - remove AVX2-only vXi16 fallback. (#237609)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -306399,6 +306405,12 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-10-31T16:17:16Z",
             "subject": "[clang][AST] Check for attributes first in Decl::isWeakImported() (NFC)"
+        },
+        {
+            "hash": "704bff7ecf9e435d006a23990c0234e17aa6bd40",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-31T20:45:28+01:00",
+            "subject": "[clang][AST] Compute isOutOfLine() once in VarDecl::isThisDeclarationADefinition() (NFC)"
         }
     ],
     "pedroclobo\/perf\/gvn-load-poison": [
