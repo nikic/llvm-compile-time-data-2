@@ -281517,6 +281517,24 @@
             "author_name": "Esteban Pauli",
             "commit_date": "2026-10-31T10:37:14-07:00",
             "subject": "[MLIR][Python] Release GIL during long-running operations. (#236861)"
+        },
+        {
+            "hash": "53530a96727bdc6ad9d2ca82e949209f9baeb4d2",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-31T10:46:01-07:00",
+            "subject": "Attributor: Don't create call site AACallEdges for direct calls (#232616)"
+        },
+        {
+            "hash": "d7b17911a59a5e008fbd87cad4f45373b40e3d4f",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-10-31T10:46:02-07:00",
+            "subject": "Attributor: Reach fixpoint in AACallEdges if there are only direct calls (#232617)"
+        },
+        {
+            "hash": "f92019247eccf204fb4e9aa369843739d5164a7a",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-10-31T10:50:33-07:00",
+            "subject": "[DWARFLinker] Intern referenced types in synthetic names (NFC) (#237080)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
