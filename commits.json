@@ -281481,6 +281481,12 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-10-31T09:08:21-07:00",
             "subject": "TableGen: Don't distinguish intrinsic function attribute sets by hasSideEffects (#237501)"
+        },
+        {
+            "hash": "b1358269587dec76a366266d4f50f6eeef258e01",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-10-31T12:19:41-04:00",
+            "subject": "[ci] Fix LNT submission when a single artifact is downloaded (#237584)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -306261,6 +306267,48 @@
             "author_name": "Younan Zhang",
             "commit_date": "2026-10-31T02:28:30+08:00",
             "subject": "[Clang] Improve ConstraintSatisfaction"
+        }
+    ],
+    "nikic\/perf\/isdefinition-outofline-once": [
+        {
+            "hash": "1b886f3957be9797805466410f538ec42909f22b",
+            "author_name": "Alan Li",
+            "commit_date": "2026-10-30T17:00:54Z",
+            "subject": "[AMDGPU] Fix VGPR and AGPR critical pressure accounting (#234358)"
+        },
+        {
+            "hash": "21050e6765b51ed2eecab8d0cafc7ee9696d3632",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-31T16:17:17Z",
+            "subject": "[clang][AST] Compute isOutOfLine() once in VarDecl::isThisDeclarationADefinition() (NFC)"
+        }
+    ],
+    "nikic\/perf\/usingdirective-fastpath": [
+        {
+            "hash": "1b886f3957be9797805466410f538ec42909f22b",
+            "author_name": "Alan Li",
+            "commit_date": "2026-10-30T17:00:54Z",
+            "subject": "[AMDGPU] Fix VGPR and AGPR critical pressure accounting (#234358)"
+        },
+        {
+            "hash": "f7adc313404748354842051f9075c4e05034f492",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-31T16:17:16Z",
+            "subject": "[clang][AST] Avoid lookup in using_directives() for contexts without using-directives (NFC)"
+        }
+    ],
+    "nikic\/perf\/weakimport-fastpath": [
+        {
+            "hash": "1b886f3957be9797805466410f538ec42909f22b",
+            "author_name": "Alan Li",
+            "commit_date": "2026-10-30T17:00:54Z",
+            "subject": "[AMDGPU] Fix VGPR and AGPR critical pressure accounting (#234358)"
+        },
+        {
+            "hash": "7f34bb6019272a989571e66c0ec86fe9b06269dd",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-31T16:17:16Z",
+            "subject": "[clang][AST] Check for attributes first in Decl::isWeakImported() (NFC)"
         }
     ]
 }
