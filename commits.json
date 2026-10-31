@@ -281637,6 +281637,36 @@
             "author_name": "Anonmiraj",
             "commit_date": "2026-10-31T14:23:20-07:00",
             "subject": "[clang] Hash the main file only once for DWARF 5 checksums (#228926)"
+        },
+        {
+            "hash": "8b254e8fcfe9b54289670ebbe7f1ef2de3cd84e2",
+            "author_name": "Yaxun (Sam) Liu",
+            "commit_date": "2026-10-31T17:43:59-04:00",
+            "subject": "[compiler-rt][profile] Sum lane-varying GPU counter increments (#235978)"
+        },
+        {
+            "hash": "b0d5bf8efbc1da91ebc08b8055ce4a18716f03a1",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-31T14:46:02-07:00",
+            "subject": "[SelectionDAGISel] Const-correct the RecordedNodes argument of IsPredicateKnownToFail. NFC (#237508)"
+        },
+        {
+            "hash": "385495a0c8b60e57370ead150230ef91718164d2",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-31T14:47:21-07:00",
+            "subject": "[RISCV][P-ext] Split RV32 v2i32 riscv_pmerge code from v4i16 and v8i8. (#237358)"
+        },
+        {
+            "hash": "9840966e87fe6401d5ec348255083703de7f110f",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-31T14:48:02-07:00",
+            "subject": "[GlobalISel] Don't set disjoint flag in lowerFunnelShiftAsShifts if the shift amount may be undef. (#237061)"
+        },
+        {
+            "hash": "99a148b807da7942d629fd8e807d12026fcb5e20",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-31T14:48:40-07:00",
+            "subject": "[TargetLowering] Don't call willNotOverflowSub in expandABD for ABDU with non-negative inputs. (#237338)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
