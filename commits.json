@@ -281571,6 +281571,12 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-10-31T12:03:18-07:00",
             "subject": "[Analysis] Port exported cl::opt variables to AnalysisOptions (#236844)"
+        },
+        {
+            "hash": "5fb6edec3c1a7c2766a77c9e191d6fa65e97c7c3",
+            "author_name": "karthik",
+            "commit_date": "2026-11-01T01:06:36+05:30",
+            "subject": "[LV][RISCV] Fix crash in emitInvalidCostRemarks with EVL load\/store recipes (#237063)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -306393,6 +306399,62 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-10-31T16:17:16Z",
             "subject": "[clang][AST] Check for attributes first in Decl::isWeakImported() (NFC)"
+        }
+    ],
+    "pedroclobo\/perf\/gvn-load-poison": [
+        {
+            "hash": "e9996a2e210d021783d597d99ccd3199b0885d49",
+            "author_name": "Guy David",
+            "commit_date": "2026-10-30T11:04:11+02:00",
+            "subject": "[AArch64] Don't rename fixed implicit uses when forming load\/store pairs (#235446)"
+        },
+        {
+            "hash": "31dd1b546e01abcce770f62f0c42cd29f86ade1a",
+            "author_name": "Pedro Lobo",
+            "commit_date": "2026-10-30T16:48:30Z",
+            "subject": "[InstCombine] Pre-commit tests for `bitextract` of a vector"
+        },
+        {
+            "hash": "8265a0085c555e209fc9c6c5314f884b01bcb953",
+            "author_name": "Pedro Lobo",
+            "commit_date": "2026-10-30T16:48:59Z",
+            "subject": "[InstCombine] Fold `bitextract` of a vector to `extractelement` or `shufflevector`"
+        },
+        {
+            "hash": "68f6b558fa2570577c52903a41dc5a54c85a5357",
+            "author_name": "Pedro Lobo",
+            "commit_date": "2026-10-30T21:31:26Z",
+            "subject": "[GVN] Pre-commit tests for per-lane `poison` in forwarded vectors"
+        },
+        {
+            "hash": "88790a77b3a5a6b8dd87393265f5fdfdb15dd2b2",
+            "author_name": "Pedro Lobo",
+            "commit_date": "2026-10-30T21:31:39Z",
+            "subject": "[GVN] Keep `poison` per lane when forwarding vectors"
+        },
+        {
+            "hash": "7dba3e5296cbf7eac3d361c33cbaa733e5c983d0",
+            "author_name": "Pedro Lobo",
+            "commit_date": "2026-10-30T22:13:16Z",
+            "subject": "[GVN] Pre-commit tests for equivalent `bitextract` and `bitinsert`"
+        },
+        {
+            "hash": "59054bdf147c50102f3f54674ec9bc442aae4c10",
+            "author_name": "Pedro Lobo",
+            "commit_date": "2026-10-30T22:19:25Z",
+            "subject": "[GVN] Fold equivalent `bitextract` and `bitinsert`"
+        },
+        {
+            "hash": "c7a9238e3f75adace104d78d5291d8e5c5933e6b",
+            "author_name": "Pedro Lobo",
+            "commit_date": "2026-10-31T16:59:52Z",
+            "subject": "[GVN] Pre-commit tests for per-bit `poison` and provenance when forwarding a load"
+        },
+        {
+            "hash": "438dafc9b334e4721da216bb3dffa290f17001e4",
+            "author_name": "Pedro Lobo",
+            "commit_date": "2026-10-31T17:01:17Z",
+            "subject": "[GVN] Preserve per-bit `poison` and provenance when forwarding a load"
         }
     ]
 }
