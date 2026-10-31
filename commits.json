@@ -281607,6 +281607,12 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-10-31T20:26:53Z",
             "subject": "[AST] Avoid duplicate isOutOfLine() calls (NFC) (#237621)"
+        },
+        {
+            "hash": "6f2c6936b7f32baf9ab2077dc1d5590906870c6a",
+            "author_name": "Lukas Stephan",
+            "commit_date": "2026-10-31T13:55:31-07:00",
+            "subject": "[ELF] Support NVPTX bitcode with --lto-emit-asm and --lto-emit-llvm (#200679)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -306617,6 +306623,20 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-10-31T14:08:59+01:00",
             "subject": "MachineBasicBlock: Store live-ins in a small inline vector"
+        }
+    ],
+    "nikic\/perf\/evalctx-empty": [
+        {
+            "hash": "1b886f3957be9797805466410f538ec42909f22b",
+            "author_name": "Alan Li",
+            "commit_date": "2026-10-30T17:00:54Z",
+            "subject": "[AMDGPU] Fix VGPR and AGPR critical pressure accounting (#234358)"
+        },
+        {
+            "hash": "71a60e3d7849309d7a4667474ec21e47102755fe",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-10-31T20:48:45Z",
+            "subject": "[clang][Sema] Avoid work on empty containers when popping expression evaluation contexts (NFC)"
         }
     ]
 }
