@@ -281673,6 +281673,12 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-10-31T15:50:18-07:00",
             "subject": "[SLP]Raise slp-schedule-budget to 200000, cut scheduling cost"
+        },
+        {
+            "hash": "da50442b3dd67a30fddaa4c0096c78fb86ef699c",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-10-31T15:57:13-07:00",
+            "subject": "[SLP]Postpone small phi groups to build full register vectors"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -306767,6 +306773,20 @@
             "author_name": "Anonmiraj",
             "commit_date": "2026-11-01T00:21:39+02:00",
             "subject": "[clang] Check for a macro before the presumed file of an attribute"
+        }
+    ],
+    "topperc\/perf\/isel-switch-child-integer": [
+        {
+            "hash": "99a148b807da7942d629fd8e807d12026fcb5e20",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-31T14:48:40-07:00",
+            "subject": "[TargetLowering] Don't call willNotOverflowSub in expandABD for ABDU with non-negative inputs. (#237338)"
+        },
+        {
+            "hash": "9cc19edbf9bd6e48172671b35830bd48f6f81cdc",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-10-31T16:01:45-07:00",
+            "subject": "[DAGISel] Add OPC_SwitchChildInteger to dispatch on an integer child"
         }
     ]
 }
