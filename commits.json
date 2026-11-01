@@ -281913,6 +281913,12 @@
             "author_name": "Bill Wendling",
             "commit_date": "2026-11-01T01:50:02-07:00",
             "subject": "[SelectionDAG] Use the Func kind for inline asm operands only on x86 (#237504)"
+        },
+        {
+            "hash": "62629369deec05bb5a6abdb58e33975b339f9577",
+            "author_name": "Brad Smith",
+            "commit_date": "2026-11-01T04:02:40-05:00",
+            "subject": "[SPARC] Accept rN register names in getRegisterByName (#237528)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -306795,28 +306801,34 @@
     ],
     "a-tarasyuk\/perf\/129365": [
         {
-            "hash": "c7a69e6fc6d40c220f58487039f05fe6b9f5d16c",
-            "author_name": "Arseniy Obolenskiy",
-            "commit_date": "2026-10-30T11:39:06+01:00",
-            "subject": "[SPIR-V] Fix frexp crash when the exponent result is unused (#236928)"
+            "hash": "90f8a7bcd982e8a1400ea31ed032f459eaa0b5ea",
+            "author_name": "Michael Klemm",
+            "commit_date": "2026-11-01T09:42:19+01:00",
+            "subject": "[OpenMP] Add code owners for OpenMP runtime (#236211)"
         },
         {
-            "hash": "6549e163b09f24f8da2597d6ae8dc1ee1c3a3079",
+            "hash": "6a8291c3ac626699e004c64f6dcd4b504a7dbfbc",
             "author_name": "Oleksandr Tarasiuk",
-            "commit_date": "2026-10-30T12:46:49+02:00",
+            "commit_date": "2026-11-01T10:50:52+02:00",
             "subject": "[Clang] support storage-class specifiers in C23 compound literals"
         },
         {
-            "hash": "0785ec455f9e6c8aacf8b5642f98c240e38f1290",
+            "hash": "15af90d52b51fa45209c0ed80b0051c6dcf11918",
             "author_name": "Oleksandr Tarasiuk",
-            "commit_date": "2026-10-30T13:12:20+02:00",
+            "commit_date": "2026-11-01T10:50:52+02:00",
             "subject": "remove redundant compound literal check"
         },
         {
-            "hash": "1cdbc423761361e093c8b699855e964d4de4f0fd",
+            "hash": "9a89860c2cb67512fa880486f413dc15798af70a",
             "author_name": "Oleksandr Tarasiuk",
-            "commit_date": "2026-10-31T15:00:51+02:00",
+            "commit_date": "2026-11-01T10:50:52+02:00",
             "subject": "reduce overhead of C23 constexpr object checks"
+        },
+        {
+            "hash": "60d1b91f8f9e8567f82066e409772661fb19c7a9",
+            "author_name": "Oleksandr Tarasiuk",
+            "commit_date": "2026-11-01T10:50:52+02:00",
+            "subject": "reuse printing policy and split compound literal lookahead"
         }
     ],
     "clemenswasser\/perf\/aaresults-bump-models": [
