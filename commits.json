@@ -307208,5 +307208,19 @@
             "commit_date": "2026-11-01T10:17:12+01:00",
             "subject": "[clang][AST] Check for attributes first in Decl::isWeakImported() (NFC)"
         }
+    ],
+    "nikic\/perf\/vt-pointer-induction-align": [
+        {
+            "hash": "474a9587dca7b37427405f86a8bf42090293f796",
+            "author_name": "Aochang Liu",
+            "commit_date": "2026-11-01T09:21:33+01:00",
+            "subject": "[InstSimplify] Only fold gep of a pointer difference when the division is exact (#237685)"
+        },
+        {
+            "hash": "9c0897104e43e42b280c613c9e710e958eaf6d56",
+            "author_name": "Anilava Kundu",
+            "commit_date": "2026-11-01T18:38:45+01:00",
+            "subject": "Know alignment of pointer IVs stepped by a GEP"
+        }
     ]
 }
