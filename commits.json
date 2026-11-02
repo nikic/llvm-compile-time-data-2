@@ -77029,22 +77029,22 @@
     ],
     "tbaederr\/perf\/ce-test": [
         {
-            "hash": "fac4500420cdeed42f35537a26eea1e4e17badf0",
-            "author_name": "Lo3wer",
-            "commit_date": "2026-10-26T09:05:50Z",
-            "subject": "[ARM] Optimize code for 0 and int min (#229489)"
+            "hash": "b77604e40a41976f60fff9ac2025330bfd230157",
+            "author_name": "Zack Johnson",
+            "commit_date": "2026-11-02T09:39:30-05:00",
+            "subject": "[lldb] Avoid per-thread searches when setting stop info (#236818)"
         },
         {
-            "hash": "ba6baac10d1c9b7174629a8cd20667ee100d5127",
+            "hash": "daaf4568fe2bebc01958877328466c08c9dddce1",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-26T10:06:45+01:00",
+            "commit_date": "2026-11-02T15:40:04+01:00",
             "subject": "Test"
         },
         {
-            "hash": "dd40aed5cad60b05ad88d08ee1547bd98de439c9",
+            "hash": "fe71749151870162bf382512c85df917b95dcf6e",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-10-26T10:06:45+01:00",
-            "subject": "HasTrivialDtor"
+            "commit_date": "2026-11-02T15:40:10+01:00",
+            "subject": "remove isIntegerConstantExpr call"
         }
     ],
     "dtcxzyw\/perf\/nonnull-at-callsite": [
@@ -282831,6 +282831,48 @@
             "author_name": "Timm Baeder",
             "commit_date": "2026-11-02T14:14:08Z",
             "subject": "[clang][bytecode] Remove constexpr from Block::allocSize() (#237963)"
+        },
+        {
+            "hash": "5294924b9a696300618e495e0a97a88252c2eafe",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-11-02T14:27:48Z",
+            "subject": "[MIR] Make `tracksRegLiveness` true by default (take 2) (#233937)"
+        },
+        {
+            "hash": "a02178ff8bc59a0f1d0728f8d6cfd05f0dd8de25",
+            "author_name": "Endre F\u00fcl\u00f6p",
+            "commit_date": "2026-11-02T14:28:16Z",
+            "subject": "[analyzer] Fix mtx_timedlock in unix.BlockInCriticalSection (#237154)"
+        },
+        {
+            "hash": "937a55a22b14104e38c5985eeb5e45dbbf8a5886",
+            "author_name": "Martin Wehking",
+            "commit_date": "2026-11-02T14:35:27Z",
+            "subject": "[AArch64][NEON] Extend zero vec insertion folding (#232845)"
+        },
+        {
+            "hash": "e3c929c8f1bca3e96dcb3c3b1886f25f8244bb5d",
+            "author_name": "Momchil Velikov",
+            "commit_date": "2026-11-02T14:35:31Z",
+            "subject": "Disable pre-link LTO vectorisation and loop unroll for at O2 and O3 optimisation levels (#195886)"
+        },
+        {
+            "hash": "373393a2956e60b74195734b112bfa0ee24b64b4",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-11-02T15:36:11+01:00",
+            "subject": "[clang][bytecode][NFC] Fix a typo in `Record::findVirtualBase()` (#237942)"
+        },
+        {
+            "hash": "ef1b20bebe2cb17a02c18a25b863db75d40a3d91",
+            "author_name": "Markus B\u00f6ck",
+            "commit_date": "2026-11-02T14:38:58Z",
+            "subject": "[mlir] Move sharding interface impls into extension libraries (#237987)"
+        },
+        {
+            "hash": "b77604e40a41976f60fff9ac2025330bfd230157",
+            "author_name": "Zack Johnson",
+            "commit_date": "2026-11-02T09:39:30-05:00",
+            "subject": "[lldb] Avoid per-thread searches when setting stop info (#236818)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
