@@ -282927,6 +282927,24 @@
             "author_name": "Arseniy Obolenskiy",
             "commit_date": "2026-11-02T16:42:21+01:00",
             "subject": "[AMDGPU][MLGO] Add regalloc scoring pass to the optimized pipeline (#229668)"
+        },
+        {
+            "hash": "48f82ab2d55dd77742e61a87397f4b9cb4dbe807",
+            "author_name": "Oskar Wirga",
+            "commit_date": "2026-11-02T07:51:32-08:00",
+            "subject": "[llvm-objdump] Decode arm64e chained fixups (#234001)"
+        },
+        {
+            "hash": "63d25f40f59c7ad630aae6d2d1530a065bab5fc6",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-02T16:52:18+01:00",
+            "subject": "[MLIR][LLVM] Preserve inline asm call attributes with operand_attrs (#233770)"
+        },
+        {
+            "hash": "3bd152ddbb6df45e0e07d6c9e9eb1573dcfd3dc6",
+            "author_name": "Oskar Wirga",
+            "commit_date": "2026-11-02T07:58:07-08:00",
+            "subject": "[lld-macho] Check the alignment of every chained fixup (#234006)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -308141,6 +308159,20 @@
             "author_name": "Dmitrii Makogon",
             "commit_date": "2026-11-02T10:25:11Z",
             "subject": "[SCEV] Don't recurse into isKnownPredicate from IsKnownPredicateViaAddRecStart"
+        }
+    ],
+    "MaskRay\/perf\/analysis-options-more": [
+        {
+            "hash": "1d2213482e646e158631d0c5ca1ec375a06dbed5",
+            "author_name": "DylanFleming-arm",
+            "commit_date": "2026-11-02T15:17:45Z",
+            "subject": "[libc][mathvec] Change mathvec prefix to _LMV (#237333)"
+        },
+        {
+            "hash": "53160a0ec5204279c0d76d5842ec17dfc1d7dc57",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-11-02T07:35:14-08:00",
+            "subject": "[Analysis] Port more cl::opt options to AnalysisOptions"
         }
     ]
 }
