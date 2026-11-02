@@ -308318,5 +308318,37 @@
             "commit_date": "2026-11-02T07:35:14-08:00",
             "subject": "[Analysis] Port more cl::opt options to AnalysisOptions"
         }
+    ],
+    "yafet-a\/perf\/fusion-mixed-vectorizability": [
+        {
+            "hash": "a244d7762eecc19c327ce1e65a995e466962ab05",
+            "author_name": "YafetBeyene",
+            "commit_date": "2026-10-14T10:02:49+01:00",
+            "subject": "[LoopFusion] Initial Cost Model (#224626)"
+        },
+        {
+            "hash": "b1dd7a57afe85c15cc3a880a6b7815d554737d68",
+            "author_name": "Yafet Beyene",
+            "commit_date": "2026-10-28T05:41:06-07:00",
+            "subject": "feat: enable LoopFusion by default at O3"
+        },
+        {
+            "hash": "37d31bc26c49a17c180a7994ee86065f7917b28b",
+            "author_name": "Yafet Beyene",
+            "commit_date": "2026-11-02T09:08:49-08:00",
+            "subject": "[CT-ONLY] Default loop-fusion-min-reused-values to 0 (unrestricted fusion)"
+        },
+        {
+            "hash": "c628404cf85dbb4b72633ee78efcb7ba5f778a4f",
+            "author_name": "Yafet Beyene",
+            "commit_date": "2026-11-02T09:08:50-08:00",
+            "subject": "[LoopFusion] Do not fuse vectorizable loops with non-vectorizable loops"
+        },
+        {
+            "hash": "cf95bd953424674048f627ec1963dd7d6f434250",
+            "author_name": "Yafet Beyene",
+            "commit_date": "2026-11-02T09:08:50-08:00",
+            "subject": "[CT-ONLY] Restore loop-fusion-min-reused-values default to 1"
+        }
     ]
 }
