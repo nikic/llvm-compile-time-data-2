@@ -283401,6 +283401,24 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-11-02T20:51:43Z",
             "subject": "CodeGen: Maintain the dominator tree in MachinePipeliner (#237473)"
+        },
+        {
+            "hash": "105335d048a33a77deed28c8ff4838dfe723cb62",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-11-02T15:54:25-05:00",
+            "subject": "[SLP][NFC]Add extra test for non-power-of-2 vectorization, NFC"
+        },
+        {
+            "hash": "8cf3a939926ac561f0aa866695869271f07a3779",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-11-02T13:00:03-08:00",
+            "subject": "[RISCV][P-ext] Combine riscv.pmhacc.b0 and riscv.pmhacc.h0 into a single intrinsic. (#238068)"
+        },
+        {
+            "hash": "e2e1703c2143de0d5dd4eaf26b8ac1a4daad8800",
+            "author_name": "Kaitlin Peng",
+            "commit_date": "2026-11-02T13:01:42-08:00",
+            "subject": "[Matrix] Implement matrix support for the `step` intrinsic (#236850)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -308695,6 +308713,38 @@
             "author_name": "eleviant",
             "commit_date": "2026-11-02T12:01:04-08:00",
             "subject": "[AArch64] Remove blocks orphaned by redundant copy elimination - #234125"
+        }
+    ],
+    "AbhayKanhere\/perf\/ce-link-decomposition-doeshold": [
+        {
+            "hash": "5c1249f233942a821df1b58ba7706304693fa12b",
+            "author_name": "Yao Qi",
+            "commit_date": "2026-11-02T11:54:25-08:00",
+            "subject": "[lldb\/crashlog] Fix flaky tests that mixed stderr and stdout (#237920)"
+        },
+        {
+            "hash": "9d34b27dfd9a77e13c4c640e6ed63b62b9cdb62d",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-11-02T11:56:01-08:00",
+            "subject": "[ConstraintElim] Link decompositions in doesHold"
+        },
+        {
+            "hash": "e86aaffb98cc80e190685be4f43e84fd9722cd0a",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-11-02T11:56:02-08:00",
+            "subject": "[ConstraintElim] Assert no rows are added while link rows are pushed"
+        },
+        {
+            "hash": "9fbdd31191eeaed5f23e9b8e0cd4ec487aa4b17a",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-11-02T11:56:02-08:00",
+            "subject": "[ConstraintElim] Use a callback for link rows instead of a struct"
+        },
+        {
+            "hash": "9d4d99b3132f8b1527fd7dd788756d2089deb694",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-11-02T11:56:02-08:00",
+            "subject": "[ConstraintElim] Make tryWithLinkRows a ConstraintInfo member (NFC)"
         }
     ]
 }
