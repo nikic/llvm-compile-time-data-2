@@ -282357,6 +282357,48 @@
             "author_name": "Alok Kumar Sharma",
             "commit_date": "2026-11-02T12:34:41+05:30",
             "subject": "[CoroSplit] Use resume-switch weights on the final-suspend destroy branch (#237526)"
+        },
+        {
+            "hash": "981461a9a5b17af96c3803ffb0ed98f58a97be17",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-11-01T23:07:14-08:00",
+            "subject": "[RISCV][P-ext] Convert riscv_psati\/usati to RISCVISD::SATI\/USATI in ReplaceNodeResults. (#237752)"
+        },
+        {
+            "hash": "25af3ac96b0f23103809987cc13eec8109654296",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-11-01T23:07:37-08:00",
+            "subject": "[RISCV][P-Ext] Combine duplicate code for scalar i32 scalar intrinsics. (#237668)"
+        },
+        {
+            "hash": "3005314f0e038cec18776c07fe809272c9c899ac",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-11-01T23:07:59-08:00",
+            "subject": "[RISCV] Add Defs to PseudoTAIL and PseudoTAILX7. (#237449)"
+        },
+        {
+            "hash": "3ebd8b97a55fff1391505eae9e74a907a83636c1",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-11-01T23:08:45-08:00",
+            "subject": "[RISCV][GISel] Drop nsw and nuw flags when promoting s32 add, sub, and shl on RV64. (#234782)"
+        },
+        {
+            "hash": "52726c575d5a735fe2656ffaf057ad2e419778b7",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-11-01T23:09:11-08:00",
+            "subject": "[RISCV][P-ext] Add isel patterns for RISCVISD::MERGE with vector types. (#237361)"
+        },
+        {
+            "hash": "b135cedcd860b9384c4da9a3dd95fb2ffa7a626e",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-02T07:12:48Z",
+            "subject": "RuntimeLibcalls: Add signext\/zeroext attributes to libcall signatures (#237481)"
+        },
+        {
+            "hash": "65303e81f481bbfe386b8596423f94c43198ba94",
+            "author_name": "Teja Alaghari",
+            "commit_date": "2026-11-02T07:15:06Z",
+            "subject": "[AMDGPU] Preserve live SCC when shrinking disjoint S_OR_B32 to S_ADDK_I32 (#228025)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
