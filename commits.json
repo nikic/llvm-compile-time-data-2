@@ -308914,5 +308914,25 @@
             "commit_date": "2026-11-02T11:56:02-08:00",
             "subject": "[ConstraintElim] Make tryWithLinkRows a ConstraintInfo member (NFC)"
         }
+    ],
+    "AbhayKanhere\/perf\/ce-add-nuw-sub-bound-182188221-1of3": [
+        {
+            "hash": "169dccf6ff1ef3b63a131eaa41094d633a77010e",
+            "author_name": "Kyungwoo Lee",
+            "commit_date": "2026-11-02T15:38:35-08:00",
+            "subject": "[lld][MachO] Fix ObjC stubs from autolinked archives (#219743)"
+        },
+        {
+            "hash": "f2f8b9f5819d22295c191179de561f3231156b49",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-11-02T15:41:26-08:00",
+            "subject": "[ConstraintElim] Prove nuw of an add bounded by a sub in isKnownNoWrap"
+        },
+        {
+            "hash": "f87bc0710897e7746cddeeeb0a1a89faeffb325c",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-11-02T15:41:27-08:00",
+            "subject": "[ConstraintElim] Add test for nuw of an add bounded by a load index"
+        }
     ]
 }
