@@ -282417,6 +282417,12 @@
             "author_name": "Mel Chen",
             "commit_date": "2026-11-02T08:04:26Z",
             "subject": "[LV] Add test case for interleaved group with dead loads. nfc  (#236107)"
+        },
+        {
+            "hash": "d1e7c0dc099e148f934775502616ffbb96804864",
+            "author_name": "Benjamin Maxwell",
+            "commit_date": "2026-11-02T08:08:17Z",
+            "subject": "[LV] Generate checks for crash tests (NFC) (#237701)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -306773,28 +306779,22 @@
     ],
     "fhahn\/perf\/basicaa-phi-alloca": [
         {
-            "hash": "679fd35aa02e1a55371f47815a9601ed8432937c",
-            "author_name": "Finn Plummer",
-            "commit_date": "2026-10-27T21:19:04Z",
-            "subject": "[HLSL] Add support for SV_StartInstanceLocation (#235851)"
+            "hash": "65303e81f481bbfe386b8596423f94c43198ba94",
+            "author_name": "Teja Alaghari",
+            "commit_date": "2026-11-02T07:15:06Z",
+            "subject": "[AMDGPU] Preserve live SCC when shrinking disjoint S_OR_B32 to S_ADDK_I32 (#228025)"
         },
         {
-            "hash": "569d445c4bde48d158d495742e4204117d67c03b",
+            "hash": "e7b1c57ce87213aeea630ec1ca51f16f989bc376",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-28T00:09:24Z",
-            "subject": "[BasicAA] Don't count recursive phi sources as phi sources."
-        },
-        {
-            "hash": "ad20586d729f18c2ff04ecad49ceeb4fa85de3ad",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-28T00:09:30Z",
+            "commit_date": "2026-11-02T09:11:05+01:00",
             "subject": "[BasicAA] Check underlying objects of phis instead of giving up."
         },
         {
-            "hash": "0ce7ddd62bb98604e943189055d93e79ab7396fc",
+            "hash": "7fdb97a8d4a6c533c834b3166e21b4b93057caba",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-28T00:10:11Z",
-            "subject": "[BasicAA] Reduce compile-time of phi underlying object walk (NFC)."
+            "commit_date": "2026-11-02T09:11:10+01:00",
+            "subject": "[BasicAA] Use getUnderlyingObjects with visit limit in aliasPHI (NFC)."
         }
     ],
     "nikic\/perf\/instcombine-load-gep-select": [
