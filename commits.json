@@ -284319,6 +284319,24 @@
             "author_name": "Kuba (Brecka) Mracek",
             "commit_date": "2026-11-03T14:26:05Z",
             "subject": "[clang][Inliner] Off-by-default likely_module_local optimizer hints for linkonce_odr non-header-file definitions (#228074)"
+        },
+        {
+            "hash": "49a0b4858389ec0afe0988641f4a6726e7c4ea82",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-11-03T15:38:32+01:00",
+            "subject": "[clang][bytecode][NFC] Remove Program::Global (#238321)"
+        },
+        {
+            "hash": "12a4fb1d854b7b11a5e54778f056259552e83462",
+            "author_name": "Daviding",
+            "commit_date": "2026-11-03T14:41:17Z",
+            "subject": "[MLIR][SCF] Include IndexSwitchOp in scf.yield aliasing (#236644)"
+        },
+        {
+            "hash": "203decbe202f82cbd25d7e5dcf1c2b442c10c9d4",
+            "author_name": "Abhina Sree",
+            "commit_date": "2026-11-03T09:43:30-05:00",
+            "subject": "[SystemZ][z\/OS] Add a ForceUTF8 to OpenFlags to open tablegen files as UTF-8 on z\/OS (#235887)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -309765,6 +309783,20 @@
             "author_name": "Guy David",
             "commit_date": "2026-11-03T14:57:04+02:00",
             "subject": "[LAA] Let clients choose the value symbolic strides are speculated to (NFC)"
+        }
+    ],
+    "zyn0217\/perf\/ove-nfc": [
+        {
+            "hash": "98505e6e7322069e890d1f7b0c923ed64ad5b862",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-10-14T09:29:32+02:00",
+            "subject": "[libc++] Use a custom once_flag implementation for locale::id::__get() (#212235)"
+        },
+        {
+            "hash": "3cbe29ef2160f507891d96e7464fd89c8bf81ff5",
+            "author_name": "Younan Zhang",
+            "commit_date": "2026-11-03T22:37:10+08:00",
+            "subject": "[clang][NFC] Don't track OpaqueValueExpr in bad conversion sequence"
         }
     ]
 }
