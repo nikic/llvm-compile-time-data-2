@@ -284589,6 +284589,36 @@
             "author_name": "lsh4711",
             "commit_date": "2026-11-03T16:50:26Z",
             "subject": "[clang] Fix crash on __builtin_addressof of an overload set (#235313)"
+        },
+        {
+            "hash": "90b5f66b4106ba51c388a531dab3c4ffa37f0938",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-11-03T08:55:24-08:00",
+            "subject": "[llubi] Report immediate UB for returning from a noreturn function (#238135)"
+        },
+        {
+            "hash": "352d9bcc7b6689e5993c30df5658dadb60442a7a",
+            "author_name": "schittir",
+            "commit_date": "2026-11-03T11:56:28-05:00",
+            "subject": "[clang][SYCL] Diagnose variadic sycl_external function (#216393)"
+        },
+        {
+            "hash": "c502f911c720e8f90a3b835a5d9f459a0a3af001",
+            "author_name": "Eugene Epshteyn",
+            "commit_date": "2026-11-03T11:57:07-05:00",
+            "subject": "[mlir] Move ApplyConversionAction into an anonymous namespace (#238420)"
+        },
+        {
+            "hash": "c3b53549886cd03178ac736b4005316805e3c0b4",
+            "author_name": "David Young",
+            "commit_date": "2026-11-03T08:58:52-08:00",
+            "subject": "[bazel][lldb] Add more lldb Shell tests that don't need %lldb (#238182)"
+        },
+        {
+            "hash": "9d5ad1def3f22a82a5d827198749dfff885901ab",
+            "author_name": "Tom Eccles",
+            "commit_date": "2026-11-03T16:59:38Z",
+            "subject": "[flang][OpenMP] Improve Array Section Diagnostics (#235855)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -310049,6 +310079,26 @@
             "author_name": "Younan Zhang",
             "commit_date": "2026-11-03T22:37:10+08:00",
             "subject": "[clang][NFC] Don't track OpaqueValueExpr in bad conversion sequence"
+        }
+    ],
+    "d-makogon\/perf\/indvars-rem-use-ctx": [
+        {
+            "hash": "7fa2a58948911af109bcb0b96ce5641bb89e71e4",
+            "author_name": "Murthy-Manideep",
+            "commit_date": "2026-11-03T07:12:02-05:00",
+            "subject": "[clang] Fix extra error message (#235427)"
+        },
+        {
+            "hash": "a0f4e4650f1ceab123396e9349b0b914e91a99ef",
+            "author_name": "Dmitrii Makogon",
+            "commit_date": "2026-11-03T16:47:20Z",
+            "subject": "[IndVarSimplify][NFC] Add a test for a rem guarded by a branch"
+        },
+        {
+            "hash": "10f89b9b56fb2fac83110c847a912165b63ffe9a",
+            "author_name": "Dmitrii Makogon",
+            "commit_date": "2026-11-03T16:48:58Z",
+            "subject": "[IndVarSimplify] Use the rem as context when simplifying it"
         }
     ]
 }
