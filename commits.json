@@ -285003,6 +285003,18 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-11-03T13:42:45-08:00",
             "subject": "Attributor: Invalidate analyses when attributor-light only changes attributes (#231397)"
+        },
+        {
+            "hash": "3c4aa885091c12572281a7117dd254907d8cd732",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-11-03T13:46:25-08:00",
+            "subject": "[CIR] Implement 'asm label' lowering. (#238509)"
+        },
+        {
+            "hash": "3e659e457384a24894f07ddbcdb3ef774c22d1f7",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-11-03T13:52:32-08:00",
+            "subject": "[new-prs-labeler] Add labels for LV, LAA, SCEV (#228086)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -310531,6 +310543,20 @@
             "author_name": "Dmitrii Makogon",
             "commit_date": "2026-11-03T16:56:07Z",
             "subject": "[SCEV] Use the loop predecessor as context for URem checks in SolveLinEquationWithOverflow"
+        }
+    ],
+    "nikic\/perf\/vt-knownbits-var": [
+        {
+            "hash": "474a9587dca7b37427405f86a8bf42090293f796",
+            "author_name": "Aochang Liu",
+            "commit_date": "2026-11-01T09:21:33+01:00",
+            "subject": "[InstSimplify] Only fold gep of a pointer difference when the division is exact (#237685)"
+        },
+        {
+            "hash": "8eedb34159c4ac63ef6ebae9927e99cd9ddfa1ca",
+            "author_name": "John Lu",
+            "commit_date": "2026-11-03T22:55:19+01:00",
+            "subject": "Allow compares against a variable bound to be analyzed"
         }
     ]
 }
