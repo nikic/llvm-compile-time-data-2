@@ -284619,6 +284619,24 @@
             "author_name": "Tom Eccles",
             "commit_date": "2026-11-03T16:59:38Z",
             "subject": "[flang][OpenMP] Improve Array Section Diagnostics (#235855)"
+        },
+        {
+            "hash": "906369ba38fe63abb144baf9c9ec39366e9d563b",
+            "author_name": "Benedek Kaibas",
+            "commit_date": "2026-11-03T18:02:43+01:00",
+            "subject": "[analyzer] Standardize diagnostic messages that contained multiple sentences across the CSA checkers (#237410)"
+        },
+        {
+            "hash": "276a858e0376ab79da1552fbd274c1aaf62c8b00",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-11-03T17:06:13Z",
+            "subject": "Revert \"[lld][MachO] Support Objective-C class selector stubs\" (#238435)"
+        },
+        {
+            "hash": "446cfbe6f546780f933048016ad342ac278657ff",
+            "author_name": "Amr Hesham",
+            "commit_date": "2026-11-03T17:08:26Z",
+            "subject": "[CIR] Implement HLSL vector element lvalue scalar swizzles (#238425)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -310099,6 +310117,48 @@
             "author_name": "Dmitrii Makogon",
             "commit_date": "2026-11-03T16:48:58Z",
             "subject": "[IndVarSimplify] Use the rem as context when simplifying it"
+        }
+    ],
+    "d-makogon\/perf\/loop-deref-use-ctx": [
+        {
+            "hash": "7fa2a58948911af109bcb0b96ce5641bb89e71e4",
+            "author_name": "Murthy-Manideep",
+            "commit_date": "2026-11-03T07:12:02-05:00",
+            "subject": "[clang] Fix extra error message (#235427)"
+        },
+        {
+            "hash": "95302e779fc269567247d7d7b5264ab009884fbf",
+            "author_name": "Dmitrii Makogon",
+            "commit_date": "2026-11-03T16:50:25Z",
+            "subject": "[LAA][Loads] Use the loop entry as context in dereferenceability checks"
+        }
+    ],
+    "d-makogon\/perf\/loop-transforms-preheader-use-ctx": [
+        {
+            "hash": "7fa2a58948911af109bcb0b96ce5641bb89e71e4",
+            "author_name": "Murthy-Manideep",
+            "commit_date": "2026-11-03T07:12:02-05:00",
+            "subject": "[clang] Fix extra error message (#235427)"
+        },
+        {
+            "hash": "21d3cb43880dbe8455a68b5cf7c49ec4af7da976",
+            "author_name": "Dmitrii Makogon",
+            "commit_date": "2026-11-03T16:53:56Z",
+            "subject": "[IRCE][LoopPredication][LoopBoundSplit] Use the preheader as context"
+        }
+    ],
+    "d-makogon\/perf\/scev-solve-lin-equation-use-ctx": [
+        {
+            "hash": "7fa2a58948911af109bcb0b96ce5641bb89e71e4",
+            "author_name": "Murthy-Manideep",
+            "commit_date": "2026-11-03T07:12:02-05:00",
+            "subject": "[clang] Fix extra error message (#235427)"
+        },
+        {
+            "hash": "5ba72a14fc743fdfb5fb8647cddceedfca8bdd4b",
+            "author_name": "Dmitrii Makogon",
+            "commit_date": "2026-11-03T16:56:07Z",
+            "subject": "[SCEV] Use the loop predecessor as context for URem checks in SolveLinEquationWithOverflow"
         }
     ]
 }
