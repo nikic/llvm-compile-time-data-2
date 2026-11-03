@@ -283593,6 +283593,24 @@
             "author_name": "gulfemsavrun",
             "commit_date": "2026-11-02T15:54:44-08:00",
             "subject": "Revert \"[PassBuilder] Add extra ModuleInliner\/SROA\/SimplifyCFG\/LICM to late FullLTO passes\" (#238109)"
+        },
+        {
+            "hash": "74c9938e2b57c708900db28348d8fc9fc0604eb9",
+            "author_name": "Jiaxun Yang",
+            "commit_date": "2026-11-02T23:58:16Z",
+            "subject": "[Mips] Fix disassembler linking in shared builds (#238133)"
+        },
+        {
+            "hash": "9b3037a3474c2c5fc9ee2e873e4e2252f3d25f08",
+            "author_name": "Slava Zakharin",
+            "commit_date": "2026-11-02T16:01:17-08:00",
+            "subject": "[mlir][acc] Apply tile sizes to the innermost loop first (#237355)"
+        },
+        {
+            "hash": "9640b6a6cc9516095c37006f78438e6aa7fc7c05",
+            "author_name": "Slava Zakharin",
+            "commit_date": "2026-11-02T16:03:12-08:00",
+            "subject": "[mlir][acc] Do not tile unstructured loops (#237357)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -308945,6 +308963,44 @@
             "author_name": "Abhay Kanhere",
             "commit_date": "2026-11-02T15:41:27-08:00",
             "subject": "[ConstraintElim] Add test for nuw of an add bounded by a load index"
+        }
+    ],
+    "AbhayKanhere\/perf\/ce-overflow-intrinsic-nowrap": [
+        {
+            "hash": "74c9938e2b57c708900db28348d8fc9fc0604eb9",
+            "author_name": "Jiaxun Yang",
+            "commit_date": "2026-11-02T23:58:16Z",
+            "subject": "[Mips] Fix disassembler linking in shared builds (#238133)"
+        },
+        {
+            "hash": "f0eddf7349abdb9289978d8bc21aee6edf1beb0f",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-11-02T15:59:00-08:00",
+            "subject": "[ConstraintElim] Decompose guarded add\/sub.with.overflow results"
+        },
+        {
+            "hash": "8bbbe213c24ae8278a5f6ea3aeadda3e845d2d60",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-11-02T15:59:01-08:00",
+            "subject": "[ConstraintElim] Use a scoped fact for no-overflow add\/sub.with.overflow"
+        },
+        {
+            "hash": "de02072a61701cb0eb9efc6e6c02494982816890",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-11-02T15:59:01-08:00",
+            "subject": "[ConstraintElim] Add ExtractValue to mayLookThrough"
+        },
+        {
+            "hash": "d00363a120dbbe34ad171a0e5f7ffdf9bd3a8cfc",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-11-02T15:59:02-08:00",
+            "subject": "[PhaseOrdering] Remove srem-index-bounds-check.ll"
+        },
+        {
+            "hash": "b302aad82a80342d04b638d675faaf47194c4294",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-11-02T15:59:02-08:00",
+            "subject": "[ConstraintElim] Add no-overflow results as equality facts"
         }
     ]
 }
