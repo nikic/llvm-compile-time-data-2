@@ -285087,6 +285087,12 @@
             "author_name": "Erich Keane",
             "commit_date": "2026-11-03T23:22:00Z",
             "subject": "[CIR] Implement local 'cleanup' attribute (#238501)"
+        },
+        {
+            "hash": "e2e487dfa68ae0fa223e369300132cd270c43576",
+            "author_name": "Gheorghe-Teodor Bercea",
+            "commit_date": "2026-11-03T23:38:34Z",
+            "subject": "[AMDGPU] Clear NoPHIs after SIFixSGPRCopies under the new pass manager (#238531)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -310643,6 +310649,20 @@
             "author_name": "Abhay Kanhere",
             "commit_date": "2026-11-03T15:02:31-08:00",
             "subject": "[IndVarSimplify] Place invariant exit compares in the outermost preheader"
+        }
+    ],
+    "AbhayKanhere\/perf\/o2-trivial-unswitch-after-licm": [
+        {
+            "hash": "56f7848ba9705153682da7a1377ae8b12473634f",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-11-03T23:22:00Z",
+            "subject": "[CIR] Implement local 'cleanup' attribute (#238501)"
+        },
+        {
+            "hash": "f9f08d29aff48b92a52e87b4204160d71f75638c",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-11-03T15:37:30-08:00",
+            "subject": "[PassBuilder] Run trivial loop unswitching after late function-simplification LICM"
         }
     ]
 }
