@@ -284295,6 +284295,18 @@
             "author_name": "Yongqiang Tian",
             "commit_date": "2026-11-03T14:08:38Z",
             "subject": "[ARM][MachineOutliner] Ignore debug instructions in LR liveness (#237527)"
+        },
+        {
+            "hash": "bec9e60494416d9af42ee16bf2bf600b0737de8f",
+            "author_name": "Md Abdullah Shahneous Bari",
+            "commit_date": "2026-11-03T14:14:51Z",
+            "subject": "[mlir][scf] Add an option to emit the peeled partial iteration as scf.if (#236805)"
+        },
+        {
+            "hash": "e06932f84cb402740701cd9cabe6b033c03d9352",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-11-03T14:17:20Z",
+            "subject": "[Hexagon] pr196966.ll - regenerate test checks (#238336)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -309727,6 +309739,20 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-11-03T13:54:29Z",
             "subject": "[GlobalISel] Remove obsolete getMinimalPhysRegClass cache (NFC)"
+        }
+    ],
+    "guy-david\/perf\/laa-speculated-stride-values": [
+        {
+            "hash": "d5a631483011fd027858d3baeabc04225543dd0e",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-03T10:22:30+01:00",
+            "subject": "[NFC][CIR][AMDGPU] Use amdgpu-amd-amdhsa triple in offload printf tests (#237225)"
+        },
+        {
+            "hash": "35725798f8b66901d89e234e981aad3ba11095b2",
+            "author_name": "Guy David",
+            "commit_date": "2026-11-03T14:57:04+02:00",
+            "subject": "[LAA] Let clients choose the value symbolic strides are speculated to (NFC)"
         }
     ]
 }
