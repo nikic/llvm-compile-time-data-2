@@ -59855,15 +59855,15 @@
     ],
     "RKSimon\/perf\/topological-dag": [
         {
-            "hash": "e0a86c11efad50a2a557ff5c326794d086f8c02b",
-            "author_name": "Jonas Devlieghere",
-            "commit_date": "2026-11-01T09:22:34-08:00",
-            "subject": "[ADT] Fix dangling key in ConcurrentHashTableInfoByPtr::getKey (#237642)"
+            "hash": "932a5ca59564c9e5fe15e21b13d25e67b1ababb6",
+            "author_name": "Kuba (Brecka) Mracek",
+            "commit_date": "2026-11-03T14:26:05Z",
+            "subject": "[clang][Inliner] Off-by-default likely_module_local optimizer hints for linkonce_odr non-header-file definitions (#228074)"
         },
         {
-            "hash": "f25911c3f1b7b07731d62edc23891b2d503e440b",
+            "hash": "97ff53156ed19c1dc88c790f69814e9ade5a4fb1",
             "author_name": "Simon Pilgrim",
-            "commit_date": "2026-11-02T11:57:42Z",
+            "commit_date": "2026-11-03T16:07:32Z",
             "subject": "[DAG] Process DAG nodes in topological order"
         }
     ],
@@ -284493,6 +284493,18 @@
             "author_name": "Leandro Lacerda",
             "commit_date": "2026-11-03T11:05:01-05:00",
             "subject": "[libc][math] Move CR\/RN expf to float_eval_cr_rn namespace (#237614)"
+        },
+        {
+            "hash": "b0af47f03603ed2be112d7ffbde7787f8beba5d9",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-03T17:11:18+01:00",
+            "subject": "[NewPM] Make LoopSimplify, RegToMem and StripConvergenceIntrinsics required (#238319)"
+        },
+        {
+            "hash": "075fa54cdc227e54adb1e56178eaa731ae6d39e5",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-11-03T08:19:08-08:00",
+            "subject": "[LSR] Precommit test with duplicate LCSSA Phi Nodes"
         }
     ],
     "aengelke\/perf\/ooldestr": [
