@@ -283611,6 +283611,12 @@
             "author_name": "Slava Zakharin",
             "commit_date": "2026-11-02T16:03:12-08:00",
             "subject": "[mlir][acc] Do not tile unstructured loops (#237357)"
+        },
+        {
+            "hash": "4e26cc106fcbc3ae92797d266f5a5b8aca4e4aef",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-11-03T01:32:38+01:00",
+            "subject": "[ValueTracking] Make use of range bundle assumptions (#237761)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -309001,6 +309007,20 @@
             "author_name": "Abhay Kanhere",
             "commit_date": "2026-11-02T15:59:02-08:00",
             "subject": "[ConstraintElim] Add no-overflow results as equality facts"
+        }
+    ],
+    "AbhayKanhere\/perf\/scev-nonstrict-rhs-below-max-190744833-178686357": [
+        {
+            "hash": "9640b6a6cc9516095c37006f78438e6aa7fc7c05",
+            "author_name": "Slava Zakharin",
+            "commit_date": "2026-11-02T16:03:12-08:00",
+            "subject": "[mlir][acc] Do not tile unstructured loops (#237357)"
+        },
+        {
+            "hash": "8c51f651759f7cbc99f6fe821cf6ee72687ba491",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-11-02T16:27:00-08:00",
+            "subject": "[SCEV] Compute non-strict exit counts without widening if RHS < MAX"
         }
     ]
 }
