@@ -283791,6 +283791,18 @@
             "author_name": "Craig Topper",
             "commit_date": "2026-11-02T22:19:07-08:00",
             "subject": "[SelectionDAG] Narrow (shr (sub A, B), 1) to AVGSUBFLOOR (#233635)"
+        },
+        {
+            "hash": "8b11ac5b7008a3c2f948e1ee02eae608ca48afd1",
+            "author_name": "Changpeng Fang",
+            "commit_date": "2026-11-02T22:26:00-08:00",
+            "subject": "[AMDGPU][NFC] Use Select helpers for more real instruction encodings (#238112)"
+        },
+        {
+            "hash": "3104f29fa41ff4bb932bc1bf48ca032f1e9dcafa",
+            "author_name": "crZhao",
+            "commit_date": "2026-11-03T14:28:01+08:00",
+            "subject": "[mlir][scf] Preserve parallel loop results during specialization (#212409)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -309195,6 +309207,20 @@
             "author_name": "Abhay Kanhere",
             "commit_date": "2026-11-02T16:27:00-08:00",
             "subject": "[SCEV] Compute non-strict exit counts without widening if RHS < MAX"
+        }
+    ],
+    "tbaederr\/perf\/diag": [
+        {
+            "hash": "b77604e40a41976f60fff9ac2025330bfd230157",
+            "author_name": "Zack Johnson",
+            "commit_date": "2026-11-02T09:39:30-05:00",
+            "subject": "[lldb] Avoid per-thread searches when setting stop info (#236818)"
+        },
+        {
+            "hash": "65728989dc000298baf96935454f51cadef14d14",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-11-03T07:20:52+01:00",
+            "subject": "diag macros"
         }
     ]
 }
