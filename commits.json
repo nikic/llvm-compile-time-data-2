@@ -286383,6 +286383,36 @@
             "author_name": "Zhijie Wang",
             "commit_date": "2026-11-04T12:05:20-08:00",
             "subject": "[mlir][bufferization] Preserve deallocs shared with skipped allocations (#237124)"
+        },
+        {
+            "hash": "9e0f0ee64b41e1c74871b9685fdb25f16b800866",
+            "author_name": "Srividya Sundaram",
+            "commit_date": "2026-11-04T12:09:13-08:00",
+            "subject": "[Clang][SYCL] Disable sycl-system-arch.cpp on macOS (#238500)"
+        },
+        {
+            "hash": "fd7991eb989b7fb5d520b0e06876198e5eea0250",
+            "author_name": "Hubert Tong",
+            "commit_date": "2026-11-04T15:12:08-05:00",
+            "subject": "[NFC][tests] Use +inf in place of +qnan in printf test for portability (#238654)"
+        },
+        {
+            "hash": "8ef60d37281cd9ff595898ae58601b896530bf59",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-04T20:15:16Z",
+            "subject": "RuntimeLibcalls: Add signatures for floating point comparison libcalls (#238521)"
+        },
+        {
+            "hash": "80816564a900c4f1db7225d973980f28d15a295a",
+            "author_name": "Alexey Samsonov",
+            "commit_date": "2026-11-04T12:17:04-08:00",
+            "subject": "Revert \"[libc] Implement sigpending\" (#238924)"
+        },
+        {
+            "hash": "1139ef809b76519c013f660b89d120c7757edb15",
+            "author_name": "Matthew",
+            "commit_date": "2026-11-04T21:17:39+01:00",
+            "subject": "[clang-format] IBS_RegroupByDirectory to add breaks between top level directories (#233877)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -311789,15 +311819,15 @@
     ],
     "AbhayKanhere\/perf\/scev-nonstrict-rhs-below-max-190744833-178686357": [
         {
-            "hash": "9640b6a6cc9516095c37006f78438e6aa7fc7c05",
-            "author_name": "Slava Zakharin",
-            "commit_date": "2026-11-02T16:03:12-08:00",
-            "subject": "[mlir][acc] Do not tile unstructured loops (#237357)"
+            "hash": "56f7848ba9705153682da7a1377ae8b12473634f",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-11-03T23:22:00Z",
+            "subject": "[CIR] Implement local 'cleanup' attribute (#238501)"
         },
         {
-            "hash": "8c51f651759f7cbc99f6fe821cf6ee72687ba491",
+            "hash": "9ea66a5bab108c57d43dd984d702a266e062de68",
             "author_name": "Abhay Kanhere",
-            "commit_date": "2026-11-02T16:27:00-08:00",
+            "commit_date": "2026-11-04T12:08:30-08:00",
             "subject": "[SCEV] Compute non-strict exit counts without widening if RHS < MAX"
         }
     ],
