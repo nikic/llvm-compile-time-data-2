@@ -285351,6 +285351,24 @@
             "author_name": "Alexander Richardson",
             "commit_date": "2026-11-03T21:28:09-08:00",
             "subject": "[RISC-V][MC][RVY] Introduce support for the Zyhybrid extension (#233969)"
+        },
+        {
+            "hash": "4654bf801ee35b51ef7972075b253db98d668ca8",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-04T05:34:52Z",
+            "subject": "CodeGen: Remove -verify-machineinstrs from llc -stop-after IR tests (#238662)"
+        },
+        {
+            "hash": "b7386a095b853b4d2e4602582180f664f4e2e8e0",
+            "author_name": "Anshul Nigham",
+            "commit_date": "2026-11-04T05:37:18Z",
+            "subject": "[clang][test] Update Rewriter tests for shortest float literal printing (#238665)"
+        },
+        {
+            "hash": "d375ded4ec33908bc61395b065c38778590ca5ac",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-11-04T05:37:40Z",
+            "subject": "[RISCV] Use RISCVSubtarget::isSoftFPABI() in RISCV::getArgFPRs. NFC (#238666)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -310921,6 +310939,20 @@
             "author_name": "Abhay Kanhere",
             "commit_date": "2026-11-03T15:37:30-08:00",
             "subject": "[PassBuilder] Run trivial loop unswitching after late function-simplification LICM"
+        }
+    ],
+    "arsenm\/perf\/mir-block-args-v12": [
+        {
+            "hash": "14f07e6d693ce2f13144e42de5fa3ebbb7d72c7e",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-03T21:11:45-08:00",
+            "subject": "MachineLICM: Do not update cached and unpreserved analyses (#237105)"
+        },
+        {
+            "hash": "24752bcb5e6e38a403e49af22ce8015aa7b98f80",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-03T21:35:53-08:00",
+            "subject": "MIR block args mega patch"
         }
     ]
 }
