@@ -285681,6 +285681,42 @@
             "author_name": "nodecoda",
             "commit_date": "2026-11-04T13:39:28Z",
             "subject": "[GlobalISel] Compare element sizes in minScalarSameAs\/maxScalarSameAs (#237753)"
+        },
+        {
+            "hash": "ac3f018d738d7e3415d120b2dd1edc0826fc48f4",
+            "author_name": "Princeton Ferro",
+            "commit_date": "2026-11-04T13:46:05Z",
+            "subject": "[DAGCombiner] in `visitEXTRACT_SUBVECTOR`, don't peek through bitcasts when looking for demanded elements (#237411)"
+        },
+        {
+            "hash": "da33a53597ba7e9c35c4c5bc5cb670aff99325ca",
+            "author_name": "Paul Walker",
+            "commit_date": "2026-11-04T13:47:33Z",
+            "subject": "[LLVM][CodeGen][SVE] Custom lower ISD::MASK_BEFOREFIRST. (#237325)"
+        },
+        {
+            "hash": "376a3916aa4476b416d99526cf2aac508adde792",
+            "author_name": "Kamlesh Kumar",
+            "commit_date": "2026-11-04T13:50:09Z",
+            "subject": "[AArch64] Combine multiple uses of a interleave (#235669)"
+        },
+        {
+            "hash": "8064ba212bb25828bca5d7f370f281510b6edf82",
+            "author_name": "Kiran Chandramohan",
+            "commit_date": "2026-11-04T13:51:36Z",
+            "subject": "[Clang] NFC: Add x86-registered-target to codegen printer test (#238770)"
+        },
+        {
+            "hash": "c5b99ea2731d7d1cd3a851c1fc306bacb630020b",
+            "author_name": "Shilei Tian",
+            "commit_date": "2026-11-04T08:51:55-05:00",
+            "subject": "[RFC][AMDGPU][Doc] Add documentation about ABI occupancy (#224103)"
+        },
+        {
+            "hash": "fd64c07f9ae1d32477849eb930379cf1222cb0d8",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-11-04T13:53:05Z",
+            "subject": "[mlir][tosa] Remove vector unrolling support for apply_scale (#238010)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
