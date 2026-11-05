@@ -287283,6 +287283,12 @@
             "author_name": "Michael Kruse",
             "commit_date": "2026-11-05T12:02:58Z",
             "subject": "[Flang][NFC] Remove trivial uses of SearchTypes (#238479)"
+        },
+        {
+            "hash": "443782fff0c659be544d190df20adfd2a6294ba3",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-11-05T12:05:38Z",
+            "subject": "[ControlFlowHub] Keep the incoming value of a redirected self-loop (#237903)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -312907,6 +312913,34 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-11-05T10:19:37+01:00",
             "subject": "hmm"
+        }
+    ],
+    "antoniofrighetto\/perf\/lvi-consider-ptr-prov": [
+        {
+            "hash": "26ff0e1829fb9e1325cac2176553476f9fd7c49a",
+            "author_name": "Michael Kruse",
+            "commit_date": "2026-11-05T12:02:58Z",
+            "subject": "[Flang][NFC] Remove trivial uses of SearchTypes (#238479)"
+        },
+        {
+            "hash": "0c09f9777dea35ccd4f4ddb64b4956421cd5512e",
+            "author_name": "Antonio Frighetto",
+            "commit_date": "2026-11-05T13:05:02+01:00",
+            "subject": "[LVI][CVP] Consider pointer provenance when pointer equality is assumed"
+        }
+    ],
+    "dfukalov\/perf\/gandhi56-regalloc-cache-failed-reassign": [
+        {
+            "hash": "3108004264effc7c4e5925528386ef8f6e99eb6f",
+            "author_name": "Anshil Gandhi",
+            "commit_date": "2026-10-29T19:42:55Z",
+            "subject": "[SandboxVec][LoadStoreVec] Reject bundles that cannot be scheduled (#236635)"
+        },
+        {
+            "hash": "10ce5d5d0709be6e235b2d9dc322ccd5054f1427",
+            "author_name": "Anshil Gandhi",
+            "commit_date": "2026-10-29T14:45:54-05:00",
+            "subject": "[RegAlloc] Cache failed canReassign searches"
         }
     ]
 }
