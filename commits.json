@@ -287553,6 +287553,24 @@
             "author_name": "jon-gibney",
             "commit_date": "2026-11-05T11:37:00-05:00",
             "subject": "[flang][AliasAnalysis] See through memref casts (#235882)"
+        },
+        {
+            "hash": "202441ca35a2465ce5caca19320bf2aba0725d68",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-11-05T16:39:33Z",
+            "subject": "[DAG] FoldConstantArithmetic - add SMUL_LOHI\/UMUL_LOHI handling (#239207)"
+        },
+        {
+            "hash": "4624ddf7672c6c99538f942e140b3e850b2a738c",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-11-05T08:46:11-08:00",
+            "subject": "[llvm] Remove unused includes (NFC) (#239118)"
+        },
+        {
+            "hash": "3636fcd95a0c983d1f94cae2f3a235914b64766d",
+            "author_name": "Lily Gorsheneva",
+            "commit_date": "2026-11-05T10:46:17-06:00",
+            "subject": "[Bazel] Fix bazel build after 91c7f95 (#239281)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -313253,6 +313271,66 @@
             "author_name": "Kuba Mracek",
             "commit_date": "2026-11-03T22:29:36Z",
             "subject": "[Clang][Inliner] Enable module-local optimizer hints by default"
+        }
+    ],
+    "kubamracek\/perf\/lvi-max-use-4": [
+        {
+            "hash": "202441ca35a2465ce5caca19320bf2aba0725d68",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-11-05T16:39:33Z",
+            "subject": "[DAG] FoldConstantArithmetic - add SMUL_LOHI\/UMUL_LOHI handling (#239207)"
+        },
+        {
+            "hash": "b12a9068cb43c9cd83da982e66497acf8eee2ef5",
+            "author_name": "Kuba Mracek",
+            "commit_date": "2026-11-05T16:46:32Z",
+            "subject": "[LazyValueInfo] Increase MaxUsesToInspect limit from 3 to 4"
+        }
+    ],
+    "kubamracek\/perf\/lvi-max-use-5": [
+        {
+            "hash": "202441ca35a2465ce5caca19320bf2aba0725d68",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-11-05T16:39:33Z",
+            "subject": "[DAG] FoldConstantArithmetic - add SMUL_LOHI\/UMUL_LOHI handling (#239207)"
+        },
+        {
+            "hash": "b12a9068cb43c9cd83da982e66497acf8eee2ef5",
+            "author_name": "Kuba Mracek",
+            "commit_date": "2026-11-05T16:46:32Z",
+            "subject": "[LazyValueInfo] Increase MaxUsesToInspect limit from 3 to 4"
+        },
+        {
+            "hash": "4dbc61ba23eb3146477ef1ce97e5983450faa3f0",
+            "author_name": "Kuba Mracek",
+            "commit_date": "2026-11-05T16:47:07Z",
+            "subject": "[LazyValueInfo] Increase MaxUsesToInspect limit from 3 to 5"
+        }
+    ],
+    "kubamracek\/perf\/lvi-max-use-6": [
+        {
+            "hash": "202441ca35a2465ce5caca19320bf2aba0725d68",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-11-05T16:39:33Z",
+            "subject": "[DAG] FoldConstantArithmetic - add SMUL_LOHI\/UMUL_LOHI handling (#239207)"
+        },
+        {
+            "hash": "b12a9068cb43c9cd83da982e66497acf8eee2ef5",
+            "author_name": "Kuba Mracek",
+            "commit_date": "2026-11-05T16:46:32Z",
+            "subject": "[LazyValueInfo] Increase MaxUsesToInspect limit from 3 to 4"
+        },
+        {
+            "hash": "4dbc61ba23eb3146477ef1ce97e5983450faa3f0",
+            "author_name": "Kuba Mracek",
+            "commit_date": "2026-11-05T16:47:07Z",
+            "subject": "[LazyValueInfo] Increase MaxUsesToInspect limit from 3 to 5"
+        },
+        {
+            "hash": "5d23cee790167dfc389d6fd9b411869359e8c97b",
+            "author_name": "Kuba Mracek",
+            "commit_date": "2026-11-05T16:47:31Z",
+            "subject": "[LazyValueInfo] Increase MaxUsesToInspect limit from 3 to 6"
         }
     ]
 }
