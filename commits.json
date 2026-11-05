@@ -287523,6 +287523,36 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-11-05T16:00:49Z",
             "subject": "[InstrProf] Use CreatePtrAddWithSExtOrTrunc() for bias (#239261)"
+        },
+        {
+            "hash": "dc423521a23156acc8b8483c0d38a6f666c21096",
+            "author_name": "newgre",
+            "commit_date": "2026-11-05T17:32:27+01:00",
+            "subject": "[CopyProf] Add libc interceptors. (#232851)"
+        },
+        {
+            "hash": "71926eeb7dc375ada8aaeb42d0c29efa574971d9",
+            "author_name": "Tim Gymnich",
+            "commit_date": "2026-11-05T16:32:55Z",
+            "subject": "[AMDGPU] Fix malformed copy-like MIR in tests. NFC (#235323)"
+        },
+        {
+            "hash": "beec9ad7c366dd08af89bef6b5c10948673ef364",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-11-05T16:34:04Z",
+            "subject": "[WebAssembly] simd-intrinsics.ll - add missing FAST-ISEL check-prefix (#239269)"
+        },
+        {
+            "hash": "c97aad5ac131849cb1625011f14e4888e511be39",
+            "author_name": "lntue",
+            "commit_date": "2026-11-05T11:35:46-05:00",
+            "subject": "[libc][math] Optimize exp10 to share evaluations with exp and exp2. (#236973)"
+        },
+        {
+            "hash": "960bcc81f88ec4aab37618fb2d0121e5c4343446",
+            "author_name": "jon-gibney",
+            "commit_date": "2026-11-05T11:37:00-05:00",
+            "subject": "[flang][AliasAnalysis] See through memref casts (#235882)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -313209,6 +313239,20 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-11-05T16:13:50+01:00",
             "subject": "Remove C++98 support"
+        }
+    ],
+    "kubamracek\/perf\/module-local-hints-on-by-default": [
+        {
+            "hash": "71653467fa83249f7f748eb05347950f91c46f26",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-03T21:30:17+01:00",
+            "subject": "[MemorySSA] Allocate MemoryUse and MemoryDef with a bump allocator (NFC) (#236419)"
+        },
+        {
+            "hash": "8bb77011b5687e90474f11a7536d5d969c59af73",
+            "author_name": "Kuba Mracek",
+            "commit_date": "2026-11-03T22:29:36Z",
+            "subject": "[Clang][Inliner] Enable module-local optimizer hints by default"
         }
     ]
 }
