@@ -287859,6 +287859,12 @@
             "author_name": "Gregory Roth",
             "commit_date": "2026-11-05T19:14:44Z",
             "subject": "[SPIR-V] Don't incur vector16 capability req for Vulkan (#233985)"
+        },
+        {
+            "hash": "075abaf33a0d6197cb828aa8be5a62192a5a1b83",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-11-05T11:20:35-08:00",
+            "subject": "[clang] Stop visiting ADL candidates during collection multiple times. (#238975)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -313639,6 +313645,44 @@
             "author_name": "Nathan Corbyn",
             "commit_date": "2026-11-05T17:51:56Z",
             "subject": "[MISched] Allow memop clustering in the presence of memory dependencies"
+        }
+    ],
+    "erichkeane\/perf\/ctor-init-list": [
+        {
+            "hash": "8cb153101458de95177f81a475ec5e6a4054cde4",
+            "author_name": "Jake Adamson",
+            "commit_date": "2026-11-04T13:29:24-08:00",
+            "subject": "[scudo] Fix undefined behavior and UBSan integer overflow issues (#238900)"
+        },
+        {
+            "hash": "abed8c12f36e58d8888581ee700e6e130fa75a21",
+            "author_name": "erichkeane",
+            "commit_date": "2026-11-04T15:06:05-08:00",
+            "subject": "Add diag for ctor initializers + increase limit"
+        },
+        {
+            "hash": "6d080b1b65b4ab2080f2aa3f520782623ac0d127",
+            "author_name": "erichkeane",
+            "commit_date": "2026-11-05T06:56:55-08:00",
+            "subject": "Remove the num-inits from the bitfields entirely!"
+        },
+        {
+            "hash": "03be1e546aa81feaee6f0a29adc43fa395af8147",
+            "author_name": "erichkeane",
+            "commit_date": "2026-11-05T07:27:53-08:00",
+            "subject": "Clang-format"
+        },
+        {
+            "hash": "933eb003d38e6b10e130b4c8717077b7f82b8a8e",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-11-05T07:54:47-08:00",
+            "subject": "Remove additional line from the release note."
+        },
+        {
+            "hash": "9edd42cd4e7e0b9602900db68441f960c2d26b53",
+            "author_name": "erichkeane",
+            "commit_date": "2026-11-05T07:57:21-08:00",
+            "subject": "Add missing line in release note from the suggestion auto-apply"
         }
     ]
 }
