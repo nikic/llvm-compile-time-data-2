@@ -287463,6 +287463,18 @@
             "author_name": "Kuba (Brecka) Mracek",
             "commit_date": "2026-11-05T15:08:33Z",
             "subject": "[LowerMemIntrinsics] Explicitly set unknown branch weights in expandBoundedMemSet (#239159)"
+        },
+        {
+            "hash": "b32a7b9a292a49e81223612aed615d0bafd0eb93",
+            "author_name": "Akash Manna",
+            "commit_date": "2026-11-05T15:10:23Z",
+            "subject": "[Clang][OpenMP] Fix crash on a `sizes` argument of type `bool` or `_BitInt` (#239214)"
+        },
+        {
+            "hash": "9075a1c2b8d805a2e4f798ee38fc1788496e88db",
+            "author_name": "Akash Manna",
+            "commit_date": "2026-11-05T15:12:00Z",
+            "subject": "[X86] Fix `combineFP_EXTEND` for `bf16` vectors to `f80\/f128` and strict `fpext` (#233066)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -313129,6 +313141,26 @@
             "author_name": "Cullen Rhodes",
             "commit_date": "2026-11-05T13:13:11Z",
             "subject": "[DAGCombine] Mark HANDLENODE worklist guard as unlikely (NFC)"
+        }
+    ],
+    "tbaederr\/perf\/cxx98": [
+        {
+            "hash": "b8422170e56dbba6ccfa8a5be64a9903ac05e5d5",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-11-05T01:12:24-08:00",
+            "subject": "Revert \"[ADT] Add LLVM_ATTRIBUTE_WARN_UNUSED to five ADT classes\" (#239152)"
+        },
+        {
+            "hash": "78fc72edc2d371be5752b216b66a55cb50f42b6e",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-11-05T12:13:33+01:00",
+            "subject": "deallocate with pointers"
+        },
+        {
+            "hash": "df6c98799fd731bcada3244e53e6a8555b68b9f6",
+            "author_name": "Timm B\u00e4der",
+            "commit_date": "2026-11-05T16:13:50+01:00",
+            "subject": "Remove C++98 support"
         }
     ]
 }
