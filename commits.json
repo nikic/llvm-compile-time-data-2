@@ -59855,15 +59855,15 @@
     ],
     "RKSimon\/perf\/topological-dag": [
         {
-            "hash": "932a5ca59564c9e5fe15e21b13d25e67b1ababb6",
-            "author_name": "Kuba (Brecka) Mracek",
-            "commit_date": "2026-11-03T14:26:05Z",
-            "subject": "[clang][Inliner] Off-by-default likely_module_local optimizer hints for linkonce_odr non-header-file definitions (#228074)"
+            "hash": "50104d16131df22620746b8763649fdd2ecdf5f4",
+            "author_name": "Dan Zimmerman",
+            "commit_date": "2026-11-05T08:59:47-05:00",
+            "subject": "[AMDGPU] Fix store wait elision when BUFFER_INV is pending (#236549)"
         },
         {
-            "hash": "97ff53156ed19c1dc88c790f69814e9ade5a4fb1",
+            "hash": "fd2613d36cd68bf738e36635065831a3c67b1c08",
             "author_name": "Simon Pilgrim",
-            "commit_date": "2026-11-03T16:07:32Z",
+            "commit_date": "2026-11-05T15:39:05Z",
             "subject": "[DAG] Process DAG nodes in topological order"
         }
     ],
@@ -287499,6 +287499,18 @@
             "author_name": "Alexey Bataev",
             "commit_date": "2026-11-05T10:28:24-05:00",
             "subject": "[SLP][NFC]Add a test with the missing vectorization, NFC"
+        },
+        {
+            "hash": "282ae52048b2c9eec042824efdcd6d43c27a9d1a",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-11-05T09:35:10-06:00",
+            "subject": "[Bazel] Fixes fa8c673 (#239250)"
+        },
+        {
+            "hash": "4b8f5da9b4e6c3fcb29521cc7c1715b4fc1c9763",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-11-05T10:37:26-05:00",
+            "subject": "[SLP]Allow copyable when other operand is built from same-lane operand"
         }
     ],
     "aengelke\/perf\/ooldestr": [
