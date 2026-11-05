@@ -287691,6 +287691,24 @@
             "author_name": "Mike Lothian",
             "commit_date": "2026-11-05T09:54:39-08:00",
             "subject": "[libc] Fix gmtime and mktime for years before zero (#236515)"
+        },
+        {
+            "hash": "a934ab2410aaf3cbf20656dd6a2c96dd28a7b1eb",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-05T09:58:17-08:00",
+            "subject": "Hexagon: Stop adding kill flags on virtual registers (#239040)"
+        },
+        {
+            "hash": "63e82d93cb63bf4931695d2b0a63a0d1912aea79",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-11-05T09:59:01-08:00",
+            "subject": "[llvm-diff] Compare poison-generating flags (#238599)"
+        },
+        {
+            "hash": "01f585ecd46116f985e00d55f759935679b811c0",
+            "author_name": "YongKang Zhu",
+            "commit_date": "2026-11-05T10:05:45-08:00",
+            "subject": "[BOLT][Instr] Keep leaf counters out of exclusive load\/store regions (#238115)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -313471,6 +313489,12 @@
             "author_name": "Nathan Corbyn",
             "commit_date": "2026-11-05T17:51:56Z",
             "subject": "[MISched] Allow memop clustering in the presence of memory dependencies"
+        },
+        {
+            "hash": "66df4295456d0d5ca7e18f82535dd767b4199fb5",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-11-05T18:00:19Z",
+            "subject": "[MISched] Enable store sequencing"
         }
     ]
 }
