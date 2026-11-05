@@ -287667,6 +287667,30 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-11-05T09:43:42-08:00",
             "subject": "RuntimeLibcalls: Declare vector libcall attributes in TableGen (#238227)"
+        },
+        {
+            "hash": "24efce68d76ffa58164351b208eed7de9b2a5a92",
+            "author_name": "Lily Gorsheneva",
+            "commit_date": "2026-11-05T11:51:06-06:00",
+            "subject": "[Bazel] fix bazel layering check after 960bcc8 (#239296)"
+        },
+        {
+            "hash": "bd6e444961db6ff5a59b3e4fd3e8933d7a8d8aa1",
+            "author_name": "Matt\u00e9o Rizza Murgier",
+            "commit_date": "2026-11-05T18:52:21+01:00",
+            "subject": "[ValueTracking] Add constrained intrinsics variants to intrinsicPropagatesPoison (#239270)"
+        },
+        {
+            "hash": "0dfa6b3bc0ab8150863af8a435eedea9f03d1776",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-11-05T09:53:07-08:00",
+            "subject": "[libc][uefi] Encode the error bit in EFI_STATUS error codes (#235071)"
+        },
+        {
+            "hash": "83ca6fc7d67979609fa30dbf0d919b7b2a5416fa",
+            "author_name": "Mike Lothian",
+            "commit_date": "2026-11-05T09:54:39-08:00",
+            "subject": "[libc] Fix gmtime and mktime for years before zero (#236515)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -313427,6 +313451,26 @@
             "author_name": "Kuba Mracek",
             "commit_date": "2026-11-05T16:47:31Z",
             "subject": "[LazyValueInfo] Increase MaxUsesToInspect limit from 3 to 6"
+        }
+    ],
+    "cofibrant\/perf\/cofibrant\/store-clustering": [
+        {
+            "hash": "50104d16131df22620746b8763649fdd2ecdf5f4",
+            "author_name": "Dan Zimmerman",
+            "commit_date": "2026-11-05T08:59:47-05:00",
+            "subject": "[AMDGPU] Fix store wait elision when BUFFER_INV is pending (#236549)"
+        },
+        {
+            "hash": "def51ea825604fde2f3118ceb0631ad6528a3f67",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-11-05T17:36:48Z",
+            "subject": "[MISched] Precommit clustering test"
+        },
+        {
+            "hash": "418d7e28ccbcf19c45f4e2ecb121f35c2e12e2e6",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-11-05T17:51:56Z",
+            "subject": "[MISched] Allow memop clustering in the presence of memory dependencies"
         }
     ]
 }
