@@ -289701,6 +289701,30 @@
             "author_name": "Dan Brown",
             "commit_date": "2026-11-06T16:01:26-06:00",
             "subject": "[HLSL] Add macro for float->bool double overloads (#233024)"
+        },
+        {
+            "hash": "e476ea6e4215f665cdddf18e1fd0b4894d34ba46",
+            "author_name": "Med Ismail Bennani",
+            "commit_date": "2026-11-06T14:06:58-08:00",
+            "subject": "[lldb] Fix a crash evaluating expressions at a scripted frame without variables (#239795)"
+        },
+        {
+            "hash": "341fe4507f6d4f5a6d1470f6662ea1b7e9250682",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-06T22:09:18Z",
+            "subject": "X86: Remove clearKillFlags calls on virtual registers (#239802)"
+        },
+        {
+            "hash": "930ae6c56394eeef7ad1dea91e108412a9cccaca",
+            "author_name": "Petr Hosek",
+            "commit_date": "2026-11-06T14:10:46-08:00",
+            "subject": "[cmake] Use MultiThreaded MSVC runtime library for Windows runtimes in Fuchsia caches (#238240)"
+        },
+        {
+            "hash": "b76a8f912cbc2f204f7156980ea2a7babd1989ad",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-11-06T17:13:42-05:00",
+            "subject": "[SLP][NFC]Add a test for missed revec vectorization, NFC"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -315645,6 +315669,20 @@
             "author_name": "ShengYi Hung",
             "commit_date": "2026-11-04T16:33:17-06:00",
             "subject": "fixup! [SLP] Give failed seed a try"
+        }
+    ],
+    "nikic\/perf\/constraintelim-samesign-transfer": [
+        {
+            "hash": "6435e37a95b1ee0349245f1ef9c74a43665d3557",
+            "author_name": "Dan Brown",
+            "commit_date": "2026-11-06T16:01:26-06:00",
+            "subject": "[HLSL] Add macro for float->bool double overloads (#233024)"
+        },
+        {
+            "hash": "9ee767a57b0024357beabcdbe62d756a1269598b",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-06T23:06:57+01:00",
+            "subject": "Propagate the sign across an icmp samesign"
         }
     ]
 }
