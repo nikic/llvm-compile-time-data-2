@@ -288945,6 +288945,12 @@
             "author_name": "Ivan Butygin",
             "commit_date": "2026-11-06T18:02:05+03:00",
             "subject": "[mlir][GPU] Infer ranges for launch cluster arguments (#238775)"
+        },
+        {
+            "hash": "37ed5d62df0579846d5fa7a9a80c7b84f8de9bb2",
+            "author_name": "Alex Duran",
+            "commit_date": "2026-11-06T16:11:30+01:00",
+            "subject": "[Offload][Omp] Mark interop test as pass for CUDA (#239593)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -300341,12 +300347,6 @@
     ],
     "clemenswasser\/perf\/lazy-globals-aa": [
         {
-            "hash": "e6734a41bb41d91cb880fe7abce46d8146182518",
-            "author_name": "Michael G. Kazakov",
-            "commit_date": "2026-09-03T19:42:05+01:00",
-            "subject": "[libc++][pstl] Implementation of parallel std::find_end() based on __parallel_find() (#218321)"
-        },
-        {
             "hash": "095b709cbd4cf3beea3ad47c995a6e840e018adb",
             "author_name": "Clemens Wasser",
             "commit_date": "2026-09-14T15:14:50+02:00",
@@ -300381,6 +300381,18 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-11-06T14:56:55+01:00",
             "subject": "[GlobalsAA] Fix unreached functions and unvisited callbacks in LazyCallGraph port"
+        },
+        {
+            "hash": "df67f061388910167cf17e02f81d8843d4aeb316",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-06T16:03:02+01:00",
+            "subject": "Merge remote-tracking branch 'upstream\/main' into perf\/lazy-globals-aa"
+        },
+        {
+            "hash": "3bc9551808e8119704e2fd43c788a51e674f0dd3",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-06T16:03:12+01:00",
+            "subject": "[GlobalsAA] Pass AnalysisOptions in LazyCallGraph analyzeModule"
         }
     ],
     "rj-jesus\/perf\/rjj\/aarch64-sve-skip-non-pseudo-hints": [
