@@ -59855,15 +59855,15 @@
     ],
     "RKSimon\/perf\/topological-dag": [
         {
-            "hash": "50104d16131df22620746b8763649fdd2ecdf5f4",
-            "author_name": "Dan Zimmerman",
-            "commit_date": "2026-11-05T08:59:47-05:00",
-            "subject": "[AMDGPU] Fix store wait elision when BUFFER_INV is pending (#236549)"
+            "hash": "46ca55573ce669e89f3c452a745d4f471b74f20c",
+            "author_name": "Chaitanya",
+            "commit_date": "2026-11-06T12:20:43+05:30",
+            "subject": "[CIR][AMDGPU] Look through address_space views of __retval in insertSRetStores (#239151)"
         },
         {
-            "hash": "fd2613d36cd68bf738e36635065831a3c67b1c08",
+            "hash": "72a9d4b4d0609109dec564751f848eddb815d13b",
             "author_name": "Simon Pilgrim",
-            "commit_date": "2026-11-05T15:39:05Z",
+            "commit_date": "2026-11-06T09:13:28Z",
             "subject": "[DAG] Process DAG nodes in topological order"
         }
     ],
@@ -288615,6 +288615,24 @@
             "author_name": "Markus B\u00f6ck",
             "commit_date": "2026-11-06T09:10:31Z",
             "subject": "[mlir][ODS] Include headers required by generated enum declarations and definitions (#239223)"
+        },
+        {
+            "hash": "bc3fb100c43c0779edbe965fe8b1fcace68fef19",
+            "author_name": "Mahmoud Naderi",
+            "commit_date": "2026-11-06T17:14:55+08:00",
+            "subject": "[mlir][affine] avoid folding affine expressions that overflow int64_t (#231085)"
+        },
+        {
+            "hash": "7f2cda891828ac0ee9a493e3acf2f345007d6165",
+            "author_name": "Sanqi",
+            "commit_date": "2026-11-06T09:23:59Z",
+            "subject": "[LoongArch] Select LDPTR.W for any-extending i32 loads (#237883)"
+        },
+        {
+            "hash": "16ab8e40666e893b717e94d22afa63ef5a45f4d1",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-11-06T09:28:14Z",
+            "subject": "[FixIrreducible] Remove dead code (#239524)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
