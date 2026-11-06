@@ -288933,6 +288933,12 @@
             "author_name": "Simon Pilgrim",
             "commit_date": "2026-11-06T14:42:47Z",
             "subject": "[X86] Fix assertion for vXi8\/vXi16 CompressStore\/ExpandLoad for VBMI2 targets without VLX (#239606)"
+        },
+        {
+            "hash": "b92b309baa5b4330fc1adc8c7387ff8babb382f6",
+            "author_name": "Anshil Gandhi",
+            "commit_date": "2026-11-06T15:58:30+01:00",
+            "subject": "[unittests] Skip target tests when the default triple is not built (#231723)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -314785,6 +314791,50 @@
             "author_name": "Marek Sedl\u00e1\u010dek",
             "commit_date": "2026-11-06T15:06:15+01:00",
             "subject": "Avoid recursion in getNonLocalPointerDepFromBB"
+        }
+    ],
+    "clemenswasser\/perf\/lazy-globals-aa-rebased": [
+        {
+            "hash": "8dc7f75fd31fb2fb50c879ee7336e4b3d24df63a",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-11-06T14:52:45+01:00",
+            "subject": "[clang][bytecode] Always check the source pointer in `Memcpy()` (#239563)"
+        },
+        {
+            "hash": "75fd0246508ae7232b21c62ed5e8cb2af231ba7e",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-06T15:39:13+01:00",
+            "subject": "[GlobalsAA] Remove dead SCC membership tracking"
+        },
+        {
+            "hash": "7025c92ca01409470ee57c2ff632258932d9ce9d",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-06T15:39:13+01:00",
+            "subject": "[GlobalsAA] Extract shared helpers"
+        },
+        {
+            "hash": "e37c3fc43a4ccd11561bf2f7b85e7f471fc92b05",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-06T15:41:41+01:00",
+            "subject": "[GlobalsAA] Port to LazyCallGraph"
+        },
+        {
+            "hash": "6ac35725a22ce61d8a30867fdd4a547a76edf5ae",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-06T15:41:41+01:00",
+            "subject": "[GlobalsAA] Recompute decl\/indirect effects from IR instead of caching in LCG"
+        },
+        {
+            "hash": "9a9acb8bf620370f99cb7b03b6f5aaceb0b7c342",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-06T15:41:41+01:00",
+            "subject": "[GlobalsAA] Model callback targets in LazyCallGraph port"
+        },
+        {
+            "hash": "b8f8b4913e6d717cafe31cedd2df2f6b9ab91acb",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-06T15:41:41+01:00",
+            "subject": "[GlobalsAA] Fix unreached functions and unvisited callbacks in LazyCallGraph port"
         }
     ]
 }
