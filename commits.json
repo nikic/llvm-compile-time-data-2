@@ -289257,6 +289257,36 @@
             "author_name": "Bruno Cardoso Lopes",
             "commit_date": "2026-11-06T10:01:09-08:00",
             "subject": "[mlir][llvm] Update MemProf metadata when inlining calls (#239391)"
+        },
+        {
+            "hash": "15364393a282c03f5bc8b391f615176cb1d08842",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-11-06T12:05:48-06:00",
+            "subject": "[Bazel] Fixes 4955dfb (#239667)"
+        },
+        {
+            "hash": "2f11c80c23a9f82de8c993f1085d311f920aad34",
+            "author_name": "Mircea Trofin",
+            "commit_date": "2026-11-06T18:07:42Z",
+            "subject": "[ControlFlowHub][profcheck] Set branch weights on guard branches (#239656)"
+        },
+        {
+            "hash": "03be26c21def05d37cdfa2f14ee9c4fb710b116c",
+            "author_name": "Alex Langford",
+            "commit_date": "2026-11-06T10:08:46-08:00",
+            "subject": "[debugserver] Add a gdb server subcommand to swift-debugserver (#239033)"
+        },
+        {
+            "hash": "f7101ca442f658a8dc9ca1606b531675a6fc9d73",
+            "author_name": "Alex Langford",
+            "commit_date": "2026-11-06T10:09:17-08:00",
+            "subject": "[lldb] Remove ConstString from CommandObjectType (#237416)"
+        },
+        {
+            "hash": "edfda9545c3b3b5e426576d67bffaa9c67eeb389",
+            "author_name": "Alex Langford",
+            "commit_date": "2026-11-06T10:10:14-08:00",
+            "subject": "[lldb] Remove ConstString in LanguageRuntime (#237429)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -315173,6 +315203,34 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-11-06T07:55:57-08:00",
             "subject": "[Analysis] Port inliner threshold options to AnalysisOptions"
+        }
+    ],
+    "aokblast\/perf\/baseline": [
+        {
+            "hash": "e9d2d9643ab3ad9a97908a21f274e6a6cc8d3073",
+            "author_name": "Christopher Ferris",
+            "commit_date": "2026-11-02T13:06:28-08:00",
+            "subject": "[scudo] Add an option to zero on deallocation. (#236891)"
+        }
+    ],
+    "aokblast\/perf\/slp\/fail_retry": [
+        {
+            "hash": "e9d2d9643ab3ad9a97908a21f274e6a6cc8d3073",
+            "author_name": "Christopher Ferris",
+            "commit_date": "2026-11-02T13:06:28-08:00",
+            "subject": "[scudo] Add an option to zero on deallocation. (#236891)"
+        },
+        {
+            "hash": "7c9f8aeb7265343da9a5320bde560b596feda832",
+            "author_name": "ShengYi Hung",
+            "commit_date": "2026-11-04T00:38:33-06:00",
+            "subject": "[SLP] Give failed seed a try"
+        },
+        {
+            "hash": "4688d5144f0ed2a8e385ac9eb4f2174566cd3b24",
+            "author_name": "ShengYi Hung",
+            "commit_date": "2026-11-04T16:33:17-06:00",
+            "subject": "fixup! [SLP] Give failed seed a try"
         }
     ]
 }
