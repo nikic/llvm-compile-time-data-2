@@ -289293,6 +289293,48 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-11-06T10:11:17-08:00",
             "subject": "RuntimeLibcalls: Add signatures for the MIPS16 return helpers (#239404)"
+        },
+        {
+            "hash": "9d1dc5fa7d2a1bd340d6da8d50fdbb0332967fbd",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-06T10:20:33-08:00",
+            "subject": "RuntimeLibcalls: Add the MIPS16 hard float helpers to \"compiler-rt\" (#239405)"
+        },
+        {
+            "hash": "13bbcdecbac5a084243ee7c15badda11ddeca710",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-06T10:22:16-08:00",
+            "subject": "IR: Implement Instruction::mayReadOrWriteMemory with a single switch (#239479)"
+        },
+        {
+            "hash": "a54fb533614bea93d9ddb2704b81869a2c2c6952",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-11-06T18:23:03Z",
+            "subject": "Revert \"[libc++] Allow the compiler to reorder computation in reduction loops\" (#239721)"
+        },
+        {
+            "hash": "473c7fb83c7acda4f8e417aa95cf512b05121fed",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-06T10:23:39-08:00",
+            "subject": "RuntimeLibcalls: Add signatures for the memcpy variants and __stack_smash_handler (#239367)"
+        },
+        {
+            "hash": "b17a140de749e539c1591e6d4e4eaf8ac441236a",
+            "author_name": "yebinchon",
+            "commit_date": "2026-11-06T10:25:44-08:00",
+            "subject": "[mlir][acc] Keep stores to private reduction partials as plain stores (#239323)"
+        },
+        {
+            "hash": "69c8d90c9167b58a762fddd15ab7a587810e7028",
+            "author_name": "Akira Hatanaka",
+            "commit_date": "2026-11-06T18:27:44Z",
+            "subject": "[Driver][Darwin] Make the -O linker test robust against paths (#239696)"
+        },
+        {
+            "hash": "49df817b375958e34102028beeee9308becdddad",
+            "author_name": "Valery Pykhtin",
+            "commit_date": "2026-11-06T19:29:43+01:00",
+            "subject": "[AMDGPU][NFC] Pre-commit test for a true16 VGPR-to-SGPR copy of hi16 (#239246)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
