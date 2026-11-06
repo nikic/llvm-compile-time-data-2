@@ -289503,6 +289503,36 @@
             "author_name": "Jaeyong Lee",
             "commit_date": "2026-11-07T01:04:24+05:30",
             "subject": "[libc][stdfix] Implement mulifx functions (#235602)"
+        },
+        {
+            "hash": "310f4e701d46a2aaa0221a8b1f3da55870c89c40",
+            "author_name": "Miko\u0142aj Pir\u00f3g",
+            "commit_date": "2026-11-06T19:38:59Z",
+            "subject": "[PrologEpilogInserter] Don't preserve CFG in case of HIPE or segmented stack (#239704)"
+        },
+        {
+            "hash": "c6fedbb0e3c8d7fd7b8d1a4278ed88ee27bf0de3",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-06T19:42:45Z",
+            "subject": "Attributor: Check for assume knowledge once per attribute query (#239463)"
+        },
+        {
+            "hash": "9b3ca6eae97df96339771f2a5592518f79f2ee23",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-06T19:43:37Z",
+            "subject": "RuntimeLibcalls: Remove bogus ENUM_VARIANT function (#239749)"
+        },
+        {
+            "hash": "45cdb5d7290d8753a5dde18444f5d82f6922d399",
+            "author_name": "Jeff Bailey",
+            "commit_date": "2026-11-06T19:45:27Z",
+            "subject": "[libc][test] Avoid missing field initializers in time tests (#239675)"
+        },
+        {
+            "hash": "1f621bdd6b87c376c945dd33eaf508a315e6ecdb",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-06T11:47:44-08:00",
+            "subject": "MachineVerifier: Disallow kill flags on virtual registers (#239012)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -312903,82 +312933,82 @@
     ],
     "fhahn\/perf\/ct-o3-2": [
         {
-            "hash": "97e4a76d453fb7320004dfb7af5873c1be03bd44",
-            "author_name": "Vasileios Porpodas",
-            "commit_date": "2026-10-27T19:21:03-07:00",
-            "subject": "[SandboxVec][LoadStoreVec] Propagate Metadata (#236274)"
+            "hash": "c8eba3acaf62c92a8a2bd9b041b201314bd416ea",
+            "author_name": "Ron Green [NVIDIA]",
+            "commit_date": "2026-11-06T11:23:29-08:00",
+            "subject": "[flang] Accept a BLOCK variable in a DO CONCURRENT locality-spec (#239371)"
         },
         {
-            "hash": "6c7c02af4c2ddc93fd9f516b5220aa1b06e3da63",
+            "hash": "367c6ca3d84a048c32ebbd17d06e323991d20491",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-28T03:44:46Z",
+            "commit_date": "2026-11-06T19:42:33Z",
             "subject": "[LICM] Skip collecting promotion candidates without a store (NFC)"
         },
         {
-            "hash": "ef6d998d024deefd896ac54a53fa70860bd04917",
+            "hash": "4d6637431c434fb7c9399fcd0e8c486d004e01d1",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-28T03:44:46Z",
+            "commit_date": "2026-11-06T19:42:33Z",
             "subject": "[LegacyPM] Record CFG-only passes when they are registered (NFC)"
         },
         {
-            "hash": "b164d3e846eaba51de1f2049a4d25d46807a33fd",
+            "hash": "9fadd0df057adb0489b91c7efb02c6f32ce8b8d6",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-28T03:44:47Z",
+            "commit_date": "2026-11-06T19:42:33Z",
             "subject": "[SCEV] Split strict predicates lazily in isBasicBlockEntryGuardedByCond (NFCI)."
         },
         {
-            "hash": "2517af01d2545f6fb7b3a6cbb9f569c72eda0e87",
+            "hash": "7b94287220946edc86f6308e04521c4ec7709566",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-28T03:44:47Z",
+            "commit_date": "2026-11-06T19:42:34Z",
             "subject": "[RegAlloc] Find first interference start once in InterferenceCache (NFC)"
         },
         {
-            "hash": "a6e37c55c604be1db6e4096fc2cc758972fe7868",
+            "hash": "4c210ada481d8a3c076d95863a33ac99f1295c94",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-28T03:44:48Z",
+            "commit_date": "2026-11-06T19:42:34Z",
             "subject": "[CodeGen] Hash MachineInstrExpressionTrait keys without hash_combine (NFC)"
         },
         {
-            "hash": "d1ff4b406dfe3673de36d1acca6a1e4cff112f3c",
+            "hash": "d697b1406f8095f3463857177e2226d0255e42da",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-28T03:44:48Z",
-            "subject": "[MemorySSA] Allocate MemoryUse and MemoryDef with a bump allocator (NFC)"
+            "commit_date": "2026-11-06T19:42:35Z",
+            "subject": "!fixup dont inline"
         },
         {
-            "hash": "4ba846292b039a5c29b158f23f40a7da91d2ab2e",
+            "hash": "f6b671cdc1c97fa24acf1b0e157ad47717340897",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-28T03:44:49Z",
+            "commit_date": "2026-11-06T19:42:35Z",
             "subject": "[MachineCopyPropagation] Query the target for constant def regs (NFC)"
         },
         {
-            "hash": "1a473a70f0e787dcb58ee6df56f53ff5f7d6a152",
+            "hash": "fcbe751da09df9ff1bc267190d666d43fff24c46",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-28T03:44:50Z",
+            "commit_date": "2026-11-06T19:42:35Z",
             "subject": "[TypeBasedAA] Avoid constructing two ancestor paths (NFC)"
         },
         {
-            "hash": "4a2df1072cddb015cc189fcb082ead8a9bb37281",
+            "hash": "d7784e4dd6888688b66c63089b001a86e3fcbd08",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-28T03:44:50Z",
+            "commit_date": "2026-11-06T19:42:36Z",
             "subject": "[LoopNest] Collect loops with a worklist instead of breadth_first (NFC)."
         },
         {
-            "hash": "3d28ab39a34d6cf97c38088ecc0c7a0fe4b8407e",
+            "hash": "084f7c34fbf9e195d49d1c4c412a9994a88b0149",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-28T03:44:51Z",
-            "subject": "[LoopPeel] Check compare shape before evaluatePredicate (NFCI)."
-        },
-        {
-            "hash": "a54b4976978a656fd771aae00fe5301d070996da",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-10-28T03:44:51Z",
+            "commit_date": "2026-11-06T19:42:36Z",
             "subject": "[MemorySSA] Reserve an incoming value per predecessor for MemoryPhis (NFC)"
         },
         {
-            "hash": "cf46bfaec0d88ff815f9f852dc6c208e21501301",
+            "hash": "f82380b4c3ff92a6293f03f7c02e40249ba10e13",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-10-28T03:44:54Z",
-            "subject": "[LiveDebugValues] Skip VarLoc range extension without DBG_VALUEs (NFC)"
+            "commit_date": "2026-11-06T19:44:16Z",
+            "subject": "[Support] Use plain operator new for allocate_buffer when possible (NFC)"
+        },
+        {
+            "hash": "b885f69205b43f51764127d753eaed4fd91a12e8",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-06T19:44:25Z",
+            "subject": "[BFI] Scale block frequencies with native 128-bit integers (NFC)"
         }
     ],
     "c-rhodes\/perf\/aarch64-fastisel-o0-21-10-2026": [
