@@ -290367,6 +290367,12 @@
             "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
             "commit_date": "2026-11-07T14:22:57-08:00",
             "subject": "[flang][openacc] Do not implicitly map whole common block when not needed (#239772)"
+        },
+        {
+            "hash": "2f1a1b01eaa743ad72737ca55da790aadf943d3d",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-11-07T18:14:14-05:00",
+            "subject": "[SLP][NFC]Add extra tests with copyable freeze, NFC"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -313767,82 +313773,88 @@
     ],
     "fhahn\/perf\/ct-o3-2": [
         {
-            "hash": "c8eba3acaf62c92a8a2bd9b041b201314bd416ea",
-            "author_name": "Ron Green [NVIDIA]",
-            "commit_date": "2026-11-06T11:23:29-08:00",
-            "subject": "[flang] Accept a BLOCK variable in a DO CONCURRENT locality-spec (#239371)"
+            "hash": "cac5de14d5a7a9b45c0f16be8c4f69ee18d7f105",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-11-07T16:38:20-05:00",
+            "subject": "[SLP]Use fma as copyable main op without fmuladd lanes"
         },
         {
-            "hash": "367c6ca3d84a048c32ebbd17d06e323991d20491",
+            "hash": "b565715228bc8ca76a16b824bc46005cfa7c3744",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-06T19:42:33Z",
+            "commit_date": "2026-11-07T23:05:44Z",
             "subject": "[LICM] Skip collecting promotion candidates without a store (NFC)"
         },
         {
-            "hash": "4d6637431c434fb7c9399fcd0e8c486d004e01d1",
+            "hash": "c6cfd3607325a77e9ae00a0282a0b036019ea693",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-06T19:42:33Z",
+            "commit_date": "2026-11-07T23:05:44Z",
             "subject": "[LegacyPM] Record CFG-only passes when they are registered (NFC)"
         },
         {
-            "hash": "9fadd0df057adb0489b91c7efb02c6f32ce8b8d6",
+            "hash": "77e70bf871e88d04b1ee2bd90f16b7cad8f5d049",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-06T19:42:33Z",
-            "subject": "[SCEV] Split strict predicates lazily in isBasicBlockEntryGuardedByCond (NFCI)."
-        },
-        {
-            "hash": "7b94287220946edc86f6308e04521c4ec7709566",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-11-06T19:42:34Z",
-            "subject": "[RegAlloc] Find first interference start once in InterferenceCache (NFC)"
-        },
-        {
-            "hash": "4c210ada481d8a3c076d95863a33ac99f1295c94",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-11-06T19:42:34Z",
+            "commit_date": "2026-11-07T23:06:00Z",
             "subject": "[CodeGen] Hash MachineInstrExpressionTrait keys without hash_combine (NFC)"
         },
         {
-            "hash": "d697b1406f8095f3463857177e2226d0255e42da",
+            "hash": "02fbd9ee8d0310992c167263b473d99f4e04a9a9",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-06T19:42:35Z",
+            "commit_date": "2026-11-07T23:06:01Z",
             "subject": "!fixup dont inline"
         },
         {
-            "hash": "f6b671cdc1c97fa24acf1b0e157ad47717340897",
+            "hash": "b36a2f11ece140f740fd9ad5bc07f97569e2c9d0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-06T19:42:35Z",
+            "commit_date": "2026-11-07T23:06:01Z",
             "subject": "[MachineCopyPropagation] Query the target for constant def regs (NFC)"
         },
         {
-            "hash": "fcbe751da09df9ff1bc267190d666d43fff24c46",
+            "hash": "8662ebe6dd3dd169e71def45460e961296a0a28e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-06T19:42:35Z",
+            "commit_date": "2026-11-07T23:06:01Z",
             "subject": "[TypeBasedAA] Avoid constructing two ancestor paths (NFC)"
         },
         {
-            "hash": "d7784e4dd6888688b66c63089b001a86e3fcbd08",
+            "hash": "1bdd8c59c9eca8d4d597020bd64d0fb3e2b9d7d6",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-06T19:42:36Z",
+            "commit_date": "2026-11-07T23:06:01Z",
             "subject": "[LoopNest] Collect loops with a worklist instead of breadth_first (NFC)."
         },
         {
-            "hash": "084f7c34fbf9e195d49d1c4c412a9994a88b0149",
+            "hash": "544c251a8ceefbbafdc9d934c07a2c85dae879b1",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-06T19:42:36Z",
+            "commit_date": "2026-11-07T23:06:01Z",
             "subject": "[MemorySSA] Reserve an incoming value per predecessor for MemoryPhis (NFC)"
         },
         {
-            "hash": "f82380b4c3ff92a6293f03f7c02e40249ba10e13",
+            "hash": "4d76ebad77b01e817bf7c653b497975c9aca5f37",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-06T19:44:16Z",
+            "commit_date": "2026-11-07T23:06:01Z",
             "subject": "[Support] Use plain operator new for allocate_buffer when possible (NFC)"
         },
         {
-            "hash": "b885f69205b43f51764127d753eaed4fd91a12e8",
+            "hash": "5b4318f6363f6cb5528b833c2d66917119484c00",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-06T19:44:25Z",
-            "subject": "[BFI] Scale block frequencies with native 128-bit integers (NFC)"
+            "commit_date": "2026-11-07T23:11:34Z",
+            "subject": "[AggressiveInstCombine] Dispatch folds on the root opcode (NFC)"
+        },
+        {
+            "hash": "e16f096a493324ce26335737bf59166204472bce",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-07T23:11:50Z",
+            "subject": "[IR] Use unsigned division in AttributeBitSet::hasAttribute (NFC)"
+        },
+        {
+            "hash": "40c083bf330eb7606a33e28542abc57924967090",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-07T23:12:56Z",
+            "subject": "[BasicAA] Skip the other AAs when querying GEP bases (NFC)"
+        },
+        {
+            "hash": "df5f9e76d552b9afd40359c645278ce22a48ea78",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-07T23:13:13Z",
+            "subject": "[InstSimplify] Bail out of computePointerICmp for load, arg or phi vs null (NFC)"
         }
     ],
     "c-rhodes\/perf\/aarch64-fastisel-o0-21-10-2026": [
