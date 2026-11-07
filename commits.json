@@ -316088,5 +316088,51 @@
             "commit_date": "2026-11-07T00:42:43-06:00",
             "subject": "[SLP] Pruning when there is no Undef"
         }
+    ],
+    "kubamracek\/perf\/cvp-lvi-max-3": [
+        {
+            "hash": "2f7cb3cbd640b45a672072094834a52b86487ea8",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-04T11:21:26-08:00",
+            "subject": "RuntimeLibcalls: Add signatures for half and bfloat conversion libcalls (#238242)"
+        },
+        {
+            "hash": "4b981243adf8fca36e334c522a663fc4775df5ad",
+            "author_name": "Kuba Mracek",
+            "commit_date": "2026-11-05T19:34:40Z",
+            "subject": "[LazyValueInfo] Expose MaxUsesToInspect via AnalysisOptions"
+        },
+        {
+            "hash": "97c8dd241e5287bca5b82cdfb6e48cf7932e21e2",
+            "author_name": "Kuba Mracek",
+            "commit_date": "2026-11-07T07:45:10Z",
+            "subject": "[LazyValueInfo\/CVP\/InstCombine] Freeze select condition for use-site range narrowing and simplify implied min\/max in select arms"
+        }
+    ],
+    "kubamracek\/perf\/cvp-lvi-max-6": [
+        {
+            "hash": "2f7cb3cbd640b45a672072094834a52b86487ea8",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-04T11:21:26-08:00",
+            "subject": "RuntimeLibcalls: Add signatures for half and bfloat conversion libcalls (#238242)"
+        },
+        {
+            "hash": "4b981243adf8fca36e334c522a663fc4775df5ad",
+            "author_name": "Kuba Mracek",
+            "commit_date": "2026-11-05T19:34:40Z",
+            "subject": "[LazyValueInfo] Expose MaxUsesToInspect via AnalysisOptions"
+        },
+        {
+            "hash": "97c8dd241e5287bca5b82cdfb6e48cf7932e21e2",
+            "author_name": "Kuba Mracek",
+            "commit_date": "2026-11-07T07:45:10Z",
+            "subject": "[LazyValueInfo\/CVP\/InstCombine] Freeze select condition for use-site range narrowing and simplify implied min\/max in select arms"
+        },
+        {
+            "hash": "65175634b45a393af2debbf5543e719106ee8bd2",
+            "author_name": "Kuba Mracek",
+            "commit_date": "2026-11-07T07:46:26Z",
+            "subject": "[LazyValueInfo] Increase lvi-max-uses-to-inspect default from 3 to 6"
+        }
     ]
 }
