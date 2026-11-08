@@ -290649,6 +290649,12 @@
             "author_name": "Simon Pilgrim",
             "commit_date": "2026-11-08T16:56:22Z",
             "subject": "[DAG] canFoldStoreIntoLibCallOutputPointers - pull out MaxSteps argument to remove SelectionDAG dependency (#240161)"
+        },
+        {
+            "hash": "61d504125f5c44bba599224f9a7f25b3e6ede508",
+            "author_name": "Macro Terra",
+            "commit_date": "2026-11-09T01:07:52+08:00",
+            "subject": "[Clang][test] Re-enable nested generic lambda tests (#238805)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -311719,28 +311725,22 @@
     ],
     "davidbolvansky\/perf\/lv-identical-gep-safe-loads": [
         {
-            "hash": "d0b14769483b211c8efeb4750129729204f8e8d0",
-            "author_name": "Matt Arsenault",
-            "commit_date": "2026-10-06T10:37:58+02:00",
-            "subject": "clang: Set the exception model module flag for IR inputs (#228372)"
+            "hash": "47e4e820e52365258ff2764faebda7f9fac2c009",
+            "author_name": "Oscar Smith",
+            "commit_date": "2026-11-08T10:28:20-06:00",
+            "subject": "[IR][SelectionDAG] Add `llvm.vector.shuffle` intrinsic (Part 1) (#219259)"
         },
         {
-            "hash": "86437400ddc04435d84552ca63840af96219ecba",
+            "hash": "af95df17ba540a041249141e26ccbcef50fb9f99",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-06T13:00:42+02:00",
-            "subject": "[LV] Track type and alignment of safe predicated accesses"
+            "commit_date": "2026-11-08T18:06:50+01:00",
+            "subject": "[LV] Precommit coverage for identical-GEP load speculation"
         },
         {
-            "hash": "85f2371968fc095f7a72e07ccb21d29a4345c7aa",
+            "hash": "86da647a99d016bfc41b52d47153366d6f073291",
             "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-06T13:03:45+02:00",
-            "subject": "[LV] Recognize identical GEP accesses on top of speculation safety fix"
-        },
-        {
-            "hash": "8f9ad6b108fef943b952d044a57406c32111261b",
-            "author_name": "D\u00e1vid Bolvansk\u00fd",
-            "commit_date": "2026-10-06T13:04:09+02:00",
-            "subject": "Merge previous GEP optimization branch, keeping split safety fix"
+            "commit_date": "2026-11-08T18:07:40+01:00",
+            "subject": "[LV] Reuse safe access bounds for identical GEPs"
         }
     ],
     "davidbolvansky\/perf\/lv-scalar-replicated-address-cost": [
