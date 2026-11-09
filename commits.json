@@ -291867,6 +291867,48 @@
             "author_name": "Justin Stitt",
             "commit_date": "2026-11-09T10:13:12-08:00",
             "subject": "[Clang] objc: Encode OBTs by their underlying type (#234425)"
+        },
+        {
+            "hash": "0d80555095a980397457043d2b260afb63b5149e",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-11-09T10:20:22-08:00",
+            "subject": "[lldb][test] Split up LibcxxStringSimulator test [NFC] (#239017)"
+        },
+        {
+            "hash": "bb208966e268247524f8ef7fd727fc58510ddc59",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-11-09T10:20:39-08:00",
+            "subject": "[lldb][test] Remove dead Continue calls from TestTargetAPI.py (#239030)"
+        },
+        {
+            "hash": "70835225303bb037e2204aba589eb1889b3bb5ce",
+            "author_name": "Joshua Batista",
+            "commit_date": "2026-11-09T10:20:59-08:00",
+            "subject": "Reapply `WaveMultiPrefixCountBits` with test fix (#239503)"
+        },
+        {
+            "hash": "6ccbbe6592f02b651f8004945ce9d11af23186f4",
+            "author_name": "Jeff Bailey",
+            "commit_date": "2026-11-09T18:27:46Z",
+            "subject": "[libc][cmake] Collapse extra blank lines in cmake_format (#240295)"
+        },
+        {
+            "hash": "1da136ea6fbf8b344cf207317f40bb5829d21ad3",
+            "author_name": "Minsoo Choo",
+            "commit_date": "2026-11-09T13:28:52-05:00",
+            "subject": "[lldb] Remove unused MIPS register descriptions (#239081)"
+        },
+        {
+            "hash": "50e726e45b2ff7a7cb240fdf4e191c4ed3e42e0b",
+            "author_name": "Minsoo Choo",
+            "commit_date": "2026-11-09T13:28:55-05:00",
+            "subject": "[lldb] Correct the PowerPC VSX register 60 description (#240092)"
+        },
+        {
+            "hash": "e79250df765747222a13bd16bb6cf44b01493f00",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-11-09T10:31:10-08:00",
+            "subject": "[lldb][test] Lazily generate ValueCheck error messages (#240484)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -318099,6 +318141,32 @@
             "author_name": "Nathan Corbyn",
             "commit_date": "2026-11-09T17:24:30Z",
             "subject": "Try something"
+        }
+    ],
+    "fhahn\/perf\/scev-guards-computeMaxBECountForLT": [
+        {
+            "hash": "ab9481044ad52a5ffd8ebaad656414d4543f03f8",
+            "author_name": "Justin Stitt",
+            "commit_date": "2026-11-09T10:13:12-08:00",
+            "subject": "[Clang] objc: Encode OBTs by their underlying type (#234425)"
+        },
+        {
+            "hash": "cc20b0fb71f60ef51652322dad1538b0103af5a4",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-09T18:15:22Z",
+            "subject": "[SCEV] Add tests for constant max BTC of less-than\/greater-than exits with guards (NFC)"
+        },
+        {
+            "hash": "b669dcab7eda33e6c7556b573895139c704c0d14",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-09T18:15:23Z",
+            "subject": "[SCEV] Use guards for Start, Stride and End in computeMaxBECountForLT."
+        },
+        {
+            "hash": "1bc1404480d050819cb544a8e86f2fd88e842025",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-09T18:32:24Z",
+            "subject": "!fixup remove limit"
         }
     ]
 }
