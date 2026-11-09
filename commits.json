@@ -292041,6 +292041,18 @@
             "author_name": "lumir",
             "commit_date": "2026-11-09T21:13:39+01:00",
             "subject": "[clang-format] fix: recognize `.mts` and `.cts` as TypeScript files (#236122)"
+        },
+        {
+            "hash": "d9a3ad440f7ba6e15e65265db0016f75a82a9090",
+            "author_name": "Konstantinos Parasyris",
+            "commit_date": "2026-11-09T12:17:57-08:00",
+            "subject": "[CIR] Keep the object's address space in data member pointer access (#240509)"
+        },
+        {
+            "hash": "cbf0f6f962489dd9ade3124b74a184f370a4a857",
+            "author_name": "Andrew Gaul",
+            "commit_date": "2026-11-09T12:19:33-08:00",
+            "subject": "[RISCV] Materialize rotated LUI values with LUI+RORI (#240099)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -318299,6 +318311,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-11-09T18:32:24Z",
             "subject": "!fixup remove limit"
+        }
+    ],
+    "rnk\/perf\/simplifylibcalls-early-out": [
+        {
+            "hash": "061a9aaaaf85d9a2fe68d1acbf141188a36f1942",
+            "author_name": "Aaron Ballman",
+            "commit_date": "2026-11-09T19:38:40Z",
+            "subject": "[llvm] Fix a narrowing conversion warning; NFC (#240502)"
+        },
+        {
+            "hash": "44c15655bbcc37bbeaf4b8e0b50ed03ffb72bc32",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-11-09T19:48:18Z",
+            "subject": "[SimplifyLibCalls] Skip non-libcalls earlier to save ~0.1% instrs"
         }
     ]
 }
