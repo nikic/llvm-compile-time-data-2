@@ -291741,6 +291741,42 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-11-09T09:11:35-08:00",
             "subject": "[SystemZ] Port SelectionDAG to NewPm"
+        },
+        {
+            "hash": "bff8793c57a68dbdff511efde818f3d6e5432160",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-11-09T09:12:46-08:00",
+            "subject": "[SystemZ] Introduce SystemZCodeGenPassBuilder"
+        },
+        {
+            "hash": "2027a96d0746faaba73b40f901979de6a4c81758",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-11-09T09:14:18-08:00",
+            "subject": "[SystemZ] Port AlignGlobals to NewPM"
+        },
+        {
+            "hash": "e75a54658ab9a741e5ea737f6e1bf178fe30808a",
+            "author_name": "Hardik Kumar",
+            "commit_date": "2026-11-09T17:15:09Z",
+            "subject": "[clang][CIR][NFC] Explicitly cast values to avoid narrowing implicit conversion (#239951)"
+        },
+        {
+            "hash": "df74b06b7ed939676c86ec82cddd2967761ee547",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-09T18:16:00+01:00",
+            "subject": "[clang][CIR][AMDGPU] Parse AMDGPU syncscope without a triple (#237228)"
+        },
+        {
+            "hash": "107d5076afd96f9412312cba83d7fe1ed0236d12",
+            "author_name": "Akash Manna",
+            "commit_date": "2026-11-09T17:17:33Z",
+            "subject": "[Clang][OpenMP] Fix crash on `cancel taskgroup` inside `masked taskloop` (#240335)"
+        },
+        {
+            "hash": "8ef3e3f9cb06844bb5a763369ab697d1baff0fbc",
+            "author_name": "Lewis Crawford",
+            "commit_date": "2026-11-09T17:20:10Z",
+            "subject": "[clang][NVPTX] Init GPU_LAST via NVPTXTargetParser.def (#240417)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -317945,6 +317981,20 @@
             "author_name": "Guy David",
             "commit_date": "2026-11-09T13:12:32+02:00",
             "subject": "[LV] Vectorize strided pointer inductions as interleave groups"
+        }
+    ],
+    "cofibrant\/perf\/cofibrant\/slop\/topo": [
+        {
+            "hash": "caf7fd4e0690893a68167fd6091647df015f8912",
+            "author_name": "Andrew Gontarek",
+            "commit_date": "2026-11-09T10:18:56-06:00",
+            "subject": "[lldb] Interrupt the read thread when stopping it"
+        },
+        {
+            "hash": "72783b4af55f3a18ff22da4b736aaed659b2fbac",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-11-09T17:05:37Z",
+            "subject": "[NFC][ThinLTO] Use runCodeGenPipeline abstraction (#240226)"
         }
     ]
 }
