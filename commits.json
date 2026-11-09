@@ -291129,6 +291129,12 @@
             "author_name": "Fabian Ritter",
             "commit_date": "2026-11-09T10:27:48+01:00",
             "subject": "[LangRef] Relax the LLVM IR data race definition (#233436)"
+        },
+        {
+            "hash": "fd4543e60f4f63efadfc90de5e65c0ecf1cd9426",
+            "author_name": "Phong Do",
+            "commit_date": "2026-11-09T10:30:52+01:00",
+            "subject": "[IRNormalizer] Don't sink allocas (#238656)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -317287,6 +317293,20 @@
             "author_name": "Guy David",
             "commit_date": "2026-11-07T20:23:18+02:00",
             "subject": "[LV] Vectorize strided pointer inductions as interleave groups"
+        }
+    ],
+    "madhur13490\/perf\/scev-improv": [
+        {
+            "hash": "8cf7c89664072155e61a0281409c2eefe7230fb5",
+            "author_name": "David Stuttard",
+            "commit_date": "2026-10-19T08:39:09+01:00",
+            "subject": "[AMDGPU][VOPD] Make VOPD pairing load-overlap check deterministic (#232317)"
+        },
+        {
+            "hash": "b647d55d2b455504d4ef608c68385d37ab5181da",
+            "author_name": "Madhur Amilkanthwar",
+            "commit_date": "2026-11-09T15:04:20+05:30",
+            "subject": "[SCEV] Try direct proof on all guarding conditions before splitting (NFC)"
         }
     ]
 }
