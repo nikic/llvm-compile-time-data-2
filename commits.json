@@ -317175,12 +317175,6 @@
     ],
     "cofibrant\/perf\/cofibrant\/store-clustering": [
         {
-            "hash": "50104d16131df22620746b8763649fdd2ecdf5f4",
-            "author_name": "Dan Zimmerman",
-            "commit_date": "2026-11-05T08:59:47-05:00",
-            "subject": "[AMDGPU] Fix store wait elision when BUFFER_INV is pending (#236549)"
-        },
-        {
             "hash": "def51ea825604fde2f3118ceb0631ad6528a3f67",
             "author_name": "Nathan Corbyn",
             "commit_date": "2026-11-05T17:36:48Z",
@@ -317191,6 +317185,18 @@
             "author_name": "Nathan Corbyn",
             "commit_date": "2026-11-05T17:51:56Z",
             "subject": "[MISched] Allow memop clustering in the presence of memory dependencies"
+        },
+        {
+            "hash": "67bc4769dfff499006aefac5a188258f50ec4edd",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-11-09T13:02:15Z",
+            "subject": "Merge branch 'main' into perf\/cofibrant\/store-clustering"
+        },
+        {
+            "hash": "6ef41fe657522bbb6b2d516e1269ac83278471f2",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-11-09T13:07:45Z",
+            "subject": "Drop some redundant reachability queries"
         }
     ],
     "erichkeane\/perf\/ctor-init-list": [
