@@ -291009,6 +291009,12 @@
             "author_name": "Mike Lothian",
             "commit_date": "2026-11-09T07:29:53Z",
             "subject": "[libc] Define TCP_CM_INQ (#239982)"
+        },
+        {
+            "hash": "06183486f18f15d350aba41a7628cf87f5979351",
+            "author_name": "Adam Siemieniuk",
+            "commit_date": "2026-11-09T08:49:33+01:00",
+            "subject": "[mlir][arith] Fix f8E8M0 zero expansion (#238377)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -317141,6 +317147,32 @@
             "author_name": "Kuba Mracek",
             "commit_date": "2026-11-07T07:46:26Z",
             "subject": "[LazyValueInfo] Increase lvi-max-uses-to-inspect default from 3 to 6"
+        }
+    ],
+    "guy-david\/perf\/lv-strided-pointer-iv-interleave": [
+        {
+            "hash": "c1856996d677c1b3578752e6781d0df46617fd68",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-06T12:08:28+01:00",
+            "subject": "[AMDGPU][NFC] Enable GlobalISel in fmax3-maximumnum and fmin3-minimumnum (#239485)"
+        },
+        {
+            "hash": "d0861bd7f1fa8ce89fd785ba98abbe5e935edd1b",
+            "author_name": "Guy David",
+            "commit_date": "2026-11-07T13:14:27+02:00",
+            "subject": "[LAA] Let clients choose the value symbolic strides are speculated to (NFC)"
+        },
+        {
+            "hash": "2e496f8ba1195e2696ca7d3ac39084914b560c00",
+            "author_name": "Guy David",
+            "commit_date": "2026-11-07T20:22:12+02:00",
+            "subject": "[LV] Add tests for strided pointer inductions (NFC)"
+        },
+        {
+            "hash": "edd01c335a90c116aa8ee088cfacddd10c87a4bf",
+            "author_name": "Guy David",
+            "commit_date": "2026-11-07T20:23:18+02:00",
+            "subject": "[LV] Vectorize strided pointer inductions as interleave groups"
         }
     ]
 }
