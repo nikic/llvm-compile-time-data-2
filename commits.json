@@ -293847,6 +293847,12 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-11-10T20:38:09Z",
             "subject": "Attributor: Fix build with older GCC after AAKindSet (#240975)"
+        },
+        {
+            "hash": "dfadcdfae5f7b03d53f622897acd9cfbfd7a5682",
+            "author_name": "JianSu",
+            "commit_date": "2026-11-10T15:49:13-05:00",
+            "subject": "[SystemZ][z\/OS] Reorder checks needConversion and shouldUseMmap. (#240900)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -320369,6 +320375,46 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-11-10T05:38:14Z",
             "subject": "Loop Deletion"
+        }
+    ],
+    "yafet-a\/perf\/array-extents-bundle": [
+        {
+            "hash": "282ae52048b2c9eec042824efdcd6d43c27a9d1a",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-11-05T09:35:10-06:00",
+            "subject": "[Bazel] Fixes fa8c673 (#239250)"
+        },
+        {
+            "hash": "c7b86ed7a659f7cff002d5a4d8fdd08d4ecaeeef",
+            "author_name": "Yafet Beyene",
+            "commit_date": "2026-11-10T11:51:45-08:00",
+            "subject": "[IR][DA][LoopInterchange] Add array.extents assume bundles"
+        },
+        {
+            "hash": "14adb52209700a9ff3a060bd31259a8ce8768a2e",
+            "author_name": "Yafet Beyene",
+            "commit_date": "2026-11-10T11:51:45-08:00",
+            "subject": "[Flang] Emit array.extents assume bundles"
+        }
+    ],
+    "yafet-a\/perf\/array-extents-chained": [
+        {
+            "hash": "282ae52048b2c9eec042824efdcd6d43c27a9d1a",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-11-05T09:35:10-06:00",
+            "subject": "[Bazel] Fixes fa8c673 (#239250)"
+        },
+        {
+            "hash": "3f2a6935e607c6747d9c1c7167e390383b879c61",
+            "author_name": "Yafet Beyene",
+            "commit_date": "2026-11-10T11:52:07-08:00",
+            "subject": "[IR][DA][LoopInterchange] Add llvm.assume.chained array extents"
+        },
+        {
+            "hash": "07e6f1abc0a7acf2f518daf425239fd58eb5524f",
+            "author_name": "Yafet Beyene",
+            "commit_date": "2026-11-10T11:52:07-08:00",
+            "subject": "[Flang] Emit llvm.assume.chained array extents"
         }
     ]
 }
