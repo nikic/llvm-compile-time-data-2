@@ -318852,5 +318852,33 @@
             "commit_date": "2026-11-09T16:09:27-08:00",
             "subject": "[SCEV] Rewrite x != C for an extreme C in loop guards"
         }
+    ],
+    "rnk\/perf\/instsimplify-constant-args-first": [
+        {
+            "hash": "6e58f6f5536016c55365ac55be11e6ac783d64cf",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-09T23:50:37Z",
+            "subject": "[VPlan] Hoist invariant base of pointer adds in runtime checks. (#240542)"
+        },
+        {
+            "hash": "ebc6a8a748f0d3338efc8c2633f057418ebca43a",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-11-10T03:25:36Z",
+            "subject": "[InstSimplify] Check call args are constant first to save ~0.15% instrs"
+        }
+    ],
+    "rnk\/perf\/memorybuiltins-return-type-first": [
+        {
+            "hash": "6e58f6f5536016c55365ac55be11e6ac783d64cf",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-09T23:50:37Z",
+            "subject": "[VPlan] Hoist invariant base of pointer adds in runtime checks. (#240542)"
+        },
+        {
+            "hash": "bbbd87d2271c7f02d7bca8f881220647da532d99",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-11-10T03:25:37Z",
+            "subject": "[MemoryBuiltins] Check return type first to save ~0.5% instrs"
+        }
     ]
 }
