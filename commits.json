@@ -293577,6 +293577,36 @@
             "author_name": "Michael G. Kazakov",
             "commit_date": "2026-11-10T17:31:09Z",
             "subject": "[libc++][pstl] Remove the libdispatch and the std_thread PSTL backends (#239290)"
+        },
+        {
+            "hash": "f32ff7f1cd76d752af37d76327a0d25843371a75",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-11-10T11:42:27-06:00",
+            "subject": "[OpenMP] Apply fixes to clause\/directive descriptors (#240898)"
+        },
+        {
+            "hash": "949aabbe05fadc4aad92d920491547d100e8528c",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-11-10T09:43:13-08:00",
+            "subject": "[Bazel] Fixes 01b3d57 (#240928)"
+        },
+        {
+            "hash": "ed3c958d0f182a10a48fcc481e7d60bce386f652",
+            "author_name": "Eric Ross",
+            "commit_date": "2026-11-10T11:46:31-06:00",
+            "subject": "[ValueTracking][KnownFPClass] Handle constrained frem\/G_STRICT_FREM (#239882)"
+        },
+        {
+            "hash": "bb04dac04a0f9e9b99ffc2e28b4806d4f98e7966",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-11-10T17:48:10Z",
+            "subject": "[libc] Add ucontext_t and mcontext_t for riscv (#240879)"
+        },
+        {
+            "hash": "23df5cc002e3e704c135a49f595a03a4caca3064",
+            "author_name": "Ikhlas Ajbar",
+            "commit_date": "2026-11-10T11:49:23-06:00",
+            "subject": "[Hexagon] Add MC, intrinsics, and clang builtins for HLX (#240858)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -319939,6 +319969,12 @@
             "author_name": "Reid Kleckner",
             "commit_date": "2026-11-10T03:25:36Z",
             "subject": "[InstSimplify] Check call args are constant first to save ~0.15% instrs"
+        },
+        {
+            "hash": "5f377220ccd26ea41d1ae1cf9cdc342737e048dd",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-11-10T17:49:18Z",
+            "subject": "Tweak comments"
         }
     ],
     "rnk\/perf\/memorybuiltins-return-type-first": [
