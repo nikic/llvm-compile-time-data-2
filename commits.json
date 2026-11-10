@@ -293343,6 +293343,90 @@
             "author_name": "Charles Zablit",
             "commit_date": "2026-11-10T15:44:40Z",
             "subject": "[lldb][Windows] Update the decorators of aarch64 tests (#240872)"
+        },
+        {
+            "hash": "e1eeaaae8f11ec193414f20842c28c74e1240bbc",
+            "author_name": "G\u00e1bor Horv\u00e1th",
+            "commit_date": "2026-11-10T15:47:20Z",
+            "subject": "[LifetimeSafety] Map arguments to an explicit object parameter correctly (#240411)"
+        },
+        {
+            "hash": "4143f9d3d4b494b3753026c3dfa16b02b71e0af0",
+            "author_name": "David Green",
+            "commit_date": "2026-11-10T15:48:14Z",
+            "subject": "[AArch64] Disable store-insert patterns under BE. (#240374)"
+        },
+        {
+            "hash": "bdbf46187d5491c67e4d5e9a298aa72204674d6d",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-11-10T16:48:54+01:00",
+            "subject": "[InstCombine] Simplify GEP canonicalization (#240846)"
+        },
+        {
+            "hash": "9180556d09e02ff6f66274d13b7dc6615631ee94",
+            "author_name": "Connector Switch",
+            "commit_date": "2026-11-10T23:49:09+08:00",
+            "subject": "[libc] Use a syscall wrapper for getuid (#240779)"
+        },
+        {
+            "hash": "8d1282fd956f88c2c5163eb8a5099ba38d3c17db",
+            "author_name": "Connector Switch",
+            "commit_date": "2026-11-10T23:49:10+08:00",
+            "subject": "[libc] Use a syscall wrapper for getppid (#240780)"
+        },
+        {
+            "hash": "a09821e16577c8ea8500c5cb20f6a7434d2ef364",
+            "author_name": "Connector Switch",
+            "commit_date": "2026-11-10T23:49:11+08:00",
+            "subject": "[libc] Use a syscall wrapper for gethostname (#240781)"
+        },
+        {
+            "hash": "c6e274e9c0df8b24438369fbf776fed1f587ae61",
+            "author_name": "Connector Switch",
+            "commit_date": "2026-11-10T23:49:12+08:00",
+            "subject": "[libc] Use a syscall wrapper for getgid (#240782)"
+        },
+        {
+            "hash": "a607f5c0a2b90588a4906f9ca1558c7ff6e6c3ed",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-11-10T15:51:31Z",
+            "subject": "[LoopVectorize] Enable GEP canonicalization in IRBuilder (NFC) (#240856)"
+        },
+        {
+            "hash": "b63d12d733d51eed6ae71081704fe8c754a1cce6",
+            "author_name": "Zhijie Wang",
+            "commit_date": "2026-11-10T07:59:07-08:00",
+            "subject": "[LifetimeSafety] Don't drop the last alias note for chains from a declaration (#240654)"
+        },
+        {
+            "hash": "78fde250f9ae9b4140aba735ab7613f118ab9711",
+            "author_name": "Zhijie Wang",
+            "commit_date": "2026-11-10T07:59:09-08:00",
+            "subject": "[LifetimeSafety] Start alias chain search at the use instead of the block end (#240655)"
+        },
+        {
+            "hash": "b2f7f43b949d018da989c5e8844d9d9a4d75d480",
+            "author_name": "higher-performance",
+            "commit_date": "2026-11-10T10:59:24-05:00",
+            "subject": "Speed up std::invoke() compile times and rename __invoke_result_t to __direct_invoke_result_t (#213403)"
+        },
+        {
+            "hash": "61b685cf01fc88f1590c7ce2547776a506ded0fc",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-11-10T16:02:21Z",
+            "subject": "[Hexagon](NFC) Drop `tracksRegLiveness: true` from MIR tests (#240862)"
+        },
+        {
+            "hash": "98407454f4a9727c1327158626141654bd3df8fd",
+            "author_name": "Adam Smith",
+            "commit_date": "2026-11-10T10:04:47-06:00",
+            "subject": "[CIR] Skip function bodies imported from other named modules (#239686)"
+        },
+        {
+            "hash": "e3bb1d8ca634a003e72db614d3f48f1d3e642169",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-11-10T11:07:53-05:00",
+            "subject": "[libc++] Add Michael Kazakov as the main PSTL maintainer (#240857)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
