@@ -293163,6 +293163,12 @@
             "author_name": "Joseph Huber",
             "commit_date": "2026-11-10T07:49:01-06:00",
             "subject": "[AMDGPU] Add UBSan checks for AMDGPU lane access builtins (#231485)"
+        },
+        {
+            "hash": "e1056bdfdc6ccc075fbd2fbf986bc22c736d6dd4",
+            "author_name": "Ivan Butygin",
+            "commit_date": "2026-11-10T16:59:21+03:00",
+            "subject": "[mlir][Dataflow] Revisit region arguments when operand change (#239658)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -317663,22 +317669,28 @@
     ],
     "fhahn\/perf\/basicaa-phi-alloca": [
         {
-            "hash": "65303e81f481bbfe386b8596423f94c43198ba94",
-            "author_name": "Teja Alaghari",
-            "commit_date": "2026-11-02T07:15:06Z",
-            "subject": "[AMDGPU] Preserve live SCC when shrinking disjoint S_OR_B32 to S_ADDK_I32 (#228025)"
+            "hash": "2f9e75d741cb1a3b93c1a6257567976b92039e3b",
+            "author_name": "Congcong Cai",
+            "commit_date": "2026-11-10T20:12:58+08:00",
+            "subject": "[CodeGen] Skip pseudo probes in the ImplicitNullChecks scan (#240239)"
         },
         {
-            "hash": "e7b1c57ce87213aeea630ec1ca51f16f989bc376",
+            "hash": "f0ddfcb7de104bb11a7a766bbddc83350f5fd83f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-02T09:11:05+01:00",
+            "commit_date": "2026-11-10T13:52:05Z",
             "subject": "[BasicAA] Check underlying objects of phis instead of giving up."
         },
         {
-            "hash": "7fdb97a8d4a6c533c834b3166e21b4b93057caba",
+            "hash": "76d4ddb8db0b6c63e6c5eba2a7df3e7405e9f946",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-02T09:11:10+01:00",
+            "commit_date": "2026-11-10T13:52:06Z",
             "subject": "[BasicAA] Use getUnderlyingObjects with visit limit in aliasPHI (NFC)."
+        },
+        {
+            "hash": "ada2789ece32cb1eac7c8925bd3a0e96a1389609",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-10T13:52:06Z",
+            "subject": "fixup"
         }
     ],
     "nikic\/perf\/instcombine-load-gep-select": [
@@ -319551,15 +319563,15 @@
     ],
     "llvmbot\/perf\/pr-210921": [
         {
-            "hash": "0547817c272e261a3d7c88b88a5290020be32a64",
-            "author_name": "Andrzej Warzy\u0144ski",
-            "commit_date": "2026-11-10T12:04:41Z",
-            "subject": "[mlir][ArmNeon][NFC] Replace `NeonVectorOfLength` with common constraints (#239225)"
+            "hash": "f5ae04bf0ea4bfeae5a8299252f16343870f8206",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-11-10T13:19:51Z",
+            "subject": "[DAG] Replace getLibraryOptions helper with getSelectionDAGOptions (#240799)"
         },
         {
-            "hash": "6907721cabe338ee975869bd0026d419ae381336",
+            "hash": "b961b0cd82fb6418af8540b88a512885c2c9d55c",
             "author_name": "amd-bbandlap",
-            "commit_date": "2026-11-10T13:18:58Z",
+            "commit_date": "2026-11-10T13:52:28Z",
             "subject": "[SLP] Extend compare chains downward before bottom-up vectorization (#\u200b210921)"
         }
     ],
