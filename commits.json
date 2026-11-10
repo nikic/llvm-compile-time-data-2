@@ -293571,6 +293571,12 @@
             "author_name": "schittir",
             "commit_date": "2026-11-10T12:28:38-05:00",
             "subject": "[clang][NFC] Move DeviceKnownEmittedFns out of SemaCUDA (#236917)"
+        },
+        {
+            "hash": "01b3d57fe89d378040c41fc7ee7c6589a1a4c0d8",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-11-10T17:31:09Z",
+            "subject": "[libc++][pstl] Remove the libdispatch and the std_thread PSTL backends (#239290)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -319947,6 +319953,12 @@
             "author_name": "Reid Kleckner",
             "commit_date": "2026-11-10T03:25:37Z",
             "subject": "[MemoryBuiltins] Check return type first to save ~0.5% instrs"
+        },
+        {
+            "hash": "25751efc1162b924d6deefca0592a5012cb5822b",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-11-10T17:34:38Z",
+            "subject": "Tighten the comments"
         }
     ],
     "nikic\/perf\/thinlto-funcattrs": [
@@ -320043,6 +320055,44 @@
             "author_name": "Hao Ren",
             "commit_date": "2026-11-10T15:24:03+01:00",
             "subject": "[SCEV] Use signed form of samesign compares when it tightens exit limits"
+        }
+    ],
+    "boomanaiden154\/perf\/lcssa-upstreaming-10-23-26": [
+        {
+            "hash": "6afc02bde9a569375d3de86ef9c4ad7241f8af83",
+            "author_name": "\u9648\u5b50\u6602",
+            "commit_date": "2026-11-10T10:21:05+08:00",
+            "subject": "[RISCV][P-ext] Regenerate scalar widening zip checks. NFC (#240255)"
+        },
+        {
+            "hash": "7db50c52153ec72b62871aba6bf3b408bde92417",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-11-10T02:56:17Z",
+            "subject": "[IVUsers] Look through LCSSA PHI Nodes"
+        },
+        {
+            "hash": "9e2fe99fd6123f47c934bc082653e9fc6106512e",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-11-10T02:56:19Z",
+            "subject": "[ComplexDeinterleaving] Do not bail on LCSSA PHIs"
+        },
+        {
+            "hash": "f22ea9f80ad7236e16862289cd7ce86f42556a79",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-11-10T02:56:38Z",
+            "subject": "[LoopUtils] Fix UnusedIndVarInLoop"
+        },
+        {
+            "hash": "7bf87e09985a4428b2719494252816016adcd51c",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-11-10T04:51:08Z",
+            "subject": "Fix tests"
+        },
+        {
+            "hash": "c73fc3707e3f48c89e83729214b230440395ffae",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-11-10T05:38:14Z",
+            "subject": "Loop Deletion"
         }
     ]
 }
