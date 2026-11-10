@@ -293913,6 +293913,48 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-11-10T13:26:00-08:00",
             "subject": "Attributor: Don't keep a reference into the function information map (#240717)"
+        },
+        {
+            "hash": "8fa84df08fc6d69af7d083d3023759edf857ccd7",
+            "author_name": "Vijay Kandiah",
+            "commit_date": "2026-11-10T15:27:46-06:00",
+            "subject": "[flang][codegen] Fix complex part designator with a non-constant index (#240550)"
+        },
+        {
+            "hash": "7387a4db4aced3e3d38a8e37452a87dff341a002",
+            "author_name": "0z5a",
+            "commit_date": "2026-11-10T15:32:12-06:00",
+            "subject": "[clang-nvlink-wrapper] Keep LTO task outputs distinct (#238883)"
+        },
+        {
+            "hash": "384d65336ee37c86df8ab98d3ac66790eadd5f54",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-11-10T13:35:43-08:00",
+            "subject": "[lldb][docs] Add GPU debugging blog post to links page (#240930)"
+        },
+        {
+            "hash": "b84ab9c71c8d13cb661d2fe9ee59d02cef86fdef",
+            "author_name": "Austin Kerbow",
+            "commit_date": "2026-11-10T13:36:17-08:00",
+            "subject": "[AMDGPU] Model ordered XDL writes in expert scheduling (#218326)"
+        },
+        {
+            "hash": "0eb53b9dabc99d28bc09a308d53113cf7e9d5860",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-11-10T16:36:25-05:00",
+            "subject": "[SLP]Support freeze as copyable main op"
+        },
+        {
+            "hash": "ddf367f2c8be45d37c190662305110223de3a6f6",
+            "author_name": "Ron Green [NVIDIA]",
+            "commit_date": "2026-11-10T13:38:51-08:00",
+            "subject": "[flang][OpenACC] Bind a module COMMON block named in a data clause (#239811)"
+        },
+        {
+            "hash": "d8f1473645826d887f890f33caa3698befb4562b",
+            "author_name": "Alex Langford",
+            "commit_date": "2026-11-10T13:41:45-08:00",
+            "subject": "[lldb] Remove unused methods from PlatformiOSSimulatorCoreSimulatorSupport (#240970)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -320451,9 +320493,9 @@
             "subject": "[IR][DA][LoopInterchange] Add array.extents assume bundles"
         },
         {
-            "hash": "14adb52209700a9ff3a060bd31259a8ce8768a2e",
+            "hash": "69a75d19bd08ecac79c1f96cd8758505f781ee67",
             "author_name": "Yafet Beyene",
-            "commit_date": "2026-11-10T11:51:45-08:00",
+            "commit_date": "2026-11-10T13:00:41-08:00",
             "subject": "[Flang] Emit array.extents assume bundles"
         }
     ],
@@ -320471,9 +320513,9 @@
             "subject": "[IR][DA][LoopInterchange] Add llvm.assume.chained array extents"
         },
         {
-            "hash": "07e6f1abc0a7acf2f518daf425239fd58eb5524f",
+            "hash": "c9602f307f73af06fa4d9401cd464b181fc95a0c",
             "author_name": "Yafet Beyene",
-            "commit_date": "2026-11-10T11:52:07-08:00",
+            "commit_date": "2026-11-10T13:00:41-08:00",
             "subject": "[Flang] Emit llvm.assume.chained array extents"
         }
     ]
