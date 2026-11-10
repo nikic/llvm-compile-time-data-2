@@ -292995,6 +292995,24 @@
             "author_name": "Hans Wennborg",
             "commit_date": "2026-11-10T10:43:59Z",
             "subject": "Revert \"[ArgumentPromotion] Emit DW_OP_LLVM_implicit_pointer for promoted pointer args\" (#240771)"
+        },
+        {
+            "hash": "905c62ebc908739c1bd72304749efbf0bf5e9c6a",
+            "author_name": "David Sherwood",
+            "commit_date": "2026-11-10T10:54:59Z",
+            "subject": "[LV][NFC] Regenerate some CHECK lines (#240770)"
+        },
+        {
+            "hash": "23735adc5ebe35c76fe8164d74d8dd7a8a038ead",
+            "author_name": "Akimasa Watanuki",
+            "commit_date": "2026-11-10T04:58:01-06:00",
+            "subject": "[mlir][MemRefToLLVM][NFC] Share checks between conversion entry points (#237349)"
+        },
+        {
+            "hash": "8ef3cff31b42c80093d1a50973d16e5bbd5db28d",
+            "author_name": "Dominik Steenken",
+            "commit_date": "2026-11-10T11:59:27+01:00",
+            "subject": "[SystemZ] Properly honor musttail attribute (#239638)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -319233,6 +319251,42 @@
             "author_name": "Nathan Corbyn",
             "commit_date": "2026-11-09T17:24:30Z",
             "subject": "Try something"
+        },
+        {
+            "hash": "efa84760097a3263a79f04518bd4cde3c80a8ca2",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-11-10T10:44:15Z",
+            "subject": "Drop supportive vertices from ScheduleDAGTopologicalSort"
+        },
+        {
+            "hash": "7999e62a0da85d686e696cbeb6140afe462663a0",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-11-10T10:47:13Z",
+            "subject": "Variant: supportive vertices without levels (base minus levels)"
+        },
+        {
+            "hash": "5dabfced57df6473528a09f1528dfd2f4c94fb67",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-11-10T10:47:30Z",
+            "subject": "Variant: 16 supportive vertices with levels (base with 16 supportive vertices)"
+        },
+        {
+            "hash": "6a7fc6c04f9e1f17056ac162118b6316e5958da4",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-11-10T10:49:11Z",
+            "subject": "Variant: order and cache only (base minus levels and supportive vertices)"
+        },
+        {
+            "hash": "819e4f4bb7612ce99497249824ae33b3b1aed032",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-11-10T10:50:58Z",
+            "subject": "Variant: no reachability cache (base minus cached rows)"
+        },
+        {
+            "hash": "f0bca0a6d98226a2945bbb5a368bf8670d05b84a",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-11-10T10:52:40Z",
+            "subject": "Variant: skip labels and cache for DAGs under 64 nodes (base plus size threshold)"
         }
     ],
     "fhahn\/perf\/scev-guards-computeMaxBECountForLT": [
