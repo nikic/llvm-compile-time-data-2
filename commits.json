@@ -292977,6 +292977,12 @@
             "author_name": "Victor Campos",
             "commit_date": "2026-11-10T10:27:28Z",
             "subject": "Revert \"[libc] Enable baremetal Armv7-M pre-merge tests\" (#240765)"
+        },
+        {
+            "hash": "f0b6619558e5665bb0ee455e4aad7b38de30cc04",
+            "author_name": "Alfie Varghese",
+            "commit_date": "2026-11-10T10:36:30Z",
+            "subject": "[NFC][Docs] Fix typos across clang, flang, and mlir documentation (#240115)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -318877,6 +318883,12 @@
             "author_name": "Nathan Corbyn",
             "commit_date": "2026-11-09T13:07:45Z",
             "subject": "Drop some redundant reachability queries"
+        },
+        {
+            "hash": "03fb19f1ce25d0e99900288878eba1ab29665216",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-11-10T10:38:20Z",
+            "subject": "Revert \"Drop some redundant reachability queries\""
         }
     ],
     "erichkeane\/perf\/ctor-init-list": [
@@ -319305,6 +319317,20 @@
             "author_name": "Reid Kleckner",
             "commit_date": "2026-11-10T03:25:37Z",
             "subject": "[MemoryBuiltins] Check return type first to save ~0.5% instrs"
+        }
+    ],
+    "nikic\/perf\/thinlto-funcattrs": [
+        {
+            "hash": "e2b36dd0611ae1a7221e108ba81d73a511fd0022",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-11-10T09:23:38+01:00",
+            "subject": "[GlobalOpt] Remove unnecessary call-site-only extends (#240384)"
+        },
+        {
+            "hash": "0448eb3e04f188a1da8f23b004baa71e6e00bf1a",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-11-10T11:36:45+01:00",
+            "subject": "enable"
         }
     ]
 }
