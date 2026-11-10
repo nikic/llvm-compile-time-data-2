@@ -293127,6 +293127,12 @@
             "author_name": "Alan Li",
             "commit_date": "2026-11-10T08:11:46-05:00",
             "subject": "[DAGCombiner][GlobalISel] Fold floor into unsigned FP-to-int conversions (#239233)"
+        },
+        {
+            "hash": "f5ae04bf0ea4bfeae5a8299252f16343870f8206",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-11-10T13:19:51Z",
+            "subject": "[DAG] Replace getLibraryOptions helper with getSelectionDAGOptions (#240799)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -319511,6 +319517,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-11-10T11:36:45+01:00",
             "subject": "enable"
+        }
+    ],
+    "llvmbot\/perf\/pr-210921": [
+        {
+            "hash": "0547817c272e261a3d7c88b88a5290020be32a64",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-11-10T12:04:41Z",
+            "subject": "[mlir][ArmNeon][NFC] Replace `NeonVectorOfLength` with common constraints (#239225)"
+        },
+        {
+            "hash": "6907721cabe338ee975869bd0026d419ae381336",
+            "author_name": "amd-bbandlap",
+            "commit_date": "2026-11-10T13:18:58Z",
+            "subject": "[SLP] Extend compare chains downward before bottom-up vectorization (#\u200b210921)"
         }
     ]
 }
