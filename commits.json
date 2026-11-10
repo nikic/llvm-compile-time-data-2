@@ -293169,6 +293169,30 @@
             "author_name": "Ivan Butygin",
             "commit_date": "2026-11-10T16:59:21+03:00",
             "subject": "[mlir][Dataflow] Revisit region arguments when operand change (#239658)"
+        },
+        {
+            "hash": "89f7d442e1c662570ec788884d5dc7a5469474fd",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-11-10T06:08:28-08:00",
+            "subject": "[NFC] Clarify comment on initializer size history, per request. (#240395)"
+        },
+        {
+            "hash": "989083b47207f17d209baf3aed5d029017094b8b",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-11-10T06:09:19-08:00",
+            "subject": "[NFC] Fixup comment on ADL re-visit prevention (#240400)"
+        },
+        {
+            "hash": "81100b452dceaa09ee5d1071e53763192b460840",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-11-10T09:09:21-05:00",
+            "subject": "[gn build] Port 96f1f47e36397 (#240842)"
+        },
+        {
+            "hash": "5ea4f138465e13fb0ba57472c0d867faf4a7dbcc",
+            "author_name": "Nico Weber",
+            "commit_date": "2026-11-10T09:09:42-05:00",
+            "subject": "[gn build] Port bff8793c57a6 (#240843)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -319613,6 +319637,20 @@
             "author_name": "\u00d6mer Sinan A\u011facan",
             "commit_date": "2026-11-10T13:38:35Z",
             "subject": "[SimplifyCFG] Fix and improve code size check when merging switches into predecessors"
+        }
+    ],
+    "nikic\/perf\/instcombine-irbuilder-gep-canon": [
+        {
+            "hash": "e2b36dd0611ae1a7221e108ba81d73a511fd0022",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-11-10T09:23:38+01:00",
+            "subject": "[GlobalOpt] Remove unnecessary call-site-only extends (#240384)"
+        },
+        {
+            "hash": "cba4b8d668061401a66d21673cd63324697a97b6",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-11-10T15:08:40+01:00",
+            "subject": "wip"
         }
     ]
 }
