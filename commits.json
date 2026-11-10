@@ -293679,6 +293679,24 @@
             "author_name": "Adam Smith",
             "commit_date": "2026-11-10T18:30:47Z",
             "subject": "[CIR] Do not assume function aliases are dso_local under PIC (#234753)"
+        },
+        {
+            "hash": "44d0e05725a170722bc365dba8818665f824ff59",
+            "author_name": "Eric Ross",
+            "commit_date": "2026-11-10T12:37:44-06:00",
+            "subject": " [InstCombine] Correctly handle input denormal modes for roundToIntegral subnormal folds (#238204)"
+        },
+        {
+            "hash": "bdf4ebad5d67f6ac9a4435401322403e86aa73aa",
+            "author_name": "Eric Ross",
+            "commit_date": "2026-11-10T12:38:34-06:00",
+            "subject": "[InstCombine] Fix demanded classes for fptrunc\/fptrunc_round (#240523)"
+        },
+        {
+            "hash": "720cfaa9430de2afad4cb2e36f304b1c217d8e45",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-11-10T19:43:09+01:00",
+            "subject": "[CIR] Let llvmOp lowering forward properties to the LLVM op (#240540)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
