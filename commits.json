@@ -293151,6 +293151,18 @@
             "author_name": "Aman Maurya",
             "commit_date": "2026-11-10T19:10:16+05:30",
             "subject": "[libc] Implement clock_nanosleep in time (#240025)"
+        },
+        {
+            "hash": "f172d13c3c494f38b996b12734e34f7d5b1c54f1",
+            "author_name": "Leo Garcia",
+            "commit_date": "2026-11-10T13:45:38Z",
+            "subject": "[libc] Implement sigtimedwait and sigwaitinfo in signal (#238787)"
+        },
+        {
+            "hash": "3ad61ff817ac1409d66993cace413fbd8498bfc1",
+            "author_name": "Joseph Huber",
+            "commit_date": "2026-11-10T07:49:01-06:00",
+            "subject": "[AMDGPU] Add UBSan checks for AMDGPU lane access builtins (#231485)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -319575,6 +319587,20 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-11-10T14:26:24+01:00",
             "subject": "program: Pass initializer along"
+        }
+    ],
+    "osa1\/perf\/simplifycfg_code_size_check_fixup": [
+        {
+            "hash": "6c9d0014f4eebea589fe291803726425cb3e4f8a",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-11-10T12:13:38+01:00",
+            "subject": "[mlir][CIR] Use DefaultValuedEnumProp for enum property defaults (NFC) (#240554)"
+        },
+        {
+            "hash": "b7e6b0684deb1a905a78ba62ceef1053c16bbd95",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-11-10T13:38:35Z",
+            "subject": "[SimplifyCFG] Fix and improve code size check when merging switches into predecessors"
         }
     ]
 }
