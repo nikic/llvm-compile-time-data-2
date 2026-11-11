@@ -294315,6 +294315,36 @@
             "author_name": "Sergei Barannikov",
             "commit_date": "2026-11-11T04:43:07Z",
             "subject": "[IR] Move getWCharSize() to Module (NFC) (#241116)"
+        },
+        {
+            "hash": "549f019f7bfa39d249d7ff419ae05687decb18f3",
+            "author_name": "Kewen Meng",
+            "commit_date": "2026-11-10T20:51:25-08:00",
+            "subject": "Revert \"[libc][test] Align custom matchers with GoogleMock\" (#241124)"
+        },
+        {
+            "hash": "b4c487880a54dc5f452b4a0e907d5225e32c70c7",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-11-11T15:52:10+11:00",
+            "subject": "[ORC] Add sps::HandlerSpec and bindCallControllerHandler (#241098)"
+        },
+        {
+            "hash": "c300660e94b3e028b3187c569ee96ff71b95da26",
+            "author_name": "Ikhlas Ajbar",
+            "commit_date": "2026-11-10T22:55:53-06:00",
+            "subject": "[Hexagon] Add HLX 64-bit scalar packet rule (#241073)"
+        },
+        {
+            "hash": "455976e75885c36945567a2157b5a9a80cbf032f",
+            "author_name": "sriramshastry",
+            "commit_date": "2026-11-11T10:27:40+05:30",
+            "subject": "[libc][math] Report remquo domain errors and quiet signaling NaNs (#236474)"
+        },
+        {
+            "hash": "0651368ba1ce1f3c3bb72f4a00fcb243cf16b095",
+            "author_name": "sriramshastry",
+            "commit_date": "2026-11-11T10:28:20+05:30",
+            "subject": "[libc][math] Correct expm1f16 subnormal rounding and range reporting (#236310)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -320931,6 +320961,20 @@
             "author_name": "stephen",
             "commit_date": "2026-11-10T22:11:20Z",
             "subject": "add cpp repro"
+        }
+    ],
+    "4vtomat\/perf\/fix_riscv_attr_cmpl_time_regress": [
+        {
+            "hash": "c6f436ff6f6671681a263eb3aa404b4543915cad",
+            "author_name": "Andres-Salamanca",
+            "commit_date": "2026-11-10T21:46:00-05:00",
+            "subject": "[CIR] Add presplitcoroutine attribute and enable coroutine lowering to LLVM IR (#239447)"
+        },
+        {
+            "hash": "031f19947d96c06b0d0f42ab13b117cbfed64097",
+            "author_name": "Brandon Wu",
+            "commit_date": "2026-11-10T20:57:35-08:00",
+            "subject": "tset"
         }
     ]
 }
