@@ -294507,6 +294507,36 @@
             "author_name": "Max Brandtner",
             "commit_date": "2026-11-11T09:23:37Z",
             "subject": "[SimplifyCFG] Skip phi scans when folded block shares no predecessors (#225647)"
+        },
+        {
+            "hash": "adf041a0cc5e32172d996ae07d36634be3891f77",
+            "author_name": "Jared Hoberock",
+            "commit_date": "2026-11-11T10:27:29+01:00",
+            "subject": "[mlir][scf] Fix ForOpTensorCastFolder on loops that change shape (#234422)"
+        },
+        {
+            "hash": "3f32d02b3c9a1b57b2eae9b79f312c4226a92e04",
+            "author_name": "Jared Hoberock",
+            "commit_date": "2026-11-11T10:29:41+01:00",
+            "subject": "[mlir][bufferization] Fix crash in OptimizeAllocationLiveness (#234386)"
+        },
+        {
+            "hash": "d13658fa07f3e3964c0cb1210d9ac5f9948c31e2",
+            "author_name": "Alex Duran",
+            "commit_date": "2026-11-11T09:29:56Z",
+            "subject": "[Offload] Fix possible out-of-scope access in kernel launch (#240597)"
+        },
+        {
+            "hash": "e63d941644a2e55148bf803d184d44b63b410c5b",
+            "author_name": "Jared Hoberock",
+            "commit_date": "2026-11-11T10:33:08+01:00",
+            "subject": "[mlir][bufferization] Let a type be tensor-like for some of its instances (#240522)"
+        },
+        {
+            "hash": "7b085fa422370965abf90f46d9f254b7c243b6f4",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-11-11T09:34:19Z",
+            "subject": "[mlir][ArmSVE] Add indexed FMLA op (#239175)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
