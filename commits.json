@@ -294621,6 +294621,30 @@
             "author_name": "Alex Voicu",
             "commit_date": "2026-11-11T11:39:27Z",
             "subject": "[SPIRV] Select the correct `OpSelect` pseudo when dealing with untyped pointers (#240652)"
+        },
+        {
+            "hash": "31ababa6c6e0795c89160d92aa02d6c386336824",
+            "author_name": "Yongqiang Tian",
+            "commit_date": "2026-11-11T22:47:36+11:00",
+            "subject": "Revert \"[AMDGPU] Preserve exec copies across intervening EXEC writes\" (#241071)"
+        },
+        {
+            "hash": "7d38abdf518ed73e5d1d659fb9612312357e8217",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-11-11T11:48:08Z",
+            "subject": "[VectorCombine] Enable IRBuilder GEP canonicalization (#241221)"
+        },
+        {
+            "hash": "76516e5b435863d5cf9be79f37610784a5edf95d",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-11-11T12:53:56+01:00",
+            "subject": "[MemorySanitizer] Enable IRBuilder GEP canonicalization (#241299)"
+        },
+        {
+            "hash": "d46179d721bd0699d2146c73ce05f0e0ecf12440",
+            "author_name": "Benjamin Maxwell",
+            "commit_date": "2026-11-11T11:55:01Z",
+            "subject": "[LV] Allow targets to filter which types maximize bandwidth (#234642)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -321315,6 +321339,20 @@
             "author_name": "Timm B\u00e4der",
             "commit_date": "2026-11-11T10:52:03+01:00",
             "subject": "no fillers"
+        }
+    ],
+    "yafet-a\/perf\/gvn-bundle-cse": [
+        {
+            "hash": "9a1b583059eaa2672767943a9bcd00adaa3e03ef",
+            "author_name": "Teresa Johnson",
+            "commit_date": "2026-10-30T07:20:06-07:00",
+            "subject": "[MemProf] Make the early inliner ignore the sample profile (#235975)"
+        },
+        {
+            "hash": "5bc7488233c34f8686a9af64b12d7669f083fd75",
+            "author_name": "Yafet Beyene",
+            "commit_date": "2026-10-30T09:05:29-07:00",
+            "subject": "[GVN] Combine memory-free calls with identical operand bundles"
         }
     ]
 }
