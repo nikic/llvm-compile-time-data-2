@@ -294783,6 +294783,18 @@
             "author_name": "Chen Miao",
             "commit_date": "2026-11-11T21:48:51+08:00",
             "subject": "[clang][C23] Delay thread storage recovery for constexpr diagnostics (#236758)"
+        },
+        {
+            "hash": "869eeb1e8a5a81164c9b7d722732937aa88e72b8",
+            "author_name": "Julian Brown",
+            "commit_date": "2026-11-11T13:56:38Z",
+            "subject": "[Offload][AMDGPU] Return the real user count from getUserCount (#241301)"
+        },
+        {
+            "hash": "8c2e2cb3558f99f18604bf8e1bd826086243ea2a",
+            "author_name": "Chi-Chun, Chen",
+            "commit_date": "2026-11-11T08:00:21-06:00",
+            "subject": "[mlir][flang][OpenMP] Honor inclusive iterator bounds in translation (#240949)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -321519,6 +321531,44 @@
             "author_name": "wangpc-pp",
             "commit_date": "2026-11-11T12:25:28Z",
             "subject": "[clang] Avoid repeated per-function target setup (#\u200b241192)"
+        }
+    ],
+    "fhahn\/perf\/ct-o3-3": [
+        {
+            "hash": "2f02a2b3f771d90dbd4f4b84645389393ab68917",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-11-11T00:05:19-08:00",
+            "subject": "[ThinLTO] Use .llvm. prefix when promoting split-LTO internals (#240699)"
+        },
+        {
+            "hash": "6425a684a6990efa4f7cb4f3b95cd648b94299d5",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-11T13:49:46Z",
+            "subject": "[DAGCombiner] Skip early visitADDLike folds for common operands (NFC)"
+        },
+        {
+            "hash": "ef7bb0989b2801d70d42595461493b2e1b97c806",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-11T13:49:59Z",
+            "subject": "[SelectionDAG] Reuse the scheduler for all blocks of a function (NFC)"
+        },
+        {
+            "hash": "f9ea44545a3bc51171ca487059087dc6e16560d3",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-11T13:50:18Z",
+            "subject": "[AggressiveInstCombine] Dispatch folds on the root opcode (NFC)"
+        },
+        {
+            "hash": "54ffa22b93d74aa1cde869ae4e3a1725ed40ea27",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-11T13:51:16Z",
+            "subject": "[MemorySSA] Allocate per-block access lists with the bump allocator (NFC)"
+        },
+        {
+            "hash": "68b295731e8e74690201398af3d80a2a8395b3d5",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-11T13:55:59Z",
+            "subject": "[InstSimplify] Compute GEP type sizes only when needed (NFC)"
         }
     ]
 }
