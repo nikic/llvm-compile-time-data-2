@@ -294147,6 +294147,12 @@
             "author_name": "Ikhlas Ajbar",
             "commit_date": "2026-11-10T18:35:56-06:00",
             "subject": "[Hexagon] Add assembly mapping for LX_mux_h_alt (#241036)"
+        },
+        {
+            "hash": "e14a09a20ba4face532693c61dcf22f011e1a30c",
+            "author_name": "Sergei Barannikov",
+            "commit_date": "2026-11-11T03:42:00+03:00",
+            "subject": "[RuntimeLibcalls] Extend i32 libcall arguments and returns on VE (#240638)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -320709,6 +320715,20 @@
             "author_name": "Yafet Beyene",
             "commit_date": "2026-11-10T13:00:41-08:00",
             "subject": "[Flang] Emit llvm.assume.chained array extents"
+        }
+    ],
+    "rnk\/perf\/ir-skip-dead-constant-user-walks": [
+        {
+            "hash": "db0a0e8065824941ab9ad0de1a36d7ade39348b4",
+            "author_name": "Ikhlas Ajbar",
+            "commit_date": "2026-11-10T18:35:56-06:00",
+            "subject": "[Hexagon] Add assembly mapping for LX_mux_h_alt (#241036)"
+        },
+        {
+            "hash": "5fb2de287bdfec622fdd31fa52e74ea482726e43",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-11-11T00:39:44Z",
+            "subject": "[IR] Skip removeDeadConstantUsers use-list walks to save ~0.25% wall time"
         }
     ]
 }
