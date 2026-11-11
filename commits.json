@@ -295347,6 +295347,30 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-11-11T19:53:03Z",
             "subject": "DAG: Remove special case copysign libcall recognition (#241440)"
+        },
+        {
+            "hash": "16137bcd730fd386a631121ea8c214ae604163cb",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-11-11T11:54:47-08:00",
+            "subject": "[GitHub][libc] Bump LLVM to 24 in container image (#241368)"
+        },
+        {
+            "hash": "c4fb621a96d8caeb7d272a64047edf87dec68501",
+            "author_name": "Federico Bruzzone",
+            "commit_date": "2026-11-11T19:55:46Z",
+            "subject": "[mlir][vector] Reject `vector.mask` on Xfer ops that have a mask operand (#240797)"
+        },
+        {
+            "hash": "4a6c93c2a5ee9516183159e83069e8a971ef7f65",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-11-11T19:57:59Z",
+            "subject": "[X86] combineBasicSADPattern - incorrect vector element count (#240005)"
+        },
+        {
+            "hash": "cc6fe608a116ceef9b665cdc4af5bcf188e00c0c",
+            "author_name": "Hubert Tong",
+            "commit_date": "2026-11-11T20:01:25Z",
+            "subject": "[NFC][test] AIX: Skip Clang IR steps in module-funcs-from-imports.cppm (#241451)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -322103,6 +322127,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-11-11T13:55:59Z",
             "subject": "[InstSimplify] Compute GEP type sizes only when needed (NFC)"
+        }
+    ],
+    "kubamracek\/perf\/lvi-use-limit-6": [
+        {
+            "hash": "a61f276a37075442663dc8b968bef5fd0e313b66",
+            "author_name": "Jaeyong Lee",
+            "commit_date": "2026-11-11T14:37:51-05:00",
+            "subject": "[libc][stdfix][NFC] Clean up include paths and CMake dependencies (#241414)"
+        },
+        {
+            "hash": "2e00c2829f692dfc7f3dae22bb91f70de0eb7005",
+            "author_name": "Kuba Mracek",
+            "commit_date": "2026-11-11T19:51:43Z",
+            "subject": "[LVI] Raise MaxUsesToInspect limit in getValueAtUse to 6"
         }
     ]
 }
