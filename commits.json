@@ -294855,6 +294855,24 @@
             "author_name": "Teresa Johnson",
             "commit_date": "2026-11-11T06:52:16-08:00",
             "subject": "[ICP] Require a live summary when promoting to a declaration in ThinLTO (#241018)"
+        },
+        {
+            "hash": "0a215fa58a6a89bf352881eb8d4f69e823f0a9f4",
+            "author_name": "newgre",
+            "commit_date": "2026-11-11T16:04:08+01:00",
+            "subject": "[CopyProf] Intercept C heap functions. (#235454)"
+        },
+        {
+            "hash": "95643495f35cd8f585113507957d28b146c6275c",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-11T16:09:18+01:00",
+            "subject": "[mlir][SPIR-V] Add pattern rollback option to convert-spirv-to-llvm (#241149)"
+        },
+        {
+            "hash": "80742e8e1fa32d4e9e5d6b6c43824f068652b701",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-11-11T16:09:23+01:00",
+            "subject": "[CIR] Make cir.condition exit to the loop, not to itself (#240971)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -321447,34 +321465,10 @@
             "subject": "Reapply \"[RISCV][clang] Support XSfmm ABI attributes (#206260)\""
         },
         {
-            "hash": "412cfb6f3e53089a573534018e7d476ce366a8a2",
+            "hash": "206032b9bf7854c28334ac39f45ab4da3ec170b3",
             "author_name": "Brandon Wu",
-            "commit_date": "2026-11-10T22:24:09-08:00",
-            "subject": "tset"
-        },
-        {
-            "hash": "04bb15e8d77ea22c97036e670ee65f21ab89e83e",
-            "author_name": "Brandon Wu",
-            "commit_date": "2026-11-10T22:24:18-08:00",
-            "subject": "test"
-        },
-        {
-            "hash": "9d4ad6a734e88e65319bbfef7c355f143f05d6c1",
-            "author_name": "Brandon Wu",
-            "commit_date": "2026-11-11T00:14:01-08:00",
-            "subject": "Experiment without RISC-V function type profile key"
-        },
-        {
-            "hash": "b71d966a97713d28cd68da7ec2b41488a73b25ae",
-            "author_name": "Brandon Wu",
-            "commit_date": "2026-11-11T00:14:01-08:00",
-            "subject": "Experiment with packed RISC-V attributes without Sema checking"
-        },
-        {
-            "hash": "202a34347a6bcee016442d2ceddc80c5fe7953ca",
-            "author_name": "Brandon Wu",
-            "commit_date": "2026-11-11T00:14:01-08:00",
-            "subject": "Experiment with packed RISC-V attributes and optimized Sema checking"
+            "commit_date": "2026-11-11T07:11:02-08:00",
+            "subject": "Guard the check by target and try to prevent calling getExtProtoInfo"
         }
     ],
     "AnonMiraj\/perf\/stephenduong1004_astcontext": [
