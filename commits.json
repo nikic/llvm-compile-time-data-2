@@ -294939,6 +294939,48 @@
             "author_name": "Jan Voung",
             "commit_date": "2026-11-11T11:06:39-05:00",
             "subject": "[clang-tidy] For bugprone-unchecked-optional-access add simple BoolSolverModel option (#240848)"
+        },
+        {
+            "hash": "be7b8470887d7311c893653c06fd3aff2a219cbb",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-11T08:11:54-08:00",
+            "subject": "RuntimeLibcalls: Declare __stack_smash_handler with only the function name (#241143)"
+        },
+        {
+            "hash": "9cb1e12411baea21ea82df5cfc74d113ce1d0be6",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-11T08:11:55-08:00",
+            "subject": "StackProtector: Take libcall signatures from RuntimeLibcallsInfo (#241144)"
+        },
+        {
+            "hash": "14224f038f055a3daa0bacf43823ae49b7e16e24",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-11-11T08:13:18-08:00",
+            "subject": "Revert \"[libc][math] Report remquo domain errors and quiet signaling NaNs\" (#241361)"
+        },
+        {
+            "hash": "3321038cfe2f0e2efb875222f0304a2a16c34a49",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-11T08:13:32-08:00",
+            "subject": "Attributor: Only look up the associated function of function interfaces (#241001)"
+        },
+        {
+            "hash": "06b545ae655c945d94026525803e5c00b8ecae38",
+            "author_name": "Alexey Karyakin",
+            "commit_date": "2026-11-11T10:14:47-06:00",
+            "subject": "[Hexagon] NFC: Remove duplicate bits from TSFlags (#240961)"
+        },
+        {
+            "hash": "5ae22e4653a7bd10ac69f4f9a18d68e63c3b1069",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-11-11T16:16:07Z",
+            "subject": "[mlir][vector] Introduce `AddContractionOpRewritePattern` (#240796)"
+        },
+        {
+            "hash": "45403d3979a550bf7770b3fcec3c94e627ca3b96",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-11T08:16:24-08:00",
+            "subject": "TableGen: Error on allocatable register classes with an empty allocation order (#241006)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -321535,6 +321577,12 @@
             "author_name": "Brandon Wu",
             "commit_date": "2026-11-11T07:11:02-08:00",
             "subject": "Guard the check by target and try to prevent calling getExtProtoInfo"
+        },
+        {
+            "hash": "60ea3ecb288f5ce986f7de034bf9da9860e5a5c9",
+            "author_name": "Brandon Wu",
+            "commit_date": "2026-11-11T08:16:10-08:00",
+            "subject": "Consolidate trailing object"
         }
     ],
     "AnonMiraj\/perf\/stephenduong1004_astcontext": [
