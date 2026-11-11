@@ -294417,6 +294417,24 @@
             "author_name": "Vitaly Buka",
             "commit_date": "2026-11-11T00:05:19-08:00",
             "subject": "[ThinLTO] Use .llvm. prefix when promoting split-LTO internals (#240699)"
+        },
+        {
+            "hash": "87a8ba04f0f35824febbb5816a277130a5bd81d7",
+            "author_name": "David Green",
+            "commit_date": "2026-11-11T08:10:06Z",
+            "subject": "[AArch64][GlobalISel] Add test coverage to neon-rshrn.ll (#241170)"
+        },
+        {
+            "hash": "8d64884d5dd84e106b685d49b9dc0a25a8fb89b0",
+            "author_name": "Anshitha Yeruva",
+            "commit_date": "2026-11-11T09:11:07+01:00",
+            "subject": "[libc] Implement sigwait (#237572)"
+        },
+        {
+            "hash": "cbafc6590bb3372dd8d588ab5d3ebed43ebdaaf5",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-11T09:19:41+01:00",
+            "subject": "[CIR] Mark inline asm convergent in GPU code (#233772)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -321027,34 +321045,22 @@
             "subject": "test"
         },
         {
-            "hash": "f0480146b61b2e82d35ff4eaaa13c92d05975286",
+            "hash": "9d4ad6a734e88e65319bbfef7c355f143f05d6c1",
             "author_name": "Brandon Wu",
-            "commit_date": "2026-11-10T23:41:04-08:00",
+            "commit_date": "2026-11-11T00:14:01-08:00",
             "subject": "Experiment without RISC-V function type profile key"
         },
         {
-            "hash": "8bd164d1534e0046c63914ffdec688ce6c36f013",
+            "hash": "b71d966a97713d28cd68da7ec2b41488a73b25ae",
             "author_name": "Brandon Wu",
-            "commit_date": "2026-11-10T23:41:38-08:00",
-            "subject": "Experiment with packed RISC-V function attributes"
+            "commit_date": "2026-11-11T00:14:01-08:00",
+            "subject": "Experiment with packed RISC-V attributes without Sema checking"
         },
         {
-            "hash": "12a7f9b87d4a5f2edd58b89893980d5f20502e1a",
+            "hash": "202a34347a6bcee016442d2ceddc80c5fe7953ca",
             "author_name": "Brandon Wu",
-            "commit_date": "2026-11-10T23:41:58-08:00",
-            "subject": "Experiment without RISC-V call-site checking"
-        },
-        {
-            "hash": "6e9391d69fe1b198a0a3fc2191339fdcf498cbd6",
-            "author_name": "Brandon Wu",
-            "commit_date": "2026-11-10T23:42:08-08:00",
-            "subject": "Fix packed RISC-V attribute initialization"
-        },
-        {
-            "hash": "4d3f3eef751e3d814a6dcf5f55708c8be95dc6d3",
-            "author_name": "Brandon Wu",
-            "commit_date": "2026-11-10T23:42:24-08:00",
-            "subject": "Restore optimized RISC-V call-site checking"
+            "commit_date": "2026-11-11T00:14:01-08:00",
+            "subject": "Experiment with packed RISC-V attributes and optimized Sema checking"
         }
     ],
     "AnonMiraj\/perf\/stephenduong1004_astcontext": [
