@@ -296559,6 +296559,30 @@
             "author_name": "Daniel Petrovic",
             "commit_date": "2026-11-12T09:27:33-05:00",
             "subject": "[Clang] Accept mixed GNU and standard attributes in namespace scope (#240734)"
+        },
+        {
+            "hash": "deb776437ad9e900da5f78ef27bd3a30f1d26ce1",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-11-12T14:46:08Z",
+            "subject": "[CIR] Disable ClangIR modules test on ARM too (#241901)"
+        },
+        {
+            "hash": "5b5ba916f2d91a92fb4a2319581b434941cfc7c5",
+            "author_name": "Pablo Reble",
+            "commit_date": "2026-11-12T08:49:20-06:00",
+            "subject": "[Attributor][NFC] Remember IPO amendable functions (#241064)"
+        },
+        {
+            "hash": "c03d14a1fb9373e9b8209190678b32f80b4b6b78",
+            "author_name": "Brian Cain",
+            "commit_date": "2026-11-12T08:52:18-06:00",
+            "subject": "[csan] fixes for hexagon \/ 32-bit architectures (#241324)"
+        },
+        {
+            "hash": "f6014b17ef894916d51011faef1a67e731c289e4",
+            "author_name": "Tim Gymnich",
+            "commit_date": "2026-11-12T14:52:50Z",
+            "subject": "[SystemZ][test] Fix mismatched copy-like operand sizes in MIR fixtures (#238381)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -323481,6 +323505,20 @@
             "author_name": "keepyixiao",
             "commit_date": "2026-11-12T13:12:49Z",
             "subject": "[Clang] Preserve original arguments in constexpr call diagnostics (#\u200b239911)"
+        }
+    ],
+    "llvmbot\/perf\/pr-241922": [
+        {
+            "hash": "deb776437ad9e900da5f78ef27bd3a30f1d26ce1",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-11-12T14:46:08Z",
+            "subject": "[CIR] Disable ClangIR modules test on ARM too (#241901)"
+        },
+        {
+            "hash": "b0067b3de2138b0289767e173107c892a51153b1",
+            "author_name": "SavchenkoValeriy",
+            "commit_date": "2026-11-12T14:50:34Z",
+            "subject": "[SLP] Stop retrying seeds that already failed to vectorize (NFC) (#\u200b241922)"
         }
     ]
 }
