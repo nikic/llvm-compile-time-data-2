@@ -296781,6 +296781,30 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-11-12T16:02:26Z",
             "subject": "[SimplifyCFG] Enable IRBuilder GEP canonicalization (#241916)"
+        },
+        {
+            "hash": "b226c304483110e109fa7d36bd23b79e68b95c1a",
+            "author_name": "Chaitanya",
+            "commit_date": "2026-11-12T21:36:37+05:30",
+            "subject": "[CIR] Flatten one-field structs in CallConvLowering (#241190)"
+        },
+        {
+            "hash": "46ea35639b8d820b8f96c2d5aa44258bdb499752",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-11-12T08:08:15-08:00",
+            "subject": "[RISCV][P-ext] Custom lower v8i8 bitreverse on RV32. (#241723)"
+        },
+        {
+            "hash": "d4d7ec0475e2f6aac6a7ace58cb3a4148d9e1620",
+            "author_name": "Benedek Kaibas",
+            "commit_date": "2026-11-12T17:18:17+01:00",
+            "subject": "[NFC][analyzer] Add regression tests from bisection commits to the CSA's test suite (#241058)"
+        },
+        {
+            "hash": "1db8ce340a37c766dc90632bacd3c653989af218",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-11-12T08:18:44-08:00",
+            "subject": "[NFCI][Clang][CFI] Extract EmitVTableCheck helper (#241636)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -323717,6 +323741,20 @@
             "author_name": "SavchenkoValeriy",
             "commit_date": "2026-11-12T14:50:34Z",
             "subject": "[SLP] Stop retrying seeds that already failed to vectorize (NFC) (#\u200b241922)"
+        }
+    ],
+    "arsenm\/perf\/attributes-inline-v2": [
+        {
+            "hash": "707a300c2824f16b87319e65192e0d8010a9c68e",
+            "author_name": "Brian Cain",
+            "commit_date": "2026-11-11T22:31:57-06:00",
+            "subject": "[compiler-rt] Preserve cross-test compiler flags for Hexagon (#241325)"
+        },
+        {
+            "hash": "77634a274695fe9f4d689c60bcfe764e89f659cd",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-12T08:19:52-08:00",
+            "subject": "IR: Make AttributeSet::hasAttribute and AttributeList::hasFnAttr inline"
         }
     ]
 }
