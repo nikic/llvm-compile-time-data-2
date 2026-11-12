@@ -297219,6 +297219,78 @@
             "author_name": "Jianhui Li",
             "commit_date": "2026-11-12T19:40:19Z",
             "subject": "[mlir][vector] Promote transfers wrapped in vector.mask with Mem2Reg (#234251)"
+        },
+        {
+            "hash": "4877566c89faf9e6040d78dbba66140fbdfcb79b",
+            "author_name": "Teresa Johnson",
+            "commit_date": "2026-11-12T19:53:39Z",
+            "subject": "[LowerTypeTests] Preserve MemProf duplicate-clone aliases in ThinLTO backends (#242011)"
+        },
+        {
+            "hash": "ce2d8766299e069b8aad71171a2d2b2d73e571e8",
+            "author_name": "John Hui",
+            "commit_date": "2026-11-12T19:54:53Z",
+            "subject": "[llvm] Give TestLockFileExclusive's child more time to exit (#242010)"
+        },
+        {
+            "hash": "6d1c8cb81f79150be55cf85be331ca2ad4e5b657",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-12T19:55:11Z",
+            "subject": "[VectorUtils] Use getActiveBits instead of min_bitwidth(getZExtValue()). (#242017)"
+        },
+        {
+            "hash": "e4d637c08edc81bad11b6c0dd863dc7601cc7c94",
+            "author_name": "Oskar Wirga",
+            "commit_date": "2026-11-12T19:56:23Z",
+            "subject": "[lld-macho] Keep the SignedClassRO bit in __objc_imageinfo (#238445)"
+        },
+        {
+            "hash": "59310d30724555820cf38ee681fc8ad4e596ff10",
+            "author_name": "Augusto Noronha",
+            "commit_date": "2026-11-12T19:56:26Z",
+            "subject": "[lldb] Make Process::ReadMemory non-virtual (#217148)"
+        },
+        {
+            "hash": "fb22e72c0b85d99b0acc30e1e8a39135bf0d83c1",
+            "author_name": "Yashas Andaluri",
+            "commit_date": "2026-11-12T19:59:38Z",
+            "subject": "[Hexagon] Add the HLX calling convention (#242005)"
+        },
+        {
+            "hash": "2c190c0494350cfe35b0a0cfca1f6dc8011924a8",
+            "author_name": "Brad Smith",
+            "commit_date": "2026-11-12T15:00:11-05:00",
+            "subject": "[Sparc] Don't use LDD\/STD for underaligned i64 loads and stores (#241619)"
+        },
+        {
+            "hash": "d2e35acc36b3084d750a4f42df27063a9df5d5fe",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-12T21:01:40+01:00",
+            "subject": "[mlir][SPIR-V] Add ComplexToSPIRV lowering for complex.sqrt\/rsqrt (#237167)"
+        },
+        {
+            "hash": "08d064a71dbdfa1b50f352d34c103ad245070611",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-11-12T12:03:34-08:00",
+            "subject": "[clang] Fix target-dependent default for -mincremental-linker-compatible (#222099)"
+        },
+        {
+            "hash": "c05ed59524fa52e8b20f30c3f43faf896c919f02",
+            "author_name": "Miko\u0142aj Pir\u00f3g",
+            "commit_date": "2026-11-12T21:03:55+01:00",
+            "subject": "[X86FlagsCopyLowering] Fix preserved analyses in X86FlagsCopyLowering (#239221)"
+        },
+        {
+            "hash": "4b5dc020bd676952cfd6eaefe3c42ca614a48d41",
+            "author_name": "Milica Kovacevic",
+            "commit_date": "2026-11-13T07:05:51+11:00",
+            "subject": "[ORC] Skip ColocatingSlabAllocatorForcesJITLink on non-COFF\/x86-64 hosts (#241865)"
+        },
+        {
+            "hash": "cbf8c29d0b8782e9ce55a978413785feebb744c5",
+            "author_name": "Lang Hames",
+            "commit_date": "2026-11-13T07:08:41+11:00",
+            "subject": "[JITLink] Pass LookupMap to JITLinkContext::lookup by value (#241855)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
