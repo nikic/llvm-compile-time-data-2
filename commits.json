@@ -297411,6 +297411,30 @@
             "author_name": "Shilei Tian",
             "commit_date": "2026-11-12T17:32:31-05:00",
             "subject": "[InferAddressSpaces] Treat addrspacecast constant expressions from flat as roots (#241118)"
+        },
+        {
+            "hash": "3d896606d8a2a0c2d2a55aba608fd874e429e325",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-12T14:43:55-08:00",
+            "subject": "IR: Check willreturn before volatility in Instruction::willReturn (#242070)"
+        },
+        {
+            "hash": "0571c870c0644cd564e39d4768bf63c88febde8a",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-12T14:47:04-08:00",
+            "subject": "IR: Add LoadInst::isAtomic and StoreInst::isAtomic (#242075)"
+        },
+        {
+            "hash": "b53e4eea1879c9a117296b1cf3c1b1c794aa4132",
+            "author_name": "Jeff Bailey",
+            "commit_date": "2026-11-12T22:48:54Z",
+            "subject": "[libc][docs] Distinguish experimental-gated symbols (#242078)"
+        },
+        {
+            "hash": "e550f70bdd531509b9e413946b8206fba1d49e4d",
+            "author_name": "Adam Smith",
+            "commit_date": "2026-11-12T16:51:30-06:00",
+            "subject": "[CIR] Add inbounds and nuw flags to cir.get_element (#234774)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
