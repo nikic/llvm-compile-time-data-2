@@ -295983,6 +295983,48 @@
             "author_name": "Reem Elkhouly",
             "commit_date": "2026-11-12T15:40:52+09:00",
             "subject": "[AMDGPU] No s_delay_alu for VALU fast-forwarded operands (#230390)"
+        },
+        {
+            "hash": "d3a67d7de428afedf61b24ad759efd08c1aefa14",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-12T07:44:03+01:00",
+            "subject": "[mlir][SPIR-V] Materialize deserialized constants once per block (#239351)"
+        },
+        {
+            "hash": "a7d00ad691dafefb1f9bd5759221b233e845926d",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-11-12T06:51:18Z",
+            "subject": "[RISCV][P-ext] Make v2i32 insert_vector_elt with constant indices legal for RV32. (#241035)"
+        },
+        {
+            "hash": "54cb63c4cf5f7e13d9c6bd8a2b710ce68ff3c2b3",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-11-12T06:51:19Z",
+            "subject": "[RISCV][P-ext] Fix crash on v2i32 extract_vector_elt with a variable index on RV32. (#241039)"
+        },
+        {
+            "hash": "8a56651d81749888c04767521d11283bde902a61",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-11-12T06:51:19Z",
+            "subject": "[RISCV][P-ext] Add tests for extractelement with a variable index. NFC (#241041)"
+        },
+        {
+            "hash": "1cd8dccd3c5ae9c13084fdac9916e460d205deb0",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-11-12T06:51:20Z",
+            "subject": "[RISCV][P-ext] Use nsrl to for 64-bit extract_vector_elt with a variable index on RV32. (#241061)"
+        },
+        {
+            "hash": "9733eeb2be185f9c3688646101c17bb1e4cfc1a0",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-11-12T06:51:20Z",
+            "subject": "[RISCV][P-ext] Lower RV32 insert_subvector to extract_subector+concat_vectors. (#241139)"
+        },
+        {
+            "hash": "fa2b51c0141a3f25c84b0d33cb4b5ec42820d57d",
+            "author_name": "jinge90",
+            "commit_date": "2026-11-12T14:52:55+08:00",
+            "subject": "[libc][GPU] Use generic implementation for remainder in GPU libc (#241657)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
