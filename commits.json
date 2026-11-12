@@ -296187,6 +296187,48 @@
             "author_name": "Csan\u00e1d Hajd\u00fa",
             "commit_date": "2026-11-12T10:29:11+01:00",
             "subject": "[MC][DWARF] Don't deduplicate DWARF 5 root file with explicit file index (#240823)"
+        },
+        {
+            "hash": "96f5dc4bc7f150ee051fbd5f4472514418ec0ef6",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-11-12T10:29:53+01:00",
+            "subject": "[libc] Use CheckedPtr in strdup, strndup and __sched_cpualloc (#241332)"
+        },
+        {
+            "hash": "214249dd6453a1b9356982ec3a793ed701a28323",
+            "author_name": "Hamed",
+            "commit_date": "2026-11-12T11:31:26+02:00",
+            "subject": "[LLD][COFF] Use the static relocation model for ARMNT LTO (#240560)"
+        },
+        {
+            "hash": "61c483cc7f1e12bdbb90349aa2a853da1f552c56",
+            "author_name": "Hamed",
+            "commit_date": "2026-11-12T11:32:29+02:00",
+            "subject": "[llvm-lib] Map thumb bitcode to IMAGE_FILE_MACHINE_ARMNT (#240565)"
+        },
+        {
+            "hash": "3b8b6e2186e7e9b2713994255f8cf7781674ffab",
+            "author_name": "Guray Ozen",
+            "commit_date": "2026-11-12T10:33:05+01:00",
+            "subject": "[mlir] Add searchable remark history and query-based links (#237762)"
+        },
+        {
+            "hash": "16da446d09a4eff8b6e7946e8f3429c9156f717f",
+            "author_name": "Don\u00e1t Nagy",
+            "commit_date": "2026-11-12T10:33:49+01:00",
+            "subject": "[analyzer] Correct logic in 3-param addTransition (#241415)"
+        },
+        {
+            "hash": "b29a459658c96e866dc433d69db85ad5ad266468",
+            "author_name": "Steffen Larsen",
+            "commit_date": "2026-11-12T09:34:11Z",
+            "subject": "[DebugInfo][DWARF] Make CFIProgram::getOperandTypes() table constexpr (#227684)"
+        },
+        {
+            "hash": "23445b7148da05ab1d68d5618f225e6ea6158483",
+            "author_name": "Divyansh Yadav",
+            "commit_date": "2026-11-12T09:35:34Z",
+            "subject": "[X86] combineShiftToPMULH - fix lshr of sign-extended products on wider than i32 elements (#234420)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -323017,6 +323059,46 @@
             "author_name": "arsenm",
             "commit_date": "2026-11-12T09:01:42Z",
             "subject": "IR: Make AttributeSet::hasAttribute and AttributeList::hasFnAttr inline (#\u200b241670)"
+        }
+    ],
+    "aengelke\/perf\/attribute-bitset": [
+        {
+            "hash": "2034dbe97220c044d6a4f4488e0379d43ea41bd8",
+            "author_name": "Hamed",
+            "commit_date": "2026-11-12T11:26:47+02:00",
+            "subject": "[clang][ARM] Accept pcs(\"aapcs-vfp\") on Windows (#240569)"
+        },
+        {
+            "hash": "29a901371ed5322ab978912e6a8729fdeba4cb00",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-11-12T09:30:33Z",
+            "subject": "[IR][NFC] Use std::bitset for AttributeBitSet"
+        },
+        {
+            "hash": "77a51616f07c1bc46af657a78337f57e4bf27ad1",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-11-12T09:34:41Z",
+            "subject": "make AttrKind unsigned"
+        }
+    ],
+    "aengelke\/perf\/attribute-bitset2": [
+        {
+            "hash": "2034dbe97220c044d6a4f4488e0379d43ea41bd8",
+            "author_name": "Hamed",
+            "commit_date": "2026-11-12T11:26:47+02:00",
+            "subject": "[clang][ARM] Accept pcs(\"aapcs-vfp\") on Windows (#240569)"
+        },
+        {
+            "hash": "8e1c4c0e1a8bf5b3b0fe3fcc085720f867a3975c",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-11-12T09:39:41Z",
+            "subject": "make AttrKind unsigned"
+        },
+        {
+            "hash": "01f922b07c04b494d42b51173423256ce30bd2d3",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-11-12T09:39:42Z",
+            "subject": "[IR][NFC] Use std::bitset for AttributeBitSet"
         }
     ]
 }
