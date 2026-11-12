@@ -297351,6 +297351,12 @@
             "author_name": "Alex Duran",
             "commit_date": "2026-11-12T22:07:11+01:00",
             "subject": "[Offload][Omp] Manage memory through liboffload APIs (#241895)"
+        },
+        {
+            "hash": "dcbfa0630a5828664dfdac1e99d4f914df1f6a1a",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-11-12T16:29:00-05:00",
+            "subject": "[AArch64][COST]Cost non-pow2 i1 and\/or\/xor reductions"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -324313,6 +324319,32 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-11-12T08:19:52-08:00",
             "subject": "IR: Make AttributeSet::hasAttribute and AttributeList::hasFnAttr inline"
+        }
+    ],
+    "fhahn\/perf\/mssa-vector-lists": [
+        {
+            "hash": "2fdabe9a555a511708b5191dfac7c6394bbc54b8",
+            "author_name": "Akash Manna",
+            "commit_date": "2026-11-12T18:38:43Z",
+            "subject": "[Clang][OpenMP] Fix crash on a tuple-like structured binding in a task (#241357)"
+        },
+        {
+            "hash": "80948a8337c5adfc7a1aee5c75058c871f6baff2",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-12T21:03:12Z",
+            "subject": "[MemorySSA] Index per-block access lists by block number (NFC)."
+        },
+        {
+            "hash": "2bcb698cf60db1f29acdee2d86e426d627dd03f7",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-12T21:06:04Z",
+            "subject": "[MemorySSA] Keep per-block lists and numbering state together (NFC)."
+        },
+        {
+            "hash": "68fd07efeb4c8e2125d9e1190afc8177aaf497c7",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-12T21:08:37Z",
+            "subject": "[MemorySSA] Track visited blocks in renamePass with a BitVector (NFC)."
         }
     ]
 }
