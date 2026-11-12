@@ -296643,6 +296643,78 @@
             "author_name": "ustachow",
             "commit_date": "2026-11-12T10:14:25-05:00",
             "subject": "[Support] Add LLVM_WINDOWS_RESTRICTED_APIS to avoid shell32 (#209448)"
+        },
+        {
+            "hash": "7e93a20ac535424ed8def17bf118a2c57f6c02dc",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-11-12T15:16:36Z",
+            "subject": "[SLP] Enable IRBuilder GEP canonicalization (#241915)"
+        },
+        {
+            "hash": "2b7a8b3afad37f1c366f1d87940cc3af373bdea9",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-11-12T16:18:18+01:00",
+            "subject": "[libc] Read the whole netlink dump in if_nameindex (#241874)"
+        },
+        {
+            "hash": "840a0abbab87595ff062e4e705bb5a77cef4fa18",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-11-12T16:18:42+01:00",
+            "subject": "[libc] Use CheckedPtr in environ_internal (#241777)"
+        },
+        {
+            "hash": "c3daf3f3b7cedc8e6f33591a3d87377d36618449",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-11-12T16:19:43+01:00",
+            "subject": "[CIR] Match classic codegen for saturating fixed-point negation and padded conversions (#236702)"
+        },
+        {
+            "hash": "f0e4262286420849e53ee9d4212e21660aa6b656",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-11-12T15:21:04Z",
+            "subject": "[ItaniumDemangle] Print the full target type of cast expressions (#240977)"
+        },
+        {
+            "hash": "5a4cff7cc9bdf027d1a0378500f351d891a4633c",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-11-12T10:23:57-05:00",
+            "subject": "[SLP][NFC]Add extra tests for spills costs, NFC"
+        },
+        {
+            "hash": "29cc9e3e6c7960d542b26f3510f23008f6f66719",
+            "author_name": "Connector Switch",
+            "commit_date": "2026-11-12T23:29:53+08:00",
+            "subject": "[libc] Use a syscall wrapper for chown (#241767)"
+        },
+        {
+            "hash": "40cecc9ef4b188d68516767252cda9c956259f55",
+            "author_name": "Connector Switch",
+            "commit_date": "2026-11-12T23:29:55+08:00",
+            "subject": "[libc] Use a syscall wrapper for fchown (#241768)"
+        },
+        {
+            "hash": "5fdc62cf4b9c90164fe3343f5d3c8505db3f077d",
+            "author_name": "Connector Switch",
+            "commit_date": "2026-11-12T23:29:57+08:00",
+            "subject": "[libc] Use a syscall wrapper for geteuid (#241769)"
+        },
+        {
+            "hash": "713b671aefb1d90115a36ced17888bf1cffb4584",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-11-12T15:35:10Z",
+            "subject": "[X86] Enable IRBuilder GEP canonicalization (#241921)"
+        },
+        {
+            "hash": "2151e45bed0111f47edb546c952023d53b342577",
+            "author_name": "Viktoria Maximova",
+            "commit_date": "2026-11-12T16:36:07+01:00",
+            "subject": "[SPIR-V] Do not add ImageMemory semantics to fence in the kernel environment (#240448)"
+        },
+        {
+            "hash": "8b3872a9833e37eb91045de3ca5413f6583c1080",
+            "author_name": "Jeff Bailey",
+            "commit_date": "2026-11-12T15:42:25Z",
+            "subject": "[libc][docs] Add completeness summary cards to headers (#241930)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -323081,21 +323153,21 @@
     ],
     "tbaederr\/perf\/fillers2": [
         {
-            "hash": "2b19c3f3cdb3ea11052abcc09db948f8644c289d",
-            "author_name": "Timm Baeder",
-            "commit_date": "2026-11-12T07:12:59+01:00",
-            "subject": "[clang][bytecode] Optimize `CheckStore()` (#241345)"
+            "hash": "46857a1c4abf78a1175b45d36dda01155069155b",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-11-12T16:11:45+01:00",
+            "subject": "[libc] Use make_unique_for_overwrite in dir_scan_impl.h (#241905)"
         },
         {
-            "hash": "93bb8c32ae1ce33e98412c9e31ee9f19b7f32174",
+            "hash": "6f5a9f10edf664679531306eae9cfe12675ea5bc",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-11-12T07:16:31+01:00",
+            "commit_date": "2026-11-12T16:11:55+01:00",
             "subject": "Test"
         },
         {
-            "hash": "755e6719c72bd2d54256a088ed86999f221de050",
+            "hash": "98bca68922e2faf6fcf7717e1e1f711cb8a32e70",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-11-12T09:39:18+01:00",
+            "commit_date": "2026-11-12T16:30:52+01:00",
             "subject": "[clang][bytecode] Support array fillers"
         }
     ],
