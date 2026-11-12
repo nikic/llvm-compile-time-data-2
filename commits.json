@@ -296097,6 +296097,12 @@
             "author_name": "Rajat Bajpai",
             "commit_date": "2026-11-12T14:02:59+05:30",
             "subject": "[MLIR][NVVM] Add 32-bit multicast support to mbarrier ops (#240753)"
+        },
+        {
+            "hash": "5958750c5df9d89e4bcb231ed41c10f4ddee4f93",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-11-12T10:02:38+01:00",
+            "subject": "[libc++][NFC] Remove <tuple> include from <__functional\/function.h> (#240828)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -322913,6 +322919,20 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-11-11T20:36:34-08:00",
             "subject": "IR: Inline attribute queries"
+        }
+    ],
+    "llvmbot\/perf\/pr-241670": [
+        {
+            "hash": "150e366ed8de9175fd3fc5d1ff7c99d8280b25e7",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-12T06:01:14+01:00",
+            "subject": "[SPIR-V] Lower G_SMULFIXSAT and G_UMULFIXSAT (#241155)"
+        },
+        {
+            "hash": "1272e04bd068364e78461c05887f08ccba05d4fe",
+            "author_name": "arsenm",
+            "commit_date": "2026-11-12T09:01:42Z",
+            "subject": "IR: Make AttributeSet::hasAttribute and AttributeList::hasFnAttr inline (#\u200b241670)"
         }
     ]
 }
