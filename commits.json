@@ -295773,6 +295773,18 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-11-12T02:11:31Z",
             "subject": "Attributor: Collect the values only used by assumes on demand (#241459)"
+        },
+        {
+            "hash": "f55dd5c2efc8b3cf715735c450653dad28496bc3",
+            "author_name": "Tim Gymnich",
+            "commit_date": "2026-11-12T02:21:15Z",
+            "subject": "[AMDGPU] Enable GEP canonicalization for dynamic LDS table lookups (#241396)"
+        },
+        {
+            "hash": "f49734563cb4b69676ea91ca0f62c41c648564ea",
+            "author_name": "lijinpei-amd",
+            "commit_date": "2026-11-12T10:28:27+08:00",
+            "subject": "[InstCombine] Handle commuted operands in (X|C) | V --> (X|V) | C (#241105)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -322543,6 +322555,32 @@
             "author_name": "Kuba Mracek",
             "commit_date": "2026-11-11T19:51:43Z",
             "subject": "[LVI] Raise MaxUsesToInspect limit in getValueAtUse to 6"
+        }
+    ],
+    "4vtomat\/perf\/reland_sifive_xsfmm_attr": [
+        {
+            "hash": "3e1a62aa3de293366836458969d2de2623c17039",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-12T02:11:31Z",
+            "subject": "Attributor: Collect the values only used by assumes on demand (#241459)"
+        },
+        {
+            "hash": "91da6b52d6cbfb306e31549534a172a7ac17d005",
+            "author_name": "Brandon Wu",
+            "commit_date": "2026-11-11T18:22:06-08:00",
+            "subject": "Reapply \"[RISCV][clang] Support XSfmm ABI attributes (#206260)\""
+        },
+        {
+            "hash": "8da109e8f0461f97ecfd9ecfeea504db85d9932a",
+            "author_name": "Brandon Wu",
+            "commit_date": "2026-11-11T18:22:07-08:00",
+            "subject": "Guard the check by target and try to prevent calling getExtProtoInfo"
+        },
+        {
+            "hash": "a77c88a798b1595e14f970dac193e335db99fc1f",
+            "author_name": "Brandon Wu",
+            "commit_date": "2026-11-11T18:22:08-08:00",
+            "subject": "Consolidate trailing object"
         }
     ]
 }
