@@ -297363,6 +297363,42 @@
             "author_name": "Farzon Lotfi",
             "commit_date": "2026-11-12T17:05:29-05:00",
             "subject": "[SPIR-V] Fix scalar to equal-width vector storage casts (#241032)"
+        },
+        {
+            "hash": "8c3d123eb9541dca1acfd0e48c9315db19543a20",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-11-12T14:14:16-08:00",
+            "subject": "[CIR] Implement 'ctor\/dtor returns this' (#240954)"
+        },
+        {
+            "hash": "64a4033faf7646a7053cd3c89819ac5b62202dc1",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-11-12T14:19:14-08:00",
+            "subject": "[VPlan] Precommit test updates for #237684 (#241476)"
+        },
+        {
+            "hash": "f25418e7b1a9d7504dde66689942beae6e7715d3",
+            "author_name": "Cyndy Ishida",
+            "commit_date": "2026-11-12T14:19:21-08:00",
+            "subject": "[clang][deps][test] Migrate more module graph tests to scan-deps-filter, NFC (#242019)"
+        },
+        {
+            "hash": "fb09db15a54ebb55f7091da1e1b14aa42ef4e030",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-11-12T14:20:21-08:00",
+            "subject": "Fix CODEOWNERS error, remove Lanza from ClangIR owners (#207294)"
+        },
+        {
+            "hash": "145f64f2958a9ee476cd5de96e01c4cb8c715229",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-11-12T14:20:57-08:00",
+            "subject": "[github] Remove stale CODEOWNERS entries (#241029)"
+        },
+        {
+            "hash": "ef8b398e04f3dcd3e8831b3638384bb1b62e5534",
+            "author_name": "Felipe de Azevedo Piovezan",
+            "commit_date": "2026-11-12T22:23:44Z",
+            "subject": "[lldb] Fix struct return values on SysV arm64 (#242068)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -321863,39 +321899,27 @@
     ],
     "fhahn\/perf\/basicaa-phi-alloca": [
         {
-            "hash": "2fdabe9a555a511708b5191dfac7c6394bbc54b8",
-            "author_name": "Akash Manna",
-            "commit_date": "2026-11-12T18:38:43Z",
-            "subject": "[Clang][OpenMP] Fix crash on a tuple-like structured binding in a task (#241357)"
+            "hash": "dcbfa0630a5828664dfdac1e99d4f914df1f6a1a",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-11-12T16:29:00-05:00",
+            "subject": "[AArch64][COST]Cost non-pow2 i1 and\/or\/xor reductions"
         },
         {
-            "hash": "c6041d7236a948faef14b07f704d9fb92d6d3e31",
+            "hash": "a415abaa56dfb4a6eba622d00585aa5ddfc99a9f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-12T18:40:02Z",
+            "commit_date": "2026-11-12T22:05:28Z",
             "subject": "[BasicAA] Check underlying objects of phis instead of giving up."
         },
         {
-            "hash": "ab77cb8b76d06dcb1fe1acbadade03529dbf6b5e",
+            "hash": "883b2680a54a4ce8c9382b0971ce74caba3a9684",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-12T18:40:02Z",
-            "subject": "[BasicAA] Skip phi underlying object walk if the other object can't be disambiguated (NFC)."
-        },
-        {
-            "hash": "05907ed991b62c66d29834184460aa11884577b7",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-11-12T18:40:03Z",
-            "subject": "[BasicAA] Pass underlying object of other pointer to aliasPHI (NFC)."
-        },
-        {
-            "hash": "666b670c03b8d94780f6db9511b084472974838f",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-11-12T18:40:03Z",
+            "commit_date": "2026-11-12T22:05:28Z",
             "subject": "[BasicAA] Use getUnderlyingObjects with visit limit in aliasPHI (NFC)."
         },
         {
-            "hash": "0918dc1eb87e7cb3dd71f6ecad6ce51aff029f03",
+            "hash": "4746b8dabae7cd5354be7b648c05892b74e785a9",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-12T18:40:03Z",
+            "commit_date": "2026-11-12T22:05:28Z",
             "subject": "fixup"
         }
     ],
@@ -323771,12 +323795,6 @@
     ],
     "rnk\/perf\/memorybuiltins-return-type-first": [
         {
-            "hash": "6e58f6f5536016c55365ac55be11e6ac783d64cf",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-11-09T23:50:37Z",
-            "subject": "[VPlan] Hoist invariant base of pointer adds in runtime checks. (#240542)"
-        },
-        {
             "hash": "bbbd87d2271c7f02d7bca8f881220647da532d99",
             "author_name": "Reid Kleckner",
             "commit_date": "2026-11-10T03:25:37Z",
@@ -323787,6 +323805,12 @@
             "author_name": "Reid Kleckner",
             "commit_date": "2026-11-10T17:34:38Z",
             "subject": "Tighten the comments"
+        },
+        {
+            "hash": "ed7a8d1ed47cea279b8e822080fcd3fcc6e1ceb9",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-11-12T14:23:30-08:00",
+            "subject": "Merge branch 'main' into perf\/memorybuiltins-return-type-first"
         }
     ],
     "nikic\/perf\/thinlto-funcattrs": [
