@@ -296427,6 +296427,30 @@
             "author_name": "Aman Maurya",
             "commit_date": "2026-11-12T18:02:44+05:30",
             "subject": "[libc][test] Fix dangling CString paths in copy_file_range_test (#241787)"
+        },
+        {
+            "hash": "0038cb85cca0f151742d62ec0f51b87249d8570f",
+            "author_name": "Matt\u00e9o Rizza Murgier",
+            "commit_date": "2026-11-12T13:45:03+01:00",
+            "subject": "[mlir][Complex] Don't require nsz for complex exp(log) fold (#240812)"
+        },
+        {
+            "hash": "8f63ff6eff19b1b22c71101d348b540253475131",
+            "author_name": "ZhaoQi",
+            "commit_date": "2026-11-12T20:48:03+08:00",
+            "subject": "[LoongArch][NFC] Replace manual v2i128 check with MVT::v2i128 (#241726)"
+        },
+        {
+            "hash": "e115dd3a835d48c72a929bc48156bb2056e9ece0",
+            "author_name": "Alexandre Perez",
+            "commit_date": "2026-11-12T04:49:40-08:00",
+            "subject": "[lldb] Give tail call frames distinct, ordered StackIDs (#240665)"
+        },
+        {
+            "hash": "b8c9fba53f98a8d4e290b1160f85b52d03a680a4",
+            "author_name": "Jeff Bailey",
+            "commit_date": "2026-11-12T12:49:55Z",
+            "subject": "[libc][docs] Add remaining C23 and POSIX docgen header catalogues (#241564)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -323303,6 +323327,20 @@
             "author_name": "Alexis Engelke",
             "commit_date": "2026-11-12T09:47:11Z",
             "subject": "[IR][NFC] Use std::bitset for AttributeBitSet"
+        }
+    ],
+    "aengelke\/perf\/pr-241670": [
+        {
+            "hash": "7ba060808e256438bc49b4761f8d5bde6a346290",
+            "author_name": "Aman Maurya",
+            "commit_date": "2026-11-12T18:02:44+05:30",
+            "subject": "[libc][test] Fix dangling CString paths in copy_file_range_test (#241787)"
+        },
+        {
+            "hash": "a7d681dc2da52dee0c1972264e33309fe0ea3d8e",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-12T12:44:04Z",
+            "subject": "IR: Make AttributeSet::hasAttribute and AttributeList::hasFnAttr inline"
         }
     ]
 }
