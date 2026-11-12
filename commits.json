@@ -297069,6 +297069,18 @@
             "author_name": "Vitaly Buka",
             "commit_date": "2026-11-12T10:22:58-08:00",
             "subject": "[ThinLTO] Run LowerTypeTests after indirect call promotion (#241582)"
+        },
+        {
+            "hash": "39e45e12fa48050d495fe9a68eea60678cc658b2",
+            "author_name": "Sachin \ud83d\uddf2",
+            "commit_date": "2026-11-12T10:35:47-08:00",
+            "subject": "[openmp][docs] Rename opemp rst docs to md [1\/2] (#234018)"
+        },
+        {
+            "hash": "2fdabe9a555a511708b5191dfac7c6394bbc54b8",
+            "author_name": "Akash Manna",
+            "commit_date": "2026-11-12T18:38:43Z",
+            "subject": "[Clang][OpenMP] Fix crash on a tuple-like structured binding in a task (#241357)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -321569,39 +321581,39 @@
     ],
     "fhahn\/perf\/basicaa-phi-alloca": [
         {
-            "hash": "e65a8642d426d82f145fbaac0575f4e0f6e2aa46",
-            "author_name": "Raphael Isemann",
-            "commit_date": "2026-11-12T18:07:52Z",
-            "subject": "Revert \"[lldb] Show synthetic children in the return value of the thr\u2026 (#241947)"
+            "hash": "2fdabe9a555a511708b5191dfac7c6394bbc54b8",
+            "author_name": "Akash Manna",
+            "commit_date": "2026-11-12T18:38:43Z",
+            "subject": "[Clang][OpenMP] Fix crash on a tuple-like structured binding in a task (#241357)"
         },
         {
-            "hash": "98109cc0c03fe383b5b763840c9252fdfbdfc842",
+            "hash": "c6041d7236a948faef14b07f704d9fb92d6d3e31",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-12T18:09:37Z",
+            "commit_date": "2026-11-12T18:40:02Z",
             "subject": "[BasicAA] Check underlying objects of phis instead of giving up."
         },
         {
-            "hash": "21c2c9fc8e208bc264be409075c036077a0a5bd3",
+            "hash": "ab77cb8b76d06dcb1fe1acbadade03529dbf6b5e",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-12T18:09:38Z",
+            "commit_date": "2026-11-12T18:40:02Z",
             "subject": "[BasicAA] Skip phi underlying object walk if the other object can't be disambiguated (NFC)."
         },
         {
-            "hash": "f7822bc02f677dad696a5da2de2d9e05e1627922",
+            "hash": "05907ed991b62c66d29834184460aa11884577b7",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-12T18:09:38Z",
+            "commit_date": "2026-11-12T18:40:03Z",
             "subject": "[BasicAA] Pass underlying object of other pointer to aliasPHI (NFC)."
         },
         {
-            "hash": "5a46f38a4ed9b41996b5e0302f3beb759d14435b",
+            "hash": "666b670c03b8d94780f6db9511b084472974838f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-12T18:09:38Z",
+            "commit_date": "2026-11-12T18:40:03Z",
             "subject": "[BasicAA] Use getUnderlyingObjects with visit limit in aliasPHI (NFC)."
         },
         {
-            "hash": "d2757607f5bb06b61d9e33626ecc1fec0d62570f",
+            "hash": "0918dc1eb87e7cb3dd71f6ecad6ce51aff029f03",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-12T18:09:39Z",
+            "commit_date": "2026-11-12T18:40:03Z",
             "subject": "fixup"
         }
     ],
