@@ -298143,6 +298143,42 @@
             "author_name": "gretay-amd",
             "commit_date": "2026-11-13T11:52:29Z",
             "subject": "[AMDGPU][NFC] Explicitly narrow conversions in asm printing and MIR formatting (#215195)"
+        },
+        {
+            "hash": "ff4270b1259a6f883c4516609d23ba0b969290fc",
+            "author_name": "Pedro Lobo",
+            "commit_date": "2026-11-13T11:59:08Z",
+            "subject": "[IR] Allow vectors in `bitinsert` and `bitextract` (#240182)"
+        },
+        {
+            "hash": "80b4ac29a6c011c2d88c60fa50660dd8d9e3c3f4",
+            "author_name": "Pedro Lobo",
+            "commit_date": "2026-11-13T11:59:08Z",
+            "subject": "[InstSimplify][InstCombine] Add vector tests for `bitinsert` and `bitextract` (NFC) (#240197)"
+        },
+        {
+            "hash": "cfcb2a7e69c4acc92c2c9b3890ff8174ec4fa758",
+            "author_name": "Pedro Lobo",
+            "commit_date": "2026-11-13T11:59:08Z",
+            "subject": "[llubi] Add support for vector `bitinsert` and `bitextract` (#240201)"
+        },
+        {
+            "hash": "2d2322c746990f1d5733383fb425e50a01dd2adf",
+            "author_name": "Pedro Lobo",
+            "commit_date": "2026-11-13T11:59:09Z",
+            "subject": "[SelectionDAG] Lower vector `bitinsert` and `bitextract` (#240586)"
+        },
+        {
+            "hash": "d3fae3d6e44ae8488d265f180bc28ace4f69c84c",
+            "author_name": "Pedro Lobo",
+            "commit_date": "2026-11-13T11:59:09Z",
+            "subject": "[GlobalISel] Lower vector `bitinsert` and `bitextract` (#240587)"
+        },
+        {
+            "hash": "71feac71c701f6110df409c66f00e07bf200348f",
+            "author_name": "Luke Hutton",
+            "commit_date": "2026-11-13T12:05:13Z",
+            "subject": "[mlir][tosa] Use `mxi8` builtin type for EXT-MX-INT8 operations (#241850)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
