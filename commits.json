@@ -297957,6 +297957,54 @@
             "author_name": "David Sherwood",
             "commit_date": "2026-11-13T09:51:44Z",
             "subject": "[AArch64] Support fixed-width gathers\/scatters with 16-bit floats (#241200)"
+        },
+        {
+            "hash": "d95255187881ce117495d00ee5f668a63c4603d4",
+            "author_name": "Oscar Smith",
+            "commit_date": "2026-11-13T09:53:24Z",
+            "subject": "[SelectionDAG] Widen sub-byte elements for variable-index vector element access (#237837)"
+        },
+        {
+            "hash": "4fcedc0ac25d841ccea95b7630241711c10161d3",
+            "author_name": "Jaeyong Lee",
+            "commit_date": "2026-11-13T09:59:05Z",
+            "subject": "[ValueTracking] Support llvm.{sshl,ushl}.sat in computeConstantRange() (#242189)"
+        },
+        {
+            "hash": "f75f65e63f7bd959bfce4fc83b0d0aa584567ecb",
+            "author_name": "Alex Duran",
+            "commit_date": "2026-11-13T11:00:17+01:00",
+            "subject": "[Reland][Offload][Omp] Destroy programs when unregistering images (#242222)"
+        },
+        {
+            "hash": "53a41389cfa1b1850f438834afd2a8f526a959a9",
+            "author_name": "yelvens",
+            "commit_date": "2026-11-13T18:04:31+08:00",
+            "subject": "[LoongArch] Improve selection of boolean subtraction and setcc sign extension (#237825)"
+        },
+        {
+            "hash": "fe642a68f3cde581a4c8e400859d8bc69525a0b1",
+            "author_name": "Felipe de Azevedo Piovezan",
+            "commit_date": "2026-11-13T10:06:46Z",
+            "subject": "Reapply again \"[lldb] Show synthetic children in the return value of the thread (#241947) (#242228)"
+        },
+        {
+            "hash": "9e1c09541c577a10eb98783ec25053db43e60c9b",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-13T11:07:06+01:00",
+            "subject": "[mlir][SPIR-V] Add #spirv.null attribute for spirv.Constant (#241765)"
+        },
+        {
+            "hash": "d98f5accb08e88bf6b7e415b4b358368f49097de",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-13T11:07:47+01:00",
+            "subject": "[mlir][SPIR-V] Add ComplexToSPIRV lowering for complex.log and complex.log1p (#241709)"
+        },
+        {
+            "hash": "fdc4aeee386a57119c82a91574e9acf97d2d36b4",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-11-13T10:09:45Z",
+            "subject": "[X86] Add test coverage to #241273 (#241932)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -324425,22 +324473,10 @@
             "subject": "Test"
         },
         {
-            "hash": "a8c7d30af2a8434b59967689d0374240994e7145",
+            "hash": "ca1795f36f1d9ad11f6c3b43f2b4f7c87713f4b3",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-11-13T08:56:10+01:00",
+            "commit_date": "2026-11-13T10:40:19+01:00",
             "subject": "[clang][bytecode] Support array fillers"
-        },
-        {
-            "hash": "3d11f09f8529dc54344876ef203b4999d72a094e",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-11-13T09:35:50+01:00",
-            "subject": "LExer"
-        },
-        {
-            "hash": "43b1a60f21ba21be7a804732ef380b7f4bf54c70",
-            "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-11-13T10:02:13+01:00",
-            "subject": "TRigraphs"
         }
     ],
     "osa1\/perf\/simplifycfg_code_size_check_fixup": [
