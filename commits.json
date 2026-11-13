@@ -298617,6 +298617,18 @@
             "author_name": "Hongyu Chen",
             "commit_date": "2026-11-14T01:13:05+08:00",
             "subject": "[RISCV][P-ext] Add the missing zext_invec pattern (#242288)"
+        },
+        {
+            "hash": "b66895ba8d442d84fd77458f83017420554accf6",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-11-13T09:16:43-08:00",
+            "subject": "[ELF] MarkLive: Walk each level depth-first with work sharing on idle. NFC (#242181)"
+        },
+        {
+            "hash": "918228256681af3ec152b93bf300d3ed0595106c",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-11-13T18:22:29+01:00",
+            "subject": "[lldb][NativePDB] Mark the prologue end and epilogue start in line tables (#238506)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -325667,6 +325679,20 @@
             "author_name": "npmania",
             "commit_date": "2026-11-13T14:40:02Z",
             "subject": "[SCEV][IndVars] Support shl in willNotOverflow() (#\u200b242317)"
+        }
+    ],
+    "arsenm\/perf\/live-intervals-bumpptrallocator": [
+        {
+            "hash": "03ca4b5b7ed07c61401028a39962c9c611c75ca5",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-11-13T16:49:29Z",
+            "subject": "[MSP430] Use INSERT_SUBREG of IMPLICIT_DEF for anyext. NFC (#242305)"
+        },
+        {
+            "hash": "770743fa6cd2f2183376b1819e03ced400aa712d",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-13T09:11:31-08:00",
+            "subject": "CodeGen: Allocate LiveIntervals ranges from a recycling arena"
         }
     ]
 }
