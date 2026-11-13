@@ -298353,6 +298353,18 @@
             "author_name": "Alan Li",
             "commit_date": "2026-11-13T14:33:34Z",
             "subject": "[AMDGPU][GlobalISel] Fold conditional increments and decrements into carry ops (#241985)"
+        },
+        {
+            "hash": "fd23048feb4def735a451a74fc32bcb8b6e6b264",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-13T15:36:52+01:00",
+            "subject": "[CIR][NFC] Test global_view indexing into packed globals (#238912)"
+        },
+        {
+            "hash": "64b16a0e4a0beb115753b2d773979fae2dac8861",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-11-13T15:45:10+01:00",
+            "subject": "[libc] Add macros and <linux\/if_ether.h> include to <net\/ethernet.h> (#242242)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -325381,6 +325393,34 @@
             "author_name": "Younan Zhang",
             "commit_date": "2026-11-13T14:20:50+08:00",
             "subject": "test"
+        }
+    ],
+    "llvmbot\/perf\/pr-241381": [
+        {
+            "hash": "f97eb307103e6dcdd78b7ec20872ccb8109f5da9",
+            "author_name": "Edd Dawson",
+            "commit_date": "2026-11-13T13:16:11Z",
+            "subject": "[Driver][PS5][RTSan] Enable RTSan for PS5. (#241989)"
+        },
+        {
+            "hash": "ac06d15c2d9b7519c9f2ee231094b4f4699456a3",
+            "author_name": "cjsrxzdyzds",
+            "commit_date": "2026-11-13T14:36:58Z",
+            "subject": "[BasicAA] Restrict cross-iteration separate_storage hints (#\u200b241381)"
+        }
+    ],
+    "llvmbot\/perf\/pr-242317": [
+        {
+            "hash": "fb2dff1c1a6587175697017136111d33c368ad34",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-11-13T14:19:25Z",
+            "subject": "[InstCombine] Avoid redundant masking of indices in foldCmpLoadFromIndexedGlobal (#242282)"
+        },
+        {
+            "hash": "efd79bf2c587bd7132390efef78099f80768921a",
+            "author_name": "npmania",
+            "commit_date": "2026-11-13T14:40:02Z",
+            "subject": "[SCEV][IndVars] Support shl in willNotOverflow() (#\u200b242317)"
         }
     ]
 }
