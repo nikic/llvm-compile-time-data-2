@@ -297531,6 +297531,36 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-11-12T15:57:49-08:00",
             "subject": "AMDGPU: Use inline register class syntax in MIR tests (#242042)"
+        },
+        {
+            "hash": "7dac4fa48183f17dc8dcfef603b6732ecaa86b4e",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-11-12T16:31:33-08:00",
+            "subject": "[Clang][CFI] Check ObjectWithVPtr in ShouldEmitVTableTypeCheckedLoad (#241639)"
+        },
+        {
+            "hash": "82a07d8b30119d3ab6b1976058be80edac4e5d21",
+            "author_name": "Jan Svoboda",
+            "commit_date": "2026-11-13T00:31:36Z",
+            "subject": "[clang] Don't null-terminate built PCMs (#242089)"
+        },
+        {
+            "hash": "ca8b4d1ea793afef56de5b500b8ec7cdaba4018f",
+            "author_name": "Chen Miao",
+            "commit_date": "2026-11-13T08:32:38+08:00",
+            "subject": "[clang][NFC] Remove unused MacroDirective PCH origin tracking (#240171)"
+        },
+        {
+            "hash": "f8e083b89e7114a62ce20b5cbcdd20c756ac4be6",
+            "author_name": "Chen Miao",
+            "commit_date": "2026-11-13T08:32:39+08:00",
+            "subject": "[clang] Include source locations in macro directive dumps (#240172)"
+        },
+        {
+            "hash": "86d879036c6fad80ac10ce211f9f9e65ace6247d",
+            "author_name": "Chen Miao",
+            "commit_date": "2026-11-13T08:32:39+08:00",
+            "subject": "[clang] Include definition ranges in macro info dumps (#241185)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -323923,6 +323953,12 @@
             "author_name": "Reid Kleckner",
             "commit_date": "2026-11-12T13:39:39-08:00",
             "subject": "Merge branch 'main' into perf\/instsimplify-constant-args-first"
+        },
+        {
+            "hash": "9bb2c30ffd3c2c67cf657aea7343387a154c8c11",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-11-13T00:16:21Z",
+            "subject": "Merge main into perf\/instsimplify-constant-args-first"
         }
     ],
     "rnk\/perf\/memorybuiltins-return-type-first": [
@@ -323943,6 +323979,12 @@
             "author_name": "Reid Kleckner",
             "commit_date": "2026-11-12T14:23:30-08:00",
             "subject": "Merge branch 'main' into perf\/memorybuiltins-return-type-first"
+        },
+        {
+            "hash": "1636e97f60f742ab453c241234713c8b59fe4b47",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-11-13T00:16:20Z",
+            "subject": "Merge main into perf\/memorybuiltins-return-type-first"
         }
     ],
     "nikic\/perf\/thinlto-funcattrs": [
