@@ -299049,6 +299049,18 @@
             "author_name": "PiJoules",
             "commit_date": "2026-11-13T23:16:41Z",
             "subject": "[ValueTracking] Propagate poison through lround and llround (#242066)"
+        },
+        {
+            "hash": "d88f789df9232647c9bf8a0006210ba257d8b4f5",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-11-13T15:19:13-08:00",
+            "subject": "[lldb] Use the indexed host shared cache for symbolication (#194998)"
+        },
+        {
+            "hash": "ef8d86b2b96512ecb5620aa9bf56d027c04e308e",
+            "author_name": "Jan Svoboda",
+            "commit_date": "2026-11-13T15:22:57-08:00",
+            "subject": "[clang][deps] Share ownership of buffers in the in-process module cache (#242382)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -326127,6 +326139,90 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-11-13T18:50:09+01:00",
             "subject": "[BasicAA] Avoid unnecessary APInt shift (NFC)"
+        }
+    ],
+    "jroelofs\/perf\/jroelofs\/ce-getknownsign-perf": [
+        {
+            "hash": "03ca4b5b7ed07c61401028a39962c9c611c75ca5",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-11-13T16:49:29Z",
+            "subject": "[MSP430] Use INSERT_SUBREG of IMPLICIT_DEF for anyext. NFC (#242305)"
+        },
+        {
+            "hash": "feb4e0f5b8d9efe1a206ee932af8035db9f8d616",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-13T10:29:05-08:00",
+            "subject": "[ConstraintElim] Address compile-time regressions from getKnownSign. NFC"
+        },
+        {
+            "hash": "987c008c84af4092696e57297a5b29ab5c04ba25",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-13T12:21:50-08:00",
+            "subject": "drop add_neg_via_known_bits's nsw to recover more compile time"
+        }
+    ],
+    "jroelofs\/perf\/jroelofs\/constraint-elim-minmax-3": [
+        {
+            "hash": "4b5da127ee5c9926a7189b5c55ef073a1af17b85",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-12T09:10:45-08:00",
+            "subject": "[ConstraintElim] A signed sum of operands with opposite signs cannot wrap (#235159)"
+        },
+        {
+            "hash": "ae745a6d71b0e499eb7e9afdcf70f8adc5de2e09",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-12T09:13:20-08:00",
+            "subject": "[ConstraintElim] Prove sadd\/ssub.with.overflow cannot overflow from the exact sum"
+        },
+        {
+            "hash": "a3f7609667c6d873370615dafa6fc6cf331d73de",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-13T14:26:11-08:00",
+            "subject": "try to reduce compile-time impact"
+        },
+        {
+            "hash": "f7d23b7518534fb3ff36850a5308369b01ccd021",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-13T14:45:18-08:00",
+            "subject": "substitute is const"
+        },
+        {
+            "hash": "3b5fd824bcceb9ec603689ef10adabfe80476ab7",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-13T14:53:12-08:00",
+            "subject": "hoist cheap checks"
+        },
+        {
+            "hash": "2128b1e224642c8049abe404792d509f1960449b",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-13T14:58:34-08:00",
+            "subject": "clang-format"
+        }
+    ],
+    "jroelofs\/perf\/jroelofs\/constraint-elim-minmax-4": [
+        {
+            "hash": "4b5da127ee5c9926a7189b5c55ef073a1af17b85",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-12T09:10:45-08:00",
+            "subject": "[ConstraintElim] A signed sum of operands with opposite signs cannot wrap (#235159)"
+        },
+        {
+            "hash": "e5266899037147cea85d0ddb7fec514ba363a694",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-12T10:00:55-08:00",
+            "subject": "[ConstraintElim] Split signed min\/max across their operands when checking a compare"
+        },
+        {
+            "hash": "1d2fb01fa4708f5bc64c39d5afa23a9d7e2e435e",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-13T13:14:10-08:00",
+            "subject": "try to reduce compile-time impact"
+        },
+        {
+            "hash": "99a2601e302c609b5bcea43c5540a7d5a7a61018",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-13T15:03:15-08:00",
+            "subject": "substitute is const"
         }
     ]
 }
