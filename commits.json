@@ -297639,6 +297639,12 @@
             "author_name": "Reid Kleckner",
             "commit_date": "2026-11-13T01:24:16Z",
             "subject": "[MemoryBuiltins] Check alloc\/free type first to save ~0.1% instrs (#240677)"
+        },
+        {
+            "hash": "12532d5a6fc6841ee40c5bbd6c365c081a491fbe",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-11-13T01:34:56Z",
+            "subject": "[IR] Skip removeDeadConstantUsers use-list walks to save ~0.25% wall time (#240626)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
