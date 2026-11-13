@@ -298011,6 +298011,54 @@
             "author_name": "Arseniy Obolenskiy",
             "commit_date": "2026-11-13T10:23:18Z",
             "subject": "[CIR] Return undef for unimplemented target builtin results (#236332)"
+        },
+        {
+            "hash": "d071e0d157d706b6aeb1480de1746d8e850a8862",
+            "author_name": "Matthew Nagy",
+            "commit_date": "2026-11-13T10:36:15Z",
+            "subject": "Fix stou incorrect debug vals (#236950)"
+        },
+        {
+            "hash": "994f2c3f4e0429241f2f76747c43ed149fcf0a3e",
+            "author_name": "Sam Parker",
+            "commit_date": "2026-11-13T10:36:51Z",
+            "subject": "[WebAssembly] Truncate more with NARROW_U (#239626)"
+        },
+        {
+            "hash": "795b012e5ad9f627e10d35bf6614a6bb18994061",
+            "author_name": "wenqizhou",
+            "commit_date": "2026-11-13T10:39:32Z",
+            "subject": "[mlir][bufferization] Avoid quadratic alias checks for known allocation roots (#242131)"
+        },
+        {
+            "hash": "db8f33a3d35aaed41e6ca487e51d7b73c5d2dcae",
+            "author_name": "Ashutosh Sharma",
+            "commit_date": "2026-11-13T10:41:49Z",
+            "subject": "[MLIR][tensor] Missed Optimization: Incomplete elimination of a tensor.empty (#228032)"
+        },
+        {
+            "hash": "fbaaca249a0ad4a2d2b689d7556b72075e097ec6",
+            "author_name": "Mariya Podchishchaeva",
+            "commit_date": "2026-11-13T11:42:22+01:00",
+            "subject": "[CIR] Add support for VLA captures (#238818)"
+        },
+        {
+            "hash": "182b701f8e33412c3899d2efb4a2d57e4df84ef8",
+            "author_name": "Mariya Podchishchaeva",
+            "commit_date": "2026-11-13T11:42:45+01:00",
+            "subject": "[CIR] Add folder for `cir.vec.fcmp` op (#240952)"
+        },
+        {
+            "hash": "999c1c8f28790f88124fd69f48a121e2801e3c35",
+            "author_name": "Jaeyong Lee",
+            "commit_date": "2026-11-13T10:49:06Z",
+            "subject": "[InstSimplify] Fold llvm.{sshl,ushl}.sat with saturated LHS (#242217)"
+        },
+        {
+            "hash": "78d64a432655f4ee85cf9540606998f3987d31ce",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-13T11:49:35+01:00",
+            "subject": "[mlir][SPIR-V] Add ComplexToSPIRV lowering for complex.tan and complex.tanh (#242054)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -324467,21 +324515,21 @@
     ],
     "tbaederr\/perf\/fillers2": [
         {
-            "hash": "7505762fe5dfc36baa2b1993324f5f37a160a0b4",
-            "author_name": "Jez Ng",
-            "commit_date": "2026-11-12T23:53:02-08:00",
-            "subject": "[lld-macho] Mark live sections and symbols in parallel (#240243)"
+            "hash": "53a41389cfa1b1850f438834afd2a8f526a959a9",
+            "author_name": "yelvens",
+            "commit_date": "2026-11-13T18:04:31+08:00",
+            "subject": "[LoongArch] Improve selection of boolean subtraction and setcc sign extension (#237825)"
         },
         {
-            "hash": "1d5ea15c84a5382e680a06b43b2f32d247fc23e6",
+            "hash": "a92b7aaaadeb591bd4a91846ca90ebef208b7a30",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-11-13T08:56:10+01:00",
+            "commit_date": "2026-11-13T11:05:55+01:00",
             "subject": "Test"
         },
         {
-            "hash": "ca1795f36f1d9ad11f6c3b43f2b4f7c87713f4b3",
+            "hash": "646a2d74ade219cd59033709f3dd9dbf249d480f",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-11-13T10:40:19+01:00",
+            "commit_date": "2026-11-13T11:49:49+01:00",
             "subject": "[clang][bytecode] Support array fillers"
         }
     ],
