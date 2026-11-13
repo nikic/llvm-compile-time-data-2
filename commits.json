@@ -298653,6 +298653,48 @@
             "author_name": "Jun Wang",
             "commit_date": "2026-11-13T09:39:51-08:00",
             "subject": "Reapply \"[AMDGPU] Support the RF and m inline asm constraints (#195123)\" (#241996)"
+        },
+        {
+            "hash": "dfa63e9de8bb16e7fcbe988bbef7e0f581af3b8d",
+            "author_name": "Michal Paszkowski",
+            "commit_date": "2026-11-13T09:42:22-08:00",
+            "subject": "Revert \"[RegisterCoalescer] Keep endpoints of lane-carrying IMPLICIT_DEF\" (#242409)"
+        },
+        {
+            "hash": "b3967d94d7e03a40ed738967190cb70de7be5ebe",
+            "author_name": "Francesco Petrogalli",
+            "commit_date": "2026-11-13T09:44:19-08:00",
+            "subject": "[AggressiveAntiDepBreaker] Only mark fully live-out registers as live (#239348)"
+        },
+        {
+            "hash": "85de55a56bba7b2b33268ad1f16d4d90f0eed1f9",
+            "author_name": "anabobillo3",
+            "commit_date": "2026-11-13T09:46:03-08:00",
+            "subject": "[scudo] Fix the bound in Batch::get's DCHECK (#240816)"
+        },
+        {
+            "hash": "64e07623f2b81befa9c7a23393e1772a94222cb0",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-11-13T09:49:19-08:00",
+            "subject": "[llvm] Remove declarations without definitions (NFC) (#242171)"
+        },
+        {
+            "hash": "09a50d5cf1dc8b751c9091e550771d0ac9caba1c",
+            "author_name": "Nick Desaulniers",
+            "commit_date": "2026-11-13T09:52:39-08:00",
+            "subject": "[diagtool] add --color={always,auto,never} (#242002)"
+        },
+        {
+            "hash": "a3e53216ebd1915ea99637c5bc1bbc33e6ad2153",
+            "author_name": "Nick Desaulniers",
+            "commit_date": "2026-11-13T09:53:28-08:00",
+            "subject": "[clang][Sema] Check -Wunused-private-field at template instantiation instead of definition (#237374)"
+        },
+        {
+            "hash": "9d98d604f3d349e28589e62cb80fd41b8f0c8af8",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-13T17:54:08Z",
+            "subject": "IR: Track analysis invalidation state by result list index (#242007)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -325717,6 +325759,20 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-11-13T09:11:31-08:00",
             "subject": "CodeGen: Allocate LiveIntervals ranges from a recycling arena"
+        }
+    ],
+    "nikic\/perf\/basicaa-shl-apint": [
+        {
+            "hash": "85de55a56bba7b2b33268ad1f16d4d90f0eed1f9",
+            "author_name": "anabobillo3",
+            "commit_date": "2026-11-13T09:46:03-08:00",
+            "subject": "[scudo] Fix the bound in Batch::get's DCHECK (#240816)"
+        },
+        {
+            "hash": "f613566f4998ad331ca388ff21599af2715279ca",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-11-13T18:50:09+01:00",
+            "subject": "[BasicAA] Avoid unnecessary APInt shift (NFC)"
         }
     ]
 }
