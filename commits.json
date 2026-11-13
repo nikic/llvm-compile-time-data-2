@@ -298383,6 +298383,18 @@
             "author_name": "Timm Baeder",
             "commit_date": "2026-11-13T15:48:17+01:00",
             "subject": "[clang][bytecode] Fix isZero() assertion in OffsetHelper (#242271)"
+        },
+        {
+            "hash": "155b420f8b82f7d0d514846c358e9087f68a44ea",
+            "author_name": "Jiaye Fang",
+            "commit_date": "2026-11-13T14:59:42Z",
+            "subject": "[BasicAA] Preserve GEP element sizes at the pointer index width (#242013)"
+        },
+        {
+            "hash": "70acba163413f649d259568eb032c045cfd50e19",
+            "author_name": "Ikhlas Ajbar",
+            "commit_date": "2026-11-13T09:02:46-06:00",
+            "subject": "[Hexagon] Add HLX pair spill support (#242186)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -322883,28 +322895,22 @@
     ],
     "fhahn\/perf\/basicaa-phi-alloca": [
         {
-            "hash": "dcbfa0630a5828664dfdac1e99d4f914df1f6a1a",
-            "author_name": "Alexey Bataev",
-            "commit_date": "2026-11-12T16:29:00-05:00",
-            "subject": "[AArch64][COST]Cost non-pow2 i1 and\/or\/xor reductions"
+            "hash": "fb2dff1c1a6587175697017136111d33c368ad34",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-11-13T14:19:25Z",
+            "subject": "[InstCombine] Avoid redundant masking of indices in foldCmpLoadFromIndexedGlobal (#242282)"
         },
         {
-            "hash": "a415abaa56dfb4a6eba622d00585aa5ddfc99a9f",
+            "hash": "f24636cb6ab8d33059210cc9a1878490e5cdb2d0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-12T22:05:28Z",
+            "commit_date": "2026-11-13T14:45:33Z",
             "subject": "[BasicAA] Check underlying objects of phis instead of giving up."
         },
         {
-            "hash": "883b2680a54a4ce8c9382b0971ce74caba3a9684",
+            "hash": "0221f5e9a5067c596671d4d529e7381eaabe7f73",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-12T22:05:28Z",
-            "subject": "[BasicAA] Use getUnderlyingObjects with visit limit in aliasPHI (NFC)."
-        },
-        {
-            "hash": "4746b8dabae7cd5354be7b648c05892b74e785a9",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-11-12T22:05:28Z",
-            "subject": "fixup"
+            "commit_date": "2026-11-13T15:03:04Z",
+            "subject": "!fixup add getUnderlyingObjects overload"
         }
     ],
     "nikic\/perf\/instcombine-load-gep-select": [
