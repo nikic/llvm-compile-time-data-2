@@ -297621,6 +297621,24 @@
             "author_name": "Alan Li",
             "commit_date": "2026-11-13T00:59:39Z",
             "subject": "[GlobalISel] Fix MSVC build of KnownBitsTest after #241624 (#242097)"
+        },
+        {
+            "hash": "833943ee8d47b801761480ee9328a93fedfcc7ce",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-11-13T01:19:04Z",
+            "subject": "[Clang][CFI] Skip unused diagnostic data in trap and minimal-runtime vtable checks (#241640)"
+        },
+        {
+            "hash": "ae45edaec1c08fc89f6a4e3b67eb9bd9b74583ee",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-11-13T01:22:26Z",
+            "subject": "[InstSimplify] Check call args are constant first to save ~0.04% instrs (#240676)"
+        },
+        {
+            "hash": "81dba15c0635023d9f0fc293ab941faf7c1a5602",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-11-13T01:24:16Z",
+            "subject": "[MemoryBuiltins] Check alloc\/free type first to save ~0.1% instrs (#240677)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
