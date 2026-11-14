@@ -299577,6 +299577,12 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-11-14T09:03:58-08:00",
             "subject": "DAG: Use shl of any_extend to place the sign bit when folding bitcast of fcopysign (#242581)"
+        },
+        {
+            "hash": "b8eaf7df5b4faefedfce4e6e87fcafb032830fb9",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-14T09:12:37-08:00",
+            "subject": "DAG: Look through fp_extend\/fp_round when folding bitcast of fcopysign (#242587)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
