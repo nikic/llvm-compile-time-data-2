@@ -299595,6 +299595,48 @@
             "author_name": "Kazu Hirata",
             "commit_date": "2026-11-14T09:27:25-08:00",
             "subject": "[IR] Remove unused private type aliases (NFC) (#242614)"
+        },
+        {
+            "hash": "53fe6ca39f54d10562e590751b1bf2cb4d9ffb9c",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-11-14T18:38:12+01:00",
+            "subject": "[InstCombine] Handle nuw in foldCmpLoadFromIndexedGlobal (#242665)"
+        },
+        {
+            "hash": "120f4a0f2ff62581d1a69b9c19cf8bded95cb154",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-11-14T09:38:58-08:00",
+            "subject": "[MC] Set MCTargetOptions::LibraryOptions in getMCTargetOptions (#242671)"
+        },
+        {
+            "hash": "dbbb25bc6ba93f41f1671fb3541095ce12e1d58e",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-11-14T09:42:07-08:00",
+            "subject": "[LegalizeTypes] Support promoting the index operand of vp_gather\/scatter. (#242504)"
+        },
+        {
+            "hash": "9e20ea217a2626adbf673c976b297547bc1fe2ab",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-11-14T09:42:52-08:00",
+            "subject": "[SelectionDAG] Add integer result promotion for EXPERIMENTAL_VP_SPLICE (#242510)"
+        },
+        {
+            "hash": "ea7eee918eded1ef7bb50744992e39c573b977e1",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-11-14T09:43:14-08:00",
+            "subject": "[RISCV][P-ext] Support fastcc. (#242497)"
+        },
+        {
+            "hash": "7a158bf2a13d32a68b14d26272afb5855b93a794",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-11-14T09:43:28-08:00",
+            "subject": "[llc,llvm-mc] Remove redundant MCOptions.LibraryOptions assignments. NFC (#242672)"
+        },
+        {
+            "hash": "75d62a0ef09550c4aa5c67822ed009f41b9686f4",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-11-14T09:44:07-08:00",
+            "subject": "[RISCV] Mark that the register spill libcall clobbers X6. (#238079)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -326867,6 +326909,20 @@
             "author_name": "Alexis Engelke",
             "commit_date": "2026-11-14T16:13:51Z",
             "subject": "lld disable verify"
+        }
+    ],
+    "llvmbot\/perf\/pr-242542": [
+        {
+            "hash": "1d467e32cee64da29667ae843d1ccd8ad9add899",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-11-14T06:51:29-06:00",
+            "subject": "[OpenMP] Finalize OpenMP 6.1, add 7.0 as development version (#241928)"
+        },
+        {
+            "hash": "36f2f2d538998275aa18320226e80286c0440cf6",
+            "author_name": "cjsrxzdyzds",
+            "commit_date": "2026-11-14T17:35:57Z",
+            "subject": "[BasicAA] Avoid unnecessary scale overflow checks (#\u200b242542)"
         }
     ]
 }
