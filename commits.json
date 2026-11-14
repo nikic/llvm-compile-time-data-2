@@ -299667,6 +299667,12 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-11-14T10:59:32-08:00",
             "subject": "[llvm-objdump] Parse -mllvm options into a context (#242688)"
+        },
+        {
+            "hash": "2fe0ea7f3f62301191b18343021a3c14223528f7",
+            "author_name": "Krzysztof Parzyszek",
+            "commit_date": "2026-11-14T13:15:19-06:00",
+            "subject": "[flang][OpenMP] Move OmpAttributeVisitor members out of line, NFC (#242658)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -326953,6 +326959,20 @@
             "author_name": "cjsrxzdyzds",
             "commit_date": "2026-11-14T17:35:57Z",
             "subject": "[BasicAA] Avoid unnecessary scale overflow checks (#\u200b242542)"
+        }
+    ],
+    "jroelofs\/perf\/jroelofs\/ce-destructive-copies": [
+        {
+            "hash": "eafa68e93bec5c403016ccc0353ca20a1c48114b",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-11-12T09:05:51-08:00",
+            "subject": "[llubi] Handle fast math flags on call instructions (#239458)"
+        },
+        {
+            "hash": "fc6c1a07a8b90e6e1c371849676f5497ed335ad6",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-14T11:01:31-08:00",
+            "subject": "[ConstraintElim] Avoid a ConstraintSystem copy in isConditionImpliedInSubSystem. NFC"
         }
     ]
 }
