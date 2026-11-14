@@ -299715,6 +299715,24 @@
             "author_name": "Kewen Meng",
             "commit_date": "2026-11-14T12:19:20-08:00",
             "subject": "[Offload] Handle the unchecked error properly (#242521)"
+        },
+        {
+            "hash": "5143d1e8a9417d47f38c3588319cfac247bb97b0",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-14T12:26:47-08:00",
+            "subject": "AMDGPU: Add more uitofp of zext from i32 tests (#242667)"
+        },
+        {
+            "hash": "241c94e3919ea1991134cb72b6b2439099ccd1b5",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-14T12:26:47-08:00",
+            "subject": "DAG: Allow narrowing uint_to_fp source to the zext source type (#242668)"
+        },
+        {
+            "hash": "d682f1471d2d46fec2d4efde283dfd4663301067",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-14T12:29:02-08:00",
+            "subject": "AMDGPU: Copy 16-bit arguments in 32-bit registers as i32 and truncate (#242681)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
