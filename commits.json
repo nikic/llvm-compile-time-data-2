@@ -326616,5 +326616,19 @@
             "commit_date": "2026-11-14T02:05:57Z",
             "subject": "CodeGen: Allocate LiveIntervals ranges with BumpPtrAllocator (#\u200b242423)"
         }
+    ],
+    "llvmbot\/perf\/pr-241490": [
+        {
+            "hash": "96c8c412b2aa4ed9ac289f525ba3720eb08df024",
+            "author_name": "Chandler Carruth",
+            "commit_date": "2026-11-14T08:01:09Z",
+            "subject": "[compiler-rt][CFI] Allow -fno-rtti libunwind vtables in normalize-integers-wpd.cpp (#242605)"
+        },
+        {
+            "hash": "9ddb3a9acfc709e379dc189bc67a4bf93274b921",
+            "author_name": "robertvirany",
+            "commit_date": "2026-11-14T08:37:55Z",
+            "subject": "[ValueTracking] Propagate constant ranges through constant adds and lshr (#\u200b241490)"
+        }
     ]
 }
