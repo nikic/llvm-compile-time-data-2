@@ -299169,6 +299169,12 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-11-13T17:43:14-08:00",
             "subject": "X86: Reuse the last subtarget for functions with same attributes (#242208)"
+        },
+        {
+            "hash": "49e7f33c235acdd8b158b4f38e8e107ce0ee57de",
+            "author_name": "Paul Kirth",
+            "commit_date": "2026-11-13T18:01:00-08:00",
+            "subject": "[llvm][LowerTypeTests] Drop MD_vcall_visibility with typetests (#241597)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -326337,6 +326343,20 @@
             "author_name": "Jon Roelofs",
             "commit_date": "2026-11-13T16:00:30-08:00",
             "subject": "drop kleene helpers, since they can't early exit"
+        }
+    ],
+    "llvmbot\/perf\/pr-242423": [
+        {
+            "hash": "49e7f33c235acdd8b158b4f38e8e107ce0ee57de",
+            "author_name": "Paul Kirth",
+            "commit_date": "2026-11-13T18:01:00-08:00",
+            "subject": "[llvm][LowerTypeTests] Drop MD_vcall_visibility with typetests (#241597)"
+        },
+        {
+            "hash": "9305e96aa5dbcd9673770e9ee77e39ce0a11721f",
+            "author_name": "arsenm",
+            "commit_date": "2026-11-14T02:05:57Z",
+            "subject": "CodeGen: Allocate LiveIntervals ranges with BumpPtrAllocator (#\u200b242423)"
         }
     ]
 }
