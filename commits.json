@@ -299769,6 +299769,18 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-11-14T21:53:40Z",
             "subject": "[VPlan] Don't skip the cost of replicating recipes at scalable VFs. (#242701)"
+        },
+        {
+            "hash": "77949b7c8b2960519c58ce856df201cf4aca3371",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-11-14T14:04:52-08:00",
+            "subject": "[Support] Reject library options in cl::ParseCommandLineOptions (#242689)"
+        },
+        {
+            "hash": "2b0ae1a57aa82ed3bcd23d69f046d4e46472d2a1",
+            "author_name": "Pedro Lobo",
+            "commit_date": "2026-11-14T22:07:43Z",
+            "subject": "[ConstantFolding] Fold loads from `ConstantByte` initializers (#229137)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -326935,6 +326947,12 @@
             "author_name": "Jon Roelofs",
             "commit_date": "2026-11-13T19:15:52-08:00",
             "subject": "factor out common helper between #235161 and #241988"
+        },
+        {
+            "hash": "c1c6ad8959e2b710511a23d0451d65ec2543659e",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-14T14:07:32-08:00",
+            "subject": "[ConstraintElim] Avoid a ConstraintSystem copy in isConditionImpliedInSubSystem. NFC"
         }
     ],
     "jroelofs\/perf\/jroelofs\/constraint-elim-minmax-4": [
@@ -326991,6 +327009,12 @@
             "author_name": "Jon Roelofs",
             "commit_date": "2026-11-13T19:12:16-08:00",
             "subject": "factor out common helper between #235161 and #241988"
+        },
+        {
+            "hash": "93c2e10a62052a3c64063ca1887022337a2436c2",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-14T14:08:01-08:00",
+            "subject": "[ConstraintElim] Avoid a ConstraintSystem copy in isConditionImpliedInSubSystem. NFC"
         }
     ],
     "llvmbot\/perf\/pr-242423": [
