@@ -299751,6 +299751,12 @@
             "author_name": "Joel Walker",
             "commit_date": "2026-11-14T12:58:05-08:00",
             "subject": "[DAGCombiner] Don't fold fmul\/fdiv by a power of 2 that converts to inf (#242493)"
+        },
+        {
+            "hash": "8377e5c1c6486bf3ad479e6bdb3eae40eee8e89a",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-11-14T13:32:45-08:00",
+            "subject": "[mlir-translate] Parse LLVM library options into context (#242707)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -326747,21 +326753,21 @@
             "subject": "[mlir][tosa] Use `mxi8` builtin type for EXT-MX-INT8 operations (#241850)"
         },
         {
-            "hash": "cb670e1f9a5c052b58da004ce5ba650ba81e506c",
+            "hash": "04a33766e0f8425bcb306fdbf507381cb738640f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-13T14:42:44Z",
+            "commit_date": "2026-11-14T20:35:40Z",
             "subject": "[MemorySSA] Index per-block access lists by block number (NFC)."
         },
         {
-            "hash": "9beab23859ad0dd66f2cd5f70cdc2f2cba026d2d",
+            "hash": "10aaaf19421cbd07744130838d434c18a648f4ba",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-13T14:42:45Z",
+            "commit_date": "2026-11-14T21:02:21Z",
             "subject": "[MemorySSA] Keep block numbering validity in BlockInfo (NFC)."
         },
         {
-            "hash": "92bea2ade16ad46ca94cc0d8ac529375414d997e",
+            "hash": "f453038ef322037b5d9043ef84dab323fe442453",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-13T14:43:38Z",
+            "commit_date": "2026-11-14T21:02:22Z",
             "subject": "[MemorySSA] Don't track visited blocks when building MemorySSA (NFC)."
         }
     ],
