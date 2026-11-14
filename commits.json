@@ -299205,6 +299205,18 @@
             "author_name": "Helena Kotas",
             "commit_date": "2026-11-13T19:08:30-08:00",
             "subject": "[HLSL] Add DebugBreak() (#242109)"
+        },
+        {
+            "hash": "8338f487a971071cdc7d96aeac5858a43e416535",
+            "author_name": "Chaitanya",
+            "commit_date": "2026-11-14T08:45:15+05:30",
+            "subject": "[CIR] Flatten wide _Complex arguments in CallConvLowering (#240808)"
+        },
+        {
+            "hash": "949c1c61b3ab4559a610e93211dbf0f3e8ae6aa8",
+            "author_name": "Chaitanya",
+            "commit_date": "2026-11-14T08:46:10+05:30",
+            "subject": "[CIR] Flatten unions passed Direct in CallConvLowering (#241201)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -326341,6 +326353,12 @@
             "author_name": "Jon Roelofs",
             "commit_date": "2026-11-13T14:58:34-08:00",
             "subject": "clang-format"
+        },
+        {
+            "hash": "48f0176eeab5a76220b68a512979c2935ed43b1e",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-13T19:15:52-08:00",
+            "subject": "factor out common helper between #235161 and #241988"
         }
     ],
     "jroelofs\/perf\/jroelofs\/constraint-elim-minmax-4": [
@@ -326391,6 +326409,12 @@
             "author_name": "Jon Roelofs",
             "commit_date": "2026-11-13T18:51:17-08:00",
             "subject": "try depth = 1, to limit compile time blowup querying deep clamp nests"
+        },
+        {
+            "hash": "f6e8e09160fefbd207a6bb0526ab52babb49c1ec",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-13T19:12:16-08:00",
+            "subject": "factor out common helper between #235161 and #241988"
         }
     ],
     "llvmbot\/perf\/pr-242423": [
