@@ -327388,5 +327388,19 @@
             "commit_date": "2026-11-14T11:01:31-08:00",
             "subject": "[ConstraintElim] Avoid a ConstraintSystem copy in isConditionImpliedInSubSystem. NFC"
         }
+    ],
+    "llvmbot\/perf\/pr-242818": [
+        {
+            "hash": "493a575fec046bc0ae285b61686f7f308dbc1843",
+            "author_name": "Jinbao Chen",
+            "commit_date": "2026-11-15T12:49:30Z",
+            "subject": "[mlir][bufferization] Do not hoist copying allocations to out-params (#242630)"
+        },
+        {
+            "hash": "40b762f3d86fd471969749487d1b28e7af78ba70",
+            "author_name": "osa1",
+            "commit_date": "2026-11-15T14:26:08Z",
+            "subject": "[InstCombine] Simplify foldCmpLoadFromIndexedGlobal calls (NFC) (#\u200b242818)"
+        }
     ]
 }
