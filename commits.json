@@ -300243,6 +300243,24 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-11-15T22:17:36Z",
             "subject": "[LV] Add test with hoisted loads using an IV with non-const step (NFC) (#242871)"
+        },
+        {
+            "hash": "bc0683cc7ba1e08ed32aa7e07a5d0589e084c29f",
+            "author_name": "Eric Ross",
+            "commit_date": "2026-11-15T16:32:06-06:00",
+            "subject": "[ValueTracking][KnownFPClass] Support constrained fadd\/fsub (#241060)"
+        },
+        {
+            "hash": "603d845c263d9495eb1f69a728db91b56687eb89",
+            "author_name": "Eric Ross",
+            "commit_date": "2026-11-15T16:33:03-06:00",
+            "subject": "[KnownFPClass] Refine deductions for trunc\/floor\/ceil (#231368)"
+        },
+        {
+            "hash": "ff3345f856329d479ec0cfcd94ff42550ab66a24",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-15T22:37:15Z",
+            "subject": "[LAA] Add tests for miscompiles and monotonic bounds (NFC). (#242898)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
