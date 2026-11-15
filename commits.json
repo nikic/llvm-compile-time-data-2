@@ -300195,6 +300195,12 @@
             "author_name": "Denis P",
             "commit_date": "2026-11-15T11:52:46-08:00",
             "subject": "[sanitizer_common][Darwin] Fix TLS base and size on arm64 (#242018)"
+        },
+        {
+            "hash": "286ec7a78073fd0c25e73fef51f80274f48c2e79",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-11-15T12:08:08-08:00",
+            "subject": "[Option] Remove XXXOptions::Global. NFC (#242854)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -310767,6 +310773,78 @@
             "author_name": "hev",
             "commit_date": "2026-11-08T15:42:22+01:00",
             "subject": "[LoongArch] Fix misaligned frame-index offset for vldrepl.{h,w,d} (#239516)"
+        },
+        {
+            "hash": "a46047f68c134a234a83de3a9146325b463375f7",
+            "author_name": "Jiaxun Yang",
+            "commit_date": "2026-11-15T21:03:32+01:00",
+            "subject": "[Mips] Fix O32 lowering on 64-bit CPUs (#224937)"
+        },
+        {
+            "hash": "31dea7a7eb1ec160f5ced200368c9b0ce3196ec2",
+            "author_name": "Peiqi Li",
+            "commit_date": "2026-11-15T21:03:42+01:00",
+            "subject": "[clang-tidy] Fix false positive in readability-trailing-comma (#220548)"
+        },
+        {
+            "hash": "54dc6b01555f8310ee0db8e6a395b8435d250d81",
+            "author_name": "eaeltsin",
+            "commit_date": "2026-11-15T21:03:52+01:00",
+            "subject": "[LoopSimplify] Use SmallSetVector for dead predecessor removal (#231155)"
+        },
+        {
+            "hash": "6a1cd3390561366f6c3dd741bc1e9f4dd1afccce",
+            "author_name": "Feng Zou",
+            "commit_date": "2026-11-15T21:04:04+01:00",
+            "subject": "[X86][APX] Save R16-R31 in interrupt and no_caller_saved_registers functions (#237109)"
+        },
+        {
+            "hash": "2e7a09547728b192a354f685168717989aa0c17a",
+            "author_name": "Eli Friedman",
+            "commit_date": "2026-11-15T21:04:16+01:00",
+            "subject": "release\/23.x: [clang codegen] Fix MS ABI with deleted template constructor (#237634)"
+        },
+        {
+            "hash": "02bb1ee675b68fc095bf9514bab3d07db3c428e3",
+            "author_name": "R. Aoto",
+            "commit_date": "2026-11-15T21:04:29+01:00",
+            "subject": "[clangd] Index symbols declared inside export declarations (#234755)"
+        },
+        {
+            "hash": "66c2aaaaf0487f0b8acd5a590988b43d73d1404f",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-15T21:04:39+01:00",
+            "subject": "FunctionAttrs: Check all uses when inferring captures for argument SCCs (#231536)"
+        },
+        {
+            "hash": "afbc638a5bf8ad71151f5c8be475e41f8d76c787",
+            "author_name": "Folkert de Vries",
+            "commit_date": "2026-11-15T21:04:48+01:00",
+            "subject": "[AArch64] fix invalid GISel lowering of saturating `f16` to integer conversion (#235676)"
+        },
+        {
+            "hash": "95da43936de059c40238273fe7a228ba78eab18f",
+            "author_name": "Folkert de Vries",
+            "commit_date": "2026-11-15T21:04:48+01:00",
+            "subject": "update CHECKs"
+        },
+        {
+            "hash": "929c079551c9c65147440bd970a9cf57f3ad2d8f",
+            "author_name": "Kyungtak Woo",
+            "commit_date": "2026-11-15T21:05:00+01:00",
+            "subject": "[libc++] Fix std::mt19937 seeding with std::seed_seq under vectorized ABI (#209860)"
+        },
+        {
+            "hash": "fd53b625b99fec6361e8d89014d0bcf72f6bc44e",
+            "author_name": "Prabhu Rajasekaran",
+            "commit_date": "2026-11-15T21:05:10+01:00",
+            "subject": "[clang] Fix target-dependent default for -mincremental-linker-compatible (#222099)"
+        },
+        {
+            "hash": "551bf48cf74f5aa587924a38f2cb29f72e7c9497",
+            "author_name": "Peter Hawkins",
+            "commit_date": "2026-11-15T21:05:21+01:00",
+            "subject": "[mlir][python] Define __index__ on PyIntegerAttribute (#215555)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
