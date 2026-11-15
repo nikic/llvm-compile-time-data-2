@@ -300261,6 +300261,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-11-15T22:37:15Z",
             "subject": "[LAA] Add tests for miscompiles and monotonic bounds (NFC). (#242898)"
+        },
+        {
+            "hash": "d14e9cc68cfbb548b57a79ba94eeefcd855f7f00",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-15T22:59:43Z",
+            "subject": "[LV] Add tests for predicated udivs used by replicated recipes (NFC). (#242895)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -327103,52 +327109,88 @@
     ],
     "fhahn\/perf\/ct-o3-3": [
         {
-            "hash": "590831d3eda186223d6fcfdce2df08cb9df877bc",
-            "author_name": "Brad Smith",
-            "commit_date": "2026-11-14T15:04:01-05:00",
-            "subject": "[Mips] Don't use j in the pre-MIPS4 atomic min\/max expansion (#241668)"
+            "hash": "a69be15ed58ed48738a69ec4c7d0f3e8c7dbe4ce",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-11-15T16:31:41-05:00",
+            "subject": "[SLP] Check extractelement index range in look-ahead score"
         },
         {
-            "hash": "d67c4c1a48e36862044e50551d7486dc34d5a899",
+            "hash": "2a02e41de5b3df68a845b250d75b0e171e191252",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-14T20:05:22Z",
+            "commit_date": "2026-11-15T22:13:03Z",
             "subject": "[DAGCombiner] Skip early visitADDLike folds for common operands (NFC)"
         },
         {
-            "hash": "d22a82c10f3c4428c2d41fe3e7dcf2118344d707",
+            "hash": "988980be9e82562cffb43ba842f1fe98665f05ea",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-14T20:05:32Z",
+            "commit_date": "2026-11-15T22:13:03Z",
             "subject": "[InstSimplify] Compute GEP type sizes only when needed (NFC)"
         },
         {
-            "hash": "d5e0b2913b718fe0979a7a5e975a187bf67ae14f",
+            "hash": "002a62d119d6f0900a75099e7130e440326b465a",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-14T20:06:33Z",
+            "commit_date": "2026-11-15T22:13:03Z",
             "subject": "[LegalizeTypes] Look up the action of simple types directly (NFC)"
         },
         {
-            "hash": "ca58532d3987a5a258f36abe5ba85a0e61cc777c",
+            "hash": "00fe830da033dec27e26a357abb289782b1b0d28",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-14T20:07:45Z",
+            "commit_date": "2026-11-15T22:13:03Z",
             "subject": "[LegacyPM] Record CFG-only passes when they are registered (NFC)"
         },
         {
-            "hash": "7e4ca2fe91f5b851c8cce74aacdd002edc65f52e",
+            "hash": "2c4400c85c131cd8c68299245cb6a2942e75ce8f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-14T20:08:07Z",
+            "commit_date": "2026-11-15T22:13:04Z",
             "subject": "[LegacyPM] Set up required analyses once per pass in FPPassManager (NFC)"
         },
         {
-            "hash": "6468d7b6fbdffccfad960352f2bf155fb0a1c626",
+            "hash": "395d0e74b74659732976341702ad36e33141f87d",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-14T20:09:40Z",
+            "commit_date": "2026-11-15T22:13:04Z",
             "subject": "[InstSimplify] Bail out early for unsimplifiable instructions (NFC)"
         },
         {
-            "hash": "196ae71e937174d5f577f0d64e92358fc67bd053",
+            "hash": "db6b18f1cfebef674989909df2d354e9c42804fe",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-14T20:10:40Z",
+            "commit_date": "2026-11-15T22:13:04Z",
             "subject": "[Verifier] Verify each TBAA access tag once (NFC)"
+        },
+        {
+            "hash": "aff7cc42f6ca3ebd5fa3e5099753152c3628d8bc",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-15T22:57:53Z",
+            "subject": "[PassManager] Look up cached results in the per-IR result list (NFC)"
+        },
+        {
+            "hash": "d0c4c98a9bf33676ede3c88ec3508e9fc0aafd13",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-15T22:58:03Z",
+            "subject": "[BasicAA] Don't cache pairs that aliasCheckRecursive can't refine (NFC)"
+        },
+        {
+            "hash": "e260461c8fa7c85fc7bfab43359b9383e259f674",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-15T22:58:32Z",
+            "subject": "[Inliner] Don't track the keys of the clone value map (NFC)"
+        },
+        {
+            "hash": "ce73ba2fc443a38847cc6da688ed22bc16fe0f8c",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-15T22:58:39Z",
+            "subject": "[BasicAA] Cache block reachability in EarliestEscapeAnalysis (NFC)"
+        },
+        {
+            "hash": "eb95dfd7244fb5ef7706f66502a143ac14fc23ff",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-15T22:58:54Z",
+            "subject": "[IR] Increase the inline size of PreservedAnalyses::PreservedIDs (NFC)"
+        },
+        {
+            "hash": "8ce8e3dc6042ee50664a2cee32af0bde7d207781",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-15T22:59:20Z",
+            "subject": "[SCEV] Skip ValueExprMap lookups for values without handles (NFC)"
         }
     ],
     "kubamracek\/perf\/lvi-use-limit-6": [
