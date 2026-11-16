@@ -300921,6 +300921,48 @@
             "author_name": "Ramkumar Ramachandra",
             "commit_date": "2026-11-16T15:51:07Z",
             "subject": "[LV] Make shouldOptimizeForSz vectorization-hint aware (#238309)"
+        },
+        {
+            "hash": "01da069eb04ce18aa050e16ee3cc687421188fbf",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-11-16T16:02:28Z",
+            "subject": "[AMDGPU] Fix clamp folding through a COPY with other users (#242414)"
+        },
+        {
+            "hash": "17b36a86710aa12a25def6d1aceb590f45515da7",
+            "author_name": "Nick Sarnie",
+            "commit_date": "2026-11-16T16:04:53Z",
+            "subject": "[offload][lit] Disable strided_update_multidim_gap.c on Intel GPU (#243105)"
+        },
+        {
+            "hash": "b932d271236bf5991daf6d12a5538601c5cd6af4",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-16T08:05:48-08:00",
+            "subject": "AMDGPU: Add test for m0 kill flags after merging inits (#242558)"
+        },
+        {
+            "hash": "ace96e77b5a497b9d96e6fdb83866f9398e255f6",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-16T08:07:55-08:00",
+            "subject": "AtomicExpand: Cast the xchg from an expanded atomic store to integer (#242963)"
+        },
+        {
+            "hash": "e489b01e4ce16d0fbaf4ad117c2664e8075a21b1",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-16T08:10:05-08:00",
+            "subject": "Hexagon: Use LastSubtargetCache in getSubtargetImpl (#242791)"
+        },
+        {
+            "hash": "fd5b71a0c5f274bf1be49bc3569099d583c450ed",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-11-16T11:11:54-05:00",
+            "subject": "[SLP][NFC]Add extra check for i1 constant copyable propgation, NFC"
+        },
+        {
+            "hash": "f95203add934ecb92ea84b33fec62f77d77fc389",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-16T08:12:52-08:00",
+            "subject": "CodeGen: Merge shrinkToUses live-in segments in one pass (#242699)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
