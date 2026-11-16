@@ -301125,6 +301125,24 @@
             "author_name": "Amr Hesham",
             "commit_date": "2026-11-16T18:20:24+01:00",
             "subject": "[CIR] Implement HLSL Matrix Truncation to Matrix dest (#242703)"
+        },
+        {
+            "hash": "91cf869c236fca96113d172ffc2c7cc68e586417",
+            "author_name": "Aditya Sinha",
+            "commit_date": "2026-11-16T17:26:45Z",
+            "subject": "[clang-repl] Change the default optimization for hip device code to O3 (#242296)"
+        },
+        {
+            "hash": "29c98b147cc0e87a2080cdfbdc542d4ea760bea9",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-16T17:27:18Z",
+            "subject": "[LegalizeTypes] Look up the action of simple types directly (NFC) (#242899)"
+        },
+        {
+            "hash": "20b943451383f3e8af4ae8c37b71700e9423602d",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-11-16T09:29:01-08:00",
+            "subject": "[DWARFLinker][Parallel] Keep static variables of inlined functions (#242742)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -328521,16 +328539,16 @@
     ],
     "llvmbot\/perf\/pr-241490": [
         {
-            "hash": "96c8c412b2aa4ed9ac289f525ba3720eb08df024",
-            "author_name": "Chandler Carruth",
-            "commit_date": "2026-11-14T08:01:09Z",
-            "subject": "[compiler-rt][CFI] Allow -fno-rtti libunwind vtables in normalize-integers-wpd.cpp (#242605)"
+            "hash": "d2c906e1f25eb6baea178b28b361011ecd5cb4d3",
+            "author_name": "Amr Hesham",
+            "commit_date": "2026-11-16T18:20:24+01:00",
+            "subject": "[CIR] Implement HLSL Matrix Truncation to Matrix dest (#242703)"
         },
         {
-            "hash": "9ddb3a9acfc709e379dc189bc67a4bf93274b921",
+            "hash": "d4d63093ab4c5dc2320371f66fa5c69b27d93f01",
             "author_name": "robertvirany",
-            "commit_date": "2026-11-14T08:37:55Z",
-            "subject": "[ValueTracking] Propagate constant ranges through constant adds and lshr (#\u200b241490)"
+            "commit_date": "2026-11-16T17:28:47Z",
+            "subject": "[ValueTracking] Handle constant adds in computeConstantRangeIncludingKnownBits (#\u200b241490)"
         }
     ],
     "s-barannikov\/perf\/struct-layout-allocator": [
