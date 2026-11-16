@@ -301299,6 +301299,18 @@
             "author_name": "Tomer Shafir",
             "commit_date": "2026-11-16T19:57:57Z",
             "subject": "[AArch64] Simplify Apple runtime unroll calculation(NFC) (#242836)"
+        },
+        {
+            "hash": "e0c9350a3f88ca5a37aaac4c7cc9caebf5c309e0",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-11-16T21:01:40+01:00",
+            "subject": "[CIR] Keep volatile and atomic return loads before cleanups (#242713)"
+        },
+        {
+            "hash": "fbd4bcc8e9e3ab5233a5a63ca5be9e7b571dba8d",
+            "author_name": "Yash Aggarwal",
+            "commit_date": "2026-11-16T21:12:35+01:00",
+            "subject": "[clang-format] Fix a crash in UseBreakAfter on an unmatched brace (#240744)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -328619,64 +328631,16 @@
     ],
     "jroelofs\/perf\/jroelofs\/constraint-elim-minmax-4": [
         {
-            "hash": "4b5da127ee5c9926a7189b5c55ef073a1af17b85",
-            "author_name": "Jon Roelofs",
-            "commit_date": "2026-11-12T09:10:45-08:00",
-            "subject": "[ConstraintElim] A signed sum of operands with opposite signs cannot wrap (#235159)"
+            "hash": "3be1031ec18ed2896f0a26f8cdb71c04b758be4e",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-11-16T10:27:42-08:00",
+            "subject": "[CIR] Re-apply Implement 'ctor\/dtor returns this' (#242922)"
         },
         {
-            "hash": "e5266899037147cea85d0ddb7fec514ba363a694",
+            "hash": "31c4bb5de35543620eea140a413c514bce42b1b5",
             "author_name": "Jon Roelofs",
-            "commit_date": "2026-11-12T10:00:55-08:00",
+            "commit_date": "2026-11-16T12:08:30-08:00",
             "subject": "[ConstraintElim] Split signed min\/max across their operands when checking a compare"
-        },
-        {
-            "hash": "1d2fb01fa4708f5bc64c39d5afa23a9d7e2e435e",
-            "author_name": "Jon Roelofs",
-            "commit_date": "2026-11-13T13:14:10-08:00",
-            "subject": "try to reduce compile-time impact"
-        },
-        {
-            "hash": "99a2601e302c609b5bcea43c5540a7d5a7a61018",
-            "author_name": "Jon Roelofs",
-            "commit_date": "2026-11-13T15:03:15-08:00",
-            "subject": "substitute is const"
-        },
-        {
-            "hash": "1cb3c33f7be91ecc98aece17a58d121dbe6bae6f",
-            "author_name": "Jon Roelofs",
-            "commit_date": "2026-11-13T16:00:30-08:00",
-            "subject": "drop kleene helpers, since they can't early exit"
-        },
-        {
-            "hash": "8d58a5f038920db1fbf285d974656eabb521d38b",
-            "author_name": "Jon Roelofs",
-            "commit_date": "2026-11-13T16:04:11-08:00",
-            "subject": "clang-format"
-        },
-        {
-            "hash": "dc73538a1b586f6cedc15cf60bca34dbe48f9bd5",
-            "author_name": "Jon Roelofs",
-            "commit_date": "2026-11-13T18:32:18-08:00",
-            "subject": "deduplicate constraint system queries"
-        },
-        {
-            "hash": "c3e504bfea2f0e4bee67c7970ded035b3135ab68",
-            "author_name": "Jon Roelofs",
-            "commit_date": "2026-11-13T18:51:17-08:00",
-            "subject": "try depth = 1, to limit compile time blowup querying deep clamp nests"
-        },
-        {
-            "hash": "f6e8e09160fefbd207a6bb0526ab52babb49c1ec",
-            "author_name": "Jon Roelofs",
-            "commit_date": "2026-11-13T19:12:16-08:00",
-            "subject": "factor out common helper between #235161 and #241988"
-        },
-        {
-            "hash": "93c2e10a62052a3c64063ca1887022337a2436c2",
-            "author_name": "Jon Roelofs",
-            "commit_date": "2026-11-14T14:08:01-08:00",
-            "subject": "[ConstraintElim] Avoid a ConstraintSystem copy in isConditionImpliedInSubSystem. NFC"
         }
     ],
     "llvmbot\/perf\/pr-242423": [
@@ -328881,6 +328845,34 @@
             "author_name": "Jon Roelofs",
             "commit_date": "2026-11-16T10:47:55-08:00",
             "subject": "stop runaway recursion in getKnownSign with a reentrancy guard"
+        }
+    ],
+    "llvmbot\/perf\/pr-236520": [
+        {
+            "hash": "38ff8f3dcf9f59c85db3f3cdc313acbf1ecc432c",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-11-16T16:34:59Z",
+            "subject": "[libc] Add network byte-order helpers to __support\/net (#243122)"
+        },
+        {
+            "hash": "d876cfa84d814a628caed5723ff7d3209e5d9c6d",
+            "author_name": "SavchenkoValeriy",
+            "commit_date": "2026-11-16T20:10:57Z",
+            "subject": "[LICM] Use EarliestEscapeAnalysis when checking for in-loop clobbers (#\u200b236520)"
+        }
+    ],
+    "llvmbot\/perf\/pr-237107": [
+        {
+            "hash": "e432dcfddac1f31edb95ca793e235b4953b1a164",
+            "author_name": "Md Abdullah Shahneous Bari",
+            "commit_date": "2026-11-16T18:31:03Z",
+            "subject": "[MLIR][VectorToGPU][VectorToNVGPU] Only convert add contractions to MMA ops (#236857)"
+        },
+        {
+            "hash": "2d485bfe49732148a4d74b0a9e2d8d1db787d101",
+            "author_name": "AbhayKanhere",
+            "commit_date": "2026-11-16T20:00:35Z",
+            "subject": "[SCEV] Compute non-strict exit counts without widening if RHS < MAX (#\u200b237107)"
         }
     ]
 }
