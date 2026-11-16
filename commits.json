@@ -300477,6 +300477,12 @@
             "author_name": "Arseniy Obolenskiy",
             "commit_date": "2026-11-16T07:51:16+01:00",
             "subject": "[mlir][SPIR-V] Add CopyObject op (#242837)"
+        },
+        {
+            "hash": "376f04dd8bdb6ba09a963970f47807cb36614c9e",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-16T08:16:03+01:00",
+            "subject": "[mlir][SPIR-V] Add SPIRVToLLVM conversion for CopyObject (#242840)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -327011,21 +327017,21 @@
     ],
     "tbaederr\/perf\/fillers2": [
         {
-            "hash": "53a41389cfa1b1850f438834afd2a8f526a959a9",
-            "author_name": "yelvens",
-            "commit_date": "2026-11-13T18:04:31+08:00",
-            "subject": "[LoongArch] Improve selection of boolean subtraction and setcc sign extension (#237825)"
+            "hash": "744c90dd0e99e58cce430364a9f177de4d057247",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-16T07:51:16+01:00",
+            "subject": "[mlir][SPIR-V] Add CopyObject op (#242837)"
         },
         {
-            "hash": "a92b7aaaadeb591bd4a91846ca90ebef208b7a30",
+            "hash": "0d5e61ef2a5c9b2ecf837419802ec0fd31bfedba",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-11-13T11:05:55+01:00",
+            "commit_date": "2026-11-16T07:58:51+01:00",
             "subject": "Test"
         },
         {
-            "hash": "e1aaa88e1090cb6fffd5b4c56d5bf35fc52e8574",
+            "hash": "707fd692f409a96452306d5d2009478167c6ef72",
             "author_name": "Timm B\u00e4der",
-            "commit_date": "2026-11-13T12:29:20+01:00",
+            "commit_date": "2026-11-16T08:21:20+01:00",
             "subject": "[clang][bytecode] Support array fillers"
         }
     ],
@@ -327943,6 +327949,20 @@
             "author_name": "osa1",
             "commit_date": "2026-11-15T14:59:04Z",
             "subject": "[InstCombine] Relax pointer operand type check in foldCmpLoadFromIndexedGlobal (#\u200b242819)"
+        }
+    ],
+    "llvmbot\/perf\/pr-242926": [
+        {
+            "hash": "a6f99eb219e10fc454ae9a52019797274c5ab0c0",
+            "author_name": "Prashanth T",
+            "commit_date": "2026-11-16T06:33:58+05:30",
+            "subject": "[NVPTX] Expand lrint and llrint for f32 and f64 (#242764)"
+        },
+        {
+            "hash": "b817f467d41e051dabdd626e6f04763c197c21b8",
+            "author_name": "arsenm",
+            "commit_date": "2026-11-16T07:22:53Z",
+            "subject": "IR: Make Type::getScalarSizeInBits inline for integers (#\u200b242926)"
         }
     ]
 }
