@@ -301329,6 +301329,18 @@
             "author_name": "Augie Fackler",
             "commit_date": "2026-11-16T15:34:14-05:00",
             "subject": "CGCall: emit allocptr attributes for operator delete (#239725)"
+        },
+        {
+            "hash": "242c8bb44aac3f6d783e947a9b184b1ecdd6f62f",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-16T21:38:02+01:00",
+            "subject": "[CIR] Add fast-math flags to cir.fma, cir.fmuladd and cir.fneg (#237732)"
+        },
+        {
+            "hash": "e5b070e81126cf4aefa9965e54199a42211c2e5e",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-11-16T12:39:50-08:00",
+            "subject": "[llvm-diff] Compare TBAA and alias scope metadata (#238976)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -328829,40 +328841,16 @@
     ],
     "jroelofs\/perf\/jroelofs\/constraint-elim-minmax-2": [
         {
-            "hash": "3be1031ec18ed2896f0a26f8cdb71c04b758be4e",
-            "author_name": "Erich Keane",
-            "commit_date": "2026-11-16T10:27:42-08:00",
-            "subject": "[CIR] Re-apply Implement 'ctor\/dtor returns this' (#242922)"
+            "hash": "fbd4bcc8e9e3ab5233a5a63ca5be9e7b571dba8d",
+            "author_name": "Yash Aggarwal",
+            "commit_date": "2026-11-16T21:12:35+01:00",
+            "subject": "[clang-format] Fix a crash in UseBreakAfter on an unmatched brace (#240744)"
         },
         {
-            "hash": "831eef4b65ce025cf8a07b274786dc3c9b5abe0d",
+            "hash": "7c787ef07d64cbb9d0a131d97d82006c07b9bb92",
             "author_name": "Jon Roelofs",
-            "commit_date": "2026-11-16T10:47:44-08:00",
-            "subject": "Revert \"Fix new test from 1d28c37d after the revert\""
-        },
-        {
-            "hash": "1b9f3865c4a3f4729c2f3ab630e39ced78d9076f",
-            "author_name": "Jon Roelofs",
-            "commit_date": "2026-11-16T10:47:48-08:00",
+            "commit_date": "2026-11-16T12:38:28-08:00",
             "subject": "Reapply \"[ConstraintElim] A signed sum of operands with opposite signs cannot \u2026\""
-        },
-        {
-            "hash": "e4e8f6fdb7d72bfc8f362c05f83d01e1421cbdf6",
-            "author_name": "Jon Roelofs",
-            "commit_date": "2026-11-16T10:47:50-08:00",
-            "subject": "[ConstraintElim] Address compile-time regressions from getKnownSign. NFC"
-        },
-        {
-            "hash": "3247756d30aa3306b4cb65becf0f7829faeaad79",
-            "author_name": "Jon Roelofs",
-            "commit_date": "2026-11-16T10:47:53-08:00",
-            "subject": "drop add_neg_via_known_bits's nsw to recover more compile time"
-        },
-        {
-            "hash": "e1a9efbd60c7cf7083a29b75434f9879cc0467c2",
-            "author_name": "Jon Roelofs",
-            "commit_date": "2026-11-16T10:47:55-08:00",
-            "subject": "stop runaway recursion in getKnownSign with a reentrancy guard"
         }
     ],
     "llvmbot\/perf\/pr-236520": [
