@@ -300975,6 +300975,36 @@
             "author_name": "Vikash Gupta",
             "commit_date": "2026-11-16T21:51:33+05:30",
             "subject": "[AMDGPU] Fold S_AND_B64 with 0\/-1 in tryConstantFoldOp (#241405)"
+        },
+        {
+            "hash": "45afc0acc18fdb7aef6dd20139a87a5ac1dcb100",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-16T08:27:52-08:00",
+            "subject": "MIR: Use inline register class syntax in misc. tests (#242513)"
+        },
+        {
+            "hash": "f687685a7a54fe0458c03222a19cdadec27622dc",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-16T08:29:04-08:00",
+            "subject": "IR: Handle integers and pointers first in DataLayout::getTypeAllocSize (#242925)"
+        },
+        {
+            "hash": "f1b92cc3a1b0d13b01633b1d333a033b2da8006a",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-16T08:30:27-08:00",
+            "subject": "IR: Make Type::getScalarSizeInBits inline for integers (#242926)"
+        },
+        {
+            "hash": "af6024619e7b4a8a12f506ac3995ec5edb980614",
+            "author_name": "Raul Tambre",
+            "commit_date": "2026-11-16T18:34:09+02:00",
+            "subject": "[cmake] Pass cached library variables only if target matches host (#227660)"
+        },
+        {
+            "hash": "38ff8f3dcf9f59c85db3f3cdc313acbf1ecc432c",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-11-16T16:34:59Z",
+            "subject": "[libc] Add network byte-order helpers to __support\/net (#243122)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
