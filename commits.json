@@ -301341,6 +301341,18 @@
             "author_name": "Abhay Kanhere",
             "commit_date": "2026-11-16T12:39:50-08:00",
             "subject": "[llvm-diff] Compare TBAA and alias scope metadata (#238976)"
+        },
+        {
+            "hash": "b7c3e018c1ef65621c9c0e10e8bda6b56aa96cd1",
+            "author_name": "Guray Ozen",
+            "commit_date": "2026-11-16T21:52:01+01:00",
+            "subject": "[mlir] Expose related remark IDs in C and Python (#243010)"
+        },
+        {
+            "hash": "918b710676257a625e003c769eb06b8ba8c7b2b4",
+            "author_name": "Aditya Tipre",
+            "commit_date": "2026-11-16T12:52:36-08:00",
+            "subject": "[CIR][NVPTX] Support WMMA fragment loads (#234812)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -328879,6 +328891,20 @@
             "author_name": "AbhayKanhere",
             "commit_date": "2026-11-16T20:00:35Z",
             "subject": "[SCEV] Compute non-strict exit counts without widening if RHS < MAX (#\u200b237107)"
+        }
+    ],
+    "llvmbot\/perf\/pr-243220": [
+        {
+            "hash": "e5b070e81126cf4aefa9965e54199a42211c2e5e",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-11-16T12:39:50-08:00",
+            "subject": "[llvm-diff] Compare TBAA and alias scope metadata (#238976)"
+        },
+        {
+            "hash": "243d27f93d9d670d09641918f4dad6acc55c2798",
+            "author_name": "abhina-sree",
+            "commit_date": "2026-11-16T20:56:08Z",
+            "subject": "Forward declare TargetInfo to improve clang build speeds (#\u200b243220)"
         }
     ]
 }
