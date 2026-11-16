@@ -301191,6 +301191,36 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-11-16T18:45:10Z",
             "subject": "Reapply \"CodeGen: Create register unit dead defs in slot order (#242577)\" (#243143) (#243171)"
+        },
+        {
+            "hash": "112b619dac2d073df046fe2d0cb5bc0b21046994",
+            "author_name": "Jan Svoboda",
+            "commit_date": "2026-11-16T10:52:16-08:00",
+            "subject": "[clang] Use the module cache's view of built PCMs (#242383)"
+        },
+        {
+            "hash": "7ad9ff549f3121784dd53b49a93cfe79df1740d6",
+            "author_name": "Yingwei Zheng",
+            "commit_date": "2026-11-16T18:53:48Z",
+            "subject": "[Workflow] Post comment on llvm:instcombine + missed-optimization issues (#242661)"
+        },
+        {
+            "hash": "07a94e61110e600d82ddabf1680de6f9728296c3",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-11-16T18:54:19Z",
+            "subject": "[ConstraintElim] Add guarded add\/sub.with.overflow results as EQ facts (#227820)"
+        },
+        {
+            "hash": "13674622f75ff4fdddf6c441156a7945942c62ce",
+            "author_name": "Felipe de Azevedo Piovezan",
+            "commit_date": "2026-11-16T18:54:47Z",
+            "subject": "[lldb] Treat calls that do not return as branches when stepping over (#243115)"
+        },
+        {
+            "hash": "31164823827056ba22554543f70f95685fd94f3f",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-11-16T10:57:52-08:00",
+            "subject": "[mlir] Remove forward and friend declarations of non-existent types (NFC) (#242851)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -328735,6 +328765,44 @@
             "author_name": "melver",
             "commit_date": "2026-11-16T15:34:50Z",
             "subject": "[Local] Preserve !pcsections when merging instructions (#\u200b243076)"
+        }
+    ],
+    "jroelofs\/perf\/jroelofs\/constraint-elim-minmax-2": [
+        {
+            "hash": "3be1031ec18ed2896f0a26f8cdb71c04b758be4e",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-11-16T10:27:42-08:00",
+            "subject": "[CIR] Re-apply Implement 'ctor\/dtor returns this' (#242922)"
+        },
+        {
+            "hash": "831eef4b65ce025cf8a07b274786dc3c9b5abe0d",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-16T10:47:44-08:00",
+            "subject": "Revert \"Fix new test from 1d28c37d after the revert\""
+        },
+        {
+            "hash": "1b9f3865c4a3f4729c2f3ab630e39ced78d9076f",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-16T10:47:48-08:00",
+            "subject": "Reapply \"[ConstraintElim] A signed sum of operands with opposite signs cannot \u2026\""
+        },
+        {
+            "hash": "e4e8f6fdb7d72bfc8f362c05f83d01e1421cbdf6",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-16T10:47:50-08:00",
+            "subject": "[ConstraintElim] Address compile-time regressions from getKnownSign. NFC"
+        },
+        {
+            "hash": "3247756d30aa3306b4cb65becf0f7829faeaad79",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-16T10:47:53-08:00",
+            "subject": "drop add_neg_via_known_bits's nsw to recover more compile time"
+        },
+        {
+            "hash": "e1a9efbd60c7cf7083a29b75434f9879cc0467c2",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-16T10:47:55-08:00",
+            "subject": "stop runaway recursion in getKnownSign with a reentrancy guard"
         }
     ]
 }
