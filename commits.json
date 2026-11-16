@@ -300513,6 +300513,30 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-11-16T09:40:59+01:00",
             "subject": "[CGP] Drop support for non-gep address sinking (#242387)"
+        },
+        {
+            "hash": "76ccb80c75899acc4feab277962dc23a7976e820",
+            "author_name": "Dominik Steenken",
+            "commit_date": "2026-11-16T09:48:31+01:00",
+            "subject": "[AArch64][SystemZ] Don't crash on inline asm non-simple reg ops (#242225)"
+        },
+        {
+            "hash": "75a0b01277f823962da38e59e8eb47537d9f1dfd",
+            "author_name": "Matt\u00e9o Rizza Murgier",
+            "commit_date": "2026-11-16T09:49:55+01:00",
+            "subject": "[mlir][ComplexToStandard] Preserve sign of zero im part in exp lowering (#242359)"
+        },
+        {
+            "hash": "8445b527ed0da1f9156f27be8c193624d0292253",
+            "author_name": "Daan De Meyer",
+            "commit_date": "2026-11-16T11:50:03+03:00",
+            "subject": "[clang-tidy] Make bugprone-argument-comment useful for C code (#237623)"
+        },
+        {
+            "hash": "75111f38dbafc28c9f6a72f5dcc7436369a4b3f3",
+            "author_name": "Ricardo Jesus",
+            "commit_date": "2026-11-16T08:56:18Z",
+            "subject": "[AArch64] Transfer memoperands in Select(Post)LoadLane. (#242391)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -327993,6 +328017,20 @@
             "author_name": "arsenm",
             "commit_date": "2026-11-16T07:22:53Z",
             "subject": "IR: Make Type::getScalarSizeInBits inline for integers (#\u200b242926)"
+        }
+    ],
+    "llvmbot\/perf\/pr-243000": [
+        {
+            "hash": "8445b527ed0da1f9156f27be8c193624d0292253",
+            "author_name": "Daan De Meyer",
+            "commit_date": "2026-11-16T11:50:03+03:00",
+            "subject": "[clang-tidy] Make bugprone-argument-comment useful for C code (#237623)"
+        },
+        {
+            "hash": "a07cfe9f77318a6d52a2628a64add6b6a839bc2f",
+            "author_name": "wangpc-pp",
+            "commit_date": "2026-11-16T08:57:26Z",
+            "subject": "[Support] Grow bump allocator slabs faster (#\u200b243000)"
         }
     ]
 }
