@@ -300759,6 +300759,24 @@
             "author_name": "speryt",
             "commit_date": "2026-11-16T13:37:29+01:00",
             "subject": "[mlir][affine] Fix sibling fusion with multiple loads (#226759)"
+        },
+        {
+            "hash": "b676d538ab6918ce6063dbd6782d8b64e77220d4",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-11-16T13:39:07+01:00",
+            "subject": "[Bazel] Fixes a93922b (#243035)"
+        },
+        {
+            "hash": "9f5458f72c43f555327fb0b747eac74e51305990",
+            "author_name": "G\u00e1bor Horv\u00e1th",
+            "commit_date": "2026-11-16T12:47:22Z",
+            "subject": "[AArch64] Restore STI after emitting a PAuth IRELATIVE resolver (#242420)"
+        },
+        {
+            "hash": "d57335678285bdcfb2af15c3bb476a549d930c06",
+            "author_name": "Ruoyu Zhong",
+            "commit_date": "2026-11-16T20:48:26+08:00",
+            "subject": "[TableGen] Fix depfile escaping test on MinGW (#242919)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -311403,6 +311421,36 @@
             "author_name": "Peter Hawkins",
             "commit_date": "2026-11-15T21:05:21+01:00",
             "subject": "[mlir][python] Define __index__ on PyIntegerAttribute (#215555)"
+        },
+        {
+            "hash": "15b7f2cfa1a8137d74d5226dd4c01ed0cbe071f4",
+            "author_name": "Louis Dionne",
+            "commit_date": "2026-11-16T13:45:42+01:00",
+            "subject": "[libc++] Use section-based overridden function detection on Mach-O (#240482)"
+        },
+        {
+            "hash": "31207bbd011aa77273f90d57f265e9a4e91cb85b",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-11-16T13:45:53+01:00",
+            "subject": "[ELF] includeInSymtab: Fix crash for SHF_MERGE section symbol with out-of-range addend (#240732)"
+        },
+        {
+            "hash": "f4c8597e999118143db55f26ee708ec38a80f00f",
+            "author_name": "Feng Zou",
+            "commit_date": "2026-11-16T13:46:04+01:00",
+            "subject": "[X86][APX] Fix commuting SHLD\/SHRD NF, NF_ND and EVEX variants (#233873)"
+        },
+        {
+            "hash": "429a7cb1707ec6742fc03c16c98e35bb5328ea51",
+            "author_name": "Feng Zou",
+            "commit_date": "2026-11-16T13:46:04+01:00",
+            "subject": "Fix pass name in LIT test"
+        },
+        {
+            "hash": "5b10d2d74929eae78912771222c9855af97496f4",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-16T13:46:15+01:00",
+            "subject": "release\/23.x: [LV] Have ExtractValue match the shape of the operand. (#229927)"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
@@ -320145,52 +320193,58 @@
     ],
     "artagnon\/perf\/scev-exact-flags": [
         {
-            "hash": "d970554e2280da4876e5d8bc733583c94edc3296",
-            "author_name": "Aaron Jomy",
-            "commit_date": "2026-10-27T12:23:12Z",
-            "subject": "[clang-repl] Print the device module IR under -emit-llvm (#235803)"
+            "hash": "563eb6b997c38ace217f8c3aff12e0aa9547f590",
+            "author_name": "hoondlay",
+            "commit_date": "2026-11-16T11:25:52Z",
+            "subject": "[LV] Pre-commit tests for FP derived IV index conversion (NFC) (#240741)"
         },
         {
-            "hash": "6b224950f02c93de45dbb61afb1a87f018df3170",
+            "hash": "bb0b6e77b0c1cb503fa5259e47044da1636aafad",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-27T13:03:10Z",
+            "commit_date": "2026-11-16T12:14:10Z",
             "subject": "[LoopUnroll] Pre-commit udiv-exact tests"
         },
         {
-            "hash": "59017df17e8a4ce98108e86205b785547ffc396f",
+            "hash": "28c457687d9f4614464e31c1ac6962d26fbccfd0",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-27T13:03:11Z",
+            "commit_date": "2026-11-16T12:14:10Z",
             "subject": "[SCEV] Introduce exact flag for UDiv"
         },
         {
-            "hash": "93d2737a2270bc14e57d8d5d69851dd930c59c6d",
+            "hash": "3c51b23273a5fc2750ecdee4f5e904077e2bc725",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-27T13:03:11Z",
+            "commit_date": "2026-11-16T12:14:10Z",
             "subject": "[SCEV] Fix nits, strengthen with asserts"
         },
         {
-            "hash": "ac6317b102e9dc0ae5d6935bcc2f02016745c7a7",
+            "hash": "47dd6507a798934371fb5281fb10f05182540cb5",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-27T13:03:11Z",
+            "commit_date": "2026-11-16T12:14:10Z",
             "subject": "[SCEV] Fix NFC nits, update test"
         },
         {
-            "hash": "b949fe028444b2d2aefd0c8513b2d778cbc2539c",
+            "hash": "52bd1077660062d5f2e83d02a8d42b9aa1e04494",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-27T13:03:11Z",
+            "commit_date": "2026-11-16T12:14:10Z",
             "subject": "[SCEV] getNoWrapFlagsFromUB, thanks!"
         },
         {
-            "hash": "ac708b00f380e6ba599dca9680118b38e181b020",
+            "hash": "030f8d9b379615005e50e7cb56c4e7096d838361",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-27T13:23:45Z",
+            "commit_date": "2026-11-16T12:14:10Z",
             "subject": "[SCEV] Pre-commit udiv-exact-folds test"
         },
         {
-            "hash": "64a47e98efd9d82f80888c26554af9ace3b262b1",
+            "hash": "775fa3b9318ff0b3b39d5c0997ddf8bca5c57d20",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-10-27T13:24:17Z",
+            "commit_date": "2026-11-16T12:14:10Z",
             "subject": "[SCEV] Conservatively drop fwd exact, thanks Antonio!"
+        },
+        {
+            "hash": "b81ea6828c2c578f4f1525de2608e8c5aed37653",
+            "author_name": "Ramkumar Ramachandra",
+            "commit_date": "2026-11-16T12:15:50Z",
+            "subject": "[LAA] Test updates after rebase"
         }
     ],
     "fhahn\/perf\/ce-strict-witness": [
