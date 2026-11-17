@@ -302631,6 +302631,24 @@
             "author_name": "Adam Smith",
             "commit_date": "2026-11-17T11:50:23-06:00",
             "subject": "[mlir][LLVMIR] Translate dso_local on llvm.mlir.alias (#234012)"
+        },
+        {
+            "hash": "113803bbf5401d6e420cb9641778c581d475dfe0",
+            "author_name": "Sachin \ud83d\uddf2",
+            "commit_date": "2026-11-17T09:58:14-08:00",
+            "subject": "[libc][stdio] Implement putchar_unlocked (#243331)"
+        },
+        {
+            "hash": "909d66203f149d683da7e175ffb5b979e4b267e9",
+            "author_name": "Ryan Buchner",
+            "commit_date": "2026-11-17T18:02:49Z",
+            "subject": "[SLP][NFC] Store reduction context hint as part of VectorValuesAndScales (#229653)"
+        },
+        {
+            "hash": "649ef1495f2139ee124565cae4673a97461157e0",
+            "author_name": "Bruno Cardoso Lopes",
+            "commit_date": "2026-11-17T18:06:22Z",
+            "subject": "[CIR] Narrow region successors for constant conditions (#243490)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -330263,6 +330281,14 @@
             "author_name": "mikolaj-pirog",
             "commit_date": "2026-11-17T14:19:44Z",
             "subject": "[PrologEpilogInserter] Don't preserve CFG when inline stack probes are present (#\u200b242456)"
+        }
+    ],
+    "arsenm\/perf\/mir-block-args-v13": [
+        {
+            "hash": "409819cc5642bc9e7f088af6de8fb598ac42c368",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-17T10:03:49-08:00",
+            "subject": "fixup! AMDGPU: Add tests for divergent i1 block-argument lane-mask lowering"
         }
     ]
 }
