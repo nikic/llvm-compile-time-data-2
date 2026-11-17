@@ -303123,6 +303123,18 @@
             "author_name": "Ryosuke Niwa",
             "commit_date": "2026-11-17T15:04:05-08:00",
             "subject": "[WebKit checkers] Don't treat an indirect call as a mutation of a guardian (#242619)"
+        },
+        {
+            "hash": "3b14d7c370558b46e5f0c6494a05c492e59bf32c",
+            "author_name": "Dave Lee",
+            "commit_date": "2026-11-17T15:06:59-08:00",
+            "subject": "[lldb] Add GetByteStride API for types (#242506)"
+        },
+        {
+            "hash": "61067a5096e5dcf2a1cd6fcf6194c033cb255d81",
+            "author_name": "Jan Leyonberg",
+            "commit_date": "2026-11-17T18:09:48-05:00",
+            "subject": "[CIR][OpenMP] Add support for the OpenMP 'for' directive (#229256)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -330933,6 +330945,20 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-11-17T23:29:27+01:00",
             "subject": "[CodeGen] Use a bit vector for the entry-block defined registers in VarLoc LDV"
+        }
+    ],
+    "clemenswasser\/perf\/ldv-instrref-skip-machinestate": [
+        {
+            "hash": "ce569778c3b6c4ac005443fccc1fdddfa230285b",
+            "author_name": "Yashas Andaluri",
+            "commit_date": "2026-11-17T09:08:39-06:00",
+            "subject": "[Hexagon] Emit unwind info for HLX callee-saved registers, caller's VSP (#243180)"
+        },
+        {
+            "hash": "f68b251b9882e913ca49b78c089efc1b3562da9d",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-18T00:02:52+01:00",
+            "subject": "[CodeGen] Skip machine-value tracking in the InstrRef LDV variable scan when it cannot be read"
         }
     ]
 }
