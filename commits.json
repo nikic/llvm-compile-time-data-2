@@ -302223,6 +302223,30 @@
             "author_name": "Kelvin Li",
             "commit_date": "2026-11-17T08:37:49-05:00",
             "subject": "[OpenMP][test] Clear OMP_NUM_THREADS in tests (NFC) (#237005)"
+        },
+        {
+            "hash": "766b1121998d6a2e273a1a114908ce1f4376ef02",
+            "author_name": "Zeyi Xu",
+            "commit_date": "2026-11-17T21:55:24+08:00",
+            "subject": "[RISCV][P-ext] Avoid folding byte multiply-parts into accumulate (#243005)"
+        },
+        {
+            "hash": "fdebcc15b3d9845d9b1a9c85c7786fd8cde50e70",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-11-17T09:00:27-05:00",
+            "subject": "[SLP][NFC]Add extra test for copyable i1 constants, NFC"
+        },
+        {
+            "hash": "96cea64c3e043f059ef8690e4d61837dd41f2e24",
+            "author_name": "Guray Ozen",
+            "commit_date": "2026-11-17T15:00:51+01:00",
+            "subject": "[mlir] Index remark queries by location (#243011)"
+        },
+        {
+            "hash": "096f256d6c49190a5fce4b56173c8edaa62ac3fa",
+            "author_name": "Pablo Reble",
+            "commit_date": "2026-11-17T08:02:05-06:00",
+            "subject": "[Attributor] Drop writable when AAMemoryLocation manifests no argmem writes (#241968)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -329827,6 +329851,20 @@
             "author_name": "VachanVY",
             "commit_date": "2026-11-17T09:43:07Z",
             "subject": "[ValueTracking] Propagate `s > -1` through bitwise OR expressions (#\u200b219132)"
+        }
+    ],
+    "osa1\/perf\/simplifycfg_ephemeral_handling": [
+        {
+            "hash": "5285eae6c740b7c719499ed16d8805797e82b58a",
+            "author_name": "Jeremy Morse",
+            "commit_date": "2026-11-17T11:24:58Z",
+            "subject": "Add appropriate REQUIRES to PreISelIntrinsicLowering tests needing aarch64 (#243245)"
+        },
+        {
+            "hash": "2c31f7d98d1f63e78b7196782fff8d04b68062f7",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-11-17T11:40:24Z",
+            "subject": "[SimplifyCFG] Allow duplicating `llvm.assume`s to simplify switches"
         }
     ]
 }
