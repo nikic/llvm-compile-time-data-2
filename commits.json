@@ -302937,6 +302937,30 @@
             "author_name": "Nick Desaulniers",
             "commit_date": "2026-11-17T12:59:02-08:00",
             "subject": "RuntimeLibcalls: Allow fp128 sincosl on x86_64-linux-android (#242486)"
+        },
+        {
+            "hash": "4d27b01c906787876e8941a34a09ab1cccb19182",
+            "author_name": "Eric Ross",
+            "commit_date": "2026-11-17T15:06:44-06:00",
+            "subject": "[KnownFPClass] Bail out for x86_fp80 and ppc_fp128 for KnownFPClass::canonicalize (#243313)"
+        },
+        {
+            "hash": "a58840831f16e82bbf722b74cf50dfced256e8f7",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-17T22:09:14+01:00",
+            "subject": "[CIR] Freeze maybe_undef call arguments (#234124)"
+        },
+        {
+            "hash": "1035e21720d074ef836cafc93aa5b179c3431510",
+            "author_name": "Jan Svoboda",
+            "commit_date": "2026-11-17T13:10:55-08:00",
+            "subject": "[clang][deps] Flush the in-process module cache on a background thread (#242385)"
+        },
+        {
+            "hash": "a6cd5493206f7a4c780ed12f20881f256a448ade",
+            "author_name": "Konstantinos Parasyris",
+            "commit_date": "2026-11-17T13:14:17-08:00",
+            "subject": "[CIR][SPIR-V] Emit SPIR-V work-item builtins (#242069)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
