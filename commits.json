@@ -302265,6 +302265,30 @@
             "author_name": "David Truby",
             "commit_date": "2026-11-17T14:07:57Z",
             "subject": "[lld][COFF] Add per-target runtime directories to library search path (#227744)"
+        },
+        {
+            "hash": "4b07030576bbf060b693c2afcd18e88b1b052134",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-11-17T14:12:50Z",
+            "subject": "[mlir][vector][unroll] Remove redundant RUN and CHECK lines (nfc) (#243460)"
+        },
+        {
+            "hash": "f7474196b5e6d08b1a48bbc69dbd9fdd8f74c8bc",
+            "author_name": "Marco Elver",
+            "commit_date": "2026-11-17T15:13:23+01:00",
+            "subject": "[AsmPrinter] Emit !pcsections auxiliary data after each PC (#243020)"
+        },
+        {
+            "hash": "411835cc2c6e6d5f608d7efd613ae3c1a3782439",
+            "author_name": "Yao Qi",
+            "commit_date": "2026-11-17T14:14:32Z",
+            "subject": "[lldb][test][NFC] Convert LaunchSimple launches to lldbutil.run_to_* (#241903)"
+        },
+        {
+            "hash": "4ccb04ab6eb8d2f538efff6e44b752b47c6c9f98",
+            "author_name": "fanquake",
+            "commit_date": "2026-11-17T15:16:37+01:00",
+            "subject": "[Docs] -faddrsig has an effect on more than ELF (#212793)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -329883,6 +329907,20 @@
             "author_name": "\u00d6mer Sinan A\u011facan",
             "commit_date": "2026-11-17T11:40:24Z",
             "subject": "[SimplifyCFG] Allow duplicating `llvm.assume`s to simplify switches"
+        }
+    ],
+    "llvmbot\/perf\/pr-242456": [
+        {
+            "hash": "5cff417dc97186dc7c428832a400cffea1110b0c",
+            "author_name": "David Truby",
+            "commit_date": "2026-11-17T14:07:57Z",
+            "subject": "[lld][COFF] Add per-target runtime directories to library search path (#227744)"
+        },
+        {
+            "hash": "cd11b2b63a123df1eba15640681da68498c4038e",
+            "author_name": "mikolaj-pirog",
+            "commit_date": "2026-11-17T14:19:44Z",
+            "subject": "[PrologEpilogInserter] Don't preserve CFG when inline stack probes are present (#\u200b242456)"
         }
     ]
 }
