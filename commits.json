@@ -302037,6 +302037,18 @@
             "author_name": "Timm Baeder",
             "commit_date": "2026-11-17T11:43:14+01:00",
             "subject": "[clang][bytecode] Decay pointers when adding a zero offset (#242785)"
+        },
+        {
+            "hash": "9fecda2e4658e2c21ec42e5ca9c6f2b7262009a4",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-11-17T11:03:27Z",
+            "subject": "[X86] LowerINSERT_VECTOR_ELT - insertelt(X,-1,IDX) - freeze the base element to prevent OR(poison,-1) -> poison folds. (#243410)"
+        },
+        {
+            "hash": "051b6b06f1b6e8763dae66b70205447e40d4b5ff",
+            "author_name": "Ivan Kosarev",
+            "commit_date": "2026-11-17T11:07:03Z",
+            "subject": "[AMDGPU][AsmParser] Split the MTBUF formats into modifiers and regular operands (#241259)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
