@@ -302013,6 +302013,12 @@
             "author_name": "Vedaant Srivastava",
             "commit_date": "2026-11-17T09:55:25Z",
             "subject": "[OpenMP][Archer] Isolate taskwait-depend test variables in TSan shadow cells (#242140)"
+        },
+        {
+            "hash": "5a50b09613ce30a3656e28a044536d32e0e6f2d3",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-11-17T02:02:42-08:00",
+            "subject": "[AArch64] Remove unused private member variables in MachineSMEABI (NFC) (#243323)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -306083,28 +306089,46 @@
     ],
     "fhahn\/perf\/pe": [
         {
-            "hash": "6b6cb5fb35183b156f8acf648184b61b985bee8f",
-            "author_name": "Ilia Kuklin",
-            "commit_date": "2026-06-02T16:00:54+05:00",
-            "subject": "Reapply \"[llvm-objcopy] Strip header from DXContainer's ILDB part during `--dump-section`\" (#200906)"
+            "hash": "8c0ab42045e6309266714d6a91616d19980cd0c9",
+            "author_name": "Frederik Gram",
+            "commit_date": "2026-11-17T10:14:37+01:00",
+            "subject": "[mlir][SCF] Support unsigned loops and iter_args in extractFixedOuterLoops (#241701)"
         },
         {
-            "hash": "e4f05f525932f87e6e41093a4e9b2026313a12eb",
+            "hash": "1f7347d604198ec4878f68fb52feeecb95a92c63",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-06-02T12:08:43+01:00",
-            "subject": "Non SCEV range analysis"
+            "commit_date": "2026-11-17T09:17:20Z",
+            "subject": "[FunctionAttrs] Infer initializes for stores in counted loops"
         },
         {
-            "hash": "20af93654f53efe765121312abb0ce69d04602ae",
+            "hash": "6ec82da362fc993a075e8a90dfad11e24b252e94",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-06-02T12:08:43+01:00",
-            "subject": "Add pipeline test"
+            "commit_date": "2026-11-17T09:17:24Z",
+            "subject": "[InlineCost] Charge extra size of loops with deferred full unrolling"
         },
         {
-            "hash": "910e73f991ec6e55819144be76e5270c190602d6",
+            "hash": "ff40134c75fd1c7bc1d1807d07bf66ecc3a5911f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-06-02T12:17:33+01:00",
-            "subject": "[Pipeline] Defer full loop unrolling for likely-vectorizable loops"
+            "commit_date": "2026-11-17T09:17:24Z",
+            "subject": "[PhaseOrdering] Add tests for full unrolling vs. vectorization ordering"
+        },
+        {
+            "hash": "89bcb9443b4e6509d8ac1bd3df558ab438d05f55",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-17T09:40:58Z",
+            "subject": "[LoopUnroll] Add deferral modes to LoopFullUnrollPass"
+        },
+        {
+            "hash": "ee6d7c31c7f6d6dd87fee37f4c9f329046e9c2c6",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-17T09:40:59Z",
+            "subject": "[Pipeline] Defer full unrolling of likely-vectorizable loops past LV"
+        },
+        {
+            "hash": "c46ebf12452864f4366eb679160d04c6ca969dd7",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-17T09:40:59Z",
+            "subject": "[Pipeline] Only run the late-unroll cleanup chain after a late full unroll"
         }
     ],
     "Enna1\/perf\/MRI-hasOneUse": [
