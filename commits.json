@@ -302925,6 +302925,18 @@
             "author_name": "Dmitry Sidorov",
             "commit_date": "2026-11-17T21:53:59+01:00",
             "subject": "[AMDGPU] Do not form min3\/max3 from legacy min\/max (#242538)"
+        },
+        {
+            "hash": "078483f49eb2168b75d30a67673af79ba39f2cda",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-11-17T12:56:55-08:00",
+            "subject": "[flang][openacc] Look through converts when detecting common block storage uses (#243580)"
+        },
+        {
+            "hash": "2517f566169acbd155f38d87aa8ad56d91c4fca9",
+            "author_name": "Nick Desaulniers",
+            "commit_date": "2026-11-17T12:59:02-08:00",
+            "subject": "RuntimeLibcalls: Allow fp128 sincosl on x86_64-linux-android (#242486)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -330673,6 +330685,40 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-11-17T21:45:44+01:00",
             "subject": "[Support] Skip the time trace profiler call when tracing is disabled"
+        }
+    ],
+    "fhahn\/perf\/basicaa-skip-cache": [
+        {
+            "hash": "5b75ba14022f09cadb8b21985fd7c471d26331ba",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-17T20:47:08Z",
+            "subject": "[LoopUtils] Only expand RT check bounds for affine outer recurrences. (#243571)"
+        },
+        {
+            "hash": "4124985da917784b9d3657dda0474c92b1433ed7",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-17T20:48:33Z",
+            "subject": "[BasicAA] Don't cache pairs that aliasCheckRecursive can't refine (NFC)"
+        },
+        {
+            "hash": "6e897826fb3f8bd5661765353cb96dd3b90e9669",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-17T21:02:59Z",
+            "subject": "!fixup move up"
+        }
+    ],
+    "llvmbot\/perf\/pr-241672": [
+        {
+            "hash": "d1b69c7849918460f292ae9159cac0eacc80cc55",
+            "author_name": "Jan Patrick Lehr",
+            "commit_date": "2026-11-17T21:29:55+01:00",
+            "subject": "[NFC][Offload] Refactor lit env var reading (#243601)"
+        },
+        {
+            "hash": "0dd60847052ce342be747596686dbda114d840f8",
+            "author_name": "arsenm",
+            "commit_date": "2026-11-17T20:57:53Z",
+            "subject": "IR: Make AttributeList::getAttributes inline (#\u200b241672)"
         }
     ]
 }
