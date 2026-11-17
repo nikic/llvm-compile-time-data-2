@@ -302907,6 +302907,24 @@
             "author_name": "Jan Patrick Lehr",
             "commit_date": "2026-11-17T21:29:55+01:00",
             "subject": "[NFC][Offload] Refactor lit env var reading (#243601)"
+        },
+        {
+            "hash": "5b75ba14022f09cadb8b21985fd7c471d26331ba",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-17T20:47:08Z",
+            "subject": "[LoopUtils] Only expand RT check bounds for affine outer recurrences. (#243571)"
+        },
+        {
+            "hash": "71ebedbd82ea87186140715ca45fa07faa914d1c",
+            "author_name": "Kewen Meng",
+            "commit_date": "2026-11-17T12:53:37-08:00",
+            "subject": "[Offload][Buildbot] Remove SDMA option from clang\/flang buildbot config (#243605)"
+        },
+        {
+            "hash": "45b05158aa68c4091e0b3d3ac13f5c820c6dbaa2",
+            "author_name": "Dmitry Sidorov",
+            "commit_date": "2026-11-17T21:53:59+01:00",
+            "subject": "[AMDGPU] Do not form min3\/max3 from legacy min\/max (#242538)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -330493,16 +330511,22 @@
     ],
     "rnk\/perf\/instcombine-icmp-hoist-opcode-checks": [
         {
-            "hash": "67ab6538dff0ed2593b90166214d93e992c74905",
-            "author_name": "Alexey Bataev",
-            "commit_date": "2026-11-16T17:24:12-05:00",
-            "subject": "[SLP]Fix copyable FP lanes changing NaN and subnormal bits"
-        },
-        {
             "hash": "9e0b18a50594b8e7ed8138e9a71d04ceb97fa90a",
             "author_name": "Reid Kleckner",
             "commit_date": "2026-11-16T22:34:20Z",
             "subject": "[InstCombine] Hoist icmp operand checks to improve icache usage"
+        },
+        {
+            "hash": "34eb0789509524e0673df0623621083ba6001f44",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-11-17T20:50:06Z",
+            "subject": "Merge branch main into instcombine-icmp-hoist-opcode-checks"
+        },
+        {
+            "hash": "828e7060c7db53b7b2aa93a73ee8343b9ecc6b0f",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-11-17T20:50:41Z",
+            "subject": "[InstCombine] Limit this patch to the foldICmpCommutative switch"
         }
     ],
     "llvmbot\/perf\/pr-219132": [
@@ -330635,6 +330659,20 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-11-17T19:07:23+01:00",
             "subject": "[clang] Check the cached line before looking up the buffer in getColumnNumber"
+        }
+    ],
+    "clemenswasser\/perf\/timetrace-disabled-fastpath": [
+        {
+            "hash": "ce569778c3b6c4ac005443fccc1fdddfa230285b",
+            "author_name": "Yashas Andaluri",
+            "commit_date": "2026-11-17T09:08:39-06:00",
+            "subject": "[Hexagon] Emit unwind info for HLX callee-saved registers, caller's VSP (#243180)"
+        },
+        {
+            "hash": "e102c2ceac3882e4a1487629ff4de2eafa9f8b18",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-17T21:45:44+01:00",
+            "subject": "[Support] Skip the time trace profiler call when tracing is disabled"
         }
     ]
 }
