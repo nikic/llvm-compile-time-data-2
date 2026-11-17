@@ -301959,6 +301959,36 @@
             "author_name": "SiHuaN",
             "commit_date": "2026-11-17T09:22:07Z",
             "subject": "[RISCV][P-ext] Add scalar mhacc.h0\/h1 intrinsics (#242195)"
+        },
+        {
+            "hash": "d7e30aea52c1751b616739a80e2e499893a6e5c3",
+            "author_name": "Deepak Shirke",
+            "commit_date": "2026-11-17T09:26:47Z",
+            "subject": "[AArch64][GlobalISel] Run sdiv_by_const in the post-legalizer combiner (#242643)"
+        },
+        {
+            "hash": "525b9ff1272f32302b6adc0706416e78e35cb6f3",
+            "author_name": "Alex Duran",
+            "commit_date": "2026-11-17T10:29:55+01:00",
+            "subject": "[Offload][Omp][Acc][NFC] Restructure offload directory (#242220)"
+        },
+        {
+            "hash": "8f9d30c5879aa3a330cca7b414688926f721fc95",
+            "author_name": "Stefan Gr\u00e4nitz",
+            "commit_date": "2026-11-17T10:30:49+01:00",
+            "subject": "[Plugins] Provide PreCodeGenCallback with all runCodeGenPipeline params (#241314)"
+        },
+        {
+            "hash": "d4a6374e1abad26ba22bed2dffc764ed2b336e63",
+            "author_name": "Andrzej Warzy\u0144ski",
+            "commit_date": "2026-11-17T09:38:55Z",
+            "subject": "[mlir][ArmSVE] Add a pattern to lower `vector.contract` to indexed FMLA (#241231)"
+        },
+        {
+            "hash": "3075b2d73e66a8528a528772b7290a957dcb4eae",
+            "author_name": "AMullen",
+            "commit_date": "2026-11-17T09:39:23Z",
+            "subject": "[BOLT][AArch64] Error when LongJmp will relax beyond 128MiB (#229882)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -326567,33 +326597,33 @@
     ],
     "fhahn\/perf\/basicaa-phi-alloca": [
         {
-            "hash": "38ff8f3dcf9f59c85db3f3cdc313acbf1ecc432c",
-            "author_name": "Pavel Labath",
-            "commit_date": "2026-11-16T16:34:59Z",
-            "subject": "[libc] Add network byte-order helpers to __support\/net (#243122)"
+            "hash": "51b9606c3e7d7a6af8a2adae206df2ae0b8d4813",
+            "author_name": "Federico Bruzzone",
+            "commit_date": "2026-11-17T10:07:41+01:00",
+            "subject": "[mlir][scf] Read the written tile of a `scf.forall` through block arg (#241838)"
         },
         {
-            "hash": "ba6273e511b3fff69ada70ac97f8969fcebb098d",
+            "hash": "e5f0d4db9a1b390e6a7923652f82d9c8246cd07c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-16T16:44:36Z",
+            "commit_date": "2026-11-17T09:14:19Z",
             "subject": "[BasicAA] Move rules for distinct underlying objects to helper (NFC)."
         },
         {
-            "hash": "7539b46762448d63f98c7f7fa05b214c02b55cc1",
+            "hash": "8918ca67679df7fb3ba7cb03431b56b4d295f4ed",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-16T16:44:36Z",
+            "commit_date": "2026-11-17T09:14:19Z",
             "subject": "[BasicAA] Add tests for phis of pointers carried through nested loops (NFC)."
         },
         {
-            "hash": "cad31aa50b5af7d626cfd43190700a52dd8b2ec7",
+            "hash": "6661dfff138590f8ff246ffa6c8f6a9c0af066ed",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-16T16:44:37Z",
+            "commit_date": "2026-11-17T09:14:19Z",
             "subject": "[BasicAA] Check underlying objects of phis instead of giving up."
         },
         {
-            "hash": "595ae7bf68e73e046d243dc0d4ec5b9e2d39cd8c",
+            "hash": "902273b261f564d6c1a7bbad13f5de705122e18c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-16T16:44:37Z",
+            "commit_date": "2026-11-17T09:14:20Z",
             "subject": "!fixup add getUnderlyingObjects overload"
         }
     ],
