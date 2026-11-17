@@ -303021,6 +303021,36 @@
             "author_name": "Kaitlin Peng",
             "commit_date": "2026-11-17T13:59:58-08:00",
             "subject": "[HLSL][Matrix] Make `*`, `\/`, and negation element-wise on matrices (#241993)"
+        },
+        {
+            "hash": "1f3c2a1a753e3816ac6f506982aa03088ef4761c",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-17T14:01:30-08:00",
+            "subject": "CodeGen: Skip main range predecessor lookup in shrinkToUses (#243346)"
+        },
+        {
+            "hash": "391366d64cf58be1ba5fb424ced95c5f956ab85e",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-11-17T17:02:43-05:00",
+            "subject": "[SLP][NFC]Add extra tests for or-like selects, NFC"
+        },
+        {
+            "hash": "c3a90e1880bc3d4fd01fdc9f4b10762207ac301b",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-17T14:04:19-08:00",
+            "subject": "RegisterCoalescer: Don't shrink pruned subranges twice (#243347)"
+        },
+        {
+            "hash": "347e5a8004da7612d6b3fd2bea50595bb0408d73",
+            "author_name": "Hamed",
+            "commit_date": "2026-11-18T00:07:33+02:00",
+            "subject": "[llvm-objdump] Start an ARMNT export at its even address (#242496)"
+        },
+        {
+            "hash": "d5a22c0d1c26b45c725a101ced5bb8a6d8271421",
+            "author_name": "Kyle Farnung",
+            "commit_date": "2026-11-18T00:07:58+02:00",
+            "subject": "[LLD][COFF] Avoid repeated vector insertion during thunk creation (up to 10x improvement for large links) (#241059)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -330803,6 +330833,20 @@
             "author_name": "arsenm",
             "commit_date": "2026-11-17T20:57:53Z",
             "subject": "IR: Make AttributeList::getAttributes inline (#\u200b241672)"
+        }
+    ],
+    "clemenswasser\/perf\/bookkeeping-mangle-tls": [
+        {
+            "hash": "ce569778c3b6c4ac005443fccc1fdddfa230285b",
+            "author_name": "Yashas Andaluri",
+            "commit_date": "2026-11-17T09:08:39-06:00",
+            "subject": "[Hexagon] Emit unwind info for HLX callee-saved registers, caller's VSP (#243180)"
+        },
+        {
+            "hash": "37a1efe8cc229d292a4b24291c25754fb667e289",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-17T23:07:13+01:00",
+            "subject": "[AST][Support] Remove repeated bookkeeping from mangling and hot thread-locals"
         }
     ]
 }
