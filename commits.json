@@ -301989,6 +301989,18 @@
             "author_name": "AMullen",
             "commit_date": "2026-11-17T09:39:23Z",
             "subject": "[BOLT][AArch64] Error when LongJmp will relax beyond 128MiB (#229882)"
+        },
+        {
+            "hash": "8aec5d8ecca3aea3b545eb40293420b24ec042b0",
+            "author_name": "Kirill Vedernikov",
+            "commit_date": "2026-11-17T10:42:02+01:00",
+            "subject": "[NVPTX] Support sm_107a as a valid target for tcgen05.shift (#243099)"
+        },
+        {
+            "hash": "f5b7a17d8eeb310c510ebbe948e0088660125dcf",
+            "author_name": "Yao Qi",
+            "commit_date": "2026-11-17T09:43:04Z",
+            "subject": "[lldb] Strip authentication bits when SBValue::Cast drops __ptrauth (#242399)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -329555,6 +329567,20 @@
             "author_name": "Reid Kleckner",
             "commit_date": "2026-11-16T22:34:20Z",
             "subject": "[InstCombine] Hoist icmp operand checks to improve icache usage"
+        }
+    ],
+    "llvmbot\/perf\/pr-219132": [
+        {
+            "hash": "7e639b74b5894e1d072e6830053871a5cf7d96f4",
+            "author_name": "Sergei Barannikov",
+            "commit_date": "2026-11-17T07:12:59Z",
+            "subject": "[RuntimeLibcalls] Add WCharSize field to RuntimeLibcallsInfo (NFC) (#241679)"
+        },
+        {
+            "hash": "9752c2b8efc248ca621620e80cab7873c77a99db",
+            "author_name": "VachanVY",
+            "commit_date": "2026-11-17T09:43:07Z",
+            "subject": "[ValueTracking] Propagate `s > -1` through bitwise OR expressions (#\u200b219132)"
         }
     ]
 }
