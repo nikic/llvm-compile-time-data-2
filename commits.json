@@ -302853,6 +302853,18 @@
             "author_name": "Eric Ross",
             "commit_date": "2026-11-17T13:45:27-06:00",
             "subject": "[KnownFPClass] Rule out zero and subnormal in more cases for fadd\/fsub (#242911)"
+        },
+        {
+            "hash": "1b6582c154fd39a8b45bc3dc46cf645b68a7e371",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-11-17T11:56:00-08:00",
+            "subject": "[CIR][NFC] Remove a pair of RelativeVTable checks that are not needed (#243511)"
+        },
+        {
+            "hash": "46a5f20dc92c6743a2108c89dbfb1eda4a4933f4",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-11-17T14:59:23-05:00",
+            "subject": "[SLP][NFC]Add extra test for or-like-select chains, NFC"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -330525,6 +330537,62 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-11-17T19:30:55Z",
             "subject": "[SCEV] Apply loop guard rewrites to mul expressions."
+        }
+    ],
+    "clemenswasser\/perf\/cgdebuginfo-emitlocation-same-loc": [
+        {
+            "hash": "ce569778c3b6c4ac005443fccc1fdddfa230285b",
+            "author_name": "Yashas Andaluri",
+            "commit_date": "2026-11-17T09:08:39-06:00",
+            "subject": "[Hexagon] Emit unwind info for HLX callee-saved registers, caller's VSP (#243180)"
+        },
+        {
+            "hash": "a502ce031bbe344b9aaba242ea37c4a1d32eaa79",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-17T19:14:25+01:00",
+            "subject": "[clang][DebugInfo] Skip DILocation uniquing when the location is unchanged"
+        }
+    ],
+    "clemenswasser\/perf\/cgdebuginfo-setlocation-presumedloc": [
+        {
+            "hash": "ce569778c3b6c4ac005443fccc1fdddfa230285b",
+            "author_name": "Yashas Andaluri",
+            "commit_date": "2026-11-17T09:08:39-06:00",
+            "subject": "[Hexagon] Emit unwind info for HLX callee-saved registers, caller's VSP (#243180)"
+        },
+        {
+            "hash": "dc3e01802db7ea41a30577df6cc0aab1a2e975a7",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-17T18:58:15+01:00",
+            "subject": "[clang][DebugInfo] Avoid recomputing the presumed location in setLocation"
+        }
+    ],
+    "clemenswasser\/perf\/dilocation-slab-allocation": [
+        {
+            "hash": "ce569778c3b6c4ac005443fccc1fdddfa230285b",
+            "author_name": "Yashas Andaluri",
+            "commit_date": "2026-11-17T09:08:39-06:00",
+            "subject": "[Hexagon] Emit unwind info for HLX callee-saved registers, caller's VSP (#243180)"
+        },
+        {
+            "hash": "daf281cb8bf7aa04bc550123fbc36bc5676a0aed",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-17T20:29:10+01:00",
+            "subject": "[IR] Allocate DILocation nodes from a per-context slab"
+        }
+    ],
+    "clemenswasser\/perf\/sourcemanager-column-fastpath-first": [
+        {
+            "hash": "ce569778c3b6c4ac005443fccc1fdddfa230285b",
+            "author_name": "Yashas Andaluri",
+            "commit_date": "2026-11-17T09:08:39-06:00",
+            "subject": "[Hexagon] Emit unwind info for HLX callee-saved registers, caller's VSP (#243180)"
+        },
+        {
+            "hash": "004c0672d008707a326a14e26ba1d13ec0931e09",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-17T19:07:23+01:00",
+            "subject": "[clang] Check the cached line before looking up the buffer in getColumnNumber"
         }
     ]
 }
