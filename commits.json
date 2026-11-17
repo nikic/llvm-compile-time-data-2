@@ -303075,6 +303075,24 @@
             "author_name": "Vineet Kumar",
             "commit_date": "2026-11-17T17:28:32-05:00",
             "subject": "[flang][Evaluate] Analyze contiguity and copies per consequent-arg (#238055)"
+        },
+        {
+            "hash": "aec55a37925f7994706268fc9bceeae60c71aac9",
+            "author_name": "Sharjeel Khan",
+            "commit_date": "2026-11-17T14:37:14-08:00",
+            "subject": "[LFI][AArch64] Account for deferred LR guard flush in getInstSizeInBytes (#224791)"
+        },
+        {
+            "hash": "27f9972491e5d8db14b3a16dab573fee6660d163",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-11-17T22:37:38Z",
+            "subject": "[X86] sse-insertelt.ll - add missing check prefixes and regenerate (#243627)"
+        },
+        {
+            "hash": "4df6a53a0220c80c77adfa38eb1fe4d2c8473717",
+            "author_name": "Ellis Hoag",
+            "commit_date": "2026-11-17T14:37:50-08:00",
+            "subject": "[objdump] Fix relative method pointer size (#243250)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -330871,6 +330889,20 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-11-17T23:07:13+01:00",
             "subject": "[AST][Support] Remove repeated bookkeeping from mangling and hot thread-locals"
+        }
+    ],
+    "clemenswasser\/perf\/ldv-register-bitvector": [
+        {
+            "hash": "ce569778c3b6c4ac005443fccc1fdddfa230285b",
+            "author_name": "Yashas Andaluri",
+            "commit_date": "2026-11-17T09:08:39-06:00",
+            "subject": "[Hexagon] Emit unwind info for HLX callee-saved registers, caller's VSP (#243180)"
+        },
+        {
+            "hash": "3ac76444de4e05c1add3cae4b98d80b04580e25e",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-17T23:29:27+01:00",
+            "subject": "[CodeGen] Use a bit vector for the entry-block defined registers in VarLoc LDV"
         }
     ]
 }
