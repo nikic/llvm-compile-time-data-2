@@ -302721,6 +302721,60 @@
             "author_name": "Stanislav Mekhanoshin",
             "commit_date": "2026-11-17T10:47:33-08:00",
             "subject": "[AMDGPU] Mitigate TRANS f16 to partial VGPR write WAW hazard (#239442)"
+        },
+        {
+            "hash": "af66e1024e6260be3f9d277d3f24887879cce09f",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-11-17T10:49:13-08:00",
+            "subject": "[flang][cuda] Only transfer component in implicit data transfer (#242061)"
+        },
+        {
+            "hash": "00a784fc76ed18e60e8be2dbadf4d2bef80d87f3",
+            "author_name": "lntue",
+            "commit_date": "2026-11-17T13:51:46-05:00",
+            "subject": "[libc][math] Add do not optimize macros and guard some double-double functions. (#243203)"
+        },
+        {
+            "hash": "ecb76d13574c92a03c9ce5e769e2ba7daae7d574",
+            "author_name": "Jianhui Li",
+            "commit_date": "2026-11-17T10:54:04-08:00",
+            "subject": "[mlir][vector] Require in-bounds transfers in mem2reg (#242076)"
+        },
+        {
+            "hash": "8065ace2bf426660619e1eff5bce3ad8b51f2c38",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-11-17T10:56:24-08:00",
+            "subject": "[lldb] Upstream eSymbolTypeASTFile for Mach-O N_AST stabs (#243567)"
+        },
+        {
+            "hash": "6b0a40b56aba4d5c0366054073726fb6e9b8591b",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-11-17T10:57:09-08:00",
+            "subject": "[RISCV][P-ext] Replace isPackedZExtShuffleMask with a more general isPackedPairShuffleMask. (#243208)"
+        },
+        {
+            "hash": "251de7cb12eff1d6f60c680f28c93674620f5034",
+            "author_name": "Rintaro Ishizaki",
+            "commit_date": "2026-11-17T11:04:17-08:00",
+            "subject": "[clang] Compute the macro argument cache in linear time (#243344)"
+        },
+        {
+            "hash": "944a3e0bd4be86badfb269a13a824e9c84f26a45",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-17T11:04:32-08:00",
+            "subject": "X86: Use the DataLayout size in the atomic expansion hooks (#243118)"
+        },
+        {
+            "hash": "3f36af353b026233eccc93c5bed2341875ba1b93",
+            "author_name": "David Young",
+            "commit_date": "2026-11-17T11:04:49-08:00",
+            "subject": "[Support] Don't pass a null pointer to memcpy in MD5::update (#236817)"
+        },
+        {
+            "hash": "eb5fb5acaceddb6fd90be9e52139a7c2e29a8291",
+            "author_name": "Krzysztof Drewniak",
+            "commit_date": "2026-11-17T11:08:04-08:00",
+            "subject": "[AMDGPU] Expand constant named barrier matching, poison handling (#191506)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -313413,6 +313467,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-11-16T13:46:15+01:00",
             "subject": "release\/23.x: [LV] Have ExtractValue match the shape of the operand. (#229927)"
+        },
+        {
+            "hash": "9613def24bf40ffe11252e40a565d3f90ce5c0ce",
+            "author_name": "Tobias Hieta",
+            "commit_date": "2026-11-17T20:01:35+01:00",
+            "subject": "Bump version to 23.1.7"
         }
     ],
     "momchil-velikov\/perf\/extra-late-passes-squished": [
