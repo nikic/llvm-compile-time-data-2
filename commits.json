@@ -302445,6 +302445,54 @@
             "author_name": "Chris Copeland",
             "commit_date": "2026-11-17T16:03:15Z",
             "subject": "[ARM] Emit clrex wherever it's available in emitAtomicCmpXchgNoStoreLLBalance (#242972)"
+        },
+        {
+            "hash": "513f7f4033e3b6d03d9b51e197049c04320beebb",
+            "author_name": "Krishnan R",
+            "commit_date": "2026-11-17T16:06:13Z",
+            "subject": "[X86] Expand vector atomicrmw through a cmpxchg loop (#230788)"
+        },
+        {
+            "hash": "03b754dcf23127b6a52ee790351be00a48018102",
+            "author_name": "Jeff Bailey",
+            "commit_date": "2026-11-17T16:06:28Z",
+            "subject": "[libc] Harden regerror null check and use string_view (#242402)"
+        },
+        {
+            "hash": "5565704827b13039aed8036fe9b12279168d2b82",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-11-17T17:06:59+01:00",
+            "subject": "[libc] Add <arpa\/nameser.h> with the RFC 1035 constants (#243501)"
+        },
+        {
+            "hash": "d8d90510d37833f14a22d6228aa5d8e87127ab43",
+            "author_name": "Jeff Bailey",
+            "commit_date": "2026-11-17T16:10:19Z",
+            "subject": "[libc] Add internal locale structures and config options (#211470)"
+        },
+        {
+            "hash": "1eb45859c7513213a6d84ce7e0afd163b6663df1",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-17T17:10:48+01:00",
+            "subject": "[SPIR-V] Widen icmp on non-power-of-two vectors (#238513)"
+        },
+        {
+            "hash": "cf32474903e4da1adb34eff9aae8b073ee3067ba",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-17T17:12:23+01:00",
+            "subject": "[mlir][SPIR-V] Add SPIRVToLLVM conversion for spirv.Switch (#242805)"
+        },
+        {
+            "hash": "d2a93dd549d05ac2e67b9699675255f778dc3426",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-17T17:14:53+01:00",
+            "subject": "[SPIR-V] Enable extended LLT in GlobalISel (#240752)"
+        },
+        {
+            "hash": "ead9d5a40f18b2763d8d86af804d175d6180a5ff",
+            "author_name": "Alex Duran",
+            "commit_date": "2026-11-17T16:15:20Z",
+            "subject": "[Offload][Omp] Do all geometry computations in 64-bit (#243507)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
