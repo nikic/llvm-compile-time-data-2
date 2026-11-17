@@ -302337,6 +302337,42 @@
             "author_name": "Tomer Shafir",
             "commit_date": "2026-11-17T14:43:58Z",
             "subject": "[Clang][AArch64] Set macOS default tune-cpu to apple-m6 (#243434)"
+        },
+        {
+            "hash": "67f56b84d84f07a72e6c52d42e9c1c14f0208b46",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-17T07:00:20-08:00",
+            "subject": "IR: Answer mayHaveSideEffects with one switch (#242589)"
+        },
+        {
+            "hash": "ccbb29bf4eadc21f4bd80b1ed4fc0e853b944fc8",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-17T07:00:55-08:00",
+            "subject": "PowerPC: Remove clearKillFlags calls on virtual registers (#239803)"
+        },
+        {
+            "hash": "13ac99b5358ad5e99c6d0b758edd6e5d415450e5",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-17T07:05:26-08:00",
+            "subject": "CodeGen: Collect shrinkToUses subrange uses once per interval (#243345)"
+        },
+        {
+            "hash": "734611009f6805047f1ab9d14563347cb473fe43",
+            "author_name": "Joel Walker",
+            "commit_date": "2026-11-17T15:07:13Z",
+            "subject": "[AArch64] Don't lower i16 to f16\/bf16 bitcasts through vectors without NEON (#242705)"
+        },
+        {
+            "hash": "94ae05ac4149f10f432db8cf42c6026276c9c062",
+            "author_name": "Alan Li",
+            "commit_date": "2026-11-17T07:07:43-08:00",
+            "subject": "[AMDGPU] Fold `OR` of `{SIGN|ANY}_EXTEND`ed SGPR booleans to `SELECT` (#243196)"
+        },
+        {
+            "hash": "ce569778c3b6c4ac005443fccc1fdddfa230285b",
+            "author_name": "Yashas Andaluri",
+            "commit_date": "2026-11-17T09:08:39-06:00",
+            "subject": "[Hexagon] Emit unwind info for HLX callee-saved registers, caller's VSP (#243180)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
