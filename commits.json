@@ -302847,6 +302847,12 @@
             "author_name": "Jaeyong Lee",
             "commit_date": "2026-11-17T11:39:21-08:00",
             "subject": "[IR][Clang] Guard full-width shift in FixedPointBuilder (#239969)"
+        },
+        {
+            "hash": "88c378c1e8bf13c78e05d8ba46688510015886ae",
+            "author_name": "Eric Ross",
+            "commit_date": "2026-11-17T13:45:27-06:00",
+            "subject": "[KnownFPClass] Rule out zero and subnormal in more cases for fadd\/fsub (#242911)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -330489,10 +330495,16 @@
     ],
     "arsenm\/perf\/mir-block-args-v13": [
         {
-            "hash": "409819cc5642bc9e7f088af6de8fb598ac42c368",
+            "hash": "ce569778c3b6c4ac005443fccc1fdddfa230285b",
+            "author_name": "Yashas Andaluri",
+            "commit_date": "2026-11-17T09:08:39-06:00",
+            "subject": "[Hexagon] Emit unwind info for HLX callee-saved registers, caller's VSP (#243180)"
+        },
+        {
+            "hash": "f432cd2a9302d61e1dde265e31d2b4f84178ce91",
             "author_name": "Matt Arsenault",
-            "commit_date": "2026-11-17T10:03:49-08:00",
-            "subject": "fixup! AMDGPU: Add tests for divergent i1 block-argument lane-mask lowering"
+            "commit_date": "2026-11-17T11:19:55-08:00",
+            "subject": "MIR block args all in one"
         }
     ],
     "fhahn\/perf\/scev-guards-rewrite-mul": [
