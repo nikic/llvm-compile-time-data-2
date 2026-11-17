@@ -302805,6 +302805,30 @@
             "author_name": "Jeff Bailey",
             "commit_date": "2026-11-17T19:22:22Z",
             "subject": "[libc][regex] Reject equivalence classes as range endpoints (#243556)"
+        },
+        {
+            "hash": "970a9c95cf21e946f2de12d7e781e17d2d7b0f5b",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-11-17T14:25:29-05:00",
+            "subject": "Revert \"X86: Use the DataLayout size in the atomic expansion hooks (#243118)\""
+        },
+        {
+            "hash": "f7312f2fad657a42339e4dc1137dda3aa3451930",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-17T11:27:07-08:00",
+            "subject": "MustExecute: Don't set up the visited set of the end iterator (#240719)"
+        },
+        {
+            "hash": "b7b5b15a0741e899a881fe6c6ed02a9c1d22dcdb",
+            "author_name": "Jason Molenda",
+            "commit_date": "2026-11-17T11:27:20-08:00",
+            "subject": "[lldb] Only test debugserver fixes against in-tree debugserver (#243575)"
+        },
+        {
+            "hash": "7d2dd7dcdbb6b93b3bd3d55cc5a73e34eaa66036",
+            "author_name": "Eugene Epshteyn",
+            "commit_date": "2026-11-17T14:30:31-05:00",
+            "subject": "[flang][flang-rt] Document and test tabs in formatted input (#243224)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -330451,6 +330475,26 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-11-17T10:03:49-08:00",
             "subject": "fixup! AMDGPU: Add tests for divergent i1 block-argument lane-mask lowering"
+        }
+    ],
+    "fhahn\/perf\/scev-guards-rewrite-mul": [
+        {
+            "hash": "50b887effe4313976205f1e49c6f2eff6fd9c580",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-17T08:16:41-08:00",
+            "subject": "Attributor: Only destroy the cached opcodes' instruction vectors (#241012)"
+        },
+        {
+            "hash": "4d669bea8878d02f94e427f1e41014f6480e4f23",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-17T16:51:29Z",
+            "subject": "[SCEV] Add tests for loop guards on mul expressions nested in extends (NFC)."
+        },
+        {
+            "hash": "1b9138a3b36ce7c369f70e12d8cafce76a0ba614",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-17T19:30:55Z",
+            "subject": "[SCEV] Apply loop guard rewrites to mul expressions."
         }
     ]
 }
