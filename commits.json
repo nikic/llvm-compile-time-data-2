@@ -304101,6 +304101,48 @@
             "author_name": "Jan Trusi\u0142\u0142o",
             "commit_date": "2026-11-18T16:48:51+01:00",
             "subject": "[Offload][L0] Move host memory pool ownership from L0DriverTy to plugin contexts (#236145)"
+        },
+        {
+            "hash": "9a8c46192ba98c1176104735452009615b3c0ac8",
+            "author_name": "Marco Elver",
+            "commit_date": "2026-11-18T15:51:18Z",
+            "subject": "[InstCombine] Preserve !pcsections in mergeStoreIntoSuccessor (#243840)"
+        },
+        {
+            "hash": "d8fc993c469b92edaab3e5ce969e42996b40495c",
+            "author_name": "Kseniya Tikhomirova",
+            "commit_date": "2026-11-18T16:51:49+01:00",
+            "subject": "[libsycl] Add sycl::half (#238751)"
+        },
+        {
+            "hash": "b84124be5ffb2a5cca3d8bd29d5cdb314a99a500",
+            "author_name": "Akimasa Watanuki",
+            "commit_date": "2026-11-18T09:52:33-06:00",
+            "subject": "[CIR] Diagnose failed initializer type adjustments (#234348)"
+        },
+        {
+            "hash": "c2dd6c61e6838cb44a2dac9c2d8d1b899c283d6b",
+            "author_name": "Lukacma",
+            "commit_date": "2026-11-18T15:54:12Z",
+            "subject": "[AArch64] CodeGen for STLP (#239588)"
+        },
+        {
+            "hash": "8362eb6e694f998f53a2892a5db4b82bca6677b5",
+            "author_name": "hev",
+            "commit_date": "2026-11-18T23:56:28+08:00",
+            "subject": "[LoongArch][NFC] Add tests for vector add on vNi128 (#193911)"
+        },
+        {
+            "hash": "57e337c9dd548a4abdb55c5c77ef93175cc4e0dc",
+            "author_name": "hev",
+            "commit_date": "2026-11-18T23:56:28+08:00",
+            "subject": "[LoongArch] Select [X]VADD.Q\/[X]VSUB.Q for add\/sub on vNi128 (#193912)"
+        },
+        {
+            "hash": "52ab5e24427d3c542095bdb52fd3053d71347709",
+            "author_name": "Alexey Samsonov",
+            "commit_date": "2026-11-18T07:58:28-08:00",
+            "subject": "[libc] Implement timerfd_(s|g)ettime on Linux. (#243657)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -332145,6 +332187,20 @@
             "author_name": "hassnaaHamdi",
             "commit_date": "2026-11-18T15:17:03Z",
             "subject": "[indvars] Invalidate SCEV loop info after eliminating an IV comparison (#\u200b207044)"
+        }
+    ],
+    "fhahn\/perf\/eea-cache-reachability": [
+        {
+            "hash": "3bfae959fb6f86a5c72dedb695b6c6a8ca98186e",
+            "author_name": "sstipano",
+            "commit_date": "2026-11-18T09:55:02+01:00",
+            "subject": "[AMDGPU] Treat reserved address spaces as MayAlias (#243426)"
+        },
+        {
+            "hash": "05a3ed0630c5c9ca9cd3b0032f9ff4f85c70aa6b",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-18T13:54:08Z",
+            "subject": "[BasicAA] Cache block reachability in EarliestEscapeAnalysis (NFC)."
         }
     ]
 }
