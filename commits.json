@@ -304593,6 +304593,24 @@
             "author_name": "Corentin Kerisit",
             "commit_date": "2026-11-18T11:38:12-08:00",
             "subject": "[flang-rt][bazel] Force-include STL overrides for runtime sources (#243800)"
+        },
+        {
+            "hash": "acb854afc0738dce8ad4c3f0a7f10c41104f52d4",
+            "author_name": "Pravin Ireri",
+            "commit_date": "2026-11-18T19:50:40Z",
+            "subject": "[SelectionDAG] Use result 0 type for widened operation legality checks (#224173)"
+        },
+        {
+            "hash": "207c43f7061aabbffa00e2ec766a4150014cb863",
+            "author_name": "schittir",
+            "commit_date": "2026-11-18T14:53:28-05:00",
+            "subject": "[clang][SYCL] Diagnose device calls with host-only calling conventions (#243613)"
+        },
+        {
+            "hash": "562422dbc7837f88cc61d465826d5bfc30febd2a",
+            "author_name": "Daniel Paoliello",
+            "commit_date": "2026-11-18T11:55:19-08:00",
+            "subject": "[aarch64][win] Support shrink-wrapped SEH unwind ranges, with limitations (#231596)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -332665,6 +332683,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-11-18T17:48:18+01:00",
             "subject": "wip"
+        }
+    ],
+    "jroelofs\/perf\/jroelofs\/ce-doesHold-depth-limit": [
+        {
+            "hash": "5d14f8fb9295346510ed104b82fdb936836c54bb",
+            "author_name": "Michael Klemm",
+            "commit_date": "2026-11-18T19:23:36+01:00",
+            "subject": "[OpenMP] Add Fortran support routines for dyn_groupprivate (OpenMP 6.1) (#211630)"
+        },
+        {
+            "hash": "593056d96ff87296f25d4677c6e675c9103b27de",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-18T11:15:47-08:00",
+            "subject": "[ConstraintElim] Limit the recursion depth in doesHold"
         }
     ]
 }
