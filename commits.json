@@ -303207,6 +303207,18 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-11-17T16:35:00-08:00",
             "subject": "MachineCSE: Clear physreg kill flags locally (#240274)"
+        },
+        {
+            "hash": "80d7de963aa627fedec45b1cf7d7e483ba850fe6",
+            "author_name": "Vitaly Buka",
+            "commit_date": "2026-11-18T00:40:03Z",
+            "subject": "Revert \"[ConstraintElim] Add guarded add\/sub.with.overflow results as\u2026 (#243655)"
+        },
+        {
+            "hash": "65406a394f387bedf49fe5caa7291c675d76dbef",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-11-18T00:42:46Z",
+            "subject": "[RISCV][P-ext] Recognize merge when the mask is constant. (#241110)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -331073,6 +331085,20 @@
             "author_name": "Abhay Kanhere",
             "commit_date": "2026-11-17T16:23:18-08:00",
             "subject": "[IndVarSimplify] Compare the other exits' counts in optimizeLoopExits (perf, squashed)"
+        }
+    ],
+    "clemenswasser\/perf\/gvn-memdep-block-budget": [
+        {
+            "hash": "ce569778c3b6c4ac005443fccc1fdddfa230285b",
+            "author_name": "Yashas Andaluri",
+            "commit_date": "2026-11-17T09:08:39-06:00",
+            "subject": "[Hexagon] Emit unwind info for HLX callee-saved registers, caller's VSP (#243180)"
+        },
+        {
+            "hash": "ab3f1e2bc0149042d33de9329c97baef339be24d",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-18T01:42:11+01:00",
+            "subject": "[GVN] Bound non-local MemDep block visits per function"
         }
     ]
 }
