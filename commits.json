@@ -331016,5 +331016,19 @@
             "commit_date": "2026-11-17T23:49:57Z",
             "subject": "[ValueTracking] Imply unsigned from signed compares for non-neg operand (#\u200b241607)"
         }
+    ],
+    "AbhayKanhere\/perf\/scev-implied-add-const-ult-189220006": [
+        {
+            "hash": "860b8f94084c6b58c739e0ef57bcf12935c47be5",
+            "author_name": "Schrodinger ZHU Yifan",
+            "commit_date": "2026-11-12T15:31:53-08:00",
+            "subject": "[libc][signal] fix the ordering issue of abort guard (#242025)"
+        },
+        {
+            "hash": "ee2d01414433913065327bd03cc6710c7f535d55",
+            "author_name": "Abhay Kanhere",
+            "commit_date": "2026-11-17T15:53:36-08:00",
+            "subject": "[SCEV] Prove X + C u< X from X u>= -C in isImpliedCond"
+        }
     ]
 }
