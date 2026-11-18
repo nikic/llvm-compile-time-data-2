@@ -304023,6 +304023,30 @@
             "author_name": "Ebuka Ezike",
             "commit_date": "2026-11-18T15:01:23Z",
             "subject": "[lldb-dap][NFC] Swap show_user and error code in DAPError (#243859)"
+        },
+        {
+            "hash": "97f9546016ec0c0c64398c30b74bba6f9e8eb256",
+            "author_name": "lntue",
+            "commit_date": "2026-11-18T10:12:04-05:00",
+            "subject": "[libc][math] Migrate math polynomial evaluations to estrin_polyeval and loop_polyeval. (#243741)"
+        },
+        {
+            "hash": "77155f51b39fd81c73b61cbc8b88a2a2f17a2b83",
+            "author_name": "Oscar Smith",
+            "commit_date": "2026-11-18T15:14:45Z",
+            "subject": "[Aarch64] lower `VECTOR_SHUFFLE_VAR` to NEON `TBL` (#240480)"
+        },
+        {
+            "hash": "c8373c2269965de8d49f837c13f242d1024f73be",
+            "author_name": "Abhinav Gaba",
+            "commit_date": "2026-11-18T07:17:22-08:00",
+            "subject": "[OpenMP][OMPTarget] Restore attached host pointers to their value before the FROM transfer (#233650)"
+        },
+        {
+            "hash": "64168d86d08abc100b314a19060086bd3c286903",
+            "author_name": "Pavel Labath",
+            "commit_date": "2026-11-18T16:19:44+01:00",
+            "subject": "[libc] Add IPV6_PKTINFO, IPV6_TCLASS and related socket options (#243838)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -332053,6 +332077,20 @@
             "author_name": "SavchenkoValeriy",
             "commit_date": "2026-11-18T11:43:06Z",
             "subject": "[EarliestEscapeAnalysis] Check returns-twice last in getCapturesBefore (NFC) (#\u200b243815)"
+        }
+    ],
+    "llvmbot\/perf\/pr-207044": [
+        {
+            "hash": "d31cf53a61a173585362d33560e4e6075d33a14f",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-11-18T13:09:40Z",
+            "subject": "[X86][MC] Add support for (V)PSUB* asm constant comments (#243758)"
+        },
+        {
+            "hash": "2f3340b2eb729787d6524f92fcc17a67c00df652",
+            "author_name": "hassnaaHamdi",
+            "commit_date": "2026-11-18T15:17:03Z",
+            "subject": "[indvars] Invalidate SCEV loop info after eliminating an IV comparison (#\u200b207044)"
         }
     ]
 }
