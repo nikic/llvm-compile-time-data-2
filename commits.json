@@ -303297,6 +303297,12 @@
             "author_name": "Alexander Richardson",
             "commit_date": "2026-11-17T18:48:55-08:00",
             "subject": "[TableGen][AsmMatcher] Support CoerceFromRegClass for RegClassByHwMode (#241446)"
+        },
+        {
+            "hash": "d6905d34813fb2f3407ae4868ad5c7053e782cff",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-17T21:54:26-05:00",
+            "subject": "RegisterCoalescer: Only shrink subranges in ShrinkMask after a join (#243348)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -331191,6 +331197,18 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-11-18T02:07:02+01:00",
             "subject": "[LTO] Skip post-import InstCombine in no-import ThinLTO backends"
+        },
+        {
+            "hash": "7c4420eb2700ac5d8d749c9bdc5fec05d028a304",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-18T03:13:31+01:00",
+            "subject": "[LTO] Skip the redundant post-import simplification pipeline for no-import ThinLTO modules"
+        },
+        {
+            "hash": "eabd3ee4990347956af251c791f80c61f1951d00",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-18T03:41:56+01:00",
+            "subject": "[LTO] Keep coroutine\/type-test lowering in the no-import post-import pipeline"
         }
     ],
     "clemenswasser\/perf\/thinlto-skip-postimport-opt": [
@@ -331237,6 +331255,12 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-11-18T03:39:45+01:00",
             "subject": "[LTO] Skip post-import InstCombine for clean functions in import-bearing ThinLTO modules"
+        },
+        {
+            "hash": "434e66af40582c48b5c766e7b1a94690cf16294e",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-18T03:42:10+01:00",
+            "subject": "[LTO] Keep coroutine\/type-test lowering in the clean-function ThinLTO pipeline"
         }
     ],
     "clemenswasser\/perf\/thinlto-clean-function-fix": [
