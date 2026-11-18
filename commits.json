@@ -303507,6 +303507,48 @@
             "author_name": "Yongqiang Tian",
             "commit_date": "2026-11-18T17:52:10+11:00",
             "subject": "[IR] Destroy token none before value metadata (#229280)"
+        },
+        {
+            "hash": "68810952f70c2041e3f4ef4d40391cb636e3ac37",
+            "author_name": "Yongqiang Tian",
+            "commit_date": "2026-11-18T17:52:42+11:00",
+            "subject": "[ARM] Do not count debug instructions in the MLx expansion hazard window (#242650)"
+        },
+        {
+            "hash": "079932a9b379396b247b810da339c22bf05ef9d6",
+            "author_name": "Yongqiang Tian",
+            "commit_date": "2026-11-18T17:52:58+11:00",
+            "subject": "[ARM] Do not let a DBG_VALUE start the A15 S->D rewrite (#242636)"
+        },
+        {
+            "hash": "3e91691b5ef371b2c4755bef511c3242908e63c7",
+            "author_name": "Yongqiang Tian",
+            "commit_date": "2026-11-18T17:53:11+11:00",
+            "subject": "[MachineCombiner] Do not take a DBG_VALUE as the user of an accumulator chain (#242642)"
+        },
+        {
+            "hash": "c98eadd3e45a1557ded40f78c08f7bfbe3c34cfb",
+            "author_name": "Yongqiang Tian",
+            "commit_date": "2026-11-18T17:53:32+11:00",
+            "subject": "[ARM][MVE] Erase predicate constants whose only remaining uses are debug uses (#242639)"
+        },
+        {
+            "hash": "d9d46fe53316d9e5e877b5fae13fe2f2ffff8afd",
+            "author_name": "Yongqiang Tian",
+            "commit_date": "2026-11-18T17:53:46+11:00",
+            "subject": "[AArch64][SME] Ignore debug instructions between streaming mode pairs (#232187)"
+        },
+        {
+            "hash": "8d541d53a45144270de33fe7e530995a347c0613",
+            "author_name": "Yongqiang Tian",
+            "commit_date": "2026-11-18T17:53:57+11:00",
+            "subject": "[Hexagon] Ignore debug instructions in GenInsert distance calculations (#232188)"
+        },
+        {
+            "hash": "c6ad2684db750cd8ce4ab1995d59d2d34dcf719e",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-11-17T23:01:24-08:00",
+            "subject": "[CodeGen] Remove unused FaultMaps::faultTypeToString (NFC) (#243718)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
