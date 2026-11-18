@@ -330996,5 +330996,19 @@
             "commit_date": "2026-11-18T00:02:52+01:00",
             "subject": "[CodeGen] Skip machine-value tracking in the InstrRef LDV variable scan when it cannot be read"
         }
+    ],
+    "llvmbot\/perf\/pr-241607": [
+        {
+            "hash": "84fbb7b67f9b5f1447a0af986fc1b9de0da9cd78",
+            "author_name": "Bruno Cardoso Lopes",
+            "commit_date": "2026-11-17T13:15:22Z",
+            "subject": "[CIR] Run llvm-simplify-cfg after CIR to LLVM conversion (#243071)"
+        },
+        {
+            "hash": "1405896c2e54dcc60e0e180005674269d2df9a42",
+            "author_name": "AbhayKanhere",
+            "commit_date": "2026-11-17T23:49:57Z",
+            "subject": "[ValueTracking] Imply unsigned from signed compares for non-neg operand (#\u200b241607)"
+        }
     ]
 }
