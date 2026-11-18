@@ -304209,6 +304209,24 @@
             "author_name": "Teresa Johnson",
             "commit_date": "2026-11-18T08:37:50-08:00",
             "subject": "[WPD] Support speculative devirtualization with distributed ThinLTO (#243576)"
+        },
+        {
+            "hash": "b0784a21fdaa9e0ced8fa438f6846aef69519bdf",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-18T11:43:11-05:00",
+            "subject": "Bitstream: Read fields with unaligned word loads (#243616)"
+        },
+        {
+            "hash": "744e4b4a04b2362c10eb45efc9068a5830dec04d",
+            "author_name": "James Molloy",
+            "commit_date": "2026-11-18T16:45:48Z",
+            "subject": "[mlir][sroa] Skip forward-slice and toposort when no blocking uses exist (NFC) (#243437)"
+        },
+        {
+            "hash": "8aee07e45630217838ddf181cad9b0751a16dc69",
+            "author_name": "Brendon Cahoon",
+            "commit_date": "2026-11-18T10:47:10-06:00",
+            "subject": "[CalcSpillWeights] Do not rematerialize a partial definition (#238431)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -332267,6 +332285,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-11-18T13:54:08Z",
             "subject": "[BasicAA] Cache block reachability in EarliestEscapeAnalysis (NFC)."
+        }
+    ],
+    "nikic\/perf\/rellookuptable-phi": [
+        {
+            "hash": "07118f5e45dd38a581a88d76a5e5887c89826958",
+            "author_name": "Oleksandr Kulkov",
+            "commit_date": "2026-11-18T14:21:33Z",
+            "subject": "[X86] Fold zero-extended byte masks into 32-bit AND (#234796)"
+        },
+        {
+            "hash": "d04b29a0f02bfe69ccc7fbb774a1927a77c0345e",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-11-18T17:48:18+01:00",
+            "subject": "wip"
         }
     ]
 }
