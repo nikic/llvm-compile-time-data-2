@@ -303267,6 +303267,36 @@
             "author_name": "darkbuck",
             "commit_date": "2026-11-18T02:30:54Z",
             "subject": "[llvm-objdump] Fix test by adding required targets (#243665)"
+        },
+        {
+            "hash": "4470aba45755f7a3702348f657839049e06f6ba7",
+            "author_name": "Anutosh Bhat",
+            "commit_date": "2026-11-18T02:41:46Z",
+            "subject": "[mlir][SPIRV] Bitcast equal-width aliased vector loads (#241722)"
+        },
+        {
+            "hash": "d1a5b6eba67e9b91f3a9af8a5a90d4b008a204c8",
+            "author_name": "Alexander Richardson",
+            "commit_date": "2026-11-17T18:48:53-08:00",
+            "subject": "[TableGen][AsmMatcher] Support passing STI to AsmOperandClass predicates (#241024)"
+        },
+        {
+            "hash": "c2542094205fc3b4fac9d40def52868f55535cbf",
+            "author_name": "Alexander Richardson",
+            "commit_date": "2026-11-17T18:48:54-08:00",
+            "subject": "[RISC-V][MC] Use subtarget-aware predicates for Zfinx\/Zdinx\/Zhinx operands (#241444)"
+        },
+        {
+            "hash": "8902313bf7c2e86bd9ea76e48567843c4ebae661",
+            "author_name": "Alexander Richardson",
+            "commit_date": "2026-11-17T18:48:54-08:00",
+            "subject": "[RISC-V][MC] Drop redundant RISCVOperand::RegOp struct. NFC (#241445)"
+        },
+        {
+            "hash": "e88556f301985a42c1c8c88b42a1dad7e3e6fd6a",
+            "author_name": "Alexander Richardson",
+            "commit_date": "2026-11-17T18:48:55-08:00",
+            "subject": "[TableGen][AsmMatcher] Support CoerceFromRegClass for RegClassByHwMode (#241446)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -331207,6 +331237,64 @@
             "author_name": "Clemens Wasser",
             "commit_date": "2026-11-18T03:39:45+01:00",
             "subject": "[LTO] Skip post-import InstCombine for clean functions in import-bearing ThinLTO modules"
+        }
+    ],
+    "clemenswasser\/perf\/thinlto-clean-function-fix": [
+        {
+            "hash": "ce569778c3b6c4ac005443fccc1fdddfa230285b",
+            "author_name": "Yashas Andaluri",
+            "commit_date": "2026-11-17T09:08:39-06:00",
+            "subject": "[Hexagon] Emit unwind info for HLX callee-saved registers, caller's VSP (#243180)"
+        },
+        {
+            "hash": "57ab8f618acb1a489835eaa9ef6df1a3b9356ab0",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-18T02:07:02+01:00",
+            "subject": "[LTO] Skip post-import InstCombine in no-import ThinLTO backends"
+        },
+        {
+            "hash": "7c4420eb2700ac5d8d749c9bdc5fec05d028a304",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-18T03:13:31+01:00",
+            "subject": "[LTO] Skip the redundant post-import simplification pipeline for no-import ThinLTO modules"
+        },
+        {
+            "hash": "9f9d3c1d52d3720b4731d79efba1d7b3a3aac2e0",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-18T03:39:45+01:00",
+            "subject": "[LTO] Skip post-import InstCombine for clean functions in import-bearing ThinLTO modules"
+        },
+        {
+            "hash": "434e66af40582c48b5c766e7b1a94690cf16294e",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-18T03:42:10+01:00",
+            "subject": "[LTO] Keep coroutine\/type-test lowering in the clean-function ThinLTO pipeline"
+        }
+    ],
+    "clemenswasser\/perf\/thinlto-postimport-fix": [
+        {
+            "hash": "ce569778c3b6c4ac005443fccc1fdddfa230285b",
+            "author_name": "Yashas Andaluri",
+            "commit_date": "2026-11-17T09:08:39-06:00",
+            "subject": "[Hexagon] Emit unwind info for HLX callee-saved registers, caller's VSP (#243180)"
+        },
+        {
+            "hash": "57ab8f618acb1a489835eaa9ef6df1a3b9356ab0",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-18T02:07:02+01:00",
+            "subject": "[LTO] Skip post-import InstCombine in no-import ThinLTO backends"
+        },
+        {
+            "hash": "7c4420eb2700ac5d8d749c9bdc5fec05d028a304",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-18T03:13:31+01:00",
+            "subject": "[LTO] Skip the redundant post-import simplification pipeline for no-import ThinLTO modules"
+        },
+        {
+            "hash": "eabd3ee4990347956af251c791f80c61f1951d00",
+            "author_name": "Clemens Wasser",
+            "commit_date": "2026-11-18T03:41:56+01:00",
+            "subject": "[LTO] Keep coroutine\/type-test lowering in the no-import post-import pipeline"
         }
     ]
 }
