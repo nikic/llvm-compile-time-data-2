@@ -304683,6 +304683,12 @@
             "author_name": "Deric C.",
             "commit_date": "2026-11-18T13:37:41-08:00",
             "subject": "[DirectX] Recover constant leading components when splitting vector operands (#240593)"
+        },
+        {
+            "hash": "3c67042a157a3b92902ed7d28bc9dec81ddc8dea",
+            "author_name": "Michael Jones",
+            "commit_date": "2026-11-18T14:00:27-08:00",
+            "subject": "[libc] Move syscall to va_args (#243647)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -332769,6 +332775,20 @@
             "author_name": "Jon Roelofs",
             "commit_date": "2026-11-18T11:15:47-08:00",
             "subject": "[ConstraintElim] Limit the recursion depth in doesHold"
+        }
+    ],
+    "llvmbot\/perf\/pr-244003": [
+        {
+            "hash": "3cda1384a6a2b5e9bb26ac17222ba134b898a8e3",
+            "author_name": "Vitaly Goldshteyn",
+            "commit_date": "2026-11-18T15:50:56-05:00",
+            "subject": "[libc] Use LIBC_INLINE_VAR for Ryu printf tables (#241090)"
+        },
+        {
+            "hash": "c63ce15e8bfa5900bc07eebb443fed8e59b23fc2",
+            "author_name": "arsenm",
+            "commit_date": "2026-11-18T21:49:28Z",
+            "subject": "Bitstream: Decode single-chunk VBR fields inline (#\u200b244003)"
         }
     ]
 }
