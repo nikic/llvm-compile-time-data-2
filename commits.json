@@ -305913,6 +305913,12 @@
             "author_name": "Jonas Devlieghere",
             "commit_date": "2026-11-19T09:33:41-08:00",
             "subject": "[lldb] Fix SBBreakpointList::AppendIfUnique never appending (#244275)"
+        },
+        {
+            "hash": "f575c55b2cde99fc43844dbad1270c40a4027328",
+            "author_name": "David Li",
+            "commit_date": "2026-11-19T09:45:33-08:00",
+            "subject": "[Clang][AllocToken] Address post-merge review of placement-new inference (#243991)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -333457,15 +333463,15 @@
     ],
     "llvmbot\/perf\/pr-236520": [
         {
-            "hash": "ed40507a6cafdeb158bfe89e4305f3198489bfc4",
-            "author_name": "Valeriy Savchenko",
-            "commit_date": "2026-11-18T13:30:21Z",
-            "subject": "[EarliestEscapeAnalysis] Check returns-twice last in getCapturesBefore (NFC) (#243815)"
+            "hash": "f7639d8a7338a01ae3e9680f79d75d96fd04a78f",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-11-19T09:33:41-08:00",
+            "subject": "[lldb] Fix SBBreakpointList::AppendIfUnique never appending (#244275)"
         },
         {
-            "hash": "fe127565b76a716b5d78d8f279bca318bf014950",
+            "hash": "1fd4d6f034113bc5e38435fef711dbcd221977a4",
             "author_name": "SavchenkoValeriy",
-            "commit_date": "2026-11-18T13:36:29Z",
+            "commit_date": "2026-11-19T17:47:46Z",
             "subject": "[LICM] Use EarliestEscapeAnalysis when checking for in-loop clobbers (#\u200b236520)"
         }
     ],
