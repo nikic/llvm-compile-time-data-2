@@ -305667,6 +305667,30 @@
             "author_name": "Yingwei Zheng",
             "commit_date": "2026-11-19T23:38:10+08:00",
             "subject": "[IR][Verifier] Add element count constraint for intrinsics (#231024)"
+        },
+        {
+            "hash": "8e1359f419e7c7b6bf5c3ac9ff34f7c459f43eeb",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-11-19T15:39:55Z",
+            "subject": "[lldb][test] Skip more tests that don't work with WebAssembly (#244248)"
+        },
+        {
+            "hash": "22a0a6fcb1fdca106a3d02f7ffd4b9ded47bd20e",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-11-19T15:47:41Z",
+            "subject": "[mlir][rewriter] Add test for stale deadness cache on nested in-place update (#244254)"
+        },
+        {
+            "hash": "838af2843edf96d4918e2d9e1423c32ef5b601b9",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-11-19T10:49:12-05:00",
+            "subject": "[Bazel] Fixes d16ac30 (#244259)"
+        },
+        {
+            "hash": "1bf9cc68c00a63aff1f5a23473f619e36572b83b",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-11-19T15:53:58Z",
+            "subject": "[lldb][Windows] Don't exit lldb-server when Halt can't suspend a thread (#243856)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -333851,6 +333875,20 @@
             "author_name": "momchil-velikov",
             "commit_date": "2026-11-19T15:23:12Z",
             "subject": "[ConstantFolfing] Add constant folding for strlen (#\u200b244183)"
+        }
+    ],
+    "llvmbot\/perf\/pr-244028": [
+        {
+            "hash": "bdb0780cba671428363088c4f11e0575f14b6671",
+            "author_name": "JP Hafer",
+            "commit_date": "2026-11-19T22:10:59+11:00",
+            "subject": "[JITLink] Skip allocation for graphs with only empty sections (#239712)"
+        },
+        {
+            "hash": "bdebed71a10b535cc89af355bf6cea2024474960",
+            "author_name": "arsenm",
+            "commit_date": "2026-11-19T15:40:18Z",
+            "subject": "SelectionDAG: Track ScheduleDAGRRList live registers in a SparseSet (#\u200b244028)"
         }
     ]
 }
