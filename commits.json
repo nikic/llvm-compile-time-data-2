@@ -305619,6 +305619,36 @@
             "author_name": "Nico Weber",
             "commit_date": "2026-11-19T10:14:27-05:00",
             "subject": "[gn] make gen_decision_forest's codegen action a public dep (#244245)"
+        },
+        {
+            "hash": "2e136b4695650ea16c68ae218267095f728a90c0",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-19T10:19:10-05:00",
+            "subject": "ADT: Add clear to SortedVectorMap (#244199)"
+        },
+        {
+            "hash": "d16ac303e33e47f919dc9a5f1fa40c5dd1722d6f",
+            "author_name": "Jeff Bailey",
+            "commit_date": "2026-11-19T15:19:27Z",
+            "subject": "[libc] Expand cpp::span and adopt in CPP utilities (#244026)"
+        },
+        {
+            "hash": "393dfd70b7ec7a57bc6d5917e2e831467489637c",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-19T10:19:32-05:00",
+            "subject": "TableGen: Store type sets by hardware mode in a sorted vector (#244200)"
+        },
+        {
+            "hash": "852582b59689de8d1a86d48ea452c08caf2c83d2",
+            "author_name": "Zach Goldthorpe",
+            "commit_date": "2026-11-19T15:21:37Z",
+            "subject": "[AMDGPU] Update lit tests for async barrier arrival workaround (#244232)"
+        },
+        {
+            "hash": "729d651b225e4e406eebb971c50fb77580801ae1",
+            "author_name": "Mehdi Amini",
+            "commit_date": "2026-11-19T16:25:51+01:00",
+            "subject": "[mlir][Inliner] Pass a Block* instead of a range to allowSingleBlockOptimization (NFC) (#244203)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -333789,6 +333819,20 @@
             "author_name": "osa1",
             "commit_date": "2026-11-19T14:20:14Z",
             "subject": "[SimplifyCFG] Pass assumption cache to switch-to-select (#\u200b244221)"
+        }
+    ],
+    "llvmbot\/perf\/pr-244183": [
+        {
+            "hash": "81681b6644f70f8b0fff247091bc3b1f91516a29",
+            "author_name": "Alex Voicu",
+            "commit_date": "2026-11-19T12:20:50Z",
+            "subject": "[Driver][AMDGPU] Enable sanitizers AMDGCN flavoured SPIR-V (#241411)"
+        },
+        {
+            "hash": "92bb59dc0c15f4d5f3ee936bd4f83b6e507edd8e",
+            "author_name": "momchil-velikov",
+            "commit_date": "2026-11-19T15:23:12Z",
+            "subject": "[ConstantFolfing] Add constant folding for strlen (#\u200b244183)"
         }
     ]
 }
