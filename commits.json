@@ -304791,6 +304791,12 @@
             "author_name": "Linisha",
             "commit_date": "2026-11-18T15:46:43-08:00",
             "subject": "[libc] Fix fileno() to return EBADF for non-Linux File streams (#227760)"
+        },
+        {
+            "hash": "8dba343b74e73d6645f3214acedeaeb4455ed8d5",
+            "author_name": "Amadeu Moya Sard\u00e0",
+            "commit_date": "2026-11-18T18:55:33-05:00",
+            "subject": "[Attributor] Preserve debug locations when replacing indirect calls (#244004)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -332891,6 +332897,20 @@
             "author_name": "arsenm",
             "commit_date": "2026-11-18T21:49:28Z",
             "subject": "Bitstream: Decode single-chunk VBR fields inline (#\u200b244003)"
+        }
+    ],
+    "llvmbot\/perf\/pr-242062": [
+        {
+            "hash": "7923e1d84142411b7b3d451ee05c7153bf856476",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-18T18:27:58-05:00",
+            "subject": "TableGen: Compute DAGISel pattern sort keys before sorting (#244009)"
+        },
+        {
+            "hash": "1168c6c61a6cf3ff11464f9b2b23a8736ae244cc",
+            "author_name": "AbhayKanhere",
+            "commit_date": "2026-11-18T23:57:14Z",
+            "subject": "[IndVars] Place predicated invariant cmp in outermost Loop  (#\u200b242062)"
         }
     ]
 }
