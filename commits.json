@@ -305697,6 +305697,18 @@
             "author_name": "Alexey Karyakin",
             "commit_date": "2026-11-19T10:00:06-06:00",
             "subject": "[Hexagon] HMX intrinsics, builtins, and the activate\/weight merging (#243572)"
+        },
+        {
+            "hash": "c175e40bfcbeec372c94e3985f07a70205d8c0fb",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-19T11:18:17-05:00",
+            "subject": "RuntimeLibcalls: Make the AEABI memory functions distinct libcalls (#241665)"
+        },
+        {
+            "hash": "ca68399a8eda2f53b20fcc32c71b7cc9905377b6",
+            "author_name": "Martin Storsj\u00f6",
+            "commit_date": "2026-11-19T18:20:46+02:00",
+            "subject": "Revert \"[aarch64][win] Support shrink-wrapped SEH unwind ranges, with limitations\" (#244265)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -333909,6 +333921,50 @@
             "author_name": "nikic",
             "commit_date": "2026-11-19T16:03:51Z",
             "subject": "[RelLookupTableConverter] Allow lookup tables of declarations (#\u200b244266)"
+        }
+    ],
+    "fhahn\/perf\/scevuse-for-range": [
+        {
+            "hash": "96b0a96f1a1008ae27b75617ca690421d707cd56",
+            "author_name": "Alexey Karyakin",
+            "commit_date": "2026-11-19T10:00:06-06:00",
+            "subject": "[Hexagon] HMX intrinsics, builtins, and the activate\/weight merging (#243572)"
+        },
+        {
+            "hash": "526399e640365f2d0591f857ffd3933a614b0d49",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-19T16:19:52Z",
+            "subject": "[SCEV] Add test for loops starting at an exit value with nuw (NFC)."
+        },
+        {
+            "hash": "badc96a42cfb1694d3559c86aba741c177526495",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-19T16:19:53Z",
+            "subject": "[SCEV] Use the flags of the start use for the max BTC of LT exits."
+        },
+        {
+            "hash": "1e7ef421d0f1fc4eece30251368b4d593e6c2c23",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-19T16:19:53Z",
+            "subject": "[SCEV] Add test for loops counting up to an exit value with nuw (NFC)."
+        },
+        {
+            "hash": "e034720e3138ee0c5ef88455de125eb2fa726615",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-19T16:19:53Z",
+            "subject": "[SCEV] Use the flags of the RHS use to prove RHS is at or beyond Start."
+        },
+        {
+            "hash": "265e968c4bb304f7e3ef722f5c5dbe8187f867bf",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-19T16:19:53Z",
+            "subject": "[SCEV] Add test for loops counting down to an exit value with nuw (NFC)."
+        },
+        {
+            "hash": "e19ccc1ec54475733cee03499c1e5a422c0534fa",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-19T16:19:53Z",
+            "subject": "[SCEV] Use the flags of the RHS use to prove the IV cannot overflow."
         }
     ]
 }
