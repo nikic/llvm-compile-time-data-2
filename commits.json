@@ -305271,6 +305271,12 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-11-19T10:49:23Z",
             "subject": "[SCEVExpander] Also apply 0\/poison-free expansion to URem. (#243898)"
+        },
+        {
+            "hash": "7d9cd0de00e584d35b3bc077842790fe1bd7771d",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-19T10:52:37Z",
+            "subject": "[SPIR-V] Type the capture_event_profiling_info value pointer as i8 (#230548)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -333385,6 +333391,20 @@
             "author_name": "AbhayKanhere",
             "commit_date": "2026-11-18T23:57:14Z",
             "subject": "[IndVars] Place predicated invariant cmp in outermost Loop  (#\u200b242062)"
+        }
+    ],
+    "llvmbot\/perf\/pr-244155": [
+        {
+            "hash": "7d9cd0de00e584d35b3bc077842790fe1bd7771d",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-19T10:52:37Z",
+            "subject": "[SPIR-V] Type the capture_event_profiling_info value pointer as i8 (#230548)"
+        },
+        {
+            "hash": "0a236eae6c0f8007d5b9b6a9229912c1e9401748",
+            "author_name": "nikic",
+            "commit_date": "2026-11-19T10:58:36Z",
+            "subject": "[RelLookupTableConverter] Support table with poison elements (#\u200b244155)"
         }
     ]
 }
