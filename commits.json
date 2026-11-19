@@ -305331,6 +305331,18 @@
             "author_name": "Alex Duran",
             "commit_date": "2026-11-19T12:42:12+01:00",
             "subject": "[Offload][Omp] Fix libomptarget OMPT disconnect segfault (#243190)"
+        },
+        {
+            "hash": "4e05c446641adb85127fb63711a173102f66361a",
+            "author_name": "JP Hafer",
+            "commit_date": "2026-11-19T11:49:51Z",
+            "subject": "[JITLink][COFF] Give external absolute symbols default scope (#239718)"
+        },
+        {
+            "hash": "83a5a3ee3f709bc986ca846309c294b415d28c25",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-19T12:54:10+01:00",
+            "subject": "[SPIR-V] Avoid exponential path enumeration in findPathsToMatch (#212933)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -333459,6 +333471,34 @@
             "author_name": "nikic",
             "commit_date": "2026-11-19T10:58:36Z",
             "subject": "[RelLookupTableConverter] Support table with poison elements (#\u200b244155)"
+        }
+    ],
+    "llvmbot\/perf\/pr-243939": [
+        {
+            "hash": "ae38cd53934bd998d40ca643ef678bd69a126aff",
+            "author_name": "Elvis Wang",
+            "commit_date": "2026-11-19T18:26:42+08:00",
+            "subject": "[RISCV] Cost scalable i1 add reduction as vcpop.m. (#244109)"
+        },
+        {
+            "hash": "9d0c4e82323ad72f17998f9f16591be92e2c6f61",
+            "author_name": "earnol",
+            "commit_date": "2026-11-19T11:52:07Z",
+            "subject": "[GlobalDCE] Drop assumptions that are the only uses of a global (#\u200b243939)"
+        }
+    ],
+    "llvmbot\/perf\/pr-244172": [
+        {
+            "hash": "4e05c446641adb85127fb63711a173102f66361a",
+            "author_name": "JP Hafer",
+            "commit_date": "2026-11-19T11:49:51Z",
+            "subject": "[JITLink][COFF] Give external absolute symbols default scope (#239718)"
+        },
+        {
+            "hash": "266e955414095f342d85d7204d5f1dd564d83ec5",
+            "author_name": "nikic",
+            "commit_date": "2026-11-19T11:51:57Z",
+            "subject": "[RelLookupTableConverter] Relax linkage requirements (#\u200b244172)"
         }
     ]
 }
