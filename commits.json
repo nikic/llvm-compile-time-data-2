@@ -306141,6 +306141,24 @@
             "author_name": "Adrian Prantl",
             "commit_date": "2026-11-19T19:38:38Z",
             "subject": "[clang] Don't relocate DWARF on 32-bit ARM and x86 Mach-O (#244069)"
+        },
+        {
+            "hash": "dfcf2f7738941b5f837c95b8d7fff90159973a07",
+            "author_name": "Augie Fackler",
+            "commit_date": "2026-11-19T19:58:47Z",
+            "subject": "CGExprCXX: emit family and allockind attributes (#239732)"
+        },
+        {
+            "hash": "7e007dc82889a7f6e7a0794e6af6ca2f3387e7ac",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-19T20:59:29+01:00",
+            "subject": "[LLVMABI] Treat data member pointers as scalars (#244140)"
+        },
+        {
+            "hash": "c2b6dedc6e23fa0b96903e85c6781292b837a490",
+            "author_name": "Kewen Meng",
+            "commit_date": "2026-11-19T20:00:19Z",
+            "subject": "[Offload][AMDGPU][NFC] Introduce per-device runtime options (#239816)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -334457,6 +334475,20 @@
             "author_name": "AbhayKanhere",
             "commit_date": "2026-11-19T19:40:17Z",
             "subject": "[ConstraintElim] Add header facts from a latch compare of two phis (#\u200b231712)"
+        }
+    ],
+    "llvmbot\/perf\/pr-244352": [
+        {
+            "hash": "1d73203488050b947d7fab760f76de8990a4d937",
+            "author_name": "Lei Huang",
+            "commit_date": "2026-11-19T19:09:03Z",
+            "subject": "[CIR][OpenMP] Specify target triple in OpenMP loop codegen tests (#244278)"
+        },
+        {
+            "hash": "3fa42cfd9a0f9d09ecd8ee1b7d067191a9cdb989",
+            "author_name": "Servall4",
+            "commit_date": "2026-11-19T19:52:27Z",
+            "subject": "[clang] Fix compile-time regression from variably modified type checks (#\u200b244352)"
         }
     ]
 }
