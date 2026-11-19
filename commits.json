@@ -305115,6 +305115,72 @@
             "author_name": "Romaric Jodin",
             "commit_date": "2026-11-19T09:40:20+01:00",
             "subject": "[ADT] Fix cfi-unrelated-cast with polymorphic types & add unittests (#239176)"
+        },
+        {
+            "hash": "5b0f8ae30852a4ab3c3345af72e6720d1ac3d725",
+            "author_name": "wanglei",
+            "commit_date": "2026-11-19T16:42:45+08:00",
+            "subject": "[LoongArch] Fix crash on SIGN_EXTEND of non-simple vector types (#222250)"
+        },
+        {
+            "hash": "ae3b7678ce7f19ea6008e4575ce0b8e567bd3210",
+            "author_name": "Ivan Kosarev",
+            "commit_date": "2026-11-19T08:46:32Z",
+            "subject": "[AMDGPU][MC] Add missing gfx12 disassembler test cases (#243450)"
+        },
+        {
+            "hash": "5d20c85f4e1b8755b655bf1782b094fb35ec48d1",
+            "author_name": "Petr Hosek",
+            "commit_date": "2026-11-19T00:50:16-08:00",
+            "subject": "[libc] Change __llvm_libc_stdio_seek to match cookie_io_functions_t (#225632)"
+        },
+        {
+            "hash": "98c061122a65fef6f08ba264e31db42b650f8a1c",
+            "author_name": "Alex Duran",
+            "commit_date": "2026-11-19T09:53:26+01:00",
+            "subject": "[Offload][Omp] Ensure correct teardown order (#239629)"
+        },
+        {
+            "hash": "0085b0b5a9639b7add4788ae7f97edd3208c7c41",
+            "author_name": "Connector Switch",
+            "commit_date": "2026-11-19T16:54:08+08:00",
+            "subject": "[libc] Use a syscall wrapper for msync (#243784)"
+        },
+        {
+            "hash": "1f827358894384e9a464867a37fcfaf2bbdbd15c",
+            "author_name": "Connector Switch",
+            "commit_date": "2026-11-19T16:54:08+08:00",
+            "subject": "[libc] Use a syscall wrapper for munlock (#243785)"
+        },
+        {
+            "hash": "79478af1f18c7c80ccdae601d18f17629d9bba61",
+            "author_name": "Connector Switch",
+            "commit_date": "2026-11-19T16:54:08+08:00",
+            "subject": "[libc] Use a syscall wrapper for munlockall (#243786)"
+        },
+        {
+            "hash": "5e9c4e0c1fe5b1546508df898a08d83e566bfc1a",
+            "author_name": "Yifei He",
+            "commit_date": "2026-11-19T09:54:51+01:00",
+            "subject": "[mlir][arith] Fix the NaN of the f8E8M0FNU extf expansion (#243380)"
+        },
+        {
+            "hash": "21d24b719786997542156418d39a1b409c69663e",
+            "author_name": "Yifei He",
+            "commit_date": "2026-11-19T09:57:28+01:00",
+            "subject": "[mlir][arith] Do not fold a negative value into an unsigned float format (#243378)"
+        },
+        {
+            "hash": "1b0c7786ed3465493f0ad8b21b66a72dec834aff",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-11-19T09:58:09+01:00",
+            "subject": "[LangRef] Clarify mismatching ABI attribute semantics (#242270)"
+        },
+        {
+            "hash": "c0e4d6dad13c5bc7b6dd67f7f6b642ab2211278a",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-11-19T09:58:50+01:00",
+            "subject": "[Clang][ABI][X86] Rename -msmall-int-abi-compat=clang (#243881)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
