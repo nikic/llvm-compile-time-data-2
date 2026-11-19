@@ -306075,6 +306075,36 @@
             "author_name": "Lei Huang",
             "commit_date": "2026-11-19T19:09:03Z",
             "subject": "[CIR][OpenMP] Specify target triple in OpenMP loop codegen tests (#244278)"
+        },
+        {
+            "hash": "c042bf36640cd46b9d251cae88b04eee5c1de5c4",
+            "author_name": "Pranjal Srivastava",
+            "commit_date": "2026-11-19T14:20:45-05:00",
+            "subject": "[clang][OpenMP] Fix APSInt bit-width mismatch in ordered depend\/doacross check (#238672)"
+        },
+        {
+            "hash": "dcfc3d496f29f4b1da4b71b070ec0ebceaf1dd87",
+            "author_name": "Sarah Spall",
+            "commit_date": "2026-11-19T11:22:11-08:00",
+            "subject": "[Clang][Driver][NFC] Simplify fp-contract state tracking (#243282)"
+        },
+        {
+            "hash": "8830f95ab9c27c11ae711e228c9c732bc3bffb04",
+            "author_name": "Nerixyz",
+            "commit_date": "2026-11-19T20:22:19+01:00",
+            "subject": "[lldb][MS ABI] Use special demangle flags for templates (#238970)"
+        },
+        {
+            "hash": "6eeb7b9df717f7f2c14fcb5d6fd7f27cd92aa1e3",
+            "author_name": "Jonas Devlieghere",
+            "commit_date": "2026-11-19T11:24:22-08:00",
+            "subject": "[lldb] Fix SBCommandReturnObject::SetError dropping the error (#244317)"
+        },
+        {
+            "hash": "41fad11c964b220ad3853517814dcfb348f97655",
+            "author_name": "Shilei Tian",
+            "commit_date": "2026-11-19T19:25:08Z",
+            "subject": "[InstCombine] Check the select type in the usub.sat sign mask fold (#244281)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -334345,6 +334375,20 @@
             "author_name": "stephenduong1004",
             "commit_date": "2026-11-19T18:46:46Z",
             "subject": "[SimplifyCFG] Merge compatible noreturn calls terminating in unreachable (#\u200b214799)"
+        }
+    ],
+    "llvmbot\/perf\/pr-240606": [
+        {
+            "hash": "1d73203488050b947d7fab760f76de8990a4d937",
+            "author_name": "Lei Huang",
+            "commit_date": "2026-11-19T19:09:03Z",
+            "subject": "[CIR][OpenMP] Specify target triple in OpenMP loop codegen tests (#244278)"
+        },
+        {
+            "hash": "06920fe5606b1801f5baaaf2279449317b8699fd",
+            "author_name": "AbhayKanhere",
+            "commit_date": "2026-11-19T19:17:54Z",
+            "subject": "[SCEV] Consider switch default edges in `LoopGuards::collectFromBlock` (#\u200b240606)"
         }
     ]
 }
