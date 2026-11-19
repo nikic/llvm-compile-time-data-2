@@ -306123,6 +306123,24 @@
             "author_name": "Zibi Sarbinowski",
             "commit_date": "2026-11-19T19:33:03Z",
             "subject": "[dsymutil][test] Use FileCheck --ignore-case in pseudo-probe.test (#243999)"
+        },
+        {
+            "hash": "eb9bb7d826f80cecc675c0bfa0ec4b61eb1be05a",
+            "author_name": "Petr Hosek",
+            "commit_date": "2026-11-19T11:36:49-08:00",
+            "subject": "[CMake] Bump the minimum required version to 3.31 (#223854)"
+        },
+        {
+            "hash": "7bd6265df07be51069a9a75830ad3638e731996b",
+            "author_name": "Jackson Stogel",
+            "commit_date": "2026-11-19T11:38:30-08:00",
+            "subject": "[bazel][libc] Add missing copts for __restore.cpp (#244351)"
+        },
+        {
+            "hash": "ecdde842e2d7c5243d3a411b53314982fac4ee6b",
+            "author_name": "Adrian Prantl",
+            "commit_date": "2026-11-19T19:38:38Z",
+            "subject": "[clang] Don't relocate DWARF on 32-bit ARM and x86 Mach-O (#244069)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -334221,6 +334239,24 @@
             "author_name": "Jon Roelofs",
             "commit_date": "2026-11-18T11:15:47-08:00",
             "subject": "[ConstraintElim] Limit the recursion depth in doesHold"
+        },
+        {
+            "hash": "ad0294d99c172a2952d09c1cbc19eb1ecd95428b",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-19T10:18:07-08:00",
+            "subject": "drop decompose-depth-limit.ll"
+        },
+        {
+            "hash": "84b442bfaf4eef995820a9b846c68f8387c15188",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-19T10:18:44-08:00",
+            "subject": "scope_exit -> SaveAndRestore"
+        },
+        {
+            "hash": "3ad9fa7afeca599e3b2cd25f761756ce80697b79",
+            "author_name": "Jon Roelofs",
+            "commit_date": "2026-11-19T10:19:38-08:00",
+            "subject": "don't try to cache degraded entries"
         }
     ],
     "llvmbot\/perf\/pr-244003": [
@@ -334407,6 +334443,20 @@
             "author_name": "AbhayKanhere",
             "commit_date": "2026-11-19T19:17:54Z",
             "subject": "[SCEV] Consider switch default edges in `LoopGuards::collectFromBlock` (#\u200b240606)"
+        }
+    ],
+    "llvmbot\/perf\/pr-231712": [
+        {
+            "hash": "91fed89bdd25eed79f21b6366d3e055b4921b182",
+            "author_name": "Ryan Buchner",
+            "commit_date": "2026-11-19T19:28:24Z",
+            "subject": "[SLP] Precommit tests for Compressed vs Strided loads (#244338)"
+        },
+        {
+            "hash": "737750eeb71671da33fdf74a5ea72deae12a1cb5",
+            "author_name": "AbhayKanhere",
+            "commit_date": "2026-11-19T19:40:17Z",
+            "subject": "[ConstraintElim] Add header facts from a latch compare of two phis (#\u200b231712)"
         }
     ]
 }
