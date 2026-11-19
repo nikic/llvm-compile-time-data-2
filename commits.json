@@ -306027,6 +306027,18 @@
             "author_name": "Vitaly Goldshteyn",
             "commit_date": "2026-11-19T13:36:10-05:00",
             "subject": "[libc][math] Make shared function-local lookup tables static (#241079)"
+        },
+        {
+            "hash": "0468efdeadf438855c9a17035c45ef30b64797ae",
+            "author_name": "Steven Wu",
+            "commit_date": "2026-11-19T10:41:27-08:00",
+            "subject": "[libLTO] Apply late -mllvm options to the target options (#244090)"
+        },
+        {
+            "hash": "d15b70474639c326866788e0754beff18f76fa2c",
+            "author_name": "Shilei Tian",
+            "commit_date": "2026-11-19T13:45:16-05:00",
+            "subject": "[NFC][AMDGPU][Doc] Fix the private null value in the AMDHSA memory spaces table (#244333)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -334255,46 +334267,48 @@
     ],
     "fhahn\/perf\/scevuse-for-range": [
         {
-            "hash": "96b0a96f1a1008ae27b75617ca690421d707cd56",
-            "author_name": "Alexey Karyakin",
-            "commit_date": "2026-11-19T10:00:06-06:00",
-            "subject": "[Hexagon] HMX intrinsics, builtins, and the activate\/weight merging (#243572)"
+            "hash": "daaf225aa1582ae43c13b6867e42072c0059ae15",
+            "author_name": "Arthur Eubanks",
+            "commit_date": "2026-11-19T10:08:01-08:00",
+            "subject": "[gn build] Port commits (#244319)"
         },
         {
-            "hash": "526399e640365f2d0591f857ffd3933a614b0d49",
+            "hash": "7c38287e08059ac255c13f5b19ee631db1c0f545",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-19T16:19:52Z",
-            "subject": "[SCEV] Add test for loops starting at an exit value with nuw (NFC)."
+            "commit_date": "2026-11-19T18:37:19Z",
+            "subject": "[SCEV] Hash SCEVUse by its SCEV pointer (NFC)."
         },
         {
-            "hash": "badc96a42cfb1694d3559c86aba741c177526495",
+            "hash": "a01f195fd85535b98f88351d91ca234e70c700c9",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-19T16:19:53Z",
+            "commit_date": "2026-11-19T18:37:52Z",
             "subject": "[SCEV] Use the flags of the start use for the max BTC of LT exits."
         },
         {
-            "hash": "1e7ef421d0f1fc4eece30251368b4d593e6c2c23",
+            "hash": "2a9f0e9a3e1833ed6e75e5d99d41b175fef5c0e0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-19T16:19:53Z",
-            "subject": "[SCEV] Add test for loops counting up to an exit value with nuw (NFC)."
-        },
-        {
-            "hash": "e034720e3138ee0c5ef88455de125eb2fa726615",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-11-19T16:19:53Z",
+            "commit_date": "2026-11-19T18:37:58Z",
             "subject": "[SCEV] Use the flags of the RHS use to prove RHS is at or beyond Start."
         },
         {
-            "hash": "265e968c4bb304f7e3ef722f5c5dbe8187f867bf",
+            "hash": "00e88513f126e4fb6faebc8a01fe5b8c84785b09",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-19T16:19:53Z",
-            "subject": "[SCEV] Add test for loops counting down to an exit value with nuw (NFC)."
+            "commit_date": "2026-11-19T18:38:02Z",
+            "subject": "[SCEV] Use the flags of the RHS use to prove the IV cannot overflow."
+        }
+    ],
+    "llvmbot\/perf\/pr-214799": [
+        {
+            "hash": "c8cff9359e075af5f90ee00c16470aaf5638aecf",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-11-19T18:34:34Z",
+            "subject": "[flang][cuda] Add semantic check for local managed variable with save (#244010)"
         },
         {
-            "hash": "e19ccc1ec54475733cee03499c1e5a422c0534fa",
-            "author_name": "Florian Hahn",
-            "commit_date": "2026-11-19T16:19:53Z",
-            "subject": "[SCEV] Use the flags of the RHS use to prove the IV cannot overflow."
+            "hash": "4b81c67dc177eb338a25c78ae40d986c84a25ebc",
+            "author_name": "stephenduong1004",
+            "commit_date": "2026-11-19T18:46:46Z",
+            "subject": "[SimplifyCFG] Merge compatible noreturn calls terminating in unreachable (#\u200b214799)"
         }
     ]
 }
