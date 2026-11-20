@@ -306675,6 +306675,12 @@
             "author_name": "Aiden Grossman",
             "commit_date": "2026-11-19T22:39:09-08:00",
             "subject": "[NewPM][Target] Mark pipeline overrides as protected (#244491)"
+        },
+        {
+            "hash": "a464c446768291a143deb9b3ee7877f159cb4700",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-11-19T22:40:09-08:00",
+            "subject": "[RISCV] Add command line options to disable register overlap for vector indexed load for SiFive erratum (#224739)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -335017,6 +335023,26 @@
             "author_name": "Servall4",
             "commit_date": "2026-11-19T19:52:27Z",
             "subject": "[clang] Fix compile-time regression from variably modified type checks (#\u200b244352)"
+        }
+    ],
+    "MaskRay\/perf\/onepass": [
+        {
+            "hash": "4408136292da36f8036e0578a5d26cd76cf150ab",
+            "author_name": "Stanley Gambarin",
+            "commit_date": "2026-11-19T09:03:03-08:00",
+            "subject": "[GlobalISel] Salvage debug info for dead G_BITCAST and G_BUILD_VECTOR (#238591)"
+        },
+        {
+            "hash": "b3fd7ea25ca8e740033a86ede85edeb0e5bb35b8",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-11-19T22:33:52-08:00",
+            "subject": "[X86] Add a one-pass -O0 code generator"
+        },
+        {
+            "hash": "99c8ee9da590719dc5527f6c1e7e98d02fd38048",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-11-19T22:34:24-08:00",
+            "subject": "[clang] Use the one-pass code generator at -O0"
         }
     ]
 }
