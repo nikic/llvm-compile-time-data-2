@@ -307281,6 +307281,30 @@
             "author_name": "Charles Zablit",
             "commit_date": "2026-11-20T18:54:04Z",
             "subject": "[lldb][docs] Fix the Windows Python build options (#225465)"
+        },
+        {
+            "hash": "30f104808407292ecc2ca6c42bac1dae691a1c11",
+            "author_name": "MMS IT GmbH",
+            "commit_date": "2026-11-20T10:59:09-08:00",
+            "subject": "[CodeGen] Query AA in cross-iteration mode for machine instructions (#226768)"
+        },
+        {
+            "hash": "a3e5f59d69546e9eb291436fe322ea6d66b42825",
+            "author_name": "Nerixyz",
+            "commit_date": "2026-11-20T20:00:02+01:00",
+            "subject": "[lldb] Pass `-debug:dwarf` on Windows DWARF tests (#238525)"
+        },
+        {
+            "hash": "8919899b7733bffea72dee18d0f7c7bd5b09cda2",
+            "author_name": "Michael Jones",
+            "commit_date": "2026-11-20T11:03:56-08:00",
+            "subject": "[libc] Implement syslog functions (#244029)"
+        },
+        {
+            "hash": "93800ed14d0c741e032a59fc25819a002632061a",
+            "author_name": "Brad Smith",
+            "commit_date": "2026-11-20T14:07:04-05:00",
+            "subject": "[RegAllocFast] Move every spilled DBG_VALUE to the stack slot (#239915)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -335699,16 +335723,10 @@
             "subject": "[GlobalISel] Salvage debug info for dead G_BITCAST and G_BUILD_VECTOR (#238591)"
         },
         {
-            "hash": "b3fd7ea25ca8e740033a86ede85edeb0e5bb35b8",
+            "hash": "bdc067febeea430810bcda3befe8850d104d726e",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-11-19T22:33:52-08:00",
-            "subject": "[X86] Add a one-pass -O0 code generator"
-        },
-        {
-            "hash": "99c8ee9da590719dc5527f6c1e7e98d02fd38048",
-            "author_name": "Fangrui Song",
-            "commit_date": "2026-11-19T22:34:24-08:00",
-            "subject": "[clang] Use the one-pass code generator at -O0"
+            "commit_date": "2026-11-20T10:56:01-08:00",
+            "subject": "[X86] Add a one-pass -O0 code generator, on by default in clang"
         }
     ],
     "fhahn\/perf\/seldag-reuse": [
