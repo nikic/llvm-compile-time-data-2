@@ -306969,6 +306969,24 @@
             "author_name": "Vaibhav Agrawal",
             "commit_date": "2026-11-20T13:47:47Z",
             "subject": "[CIR][AMDGPU] Remove redundant __builtin_amdgcn_lerp  case in CIRGen (#243235)"
+        },
+        {
+            "hash": "6516d75ae90d2e2a682d974ea8ec7e483609c1d8",
+            "author_name": "Erich Keane",
+            "commit_date": "2026-11-20T05:56:42-08:00",
+            "subject": "[CIR] Implement relative-vtable-lookups (#243798)"
+        },
+        {
+            "hash": "7c7a9072f736aaa57facedfe23240ce08166ba8c",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-11-20T14:58:03+01:00",
+            "subject": "[libc++] Remove redundant `_LIBCPP_HIDE_FROM_ABI` from detail headers j-o (#244539)"
+        },
+        {
+            "hash": "f251559d4346219e3e1b19dec4a7b5209e894bfb",
+            "author_name": "Bj\u00f6rn Pettersson",
+            "commit_date": "2026-11-20T14:01:08Z",
+            "subject": "[IRBuilder] Propagate nuw\/nusw flags when canonicalizing GEP (#244592)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -335407,6 +335425,20 @@
             "author_name": "kubamracek",
             "commit_date": "2026-11-20T10:39:35Z",
             "subject": "[CVP][LVI] Allow inserting freeze to eliminate min\/max in select expressions (#\u200b240166)"
+        }
+    ],
+    "llvmbot\/perf\/pr-241468": [
+        {
+            "hash": "acffc35386aafb6558228619132d27e5d6c919e1",
+            "author_name": "Vaibhav Agrawal",
+            "commit_date": "2026-11-20T13:47:47Z",
+            "subject": "[CIR][AMDGPU] Remove redundant __builtin_amdgcn_lerp  case in CIRGen (#243235)"
+        },
+        {
+            "hash": "216ced2f270d6bd9da47e82e34123993c10fd7ea",
+            "author_name": "kubamracek",
+            "commit_date": "2026-11-20T13:58:09Z",
+            "subject": "[LVI] Raise MaxUsesToInspect limit in getValueAtUse to 6 (#\u200b241468)"
         }
     ]
 }
