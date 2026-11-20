@@ -307257,6 +307257,30 @@
             "author_name": "Peter Rong",
             "commit_date": "2026-11-20T10:37:05-08:00",
             "subject": "[ObjCDirectPreconditionThunk] Use canonical declaration to find visibility of hand-written accessors (#242130)"
+        },
+        {
+            "hash": "1d060b88de7caf2cd6ddeebc269d7415aad54bb6",
+            "author_name": "Venkatesh Srinivasan",
+            "commit_date": "2026-11-20T10:49:56-08:00",
+            "subject": "[Clang][Sema] Avoid APInt crash on narrow umask parameter types (#244358)"
+        },
+        {
+            "hash": "36846ed77c2f4ce9afa0f08043a67243994099a2",
+            "author_name": "Venkatesh Srinivasan",
+            "commit_date": "2026-11-20T10:50:23-08:00",
+            "subject": "[Clang][Sema] Add fortify warnings for fread_unlocked, fwrite_unlocked, and fgets_unlocked (#244378)"
+        },
+        {
+            "hash": "184dbd01c695df4a6a8c4e764c9569e2704aa642",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-20T13:50:29-05:00",
+            "subject": "CodeGen: Look up instruction slot indexes without a hash map (#244079)"
+        },
+        {
+            "hash": "86801a03ccc8d067fab85017ff4295eb0b486248",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-11-20T18:54:04Z",
+            "subject": "[lldb][docs] Fix the Windows Python build options (#225465)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -335755,6 +335779,34 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-11-20T16:20:28+01:00",
             "subject": "Add support for multiple uses"
+        }
+    ],
+    "MaskRay\/perf\/mc-eh-frame-sort": [
+        {
+            "hash": "4a11b56ab668b5a897ef981140df4994dadf18af",
+            "author_name": "Paul Kirth",
+            "commit_date": "2026-11-20T09:30:52-08:00",
+            "subject": "[clang-doc] Add ConcurrentStringPool implementation (#243321)"
+        },
+        {
+            "hash": "9dd80a042ad84344ee915f21ffe11a0cdea32612",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-11-20T10:54:57-08:00",
+            "subject": "[MC] Sort FDE pointers instead of copies in MCDwarfFrameEmitter::emit. NFC"
+        }
+    ],
+    "MaskRay\/perf\/mc-elf-uniquing-bump": [
+        {
+            "hash": "54ec88258dad8883ec4a3febe6d1b4f10dd9ee00",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-11-20T09:27:44-08:00",
+            "subject": "[IPO] Declare ForceFunctionAttrs, Inliner, Instrumentor and Internalize command line options in TableGen (#244509)"
+        },
+        {
+            "hash": "8bd6f59186e4d4dfeb01e5a6813b593a14e8a2e6",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-11-20T10:38:50-08:00",
+            "subject": "[MC] Allocate ELFUniquingMap entries from the MCContext allocator. NFC"
         }
     ]
 }
