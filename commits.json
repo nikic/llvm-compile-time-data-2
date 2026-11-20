@@ -307545,6 +307545,36 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-11-20T22:53:52Z",
             "subject": "[VPlan] Simplify VPBlockUtils::blocksAs using CastTo (NFC). (#244721)"
+        },
+        {
+            "hash": "77312b7603d91fc147b39a6a8a6afa66ab942cb1",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-11-20T14:57:42-08:00",
+            "subject": "[libc] Add optimized clang_vector memchr implementation"
+        },
+        {
+            "hash": "aa12ab4a5bab78ffe3468bd6b41d4f7440f536a4",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-11-20T14:59:09-08:00",
+            "subject": "[libc] Switch default find_first_character impl to clang_vector"
+        },
+        {
+            "hash": "65201690859e85f1be797ad8dbe70a4d73a17e94",
+            "author_name": "Kuba (Brecka) Mracek",
+            "commit_date": "2026-11-20T23:01:03Z",
+            "subject": "[LVI] Raise MaxUsesToInspect limit in getValueAtUse to 6 (#241468)"
+        },
+        {
+            "hash": "2fbab0e5fe11525e2538cc8d7c42dbf238c186d1",
+            "author_name": "Yudistira Putra",
+            "commit_date": "2026-11-20T23:02:38Z",
+            "subject": "[SelectOptimize] Do not convert unpredictable selects to branches in inner loops (#236418)"
+        },
+        {
+            "hash": "4b8678a9ce498601faf0998992871833838e25c2",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-11-20T15:03:04-08:00",
+            "subject": "[mlir][openacc] Update LegalizeDataValues to be anchored on FunctionOpInterface (#244687)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -336107,6 +336137,34 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-11-20T23:21:03+01:00",
             "subject": "eager drop"
+        }
+    ],
+    "llvmbot\/perf\/pr-244655": [
+        {
+            "hash": "c51c6d10cd1b612b8d0c8913ed3f449c535c6933",
+            "author_name": "Rishabh",
+            "commit_date": "2026-11-20T11:11:36-06:00",
+            "subject": "[Hexagon] Forward target features to the external assembler (#212474)"
+        },
+        {
+            "hash": "d14dcad3a57899e89e571de3d8ebaa3027782463",
+            "author_name": "Xazax-hun",
+            "commit_date": "2026-11-20T23:03:27Z",
+            "subject": "[ADT] Remove padding from ImutAVLTree nodes (#\u200b244655)"
+        }
+    ],
+    "llvmbot\/perf\/pr-244659": [
+        {
+            "hash": "c51c6d10cd1b612b8d0c8913ed3f449c535c6933",
+            "author_name": "Rishabh",
+            "commit_date": "2026-11-20T11:11:36-06:00",
+            "subject": "[Hexagon] Forward target features to the external assembler (#212474)"
+        },
+        {
+            "hash": "8ed1abab0e62eb812fa1a09e7e51512e6007e946",
+            "author_name": "Xazax-hun",
+            "commit_date": "2026-11-20T23:03:16Z",
+            "subject": "[ADT] Share subtrees an ImmutableMap merge leaves unchanged (#\u200b244659)"
         }
     ]
 }
