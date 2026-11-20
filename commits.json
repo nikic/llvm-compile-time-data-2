@@ -307575,6 +307575,18 @@
             "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
             "commit_date": "2026-11-20T15:03:04-08:00",
             "subject": "[mlir][openacc] Update LegalizeDataValues to be anchored on FunctionOpInterface (#244687)"
+        },
+        {
+            "hash": "428d3e8d7749d23c0ee0eb29a085a36916a7e2b8",
+            "author_name": "Shilei Tian",
+            "commit_date": "2026-11-20T23:05:12Z",
+            "subject": "[AMDGPU] Pass the cast source to isKnownNonNull in lowerADDRSPACECAST (#244287)"
+        },
+        {
+            "hash": "27fdc47f6004e56ed9d117dd166a8ba0f54b9a5c",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-11-20T15:11:12-08:00",
+            "subject": "[GitHub][libc] Use MinSizeRel instead of RelWithDebInfo"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -336165,6 +336177,20 @@
             "author_name": "Xazax-hun",
             "commit_date": "2026-11-20T23:03:16Z",
             "subject": "[ADT] Share subtrees an ImmutableMap merge leaves unchanged (#\u200b244659)"
+        }
+    ],
+    "llvmbot\/perf\/pr-229243": [
+        {
+            "hash": "428d3e8d7749d23c0ee0eb29a085a36916a7e2b8",
+            "author_name": "Shilei Tian",
+            "commit_date": "2026-11-20T23:05:12Z",
+            "subject": "[AMDGPU] Pass the cast source to isKnownNonNull in lowerADDRSPACECAST (#244287)"
+        },
+        {
+            "hash": "0b1733a0fa6b9c8297d48499afd9184a0f892f0a",
+            "author_name": "efriedma-quic",
+            "commit_date": "2026-11-20T23:12:14Z",
+            "subject": "Don't constant-fold equality comparisons on global declarations. (#\u200b229243)"
         }
     ]
 }
