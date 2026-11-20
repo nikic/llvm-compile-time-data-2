@@ -335244,5 +335244,19 @@
             "commit_date": "2026-11-20T10:02:21Z",
             "subject": "[SelectionDAG] Reuse the scheduler for all blocks of a function (NFC)"
         }
+    ],
+    "llvmbot\/perf\/pr-240166": [
+        {
+            "hash": "c1e8df3cf99d0f79420ca3b233622afa7e9fa0b5",
+            "author_name": "Mallarapu Ujwal",
+            "commit_date": "2026-11-19T22:50:49-06:00",
+            "subject": "[InstCombine] Fold exp(subnormal) and exp(+inf) to x + 1.0 (#243862)"
+        },
+        {
+            "hash": "be25c7f7106dddf1f6379649d1342a4a1cf6a74f",
+            "author_name": "kubamracek",
+            "commit_date": "2026-11-20T10:39:35Z",
+            "subject": "[CVP][LVI] Allow inserting freeze to eliminate min\/max in select expressions (#\u200b240166)"
+        }
     ]
 }
