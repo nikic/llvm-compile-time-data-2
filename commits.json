@@ -307419,6 +307419,24 @@
             "author_name": "Joe Nash",
             "commit_date": "2026-11-20T16:17:13-05:00",
             "subject": "[AMDGPU] Don't tie true16 load into d16_hi load (#244272)"
+        },
+        {
+            "hash": "4dc7c693ed6e7da704c3496bbeb2ccada34c91a7",
+            "author_name": "Walter Lee",
+            "commit_date": "2026-11-20T16:17:39-05:00",
+            "subject": "[RISCV][test] Move fround-optsize.ll to llvm\/test\/CodeGen\/RISCV (#244707)"
+        },
+        {
+            "hash": "b33fc9379feaefa311ce3ad406fe472602659299",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-20T16:19:46-05:00",
+            "subject": "RuntimeLibcalls: Mark runtime helper functions nounwind (#244641)"
+        },
+        {
+            "hash": "61c665e40ec9acac38f3163e22c699969ca2ff39",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-20T16:24:16-05:00",
+            "subject": "IR: Remove traces of less-precise-fpmad attribute (#244661)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -335939,6 +335957,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-11-20T10:38:50-08:00",
             "subject": "[MC] Allocate ELFUniquingMap entries from the MCContext allocator. NFC"
+        }
+    ],
+    "osa1\/perf\/cvp_determinism": [
+        {
+            "hash": "61c665e40ec9acac38f3163e22c699969ca2ff39",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-20T16:24:16-05:00",
+            "subject": "IR: Remove traces of less-precise-fpmad attribute (#244661)"
+        },
+        {
+            "hash": "dd5f7b3dc88e67481f9843e33cca8bbcccbd9d34",
+            "author_name": "\u00d6mer Sinan A\u011facan",
+            "commit_date": "2026-11-20T21:26:41Z",
+            "subject": "[WIP] Fix two non-determinism sources in CVP"
         }
     ]
 }
