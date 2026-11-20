@@ -306999,6 +306999,12 @@
             "author_name": "Simon Pilgrim",
             "commit_date": "2026-11-20T14:12:47Z",
             "subject": "[X86] sad.ll - add #244529 test coverage (#244595)"
+        },
+        {
+            "hash": "bbe6909ece64ba54b2213a14d1d7bb0c914fffe3",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-11-20T15:29:16+01:00",
+            "subject": "[libc++] Simplify __uses_alloc_ctor (#244548)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -335305,33 +335311,45 @@
     ],
     "fhahn\/perf\/scevuse-for-range": [
         {
-            "hash": "daaf225aa1582ae43c13b6867e42072c0059ae15",
-            "author_name": "Arthur Eubanks",
-            "commit_date": "2026-11-19T10:08:01-08:00",
-            "subject": "[gn build] Port commits (#244319)"
+            "hash": "6f27fbe996797b4232b8d68b72cf0b2d1ab69478",
+            "author_name": "Alex Duran",
+            "commit_date": "2026-11-20T09:37:07Z",
+            "subject": "[Offload][Omp] Mark failing flang test as unsupported (#244547)"
         },
         {
-            "hash": "7c38287e08059ac255c13f5b19ee631db1c0f545",
+            "hash": "f673d2f47a3dbfee57ba7abe37e061afdc69a5a0",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-19T18:37:19Z",
+            "commit_date": "2026-11-20T09:52:55Z",
             "subject": "[SCEV] Hash SCEVUse by its SCEV pointer (NFC)."
         },
         {
-            "hash": "a01f195fd85535b98f88351d91ca234e70c700c9",
+            "hash": "e807beb22a6d704a6698b59690d53888217a27bb",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-19T18:37:52Z",
+            "commit_date": "2026-11-20T12:55:49Z",
+            "subject": "[SCEV] Skip ValueExprMap lookups for values without handles (NFC)"
+        },
+        {
+            "hash": "61e025d5faa570929b0db052067265935e594280",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-20T13:17:06Z",
+            "subject": "[SCEV] Skip forgetting caches a SCEV has no entries in (NFC)"
+        },
+        {
+            "hash": "e166b9ad1be353b49ab24ea234c01ba549c7c1fa",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-20T13:19:43Z",
             "subject": "[SCEV] Use the flags of the start use for the max BTC of LT exits."
         },
         {
-            "hash": "2a9f0e9a3e1833ed6e75e5d99d41b175fef5c0e0",
+            "hash": "2e08a8fe882d66ed81961e082de61802f53f9b46",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-19T18:37:58Z",
+            "commit_date": "2026-11-20T13:19:43Z",
             "subject": "[SCEV] Use the flags of the RHS use to prove RHS is at or beyond Start."
         },
         {
-            "hash": "00e88513f126e4fb6faebc8a01fe5b8c84785b09",
+            "hash": "76d2929a04124c3e3ed1e67861567221f045e80c",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-19T18:38:02Z",
+            "commit_date": "2026-11-20T13:19:43Z",
             "subject": "[SCEV] Use the flags of the RHS use to prove the IV cannot overflow."
         }
     ],
