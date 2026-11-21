@@ -336216,5 +336216,37 @@
             "commit_date": "2026-11-20T23:12:14Z",
             "subject": "Don't constant-fold equality comparisons on global declarations. (#\u200b229243)"
         }
+    ],
+    "rnk\/perf\/instcombine-icmp-dispatch": [
+        {
+            "hash": "e1475f95fc4d6a3ea2803eb4ad857a1f9483d981",
+            "author_name": "Chaitanya Mamatha Ananda",
+            "commit_date": "2026-11-19T21:13:22Z",
+            "subject": "[mlir][shape] Don't crash on poison operands in folders (#226671)"
+        },
+        {
+            "hash": "70a529ab3b6bbbba78d9ee75eacc0e82aafdb2f6",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-11-21T00:20:53Z",
+            "subject": "[InstCombine] Add test expectations for `icmp ult (1 << a), (1 << b)`"
+        },
+        {
+            "hash": "0ef028370b028dc0fc97e4ccad3baf6222cc230d",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-11-21T00:20:53Z",
+            "subject": "[InstCombine] Move more icmp folds keyed on Op0 into the switch"
+        },
+        {
+            "hash": "af369943b2f9203fae8a734ddcc3d174b59b9eb7",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-11-21T00:20:53Z",
+            "subject": "[InstCombine] Fold either-operand icmp patterns in foldICmpCommutative"
+        },
+        {
+            "hash": "c63932e57a4e876e2b7e23a9fb6131c2f9c4e26f",
+            "author_name": "Reid Kleckner",
+            "commit_date": "2026-11-21T00:20:53Z",
+            "subject": "[InstCombine] Skip icmp folds whose operand opcodes are absent"
+        }
     ]
 }
