@@ -307725,6 +307725,12 @@
             "author_name": "Craig Topper",
             "commit_date": "2026-11-20T21:17:08-08:00",
             "subject": "[RISCV] Remove RVE specific array from getArgGPRs by slicing the front of the full array. (#244770)"
+        },
+        {
+            "hash": "8bbb9d3cf264aa72809db22c81caa388c392d9db",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-21T05:27:42Z",
+            "subject": "ConstantMerge: Preserve CFG analyses (#244817)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -336137,15 +336143,15 @@
     ],
     "MaskRay\/perf\/onepass": [
         {
-            "hash": "4408136292da36f8036e0578a5d26cd76cf150ab",
-            "author_name": "Stanley Gambarin",
-            "commit_date": "2026-11-19T09:03:03-08:00",
-            "subject": "[GlobalISel] Salvage debug info for dead G_BITCAST and G_BUILD_VECTOR (#238591)"
+            "hash": "956c5d4d56cde7800286cc86337a17424e373dcc",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-11-20T20:17:34-08:00",
+            "subject": "[MC] Remove MCContext::RelSecNames. NFC (#244813)"
         },
         {
-            "hash": "bdc067febeea430810bcda3befe8850d104d726e",
+            "hash": "e2c23b30ec348a9abefd3104bd395baf9a330f3e",
             "author_name": "Fangrui Song",
-            "commit_date": "2026-11-20T10:56:01-08:00",
+            "commit_date": "2026-11-20T21:25:50-08:00",
             "subject": "[X86] Add a one-pass -O0 code generator, on by default in clang"
         }
     ],
