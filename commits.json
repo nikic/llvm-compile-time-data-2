@@ -307833,6 +307833,30 @@
             "author_name": "Lewis Crawford",
             "commit_date": "2026-11-21T11:50:03Z",
             "subject": "[SelectionDAG] Honor denormal modes when folding (#236172)"
+        },
+        {
+            "hash": "57e6c033bbf98e0b9e6380f8fc6b05d846ef2f2b",
+            "author_name": "Tim Gymnich",
+            "commit_date": "2026-11-21T12:04:03Z",
+            "subject": "[ValueTracking] Track constant ExtractElement indices in sign-bit queries (#244296)"
+        },
+        {
+            "hash": "1d80abf1662cdbf76bd479176f5a04e40d94f909",
+            "author_name": "Feng Zou",
+            "commit_date": "2026-11-21T20:05:24+08:00",
+            "subject": "[InlineSpiller] Do not merge or hoist a spill with no original value (#237148)"
+        },
+        {
+            "hash": "7016ba10ad070658b9c62f47b8fde16be7f2ac4c",
+            "author_name": "Feng Zou",
+            "commit_date": "2026-11-21T20:05:52+08:00",
+            "subject": "[InlineSpiller] Use a new value number for the COPY range of a fold (#243055)"
+        },
+        {
+            "hash": "6e57e212b9d181388c5d6ae0b06db9b4f457b1a6",
+            "author_name": "Lewis Crawford",
+            "commit_date": "2026-11-21T12:10:25Z",
+            "subject": "[AArch64][GlobalISel][NFC] Add denormal const-fold baselines (#241382)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
