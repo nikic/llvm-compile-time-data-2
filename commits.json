@@ -307749,6 +307749,12 @@
             "author_name": "Hongyu Chen",
             "commit_date": "2026-11-21T07:14:02Z",
             "subject": "[DAG] Use the alignment of actual stored type (#244632)"
+        },
+        {
+            "hash": "171940db6ad5b7f20e3a120f08bcabcafb255d46",
+            "author_name": "cpp-engine",
+            "commit_date": "2026-11-21T07:31:02Z",
+            "subject": "[X86]: `sub(0, and(X, 1))` -> `ashr(shl(X, SizeInBits - 1), SizeInBits - 1)` (#243478)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
