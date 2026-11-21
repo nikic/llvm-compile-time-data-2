@@ -307611,6 +307611,18 @@
             "author_name": "Craig Topper",
             "commit_date": "2026-11-20T16:20:31-08:00",
             "subject": "Reland \"[RISCV] Make clang's -mcpu=help and -mtune=help accurate for RISC-V.\" (#244736)"
+        },
+        {
+            "hash": "c5d2fa0c064f4e7c480d5046ffc81be21106e7b6",
+            "author_name": "Alpha Abdoulaye",
+            "commit_date": "2026-11-21T00:33:05Z",
+            "subject": "[dsymutil] Warn when the relocations of an object file were all lost (#241515)"
+        },
+        {
+            "hash": "83a19504f5c56c3410a3cdfee036c1e687dce224",
+            "author_name": "yonghong-song",
+            "commit_date": "2026-11-20T16:36:35-08:00",
+            "subject": "[MC] Emit line table rows for subsections in layout order (#242138)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -336247,6 +336259,20 @@
             "author_name": "Reid Kleckner",
             "commit_date": "2026-11-21T00:20:53Z",
             "subject": "[InstCombine] Skip icmp folds whose operand opcodes are absent"
+        }
+    ],
+    "llvmbot\/perf\/pr-231681": [
+        {
+            "hash": "f541e5db319e5cccbaf59ecc6419221158818651",
+            "author_name": "Craig Topper",
+            "commit_date": "2026-11-20T16:20:31-08:00",
+            "subject": "Reland \"[RISCV] Make clang's -mcpu=help and -mtune=help accurate for RISC-V.\" (#244736)"
+        },
+        {
+            "hash": "6cd4bffe3d9b4a8756cc6b231259a67c9856f7a8",
+            "author_name": "AbhayKanhere",
+            "commit_date": "2026-11-21T00:37:41Z",
+            "subject": "[ConstraintElim] Prove nuw of an add bounded by a sub in isKnownNoWrap (#\u200b231681)"
         }
     ]
 }
