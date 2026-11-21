@@ -335663,64 +335663,16 @@
     ],
     "osa1\/perf\/simplifycfg_ephemeral_handling": [
         {
-            "hash": "70e27a05056d00a65f6157114a039238714dc11a",
-            "author_name": "Simon Pilgrim",
-            "commit_date": "2026-11-20T12:31:36Z",
-            "subject": "[X86] lowerShuffleAsBitMask - lower to AND(FREEZE(X),MASK) for blend-with-zero shuffle patterns. (#243097)"
+            "hash": "b6f762dad0298dfcc44c2e9f0268c9d088e40655",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-11-21T12:37:43-08:00",
+            "subject": "[AMDGPU] Remove write-only private member variables (NFC) (#244910)"
         },
         {
-            "hash": "e44e6aeb5a6b0cabc0a14729bac4f6d38315c21a",
+            "hash": "e337b0106d6e683c78ed67b0d5a1bfd81715f44c",
             "author_name": "\u00d6mer Sinan A\u011facan",
-            "commit_date": "2026-11-20T12:38:43Z",
+            "commit_date": "2026-11-21T20:54:15Z",
             "subject": "[SimplifyCFG] Allow duplicating `llvm.assume`s to simplify switches"
-        },
-        {
-            "hash": "159d939baaac217aeb9ffdb2419928fc65a1b044",
-            "author_name": "\u00d6mer Sinan A\u011facan",
-            "commit_date": "2026-11-20T12:38:43Z",
-            "subject": "Add a test showing lost debug info"
-        },
-        {
-            "hash": "1e7f00b59df78b10b498b3e2b8eac17d60290243",
-            "author_name": "\u00d6mer Sinan A\u011facan",
-            "commit_date": "2026-11-20T12:38:43Z",
-            "subject": "Clone debug records"
-        },
-        {
-            "hash": "abb6db331073a7d2b97be3da5151825b8ed29602",
-            "author_name": "\u00d6mer Sinan A\u011facan",
-            "commit_date": "2026-11-20T12:38:43Z",
-            "subject": "Add a test showing the debug record remapping issue"
-        },
-        {
-            "hash": "bd571e3feab2e6991d5bdca3116fa0c0dd857fbb",
-            "author_name": "\u00d6mer Sinan A\u011facan",
-            "commit_date": "2026-11-20T12:38:44Z",
-            "subject": "Fix debug record remapping"
-        },
-        {
-            "hash": "f41edfb3ed40a585a02f8e9603f17fbbfef91b4b",
-            "author_name": "\u00d6mer Sinan A\u011facan",
-            "commit_date": "2026-11-20T12:38:44Z",
-            "subject": "Check for noduplicate and convergent"
-        },
-        {
-            "hash": "8610350148a255960ee64870f872f3ea9f690de1",
-            "author_name": "\u00d6mer Sinan A\u011facan",
-            "commit_date": "2026-11-20T12:38:44Z",
-            "subject": "Update a comment after renaming a function in a prev commit"
-        },
-        {
-            "hash": "69edeebfde75c1b3647a07f0249cd9515058330d",
-            "author_name": "\u00d6mer Sinan A\u011facan",
-            "commit_date": "2026-11-20T12:38:45Z",
-            "subject": "Add statistics, to be used to determine upper bounds"
-        },
-        {
-            "hash": "13df2a0a134c81d76d693fc83c358b4f6a1b1d81",
-            "author_name": "\u00d6mer Sinan A\u011facan",
-            "commit_date": "2026-11-20T12:38:45Z",
-            "subject": "Limit instruction cloning to 64, based on open source IR corpus analysis"
         }
     ],
     "llvmbot\/perf\/pr-242456": [
