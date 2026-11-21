@@ -307755,6 +307755,12 @@
             "author_name": "cpp-engine",
             "commit_date": "2026-11-21T07:31:02Z",
             "subject": "[X86]: `sub(0, and(X, 1))` -> `ashr(shl(X, SizeInBits - 1), SizeInBits - 1)` (#243478)"
+        },
+        {
+            "hash": "aab5b2033768c13c0753538df9f8940ada9d8b45",
+            "author_name": "woruyu",
+            "commit_date": "2026-11-21T16:16:43+08:00",
+            "subject": "[SelectionDAG] Use the widened type to select the shift amount type (#244781)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
