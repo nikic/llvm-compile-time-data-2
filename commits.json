@@ -337027,22 +337027,28 @@
     ],
     "fhahn\/perf\/scevuse-range1": [
         {
-            "hash": "c9befbbe32a9d1a5a76237663277235f87aec596",
-            "author_name": "Sergei Barannikov",
-            "commit_date": "2026-11-21T13:38:48Z",
-            "subject": "[clang] Correct the argument declaration of 'ptrauth_vtable_pointer' in Attrs.td (#243446)"
+            "hash": "9acd08caaf035ff8873ad5e9e924f56d603f3b90",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-22T10:39:10+01:00",
+            "subject": "[SPIRV] Declare -spirv-allow-unknown-intrinsics in TableGen (#243891)"
         },
         {
-            "hash": "482a4ed1c1773b9bb5d90b66092808fa9b82a926",
+            "hash": "47beda5c32a308f24c99061474845d497311449b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-21T20:54:11Z",
+            "commit_date": "2026-11-22T13:22:30Z",
             "subject": "[SCEV] Add tests for loops starting at an exit value with nuw (NFC)."
         },
         {
-            "hash": "570dff531bd8c52c62a025958575dcbd91d85c84",
+            "hash": "8645fadfe5db6766a76027d14f2914b3197b761f",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-21T22:22:31Z",
+            "commit_date": "2026-11-22T16:45:19Z",
             "subject": "[SCEV] Add initial support for SCEVUse flags when computing ranges."
+        },
+        {
+            "hash": "58432d3e2f34d455b1330df5a4ea0bf1d85ae5c2",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-22T17:18:52Z",
+            "subject": "[SCEV] Memoize ranges of SCEVUses with flags."
         }
     ],
     "MaskRay\/perf\/fli-pext": [
@@ -337113,6 +337119,20 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-11-22T10:28:32-08:00",
             "subject": "[IR] Add Instruction::getNumber for ValueMap and InstructionWorklist (approach 2, prototype)"
+        }
+    ],
+    "fhahn\/perf\/scevuse-hash": [
+        {
+            "hash": "21a660898b7b9a6c65f6e09db9bd4eccf54d4910",
+            "author_name": "raaller",
+            "commit_date": "2026-11-22T18:24:13Z",
+            "subject": "[llvm-mca][ARM] Fix Cortex-A9 dispatch hazards and NEON memory resources (#230454)"
+        },
+        {
+            "hash": "9d8b686ad072a2c8f58286224f129a37b995fca4",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-22T18:48:24Z",
+            "subject": "[SCEV] Hash SCEVUse by its SCEV pointer (NFC)."
         }
     ]
 }
