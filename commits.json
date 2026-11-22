@@ -308337,6 +308337,12 @@
             "author_name": "Fangrui Song",
             "commit_date": "2026-11-22T10:20:44-08:00",
             "subject": "[DirectX] Declare command line options in TableGen (#234865)"
+        },
+        {
+            "hash": "21a660898b7b9a6c65f6e09db9bd4eccf54d4910",
+            "author_name": "raaller",
+            "commit_date": "2026-11-22T18:24:13Z",
+            "subject": "[llvm-mca][ARM] Fix Cortex-A9 dispatch hazards and NEON memory resources (#230454)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -337079,6 +337085,34 @@
             "author_name": "\u00d6mer Sinan A\u011facan",
             "commit_date": "2026-11-22T14:07:50Z",
             "subject": "[SimplifyCFG] Check users before side effects in EphemeralValueTracker"
+        }
+    ],
+    "MaskRay\/perf\/fli-a1": [
+        {
+            "hash": "bb55066964931c9287b04148eb2d97fc7329800d",
+            "author_name": "Phoebe Wang",
+            "commit_date": "2026-11-22T04:19:18Z",
+            "subject": "[X86][AVX10.2] Use INTR_TYPE_1OP_MASK_SAE for 512-bit VCVTTP.*QS intrinsics (#244127)"
+        },
+        {
+            "hash": "7bb0f0eaf2dea9e61734eff44f6eb75586266bd9",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-11-22T10:28:32-08:00",
+            "subject": "[IR] Reuse Instruction::Order for ValueMap and InstructionWorklist (approach 1, prototype)"
+        }
+    ],
+    "MaskRay\/perf\/fli-a2": [
+        {
+            "hash": "bb55066964931c9287b04148eb2d97fc7329800d",
+            "author_name": "Phoebe Wang",
+            "commit_date": "2026-11-22T04:19:18Z",
+            "subject": "[X86][AVX10.2] Use INTR_TYPE_1OP_MASK_SAE for 512-bit VCVTTP.*QS intrinsics (#244127)"
+        },
+        {
+            "hash": "1d38cea855e421800477e3d59a9ccd68f59ce5e8",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-11-22T10:28:32-08:00",
+            "subject": "[IR] Add Instruction::getNumber for ValueMap and InstructionWorklist (approach 2, prototype)"
         }
     ]
 }
