@@ -308907,6 +308907,18 @@
             "author_name": "Benjamin Kramer",
             "commit_date": "2026-11-23T11:04:02Z",
             "subject": "[bazel][mlir] Port 8ac298779c25: Partition NVVM dialect ops (#245187)"
+        },
+        {
+            "hash": "9c93bc25801e67b925b9ac407550f488289e061d",
+            "author_name": "Priyanka-Ghimire",
+            "commit_date": "2026-11-23T11:12:05Z",
+            "subject": "[AArch64][GlobalISel] Fall back to SelectionDAG for GEPs with scalable element types (#234057)"
+        },
+        {
+            "hash": "7e3b0bf8dd22b74a062ec45fb730a5e48574ec45",
+            "author_name": "Alexey Bataev",
+            "commit_date": "2026-11-23T06:18:54-05:00",
+            "subject": "[SLP]Keep fast-two-sum operands in one column on reorder"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -337737,6 +337749,20 @@
             "author_name": "Benjamin Maxwell",
             "commit_date": "2026-11-23T10:49:37Z",
             "subject": "Don't cache per use"
+        }
+    ],
+    "fhahn\/perf\/scevuse-rw-ct": [
+        {
+            "hash": "cf40f87a82c4b4b737c1834817c568532e67c25d",
+            "author_name": "Folkert de Vries",
+            "commit_date": "2026-11-23T11:53:47+01:00",
+            "subject": "[Mips] Fix `fma` argument swap bug (#245047)"
+        },
+        {
+            "hash": "3b670412c44705e25497be816159316c1ad88fa5",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-23T11:20:41Z",
+            "subject": "[SCEV] Avoid re-normalizing use flags when converting SCEVUse (NFC)."
         }
     ]
 }
