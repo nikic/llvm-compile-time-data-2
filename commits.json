@@ -309525,6 +309525,12 @@
             "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
             "commit_date": "2026-11-23T18:36:06Z",
             "subject": "[mlir][openacc] Anchor ACCComputeLowering to FunctionOpInterface (#245333)"
+        },
+        {
+            "hash": "2c5c11b6bf899f28fa828ad5c8373e596fc7acdd",
+            "author_name": "G\u00e1bor Horv\u00e1th",
+            "commit_date": "2026-11-23T18:49:40Z",
+            "subject": "[LifetimeSafety] Model an explicit `a.operator=(b)` call as an assignment (#244607)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -338387,6 +338393,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-11-23T11:20:41Z",
             "subject": "[SCEV] Avoid re-normalizing use flags when converting SCEVUse (NFC)."
+        }
+    ],
+    "llvmbot\/perf\/pr-244240": [
+        {
+            "hash": "1c51e31e1acc60f51455e4ece29a192a74fe1b79",
+            "author_name": "Yashas Andaluri",
+            "commit_date": "2026-11-23T21:58:52+05:30",
+            "subject": "[Hexagon] Use HVX fast float-to-int conversions only on V73 and later (#245214)"
+        },
+        {
+            "hash": "ef28ec65f80a98825623a7894f6be215a0ccbead",
+            "author_name": "reble",
+            "commit_date": "2026-11-23T18:49:25Z",
+            "subject": "[Attributor][NFC] Don't put the direct uses into the set in followUsesInMBEC (#\u200b244240)"
         }
     ]
 }
