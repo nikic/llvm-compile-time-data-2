@@ -309015,6 +309015,24 @@
             "author_name": "Diego Novillo",
             "commit_date": "2026-11-23T08:16:04-05:00",
             "subject": "[SPIRV] Fold constant byte offsets past an array element into the index (#243461)"
+        },
+        {
+            "hash": "97cb69ea2df871c48a47c1743c665f95ccbbeaee",
+            "author_name": "Gonsolo",
+            "commit_date": "2026-11-23T14:22:13+01:00",
+            "subject": "[SPIR-V] Rebuild multi-register aggregate arms from a typed placeholder (#236369)"
+        },
+        {
+            "hash": "7a9e8e1b29d234e2dede8a1386198d05d914b0c6",
+            "author_name": "Charles Zablit",
+            "commit_date": "2026-11-23T13:28:45Z",
+            "subject": "[lldb][Windows] Restore blocking mode of sockets polled by MainLoopWindows (#243851)"
+        },
+        {
+            "hash": "fc3b71c2c7bb5ebf9e1356d9fd507f1a297df65d",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-11-23T14:29:55+01:00",
+            "subject": "[clang][AST] Dump saved APValue of all `VarDecl`s (#239672)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -337845,6 +337863,12 @@
             "author_name": "Benjamin Maxwell",
             "commit_date": "2026-11-23T10:49:37Z",
             "subject": "Don't cache per use"
+        },
+        {
+            "hash": "fc54f8945d4098167589463e7d1735d7e71dfe98",
+            "author_name": "Benjamin Maxwell",
+            "commit_date": "2026-11-23T13:25:16Z",
+            "subject": "Only return SCEVUse"
         }
     ],
     "fhahn\/perf\/scevuse-rw-ct": [
