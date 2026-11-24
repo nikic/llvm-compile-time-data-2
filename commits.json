@@ -310899,6 +310899,12 @@
             "author_name": "Fateme Hosseini",
             "commit_date": "2026-11-24T11:49:00-06:00",
             "subject": "[Compiler-rt][Hexagon] Enable v79 XQFloat conversions only with HVX (#245370)"
+        },
+        {
+            "hash": "9e3b1fa1e699ffdf9ce546887a160387520ace7a",
+            "author_name": "Helena Kotas",
+            "commit_date": "2026-11-24T09:54:38-08:00",
+            "subject": "[NFC][HLSL] Share parsing of numthreads and wavesize attributes (#244701)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -339845,6 +339851,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-11-24T15:13:49Z",
             "subject": "[SCEV] Skip memoizing constants in SCEVRewriteVisitor (NFC)."
+        }
+    ],
+    "MaskRay\/perf\/onepass-codegen": [
+        {
+            "hash": "2a54f80e07a5c0ab4753dafaf23ee0ee622bb035",
+            "author_name": "Jianhui Li",
+            "commit_date": "2026-11-24T09:39:29-08:00",
+            "subject": "[MLIR][XeGPU] Replace the dataflow solver in layout propagation with a backward scan shared with layout recovery (#240986)"
+        },
+        {
+            "hash": "e60d10c98af98fb90d4e4f92f08b19aaed846219",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-11-24T09:47:53-08:00",
+            "subject": "[CodeGen][X86][AArch64] Add a one-pass -O0 code generator, on by default in clang"
         }
     ]
 }
