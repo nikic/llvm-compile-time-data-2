@@ -310653,6 +310653,36 @@
             "author_name": "BgZun",
             "commit_date": "2026-11-24T07:59:50-08:00",
             "subject": "[MemProf] Fix MemProf data merge for multiple inputs (#231523)"
+        },
+        {
+            "hash": "75853c7a6f108f2f52f21ece1464a4b71d270dde",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-24T16:00:14Z",
+            "subject": "ExpandVariadics: Invalidate function analyses individually (#244925)"
+        },
+        {
+            "hash": "985cc1c51c6bc3611d2078c3609ee3b6c173380a",
+            "author_name": "BgZun",
+            "commit_date": "2026-11-24T08:00:21-08:00",
+            "subject": "[MemProf] Replace erase with remove_if in symbolizeAndFilterStackFrames (#232758)"
+        },
+        {
+            "hash": "c4513d719cd0367c63bed5c1987fefa1011c19ea",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-24T16:01:37Z",
+            "subject": "AllocToken: Only invalidate analyses of instrumented functions (#244922)"
+        },
+        {
+            "hash": "a6c5f66b9121fa43e1d9a156377512ecad4c14b4",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-24T16:03:40Z",
+            "subject": "[LV] Add tests for cond FP reductions without nsz on merge phi (NFC) (#245639)"
+        },
+        {
+            "hash": "7fa9eb77212d0daefbae093d7afed648a28d16f8",
+            "author_name": "Nick Sarnie",
+            "commit_date": "2026-11-24T16:07:07Z",
+            "subject": "[SPIRV] Run SPIRVCtorDtorLowering in more cases (#243626)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
