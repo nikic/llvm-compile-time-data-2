@@ -310767,6 +310767,42 @@
             "author_name": "Henrich Lauko",
             "commit_date": "2026-11-24T17:54:34+01:00",
             "subject": "[CIR] Do not inline a cleanup scope body that starts with a label (#243775)"
+        },
+        {
+            "hash": "4e48ba96957d5fcbb30bfff6c43ae1eb0b1c1d4e",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-24T17:00:58Z",
+            "subject": "Coroutines: Only invalidate analyses of lowered functions in CoroEarly (#244826)"
+        },
+        {
+            "hash": "48bc1c3685fefecf0ca898adccde69d21fe8d2e3",
+            "author_name": "Oskar Wirga",
+            "commit_date": "2026-11-24T09:03:14-08:00",
+            "subject": "[lld-macho] Check the pointer authentication ABI version of arm64e objects (#234005)"
+        },
+        {
+            "hash": "f2a18e72663e23b9d6dca29e90a5e0ea0e33c386",
+            "author_name": "Dhairyashil R G",
+            "commit_date": "2026-11-24T22:33:44+05:30",
+            "subject": "[mlir][bufferization] Fix deallocation with single-op regions like vector.mask (#245059)"
+        },
+        {
+            "hash": "94bc12d6871dd55e485d402e6168ef05b3006ba1",
+            "author_name": "Dhairyashil R G",
+            "commit_date": "2026-11-24T22:34:48+05:30",
+            "subject": "[mlir][x86][NFC] Drop in_bounds that the AMX dot-product test does not need (#245326)"
+        },
+        {
+            "hash": "cbc8686490f91fdcfa7ad69acd10c518f0ed6cd9",
+            "author_name": "Liza Burakova",
+            "commit_date": "2026-11-24T17:06:25Z",
+            "subject": "[lld][MachO][NFC] Accept CachedHashStringRef in SymbolTable insertion methods (#240981)"
+        },
+        {
+            "hash": "526196b4b3987cfedc0b690b8696f5884cb3e85f",
+            "author_name": "Teresa Johnson",
+            "commit_date": "2026-11-24T17:07:06Z",
+            "subject": "Revert \"[MemProf] Remove stale asserts on ELF segment layout\" (#245662)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
