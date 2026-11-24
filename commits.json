@@ -310005,6 +310005,18 @@
             "author_name": "Eric Ross",
             "commit_date": "2026-11-23T20:29:33-06:00",
             "subject": "[InstCombine] Refine demanded classes for exp (#244784)"
+        },
+        {
+            "hash": "2e9fd5c76b7f606b2a3a816a410a1753ee088fbe",
+            "author_name": "Morris Hafner",
+            "commit_date": "2026-11-24T03:46:17+01:00",
+            "subject": "[CIR] Fix the value of a compound assignment to a bit-field (#245035)"
+        },
+        {
+            "hash": "38d26ea2de5c4d89283dcd6276b6bff74973d0a2",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-11-24T02:47:17Z",
+            "subject": "[NewPM] Remove already ported DUMMY_MACHINE_FUNCTION_PASS (#245467)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -338881,6 +338893,22 @@
             "author_name": "reble",
             "commit_date": "2026-11-23T18:49:25Z",
             "subject": "[Attributor][NFC] Don't put the direct uses into the set in followUsesInMBEC (#\u200b244240)"
+        }
+    ],
+    "4vtomat\/perf\/sme_attr_compile_time": [
+        {
+            "hash": "28b5f3087a3fcd39c80e2b1470a950da17e4cd08",
+            "author_name": "Sander de Smalen",
+            "commit_date": "2023-08-08T07:00:59Z",
+            "subject": "[Clang][AArch64] Add\/implement ACLE keywords for SME."
+        }
+    ],
+    "4vtomat\/perf\/sme_attr_compile_time2": [
+        {
+            "hash": "8e7f073eb42c92aa7a2b651ca314d7fcebf296e3",
+            "author_name": "Sander de Smalen",
+            "commit_date": "2024-01-15T09:41:32Z",
+            "subject": "[Clang][AArch64] Change SME attributes for shared\/new\/preserved state. (#76971)"
         }
     ]
 }
