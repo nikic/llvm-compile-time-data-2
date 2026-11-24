@@ -310575,6 +310575,24 @@
             "author_name": "Kiroo (Chanung)",
             "commit_date": "2026-11-24T16:13:38+01:00",
             "subject": "[GlobalISel] Set exposesReturnsTwice in IRTranslator (#240861)"
+        },
+        {
+            "hash": "ffc31bbcd7e333bbf7597b2dc2b71610ca17873c",
+            "author_name": "Mazen Hatem",
+            "commit_date": "2026-11-24T16:26:23+01:00",
+            "subject": "[InstCombine] Do not constant fold musttail calls unless trivially dead (#242905) (#245573)"
+        },
+        {
+            "hash": "b734f5f86cc82f39b6162848261d768ec96d70d5",
+            "author_name": "Petr Hosek",
+            "commit_date": "2026-11-24T10:27:05-05:00",
+            "subject": "[libc] Replace span cast in if_nameindex (#245391)"
+        },
+        {
+            "hash": "caaef8e17d82693c6ab28e8e77125d7a4981cef7",
+            "author_name": "Petr Hosek",
+            "commit_date": "2026-11-24T10:27:26-05:00",
+            "subject": "[libc] Fix vasprintf_internal null check (#245388)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -339385,21 +339403,21 @@
             "subject": "[VPlan] Create interleave groups before scalarization decisions. (#245585)"
         },
         {
-            "hash": "3377eb31ceee62d9d2a45a01b3bc86d79d1fdd24",
+            "hash": "15503389a961a18c93e9a1295969549387a173cf",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-24T15:12:29Z",
+            "commit_date": "2026-11-24T15:25:28Z",
             "subject": "[SCEV] Hash SCEVUse by its SCEV pointer (NFC)."
         },
         {
-            "hash": "b847b861d0cc0ef5a97ceb7b64e261accbf5af3b",
+            "hash": "c9da414411cd8686eb8dcc18566b7fe1475ec098",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-24T15:12:29Z",
+            "commit_date": "2026-11-24T15:25:28Z",
             "subject": "[SCEV] Avoid re-normalizing use flags when converting SCEVUse (NFC)."
         },
         {
-            "hash": "70e5371724114ef1e501fb32b18448229182089a",
+            "hash": "dd9b14f929f0eaa27986f8ca9289920c3e666aa1",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-24T15:12:29Z",
+            "commit_date": "2026-11-24T15:25:36Z",
             "subject": "[SCEV] Share result memoization between SCEVRewriteVisitors (NFC)."
         }
     ],
