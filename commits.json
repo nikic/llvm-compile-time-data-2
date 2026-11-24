@@ -310755,6 +310755,18 @@
             "author_name": "Brad Smith",
             "commit_date": "2026-11-24T11:40:04-05:00",
             "subject": "[Mips] Use 0\/1 booleans for R6 FP compares (#245469)"
+        },
+        {
+            "hash": "f3a8393d4cf38b46d8806cb934ec26f8d69d363c",
+            "author_name": "chessMan",
+            "commit_date": "2026-11-24T08:51:54-08:00",
+            "subject": "[clang] Convert to a C23 enum with bool underlying type like bool (#244494)"
+        },
+        {
+            "hash": "0ee4054e052752ce1dfc4f182ba27d83e75c9f49",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-11-24T17:54:34+01:00",
+            "subject": "[CIR] Do not inline a cleanup scope body that starts with a label (#243775)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -339687,6 +339699,20 @@
             "author_name": "cofibrant",
             "commit_date": "2026-11-24T15:11:13Z",
             "subject": "[MISched] Enable store sequencing by default (#\u200b235948)"
+        }
+    ],
+    "fhahn\/perf\/scev-skip-constant-rewrite": [
+        {
+            "hash": "4b111878b63f194aa1d001429e9b045d2db4a0ac",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-24T14:19:06Z",
+            "subject": "[VPlan] Create interleave groups before scalarization decisions. (#245585)"
+        },
+        {
+            "hash": "b3b6663ae966db3dc5dbb1acf9fb7ef2af1bb250",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-24T15:13:49Z",
+            "subject": "[SCEV] Skip memoizing constants in SCEVRewriteVisitor (NFC)."
         }
     ]
 }
