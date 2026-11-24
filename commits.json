@@ -311199,6 +311199,36 @@
             "author_name": "Bill Wendling",
             "commit_date": "2026-11-24T14:25:46-08:00",
             "subject": "[RegAllocFast] Don't apply the hint bonus to a register that can't be spilled (#245471)"
+        },
+        {
+            "hash": "1476061c0405e7b953c1a305484370e54c265776",
+            "author_name": "Eric Ross",
+            "commit_date": "2026-11-24T16:34:31-06:00",
+            "subject": "[ValueTracking] Add intrinsics to canIgnoreSignBitOfNaN (#242719)"
+        },
+        {
+            "hash": "5753f78eb26715db8105dc933990661cd030c7fa",
+            "author_name": "Jayanth Kandi",
+            "commit_date": "2026-11-24T16:35:33-06:00",
+            "subject": "[APFloat] Canonicalize PPC double-double infinity in scalbn (#242965)"
+        },
+        {
+            "hash": "7163966d06c29328232c1c3a2b78eacfc986d05f",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-24T22:36:17Z",
+            "subject": "Annotation2Metadata: Preserve function analyses (#245788)"
+        },
+        {
+            "hash": "5ae442d9dd3e42b5a10aa1be330d6fd86b4cb85f",
+            "author_name": "Alexander Richardson",
+            "commit_date": "2026-11-24T14:36:55-08:00",
+            "subject": "[AVR][MC] Avoid mutating operands in validateTargetOperandClass (#245076)"
+        },
+        {
+            "hash": "c18d672b72dbbe41185f97e3a50f3208d27a10f7",
+            "author_name": "Alexander Richardson",
+            "commit_date": "2026-11-24T14:36:56-08:00",
+            "subject": "[Sparc][MC] Use CoerceFromRegClass instead of validateTargetOperandClass (#245073)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
