@@ -311079,6 +311079,24 @@
             "author_name": "Aaron Ballman",
             "commit_date": "2026-11-24T20:00:33Z",
             "subject": "[C][Clang] Fix some formatting issues; NFC (#245730)"
+        },
+        {
+            "hash": "bd2f190eec01145c38340c9a73abe8f6b58915c8",
+            "author_name": "Md Abdullah Shahneous Bari",
+            "commit_date": "2026-11-24T20:16:10Z",
+            "subject": "[SPIR-V] Use one helper for temp registers in the selector (#241373)"
+        },
+        {
+            "hash": "2275fc4819a8cbebfdccc835ae186241e41c0571",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-11-24T12:23:14-08:00",
+            "subject": "[ARM] Remove write-only private member variables (NFC) (#245543)"
+        },
+        {
+            "hash": "31dd952a30954774551b34a2ec3ab2aa3a692d5b",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-11-24T12:23:27-08:00",
+            "subject": "[Transforms] Remove write-only and unused members (NFC) (#245544)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -339241,15 +339259,15 @@
     ],
     "llvmbot\/perf\/pr-244003": [
         {
-            "hash": "3cda1384a6a2b5e9bb26ac17222ba134b898a8e3",
-            "author_name": "Vitaly Goldshteyn",
-            "commit_date": "2026-11-18T15:50:56-05:00",
-            "subject": "[libc] Use LIBC_INLINE_VAR for Ryu printf tables (#241090)"
+            "hash": "bd2f190eec01145c38340c9a73abe8f6b58915c8",
+            "author_name": "Md Abdullah Shahneous Bari",
+            "commit_date": "2026-11-24T20:16:10Z",
+            "subject": "[SPIR-V] Use one helper for temp registers in the selector (#241373)"
         },
         {
-            "hash": "c63ce15e8bfa5900bc07eebb443fed8e59b23fc2",
+            "hash": "0a2a6ad3ae847cb8337229b4270abde44f7347e0",
             "author_name": "arsenm",
-            "commit_date": "2026-11-18T21:49:28Z",
+            "commit_date": "2026-11-24T20:23:58Z",
             "subject": "Bitstream: Decode single-chunk VBR fields inline (#\u200b244003)"
         }
     ],
