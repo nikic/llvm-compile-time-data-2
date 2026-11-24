@@ -310905,6 +310905,30 @@
             "author_name": "Helena Kotas",
             "commit_date": "2026-11-24T09:54:38-08:00",
             "subject": "[NFC][HLSL] Share parsing of numthreads and wavesize attributes (#244701)"
+        },
+        {
+            "hash": "29dbd3ed4bf74129f8ea1393accecabe019f7bb3",
+            "author_name": "yabinc",
+            "commit_date": "2026-11-24T10:02:24-08:00",
+            "subject": "[libc++] Add _LIBCPP_NO_SANITIZE(\"cfi-unrelated-cast\") to __shared_ptr_emplace::__get_elem() (#244965)"
+        },
+        {
+            "hash": "84ab47550178c9d297e25f5e51231a3ab5746de5",
+            "author_name": "Anshul Nigham",
+            "commit_date": "2026-11-24T10:10:58-08:00",
+            "subject": "[libc++] Fix allocation size for shared_ptr (#244063)"
+        },
+        {
+            "hash": "cb954e2675ff393b7274ab84ddfb01da9627e140",
+            "author_name": "Dmitry Ilvokhin",
+            "commit_date": "2026-11-24T10:14:25-08:00",
+            "subject": "[Clang][CodeGen] Use bzero+stores for inits with global pointers (#240876)"
+        },
+        {
+            "hash": "c03a45eace81951e326026d55694e3ab7bf88fe3",
+            "author_name": "Anshul Nigham",
+            "commit_date": "2026-11-24T10:14:31-08:00",
+            "subject": "[sanitizer] Fix DTLS tracking and LSan scanning after dlclose (#242893)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
