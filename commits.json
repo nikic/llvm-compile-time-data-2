@@ -311049,6 +311049,30 @@
             "author_name": "Brad Smith",
             "commit_date": "2026-11-24T14:41:39-05:00",
             "subject": "[ConstantFolding] Fold constrained fpext of a constant (#244838)"
+        },
+        {
+            "hash": "8c1b834bbc3862cccdf31f534a60e3ee76836a9e",
+            "author_name": "Jianhui Li",
+            "commit_date": "2026-11-24T11:44:13-08:00",
+            "subject": "[MLIR][XeGPU] Add a barrier after SLM reads in WgToSg distribution (#245104)"
+        },
+        {
+            "hash": "8f61488e614e8aba8e0cc4e8fd84d34a2b4418f3",
+            "author_name": "Guo Chen",
+            "commit_date": "2026-11-24T19:47:08Z",
+            "subject": "[AMDGPU] Promote 16-bit return to i32 in the calling convention (#245288)"
+        },
+        {
+            "hash": "0e4f5448ca9ac43258d86e06efe66dc060feb724",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-11-24T19:47:57Z",
+            "subject": "[DAG] Add getFreeze(SDValue, UndefPoisonKind) variant (#245320)"
+        },
+        {
+            "hash": "25e8e6387925b6c48a2bc4c5ee94c47cf1210e65",
+            "author_name": "Kiran",
+            "commit_date": "2026-11-24T20:50:58+01:00",
+            "subject": "[GVN] Propagate equalities through bitwise OR\/AND (#237219)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -338745,15 +338769,15 @@
     ],
     "arsenm\/perf\/mir-block-args-v13": [
         {
-            "hash": "ce569778c3b6c4ac005443fccc1fdddfa230285b",
+            "hash": "ddd3074dc5125ad81b135a29c495edd22eb5c510",
             "author_name": "Yashas Andaluri",
-            "commit_date": "2026-11-17T09:08:39-06:00",
-            "subject": "[Hexagon] Emit unwind info for HLX callee-saved registers, caller's VSP (#243180)"
+            "commit_date": "2026-11-25T00:44:41+05:30",
+            "subject": "[Hexagon] Avoid same-bank dual loads with global offsets (#245212)"
         },
         {
-            "hash": "f432cd2a9302d61e1dde265e31d2b4f84178ce91",
+            "hash": "93bbd4e5710c91b3fbdb618c1190f77e3a387567",
             "author_name": "Matt Arsenault",
-            "commit_date": "2026-11-17T11:19:55-08:00",
+            "commit_date": "2026-11-24T14:46:51-05:00",
             "subject": "MIR block args all in one"
         }
     ],
