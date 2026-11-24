@@ -310137,6 +310137,24 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-11-24T00:36:34-05:00",
             "subject": "WholeProgramDevirt: Invalidate function analyses individually (#244839)"
+        },
+        {
+            "hash": "7ebbe97cef9e1aca651aa6df26ccf0441f1f6f88",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-24T05:50:30Z",
+            "subject": "Coroutines: Only invalidate analyses of lowered functions in CoroCleanup (#244810)"
+        },
+        {
+            "hash": "cf29611a980080fb3b586a947369c38b20188ac3",
+            "author_name": "NPC",
+            "commit_date": "2026-11-23T21:51:12-08:00",
+            "subject": "[mlir][reducer] Fix dead CHECK-OPT-FILE typo line in dce-test.mlir (#242759)"
+        },
+        {
+            "hash": "e2b0a1e11c3480967c5491bba65b153d9cf435cc",
+            "author_name": "Matt Arsenault",
+            "commit_date": "2026-11-24T00:54:54-05:00",
+            "subject": "CloneFunction: Factor out pruned clone terminator folding (#245482)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
