@@ -310395,6 +310395,24 @@
             "author_name": "Lukacma",
             "commit_date": "2026-11-24T11:45:54Z",
             "subject": "[AArch64] CodeGen for LDAPP\/LDAP (#239665)"
+        },
+        {
+            "hash": "ea0154c906bb161179dacdbfb997b4fa15162655",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-11-24T12:01:18Z",
+            "subject": "[lldb][NFC] Make SubsystemRAII a struct to avoid compiler warnings (#245337)"
+        },
+        {
+            "hash": "762544d9bbe2072abf4e3b8be639740b9dd9294b",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-11-24T04:02:22-08:00",
+            "subject": "[Bazel] Fixes 233ea5c (#245560)"
+        },
+        {
+            "hash": "ad74b0ff032536a771e0decb85974d7591265395",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-11-24T12:05:37Z",
+            "subject": "[Test] Fix preserve-function-analyses tests with EXPENSIVE_CHECKS (#245527)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -339199,16 +339217,22 @@
     ],
     "fhahn\/perf\/scevuse-hash": [
         {
-            "hash": "21a660898b7b9a6c65f6e09db9bd4eccf54d4910",
-            "author_name": "raaller",
-            "commit_date": "2026-11-22T18:24:13Z",
-            "subject": "[llvm-mca][ARM] Fix Cortex-A9 dispatch hazards and NEON memory resources (#230454)"
+            "hash": "d73c56e5200ee55d931099b7a0f62d7080d2beda",
+            "author_name": "Lukacma",
+            "commit_date": "2026-11-24T11:45:54Z",
+            "subject": "[AArch64] CodeGen for LDAPP\/LDAP (#239665)"
         },
         {
-            "hash": "9d8b686ad072a2c8f58286224f129a37b995fca4",
+            "hash": "9a2f132bf85ced6dacb2a66033c745694c8f82c2",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-22T18:48:24Z",
+            "commit_date": "2026-11-24T12:00:11Z",
             "subject": "[SCEV] Hash SCEVUse by its SCEV pointer (NFC)."
+        },
+        {
+            "hash": "00b44a5801e240bc169604942bcfc6a04df0e10f",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-24T12:00:17Z",
+            "subject": "[SCEV] Avoid re-normalizing use flags when converting SCEVUse (NFC)."
         }
     ],
     "MaskRay\/perf\/dbg-marker-index": [
