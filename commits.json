@@ -310569,6 +310569,12 @@
             "author_name": "Samtz2483",
             "commit_date": "2026-11-24T14:55:48Z",
             "subject": "[Attributor] Do not use the exclusion set for the dominating-write query (#242762)"
+        },
+        {
+            "hash": "3f698a54798b5171c2838136799a9121e5df6592",
+            "author_name": "Kiroo (Chanung)",
+            "commit_date": "2026-11-24T16:13:38+01:00",
+            "subject": "[GlobalISel] Set exposesReturnsTwice in IRTranslator (#240861)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -339373,28 +339379,28 @@
     ],
     "fhahn\/perf\/scevuse-hash": [
         {
-            "hash": "d73c56e5200ee55d931099b7a0f62d7080d2beda",
-            "author_name": "Lukacma",
-            "commit_date": "2026-11-24T11:45:54Z",
-            "subject": "[AArch64] CodeGen for LDAPP\/LDAP (#239665)"
+            "hash": "4b111878b63f194aa1d001429e9b045d2db4a0ac",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-24T14:19:06Z",
+            "subject": "[VPlan] Create interleave groups before scalarization decisions. (#245585)"
         },
         {
-            "hash": "9a2f132bf85ced6dacb2a66033c745694c8f82c2",
+            "hash": "3377eb31ceee62d9d2a45a01b3bc86d79d1fdd24",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-24T12:00:11Z",
+            "commit_date": "2026-11-24T15:12:29Z",
             "subject": "[SCEV] Hash SCEVUse by its SCEV pointer (NFC)."
         },
         {
-            "hash": "00b44a5801e240bc169604942bcfc6a04df0e10f",
+            "hash": "b847b861d0cc0ef5a97ceb7b64e261accbf5af3b",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-24T12:00:17Z",
+            "commit_date": "2026-11-24T15:12:29Z",
             "subject": "[SCEV] Avoid re-normalizing use flags when converting SCEVUse (NFC)."
         },
         {
-            "hash": "66bb9aadd6252e6ad969234bb1a828d92842e2d5",
-            "author_name": "Benjamin Maxwell",
-            "commit_date": "2026-11-24T12:51:05Z",
-            "subject": "Only return SCEVUse"
+            "hash": "70e5371724114ef1e501fb32b18448229182089a",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-24T15:12:29Z",
+            "subject": "[SCEV] Share result memoization between SCEVRewriteVisitors (NFC)."
         }
     ],
     "MaskRay\/perf\/dbg-marker-index": [
@@ -339487,6 +339493,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-11-24T14:48:44+01:00",
             "subject": "wip"
+        }
+    ],
+    "llvmbot\/perf\/pr-235948": [
+        {
+            "hash": "579c419613e72cbd6bb508017ffbdc0f009b055e",
+            "author_name": "Samtz2483",
+            "commit_date": "2026-11-24T14:55:48Z",
+            "subject": "[Attributor] Do not use the exclusion set for the dominating-write query (#242762)"
+        },
+        {
+            "hash": "794a9e86c17fedc984e549a286ac9e9c2948e55a",
+            "author_name": "cofibrant",
+            "commit_date": "2026-11-24T15:11:13Z",
+            "subject": "[MISched] Enable store sequencing by default (#\u200b235948)"
         }
     ]
 }
