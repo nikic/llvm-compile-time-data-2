@@ -311613,6 +311613,18 @@
             "author_name": "Craig Topper",
             "commit_date": "2026-11-24T23:33:11-08:00",
             "subject": "[RISCV] Fix unintentional overlap in RVVTypeCache::computeTypes. (#245839)"
+        },
+        {
+            "hash": "e8ed1b8f0f4fb996a180f2d91e6549ce32d84086",
+            "author_name": "David Green",
+            "commit_date": "2026-11-25T07:46:45Z",
+            "subject": "[AArch64][GlobalISel] Move mul to cmlt combine to utils (#245895)"
+        },
+        {
+            "hash": "284ea5281f017f364ed444d281c7d0e0e09f68f5",
+            "author_name": "Pierre van Houtryve",
+            "commit_date": "2026-11-25T08:48:45+01:00",
+            "subject": "[AMDGPU][GFX12.5] s_barrier_join spurious wakeups workaround (#241776)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -340523,18 +340535,18 @@
     ],
     "4vtomat\/perf\/sme_attr_compile_time": [
         {
-            "hash": "28b5f3087a3fcd39c80e2b1470a950da17e4cd08",
-            "author_name": "Sander de Smalen",
-            "commit_date": "2023-08-08T07:00:59Z",
-            "subject": "[Clang][AArch64] Add\/implement ACLE keywords for SME."
+            "hash": "24c91d443222bdb20205630d300ae61bfa07067e",
+            "author_name": "Takuya Shimizu",
+            "commit_date": "2023-08-08T15:53:17+09:00",
+            "subject": "[clang][ExprConstant] Fix crash on uninitialized base class subobject"
         }
     ],
     "4vtomat\/perf\/sme_attr_compile_time2": [
         {
-            "hash": "8e7f073eb42c92aa7a2b651ca314d7fcebf296e3",
-            "author_name": "Sander de Smalen",
-            "commit_date": "2024-01-15T09:41:32Z",
-            "subject": "[Clang][AArch64] Change SME attributes for shared\/new\/preserved state. (#76971)"
+            "hash": "06e3abcb54f339edc2ba757cfa947e024677b21e",
+            "author_name": "martin-luecke",
+            "commit_date": "2024-01-15T10:31:22+01:00",
+            "subject": "[MLIR][transform][python] Introduce abstractions for handles to values and parameters (#77305)"
         }
     ],
     "nikic\/perf\/rellookuptable-phi-2": [

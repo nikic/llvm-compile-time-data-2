@@ -1,0 +1,304 @@
+MESSAGE: Execution of "sudo -u lctt-runner ./build_llvm_project_stage1.sh" failed
+
+STDOUT:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h:28:22: note:   ‘llvm::SmallVector<unsigned int, 4>’ is not derived from ‘std::initializer_list<_Tp>’
+   28 |     -> decltype(begin(std::forward<RangeT>(range))) {
+      |                 ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h: In instantiation of ‘auto llvm::remove_if(R&&, UnaryPredicate) [with R = SmallVector<unsigned int, 4>&; UnaryPredicate = BalancedPartitioning::runIterations(FunctionNodeRange, unsigned int, unsigned int, unsigned int, std::mt19937&) const::<lambda(auto:11&)>]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:2032:20:   required from ‘void llvm::erase_if(Container&, UnaryPredicate) [with Container = SmallVector<unsigned int, 4>; UnaryPredicate = BalancedPartitioning::runIterations(FunctionNodeRange, unsigned int, unsigned int, unsigned int, std::mt19937&) const::<lambda(auto:11&)>]’
+ 2032 |   C.erase(remove_if(C, P), C.end());
+      |           ~~~~~~~~~^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/BalancedPartitioning.cpp:178:19:   required from here
+  178 |     llvm::erase_if(N.UtilityNodes, [&](auto &UN) {
+      |     ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  179 |       return UtilityNodeDegree[UN] <= 1 || UtilityNodeDegree[UN] >= NumNodes;
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  180 |     });
+      |     ~~             
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:1777:50: error: no matching function for call to ‘adl_end(llvm::SmallVector<unsigned int, 4>&)’
+ 1777 |   return std::remove_if(adl_begin(Range), adl_end(Range), P);
+      |                                           ~~~~~~~^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:1777:50: note: there is 1 candidate
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h:70:16: note: candidate 1: ‘template<class RangeT> constexpr decltype (llvm::adl_detail::end_impl(forward<RangeT>(range))) llvm::adl_end(RangeT&&)’
+   70 | constexpr auto adl_end(RangeT &&range)
+      |                ^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h:70:16: note: template argument deduction/substitution failed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h: In substitution of ‘template<class RangeT> constexpr decltype (llvm::adl_detail::end_impl(forward<RangeT>(range))) llvm::adl_end(RangeT&&) [with RangeT = llvm::SmallVector<unsigned int, 4>&]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:1777:50:   required from ‘auto llvm::remove_if(R&&, UnaryPredicate) [with R = SmallVector<unsigned int, 4>&; UnaryPredicate = BalancedPartitioning::runIterations(FunctionNodeRange, unsigned int, unsigned int, unsigned int, std::mt19937&) const::<lambda(auto:11&)>]’
+ 1777 |   return std::remove_if(adl_begin(Range), adl_end(Range), P);
+      |                                           ~~~~~~~^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:2032:20:   required from ‘void llvm::erase_if(Container&, UnaryPredicate) [with Container = SmallVector<unsigned int, 4>; UnaryPredicate = BalancedPartitioning::runIterations(FunctionNodeRange, unsigned int, unsigned int, unsigned int, std::mt19937&) const::<lambda(auto:11&)>]’
+ 2032 |   C.erase(remove_if(C, P), C.end());
+      |           ~~~~~~~~~^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/BalancedPartitioning.cpp:178:19:   required from here
+  178 |     llvm::erase_if(N.UtilityNodes, [&](auto &UN) {
+      |     ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  179 |       return UtilityNodeDegree[UN] <= 1 || UtilityNodeDegree[UN] >= NumNodes;
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  180 |     });
+      |     ~~             
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h:71:37: error: no matching function for call to ‘end_impl(llvm::SmallVector<unsigned int, 4>&)’
+   71 |     -> decltype(adl_detail::end_impl(std::forward<RangeT>(range))) {
+      |                 ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h:71:37: note: there is 1 candidate
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h:35:16: note: candidate 1: ‘template<class RangeT> constexpr decltype (std::end(forward<RangeT>(range))) llvm::adl_detail::end_impl(RangeT&&)’
+   35 | constexpr auto end_impl(RangeT &&range)
+      |                ^~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h:35:16: note: template argument deduction/substitution failed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h: In substitution of ‘template<class RangeT> constexpr decltype (std::end(forward<RangeT>(range))) llvm::adl_detail::end_impl(RangeT&&) [with RangeT = llvm::SmallVector<unsigned int, 4>&]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h:71:37:   required by substitution of ‘template<class RangeT> constexpr decltype (llvm::adl_detail::end_impl(forward<RangeT>(range))) llvm::adl_end(RangeT&&) [with RangeT = llvm::SmallVector<unsigned int, 4>&]’
+   71 |     -> decltype(adl_detail::end_impl(std::forward<RangeT>(range))) {
+      |                 ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:1777:50:   required from ‘auto llvm::remove_if(R&&, UnaryPredicate) [with R = SmallVector<unsigned int, 4>&; UnaryPredicate = BalancedPartitioning::runIterations(FunctionNodeRange, unsigned int, unsigned int, unsigned int, std::mt19937&) const::<lambda(auto:11&)>]’
+ 1777 |   return std::remove_if(adl_begin(Range), adl_end(Range), P);
+      |                                           ~~~~~~~^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:2032:20:   required from ‘void llvm::erase_if(Container&, UnaryPredicate) [with Container = SmallVector<unsigned int, 4>; UnaryPredicate = BalancedPartitioning::runIterations(FunctionNodeRange, unsigned int, unsigned int, unsigned int, std::mt19937&) const::<lambda(auto:11&)>]’
+ 2032 |   C.erase(remove_if(C, P), C.end());
+      |           ~~~~~~~~~^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/BalancedPartitioning.cpp:178:19:   required from here
+  178 |     llvm::erase_if(N.UtilityNodes, [&](auto &UN) {
+      |     ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  179 |       return UtilityNodeDegree[UN] <= 1 || UtilityNodeDegree[UN] >= NumNodes;
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  180 |     });
+      |     ~~             
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h:36:20: error: no matching function for call to ‘end(llvm::SmallVector<unsigned int, 4>&)’
+   36 |     -> decltype(end(std::forward<RangeT>(range))) {
+      |                 ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h:36:20: note: there are 6 candidates
+/usr/include/c++/15/bits/range_access.h:122:37: note: candidate 1: ‘template<class _Tp> const _Tp* std::end(const valarray<_Tp>&)’
+  122 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+/usr/include/c++/15/bits/range_access.h:122:37: note: template argument deduction/substitution failed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h:36:20: note:   ‘llvm::SmallVector<unsigned int, 4>’ is not derived from ‘const std::valarray<_Tp>’
+   36 |     -> decltype(end(std::forward<RangeT>(range))) {
+      |                 ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/15/bits/range_access.h:121:31: note: candidate 2: ‘template<class _Tp> _Tp* std::end(valarray<_Tp>&)’
+  121 |   template<typename _Tp> _Tp* end(valarray<_Tp>&) noexcept;
+      |                               ^~~
+/usr/include/c++/15/bits/range_access.h:121:31: note: template argument deduction/substitution failed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h:36:20: note:   ‘llvm::SmallVector<unsigned int, 4>’ is not derived from ‘std::valarray<_Tp>’
+   36 |     -> decltype(end(std::forward<RangeT>(range))) {
+      |                 ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/15/bits/range_access.h:112:5: note: candidate 3: ‘template<class _Tp, long unsigned int _Nm> constexpr _Tp* std::end(_Tp (&)[_Nm])’
+  112 |     end(_Tp (&__arr)[_Nm]) noexcept
+      |     ^~~
+/usr/include/c++/15/bits/range_access.h:112:5: note: template argument deduction/substitution failed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h:36:20: note:   mismatched types ‘_Tp [_Nm]’ and ‘llvm::SmallVector<unsigned int, 4>’
+   36 |     -> decltype(end(std::forward<RangeT>(range))) {
+      |                 ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/15/bits/range_access.h:90:5: note: candidate 4: ‘template<class _Container> constexpr decltype (__cont.end()) std::end(const _Container&)’
+   90 |     end(const _Container& __cont) noexcept(noexcept(__cont.end()))
+      |     ^~~
+/usr/include/c++/15/bits/range_access.h:90:5: note: template argument deduction/substitution failed:
+/usr/include/c++/15/bits/range_access.h: In substitution of ‘template<class _Container> constexpr decltype (__cont.end()) std::end(const _Container&) [with _Container = llvm::SmallVector<unsigned int, 4>]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h:36:20:   required by substitution of ‘template<class RangeT> constexpr decltype (std::end(forward<RangeT>(range))) llvm::adl_detail::end_impl(RangeT&&) [with RangeT = llvm::SmallVector<unsigned int, 4>&]’
+   36 |     -> decltype(end(std::forward<RangeT>(range))) {
+      |                 ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h:71:37:   required by substitution of ‘template<class RangeT> constexpr decltype (llvm::adl_detail::end_impl(forward<RangeT>(range))) llvm::adl_end(RangeT&&) [with RangeT = llvm::SmallVector<unsigned int, 4>&]’
+   71 |     -> decltype(adl_detail::end_impl(std::forward<RangeT>(range))) {
+      |                 ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:1777:50:   required from ‘auto llvm::remove_if(R&&, UnaryPredicate) [with R = SmallVector<unsigned int, 4>&; UnaryPredicate = BalancedPartitioning::runIterations(FunctionNodeRange, unsigned int, unsigned int, unsigned int, std::mt19937&) const::<lambda(auto:11&)>]’
+ 1777 |   return std::remove_if(adl_begin(Range), adl_end(Range), P);
+      |                                           ~~~~~~~^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:2032:20:   required from ‘void llvm::erase_if(Container&, UnaryPredicate) [with Container = SmallVector<unsigned int, 4>; UnaryPredicate = BalancedPartitioning::runIterations(FunctionNodeRange, unsigned int, unsigned int, unsigned int, std::mt19937&) const::<lambda(auto:11&)>]’
+ 2032 |   C.erase(remove_if(C, P), C.end());
+      |           ~~~~~~~~~^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/BalancedPartitioning.cpp:178:19:   required from here
+  178 |     llvm::erase_if(N.UtilityNodes, [&](auto &UN) {
+      |     ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  179 |       return UtilityNodeDegree[UN] <= 1 || UtilityNodeDegree[UN] >= NumNodes;
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  180 |     });
+      |     ~~             
+/usr/include/c++/15/bits/range_access.h:91:24: error: ‘const class llvm::SmallVector<unsigned int, 4>’ has no member named ‘end’
+   91 |     -> decltype(__cont.end())
+      |                 ~~~~~~~^~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h: In substitution of ‘template<class RangeT> constexpr decltype (std::end(forward<RangeT>(range))) llvm::adl_detail::end_impl(RangeT&&) [with RangeT = llvm::SmallVector<unsigned int, 4>&]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h:71:37:   required by substitution of ‘template<class RangeT> constexpr decltype (llvm::adl_detail::end_impl(forward<RangeT>(range))) llvm::adl_end(RangeT&&) [with RangeT = llvm::SmallVector<unsigned int, 4>&]’
+   71 |     -> decltype(adl_detail::end_impl(std::forward<RangeT>(range))) {
+      |                 ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:1777:50:   required from ‘auto llvm::remove_if(R&&, UnaryPredicate) [with R = SmallVector<unsigned int, 4>&; UnaryPredicate = BalancedPartitioning::runIterations(FunctionNodeRange, unsigned int, unsigned int, unsigned int, std::mt19937&) const::<lambda(auto:11&)>]’
+ 1777 |   return std::remove_if(adl_begin(Range), adl_end(Range), P);
+      |                                           ~~~~~~~^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:2032:20:   required from ‘void llvm::erase_if(Container&, UnaryPredicate) [with Container = SmallVector<unsigned int, 4>; UnaryPredicate = BalancedPartitioning::runIterations(FunctionNodeRange, unsigned int, unsigned int, unsigned int, std::mt19937&) const::<lambda(auto:11&)>]’
+ 2032 |   C.erase(remove_if(C, P), C.end());
+      |           ~~~~~~~~~^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/BalancedPartitioning.cpp:178:19:   required from here
+  178 |     llvm::erase_if(N.UtilityNodes, [&](auto &UN) {
+      |     ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  179 |       return UtilityNodeDegree[UN] <= 1 || UtilityNodeDegree[UN] >= NumNodes;
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  180 |     });
+      |     ~~             
+/usr/include/c++/15/bits/range_access.h:78:5: note: candidate 5: ‘template<class _Container> constexpr decltype (__cont.end()) std::end(_Container&)’
+   78 |     end(_Container& __cont) noexcept(noexcept(__cont.end()))
+      |     ^~~
+/usr/include/c++/15/bits/range_access.h:78:5: note: template argument deduction/substitution failed:
+/usr/include/c++/15/bits/range_access.h: In substitution of ‘template<class _Container> constexpr decltype (__cont.end()) std::end(_Container&) [with _Container = llvm::SmallVector<unsigned int, 4>]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h:36:20:   required by substitution of ‘template<class RangeT> constexpr decltype (std::end(forward<RangeT>(range))) llvm::adl_detail::end_impl(RangeT&&) [with RangeT = llvm::SmallVector<unsigned int, 4>&]’
+   36 |     -> decltype(end(std::forward<RangeT>(range))) {
+      |                 ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h:71:37:   required by substitution of ‘template<class RangeT> constexpr decltype (llvm::adl_detail::end_impl(forward<RangeT>(range))) llvm::adl_end(RangeT&&) [with RangeT = llvm::SmallVector<unsigned int, 4>&]’
+   71 |     -> decltype(adl_detail::end_impl(std::forward<RangeT>(range))) {
+      |                 ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:1777:50:   required from ‘auto llvm::remove_if(R&&, UnaryPredicate) [with R = SmallVector<unsigned int, 4>&; UnaryPredicate = BalancedPartitioning::runIterations(FunctionNodeRange, unsigned int, unsigned int, unsigned int, std::mt19937&) const::<lambda(auto:11&)>]’
+ 1777 |   return std::remove_if(adl_begin(Range), adl_end(Range), P);
+      |                                           ~~~~~~~^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:2032:20:   required from ‘void llvm::erase_if(Container&, UnaryPredicate) [with Container = SmallVector<unsigned int, 4>; UnaryPredicate = BalancedPartitioning::runIterations(FunctionNodeRange, unsigned int, unsigned int, unsigned int, std::mt19937&) const::<lambda(auto:11&)>]’
+ 2032 |   C.erase(remove_if(C, P), C.end());
+      |           ~~~~~~~~~^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/BalancedPartitioning.cpp:178:19:   required from here
+  178 |     llvm::erase_if(N.UtilityNodes, [&](auto &UN) {
+      |     ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  179 |       return UtilityNodeDegree[UN] <= 1 || UtilityNodeDegree[UN] >= NumNodes;
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  180 |     });
+      |     ~~             
+/usr/include/c++/15/bits/range_access.h:79:24: error: ‘class llvm::SmallVector<unsigned int, 4>’ has no member named ‘end’
+   79 |     -> decltype(__cont.end())
+      |                 ~~~~~~~^~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h: In substitution of ‘template<class RangeT> constexpr decltype (std::end(forward<RangeT>(range))) llvm::adl_detail::end_impl(RangeT&&) [with RangeT = llvm::SmallVector<unsigned int, 4>&]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h:71:37:   required by substitution of ‘template<class RangeT> constexpr decltype (llvm::adl_detail::end_impl(forward<RangeT>(range))) llvm::adl_end(RangeT&&) [with RangeT = llvm::SmallVector<unsigned int, 4>&]’
+   71 |     -> decltype(adl_detail::end_impl(std::forward<RangeT>(range))) {
+      |                 ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:1777:50:   required from ‘auto llvm::remove_if(R&&, UnaryPredicate) [with R = SmallVector<unsigned int, 4>&; UnaryPredicate = BalancedPartitioning::runIterations(FunctionNodeRange, unsigned int, unsigned int, unsigned int, std::mt19937&) const::<lambda(auto:11&)>]’
+ 1777 |   return std::remove_if(adl_begin(Range), adl_end(Range), P);
+      |                                           ~~~~~~~^~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:2032:20:   required from ‘void llvm::erase_if(Container&, UnaryPredicate) [with Container = SmallVector<unsigned int, 4>; UnaryPredicate = BalancedPartitioning::runIterations(FunctionNodeRange, unsigned int, unsigned int, unsigned int, std::mt19937&) const::<lambda(auto:11&)>]’
+ 2032 |   C.erase(remove_if(C, P), C.end());
+      |           ~~~~~~~~~^~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/BalancedPartitioning.cpp:178:19:   required from here
+  178 |     llvm::erase_if(N.UtilityNodes, [&](auto &UN) {
+      |     ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  179 |       return UtilityNodeDegree[UN] <= 1 || UtilityNodeDegree[UN] >= NumNodes;
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  180 |     });
+      |     ~~             
+/usr/include/c++/15/initializer_list:101:5: note: candidate 6: ‘template<class _Tp> constexpr const _Tp* std::end(initializer_list<_Tp>)’
+  101 |     end(initializer_list<_Tp> __ils) noexcept
+      |     ^~~
+/usr/include/c++/15/initializer_list:101:5: note: template argument deduction/substitution failed:
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/ADL.h:36:20: note:   ‘llvm::SmallVector<unsigned int, 4>’ is not derived from ‘std::initializer_list<_Tp>’
+   36 |     -> decltype(end(std::forward<RangeT>(range))) {
+      |                 ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h: In instantiation of ‘void llvm::erase_if(Container&, UnaryPredicate) [with Container = SmallVector<unsigned int, 4>; UnaryPredicate = BalancedPartitioning::runIterations(FunctionNodeRange, unsigned int, unsigned int, unsigned int, std::mt19937&) const::<lambda(auto:11&)>]’:
+/var/llvm-compile-time-tracker/llvm-project/llvm/lib/Support/BalancedPartitioning.cpp:178:19:   required from here
+  178 |     llvm::erase_if(N.UtilityNodes, [&](auto &UN) {
+      |     ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  179 |       return UtilityNodeDegree[UN] <= 1 || UtilityNodeDegree[UN] >= NumNodes;
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  180 |     });
+      |     ~~             
+/var/llvm-compile-time-tracker/llvm-project/llvm/include/llvm/ADT/STLExtras.h:2032:30: error: ‘class llvm::SmallVector<unsigned int, 4>’ has no member named ‘end’
+ 2032 |   C.erase(remove_if(C, P), C.end());
+      |                            ~~^~~
+[39/2730] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/CSKYAttributeParser.cpp.o
+[40/2730] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/CachePruning.cpp.o
+[41/2730] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/Debug.cpp.o
+[42/2730] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/CodeGenCoverage.cpp.o
+[43/2730] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/DataExtractor.cpp.o
+[44/2730] Building CXX object lib/Support/CMakeFiles/LLVMSupport.dir/CommandLine.cpp.o
+ninja: build stopped: subcommand failed.
+
+
+STDERR:
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/cmake/Modules/CMakePolicy.cmake:6 (cmake_policy):
+  The OLD behavior for policy CMP0114 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+Call Stack (most recent call first):
+  CMakeLists.txt:6 (include)
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/cmake/Modules/CMakePolicy.cmake:11 (cmake_policy):
+  The OLD behavior for policy CMP0116 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+Call Stack (most recent call first):
+  CMakeLists.txt:6 (include)
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/cmake/Modules/CMakePolicy.cmake:6 (cmake_policy):
+  The OLD behavior for policy CMP0114 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+Call Stack (most recent call first):
+  /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:6 (include)
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/cmake/Modules/CMakePolicy.cmake:11 (cmake_policy):
+  The OLD behavior for policy CMP0116 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+Call Stack (most recent call first):
+  /var/llvm-compile-time-tracker/llvm-project/clang/CMakeLists.txt:6 (include)
+
+
+CMake Warning (dev) at /var/llvm-compile-time-tracker/llvm-project/clang/lib/Tooling/CMakeLists.txt:58 (add_custom_command):
+  COMMENT requires exactly one argument, but multiple values or COMMENT
+  keywords have been given.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /var/llvm-compile-time-tracker/llvm-project/clang/lib/Tooling/CMakeLists.txt:79 (add_custom_command):
+  COMMENT requires exactly one argument, but multiple values or COMMENT
+  keywords have been given.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/cmake/Modules/CMakePolicy.cmake:6 (cmake_policy):
+  The OLD behavior for policy CMP0114 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+Call Stack (most recent call first):
+  /var/llvm-compile-time-tracker/llvm-project/lld/CMakeLists.txt:6 (include)
+
+
+CMake Deprecation Warning at /var/llvm-compile-time-tracker/llvm-project/cmake/Modules/CMakePolicy.cmake:11 (cmake_policy):
+  The OLD behavior for policy CMP0116 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+Call Stack (most recent call first):
+  /var/llvm-compile-time-tracker/llvm-project/lld/CMakeLists.txt:6 (include)
+
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CLANG_ENABLE_CIR
+
+
+Command exited with non-zero status 1
+12.08user 1.39system 0:02.51elapsed 536%CPU (0avgtext+0avgdata 310944maxresident)k
+8inputs+90680outputs (0major+738227minor)pagefaults 0swaps
