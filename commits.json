@@ -312135,6 +312135,18 @@
             "author_name": "Kelvin Li",
             "commit_date": "2026-11-25T09:26:46-05:00",
             "subject": "[flang-rt][lit] Set dynamic library lookup path for shared runtime tests (#244114)"
+        },
+        {
+            "hash": "80bb02628a52dfdd30a13be4a9a08c82d2de538b",
+            "author_name": "Marc Auberer",
+            "commit_date": "2026-11-25T15:35:28+01:00",
+            "subject": "[X86] Silence GCC -Wfree-nonheap-object false positive in LowerShift (#245993)"
+        },
+        {
+            "hash": "17b5443a3211f7956d700fc520b1540a78ed8688",
+            "author_name": "Zack Johnson",
+            "commit_date": "2026-11-25T09:38:10-05:00",
+            "subject": "[lldb] Compare the concrete frame index for inlining (#240963)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -341139,6 +341151,20 @@
             "author_name": "dingcyrus",
             "commit_date": "2026-11-25T14:28:05Z",
             "subject": "[X86][FastISel] Don't look through bitcasts when forming an address (#\u200b242973)"
+        }
+    ],
+    "llvmbot\/perf\/pr-244187": [
+        {
+            "hash": "5f96993fc1c53451878f7312cebcbe15bfc840d0",
+            "author_name": "Kelvin Li",
+            "commit_date": "2026-11-25T09:26:46-05:00",
+            "subject": "[flang-rt][lit] Set dynamic library lookup path for shared runtime tests (#244114)"
+        },
+        {
+            "hash": "0dd7f27b6809139360efa9f9ad5be25cbeb1f6c0",
+            "author_name": "momchil-velikov",
+            "commit_date": "2026-11-25T14:36:39Z",
+            "subject": "[InlineCost] Expose library call constant folding to inline cost analysis (#\u200b244187)"
         }
     ]
 }
