@@ -312333,6 +312333,24 @@
             "author_name": "Alexey Karyakin",
             "commit_date": "2026-11-25T10:47:07-06:00",
             "subject": "[Hexagon] Support UPMUCNT[0-7] register aliases (#244679)"
+        },
+        {
+            "hash": "959b0a418774fe1e98954a0550287035cf30a922",
+            "author_name": "Micha\u0142 G\u00f3rny",
+            "commit_date": "2026-11-25T17:50:44+01:00",
+            "subject": "[openmp] Remove obsolete `REQUIRES: flang` from test (#244914)"
+        },
+        {
+            "hash": "5f20bab4a817dd7bd6d0091668c549b202329444",
+            "author_name": "Martin Storsj\u00f6",
+            "commit_date": "2026-11-25T18:54:06+02:00",
+            "subject": "[LLDB] [CMake] Allow linking with SABI Python on Mingw (#245600)"
+        },
+        {
+            "hash": "47fb0f81f640d34e6295d8a931b5fab247d23315",
+            "author_name": "blazej-smorawski",
+            "commit_date": "2026-11-25T16:55:15Z",
+            "subject": "[Offload] Bring back LocalMem skips for L0 (#246068)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -341351,6 +341369,20 @@
             "author_name": "momchil-velikov",
             "commit_date": "2026-11-25T14:36:39Z",
             "subject": "[InlineCost] Expose library call constant folding to inline cost analysis (#\u200b244187)"
+        }
+    ],
+    "llvmbot\/perf\/pr-246072": [
+        {
+            "hash": "78022385cc91e143fd71ac79293cdbc4c626ae5a",
+            "author_name": "Kazu Hirata",
+            "commit_date": "2026-11-25T08:35:53-08:00",
+            "subject": "[MC] Remove write-only MCWasmStreamer::SeenIdent (NFC) (#245908)"
+        },
+        {
+            "hash": "1c1e358936423731fa8526b3edb31ec66f840adf",
+            "author_name": "Xazax-hun",
+            "commit_date": "2026-11-25T16:47:50Z",
+            "subject": "[ADT] Allocate FoldingSet buckets lazily (#\u200b246072)"
         }
     ]
 }
