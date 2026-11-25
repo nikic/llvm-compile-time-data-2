@@ -312069,6 +312069,24 @@
             "author_name": "Momchil Velikov",
             "commit_date": "2026-11-25T13:50:58Z",
             "subject": "[ConstantFolding] Add constant folding for strlen (#244183)"
+        },
+        {
+            "hash": "fa34debcf3973412588a800f6edf1e5da499f21a",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-11-25T13:56:32Z",
+            "subject": "[lldb][Clike] Remove TypeSystemClang include from GNUstepObjCRuntime (#238968)"
+        },
+        {
+            "hash": "6fe233ddea6b4205dcd02bd7aeb9bcbaf8086055",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-11-25T13:59:19Z",
+            "subject": "[lldb][Clike] Don't compare types using TSClang in ItaniumABIRuntime (#238958)"
+        },
+        {
+            "hash": "36eba568c15ae2cce5830f085e90e060ab503ca2",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-11-25T13:59:57Z",
+            "subject": "[lldb][test] Add a new test for float types (Reland) (#238992)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -331539,58 +331557,28 @@
     ],
     "artagnon\/perf\/scev-exact-flags": [
         {
-            "hash": "563eb6b997c38ace217f8c3aff12e0aa9547f590",
-            "author_name": "hoondlay",
-            "commit_date": "2026-11-16T11:25:52Z",
-            "subject": "[LV] Pre-commit tests for FP derived IV index conversion (NFC) (#240741)"
+            "hash": "5827854747302ccdb4be42a3791d868861d367ef",
+            "author_name": "Ulrich Weigand",
+            "commit_date": "2026-11-25T11:09:47+01:00",
+            "subject": "[SystemZ] Fix aliasing bug with vec_scatter\/gather_element (#245724)"
         },
         {
-            "hash": "bb0b6e77b0c1cb503fa5259e47044da1636aafad",
+            "hash": "0d994c00c71f86ff989147d17fa631c64f5e3835",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-11-16T12:14:10Z",
+            "commit_date": "2026-11-25T13:46:08Z",
             "subject": "[LoopUnroll] Pre-commit udiv-exact tests"
         },
         {
-            "hash": "28c457687d9f4614464e31c1ac6962d26fbccfd0",
+            "hash": "e4824c7d385d7132f2f3e4c1cb1983f2692fbb05",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-11-16T12:14:10Z",
-            "subject": "[SCEV] Introduce exact flag for UDiv"
-        },
-        {
-            "hash": "3c51b23273a5fc2750ecdee4f5e904077e2bc725",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-11-16T12:14:10Z",
-            "subject": "[SCEV] Fix nits, strengthen with asserts"
-        },
-        {
-            "hash": "47dd6507a798934371fb5281fb10f05182540cb5",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-11-16T12:14:10Z",
-            "subject": "[SCEV] Fix NFC nits, update test"
-        },
-        {
-            "hash": "52bd1077660062d5f2e83d02a8d42b9aa1e04494",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-11-16T12:14:10Z",
-            "subject": "[SCEV] getNoWrapFlagsFromUB, thanks!"
-        },
-        {
-            "hash": "030f8d9b379615005e50e7cb56c4e7096d838361",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-11-16T12:14:10Z",
+            "commit_date": "2026-11-25T13:58:19Z",
             "subject": "[SCEV] Pre-commit udiv-exact-folds test"
         },
         {
-            "hash": "775fa3b9318ff0b3b39d5c0997ddf8bca5c57d20",
+            "hash": "afe31ed3f501e6df35d0f0ab0f2462d42a489e24",
             "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-11-16T12:14:10Z",
-            "subject": "[SCEV] Conservatively drop fwd exact, thanks Antonio!"
-        },
-        {
-            "hash": "b81ea6828c2c578f4f1525de2608e8c5aed37653",
-            "author_name": "Ramkumar Ramachandra",
-            "commit_date": "2026-11-16T12:15:50Z",
-            "subject": "[LAA] Test updates after rebase"
+            "commit_date": "2026-11-25T14:00:00Z",
+            "subject": "[SCEV] Introduce exact flag for UDiv"
         }
     ],
     "fhahn\/perf\/ce-strict-witness": [
