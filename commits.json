@@ -312501,6 +312501,18 @@
             "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
             "commit_date": "2026-11-25T11:04:20-08:00",
             "subject": "[cir] Convert gpu.func and gpu.launch_func signatures with cir types (#245465)"
+        },
+        {
+            "hash": "59b4b6219a9f2aa6dd64affb7aef27bacb03ff39",
+            "author_name": "Firebear",
+            "commit_date": "2026-11-25T19:22:57Z",
+            "subject": "[X86] Fix mask indexing in the extractelement(bitcast(<X x i1>)) fold (#240715)"
+        },
+        {
+            "hash": "6d66eb40456f7241a0e44243bd4c3b84e61fe819",
+            "author_name": "Mingming Liu",
+            "commit_date": "2026-11-25T19:25:25Z",
+            "subject": "[SampleProf] Add flag to allow re-reading loaded profiles with remapper (#244798)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -341533,6 +341545,20 @@
             "author_name": "Xazax-hun",
             "commit_date": "2026-11-25T16:47:50Z",
             "subject": "[ADT] Allocate FoldingSet buckets lazily (#\u200b246072)"
+        }
+    ],
+    "llvmbot\/perf\/pr-238359": [
+        {
+            "hash": "e51d186fea37ca7db4ea493fc3a0b7e689985192",
+            "author_name": "Valentin Clement (\u30d0\u30ec\u30f3\u30bf\u30a4\u30f3 \u30af\u30ec\u30e1\u30f3)",
+            "commit_date": "2026-11-25T11:04:20-08:00",
+            "subject": "[cir] Convert gpu.func and gpu.launch_func signatures with cir types (#245465)"
+        },
+        {
+            "hash": "52b944ce229bc5e7c55e8ac64300ef50ed2c4a84",
+            "author_name": "kamleshbhalui",
+            "commit_date": "2026-11-25T19:16:54Z",
+            "subject": "[Analysis][Delinearization] Validate subscripts using symbolic loop bounds (#\u200b238359)"
         }
     ]
 }
