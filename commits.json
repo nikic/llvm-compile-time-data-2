@@ -311919,6 +311919,24 @@
             "author_name": "Matt Arsenault",
             "commit_date": "2026-11-25T07:09:42-05:00",
             "subject": "DAG: Use the LibCall action for atomic operations lowered to calls (#245746)"
+        },
+        {
+            "hash": "5f6dee648fcd376ff0de1c881efda69325ca14de",
+            "author_name": "Simon Pilgrim",
+            "commit_date": "2026-11-25T12:17:52Z",
+            "subject": "[X86] canonicalizeShuffleWithOp - VZEXT_MOVL(LOGIC(X,Y)) -> LOGIC(VZEXT_MOVL(X),VZEXT_MOVL(Y)) (#245974)"
+        },
+        {
+            "hash": "d71acc8f3779399a1027df43422d2a6e430204a3",
+            "author_name": "Ivan Butygin",
+            "commit_date": "2026-11-25T15:18:33+03:00",
+            "subject": "[mlir] Avoid eager invalidation in `DeadnessCache` (#244443)"
+        },
+        {
+            "hash": "d36ed216015507b9876eda7685042a0bfe746859",
+            "author_name": "Folkert de Vries",
+            "commit_date": "2026-11-25T13:20:40+01:00",
+            "subject": "[X86] Only demand the low 8 bits of the BZHI index (#245235)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
