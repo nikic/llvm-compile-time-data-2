@@ -312129,6 +312129,12 @@
             "author_name": "\u4f0d\u6d69\u5b87",
             "commit_date": "2026-11-25T15:23:26+01:00",
             "subject": "[AggressiveInstCombine] Extend MulHigh fold for `or disjoint` (#228897)"
+        },
+        {
+            "hash": "5f96993fc1c53451878f7312cebcbe15bfc840d0",
+            "author_name": "Kelvin Li",
+            "commit_date": "2026-11-25T09:26:46-05:00",
+            "subject": "[flang-rt][lit] Set dynamic library lookup path for shared runtime tests (#244114)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -341091,6 +341097,48 @@
             "author_name": "alexey-bataev",
             "commit_date": "2026-11-25T00:36:54Z",
             "subject": "[SLP]Vectorize sibling loop producers before their consumers (#\u200b245787)"
+        }
+    ],
+    "llvmbot\/perf\/pr-201543": [
+        {
+            "hash": "3eb17c27352ff8e25b95fcfb348978964263af70",
+            "author_name": "Bal\u00e1zs K\u00e9ri",
+            "commit_date": "2026-11-25T09:11:33+01:00",
+            "subject": "[clang][analyzer] Extend StreamChecker with alternate input-output check (#229134)"
+        },
+        {
+            "hash": "fe5ec0d0392e492426dcfe498b79e60bcdc4fa35",
+            "author_name": "anoopkg6",
+            "commit_date": "2026-11-25T14:29:36Z",
+            "subject": "[Pipeline] Add IPSCCPPass at O3 to fix function specialization phase ordering (#\u200b201543)"
+        }
+    ],
+    "llvmbot\/perf\/pr-242712": [
+        {
+            "hash": "de6d88295d279dc9fb694da01502e2d00cd91d3e",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-11-25T07:14:08-06:00",
+            "subject": "[Bazel] Fixes d71acc8 (#245991)"
+        },
+        {
+            "hash": "58589a01034457311ca5fd3d37d7cb6dd2ca634f",
+            "author_name": "npmania",
+            "commit_date": "2026-11-25T14:24:57Z",
+            "subject": "[ConstantRange] Restrict shift range in shl and shlWithNoWrap (#\u200b242712)"
+        }
+    ],
+    "llvmbot\/perf\/pr-242973": [
+        {
+            "hash": "de6d88295d279dc9fb694da01502e2d00cd91d3e",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-11-25T07:14:08-06:00",
+            "subject": "[Bazel] Fixes d71acc8 (#245991)"
+        },
+        {
+            "hash": "3dd5a7e9d3f7e10f56017443ca9cbb09212e5a2d",
+            "author_name": "dingcyrus",
+            "commit_date": "2026-11-25T14:28:05Z",
+            "subject": "[X86][FastISel] Don't look through bitcasts when forming an address (#\u200b242973)"
         }
     ]
 }
