@@ -312021,6 +312021,36 @@
             "author_name": "lijinpei-amd",
             "commit_date": "2026-11-25T21:31:23+08:00",
             "subject": "[DAGCombiner] Bail out in MatchLoadCombine when no bytes come from load (#244857)"
+        },
+        {
+            "hash": "4d07c01b3ce0767348925a744566a9cd1beb3072",
+            "author_name": "Aochang Liu",
+            "commit_date": "2026-11-25T13:33:44Z",
+            "subject": "[X86] Fix miscompile of srl(xor(y, vecreduce_umax(x)), bw-1) (#244835)"
+        },
+        {
+            "hash": "c173c2ca8488e09a7acb6049b03cc004e8fd9045",
+            "author_name": "Anshuman Garg",
+            "commit_date": "2026-11-25T13:34:24Z",
+            "subject": "[DAG] SimplifyDemandedVectorElts - add ISD::VECTOR_SHUFFLE_VAR handling (#244921)"
+        },
+        {
+            "hash": "80989c822c3040c19fe00be95fe1a58db863be72",
+            "author_name": "blazej-smorawski",
+            "commit_date": "2026-11-25T14:35:51+01:00",
+            "subject": "[SPIRV][Offload] Implement `DynSharedMemory` for L0 (#231160)"
+        },
+        {
+            "hash": "afdd331c00ece167bf6e91eb939a26cc3735bcd3",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-11-25T13:39:21Z",
+            "subject": "[libc++][pstl] Add a task scheduler based on std::thread (#237313)"
+        },
+        {
+            "hash": "a2c878343445d7131994bb66306ff4b94dafda2b",
+            "author_name": "Folkert de Vries",
+            "commit_date": "2026-11-25T13:40:26Z",
+            "subject": "[PowerPC] fix `ppc_fp128` `FABS` miscompile (#209286)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
