@@ -311697,6 +311697,54 @@
             "author_name": "Matt\u00e9o Rizza Murgier",
             "commit_date": "2026-11-25T09:36:56+01:00",
             "subject": "[mlir][ComplexToStandard] Fix fmf handling in tan\/tanh lowering (#243398)"
+        },
+        {
+            "hash": "d2d4da41351062aaca6c07787ef0eba73827f4e2",
+            "author_name": "Tim Besard",
+            "commit_date": "2026-11-25T08:42:27Z",
+            "subject": "[SLP][AArch64] Don't count splats folded into indexed FMLA in inst count (#230105)"
+        },
+        {
+            "hash": "fdb1549e2a747be911e4de1091e8b651474a3be5",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-25T09:42:36+01:00",
+            "subject": "[mlir][SPIR-V] Order -0.0 before +0.0 in arith.maximumf\/minimumf (#245530)"
+        },
+        {
+            "hash": "4a2dcb4fa528666b73b9c5da2b95eaa94bdad8a2",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-25T09:42:49+01:00",
+            "subject": "[SPIR-V] Extract addTypeKey from restOfCreateSPIRVType (NFC) (#245753)"
+        },
+        {
+            "hash": "dac2c8bf62b6fd6fa57f45f9b17e9e654ccc749c",
+            "author_name": "Arseniy Obolenskiy",
+            "commit_date": "2026-11-25T09:43:11+01:00",
+            "subject": "[mlir][SPIR-V] Pack only CPacked structs in SPIRVToLLVM (#245771)"
+        },
+        {
+            "hash": "1a5d8d97a98a9f71df1225e72ce5d97d58b1033b",
+            "author_name": "Nathan Corbyn",
+            "commit_date": "2026-11-25T08:43:36Z",
+            "subject": "[AMDGPU](NFC) Drop `tracksRegLiveness: true` from MIR tests (#240860)"
+        },
+        {
+            "hash": "486a7fa4fd8d4800994692d957448fc9540b62eb",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-11-25T00:47:48-08:00",
+            "subject": "[Bazel] Fixes ecac0cc (#245921)"
+        },
+        {
+            "hash": "a66cb3d3a698569f1d084a8b9914e478544e3310",
+            "author_name": "hev",
+            "commit_date": "2026-11-25T16:49:13+08:00",
+            "subject": "[LoongArch][NFC] Pre-commit tests for sign-extended vector element extraction (#241718)"
+        },
+        {
+            "hash": "bbbf96f97d6f6bb170e1daaf85ee77437993b3de",
+            "author_name": "hev",
+            "commit_date": "2026-11-25T16:49:13+08:00",
+            "subject": "[LoongArch] Use signed vector extract for sign extension (#241719)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
