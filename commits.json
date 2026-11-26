@@ -313425,6 +313425,30 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-11-26T13:36:02Z",
             "subject": "[SCEV] Avoid re-normalizing use flags when converting SCEVUse (NFC). (#245194)"
+        },
+        {
+            "hash": "82e4273d6d07c911e18cc7aea35ff3dd8914151d",
+            "author_name": "Jessica Paquette",
+            "commit_date": "2026-11-26T22:47:02+09:00",
+            "subject": "[rtsan] Fix call-stack-contains suppressions for inlined functions (#245133)"
+        },
+        {
+            "hash": "25d3959f6e193de57dd9e69ffde17fe25de1b921",
+            "author_name": "Jessica Paquette",
+            "commit_date": "2026-11-26T22:48:36+09:00",
+            "subject": "[rtsan] Ensure unit tests rebuild when rtsan headers change (#245136)"
+        },
+        {
+            "hash": "aa6b0692eeb2de09ee098a6c6a506ac26d9496ef",
+            "author_name": "ADiL",
+            "commit_date": "2026-11-26T13:49:09Z",
+            "subject": "[AMDGPU] Fold out of range async LDS copy offsets into the addresses (#239216)"
+        },
+        {
+            "hash": "71e3ded089329a0cdb47b0e8844c66f0b4b98e9a",
+            "author_name": "Mike Lothian",
+            "commit_date": "2026-11-26T14:50:24+01:00",
+            "subject": "[libc] End a semaphore wait with EINTR when a signal handler runs (#236969)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
