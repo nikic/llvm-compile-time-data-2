@@ -313257,6 +313257,24 @@
             "author_name": "Nikolas Klauser",
             "commit_date": "2026-11-26T12:46:24+01:00",
             "subject": "[libc++] Simplify the implementation of iterator_traits a bit (#222297)"
+        },
+        {
+            "hash": "f4561f13c0dead99b292c7ec94319bca5f402094",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-11-26T12:51:47+01:00",
+            "subject": "[libc++] Assume __is_{,nothrow_,trivially_}destructible builtins are available (#246195)"
+        },
+        {
+            "hash": "10332082a0bd1d7ae1e8949ab3832fa33ebb238e",
+            "author_name": "Srinivasa Ravi",
+            "commit_date": "2026-11-26T17:24:02+05:30",
+            "subject": "[NFC][MLIR][NVVM] Move enum definitions to NVVMEnums.td (#243880)"
+        },
+        {
+            "hash": "317e0966455de875fdf4a3719017c6092155f5d0",
+            "author_name": "Michael G. Kazakov",
+            "commit_date": "2026-11-26T11:57:48Z",
+            "subject": "[libc++] Speed-up the reduction by up to 4X by breaking the dependency chain (#234887)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -342345,6 +342363,20 @@
             "author_name": "Xazax-hun",
             "commit_date": "2026-11-26T11:07:17Z",
             "subject": "[clang][NFC] Remove padding from some AST nodes (#\u200b246310)"
+        }
+    ],
+    "llvmbot\/perf\/pr-246309": [
+        {
+            "hash": "c622ffa1ba30cfebb9ee853d85fac35cca648412",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-11-26T12:43:39+01:00",
+            "subject": "[libc++abi] Remove has_path_to_static_ptr from dynamic_cast (#244144)"
+        },
+        {
+            "hash": "2cdb976d28301e125fe5067fc18b96abb501f891",
+            "author_name": "shubhxho",
+            "commit_date": "2026-11-26T11:50:08Z",
+            "subject": "[InstCombine] Check the user limit on push in isOnlyCopiedFromConstantMemory (#\u200b246309)"
         }
     ]
 }
