@@ -313347,6 +313347,30 @@
             "author_name": "steven-studio",
             "commit_date": "2026-11-26T13:36:02+01:00",
             "subject": "[mlir][llvm] Reject duplicate case values in llvm.switch (#245592)"
+        },
+        {
+            "hash": "174e32d2a718eaab27a4be54b002586b22f8307b",
+            "author_name": "Paul Berg",
+            "commit_date": "2026-11-26T13:37:49+01:00",
+            "subject": "[mlir:affine] Drop affine if condition from affine scope when in else block (#245625)"
+        },
+        {
+            "hash": "0f4bf7b3f672a07486e829f1cb79eb0bc053a139",
+            "author_name": "Kuan-Wei Chiu",
+            "commit_date": "2026-11-26T12:38:00Z",
+            "subject": "[libc][string] Optimize strncpy() with strnlen() and memory operations (#235762)"
+        },
+        {
+            "hash": "1d5f154964b1b2896b8246d64aec66265452727b",
+            "author_name": "NPC",
+            "commit_date": "2026-11-26T13:38:41+01:00",
+            "subject": "[mlir][reducer] Report why output file can't be opened (#245650)"
+        },
+        {
+            "hash": "c4dd0c5da117437398679d8272b37fd015b009cc",
+            "author_name": "Aditya Trivedi",
+            "commit_date": "2026-11-26T12:43:32Z",
+            "subject": "[LV] Expand entry-block SCEVs in SafeUDivMode (#242666)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -342199,16 +342223,22 @@
     ],
     "fhahn\/perf\/scevuse-rw-ct": [
         {
-            "hash": "cf40f87a82c4b4b737c1834817c568532e67c25d",
-            "author_name": "Folkert de Vries",
-            "commit_date": "2026-11-23T11:53:47+01:00",
-            "subject": "[Mips] Fix `fma` argument swap bug (#245047)"
+            "hash": "d35bb1657ae0b9a9c6347443af16c0ca0dd37591",
+            "author_name": "Ian Tayler Lessa",
+            "commit_date": "2026-11-26T10:48:30Z",
+            "subject": "[mlir][tosa] Add bf16xfp32 and fp32xbf16 to depthwise_conv2d (#246094)"
         },
         {
-            "hash": "3b670412c44705e25497be816159316c1ad88fa5",
+            "hash": "931cfebc0c56137a4798b76ae75f5e80a778f304",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-23T11:20:41Z",
+            "commit_date": "2026-11-26T12:34:49Z",
             "subject": "[SCEV] Avoid re-normalizing use flags when converting SCEVUse (NFC)."
+        },
+        {
+            "hash": "f92edda0486253eec3815cfa03b115eaf92c5ebd",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-26T12:37:12Z",
+            "subject": "!fixup use friend up fron"
         }
     ],
     "llvmbot\/perf\/pr-244240": [
