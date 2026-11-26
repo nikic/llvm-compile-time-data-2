@@ -313467,6 +313467,60 @@
             "author_name": "Eric Ross",
             "commit_date": "2026-11-26T08:09:02-06:00",
             "subject": "[CODEOWNERS] Add myself as codeowner for floating-point class analysis (#246228)"
+        },
+        {
+            "hash": "967de21fc55c766771db3b9a639dd6bec85fd4ff",
+            "author_name": "Meow",
+            "commit_date": "2026-11-26T14:24:03Z",
+            "subject": "[llvm-ar] fix contradictory comment in tests (#199113)"
+        },
+        {
+            "hash": "c654a311c4a5d33f1558bff19079f5962b4ff704",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-11-26T14:28:45Z",
+            "subject": "[LoongArch] Use INSERT_SUBREG of IMPLICIT_DEF to put an FP scalar in an LSX vector (#242328)"
+        },
+        {
+            "hash": "692ddb5b4cab43701afa5a1ff3f0b060801047b2",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-11-26T14:28:46Z",
+            "subject": "[LoongArch] Use INSERT_SUBREG of IMPLICIT_DEF for scalar FP rounding via LSX. NFC (#242329)"
+        },
+        {
+            "hash": "67bbcfc85a840902eb2cdc94410f1779ce3810d3",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-11-26T14:28:46Z",
+            "subject": "[LoongArch] Use INSERT_SUBREG of IMPLICIT_DEF to put an FP scalar in a LASX vector (#242330)"
+        },
+        {
+            "hash": "8c7494608807236527008e538afbb8017402bbe4",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-11-26T14:28:47Z",
+            "subject": "[LoongArch] Use INSERT_SUBREG of IMPLICIT_DEF to widen LSX vectors to LASX. NFC (#242331)"
+        },
+        {
+            "hash": "ff0a16e9101e0090a2d0bf232f422611a6e025d6",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-11-26T14:28:48Z",
+            "subject": "[LoongArch] Use INSERT_SUBREG for PseudoXVINSGR2VR into an undefined vector. NFC (#242332)"
+        },
+        {
+            "hash": "5be2ef90679374e23d387da8389592fd8f8b774c",
+            "author_name": "Jay Foad",
+            "commit_date": "2026-11-26T14:29:59Z",
+            "subject": "[AMDGPU] Do not overlap dst with srcs for more v_cvt_scale* instructions (#246327)"
+        },
+        {
+            "hash": "a316252eff0a124ae3d6b78e1f85adabef4caf61",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-26T14:31:23Z",
+            "subject": "[AArch64] Restrict sext(sra(sext_inreg)) patterns to in-range shifts (#245198)"
+        },
+        {
+            "hash": "c992997c9200a385343defbf9f10491f3810567f",
+            "author_name": "Paulius Velesko",
+            "commit_date": "2026-11-26T14:32:11Z",
+            "subject": "[LinkerWrapper] Resolve -l the way ld64 does on a MachO host (#216940)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -342589,6 +342643,20 @@
             "author_name": "Florian Hahn",
             "commit_date": "2026-11-26T12:25:53Z",
             "subject": "[SCEV] Compute counts of dominating loops first in deep guard proofs"
+        }
+    ],
+    "nikic\/perf\/scev-use-hash": [
+        {
+            "hash": "967de21fc55c766771db3b9a639dd6bec85fd4ff",
+            "author_name": "Meow",
+            "commit_date": "2026-11-26T14:24:03Z",
+            "subject": "[llvm-ar] fix contradictory comment in tests (#199113)"
+        },
+        {
+            "hash": "3c6845b433e082dad8b29706366c727b64eeb088",
+            "author_name": "Nikita Popov",
+            "commit_date": "2026-11-26T15:27:16+01:00",
+            "subject": "test hash"
         }
     ]
 }
