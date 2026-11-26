@@ -313539,6 +313539,18 @@
             "author_name": "Nikolas Klauser",
             "commit_date": "2026-11-26T15:40:44+01:00",
             "subject": "[libc++] Add benchmarks for throw\/catch (#231000)"
+        },
+        {
+            "hash": "0b8ff8a58f2a2db9879cce3c5973bf8ed5900d6f",
+            "author_name": "Kuba (Brecka) Mracek",
+            "commit_date": "2026-11-26T14:48:48Z",
+            "subject": "[LowerMemIntrinsics] Factor out getBoundedMemSetPrefixSum (NFC) (#246082)"
+        },
+        {
+            "hash": "b81d386eb2f062f875dc40b0f583cbee852fe732",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-11-26T15:53:52+01:00",
+            "subject": "[libc++][RFC] Rewrite CPOs with resolver functions (#209104)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -342675,6 +342687,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-11-26T15:27:16+01:00",
             "subject": "test hash"
+        }
+    ],
+    "llvmbot\/perf\/pr-246392": [
+        {
+            "hash": "207a7ec5362dbec1832e14e5f10a52f49d2e2c1f",
+            "author_name": "Nikolas Klauser",
+            "commit_date": "2026-11-26T15:40:44+01:00",
+            "subject": "[libc++] Add benchmarks for throw\/catch (#231000)"
+        },
+        {
+            "hash": "1edc64475f1f78a97a381cbad269806f4c5642f3",
+            "author_name": "Xazax-hun",
+            "commit_date": "2026-11-26T14:46:56Z",
+            "subject": "[clang][NFC] Store record layout base offsets in SortedVectorMaps (#\u200b246392)"
         }
     ]
 }
