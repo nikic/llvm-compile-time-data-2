@@ -313395,6 +313395,36 @@
             "author_name": "Jaydeep Chauhan",
             "commit_date": "2026-11-26T18:39:35+05:30",
             "subject": "[InstCombine] Fold (X & (Y << Z)) >>u Z --> (X >>u Z) & Y (#243772)"
+        },
+        {
+            "hash": "03534af8bad58cc4461fca3a3e6b139cea46d24c",
+            "author_name": "Victor Campos",
+            "commit_date": "2026-11-26T13:28:15Z",
+            "subject": "[libc] Fix SIMD bool vector <-> bitmask conversion in big endian mode (#245649)"
+        },
+        {
+            "hash": "60a8684d42380cebf46896cb201d1a533b771a38",
+            "author_name": "G\u00e1bor Horv\u00e1th",
+            "commit_date": "2026-11-26T13:29:27Z",
+            "subject": "[analyzer][NFC] Compute callee properties once per CallDescriptionMap lookup (#245630)"
+        },
+        {
+            "hash": "5fd5d84a2141c0e34d63a381c0f48dbc383e56f4",
+            "author_name": "Markus B\u00f6ck",
+            "commit_date": "2026-11-26T13:31:59Z",
+            "subject": "[mlir] Use the default op registration in upstream dialects (#245929)"
+        },
+        {
+            "hash": "724faaf68aa2921d32734560782f1d0e79bcb54e",
+            "author_name": "Ivan Butygin",
+            "commit_date": "2026-11-26T16:34:58+03:00",
+            "subject": "[mlir][DLTI] Reject invalid index bit widths (#246163)"
+        },
+        {
+            "hash": "19ee9cb3feb96fae1c8e4b179aae70e91e96cfe6",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-26T13:36:02Z",
+            "subject": "[SCEV] Avoid re-normalizing use flags when converting SCEVUse (NFC). (#245194)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
