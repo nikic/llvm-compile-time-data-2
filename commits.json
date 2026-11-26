@@ -313209,6 +313209,24 @@
             "author_name": "Felipe de Azevedo Piovezan",
             "commit_date": "2026-11-26T11:06:10Z",
             "subject": "[lldb] Implement GetChildAtIndex in TypeSystemClang, Clike and Fortran (#245937)"
+        },
+        {
+            "hash": "ae1fc04b5df606a612df1df385d8245bfeb4ad63",
+            "author_name": "Kirill Vedernikov",
+            "commit_date": "2026-11-26T12:07:00+01:00",
+            "subject": "[NVVM][NVPTX] Add tcgen05.ld{.red}.spcompress intrinsics (#242037)"
+        },
+        {
+            "hash": "cdf7026ea5e25bf7087516f6d48cef0f150557c0",
+            "author_name": "Raphael Isemann",
+            "commit_date": "2026-11-26T11:11:51Z",
+            "subject": "[lldb][Clike] Don't require TypeSystemClang for TLS lookup (#238953)"
+        },
+        {
+            "hash": "02264403696ff707ac60dbe4e41760f0e5ad72b6",
+            "author_name": "Pengcheng Wang",
+            "commit_date": "2026-11-26T11:11:56Z",
+            "subject": "[RISCV] Limit outer-loop unrolling (#244182)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -342283,6 +342301,20 @@
             "author_name": "Nikita Popov",
             "commit_date": "2026-11-26T09:27:45+01:00",
             "subject": "Run RelLookupTableConverter pre-link"
+        }
+    ],
+    "llvmbot\/perf\/pr-246310": [
+        {
+            "hash": "f5e64908e8d014d3c2004a0c69322833d6efe3e7",
+            "author_name": "Federico Bruzzone",
+            "commit_date": "2026-11-26T12:03:51+01:00",
+            "subject": "[mlir][vector] Bail out on region-masked Xfers in patterns that ignore the mask (#244300)"
+        },
+        {
+            "hash": "6d5bd4cc01f4c7e92a40d5c24e8ee6cdb0b844a7",
+            "author_name": "Xazax-hun",
+            "commit_date": "2026-11-26T11:07:17Z",
+            "subject": "[clang][NFC] Remove padding from some AST nodes (#\u200b246310)"
         }
     ]
 }
