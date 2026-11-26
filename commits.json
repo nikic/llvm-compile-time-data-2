@@ -313323,6 +313323,30 @@
             "author_name": "Graham Hunter",
             "commit_date": "2026-11-26T12:16:30Z",
             "subject": "[CGP] Support nonzero start value for vector lsr (#245979)"
+        },
+        {
+            "hash": "c9357c29869d766b7b480d26dba53b09effb5c80",
+            "author_name": "Felipe de Azevedo Piovezan",
+            "commit_date": "2026-11-26T12:28:27Z",
+            "subject": "[lldb][NFC] Remove redundant zero assignments in TypeSystemClang (#245938)"
+        },
+        {
+            "hash": "d9f0f1b0e332b6e8e786750d475cd374909d4066",
+            "author_name": "JRP-arm",
+            "commit_date": "2026-11-26T12:29:51Z",
+            "subject": "[mlir][OpenMP] Model memory effects of omp.threadprivate (#243080)"
+        },
+        {
+            "hash": "724bad949d6370d62828e1dd26b40c85a07f567e",
+            "author_name": "Alex Zinenko",
+            "commit_date": "2026-11-26T13:31:56+01:00",
+            "subject": "[mlir][affine] Implement RegionBranchOpInterface for affine.parallel (#244678)"
+        },
+        {
+            "hash": "0fc035606e3df7415b616a062e61bb3a933c8118",
+            "author_name": "steven-studio",
+            "commit_date": "2026-11-26T13:36:02+01:00",
+            "subject": "[mlir][llvm] Reject duplicate case values in llvm.switch (#245592)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -342425,6 +342449,20 @@
             "author_name": "shubhxho",
             "commit_date": "2026-11-26T11:50:08Z",
             "subject": "[InstCombine] Check the user limit on push in isOnlyCopiedFromConstantMemory (#\u200b246309)"
+        }
+    ],
+    "fhahn\/perf\/scev-count-order": [
+        {
+            "hash": "f084cfcb6e4874f45e8541d2a4646e7826d1465f",
+            "author_name": "Timm Baeder",
+            "commit_date": "2026-11-26T11:18:43+01:00",
+            "subject": "[clang][bytecode] Fix ambiguous base casts for covariant return types (#242381)"
+        },
+        {
+            "hash": "05c2c8589fe8eeeece24675bdfda861a997fbb61",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-26T12:25:53Z",
+            "subject": "[SCEV] Compute counts of dominating loops first in deep guard proofs"
         }
     ]
 }
