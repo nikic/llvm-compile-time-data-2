@@ -314637,6 +314637,12 @@
             "author_name": "Manuel Carrasco",
             "commit_date": "2026-11-27T18:28:57Z",
             "subject": "[SPIRV] Treat OpUntypedVariableKHR as a function-level variable (#245593)"
+        },
+        {
+            "hash": "06c9aa10c6fafe9d8689beb7f8f902f7b41c74de",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-11-27T18:40:55Z",
+            "subject": "[MC] Replace MCAsmInfo::printSpecifierExpr with func ptr (#246714)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -343817,16 +343823,16 @@
     ],
     "llvmbot\/perf\/pr-246546": [
         {
-            "hash": "2e96c59c8f2bb1079ce0d18d2a0c3da29c8696d8",
-            "author_name": "Zeyi Xu",
-            "commit_date": "2026-11-27T09:48:51+08:00",
-            "subject": "[RISCV] Avoid pairing QCI interrupt hardware-saved registers (#246249)"
+            "hash": "8175905f827aa8c91d77aa8d6995bdbe3ab277d9",
+            "author_name": "Alexey Bader",
+            "commit_date": "2026-11-27T10:12:29-08:00",
+            "subject": "[Offload][NFC] Drop redundant using-directive for offloading::sycl (#246526)"
         },
         {
-            "hash": "d4c8b75bddce250a7aaadf1c344db65107bd1e65",
+            "hash": "9741dd22d295748be6407bddfa82981e69854420",
             "author_name": "kazutakahirata",
-            "commit_date": "2026-11-27T06:45:37Z",
-            "subject": "[InferAlignment] Invalidate non-CFG analyses when IR changes (#\u200b246546)"
+            "commit_date": "2026-11-27T18:41:15Z",
+            "subject": "[InferAlignment] Invalidate affected analyses when IR changes (#\u200b246546)"
         }
     ],
     "llvmbot\/perf\/pr-246605": [
