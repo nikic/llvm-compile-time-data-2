@@ -314265,6 +314265,24 @@
             "author_name": "Kathleen Banawa",
             "commit_date": "2026-11-27T10:42:48Z",
             "subject": "[mlir][tosa] Support CONV2D and CONV3D with EXT-DYNAMIC in tosa-to-linalg-named (#243377)"
+        },
+        {
+            "hash": "db110d35c61ed2deeaba9711b806509bba302112",
+            "author_name": "Kai Nacke",
+            "commit_date": "2026-11-27T10:49:58Z",
+            "subject": "[SystemZ] Enable update_llc_test_checks.py for HLASM on z\/OS (#246417)"
+        },
+        {
+            "hash": "ab30b27366117a0d068e062965cb1205f0b93b15",
+            "author_name": "Harrison Hao",
+            "commit_date": "2026-11-27T18:53:15+08:00",
+            "subject": "[AMDGPU] Remove R600 usage from llvm tests. NFC (#245924)"
+        },
+        {
+            "hash": "778c3b9439a2fa8ec0294834de3bf87c284856d3",
+            "author_name": "forking-google-bazel-bot[bot]",
+            "commit_date": "2026-11-27T11:56:59+01:00",
+            "subject": "[Bazel] Fixes 2aa4e0c (#246607)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -343455,6 +343473,20 @@
             "author_name": "kazutakahirata",
             "commit_date": "2026-11-27T06:45:37Z",
             "subject": "[InferAlignment] Invalidate non-CFG analyses when IR changes (#\u200b246546)"
+        }
+    ],
+    "llvmbot\/perf\/pr-246605": [
+        {
+            "hash": "db12fc36f6cba426179bc6a723228fad898dcdc1",
+            "author_name": "Pawan Nirpal",
+            "commit_date": "2026-11-27T15:47:33+05:30",
+            "subject": "[ARM][ConstantIslands] Fix CloserWater heuristic to resolve convergence failure in large functions.  (#245139)"
+        },
+        {
+            "hash": "cca6bd4058e1a99ebe3ad6cd69506b8dacc501d1",
+            "author_name": "aengelke",
+            "commit_date": "2026-11-27T10:52:58Z",
+            "subject": "[Analysis][NFC] Use EnumStrings for VecFuncs (#\u200b246605)"
         }
     ]
 }
