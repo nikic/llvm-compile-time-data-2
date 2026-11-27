@@ -343353,16 +343353,28 @@
     ],
     "fhahn\/perf\/scev-count-order": [
         {
-            "hash": "f084cfcb6e4874f45e8541d2a4646e7826d1465f",
-            "author_name": "Timm Baeder",
-            "commit_date": "2026-11-26T11:18:43+01:00",
-            "subject": "[clang][bytecode] Fix ambiguous base casts for covariant return types (#242381)"
+            "hash": "8b7bb588e75971aebe21785c5ade4abbedb25a8f",
+            "author_name": "Jan Patrick Lehr",
+            "commit_date": "2026-11-27T10:45:36+01:00",
+            "subject": "[OpenMP][omptest] Add LIBOMPTEST_USE_SYSTEM_GTEST (#242312)"
         },
         {
-            "hash": "05c2c8589fe8eeeece24675bdfda861a997fbb61",
+            "hash": "e65d6a5e7726bb26dbda1f137f90f0e3168f69c6",
             "author_name": "Florian Hahn",
-            "commit_date": "2026-11-26T12:25:53Z",
-            "subject": "[SCEV] Compute counts of dominating loops first in deep guard proofs"
+            "commit_date": "2026-11-27T09:51:40Z",
+            "subject": "[SCEV] Compute BTCs of dominating loops first when deeply nested."
+        },
+        {
+            "hash": "ef762a6d02fe169c8182549aa759e1b0d5023f69",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-27T09:52:09Z",
+            "subject": "Limit 4"
+        },
+        {
+            "hash": "d8b6f4590027d455bf13746f3498f325808b81d8",
+            "author_name": "Florian Hahn",
+            "commit_date": "2026-11-27T09:53:37Z",
+            "subject": "no limit"
         }
     ],
     "nikic\/perf\/scev-use-hash": [
