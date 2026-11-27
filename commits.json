@@ -314553,6 +314553,18 @@
             "author_name": "Ivan Kosarev",
             "commit_date": "2026-11-27T17:02:14Z",
             "subject": "[AMDGPU][NFC] Remove unused operand defs (#246643)"
+        },
+        {
+            "hash": "35675f3bb2c5c4b855702dae50379f493f2b0d80",
+            "author_name": "Luke Hutton",
+            "commit_date": "2026-11-27T17:12:04Z",
+            "subject": "[mlir][tosa] Require unsigned attribute to be set for unsigned types (#245666)"
+        },
+        {
+            "hash": "23b7c75f9f8d6f23deea87ffbb6c587908a10130",
+            "author_name": "Alexis Engelke",
+            "commit_date": "2026-11-27T17:12:37Z",
+            "subject": "[ARM] Never use symbolic register names in .cfi directives for old binutils (#246661)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -343771,6 +343783,20 @@
             "author_name": "ilyas-mallah",
             "commit_date": "2026-11-27T13:06:15Z",
             "subject": "[clang][-Wunsafe-buffer-usage] Cache the analysis gate per diagnostic state (#\u200b240433)"
+        }
+    ],
+    "llvmbot\/perf\/pr-246529": [
+        {
+            "hash": "66430c47969e77c05683b7e07b1ac9134a69cc65",
+            "author_name": "cs24btech11038",
+            "commit_date": "2026-11-27T11:46:03Z",
+            "subject": "[UTC] Handle x86 vectorcall labels on Win32 (#235424)"
+        },
+        {
+            "hash": "ac204318f40f6721104d20ad702597418fda75fb",
+            "author_name": "MaskRay",
+            "commit_date": "2026-11-27T17:14:34Z",
+            "subject": "X86MCCodeEmitter: Reduce per-instruction overhead. NFC (#\u200b246529)"
         }
     ]
 }
