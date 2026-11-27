@@ -314379,6 +314379,18 @@
             "author_name": "Simon Pilgrim",
             "commit_date": "2026-11-27T13:01:50Z",
             "subject": "[X86] SimplifyMultipleUseDemandedBitsForTargetNode - skip unnecessary (VSRLI (VSHLI X, C1), C1) ZERO_EXTEND_INREG patterns (#246639)"
+        },
+        {
+            "hash": "7bcdf0a78c1ec663dff64dedc421fd0823002005",
+            "author_name": "Henrich Lauko",
+            "commit_date": "2026-11-27T14:09:22+01:00",
+            "subject": "[CIR] Use one check for ignorable FP exceptions (#245985)"
+        },
+        {
+            "hash": "87a9299d09d9eed3c6f2c3d652b231ae208b8a13",
+            "author_name": "Aayush",
+            "commit_date": "2026-11-27T13:10:50Z",
+            "subject": "[Hexagon] Declare command line options in TableGen  (#241871)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -343583,6 +343595,20 @@
             "author_name": "aengelke",
             "commit_date": "2026-11-27T10:52:58Z",
             "subject": "[Analysis][NFC] Use EnumStrings for VecFuncs (#\u200b246605)"
+        }
+    ],
+    "llvmbot\/perf\/pr-240433": [
+        {
+            "hash": "3f679c2a42e1a018b4539bb81e31529deb4ce647",
+            "author_name": "Brad Smith",
+            "commit_date": "2026-11-27T02:46:32-05:00",
+            "subject": "[Mips] Fix the MIPS I %lo offset fold for loads and stores (#245716)"
+        },
+        {
+            "hash": "dad92a8d0c3890de680d4e188028924af15e1e51",
+            "author_name": "ilyas-mallah",
+            "commit_date": "2026-11-27T13:06:15Z",
+            "subject": "[clang][-Wunsafe-buffer-usage] Cache the analysis gate per diagnostic state (#\u200b240433)"
         }
     ]
 }
