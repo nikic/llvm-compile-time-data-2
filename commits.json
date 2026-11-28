@@ -314955,6 +314955,24 @@
             "author_name": "Raul Tambre",
             "commit_date": "2026-11-28T18:17:37+02:00",
             "subject": "[cmake][compiler-rt] Fix dependency names after CMake workaround removal (#246862)"
+        },
+        {
+            "hash": "b1398714877d26fe6565ae9528979e328bc1de7e",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-11-28T09:14:27-08:00",
+            "subject": "[llvm-exegesis] Update ValidationCounters for IceLake+ (#246791)"
+        },
+        {
+            "hash": "404ffa1d32802f0c0ecf3318894d0d25cb765e84",
+            "author_name": "Aiden Grossman",
+            "commit_date": "2026-11-28T09:15:11-08:00",
+            "subject": "[llvm-exegesis] Correct uops counters for znver4 (#246793)"
+        },
+        {
+            "hash": "ca322a58dde15d70b7fad7a4c98356ed63286e99",
+            "author_name": "Fangrui Song",
+            "commit_date": "2026-11-28T09:17:54-08:00",
+            "subject": "[clang-ssaf-src-edit-merge] Switch to OptTable (#246763)"
         }
     ],
     "aengelke\/perf\/ooldestr": [
@@ -344201,6 +344219,20 @@
             "author_name": "kazutakahirata",
             "commit_date": "2026-11-27T21:25:49Z",
             "subject": "[BasicAA] Add fast path for constant-offset i8 GEPs (NFC) (#\u200b246754)"
+        }
+    ],
+    "llvmbot\/perf\/pr-246866": [
+        {
+            "hash": "fa96d7affdc201eec1052aa83783bd59259b19ea",
+            "author_name": "Raul Tambre",
+            "commit_date": "2026-11-28T18:17:37+02:00",
+            "subject": "[cmake][compiler-rt] Fix dependency names after CMake workaround removal (#246862)"
+        },
+        {
+            "hash": "356d0feca4e7ef10f762d3c90d6784ef94fa564f",
+            "author_name": "steakhal",
+            "commit_date": "2026-11-28T17:14:23Z",
+            "subject": "[analyzer][NFC] Use llvm::any_of in small checker loops (#\u200b246866)"
         }
     ]
 }
